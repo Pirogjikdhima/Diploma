@@ -1,0 +1,344 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Kriza politike po e çon Maqedoninë drejt luftës civile”
+# sent_id = 1
+1	Kriza	krizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1|end_char=6
+2	politike	politik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=15
+3	po	po	PART	_	_	5	mark	_	start_char=16|end_char=18
+4	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=19|end_char=20
+5	çon	çoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=21|end_char=24
+6	Maqedoninë	Maqedoni	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=25|end_char=35
+7	drejt	drejt	ADP	_	Case=Abl	8	case	_	start_char=36|end_char=41
+8	luftës	luftë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=42|end_char=48
+9	civile	civil	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs	8	amod:nummod	_	start_char=49|end_char=55|SpaceAfter=No
+10	”	"	PUNCT	_	_	5	punct	_	start_char=55|end_char=56|SpacesAfter=\n
+
+# text = Nëse nuk ka një dialog pa kushte të qeverisë me opozitën, Maqedonia do të pësojë një katastrofë kombëtare.
+# sent_id = 2
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=57|end_char=61
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=62|end_char=65
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advcl	_	start_char=66|end_char=68
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=69|end_char=72
+5	dialog	dialog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=73|end_char=79
+6	pa	pa	ADP	_	Case=Acc	7	case	_	start_char=80|end_char=82
+7	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=83|end_char=89
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=90|end_char=92
+9	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=93|end_char=101
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=102|end_char=104
+11	opozitën	opozitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=105|end_char=113|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=113|end_char=114
+13	Maqedonia	Maqedoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=115|end_char=124
+14	do	do	PART	_	_	16	fixed	_	start_char=125|end_char=127
+15	të	të	PART	_	_	16	fixed	_	start_char=128|end_char=130
+16	pësojë	pësoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=131|end_char=137
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=138|end_char=141
+18	katastrofë	katastrofë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=142|end_char=152
+19	kombëtare	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=153|end_char=162|SpaceAfter=No
+20	.	.	PUNCT	_	_	16	punct	_	start_char=162|end_char=163
+
+# text = Për më tepër, ky shtet edhe mund të ndahet, duke mbetur pa pjesën shqiptare, ka thënë eksperti i çështjeve të kësaj pjesë të botës, Franz-Lothar Altmann.
+# sent_id = 3
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=164|end_char=167
+2	më	më	PART	_	_	3	mark	_	start_char=168|end_char=170
+3	tepër	tepër	ADV	_	AdvType=Deg	19	advmod	_	start_char=171|end_char=176|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=176|end_char=177
+5	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=178|end_char=180
+6	shtet	shtet	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=181|end_char=186
+7	edhe	edhe	PART	_	_	10	cc	_	start_char=187|end_char=191
+8	mund	mund	AUX	_	_	10	aux	_	start_char=192|end_char=196
+9	të	të	PART	_	_	10	fixed	_	start_char=197|end_char=199
+10	ndahet	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=200|end_char=206|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=206|end_char=207
+12	duke	duke	PART	_	_	13	fixed	_	start_char=208|end_char=212
+13	mbetur	mbes	VERB	_	VerbForm=Part	19	advmod	_	start_char=213|end_char=219
+14	pa	pa	ADP	_	Case=Acc	15	case	_	start_char=220|end_char=222
+15	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=223|end_char=229
+16	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=230|end_char=239|SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	start_char=239|end_char=240
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=241|end_char=243
+19	thënë	them	VERB	_	VerbForm=Part	10	conj	_	start_char=244|end_char=249
+20	eksperti	ekspert	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=250|end_char=258
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=259|end_char=260
+22	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=261|end_char=270
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=271|end_char=273
+24	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=274|end_char=279
+25	pjesë	pjesë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=280|end_char=285
+26	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=286|end_char=288
+27	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=289|end_char=294|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=294|end_char=295
+29	Franz-Lothar	Franz-Lothar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	27	appos	_	start_char=296|end_char=308
+30	Altmann	Altman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=309|end_char=316|SpaceAfter=No
+31	.	.	PUNCT	_	_	19	punct	_	start_char=316|end_char=317
+
+# text = Kriza politike që ka përfshirë Maqedoninë, mund ta shpjerë vendin në luftë civile, ka thënë eksperti i çështjeve të Evropës Lindore, Altmann.
+# sent_id = 4
+1	Kriza	krizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=318|end_char=323
+2	politike	politik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=324|end_char=332
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=333|end_char=335
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=336|end_char=338
+5	përfshirë	përfshij	VERB	_	VerbForm=Part	1	acl:relcl	_	start_char=339|end_char=348
+6	Maqedoninë	Maqedoni	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=349|end_char=359|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	start_char=359|end_char=360
+8	mund	mund	AUX	_	_	11	aux	_	start_char=361|end_char=365
+9-10	ta	_	_	_	_	_	_	_	start_char=366|end_char=368
+9	të	të	PART	_	_	11	fixed	_	_
+10	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	shpjerë	shpjer	VERB	_	VerbForm=Part	0	root	_	start_char=369|end_char=376
+12	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=377|end_char=383
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=384|end_char=386
+14	luftë	luftë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=387|end_char=392
+15	civile	civil	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=393|end_char=399|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=399|end_char=400
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=401|end_char=403
+18	thënë	them	VERB	_	VerbForm=Part	11	conj	_	start_char=404|end_char=409
+19	eksperti	ekspert	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=410|end_char=418
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=419|end_char=420
+21	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=421|end_char=430
+22	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=431|end_char=433
+23	Evropës	Evropë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=434|end_char=441
+24	Lindore	Lindor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=442|end_char=449|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	start_char=449|end_char=450
+26	Altmann	Altman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	appos	_	start_char=451|end_char=458|SpaceAfter=No
+27	.	.	PUNCT	_	_	18	punct	_	start_char=458|end_char=459|SpacesAfter=\n
+
+# text = Në një intervistë për Deutsche Welle, ai deklaroi se përkeqësimi i situatës e rrit frikën se gjërat mund të dalin krejtësisht jashtë kontrollit, duke shkaktuar pasoja të rënda jo vetëm për Maqedoninë, por edhe për vendet e rajonit, transmeton Klan Kosova.
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=460|end_char=462
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=463|end_char=466
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=467|end_char=477
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=478|end_char=481
+5	Deutsche	Deutsche	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=482|end_char=490
+6	Welle	Well	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	start_char=491|end_char=496|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=496|end_char=497
+8	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=498|end_char=500
+9	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=501|end_char=509
+10	se	se	SCONJ	_	_	15	mark	_	start_char=510|end_char=512
+11	përkeqësimi	përkeqësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=513|end_char=524
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=525|end_char=526
+13	situatës	situatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=527|end_char=535
+14	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	cc	_	start_char=536|end_char=537
+15	rrit	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	start_char=538|end_char=542
+16	frikën	frikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=543|end_char=549
+17	se	se	SCONJ	_	_	21	mark	_	start_char=550|end_char=552
+18	gjërat	gjërat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	nsubj	_	start_char=553|end_char=559
+19	mund	mund	AUX	_	_	21	aux	_	start_char=560|end_char=564
+20	të	të	PART	_	_	21	fixed	_	start_char=565|end_char=567
+21	dalin	dal	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	advcl	_	start_char=568|end_char=573
+22	krejtësisht	krejtësisht	ADV	_	AdvType=Man	21	advmod	_	start_char=574|end_char=585
+23	jashtë	jashtë	ADP	_	Case=Abl	24	case	_	start_char=586|end_char=592
+24	kontrollit	kontroll	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	start_char=593|end_char=603|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	start_char=603|end_char=604
+26	duke	duke	PART	_	_	27	fixed	_	start_char=605|end_char=609
+27	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	21	advmod	_	start_char=610|end_char=619
+28	pasoja	pasojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obj	_	start_char=620|end_char=626
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=627|end_char=629
+30	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=630|end_char=635
+31	jo	jo	PART	_	_	32	fixed	_	start_char=636|end_char=638
+32	vetëm	vetëm	PART	_	_	34	mark	_	start_char=639|end_char=644
+33	për	për	ADP	_	Case=Acc	34	case	_	start_char=645|end_char=648
+34	Maqedoninë	Maqedoni	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	advmod	_	start_char=649|end_char=659|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	start_char=659|end_char=660
+36	por	por	CCONJ	_	_	39	cc	_	start_char=661|end_char=664
+37	edhe	edhe	CCONJ	_	_	39	mark	_	start_char=665|end_char=669
+38	për	për	ADP	_	Case=Acc	39	case	_	start_char=670|end_char=673
+39	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	34	conj	_	start_char=674|end_char=680
+40	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	41	det:poss	_	start_char=681|end_char=682
+41	rajonit	rajon	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	start_char=683|end_char=690|SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	start_char=690|end_char=691
+43	transmeton	transmetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	acl:relcl	_	start_char=692|end_char=702
+44	Klan	Klan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	flat:name	_	start_char=703|end_char=707
+45	Kosova	Kosovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	43	obj	_	start_char=708|end_char=714|SpaceAfter=No
+46	.	.	PUNCT	_	_	43	punct	_	start_char=714|end_char=715|SpacesAfter=\n
+
+# text = Altmann ka thënë se në një gjendje si kjo aktualja, forcat ekstremiste nga radhët e shqiptarëve mund të ndihen të inkurajuara për të ndërmarrë aksione tjera terroriste, në mënyrë që ta destabilizojnë edhe më tepër vendin, duke lënë mundësi të mira për kolaps total të shtetit dhe ndarjen e pjesës shqiptare, si një rezultat përfundimtar.
+# sent_id = 6
+1	Altmann	Altman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=716|end_char=723
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=724|end_char=726
+3	thënë	them	VERB	_	VerbForm=Part	0	root	_	start_char=727|end_char=732
+4	se	se	SCONJ	_	_	3	mark	_	start_char=733|end_char=735
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=736|end_char=738
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=739|end_char=742
+7	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=743|end_char=750
+8	si	si	SCONJ	_	_	10	mark	_	start_char=751|end_char=753
+9	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=754|end_char=757
+10	aktualja	aktualje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=758|end_char=766|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=766|end_char=767
+12	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	appos	_	start_char=768|end_char=774
+13	ekstremiste	ekstremist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=775|end_char=786
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=787|end_char=790
+15	radhët	radhë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	advmod	_	start_char=791|end_char=797
+16	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det:poss	_	start_char=798|end_char=799
+17	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=800|end_char=811
+18	mund	mund	AUX	_	_	20	aux	_	start_char=812|end_char=816
+19	të	të	PART	_	_	20	fixed	_	start_char=817|end_char=819
+20	ndihen	ndjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=820|end_char=826
+21	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=827|end_char=829
+22	inkurajuara	inkurajuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	cop	_	start_char=830|end_char=841
+23	për	për	PART	_	_	25	fixed	_	start_char=842|end_char=845
+24	të	të	PART	_	_	25	fixed	_	start_char=846|end_char=848
+25	ndërmarrë	ndërmarr	VERB	_	VerbForm=Part	20	advmod	_	start_char=849|end_char=858
+26	aksione	aksion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obj	_	start_char=859|end_char=866
+27	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	26	amod	_	start_char=867|end_char=872
+28	terroriste	terrorist	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=873|end_char=883|SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	start_char=883|end_char=884
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=885|end_char=887
+31	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=888|end_char=894
+32	që	që	SCONJ	_	_	35	mark	_	start_char=895|end_char=897
+33-34	ta	_	_	_	_	_	_	_	start_char=898|end_char=900
+33	të	të	PART	_	_	35	fixed	_	_
+34	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	destabilizojnë	destabilizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	acl:relcl	_	start_char=901|end_char=915
+36	edhe	edhe	PART	_	_	38	mark	_	start_char=916|end_char=920
+37	më	më	PART	_	_	38	advmod	_	start_char=921|end_char=923
+38	tepër	tepër	ADV	_	AdvType=Deg	35	advmod	_	start_char=924|end_char=929
+39	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=930|end_char=936|SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	start_char=936|end_char=937
+41	duke	duke	PART	_	_	42	fixed	_	start_char=938|end_char=942
+42	lënë	lë	VERB	_	VerbForm=Part	35	advmod	_	start_char=943|end_char=947
+43	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	42	obj	_	start_char=948|end_char=955
+44	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	45	det	_	start_char=956|end_char=958
+45	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	43	amod	_	start_char=959|end_char=963
+46	për	për	ADP	_	Case=Acc	47	case	_	start_char=964|end_char=967
+47	kolaps	kolap	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	42	advmod	_	start_char=968|end_char=974
+48	total	total	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	47	nmod	_	start_char=975|end_char=980
+49	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	50	det:poss	_	start_char=981|end_char=983
+50	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	48	nmod	_	start_char=984|end_char=991
+51	dhe	dhe	CCONJ	_	_	52	cc	_	start_char=992|end_char=995
+52	ndarjen	ndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	48	conj	_	start_char=996|end_char=1003
+53	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	54	det:poss	_	start_char=1004|end_char=1005
+54	pjesës	pjesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	52	nmod	_	start_char=1006|end_char=1012
+55	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	54	amod	_	start_char=1013|end_char=1022|SpaceAfter=No
+56	,	,	PUNCT	_	_	59	punct	_	start_char=1022|end_char=1023
+57	si	si	SCONJ	_	_	59	mark	_	start_char=1024|end_char=1026
+58	një	një	DET	_	Definite=Ind	59	det	_	start_char=1027|end_char=1030
+59	rezultat	rezultat	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	52	nmod	_	start_char=1031|end_char=1039
+60	përfundimtar	përfundimtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	59	amod	_	start_char=1040|end_char=1052|SpaceAfter=No
+61	.	.	PUNCT	_	_	52	punct	_	start_char=1052|end_char=1053|SpacesAfter=\n
+
+# text = Ai ka bërë thirrje te ndërkombëtarët të ndërhyjnë në mënyrë që të shpëtohet ajo që ka mbetur për t’u shpëtuar.
+# sent_id = 7
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1054|end_char=1056
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=1057|end_char=1059
+3	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=1060|end_char=1064
+4	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=1065|end_char=1072
+5	te	te	ADP	_	Case=Nom	6	case	_	start_char=1073|end_char=1075
+6	ndërkombëtarët	ndërkombëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obl	_	start_char=1076|end_char=1090
+7	të	të	PART	_	_	8	fixed	_	start_char=1091|end_char=1093
+8	ndërhyjnë	ndërhyj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	advmod	_	start_char=1094|end_char=1103
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=1104|end_char=1106
+10	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=1107|end_char=1113
+11	që	që	SCONJ	_	_	13	mark	_	start_char=1114|end_char=1116
+12	të	të	PART	_	_	13	fixed	_	start_char=1117|end_char=1119
+13	shpëtohet	shpëtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	advcl	_	start_char=1120|end_char=1129
+14	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=1130|end_char=1133
+15	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=1134|end_char=1136
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=1137|end_char=1139
+17	mbetur	mbes	VERB	_	VerbForm=Part	13	advcl	_	start_char=1140|end_char=1146
+18	për	për	PART	_	_	21	fixed	_	start_char=1147|end_char=1150
+19-20	t’u	_	_	_	_	_	_	_	start_char=1151|end_char=1154
+19	të	të	PART	_	_	21	fixed	_	_
+20	u	u	PART	_	_	21	fixed	_	_
+21	shpëtuar	shpëtoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=1155|end_char=1163|SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	start_char=1163|end_char=1164|SpacesAfter=\n
+
+# text = “BE-ja dhe në veçanti Gjermania, e cila ka ndikim të madh si një krijues i paqes në rajon, me simpatinë e shprehur fuqishëm për këtë vend, duhet urgjentisht t’i kërkojnë qeverisë në Shkup të takohet pa kushte me opozitën.
+# sent_id = 8
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1165|end_char=1166|SpaceAfter=No
+2	BE-ja	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1166|end_char=1171
+3	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=1172|end_char=1175
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1176|end_char=1178
+5	veçanti	veçant	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	start_char=1179|end_char=1186
+6	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=1187|end_char=1196|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=1196|end_char=1197
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1198|end_char=1199
+9	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	start_char=1200|end_char=1204
+10	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=1205|end_char=1207
+11	ndikim	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=1208|end_char=1214
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1215|end_char=1217
+13	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1218|end_char=1222
+14	si	si	SCONJ	_	_	16	mark	_	start_char=1223|end_char=1225
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=1226|end_char=1229
+16	krijues	krijues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=1230|end_char=1237
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=1238|end_char=1239
+18	paqes	paqes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=1240|end_char=1245
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=1246|end_char=1248
+20	rajon	rajo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=1249|end_char=1254|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=1254|end_char=1255
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=1256|end_char=1258
+23	simpatinë	simpatinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	list	_	start_char=1259|end_char=1268
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=1269|end_char=1270
+25	shprehur	shpreh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1271|end_char=1279
+26	fuqishëm	fuqishëm	ADV	_	AdvType=Man	23	amod	_	start_char=1280|end_char=1288
+27	për	për	ADP	_	Case=Acc	29	case	_	start_char=1289|end_char=1292
+28	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=1293|end_char=1297
+29	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=1298|end_char=1302|SpaceAfter=No
+30	,	,	PUNCT	_	_	34	punct	_	start_char=1302|end_char=1303
+31	duhet	duhem	AUX	_	_	34	aux	_	start_char=1304|end_char=1309
+32	urgjentisht	urgjentisht	ADV	_	AdvType=Man	34	advmod	_	start_char=1310|end_char=1321
+33	t’i	t’i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	start_char=1322|end_char=1325
+34	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	acl:relcl	_	start_char=1326|end_char=1334
+35	qeverisë	qeveri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	34	obj	_	start_char=1335|end_char=1343
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=1344|end_char=1346
+37	Shkup	Shkup	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	obl	_	start_char=1347|end_char=1352
+38	të	të	PART	_	_	39	fixed	_	start_char=1353|end_char=1355
+39	takohet	takoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	34	advmod	_	start_char=1356|end_char=1363
+40	pa	pa	ADP	_	Case=Acc	41	case	_	start_char=1364|end_char=1366
+41	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	39	obl	_	start_char=1367|end_char=1373
+42	me	me	ADP	_	Case=Acc	43	case	_	start_char=1374|end_char=1376
+43	opozitën	opozitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	39	obl	_	start_char=1377|end_char=1385|SpaceAfter=No
+44	.	.	PUNCT	_	_	34	punct	_	start_char=1385|end_char=1386
+
+# text = Në të kundërtën, demokracia e Maqedonisë, e dobët siç është tashti, do të përfundojë në një katastrofë kombëtare e shtetërore”, ka thënë ai për DW.
+# sent_id = 9
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=1387|end_char=1389
+2	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1390|end_char=1392
+3	kundërtën	kundërtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=1393|end_char=1402|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=1402|end_char=1403
+5	demokracia	demokraci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	list	_	start_char=1404|end_char=1414
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=1415|end_char=1416
+7	Maqedonisë	Maqedoni	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=1417|end_char=1427|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1427|end_char=1428
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1429|end_char=1430
+10	dobët	dobët	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1431|end_char=1436
+11	siç	siç	SCONJ	_	_	12	mark	_	start_char=1437|end_char=1440
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1441|end_char=1446
+13	tashti	tashti	ADV	_	AdvType=Deg	12	advmod	_	start_char=1447|end_char=1453|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	start_char=1453|end_char=1454
+15	do	do	PART	_	_	17	fixed	_	start_char=1455|end_char=1457
+16	të	të	PART	_	_	17	fixed	_	start_char=1458|end_char=1460
+17	përfundojë	përfundoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=1461|end_char=1471
+18	në	në	ADP	_	Case=Acc	20	case	_	start_char=1472|end_char=1474
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=1475|end_char=1478
+20	katastrofë	katastrofë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=1479|end_char=1489
+21	kombëtare	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1490|end_char=1499
+22	e	e	CCONJ	_	_	23	cc	_	start_char=1500|end_char=1501
+23	shtetërore”	shtetëror	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	conj	_	start_char=1502|end_char=1513|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	start_char=1513|end_char=1514
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=1515|end_char=1517
+26	thënë	them	VERB	_	VerbForm=Part	17	conj	_	start_char=1518|end_char=1523
+27	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=1524|end_char=1526
+28	për	për	ADP	_	Case=Acc	29	case	_	start_char=1527|end_char=1530
+29	DW	dw	NUM	_	NumType=Card	26	obl	_	start_char=1531|end_char=1533|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=1533|end_char=1534
+
+# text = (INA) NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 10
+1	(	(	PUNCT	_	_	2	punct	_	start_char=1535|end_char=1536|SpaceAfter=No
+2	INA)	INA)	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1536|end_char=1540|SpacesAfter=\n
+3	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	det	_	start_char=1541|end_char=1543
+4	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=1544|end_char=1554|SpaceAfter=No
+5	:	:	PUNCT	_	_	6	punct	_	start_char=1554|end_char=1555|SpacesAfter=\n
+6	+355	+355	NUM	_	NumType=Card	4	flat	_	start_char=1556|end_char=1560
+7	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1561|end_char=1563
+8	608	608	NUM	_	NumType=Card	6	conj	_	start_char=1564|end_char=1567
+9	0290	0290	NUM	_	NumType=Card	8	conj	_	start_char=1568|end_char=1572|SpacesAfter=\n
+10	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=1573|end_char=1591|SpacesAfter=\n
+11	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	start_char=1592|end_char=1601
+12	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1602|end_char=1614
+13	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	12	flat	_	start_char=1615|end_char=1621|SpacesAfter=\n
+14	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=1622|end_char=1631
+15	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=1632|end_char=1644
+16	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	parataxis	_	start_char=1645|end_char=1652|SpacesAfter=\n\n\n
+

@@ -1,0 +1,440 @@
+# text = Mario Draghi:
+# sent_id = 0
+1	Mario	Mario	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
+2	Draghi	Dragh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=12|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=12|end_char=13
+
+# text = Europa pas virusit do të jetë si Europa e pas Luftës së II Botërore.
+# sent_id = 1
+1	Europa	Europë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=14|end_char=20
+2	pas	pas	ADP	_	Case=Abl	3	case	_	start_char=21|end_char=24
+3	virusit	virus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=25|end_char=32
+4	do	do	PART	_	_	6	fixed	_	start_char=33|end_char=35
+5	të	të	PART	_	_	6	fixed	_	start_char=36|end_char=38
+6	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=43
+7	si	si	SCONJ	_	_	8	mark	_	start_char=44|end_char=46
+8	Europa	Europë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=47|end_char=53
+9	e	e	CCONJ	_	_	11	cc	_	start_char=54|end_char=55
+10	pas	pas	ADP	_	Case=Abl	11	case	_	start_char=56|end_char=59
+11	Luftës	luftë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=60|end_char=66
+12	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=67|end_char=69
+13	II	II	NUM	_	NumType=Card	11	amod:poss	_	start_char=70|end_char=72
+14	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=73|end_char=81|SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	start_char=81|end_char=82
+
+# text = Brezi i ri do të paguajë borxhin!
+# sent_id = 2
+1	Brezi	brez	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=83|end_char=88
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=89|end_char=90
+3	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=91|end_char=93
+4	do	do	PART	_	_	6	fixed	_	start_char=94|end_char=96
+5	të	të	PART	_	_	6	fixed	_	start_char=97|end_char=99
+6	paguajë	paguaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=100|end_char=107
+7	borxhin	borxh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=108|end_char=115|SpaceAfter=No
+8	!	!	PUNCT	_	_	6	punct	_	start_char=115|end_char=116|SpacesAfter=\n
+
+# text = Për krizën që vjen pas fundit të Pandemisë të Coronavirus-it dhe për atë sesa ristrukturimi i Europës do të ngjajë me atë të pas Luftës së II Botërore, ka folur sot ish-Presidenti i Bankës Qëndrore Europiane.
+# sent_id = 3
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=117|end_char=120
+2	krizën	krizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	advmod	_	start_char=121|end_char=127
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=128|end_char=130
+4	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=131|end_char=135
+5	pas	pas	ADP	_	Case=Abl	6	case	_	start_char=136|end_char=139
+6	fundit	fundit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=140|end_char=146
+7	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=147|end_char=149
+8	Pandemisë	pandemi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=150|end_char=159
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=160|end_char=162
+10	Coronavirus-it	Coronaviru--	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=163|end_char=177
+11	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=178|end_char=181
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=182|end_char=185
+13	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=186|end_char=189
+14	sesa	sesa	SCONJ	_	_	15	mark	_	start_char=190|end_char=194
+15	ristrukturimi	ristrukturim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	advmod	_	start_char=195|end_char=208
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=209|end_char=210
+17	Europës	Europë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=211|end_char=218
+18	do	do	PART	_	_	20	fixed	_	start_char=219|end_char=221
+19	të	të	PART	_	_	20	fixed	_	start_char=222|end_char=224
+20	ngjajë	ngjaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=225|end_char=231
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=232|end_char=234
+22	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	20	obl	_	start_char=235|end_char=238
+23	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=239|end_char=241
+24	pas	pas	ADP	_	Case=Abl	25	case	_	start_char=242|end_char=245
+25	Luftës	luftë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	start_char=246|end_char=252
+26	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=253|end_char=255
+27	II	II	NUM	_	NumType=Card	25	amod:poss	_	start_char=256|end_char=258
+28	Botërore	botëror	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=259|end_char=267|SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	start_char=267|end_char=268
+30	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=269|end_char=271
+31	folur	flas	VERB	_	VerbForm=Part	20	conj	_	start_char=272|end_char=277
+32	sot	sot	ADV	_	AdvType=Tim	31	advmod	_	start_char=278|end_char=281
+33	ish-Presidenti	ish-President	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=282|end_char=296
+34	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=297|end_char=298
+35	Bankës	Bankë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=299|end_char=305
+36	Qëndrore	qëndror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=306|end_char=314
+37	Europiane	Europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=315|end_char=324|SpaceAfter=No
+38	.	.	PUNCT	_	_	31	punct	_	start_char=324|end_char=325|SpacesAfter=\n
+
+# text = Mario Draghi në një leksion dhënë në Rimini të Italisë i mëshoi faktit se borxhi i krijuar nga masat shtërnguese dhe nga ‘lockdown’ do të paguhet nga brezi i ri.
+# sent_id = 4
+1	Mario	Mario	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=326|end_char=331
+2	Draghi	Dragh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=332|end_char=338
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=339|end_char=341
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=342|end_char=345
+5	leksion	leksio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=346|end_char=353
+6	dhënë	jap	VERB	_	VerbForm=Part	0	root	_	start_char=354|end_char=359
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=360|end_char=362
+8	Rimini	Rimini	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=363|end_char=369
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=370|end_char=372
+10	Italisë	Itali	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=373|end_char=380
+11	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	start_char=381|end_char=382
+12	mëshoi	mëshoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=383|end_char=389
+13	faktit	fakt	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=390|end_char=396
+14	se	se	SCONJ	_	_	15	mark	_	start_char=397|end_char=399
+15	borxhi	borxh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=400|end_char=406
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=407|end_char=408
+17	krijuar	krijoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=409|end_char=416
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=417|end_char=420
+19	masat	masat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=421|end_char=426
+20	shtërnguese	shtërngues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=427|end_char=438
+21	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=439|end_char=442
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=443|end_char=446
+23	‘lockdown’	‘lockdown’	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=447|end_char=457
+24	do	do	PART	_	_	26	fixed	_	start_char=458|end_char=460
+25	të	të	PART	_	_	26	fixed	_	start_char=461|end_char=463
+26	paguhet	paguhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	conj	_	start_char=464|end_char=471
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=472|end_char=475
+28	brezi	brez	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	start_char=476|end_char=481
+29	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=482|end_char=483
+30	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=484|end_char=486|SpaceAfter=No
+31	.	.	PUNCT	_	_	26	punct	_	start_char=486|end_char=487|SpacesAfter=\n
+
+# text = Ish Presidenti i BQE-së Draghi tha se Europa ndërkohë që do të ndryshojë, do të duhet sërish të jetë e dedikuar në mbrojtjen e disa vlerave të saj, mes të cilash multilateralizmi dhe fuqia universale e shtetit të së drejtës, teksa fuqi të mëdha si SHBA dhe Kina dyshojnë në vlerat e saj.
+# sent_id = 5
+1	Ish	Ish	ADP	_	Case=Nom	2	case	_	start_char=488|end_char=491
+2	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=492|end_char=502
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=503|end_char=504
+4	BQE-së	BQE-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=505|end_char=511
+5	Draghi	Dragh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=512|end_char=518
+6	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=519|end_char=522
+7	se	se	SCONJ	_	_	8	mark	_	start_char=523|end_char=525
+8	Europa	Europë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=526|end_char=532
+9	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	8	flat	_	start_char=533|end_char=541
+10	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=542|end_char=544
+11	do	do	PART	_	_	13	fixed	_	start_char=545|end_char=547
+12	të	të	PART	_	_	13	fixed	_	start_char=548|end_char=550
+13	ndryshojë	ndryshoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=551|end_char=560|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	start_char=560|end_char=561
+15	do	do	PART	_	_	20	fixed	_	start_char=562|end_char=564
+16	të	të	PART	_	_	20	fixed	_	start_char=565|end_char=567
+17	duhet	duhem	AUX	_	Mood=Ind	20	aux	_	start_char=568|end_char=573
+18	sërish	sërish	ADV	_	AdvType=Deg	20	advmod	_	start_char=574|end_char=580
+19	të	të	PART	_	_	20	fixed	_	start_char=581|end_char=583
+20	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=584|end_char=588
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=589|end_char=590
+22	dedikuar	dedikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	cop	_	start_char=591|end_char=599
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=600|end_char=602
+24	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	start_char=603|end_char=612
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=613|end_char=614
+26	disa	disa	PRON	_	PronType=Ind	27	nummod	_	start_char=615|end_char=619
+27	vlerave	vlera	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=620|end_char=627
+28	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	29	det:poss	_	start_char=628|end_char=630
+29	saj	saj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=631|end_char=634|SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	start_char=634|end_char=635
+31	mes	mes	ADP	_	Case=Abl	33	case	_	start_char=636|end_char=639
+32	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=640|end_char=642
+33	cilash	cilash	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	34	nummod	_	start_char=643|end_char=649
+34	multilateralizmi	multilateralizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=650|end_char=666
+35	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=667|end_char=670
+36	fuqia	fuqi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	34	conj	_	start_char=671|end_char=676
+37	universale	universal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=677|end_char=687
+38	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	39	det:poss	_	start_char=688|end_char=689
+39	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=690|end_char=697
+40	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=698|end_char=700
+41	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	42	det	_	start_char=701|end_char=703
+42	drejtës	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	39	nmod	_	start_char=704|end_char=711|SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	start_char=711|end_char=712
+44	teksa	teksa	SCONJ	_	_	45	mark	_	start_char=713|end_char=718
+45	fuqi	fuqi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	42	conj	_	start_char=719|end_char=723
+46	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	47	det	_	start_char=724|end_char=726
+47	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	45	amod	_	start_char=727|end_char=732
+48	si	si	SCONJ	_	_	49	mark	_	start_char=733|end_char=735
+49	SHBA	SHBA	PROPN	_	Case=Nom|Foreign=Yes	45	nmod	_	start_char=736|end_char=740
+50	dhe	dhe	CCONJ	_	_	52	cc	_	start_char=741|end_char=744
+51	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	52	nsubj	_	start_char=745|end_char=749
+52	dyshojnë	dyshoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	45	acl:relcl	_	start_char=750|end_char=758
+53	në	në	ADP	_	Case=Acc	54	case	_	start_char=759|end_char=761
+54	vlerat	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	52	obl	_	start_char=762|end_char=768
+55	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	56	det:poss	_	start_char=769|end_char=770
+56	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	54	amod:poss	_	start_char=771|end_char=774|SpaceAfter=No
+57	.	.	PUNCT	_	_	52	punct	_	start_char=774|end_char=775|SpacesAfter=\n
+
+# text = “Ristrukturimi i Europës pas pandemisë të Coronavirus-it do i ngjasojë atij ristrukturimi të pas Luftës së II Botërore dhe Bashkimi Europian do të duhet të rikonceptojë vlerat fondamentale të saj, pavarësisht sfidave që paraqesin fuqi globale.
+# sent_id = 6
+1	“	"	PUNCT	_	_	2	punct	_	start_char=776|end_char=777|SpaceAfter=No
+2	Ristrukturimi	distrukturim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=777|end_char=790
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=791|end_char=792
+4	Europës	Europë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=793|end_char=800
+5	pas	pas	ADP	_	Case=Abl	6	case	_	start_char=801|end_char=804
+6	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=805|end_char=814
+7	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=815|end_char=817
+8	Coronavirus-it	Coronaviru--	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=818|end_char=832
+9	do	do	PART	_	_	11	fixed	_	start_char=833|end_char=835
+10	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=836|end_char=837
+11	ngjasojë	ngjasoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=838|end_char=846
+12	atij	ai	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	det	_	start_char=847|end_char=851
+13	ristrukturimi	ristrukturim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=852|end_char=865
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=866|end_char=868
+15	pas	pas	ADP	_	Case=Abl	16	case	_	start_char=869|end_char=872
+16	Luftës	luftë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=873|end_char=879
+17	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=880|end_char=882
+18	II	II	NUM	_	NumType=Card	16	amod:poss	_	start_char=883|end_char=885
+19	Botërore	botëror	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=886|end_char=894
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=895|end_char=898
+21	Bashkimi	Bashkim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=899|end_char=907
+22	Europian	Europian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=908|end_char=916
+23	do	do	PART	_	_	27	fixed	_	start_char=917|end_char=919
+24	të	të	PART	_	_	27	fixed	_	start_char=920|end_char=922
+25	duhet	duhem	AUX	_	_	27	aux	_	start_char=923|end_char=928
+26	të	të	PART	_	_	27	fixed	_	start_char=929|end_char=931
+27	rikonceptojë	rikonceptoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=932|end_char=944
+28	vlerat	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=945|end_char=951
+29	fondamentale	fondamental	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=952|end_char=964
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=965|end_char=967
+31	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	amod:poss	_	start_char=968|end_char=971|SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	start_char=971|end_char=972
+33	pavarësisht	pavarësisht	ADV	_	AdvType=Man	34	advmod	_	start_char=973|end_char=984
+34	sfidave	sfida	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	28	conj	_	start_char=985|end_char=992
+35	që	që	PRON	_	PronType=Rel	36	nsubj	_	start_char=993|end_char=995
+36	paraqesin	paraqes	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	acl:relcl	_	start_char=996|end_char=1005
+37	fuqi	fuqi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	obj	_	start_char=1006|end_char=1010
+38	globale	global	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	start_char=1011|end_char=1018|SpaceAfter=No
+39	.	.	PUNCT	_	_	36	punct	_	start_char=1018|end_char=1019|SpaceAfter=No
+
+# text = ”
+# sent_id = 7
+1	”	"	PUNCT	_	_	0	root	_	start_char=1019|end_char=1020|SpacesAfter=\n
+
+# text = Tha gjithashtu se:
+# sent_id = 8
+1	Tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1021|end_char=1024
+2	gjithashtu	gjithashtu	ADV	_	AdvType=Man	1	advmod	_	start_char=1025|end_char=1035
+3	se	se	SCONJ	_	_	1	advmod	_	start_char=1036|end_char=1038|SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	start_char=1038|end_char=1039
+
+# text = “Pandemia sjell rrezikun e shkatërrimit të kapitalit njerëzor në dimensione që nuk i kemi parë, ndoshta edhe as pas Luftës së II Botërore, për rrjedhojë rindërtimi do të duhet të përqëndrohet tek njerëzit që do të duhet të paguajnë një borxh të pahasur më parë në historinë e Europës, kryesisht me borxhin e krijuar në këtë vit pandemie.
+# sent_id = 9
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1040|end_char=1041|SpaceAfter=No
+2	Pandemia	pandemi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1041|end_char=1049
+3	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1050|end_char=1055
+4	rrezikun	rrezik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=1056|end_char=1064
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=1065|end_char=1066
+6	shkatërrimit	shkatërrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1067|end_char=1079
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=1080|end_char=1082
+8	kapitalit	kapital	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=1083|end_char=1092
+9	njerëzor	njerëzor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1093|end_char=1101
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=1102|end_char=1104
+11	dimensione	dimension	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=1105|end_char=1115
+12	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=1116|end_char=1118
+13	nuk	nuk	PART	_	_	16	mark	_	start_char=1119|end_char=1122
+14	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	start_char=1123|end_char=1124
+15	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	aux	_	start_char=1125|end_char=1129
+16	parë	shoh	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=1130|end_char=1134|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=1134|end_char=1135
+18	ndoshta	ndoshta	ADV	_	AdvType=Tim	20	fixed	_	start_char=1136|end_char=1143
+19	edhe	edhe	PART	_	_	22	cc	_	start_char=1144|end_char=1148
+20	as	as	CCONJ	_	_	22	cc	_	start_char=1149|end_char=1151
+21	pas	pas	ADP	_	Case=Abl	22	case	_	start_char=1152|end_char=1155
+22	Luftës	luftë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=1156|end_char=1162
+23	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=1163|end_char=1165
+24	II	II	NUM	_	NumType=Card	22	amod:poss	_	start_char=1166|end_char=1168
+25	Botërore	botëror	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=1169|end_char=1177|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	start_char=1177|end_char=1178
+27	për	për	ADP	_	Case=Acc	28	case	_	start_char=1179|end_char=1182
+28	rrjedhojë	rrjedhojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	advmod	_	start_char=1183|end_char=1192
+29	rindërtimi	rindërtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	start_char=1193|end_char=1203
+30	do	do	PART	_	_	34	fixed	_	start_char=1204|end_char=1206
+31	të	të	PART	_	_	34	fixed	_	start_char=1207|end_char=1209
+32	duhet	duhem	AUX	_	Mood=Ind	34	aux	_	start_char=1210|end_char=1215
+33	të	të	PART	_	_	34	fixed	_	start_char=1216|end_char=1218
+34	përqëndrohet	përqëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	acl:relcl	_	start_char=1219|end_char=1231
+35	tek	tek	ADP	_	Case=Nom	36	case	_	start_char=1232|end_char=1235
+36	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	34	obl	_	start_char=1236|end_char=1244
+37	që	që	PRON	_	PronType=Rel	42	nsubj	_	start_char=1245|end_char=1247
+38	do	do	PART	_	_	42	fixed	_	start_char=1248|end_char=1250
+39	të	të	PART	_	_	42	fixed	_	start_char=1251|end_char=1253
+40	duhet	duhem	AUX	_	_	42	aux	_	start_char=1254|end_char=1259
+41	të	të	PART	_	_	42	fixed	_	start_char=1260|end_char=1262
+42	paguajnë	paguaj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	advcl	_	start_char=1263|end_char=1271
+43	një	një	DET	_	Definite=Ind	44	det	_	start_char=1272|end_char=1275
+44	borxh	borxh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	42	obj	_	start_char=1276|end_char=1281
+45	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	46	det	_	start_char=1282|end_char=1284
+46	pahasur	pahasur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	start_char=1285|end_char=1292
+47	më	më	PART	_	_	48	mark	_	start_char=1293|end_char=1295
+48	parë	parë	ADV	_	AdvType=Man	46	advmod	_	start_char=1296|end_char=1300
+49	në	në	ADP	_	Case=Acc	50	case	_	start_char=1301|end_char=1303
+50	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	44	nmod	_	start_char=1304|end_char=1313
+51	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	52	det:poss	_	start_char=1314|end_char=1315
+52	Europës	Europë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	50	nmod	_	start_char=1316|end_char=1323|SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	start_char=1323|end_char=1324
+54	kryesisht	kryesisht	ADV	_	AdvType=Man	56	mark	_	start_char=1325|end_char=1334
+55	me	me	ADP	_	Case=Acc	56	case	_	start_char=1335|end_char=1337
+56	borxhin	borxh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	50	nmod	_	start_char=1338|end_char=1345
+57	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	58	det	_	start_char=1346|end_char=1347
+58	krijuar	krijoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	56	amod	_	start_char=1348|end_char=1355
+59	në	në	ADP	_	Case=Acc	61	case	_	start_char=1356|end_char=1358
+60	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	61	det	_	start_char=1359|end_char=1363
+61	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	56	nmod	_	start_char=1364|end_char=1367
+62	pandemie	pandem	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	61	nmod	_	start_char=1368|end_char=1376|SpaceAfter=No
+63	.	.	PUNCT	_	_	56	punct	_	start_char=1376|end_char=1377
+
+# text = Borxhi i krijuar nga Pandemia ja ka kaluar çdo borxhi të mëparshëm dhe do të duhet të paguhet nga brezi i ri, ndaj dhe duhet ta pajisim me instrumentat e duhur dhe të nevojshëm për t’i shërbyer shlyerjes së borxhit të krijuar.
+# sent_id = 10
+1	Borxhi	borxh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1378|end_char=1384
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1385|end_char=1386
+3	krijuar	krijoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1387|end_char=1394
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=1395|end_char=1398
+5	Pandemia	pandemi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1399|end_char=1407
+6	ja	ja	SCONJ	_	_	8	mark	_	start_char=1408|end_char=1410
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=1411|end_char=1413
+8	kaluar	kaloj	VERB	_	VerbForm=Part	1	acl:relcl	_	start_char=1414|end_char=1420
+9	çdo	çdo	PRON	_	PronType=Ind	10	nummod	_	start_char=1421|end_char=1424
+10	borxhi	borxh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=1425|end_char=1431
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=1432|end_char=1434
+12	mëparshëm	mëparshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=1435|end_char=1444
+13	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=1445|end_char=1448
+14	do	do	PART	_	_	18	fixed	_	start_char=1449|end_char=1451
+15	të	të	PART	_	_	18	fixed	_	start_char=1452|end_char=1454
+16	duhet	duhem	AUX	_	Mood=Ind	18	aux	_	start_char=1455|end_char=1460
+17	të	të	PART	_	_	18	fixed	_	start_char=1461|end_char=1463
+18	paguhet	paguhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	conj	_	start_char=1464|end_char=1471
+19	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=1472|end_char=1475
+20	brezi	brez	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=1476|end_char=1481
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=1482|end_char=1483
+22	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=1484|end_char=1486|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	start_char=1486|end_char=1487
+24	ndaj	ndaj	ADP	_	Case=Abl	25	fixed	_	start_char=1488|end_char=1492
+25	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=1493|end_char=1496
+26	duhet	duhem	AUX	_	_	29	aux	_	start_char=1497|end_char=1502
+27-28	ta	_	_	_	_	_	_	_	start_char=1503|end_char=1505
+27	të	të	PART	_	_	29	fixed	_	_
+28	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	pajisim	pajis	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	18	conj	_	start_char=1506|end_char=1513
+30	me	me	ADP	_	Case=Acc	31	case	_	start_char=1514|end_char=1516
+31	instrumentat	instrumentë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	obl	_	start_char=1517|end_char=1529
+32	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=1530|end_char=1531
+33	duhur	duhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=1532|end_char=1537
+34	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=1538|end_char=1541
+35	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	36	det	_	start_char=1542|end_char=1544
+36	nevojshëm	nevojshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	33	conj	_	start_char=1545|end_char=1554
+37	për	për	ADP	_	Case=Acc	38	case	_	start_char=1555|end_char=1558
+38	t’i	t’i	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	advmod	_	start_char=1559|end_char=1562
+39	shërbyer	shërbej	VERB	_	VerbForm=Part	29	conj	_	start_char=1563|end_char=1571
+40	shlyerjes	shlyerje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	39	obj	_	start_char=1572|end_char=1581
+41	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	42	det:poss	_	start_char=1582|end_char=1584
+42	borxhit	borxh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	start_char=1585|end_char=1592
+43	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	44	det	_	start_char=1593|end_char=1595
+44	krijuar	krijoj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	start_char=1596|end_char=1603|SpaceAfter=No
+45	.	.	PUNCT	_	_	39	punct	_	start_char=1603|end_char=1604|SpaceAfter=No
+
+# text = ”
+# sent_id = 11
+1	”	"	PUNCT	_	_	0	root	_	start_char=1604|end_char=1605|SpacesAfter=\n
+
+# text = Mario Draghi tha se normat e ulëta të interesit nuk e bëjnë automatikisht borxhin të qëndrueshëm dhe se burimet financiare duhet të përdoren në sektorin e prodhimit, si dhe në kapitalin human, në struktura prodhimi dhe kërkimi dhe dixhitalizimi i sektorëve në tërësi, teksa puna në distancë po bëhet diçka rutinore dhe e kudohasur…
+# sent_id = 12
+1	Mario	Mario	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1606|end_char=1611
+2	Draghi	Dragh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=1612|end_char=1618
+3	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1619|end_char=1622
+4	se	se	SCONJ	_	_	5	mark	_	start_char=1623|end_char=1625
+5	normat	normë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=1626|end_char=1632
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=1633|end_char=1634
+7	ulëta	ulëtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1635|end_char=1640
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=1641|end_char=1643
+9	interesit	interes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=1644|end_char=1653
+10	nuk	nuk	PART	_	_	12	mark	_	start_char=1654|end_char=1657
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=1658|end_char=1659
+12	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=1660|end_char=1665
+13	automatikisht	automatikisht	ADV	_	AdvType=Man	12	advmod	_	start_char=1666|end_char=1679
+14	borxhin	borxh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=1680|end_char=1687
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1688|end_char=1690
+16	qëndrueshëm	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1691|end_char=1702
+17	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=1703|end_char=1706
+18	se	se	SCONJ	_	_	23	mark	_	start_char=1707|end_char=1709
+19	burimet	burim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	conj	_	start_char=1710|end_char=1717
+20	financiare	financiar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=1718|end_char=1728
+21	duhet	duhem	AUX	_	_	23	aux	_	start_char=1729|end_char=1734
+22	të	të	PART	_	_	23	fixed	_	start_char=1735|end_char=1737
+23	përdoren	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=1738|end_char=1746
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=1747|end_char=1749
+25	sektorin	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	start_char=1750|end_char=1758
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=1759|end_char=1760
+27	prodhimit	prodhim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=1761|end_char=1770|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	start_char=1770|end_char=1771
+29	si	si	SCONJ	_	_	30	fixed	_	start_char=1772|end_char=1774
+30	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=1775|end_char=1778
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=1779|end_char=1781
+32	kapitalin	kapital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	conj	_	start_char=1782|end_char=1791
+33	human	human	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=1792|end_char=1797|SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	start_char=1797|end_char=1798
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=1799|end_char=1801
+36	struktura	strukturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	list	_	start_char=1802|end_char=1811
+37	prodhimi	prodhim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=1812|end_char=1820
+38	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=1821|end_char=1824
+39	kërkimi	kërkim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	conj	_	start_char=1825|end_char=1832
+40	dhe	dhe	CCONJ	_	_	41	cc	_	start_char=1833|end_char=1836
+41	dixhitalizimi	dixhitalizim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	conj	_	start_char=1837|end_char=1850
+42	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	43	det:poss	_	start_char=1851|end_char=1852
+43	sektorëve	sektor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	41	nmod	_	start_char=1853|end_char=1862
+44	në	në	ADP	_	Case=Acc	45	case	_	start_char=1863|end_char=1865
+45	tërësi	tërësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	41	nmod	_	start_char=1866|end_char=1872|SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	start_char=1872|end_char=1873
+47	teksa	teksa	SCONJ	_	_	48	mark	_	start_char=1874|end_char=1879
+48	puna	punë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	52	advmod	_	start_char=1880|end_char=1884
+49	në	në	ADP	_	Case=Acc	50	case	_	start_char=1885|end_char=1887
+50	distancë	distancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	52	advmod	_	start_char=1888|end_char=1896
+51	po	po	PART	_	_	52	mark	_	start_char=1897|end_char=1899
+52	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	23	conj	_	start_char=1900|end_char=1905
+53	diçka	diçka	PRON	_	PronType=Ind	52	obj	_	start_char=1906|end_char=1911
+54	rutinore	rutinor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	start_char=1912|end_char=1920
+55	dhe	dhe	CCONJ	_	_	57	cc	_	start_char=1921|end_char=1924
+56	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	57	det	_	start_char=1925|end_char=1926
+57	kudohasur	kudohasur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	54	conj	_	start_char=1927|end_char=1936|SpaceAfter=No
+58	…	…	PUNCT	_	_	52	punct	_	start_char=1936|end_char=1937
+
+# text = Europa duhet të investojë tek arsimi dhe tek brezi i ri, kjo është nevojë imediate.
+# sent_id = 13
+1	Europa	Europë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1938|end_char=1944
+2	duhet	duhem	AUX	_	_	4	aux	_	start_char=1945|end_char=1950
+3	të	të	PART	_	_	4	fixed	_	start_char=1951|end_char=1953
+4	investojë	investoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1954|end_char=1963
+5	tek	tek	ADP	_	Case=Nom	6	case	_	start_char=1964|end_char=1967
+6	arsimi	arsim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=1968|end_char=1974
+7	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1975|end_char=1978
+8	tek	tek	ADP	_	Case=Nom	9	case	_	start_char=1979|end_char=1982
+9	brezi	brez	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	start_char=1983|end_char=1988
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=1989|end_char=1990
+11	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1991|end_char=1993|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=1993|end_char=1994
+13	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	nsubj	_	start_char=1995|end_char=1998
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=1999|end_char=2004
+15	nevojë	nevojë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	cop	_	start_char=2005|end_char=2011
+16	imediate	imediat	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=2012|end_char=2020|SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	start_char=2020|end_char=2021|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 14
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=2022|end_char=2024
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2025|end_char=2035|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=2035|end_char=2036|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=2037|end_char=2041
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=2042|end_char=2044
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=2045|end_char=2048
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=2049|end_char=2053|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=2054|end_char=2072|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=2073|end_char=2082
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=2083|end_char=2095
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=2096|end_char=2102|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=2103|end_char=2112
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=2113|end_char=2125
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=2126|end_char=2133|SpacesAfter=\n\n\n
+

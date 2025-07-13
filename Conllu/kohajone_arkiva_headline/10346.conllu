@@ -1,0 +1,287 @@
+# text = Eksperti amerikan:
+# sent_id = 0
+1	Eksperti	ekspert	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8
+2	amerikan	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=9|end_char=17|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=17|end_char=18
+
+# text = Virusi nuk e ka origjinën nga tregu në Wuhan Një mikrobiolog dhe imunolog amerikan është shprehur se tregu i frutave të detit në Wuhan nuk është burimi i koronavirusit të ri.
+# sent_id = 1
+1	Virusi	Virus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=19|end_char=25
+2	nuk	nuk	PART	_	Polarity=Neg	4	mark	_	start_char=26|end_char=29
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=30|end_char=31
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=34
+5	origjinën	origjinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=35|end_char=44
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=45|end_char=48
+7	tregu	treg	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=49|end_char=54
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=55|end_char=57
+9	Wuhan	Wuhan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=58|end_char=63|SpacesAfter=\n
+10	Një	një	DET	_	Definite=Ind	11	det	_	start_char=64|end_char=67
+11	mikrobiolog	mikrobiolog	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=68|end_char=79
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=80|end_char=83
+13	imunolog	imunolog	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	start_char=84|end_char=92
+14	amerikan	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=93|end_char=101
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=102|end_char=107
+16	shprehur	shpreh	VERB	_	VerbForm=Part	4	conj	_	start_char=108|end_char=116
+17	se	se	SCONJ	_	_	26	mark	_	start_char=117|end_char=119
+18	tregu	treg	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=120|end_char=125
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=126|end_char=127
+20	frutave	frutë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=128|end_char=135
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	22	det:poss	_	start_char=136|end_char=138
+22	detit	det	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=139|end_char=144
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=145|end_char=147
+24	Wuhan	Wuhan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=148|end_char=153
+25	nuk	nuk	PART	_	Polarity=Neg	26	mark	_	start_char=154|end_char=157
+26	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=158|end_char=163
+27	burimi	burim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	cop	_	start_char=164|end_char=170
+28	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=171|end_char=172
+29	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=173|end_char=186
+30	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=187|end_char=189
+31	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=190|end_char=192|SpaceAfter=No
+32	.	.	PUNCT	_	_	26	punct	_	start_char=192|end_char=193|SpacesAfter=\n
+
+# text = Në një intervistë të dhënë për rrjetin ABC, profesori Robert Garry nga Shkolla e Mjekësisë Tulane u shpreh se shumë njerëz janë të mendimit se virusi e ka burimin nga një treg në Wuhan të Kinës, por kjo është një ide e gabuar.
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=194|end_char=196
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=197|end_char=200
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=201|end_char=211
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=212|end_char=214
+5	dhënë	jap	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=215|end_char=220
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=221|end_char=224
+7	rrjetin	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=225|end_char=232
+8	ABC	ABC	PROPN	_	Foreign=Yes	7	appos	_	start_char=233|end_char=236|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=236|end_char=237
+10	profesori	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=238|end_char=247
+11	Robert	Robert	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	start_char=248|end_char=254
+12	Garry	Garry	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	start_char=255|end_char=260
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=261|end_char=264
+14	Shkolla	shkollë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=265|end_char=272
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=273|end_char=274
+16	Mjekësisë	mjekësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=275|end_char=284
+17	Tulane	Tulan	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	16	appos	_	start_char=285|end_char=291
+18	u	u	PART	_	_	19	fixed	_	start_char=292|end_char=293
+19	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=294|end_char=300
+20	se	se	SCONJ	_	_	23	mark	_	start_char=301|end_char=303
+21	shumë	shumë	PRON	_	PronType=Ind	22	nummod	_	start_char=304|end_char=309
+22	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	23	nsubj	_	start_char=310|end_char=316
+23	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	ccomp	_	start_char=317|end_char=321
+24	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=322|end_char=324
+25	mendimit	mendim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	cop	_	start_char=325|end_char=333
+26	se	se	SCONJ	_	_	29	mark	_	start_char=334|end_char=336
+27	virusi	virus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	start_char=337|end_char=343
+28	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	start_char=344|end_char=345
+29	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	advcl	_	start_char=346|end_char=348
+30	burimin	burim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=349|end_char=356
+31	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=357|end_char=360
+32	një	një	DET	_	Definite=Ind	33	det	_	start_char=361|end_char=364
+33	treg	treg	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	start_char=365|end_char=369
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=370|end_char=372
+35	Wuhan	Wuhan	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	nmod	_	start_char=373|end_char=378
+36	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=379|end_char=381
+37	Kinës	Kinë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=382|end_char=387|SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	start_char=387|end_char=388
+39	por	por	CCONJ	_	_	41	cc	_	start_char=389|end_char=392
+40	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	41	nsubj	_	start_char=393|end_char=396
+41	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	conj	_	start_char=397|end_char=402
+42	një	një	DET	_	Definite=Ind	43	det	_	start_char=403|end_char=406
+43	ide	ide	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	41	cop	_	start_char=407|end_char=410
+44	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	45	det	_	start_char=411|end_char=412
+45	gabuar	gabuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	start_char=413|end_char=419|SpaceAfter=No
+46	.	.	PUNCT	_	_	41	punct	_	start_char=419|end_char=420|SpacesAfter=\n
+
+# text = “Analizat tona dhe të të tjerëve tregojnë për një origjinë më të hershme se kjo.
+# sent_id = 3
+1	“	"	PUNCT	_	_	2	punct	_	start_char=421|end_char=422|SpaceAfter=No
+2	Analizat	analizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	start_char=422|end_char=430
+3	tona	jonë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	amod	_	start_char=431|end_char=435
+4	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=436|end_char=439
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=440|end_char=442
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=443|end_char=445
+7	tjerëve	tjerë	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	3	conj	_	start_char=446|end_char=453
+8	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=454|end_char=462
+9	për	për	ADP	_	Case=Acc	11	case	_	start_char=463|end_char=466
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=467|end_char=470
+11	origjinë	origjinë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=471|end_char=479
+12	më	më	PART	_	_	14	mark	_	start_char=480|end_char=482
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=483|end_char=485
+14	hershme	hershëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=486|end_char=493
+15	se	se	SCONJ	_	_	16	mark	_	start_char=494|end_char=496
+16	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	obl:agent	_	start_char=497|end_char=500|SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	start_char=500|end_char=501
+
+# text = Në Wuhan patjetër ka raste, por nuk është aty burimi i virusit”, theksoi profesori Garry.
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=502|end_char=504
+2	Wuhan	Wuhan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=505|end_char=510
+3	patjetër	patjetër	ADV	_	AdvType=Tim	2	flat	_	start_char=511|end_char=519
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=520|end_char=522
+5	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=523|end_char=528|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=528|end_char=529
+7	por	por	CCONJ	_	_	9	cc	_	start_char=530|end_char=533
+8	nuk	nuk	PART	_	_	9	mark	_	start_char=534|end_char=537
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=538|end_char=543
+10	aty	aty	ADV	_	AdvType=Loc	9	advmod	_	start_char=544|end_char=547
+11	burimi	burim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	cop	_	start_char=548|end_char=554
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=555|end_char=556
+13	virusit”	virusit”	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=557|end_char=565|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=565|end_char=566
+15	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	parataxis	_	start_char=567|end_char=574
+16	profesori	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=575|end_char=584
+17	Garry	Garry	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	start_char=585|end_char=590|SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	start_char=590|end_char=591|SpacesAfter=\n
+
+# text = Sipas tij, ndryshimi në proteinat sipërfaqësore mund të jetë arsyeja që shkaktoi pandeminë e kësaj here, duke shtuar se mbase varianti i dobët i këtij virusi është përhapur për disa vjet, madje edhe për dekada, ndër njerëzit, para përshkallëzimit të kësaj here.
+# sent_id = 5
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=592|end_char=597
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	advmod	_	start_char=598|end_char=601|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=601|end_char=602
+4	ndryshimi	ndryshim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=603|end_char=612
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=613|end_char=615
+6	proteinat	proteinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=616|end_char=625
+7	sipërfaqësore	sipërfaqësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=626|end_char=639
+8	mund	mund	AUX	_	_	10	aux	_	start_char=640|end_char=644
+9	të	të	PART	_	_	10	fixed	_	start_char=645|end_char=647
+10	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=648|end_char=652
+11	arsyeja	arsye	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	cop	_	start_char=653|end_char=660
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=661|end_char=663
+13	shkaktoi	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	start_char=664|end_char=672
+14	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=673|end_char=682
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=683|end_char=684
+16	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=685|end_char=690
+17	here	here	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=691|end_char=695|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=695|end_char=696
+19	duke	duke	PART	_	_	20	fixed	_	start_char=697|end_char=701
+20	shtuar	shtoj	VERB	_	VerbForm=Part	13	advmod	_	start_char=702|end_char=708
+21	se	se	SCONJ	_	_	30	mark	_	start_char=709|end_char=711
+22	mbase	mbase	SCONJ	_	_	30	mark	_	start_char=712|end_char=717
+23	varianti	variant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=718|end_char=726
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=727|end_char=728
+25	dobët	dobët	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=729|end_char=734
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=735|end_char=736
+27	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=737|end_char=742
+28	virusi	virus	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=743|end_char=749
+29	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	start_char=750|end_char=755
+30	përhapur	përhapur	VERB	_	VerbForm=Part	20	advcl	_	start_char=756|end_char=764
+31	për	për	ADP	_	Case=Acc	33	case	_	start_char=765|end_char=768
+32	disa	disa	PRON	_	PronType=Ind	33	nummod	_	start_char=769|end_char=773
+33	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	30	advmod	_	start_char=774|end_char=778|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	start_char=778|end_char=779
+35	madje	madje	ADV	_	AdvType=Man	30	advmod	_	start_char=780|end_char=785
+36	edhe	edhe	CCONJ	_	_	38	mark	_	start_char=786|end_char=790
+37	për	për	ADP	_	Case=Acc	38	case	_	start_char=791|end_char=794
+38	dekada	dekadë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	30	advmod	_	start_char=795|end_char=801|SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	start_char=801|end_char=802
+40	ndër	ndër	ADP	_	Case=Acc	41	case	_	start_char=803|end_char=807
+41	njerëzit	njeri	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	38	nmod	_	start_char=808|end_char=816|SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	start_char=816|end_char=817
+43	para	para	ADP	_	Case=Abl	44	case	_	start_char=818|end_char=822
+44	përshkallëzimit	përshkallëzim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	41	nmod	_	start_char=823|end_char=838
+45	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	47	det:poss	_	start_char=839|end_char=841
+46	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	47	det	_	start_char=842|end_char=847
+47	here	here	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	44	nmod	_	start_char=848|end_char=852|SpaceAfter=No
+48	.	.	PUNCT	_	_	30	punct	_	start_char=852|end_char=853|SpacesAfter=\n
+
+# text = “Nga studimi i koronaviruseve të tjera e dimë se viruset mund të pësojnë këto ndryshime, duke u bërë pastaj më patogjenike.
+# sent_id = 6
+1	“	"	PUNCT	_	_	3	punct	_	start_char=854|end_char=855|SpaceAfter=No
+2	Nga	nga	ADP	_	Case=Nom	3	case	_	start_char=855|end_char=858
+3	studimi	studim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=859|end_char=866
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=867|end_char=868
+5	koronaviruseve	koronaviruse	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=869|end_char=883
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=884|end_char=886
+7	tjera	tjetër	PRON	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Ind	5	amod	_	start_char=887|end_char=892
+8	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	cc	_	start_char=893|end_char=894
+9	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=895|end_char=899
+10	se	se	SCONJ	_	_	14	mark	_	start_char=900|end_char=902
+11	viruset	virus	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	start_char=903|end_char=910
+12	mund	mund	AUX	_	_	14	aux	_	start_char=911|end_char=915
+13	të	të	PART	_	_	14	fixed	_	start_char=916|end_char=918
+14	pësojnë	pësoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=919|end_char=926
+15	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	det	_	start_char=927|end_char=931
+16	ndryshime	ndryshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=932|end_char=941|SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	start_char=941|end_char=942
+18	duke	duke	PART	_	_	20	fixed	_	start_char=943|end_char=947
+19	u	u	PART	_	_	20	fixed	_	start_char=948|end_char=949
+20	bërë	bëj	VERB	_	VerbForm=Part	14	advmod	_	start_char=950|end_char=954
+21	pastaj	pastaj	ADV	_	AdvType=Tim	23	advmod	_	start_char=955|end_char=961
+22	më	më	PART	_	_	23	mark	_	start_char=962|end_char=964
+23	patogjenike	patogjenik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	obl	_	start_char=965|end_char=976|SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	start_char=976|end_char=977
+
+# text = Kjo shpjegon pse ky virus përhapet më shpejt dhe shkaktoi pandeminë e kësaj here”, shtoi profesori Garry në intervistë.
+# sent_id = 7
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	fixed	_	start_char=978|end_char=981
+2	shpjegon	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=982|end_char=990
+3	pse	pse	SCONJ	_	_	6	mark	_	start_char=991|end_char=994
+4	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=995|end_char=997
+5	virus	viru	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=998|end_char=1003
+6	përhapet	përhap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=1004|end_char=1012
+7	më	më	PART	_	_	8	mark	_	start_char=1013|end_char=1015
+8	shpejt	shpejt	ADV	_	AdvType=Tim	6	advmod	_	start_char=1016|end_char=1022
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=1023|end_char=1026
+10	shkaktoi	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=1027|end_char=1035
+11	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=1036|end_char=1045
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=1046|end_char=1047
+13	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=1048|end_char=1053
+14	here”	here”	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=1054|end_char=1059|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1059|end_char=1060
+16	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	start_char=1061|end_char=1066
+17	profesori	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=1067|end_char=1076
+18	Garry	Garry	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=1077|end_char=1082
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=1083|end_char=1085
+20	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	advmod	_	start_char=1086|end_char=1096|SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	start_char=1096|end_char=1097|SpacesAfter=\n
+
+# text = Pak kohë më parë, ekipi studimor i tij deklaroi në një artikull të botuar në revistën profesionale “Nature Medicine” se koronavirusi i ri është me burim natyror.
+# sent_id = 8
+1	Pak	pak	PRON	_	PronType=Ind	2	nummod	_	start_char=1098|end_char=1101
+2	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=1102|end_char=1106
+3	më	më	PART	_	_	4	mark	_	start_char=1107|end_char=1109
+4	parë	parë	ADV	_	AdvType=Tim	2	advmod	_	start_char=1110|end_char=1114|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=1114|end_char=1115
+6	ekipi	ekip	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1116|end_char=1121
+7	studimor	studimor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1122|end_char=1130
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=1131|end_char=1132
+9	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=1133|end_char=1136
+10	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1137|end_char=1145
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=1146|end_char=1148
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=1149|end_char=1152
+13	artikull	artikull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=1153|end_char=1161
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1162|end_char=1164
+15	botuar	botoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=1165|end_char=1171
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1172|end_char=1174
+17	revistën	revistë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=1175|end_char=1183
+18	profesionale	profesional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=1184|end_char=1196
+19	“	"	PUNCT	_	_	20	punct	_	start_char=1197|end_char=1198|SpaceAfter=No
+20	Nature	Natur	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	17	appos	_	start_char=1198|end_char=1204
+21	Medicine”	Medicine”	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	20	flat	_	start_char=1205|end_char=1214
+22	se	se	SCONJ	_	_	26	mark	_	start_char=1215|end_char=1217
+23	koronavirusi	koronavirusi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nsubj	_	start_char=1218|end_char=1230
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=1231|end_char=1232
+25	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=1233|end_char=1235
+26	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=1236|end_char=1241
+27	me	me	ADP	_	Case=Acc	28	case	_	start_char=1242|end_char=1244
+28	burim	burim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obl:arg	_	start_char=1245|end_char=1250
+29	natyror	natyror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=1251|end_char=1258|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=1258|end_char=1259
+
+# text = / Marrë nga CRI NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 9
+1	/	/	PUNCT	_	_	2	punct	_	start_char=1260|end_char=1261
+2	Marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=1262|end_char=1267
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=1268|end_char=1271
+4	CRI	CRI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=1272|end_char=1275|SpacesAfter=\n
+5	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	det	_	start_char=1276|end_char=1278
+6	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=1279|end_char=1289|SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	start_char=1289|end_char=1290|SpacesAfter=\n
+8	+355	+355	NUM	_	NumType=Card	6	flat	_	start_char=1291|end_char=1295
+9	68	68	NUM	_	NumType=Card	8	conj	_	start_char=1296|end_char=1298
+10	608	608	NUM	_	NumType=Card	8	flat	_	start_char=1299|end_char=1302
+11	0290	0290	NUM	_	NumType=Card	10	conj	_	start_char=1303|end_char=1307|SpacesAfter=\n
+12	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=1308|end_char=1326|SpacesAfter=\n
+13	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=1327|end_char=1336
+14	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=1337|end_char=1349
+15	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	14	flat	_	start_char=1350|end_char=1356|SpacesAfter=\n
+16	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	flat	_	start_char=1357|end_char=1366
+17	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=1367|end_char=1379
+18	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=1380|end_char=1387|SpacesAfter=\n\n\n
+

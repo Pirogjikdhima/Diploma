@@ -1,0 +1,263 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Shqiptarë, ejani këtu”!
+# sent_id = 1
+1	Shqiptarë	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=1|end_char=10|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=10|end_char=11
+3	ejani	ejaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=12|end_char=17
+4	këtu”	këto	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj	_	start_char=18|end_char=23|SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	start_char=23|end_char=24
+
+# text = Nga “dëbimi”, te thirrja për investime, kthesa ekstreme e ministrit grek Ministri i Zhvillimit dhe Investimeve Adonis Georgiadis, ftoi komunitetin e biznesit nga Shqipëria, por edhe nga rajoni i gjerë i Ballkanit, për të investuar në Greqi.
+# sent_id = 2
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=25|end_char=28
+2	“dëbimi”	tdëbim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	advmod	_	start_char=29|end_char=37|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=37|end_char=38
+4	te	te	ADP	_	Case=Nom	5	case	_	start_char=39|end_char=41
+5	thirrja	thirrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=42|end_char=49
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=50|end_char=53
+7	investime	investim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=54|end_char=63|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=63|end_char=64
+9	kthesa	kthesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	list	_	start_char=65|end_char=71
+10	ekstreme	ekstrem	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=72|end_char=80
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=81|end_char=82
+12	ministrit	ministr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=83|end_char=92
+13	grek	grek	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=93|end_char=97|SpacesAfter=\n
+14	Ministri	ministr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=98|end_char=106
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=107|end_char=108
+16	Zhvillimit	Zhvillim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=109|end_char=119
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=120|end_char=123
+18	Investimeve	Investim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	conj	_	start_char=124|end_char=135
+19	Adonis	Adoni	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=136|end_char=142
+20	Georgiadis	Georgiad	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	flat	_	start_char=143|end_char=153|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=153|end_char=154
+22	ftoi	ftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=155|end_char=159
+23	komunitetin	komunitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=160|end_char=171
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=172|end_char=173
+25	biznesit	biznes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=174|end_char=182
+26	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=183|end_char=186
+27	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=187|end_char=196|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=196|end_char=197
+29	por	por	CCONJ	_	_	32	cc	_	start_char=198|end_char=201
+30	edhe	edhe	PART	_	_	32	mark	_	start_char=202|end_char=206
+31	nga	nga	ADP	_	Case=Nom	32	case	_	start_char=207|end_char=210
+32	rajoni	rajon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=211|end_char=217
+33	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=218|end_char=219
+34	gjerë	gjerë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=220|end_char=225
+35	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=226|end_char=227
+36	Ballkanit	Ballkan	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=228|end_char=237|SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	start_char=237|end_char=238
+38	për	për	PART	_	_	40	fixed	_	start_char=239|end_char=242
+39	të	të	PART	_	_	40	fixed	_	start_char=243|end_char=245
+40	investuar	investoj	VERB	_	VerbForm=Part	32	advmod	_	start_char=246|end_char=255
+41	në	në	ADP	_	Case=Acc	42	case	_	start_char=256|end_char=258
+42	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	obl	_	start_char=259|end_char=264|SpaceAfter=No
+43	.	.	PUNCT	_	_	40	punct	_	start_char=264|end_char=265|SpacesAfter=\n
+
+# text = Georgiadis theksoi se biznesmenët shqiptarë janë të mirëpritur në Greqi, si dhe shumë grekë janë aktivë në Shqipëri dhe theksoi se në të ardhmen të dy vendet mund të kenë lidhje më të forta ekonomike, në kontekstin e një marrëdhënieje më të ngushtë evropiane.
+# sent_id = 3
+1	Georgiadis	Georgiad	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=266|end_char=276
+2	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=277|end_char=284
+3	se	se	SCONJ	_	_	6	mark	_	start_char=285|end_char=287
+4	biznesmenët	biznesmen	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=288|end_char=299
+5	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=300|end_char=309
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=310|end_char=314
+7	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=315|end_char=317
+8	mirëpritur	mirëpritur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	cop	_	start_char=318|end_char=328
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=329|end_char=331
+10	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=332|end_char=337|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=337|end_char=338
+12	si	si	SCONJ	_	_	13	fixed	_	start_char=339|end_char=341
+13	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=342|end_char=345
+14	shumë	shumë	ADV	_	AdvType=Deg	15	advmod	_	start_char=346|end_char=351
+15	grekë	grekë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	conj	_	start_char=352|end_char=357
+16	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	mark	_	start_char=358|end_char=362
+17	aktivë	aktivë	ADV	_	AdvType=Man	15	advmod	_	start_char=363|end_char=369
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=370|end_char=372
+19	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=373|end_char=381
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=382|end_char=385
+21	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=386|end_char=393
+22	se	se	SCONJ	_	_	31	mark	_	start_char=394|end_char=396
+23	në	në	ADP	_	Case=Acc	25	case	_	start_char=397|end_char=399
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=400|end_char=402
+25	ardhmen	ardhme	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=403|end_char=410
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=411|end_char=413
+27	dy	dy	NUM	_	NumType=Sets	28	nummod	_	start_char=414|end_char=416
+28	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=417|end_char=423
+29	mund	mund	AUX	_	_	31	aux	_	start_char=424|end_char=428
+30	të	të	PART	_	_	31	fixed	_	start_char=429|end_char=431
+31	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	advcl	_	start_char=432|end_char=436
+32	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	obj	_	start_char=437|end_char=443
+33	më	më	PART	_	_	35	mark	_	start_char=444|end_char=446
+34	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=447|end_char=449
+35	forta	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	start_char=450|end_char=455
+36	ekonomike	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	35	amod	_	start_char=456|end_char=465|SpaceAfter=No
+37	,	,	PUNCT	_	_	39	punct	_	start_char=465|end_char=466
+38	në	në	ADP	_	Case=Acc	39	case	_	start_char=467|end_char=469
+39	kontekstin	kontekst	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	advmod	_	start_char=470|end_char=480
+40	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=481|end_char=482
+41	një	një	DET	_	Definite=Ind	42	det	_	start_char=483|end_char=486
+42	marrëdhënieje	marrëdhënije	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	39	nmod	_	start_char=487|end_char=500
+43	më	më	PART	_	_	45	mark	_	start_char=501|end_char=503
+44	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	45	det	_	start_char=504|end_char=506
+45	ngushtë	ngushtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=507|end_char=514
+46	evropiane	evropian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=515|end_char=524|SpaceAfter=No
+47	.	.	PUNCT	_	_	31	punct	_	start_char=524|end_char=525|SpacesAfter=\n\n
+
+# text = Ftesa e ministrit për investitorët shqiptarë ka bërë jehonë në Greqi.
+# sent_id = 4
+1	Ftesa	Ftesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=527|end_char=532
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=533|end_char=534
+3	ministrit	ministr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=535|end_char=544
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=545|end_char=548
+5	investitorët	investitor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=549|end_char=561
+6	shqiptarë	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=562|end_char=571
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=572|end_char=574
+8	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=575|end_char=579
+9	jehonë	jehonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=580|end_char=586
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=587|end_char=589
+11	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=590|end_char=595|SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	start_char=595|end_char=596
+
+# text = Përse?
+# sent_id = 5
+1	Përse	përse	ADV	_	AdvType=Tim	0	root	_	start_char=597|end_char=602|SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	start_char=602|end_char=603
+
+# text = Mediat kanë rikthyer deklaratat e Adonis Georgiadis disa vite më parë, në 2011 kur thoshte se shqiptarët duhet të dëbohen.
+# sent_id = 6
+1	Mediat	mediat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=604|end_char=610
+2	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=611|end_char=615
+3	rikthyer	rikthyj	VERB	_	VerbForm=Part	0	root	_	start_char=616|end_char=624
+4	deklaratat	deklaratë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=625|end_char=635
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=636|end_char=637
+6	Adonis	Adoni	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=638|end_char=644
+7	Georgiadis	Georgiad	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=645|end_char=655
+8	disa	disa	PRON	_	PronType=Ind	9	det	_	start_char=656|end_char=660
+9	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=661|end_char=665
+10	më	më	PART	_	_	11	mark	_	start_char=666|end_char=668
+11	parë	parë	ADV	_	AdvType=Tim	9	advmod	_	start_char=669|end_char=673|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=673|end_char=674
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=675|end_char=677
+14	2011	2011	NUM	_	NumType=Card	16	advmod	_	start_char=678|end_char=682
+15	kur	kur	SCONJ	_	_	16	mark	_	start_char=683|end_char=686
+16	thoshte	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	9	acl:relcl	_	start_char=687|end_char=694
+17	se	se	SCONJ	_	_	21	mark	_	start_char=695|end_char=697
+18	shqiptarët	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	nsubj	_	start_char=698|end_char=708
+19	duhet	duhem	AUX	_	_	21	aux	_	start_char=709|end_char=714
+20	të	të	PART	_	_	21	fixed	_	start_char=715|end_char=717
+21	dëbohen	dëboj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	16	ccomp	_	start_char=718|end_char=725|SpaceAfter=No
+22	.	.	PUNCT	_	_	16	punct	_	start_char=725|end_char=726|SpacesAfter=\n
+
+# text = Kur ishte pjesë e partisë ekstreme greke LAOS, Georgiadis kërkonte dëbimin e shqiptarëve.
+# sent_id = 7
+1	Kur	kur	SCONJ	_	_	2	mark	_	start_char=727|end_char=730
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	11	advcl	_	start_char=731|end_char=736
+3	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	cop	_	start_char=737|end_char=742
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=743|end_char=744
+5	partisë	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=745|end_char=752
+6	ekstreme	ekstrem	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=753|end_char=761
+7	greke	grek	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=762|end_char=767
+8	LAOS	LAOS	PROPN	_	Foreign=Yes	5	appos	_	start_char=768|end_char=772|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=772|end_char=773
+10	Georgiadis	Georgiad	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=774|end_char=784
+11	kërkonte	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=785|end_char=793
+12	dëbimin	dëbim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=794|end_char=801
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=802|end_char=803
+14	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=804|end_char=815|SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	start_char=815|end_char=816
+
+# text = Në një nga emisionet e tij televizive ai tha:
+# sent_id = 8
+1	Në	në	ADP	_	Case=Acc	4	case	_	start_char=817|end_char=819
+2	një	një	DET	_	Definite=Ind	4	det	_	start_char=820|end_char=823
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=824|end_char=827
+4	emisionet	emision	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=828|end_char=837
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=838|end_char=839
+6	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	amod:poss	_	start_char=840|end_char=843
+7	televizive	televiziv	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=844|end_char=854
+8	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	start_char=855|end_char=857
+9	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=858|end_char=861|SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	start_char=861|end_char=862
+
+# text = “Nesër automatikisht do të deportonim të gjithë shqiptarët nga Greqia.
+# sent_id = 9
+1	“	"	PUNCT	_	_	2	punct	_	start_char=863|end_char=864|SpaceAfter=No
+2	Nesër	Nesër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	start_char=864|end_char=869
+3	automatikisht	automatikisht	ADV	_	AdvType=Man	2	flat	_	start_char=870|end_char=883
+4	do	do	PART	_	_	6	fixed	_	start_char=884|end_char=886
+5	të	të	PART	_	_	6	fixed	_	start_char=887|end_char=889
+6	deportonim	deportoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=890|end_char=900
+7	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=901|end_char=903
+8	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	9	det	_	start_char=904|end_char=910
+9	shqiptarët	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	6	obj	_	start_char=911|end_char=921
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=922|end_char=925
+11	Greqia	Greqi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=926|end_char=932|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	start_char=932|end_char=933|SpacesAfter=\n
+
+# text = Unë do t’i dëboja të nesërmen.
+# sent_id = 10
+1	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=934|end_char=937
+2	do	do	PART	_	_	4	fixed	_	start_char=938|end_char=940
+3	t’i	t’i	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=941|end_char=944
+4	dëboja	dëboj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=945|end_char=951
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=952|end_char=954
+6	nesërmen	nesërmen	ADV	_	AdvType=Man	4	advmod	_	start_char=955|end_char=963|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	start_char=963|end_char=964
+
+# text = Por unë jam unë në pushtet, është PASOK” tha ai, që tashmë ka ndryshuar mendim, pasi u bë pjesë e Demokracisë së re dhe tani është në ministër.
+# sent_id = 11
+1	Por	por	CCONJ	_	_	8	cc	_	start_char=965|end_char=968
+2	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=969|end_char=972
+3	jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	advcl	_	start_char=973|end_char=976
+4	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=977|end_char=980
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=981|end_char=983
+6	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=984|end_char=991|SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	start_char=991|end_char=992
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=993|end_char=998
+9	PASOK”	PASOK”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=999|end_char=1005
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	csubj	_	start_char=1006|end_char=1009
+11	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=1010|end_char=1012|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=1012|end_char=1013
+13	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=1014|end_char=1016
+14	tashmë	tashmë	ADV	_	AdvType=Tim	16	advmod	_	start_char=1017|end_char=1023
+15	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=1024|end_char=1026
+16	ndryshuar	ndryshoj	VERB	_	VerbForm=Part	10	advcl	_	start_char=1027|end_char=1036
+17	mendim	mendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=1037|end_char=1043|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=1043|end_char=1044
+19	pasi	pasi	SCONJ	_	_	21	mark	_	start_char=1045|end_char=1049
+20	u	u	PART	_	_	21	fixed	_	start_char=1050|end_char=1051
+21	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	advcl	_	start_char=1052|end_char=1054
+22	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=1055|end_char=1060
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=1061|end_char=1062
+24	Demokracisë	demokraci	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=1063|end_char=1074
+25	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=1075|end_char=1077
+26	re	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=1078|end_char=1080
+27	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=1081|end_char=1084
+28	tani	tani	ADV	_	AdvType=Tim	29	advmod	_	start_char=1085|end_char=1089
+29	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	start_char=1090|end_char=1095
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=1096|end_char=1098
+31	ministër	ministër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	obl:arg	_	start_char=1099|end_char=1107|SpaceAfter=No
+32	.	.	PUNCT	_	_	29	punct	_	start_char=1107|end_char=1108|SpaceAfter=No
+
+# text = /Abcnews.al NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 12
+1	/Abcnews.	/Abcnews.	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1108|end_char=1117|SpaceAfter=No
+2	al	al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=1117|end_char=1119|SpacesAfter=\n
+3	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	det	_	start_char=1120|end_char=1122
+4	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=1123|end_char=1133|SpaceAfter=No
+5	:	:	PUNCT	_	_	6	punct	_	start_char=1133|end_char=1134|SpacesAfter=\n
+6	+355	+355	NUM	_	NumType=Card	4	flat	_	start_char=1135|end_char=1139
+7	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1140|end_char=1142
+8	608	608	NUM	_	NumType=Card	6	conj	_	start_char=1143|end_char=1146
+9	0290	0290	NUM	_	NumType=Card	8	conj	_	start_char=1147|end_char=1151|SpacesAfter=\n
+10	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=1152|end_char=1170|SpacesAfter=\n
+11	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	start_char=1171|end_char=1180
+12	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1181|end_char=1193
+13	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	12	flat	_	start_char=1194|end_char=1200|SpacesAfter=\n
+14	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=1201|end_char=1210
+15	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat	_	start_char=1211|end_char=1223
+16	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	parataxis	_	start_char=1224|end_char=1231|SpacesAfter=\n\n\n
+

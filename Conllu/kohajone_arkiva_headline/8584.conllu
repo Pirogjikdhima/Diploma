@@ -1,0 +1,401 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Mjaft pritëm, këtu po diskutohet uria dhe liria!
+# sent_id = 1
+1	Mjaft	mjaft	ADV	_	AdvType=Deg	2	advmod	_	start_char=1|end_char=6
+2	pritëm	pritëj	VERB	_	Mood=Ind|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=7|end_char=13|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	këtu	këtu	ADV	_	AdvType=Tim	6	advmod	_	start_char=15|end_char=19
+5	po	po	PART	_	_	6	mark	_	start_char=20|end_char=22
+6	diskutohet	diskutoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=23|end_char=33
+7	uria	uria	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=34|end_char=38
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=39|end_char=42
+9	liria	liri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=43|end_char=48|SpaceAfter=No
+10	!	!	PUNCT	_	_	6	punct	_	start_char=48|end_char=49
+
+# text = Me maska, jemi gati për të protestuar kundër qeverisë”
+# sent_id = 2
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=50|end_char=52
+2	maska	maskë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=53|end_char=58|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=58|end_char=59
+4	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=60|end_char=64
+5	gati	gati	ADV	_	AdvType=Man	4	advmod	_	start_char=65|end_char=69
+6	për	për	PART	_	_	8	fixed	_	start_char=70|end_char=73
+7	të	të	PART	_	_	8	fixed	_	start_char=74|end_char=76
+8	protestuar	protestoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=77|end_char=87
+9	kundër	kundër	ADP	_	Case=Abl	10	case	_	start_char=88|end_char=94
+10	qeverisë	qeveri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	start_char=95|end_char=103|SpaceAfter=No
+11	”	"	PUNCT	_	_	4	punct	_	start_char=103|end_char=104|SpacesAfter=\n
+
+# text = Mateo Salvini, kreu i Lega partisë më të madhe opozitare në Itali, deklaroi sot se qytetarët janë gati për të protestuar kundër qeverisë së Guseppe Contes.
+# sent_id = 3
+1	Mateo	Mateo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=105|end_char=110
+2	Salvini	Salvin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=111|end_char=118|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=118|end_char=119
+4	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	start_char=120|end_char=124
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=125|end_char=126
+6	Lega	Legë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=127|end_char=131
+7	partisë	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=132|end_char=139
+8	më	më	PART	_	_	10	mark	_	start_char=140|end_char=142
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=143|end_char=145
+10	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=146|end_char=151
+11	opozitare	opozitar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=152|end_char=161
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=162|end_char=164
+13	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=165|end_char=170|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=170|end_char=171
+15	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=172|end_char=180
+16	sot	sot	ADV	_	AdvType=Tim	15	advmod	_	start_char=181|end_char=184
+17	se	se	SCONJ	_	_	19	mark	_	start_char=185|end_char=187
+18	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	nsubj	_	start_char=188|end_char=197
+19	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	advcl	_	start_char=198|end_char=202
+20	gati	gati	ADV	_	AdvType=Man	19	advmod	_	start_char=203|end_char=207
+21	për	për	PART	_	_	23	fixed	_	start_char=208|end_char=211
+22	të	të	PART	_	_	23	fixed	_	start_char=212|end_char=214
+23	protestuar	protestoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=215|end_char=225
+24	kundër	kundër	ADP	_	Case=Abl	25	case	_	start_char=226|end_char=232
+25	qeverisë	qeveri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	23	obl	_	start_char=233|end_char=241
+26	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=242|end_char=244
+27	Guseppe	Gusepp	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=245|end_char=252
+28	Contes	Contes	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	flat	_	start_char=253|end_char=259|SpaceAfter=No
+29	.	.	PUNCT	_	_	19	punct	_	start_char=259|end_char=260|SpacesAfter=\n
+
+# text = Në një video mesazh për qytetarët, Salvini deklaroi se nëse qeveria nuk dëgjon dhe nuk pranon këshillat për të hapur ekonominë, qytetarët do të dalin në rrugë.
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=261|end_char=263
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=264|end_char=267
+3	video	video	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=268|end_char=273
+4	mesazh	mesazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=274|end_char=280
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=281|end_char=284
+6	qytetarët	qytetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=285|end_char=294|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=294|end_char=295
+8	Salvini	Salvin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=296|end_char=303
+9	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=304|end_char=312
+10	se	se	SCONJ	_	_	14	mark	_	start_char=313|end_char=315
+11	nëse	nëse	SCONJ	_	_	14	mark	_	start_char=316|end_char=320
+12	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=321|end_char=328
+13	nuk	nuk	PART	_	_	14	mark	_	start_char=329|end_char=332
+14	dëgjon	dëgjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=333|end_char=339
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=340|end_char=343
+16	nuk	nuk	PART	_	_	17	mark	_	start_char=344|end_char=347
+17	pranon	pranoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=348|end_char=354
+18	këshillat	këshillë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=355|end_char=364
+19	për	për	PART	_	_	21	fixed	_	start_char=365|end_char=368
+20	të	të	PART	_	_	21	fixed	_	start_char=369|end_char=371
+21	hapur	hap	VERB	_	VerbForm=Part	17	advmod	_	start_char=372|end_char=377
+22	ekonominë	ekonomi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=378|end_char=387|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=387|end_char=388
+24	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	start_char=389|end_char=398
+25	do	do	PART	_	_	27	fixed	_	start_char=399|end_char=401
+26	të	të	PART	_	_	27	fixed	_	start_char=402|end_char=404
+27	dalin	dal	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	advcl	_	start_char=405|end_char=410
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=411|end_char=413
+29	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	start_char=414|end_char=419|SpaceAfter=No
+30	.	.	PUNCT	_	_	27	punct	_	start_char=419|end_char=420|SpacesAfter=\n
+
+# text = “Nëse nuk na dëgjojnë do të shihemi në mënyra të tjera edhe jashtë rrjeteve sociale.
+# sent_id = 5
+1	“	"	PUNCT	_	_	2	punct	_	start_char=421|end_char=422|SpaceAfter=No
+2	Nëse	nëse	SCONJ	_	_	5	mark	_	start_char=422|end_char=426
+3	nuk	nuk	PART	_	_	5	mark	_	start_char=427|end_char=430
+4	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	iobj	_	start_char=431|end_char=433
+5	dëgjojnë	dëgjoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=434|end_char=442
+6	do	do	PART	_	_	8	fixed	_	start_char=443|end_char=445
+7	të	të	PART	_	_	8	fixed	_	start_char=446|end_char=448
+8	shihemi	shihem	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Pass	5	advcl	_	start_char=449|end_char=456
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=457|end_char=459
+10	mënyra	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=460|end_char=466
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=467|end_char=469
+12	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	amod	_	start_char=470|end_char=475
+13	edhe	edhe	PART	_	_	15	cc	_	start_char=476|end_char=480
+14	jashtë	jashtë	ADP	_	Case=Abl	15	case	_	start_char=481|end_char=487
+15	rrjeteve	rrjet	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=488|end_char=496
+16	sociale	social	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=497|end_char=504|SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	start_char=504|end_char=505
+
+# text = Ka një muaj e gjysmë që flas vetëm para kompjuterit.
+# sent_id = 6
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=506|end_char=508
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=509|end_char=512
+3	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=513|end_char=517
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=518|end_char=519
+5	gjysmë	gjysmë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=520|end_char=526
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=527|end_char=529
+7	flas	flaj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=530|end_char=534
+8	vetëm	vetëm	PART	_	_	10	mark	_	start_char=535|end_char=540
+9	para	para	ADP	_	Case=Abl	10	case	_	start_char=541|end_char=545
+10	kompjuterit	kompjuter	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=546|end_char=557|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	start_char=557|end_char=558
+
+# text = Do të kthehemi në rrugët dhe sheshet tona, do respektojmë limitet dhe rregullat (e sigurisë), por këtu është në diskutim liria dhe e ardhmja jonë”,- tha kreu i LEGA.
+# sent_id = 7
+1	Do	do	PART	_	_	3	fixed	_	start_char=559|end_char=561
+2	të	të	PART	_	_	3	fixed	_	start_char=562|end_char=564
+3	kthehemi	kthehem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=565|end_char=573
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=574|end_char=576
+5	rrugët	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=577|end_char=583
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=584|end_char=587
+7	sheshet	shesh	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=588|end_char=595
+8	tona	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	amod	_	start_char=596|end_char=600|SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	start_char=600|end_char=601
+10	do	do	PART	_	_	11	fixed	_	start_char=602|end_char=604
+11	respektojmë	respektoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=605|end_char=616
+12	limitet	limit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=617|end_char=624
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=625|end_char=628
+14	rregullat	rregullë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=629|end_char=638
+15	(e	(e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=639|end_char=641
+16	sigurisë	siguri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=642|end_char=650|SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	start_char=650|end_char=651|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=651|end_char=652
+19	por	por	CCONJ	_	_	21	cc	_	start_char=653|end_char=656
+20	këtu	ky	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	21	nsubj	_	start_char=657|end_char=661
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=662|end_char=667
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=668|end_char=670
+23	diskutim	diskutim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	start_char=671|end_char=679
+24	liria	liri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=680|end_char=685
+25	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=686|end_char=689
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=690|end_char=691
+27	ardhmja	ardhmje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	conj	_	start_char=692|end_char=699
+28	jonë”,	jonë”,	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=700|end_char=706|SpaceAfter=No
+29	-	-	PUNCT	_	_	30	punct	_	start_char=706|end_char=707
+30	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	aux	_	start_char=708|end_char=711
+31	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	conj	_	start_char=712|end_char=716
+32	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=717|end_char=718
+33	LEGA	LEGA	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=719|end_char=723|SpaceAfter=No
+34	.	.	PUNCT	_	_	31	punct	_	start_char=723|end_char=724|SpacesAfter=\n
+
+# text = Ai deklaroi se Italia duhet të nisë sa më shpejt për prodhimin ekonomik, duke zbatuar rregullat e sigurisë.
+# sent_id = 8
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=725|end_char=727
+2	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=728|end_char=736
+3	se	se	SCONJ	_	_	7	mark	_	start_char=737|end_char=739
+4	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=740|end_char=746
+5	duhet	duhem	AUX	_	_	7	aux	_	start_char=747|end_char=752
+6	të	të	PART	_	_	7	fixed	_	start_char=753|end_char=755
+7	nisë	nij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=756|end_char=760
+8	sa	sa	SCONJ	_	_	10	mark	_	start_char=761|end_char=763
+9	më	më	PART	_	_	10	mark	_	start_char=764|end_char=766
+10	shpejt	shpejt	ADV	_	AdvType=Tim	7	advmod	_	start_char=767|end_char=773
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=774|end_char=777
+12	prodhimin	prodhim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=778|end_char=787
+13	ekonomik	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=788|end_char=796|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=796|end_char=797
+15	duke	duke	PART	_	_	16	fixed	_	start_char=798|end_char=802
+16	zbatuar	zbatoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=803|end_char=810
+17	rregullat	rregullë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obj	_	start_char=811|end_char=820
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=821|end_char=822
+19	sigurisë	siguri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=823|end_char=831|SpaceAfter=No
+20	.	.	PUNCT	_	_	16	punct	_	start_char=831|end_char=832|SpacesAfter=\n
+
+# text = “Kemi pritur, dëgjuar, sugjeruar dhe bashkëpunuar me qeverinë.
+# sent_id = 9
+1	“	"	PUNCT	_	_	3	punct	_	start_char=833|end_char=834|SpaceAfter=No
+2	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=834|end_char=838
+3	pritur	pritoj	VERB	_	VerbForm=Part	7	advcl	_	start_char=839|end_char=845|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=845|end_char=846
+5	dëgjuar	dëgjoj	VERB	_	VerbForm=Part	0	root	_	start_char=847|end_char=854|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	start_char=854|end_char=855
+7	sugjeruar	sugjeroj	VERB	_	VerbForm=Part	5	advmod	_	start_char=856|end_char=865
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=866|end_char=869
+9	bashkëpunuar	bashkëpunoj	VERB	_	VerbForm=Part	7	conj	_	start_char=870|end_char=882
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=883|end_char=885
+11	qeverinë	qeveri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=886|end_char=894|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	start_char=894|end_char=895
+
+# text = Tani mjaft më, pas 47 ditësh të mbyllur ne themi: mjaft, na lini të dalim, të punojmë dhe të fitojmë”,-
+# sent_id = 10
+1	Tani	tani	ADV	_	AdvType=Tim	16	advmod	_	start_char=896|end_char=900
+2	mjaft	mjaft	ADV	_	AdvType=Deg	1	advmod	_	start_char=901|end_char=906
+3	më	më	PART	_	_	2	mark	_	start_char=907|end_char=909|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	start_char=909|end_char=910
+5	pas	pas	ADP	_	Case=Abl	7	case	_	start_char=911|end_char=914
+6	47	47	NUM	_	NumType=Card	7	nummod	_	start_char=915|end_char=917
+7	ditësh	ditë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	11	advmod	_	start_char=918|end_char=924
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=925|end_char=927
+9	mbyllur	mbyllur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=928|end_char=935
+10	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=936|end_char=938
+11	themi	them	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	advcl	_	start_char=939|end_char=944|SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	start_char=944|end_char=945
+13	mjaft	mjaft	ADV	_	AdvType=Deg	16	advmod	_	start_char=946|end_char=951|SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	start_char=951|end_char=952
+15	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	iobj	_	start_char=953|end_char=955
+16	lini	lij	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=956|end_char=960
+17	të	të	PART	_	_	18	fixed	_	start_char=961|end_char=963
+18	dalim	dal	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	ccomp	_	start_char=964|end_char=969|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	start_char=969|end_char=970
+20	të	të	PART	_	_	21	fixed	_	start_char=971|end_char=973
+21	punojmë	punoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	advcl	_	start_char=974|end_char=981
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=982|end_char=985
+23	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	24	det	_	start_char=986|end_char=988
+24	fitojmë”	fitojmë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	obj	_	start_char=989|end_char=997|SpaceAfter=No
+25	,	,	PUNCT	_	_	21	punct	_	start_char=997|end_char=998|SpaceAfter=No
+26	-	-	PUNCT	_	_	21	punct	_	start_char=998|end_char=999
+
+# text = u shpreh Salvini.
+# sent_id = 11
+1	u	u	PART	_	_	2	fixed	_	start_char=1000|end_char=1001
+2	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1002|end_char=1008
+3	Salvini	Salvin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=1009|end_char=1016|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=1016|end_char=1017|SpacesAfter=\n
+
+# text = Kreu i LEGA deklaroi se nëse qeveria vijon në këtë mënyrë strategjinë e hapjes së bizneseve, shumë prej sipërmarrjeve nuk do të hapen fare, pasi janë duke falimentuar.
+# sent_id = 12
+1	Kreu	krej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1018|end_char=1022
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1023|end_char=1024
+3	LEGA	LEGA	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	start_char=1025|end_char=1029
+4	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	start_char=1030|end_char=1038
+5	se	se	SCONJ	_	_	8	mark	_	start_char=1039|end_char=1041
+6	nëse	nëse	SCONJ	_	_	8	mark	_	start_char=1042|end_char=1046
+7	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1047|end_char=1054
+8	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=1055|end_char=1060
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=1061|end_char=1063
+10	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=1064|end_char=1068
+11	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=1069|end_char=1075
+12	strategjinë	strategji	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1076|end_char=1087
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=1088|end_char=1089
+14	hapjes	hapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=1090|end_char=1096
+15	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=1097|end_char=1099
+16	bizneseve	biznes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=1100|end_char=1109|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=1109|end_char=1110
+18	shumë	shumë	ADV	_	AdvType=Deg	20	advmod	_	start_char=1111|end_char=1116
+19	prej	prej	ADP	_	Case=Abl	20	case	_	start_char=1117|end_char=1121
+20	sipërmarrjeve	sipërmarrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	24	advmod	_	start_char=1122|end_char=1135
+21	nuk	nuk	PART	_	_	24	mark	_	start_char=1136|end_char=1139
+22	do	do	PART	_	_	24	fixed	_	start_char=1140|end_char=1142
+23	të	të	PART	_	_	24	fixed	_	start_char=1143|end_char=1145
+24	hapen	hap	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=1146|end_char=1151
+25	fare	fare	ADV	_	AdvType=Deg	24	advmod	_	start_char=1152|end_char=1156|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=1156|end_char=1157
+27	pasi	pasi	SCONJ	_	_	28	mark	_	start_char=1158|end_char=1162
+28	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=1163|end_char=1167
+29	duke	duke	PART	_	_	30	fixed	_	start_char=1168|end_char=1172
+30	falimentuar	falimentoj	VERB	_	VerbForm=Part	28	advmod	_	start_char=1173|end_char=1184|SpaceAfter=No
+31	.	.	PUNCT	_	_	24	punct	_	start_char=1184|end_char=1185|SpacesAfter=\n
+
+# text = “Punëtor, sipërmarrës, artizanë, tregtarë, prindër që duan të rrisin fëmijët nuk mund të presin më.
+# sent_id = 13
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1186|end_char=1187|SpaceAfter=No
+2	Punëtor	Punëtor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	start_char=1187|end_char=1194|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=1194|end_char=1195
+4	sipërmarrës	sipërmarrë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1196|end_char=1207|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=1207|end_char=1208
+6	artizanë	artizanë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	list	_	start_char=1209|end_char=1217|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=1217|end_char=1218
+8	tregtarë	tregtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	list	_	start_char=1219|end_char=1227|SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	start_char=1227|end_char=1228
+10	prindër	prindër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	8	list	_	start_char=1229|end_char=1236
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=1237|end_char=1239
+12	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=1240|end_char=1244
+13	të	të	PART	_	_	14	fixed	_	start_char=1245|end_char=1247
+14	rrisin	rris	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=1248|end_char=1254
+15	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	obj	_	start_char=1255|end_char=1262
+16	nuk	nuk	PART	_	_	19	mark	_	start_char=1263|end_char=1266
+17	mund	mund	AUX	_	_	19	aux	_	start_char=1267|end_char=1271
+18	të	të	PART	_	_	19	fixed	_	start_char=1272|end_char=1274
+19	presin	pres	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=1275|end_char=1281
+20	më	më	PART	_	_	19	advmod	_	start_char=1282|end_char=1284|SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	start_char=1284|end_char=1285
+
+# text = Shumë qytetarë na kërkojnë të organizohemi, jo vetëm në rrjetet sociale.
+# sent_id = 14
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=1286|end_char=1291
+2	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1292|end_char=1300
+3	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	_	start_char=1301|end_char=1303
+4	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1304|end_char=1312
+5	të	të	PART	_	_	6	fixed	_	start_char=1313|end_char=1315
+6	organizohemi	organizoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Pass	4	ccomp	_	start_char=1316|end_char=1328|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=1328|end_char=1329
+8	jo	jo	PART	_	_	9	fixed	_	start_char=1330|end_char=1332
+9	vetëm	vetëm	PART	_	_	11	mark	_	start_char=1333|end_char=1338
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=1339|end_char=1341
+11	rrjetet	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=1342|end_char=1349
+12	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=1350|end_char=1357|SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	start_char=1357|end_char=1358
+
+# text = Të sigurt, me masa, në distancë, paqësorë dhe të vendos, ne jemi gati.
+# sent_id = 15
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=1359|end_char=1361
+2	sigurt	sigurt	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=1362|end_char=1368|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	start_char=1368|end_char=1369
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=1370|end_char=1372
+5	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=1373|end_char=1377|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=1377|end_char=1378
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=1379|end_char=1381
+8	distancë	distancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=1382|end_char=1390|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1390|end_char=1391
+10	paqësorë	paqësorë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1392|end_char=1400
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=1401|end_char=1404
+12	të	të	PART	_	_	13	fixed	_	start_char=1405|end_char=1407
+13	vendos	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=1408|end_char=1414|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1414|end_char=1415
+15	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=1416|end_char=1418
+16	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	advcl	_	start_char=1419|end_char=1423
+17	gati	gati	ADV	_	AdvType=Man	16	advmod	_	start_char=1424|end_char=1428|SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	start_char=1428|end_char=1429
+
+# text = Përveç virusit është uria dhe mungesa e lirisë.
+# sent_id = 16
+1	Përveç	përveç	ADP	_	Case=Abl	2	case	_	start_char=1430|end_char=1436
+2	virusit	virus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=1437|end_char=1444
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1445|end_char=1450
+4	uria	uria	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	cop	_	start_char=1451|end_char=1455
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=1456|end_char=1459
+6	mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=1460|end_char=1467
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=1468|end_char=1469
+8	lirisë	liri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=1470|end_char=1476|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	start_char=1476|end_char=1477
+
+# text = Ne nuk mund ta lejojmë.
+# sent_id = 17
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=1478|end_char=1480
+2	nuk	nuk	PART	_	_	6	mark	_	start_char=1481|end_char=1484
+3	mund	mund	AUX	_	_	6	aux	_	start_char=1485|end_char=1489
+4-5	ta	_	_	_	_	_	_	_	start_char=1490|end_char=1492
+4	të	të	PART	_	_	6	fixed	_	_
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	lejojmë	lejoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1493|end_char=1500|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	start_char=1500|end_char=1501
+
+# text = Para së gjithash, Italia është e italianëve”,– deklaroi Salvini duke paralajmëruar nisjen e protestave kundër masave të qeverisë.
+# sent_id = 18
+1	Para	para	ADP	_	Case=Abl	3	case	_	start_char=1502|end_char=1506
+2	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1507|end_char=1509
+3	gjithash	gjithash	PRON	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Ind	6	advmod	_	start_char=1510|end_char=1518|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=1518|end_char=1519
+5	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1520|end_char=1526
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1527|end_char=1532
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1533|end_char=1534
+8	italianëve”	italianëve	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	cop	_	start_char=1535|end_char=1546|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	start_char=1546|end_char=1547|SpaceAfter=No
+10	–	–	PUNCT	_	_	11	punct	_	start_char=1547|end_char=1548
+11	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	parataxis	_	start_char=1549|end_char=1557
+12	Salvini	Salvin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1558|end_char=1565
+13	duke	duke	PART	_	_	14	fixed	_	start_char=1566|end_char=1570
+14	paralajmëruar	paralajmëroj	VERB	_	VerbForm=Part	11	advmod	_	start_char=1571|end_char=1584
+15	nisjen	nisje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=1585|end_char=1591
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=1592|end_char=1593
+17	protestave	protestë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=1594|end_char=1604
+18	kundër	kundër	ADP	_	Case=Abl	19	case	_	start_char=1605|end_char=1611
+19	masave	masa	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	advmod	_	start_char=1612|end_char=1618
+20	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=1619|end_char=1621
+21	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=1622|end_char=1630|SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	start_char=1630|end_char=1631|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 19
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1632|end_char=1634
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1635|end_char=1645|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1645|end_char=1646|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1647|end_char=1651
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1652|end_char=1654
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1655|end_char=1658
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1659|end_char=1663|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1664|end_char=1682|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1683|end_char=1692
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1693|end_char=1705
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1706|end_char=1712|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1713|end_char=1722
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1723|end_char=1735
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1736|end_char=1743|SpacesAfter=\n\n\n
+

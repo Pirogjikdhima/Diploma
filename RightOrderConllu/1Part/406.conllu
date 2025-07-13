@@ -1,0 +1,255 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Science”:
+# sent_id = 1
+1	Science”	Science”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1|end_char=9|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+
+# text = Populli shqiptar dhe gjuha shqipe, të paktën 6 mijë vjet të vjetër dhe autoktonë në trojet e veta 28/07/2023 Akademia e Shkencave e Shqipërisë ndau të premten një artikull të “Science”, që konfirmon se shqipja është një ndër tri gjuhët më të vjetra indo-europiane që fliten ende.
+# sent_id = 2
+1	Populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=11|end_char=18
+2	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=19|end_char=27
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=28|end_char=31
+4	gjuha	gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	start_char=32|end_char=37
+5	shqipe	shqip	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=38|end_char=44|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=44|end_char=45
+7	të	të	PART	_	_	8	fixed	_	start_char=46|end_char=48
+8	paktën	paktë	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=49|end_char=55
+9	6	6	NUM	_	NumType=Card	11	nummod	_	start_char=56|end_char=57
+10	mijë	mijë	NUM	_	NumType=Sets	11	nummod	_	start_char=58|end_char=62
+11	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	advmod	_	start_char=63|end_char=67
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=68|end_char=70
+13	vjetër	vjetër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=71|end_char=77
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=78|end_char=81
+15	autoktonë	autoktonë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	conj	_	start_char=82|end_char=91
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=92|end_char=94
+17	trojet	truall	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obl	_	start_char=95|end_char=101
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=102|end_char=103
+19	veta	vetë	PRON	_	Gender=Fem|Number=Plur|PronType=Prs|Reflex=Yes	17	amod	_	start_char=104|end_char=108|SpacesAfter=\n
+20	28	28	NUM	_	NumType=Card	21	nummod	_	start_char=109|end_char=111|SpaceAfter=No
+21	/07	/07	SYM	_	_	17	nmod	_	start_char=111|end_char=114|SpaceAfter=No
+22	/	/	PUNCT	_	_	21	punct	_	start_char=114|end_char=115|SpaceAfter=No
+23	2023	2023	NUM	_	NumType=Card	21	flat	_	start_char=115|end_char=119|SpacesAfter=\n
+24	Akademia	Akademi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	appos	_	start_char=120|end_char=128
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=129|end_char=130
+26	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=131|end_char=140
+27	e	e	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=141|end_char=142
+28	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=143|end_char=153
+29	ndau	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	start_char=154|end_char=158
+30	të	të	PART	_	_	31	fixed	_	start_char=159|end_char=161
+31	premten	premtej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	29	ccomp	_	start_char=162|end_char=169
+32	një	një	DET	_	Definite=Ind	33	det	_	start_char=170|end_char=173
+33	artikull	artikull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	obj	_	start_char=174|end_char=182
+34	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=183|end_char=185
+35	“	"	PUNCT	_	_	36	punct	_	start_char=186|end_char=187|SpaceAfter=No
+36	Science”	Science”	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=187|end_char=195|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	start_char=195|end_char=196
+38	që	që	PRON	_	PronType=Rel	39	nsubj	_	start_char=197|end_char=199
+39	konfirmon	konfirmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	acl	_	start_char=200|end_char=209
+40	se	se	SCONJ	_	_	42	mark	_	start_char=210|end_char=212
+41	shqipja	shqipjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	42	nsubj	_	start_char=213|end_char=220
+42	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	advcl	_	start_char=221|end_char=226
+43	një	një	DET	_	Definite=Ind	46	det	_	start_char=227|end_char=230
+44	ndër	ndër	ADP	_	Case=Acc	46	case	_	start_char=231|end_char=235
+45	tri	tre	NUM	_	NumType=Card	46	nummod	_	start_char=236|end_char=239
+46	gjuhët	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	42	advmod	_	start_char=240|end_char=246
+47	më	më	PART	_	_	49	mark	_	start_char=247|end_char=249
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	49	det	_	start_char=250|end_char=252
+49	vjetra	vjetër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	start_char=253|end_char=259
+50	indo-europiane	indo-europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	start_char=260|end_char=274
+51	që	që	PRON	_	PronType=Rel	52	nsubj	_	start_char=275|end_char=277
+52	fliten	flit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	46	acl:relcl	_	start_char=278|end_char=284
+53	ende	ende	ADV	_	AdvType=Tim	52	advmod	_	start_char=285|end_char=289|SpaceAfter=No
+54	.	.	PUNCT	_	_	42	punct	_	start_char=289|end_char=290|SpacesAfter=\n
+
+# text = Studimi i kryer me metoda të sofistikuara për gjuhët europiane, e rendit gjuhën shqipe ndër më të vjetrat bashkë me armenishten dhe greqishten.
+# sent_id = 3
+1	Studimi	studim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=291|end_char=298
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=299|end_char=300
+3	kryer	kryej	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=301|end_char=306
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=307|end_char=309
+5	metoda	metodë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=310|end_char=316
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=317|end_char=319
+7	sofistikuara	sofistikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=320|end_char=332
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=333|end_char=336
+9	gjuhët	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=337|end_char=343
+10	europiane	europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=344|end_char=353|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=353|end_char=354
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=355|end_char=356
+13	rendit	rend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=357|end_char=363
+14	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=364|end_char=370
+15	shqipe	shqip	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=371|end_char=377
+16	ndër	ndër	ADP	_	Case=Acc	19	case	_	start_char=378|end_char=382
+17	më	më	PART	_	_	19	mark	_	start_char=383|end_char=385
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=386|end_char=388
+19	vjetrat	vjetrë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=389|end_char=396
+20	bashkë	bashkë	ADV	_	AdvType=Man	22	advmod	_	start_char=397|end_char=403
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=404|end_char=406
+22	armenishten	armenishten	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	advmod	_	start_char=407|end_char=418
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=419|end_char=422
+24	greqishten	greqishte	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	conj	_	start_char=423|end_char=433|SpaceAfter=No
+25	.	.	PUNCT	_	_	19	punct	_	start_char=433|end_char=434|SpacesAfter=\n
+
+# text = Ndërkohë, kërkimi i bërë kryesisht përmes studimeve gjuhësore kompjuterike konfirmon vjetërsinë dhe origjinalitetin e shqipes.
+# sent_id = 4
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	11	advmod	_	start_char=435|end_char=443|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=443|end_char=444
+3	kërkimi	kërkim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=445|end_char=452
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=453|end_char=454
+5	bërë	bërë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=455|end_char=459
+6	kryesisht	kryesisht	ADV	_	AdvType=Man	11	advmod	_	start_char=460|end_char=469
+7	përmes	përmes	ADP	_	Case=Abl	8	case	_	start_char=470|end_char=476
+8	studimeve	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=477|end_char=486
+9	gjuhësore	gjuhësor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=487|end_char=496
+10	kompjuterike	kompjuterik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=497|end_char=509
+11	konfirmon	konfirmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=510|end_char=519
+12	vjetërsinë	vjetërsi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=520|end_char=530
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=531|end_char=534
+14	origjinalitetin	origjinalitetet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=535|end_char=550
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=551|end_char=552
+16	shqipes	shqipe	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=553|end_char=560|SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	start_char=560|end_char=561|SpacesAfter=\n
+
+# text = Gjithashtu, shkencëtarët grekë që kanë bërë studime edhe me ADN-në kolaudojnë që popullata shqiptare është autoktone dhe shumë e vjetër në këto troje.
+# sent_id = 5
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	12	advmod	_	start_char=562|end_char=572|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=572|end_char=573
+3	shkencëtarët	shkencëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	start_char=574|end_char=586
+4	grekë	grekë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=587|end_char=592
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=593|end_char=595
+6	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=596|end_char=600
+7	bërë	bëj	VERB	_	VerbForm=Part	3	acl:relcl	_	start_char=601|end_char=605
+8	studime	studim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=606|end_char=613
+9	edhe	edhe	PART	_	_	11	mark	_	start_char=614|end_char=618
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=619|end_char=621
+11	ADN-në	ADN	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=622|end_char=628
+12	kolaudojnë	kolaudoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=629|end_char=639
+13	që	që	SCONJ	_	_	16	mark	_	start_char=640|end_char=642
+14	popullata	popullatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=643|end_char=652
+15	shqiptare	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=653|end_char=662
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=663|end_char=668
+17	autoktone	autokton	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	cop	_	start_char=669|end_char=678
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=679|end_char=682
+19	shumë	shumë	ADV	_	AdvType=Deg	21	advmod	_	start_char=683|end_char=688
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=689|end_char=690
+21	vjetër	vjetër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	conj	_	start_char=691|end_char=697
+22	në	në	ADP	_	Case=Acc	24	case	_	start_char=698|end_char=700
+23	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	24	det	_	start_char=701|end_char=705
+24	troje	troj	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	advmod	_	start_char=706|end_char=711|SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	start_char=711|end_char=712
+
+# text = Rezultatet përcaktojnë një shfaqje të gjuhëve indo-europiane rreth 8000 vjet më parë.
+# sent_id = 6
+1	Rezultatet	rezultat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	start_char=713|end_char=723
+2	përcaktojnë	përcaktoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=724|end_char=735
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=736|end_char=739
+4	shfaqje	shfaqje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=740|end_char=747
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=748|end_char=750
+6	gjuhëve	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=751|end_char=758
+7	indo-europiane	indo-europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=759|end_char=773
+8	rreth	rreth	ADP	_	Case=Abl	10	case	_	start_char=774|end_char=779
+9	8000	8000	NUM	_	NumType=Card	10	nummod	_	start_char=780|end_char=784
+10	vjet	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	2	advmod	_	start_char=785|end_char=789
+11	më	më	PART	_	_	12	mark	_	start_char=790|end_char=792
+12	parë	parë	ADV	_	AdvType=Tim	10	advmod	_	start_char=793|end_char=797|SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	start_char=797|end_char=798|SpacesAfter=\n
+
+# text = Sipas Akademisë së Shkencave tashmë vërtetohet përfundimisht dhe në mënyrë të pakundërshtueshme shkencërisht që, si populli shqiptar, ashtu dhe gjuha shqipe, janë të paktën 6 mijë vjet të vjetër dhe autoktonë në këto troje.
+# sent_id = 7
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=799|end_char=804
+2	Akademisë	akademi	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=805|end_char=814
+3	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=815|end_char=817
+4	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=818|end_char=827
+5	tashmë	tashmë	ADV	_	AdvType=Deg	6	advmod	_	start_char=828|end_char=834
+6	vërtetohet	vërtetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=835|end_char=845
+7	përfundimisht	përfundimisht	ADV	_	AdvType=Man	6	advmod	_	start_char=846|end_char=859
+8	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=860|end_char=863
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=864|end_char=866
+10	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=867|end_char=873
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=874|end_char=876
+12	pakundërshtueshme	pakundërshtumeshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=877|end_char=894
+13	shkencërisht	shkencërisht	ADV	_	AdvType=Man	10	advmod	_	start_char=895|end_char=907
+14	që	që	PRON	_	PronType=Rel	17	appos	_	start_char=908|end_char=910|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=910|end_char=911
+16	si	si	SCONJ	_	_	17	mark	_	start_char=912|end_char=914
+17	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	advmod	_	start_char=915|end_char=922
+18	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=923|end_char=931|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=931|end_char=932
+20	ashtu	ashtu	ADV	_	AdvType=Man	25	cc	_	start_char=933|end_char=938
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=939|end_char=942
+22	gjuha	gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	conj	_	start_char=943|end_char=948
+23	shqipe	shqip	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=949|end_char=955|SpaceAfter=No
+24	,	,	PUNCT	_	_	20	punct	_	start_char=955|end_char=956
+25	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=957|end_char=961
+26	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=962|end_char=964
+27	paktën	paktë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	cop	_	start_char=965|end_char=971
+28	6	6	NUM	_	NumType=Card	30	nummod	_	start_char=972|end_char=973
+29	mijë	mijë	NUM	_	NumType=Sets	30	nummod	_	start_char=974|end_char=978
+30	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	advmod	_	start_char=979|end_char=983
+31	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	32	det	_	start_char=984|end_char=986
+32	vjetër	vjetër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	start_char=987|end_char=993
+33	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=994|end_char=997
+34	autoktonë	autoktonë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	32	conj	_	start_char=998|end_char=1007
+35	në	në	ADP	_	Case=Acc	37	case	_	start_char=1008|end_char=1010
+36	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	37	det	_	start_char=1011|end_char=1015
+37	troje	troj	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	34	advmod	_	start_char=1016|end_char=1021|SpaceAfter=No
+38	.	.	PUNCT	_	_	25	punct	_	start_char=1021|end_char=1022|SpacesAfter=\n
+
+# text = “Në mënyrë të përmbledhur, referuar këtij studimi rezulton se gjuhët e familjes indo-europiane fliten nga pothuajse gjysma e popullsisë së botës, por origjina e tyre dhe modelet e përhapjes janë të diskutueshme” bëhet e ditur në njoftimin e Akademisë së Shkencave të Shqipërisë.
+# sent_id = 8
+1	“	"	PUNCT	_	_	3	punct	_	start_char=1023|end_char=1024|SpaceAfter=No
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=1024|end_char=1026
+3	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=1027|end_char=1033
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1034|end_char=1036
+5	përmbledhur	përmbledhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1037|end_char=1048|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	start_char=1048|end_char=1049
+7	referuar	referoj	VERB	_	VerbForm=Part	0	root	_	start_char=1050|end_char=1058
+8	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=1059|end_char=1064
+9	studimi	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=1065|end_char=1072
+10	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	start_char=1073|end_char=1081
+11	se	se	SCONJ	_	_	16	mark	_	start_char=1082|end_char=1084
+12	gjuhët	gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=1085|end_char=1091
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=1092|end_char=1093
+14	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=1094|end_char=1102
+15	indo-europiane	indo-europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=1103|end_char=1117
+16	fliten	flit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	conj	_	start_char=1118|end_char=1124
+17	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=1125|end_char=1128
+18	pothuajse	pothuajse	ADV	_	AdvType=Man	19	nummod	_	start_char=1129|end_char=1138
+19	gjysma	gjysmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=1139|end_char=1145
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=1146|end_char=1147
+21	popullsisë	popullsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=1148|end_char=1158
+22	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=1159|end_char=1161
+23	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=1162|end_char=1167|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=1167|end_char=1168
+25	por	por	CCONJ	_	_	26	cc	_	start_char=1169|end_char=1172
+26	origjina	origjinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	conj	_	start_char=1173|end_char=1181
+27	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=1182|end_char=1183
+28	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	amod:poss	_	start_char=1184|end_char=1188
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=1189|end_char=1192
+30	modelet	model	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	26	conj	_	start_char=1193|end_char=1200
+31	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=1201|end_char=1202
+32	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=1203|end_char=1212
+33	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=1213|end_char=1217
+34	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=1218|end_char=1220
+35	diskutueshme”	diskutueshme”	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	36	cop	_	start_char=1221|end_char=1234
+36	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	33	conj	_	start_char=1235|end_char=1240
+37	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=1241|end_char=1242
+38	ditur	ditur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	cop	_	start_char=1243|end_char=1248
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=1249|end_char=1251
+40	njoftimin	njoftim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	36	obl	_	start_char=1252|end_char=1261
+41	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=1262|end_char=1263
+42	Akademisë	akademi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=1264|end_char=1273
+43	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	44	det:poss	_	start_char=1274|end_char=1276
+44	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	42	nmod	_	start_char=1277|end_char=1286
+45	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	46	det:poss	_	start_char=1287|end_char=1289
+46	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	44	nmod	_	start_char=1290|end_char=1300|SpaceAfter=No
+47	.	.	PUNCT	_	_	36	punct	_	start_char=1300|end_char=1301|SpacesAfter=\n\n
+
+# text = / rtsh.al /
+# sent_id = 9
+1	/	/	PUNCT	_	_	2	punct	_	start_char=1303|end_char=1304
+2	rtsh.al	rtsh.al	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1305|end_char=1312
+3	/	/	PUNCT	_	_	2	punct	_	start_char=1313|end_char=1314|SpacesAfter=\n\n\n
+

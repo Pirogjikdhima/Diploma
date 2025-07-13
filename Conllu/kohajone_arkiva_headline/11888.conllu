@@ -1,0 +1,873 @@
+# text = Koment:
+# sent_id = 0
+1	Koment	Koment	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+
+# text = Finale në Siri?
+# sent_id = 1
+1	Finale	Final	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=8|end_char=14
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=15|end_char=17
+3	Siri	Siri	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=18|end_char=22|SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|SpacesAfter=\n
+
+# text = Në një kohë që në Gjenevë synohet të zhvillohen bisedime, Rusia dhe Asadi krijojnë fakte në Alepo.
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=24|end_char=26
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=27|end_char=30
+3	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=31|end_char=35
+4	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=36|end_char=38
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=39|end_char=41
+6	Gjenevë	Gjenevë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=42|end_char=49
+7	synohet	synoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=50|end_char=57
+8	të	të	PART	_	_	9	fixed	_	start_char=58|end_char=60
+9	zhvillohen	zhvilloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	ccomp	_	start_char=61|end_char=71
+10	bisedime	bisedim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	start_char=72|end_char=80|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=80|end_char=81
+12	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=82|end_char=87
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=88|end_char=91
+14	Asadi	Asadi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=92|end_char=97
+15	krijojnë	krijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=98|end_char=106
+16	fakte	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	start_char=107|end_char=112
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=113|end_char=115
+18	Alepo	Alepo	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	start_char=116|end_char=121|SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	start_char=121|end_char=122
+
+# text = Në këtë lojë pushteti ka një aktor politik që gëzohet dhe do të dalë prej saj si triumfues, mendon Alexander Kudasheff.
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=123|end_char=125
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=126|end_char=130
+3	lojë	lojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=131|end_char=135
+4	pushteti	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=136|end_char=144
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=145|end_char=147
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=148|end_char=151
+7	aktor	aktor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=152|end_char=157
+8	politik	politik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=158|end_char=165
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=166|end_char=168
+10	gëzohet	gëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	acl:relcl	_	start_char=169|end_char=176
+11	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=177|end_char=180
+12	do	do	PART	_	_	14	fixed	_	start_char=181|end_char=183
+13	të	të	PART	_	_	14	fixed	_	start_char=184|end_char=186
+14	dalë	dal	VERB	_	VerbForm=Part	10	conj	_	start_char=187|end_char=191
+15	prej	prej	ADP	_	Case=Abl	16	case	_	start_char=192|end_char=196
+16	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	start_char=197|end_char=200
+17	si	si	SCONJ	_	_	18	mark	_	start_char=201|end_char=203
+18	triumfues	triumfues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=204|end_char=213|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=213|end_char=214
+20	mendon	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=215|end_char=221
+21	Alexander	Alexander	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	nsubj	_	start_char=222|end_char=231
+22	Kudasheff	Kudasheff	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=232|end_char=241|SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	start_char=241|end_char=242
+
+# text = Shkatërrim në Alepo Duket se ka ardhur momenti i finales në Siri.
+# sent_id = 4
+1	Shkatërrim	shkatërrim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=243|end_char=253
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=254|end_char=256
+3	Alepo	Alepo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=257|end_char=262
+4	Duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=263|end_char=268
+5	se	se	SCONJ	_	_	7	mark	_	start_char=269|end_char=271
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=272|end_char=274
+7	ardhur	vij	VERB	_	VerbForm=Part	4	advcl	_	start_char=275|end_char=281
+8	momenti	moment	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=282|end_char=289
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=290|end_char=291
+10	finales	finale	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=292|end_char=299
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=300|end_char=302
+12	Siri	Siri	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=303|end_char=307|SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	start_char=307|end_char=308
+
+# text = Bashar al-Asad po e merr situatën nën kontroll.
+# sent_id = 5
+1	Bashar	Bashar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=309|end_char=315
+2	al-Asad	al-Asad	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=316|end_char=323
+3	po	po	PART	_	_	5	mark	_	start_char=324|end_char=326
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=327|end_char=328
+5	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=329|end_char=333
+6	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=334|end_char=342
+7	nën	nën	ADP	_	Case=Acc	8	case	_	start_char=343|end_char=346
+8	kontroll	kontroll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=347|end_char=355|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	start_char=355|end_char=356
+
+# text = Me ndihmën ruse, me ndihmën masive të aviacionit luftarak rus.
+# sent_id = 6
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=357|end_char=359
+2	ndihmën	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=360|end_char=367
+3	ruse	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=368|end_char=372|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	start_char=372|end_char=373
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=374|end_char=376
+6	ndihmën	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=377|end_char=384
+7	masive	masiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=385|end_char=391
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=392|end_char=394
+9	aviacionit	aviacion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=395|end_char=405
+10	luftarak	luftarak	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=406|end_char=414
+11	rus	rus	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=415|end_char=418|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=418|end_char=419
+
+# text = Dhe ndoshta edhe me mbështetje masive logjistike dhe teknike për ushtrinë siriane në tokë.
+# sent_id = 7
+1	Dhe	dhe	CCONJ	_	_	2	fixed	_	start_char=420|end_char=423
+2	ndoshta	ndoshta	ADV	_	AdvType=Tim	4	fixed	_	start_char=424|end_char=431
+3	edhe	edhe	PART	_	_	4	mark:emph	_	start_char=432|end_char=436
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=437|end_char=439
+5	mbështetje	mbështetje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=440|end_char=450
+6	masive	masiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=451|end_char=457
+7	logjistike	logjistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=458|end_char=468
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=469|end_char=472
+9	teknike	teknik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=473|end_char=480
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=481|end_char=484
+11	ushtrinë	ushtri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=485|end_char=493
+12	siriane	sirian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=494|end_char=501
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=502|end_char=504
+14	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=505|end_char=509|SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	start_char=509|end_char=510
+
+# text = Lufta për Alepon ka karakterin e një beteje vendimtare.
+# sent_id = 8
+1	Lufta	luftë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=511|end_char=516
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=517|end_char=520
+3	Alepon	Alepo	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=521|end_char=527
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=528|end_char=530
+5	karakterin	karakter	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=531|end_char=541
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=542|end_char=543
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=544|end_char=547
+8	beteje	betej	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=548|end_char=554
+9	vendimtare	vendimtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=555|end_char=565|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	start_char=565|end_char=566
+
+# text = Nëse trupat e Asadit e rimarrin qytetin në dorën e tyre – atëherë despoti sirian ka fituar më shumë se një betejë.
+# sent_id = 9
+1	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=567|end_char=571
+2	trupat	trupë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	start_char=572|end_char=578
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=579|end_char=580
+4	Asadit	Asad	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=581|end_char=587
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=588|end_char=589
+6	rimarrin	rimarr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=590|end_char=598
+7	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=599|end_char=606
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=607|end_char=609
+9	dorën	dorë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=610|end_char=615
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=616|end_char=617
+11	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	amod:poss	_	start_char=618|end_char=622
+12	–	–	PUNCT	_	_	13	punct	_	start_char=623|end_char=624
+13	atëherë	atëherë	ADV	_	AdvType=Tim	17	advmod	_	start_char=625|end_char=632
+14	despoti	despot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=633|end_char=640
+15	sirian	sirian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=641|end_char=647
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=648|end_char=650
+17	fituar	fitoj	VERB	_	VerbForm=Part	6	conj	_	start_char=651|end_char=657
+18	më	më	PART	_	_	19	mark	_	start_char=658|end_char=660
+19	shumë	shumë	ADV	_	AdvType=Deg	17	advmod	_	start_char=661|end_char=666
+20	se	se	SCONJ	_	_	22	mark	_	start_char=667|end_char=669
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=670|end_char=673
+22	betejë	betejë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=674|end_char=680|SpaceAfter=No
+23	.	.	PUNCT	_	_	17	punct	_	start_char=680|end_char=681
+
+# text = Ai do të kthehej sërish në faktor sundues në Sirinë e ndezur në flakë dhe në shpërbërje e sipër.
+# sent_id = 10
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=682|end_char=684
+2	do	do	PART	_	_	4	fixed	_	start_char=685|end_char=687
+3	të	të	PART	_	_	4	fixed	_	start_char=688|end_char=690
+4	kthehej	kthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=691|end_char=698
+5	sërish	sërish	ADV	_	AdvType=Man	4	advmod	_	start_char=699|end_char=705
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=706|end_char=708
+7	faktor	faktor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=709|end_char=715
+8	sundues	sundues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=716|end_char=723
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=724|end_char=726
+10	Sirinë	Sirinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=727|end_char=733
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=734|end_char=735
+12	ndezur	ndezur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=736|end_char=742
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=743|end_char=745
+14	flakë	flakë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=746|end_char=751
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=752|end_char=755
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=756|end_char=758
+17	shpërbërje	shpërbërje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	start_char=759|end_char=769
+18	e	e	CCONJ	_	_	19	cc	_	start_char=770|end_char=771
+19	sipër	sipër	ADV	_	AdvType=Loc	17	conj	_	start_char=772|end_char=777|SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	start_char=777|end_char=778
+
+# text = Nga ana tjetër:
+# sent_id = 11
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=779|end_char=782
+2	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=783|end_char=786
+3	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	amod	_	start_char=787|end_char=793|SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	start_char=793|end_char=794
+
+# text = Siria është që tani gati një nocion gjeografik.
+# sent_id = 12
+1	Siria	Siri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=795|end_char=800
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=801|end_char=806
+3	që	që	SCONJ	_	_	4	mark	_	start_char=807|end_char=809
+4	tani	tani	ADV	_	AdvType=Tim	2	advmod	_	start_char=810|end_char=814
+5	gati	gati	ADV	_	AdvType=Tim	7	mark	_	start_char=815|end_char=819
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=820|end_char=823
+7	nocion	nocio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=824|end_char=830
+8	gjeografik	gjeografik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=831|end_char=841|SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	start_char=841|end_char=842
+
+# text = Një mozaik i përbërë nga rajone, territore, fshatra, qytete, në të cilat herë sundon qeveria siriane, herë forcat opozitare, nganjëherë bandat vrasëse të Frontit Al-Nusra apo të të ashtuquajturit “Shteti Islamik”.
+# sent_id = 13
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=843|end_char=846
+2	mozaik	mozaik	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=847|end_char=853
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=854|end_char=855
+4	përbërë	përbërë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=856|end_char=863
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=864|end_char=867
+6	rajone	rajon	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	start_char=868|end_char=874|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=874|end_char=875
+8	territore	territor	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	appos	_	start_char=876|end_char=885|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=885|end_char=886
+10	fshatra	fshat	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	list	_	start_char=887|end_char=894|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=894|end_char=895
+12	qytete	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	10	list	_	start_char=896|end_char=902|SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	start_char=902|end_char=903
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=904|end_char=906
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=907|end_char=909
+16	cilat	cila	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	18	obl	_	start_char=910|end_char=915
+17	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=916|end_char=920
+18	sundon	sundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=921|end_char=927
+19	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=928|end_char=935
+20	siriane	sirian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=936|end_char=943|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=943|end_char=944
+22	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	19	list	_	start_char=945|end_char=949
+23	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=950|end_char=956
+24	opozitare	opozitar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=957|end_char=966|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	start_char=966|end_char=967
+26	nganjëherë	nganjëherë	ADV	_	AdvType=Tim	27	mark	_	start_char=968|end_char=978
+27	bandat	bandë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	list	_	start_char=979|end_char=985
+28	vrasëse	vrasës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=986|end_char=993
+29	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=994|end_char=996
+30	Frontit	Front	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=997|end_char=1004
+31	Al-Nusra	Al-Nusrë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	flat	_	start_char=1005|end_char=1013
+32	apo	apo	CCONJ	_	_	35	cc	_	start_char=1014|end_char=1017
+33	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=1018|end_char=1020
+34	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=1021|end_char=1023
+35	ashtuquajturit	ashtuquajtur	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	30	conj	_	start_char=1024|end_char=1038
+36	“	"	PUNCT	_	_	37	punct	_	start_char=1039|end_char=1040|SpaceAfter=No
+37	Shteti	shtet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	list	_	start_char=1040|end_char=1046
+38	Islamik”	Islamikë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat:name	_	start_char=1047|end_char=1055|SpaceAfter=No
+39	.	.	PUNCT	_	_	18	punct	_	start_char=1055|end_char=1056
+
+# text = Njerëzit, qytetarët sirianë kanë vetëm një rol në këtë luftë të përgjakshme:
+# sent_id = 14
+1	Njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	start_char=1057|end_char=1065|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1065|end_char=1066
+3	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	appos	_	start_char=1067|end_char=1076
+4	sirianë	sirianë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=1077|end_char=1084
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	case	_	start_char=1085|end_char=1089
+6	vetëm	vetëm	PART	_	_	8	cc	_	start_char=1090|end_char=1095
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=1096|end_char=1099
+8	rol	rol	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=1100|end_char=1103
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=1104|end_char=1106
+10	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=1107|end_char=1111
+11	luftë	luftë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=1112|end_char=1117
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1118|end_char=1120
+13	përgjakshme	përgjakshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1121|end_char=1132|SpaceAfter=No
+14	:	:	PUNCT	_	_	3	punct	_	start_char=1132|end_char=1133
+
+# text = Të jenë viktima.
+# sent_id = 15
+1	Të	të	PART	_	_	2	fixed	_	start_char=1134|end_char=1136
+2	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1137|end_char=1141
+3	viktima	viktimë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1142|end_char=1149|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=1149|end_char=1150
+
+# text = Jeta e tyre nuk llogaritet.
+# sent_id = 16
+1	Jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1151|end_char=1155
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=1156|end_char=1157
+3	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=1158|end_char=1162
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=1163|end_char=1166
+5	llogaritet	llogarit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1167|end_char=1177|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	start_char=1177|end_char=1178
+
+# text = Rusia:
+# sent_id = 17
+1	Rusia	Rusi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1179|end_char=1184|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=1184|end_char=1185
+
+# text = Në krah të Asadit Asad është rikthyer si faktor në sajë të rusëve.
+# sent_id = 18
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=1186|end_char=1188
+2	krah	krah	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=1189|end_char=1193
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=1194|end_char=1196
+4	Asadit	Asad	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=1197|end_char=1203
+5	Asad	Asad	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=1204|end_char=1208
+6	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=1209|end_char=1214
+7	rikthyer	rikthyj	VERB	_	VerbForm=Part	0	root	_	start_char=1215|end_char=1223
+8	si	si	SCONJ	_	_	9	mark	_	start_char=1224|end_char=1226
+9	faktor	faktor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=1227|end_char=1233
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=1234|end_char=1236
+11	sajë	sajë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=1237|end_char=1241
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=1242|end_char=1244
+13	rusëve	rusë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=1245|end_char=1251|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	start_char=1251|end_char=1252
+
+# text = Ata e kanë shfrytëzuar vakuumin e pushtetit.
+# sent_id = 19
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1253|end_char=1256
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=1257|end_char=1258
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1259|end_char=1263
+4	shfrytëzuar	shfrytëzoj	VERB	_	VerbForm=Part	0	root	_	start_char=1264|end_char=1275
+5	vakuumin	vakuum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=1276|end_char=1284
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=1285|end_char=1286
+7	pushtetit	pushtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=1287|end_char=1296|SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	start_char=1296|end_char=1297
+
+# text = Putini ndërhyri me vendosmëri.
+# sent_id = 20
+1	Putini	Putin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1298|end_char=1304
+2	ndërhyri	ndërhyr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1305|end_char=1313
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=1314|end_char=1316
+4	vendosmëri	vendosmër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=1317|end_char=1327|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	start_char=1327|end_char=1328
+
+# text = Një qëllim i tij:
+# sent_id = 21
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1329|end_char=1332
+2	qëllim	qëllim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1333|end_char=1339
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1340|end_char=1341
+4	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=1342|end_char=1345|SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	start_char=1345|end_char=1346
+
+# text = Ruajtja e pushtetit të Asadit.
+# sent_id = 22
+1	Ruajtja	Ruajtje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1347|end_char=1354
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=1355|end_char=1356
+3	pushtetit	pushtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=1357|end_char=1366
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=1367|end_char=1369
+5	Asadit	Asad	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=1370|end_char=1376|SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	start_char=1376|end_char=1377
+
+# text = Këtij qëllimi i nënshtrohet aktualisht çdo veprim i rusëve.
+# sent_id = 23
+1	Këtij	këtij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=1378|end_char=1383
+2	qëllimi	qëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1384|end_char=1391
+3	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	start_char=1392|end_char=1393
+4	nënshtrohet	nënshtroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1394|end_char=1405
+5	aktualisht	aktualisht	ADV	_	AdvType=Man	4	advmod	_	start_char=1406|end_char=1416
+6	çdo	çdo	PRON	_	PronType=Ind	7	nummod	_	start_char=1417|end_char=1420
+7	veprim	veprim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=1421|end_char=1427
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=1428|end_char=1429
+9	rusëve	rusë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=1430|end_char=1436|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	start_char=1436|end_char=1437
+
+# text = Vetëm kështu mund të shpjegohet vendosmëria ushtarake e rusëve – pa asnjë hezitim.
+# sent_id = 24
+1	Vetëm	Vetëm	PART	_	_	2	fixed	_	start_char=1438|end_char=1443
+2	kështu	kështu	ADV	_	AdvType=Man	5	mark	_	start_char=1444|end_char=1450
+3	mund	mund	AUX	_	_	5	aux	_	start_char=1451|end_char=1455
+4	të	të	PART	_	_	5	fixed	_	start_char=1456|end_char=1458
+5	shpjegohet	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1459|end_char=1469
+6	vendosmëria	vendosmëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=1470|end_char=1481
+7	ushtarake	ushtarak	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1482|end_char=1491
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=1492|end_char=1493
+9	rusëve	rusë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=1494|end_char=1500
+10	–	–	PUNCT	_	_	13	punct	_	start_char=1501|end_char=1502
+11	pa	pa	ADP	_	Case=Acc	13	case	_	start_char=1503|end_char=1505
+12	asnjë	asnjë	PRON	_	PronType=Ind	13	nummod	_	start_char=1506|end_char=1511
+13	hezitim	hezitim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=1512|end_char=1519|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	start_char=1519|end_char=1520
+
+# text = Qëllimi tjetër:
+# sent_id = 25
+1	Qëllimi	qëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1521|end_char=1528
+2	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	1	amod	_	start_char=1529|end_char=1535|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=1535|end_char=1536
+
+# text = Stabiliteti në këtë rajon – edhe nëse kemi të bëjmë me një autokraci.
+# sent_id = 26
+1	Stabiliteti	stabilitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1537|end_char=1548
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=1549|end_char=1551
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=1552|end_char=1556
+4	rajon	rajo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=1557|end_char=1562
+5	–	–	PUNCT	_	_	7	punct	_	start_char=1563|end_char=1564
+6	edhe	edhe	CCONJ	_	_	7	fixed	_	start_char=1565|end_char=1569
+7	nëse	nëse	SCONJ	_	_	8	mark	_	start_char=1570|end_char=1574
+8	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	acl	_	start_char=1575|end_char=1579
+9	të	të	PART	_	_	10	fixed	_	start_char=1580|end_char=1582
+10	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	8	ccomp	_	start_char=1583|end_char=1588
+11	me	me	ADP	_	Case=Acc	13	case	_	start_char=1589|end_char=1591
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=1592|end_char=1595
+13	autokraci	autokrac	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=1596|end_char=1605|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	start_char=1605|end_char=1606
+
+# text = Askush nuk flet më për pranverën arabe, ose për idenë e një demokracie arabe.
+# sent_id = 27
+1	Askush	askush	SCONJ	_	_	3	mark	_	start_char=1607|end_char=1613
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=1614|end_char=1617
+3	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1618|end_char=1622
+4	më	më	PART	_	_	6	mark	_	start_char=1623|end_char=1625
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=1626|end_char=1629
+6	pranverën	pranverë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=1630|end_char=1639
+7	arabe	arab	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1640|end_char=1645|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1645|end_char=1646
+9	ose	ose	CCONJ	_	_	11	cc	_	start_char=1647|end_char=1650
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=1651|end_char=1654
+11	idenë	idenë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=1655|end_char=1660
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=1661|end_char=1662
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=1663|end_char=1666
+14	demokracie	demokraci	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=1667|end_char=1677
+15	arabe	arab	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=1678|end_char=1683|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	start_char=1683|end_char=1684
+
+# text = Kjo ëndërr është lënë mënjanë siç lihen iluzzionet.
+# sent_id = 28
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1685|end_char=1688
+2	ëndërr	ëndërr	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1689|end_char=1695
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1696|end_char=1701
+4	lënë	lë	VERB	_	VerbForm=Part	0	root	_	start_char=1702|end_char=1706
+5	mënjanë	mënjanë	ADV	_	AdvType=Man	4	advmod	_	start_char=1707|end_char=1714
+6	siç	siç	SCONJ	_	_	7	mark	_	start_char=1715|end_char=1718
+7	lihen	lihej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=1719|end_char=1724
+8	iluzzionet	iluzzion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=1725|end_char=1735|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	start_char=1735|end_char=1736
+
+# text = Nëse një Siri e depërtuar nga plumbat mund të jetë një faktor stabiliteti, për këtë nuk ekziston ende një përgjigje.
+# sent_id = 29
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=1737|end_char=1741
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=1742|end_char=1745
+3	Siri	siri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=1746|end_char=1750
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1751|end_char=1752
+5	depërtuar	depërtuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1753|end_char=1762
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=1763|end_char=1766
+7	plumbat	plumbë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=1767|end_char=1774
+8	mund	mund	AUX	_	_	10	aux	_	start_char=1775|end_char=1779
+9	të	të	PART	_	_	10	fixed	_	start_char=1780|end_char=1782
+10	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1783|end_char=1787
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=1788|end_char=1791
+12	faktor	faktor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	cop	_	start_char=1792|end_char=1798
+13	stabiliteti	stabilitet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=1799|end_char=1810|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1810|end_char=1811
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=1812|end_char=1815
+16	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	obl	_	start_char=1816|end_char=1820
+17	nuk	nuk	PART	_	Polarity=Neg	18	mark	_	start_char=1821|end_char=1824
+18	ekziston	ekzistoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=1825|end_char=1833
+19	ende	ende	ADV	_	AdvType=Tim	18	advmod	_	start_char=1834|end_char=1838
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=1839|end_char=1842
+21	përgjigje	përgjigje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=1843|end_char=1852|SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	start_char=1852|end_char=1853|SpacesAfter=\n
+
+# text = I gjithë perëndimi, me në krye Shtetet e Bashkuara, pra Barack Obamën e ndjekin këtë gjendje me duar të lidhura.
+# sent_id = 30
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1854|end_char=1855
+2	gjithë	gjithë	PRON	_	PronType=Ind	3	det	_	start_char=1856|end_char=1862
+3	perëndimi	perëndim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=1863|end_char=1872|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=1872|end_char=1873
+5	me	me	ADP	_	Case=Acc	7	case	_	start_char=1874|end_char=1876
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=1877|end_char=1879
+7	krye	krye	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=1880|end_char=1884
+8	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=1885|end_char=1892
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=1893|end_char=1894
+10	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1895|end_char=1904|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=1904|end_char=1905
+12	pra	pra	SCONJ	_	_	16	mark	_	start_char=1906|end_char=1909
+13	Barack	Barack	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1910|end_char=1916
+14	Obamën	Obamë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=1917|end_char=1923
+15	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=1924|end_char=1925
+16	ndjekin	ndjek	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1926|end_char=1933
+17	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=1934|end_char=1938
+18	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=1939|end_char=1946
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=1947|end_char=1949
+20	duar	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	advmod	_	start_char=1950|end_char=1954
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=1955|end_char=1957
+22	lidhura	lidhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=1958|end_char=1965|SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	start_char=1965|end_char=1966
+
+# text = Ata e dinë se një intervenim ushtarak nuk sjell asgjë dhe mbart rrezikun e një shkallëzimi edhe më të tmerrshëm të situatës me më shumë palë të përfshira.
+# sent_id = 31
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1967|end_char=1970
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=1971|end_char=1972
+3	dinë	dam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1973|end_char=1977
+4	se	se	SCONJ	_	_	9	mark	_	start_char=1978|end_char=1980
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=1981|end_char=1984
+6	intervenim	intervenim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=1985|end_char=1995
+7	ushtarak	ushtarak	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1996|end_char=2004
+8	nuk	nuk	PART	_	Polarity=Neg	9	mark	_	start_char=2005|end_char=2008
+9	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=2009|end_char=2014
+10	asgjë	asgjë	PRON	_	PronType=Ind	9	obj	_	start_char=2015|end_char=2020
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=2021|end_char=2024
+12	mbart	mbart	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=2025|end_char=2030
+13	rrezikun	rrezik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=2031|end_char=2039
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=2040|end_char=2041
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=2042|end_char=2045
+16	shkallëzimi	shkallëzim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=2046|end_char=2057
+17	edhe	edhe	PART	_	_	20	mark	_	start_char=2058|end_char=2062
+18	më	më	PART	_	_	20	mark	_	start_char=2063|end_char=2065
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=2066|end_char=2068
+20	tmerrshëm	tmerrshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=2069|end_char=2078
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=2079|end_char=2081
+22	situatës	situatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=2082|end_char=2090
+23	me	me	ADP	_	Case=Acc	26	case	_	start_char=2091|end_char=2093
+24	më	më	PART	_	_	25	mark	_	start_char=2094|end_char=2096
+25	shumë	shumë	PRON	_	PronType=Ind	26	nummod	_	start_char=2097|end_char=2102
+26	palë	palë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=2103|end_char=2107
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=2108|end_char=2110
+28	përfshira	përfshirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=2111|end_char=2120|SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	start_char=2120|end_char=2121
+
+# text = Cilin krah do të merrnin trupat perëndimore?
+# sent_id = 32
+1	Cilin	Cil	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=2122|end_char=2127
+2	krah	krah	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=2128|end_char=2132
+3	do	do	PART	_	_	5	fixed	_	start_char=2133|end_char=2135
+4	të	të	PART	_	_	5	fixed	_	start_char=2136|end_char=2138
+5	merrnin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2139|end_char=2146
+6	trupat	trupë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=2147|end_char=2153
+7	perëndimore	perëndimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=2154|end_char=2165|SpaceAfter=No
+8	?	?	PUNCT	_	_	5	punct	_	start_char=2165|end_char=2166|SpacesAfter=\n
+
+# text = Pa zgjidhje Prandaj politikanët janë të vendosur për bisedimet e paqes në Gjenevë – edhe pse ato do të fillojnë vetëm në fund të shkurtit.
+# sent_id = 33
+1	Pa	pa	ADP	_	Case=Acc	2	case	_	start_char=2167|end_char=2169
+2	zgjidhje	zgjidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=2170|end_char=2178|SpacesAfter=\n
+3	Prandaj	prandaj	SCONJ	_	_	4	cc	_	start_char=2179|end_char=2186
+4	politikanët	politikan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	conj	_	start_char=2187|end_char=2198
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2199|end_char=2203
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=2204|end_char=2206
+7	vendosur	vendosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	cop	_	start_char=2207|end_char=2215
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=2216|end_char=2219
+9	bisedimet	bisedim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obl:arg	_	start_char=2220|end_char=2229
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=2230|end_char=2231
+11	paqes	paqes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=2232|end_char=2237
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=2238|end_char=2240
+13	Gjenevë	Gjenevë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=2241|end_char=2248
+14	–	–	PUNCT	_	_	16	punct	_	start_char=2249|end_char=2250
+15	edhe	edhe	CCONJ	_	_	16	fixed	_	start_char=2251|end_char=2255
+16	pse	pse	SCONJ	_	_	20	mark	_	start_char=2256|end_char=2259
+17	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=2260|end_char=2263
+18	do	do	PART	_	_	20	fixed	_	start_char=2264|end_char=2266
+19	të	të	PART	_	_	20	fixed	_	start_char=2267|end_char=2269
+20	fillojnë	filloj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	acl	_	start_char=2270|end_char=2278
+21	vetëm	vetëm	PART	_	_	23	mark	_	start_char=2279|end_char=2284
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=2285|end_char=2287
+23	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	advmod	_	start_char=2288|end_char=2292
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=2293|end_char=2295
+25	shkurtit	shkurt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=2296|end_char=2304|SpaceAfter=No
+26	.	.	PUNCT	_	_	20	punct	_	start_char=2304|end_char=2305
+
+# text = Perëndimi shpreson në një zgjidhje në tryezën e bisedimeve, në një kohë që në terren në Siri po krijohen fakte.
+# sent_id = 34
+1	Perëndimi	perëndim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=2306|end_char=2315
+2	shpreson	shpresoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2316|end_char=2324
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=2325|end_char=2327
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=2328|end_char=2331
+5	zgjidhje	zgjidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=2332|end_char=2340
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=2341|end_char=2343
+7	tryezën	tryezë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=2344|end_char=2351
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=2352|end_char=2353
+9	bisedimeve	bisedim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=2354|end_char=2364|SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	start_char=2364|end_char=2365
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=2366|end_char=2368
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=2369|end_char=2372
+13	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=2373|end_char=2377
+14	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=2378|end_char=2380
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=2381|end_char=2383
+16	terren	terre	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=2384|end_char=2390
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=2391|end_char=2393
+18	Siri	Siri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	start_char=2394|end_char=2398
+19	po	po	PART	_	_	20	mark	_	start_char=2399|end_char=2401
+20	krijohen	krijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=2402|end_char=2410
+21	fakte	fakt	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	20	obj	_	start_char=2411|end_char=2416|SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	start_char=2416|end_char=2417
+
+# text = Pyetja themelore që shtrohet është:
+# sent_id = 35
+1	Pyetja	pyetjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2418|end_char=2424
+2	themelore	themelor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=2425|end_char=2434
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=2435|end_char=2437
+4	shtrohet	shtroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	acl:relcl	_	start_char=2438|end_char=2446
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2447|end_char=2452|SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	start_char=2452|end_char=2453
+
+# text = Kush do të duhet ta qeverisë Sirinë pas arritjes së një marrëveshjeje të paqes?
+# sent_id = 36
+1	Kush	kush	PRON	_	PronType=Int	4	nsubj	_	start_char=2454|end_char=2458
+2	do	do	PART	_	_	4	fixed	_	start_char=2459|end_char=2461
+3	të	të	PART	_	_	7	det	_	start_char=2462|end_char=2464
+4	duhet	duhem	AUX	_	Mood=Ind	7	case	_	start_char=2465|end_char=2470
+5-6	ta	_	_	_	_	_	_	_	start_char=2471|end_char=2473
+5	të	të	PART	_	_	7	det	_	_
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=2474|end_char=2482
+8	Sirinë	Sirinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=2483|end_char=2489
+9	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=2490|end_char=2493
+10	arritjes	arritje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=2494|end_char=2502
+11	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=2503|end_char=2505
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=2506|end_char=2509
+13	marrëveshjeje	marrëveshje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=2510|end_char=2523
+14	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=2524|end_char=2526
+15	paqes	paqes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=2527|end_char=2532|SpaceAfter=No
+16	?	?	PUNCT	_	_	7	punct	_	start_char=2532|end_char=2533
+
+# text = Një opozitë që ka shumë pak përkrahës?
+# sent_id = 37
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=2534|end_char=2537
+2	opozitë	opozitë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=2538|end_char=2545
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=2546|end_char=2548
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=2549|end_char=2551
+5	shumë	shumë	PRON	_	PronType=Ind	7	nummod	_	start_char=2552|end_char=2557
+6	pak	pak	ADV	_	AdvType=Deg	7	nummod	_	start_char=2558|end_char=2561
+7	përkrahës	përkrahë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	start_char=2562|end_char=2571|SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	start_char=2571|end_char=2572
+
+# text = Asadi mbështetur nga bajonetat e rusëve?
+# sent_id = 38
+1	Asadi	Asadi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2573|end_char=2578
+2	mbështetur	mbështetur	VERB	_	VerbForm=Part	0	root	_	start_char=2579|end_char=2589
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=2590|end_char=2593
+4	bajonetat	bajonetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=2594|end_char=2603
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=2604|end_char=2605
+6	rusëve	rusë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=2606|end_char=2612|SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	start_char=2612|end_char=2613
+
+# text = Apo ta themi hapur – xhihadistët islamistë?
+# sent_id = 39
+1	Apo	apo	CCONJ	_	_	5	cc	_	start_char=2614|end_char=2617
+2-3	ta	_	_	_	_	_	_	_	start_char=2618|end_char=2620
+2	të	të	PART	_	_	5	fixed	_	_
+3	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	themi	them	AUX	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	start_char=2621|end_char=2626
+5	hapur	hap	VERB	_	VerbForm=Part	0	root	_	start_char=2627|end_char=2632
+6	–	–	PUNCT	_	_	7	punct	_	start_char=2633|end_char=2634
+7	xhihadistët	xhihadistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	obj	_	start_char=2635|end_char=2646
+8	islamistë	islamistë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=2647|end_char=2656|SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	_	start_char=2656|end_char=2657
+
+# text = Dhe tjetra a do të mund të kemi një Siri si para vitit 2011?
+# sent_id = 40
+1	Dhe	dhe	CCONJ	_	_	8	cc	_	start_char=2658|end_char=2661
+2	tjetra	tjetër	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	nsubj	_	start_char=2662|end_char=2668
+3	a	a	PART	_	_	2	flat	_	start_char=2669|end_char=2670
+4	do	do	PART	_	_	8	fixed	_	start_char=2671|end_char=2673
+5	të	të	PART	_	_	8	fixed	_	start_char=2674|end_char=2676
+6	mund	mund	AUX	_	_	8	aux	_	start_char=2677|end_char=2681
+7	të	të	PART	_	_	8	fixed	_	start_char=2682|end_char=2684
+8	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2685|end_char=2689
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=2690|end_char=2693
+10	Siri	Siri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=2694|end_char=2698
+11	si	si	SCONJ	_	_	12	advmod:emph	_	start_char=2699|end_char=2701
+12	para	para	ADP	_	Case=Abl	13	case	_	start_char=2702|end_char=2706
+13	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=2707|end_char=2712
+14	2011	2011	NUM	_	NumType=Card	13	amod:nummod	_	start_char=2713|end_char=2717|SpaceAfter=No
+15	?	?	PUNCT	_	_	8	punct	_	start_char=2717|end_char=2718
+
+# text = Mungesa e strategjisë së perëndimit ka krijuar në fakt këtë vakuum pushtetit, në të cilin mundën të hyjnë si milicët terroristë ashtu edhe Putini.
+# sent_id = 41
+1	Mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=2719|end_char=2726
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=2727|end_char=2728
+3	strategjisë	strategji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=2729|end_char=2740
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2741|end_char=2743
+5	perëndimit	perëndim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=2744|end_char=2754
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=2755|end_char=2757
+7	krijuar	krijoj	VERB	_	VerbForm=Part	0	root	_	start_char=2758|end_char=2765
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=2766|end_char=2768
+9	fakt	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=2769|end_char=2773
+10	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=2774|end_char=2778
+11	vakuum	vakuum	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=2779|end_char=2785
+12	pushtetit	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=2786|end_char=2795|SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	start_char=2795|end_char=2796
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=2797|end_char=2799
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=2800|end_char=2802
+16	cilin	cili	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	start_char=2803|end_char=2808
+17	mundën	mundëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	start_char=2809|end_char=2815
+18	të	të	PART	_	_	19	fixed	_	start_char=2816|end_char=2818
+19	hyjnë	hyj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	ccomp	_	start_char=2819|end_char=2824
+20	si	si	SCONJ	_	_	21	mark	_	start_char=2825|end_char=2827
+21	milicët	milicë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	obj	_	start_char=2828|end_char=2835
+22	terroristë	terroristë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	start_char=2836|end_char=2846
+23	ashtu	ashtu	ADV	_	AdvType=Man	25	mark	_	start_char=2847|end_char=2852
+24	edhe	edhe	PART	_	_	25	mark:emph	_	start_char=2853|end_char=2857
+25	Putini	Putin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	conj	_	start_char=2858|end_char=2864|SpaceAfter=No
+26	.	.	PUNCT	_	_	19	punct	_	start_char=2864|end_char=2865
+
+# text = Mbetet kështu një luftë e të tretëve dhe me këtë e dy fuqive rajonale, Arabisë Saudite dhe Iranit.
+# sent_id = 42
+1	Mbetet	mbet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=2866|end_char=2872
+2	kështu	kështu	ADV	_	AdvType=Cau	4	mark	_	start_char=2873|end_char=2879
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=2880|end_char=2883
+4	luftë	luftë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	start_char=2884|end_char=2889
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=2890|end_char=2891
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2892|end_char=2894
+7	tretëve	tretë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=2895|end_char=2902
+8	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=2903|end_char=2906
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=2907|end_char=2909
+10	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	start_char=2910|end_char=2914
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=2915|end_char=2916
+12	dy	dy	NUM	_	NumType=Card	13	nummod	_	start_char=2917|end_char=2919
+13	fuqive	fuqi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=2920|end_char=2926
+14	rajonale	rajonal	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=2927|end_char=2935|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=2935|end_char=2936
+16	Arabisë	Arabi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	appos	_	start_char=2937|end_char=2944
+17	Saudite	Saudit	PROPN	_	Foreign=Yes	16	flat	_	start_char=2945|end_char=2952
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=2953|end_char=2956
+19	Iranit	Iran	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	start_char=2957|end_char=2963|SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	start_char=2963|end_char=2964
+
+# text = Në Riad me sa duket janë kuptuar shenjat e kohës.
+# sent_id = 43
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=2965|end_char=2967
+2	Riad	Riad	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=2968|end_char=2972
+3	me	me	ADP	_	Case=Acc	5	fixed	_	start_char=2973|end_char=2975
+4	sa	sa	ADV	_	AdvType=Deg	5	advmod	_	start_char=2976|end_char=2978
+5	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	advmod	_	start_char=2979|end_char=2984
+6	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=2985|end_char=2989
+7	kuptuar	kuptoj	VERB	_	VerbForm=Part	0	root	_	start_char=2990|end_char=2997
+8	shenjat	shenjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=2998|end_char=3005
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=3006|end_char=3007
+10	kohës	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=3008|end_char=3013|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	start_char=3013|end_char=3014
+
+# text = Me qëndrime ngurruese, gati të trembura nuk ecet përpara.
+# sent_id = 44
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=3015|end_char=3017
+2	qëndrime	qëndrim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	advmod	_	start_char=3018|end_char=3026
+3	ngurruese	ngurrues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=3027|end_char=3036|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	start_char=3036|end_char=3037
+5	gati	gati	ADV	_	AdvType=Deg	7	mark	_	start_char=3038|end_char=3042
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=3043|end_char=3045
+7	trembura	tremburë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	start_char=3046|end_char=3054
+8	nuk	nuk	PART	_	_	9	mark	_	start_char=3055|end_char=3058
+9	ecet	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3059|end_char=3063
+10	përpara	përpara	ADV	_	AdvType=Tim	9	advmod	_	start_char=3064|end_char=3071|SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	start_char=3071|end_char=3072
+
+# text = SHBA do ta mbështesë, në fakt do ta mbajë mbretërinë vetëm me kusht.
+# sent_id = 45
+1	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3073|end_char=3077
+2	do	do	PART	_	_	5	fixed	_	start_char=3078|end_char=3080
+3-4	ta	_	_	_	_	_	_	_	start_char=3081|end_char=3083
+3	të	të	PART	_	_	5	fixed	_	_
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	mbështesë	mbështej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=3084|end_char=3093|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=3093|end_char=3094
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=3095|end_char=3097
+8	fakt	fakt	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	start_char=3098|end_char=3102
+9	do	do	PART	_	_	12	fixed	_	start_char=3103|end_char=3105
+10-11	ta	_	_	_	_	_	_	_	start_char=3106|end_char=3108
+10	të	të	PART	_	_	12	fixed	_	_
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	mbajë	mbaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advmod	_	start_char=3109|end_char=3114
+13	mbretërinë	mbretëri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=3115|end_char=3125
+14	vetëm	vetëm	PART	_	_	16	mark	_	start_char=3126|end_char=3131
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=3132|end_char=3134
+16	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=3135|end_char=3140|SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	start_char=3140|end_char=3141
+
+# text = Pra duhet gjetur forca tek vetja dhe Arabia Saudite ndërkohë po ofron mundësinë e trupave tokësore kundër të ashtuquajturit “Shteti Islamik”.
+# sent_id = 46
+1	Pra	Pra	SCONJ	_	_	3	mark	_	start_char=3142|end_char=3145
+2	duhet	duhem	AUX	_	Mood=Ind|Number=Sing|Person=3|Voice=Pass	3	aux	_	start_char=3146|end_char=3151
+3	gjetur	gjet	VERB	_	VerbForm=Part	0	root	_	start_char=3152|end_char=3158
+4	forca	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=3159|end_char=3164
+5	tek	tek	ADP	_	Case=Nom	6	case	_	start_char=3165|end_char=3168
+6	vetja	vetjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=3169|end_char=3174
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=3175|end_char=3178
+8	Arabia	Arabi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=3179|end_char=3185
+9	Saudite	saudit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=3186|end_char=3193
+10	ndërkohë	ndërkohë	ADV	_	AdvType=Loc	12	advmod	_	start_char=3194|end_char=3202
+11	po	po	PART	_	_	12	mark	_	start_char=3203|end_char=3205
+12	ofron	ofroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=3206|end_char=3211
+13	mundësinë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=3212|end_char=3221
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=3222|end_char=3223
+15	trupave	trupë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=3224|end_char=3231
+16	tokësore	tokësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=3232|end_char=3240
+17	kundër	kundër	ADP	_	Case=Abl	19	case	_	start_char=3241|end_char=3247
+18	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=3248|end_char=3250
+19	ashtuquajturit	ashtuquajtur	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	12	advmod	_	start_char=3251|end_char=3265
+20	“	"	PUNCT	_	_	21	punct	_	start_char=3266|end_char=3267|SpaceAfter=No
+21	Shteti	shtet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=3267|end_char=3273
+22	Islamik”	Islamikë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=3274|end_char=3282|SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	start_char=3282|end_char=3283
+
+# text = Një transformim gati revolucionar i mendësisë së mbretërisë – i lindur nga frika e fundit.
+# sent_id = 47
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=3284|end_char=3287
+2	transformim	transformim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=3288|end_char=3299
+3	gati	gati	ADV	_	AdvType=Deg	4	advmod	_	start_char=3300|end_char=3304
+4	revolucionar	revolucionar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=3305|end_char=3317
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3318|end_char=3319
+6	mendësisë	mendësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=3320|end_char=3329
+7	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3330|end_char=3332
+8	mbretërisë	mbretëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=3333|end_char=3343
+9	–	–	PUNCT	_	_	11	punct	_	start_char=3344|end_char=3345
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=3346|end_char=3347
+11	lindur	lindur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	list	_	start_char=3348|end_char=3354
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=3355|end_char=3358
+13	frika	frikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=3359|end_char=3364
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=3365|end_char=3366
+15	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=3367|end_char=3373|SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	start_char=3373|end_char=3374
+
+# text = Triumfuesi i vërtetë i kësaj loje vrasëse pushteti është në fakt Irani.
+# sent_id = 48
+1	Triumfuesi	triumfues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=3375|end_char=3385
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3386|end_char=3387
+3	vërtetë	vërtetë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=3388|end_char=3395
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3396|end_char=3397
+5	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=3398|end_char=3403
+6	loje	loje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=3404|end_char=3408
+7	vrasëse	vrasës	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3409|end_char=3416
+8	pushteti	pushtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=3417|end_char=3425
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3426|end_char=3431
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=3432|end_char=3434
+11	fakt	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=3435|end_char=3439
+12	Irani	Irani	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=3440|end_char=3445|SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	start_char=3445|end_char=3446
+
+# text = Sepse Irani për shkak të luftës në Siri edhe pas saj synon të jetë fuqia sunduese rajonale e Lindjes së Afërt.
+# sent_id = 49
+1	Sepse	sepse	SCONJ	_	_	2	mark	_	start_char=3447|end_char=3452
+2	Irani	Irani	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=3453|end_char=3458
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=3459|end_char=3462
+4	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=3463|end_char=3468
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3469|end_char=3471
+6	luftës	luftë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=3472|end_char=3478
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=3479|end_char=3481
+8	Siri	Siri	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=3482|end_char=3486
+9	edhe	edhe	PART	_	_	11	advmod:emph	_	start_char=3487|end_char=3491
+10	pas	pas	ADP	_	Case=Abl	11	case	_	start_char=3492|end_char=3495
+11	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	start_char=3496|end_char=3499
+12	synon	synoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3500|end_char=3505
+13	të	të	PART	_	_	14	fixed	_	start_char=3506|end_char=3508
+14	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=3509|end_char=3513
+15	fuqia	fuqi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	cop	_	start_char=3514|end_char=3519
+16	sunduese	sundues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=3520|end_char=3528
+17	rajonale	rajonal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=3529|end_char=3537
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=3538|end_char=3539
+19	Lindjes	Lindje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=3540|end_char=3547
+20	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=3548|end_char=3550
+21	Afërt	Afërt	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=3551|end_char=3556|SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	start_char=3556|end_char=3557
+
+# text = Jeruzalemi është i shqetësuar për këtë.
+# sent_id = 50
+1	Jeruzalemi	Jeruzalem	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=3558|end_char=3568
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3569|end_char=3574
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=3575|end_char=3576
+4	shqetësuar	shqetësuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	start_char=3577|end_char=3587
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=3588|end_char=3591
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	start_char=3592|end_char=3596|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	start_char=3596|end_char=3597
+
+# text = Loja finale për Sirinë ka filluar.
+# sent_id = 51
+1	Loja	lojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=3598|end_char=3602
+2	finale	finale	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=3603|end_char=3609
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=3610|end_char=3613
+4	Sirinë	Sirinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=3614|end_char=3620
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=3621|end_char=3623
+6	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=3624|end_char=3631|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	start_char=3631|end_char=3632|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 52
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=3633|end_char=3635
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=3636|end_char=3646|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=3646|end_char=3647|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=3648|end_char=3652
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=3653|end_char=3655
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=3656|end_char=3659
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=3660|end_char=3664|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=3665|end_char=3683|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=3684|end_char=3693
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=3694|end_char=3706
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=3707|end_char=3713|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3714|end_char=3723
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3724|end_char=3736
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=3737|end_char=3744|SpacesAfter=\n\n\n
+

@@ -1,0 +1,256 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = EU4Schools”/
+# sent_id = 1
+1	EU4Schools”	EU4Schools”	PROPN	_	Foreign=Yes	0	root	_	start_char=1|end_char=12|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=12|end_char=13
+
+# text = Brenda vitit përfundon rindërtimi i dy shkollave në Lezhë 30/03/2023 Vijon puna për riparimin e dy shkollave në Bashkinë e Lezhës në kontekstin e Programit “EU4Schools”.
+# sent_id = 2
+1	Brenda	brenda	ADP	_	Case=Abl	2	case	_	start_char=14|end_char=20
+2	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=21|end_char=26
+3	përfundon	përfundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=36
+4	rindërtimi	rindërtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=37|end_char=47
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=48|end_char=49
+6	dy	dy	NUM	_	NumType=Card	7	nummod	_	start_char=50|end_char=52
+7	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=53|end_char=62
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=63|end_char=65
+9	Lezhë	Lezhë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=66|end_char=71|SpacesAfter=\n
+10	30	30	NUM	_	NumType=Card	11	nummod	_	start_char=72|end_char=74|SpaceAfter=No
+11	/03	/03	SYM	_	_	9	nmod	_	start_char=74|end_char=77|SpaceAfter=No
+12	/	/	PUNCT	_	_	11	punct	_	start_char=77|end_char=78|SpaceAfter=No
+13	202	202	NUM	_	NumType=Card	11	flat	_	start_char=78|end_char=81|SpaceAfter=No
+14	3	3	NUM	_	NumType=Card	15	advmod	_	start_char=81|end_char=82|SpacesAfter=\n
+15	Vijon	Vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=83|end_char=88
+16	puna	punë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=89|end_char=93
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=94|end_char=97
+18	riparimin	riparim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=98|end_char=107
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=108|end_char=109
+20	dy	dy	NUM	_	NumType=Card	21	nummod	_	start_char=110|end_char=112
+21	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=113|end_char=122
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=123|end_char=125
+23	Bashkinë	Bashkinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=126|end_char=134
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=135|end_char=136
+25	Lezhës	Lezhë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=137|end_char=143
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=144|end_char=146
+27	kontekstin	kontekst	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=147|end_char=157
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=158|end_char=159
+29	Programit	program	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=160|end_char=169
+30	“	"	PUNCT	_	_	31	punct	_	start_char=170|end_char=171|SpaceAfter=No
+31	EU4Schools”	EU4Schools”	PROPN	_	Foreign=Yes	29	appos	_	start_char=171|end_char=182|SpaceAfter=No
+32	.	.	PUNCT	_	_	15	punct	_	start_char=182|end_char=183
+
+# text = Bëhet fjalë për rindërtimin e shkollës 9-vjeçare “Gjergj Kastrioti”, ku përfitojnë 631 nxënës, 38 mësues dhe 60,000 banorë të komunitetit; si dhe riparimin e shkollës 9-vjeçare dhe kopshtit “Fran Ivanaj” Ishull-Shëngjin, ku përfitojnë 179 nxënës, 47 fëmijë, 17 mësues dhe 8,100 banorë të komunitetit.
+# sent_id = 3
+1	Bëhet	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=184|end_char=189
+2	fjalë	fjalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=190|end_char=195
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=196|end_char=199
+4	rindërtimin	rindërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=200|end_char=211
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=212|end_char=213
+6	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=214|end_char=222
+7	9	9	NUM	_	NumType=Card	6	flat	_	start_char=223|end_char=224|SpaceAfter=No
+8	-vjeçare	-vjeçar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=224|end_char=232
+9	“	"	PUNCT	_	_	10	punct	_	start_char=233|end_char=234|SpaceAfter=No
+10	Gjergj	Gjergj	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	parataxis	_	start_char=234|end_char=240
+11	Kastrioti”	Kastrioti”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=241|end_char=251|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=251|end_char=252
+13	ku	ku	ADV	_	AdvType=Loc	14	advmod	_	start_char=253|end_char=255
+14	përfitojnë	përfitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=256|end_char=266
+15	631	631	NUM	_	NumType=Card	16	nummod	_	start_char=267|end_char=270
+16	nxënës	nxënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	start_char=271|end_char=277|SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	start_char=277|end_char=278
+18	38	38	NUM	_	NumType=Card	19	nummod	_	start_char=279|end_char=281
+19	mësues	mësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=282|end_char=288
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=289|end_char=292
+21	60	60	NUM	_	NumType=Card	19	conj	_	start_char=293|end_char=295|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	start_char=295|end_char=296|SpaceAfter=No
+23	000	000	NUM	_	NumType=Card	24	nummod	_	start_char=296|end_char=299
+24	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	start_char=300|end_char=306
+25	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	26	det:poss	_	start_char=307|end_char=309
+26	komunitetit	komunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=310|end_char=321|SpaceAfter=No
+27	;	;	PUNCT	_	_	26	punct	_	start_char=321|end_char=322
+28	si	si	SCONJ	_	_	30	mark	_	start_char=323|end_char=325
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=326|end_char=329
+30	riparimin	riparim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	conj	_	start_char=330|end_char=339
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=340|end_char=341
+32	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=342|end_char=350
+33	9	9	NUM	_	NumType=Card	32	nummod	_	start_char=351|end_char=352|SpaceAfter=No
+34	-vjeçare	-vjeçar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=352|end_char=360
+35	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=361|end_char=364
+36	kopshtit	kopsht	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	conj	_	start_char=365|end_char=373
+37	“	"	PUNCT	_	_	38	punct	_	start_char=374|end_char=375|SpaceAfter=No
+38	Fran	Fran	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	36	appos	_	start_char=375|end_char=379
+39	Ivanaj”	Ivanaj”	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	flat	_	start_char=380|end_char=387
+40	Ishull-Shëngjin	Ishull-Shëgjegj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=388|end_char=403|SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	start_char=403|end_char=404
+42	ku	ku	ADV	_	AdvType=Loc	43	advmod	_	start_char=405|end_char=407
+43	përfitojnë	përfitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	39	acl	_	start_char=408|end_char=418
+44	179	179	NUM	_	NumType=Card	45	nummod	_	start_char=419|end_char=422
+45	nxënës	nxënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	43	obj	_	start_char=423|end_char=429|SpaceAfter=No
+46	,	,	PUNCT	_	_	48	punct	_	start_char=429|end_char=430
+47	47	47	NUM	_	NumType=Card	48	nummod	_	start_char=431|end_char=433
+48	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	45	list	_	start_char=434|end_char=440|SpaceAfter=No
+49	,	,	PUNCT	_	_	51	punct	_	start_char=440|end_char=441
+50	17	17	NUM	_	NumType=Card	51	nummod	_	start_char=442|end_char=444
+51	mësues	mësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	48	list	_	start_char=445|end_char=451
+52	dhe	dhe	CCONJ	_	_	53	cc	_	start_char=452|end_char=455
+53	8	8	NUM	_	NumType=Card	51	conj	_	start_char=456|end_char=457|SpaceAfter=No
+54	,	,	PUNCT	_	_	56	punct	_	start_char=457|end_char=458|SpaceAfter=No
+55	100	100	NUM	_	NumType=Card	56	nummod	_	start_char=458|end_char=461
+56	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	51	list	_	start_char=462|end_char=468
+57	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	58	det:poss	_	start_char=469|end_char=471
+58	komunitetit	komunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	56	nmod	_	start_char=472|end_char=483|SpaceAfter=No
+59	.	.	PUNCT	_	_	43	punct	_	start_char=483|end_char=484|SpacesAfter=\n
+
+# text = PNUD Shqipëri, bën me dije se këto dy shkolla janë dy prej 15 objekteve, të cilat janë aktualisht në proces rindërtimi po ndërtohen bazuar në dy parimet themelore “Rindërtojmë Më Mirë” dhe “Rindërtojmë Së Bashku”, duke siguruar standardin më të lartë të procesit mësimor për nxënësit, fëmijët, mësuesit dhe mbarë komunitetet e prekura.
+# sent_id = 4
+1	PNUD	PNUD	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=485|end_char=489
+2	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	flat	_	start_char=490|end_char=498|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=498|end_char=499
+4	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=500|end_char=503
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=504|end_char=506
+6	dije	dije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=507|end_char=511
+7	se	se	SCONJ	_	_	11	mark	_	start_char=512|end_char=514
+8	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=515|end_char=519
+9	dy	dy	NUM	_	NumType=Card	10	nummod	_	start_char=520|end_char=522
+10	shkolla	shkollë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=523|end_char=530
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=531|end_char=535
+12	dy	dy	NUM	_	NumType=Card	15	nummod	_	start_char=536|end_char=538
+13	prej	prej	ADP	_	Case=Abl	15	case	_	start_char=539|end_char=543
+14	15	15	NUM	_	NumType=Card	15	nummod	_	start_char=544|end_char=546
+15	objekteve	objekt	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=547|end_char=556|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=556|end_char=557
+17	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=558|end_char=560
+18	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	19	nsubj	_	start_char=561|end_char=566
+19	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	acl	_	start_char=567|end_char=571
+20	aktualisht	aktualisht	ADV	_	AdvType=Man	19	advmod	_	start_char=572|end_char=582
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=583|end_char=585
+22	proces	proces	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	advmod	_	start_char=586|end_char=592
+23	rindërtimi	rindërtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=593|end_char=603
+24	po	po	PART	_	_	26	mark	_	start_char=604|end_char=606
+25	ndërtohen	ndërtoj	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	26	aux	_	start_char=607|end_char=616
+26	bazuar	bazoj	VERB	_	VerbForm=Part	19	advcl	_	start_char=617|end_char=623
+27	në	në	ADP	_	Case=Acc	29	case	_	start_char=624|end_char=626
+28	dy	dy	NUM	_	NumType=Card	29	nummod	_	start_char=627|end_char=629
+29	parimet	parim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=630|end_char=637
+30	themelore	themelor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=638|end_char=647
+31	“	"	PUNCT	_	_	32	punct	_	start_char=648|end_char=649|SpaceAfter=No
+32	Rindërtojmë	Rindërtoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	26	conj	_	start_char=649|end_char=660
+33	Më	më	ADP	_	Case=Acc	34	case	_	start_char=661|end_char=663
+34	Mirë”	mirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obl	_	start_char=664|end_char=669
+35	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=670|end_char=673
+36	“	"	PUNCT	_	_	37	punct	_	start_char=674|end_char=675|SpaceAfter=No
+37	Rindërtojmë	Rindërtoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	32	conj	_	start_char=675|end_char=686
+38	Së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	39	det:poss	_	start_char=687|end_char=689
+39	Bashku”	Bashku”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	nsubj	_	start_char=690|end_char=697|SpaceAfter=No
+40	,	,	PUNCT	_	_	42	punct	_	start_char=697|end_char=698
+41	duke	duke	PART	_	_	42	fixed	_	start_char=699|end_char=703
+42	siguruar	siguroj	VERB	_	VerbForm=Part	37	advmod	_	start_char=704|end_char=712
+43	standardin	standard	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	42	obj	_	start_char=713|end_char=723
+44	më	më	PART	_	_	46	mark	_	start_char=724|end_char=726
+45	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	46	det	_	start_char=727|end_char=729
+46	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	start_char=730|end_char=735
+47	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	48	det:poss	_	start_char=736|end_char=738
+48	procesit	proces	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	43	nmod	_	start_char=739|end_char=747
+49	mësimor	mësimor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	start_char=748|end_char=755
+50	për	për	ADP	_	Case=Acc	51	case	_	start_char=756|end_char=759
+51	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	48	nmod	_	start_char=760|end_char=768|SpaceAfter=No
+52	,	,	PUNCT	_	_	53	punct	_	start_char=768|end_char=769
+53	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	48	appos	_	start_char=770|end_char=777|SpaceAfter=No
+54	,	,	PUNCT	_	_	55	punct	_	start_char=777|end_char=778
+55	mësuesit	mësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	53	list	_	start_char=779|end_char=787
+56	dhe	dhe	CCONJ	_	_	58	cc	_	start_char=788|end_char=791
+57	mbarë	mbarë	PRON	_	PronType=Ind	58	nummod	_	start_char=792|end_char=797
+58	komunitetet	komunitet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	55	conj	_	start_char=798|end_char=809
+59	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	60	det	_	start_char=810|end_char=811
+60	prekura	prekurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	58	amod	_	start_char=812|end_char=819|SpaceAfter=No
+61	.	.	PUNCT	_	_	32	punct	_	start_char=819|end_char=820|SpacesAfter=\n
+
+# text = Shkollat “Gjergj Kastrioti” dhe “Fran Ivanaj” parashikohet të përfundojnë brenda këtij viti.
+# sent_id = 5
+1	Shkollat	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=821|end_char=829
+2	“	"	PUNCT	_	_	3	punct	_	start_char=830|end_char=831|SpaceAfter=No
+3	Gjergj	Gjergj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=831|end_char=837
+4	Kastrioti”	Kastrioti”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=838|end_char=848
+5	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=849|end_char=852
+6	“	"	PUNCT	_	_	7	punct	_	start_char=853|end_char=854|SpaceAfter=No
+7	Fran	Fran	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	4	conj	_	start_char=854|end_char=858
+8	Ivanaj”	Ivanaj”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=859|end_char=866
+9	parashikohet	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=867|end_char=879
+10	të	të	PART	_	_	11	fixed	_	start_char=880|end_char=882
+11	përfundojnë	përfundoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=883|end_char=894
+12	brenda	brenda	ADP	_	Case=Abl	14	case	_	start_char=895|end_char=901
+13	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=902|end_char=907
+14	viti	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=908|end_char=912|SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	start_char=912|end_char=913|SpacesAfter=\n
+
+# text = Në fokus të Programit “EU4Schools” është rindërtimi apo riparimi i 60+ objekteve arsimore në 11 bashkitë më të prekura nga tërmeti i 26 Nëntorit, 2019, ku përfitues të drejtpërdrejtë janë rreth 25,000 fëmijë, nxënës e mësues.
+# sent_id = 6
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=914|end_char=916
+2	fokus	fokus	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=917|end_char=922
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=923|end_char=925
+4	Programit	program	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=926|end_char=935
+5	“	"	PUNCT	_	_	6	punct	_	start_char=936|end_char=937|SpaceAfter=No
+6	EU4Schools”	EU4Schools”	PROPN	_	Foreign=Yes	7	nsubj	_	start_char=937|end_char=948
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=949|end_char=954
+8	rindërtimi	rindërtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	cop	_	start_char=955|end_char=965
+9	apo	apo	CCONJ	_	_	10	cc	_	start_char=966|end_char=969
+10	riparimi	riparim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=970|end_char=978
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=979|end_char=980
+12	60+	60+	NUM	_	NumType=Card	13	nummod	_	start_char=981|end_char=984
+13	objekteve	objekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=985|end_char=994
+14	arsimore	arsimor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=995|end_char=1003
+15	në	në	ADP	_	Case=Acc	17	case	_	start_char=1004|end_char=1006
+16	11	11	NUM	_	NumType=Card	17	nummod	_	start_char=1007|end_char=1009
+17	bashkitë	bashkitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=1010|end_char=1018
+18	më	më	PART	_	_	20	mark	_	start_char=1019|end_char=1021
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=1022|end_char=1024
+20	prekura	prekurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=1025|end_char=1032
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=1033|end_char=1036
+22	tërmeti	tërmet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	advmod	_	start_char=1037|end_char=1044
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=1045|end_char=1046
+24	26	26	NUM	_	NumType=Card	25	nummod	_	start_char=1047|end_char=1049
+25	Nëntorit	nëntor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=1050|end_char=1058|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=1058|end_char=1059
+27	2019	2019	NUM	_	NumType=Card	25	flat	_	start_char=1060|end_char=1064|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=1064|end_char=1065
+29	ku	ku	ADV	_	AdvType=Loc	30	nummod	_	start_char=1066|end_char=1068
+30	përfitues	përfitues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	33	nsubj	_	start_char=1069|end_char=1078
+31	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	32	det	_	start_char=1079|end_char=1081
+32	drejtpërdrejtë	drejtpërdejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=1082|end_char=1096
+33	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	acl	_	start_char=1097|end_char=1101
+34	rreth	rreth	ADP	_	Case=Abl	35	case	_	start_char=1102|end_char=1107
+35	25	25	NUM	_	NumType=Card	33	advmod	_	start_char=1108|end_char=1110|SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	start_char=1110|end_char=1111|SpaceAfter=No
+37	000	000	NUM	_	NumType=Card	38	nummod	_	start_char=1111|end_char=1114
+38	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	33	advmod	_	start_char=1115|end_char=1121|SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	start_char=1121|end_char=1122
+40	nxënës	nxënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	38	list	_	start_char=1123|end_char=1129
+41	e	e	CCONJ	_	_	42	cc	_	start_char=1130|end_char=1131
+42	mësues	mësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	40	conj	_	start_char=1132|end_char=1138|SpaceAfter=No
+43	.	.	PUNCT	_	_	33	punct	_	start_char=1138|end_char=1139
+
+# text = Deri tani, në kontekstin e këtij programi kanë përfunduar 39 objekte arsimore.
+# sent_id = 7
+1	Deri	deri	PART	_	_	2	case	_	start_char=1140|end_char=1144
+2	tani	tani	ADV	_	AdvType=Tim	10	advmod	_	start_char=1145|end_char=1149|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1149|end_char=1150
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1151|end_char=1153
+5	kontekstin	kontekst	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=1154|end_char=1164
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=1165|end_char=1166
+7	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=1167|end_char=1172
+8	programi	program	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=1173|end_char=1181
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=1182|end_char=1186
+10	përfunduar	përfundoj	VERB	_	VerbForm=Part	0	root	_	start_char=1187|end_char=1197
+11	39	39	NUM	_	NumType=Card	12	nummod	_	start_char=1198|end_char=1200
+12	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=1201|end_char=1208
+13	arsimore	arsimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1209|end_char=1217|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	start_char=1217|end_char=1218|SpacesAfter=\n
+
+# text = /rtsh.al/
+# sent_id = 8
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1219|end_char=1227|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1227|end_char=1228|SpacesAfter=\n\n\n
+

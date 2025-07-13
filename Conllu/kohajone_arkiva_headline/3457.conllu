@@ -1,0 +1,213 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Salloni i luksit”/
+# sent_id = 1
+1	Salloni	sallon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1|end_char=8
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10
+3	luksit”	luksit”	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=18|SpaceAfter=No
+4	/	/	PUNCT	_	_	1	punct	_	start_char=18|end_char=19
+
+# text = Miliona euro dëm shtetit, 8 të arrestuar në Itali, mes tyre edhe 2 shqiptarë Operacioni i Guardia Di Finanza në Treviso, i koduar “Salloni i Luksit”, ka shkatërruar një grup kriminal me bazë në Itali me akuzën e mashtrimit fiskal në dëm të shtetit italian.
+# sent_id = 2
+1	Miliona	milionë	PRON	_	Case=Nom|PronType=Ind	2	det	_	start_char=20|end_char=27
+2	euro	euro	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	20	advmod	_	start_char=28|end_char=32
+3	dëm	dëm	ADP	_	Case=Acc	4	case	_	start_char=33|end_char=36
+4	shtetit	shtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=37|end_char=44|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=44|end_char=45
+6	8	8	NUM	_	NumType=Card	8	iobj	_	start_char=46|end_char=47
+7	të	të	PART	_	_	8	fixed	_	start_char=48|end_char=50
+8	arrestuar	arrestoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=51|end_char=60
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=61|end_char=63
+10	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=64|end_char=69|SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	start_char=69|end_char=70
+12	mes	mes	ADP	_	Case=Abl	13	case	_	start_char=71|end_char=74
+13	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	advmod	_	start_char=75|end_char=79
+14	edhe	edhe	PART	_	_	16	cc	_	start_char=80|end_char=84
+15	2	2	NUM	_	NumType=Card	16	nummod	_	start_char=85|end_char=86
+16	shqiptarë	shqiptar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	20	advmod	_	start_char=87|end_char=96|SpacesAfter=\n
+17	Operacioni	Operacion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	appos	_	start_char=97|end_char=107
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=108|end_char=109
+19	Guardia	Guardi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	flat	_	start_char=110|end_char=117
+20	Di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=118|end_char=120
+21	Finanza	Finanzë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	start_char=121|end_char=128
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=129|end_char=131
+23	Treviso	Treviso	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	advmod	_	start_char=132|end_char=139|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	start_char=139|end_char=140
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=141|end_char=142
+26	koduar	koduar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	cop	_	start_char=143|end_char=149
+27	“	"	PUNCT	_	_	28	punct	_	start_char=150|end_char=151|SpaceAfter=No
+28	Salloni	Sallon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=151|end_char=158
+29	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=159|end_char=160
+30	Luksit”	Luksit”	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=161|end_char=168|SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	start_char=168|end_char=169
+32	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=170|end_char=172
+33	shkatërruar	shkatërroj	VERB	_	VerbForm=Part	20	conj	_	start_char=173|end_char=184
+34	një	një	DET	_	Definite=Ind	35	det	_	start_char=185|end_char=188
+35	grup	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	start_char=189|end_char=193
+36	kriminal	kriminal	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=194|end_char=202
+37	me	me	ADP	_	Case=Acc	38	case	_	start_char=203|end_char=205
+38	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	advmod	_	start_char=206|end_char=210
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=211|end_char=213
+40	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	38	nmod	_	start_char=214|end_char=219
+41	me	me	ADP	_	Case=Acc	42	case	_	start_char=220|end_char=222
+42	akuzën	akuzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=223|end_char=229
+43	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	44	det	_	start_char=230|end_char=231
+44	mashtrimit	mashtrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	42	nmod	_	start_char=232|end_char=242
+45	fiskal	fiskal	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	start_char=243|end_char=249
+46	në	në	ADP	_	Case=Acc	47	case	_	start_char=250|end_char=252
+47	dëm	dëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	44	nmod	_	start_char=253|end_char=256
+48	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	49	det:poss	_	start_char=257|end_char=259
+49	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	47	nmod	_	start_char=260|end_char=267
+50	italian	italian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	start_char=268|end_char=275|SpaceAfter=No
+51	.	.	PUNCT	_	_	33	punct	_	start_char=275|end_char=276|SpacesAfter=\n
+
+# text = 8 persona janë vënë nën arrest me burg 2 janë shqiptarë, 1 italian e 5 rumunë.
+# sent_id = 3
+1	8	8	NUM	_	NumType=Card	2	nummod	_	start_char=277|end_char=278
+2	persona	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	start_char=279|end_char=286
+3	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=287|end_char=291
+4	vënë	vëj	VERB	_	VerbForm=Part	0	root	_	start_char=292|end_char=296
+5	nën	nën	ADP	_	Case=Acc	6	case	_	start_char=297|end_char=300
+6	arrest	arrest	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=301|end_char=307
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=308|end_char=310
+8	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=311|end_char=315
+9	2	2	NUM	_	NumType=Card	8	nummod	_	start_char=316|end_char=317
+10	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=318|end_char=322
+11	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	cop	_	start_char=323|end_char=332|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=332|end_char=333
+13	1	1	NUM	_	NumType=Card	14	nummod	_	start_char=334|end_char=335
+14	italian	italian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	start_char=336|end_char=343
+15	e	e	CCONJ	_	_	17	cc	_	start_char=344|end_char=345
+16	5	5	NUM	_	NumType=Card	17	nummod	_	start_char=346|end_char=347
+17	rumunë	rumunë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	conj	_	start_char=348|end_char=354|SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	start_char=354|end_char=355|SpacesAfter=\n
+
+# text = Nën dokumentacione të falsifikuar si fatura e akte noterimi evitonin pagesën e taksën e regjistrimit të automjeteve lluksoze në Itali.
+# sent_id = 4
+1	Nën	nën	ADP	_	Case=Acc	2	case	_	start_char=356|end_char=359
+2	dokumentacione	dokumentacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	advmod	_	start_char=360|end_char=374
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=375|end_char=377
+4	falsifikuar	falsifikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=378|end_char=389
+5	si	si	SCONJ	_	_	6	mark	_	start_char=390|end_char=392
+6	fatura	faturë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=393|end_char=399
+7	e	e	CCONJ	_	_	8	cc	_	start_char=400|end_char=401
+8	akte	akt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	conj	_	start_char=402|end_char=406
+9	noterimi	noterim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=407|end_char=415
+10	evitonin	evitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=416|end_char=424
+11	pagesën	pagesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=425|end_char=432
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=433|end_char=434
+13	taksën	taksë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=435|end_char=441
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=442|end_char=443
+15	regjistrimit	regjistrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=444|end_char=456
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=457|end_char=459
+17	automjeteve	automjet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=460|end_char=471
+18	lluksoze	lluksoz	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=472|end_char=480
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=481|end_char=483
+20	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=484|end_char=489|SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	start_char=489|end_char=490|SpacesAfter=\n
+
+# text = Ky grup kriminal kishte në zotërim një shoqëri për shitblerje makinash të përdorura me bazë në Treviso.
+# sent_id = 5
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=491|end_char=493
+2	grup	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=494|end_char=498
+3	kriminal	kriminal	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=499|end_char=507
+4	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=508|end_char=514
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=515|end_char=517
+6	zotërim	zotërim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=518|end_char=525
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=526|end_char=529
+8	shoqëri	shoqër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=530|end_char=537
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=538|end_char=541
+10	shitblerje	shitblerje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=542|end_char=552
+11	makinash	makinash	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=553|end_char=561
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=562|end_char=564
+13	përdorura	përdorurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=565|end_char=574
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=575|end_char=577
+15	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=578|end_char=582
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=583|end_char=585
+17	Treviso	Treviso	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=586|end_char=593|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	start_char=593|end_char=594
+
+# text = Automjetet bleheshin në Gjermani, Francë, Spanjë e Belgjikë.
+# sent_id = 6
+1	Automjetet	automjet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	start_char=595|end_char=605
+2	bleheshin	bleh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=606|end_char=615
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=616|end_char=618
+4	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=619|end_char=627|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=627|end_char=628
+6	Francë	Francë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=629|end_char=635|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=635|end_char=636
+8	Spanjë	Spanjë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	list	_	start_char=637|end_char=643
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=644|end_char=645
+10	Belgjikë	Belgjikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=646|end_char=654|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	start_char=654|end_char=655|SpacesAfter=\n
+
+# text = Afera mashtruese kap vlerën e 8.5 milionë euro e 1.5 milione prej tyre në dëm të shtetit.
+# sent_id = 7
+1	Afera	tferë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=656|end_char=661
+2	mashtruese	mashtrues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=662|end_char=672
+3	kap	kap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=673|end_char=676
+4	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=677|end_char=683
+5	e	e	CCONJ	_	_	7	cc	_	start_char=684|end_char=685
+6	8.5	8.5	NUM	_	NumType=Card	7	nummod	_	start_char=686|end_char=689
+7	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	start_char=690|end_char=697
+8	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	start_char=698|end_char=702
+9	e	e	CCONJ	_	_	11	cc	_	start_char=703|end_char=704
+10	1.5	1.5	NUM	_	NumType=Card	11	nummod	_	start_char=705|end_char=708
+11	milione	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	start_char=709|end_char=716
+12	prej	prej	ADP	_	Case=Abl	13	case	_	start_char=717|end_char=721
+13	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nummod	_	start_char=722|end_char=726
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=727|end_char=729
+15	dëm	dëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=730|end_char=733
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=734|end_char=736
+17	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=737|end_char=744|SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	start_char=744|end_char=745|SpacesAfter=\n
+
+# text = Hetimet kanë verifikuar 161 shiblerje makinash me vlerë 8.5 milionë euro, ndërsa të arrestuarve u janë sekuestruar të mira materiale me vlerë gjysëm milionë euro.
+# sent_id = 8
+1	Hetimet	Hetim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=746|end_char=753
+2	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=754|end_char=758
+3	verifikuar	verifikoj	VERB	_	VerbForm=Part	0	root	_	start_char=759|end_char=769
+4	161	161	NUM	_	NumType=Card	5	nummod	_	start_char=770|end_char=773
+5	shiblerje	shiblerje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=774|end_char=783
+6	makinash	makinash	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	start_char=784|end_char=792
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=793|end_char=795
+8	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=796|end_char=801
+9	8.5	8.5	NUM	_	NumType=Card	11	nummod	_	start_char=802|end_char=805
+10	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	start_char=806|end_char=813
+11	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	start_char=814|end_char=818|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=818|end_char=819
+13	ndërsa	ndërsa	CCONJ	_	_	18	cc	_	start_char=820|end_char=826
+14	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=827|end_char=829
+15	arrestuarve	arrestuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	start_char=830|end_char=841
+16	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	fixed	_	start_char=842|end_char=843
+17	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=844|end_char=848
+18	sekuestruar	sekuestroj	VERB	_	VerbForm=Part	3	conj	_	start_char=849|end_char=860
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=861|end_char=863
+20	mira	mira	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	cop	_	start_char=864|end_char=868
+21	materiale	material	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=869|end_char=878
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=879|end_char=881
+23	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	advmod	_	start_char=882|end_char=887
+24	gjysëm	gjysëm	ADV	_	AdvType=Man	26	advmod	_	start_char=888|end_char=894
+25	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	26	nummod	_	start_char=895|end_char=902
+26	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	start_char=903|end_char=907|SpaceAfter=No
+27	.	.	PUNCT	_	_	18	punct	_	start_char=907|end_char=908|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 9
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=909|end_char=911
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=912|end_char=922|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=922|end_char=923|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=924|end_char=928
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=929|end_char=931
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=932|end_char=935
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=936|end_char=940|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=941|end_char=959|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=960|end_char=969
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=970|end_char=982
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=983|end_char=989|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=990|end_char=999
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1000|end_char=1012
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1013|end_char=1020|SpacesAfter=\n\n\n
+

@@ -1,0 +1,222 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Deduksione bashkëkohësie”/
+# sent_id = 1
+1	Deduksione	deduksion	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=1|end_char=11
+2	bashkëkohësie”	bashkëkohësi”	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=12|end_char=26|SpaceAfter=No
+3	/	/	PUNCT	_	_	1	punct	_	start_char=26|end_char=27
+
+# text = Aleksandër Filipi, ekspozitë në Shkodër, sjell 25 punime artistike 13/04/2023
+# sent_id = 2
+1	Aleksandër	Aleksandër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	start_char=28|end_char=38
+2	Filipi	Filip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=39|end_char=45|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=45|end_char=46
+4	ekspozitë	ekspozi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=47|end_char=56
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=57|end_char=59
+6	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=60|end_char=67|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	start_char=67|end_char=68
+8	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=69|end_char=74
+9	25	25	NUM	_	NumType=Card	10	nummod	_	start_char=75|end_char=77
+10	punime	punim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=78|end_char=84
+11	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=85|end_char=94|SpacesAfter=\n
+12	13	13	NUM	_	NumType=Card	13	nummod	_	start_char=95|end_char=97|SpaceAfter=No
+13	/04	/04	SYM	_	_	10	nmod	_	start_char=97|end_char=100|SpaceAfter=No
+14	/202	/202	NUM	_	NumType=Card	13	amod:nummod	_	start_char=100|end_char=104|SpaceAfter=No
+15	3	3	NUM	_	NumType=Card	13	amod	_	start_char=104|end_char=105|SpacesAfter=\n
+
+# text = Një ekspozitë në kufijtë e një Eko ose Ekografie të unit e shoqërisë njerëzore e karakterit klasiko-modern ishte ajo që u çel në Galerinë e Arteve në Shkodër me titullin "Deduksione bashkëkohësie" nga artisti i ngjyrave Aleksandër Filipi, i cili erdhi si "Personazh i ftuar" për këtë vit.
+# sent_id = 3
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=106|end_char=109
+2	ekspozitë	ekspozi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	start_char=110|end_char=119
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=120|end_char=122
+4	kufijtë	kufijtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=123|end_char=130
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=131|end_char=132
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=133|end_char=136
+7	Eko	eko	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=137|end_char=140
+8	ose	ose	CCONJ	_	_	9	cc	_	start_char=141|end_char=144
+9	Ekografie	Ekografi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=145|end_char=154
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=155|end_char=157
+11	unit	unit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=158|end_char=162
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=163|end_char=164
+13	shoqërisë	shoqëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=165|end_char=174
+14	njerëzore	njerëzor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=175|end_char=184
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=185|end_char=186
+16	karakterit	karakter	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=187|end_char=197
+17	klasiko-modern	klasiko-moder	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=198|end_char=212
+18	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=213|end_char=218
+19	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=219|end_char=222
+20	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=223|end_char=225
+21	u	u	PART	_	_	22	fixed	_	start_char=226|end_char=227
+22	çel	çel	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	acl	_	start_char=228|end_char=231
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=232|end_char=234
+24	Galerinë	Galeri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obl	_	start_char=235|end_char=243
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=244|end_char=245
+26	Arteve	art	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=246|end_char=252
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=253|end_char=255
+28	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	advmod	_	start_char=256|end_char=263
+29	me	me	ADP	_	Case=Acc	30	case	_	start_char=264|end_char=266
+30	titullin	titull	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=267|end_char=275
+31	"	"	PUNCT	_	_	32	punct	_	start_char=276|end_char=277|SpaceAfter=No
+32	Deduksione	deduksion	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	30	appos	_	start_char=277|end_char=287
+33	bashkëkohësie	bashkëkohësi	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=288|end_char=301|SpaceAfter=No
+34	"	"	PUNCT	_	_	32	punct	_	start_char=301|end_char=302
+35	nga	nga	ADP	_	Case=Nom	36	case	_	start_char=303|end_char=306
+36	artisti	artist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	list	_	start_char=307|end_char=314
+37	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	38	det:poss	_	start_char=315|end_char=316
+38	ngjyrave	ngjyra	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	nmod	_	start_char=317|end_char=325
+39	Aleksandër	Aleksandër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	appos	_	start_char=326|end_char=336
+40	Filipi	Filip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	appos	_	start_char=337|end_char=343|SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	start_char=343|end_char=344
+42	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=345|end_char=346
+43	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	44	nsubj	_	start_char=347|end_char=351
+44	erdhi	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	38	acl	_	start_char=352|end_char=357
+45	si	si	SCONJ	_	_	47	mark	_	start_char=358|end_char=360
+46	"	"	PUNCT	_	_	47	punct	_	start_char=361|end_char=362|SpaceAfter=No
+47	Personazh	personazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	44	obj	_	start_char=362|end_char=371
+48	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	49	det	_	start_char=372|end_char=373
+49	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	start_char=374|end_char=379|SpaceAfter=No
+50	"	"	PUNCT	_	_	53	punct	_	start_char=379|end_char=380
+51	për	për	ADP	_	Case=Acc	53	case	_	start_char=381|end_char=384
+52	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	53	det	_	start_char=385|end_char=389
+53	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	44	advmod	_	start_char=390|end_char=393|SpaceAfter=No
+54	.	.	PUNCT	_	_	44	punct	_	start_char=393|end_char=394|SpacesAfter=\n
+
+# text = Drejtuesi i Galerisë, Fatmir Juka pasi përshëndeti publikun pjesëmarrës u ndal tek karakteri artistik i punimeve të piktorit Aleksandër Filipi.
+# sent_id = 4
+1	Drejtuesi	drejtues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=395|end_char=404
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=405|end_char=406
+3	Galerisë	galeri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=407|end_char=415|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=415|end_char=416
+5	Fatmir	Fatmir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=417|end_char=423
+6	Juka	Juka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=424|end_char=428
+7	pasi	pasi	SCONJ	_	_	8	mark	_	start_char=429|end_char=433
+8	përshëndeti	përshëndem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	start_char=434|end_char=445
+9	publikun	publik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=446|end_char=454
+10	pjesëmarrës	pjesëmarrë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=455|end_char=466
+11	u	u	PART	_	_	12	fixed	_	start_char=467|end_char=468
+12	ndal	ndal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=469|end_char=473
+13	tek	tek	ADP	_	Case=Nom	14	case	_	start_char=474|end_char=477
+14	karakteri	karakter	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=478|end_char=487
+15	artistik	artistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=488|end_char=496
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=497|end_char=498
+17	punimeve	punim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=499|end_char=507
+18	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=508|end_char=510
+19	piktorit	piktor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=511|end_char=519
+20	Aleksandër	Aleksandër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	appos	_	start_char=520|end_char=530
+21	Filipi	Filip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=531|end_char=537|SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	start_char=537|end_char=538|SpacesAfter=\n
+
+# text = Në 25 punimet e artistit Filipi shquhet dinamika aq sa hera herës të duket sikur çdo gjë është në lëvizje ashtu si vetë koha apo njerëzit dhe kjo të fut në gjendjen e reflektimit e kjo e fundit duket sikur është edhe qëllimi i artistit nga kjo ekspozitë me filozofi diogjeniane.
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=539|end_char=541
+2	25	25	NUM	_	NumType=Card	3	nummod	_	start_char=542|end_char=544
+3	punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=545|end_char=552
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=553|end_char=554
+5	artistit	artist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=555|end_char=563
+6	Filipi	Filip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=564|end_char=570
+7	shquhet	shquhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=571|end_char=578
+8	dinamika	dinamikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=579|end_char=587
+9	aq	aq	ADV	_	AdvType=Deg	11	advmod	_	start_char=588|end_char=590
+10	sa	sa	SCONJ	_	_	11	mark	_	start_char=591|end_char=593
+11	hera	herë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=594|end_char=598
+12	herës	herë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	advmod	_	start_char=599|end_char=604
+13	të	të	PART	_	_	14	fixed	_	start_char=605|end_char=607
+14	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	advcl	_	start_char=608|end_char=613
+15	sikur	sikur	SCONJ	_	_	18	mark	_	start_char=614|end_char=619
+16	çdo	çdo	PRON	_	PronType=Ind	17	det	_	start_char=620|end_char=623
+17	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	start_char=624|end_char=627
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	ccomp	_	start_char=628|end_char=633
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=634|end_char=636
+20	lëvizje	lëvizje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl:arg	_	start_char=637|end_char=644
+21	ashtu	ashtu	ADV	_	AdvType=Man	24	mark	_	start_char=645|end_char=650
+22	si	si	SCONJ	_	_	24	mark	_	start_char=651|end_char=653
+23	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	24	det	_	start_char=654|end_char=658
+24	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=659|end_char=663
+25	apo	apo	CCONJ	_	_	26	cc	_	start_char=664|end_char=667
+26	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	24	conj	_	start_char=668|end_char=676
+27	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=677|end_char=680
+28	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	30	fixed	_	start_char=681|end_char=684
+29	të	të	PART	_	_	30	fixed	_	start_char=685|end_char=687
+30	fut	fut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	acl:relcl	_	start_char=688|end_char=691
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=692|end_char=694
+32	gjendjen	gjendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	start_char=695|end_char=703
+33	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=704|end_char=705
+34	reflektimit	reflektim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=706|end_char=717
+35	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=718|end_char=719
+36	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	39	nsubj	_	start_char=720|end_char=723
+37	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=724|end_char=725
+38	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=726|end_char=732
+39	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	34	acl	_	start_char=733|end_char=738
+40	sikur	sikur	SCONJ	_	_	41	mark	_	start_char=739|end_char=744
+41	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	ccomp	_	start_char=745|end_char=750
+42	edhe	edhe	PART	_	_	43	mark	_	start_char=751|end_char=755
+43	qëllimi	qëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	cop	_	start_char=756|end_char=763
+44	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	45	det	_	start_char=764|end_char=765
+45	artistit	artist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	43	nmod	_	start_char=766|end_char=774
+46	nga	nga	ADP	_	Case=Nom	48	case	_	start_char=775|end_char=778
+47	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	48	det	_	start_char=779|end_char=782
+48	ekspozitë	ekspozi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	43	nmod	_	start_char=783|end_char=792
+49	me	me	ADP	_	Case=Acc	50	case	_	start_char=793|end_char=795
+50	filozofi	filozofi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	48	nmod	_	start_char=796|end_char=804
+51	diogjeniane	diogjenian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	start_char=805|end_char=816|SpaceAfter=No
+52	.	.	PUNCT	_	_	41	punct	_	start_char=816|end_char=817|SpacesAfter=\n
+
+# text = Aleksandër Filipi ndonëse është lindur në Berat, origjina e tij është nga Shkodra ndërsa ka qenë pjesëmarrës në ekspozita dhe veprimtari të ndryshme artistike ku është vlerësuar me çmime të ndryshme.
+# sent_id = 6
+1	Aleksandër	Aleksandër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	start_char=818|end_char=828
+2	Filipi	Filip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=829|end_char=835
+3	ndonëse	ndonëse	SCONJ	_	_	5	mark	_	start_char=836|end_char=843
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=844|end_char=849
+5	lindur	lindur	VERB	_	VerbForm=Part	12	advcl	_	start_char=850|end_char=856
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=857|end_char=859
+7	Berat	Berat	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=860|end_char=865|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	start_char=865|end_char=866
+9	origjina	origjinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=867|end_char=875
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=876|end_char=877
+11	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	amod:poss	_	start_char=878|end_char=881
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=882|end_char=887
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=888|end_char=891
+14	Shkodra	shkodrë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=892|end_char=899
+15	ndërsa	ndërsa	CCONJ	_	_	17	cc	_	start_char=900|end_char=906
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=907|end_char=909
+17	qenë	jam	VERB	_	VerbForm=Part	12	conj	_	start_char=910|end_char=914
+18	pjesëmarrës	pjesëmarrë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	cop	_	start_char=915|end_char=926
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=927|end_char=929
+20	ekspozita	ekspozitë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=930|end_char=939
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=940|end_char=943
+22	veprimtari	veprimtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	conj	_	start_char=944|end_char=954
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=955|end_char=957
+24	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=958|end_char=966
+25	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=967|end_char=976
+26	ku	ku	ADV	_	AdvType=Loc	28	advmod	_	start_char=977|end_char=979
+27	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=980|end_char=985
+28	vlerësuar	vlerësoj	VERB	_	VerbForm=Part	22	acl:relcl	_	start_char=986|end_char=995
+29	me	me	ADP	_	Case=Acc	30	case	_	start_char=996|end_char=998
+30	çmime	çmim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obl	_	start_char=999|end_char=1004
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=1005|end_char=1007
+32	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=1008|end_char=1016|SpaceAfter=No
+33	.	.	PUNCT	_	_	28	punct	_	start_char=1016|end_char=1017
+
+# text = Kjo ekspozitë do të qëndrojë e hapur deri më 10 maj në Galerinë e Arteve të Shkodrës.
+# sent_id = 7
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1018|end_char=1021
+2	ekspozitë	ekspozi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1022|end_char=1031
+3	do	do	PART	_	_	5	fixed	_	start_char=1032|end_char=1034
+4	të	të	PART	_	_	5	fixed	_	start_char=1035|end_char=1037
+5	qëndrojë	qëndroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1038|end_char=1046
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1047|end_char=1048
+7	hapur	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=1049|end_char=1054
+8	deri	deri	ADP	_	Case=Acc	11	case	_	start_char=1055|end_char=1059
+9	më	më	ADP	_	Case=Acc	11	case	_	start_char=1060|end_char=1062
+10	10	10	NUM	_	NumType=Card	11	nummod	_	start_char=1063|end_char=1065
+11	maj	maj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=1066|end_char=1069
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1070|end_char=1072
+13	Galerinë	Galeri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1073|end_char=1081
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=1082|end_char=1083
+15	Arteve	art	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=1084|end_char=1090
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=1091|end_char=1093
+17	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=1094|end_char=1102|SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	start_char=1102|end_char=1103|SpacesAfter=\n\n\n
+

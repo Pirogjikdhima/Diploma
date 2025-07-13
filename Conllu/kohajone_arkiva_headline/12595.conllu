@@ -1,0 +1,803 @@
+# text = Mustafa Nano:
+# sent_id = 0
+1	Mustafa	mustafë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=7
+2	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=8|end_char=12|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=12|end_char=13
+
+# text = Rama ka qejf të punojë më “djemtë e këqinj”
+# sent_id = 1
+1	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=14|end_char=18
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=19|end_char=21
+3	qejf	qej	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=26
+4	të	të	PART	_	_	5	fixed	_	start_char=27|end_char=29
+5	punojë	punoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=30|end_char=36
+6	më	më	PART	_	_	7	mark	_	start_char=37|end_char=39
+7	“djemtë	tdjemtë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obj	_	start_char=40|end_char=47
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	9	det:poss	_	start_char=48|end_char=49
+9	këqinj	kë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	7	nmod	_	start_char=50|end_char=56|SpaceAfter=No
+10	”	"	PUNCT	_	_	5	punct	_	start_char=56|end_char=57|SpacesAfter=\n
+
+# text = Mustafa Nano ka analizuar në një shkrim të botuar sot tek Shqip, atë që ai e cilëson si kriminalizim të shoqërisë.
+# sent_id = 2
+1	Mustafa	mustafë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=58|end_char=65
+2	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=66|end_char=70
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=71|end_char=73
+4	analizuar	analizoj	VERB	_	VerbForm=Part	0	root	_	start_char=74|end_char=83
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=84|end_char=86
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=87|end_char=90
+7	shkrim	shkrim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=91|end_char=97
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=98|end_char=100
+9	botuar	botoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=101|end_char=107
+10	sot	sot	ADV	_	AdvType=Tim	7	advmod	_	start_char=108|end_char=111
+11	tek	tek	ADP	_	Case=Nom	12	case	_	start_char=112|end_char=115
+12	Shqip	Shqip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=116|end_char=121|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=121|end_char=122
+14	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	list	_	start_char=123|end_char=126
+15	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=127|end_char=129
+16	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=130|end_char=132
+17	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=133|end_char=134
+18	cilëson	cilësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	start_char=135|end_char=142
+19	si	si	SCONJ	_	_	20	mark	_	start_char=143|end_char=145
+20	kriminalizim	kriminalizim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	start_char=146|end_char=158
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=159|end_char=161
+22	shoqërisë	shoqëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=162|end_char=171|SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	start_char=171|end_char=172|SpacesAfter=\n
+
+# text = Sipas tij, këtu është e korruptuar edhe shoqëria dhe elitat e saj.
+# sent_id = 3
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=173|end_char=178
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	advmod	_	start_char=179|end_char=182|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=182|end_char=183
+4	këtu	ky	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	nsubj	_	start_char=184|end_char=188
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=189|end_char=194
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=195|end_char=196
+7	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=197|end_char=207
+8	edhe	edhe	CCONJ	_	_	9	cc	_	start_char=208|end_char=212
+9	shoqëria	shoqëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	cop	_	start_char=213|end_char=221
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=222|end_char=225
+11	elitat	elitë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	start_char=226|end_char=232
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=233|end_char=234
+13	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=235|end_char=238|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	start_char=238|end_char=239|SpacesAfter=\n
+
+# text = Dhe, këtë gjë, shkruan Nano, po e shfrytëzon Edi Rama, që sipas tij, ka qejf të punojë me “djemtë e këqinj”.
+# sent_id = 4
+1	Dhe	dhe	CCONJ	_	_	6	cc	_	start_char=240|end_char=243|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=243|end_char=244
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=245|end_char=249
+4	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	start_char=250|end_char=253|SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	start_char=253|end_char=254
+6	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=255|end_char=262
+7	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=263|end_char=267|SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	start_char=267|end_char=268
+9	po	po	PART	_	_	11	mark	_	start_char=269|end_char=271
+10	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=272|end_char=273
+11	shfrytëzon	shfrytëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=274|end_char=284
+12	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=285|end_char=288
+13	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=289|end_char=293|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=293|end_char=294
+15	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=295|end_char=297
+16	sipas	sipas	ADP	_	Case=Abl	17	case	_	start_char=298|end_char=303
+17	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	start_char=304|end_char=307|SpaceAfter=No
+18	,	,	PUNCT	_	_	15	punct	_	start_char=307|end_char=308
+19	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=309|end_char=311
+20	qejf	qej	VERB	_	VerbForm=Part	19	ccomp	_	start_char=312|end_char=316
+21	të	të	PART	_	_	22	fixed	_	start_char=317|end_char=319
+22	punojë	punoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	ccomp	_	start_char=320|end_char=326
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=327|end_char=329
+24	“djemtë	tdjemtë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	obl	_	start_char=330|end_char=337
+25	e	e	CCONJ	_	_	26	cc	_	start_char=338|end_char=339
+26	këqinj”	këqinj”	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	start_char=340|end_char=347|SpaceAfter=No
+27	.	.	PUNCT	_	_	19	punct	_	start_char=347|end_char=348|SpacesAfter=\n
+
+# text = “Opinioni publik ose më saktë asambleja e madhe e qytetarëve (public body), që ka humbur busullën deri në atë masë, sa s’e ka për gjë të vihet në mbështetje të banditëve gjithfarësoji.
+# sent_id = 5
+1	“	"	PUNCT	_	_	2	punct	_	start_char=349|end_char=350|SpaceAfter=No
+2	Opinioni	Opinion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=350|end_char=358
+3	publik	publik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=359|end_char=365
+4	ose	ose	CCONJ	_	_	6	cc	_	start_char=366|end_char=369
+5	më	më	PART	_	_	6	mark	_	start_char=370|end_char=372
+6	saktë	saktë	ADV	_	AdvType=Tim	2	conj	_	start_char=373|end_char=378
+7	asambleja	asamblejë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=379|end_char=388
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=389|end_char=390
+9	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=391|end_char=396
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=397|end_char=398
+11	qytetarëve	qytetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=399|end_char=409
+12	(	(	PUNCT	_	_	13	punct	_	start_char=410|end_char=411|SpaceAfter=No
+13	public	public	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=411|end_char=417
+14	body	body	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=418|end_char=422|SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	start_char=422|end_char=423|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=423|end_char=424
+17	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=425|end_char=427
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=428|end_char=430
+19	humbur	humbur	VERB	_	VerbForm=Part	13	acl:relcl	_	start_char=431|end_char=437
+20	busullën	busullë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=438|end_char=446
+21	deri	deri	PART	_	Case=TODO	22	fixed	_	start_char=447|end_char=451
+22	në	në	ADP	_	Case=Acc	24	case	_	start_char=452|end_char=454
+23	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	start_char=455|end_char=458
+24	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=459|end_char=463|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	start_char=463|end_char=464
+26	sa	sa	SCONJ	_	_	28	mark	_	start_char=465|end_char=467
+27	s’e	s’e	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	28	nsubj	_	start_char=468|end_char=471
+28	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	acl	_	start_char=472|end_char=474
+29	për	për	ADP	_	Case=Acc	30	case	_	start_char=475|end_char=478
+30	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	start_char=479|end_char=482
+31	të	të	PART	_	_	32	fixed	_	start_char=483|end_char=485
+32	vihet	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	28	ccomp	_	start_char=486|end_char=491
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=492|end_char=494
+34	mbështetje	mbështetje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obl	_	start_char=495|end_char=505
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=506|end_char=508
+36	banditëve	banditë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	34	nmod	_	start_char=509|end_char=518
+37	gjithfarësoji	gjithfarësoj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	36	nmod	_	start_char=519|end_char=532|SpaceAfter=No
+38	.	.	PUNCT	_	_	28	punct	_	start_char=532|end_char=533
+
+# text = Sigurisht, në këtë mes kemi përgjegjësi që të gjithë, e në radhë të parë e mbi të gjitha ka përgjegjësi politika, sepse është pikërisht kjo që bëri çmos derisa ia doli të thante çdo filiz të mendimit kritik, të korruptonte, shkurajonte apo ftohte bartësit e përfaqësuesit e këtij mendimi, e të krijonte këtë Shqipëri ku ajo konkurron e gjallon e vetme, pa pasur frikën se duhet të përgjigjet diku a për diçka.
+# sent_id = 6
+1	Sigurisht	sigurisht	ADV	_	AdvType=Man	6	advmod	_	start_char=534|end_char=543|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=543|end_char=544
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=545|end_char=547
+4	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=548|end_char=552
+5	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=553|end_char=556
+6	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=557|end_char=561
+7	përgjegjësi	përgjegjës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=562|end_char=573
+8	që	që	SCONJ	_	_	10	mark	_	start_char=574|end_char=576
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=577|end_char=579
+10	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	nmod	_	start_char=580|end_char=586|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=586|end_char=587
+12	e	e	CCONJ	_	_	14	cc	_	start_char=588|end_char=589
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=590|end_char=592
+14	radhë	radhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=593|end_char=598
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=599|end_char=601
+16	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=602|end_char=606
+17	e	e	CCONJ	_	_	21	cc	_	start_char=607|end_char=608
+18	mbi	mbi	ADP	_	Case=Acc	20	case	_	start_char=609|end_char=612
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=613|end_char=615
+20	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	21	iobj	_	start_char=616|end_char=622
+21	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	start_char=623|end_char=625
+22	përgjegjësi	përgjegjës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=626|end_char=637
+23	politika	politikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=638|end_char=646|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=646|end_char=647
+25	sepse	sepse	SCONJ	_	_	26	mark	_	start_char=648|end_char=653
+26	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	advcl	_	start_char=654|end_char=659
+27	pikërisht	pikërisht	ADV	_	AdvType=Man	26	advmod	_	start_char=660|end_char=669
+28	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	30	nsubj	_	start_char=670|end_char=673
+29	që	që	PRON	_	PronType=Rel	30	nsubj	_	start_char=674|end_char=676
+30	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	advcl	_	start_char=677|end_char=681
+31	çmos	çmos	PRON	_	PronType=Prs|Reflex=Yes	30	obj	_	start_char=682|end_char=686
+32	derisa	derisa	SCONJ	_	_	35	mark	_	start_char=687|end_char=693
+33-34	ia	_	_	_	_	_	_	_	start_char=694|end_char=696
+33	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	_
+34	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	doli	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	advcl	_	start_char=697|end_char=701
+36	të	të	PART	_	_	37	fixed	_	start_char=702|end_char=704
+37	thante	thaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	35	ccomp	_	start_char=705|end_char=711
+38	çdo	çdo	PRON	_	PronType=Ind	39	nummod	_	start_char=712|end_char=715
+39	filiz	filiz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	37	obj	_	start_char=716|end_char=721
+40	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	41	det:poss	_	start_char=722|end_char=724
+41	mendimit	mendim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	start_char=725|end_char=733
+42	kritik	kritik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=734|end_char=740|SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	start_char=740|end_char=741
+44	të	të	PART	_	_	45	fixed	_	start_char=742|end_char=744
+45	korruptonte	korruptoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	41	acl	_	start_char=745|end_char=756|SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	start_char=756|end_char=757
+47	shkurajonte	shkurajoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	45	conj	_	start_char=758|end_char=769
+48	apo	apo	CCONJ	_	_	49	cc	_	start_char=770|end_char=773
+49	ftohte	ftoht	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	47	conj	_	start_char=774|end_char=780
+50	bartësit	bartës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	47	obj	_	start_char=781|end_char=789
+51	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	52	det:poss	_	start_char=790|end_char=791
+52	përfaqësuesit	përfaqësues	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	50	nmod	_	start_char=792|end_char=805
+53	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	55	det:poss	_	start_char=806|end_char=807
+54	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	55	det	_	start_char=808|end_char=813
+55	mendimi	mendim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	52	nmod	_	start_char=814|end_char=821|SpaceAfter=No
+56	,	,	PUNCT	_	_	59	punct	_	start_char=821|end_char=822
+57	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	cc	_	start_char=823|end_char=824
+58	të	të	PART	_	_	59	fixed	_	start_char=825|end_char=827
+59	krijonte	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	47	conj	_	start_char=828|end_char=836
+60	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	61	det	_	start_char=837|end_char=841
+61	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	59	obj	_	start_char=842|end_char=850
+62	ku	ku	ADV	_	AdvType=Loc	64	advmod	_	start_char=851|end_char=853
+63	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	64	nsubj	_	start_char=854|end_char=857
+64	konkurron	konkurroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	59	advcl	_	start_char=858|end_char=867
+65	e	e	CCONJ	_	_	66	cc	_	start_char=868|end_char=869
+66	gjallon	gjalloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	64	conj	_	start_char=870|end_char=877
+67	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	68	det	_	start_char=878|end_char=879
+68	vetme	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	66	cop	_	start_char=880|end_char=885|SpaceAfter=No
+69	,	,	PUNCT	_	_	71	punct	_	start_char=885|end_char=886
+70	pa	pa	PART	_	_	71	fixed	_	start_char=887|end_char=889
+71	pasur	kam	VERB	_	VerbForm=Part	66	advmod	_	start_char=890|end_char=895
+72	frikën	frikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	71	obj	_	start_char=896|end_char=902
+73	se	se	SCONJ	_	_	76	mark	_	start_char=903|end_char=905
+74	duhet	duhem	AUX	_	_	76	aux	_	start_char=906|end_char=911
+75	të	të	PART	_	_	76	fixed	_	start_char=912|end_char=914
+76	përgjigjet	përgjigjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	71	advcl	_	start_char=915|end_char=925
+77	diku	diku	ADV	_	AdvType=Loc	76	advmod	_	start_char=926|end_char=930
+78	a	a	PART	_	_	80	mark	_	start_char=931|end_char=932
+79	për	për	ADP	_	Case=Acc	80	case	_	start_char=933|end_char=936
+80	diçka	diçka	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	76	obl	_	start_char=937|end_char=942|SpaceAfter=No
+81	.	.	PUNCT	_	_	76	punct	_	start_char=942|end_char=943
+
+# text = Kjo situatë ka sjellë që ajo jo vetëm të jetë e korruptuar, por edhe të mos bëjë asnjë përpjekje për ta fshehur këtë fakt; që ajo jo vetëm të mos e vërë ujin në zjarr për njerëzit e dijshëm në Shqipëri, por edhe t’i poshtërojë këta njerëz të dijshëm, duke u bërë aleate me bandat e rrugës.
+# sent_id = 7
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=944|end_char=947
+2	situatë	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=948|end_char=955
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=956|end_char=958
+4	sjellë	sjell	VERB	_	VerbForm=Part	0	root	_	start_char=959|end_char=965
+5	që	që	SCONJ	_	_	4	mark	_	start_char=966|end_char=968
+6	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=969|end_char=972
+7	jo	jo	PART	_	_	10	mark	_	start_char=973|end_char=975
+8	vetëm	vetëm	PART	_	_	10	mark	_	start_char=976|end_char=981
+9	të	të	PART	_	_	10	fixed	_	start_char=982|end_char=984
+10	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=985|end_char=989
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=990|end_char=991
+12	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	cop	_	start_char=992|end_char=1002|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1002|end_char=1003
+14	por	por	CCONJ	_	_	18	cc	_	start_char=1004|end_char=1007
+15	edhe	edhe	PART	_	_	18	cc	_	start_char=1008|end_char=1012
+16	të	të	PART	_	_	18	fixed	_	start_char=1013|end_char=1015
+17	mos	mos	PART	_	_	18	fixed	_	start_char=1016|end_char=1019
+18	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=1020|end_char=1024
+19	asnjë	asnjë	PRON	_	PronType=Ind	20	nummod	_	start_char=1025|end_char=1030
+20	përpjekje	përpjekje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=1031|end_char=1040
+21	për	për	PART	_	_	24	fixed	_	start_char=1041|end_char=1044
+22-23	ta	_	_	_	_	_	_	_	start_char=1045|end_char=1047
+22	të	të	PART	_	_	24	fixed	_	_
+23	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+24	fshehur	fsheh	VERB	_	VerbForm=Part	18	advmod	_	start_char=1048|end_char=1055
+25	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	start_char=1056|end_char=1060
+26	fakt	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=1061|end_char=1065|SpaceAfter=No
+27	;	;	PUNCT	_	_	26	punct	_	start_char=1065|end_char=1066
+28	që	që	SCONJ	_	_	35	mark	_	start_char=1067|end_char=1069
+29	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	start_char=1070|end_char=1073
+30	jo	jo	PART	_	_	31	fixed	_	start_char=1074|end_char=1076
+31	vetëm	vetëm	PART	_	_	35	mark	_	start_char=1077|end_char=1082
+32	të	të	PART	_	_	35	fixed	_	start_char=1083|end_char=1085
+33	mos	mos	PART	_	_	35	fixed	_	start_char=1086|end_char=1089
+34	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	start_char=1090|end_char=1091
+35	vërë	vëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=1092|end_char=1096
+36	ujin	ujë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=1097|end_char=1101
+37	në	në	ADP	_	Case=Acc	38	case	_	start_char=1102|end_char=1104
+38	zjarr	zjarr	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	35	advmod	_	start_char=1105|end_char=1110
+39	për	për	ADP	_	Case=Acc	40	case	_	start_char=1111|end_char=1114
+40	njerëzit	njeri	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	35	obl	_	start_char=1115|end_char=1123
+41	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	42	det	_	start_char=1124|end_char=1125
+42	dijshëm	dijshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	40	amod	_	start_char=1126|end_char=1133
+43	në	në	ADP	_	Case=Acc	44	case	_	start_char=1134|end_char=1136
+44	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	nmod	_	start_char=1137|end_char=1145|SpaceAfter=No
+45	,	,	PUNCT	_	_	46	punct	_	start_char=1145|end_char=1146
+46	por	por	CCONJ	_	_	49	cc	_	start_char=1147|end_char=1150
+47	edhe	edhe	CCONJ	_	_	49	mark	_	start_char=1151|end_char=1155
+48	t’i	t’i	PRON	_	Case=Nom|Number=Sing|PronType=Prs	49	nsubj	_	start_char=1156|end_char=1159
+49	poshtërojë	poshtëroj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	35	conj	_	start_char=1160|end_char=1170
+50	këta	këta	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	51	det	_	start_char=1171|end_char=1175
+51	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	49	obj	_	start_char=1176|end_char=1182
+52	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	53	det	_	start_char=1183|end_char=1185
+53	dijshëm	dijshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	51	amod	_	start_char=1186|end_char=1193|SpaceAfter=No
+54	,	,	PUNCT	_	_	57	punct	_	start_char=1193|end_char=1194
+55	duke	duke	PART	_	_	57	fixed	_	start_char=1195|end_char=1199
+56	u	u	PART	_	_	57	fixed	_	start_char=1200|end_char=1201
+57	bërë	bëj	VERB	_	VerbForm=Part	49	advmod	_	start_char=1202|end_char=1206
+58	aleate	aleat	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	57	advmod	_	start_char=1207|end_char=1213
+59	me	me	ADP	_	Case=Acc	60	case	_	start_char=1214|end_char=1216
+60	bandat	bandë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	57	advmod	_	start_char=1217|end_char=1223
+61	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	62	det:poss	_	start_char=1224|end_char=1225
+62	rrugës	rrugë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	60	nmod	_	start_char=1226|end_char=1232|SpaceAfter=No
+63	.	.	PUNCT	_	_	57	punct	_	start_char=1232|end_char=1233|SpacesAfter=\n
+
+# text = Edi Rama ka dalë fare zbuluar në këtë mes.
+# sent_id = 8
+1	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1234|end_char=1237
+2	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=1238|end_char=1242
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1243|end_char=1245
+4	dalë	dal	VERB	_	VerbForm=Part	0	root	_	start_char=1246|end_char=1250
+5	fare	fare	PART	_	_	6	mark	_	start_char=1251|end_char=1255
+6	zbuluar	zbuloj	VERB	_	VerbForm=Part	4	advcl	_	start_char=1256|end_char=1263
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=1264|end_char=1266
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=1267|end_char=1271
+9	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=1272|end_char=1275|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	start_char=1275|end_char=1276
+
+# text = Fillimisht është menduar se ai i ka bërë këto zgjedhje të diskutueshme në planin moral e legal, por inteligjente e të nevojshme në planin elektoral.
+# sent_id = 9
+1	Fillimisht	fillimisht	ADV	_	AdvType=Man	3	mark	_	start_char=1277|end_char=1287
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=1288|end_char=1293
+3	menduar	mendoj	VERB	_	VerbForm=Part	0	root	_	start_char=1294|end_char=1301
+4	se	se	SCONJ	_	_	8	mark	_	start_char=1302|end_char=1304
+5	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=1305|end_char=1307
+6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	start_char=1308|end_char=1309
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=1310|end_char=1312
+8	bërë	bëj	VERB	_	VerbForm=Part	3	advcl	_	start_char=1313|end_char=1317
+9	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=1318|end_char=1322
+10	zgjedhje	zgjedhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=1323|end_char=1331
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=1332|end_char=1334
+12	diskutueshme	diskutueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1335|end_char=1347
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=1348|end_char=1350
+14	planin	plan	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1351|end_char=1357
+15	moral	moral	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1358|end_char=1363
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1364|end_char=1365
+17	legal	legal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1366|end_char=1371|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=1371|end_char=1372
+19	por	por	CCONJ	_	_	20	cc	_	start_char=1373|end_char=1376
+20	inteligjente	inteligjent	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	conj	_	start_char=1377|end_char=1389
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1390|end_char=1391
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1392|end_char=1394
+23	nevojshme	nevojshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	start_char=1395|end_char=1404
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=1405|end_char=1407
+25	planin	plan	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	advmod	_	start_char=1408|end_char=1414
+26	elektoral	elektoral	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=1415|end_char=1424|SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	start_char=1424|end_char=1425
+
+# text = Kjo gjë, për mua, do të ishte një expedient i kuptueshëm dhe i falshëm në rrethanat që kundërshtari s’e kish për gjë që t’ia vidhte zgjedhjet sy më sy e faqe botës, por ja që nuk na paskësh qenë kështu.
+# sent_id = 10
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1426|end_char=1429
+2	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1430|end_char=1433|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1433|end_char=1434
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=1435|end_char=1438
+5	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	advmod	_	start_char=1439|end_char=1442|SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	start_char=1442|end_char=1443
+7	do	do	PART	_	_	9	fixed	_	start_char=1444|end_char=1446
+8	të	të	PART	_	_	9	fixed	_	start_char=1447|end_char=1449
+9	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=1450|end_char=1455
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=1456|end_char=1459
+11	expedient	expedien	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	cop	_	start_char=1460|end_char=1469
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1470|end_char=1471
+13	kuptueshëm	kuptueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1472|end_char=1482
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=1483|end_char=1486
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1487|end_char=1488
+16	falshëm	falshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1489|end_char=1496
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=1497|end_char=1499
+18	rrethanat	rrethanë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obl	_	start_char=1500|end_char=1509
+19	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=1510|end_char=1512
+20	kundërshtari	kundërshtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=1513|end_char=1525
+21	s’e	s’e	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	appos	_	start_char=1526|end_char=1529
+22	kish	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	18	acl	_	start_char=1530|end_char=1534
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=1535|end_char=1538
+24	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	start_char=1539|end_char=1542
+25	që	që	PRON	_	PronType=Rel	27	nsubj	_	start_char=1543|end_char=1545
+26	t’ia	t’ia	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=1546|end_char=1550
+27	vidhte	vidh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	22	advcl	_	start_char=1551|end_char=1557
+28	zgjedhjet	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=1558|end_char=1567
+29	sy	sy	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	28	nmod	_	start_char=1568|end_char=1570
+30	më	më	PART	_	_	31	mark	_	start_char=1571|end_char=1573
+31	sy	sy	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	28	nmod	_	start_char=1574|end_char=1576
+32	e	e	CCONJ	_	_	34	cc	_	start_char=1577|end_char=1578
+33	faqe	faqe	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	34	conj	_	start_char=1579|end_char=1583
+34	botës	botë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	31	conj	_	start_char=1584|end_char=1589|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	start_char=1589|end_char=1590
+36	por	por	CCONJ	_	_	42	cc	_	start_char=1591|end_char=1594
+37	ja	ja	SCONJ	_	_	42	mark	_	start_char=1595|end_char=1597
+38	që	që	PRON	_	PronType=Rel	42	nsubj	_	start_char=1598|end_char=1600
+39	nuk	nuk	PART	_	_	42	mark	_	start_char=1601|end_char=1604
+40	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	42	iobj	_	start_char=1605|end_char=1607
+41	paskësh	paskëj	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	42	aux	_	start_char=1608|end_char=1615
+42	qenë	jam	VERB	_	VerbForm=Part	27	advcl	_	start_char=1616|end_char=1620
+43	kështu	kështu	ADV	_	AdvType=Man	42	advmod	_	start_char=1621|end_char=1627|SpaceAfter=No
+44	.	.	PUNCT	_	_	42	punct	_	start_char=1627|end_char=1628
+
+# text = Rama, edhe në zgjedhjet e pushtetit lokal, kur banda e rrezikshme nuk e kish më në dorë procesin zgjedhor, këmbënguli të zgjidhte si kandidatë ca njerëz me kredenciale të dyshimta, gjë që tregon se djemtë e këqij nuk i ka pasur si një expedient; jo, me sa duket ai ka qejf të punojë me ta”, shkruan Nano.
+# sent_id = 11
+1	Rama	damë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1629|end_char=1633|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=1633|end_char=1634
+3	edhe	edhe	PART	_	_	5	cc	_	start_char=1635|end_char=1639
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1640|end_char=1642
+5	zgjedhjet	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=1643|end_char=1652
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=1653|end_char=1654
+7	pushtetit	pushtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=1655|end_char=1664
+8	lokal	lokal	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1665|end_char=1670|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1670|end_char=1671
+10	kur	kur	SCONJ	_	_	16	mark	_	start_char=1672|end_char=1675
+11	banda	bandë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=1676|end_char=1681
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1682|end_char=1683
+13	rrezikshme	rrezikshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1684|end_char=1694
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=1695|end_char=1698
+15	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=1699|end_char=1700
+16	kish	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	23	advcl	_	start_char=1701|end_char=1705
+17	më	më	PART	_	_	19	mark	_	start_char=1706|end_char=1708
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=1709|end_char=1711
+19	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	advmod	_	start_char=1712|end_char=1716
+20	procesin	proces	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=1717|end_char=1725
+21	zgjedhor	zgjedhor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=1726|end_char=1734|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=1734|end_char=1735
+23	këmbënguli	këmbëngul	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1736|end_char=1746
+24	të	të	PART	_	_	25	fixed	_	start_char=1747|end_char=1749
+25	zgjidhte	zgjedh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	23	advmod	_	start_char=1750|end_char=1758
+26	si	si	SCONJ	_	_	27	mark	_	start_char=1759|end_char=1761
+27	kandidatë	kandidatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	obj	_	start_char=1762|end_char=1771
+28-28	ca	_	_	_	_	_	_	_	start_char=1772|end_char=1774
+28	<UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK>	<UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK>	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	amod	_	_
+29	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	25	obj	_	start_char=1775|end_char=1781
+30	me	me	ADP	_	Case=Acc	31	case	_	start_char=1782|end_char=1784
+31	kredenciale	kredencial	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obl	_	start_char=1785|end_char=1796
+32	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=1797|end_char=1799
+33	dyshimta	dyshimtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=1800|end_char=1808|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	start_char=1808|end_char=1809
+35	gjë	gjë	PRON	_	PronType=Ind	31	appos	_	start_char=1810|end_char=1813
+36	që	që	PRON	_	PronType=Rel	37	nsubj	_	start_char=1814|end_char=1816
+37	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	acl:relcl	_	start_char=1817|end_char=1823
+38	se	se	SCONJ	_	_	45	mark	_	start_char=1824|end_char=1826
+39	djemtë	djalë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	37	nsubj	_	start_char=1827|end_char=1833
+40	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	41	det:poss	_	start_char=1834|end_char=1835
+41	këqij	kë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	39	nmod	_	start_char=1836|end_char=1841
+42	nuk	nuk	PART	_	_	45	mark	_	start_char=1842|end_char=1845
+43	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	iobj	_	start_char=1846|end_char=1847
+44	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	45	aux	_	start_char=1848|end_char=1850
+45	pasur	kam	VERB	_	VerbForm=Part	37	conj	_	start_char=1851|end_char=1856
+46	si	si	SCONJ	_	_	48	mark	_	start_char=1857|end_char=1859
+47	një	një	DET	_	Definite=Ind	48	det	_	start_char=1860|end_char=1863
+48	expedient	expedien	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	obj	_	start_char=1864|end_char=1873|SpaceAfter=No
+49	;	;	PUNCT	_	_	45	punct	_	start_char=1873|end_char=1874
+50	jo	jo	PART	_	_	54	mark	_	start_char=1875|end_char=1877|SpaceAfter=No
+51	,	,	PUNCT	_	_	54	punct	_	start_char=1877|end_char=1878
+52	me	me	ADP	_	Case=Acc	54	fixed	_	start_char=1879|end_char=1881
+53	sa	sa	ADV	_	AdvType=Deg	54	advmod	_	start_char=1882|end_char=1884
+54	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	45	advmod	_	start_char=1885|end_char=1890
+55	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	start_char=1891|end_char=1893
+56	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	54	ccomp	_	start_char=1894|end_char=1896
+57	qejf	qejf	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	56	obj	_	start_char=1897|end_char=1901
+58	të	të	PART	_	_	59	fixed	_	start_char=1902|end_char=1904
+59	punojë	punoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	56	ccomp	_	start_char=1905|end_char=1911
+60	me	me	ADP	_	Case=Acc	61	case	_	start_char=1912|end_char=1914
+61	ta”	ta”	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	59	obl	_	start_char=1915|end_char=1918|SpaceAfter=No
+62	,	,	PUNCT	_	_	63	punct	_	start_char=1918|end_char=1919
+63	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	59	conj	_	start_char=1920|end_char=1927
+64	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	63	obj	_	start_char=1928|end_char=1932|SpaceAfter=No
+65	.	.	PUNCT	_	_	63	punct	_	start_char=1932|end_char=1933|SpacesAfter=\n
+
+# text = Sipas Nanos, shoqëria shqiptare është aq e korruptuar, sa betejën për dekriminalizimin po e udhëheq Sali Berisha.
+# sent_id = 12
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=1934|end_char=1939
+2	Nanos	Nanos	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=1940|end_char=1945|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1945|end_char=1946
+4	shoqëria	shoqëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1947|end_char=1955
+5	shqiptare	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1956|end_char=1965
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1966|end_char=1971
+7	aq	aq	ADV	_	AdvType=Deg	9	advmod	_	start_char=1972|end_char=1974
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1975|end_char=1976
+9	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	cop	_	start_char=1977|end_char=1987|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1987|end_char=1988
+11	sa	sa	SCONJ	_	_	12	mark	_	start_char=1989|end_char=1991
+12	betejën	betejë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=1992|end_char=1999
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=2000|end_char=2003
+14	dekriminalizimin	dekriminalizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=2004|end_char=2020
+15	po	po	PART	_	_	17	mark	_	start_char=2021|end_char=2023
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=2024|end_char=2025
+17	udhëheq	udhëheq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=2026|end_char=2033
+18	Sali	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=2034|end_char=2038
+19	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=2039|end_char=2046|SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	start_char=2046|end_char=2047|SpacesAfter=\n
+
+# text = Kjo për të është tronditëse.
+# sent_id = 13
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=2048|end_char=2051
+2	për	për	ADP	_	Case=Acc	4	fixed	_	start_char=2052|end_char=2055
+3	të	të	PART	_	_	4	fixed	_	start_char=2056|end_char=2058
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2059|end_char=2064
+5	tronditëse	tronditës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=2065|end_char=2075|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=2075|end_char=2076|SpacesAfter=\n
+
+# text = “Por për këtë çështje është folur nga shumë vetë.
+# sent_id = 14
+1	“	"	PUNCT	_	_	2	punct	_	start_char=2077|end_char=2078|SpaceAfter=No
+2	Por	por	CCONJ	_	_	7	cc	_	start_char=2078|end_char=2081
+3	për	për	ADP	_	Case=Acc	5	case	_	start_char=2082|end_char=2085
+4	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=2086|end_char=2090
+5	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=2091|end_char=2098
+6	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=2099|end_char=2104
+7	folur	flas	VERB	_	VerbForm=Part	0	root	_	start_char=2105|end_char=2110
+8	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=2111|end_char=2114
+9	shumë	shumë	PRON	_	PronType=Ind	10	det	_	start_char=2115|end_char=2120
+10	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	7	obl	_	start_char=2121|end_char=2125|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	start_char=2125|end_char=2126
+
+# text = Gjëja për të cilën nuk është folur, ka lidhje me pyetjen:
+# sent_id = 15
+1	Gjëja	Gjëjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=2127|end_char=2132
+2	për	për	ADP	_	Case=Acc	4	case	_	start_char=2133|end_char=2136
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2137|end_char=2139
+4	cilën	cila	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	7	obl	_	start_char=2140|end_char=2145
+5	nuk	nuk	PART	_	_	7	mark	_	start_char=2146|end_char=2149
+6	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=2150|end_char=2155
+7	folur	flas	VERB	_	VerbForm=Part	9	advcl	_	start_char=2156|end_char=2161|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	start_char=2161|end_char=2162
+9	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2163|end_char=2165
+10	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=2166|end_char=2172
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=2173|end_char=2175
+12	pyetjen	pyetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=2176|end_char=2183|SpaceAfter=No
+13	:	:	PUNCT	_	_	9	punct	_	start_char=2183|end_char=2184
+
+# text = Ok, politika ka qejf të punojë me banditë, por si ka mundësi që zgjedhësit nuk japin shenja disaprovimi kur u duhet që t’i votojnë këta banditë?
+# sent_id = 16
+1	Ok	Ok	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2185|end_char=2187|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=2187|end_char=2188
+3	politika	politikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2189|end_char=2197
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2198|end_char=2200
+5	qejf	qej	VERB	_	VerbForm=Part	4	ccomp	_	start_char=2201|end_char=2205
+6	të	të	PART	_	_	7	fixed	_	start_char=2206|end_char=2208
+7	punojë	punoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=2209|end_char=2215
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=2216|end_char=2218
+9	banditë	banditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	start_char=2219|end_char=2226|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=2226|end_char=2227
+11	por	por	CCONJ	_	_	13	cc	_	start_char=2228|end_char=2231
+12	si	si	SCONJ	_	_	13	mark	_	start_char=2232|end_char=2234
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=2235|end_char=2237
+14	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=2238|end_char=2245
+15	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=2246|end_char=2248
+16	zgjedhësit	zgjedhës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	start_char=2249|end_char=2259
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=2260|end_char=2263
+18	japin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=2264|end_char=2269
+19	shenja	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=2270|end_char=2276
+20	disaprovimi	disaprovim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=2277|end_char=2288
+21	kur	kur	SCONJ	_	_	26	mark	_	start_char=2289|end_char=2292
+22	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	fixed	_	start_char=2293|end_char=2294
+23	duhet	duhem	AUX	_	Mood=Ind	26	aux	_	start_char=2295|end_char=2300
+24	që	që	SCONJ	_	_	26	mark	_	start_char=2301|end_char=2303
+25	t’i	t’i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=2304|end_char=2307
+26	votojnë	votoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=2308|end_char=2315
+27	këta	këta	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	28	det	_	start_char=2316|end_char=2320
+28	banditë	banditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	26	obj	_	start_char=2321|end_char=2328|SpaceAfter=No
+29	?	?	PUNCT	_	_	26	punct	_	start_char=2328|end_char=2329
+
+# text = Si ka mundësi që e keqja te ne ka një tërheqje më të madhe sesa e mira?
+# sent_id = 17
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=2330|end_char=2332
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advmod	_	start_char=2333|end_char=2335
+3	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=2336|end_char=2343
+4	që	që	PRON	_	PronType=Rel	6	mark	_	start_char=2344|end_char=2346
+5	e	e	CCONJ	_	_	6	cc	_	start_char=2347|end_char=2348
+6	keqja	keqjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	start_char=2349|end_char=2354
+7	te	te	ADP	_	Case=Nom	8	case	_	start_char=2355|end_char=2357
+8	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nmod	_	start_char=2358|end_char=2360
+9	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2361|end_char=2363
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=2364|end_char=2367
+11	tërheqje	tërheq	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=2368|end_char=2376
+12	më	më	PART	_	_	14	mark	_	start_char=2377|end_char=2379
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2380|end_char=2382
+14	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2383|end_char=2388
+15	sesa	sesa	ADV	_	AdvType=Deg	17	advmod	_	start_char=2389|end_char=2393
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=2394|end_char=2395
+17	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2396|end_char=2400|SpaceAfter=No
+18	?	?	PUNCT	_	_	9	punct	_	start_char=2400|end_char=2401
+
+# text = Në terma më konkretë, si ka mundësi që zgjedhësit e Lezhës, të Shkodrës, Kamzës, Peqinit, Mirditës etj., etj.
+# sent_id = 18
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=2402|end_char=2404
+2	terma	term	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=2405|end_char=2410
+3	më	më	PART	_	_	4	mark	_	start_char=2411|end_char=2413
+4	konkretë	konkretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=2414|end_char=2422|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=2422|end_char=2423
+6	si	si	SCONJ	_	_	7	mark	_	start_char=2424|end_char=2426
+7	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=2427|end_char=2429
+8	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=2430|end_char=2437
+9	që	që	SCONJ	_	_	10	mark	_	start_char=2438|end_char=2440
+10	zgjedhësit	zgjedhës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=2441|end_char=2451
+11	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det:poss	_	start_char=2452|end_char=2453
+12	Lezhës	Lezhë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=2454|end_char=2460|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	start_char=2460|end_char=2461
+14	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=2462|end_char=2464
+15	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=2465|end_char=2473|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=2473|end_char=2474
+17	Kamzës	Kamzë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	list	_	start_char=2475|end_char=2481|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=2481|end_char=2482
+19	Peqinit	Peqin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	list	_	start_char=2483|end_char=2490|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=2490|end_char=2491
+21	Mirditës	mirditë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	list	_	start_char=2492|end_char=2500
+22	etj	etj.	X	_	Abbr=Yes	21	flat	_	start_char=2501|end_char=2504|SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	start_char=2504|end_char=2505|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=2505|end_char=2506
+25	etj	etj.	X	_	Abbr=Yes	21	list	_	start_char=2507|end_char=2510|SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	start_char=2510|end_char=2511|SpaceAfter=No
+
+# text = , ua japin votën njerëzve, për të cilët ata janë mirë të informuar se kanë bërë prapësira jo të vogla në këtë dynja?
+# sent_id = 19
+1	,	,	PUNCT	_	_	4	punct	_	start_char=2511|end_char=2512
+2-3	ua	_	_	_	_	_	_	_	start_char=2513|end_char=2515
+2	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	fixed	_	_
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	japin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2516|end_char=2521
+5	votën	votë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=2522|end_char=2527
+6	njerëzve	njeri	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=2528|end_char=2536|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	start_char=2536|end_char=2537
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=2538|end_char=2541
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=2542|end_char=2544
+10	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	obl	_	start_char=2545|end_char=2550
+11	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=2551|end_char=2554
+12	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=2555|end_char=2559
+13	mirë	mirë	VERB	_	VerbForm=Part	5	acl	_	start_char=2560|end_char=2564
+14	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	fixed	_	start_char=2565|end_char=2567
+15	informuar	informoj	VERB	_	VerbForm=Part	13	ccomp	_	start_char=2568|end_char=2577
+16	se	se	SCONJ	_	_	18	mark	_	start_char=2578|end_char=2580
+17	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=2581|end_char=2585
+18	bërë	bëj	VERB	_	VerbForm=Part	15	advcl	_	start_char=2586|end_char=2590
+19	prapësira	prapësirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=2591|end_char=2600
+20	jo	jo	PART	_	_	22	mark	_	start_char=2601|end_char=2603
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=2604|end_char=2606
+22	vogla	vogël	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=2607|end_char=2612
+23	në	në	ADP	_	Case=Acc	25	case	_	start_char=2613|end_char=2615
+24	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	start_char=2616|end_char=2620
+25	dynja	dynjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obl	_	start_char=2621|end_char=2626|SpaceAfter=No
+26	?	?	PUNCT	_	_	18	punct	_	start_char=2626|end_char=2627|SpacesAfter=\n
+
+# text = Përgjigjja është e thjeshtë.
+# sent_id = 20
+1	Përgjigjja	përgjigjje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2628|end_char=2638
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2639|end_char=2644
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2645|end_char=2646
+4	thjeshtë	thjeshtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=2647|end_char=2655|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	start_char=2655|end_char=2656
+
+# text = Problemi nuk është Lezha, Laçi, Kamza etj.
+# sent_id = 21
+1	Problemi	problem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2657|end_char=2665
+2	nuk	nuk	PART	_	Polarity=Neg	3	mark	_	start_char=2666|end_char=2669
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2670|end_char=2675
+4	Lezha	Lezhë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2676|end_char=2681|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=2681|end_char=2682
+6	Laçi	Laçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	list	_	start_char=2683|end_char=2687|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=2687|end_char=2688
+8	Kamza	Kamzë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	list	_	start_char=2689|end_char=2694
+9	etj	etj.	X	_	Abbr=Yes	8	list	_	start_char=2695|end_char=2698|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	start_char=2698|end_char=2699|SpaceAfter=No
+
+# text = , apo përfaqësuesit e tyre në parlament e në organet qeverisëse.
+# sent_id = 22
+1	,	,	PUNCT	_	_	2	punct	_	start_char=2699|end_char=2700
+2	apo	apo	CCONJ	_	_	3	cc	_	start_char=2701|end_char=2704
+3	përfaqësuesit	përfaqësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	start_char=2705|end_char=2718
+4	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det:poss	_	start_char=2719|end_char=2720
+5	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=2721|end_char=2725
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=2726|end_char=2728
+7	parlament	parlament	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=2729|end_char=2738
+8	e	e	CCONJ	_	_	10	cc	_	start_char=2739|end_char=2740
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=2741|end_char=2743
+10	organet	organ	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	conj	_	start_char=2744|end_char=2751
+11	qeverisëse	qeverisës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=2752|end_char=2762|SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	start_char=2762|end_char=2763
+
+# text = Problemi është e gjithë shoqëria (public body, public opinion), e cila, në ndryshim nga gjetkë, qoftë dhe në SHBA, nuk është thjesht e çoroditur apo e shastisur.
+# sent_id = 23
+1	Problemi	problem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2764|end_char=2772
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2773|end_char=2778
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2779|end_char=2780
+4	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	start_char=2781|end_char=2787
+5	shoqëria	shoqëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=2788|end_char=2796
+6	(	(	PUNCT	_	_	7	punct	_	start_char=2797|end_char=2798|SpaceAfter=No
+7	public	public	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	list	_	start_char=2798|end_char=2804
+8	body	body	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=2805|end_char=2809|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=2809|end_char=2810
+10	public	public	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	list	_	start_char=2811|end_char=2817
+11	opinion	opinio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=2818|end_char=2825|SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	start_char=2825|end_char=2826|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	start_char=2826|end_char=2827
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=2828|end_char=2829
+15	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	appos	_	start_char=2830|end_char=2834|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=2834|end_char=2835
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=2836|end_char=2838
+18	ndryshim	ndryshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	advmod	_	start_char=2839|end_char=2847
+19	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=2848|end_char=2851
+20	gjetkë	gjetkë	ADV	_	AdvType=Tim	18	advmod	_	start_char=2852|end_char=2858|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=2858|end_char=2859
+22	qoftë	qoftë	CCONJ	_	_	28	cc	_	start_char=2860|end_char=2865
+23	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=2866|end_char=2869
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=2870|end_char=2872
+25	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	advmod	_	start_char=2873|end_char=2877|SpaceAfter=No
+26	,	,	PUNCT	_	_	22	punct	_	start_char=2877|end_char=2878
+27	nuk	nuk	PART	_	_	28	mark	_	start_char=2879|end_char=2882
+28	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=2883|end_char=2888
+29	thjesht	thjesht	ADV	_	AdvType=Man	28	advmod	_	start_char=2889|end_char=2896
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=2897|end_char=2898
+31	çoroditur	çoroditur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	cop	_	start_char=2899|end_char=2908
+32	apo	apo	CCONJ	_	_	34	cc	_	start_char=2909|end_char=2912
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=2913|end_char=2914
+34	shastisur	shastisur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	conj	_	start_char=2915|end_char=2924|SpaceAfter=No
+35	.	.	PUNCT	_	_	28	punct	_	start_char=2924|end_char=2925
+
+# text = Është dhe e korruptuar.
+# sent_id = 24
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2926|end_char=2931
+2	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=2932|end_char=2935
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2936|end_char=2937
+4	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=2938|end_char=2948|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	start_char=2948|end_char=2949
+
+# text = Tërësisht e korruptuar.
+# sent_id = 25
+1	Tërësisht	tërësisht	ADV	_	AdvType=Man	3	advmod	_	start_char=2950|end_char=2959
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2960|end_char=2961
+3	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=2962|end_char=2972|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	start_char=2972|end_char=2973
+
+# text = Aq e korruptuar sa janë vetë votuesit që zgjedhin vullnetmirë banditë gjithfarësoji si përfaqësues të tyret në organet qeverisëse.
+# sent_id = 26
+1	Aq	aq	ADV	_	AdvType=Deg	3	mark	_	start_char=2974|end_char=2976
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2977|end_char=2978
+3	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=2979|end_char=2989
+4	sa	sa	SCONJ	_	_	5	mark	_	start_char=2990|end_char=2992
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=2993|end_char=2997
+6	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	7	det	_	start_char=2998|end_char=3002
+7	votuesit	votues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	cop	_	start_char=3003|end_char=3011
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=3012|end_char=3014
+9	zgjedhin	zgjedh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=3015|end_char=3023
+10	vullnetmirë	vullnetmirë	PRON	_	Case=Acc|Gender=Masc|PronType=Ind	9	obj	_	start_char=3024|end_char=3035
+11	banditë	banditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	start_char=3036|end_char=3043
+12	gjithfarësoji	gjithfarësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=3044|end_char=3057
+13	si	si	SCONJ	_	_	14	mark	_	start_char=3058|end_char=3060
+14	përfaqësues	përfaqësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=3061|end_char=3072
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	16	det:poss	_	start_char=3073|end_char=3075
+16	tyret	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	14	nmod	_	start_char=3076|end_char=3081
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=3082|end_char=3084
+18	organet	organ	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=3085|end_char=3092
+19	qeverisëse	qeverisës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=3093|end_char=3103|SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	start_char=3103|end_char=3104
+
+# text = Aq e korruptuar, sa luftën kundër korrupsionit e bëjnë më të korruptuarit.
+# sent_id = 27
+1	Aq	aq	ADV	_	AdvType=Deg	3	mark	_	start_char=3105|end_char=3107
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3108|end_char=3109
+3	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	dislocated	_	start_char=3110|end_char=3120|SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	start_char=3120|end_char=3121
+5	sa	sa	ADV	_	AdvType=Deg	6	nummod	_	start_char=3122|end_char=3124
+6	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=3125|end_char=3131
+7	kundër	kundër	ADP	_	Case=Abl	8	case	_	start_char=3132|end_char=3138
+8	korrupsionit	korrupsion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=3139|end_char=3151
+9	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=3152|end_char=3153
+10	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3154|end_char=3159
+11	më	më	PART	_	_	13	mark	_	start_char=3160|end_char=3162
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=3163|end_char=3165
+13	korruptuarit	korruptuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	obj	_	start_char=3166|end_char=3178|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	start_char=3178|end_char=3179
+
+# text = Aq e korruptuar, më në fund, sa betejën për dekriminalizimin po e udhëheq – ëoë! – Sali Berisha, që është babai i krimit, madje krimi vetë”, e mbyll ai.
+# sent_id = 28
+1	Aq	aq	ADV	_	AdvType=Deg	3	mark	_	start_char=3180|end_char=3182
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3183|end_char=3184
+3	korruptuar	korruptuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=3185|end_char=3195|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=3195|end_char=3196
+5	më	më	PART	_	_	3	mark	_	start_char=3197|end_char=3199
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=3200|end_char=3202
+7	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=3203|end_char=3207|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=3207|end_char=3208
+9	sa	sa	SCONJ	_	_	10	mark	_	start_char=3209|end_char=3211
+10	betejën	betejë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	list	_	start_char=3212|end_char=3219
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=3220|end_char=3223
+12	dekriminalizimin	dekriminalizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=3224|end_char=3240
+13	po	po	PART	_	_	15	mark	_	start_char=3241|end_char=3243
+14	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=3244|end_char=3245
+15	udhëheq	udhëheq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=3246|end_char=3253
+16	–	–	PUNCT	_	_	17	punct	_	start_char=3254|end_char=3255
+17	ëoë	ëoë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	start_char=3256|end_char=3259|SpaceAfter=No
+18	!	!	PUNCT	_	_	17	punct	_	start_char=3259|end_char=3260
+19	–	–	PUNCT	_	_	20	punct	_	start_char=3261|end_char=3262
+20	Sali	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	list	_	start_char=3263|end_char=3267
+21	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=3268|end_char=3275|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=3275|end_char=3276
+23	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=3277|end_char=3279
+24	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl	_	start_char=3280|end_char=3285
+25	babai	baba	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	cop	_	start_char=3286|end_char=3291
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=3292|end_char=3293
+27	krimit	krim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=3294|end_char=3300|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=3300|end_char=3301
+29	madje	madje	SCONJ	_	_	30	mark	_	start_char=3302|end_char=3307
+30	krimi	krim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	start_char=3308|end_char=3313
+31	vetë”	vetë”	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=3314|end_char=3319|SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	start_char=3319|end_char=3320
+33	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	start_char=3321|end_char=3322
+34	mbyll	mbyll	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	start_char=3323|end_char=3328
+35	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	start_char=3329|end_char=3331|SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	start_char=3331|end_char=3332|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 29
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=3333|end_char=3335
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=3336|end_char=3346|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=3346|end_char=3347|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=3348|end_char=3352
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=3353|end_char=3355
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=3356|end_char=3359
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=3360|end_char=3364|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=3365|end_char=3383|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=3384|end_char=3393
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=3394|end_char=3406
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=3407|end_char=3413|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3414|end_char=3423
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3424|end_char=3436
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=3437|end_char=3444|SpacesAfter=\n\n\n
+

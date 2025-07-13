@@ -1,0 +1,384 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Ramush Haradinajt i është konfirmuar aktakuza nga Gjykata Speciale”
+# sent_id = 1
+1	Ramush	Ramush	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1|end_char=7
+2	Haradinajt	Haradinaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=18
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=19|end_char=20
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=21|end_char=26
+5	konfirmuar	konfirmoj	VERB	_	VerbForm=Part	0	root	_	start_char=27|end_char=37
+6	aktakuza	aktakuza	ADV	_	AdvType=Man	5	advmod	_	start_char=38|end_char=46
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=47|end_char=50
+8	Gjykata	gjykatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=51|end_char=58
+9	Speciale	special	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=59|end_char=67|SpaceAfter=No
+10	”	"	PUNCT	_	_	5	punct	_	start_char=67|end_char=68|SpacesAfter=\n
+
+# text = Avokati serb, Pregrad Savic, pretendon se në mesin e ish-anëtarëve të UÇK-së, të cilët po gjykohen për krime lufte, do të jetë i ftuar edhe kreu i Aleancës për Ardhmërinë e Kosovës, Ramush Haradinaj.
+# sent_id = 2
+1	Avokati	avokat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=69|end_char=76
+2	serb	serb	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=77|end_char=81|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=81|end_char=82
+4	Pregrad	Pregrad	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=83|end_char=90
+5	Savic	Savic	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=91|end_char=96|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	start_char=96|end_char=97
+7	pretendon	pretendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=98|end_char=107
+8	se	se	SCONJ	_	_	7	mark	_	start_char=108|end_char=110
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=111|end_char=113
+10	mesin	mes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=114|end_char=119
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=120|end_char=121
+12	ish-anëtarëve	ish-anëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	start_char=122|end_char=135
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	14	det:poss	_	start_char=136|end_char=138
+14	UÇK-së	UÇK-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=139|end_char=145|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=145|end_char=146
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=147|end_char=149
+17	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	19	nsubj	_	start_char=150|end_char=155
+18	po	po	PART	_	_	19	mark	_	start_char=156|end_char=158
+19	gjykohen	gjykoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	advcl	_	start_char=159|end_char=167
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=168|end_char=171
+21	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	start_char=172|end_char=177
+22	lufte	luftë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	start_char=178|end_char=183|SpaceAfter=No
+23	,	,	PUNCT	_	_	19	punct	_	start_char=183|end_char=184
+24	do	do	PART	_	_	26	fixed	_	start_char=185|end_char=187
+25	të	të	PART	_	_	26	fixed	_	start_char=188|end_char=190
+26	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=191|end_char=195
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=196|end_char=197
+28	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	cop	_	start_char=198|end_char=203
+29	edhe	edhe	PART	_	_	30	cc	_	start_char=204|end_char=208
+30	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	start_char=209|end_char=213
+31	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=214|end_char=215
+32	Aleancës	Aleancë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	obj	_	start_char=216|end_char=224
+33	për	për	ADP	_	Case=Acc	34	case	_	start_char=225|end_char=228
+34	Ardhmërinë	Ardhmëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	start_char=229|end_char=239
+35	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=240|end_char=241
+36	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=242|end_char=249|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	start_char=249|end_char=250
+38	Ramush	Ramush	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	36	appos	_	start_char=251|end_char=257
+39	Haradinaj	Haradinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	38	flat	_	start_char=258|end_char=267|SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	start_char=267|end_char=268|SpacesAfter=\n
+
+# text = Ai është shprehur i bindur se Haradinaj do jetë në mesin e të akuzuarve nga Dhomat e Specializuara të Kosovës, pasi që siç pretendon Saviq, tashmë të parit të AAK-së i është ngritur aktakuza nga Prokuroria e Dhomave të Specializuara, raporton Kosovo Online, transmeton Gazeta Express.
+# sent_id = 3
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=269|end_char=271
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=272|end_char=277
+3	shprehur	shpreh	VERB	_	VerbForm=Part	0	root	_	start_char=278|end_char=286
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=287|end_char=288
+5	bindur	bindur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=289|end_char=295
+6	se	se	SCONJ	_	_	9	mark	_	start_char=296|end_char=298
+7	Haradinaj	Haradinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=299|end_char=308
+8	do	do	PART	_	_	9	fixed	_	start_char=309|end_char=311
+9	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=312|end_char=316
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=317|end_char=319
+11	mesin	mes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=320|end_char=325
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=326|end_char=327
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=328|end_char=330
+14	akuzuarve	akuzuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=331|end_char=340
+15	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=341|end_char=344
+16	Dhomat	dhomë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=345|end_char=351
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=352|end_char=353
+18	Specializuara	specializuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=354|end_char=367
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=368|end_char=370
+20	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=371|end_char=378|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=378|end_char=379
+22	pasi	pasi	SCONJ	_	_	25	mark	_	start_char=380|end_char=384
+23	që	që	SCONJ	_	_	25	mark	_	start_char=385|end_char=387
+24	siç	siç	SCONJ	_	_	25	mark	_	start_char=388|end_char=391
+25	pretendon	pretendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	advcl	_	start_char=392|end_char=401
+26	Saviq	Saviq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	obj	_	start_char=402|end_char=407|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	start_char=407|end_char=408
+28	tashmë	tashmë	ADV	_	AdvType=Tim	30	mark	_	start_char=409|end_char=415
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=416|end_char=418
+30	parit	par	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	advmod	_	start_char=419|end_char=424
+31	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=425|end_char=427
+32	AAK-së	AAK-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=428|end_char=434
+33	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	start_char=435|end_char=436
+34	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=437|end_char=442
+35	ngritur	ngre	VERB	_	VerbForm=Part	3	conj	_	start_char=443|end_char=450
+36	aktakuza	aktakuza	ADV	_	AdvType=Man	35	advmod	_	start_char=451|end_char=459
+37	nga	nga	ADP	_	Case=Nom	38	case	_	start_char=460|end_char=463
+38	Prokuroria	prokurori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	obl	_	start_char=464|end_char=474
+39	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	40	det:poss	_	start_char=475|end_char=476
+40	Dhomave	Dhoma	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	start_char=477|end_char=484
+41	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=485|end_char=487
+42	Specializuara	specializuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=488|end_char=501|SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	start_char=501|end_char=502
+44	raporton	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	conj	_	start_char=503|end_char=511
+45	Kosovo	Kosovo	PROPN	_	Foreign=Yes	44	nsubj	_	start_char=512|end_char=518
+46	Online	Onlin	PROPN	_	Foreign=Yes	45	flat	_	start_char=519|end_char=525|SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	start_char=525|end_char=526
+48	transmeton	transmetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	44	conj	_	start_char=527|end_char=537
+49	Gazeta	Gazetë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	48	obj	_	start_char=538|end_char=544
+50	Express	Express	PROPN	_	Foreign=Yes	49	flat	_	start_char=545|end_char=552|SpaceAfter=No
+51	.	.	PUNCT	_	_	48	punct	_	start_char=552|end_char=553|SpacesAfter=\n
+
+# text = Ndër të tjera, Savic konfirmoi edhe njëherë bashkëpunimin e instancave të larta gjyqësore të Serbisë me Prokurorinë e Dhomave të Specializuara për sigurimin e provave ndaj ngritjes së aktakuzave kundër ish-anëtarëve të UÇK’së.
+# sent_id = 4
+1	Ndër	ndër	ADP	_	Case=Acc	3	case	_	start_char=554|end_char=558
+2	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=559|end_char=561
+3	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	advmod	_	start_char=562|end_char=567|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=567|end_char=568
+5	Savic	Savic	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=569|end_char=574
+6	konfirmoi	konfirmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=575|end_char=584
+7	edhe	edhe	PART	_	_	8	mark	_	start_char=585|end_char=589
+8	njëherë	njëherë	ADV	_	AdvType=Tim	6	advmod	_	start_char=590|end_char=597
+9	bashkëpunimin	bashkëpunim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=598|end_char=611
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=612|end_char=613
+11	instancave	instancë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=614|end_char=624
+12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=625|end_char=627
+13	larta	lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=628|end_char=633
+14	gjyqësore	gjyqësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=634|end_char=643
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=644|end_char=646
+16	Serbisë	Serbi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=647|end_char=654
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=655|end_char=657
+18	Prokurorinë	prokurori	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=658|end_char=669
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=670|end_char=671
+20	Dhomave	Dhoma	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=672|end_char=679
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=680|end_char=682
+22	Specializuara	specializuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=683|end_char=696
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=697|end_char=700
+24	sigurimin	sigurim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	advmod	_	start_char=701|end_char=710
+25	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=711|end_char=712
+26	provave	provë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=713|end_char=720
+27	ndaj	ndaj	ADP	_	Case=Abl	28	case	_	start_char=721|end_char=725
+28	ngritjes	ngritje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=726|end_char=734
+29	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=735|end_char=737
+30	aktakuzave	aktakuzë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	28	nmod	_	start_char=738|end_char=748
+31	kundër	kundër	ADP	_	Case=Abl	32	case	_	start_char=749|end_char=755
+32	ish-anëtarëve	ish-anëtar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	28	nmod	_	start_char=756|end_char=769
+33	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	34	det:poss	_	start_char=770|end_char=772
+34	UÇK’së	UÇK’së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=773|end_char=779|SpaceAfter=No
+35	.	.	PUNCT	_	_	6	punct	_	start_char=779|end_char=780|SpacesAfter=\n
+
+# text = Sipas tij, në kohën sa po shërbente si asistent i Ministrit të atëhershëm të Drejtësisë, Vladan Batiq, u përcollën 50 mijë faqe dokumente dhe dhjetëra mijëra fotografi në adresë të Zyrës së Prokurorisë së Dhomave të Specializuara.
+# sent_id = 5
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=781|end_char=786
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	advmod	_	start_char=787|end_char=790|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=790|end_char=791
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=792|end_char=794
+5	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=795|end_char=800
+6	sa	sa	SCONJ	_	_	8	mark	_	start_char=801|end_char=803
+7	po	po	PART	_	_	8	mark	_	start_char=804|end_char=806
+8	shërbente	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	acl:relcl	_	start_char=807|end_char=816
+9	si	si	SCONJ	_	_	10	mark	_	start_char=817|end_char=819
+10	asistent	asisten	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=820|end_char=828
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=829|end_char=830
+12	Ministrit	ministr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=831|end_char=840
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=841|end_char=843
+14	atëhershëm	atëhershëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=844|end_char=854
+15	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=855|end_char=857
+16	Drejtësisë	drejtësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=858|end_char=868|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=868|end_char=869
+18	Vladan	Vladan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=870|end_char=876
+19	Batiq	Batiq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=877|end_char=882|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	start_char=882|end_char=883
+21	u	u	PART	_	_	22	fixed	_	start_char=884|end_char=885
+22	përcollën	përcoll	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=886|end_char=895
+23	50	50	NUM	_	NumType=Card	25	nummod	_	start_char=896|end_char=898
+24	mijë	mijë	NUM	_	NumType=Card	25	nummod	_	start_char=899|end_char=903
+25	faqe	faqe	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	obj	_	start_char=904|end_char=908
+26	dokumente	dokument	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	nmod	_	start_char=909|end_char=918
+27	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=919|end_char=922
+28	dhjetëra	dhjetë	PRON	_	PronType=Ind	30	conj	_	start_char=923|end_char=931
+29	mijëra	mijë	PRON	_	PronType=Ind	30	det	_	start_char=932|end_char=938
+30	fotografi	fotografi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	conj	_	start_char=939|end_char=948
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=949|end_char=951
+32	adresë	adre	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	start_char=952|end_char=958
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=959|end_char=961
+34	Zyrës	Zyrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=962|end_char=967
+35	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=968|end_char=970
+36	Prokurorisë	prokurori	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=971|end_char=982
+37	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=983|end_char=985
+38	Dhomave	Dhoma	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	nmod	_	start_char=986|end_char=993
+39	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	40	det	_	start_char=994|end_char=996
+40	Specializuara	specializuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=997|end_char=1010|SpaceAfter=No
+41	.	.	PUNCT	_	_	22	punct	_	start_char=1010|end_char=1011|SpacesAfter=\n
+
+# text = Më parë, Haradinaj është shpallur i pafajshëm nga Tribunali i Hagës pas gjykimit për krime lufte, në mungesë provash.
+# sent_id = 6
+1	Më	më	PART	_	_	2	mark	_	start_char=1012|end_char=1014
+2	parë	parë	ADV	_	AdvType=Tim	6	advmod	_	start_char=1015|end_char=1019|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1019|end_char=1020
+4	Haradinaj	Haradinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1021|end_char=1030
+5	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=1031|end_char=1036
+6	shpallur	shpalloj	VERB	_	VerbForm=Part	0	root	_	start_char=1037|end_char=1045
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1046|end_char=1047
+8	pafajshëm	pafajshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	cop	_	start_char=1048|end_char=1057
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=1058|end_char=1061
+10	Tribunali	Tribunal	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=1062|end_char=1071
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=1072|end_char=1073
+12	Hagës	Hagë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=1074|end_char=1079
+13	pas	pas	ADP	_	Case=Abl	14	case	_	start_char=1080|end_char=1083
+14	gjykimit	gjykim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1084|end_char=1092
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=1093|end_char=1096
+16	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=1097|end_char=1102
+17	lufte	luftë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=1103|end_char=1108|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=1108|end_char=1109
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=1110|end_char=1112
+20	mungesë	mungesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=1113|end_char=1120
+21	provash	provash	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=1121|end_char=1128|SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	start_char=1128|end_char=1129|SpacesAfter=\n
+
+# text = Serbia pati një tentim tjetër ndaj tij, pasi që kërkoi të ekstradohej përbrenda kufijve të këtij shteti pas ndalimit të kreut të AAK-së në Francë.
+# sent_id = 7
+1	Serbia	Serbi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1130|end_char=1136
+2	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1137|end_char=1141
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=1142|end_char=1145
+4	tentim	tentim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=1146|end_char=1152
+5	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	amod	_	start_char=1153|end_char=1159
+6	ndaj	ndaj	ADP	_	Case=Abl	7	case	_	start_char=1160|end_char=1164
+7	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	amod:poss	_	start_char=1165|end_char=1168|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1168|end_char=1169
+9	pasi	pasi	SCONJ	_	_	11	mark	_	start_char=1170|end_char=1174
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=1175|end_char=1177
+11	kërkoi	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	start_char=1178|end_char=1184
+12	të	të	PART	_	_	13	fixed	_	start_char=1185|end_char=1187
+13	ekstradohej	ekstradoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	11	ccomp	_	start_char=1188|end_char=1199
+14	përbrenda	përbrenda	ADP	_	Case=Abl	15	case	_	start_char=1200|end_char=1209
+15	kufijve	kufij	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	start_char=1210|end_char=1217
+16	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=1218|end_char=1220
+17	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=1221|end_char=1226
+18	shteti	shtet	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=1227|end_char=1233
+19	pas	pas	ADP	_	Case=Abl	20	case	_	start_char=1234|end_char=1237
+20	ndalimit	ndalim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=1238|end_char=1246
+21	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=1247|end_char=1249
+22	kreut	kre	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=1250|end_char=1255
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=1256|end_char=1258
+24	AAK-së	AAK-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=1259|end_char=1265
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=1266|end_char=1268
+26	Francë	Francë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	nmod	_	start_char=1269|end_char=1275|SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	start_char=1275|end_char=1276
+
+# text = Në kërkesën e shtetit serb për ekstradimin e Haradinajt, u paralajmërua se do të ketë fakte shtesë, të cilat para se gjithash kanë të bëjnë me urdhëresën për zgjerimin e hetimeve kundër Haradinajt.
+# sent_id = 8
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=1277|end_char=1279
+2	kërkesën	kërkesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=1280|end_char=1288
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=1289|end_char=1290
+4	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=1291|end_char=1298
+5	serb	serb	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1299|end_char=1303
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=1304|end_char=1307
+7	ekstradimin	ekstradim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=1308|end_char=1319
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=1320|end_char=1321
+9	Haradinajt	Haradinaj	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=1322|end_char=1332|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=1332|end_char=1333
+11	u	u	PART	_	_	12	fixed	_	start_char=1334|end_char=1335
+12	paralajmërua	paralajmëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1336|end_char=1348
+13	se	se	SCONJ	_	_	16	mark	_	start_char=1349|end_char=1351
+14	do	do	PART	_	_	16	fixed	_	start_char=1352|end_char=1354
+15	të	të	PART	_	_	16	fixed	_	start_char=1355|end_char=1357
+16	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=1358|end_char=1362
+17	fakte	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=1363|end_char=1368
+18	shtesë	shtesë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=1369|end_char=1375|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	start_char=1375|end_char=1376
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=1377|end_char=1379
+21	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	25	nsubj	_	start_char=1380|end_char=1385
+22	para	para	ADV	_	AdvType=Tim	25	advmod	_	start_char=1386|end_char=1390
+23	se	se	SCONJ	_	_	25	mark	_	start_char=1391|end_char=1393
+24	gjithash	gjithash	PRON	_	Case=Nom|Number=Plur|PronType=Ind	25	nsubj	_	start_char=1394|end_char=1402
+25	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	advcl	_	start_char=1403|end_char=1407
+26	të	të	PART	_	_	27	fixed	_	start_char=1408|end_char=1410
+27	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	ccomp	_	start_char=1411|end_char=1416
+28	me	me	ADP	_	Case=Acc	29	case	_	start_char=1417|end_char=1419
+29	urdhëresën	urdhëresë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	start_char=1420|end_char=1430
+30	për	për	ADP	_	Case=Acc	31	case	_	start_char=1431|end_char=1434
+31	zgjerimin	zgjerim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=1435|end_char=1444
+32	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=1445|end_char=1446
+33	hetimeve	hetim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	start_char=1447|end_char=1455
+34	kundër	kundër	ADP	_	Case=Abl	35	case	_	start_char=1456|end_char=1462
+35	Haradinajt	Haradinaj	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=1463|end_char=1473|SpaceAfter=No
+36	.	.	PUNCT	_	_	27	punct	_	start_char=1473|end_char=1474|SpacesAfter=\n
+
+# text = Megjithatë, gjykata në Colman të Francës, pas shqyrtimit të dokumentacionit, vendosi që Haradinaj të lihet i lirë, me kusht që të mos dalë nga Franca dhe të paraqitej në autoritetet franceze një herë në javë.
+# sent_id = 9
+1	Megjithatë	megjithatë	CCONJ	_	_	14	cc	_	start_char=1475|end_char=1485|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1485|end_char=1486
+3	gjykata	gjykatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1487|end_char=1494
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1495|end_char=1497
+5	Colman	Colman	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=1498|end_char=1504
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=1505|end_char=1507
+7	Francës	Francë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=1508|end_char=1515|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1515|end_char=1516
+9	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=1517|end_char=1520
+10	shqyrtimit	shqyrtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=1521|end_char=1531
+11	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=1532|end_char=1534
+12	dokumentacionit	dokumentacionion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1535|end_char=1550|SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	start_char=1550|end_char=1551
+14	vendosi	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1552|end_char=1559
+15	që	që	SCONJ	_	_	18	mark	_	start_char=1560|end_char=1562
+16	Haradinaj	Haradinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=1563|end_char=1572
+17	të	të	PART	_	_	18	fixed	_	start_char=1573|end_char=1575
+18	lihet	lë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	advcl	_	start_char=1576|end_char=1581
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=1582|end_char=1583
+20	lirë	lirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	cop	_	start_char=1584|end_char=1588|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=1588|end_char=1589
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=1590|end_char=1592
+23	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	advmod	_	start_char=1593|end_char=1598
+24	që	që	SCONJ	_	_	27	mark	_	start_char=1599|end_char=1601
+25	të	të	PART	_	_	27	fixed	_	start_char=1602|end_char=1604
+26	mos	mos	PART	_	_	27	fixed	_	start_char=1605|end_char=1608
+27	dalë	dal	VERB	_	VerbForm=Part	23	acl:relcl	_	start_char=1609|end_char=1613
+28	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=1614|end_char=1617
+29	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	start_char=1618|end_char=1624
+30	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=1625|end_char=1628
+31	të	të	PART	_	_	32	fixed	_	start_char=1629|end_char=1631
+32	paraqitej	paraqit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	27	conj	_	start_char=1632|end_char=1641
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=1642|end_char=1644
+34	autoritetet	autoritet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	32	obl	_	start_char=1645|end_char=1656
+35	franceze	francez	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=1657|end_char=1665
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=1666|end_char=1669
+37	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	nmod	_	start_char=1670|end_char=1674
+38	në	në	ADP	_	Case=Acc	39	case	_	start_char=1675|end_char=1677
+39	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	start_char=1678|end_char=1682|SpaceAfter=No
+40	.	.	PUNCT	_	_	32	punct	_	start_char=1682|end_char=1683|SpacesAfter=\n
+
+# text = Aktualisht si të akuzuar në Hagë gjenden, Hashim Thaçi, Kadri Veseli, Jakup Krasniqi, Rexhep Selimi, Hysni Gucati e Sali Mustafa.
+# sent_id = 10
+1	Aktualisht	aktualisht	ADV	_	AdvType=Man	4	advmod	_	start_char=1684|end_char=1694
+2	si	si	SCONJ	_	_	4	mark	_	start_char=1695|end_char=1697
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	fixed	_	start_char=1698|end_char=1700
+4	akuzuar	akuzoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=1701|end_char=1708
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=1709|end_char=1711
+6	Hagë	Hagë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=1712|end_char=1716
+7	gjenden	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1717|end_char=1724|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1724|end_char=1725
+9	Hashim	Hashim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1726|end_char=1732
+10	Thaçi	Thaçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=1733|end_char=1738|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=1738|end_char=1739
+12	Kadri	Kadri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	list	_	start_char=1740|end_char=1745
+13	Veseli	Vesel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=1746|end_char=1752|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1752|end_char=1753
+15	Jakup	Jakup	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	list	_	start_char=1754|end_char=1759
+16	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=1760|end_char=1768|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=1768|end_char=1769
+18	Rexhep	Rexhep	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	list	_	start_char=1770|end_char=1776
+19	Selimi	Selim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=1777|end_char=1783|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=1783|end_char=1784
+21	Hysni	Hysni	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	list	_	start_char=1785|end_char=1790
+22	Gucati	Gucat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=1791|end_char=1797
+23	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=1798|end_char=1799
+24	Sali	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=1800|end_char=1804
+25	Mustafa	mustafë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	flat	_	start_char=1805|end_char=1812|SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	start_char=1812|end_char=1813
+
+# text = /abcnews.al/
+# sent_id = 11
+1	/abcnews.al	/abcnews.al	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1814|end_char=1825|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1825|end_char=1826|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 12
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1827|end_char=1829
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1830|end_char=1840|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1840|end_char=1841|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1842|end_char=1846
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1847|end_char=1849
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1850|end_char=1853
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1854|end_char=1858|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1859|end_char=1877|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1878|end_char=1887
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1888|end_char=1900
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1901|end_char=1907|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1908|end_char=1917
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1918|end_char=1930
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1931|end_char=1938|SpacesAfter=\n\n\n
+

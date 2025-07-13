@@ -1,0 +1,251 @@
+# text = Kumbaro:
+# sent_id = 0
+1	Kumbaro	Kumbaro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=7|end_char=8
+
+# text = Ata që marrin në menaxhim një stacion plazhi, të sigurojnë edhe vrojtuesin 25/01/2022 Ministria e Turizmit dhe Mjedisit ka nisur përgatitjet për sezonin e ri veror në plazhet shqiptare.
+# sent_id = 1
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=9|end_char=12
+2	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=13|end_char=15
+3	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=16|end_char=22
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=23|end_char=25
+5	menaxhim	menaxhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=26|end_char=34
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=35|end_char=38
+7	stacion	stacio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=39|end_char=46
+8	plazhi	plazh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=47|end_char=53|SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	start_char=53|end_char=54
+10	të	të	PART	_	_	11	fixed	_	start_char=55|end_char=57
+11	sigurojnë	siguroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=58|end_char=67
+12	edhe	edhe	PART	_	_	13	mark	_	start_char=68|end_char=72
+13	vrojtuesin	vrojtues	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=73|end_char=83|SpacesAfter=\n
+14	25	25	NUM	_	NumType=Card	15	conj	_	start_char=84|end_char=86|SpaceAfter=No
+15	/01	/01	NUM	_	NumType=Card	13	nummod	_	start_char=86|end_char=89|SpaceAfter=No
+16	/	/	PUNCT	_	_	17	punct	_	start_char=89|end_char=90|SpaceAfter=No
+17	202	202	NUM	_	NumType=Card	15	conj	_	start_char=90|end_char=93|SpaceAfter=No
+18	2	2	NUM	_	NumType=Card	19	nummod	_	start_char=93|end_char=94|SpacesAfter=\n
+19	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=95|end_char=104
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=105|end_char=106
+21	Turizmit	Turizm	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=107|end_char=115
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=116|end_char=119
+23	Mjedisit	mjedis	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	conj	_	start_char=120|end_char=128
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=129|end_char=131
+25	nisur	nis	VERB	_	VerbForm=Part	11	conj	_	start_char=132|end_char=137
+26	përgatitjet	përgatitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	obj	_	start_char=138|end_char=149
+27	për	për	ADP	_	Case=Acc	28	case	_	start_char=150|end_char=153
+28	sezonin	sezon	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	start_char=154|end_char=161
+29	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=162|end_char=163
+30	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=164|end_char=166
+31	veror	veror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=167|end_char=172
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=173|end_char=175
+33	plazhet	plazh	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	advmod	_	start_char=176|end_char=183
+34	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=184|end_char=193|SpaceAfter=No
+35	.	.	PUNCT	_	_	25	punct	_	start_char=193|end_char=194
+
+# text = Ministrja Mirela Kumbaro zhvilloi një takim me përfaqësuesit e Federatës shqiptare të vrojtuesve të plazhit dhe shpëtimit në ujë.
+# sent_id = 2
+1	Ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=195|end_char=204
+2	Mirela	mirelë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=205|end_char=211
+3	Kumbaro	Kumbaro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=212|end_char=219
+4	zhvilloi	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=220|end_char=228
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=229|end_char=232
+6	takim	takim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=233|end_char=238
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=239|end_char=241
+8	përfaqësuesit	përfaqësues	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=242|end_char=255
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	10	det:poss	_	start_char=256|end_char=257
+10	Federatës	federatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=258|end_char=267
+11	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=268|end_char=277
+12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=278|end_char=280
+13	vrojtuesve	vrojtues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	start_char=281|end_char=291
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=292|end_char=294
+15	plazhit	plazh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=295|end_char=302
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=303|end_char=306
+17	shpëtimit	shpëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=307|end_char=316
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=317|end_char=319
+19	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=320|end_char=323|SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	start_char=323|end_char=324
+
+# text = Ajo tha se “të gjitha subjektet përveç pastërtisë dhe cilësisë së shërbimit, u duhet së pari të sigurojnë jetën e pushuesve të tyre”.
+# sent_id = 3
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=325|end_char=328
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=329|end_char=332
+3	se	se	SCONJ	_	_	6	mark	_	start_char=333|end_char=335
+4	“të	“të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=336|end_char=339
+5	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	nummod	_	start_char=340|end_char=346
+6	subjektet	subjekt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=347|end_char=356
+7	përveç	përveç	ADP	_	Case=Abl	8	case	_	start_char=357|end_char=363
+8	pastërtisë	pastërti	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=364|end_char=374
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=375|end_char=378
+10	cilësisë	cilësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	start_char=379|end_char=387
+11	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=388|end_char=390
+12	shërbimit	shërbim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=391|end_char=400|SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	start_char=400|end_char=401
+14	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	fixed	_	start_char=402|end_char=403
+15	duhet	duhem	AUX	_	_	19	aux	_	start_char=404|end_char=409
+16	së	së	PART	_	_	19	fixed	_	start_char=410|end_char=412
+17	pari	par	AUX	_	_	19	aux	_	start_char=413|end_char=417
+18	të	të	PART	_	_	19	fixed	_	start_char=418|end_char=420
+19	sigurojnë	siguroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=421|end_char=430
+20	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=431|end_char=436
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=437|end_char=438
+22	pushuesve	pushues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=439|end_char=448
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	24	det	_	start_char=449|end_char=451
+24	tyre”	tyre”	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=452|end_char=457|SpaceAfter=No
+25	.	.	PUNCT	_	_	19	punct	_	start_char=457|end_char=458
+
+# text = Zonja Kumbaro theksoi se “gjithkush që merr në menaxhim një stacion plazhi ka detyrimin të sigurojë edhe vrojtuesin e plazhit po ashtu, së bashku me infrastrukturën përkatëse".
+# sent_id = 4
+1	Zonja	Zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=459|end_char=464
+2	Kumbaro	Kumbaro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=465|end_char=472
+3	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=473|end_char=480
+4	se	se	SCONJ	_	_	7	mark	_	start_char=481|end_char=483
+5	“gjithkush	“gjithkush	ADV	_	AdvType=Man	3	advmod	_	start_char=484|end_char=494
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=495|end_char=497
+7	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=498|end_char=502
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=503|end_char=505
+9	menaxhim	menaxhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=506|end_char=514
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=515|end_char=518
+11	stacion	stacio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=519|end_char=526
+12	plazhi	plazh	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=527|end_char=533
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=534|end_char=536
+14	detyrimin	detyrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=537|end_char=546
+15	të	të	PART	_	_	16	det	_	start_char=547|end_char=549
+16	sigurojë	sigurojë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=550|end_char=558
+17	edhe	edhe	CCONJ	_	_	18	cc	_	start_char=559|end_char=563
+18	vrojtuesin	vrojtues	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=564|end_char=574
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=575|end_char=576
+20	plazhit	plazh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=577|end_char=584
+21	po	po	PART	_	_	22	mark	_	start_char=585|end_char=587
+22	ashtu	ashtu	ADV	_	AdvType=Man	25	mark	_	start_char=588|end_char=593|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	start_char=593|end_char=594
+24	së	së	PART	_	_	25	det	_	start_char=595|end_char=597
+25	bashku	bashku	ADV	_	AdvType=Man	27	advmod	_	start_char=598|end_char=604
+26	me	me	ADP	_	Case=Acc	27	case	_	start_char=605|end_char=607
+27	infrastrukturën	infrastrukturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=608|end_char=623
+28	përkatëse	përkatës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=624|end_char=633|SpaceAfter=No
+29	"	"	PUNCT	_	_	27	punct	_	start_char=633|end_char=634|SpaceAfter=No
+30	.	.	PUNCT	_	_	13	punct	_	start_char=634|end_char=635
+
+# text = "Kjo punë nuk është me dëshirë, por detyrim ligjor që vjen nga VKM nr.
+# sent_id = 5
+1	"	"	PUNCT	_	_	3	punct	_	start_char=636|end_char=637|SpaceAfter=No
+2	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=637|end_char=640
+3	punë	punë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=641|end_char=645
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=646|end_char=649
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=650|end_char=655
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=656|end_char=658
+7	dëshirë	dëshirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=659|end_char=666|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=666|end_char=667
+9	por	por	CCONJ	_	_	10	cc	_	start_char=668|end_char=671
+10	detyrim	detyrim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	start_char=672|end_char=679
+11	ligjor	ligjor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=680|end_char=686
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=687|end_char=689
+13	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=690|end_char=694
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=695|end_char=698
+15	VKM	VKM	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=699|end_char=702
+16	nr	nr	NUM	_	NumType=Card	15	flat	_	start_char=703|end_char=705|SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	start_char=705|end_char=706
+
+# text = 171 e miratuar në vitin 2019” shtoi ministrja.
+# sent_id = 6
+1	171	171	NUM	_	NumType=Card	7	advmod	_	start_char=707|end_char=710
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	fixed	_	start_char=711|end_char=712
+3	miratuar	miratoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=713|end_char=721
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=722|end_char=724
+5	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=725|end_char=730
+6	2019”	2019”	NUM	_	NumType=Card	5	amod:nummod	_	start_char=731|end_char=736
+7	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=737|end_char=742
+8	ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=743|end_char=752|SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	start_char=752|end_char=753
+
+# text = Shqetësimi u përcoll tek titullarja e Ministrisë së Turizmit dhe Mjedisit nga përfaqësuesit e Federatës Shqiptare të Vrojtuesve të Plazhit dhe Shpëtimit në Ujë, një bashkim i 12 shoqatave që deri tani kanë certifikuar 1010 vrojtues plazhesh.
+# sent_id = 7
+1	Shqetësimi	shqetësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=754|end_char=764
+2	u	u	PART	_	_	3	fixed	_	start_char=765|end_char=766
+3	përcoll	përcoll	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=767|end_char=774
+4	tek	tek	ADP	_	Case=Nom	5	case	_	start_char=775|end_char=778
+5	titullarja	titullarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=779|end_char=789
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=790|end_char=791
+7	Ministrisë	ministri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=792|end_char=802
+8	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=803|end_char=805
+9	Turizmit	Turizm	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=806|end_char=814
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=815|end_char=818
+11	Mjedisit	mjedis	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	start_char=819|end_char=827
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=828|end_char=831
+13	përfaqësuesit	përfaqësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=832|end_char=845
+14	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=846|end_char=847
+15	Federatës	federatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=848|end_char=857
+16	Shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=858|end_char=867
+17	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=868|end_char=870
+18	Vrojtuesve	Vrojtues	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=871|end_char=881
+19	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=882|end_char=884
+20	Plazhit	Plazh	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=885|end_char=892
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=893|end_char=896
+22	Shpëtimit	shpëtim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	conj	_	start_char=897|end_char=906
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=907|end_char=909
+24	Ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	start_char=910|end_char=913|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	start_char=913|end_char=914
+26	një	një	DET	_	Definite=Ind	27	det	_	start_char=915|end_char=918
+27	bashkim	bashkim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	list	_	start_char=919|end_char=926
+28	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=927|end_char=928
+29	12	12	NUM	_	NumType=Card	30	nummod	_	start_char=929|end_char=931
+30	shoqatave	shoqatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=932|end_char=941
+31	që	që	PRON	_	PronType=Rel	35	nsubj	_	start_char=942|end_char=944
+32	deri	deri	PART	_	_	33	mark	_	start_char=945|end_char=949
+33	tani	tani	ADV	_	AdvType=Tim	35	advmod	_	start_char=950|end_char=954
+34	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=955|end_char=959
+35	certifikuar	certifikoj	VERB	_	VerbForm=Part	30	acl:relcl	_	start_char=960|end_char=971
+36	1010	1010	NUM	_	NumType=Card	37	nummod	_	start_char=972|end_char=976
+37	vrojtues	vrojtue	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	35	obj	_	start_char=977|end_char=985
+38	plazhesh	plazhesh	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	37	nmod	_	start_char=986|end_char=994|SpaceAfter=No
+39	.	.	PUNCT	_	_	35	punct	_	start_char=994|end_char=995
+
+# text = Zonja Kumbaro kujtoi se ata të cilët do të aplikojnë për herë të parë nga 27 janari për menaxhim të parcelave gjatë sezonit të turizmit detar, edhe bizneset që i kanë tashmë kontratat, duhet të marrin masat për ta plotësuar këtë detyrim.
+# sent_id = 8
+1	Zonja	Zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=996|end_char=1001
+2	Kumbaro	Kumbaro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1002|end_char=1009
+3	kujtoi	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1010|end_char=1016
+4	se	se	SCONJ	_	_	3	mark	_	start_char=1017|end_char=1019
+5	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1020|end_char=1023
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=1024|end_char=1026
+7	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	start_char=1027|end_char=1032
+8	do	do	PART	_	_	10	fixed	_	start_char=1033|end_char=1035
+9	të	të	PART	_	_	10	fixed	_	start_char=1036|end_char=1038
+10	aplikojnë	aplikoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=1039|end_char=1048
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=1049|end_char=1052
+12	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=1053|end_char=1057
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=1058|end_char=1060
+14	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1061|end_char=1065
+15	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=1066|end_char=1069
+16	27	27	NUM	_	NumType=Card	17	nummod	_	start_char=1070|end_char=1072
+17	janari	janar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=1073|end_char=1079
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=1080|end_char=1083
+19	menaxhim	menaxhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=1084|end_char=1092
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=1093|end_char=1095
+21	parcelave	parcelë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=1096|end_char=1105
+22	gjatë	gjatë	ADP	_	Case=Abl	23	case	_	start_char=1106|end_char=1111
+23	sezonit	sezon	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=1112|end_char=1119
+24	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=1120|end_char=1122
+25	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=1123|end_char=1131
+26	detar	detar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=1132|end_char=1137|SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	start_char=1137|end_char=1138
+28	edhe	edhe	CCONJ	_	_	29	mark	_	start_char=1139|end_char=1143
+29	bizneset	biznes	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	conj	_	start_char=1144|end_char=1152
+30	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=1153|end_char=1155
+31	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	det	_	start_char=1156|end_char=1157
+32	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	case	_	start_char=1158|end_char=1162
+33	tashmë	tashmë	ADV	_	AdvType=Man	34	advmod	_	start_char=1163|end_char=1169
+34	kontratat	kontratë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=1170|end_char=1179|SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	start_char=1179|end_char=1180
+36	duhet	duhem	AUX	_	_	38	aux	_	start_char=1181|end_char=1186
+37	të	të	PART	_	_	38	fixed	_	start_char=1187|end_char=1189
+38	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	acl:relcl	_	start_char=1190|end_char=1196
+39	masat	masat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	38	obj	_	start_char=1197|end_char=1202
+40	për	për	PART	_	_	43	fixed	_	start_char=1203|end_char=1206
+41-42	ta	_	_	_	_	_	_	_	start_char=1207|end_char=1209
+41	të	të	PART	_	_	43	fixed	_	_
+42	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+43	plotësuar	plotësoj	VERB	_	VerbForm=Part	38	advmod	_	start_char=1210|end_char=1219
+44	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	45	det	_	start_char=1220|end_char=1224
+45	detyrim	detyrim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	43	obj	_	start_char=1225|end_char=1232|SpaceAfter=No
+46	.	.	PUNCT	_	_	38	punct	_	start_char=1232|end_char=1233|SpacesAfter=\n\n\n
+

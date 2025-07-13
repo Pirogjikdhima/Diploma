@@ -1,0 +1,416 @@
+# text = AI pretendon:
+# sent_id = 0
+1	AI	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	pretendon	pretendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=12|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
+
+# text = Gjurmët e gishtërinjve mund të mos jenë unike 11/01/2024 Qëndrimi se çdo gjurmë gishti në dorën e një personi është krejtësisht unike po sfidohet nga kërkimet nga Universiteti Kolumbia.
+# sent_id = 1
+1	Gjurmët	Gjurmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	start_char=14|end_char=21
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=22|end_char=23
+3	gishtërinjve	gishtëri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=24|end_char=36
+4	mund	mund	AUX	_	_	7	aux	_	start_char=37|end_char=41
+5	të	të	PART	_	_	7	fixed	_	start_char=42|end_char=44
+6	mos	mos	PART	_	_	7	fixed	_	start_char=45|end_char=48
+7	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=49|end_char=53
+8	unike	unik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	cop	_	start_char=54|end_char=59|SpacesAfter=\n
+9	11	11	NUM	_	NumType=Card	10	nummod	_	start_char=60|end_char=62|SpaceAfter=No
+10	/01	/01	SYM	_	_	7	cop	_	start_char=62|end_char=65|SpaceAfter=No
+11	/202	/202	NUM	_	NumType=Card	10	nummod	_	start_char=65|end_char=69|SpaceAfter=No
+12	4	4	NUM	_	NumType=Card	13	nummod	_	start_char=69|end_char=70|SpacesAfter=\n
+13	Qëndrimi	qëndrim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=71|end_char=79
+14	se	se	SCONJ	_	_	23	mark	_	start_char=80|end_char=82
+15	çdo	çdo	PRON	_	PronType=Ind	16	nummod	_	start_char=83|end_char=86
+16	gjurmë	gjurmë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=87|end_char=93
+17	gishti	gisht	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=94|end_char=100
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=101|end_char=103
+19	dorën	dorë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=104|end_char=109
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=110|end_char=111
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=112|end_char=115
+22	personi	person	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=116|end_char=123
+23	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=124|end_char=129
+24	krejtësisht	krejtësisht	ADV	_	AdvType=Man	23	advmod	_	start_char=130|end_char=141
+25	unike	unik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	cop	_	start_char=142|end_char=147
+26	po	po	PART	_	_	27	mark	_	start_char=148|end_char=150
+27	sfidohet	sfidoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	23	advcl	_	start_char=151|end_char=159
+28	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=160|end_char=163
+29	kërkimet	kërkim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	27	obl	_	start_char=164|end_char=172
+30	nga	nga	ADP	_	Case=Nom	31	case	_	start_char=173|end_char=176
+31	Universiteti	Universitet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=177|end_char=189
+32	Kolumbia	Kolumbi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	flat	_	start_char=190|end_char=198|SpaceAfter=No
+33	.	.	PUNCT	_	_	23	punct	_	start_char=198|end_char=199|SpacesAfter=\n
+
+# text = Një ekip në universitetin amerikan trajnoi një mjet të inteligjencës artificiale për të ekzaminuar 60,000 gjurmë gishtash për të parë nëse mund të përcaktonte se cilat i përkisnin të njëjtit individ.
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=200|end_char=203
+2	ekip	ekip	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=204|end_char=208
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=209|end_char=211
+4	universitetin	universitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=212|end_char=225
+5	amerikan	amerikan	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=226|end_char=234
+6	trajnoi	trajnoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=235|end_char=242
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=243|end_char=246
+8	mjet	mjet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=247|end_char=251
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=252|end_char=254
+10	inteligjencës	inteligjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=255|end_char=268
+11	artificiale	artificial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=269|end_char=280
+12	për	për	PART	_	_	14	fixed	_	start_char=281|end_char=284
+13	të	të	PART	_	_	14	fixed	_	start_char=285|end_char=287
+14	ekzaminuar	ekzaminoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=288|end_char=298
+15	60	60	NUM	_	NumType=Card	14	advmod	_	start_char=299|end_char=301|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=301|end_char=302|SpaceAfter=No
+17	000	000	NUM	_	NumType=Card	18	nummod	_	start_char=302|end_char=305
+18	gjurmë	gjurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=306|end_char=312
+19	gishtash	gishtash	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=313|end_char=321
+20	për	për	PART	_	_	22	fixed	_	start_char=322|end_char=325
+21	të	të	PART	_	_	22	fixed	_	start_char=326|end_char=328
+22	parë	shoh	VERB	_	VerbForm=Part	18	advmod	_	start_char=329|end_char=333
+23	nëse	nëse	SCONJ	_	_	26	mark	_	start_char=334|end_char=338
+24	mund	mund	AUX	_	_	26	aux	_	start_char=339|end_char=343
+25	të	të	PART	_	_	26	fixed	_	start_char=344|end_char=346
+26	përcaktonte	përcaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	22	advcl	_	start_char=347|end_char=358
+27	se	se	SCONJ	_	_	30	mark	_	start_char=359|end_char=361
+28	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	30	nsubj	_	start_char=362|end_char=367
+29	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	iobj	_	start_char=368|end_char=369
+30	përkisnin	përkisn	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	26	advcl	_	start_char=370|end_char=379
+31	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	33	det	_	start_char=380|end_char=382
+32	njëjtit	njëjt	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	det	_	start_char=383|end_char=390
+33	individ	individ	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=391|end_char=398|SpaceAfter=No
+34	.	.	PUNCT	_	_	30	punct	_	start_char=398|end_char=399|SpacesAfter=\n
+
+# text = Studiuesit pretendojnë se teknologjia mund të identifikojë, me saktësi 75-90 përqind, nëse gjurmët nga gishtat e ndryshëm vinin nga një person.
+# sent_id = 3
+1	Studiuesit	studiues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=400|end_char=410
+2	pretendojnë	pretendoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=411|end_char=422
+3	se	se	SCONJ	_	_	7	mark	_	start_char=423|end_char=425
+4	teknologjia	teknologji	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=426|end_char=437
+5	mund	mund	AUX	_	_	7	aux	_	start_char=438|end_char=442
+6	të	të	PART	_	_	7	fixed	_	start_char=443|end_char=445
+7	identifikojë	identifikoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=446|end_char=458|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=458|end_char=459
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=460|end_char=462
+10	saktësi	saktës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=463|end_char=470
+11	75-90	75-90	NUM	_	NumType=Card	12	nummod	_	start_char=471|end_char=476
+12	përqind	përqind	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=477|end_char=484|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=484|end_char=485
+14	nëse	nëse	SCONJ	_	_	15	mark	_	start_char=486|end_char=490
+15	gjurmët	gjurmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	20	advmod	_	start_char=491|end_char=498
+16	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=499|end_char=502
+17	gishtat	gishtë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=503|end_char=510
+18	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det	_	start_char=511|end_char=512
+19	ndryshëm	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=513|end_char=521
+20	vinin	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	2	conj	_	start_char=522|end_char=527
+21	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=528|end_char=531
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=532|end_char=535
+23	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	start_char=536|end_char=542|SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	start_char=542|end_char=543|SpacesAfter=\n
+
+# text = "Ne nuk e dimë me siguri se si e bën këtë inteligjenca artificiale," pranoi Prof Hod Lipson, një robotist në Universitetin e Kolumbias që mbikëqyri studimin.
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=544|end_char=545|SpaceAfter=No
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=545|end_char=547
+3	nuk	nuk	PART	_	_	5	mark	_	start_char=548|end_char=551
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=552|end_char=553
+5	dimë	di	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=554|end_char=558
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=559|end_char=561
+7	siguri	siguri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=562|end_char=568
+8	se	se	SCONJ	_	_	11	mark	_	start_char=569|end_char=571
+9	si	si	SCONJ	_	_	11	mark	_	start_char=572|end_char=574
+10	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=575|end_char=576
+11	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=577|end_char=580
+12	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=581|end_char=585
+13	inteligjenca	inteligjencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=586|end_char=598
+14	artificiale	artificial	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=599|end_char=610|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=610|end_char=611|SpaceAfter=No
+16	"	"	PUNCT	_	_	17	punct	_	start_char=611|end_char=612
+17	pranoi	pranoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	acl	_	start_char=613|end_char=619
+18	Prof	Prof	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	start_char=620|end_char=624
+19	Hod	Hod	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	flat	_	start_char=625|end_char=628
+20	Lipson	Lipson	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=629|end_char=635|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=635|end_char=636
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=637|end_char=640
+23	robotist	robotist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=641|end_char=649
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=650|end_char=652
+25	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=653|end_char=666
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=667|end_char=668
+27	Kolumbias	Kolumbias	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=669|end_char=678
+28	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=679|end_char=681
+29	mbikëqyri	mbikëqyr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	acl:relcl	_	start_char=682|end_char=691
+30	studimin	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=692|end_char=700|SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	start_char=700|end_char=701|SpacesAfter=\n
+
+# text = Studiuesit mendojnë se mjeti i AI po analizonte gjurmët e gishtërinjve në një mënyrë të ndryshme nga metodat tradicionale.
+# sent_id = 5
+1	Studiuesit	studiues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=702|end_char=712
+2	mendojnë	mendoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=713|end_char=721
+3	se	se	SCONJ	_	_	8	mark	_	start_char=722|end_char=724
+4	mjeti	mjet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=725|end_char=730
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=731|end_char=732
+6	AI	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=733|end_char=735
+7	po	po	PART	_	_	8	mark	_	start_char=736|end_char=738
+8	analizonte	analizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	2	advcl	_	start_char=739|end_char=749
+9	gjurmët	gjurmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=750|end_char=757
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=758|end_char=759
+11	gishtërinjve	gishtëri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=760|end_char=772
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=773|end_char=775
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=776|end_char=779
+14	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=780|end_char=786
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=787|end_char=789
+16	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=790|end_char=798
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=799|end_char=802
+18	metodat	metodë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=803|end_char=810
+19	tradicionale	tradicional	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=811|end_char=823|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	start_char=823|end_char=824|SpacesAfter=\n
+
+# text = Dy profesora ishin të dy të befasuar nga rezultati.
+# sent_id = 6
+1	Dy	dy	NUM	_	NumType=Card	2	nummod	_	start_char=825|end_char=827
+2	profesora	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=828|end_char=837
+3	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=838|end_char=843
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=844|end_char=846
+5	dy	dy	NUM	_	NumType=Sets	7	nummod	_	start_char=847|end_char=849
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=850|end_char=852
+7	befasuar	befasuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	cop	_	start_char=853|end_char=861
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=862|end_char=865
+9	rezultati	rezultat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=866|end_char=875|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	start_char=875|end_char=876
+
+# text = "Ne ishim shumë skeptikë..
+# sent_id = 7
+1	"	"	PUNCT	_	_	2	punct	_	start_char=877|end_char=878|SpaceAfter=No
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=878|end_char=880
+3	ishim	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=881|end_char=886
+4	shumë	shumë	PRON	_	PronType=Ind	5	nummod	_	start_char=887|end_char=892
+5	skeptikë	skeptikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	cop	_	start_char=893|end_char=901|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	start_char=901|end_char=902|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	start_char=902|end_char=903|SpaceAfter=No
+
+# text = .
+# sent_id = 8
+1	.	.	PUNCT	_	_	0	root	_	start_char=903|end_char=904
+
+# text = duhej të kontrollonim dhe të dyfishonim," thanë ata.
+# sent_id = 9
+1	duhej	duhem	AUX	_	Mood=Ind|Tense=Imp	3	aux	_	start_char=905|end_char=910
+2	të	të	PART	_	_	3	fixed	_	start_char=911|end_char=913
+3	kontrollonim	kontrolloj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	9	advcl	_	start_char=914|end_char=926
+4	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=927|end_char=930
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=931|end_char=933
+6	dyfishonim	dyfishonim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=934|end_char=944|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=944|end_char=945|SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	start_char=945|end_char=946
+9	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=947|end_char=952
+10	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=953|end_char=956|SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	start_char=956|end_char=957|SpacesAfter=\n
+
+# text = Graham Williams, profesor i shkencës mjeko-ligjore në Universitetin Hull, tha se ideja e gjurmëve unike të gishtërinjve nuk ishte vendosur kurrë në gur.
+# sent_id = 10
+1	Graham	Graham	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	start_char=958|end_char=964
+2	Williams	William	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=965|end_char=973|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=973|end_char=974
+4	profesor	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=975|end_char=983
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=984|end_char=985
+6	shkencës	shkencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=986|end_char=994
+7	mjeko-ligjore	mjeko-ligjor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=995|end_char=1008
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=1009|end_char=1011
+9	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=1012|end_char=1025
+10	Hull	Hull	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1026|end_char=1030|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=1030|end_char=1031
+12	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1032|end_char=1035
+13	se	se	SCONJ	_	_	22	mark	_	start_char=1036|end_char=1038
+14	ideja	idejë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1039|end_char=1044
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=1045|end_char=1046
+16	gjurmëve	gjurmë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=1047|end_char=1055
+17	unike	unik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=1056|end_char=1061
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	19	det:poss	_	start_char=1062|end_char=1064
+19	gishtërinjve	gishtëri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	start_char=1065|end_char=1077
+20	nuk	nuk	PART	_	_	22	mark	_	start_char=1078|end_char=1081
+21	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	22	aux	_	start_char=1082|end_char=1087
+22	vendosur	vendos	VERB	_	VerbForm=Part	12	conj	_	start_char=1088|end_char=1096
+23	kurrë	kurrë	ADV	_	AdvType=Tim	22	advmod	_	start_char=1097|end_char=1102
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=1103|end_char=1105
+25	gur	gur	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=1106|end_char=1109|SpaceAfter=No
+26	.	.	PUNCT	_	_	22	punct	_	start_char=1109|end_char=1110
+
+# text = “Ne në fakt nuk e dimë se gjurmët e gishtërinjve janë unike.
+# sent_id = 11
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1111|end_char=1112|SpaceAfter=No
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=1112|end_char=1114
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=1115|end_char=1117
+4	fakt	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=1118|end_char=1122
+5	nuk	nuk	PART	_	_	7	mark	_	start_char=1123|end_char=1126
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=1127|end_char=1128
+7	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1129|end_char=1133
+8	se	se	SCONJ	_	_	12	mark	_	start_char=1134|end_char=1136
+9	gjurmët	gjurmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=1137|end_char=1144
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=1145|end_char=1146
+11	gishtërinjve	gishtëri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=1147|end_char=1159
+12	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=1160|end_char=1164
+13	unike	unik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	cop	_	start_char=1165|end_char=1170|SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	start_char=1170|end_char=1171
+
+# text = Gjithçka që mund të themi është se për aq sa jemi në dijeni, asnjë dy persona nuk kanë treguar ende të njëjtat gjurmë gishtash”.
+# sent_id = 12
+1	Gjithçka	Gjithçkë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1172|end_char=1180
+2	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=1181|end_char=1183
+3	mund	mund	AUX	_	_	5	aux	_	start_char=1184|end_char=1188
+4	të	të	PART	_	_	5	fixed	_	start_char=1189|end_char=1191
+5	themi	them	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=1192|end_char=1197
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1198|end_char=1203
+7	se	se	SCONJ	_	_	11	mark	_	start_char=1204|end_char=1206
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=1207|end_char=1210
+9	aq	aq	ADV	_	AdvType=Deg	11	advmod	_	start_char=1211|end_char=1213
+10	sa	sa	ADV	_	AdvType=Deg	11	advmod	_	start_char=1214|end_char=1216
+11	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	advcl	_	start_char=1217|end_char=1221
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1222|end_char=1224
+13	dijeni	dijeni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=1225|end_char=1231|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	start_char=1231|end_char=1232
+15	asnjë	asnjë	PRON	_	PronType=Ind	17	nummod	_	start_char=1233|end_char=1238
+16	dy	dy	NUM	_	NumType=Card	17	nummod	_	start_char=1239|end_char=1241
+17	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	20	nsubj	_	start_char=1242|end_char=1249
+18	nuk	nuk	PART	_	_	20	mark	_	start_char=1250|end_char=1253
+19	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=1254|end_char=1258
+20	treguar	tregoj	VERB	_	VerbForm=Part	6	advcl	_	start_char=1259|end_char=1266
+21	ende	ende	ADV	_	AdvType=Tim	20	advmod	_	start_char=1267|end_char=1271
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=1272|end_char=1274
+23	njëjtat	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	det	_	start_char=1275|end_char=1282
+24	gjurmë	gjurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	obj	_	start_char=1283|end_char=1289
+25	gishtash”	gishtash”	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	start_char=1290|end_char=1299|SpaceAfter=No
+26	.	.	PUNCT	_	_	20	punct	_	start_char=1299|end_char=1300|SpacesAfter=\n
+
+# text = Rezultatet e studimit të Universitetit të Kolumbias mund të kenë potencialin të ndikojnë si në biometrikën duke përdorur një gisht të veçantë për të zhbllokuar një pajisje ose për të siguruar identifikimin dhe shkencën mjekoligjore.
+# sent_id = 13
+1	Rezultatet	rezultat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=1301|end_char=1311
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=1312|end_char=1313
+3	studimit	studim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=1314|end_char=1322
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=1323|end_char=1325
+5	Universitetit	Universitet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=1326|end_char=1339
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=1340|end_char=1342
+7	Kolumbias	Kolumbias	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=1343|end_char=1352
+8	mund	mund	AUX	_	_	10	aux	_	start_char=1353|end_char=1357
+9	të	të	PART	_	_	10	fixed	_	start_char=1358|end_char=1360
+10	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1361|end_char=1365
+11	potencialin	potencial	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=1366|end_char=1377
+12	të	të	PART	_	_	13	fixed	_	start_char=1378|end_char=1380
+13	ndikojnë	ndikoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	ccomp	_	start_char=1381|end_char=1389
+14	si	si	SCONJ	_	_	16	mark	_	start_char=1390|end_char=1392
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=1393|end_char=1395
+16	biometrikën	biometrikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=1396|end_char=1407
+17	duke	duke	PART	_	_	18	fixed	_	start_char=1408|end_char=1412
+18	përdorur	përdor	VERB	_	VerbForm=Part	13	advmod	_	start_char=1413|end_char=1421
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=1422|end_char=1425
+20	gisht	gisht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	start_char=1426|end_char=1431
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1432|end_char=1434
+22	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1435|end_char=1442
+23	për	për	PART	_	_	25	fixed	_	start_char=1443|end_char=1446
+24	të	të	PART	_	_	25	fixed	_	start_char=1447|end_char=1449
+25	zhbllokuar	zhbllokoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=1450|end_char=1460
+26	një	një	DET	_	Definite=Ind	27	det	_	start_char=1461|end_char=1464
+27	pajisje	pajisje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obj	_	start_char=1465|end_char=1472
+28	ose	ose	CCONJ	_	_	31	cc	_	start_char=1473|end_char=1476
+29	për	për	PART	_	_	31	fixed	_	start_char=1477|end_char=1480
+30	të	të	PART	_	_	31	fixed	_	start_char=1481|end_char=1483
+31	siguruar	siguroj	VERB	_	VerbForm=Part	25	advmod	_	start_char=1484|end_char=1492
+32	identifikimin	identifikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=1493|end_char=1506
+33	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=1507|end_char=1510
+34	shkencën	shkencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	conj	_	start_char=1511|end_char=1519
+35	mjekoligjore	mjekoligjor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=1520|end_char=1532|SpaceAfter=No
+36	.	.	PUNCT	_	_	31	punct	_	start_char=1532|end_char=1533|SpacesAfter=\n
+
+# text = Nëse, për shembull, një gjurmë gishti të paidentifikuar gjendet në vendin e krimit A dhe një gjurmë gishti tregues të paidentifikuar në vendin e krimit B, të dy aktualisht nuk mund të lidhen forenzikisht me të njëjtin person - por mjeti i AI mund të jetë në gjendje ta identifikojë këtë .
+# sent_id = 14
+1	Nëse	nëse	SCONJ	_	_	11	mark	_	start_char=1534|end_char=1538|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=1538|end_char=1539
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=1540|end_char=1543
+4	shembull	shembull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=1544|end_char=1552|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	start_char=1552|end_char=1553
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=1554|end_char=1557
+7	gjurmë	gjurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1558|end_char=1564
+8	gishti	gisht	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=1565|end_char=1571
+9	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1572|end_char=1574
+10	paidentifikuar	paidentifikuar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1575|end_char=1589
+11	gjendet	gjendem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1590|end_char=1597
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1598|end_char=1600
+13	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=1601|end_char=1607
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=1608|end_char=1609
+15	krimit	krim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=1610|end_char=1616
+16	A	a	PUNCT	_	_	15	punct	_	start_char=1617|end_char=1618
+17	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=1619|end_char=1622
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=1623|end_char=1626
+19	gjurmë	gjurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	start_char=1627|end_char=1633
+20	gishti	gisht	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=1634|end_char=1640
+21	tregues	tregues	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=1641|end_char=1648
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=1649|end_char=1651
+23	paidentifikuar	paidentifikuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=1652|end_char=1666
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=1667|end_char=1669
+25	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=1670|end_char=1676
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=1677|end_char=1678
+27	krimit	krim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=1679|end_char=1685
+28	B	B	NUM	_	NumType=Card	27	flat	_	start_char=1686|end_char=1687|SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	start_char=1687|end_char=1688
+30	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	31	det	_	start_char=1689|end_char=1691
+31	dy	dy	NUM	_	NumType=Sets	32	nummod	_	start_char=1692|end_char=1694
+32	aktualisht	aktualisht	ADV	_	AdvType=Man	36	advmod	_	start_char=1695|end_char=1705
+33	nuk	nuk	PART	_	_	36	mark	_	start_char=1706|end_char=1709
+34	mund	mund	AUX	_	_	36	aux	_	start_char=1710|end_char=1714
+35	të	të	PART	_	_	36	fixed	_	start_char=1715|end_char=1717
+36	lidhen	lidhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	conj	_	start_char=1718|end_char=1724
+37	forenzikisht	forenzikisht	ADV	_	AdvType=Man	36	advmod	_	start_char=1725|end_char=1737
+38	me	me	ADP	_	Case=Acc	41	case	_	start_char=1738|end_char=1740
+39	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=1741|end_char=1743
+40	njëjtin	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	det	_	start_char=1744|end_char=1751
+41	person	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	obl	_	start_char=1752|end_char=1758
+42	-	-	PUNCT	_	_	43	punct	_	start_char=1759|end_char=1760
+43	por	por	CCONJ	_	_	44	cc	_	start_char=1761|end_char=1764
+44	mjeti	mjet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	conj	_	start_char=1765|end_char=1770
+45	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	46	det	_	start_char=1771|end_char=1772
+46	AI	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	start_char=1773|end_char=1775
+47	mund	mund	AUX	_	_	49	aux	_	start_char=1776|end_char=1780
+48	të	të	PART	_	_	49	fixed	_	start_char=1781|end_char=1783
+49	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	conj	_	start_char=1784|end_char=1788
+50	në	në	ADP	_	Case=Acc	51	case	_	start_char=1789|end_char=1791
+51	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	49	obl	_	start_char=1792|end_char=1799
+52-53	ta	_	_	_	_	_	_	_	start_char=1800|end_char=1802
+52	të	të	PART	_	_	54	fixed	_	_
+53	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	54	obj	_	_
+54	identifikojë	identifikoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	49	ccomp	_	start_char=1803|end_char=1815
+55	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	54	obj	_	start_char=1816|end_char=1820
+56	.	.	PUNCT	_	_	49	punct	_	start_char=1821|end_char=1822|SpacesAfter=\n
+
+# text = Mjetet e inteligjencës artificiale zakonisht trajnohen për sasi të mëdha të dhënash dhe do të kërkoheshin shumë më tepër gjurmë gishtash për të zhvilluar më tej këtë teknologji.
+# sent_id = 15
+1	Mjetet	mjet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=1823|end_char=1829
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=1830|end_char=1831
+3	inteligjencës	inteligjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1832|end_char=1845
+4	artificiale	artificial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1846|end_char=1857
+5	zakonisht	zakonisht	ADV	_	AdvType=Man	6	advmod	_	start_char=1858|end_char=1867
+6	trajnohen	trajnoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1868|end_char=1877
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=1878|end_char=1881
+8	sasi	sasi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=1882|end_char=1886
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1887|end_char=1889
+10	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1890|end_char=1895
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=1896|end_char=1898
+12	dhënash	dhënash	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1899|end_char=1906
+13	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=1907|end_char=1910
+14	do	do	PART	_	_	16	fixed	_	start_char=1911|end_char=1913
+15	të	të	PART	_	_	16	fixed	_	start_char=1914|end_char=1916
+16	kërkoheshin	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	6	conj	_	start_char=1917|end_char=1928
+17	shumë	shumë	ADV	_	AdvType=Deg	19	advmod	_	start_char=1929|end_char=1934
+18	më	më	PART	_	_	19	mark	_	start_char=1935|end_char=1937
+19	tepër	tepër	ADV	_	AdvType=Deg	16	advmod	_	start_char=1938|end_char=1943
+20	gjurmë	gjurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=1944|end_char=1950
+21	gishtash	gishtash	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=1951|end_char=1959
+22	për	për	PART	_	_	24	fixed	_	start_char=1960|end_char=1963
+23	të	të	PART	_	_	24	fixed	_	start_char=1964|end_char=1966
+24	zhvilluar	zhvilloj	VERB	_	VerbForm=Part	16	advmod	_	start_char=1967|end_char=1976
+25	më	më	PART	_	_	26	mark	_	start_char=1977|end_char=1979
+26	tej	tej	ADV	_	AdvType=Loc	24	advmod	_	start_char=1980|end_char=1983
+27	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=1984|end_char=1988
+28	teknologji	teknologje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=1989|end_char=1999|SpaceAfter=No
+29	.	.	PUNCT	_	_	24	punct	_	start_char=1999|end_char=2000|SpaceAfter=No
+
+# text = /BBC /rtsh.al/
+# sent_id = 16
+1	/BBC	/BBC	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2000|end_char=2004|SpacesAfter=\n
+2	/rtsh.al	/rtsh.al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=2005|end_char=2013|SpaceAfter=No
+3	/	/	PUNCT	_	_	1	punct	_	start_char=2013|end_char=2014|SpacesAfter=\n\n\n
+

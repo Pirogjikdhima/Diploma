@@ -1,0 +1,558 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Fol shqip”- Krasniqi për RTSH:
+# sent_id = 1
+1	Fol	vol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1|end_char=4
+2	shqip”-	shqip”	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=5|end_char=12
+3	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=21
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=25
+5	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	start_char=26|end_char=30|SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	start_char=30|end_char=31
+
+# text = Shumë gjuhëtarë i janë bashkuar nismës, të shmangim fjalët e huaja 30/01/2024 “Fol shqip” është nisma më e re që Autoriteti i Mediave Audiovizive ka ndërmarrë, që synon të ndalojë përdorimin e fjalëve të huaja në media.
+# sent_id = 2
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=32|end_char=37
+2	gjuhëtarë	gjuhëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	start_char=38|end_char=47
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	iobj	_	start_char=48|end_char=49
+4	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=50|end_char=54
+5	bashkuar	bashkoj	VERB	_	VerbForm=Part	0	root	_	start_char=55|end_char=63
+6	nismës	nismë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=64|end_char=70|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=70|end_char=71
+8	të	të	PART	_	_	9	fixed	_	start_char=72|end_char=74
+9	shmangim	shmang	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	advmod	_	start_char=75|end_char=83
+10	fjalët	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=84|end_char=90
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=91|end_char=92
+12	huaja	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=93|end_char=98|SpacesAfter=\n
+13	30	30	NUM	_	NumType=Card	14	nummod	_	start_char=99|end_char=101|SpaceAfter=No
+14	/01	/01	SYM	_	_	10	nmod	_	start_char=101|end_char=104|SpaceAfter=No
+15	/2024	/2024	NUM	_	NumType=Card	14	flat	_	start_char=104|end_char=109|SpacesAfter=\n
+16	“	"	PUNCT	_	_	17	punct	_	start_char=110|end_char=111|SpaceAfter=No
+17	Fol	Fol	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	start_char=111|end_char=114
+18	shqip”	shqip”	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	flat	_	start_char=115|end_char=121
+19	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=122|end_char=127
+20	nisma	nismë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	cop	_	start_char=128|end_char=133
+21	më	më	PART	_	_	23	advmod	_	start_char=134|end_char=136
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=137|end_char=138
+23	re	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=139|end_char=141
+24	që	që	PRON	_	PronType=Rel	30	nsubj	_	start_char=142|end_char=144
+25	Autoriteti	Autoritet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=145|end_char=155
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=156|end_char=157
+27	Mediave	media	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=158|end_char=165
+28	Audiovizive	Audioviz	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	flat	_	start_char=166|end_char=177
+29	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	start_char=178|end_char=180
+30	ndërmarrë	ndërmarr	VERB	_	VerbForm=Part	19	conj	_	start_char=181|end_char=190|SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	start_char=190|end_char=191
+32	që	që	PRON	_	PronType=Rel	33	nsubj	_	start_char=192|end_char=194
+33	synon	synoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	advcl	_	start_char=195|end_char=200
+34	të	të	PART	_	_	35	fixed	_	start_char=201|end_char=203
+35	ndalojë	ndaloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	ccomp	_	start_char=204|end_char=211
+36	përdorimin	përdorim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=212|end_char=222
+37	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	38	det:poss	_	start_char=223|end_char=224
+38	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	nmod	_	start_char=225|end_char=232
+39	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	40	det	_	start_char=233|end_char=235
+40	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=236|end_char=241
+41	në	në	ADP	_	Case=Acc	42	case	_	start_char=242|end_char=244
+42	media	medi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	advmod	_	start_char=245|end_char=250|SpaceAfter=No
+43	.	.	PUNCT	_	_	35	punct	_	start_char=250|end_char=251|SpacesAfter=\n
+
+# text = E ftuar në “Jetë Shqiptare” në RTSH, kryetarja e AMA-s, Armela Krasniqi u shpreh se përdorimi i fjalëve të huaja po kthehet në një fenomen mjaft të përhapur në mediat audio-vizive dhe të shkruara.
+# sent_id = 3
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=252|end_char=253
+2	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=254|end_char=259
+3	në	në	ADP	_	Case=Acc	2	case	_	start_char=260|end_char=262
+4	“	"	PUNCT	_	_	5	punct	_	start_char=263|end_char=264|SpaceAfter=No
+5	Jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=264|end_char=268
+6	Shqiptare”	Shqiptar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=269|end_char=279
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=280|end_char=282
+8	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=283|end_char=287|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=287|end_char=288
+10	kryetarja	kryetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=289|end_char=298
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=299|end_char=300
+12	AMA-s	AMA-s	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=301|end_char=306|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=306|end_char=307
+14	Armela	Armelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=308|end_char=314
+15	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=315|end_char=323
+16	u	u	PART	_	_	17	fixed	_	start_char=324|end_char=325
+17	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=326|end_char=332
+18	se	se	SCONJ	_	_	25	mark	_	start_char=333|end_char=335
+19	përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=336|end_char=345
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=346|end_char=347
+21	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=348|end_char=355
+22	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=356|end_char=358
+23	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=359|end_char=364
+24	po	po	PART	_	_	25	mark	_	start_char=365|end_char=367
+25	kthehet	kthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	conj	_	start_char=368|end_char=375
+26	në	në	ADP	_	Case=Acc	28	case	_	start_char=376|end_char=378
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=379|end_char=382
+28	fenomen	fenom	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	start_char=383|end_char=390
+29	mjaft	mjaft	ADV	_	AdvType=Deg	28	amod	_	start_char=391|end_char=396
+30	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=397|end_char=399
+31	përhapur	përhapur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=400|end_char=408
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=409|end_char=411
+33	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	31	obl	_	start_char=412|end_char=418
+34	audio-vizive	audio-viz	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=419|end_char=431
+35	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=432|end_char=435
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	37	det	_	start_char=436|end_char=438
+37	shkruara	shkruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	34	conj	_	start_char=439|end_char=447|SpaceAfter=No
+38	.	.	PUNCT	_	_	25	punct	_	start_char=447|end_char=448
+
+# text = Krasniqi tha se kjo nisëm ka pë qellim ndërgjegjësimin e mediave dhe jo të bëjë “rolin e policit” me masa administrative.
+# sent_id = 4
+1	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=449|end_char=457
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=458|end_char=461
+3	se	se	SCONJ	_	_	6	mark	_	start_char=462|end_char=464
+4	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	fixed	_	start_char=465|end_char=468
+5	nisëm	nij	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	6	advcl	_	start_char=469|end_char=474
+6	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=475|end_char=477
+7	pë	pë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	det	_	start_char=478|end_char=480
+8	qellim	qellim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=481|end_char=487
+9	ndërgjegjësimin	ndërgjegjësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=488|end_char=503
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=504|end_char=505
+11	mediave	media	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=506|end_char=513
+12	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=514|end_char=517
+13	jo	jo	PART	_	_	15	mark	_	start_char=518|end_char=520
+14	të	të	PART	_	_	15	fixed	_	start_char=521|end_char=523
+15	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=524|end_char=528
+16	“rolin	“rol	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=529|end_char=535
+17	e	e	CCONJ	_	_	18	cc	_	start_char=536|end_char=537
+18	policit”	policit”	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=538|end_char=546
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=547|end_char=549
+20	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	start_char=550|end_char=554
+21	administrative	administrativ	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=555|end_char=569|SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	start_char=569|end_char=570|SpacesAfter=\n
+
+# text = “Domosdoshmëria për të ruajtur gjuhën tonë amtare është një nga objektivat kryesore të AMA-s.
+# sent_id = 5
+1	“	"	PUNCT	_	_	2	punct	_	start_char=571|end_char=572|SpaceAfter=No
+2	Domosdoshmëria	domosdoshmëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=572|end_char=586
+3	për	për	PART	_	_	5	fixed	_	start_char=587|end_char=590
+4	të	të	PART	_	_	5	fixed	_	start_char=591|end_char=593
+5	ruajtur	ruaj	VERB	_	VerbForm=Part	9	advmod	_	start_char=594|end_char=601
+6	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=602|end_char=608
+7	tonë	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	amod	_	start_char=609|end_char=613
+8	amtare	amtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=614|end_char=620
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=621|end_char=626
+10	një	një	DET	_	Definite=Ind	12	det	_	start_char=627|end_char=630
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=631|end_char=634
+12	objektivat	objektivë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=635|end_char=645
+13	kryesore	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=646|end_char=654
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=655|end_char=657
+15	AMA-s	AMA-s	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=658|end_char=663|SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	_	start_char=663|end_char=664
+
+# text = Askush nuk është puritan në fjalor, pasi të gjithë mund të themi fjalë të huaja, por ajo që ne si AMA vëmë re është se përdorimi i fjalëve të huaja po kthehen në një fenomen.
+# sent_id = 6
+1	Askush	askush	SCONJ	_	_	3	mark	_	start_char=665|end_char=671
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=672|end_char=675
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=676|end_char=681
+4	puritan	puritan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	cop	_	start_char=682|end_char=689
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=690|end_char=692
+6	fjalor	fjalor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=693|end_char=699|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=699|end_char=700
+8	pasi	pasi	SCONJ	_	_	13	mark	_	start_char=701|end_char=705
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=706|end_char=708
+10	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	start_char=709|end_char=715
+11	mund	mund	AUX	_	_	13	aux	_	start_char=716|end_char=720
+12	të	të	PART	_	_	13	fixed	_	start_char=721|end_char=723
+13	themi	them	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	acl	_	start_char=724|end_char=729
+14	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=730|end_char=735
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=736|end_char=738
+16	huaja	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=739|end_char=744|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=744|end_char=745
+18	por	por	CCONJ	_	_	19	cc	_	start_char=746|end_char=749
+19	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=750|end_char=753
+20	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=754|end_char=756
+21	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=757|end_char=759
+22	si	si	SCONJ	_	_	23	fixed	_	start_char=760|end_char=762
+23	AMA	ama	SCONJ	_	_	24	mark	_	start_char=763|end_char=766
+24	vëmë	jam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	19	acl:relcl	_	start_char=767|end_char=771
+25	re	re	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=772|end_char=774
+26	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=775|end_char=780
+27	se	se	SCONJ	_	_	24	mark	_	start_char=781|end_char=783
+28	përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	cop	_	start_char=784|end_char=793
+29	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=794|end_char=795
+30	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	28	nmod	_	start_char=796|end_char=803
+31	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=804|end_char=806
+32	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=807|end_char=812
+33	po	po	PART	_	_	34	mark	_	start_char=813|end_char=815
+34	kthehen	kthej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	26	advcl	_	start_char=816|end_char=823
+35	në	në	ADP	_	Case=Acc	37	case	_	start_char=824|end_char=826
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=827|end_char=830
+37	fenomen	fenom	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	34	obl	_	start_char=831|end_char=838|SpaceAfter=No
+38	.	.	PUNCT	_	_	34	punct	_	start_char=838|end_char=839
+
+# text = Ne duhet të bëjmë një ndërgjegjësim, nuk është një masë administrative.
+# sent_id = 7
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=840|end_char=842
+2	duhet	duhem	AUX	_	_	4	aux	_	start_char=843|end_char=848
+3	të	të	PART	_	_	4	fixed	_	start_char=849|end_char=851
+4	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=852|end_char=857
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=858|end_char=861
+6	ndërgjegjësim	ndërgjegjësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=862|end_char=875|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	start_char=875|end_char=876
+8	nuk	nuk	PART	_	Polarity=Neg	9	mark	_	start_char=877|end_char=880
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=881|end_char=886
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=887|end_char=890
+11	masë	masë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	cop	_	start_char=891|end_char=895
+12	administrative	administrativ	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=896|end_char=910|SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	start_char=910|end_char=911
+
+# text = Përdorimi i fjalëve të huaj vjen edhe si pasojë e neglizhencës, por duhet bërë kujdes pasi germa ë dhe ç, gjuha shqipe i njeh dhe duhen përdorur.
+# sent_id = 8
+1	Përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=912|end_char=921
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=922|end_char=923
+3	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=924|end_char=931
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=932|end_char=934
+5	huaj	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=935|end_char=939
+6	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=940|end_char=944
+7	edhe	edhe	CCONJ	_	_	9	cc	_	start_char=945|end_char=949
+8	si	si	SCONJ	_	_	9	mark	_	start_char=950|end_char=952
+9	pasojë	pasojë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=953|end_char=959
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=960|end_char=961
+11	neglizhencës	neglizhencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=962|end_char=974|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=974|end_char=975
+13	por	por	CCONJ	_	_	15	cc	_	start_char=976|end_char=979
+14	duhet	duhem	AUX	_	_	15	aux	_	start_char=980|end_char=985
+15	bërë	bëj	VERB	_	VerbForm=Part	6	conj	_	start_char=986|end_char=990
+16	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=991|end_char=997
+17	pasi	pasi	ADV	_	AdvType=Loc	18	mark	_	start_char=998|end_char=1002
+18	germa	germë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=1003|end_char=1008
+19	ë	ë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=1009|end_char=1010
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=1011|end_char=1014
+21	ç	ç	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=1015|end_char=1016|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=1016|end_char=1017
+23	gjuha	gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=1018|end_char=1023
+24	shqipe	shqip	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1024|end_char=1030
+25	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	start_char=1031|end_char=1032
+26	njeh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	start_char=1033|end_char=1037
+27	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=1038|end_char=1041
+28	duhen	duhem	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	29	aux	_	start_char=1042|end_char=1047
+29	përdorur	përdor	VERB	_	VerbForm=Part	26	conj	_	start_char=1048|end_char=1056|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=1056|end_char=1057
+
+# text = Fjalët e huaja kanë sinonime pafund që mund të gjenden në gjuhën shqipe, por të gjithë e dimë që ka disa fjalë që do përdoren në gjuhë të huaj se janë fjalë për terma në fusha specifike të caktuara.
+# sent_id = 9
+1	Fjalët	Fjalë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=1058|end_char=1064
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=1065|end_char=1066
+3	huaja	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=1067|end_char=1072
+4	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1073|end_char=1077
+5	sinonime	sinonim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=1078|end_char=1086
+6	pafund	pafund	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=1087|end_char=1093
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=1094|end_char=1096
+8	mund	mund	AUX	_	_	10	aux	_	start_char=1097|end_char=1101
+9	të	të	PART	_	_	10	fixed	_	start_char=1102|end_char=1104
+10	gjenden	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	acl	_	start_char=1105|end_char=1112
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=1113|end_char=1115
+12	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=1116|end_char=1122
+13	shqipe	shqip	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1123|end_char=1129|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1129|end_char=1130
+15	por	por	CCONJ	_	_	19	cc	_	start_char=1131|end_char=1134
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=1135|end_char=1137
+17	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	start_char=1138|end_char=1144
+18	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=1145|end_char=1146
+19	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=1147|end_char=1151
+20	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=1152|end_char=1154
+21	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	advcl	_	start_char=1155|end_char=1157
+22	disa	disa	PRON	_	PronType=Ind	23	nummod	_	start_char=1158|end_char=1162
+23	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=1163|end_char=1168
+24	që	që	PRON	_	PronType=Rel	26	nsubj	_	start_char=1169|end_char=1171
+25	do	do	PART	_	_	26	fixed	_	start_char=1172|end_char=1174
+26	përdoren	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	23	acl	_	start_char=1175|end_char=1183
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=1184|end_char=1186
+28	gjuhë	gjuhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	obl	_	start_char=1187|end_char=1192
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=1193|end_char=1195
+30	huaj	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1196|end_char=1200
+31	se	se	SCONJ	_	_	32	mark	_	start_char=1201|end_char=1203
+32	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	advcl	_	start_char=1204|end_char=1208
+33	fjalë	fjalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	32	cop	_	start_char=1209|end_char=1214
+34	për	për	ADP	_	Case=Acc	35	case	_	start_char=1215|end_char=1218
+35	terma	term	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	advmod	_	start_char=1219|end_char=1224
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=1225|end_char=1227
+37	fusha	fushë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	advmod	_	start_char=1228|end_char=1233
+38	specifike	specifik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	start_char=1234|end_char=1243
+39	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	40	det	_	start_char=1244|end_char=1246
+40	caktuara	caktuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	start_char=1247|end_char=1255|SpaceAfter=No
+41	.	.	PUNCT	_	_	32	punct	_	start_char=1255|end_char=1256
+
+# text = Rregullatori nuk është një polic, por është një ndihmë për të gjithë tregun audioviziv në vend për të respektuar normat e gjuhës shqipe.
+# sent_id = 10
+1	Rregullatori	Rregullator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1257|end_char=1269
+2	nuk	nuk	PART	_	Polarity=Neg	3	mark	_	start_char=1270|end_char=1273
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1274|end_char=1279
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=1280|end_char=1283
+5	polic	polic	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=1284|end_char=1289|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1289|end_char=1290
+7	por	por	CCONJ	_	_	8	cc	_	start_char=1291|end_char=1294
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=1295|end_char=1300
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=1301|end_char=1304
+10	ndihmë	ndihmë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	cop	_	start_char=1305|end_char=1311
+11	për	për	ADP	_	Case=Acc	14	case	_	start_char=1312|end_char=1315
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=1316|end_char=1318
+13	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	14	nummod	_	start_char=1319|end_char=1325
+14	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1326|end_char=1332
+15	audioviziv	audioviz	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1333|end_char=1343
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1344|end_char=1346
+17	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=1347|end_char=1351
+18	për	për	PART	_	_	20	fixed	_	start_char=1352|end_char=1355
+19	të	të	PART	_	_	20	fixed	_	start_char=1356|end_char=1358
+20	respektuar	respektoj	VERB	_	VerbForm=Part	14	advmod	_	start_char=1359|end_char=1369
+21	normat	normë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obj	_	start_char=1370|end_char=1376
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=1377|end_char=1378
+23	gjuhës	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=1379|end_char=1385
+24	shqipe	shqip	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1386|end_char=1392|SpaceAfter=No
+25	.	.	PUNCT	_	_	20	punct	_	start_char=1392|end_char=1393
+
+# text = Nëse ne përdorim kaq shumë fjalë të huaja brenda një fjalia, nuk është e kuptueshme për të gjitha moshat”, tha Krasniqi.
+# sent_id = 11
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=1394|end_char=1398
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1399|end_char=1401
+3	përdorim	përdorim	VERB	_	Mood=Ind|Person=3|Voice=Act	22	advcl	_	start_char=1402|end_char=1410
+4	kaq	kaq	ADV	_	AdvType=Deg	6	mark	_	start_char=1411|end_char=1414
+5	shumë	shumë	PRON	_	PronType=Ind	6	nummod	_	start_char=1415|end_char=1420
+6	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=1421|end_char=1426
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=1427|end_char=1429
+8	huaja	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1430|end_char=1435
+9	brenda	brenda	ADP	_	Case=Abl	11	case	_	start_char=1436|end_char=1442
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=1443|end_char=1446
+11	fjalia	fjali	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=1447|end_char=1453|SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	start_char=1453|end_char=1454
+13	nuk	nuk	PART	_	_	14	mark	_	start_char=1455|end_char=1458
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1459|end_char=1464
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=1465|end_char=1466
+16	kuptueshme	kuptueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	cop	_	start_char=1467|end_char=1477
+17	për	për	ADP	_	Case=Acc	20	case	_	start_char=1478|end_char=1481
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=1482|end_char=1484
+19	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	20	nummod	_	start_char=1485|end_char=1491
+20	moshat”	moshatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	advmod	_	start_char=1492|end_char=1499|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1499|end_char=1500
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=1501|end_char=1504
+23	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=1505|end_char=1513|SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	start_char=1513|end_char=1514|SpacesAfter=\n
+
+# text = Kryetarja e AMA-s, Armela Krasniqi u shpreh gjithashtu se ka shumë gjuhëtarë që janë të interesuar për nismën dhe do të bashkëpunojnë jo vetëm për të gjetur fjalët shqip dhe shmangur të huaja por t’i futen problemit edhe më thellë në drejtshkrimin e saktë të gjuhës shqipe.
+# sent_id = 12
+1	Kryetarja	kryetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1515|end_char=1524
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=1525|end_char=1526
+3	AMA-s	AMA-s	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1527|end_char=1532|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=1532|end_char=1533
+5	Armela	Armelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=1534|end_char=1540
+6	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=1541|end_char=1549
+7	u	u	PART	_	_	8	fixed	_	start_char=1550|end_char=1551
+8	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1552|end_char=1558
+9	gjithashtu	gjithashtu	ADV	_	AdvType=Man	8	advmod	_	start_char=1559|end_char=1569
+10	se	se	SCONJ	_	_	11	mark	_	start_char=1570|end_char=1572
+11	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=1573|end_char=1575
+12	shumë	shumë	PRON	_	PronType=Ind	13	nummod	_	start_char=1576|end_char=1581
+13	gjuhëtarë	gjuhëtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	start_char=1582|end_char=1591
+14	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=1592|end_char=1594
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=1595|end_char=1599
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=1600|end_char=1602
+17	interesuar	interesuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	cop	_	start_char=1603|end_char=1613
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=1614|end_char=1617
+19	nismën	nismë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	start_char=1618|end_char=1624
+20	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=1625|end_char=1628
+21	do	do	PART	_	_	23	fixed	_	start_char=1629|end_char=1631
+22	të	të	PART	_	_	23	fixed	_	start_char=1632|end_char=1634
+23	bashkëpunojnë	bashkëpunoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=1635|end_char=1648
+24	jo	jo	PART	_	_	25	fixed	_	start_char=1649|end_char=1651
+25	vetëm	vetëm	PART	_	_	23	mark	_	start_char=1652|end_char=1657
+26	për	për	PART	_	_	28	fixed	_	start_char=1658|end_char=1661
+27	të	të	PART	_	_	28	fixed	_	start_char=1662|end_char=1664
+28	gjetur	gjet	VERB	_	VerbForm=Part	23	advmod	_	start_char=1665|end_char=1671
+29	fjalët	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	28	obj	_	start_char=1672|end_char=1678
+30	shqip	shqip	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=1679|end_char=1684
+31	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=1685|end_char=1688
+32	shmangur	shmangoj	VERB	_	VerbForm=Part	28	conj	_	start_char=1689|end_char=1697
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=1698|end_char=1700
+34	huaja	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=1701|end_char=1706
+35	por	por	CCONJ	_	_	37	cc	_	start_char=1707|end_char=1710
+36	t’i	t’i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obj	_	start_char=1711|end_char=1714
+37	futen	futej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	32	conj	_	start_char=1715|end_char=1720
+38	problemit	problem	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	37	obj	_	start_char=1721|end_char=1730
+39	edhe	edhe	PART	_	_	41	mark	_	start_char=1731|end_char=1735
+40	më	më	PART	_	_	41	mark	_	start_char=1736|end_char=1738
+41	thellë	thellë	ADV	_	AdvType=Man	37	advmod	_	start_char=1739|end_char=1745
+42	në	në	ADP	_	Case=Acc	43	case	_	start_char=1746|end_char=1748
+43	drejtshkrimin	drejtshkrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	37	obl	_	start_char=1749|end_char=1762
+44	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	45	det	_	start_char=1763|end_char=1764
+45	saktë	saktë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	start_char=1765|end_char=1770
+46	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	47	det:poss	_	start_char=1771|end_char=1773
+47	gjuhës	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	43	nmod	_	start_char=1774|end_char=1780
+48	shqipe	shqip	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	start_char=1781|end_char=1787|SpaceAfter=No
+49	.	.	PUNCT	_	_	37	punct	_	start_char=1787|end_char=1788|SpacesAfter=\n
+
+# text = “Përdorimi i fjalëve të huaj është një dukuri që vihet re gjithandej.
+# sent_id = 13
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1789|end_char=1790|SpaceAfter=No
+2	Përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1790|end_char=1799
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=1800|end_char=1801
+4	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=1802|end_char=1809
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=1810|end_char=1812
+6	huaj	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=1813|end_char=1817
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1818|end_char=1823
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=1824|end_char=1827
+9	dukuri	dukur	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	cop	_	start_char=1828|end_char=1834
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=1835|end_char=1837
+11	vihet	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	acl:relcl	_	start_char=1838|end_char=1843
+12	re	re	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=1844|end_char=1846
+13	gjithandej	gjithandej	ADV	_	AdvType=Man	12	amod	_	start_char=1847|end_char=1857|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	start_char=1857|end_char=1858
+
+# text = Ndihma me përshtatshmërinë e fjalëve të huaja në shqip do të vijojë çdo javë duke u publikuar shembuj të ndryshëm, ka disa gjuhëtar që duan t’i bashkohen kësaj nisme.
+# sent_id = 14
+1	Ndihma	ndihmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1859|end_char=1865
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=1866|end_char=1868
+3	përshtatshmërinë	përshtatshmëriri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1869|end_char=1885
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=1886|end_char=1887
+5	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=1888|end_char=1895
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=1896|end_char=1898
+7	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1899|end_char=1904
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=1905|end_char=1907
+9	shqip	shqip	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=1908|end_char=1913
+10	do	do	PART	_	_	12	fixed	_	start_char=1914|end_char=1916
+11	të	të	PART	_	_	12	fixed	_	start_char=1917|end_char=1919
+12	vijojë	vijoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1920|end_char=1926
+13	çdo	çdo	PRON	_	PronType=Ind	14	nummod	_	start_char=1927|end_char=1930
+14	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=1931|end_char=1935
+15	duke	duke	PART	_	_	17	fixed	_	start_char=1936|end_char=1940
+16	u	u	PART	_	_	17	fixed	_	start_char=1941|end_char=1942
+17	publikuar	publikoj	VERB	_	VerbForm=Part	12	advmod	_	start_char=1943|end_char=1952
+18	shembuj	shembull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	start_char=1953|end_char=1960
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	20	det	_	start_char=1961|end_char=1963
+20	ndryshëm	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=1964|end_char=1972|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1972|end_char=1973
+22	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=1974|end_char=1976
+23	disa	disa	PRON	_	PronType=Ind	24	nummod	_	start_char=1977|end_char=1981
+24	gjuhëtar	gjuhëtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	start_char=1982|end_char=1990
+25	që	që	PRON	_	PronType=Rel	26	nsubj	_	start_char=1991|end_char=1993
+26	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	acl	_	start_char=1994|end_char=1998
+27	t’i	t’i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	28	nsubj	_	start_char=1999|end_char=2002
+28	bashkohen	bashkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	26	ccomp	_	start_char=2003|end_char=2012
+29	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	start_char=2013|end_char=2018
+30	nisme	nisme	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	start_char=2019|end_char=2024|SpaceAfter=No
+31	.	.	PUNCT	_	_	22	punct	_	start_char=2024|end_char=2025
+
+# text = Profesori Gjovalin Shkurtaj ishte një nga njerëzit e parë që e përshëndeti këtë nisëm dhe ka dëshirë të kontribuojë, jo vetëm në gjetjen e fjalëve të huaja, por t’i shkojmë pak më thellë fenomenit.
+# sent_id = 15
+1	Profesori	profesor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2026|end_char=2035
+2	Gjovalin	Gjoval	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=2036|end_char=2044
+3	Shkurtaj	Shkurtaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=2045|end_char=2053
+4	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2054|end_char=2059
+5	një	një	DET	_	Definite=Ind	7	det	_	start_char=2060|end_char=2063
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=2064|end_char=2067
+7	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	obl:arg	_	start_char=2068|end_char=2076
+8	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=2077|end_char=2078
+9	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=2079|end_char=2083
+10	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=2084|end_char=2086
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=2087|end_char=2088
+12	përshëndeti	përshëndem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	start_char=2089|end_char=2100
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	iobj	_	start_char=2101|end_char=2105
+14	nisëm	nij	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	12	ccomp	_	start_char=2106|end_char=2111
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=2112|end_char=2115
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=2116|end_char=2118
+17	dëshirë	dëshir	VERB	_	VerbForm=Part	14	conj	_	start_char=2119|end_char=2126
+18	të	të	PART	_	_	19	fixed	_	start_char=2127|end_char=2129
+19	kontribuojë	kontribuoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	ccomp	_	start_char=2130|end_char=2141|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	start_char=2141|end_char=2142
+21	jo	jo	PART	_	_	22	fixed	_	start_char=2143|end_char=2145
+22	vetëm	vetëm	PART	_	_	24	mark	_	start_char=2146|end_char=2151
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=2152|end_char=2154
+24	gjetjen	gjetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	advmod	_	start_char=2155|end_char=2162
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=2163|end_char=2164
+26	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=2165|end_char=2172
+27	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=2173|end_char=2175
+28	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=2176|end_char=2181|SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	start_char=2181|end_char=2182
+30	por	por	CCONJ	_	_	32	cc	_	start_char=2183|end_char=2186
+31	t’i	t’i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	32	obj	_	start_char=2187|end_char=2190
+32	shkojmë	shkoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=2191|end_char=2198
+33	pak	pak	ADV	_	AdvType=Deg	35	advmod	_	start_char=2199|end_char=2202
+34	më	më	PART	_	_	35	mark	_	start_char=2203|end_char=2205
+35	thellë	thellë	ADV	_	AdvType=Man	32	advmod	_	start_char=2206|end_char=2212
+36	fenomenit	fenomen	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	32	obj	_	start_char=2213|end_char=2222|SpaceAfter=No
+37	.	.	PUNCT	_	_	32	punct	_	start_char=2222|end_char=2223
+
+# text = Do shikojmë të gjitha gabimet e vazhdueshme që bëhen në mediat e shkruara dhe shkurtime titujsh të ndryshëm që duhet të kenë mënyrën e tyre dhe të gjitha këto do të publikohen javë pas javë dhe do të japi në rezultat”, tha Krasniqi.
+# sent_id = 16
+1	Do	do	PART	_	_	2	fixed	_	start_char=2224|end_char=2226
+2	shikojmë	shikoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2227|end_char=2235
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=2236|end_char=2238
+4	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=2239|end_char=2245
+5	gabimet	gabim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=2246|end_char=2253
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=2254|end_char=2255
+7	vazhdueshme	vazhdueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2256|end_char=2267
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=2268|end_char=2270
+9	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	acl:relcl	_	start_char=2271|end_char=2276
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=2277|end_char=2279
+11	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=2280|end_char=2286
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=2287|end_char=2288
+13	shkruara	shkruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=2289|end_char=2297
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=2298|end_char=2301
+15	shkurtime	shkurtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	conj	_	start_char=2302|end_char=2311
+16	titujsh	titull	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	start_char=2312|end_char=2319
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=2320|end_char=2322
+18	ndryshëm	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	start_char=2323|end_char=2331
+19	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=2332|end_char=2334
+20	duhet	duhem	AUX	_	_	22	aux	_	start_char=2335|end_char=2340
+21	të	të	PART	_	_	22	fixed	_	start_char=2341|end_char=2343
+22	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=2344|end_char=2348
+23	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=2349|end_char=2356
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=2357|end_char=2358
+25	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	amod:poss	_	start_char=2359|end_char=2363
+26	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=2364|end_char=2367
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=2368|end_char=2370
+28	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	29	det	_	start_char=2371|end_char=2377
+29	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	32	nsubj	_	start_char=2378|end_char=2382
+30	do	do	PART	_	_	32	fixed	_	start_char=2383|end_char=2385
+31	të	të	PART	_	_	32	fixed	_	start_char=2386|end_char=2388
+32	publikohen	publikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	22	advcl	_	start_char=2389|end_char=2399
+33	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	obj	_	start_char=2400|end_char=2404
+34	pas	pas	ADP	_	Case=Abl	35	case	_	start_char=2405|end_char=2408
+35	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	obl	_	start_char=2409|end_char=2413
+36	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=2414|end_char=2417
+37	do	do	PART	_	_	39	fixed	_	start_char=2418|end_char=2420
+38	të	të	PART	_	_	39	fixed	_	start_char=2421|end_char=2423
+39	japi	jap	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	32	conj	_	start_char=2424|end_char=2428
+40	në	në	ADP	_	Case=Acc	41	case	_	start_char=2429|end_char=2431
+41	rezultat”	rezultatë”	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	obl	_	start_char=2432|end_char=2441|SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	start_char=2441|end_char=2442
+43	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	39	ccomp	_	start_char=2443|end_char=2446
+44	Krasniqi	Krasniq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	obj	_	start_char=2447|end_char=2455|SpaceAfter=No
+45	.	.	PUNCT	_	_	43	punct	_	start_char=2455|end_char=2456|SpacesAfter=\n
+
+# text = Nga 1 janari ekipet e monitorimit dhe shqyrtimit të përmbajtjeve në AMA kanë nisur mbikëqyrjen e përdorimit të fjalëve të huaja nga radiot dhe televizionet.
+# sent_id = 17
+1	Nga	nga	ADP	_	Case=Nom	3	case	_	start_char=2457|end_char=2460
+2	1	1	NUM	_	NumType=Card	3	nummod	_	start_char=2461|end_char=2462
+3	janari	janar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=2463|end_char=2469
+4	ekipet	ekip	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=2470|end_char=2476
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=2477|end_char=2478
+6	monitorimit	monitorim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=2479|end_char=2490
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=2491|end_char=2494
+8	shqyrtimit	shqyrtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	start_char=2495|end_char=2505
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=2506|end_char=2508
+10	përmbajtjeve	përmbajtje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=2509|end_char=2521
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=2522|end_char=2524
+12	AMA	ama	SCONJ	_	_	14	advmod	_	start_char=2525|end_char=2528
+13	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=2529|end_char=2533
+14	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=2534|end_char=2539
+15	mbikëqyrjen	mbikëqyrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=2540|end_char=2551
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=2552|end_char=2553
+17	përdorimit	përdorim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=2554|end_char=2564
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=2565|end_char=2567
+19	fjalëve	fjalë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=2568|end_char=2575
+20	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=2576|end_char=2578
+21	huaja	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=2579|end_char=2584
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=2585|end_char=2588
+23	radiot	radiot	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	advmod	_	start_char=2589|end_char=2595
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=2596|end_char=2599
+25	televizionet	televizion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	start_char=2600|end_char=2612|SpaceAfter=No
+26	.	.	PUNCT	_	_	14	punct	_	start_char=2612|end_char=2613|SpacesAfter=\n\n
+
+# text = /rtsh.al/
+# sent_id = 18
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=2615|end_char=2623|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=2623|end_char=2624|SpacesAfter=\n\n\n
+

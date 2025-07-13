@@ -1,0 +1,158 @@
+# text = Pas betimit të
+# sent_id = 0
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3
+2	betimit	betim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=4|end_char=11
+3	te	te	ADP	_	Case=Nom	4	case	_	start_char=12|end_char=14|SpaceAfter=No
+4	̈	̈	NUM	_	NumType=Card	2	amod	_	start_char=14|end_char=15
+
+# text = Biden si President, Kremlini:
+# sent_id = 1
+1	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=16|end_char=21
+2	si	si	SCONJ	_	_	3	mark	_	start_char=22|end_char=24
+3	President	preside	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=25|end_char=34|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=34|end_char=35
+5	Kremlini	Kremlin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	list	_	start_char=36|end_char=44|SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	start_char=44|end_char=45
+
+# text = Putin gati për dialog me SHBA Kremlini ka hedhur ‘grepat’ e nisjes së një dialogu Rusi-SHBA pas tranzicionit të pushtetit në këtë të fundit.
+# sent_id = 2
+1	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=46|end_char=51
+2	gati	gati	ADV	_	AdvType=Deg	3	advmod	_	start_char=52|end_char=56
+3	për	për	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=57|end_char=61
+4	dialog	dialog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=62|end_char=68
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=69|end_char=71
+6	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=72|end_char=76|SpacesAfter=\n
+7	Kremlini	Kremlin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=77|end_char=85
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=86|end_char=88
+9	hedhur	hedh	VERB	_	VerbForm=Part	0	root	_	start_char=89|end_char=95
+10	‘grepat’	‘grepat’	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=96|end_char=104
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=105|end_char=106
+12	nisjes	nisje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=107|end_char=113
+13	së	së	PUNCT	_	_	15	punct	_	start_char=114|end_char=117
+14	një	një	PUNCT	_	_	15	punct	_	start_char=118|end_char=122
+15	dialogu	dialog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=123|end_char=130
+16	Rusi-	Rusi-	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	appos	_	start_char=131|end_char=136|SpaceAfter=No
+17	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	appos	_	start_char=136|end_char=140
+18	pas	pas	ADP	_	Case=Abl	19	case	_	start_char=141|end_char=144
+19	tranzicionit	tranzicion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=145|end_char=157
+20	të	të	ADP	_	Case=Abl	21	case	_	start_char=158|end_char=161
+21	pushtetit	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=162|end_char=171
+22	në	në	NUM	_	NumType=Card	21	nummod	_	start_char=172|end_char=175
+23	këtë	këtë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=176|end_char=182
+24	të	të	NUM	_	NumType=Card	23	nummod	_	start_char=183|end_char=186
+25	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=187|end_char=193|SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	start_char=193|end_char=194|SpacesAfter=\n
+
+# text = Zëdhënësi i Kremlin, Dmitry Peskov ka deklaruar se ”Nëse administrata aktuale e Sh.B.A është e gatshme për një qasje të tillë, unë nuk kam asnjë dyshim se presidenti ynë do të përgjigjet njësoj”.
+# sent_id = 3
+1	Zëdhënësi	mëdhënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=195|end_char=204
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=205|end_char=206
+3	Kremlin	Kreml	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=207|end_char=214|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=214|end_char=215
+5	Dmitry	Dmitry	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=216|end_char=222
+6	Peskov	peskov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=223|end_char=229
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=230|end_char=232
+8	deklaruar	deklaroj	VERB	_	VerbForm=Part	0	root	_	start_char=233|end_char=242
+9	se	se	SCONJ	_	_	17	mark	_	start_char=243|end_char=245
+10	”Nëse	”nëse	SCONJ	_	_	11	mark	_	start_char=246|end_char=251
+11	administrata	administratë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=252|end_char=264
+12	aktuale	aktual	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=265|end_char=272
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=273|end_char=274
+14	Sh.	Sh.	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=275|end_char=278|SpaceAfter=No
+15	B.	B.	NUM	_	NumType=Card	14	flat	_	start_char=278|end_char=280|SpaceAfter=No
+16	A	A	PROPN	_	Foreign=Yes	17	nsubj	_	start_char=280|end_char=281
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=282|end_char=287
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=288|end_char=289
+19	gatshme	gatshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	cop	_	start_char=290|end_char=297
+20	për	për	ADP	_	Case=Acc	22	case	_	start_char=298|end_char=301
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=302|end_char=305
+22	qasje	qasje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=306|end_char=311
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=312|end_char=314
+24	tillë	tillë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	22	amod	_	start_char=315|end_char=320|SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	start_char=320|end_char=321
+26	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=322|end_char=325
+27	nuk	nuk	PART	_	_	28	mark	_	start_char=326|end_char=329
+28	kam	kam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	22	acl:relcl	_	start_char=330|end_char=333
+29	asnjë	asnjë	PRON	_	PronType=Ind	30	nummod	_	start_char=334|end_char=339
+30	dyshim	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	obj	_	start_char=340|end_char=346
+31	se	se	SCONJ	_	_	36	mark	_	start_char=347|end_char=349
+32	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	nsubj	_	start_char=350|end_char=360
+33	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	appos	_	start_char=361|end_char=364
+34	do	do	PART	_	_	36	fixed	_	start_char=365|end_char=367
+35	të	të	PART	_	_	36	fixed	_	start_char=368|end_char=370
+36	përgjigjet	përgjigjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	28	ccomp	_	start_char=371|end_char=381
+37	njësoj”	njësoj”	ADV	_	AdvType=Tim	36	advmod	_	start_char=382|end_char=390|SpaceAfter=No
+38	.	.	PUNCT	_	_	28	punct	_	start_char=390|end_char=391|SpacesAfter=\n
+
+# text = Vitet e fundit marrëdhëniet Rusi-SHBA kanë qenë shumë të këqija, veçanërisht pas konfliktit në
+# sent_id = 4
+1	Vitet	Vit	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=392|end_char=397
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=398|end_char=399
+3	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=400|end_char=406
+4	marre	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=407|end_char=412|SpaceAfter=No
+5	̈dhëniet	̈dhëniet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=412|end_char=421
+6	Rusi-	Rusi-	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=422|end_char=427|SpaceAfter=No
+7	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	flat	_	start_char=427|end_char=431
+8	kanë	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=432|end_char=437
+9	qenë	qenë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=438|end_char=443
+10	shumë	shumej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	ccomp	_	start_char=444|end_char=450
+11	të	të	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=451|end_char=454
+12	këqija	këqija	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=455|end_char=462|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=462|end_char=463
+14	veçanërisht	veçanërisht	ADV	_	AdvType=Man	10	advmod	_	start_char=464|end_char=476
+15	pas	pas	ADP	_	Case=Abl	16	case	_	start_char=477|end_char=480
+16	konfliktit	konflikt	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=481|end_char=491
+17	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	appos	_	start_char=492|end_char=494|SpaceAfter=No
+18	̈	̈	NUM	_	NumType=Card	17	flat	_	start_char=494|end_char=495
+
+# text = Ukrainë apo me helmimin e Navalny.
+# sent_id = 5
+1	Ukraine	Ukrain	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=496|end_char=503|SpaceAfter=No
+2	̈	̈	NUM	_	NumType=Card	1	amod:nummod	_	start_char=503|end_char=504
+3	apo	apo	CCONJ	_	_	5	cc	_	start_char=505|end_char=508
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=509|end_char=511
+5	helmimin	helmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=512|end_char=520
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=521|end_char=522
+7	Navalny	Navaln	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=523|end_char=530|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	start_char=530|end_char=531|SpacesAfter=\n
+
+# text = Gjithsesi deklarata e ‘zbutur’ e Kremlin tregon se Rusia kërkon një dialog me SHBA me Presidentin e ri Biden.
+# sent_id = 6
+1	Gjithsesi	Gjithsesi	SCONJ	_	_	2	mark	_	start_char=532|end_char=541
+2	deklarata	deklaratë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=542|end_char=551
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=552|end_char=553
+4	‘zbutur’	‘zbutur’	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=554|end_char=562
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=563|end_char=564
+6	Kremlin	Kreml	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=565|end_char=572
+7	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=573|end_char=579
+8	se	se	SCONJ	_	_	10	mark	_	start_char=580|end_char=582
+9	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=583|end_char=588
+10	kërkon	kërkon	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=589|end_char=596
+11	një	një	ADP	_	Case=Acc	12	case	_	start_char=597|end_char=601
+12	dialog	dialog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=602|end_char=608
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=609|end_char=611
+14	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=612|end_char=616
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=617|end_char=619
+16	Presidentin	president	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=620|end_char=631
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=632|end_char=633
+18	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=634|end_char=636
+19	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=637|end_char=642|SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	start_char=642|end_char=643|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 7
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=644|end_char=646
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=647|end_char=657|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=657|end_char=658|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=659|end_char=663
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=664|end_char=666
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=667|end_char=670
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=671|end_char=675|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=676|end_char=694|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=695|end_char=704
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=705|end_char=717
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=718|end_char=724|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=725|end_char=734
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=735|end_char=747
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=748|end_char=755|SpacesAfter=\n\n\n
+

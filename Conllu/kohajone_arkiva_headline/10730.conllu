@@ -1,0 +1,139 @@
+# text = Dy sondazhe të sotme:
+# sent_id = 0
+1	Dy	dy	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2
+2	sondazhe	sondazhe	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=3|end_char=11
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=12|end_char=14
+4	sotme	sotme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=15|end_char=20|SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	start_char=20|end_char=21
+
+# text = Trump=Clinton Dy gazeta amerikane, Los Angeles Times dhe Investor’s Business Daily, njëra me prirje të majta e tjetra me prirje të djathta, kanë publikuar sot sondazhet më të fundit për garën presidenciale.
+# sent_id = 1
+1	Trump=Clinton	Trump=Clinton	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=35|SpacesAfter=\n
+2	Dy	dy	NUM	_	NumType=Card	3	nummod	_	start_char=36|end_char=38
+3	gazeta	gazetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=39|end_char=45
+4	amerikane	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=46|end_char=55|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=55|end_char=56
+6	Los	Los	PROPN	_	Foreign=Yes	3	appos	_	start_char=57|end_char=60
+7	Angeles	Angele	PROPN	_	Foreign=Yes	6	flat	_	start_char=61|end_char=68
+8	Times	Times	PROPN	_	Foreign=Yes	7	flat	_	start_char=69|end_char=74
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=75|end_char=78
+10	Investor’s	Investor’	PROPN	_	Foreign=Yes	8	conj	_	start_char=79|end_char=89
+11	Business	Business	PROPN	_	Foreign=Yes	10	flat	_	start_char=90|end_char=98
+12	Daily	Daily	PROPN	_	Foreign=Yes	11	flat	_	start_char=99|end_char=104|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=104|end_char=105
+14	njëra	njëra	PRON	_	PronType=Ind	10	appos	_	start_char=106|end_char=111
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=112|end_char=114
+16	prirje	prirje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=115|end_char=121
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=122|end_char=124
+18	majta	majtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=125|end_char=130
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=131|end_char=132
+20	tjetra	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	16	amod	_	start_char=133|end_char=139
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=140|end_char=142
+22	prirje	prirje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=143|end_char=149
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=150|end_char=152
+24	djathta	djathtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=153|end_char=160|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	start_char=160|end_char=161
+26	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=162|end_char=166
+27	publikuar	publikoj	VERB	_	VerbForm=Part	22	acl:relcl	_	start_char=167|end_char=176
+28	sot	sot	ADV	_	AdvType=Tim	27	advmod	_	start_char=177|end_char=180
+29	sondazhet	sondazh	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=181|end_char=190
+30	më	më	PART	_	_	32	mark	_	start_char=191|end_char=193
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=194|end_char=196
+32	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=197|end_char=203
+33	për	për	ADP	_	Case=Acc	34	case	_	start_char=204|end_char=207
+34	garën	garë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	advmod	_	start_char=208|end_char=213
+35	presidenciale	presidencial	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=214|end_char=227|SpaceAfter=No
+36	.	.	PUNCT	_	_	27	punct	_	start_char=227|end_char=228
+
+# text = Në të dyja sondazhet, Trumpi rezulton me të njëjtat pikë si Clinton-i.
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	4	case	_	start_char=229|end_char=231
+2	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=232|end_char=234
+3	dyja	dy	NUM	_	NumType=Ord	4	nummod	_	start_char=235|end_char=239
+4	sondazhet	sondazh	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=240|end_char=249|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	start_char=249|end_char=250
+6	Trumpi	Trump	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=251|end_char=257
+7	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=258|end_char=266
+8	me	me	ADP	_	Case=Acc	11	case	_	start_char=267|end_char=269
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=270|end_char=272
+10	njëjtat	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	det	_	start_char=273|end_char=280
+11	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	start_char=281|end_char=285
+12	si	si	SCONJ	_	_	13	mark	_	start_char=286|end_char=288
+13	Clinton-i	Clinton	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=289|end_char=298|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	start_char=298|end_char=299|SpacesAfter=\n
+
+# text = Para 4 vjetësh, Los Angeles Times parashikoi me saktësinë më të madhe rezultatin e zgjedhjeve presidenciale – parashikimi i saj u shmang vetëm 0.5 pikë nga rezultati përfundimtar.
+# sent_id = 3
+1	Para	para	ADP	_	Case=Abl	3	case	_	start_char=300|end_char=304
+2	4	4	NUM	_	NumType=Card	3	nummod	_	start_char=305|end_char=306
+3	vjetësh	vjetësh	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=307|end_char=314|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=314|end_char=315
+5	Los	Los	PROPN	_	Foreign=Yes	8	nsubj	_	start_char=316|end_char=319
+6	Angeles	Angele	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	5	flat	_	start_char=320|end_char=327
+7	Times	Times	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=328|end_char=333
+8	parashikoi	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=334|end_char=344
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=345|end_char=347
+10	saktësinë	saktësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	start_char=348|end_char=357
+11	më	më	PART	_	_	13	mark	_	start_char=358|end_char=360
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=361|end_char=363
+13	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=364|end_char=369
+14	rezultatin	rezultat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=370|end_char=380
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=381|end_char=382
+16	zgjedhjeve	zgjedhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=383|end_char=393
+17	presidenciale	presidencial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=394|end_char=407
+18	–	–	PUNCT	_	_	19	punct	_	start_char=408|end_char=409
+19	parashikimi	parashikim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	start_char=410|end_char=421
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=422|end_char=423
+21	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	amod:poss	_	start_char=424|end_char=427
+22	u	u	PART	_	_	23	fixed	_	start_char=428|end_char=429
+23	shmang	shmaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	conj	_	start_char=430|end_char=436
+24	vetëm	vetëm	PART	_	_	26	mark	_	start_char=437|end_char=442
+25	0.5	0.5	NUM	_	NumType=Card	26	nummod	_	start_char=443|end_char=446
+26	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	start_char=447|end_char=451
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=452|end_char=455
+28	rezultati	rezultat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=456|end_char=465
+29	përfundimtar	përfundimtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=466|end_char=478|SpaceAfter=No
+30	.	.	PUNCT	_	_	23	punct	_	start_char=478|end_char=479
+
+# text = Ndërsa Investor’s Business Daily e parashikoi fitoren e Obamës me një shmangie prej 2.6 pikësh.
+# sent_id = 4
+1	Ndërsa	ndërsa	CCONJ	_	_	6	cc	_	start_char=480|end_char=486
+2	Investor’s	Investor’	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=487|end_char=497
+3	Business	Business	PROPN	_	Foreign=Yes	2	flat	_	start_char=498|end_char=506
+4	Daily	Daily	PROPN	_	Foreign=Yes	3	flat	_	start_char=507|end_char=512
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=513|end_char=514
+6	parashikoi	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=515|end_char=525
+7	fitoren	fitore	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=526|end_char=533
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=534|end_char=535
+9	Obamës	Obamë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=536|end_char=542
+10	me	me	ADP	_	Case=Acc	12	case	_	start_char=543|end_char=545
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=546|end_char=549
+12	shmangie	shmangi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=550|end_char=558
+13	prej	prej	ADP	_	Case=Abl	15	case	_	start_char=559|end_char=563
+14	2.6	2.6	NUM	_	NumType=Card	15	nummod	_	start_char=564|end_char=567
+15	pikësh	pikësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	start_char=568|end_char=574|SpaceAfter=No
+16	.	.	PUNCT	_	_	6	punct	_	start_char=574|end_char=575|SpacesAfter=\n
+
+# text = E.Z.
+# sent_id = 5
+1	E.	e.	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=576|end_char=578|SpaceAfter=No
+2	Z	Z	PROPN	_	Foreign=Yes	1	appos	_	start_char=578|end_char=579|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	start_char=579|end_char=580|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 6
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=581|end_char=583
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=584|end_char=594|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=594|end_char=595|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=596|end_char=600
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=601|end_char=603
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=604|end_char=607
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=608|end_char=612|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=613|end_char=631|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=632|end_char=641
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=642|end_char=654
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=655|end_char=661|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=662|end_char=671
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=672|end_char=684
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=685|end_char=692|SpacesAfter=\n\n\n
+

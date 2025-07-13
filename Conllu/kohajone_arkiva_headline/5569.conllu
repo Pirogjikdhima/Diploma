@@ -1,0 +1,206 @@
+# text = New York Times:
+# sent_id = 0
+1	New	new	PROPN	_	Foreign=Yes	0	root	_	start_char=0|end_char=3
+2	York	York	PROPN	_	Foreign=Yes	1	flat	_	start_char=4|end_char=8
+3	Times	Times	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	2	flat	_	start_char=9|end_char=14|SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+
+# text = ShBA mund të ketë gati vaksinën e koronavirusit në fillim të nëntorit Vaksina e koronavirusit në Shtetet e Bashkuara mund të ketë tashmë një datë.
+# sent_id = 1
+1	ShBA	ShBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=16|end_char=20
+2	mund	mund	AUX	_	_	4	aux	_	start_char=21|end_char=25
+3	të	të	PART	_	_	4	fixed	_	start_char=26|end_char=28
+4	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=33
+5	gati	gati	ADV	_	AdvType=Man	6	nummod	_	start_char=34|end_char=38
+6	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=39|end_char=47
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=48|end_char=49
+8	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=50|end_char=63
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=64|end_char=66
+10	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=67|end_char=73
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=74|end_char=76
+12	nëntorit	nëntor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=77|end_char=85|SpacesAfter=\n
+13	Vaksina	Vaksinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	appos	_	start_char=86|end_char=93
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=94|end_char=95
+15	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=96|end_char=109
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=110|end_char=112
+17	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=113|end_char=120
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=121|end_char=122
+19	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=123|end_char=132
+20	mund	mund	AUX	_	_	22	aux	_	start_char=133|end_char=137
+21	të	të	PART	_	_	22	fixed	_	start_char=138|end_char=140
+22	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=141|end_char=145
+23	tashmë	tashmë	ADV	_	AdvType=Man	22	advmod	_	start_char=146|end_char=152
+24	një	një	DET	_	Definite=Ind	25	det	_	start_char=153|end_char=156
+25	datë	datë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	start_char=157|end_char=161|SpaceAfter=No
+26	.	.	PUNCT	_	_	22	punct	_	start_char=161|end_char=162|SpacesAfter=\n
+
+# text = New York Times shkruan se Qendra për Kontrollin dhe Parandalimin e Sëmundjeve ka njoftuar autoritetet shëndetësore në shtetet federale për t’u përgatitur për shpërndarjen e vaksinës së koronavirusit tek mjekët dhe grupet me rrezik më të lartë midis fundit të tetorit dhe fillimit të nëntorit .
+# sent_id = 2
+1	New	new	PROPN	_	Foreign=Yes	4	nsubj	_	start_char=163|end_char=166
+2	York	York	PROPN	_	Foreign=Yes	1	flat	_	start_char=167|end_char=171
+3	Times	Times	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	2	flat	_	start_char=172|end_char=177
+4	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=178|end_char=185
+5	se	se	SCONJ	_	_	6	mark	_	start_char=186|end_char=188
+6	Qendra	qendër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=189|end_char=195
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=196|end_char=199
+8	Kontrollin	Kontroll	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=200|end_char=210
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=211|end_char=214
+10	Parandalimin	parandalim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=215|end_char=227
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=228|end_char=229
+12	Sëmundjeve	sëmundje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=230|end_char=240
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=241|end_char=243
+14	njoftuar	njoftoj	VERB	_	VerbForm=Part	4	conj	_	start_char=244|end_char=252
+15	autoritetet	autoritet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=253|end_char=264
+16	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=265|end_char=277
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=278|end_char=280
+18	shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	advmod	_	start_char=281|end_char=288
+19	federale	federal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=289|end_char=297
+20	për	për	PART	_	_	23	fixed	_	start_char=298|end_char=301
+21-22	t’u	_	_	_	_	_	_	_	start_char=302|end_char=305
+21	të	të	PART	_	_	23	fixed	_	_
+22	u	u	PART	_	_	23	fixed	_	_
+23	përgatitur	prëgatitur	VERB	_	VerbForm=Part	14	advmod	_	start_char=306|end_char=316
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=317|end_char=320
+25	shpërndarjen	shpërndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obl	_	start_char=321|end_char=333
+26	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=334|end_char=335
+27	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=336|end_char=344
+28	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=345|end_char=347
+29	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=348|end_char=361
+30	tek	tek	ADP	_	Case=Nom	31	case	_	start_char=362|end_char=365
+31	mjekët	mjekë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	27	nmod	_	start_char=366|end_char=372
+32	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=373|end_char=376
+33	grupet	grup	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	31	conj	_	start_char=377|end_char=383
+34	me	me	ADP	_	Case=Acc	35	case	_	start_char=384|end_char=386
+35	rrezik	rrezik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	start_char=387|end_char=393
+36	më	më	PART	_	_	38	mark	_	start_char=394|end_char=396
+37	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	38	det	_	start_char=397|end_char=399
+38	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=400|end_char=405
+39	midis	midis	ADP	_	Case=Abl	40	case	_	start_char=406|end_char=411
+40	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	38	advmod	_	start_char=412|end_char=418
+41	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	42	det:poss	_	start_char=419|end_char=421
+42	tetorit	tetor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=422|end_char=429
+43	dhe	dhe	CCONJ	_	_	44	cc	_	start_char=430|end_char=433
+44	fillimit	fillim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	42	conj	_	start_char=434|end_char=442
+45	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	46	det:poss	_	start_char=443|end_char=445
+46	nëntorit	nëntor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=446|end_char=454
+47	.	.	PUNCT	_	_	4	punct	_	start_char=455|end_char=456|SpacesAfter=\n
+
+# text = Treguesi shpërndahet gjithashtu në pesë qytetet kryesore të SHBA, duke theksuar se koha e pritur për shpërndarjen e saj ngre dyshime në lidhje me politizimin e vaksinës së koronavirusit.
+# sent_id = 3
+1	Treguesi	tregues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=457|end_char=465
+2	shpërndahet	shpërndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=466|end_char=477
+3	gjithashtu	gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=478|end_char=488
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=489|end_char=491
+5	pesë	pesë	NUM	_	NumType=Card	6	nummod	_	start_char=492|end_char=496
+6	qytetet	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=497|end_char=504
+7	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=505|end_char=513
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=514|end_char=516
+9	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=517|end_char=521|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=521|end_char=522
+11	duke	duke	PART	_	_	12	fixed	_	start_char=523|end_char=527
+12	theksuar	theksoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=528|end_char=536
+13	se	se	SCONJ	_	_	21	mark	_	start_char=537|end_char=539
+14	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=540|end_char=544
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=545|end_char=546
+16	pritur	pritur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=547|end_char=553
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=554|end_char=557
+18	shpërndarjen	shpërndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	advmod	_	start_char=558|end_char=570
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=571|end_char=572
+20	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=573|end_char=576
+21	ngre	ngrej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=577|end_char=581
+22	dyshime	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=582|end_char=589
+23	në	në	ADP	_	Case=Acc	26	case	_	start_char=590|end_char=592
+24	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=593|end_char=599
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=600|end_char=602
+26	politizimin	politizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=603|end_char=614
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=615|end_char=616
+28	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=617|end_char=625
+29	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=626|end_char=628
+30	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=629|end_char=642|SpaceAfter=No
+31	.	.	PUNCT	_	_	21	punct	_	start_char=642|end_char=643|SpacesAfter=\n
+
+# text = Tre dokumente u dërguan zyrtarëve të shëndetit publik në të gjitha shtetet dhe territoret më 27 gusht.
+# sent_id = 4
+1	Tre	tre	NUM	_	NumType=Card	2	nummod	_	start_char=644|end_char=647
+2	dokumente	dokument	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	start_char=648|end_char=657
+3	u	u	PART	_	_	4	fixed	_	start_char=658|end_char=659
+4	dërguan	dërgoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=660|end_char=667
+5	zyrtarëve	zyrtar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=668|end_char=677
+6	të	të	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=678|end_char=680
+7	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=681|end_char=690
+8	publik	publik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=691|end_char=697
+9	në	në	ADP	_	Case=Acc	12	case	_	start_char=698|end_char=700
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=701|end_char=703
+11	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	nummod	_	start_char=704|end_char=710
+12	shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=711|end_char=718
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=719|end_char=722
+14	territoret	territor	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=723|end_char=733
+15	më	më	ADP	_	Case=Acc	17	case	_	start_char=734|end_char=736
+16	27	27	NUM	_	NumType=Card	17	nummod	_	start_char=737|end_char=739
+17	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=740|end_char=745|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	start_char=745|end_char=746|SpacesAfter=\n
+
+# text = Kujtojmë që zgjedhjet presidenciale në ShBA janë më 3 nëntor dhe vaksina e koronavirusit mund të keqpërdoret “politikisht”.
+# sent_id = 5
+1	Kujtojmë	kujtoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=747|end_char=755
+2	që	që	SCONJ	_	_	3	mark	_	start_char=756|end_char=758
+3	zgjedhjet	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	obl	_	start_char=759|end_char=768
+4	presidenciale	presidencial	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=769|end_char=782
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=783|end_char=785
+6	ShBA	ShBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=786|end_char=790
+7	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=791|end_char=795
+8	më	më	ADP	_	Case=Acc	10	case	_	start_char=796|end_char=798
+9	3	3	NUM	_	NumType=Card	10	nummod	_	start_char=799|end_char=800
+10	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=801|end_char=807
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=808|end_char=811
+12	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	conj	_	start_char=812|end_char=819
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=820|end_char=821
+14	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=822|end_char=835
+15	mund	mund	AUX	_	_	17	aux	_	start_char=836|end_char=840
+16	të	të	PART	_	_	17	fixed	_	start_char=841|end_char=843
+17	keqpërdoret	keqpërdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	conj	_	start_char=844|end_char=855
+18	“	"	PUNCT	_	_	19	punct	_	start_char=856|end_char=857|SpaceAfter=No
+19	politikisht”	politikisht”	ADV	_	AdvType=Man	17	advmod	_	start_char=857|end_char=869|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=869|end_char=870|SpacesAfter=\n
+
+# text = Dokumentet thonë se personeli mjekësor si dhe pacientët e infektuar do të jenë ndër të parët që do të merrnin.
+# sent_id = 6
+1	Dokumentet	dokument	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	start_char=871|end_char=881
+2	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=882|end_char=887
+3	se	se	SCONJ	_	_	13	mark	_	start_char=888|end_char=890
+4	personeli	personel	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=891|end_char=900
+5	mjekësor	mjekësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=901|end_char=909
+6	si	si	SCONJ	_	_	7	fixed	_	start_char=910|end_char=912
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=913|end_char=916
+8	pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	conj	_	start_char=917|end_char=926
+9	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=927|end_char=928
+10	infektuar	infektuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=929|end_char=938
+11	do	do	PART	_	_	13	fixed	_	start_char=939|end_char=941
+12	të	të	PART	_	_	13	fixed	_	start_char=942|end_char=944
+13	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=945|end_char=949
+14	ndër	ndër	ADP	_	Case=Acc	16	case	_	start_char=950|end_char=954
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=955|end_char=957
+16	parët	parë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	start_char=958|end_char=963
+17	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=964|end_char=966
+18	do	do	PART	_	_	20	fixed	_	start_char=967|end_char=969
+19	të	të	PART	_	_	20	fixed	_	start_char=970|end_char=972
+20	merrnin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	16	acl	_	start_char=973|end_char=980|SpaceAfter=No
+21	.	.	PUNCT	_	_	13	punct	_	start_char=980|end_char=981|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 7
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=982|end_char=984
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=985|end_char=995|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=995|end_char=996|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=997|end_char=1001
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1002|end_char=1004
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1005|end_char=1008
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1009|end_char=1013|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1014|end_char=1032|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1033|end_char=1042
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1043|end_char=1055
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1056|end_char=1062|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1063|end_char=1072
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1073|end_char=1085
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1086|end_char=1093|SpacesAfter=\n\n\n
+

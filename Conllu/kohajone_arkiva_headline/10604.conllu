@@ -1,0 +1,234 @@
+# text = OBSH:
+# sent_id = 0
+1	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=4|end_char=5
+
+# text = Shenja inkurajuese në Europë për luftën kundër koronavirusit.
+# sent_id = 1
+1	Shenja	Shenjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=12
+2	inkurajuese	inkurajues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=13|end_char=24
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=25|end_char=27
+4	Europë	Europë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=28|end_char=34
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=35|end_char=38
+6	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=39|end_char=45
+7	kundër	kundër	ADP	_	Case=Abl	8	case	_	start_char=46|end_char=52
+8	koronavirusit	koronavirus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=53|end_char=66|SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	start_char=66|end_char=67
+
+# text = Mjekët italianë janë heronj Organizata Botërore e Shëndetit (OBSH) thotë se ka “shenja inkurajuese” në Europë në luftën kundër koronavirusit Sars-CoV-2.
+# sent_id = 2
+1	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	start_char=68|end_char=74
+2	italianë	italianë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	start_char=75|end_char=83
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=84|end_char=88
+4	heronj	heronj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	cop	_	start_char=89|end_char=95|SpacesAfter=\n
+5	Organizata	organizatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	appos	_	start_char=96|end_char=106
+6	Botërore	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	flat	_	start_char=107|end_char=115
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=116|end_char=117
+8	Shëndetit	shëndet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	compound	_	start_char=118|end_char=127
+9	(	(	PUNCT	_	_	10	punct	_	start_char=128|end_char=129|SpaceAfter=No
+10	OBSH)	OBSH)	PROPN	_	Case=Nom|Foreign=Yes	8	appos	_	start_char=129|end_char=134
+11	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	parataxis	_	start_char=135|end_char=140
+12	se	se	SCONJ	_	_	13	mark	_	start_char=141|end_char=143
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	start_char=144|end_char=146
+14	“shenja	“shenjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=147|end_char=154
+15	inkurajuese”	inkurajues	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	ccomp	_	start_char=155|end_char=167
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=168|end_char=170
+17	Europë	Europë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=171|end_char=177
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=178|end_char=180
+19	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=181|end_char=187
+20	kundër	kundër	ADP	_	Case=Abl	21	case	_	start_char=188|end_char=194
+21	koronavirusit	koronavirus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=195|end_char=208
+22	Sars-CoV-2	sars-Coj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	appos	_	start_char=209|end_char=219|SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	start_char=219|end_char=220|SpacesAfter=\n
+
+# text = “Megjithëse situata mbetet shumë serioze, ne kemi filluar të shohim shenja inkurajuese,” tha Hans Kluge, drejtori i seksionit europian i Organizatës Botërore të Shëndetit.
+# sent_id = 3
+1	“	"	PUNCT	_	_	3	punct	_	start_char=221|end_char=222|SpaceAfter=No
+2	Megjithëse	megjithëse	SCONJ	_	_	3	mark	_	start_char=222|end_char=232
+3	situata	situatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=233|end_char=240
+4	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=241|end_char=247
+5	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=248|end_char=253
+6	serioze	serioz	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	cop	_	start_char=254|end_char=261|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=261|end_char=262
+8	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=263|end_char=265
+9	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	aux	_	start_char=266|end_char=270
+10	filluar	filloj	VERB	_	VerbForm=Part	4	advcl	_	start_char=271|end_char=278
+11	të	të	PART	_	_	12	fixed	_	start_char=279|end_char=281
+12	shohim	shoh	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	advcl	_	start_char=282|end_char=288
+13	shenja	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=289|end_char=295
+14	inkurajuese	inkurajues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=296|end_char=307|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=307|end_char=308|SpaceAfter=No
+16	”	"	PUNCT	_	_	17	punct	_	start_char=308|end_char=309
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	start_char=310|end_char=313
+18	Hans	Hans	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	start_char=314|end_char=318
+19	Kluge	Klug	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=319|end_char=324|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=324|end_char=325
+21	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=326|end_char=334
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=335|end_char=336
+23	seksionit	seksion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=337|end_char=346
+24	europian	europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=347|end_char=355
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=356|end_char=357
+26	Organizatës	Organizatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=358|end_char=369
+27	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=370|end_char=378
+28	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=379|end_char=381
+29	Shëndetit	shëndet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=382|end_char=391|SpaceAfter=No
+30	.	.	PUNCT	_	_	17	punct	_	start_char=391|end_char=392|SpacesAfter=\n
+
+# text = “Në Itali numri i rasteve është ulur paksa, por është shumë herët të thuhet se pandemia ka arritur kulmin”, shtoi Kluge.
+# sent_id = 4
+1	“	"	PUNCT	_	_	3	punct	_	start_char=393|end_char=394|SpaceAfter=No
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=394|end_char=396
+3	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=397|end_char=402
+4	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=403|end_char=408
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=409|end_char=410
+6	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=411|end_char=418
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=419|end_char=424
+8	ulur	ules	VERB	_	VerbForm=Part	0	root	_	start_char=425|end_char=429
+9	paksa	paksa	ADV	_	AdvType=Deg	8	advmod	_	start_char=430|end_char=435|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=435|end_char=436
+11	por	por	CCONJ	_	_	12	cc	_	start_char=437|end_char=440
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=441|end_char=446
+13	shumë	shumë	ADV	_	AdvType=Deg	14	advmod	_	start_char=447|end_char=452
+14	herët	herët	ADV	_	AdvType=Tim	12	advmod	_	start_char=453|end_char=458
+15	të	të	PART	_	_	16	fixed	_	start_char=459|end_char=461
+16	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	csubj	_	start_char=462|end_char=468
+17	se	se	SCONJ	_	_	20	mark	_	start_char=469|end_char=471
+18	pandemia	pandemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	start_char=472|end_char=480
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=481|end_char=483
+20	arritur	arrij	VERB	_	VerbForm=Part	16	advcl	_	start_char=484|end_char=491
+21	kulmin”	kulmin”	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=492|end_char=499|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=499|end_char=500
+23	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	ccomp	_	start_char=501|end_char=506
+24	Kluge	Klug	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=507|end_char=512|SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	start_char=512|end_char=513|SpacesAfter=\n
+
+# text = OBSH vlerëson punën e mjekëve italianë Michael Ryan, drejtori ekzekutiv i OBSH-së i programit të emergjencës EMS, shprehu admirim për mjekët italianë dhe i quajti ata heronj.
+# sent_id = 5
+1	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=514|end_char=518
+2	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=519|end_char=527
+3	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=528|end_char=533
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=534|end_char=535
+5	mjekëve	mjekë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=536|end_char=543
+6	italianë	italianë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=544|end_char=552|SpacesAfter=\n
+7	Michael	Michael	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=553|end_char=560
+8	Ryan	Ryan	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=561|end_char=565|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=565|end_char=566
+10	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=567|end_char=575
+11	ekzekutiv	ekzekutiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=576|end_char=585
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=586|end_char=587
+13	OBSH-së	OBSH-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=588|end_char=595
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=596|end_char=597
+15	programit	program	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=598|end_char=607
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=608|end_char=610
+17	emergjencës	emergjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=611|end_char=622
+18	EMS	EMS	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	start_char=623|end_char=626|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=626|end_char=627
+20	shprehu	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=628|end_char=635
+21	admirim	admirim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=636|end_char=643
+22	për	për	ADP	_	Case=Acc	23	case	_	start_char=644|end_char=647
+23	mjekët	mjekë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	20	obl	_	start_char=648|end_char=654
+24	italianë	italianë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=655|end_char=663
+25	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=664|end_char=667
+26	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	iobj	_	start_char=668|end_char=669
+27	quajti	quaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	start_char=670|end_char=676
+28	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	det	_	start_char=677|end_char=680
+29	heronj	heronj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	27	obj	_	start_char=681|end_char=687|SpaceAfter=No
+30	.	.	PUNCT	_	_	20	punct	_	start_char=687|end_char=688
+
+# text = Drejtori i përgjithshëm i OBSH, Tedros Adhanom Ghebreyesus, nga ana tjetër vlerësoi angazhimin e bërë nga qeveria dhe qytetarët, duke theksuar se “Italia po bën gjithçka që është e mundur për të kufizuar përhapjen e koronavirusit”.
+# sent_id = 6
+1	Drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=689|end_char=697
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=698|end_char=699
+3	përgjithshëm	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=700|end_char=712
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=713|end_char=714
+5	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=715|end_char=719|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=719|end_char=720
+7	Tedros	Tedros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=721|end_char=727
+8	Adhanom	Adhanom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	flat	_	start_char=728|end_char=735
+9	Ghebreyesus	Ghebreyesus	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=736|end_char=747|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=747|end_char=748
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=749|end_char=752
+12	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	advmod	_	start_char=753|end_char=756
+13	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	amod	_	start_char=757|end_char=763
+14	vlerësoi	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=764|end_char=772
+15	angazhimin	angazhim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=773|end_char=783
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=784|end_char=785
+17	bërë	bërë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=786|end_char=790
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=791|end_char=794
+19	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	advmod	_	start_char=795|end_char=802
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=803|end_char=806
+21	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	conj	_	start_char=807|end_char=816|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	start_char=816|end_char=817
+23	duke	duke	PART	_	_	24	fixed	_	start_char=818|end_char=822
+24	theksuar	theksoj	VERB	_	VerbForm=Part	14	advmod	_	start_char=823|end_char=831
+25	se	se	SCONJ	_	_	29	mark	_	start_char=832|end_char=834
+26	“	"	PUNCT	_	_	27	punct	_	start_char=835|end_char=836|SpaceAfter=No
+27	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	nsubj	_	start_char=836|end_char=842
+28	po	po	PART	_	_	29	mark	_	start_char=843|end_char=845
+29	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=846|end_char=849
+30	gjithçka	gjithçka	PRON	_	Case=Acc|Number=Sing|PronType=Ind	29	obj	_	start_char=850|end_char=858
+31	që	që	PRON	_	PronType=Rel	32	nsubj	_	start_char=859|end_char=861
+32	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	ccomp	_	start_char=862|end_char=867
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=868|end_char=869
+34	mundur	mundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	cop	_	start_char=870|end_char=876
+35	për	për	PART	_	_	37	fixed	_	start_char=877|end_char=880
+36	të	të	PART	_	_	37	fixed	_	start_char=881|end_char=883
+37	kufizuar	kufizuar	VERB	_	VerbForm=Part	32	advmod	_	start_char=884|end_char=892
+38	përhapjen	përhapje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	37	obj	_	start_char=893|end_char=902
+39	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=903|end_char=904
+40	koronavirusit”	koronavirusit”	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=905|end_char=919|SpaceAfter=No
+41	.	.	PUNCT	_	_	32	punct	_	start_char=919|end_char=920|SpacesAfter=\n
+
+# text = Ghebreyesus tha se masat parandaluese të paraqitura në vende të ndryshme janë të dobishme në kufizimin e përhapjes së koronavirusit, por vetëm ato nuk janë të mjaftueshme për të ndaluar pandeminë.
+# sent_id = 7
+1	Ghebreyesus	Ghebreyesus	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=921|end_char=932
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=933|end_char=936
+3	se	se	SCONJ	_	_	12	mark	_	start_char=937|end_char=939
+4	masat	masat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=940|end_char=945
+5	parandaluese	parandalues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=946|end_char=958
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=959|end_char=961
+7	paraqitura	paraqiturë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=962|end_char=972
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=973|end_char=975
+9	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=976|end_char=981
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=982|end_char=984
+11	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=985|end_char=993
+12	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=994|end_char=998
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=999|end_char=1001
+14	dobishme	dobishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	cop	_	start_char=1002|end_char=1010
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=1011|end_char=1013
+16	kufizimin	kufizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	start_char=1014|end_char=1023
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=1024|end_char=1025
+18	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=1026|end_char=1035
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=1036|end_char=1038
+20	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=1039|end_char=1052|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1052|end_char=1053
+22	por	por	CCONJ	_	_	26	cc	_	start_char=1054|end_char=1057
+23	vetëm	vetëm	ADV	_	AdvType=Man	26	mark	_	start_char=1058|end_char=1063
+24	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=1064|end_char=1067
+25	nuk	nuk	PART	_	_	26	mark	_	start_char=1068|end_char=1071
+26	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=1072|end_char=1076
+27	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=1077|end_char=1079
+28	mjaftueshme	mjaftueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	26	cop	_	start_char=1080|end_char=1091
+29	për	për	PART	_	_	31	fixed	_	start_char=1092|end_char=1095
+30	të	të	PART	_	_	31	fixed	_	start_char=1096|end_char=1098
+31	ndaluar	ndaluar	VERB	_	VerbForm=Part	26	advmod	_	start_char=1099|end_char=1106
+32	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obj	_	start_char=1107|end_char=1116|SpaceAfter=No
+33	.	.	PUNCT	_	_	26	punct	_	start_char=1116|end_char=1117|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 8
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1118|end_char=1120
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1121|end_char=1131|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1131|end_char=1132|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1133|end_char=1137
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1138|end_char=1140
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1141|end_char=1144
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1145|end_char=1149|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1150|end_char=1168|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1169|end_char=1178
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1179|end_char=1191
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1192|end_char=1198|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1199|end_char=1208
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1209|end_char=1221
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1222|end_char=1229|SpacesAfter=\n\n\n
+

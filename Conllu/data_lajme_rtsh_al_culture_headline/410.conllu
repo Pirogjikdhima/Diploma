@@ -1,0 +1,670 @@
+# text = Dr.
+# sent_id = 0
+1	Dr	Dr	NUM	_	NumType=Card	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	start_char=2|end_char=3
+
+# text = Emilio Çika sjell librin monografi:
+# sent_id = 1
+1	Emilio	Emilio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4|end_char=10
+2	Çika	Çika	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=11|end_char=15
+3	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=21
+4	librin	libër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=22|end_char=28
+5	monografi	monograf	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=29|end_char=38|SpaceAfter=No
+6	:	:	PUNCT	_	_	3	punct	_	start_char=38|end_char=39
+
+# text = Rëndësia e diplomacisë ekonomike dhe si u zhvillua 10 vitet e fundit 26/07/2023 Dr.
+# sent_id = 2
+1	Rëndësia	dëndësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=40|end_char=48
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=49|end_char=50
+3	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=51|end_char=62
+4	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=63|end_char=72
+5	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=73|end_char=76
+6	si	si	SCONJ	_	_	8	mark	_	start_char=77|end_char=79
+7	u	u	PART	_	_	8	fixed	_	start_char=80|end_char=81
+8	zhvillua	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	start_char=82|end_char=90
+9	10	10	NUM	_	NumType=Card	10	nummod	_	start_char=91|end_char=93
+10	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=94|end_char=99
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=100|end_char=101
+12	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=102|end_char=108|SpacesAfter=\n
+13	26	26	NUM	_	NumType=Card	14	nummod	_	start_char=109|end_char=111|SpaceAfter=No
+14	/07	/07	SYM	_	_	10	nmod	_	start_char=111|end_char=114|SpaceAfter=No
+15	/	/	PUNCT	_	_	16	punct	_	start_char=114|end_char=115|SpaceAfter=No
+16	2023	2023	NUM	_	NumType=Card	14	amod:nummod	_	start_char=115|end_char=119|SpacesAfter=\n
+17	Dr	dr	SYM	_	_	16	flat	_	start_char=120|end_char=122|SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	start_char=122|end_char=123
+
+# text = Emilio Çika është prezantuar me librin monografik “Diplomacia ekonomike”.
+# sent_id = 3
+1	Emilio	Emilio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=124|end_char=130
+2	Çika	Çika	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=131|end_char=135
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=136|end_char=141
+4	prezantuar	prezantoj	VERB	_	VerbForm=Part	0	root	_	start_char=142|end_char=152
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=153|end_char=155
+6	librin	libër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=156|end_char=162
+7	monografik	monografik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=163|end_char=173
+8	“	"	PUNCT	_	_	9	punct	_	start_char=174|end_char=175|SpaceAfter=No
+9	Diplomacia	diplomaci	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=175|end_char=185
+10	ekonomike”	ekonomik	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=186|end_char=196|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	start_char=196|end_char=197
+
+# text = I ftuar në emisionin “Në radio” të gazetarit Andri Xhahu, pedagogu dhe zv.
+# sent_id = 4
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=198|end_char=199
+2	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=200|end_char=205
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=206|end_char=208
+4	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=209|end_char=218
+5	“	"	PUNCT	_	_	7	punct	_	start_char=219|end_char=220|SpaceAfter=No
+6	Në	në	ADP	_	Case=Acc	7	case	_	start_char=220|end_char=222
+7	radio”	radio”	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=223|end_char=229
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=230|end_char=232
+9	gazetarit	gazetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=233|end_char=242
+10	Andri	Andri	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=243|end_char=248
+11	Xhahu	Xhahu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=249|end_char=254|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=254|end_char=255
+13	pedagogu	pedagog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=256|end_char=264
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=265|end_char=268
+15	zv	zv	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	start_char=269|end_char=271|SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	start_char=271|end_char=272
+
+# text = Dekani i Fakultetit të Drejtësisë dhe Shkencave Humane në Universitetin Mesdhetar të Shqipërisë, tregoi për punën tre vjeçare me këtë studim.
+# sent_id = 5
+1	Dekani	dekan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=273|end_char=279
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=280|end_char=281
+3	Fakultetit	fakultet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=282|end_char=292
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=293|end_char=295
+5	Drejtësisë	drejtësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=296|end_char=306
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=307|end_char=310
+7	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=311|end_char=320
+8	Humane	Human	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	start_char=321|end_char=327
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=328|end_char=330
+10	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=331|end_char=344
+11	Mesdhetar	mesdhetar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=345|end_char=354
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=355|end_char=357
+13	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=358|end_char=368|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=368|end_char=369
+15	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=370|end_char=376
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=377|end_char=380
+17	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=381|end_char=386
+18	tre	tre	NUM	_	NumType=Card	19	nummod	_	start_char=387|end_char=390
+19	vjeçare	vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=391|end_char=398
+20	me	me	ADP	_	Case=Acc	22	case	_	start_char=399|end_char=401
+21	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=402|end_char=406
+22	studim	studim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	advmod	_	start_char=407|end_char=413|SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	start_char=413|end_char=414
+
+# text = “Studimi lidhet me diplomacinë ekonomike, një fushë pak e rrokur në librin akademik dhe universitar.
+# sent_id = 6
+1	“	"	PUNCT	_	_	2	punct	_	start_char=415|end_char=416|SpaceAfter=No
+2	Studimi	studim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=416|end_char=423
+3	lidhet	lidh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=424|end_char=430
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=431|end_char=433
+5	diplomacinë	diplomacinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=434|end_char=445
+6	ekonomike	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=446|end_char=455|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=455|end_char=456
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=457|end_char=460
+9	fushë	fushë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=461|end_char=466
+10	pak	pak	ADV	_	AdvType=Deg	12	advmod	_	start_char=467|end_char=470
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=471|end_char=472
+12	rrokur	rrokur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=473|end_char=479
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=480|end_char=482
+14	librin	libër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=483|end_char=489
+15	akademik	akademik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=490|end_char=498
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=499|end_char=502
+17	universitar	universitar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	start_char=503|end_char=514|SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	start_char=514|end_char=515
+
+# text = Është një studim që ka ardhur natyrshëm sepse është në fushën time kërkimore, një ndër fushat që jam specializuar, vazhdimësi e disertacionit dhe doktoraturës.
+# sent_id = 7
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=516|end_char=521
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=522|end_char=525
+3	studim	studim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	cop	_	start_char=526|end_char=532
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=533|end_char=535
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=536|end_char=538
+6	ardhur	vij	VERB	_	VerbForm=Part	3	acl:relcl	_	start_char=539|end_char=545
+7	natyrshëm	natyrshëm	ADV	_	AdvType=Man	6	advmod	_	start_char=546|end_char=555
+8	sepse	sepse	SCONJ	_	_	9	mark	_	start_char=556|end_char=561
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=562|end_char=567
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=568|end_char=570
+11	fushën	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl:arg	_	start_char=571|end_char=577
+12	time	ime	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	amod	_	start_char=578|end_char=582
+13	kërkimore	kërkimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=583|end_char=592|SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	start_char=592|end_char=593
+15	një	një	DET	_	Definite=Ind	17	det	_	start_char=594|end_char=597
+16	ndër	ndër	ADP	_	Case=Acc	17	case	_	start_char=598|end_char=602
+17	fushat	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=603|end_char=609
+18	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=610|end_char=612
+19	jam	jam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	20	aux	_	start_char=613|end_char=616
+20	specializuar	specializoj	VERB	_	VerbForm=Part	17	acl:relcl	_	start_char=617|end_char=629|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=629|end_char=630
+22	vazhdimësi	vazhdimës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	start_char=631|end_char=641
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=642|end_char=643
+24	disertacionit	disertacion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=644|end_char=657
+25	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=658|end_char=661
+26	doktoraturës	doktoraturë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	conj	_	start_char=662|end_char=674|SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	start_char=674|end_char=675|SpaceAfter=No
+
+# text = ”
+# sent_id = 8
+1	”	"	PUNCT	_	_	0	root	_	start_char=675|end_char=676|SpacesAfter=\n
+
+# text = Monografia sjell hulumtime të reja.
+# sent_id = 9
+1	Monografia	monografi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=677|end_char=687
+2	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=688|end_char=693
+3	hulumtime	hulumtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=694|end_char=703
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=704|end_char=706
+5	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=707|end_char=711|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	start_char=711|end_char=712
+
+# text = “Ajo përfshin aktualitetin ndërkombëtar në botën e sotme, e cila ka një zhvillim të jashtëzakonshëm që na prek tërthorazi ose drejtpërdrejt.
+# sent_id = 10
+1	“	"	PUNCT	_	_	3	punct	_	start_char=713|end_char=714|SpaceAfter=No
+2	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=714|end_char=717
+3	përfshin	përfshij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=718|end_char=726
+4	aktualitetin	aktualitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=727|end_char=739
+5	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=740|end_char=752
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=753|end_char=755
+7	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=756|end_char=761
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=762|end_char=763
+9	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=764|end_char=769|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=769|end_char=770
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=771|end_char=772
+12	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	start_char=773|end_char=777
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl	_	start_char=778|end_char=780
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=781|end_char=784
+15	zhvillim	zhvillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=785|end_char=793
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=794|end_char=796
+17	jashtëzakonshëm	jashtëzakonshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=797|end_char=812
+18	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=813|end_char=815
+19	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	20	iobj	_	start_char=816|end_char=818
+20	prek	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=819|end_char=823
+21	tërthorazi	tërthoraz	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=824|end_char=834
+22	ose	ose	CCONJ	_	_	23	cc	_	start_char=835|end_char=838
+23	drejtpërdrejt	drejtpërdrejt	ADV	_	AdvType=Tim	21	conj	_	start_char=839|end_char=852|SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	start_char=852|end_char=853
+
+# text = Diplomacia ekonomike është një nga fushat më të rëndësishme.
+# sent_id = 11
+1	Diplomacia	diplomaci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=854|end_char=864
+2	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=865|end_char=874
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=875|end_char=880
+4	një	një	DET	_	Definite=Ind	6	det	_	start_char=881|end_char=884
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=885|end_char=888
+6	fushat	fushë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=889|end_char=895
+7	më	më	PART	_	_	9	mark	_	start_char=896|end_char=898
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=899|end_char=901
+9	rëndësishme	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=902|end_char=913|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	start_char=913|end_char=914
+
+# text = Po merr një hov të jashtëzakonshëm si një nga mjetet më të rëndësishme të politikës së jashtme të çdo shteti.
+# sent_id = 12
+1	Po	po	PART	_	_	2	mark	_	start_char=915|end_char=917
+2	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=918|end_char=922
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=923|end_char=926
+4	hov	hov	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=927|end_char=930
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=931|end_char=933
+6	jashtëzakonshëm	jashtëzakonshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=934|end_char=949
+7	si	si	SCONJ	_	_	10	mark	_	start_char=950|end_char=952
+8	një	një	DET	_	Definite=Ind	10	det	_	start_char=953|end_char=956
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=957|end_char=960
+10	mjetet	mjet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=961|end_char=967
+11	më	më	PART	_	_	13	mark	_	start_char=968|end_char=970
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=971|end_char=973
+13	rëndësishme	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=974|end_char=985
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=986|end_char=988
+15	politikës	politikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=989|end_char=998
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=999|end_char=1001
+17	jashtme	jashtëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=1002|end_char=1009
+18	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=1010|end_char=1012
+19	çdo	çdo	PRON	_	PronType=Ind	20	nummod	_	start_char=1013|end_char=1016
+20	shteti	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=1017|end_char=1023|SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	start_char=1023|end_char=1024|SpaceAfter=No
+
+# text = ”
+# sent_id = 13
+1	”	"	PUNCT	_	_	0	root	_	start_char=1024|end_char=1025|SpacesAfter=\n\n
+
+# text = Diplomacia ekonomike mori hov më të madh pas viteve 1990.
+# sent_id = 14
+1	Diplomacia	diplomaci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1027|end_char=1037
+2	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=1038|end_char=1047
+3	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1048|end_char=1052
+4	hov	hov	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=1053|end_char=1056
+5	më	më	PART	_	_	7	mark	_	start_char=1057|end_char=1059
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1060|end_char=1062
+7	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1063|end_char=1067
+8	pas	pas	ADP	_	Case=Abl	9	case	_	start_char=1068|end_char=1071
+9	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=1072|end_char=1078
+10	1990	1990	NUM	_	NumType=Card	9	amod:nummod	_	start_char=1079|end_char=1083|SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	start_char=1083|end_char=1084
+
+# text = “Pas përplasjes ideologjike të viteve ‘90, me rënien e Murit të Berlinit dhe Bashkimit Sovjetik merr një rëndësi të veçantë.
+# sent_id = 15
+1	“	"	PUNCT	_	_	3	punct	_	start_char=1085|end_char=1086|SpaceAfter=No
+2	Pas	pas	ADP	_	Case=Abl	3	case	_	start_char=1086|end_char=1089
+3	përplasjes	përplasje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=1090|end_char=1100
+4	ideologjike	ideologjik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1101|end_char=1112
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=1113|end_char=1115
+6	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=1116|end_char=1122
+7	‘90	‘90	NUM	_	NumType=Card	6	flat	_	start_char=1123|end_char=1126|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1126|end_char=1127
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=1128|end_char=1130
+10	rënien	rënie	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=1131|end_char=1137
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=1138|end_char=1139
+12	Murit	mur	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1140|end_char=1145
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=1146|end_char=1148
+14	Berlinit	Berlin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=1149|end_char=1157
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=1158|end_char=1161
+16	Bashkimit	bashkim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=1162|end_char=1171
+17	Sovjetik	sovjetik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=1172|end_char=1180
+18	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1181|end_char=1185
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=1186|end_char=1189
+20	rëndësi	rëndësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=1190|end_char=1197
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1198|end_char=1200
+22	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1201|end_char=1208|SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	start_char=1208|end_char=1209
+
+# text = Kemi një dominim të globalizmit, një zhvillim i cili të çon drejt nevojës së bashkëpunimit, shtrirjes së tregut dhe nevojës që ka shteti për të shfrytëzuar të gjitha mënyrat për të shtrirë ndikimin e tij ekonomik dhe për të përthithur investime brenda vendit.
+# sent_id = 16
+1	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1210|end_char=1214
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=1215|end_char=1218
+3	dominim	dominim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=1219|end_char=1226
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=1227|end_char=1229
+5	globalizmit	globalizm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=1230|end_char=1241|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=1241|end_char=1242
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=1243|end_char=1246
+8	zhvillim	zhvillim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=1247|end_char=1255
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1256|end_char=1257
+10	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	start_char=1258|end_char=1262
+11	të	të	PART	_	_	12	fixed	_	start_char=1263|end_char=1265
+12	çon	çoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=1266|end_char=1269
+13	drejt	drejt	ADP	_	Case=Abl	14	case	_	start_char=1270|end_char=1275
+14	nevojës	nevojë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=1276|end_char=1283
+15	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=1284|end_char=1286
+16	bashkëpunimit	bashkëpunim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=1287|end_char=1300|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=1300|end_char=1301
+18	shtrirjes	shtrirje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	14	list	_	start_char=1302|end_char=1311
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=1312|end_char=1314
+20	tregut	treg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=1315|end_char=1321
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=1322|end_char=1325
+22	nevojës	nevojë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	start_char=1326|end_char=1333
+23	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=1334|end_char=1336
+24	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	start_char=1337|end_char=1339
+25	shteti	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=1340|end_char=1346
+26	për	për	PART	_	_	28	fixed	_	start_char=1347|end_char=1350
+27	të	të	PART	_	_	28	fixed	_	start_char=1351|end_char=1353
+28	shfrytëzuar	shfrytëzoj	VERB	_	VerbForm=Part	24	advmod	_	start_char=1354|end_char=1365
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=1366|end_char=1368
+30	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	31	nummod	_	start_char=1369|end_char=1375
+31	mënyrat	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	28	obj	_	start_char=1376|end_char=1383
+32	për	për	PART	_	_	34	fixed	_	start_char=1384|end_char=1387
+33	të	të	PART	_	_	34	fixed	_	start_char=1388|end_char=1390
+34	shtrirë	shtrir	VERB	_	VerbForm=Part	28	advmod	_	start_char=1391|end_char=1398
+35	ndikimin	ndikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	start_char=1399|end_char=1407
+36	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=1408|end_char=1409
+37	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	amod:poss	_	start_char=1410|end_char=1413
+38	ekonomik	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=1414|end_char=1422
+39	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=1423|end_char=1426
+40	për	për	PART	_	_	42	fixed	_	start_char=1427|end_char=1430
+41	të	të	PART	_	_	42	fixed	_	start_char=1431|end_char=1433
+42	përthithur	përthithoj	VERB	_	VerbForm=Part	34	advmod	_	start_char=1434|end_char=1444
+43	investime	investim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	42	obj	_	start_char=1445|end_char=1454
+44	brenda	brenda	ADP	_	Case=Abl	45	case	_	start_char=1455|end_char=1461
+45	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	42	obl	_	start_char=1462|end_char=1468|SpaceAfter=No
+46	.	.	PUNCT	_	_	42	punct	_	start_char=1468|end_char=1469|SpaceAfter=No
+
+# text = ”
+# sent_id = 17
+1	”	"	PUNCT	_	_	0	root	_	start_char=1469|end_char=1470|SpacesAfter=\n
+
+# text = Emilio Çika tregon se kalimi nga sistemi ekonomik i centralizuar në atë të tregut të lirë shënon periudhën kur filloi shfrytëzimi i diplomacisë ekonomike.
+# sent_id = 18
+1	Emilio	Emilio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1471|end_char=1477
+2	Çika	Çika	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=1478|end_char=1482
+3	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1483|end_char=1489
+4	se	se	SCONJ	_	_	17	mark	_	start_char=1490|end_char=1492
+5	kalimi	kalim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1493|end_char=1499
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=1500|end_char=1503
+7	sistemi	sistem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=1504|end_char=1511
+8	ekonomik	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1512|end_char=1520
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1521|end_char=1522
+10	centralizuar	centralizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1523|end_char=1535
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=1536|end_char=1538
+12	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	14	nmod	_	start_char=1539|end_char=1542
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=1543|end_char=1545
+14	tregut	treg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=1546|end_char=1552
+15	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=1553|end_char=1555
+16	lirë	lirë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1556|end_char=1560
+17	shënon	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=1561|end_char=1567
+18	periudhën	periudhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=1568|end_char=1577
+19	kur	kur	SCONJ	_	_	20	mark	_	start_char=1578|end_char=1581
+20	filloi	filloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	advcl	_	start_char=1582|end_char=1588
+21	shfrytëzimi	shfrytëzim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=1589|end_char=1600
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=1601|end_char=1602
+23	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=1603|end_char=1614
+24	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1615|end_char=1624|SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	start_char=1624|end_char=1625
+
+# text = “Por një rëndësi të madhe merr veçanërisht pas vitit 2013.
+# sent_id = 19
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1626|end_char=1627|SpaceAfter=No
+2	Por	por	CCONJ	_	_	7	cc	_	start_char=1627|end_char=1630
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=1631|end_char=1634
+4	rëndësi	rëndësi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=1635|end_char=1642
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1643|end_char=1645
+6	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1646|end_char=1651
+7	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1652|end_char=1656
+8	veçanërisht	veçanërisht	ADV	_	AdvType=Man	7	advmod	_	start_char=1657|end_char=1668
+9	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=1669|end_char=1672
+10	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=1673|end_char=1678
+11	2013	2013	NUM	_	NumType=Card	10	amod:nummod	_	start_char=1679|end_char=1683|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	start_char=1683|end_char=1684
+
+# text = Me ardhjen në pushtet të Partisë Socialiste, të paktën në retorikë kemi një zhvillim ku i jepet rëndësi politike zhvillimit të diplomacisë ekonomike, kemi krijimin e një drejtorie të posaçme në Ministrinë e Jashtme.
+# sent_id = 20
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=1685|end_char=1687
+2	ardhjen	ardhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=1688|end_char=1695
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=1696|end_char=1698
+4	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=1699|end_char=1706
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=1707|end_char=1709
+6	Partisë	parti	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=1710|end_char=1717
+7	Socialiste	socialist	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1718|end_char=1728|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1728|end_char=1729
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1730|end_char=1732
+10	paktën	paktë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	advmod	_	start_char=1733|end_char=1739
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=1740|end_char=1742
+12	retorikë	retorikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=1743|end_char=1751
+13	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1752|end_char=1756
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=1757|end_char=1760
+15	zhvillim	zhvillim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=1761|end_char=1769
+16	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=1770|end_char=1772
+17	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	start_char=1773|end_char=1774
+18	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	15	acl:relcl	_	start_char=1775|end_char=1780
+19	rëndësi	rëndësi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=1781|end_char=1788
+20	politike	politik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1789|end_char=1797
+21	zhvillimit	zhvillim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=1798|end_char=1808
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=1809|end_char=1811
+23	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=1812|end_char=1823
+24	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1824|end_char=1833|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	start_char=1833|end_char=1834
+26	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	conj	_	start_char=1835|end_char=1839
+27	krijimin	krijim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=1840|end_char=1848
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=1849|end_char=1850
+29	një	një	DET	_	Definite=Ind	30	det	_	start_char=1851|end_char=1854
+30	drejtorie	drejtori	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=1855|end_char=1864
+31	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=1865|end_char=1867
+32	posaçme	posaçm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=1868|end_char=1875
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=1876|end_char=1878
+34	Ministrinë	ministri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=1879|end_char=1889
+35	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=1890|end_char=1891
+36	Jashtme	Jashtme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=1892|end_char=1899|SpaceAfter=No
+37	.	.	PUNCT	_	_	26	punct	_	start_char=1899|end_char=1900
+
+# text = Megjithatë Shqipëria është një vend i vogël dhe kapacitetet e shfrytëzimit të diplomacisë ekonomike, qoftë dhe ekonomisë së saj janë të limituara.
+# sent_id = 21
+1	Megjithatë	megjithatë	CCONJ	_	_	3	cc	_	start_char=1901|end_char=1911
+2	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1912|end_char=1921
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1922|end_char=1927
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=1928|end_char=1931
+5	vend	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=1932|end_char=1936
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1937|end_char=1938
+7	vogël	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1939|end_char=1944
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1945|end_char=1948
+9	kapacitetet	kapacitet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=1949|end_char=1960
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=1961|end_char=1962
+11	shfrytëzimit	shfrytëzim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=1963|end_char=1975
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=1976|end_char=1978
+13	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1979|end_char=1990
+14	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=1991|end_char=2000|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=2000|end_char=2001
+16	qoftë	qoftë	CCONJ	_	_	18	cc	_	start_char=2002|end_char=2007
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=2008|end_char=2011
+18	ekonomisë	ekonomi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	conj	_	start_char=2012|end_char=2021
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=2022|end_char=2024
+20	saj	saj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=2025|end_char=2028
+21	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=2029|end_char=2033
+22	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=2034|end_char=2036
+23	limituara	limituar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	cop	_	start_char=2037|end_char=2046|SpaceAfter=No
+24	.	.	PUNCT	_	_	21	punct	_	start_char=2046|end_char=2047|SpaceAfter=No
+
+# text = ”
+# sent_id = 22
+1	”	"	PUNCT	_	_	0	root	_	start_char=2047|end_char=2048|SpacesAfter=\n\n
+
+# text = Sipas Çikës, diplomacia ekonomike mund të ushtrohet në disa forma që të mund të sjellë përfitime.
+# sent_id = 23
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=2050|end_char=2055
+2	Çikës	Çikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=2056|end_char=2061|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=2061|end_char=2062
+4	diplomacia	diplomaci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2063|end_char=2073
+5	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=2074|end_char=2083
+6	mund	mund	AUX	_	_	8	aux	_	start_char=2084|end_char=2088
+7	të	të	PART	_	_	8	fixed	_	start_char=2089|end_char=2091
+8	ushtrohet	ushtroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=2092|end_char=2101
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=2102|end_char=2104
+10	disa	disa	PRON	_	PronType=Ind	11	nummod	_	start_char=2105|end_char=2109
+11	forma	formë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=2110|end_char=2115
+12	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=2116|end_char=2118
+13	të	të	PART	_	_	16	fixed	_	start_char=2119|end_char=2121
+14	mund	mund	AUX	_	_	16	aux	_	start_char=2122|end_char=2126
+15	të	të	PART	_	_	16	fixed	_	start_char=2127|end_char=2129
+16	sjellë	sjell	VERB	_	VerbForm=Part	8	advcl	_	start_char=2130|end_char=2136
+17	përfitime	përfitim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=2137|end_char=2146|SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	start_char=2146|end_char=2147
+
+# text = “Ambasadat e Shqipërisë jashtë vendit duhet të luajnë një rol jashtëzakonisht shumë aktiv për ushtrimin e diplomacisë ekonomike.
+# sent_id = 24
+1	“	"	PUNCT	_	_	2	punct	_	start_char=2148|end_char=2149|SpaceAfter=No
+2	Ambasadat	Ambasadë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	start_char=2149|end_char=2158
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=2159|end_char=2160
+4	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=2161|end_char=2171
+5	jashtë	jashtë	ADP	_	Case=Abl	6	case	_	start_char=2172|end_char=2178
+6	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=2179|end_char=2185
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=2186|end_char=2191
+8	të	të	PART	_	_	9	fixed	_	start_char=2192|end_char=2194
+9	luajnë	luaj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2195|end_char=2201
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=2202|end_char=2205
+11	rol	rol	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=2206|end_char=2209
+12	jashtëzakonisht	jashtëzakonisht	ADV	_	AdvType=Man	11	amod	_	start_char=2210|end_char=2225
+13	shumë	shumë	ADV	_	AdvType=Deg	14	advmod	_	start_char=2226|end_char=2231
+14	aktiv	aktiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=2232|end_char=2237
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=2238|end_char=2241
+16	ushtrimin	ushtrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=2242|end_char=2251
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=2252|end_char=2253
+18	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=2254|end_char=2265
+19	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=2266|end_char=2275|SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	start_char=2275|end_char=2276
+
+# text = Ambasadorët janë përfaqësuesit e shtetit që duhet të luajnë një rol kryesor, po kështu atashetë ekonomikë të vendit.
+# sent_id = 25
+1	Ambasadorët	ambasador	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2277|end_char=2288
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2289|end_char=2293
+3	përfaqësuesit	përfaqësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	cop	_	start_char=2294|end_char=2307
+4	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=2308|end_char=2309
+5	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=2310|end_char=2317
+6	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=2318|end_char=2320
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=2321|end_char=2326
+8	të	të	PART	_	_	9	fixed	_	start_char=2327|end_char=2329
+9	luajnë	luaj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=2330|end_char=2336
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=2337|end_char=2340
+11	rol	rol	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=2341|end_char=2344
+12	kryesor	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=2345|end_char=2352|SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	start_char=2352|end_char=2353
+14	po	po	PART	_	_	16	mark	_	start_char=2354|end_char=2356
+15	kështu	kështu	ADV	_	AdvType=Man	16	mark	_	start_char=2357|end_char=2363
+16	atashetë	atashetë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	conj	_	start_char=2364|end_char=2372
+17	ekonomikë	ekonomikë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	start_char=2373|end_char=2382
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det:poss	_	start_char=2383|end_char=2385
+19	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=2386|end_char=2392|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	start_char=2392|end_char=2393
+
+# text = Zyrtarët e lartë që nga kryeministri dhe ministrat e linjës duhet të shfrytëzojnë të gjitha mundësitë që jep diplomacia ekonomike për të përthithur investime që janë më se të nevojshme për Shqipërinë, akoma më shumë në fazën që po kalojmë, sepse krizat ekonomike po shpeshtohen.
+# sent_id = 26
+1	Zyrtarët	Zyrtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	start_char=2394|end_char=2402
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2403|end_char=2404
+3	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	start_char=2405|end_char=2410
+4	që	që	PRON	_	PronType=Rel	6	mark	_	start_char=2411|end_char=2413
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=2414|end_char=2417
+6	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=2418|end_char=2430
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=2431|end_char=2434
+8	ministrat	ministrë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	6	conj	_	start_char=2435|end_char=2444
+9	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det:poss	_	start_char=2445|end_char=2446
+10	linjës	linjë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=2447|end_char=2453
+11	duhet	duhem	AUX	_	_	13	aux	_	start_char=2454|end_char=2459
+12	të	të	PART	_	_	13	fixed	_	start_char=2460|end_char=2462
+13	shfrytëzojnë	shfrytëzoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2463|end_char=2475
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=2476|end_char=2478
+15	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	16	nummod	_	start_char=2479|end_char=2485
+16	mundësitë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=2486|end_char=2495
+17	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=2496|end_char=2498
+18	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	start_char=2499|end_char=2502
+19	diplomacia	diplomaci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=2503|end_char=2513
+20	ekonomike	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=2514|end_char=2523
+21	për	për	PART	_	_	23	fixed	_	start_char=2524|end_char=2527
+22	të	të	PART	_	_	23	fixed	_	start_char=2528|end_char=2530
+23	përthithur	përthithoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=2531|end_char=2541
+24	investime	investim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	start_char=2542|end_char=2551
+25	që	që	PRON	_	PronType=Rel	26	nsubj	_	start_char=2552|end_char=2554
+26	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	ccomp	_	start_char=2555|end_char=2559
+27	më	më	PART	_	_	30	mark	_	start_char=2560|end_char=2562
+28	se	se	SCONJ	_	_	30	mark	_	start_char=2563|end_char=2565
+29	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=2566|end_char=2568
+30	nevojshme	nevojshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	26	cop	_	start_char=2569|end_char=2578
+31	për	për	ADP	_	Case=Acc	32	case	_	start_char=2579|end_char=2582
+32	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	start_char=2583|end_char=2593|SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	start_char=2593|end_char=2594
+34	akoma	akoma	ADV	_	AdvType=Tim	36	advmod	_	start_char=2595|end_char=2600
+35	më	më	PART	_	_	36	mark	_	start_char=2601|end_char=2603
+36	shumë	shumë	ADV	_	AdvType=Deg	38	advmod	_	start_char=2604|end_char=2609
+37	në	në	ADP	_	Case=Acc	38	case	_	start_char=2610|end_char=2612
+38	fazën	fazë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=2613|end_char=2618
+39	që	që	PRON	_	PronType=Rel	41	nsubj	_	start_char=2619|end_char=2621
+40	po	po	PART	_	_	41	mark	_	start_char=2622|end_char=2624
+41	kalojmë	kaloj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	38	acl:relcl	_	start_char=2625|end_char=2632|SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	start_char=2632|end_char=2633
+43	sepse	sepse	SCONJ	_	_	44	mark	_	start_char=2634|end_char=2639
+44	krizat	krizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	41	obj	_	start_char=2640|end_char=2646
+45	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	44	amod	_	start_char=2647|end_char=2656
+46	po	po	PART	_	_	47	mark	_	start_char=2657|end_char=2659
+47	shpeshtohen	shpeshtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	44	acl:relcl	_	start_char=2660|end_char=2671|SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	start_char=2671|end_char=2672
+
+# text = Shteti shqiptar duhet të shfrytëzojë të gjitha mënyrat që të arrijë të përmbushë nevojat, në mënyrë që impaktet e krizave të jenë sa më të vogla në ekonominë e vendit.
+# sent_id = 27
+1	Shteti	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2673|end_char=2679
+2	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=2680|end_char=2688
+3	duhet	duhem	AUX	_	_	5	aux	_	start_char=2689|end_char=2694
+4	të	të	PART	_	_	5	fixed	_	start_char=2695|end_char=2697
+5	shfrytëzojë	shfrytëzoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2698|end_char=2709
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=2710|end_char=2712
+7	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	nummod	_	start_char=2713|end_char=2719
+8	mënyrat	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=2720|end_char=2727
+9	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=2728|end_char=2730
+10	të	të	PART	_	_	11	fixed	_	start_char=2731|end_char=2733
+11	arrijë	arrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=2734|end_char=2740
+12	të	të	PART	_	_	13	fixed	_	start_char=2741|end_char=2743
+13	përmbushë	përmbushëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=2744|end_char=2753
+14	nevojat	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=2754|end_char=2761|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=2761|end_char=2762
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=2763|end_char=2765
+17	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=2766|end_char=2772
+18	që	që	SCONJ	_	_	23	mark	_	start_char=2773|end_char=2775
+19	impaktet	impakt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=2776|end_char=2784
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=2785|end_char=2786
+21	krizave	krizë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=2787|end_char=2794
+22	të	të	PART	_	_	23	fixed	_	start_char=2795|end_char=2797
+23	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	acl:relcl	_	start_char=2798|end_char=2802
+24	sa	sa	ADV	_	AdvType=Deg	27	advmod	_	start_char=2803|end_char=2805
+25	më	më	PART	_	_	27	mark	_	start_char=2806|end_char=2808
+26	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=2809|end_char=2811
+27	vogla	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	cop	_	start_char=2812|end_char=2817
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=2818|end_char=2820
+29	ekonominë	ekonomi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=2821|end_char=2830
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=2831|end_char=2832
+31	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=2833|end_char=2839|SpaceAfter=No
+32	.	.	PUNCT	_	_	23	punct	_	start_char=2839|end_char=2840|SpaceAfter=No
+
+# text = ”
+# sent_id = 28
+1	”	"	PUNCT	_	_	0	root	_	start_char=2840|end_char=2841|SpacesAfter=\n
+
+# text = Për ta bërë këtë, Çika sugjeron institucionalizimin e diplomacisë ekonomike.
+# sent_id = 29
+1	Për	për	PART	_	_	4	fixed	_	start_char=2842|end_char=2845
+2-3	ta	_	_	_	_	_	_	_	start_char=2846|end_char=2848
+2	të	të	PART	_	_	4	fixed	_	_
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	bërë	bëj	VERB	_	VerbForm=Part	8	advmod	_	start_char=2849|end_char=2853
+5	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	start_char=2854|end_char=2858|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	start_char=2858|end_char=2859
+7	Çika	Çika	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2860|end_char=2864
+8	sugjeron	sugjeroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2865|end_char=2873
+9	institucionalizimin	institucionalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=2874|end_char=2893
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=2894|end_char=2895
+11	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=2896|end_char=2907
+12	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2908|end_char=2917|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	start_char=2917|end_char=2918
+
+# text = “Të paktën një zv.
+# sent_id = 30
+1	“	"	PUNCT	_	_	3	punct	_	start_char=2919|end_char=2920|SpaceAfter=No
+2	Të	të	PART	_	_	3	fixed	_	start_char=2920|end_char=2922
+3	paktën	paktë	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2923|end_char=2929
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=2930|end_char=2933
+5	zv	zv	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2934|end_char=2936|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	start_char=2936|end_char=2937
+
+# text = ministër në Ministrinë e Punëve të Jashtme të kishte në kompetencat e tij shfrytëzimin dhe ushtrimin e diplomacisë ekonomike, jo vetën në vartësi administrative por t’i jepet i gjithë portofoli në mënyrë që të ketë akses dhe të jetë ai përgjegjës për diplomacinë ekonomike të vendit.” /rtsh.al/
+# sent_id = 31
+1	ministër	ministër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=2938|end_char=2946
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=2947|end_char=2949
+3	Ministrinë	ministri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=2950|end_char=2960
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=2961|end_char=2962
+5	Punëve	punë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=2963|end_char=2969
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=2970|end_char=2972
+7	Jashtme	Jashtme	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2973|end_char=2980
+8	të	të	PART	_	_	9	fixed	_	start_char=2981|end_char=2983
+9	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2984|end_char=2990
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=2991|end_char=2993
+11	kompetencat	kompetencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=2994|end_char=3005
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=3006|end_char=3007
+13	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=3008|end_char=3011
+14	shfrytëzimin	shfrytëzim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=3012|end_char=3024
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=3025|end_char=3028
+16	ushtrimin	ushtrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=3029|end_char=3038
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=3039|end_char=3040
+18	diplomacisë	diplomaci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=3041|end_char=3052
+19	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=3053|end_char=3062|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	start_char=3062|end_char=3063
+21	jo	jo	PART	_	_	22	mark	_	start_char=3064|end_char=3066
+22	vetën	vetën	PART	_	_	28	advmod	_	start_char=3067|end_char=3072
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=3073|end_char=3075
+24	vartësi	vartës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=3076|end_char=3083
+25	administrative	administrativ	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=3084|end_char=3098
+26	por	por	CCONJ	_	_	28	cc	_	start_char=3099|end_char=3102
+27	t’i	t’i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	conj	_	start_char=3103|end_char=3106
+28	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	conj	_	start_char=3107|end_char=3112
+29	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=3113|end_char=3114
+30	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	31	nummod	_	start_char=3115|end_char=3121
+31	portofoli	portofol	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=3122|end_char=3131
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=3132|end_char=3134
+33	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	nmod	_	start_char=3135|end_char=3141
+34	që	që	SCONJ	_	_	36	mark	_	start_char=3142|end_char=3144
+35	të	të	PART	_	_	36	fixed	_	start_char=3145|end_char=3147
+36	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	acl:relcl	_	start_char=3148|end_char=3152
+37	akses	akses	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	obj	_	start_char=3153|end_char=3158
+38	dhe	dhe	CCONJ	_	_	40	cc	_	start_char=3159|end_char=3162
+39	të	të	PART	_	_	40	fixed	_	start_char=3163|end_char=3165
+40	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	conj	_	start_char=3166|end_char=3170
+41	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	det	_	start_char=3171|end_char=3173
+42	përgjegjës	përgjegjës	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	40	cop	_	start_char=3174|end_char=3184
+43	për	për	ADP	_	Case=Acc	44	case	_	start_char=3185|end_char=3188
+44	diplomacinë	diplomacinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	40	advmod	_	start_char=3189|end_char=3200
+45	ekonomike	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	start_char=3201|end_char=3210
+46	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	47	det:poss	_	start_char=3211|end_char=3213
+47	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=3214|end_char=3220|SpaceAfter=No
+48	.	.	PUNCT	_	_	50	punct	_	start_char=3220|end_char=3221|SpaceAfter=No
+49	”	"	PUNCT	_	_	50	punct	_	start_char=3221|end_char=3222|SpacesAfter=\n
+50	/rtsh.al	/rtsh.al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	47	appos	_	start_char=3223|end_char=3231|SpaceAfter=No
+51	/	/	PUNCT	_	_	50	punct	_	start_char=3231|end_char=3232|SpacesAfter=\n\n\n
+

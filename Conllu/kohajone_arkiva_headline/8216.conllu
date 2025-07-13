@@ -1,0 +1,565 @@
+# text = Macron:
+# sent_id = 0
+1	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+
+# text = Do të duhet të jetojmë me virusin Presidenti francez Emmanuel Macron deklaroi se francezët nuk do të jenë në gjendje të bëjnë udhëtime në vende të huaja këtë verë, madje edhe udhëtimet brenda Evropës mund të duhet të jenë të kufizuara, në mënyrë që të zvogëlojnë rrezikun e rigjallërimit të epidemisë së koronavirusit.
+# sent_id = 1
+1	Do	do	PART	_	_	5	fixed	_	start_char=8|end_char=10
+2	të	të	PART	_	_	5	fixed	_	start_char=11|end_char=13
+3	duhet	duhem	AUX	_	_	5	aux	_	start_char=14|end_char=19
+4	të	të	PART	_	_	5	fixed	_	start_char=20|end_char=22
+5	jetojmë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=30
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=31|end_char=33
+7	virusin	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=34|end_char=41|SpacesAfter=\n
+8	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=42|end_char=52
+9	francez	francez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	flat	_	start_char=53|end_char=60
+10	Emmanuel	Emmanuel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=61|end_char=69
+11	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=70|end_char=76
+12	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	ccomp	_	start_char=77|end_char=85
+13	se	se	SCONJ	_	_	18	mark	_	start_char=86|end_char=88
+14	francezët	francezë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	start_char=89|end_char=98
+15	nuk	nuk	PART	_	_	18	mark	_	start_char=99|end_char=102
+16	do	do	PART	_	_	18	fixed	_	start_char=103|end_char=105
+17	të	të	PART	_	_	18	fixed	_	start_char=106|end_char=108
+18	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=109|end_char=113
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=114|end_char=116
+20	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=117|end_char=124
+21	të	të	PART	_	_	22	fixed	_	start_char=125|end_char=127
+22	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	advmod	_	start_char=128|end_char=133
+23	udhëtime	udhëtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	obj	_	start_char=134|end_char=142
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=143|end_char=145
+25	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	obl	_	start_char=146|end_char=151
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=152|end_char=154
+27	huaja	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=155|end_char=160
+28	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=161|end_char=165
+29	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=166|end_char=170|SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	start_char=170|end_char=171
+31	madje	madje	CCONJ	_	_	33	cc	_	start_char=172|end_char=177
+32	edhe	edhe	CCONJ	_	_	33	mark	_	start_char=178|end_char=182
+33	udhëtimet	udhëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	29	conj	_	start_char=183|end_char=192
+34	brenda	brenda	ADP	_	Case=Abl	35	case	_	start_char=193|end_char=199
+35	Evropës	Evropë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=200|end_char=207
+36	mund	mund	AUX	_	_	40	aux	_	start_char=208|end_char=212
+37	të	të	PART	_	_	40	fixed	_	start_char=213|end_char=215
+38	duhet	duhem	AUX	_	_	40	aux	_	start_char=216|end_char=221
+39	të	të	PART	_	_	40	fixed	_	start_char=222|end_char=224
+40	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=225|end_char=229
+41	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=230|end_char=232
+42	kufizuara	kufizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	40	cop	_	start_char=233|end_char=242|SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	start_char=242|end_char=243
+44	në	në	ADP	_	Case=Acc	45	case	_	start_char=244|end_char=246
+45	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	advmod	_	start_char=247|end_char=253
+46	që	që	SCONJ	_	_	48	mark	_	start_char=254|end_char=256
+47	të	të	PART	_	_	48	fixed	_	start_char=257|end_char=259
+48	zvogëlojnë	zvogëloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	45	acl:relcl	_	start_char=260|end_char=270
+49	rrezikun	rrezik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	48	obj	_	start_char=271|end_char=279
+50	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	51	det:poss	_	start_char=280|end_char=281
+51	rigjallërimit	rigjallërim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	49	nmod	_	start_char=282|end_char=295
+52	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	53	det:poss	_	start_char=296|end_char=298
+53	epidemisë	epidemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	51	nmod	_	start_char=299|end_char=308
+54	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	55	det:poss	_	start_char=309|end_char=311
+55	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	53	nmod	_	start_char=312|end_char=325|SpaceAfter=No
+56	.	.	PUNCT	_	_	48	punct	_	start_char=325|end_char=326|SpacesAfter=\n
+
+# text = “Është shumë shpejt të themi nëse mund të bëjmë pushime.
+# sent_id = 2
+1	“	"	PUNCT	_	_	2	punct	_	start_char=327|end_char=328|SpaceAfter=No
+2	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=328|end_char=333
+3	shumë	shumë	ADV	_	AdvType=Deg	4	advmod	_	start_char=334|end_char=339
+4	shpejt	shpejt	ADV	_	AdvType=Tim	2	advmod	_	start_char=340|end_char=346
+5	të	të	PART	_	_	6	fixed	_	start_char=347|end_char=349
+6	themi	them	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	xcomp	_	start_char=350|end_char=355
+7	nëse	nëse	SCONJ	_	_	10	mark	_	start_char=356|end_char=360
+8	mund	mund	AUX	_	_	10	aux	_	start_char=361|end_char=365
+9	të	të	PART	_	_	10	fixed	_	start_char=366|end_char=368
+10	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	advcl	_	start_char=369|end_char=374
+11	pushime	pushime	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=375|end_char=382|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=382|end_char=383
+
+# text = Ajo që mund të them është se do të kufizojmë udhëtimet kryesore ndërkombëtare, madje edhe gjatë pushimeve të verës.
+# sent_id = 3
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=384|end_char=387
+2	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=388|end_char=390
+3	mund	mund	AUX	_	_	5	aux	_	start_char=391|end_char=395
+4	të	të	PART	_	_	5	fixed	_	start_char=396|end_char=398
+5	them	them	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=399|end_char=403
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=404|end_char=409
+7	se	se	SCONJ	_	_	10	mark	_	start_char=410|end_char=412
+8	do	do	PART	_	_	10	fixed	_	start_char=413|end_char=415
+9	të	të	PART	_	_	10	fixed	_	start_char=416|end_char=418
+10	kufizojmë	kufizoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	csubj	_	start_char=419|end_char=428
+11	udhëtimet	udhëtim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=429|end_char=438
+12	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=439|end_char=447
+13	ndërkombëtare	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=448|end_char=461|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=461|end_char=462
+15	madje	madje	PART	_	_	18	mark	_	start_char=463|end_char=468
+16	edhe	edhe	PART	_	_	18	mark	_	start_char=469|end_char=473
+17	gjatë	gjatë	ADP	_	Case=Abl	18	case	_	start_char=474|end_char=479
+18	pushimeve	pushim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=480|end_char=489
+19	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=490|end_char=492
+20	verës	verë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=493|end_char=498|SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	start_char=498|end_char=499
+
+# text = Ne do ta shohim më qartë situatën në fillim të qershorit”, u tha Macron gazetarëve gjatë një vizite në një shkollë jashtë Parisit.
+# sent_id = 4
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=500|end_char=502
+2	do	do	PART	_	_	5	fixed	_	start_char=503|end_char=505
+3-4	ta	_	_	_	_	_	_	_	start_char=506|end_char=508
+3	të	të	PART	_	_	5	fixed	_	_
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	shohim	shoh	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	15	advcl	_	start_char=509|end_char=515
+6	më	më	PART	_	_	7	mark	_	start_char=516|end_char=518
+7	qartë	qartë	ADV	_	AdvType=Deg	5	advmod	_	start_char=519|end_char=524
+8	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=525|end_char=533
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=534|end_char=536
+10	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=537|end_char=543
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=544|end_char=546
+12	qershorit”	qershor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=547|end_char=557|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	start_char=557|end_char=558
+14	u	u	PART	_	_	15	fixed	_	start_char=559|end_char=560
+15	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=561|end_char=564
+16	Macron	Macro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	start_char=565|end_char=571
+17	gazetarëve	gazetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	16	flat	_	start_char=572|end_char=582
+18	gjatë	gjatë	ADP	_	Case=Abl	20	case	_	start_char=583|end_char=588
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=589|end_char=592
+20	vizite	vizit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	15	advmod	_	start_char=593|end_char=599
+21	në	në	ADP	_	Case=Acc	23	case	_	start_char=600|end_char=602
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=603|end_char=606
+23	shkollë	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=607|end_char=614
+24	jashtë	jashtë	ADP	_	Case=Abl	25	case	_	start_char=615|end_char=621
+25	Parisit	Paris	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=622|end_char=629|SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	start_char=629|end_char=630|SpacesAfter=\n
+
+# text = Franca ka vendosur të përfundojë bllokimin në 11 maj.
+# sent_id = 5
+1	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=631|end_char=637
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=638|end_char=640
+3	vendosur	vendos	VERB	_	VerbForm=Part	0	root	_	start_char=641|end_char=649
+4	të	të	PART	_	_	5	fixed	_	start_char=650|end_char=652
+5	përfundojë	përfundoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=653|end_char=663
+6	bllokimin	bllokim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=664|end_char=673
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=674|end_char=676
+8	11	11	NUM	_	NumType=Card	9	nummod	_	start_char=677|end_char=679
+9	maj	maj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=680|end_char=683|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	start_char=683|end_char=684
+
+# text = “BBC” shkruan se njerëzit do të lejohen të lëvizin deri në 100 kilometra rreth vendbanimit të tyre, pa një formë lejemarrjeje.
+# sent_id = 6
+1	“	"	PUNCT	_	_	2	punct	_	start_char=685|end_char=686|SpaceAfter=No
+2	BBC”	BBC”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=686|end_char=690
+3	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=691|end_char=698
+4	se	se	SCONJ	_	_	8	mark	_	start_char=699|end_char=701
+5	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=702|end_char=710
+6	do	do	PART	_	_	8	fixed	_	start_char=711|end_char=713
+7	të	të	PART	_	_	8	fixed	_	start_char=714|end_char=716
+8	lejohen	lejoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	advcl	_	start_char=717|end_char=724
+9	të	të	PART	_	_	10	fixed	_	start_char=725|end_char=727
+10	lëvizin	lëviz	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	start_char=728|end_char=735
+11	deri	deri	PART	_	_	12	fixed	_	start_char=736|end_char=740
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=741|end_char=743
+13	100	100	NUM	_	NumType=Card	14	nummod	_	start_char=744|end_char=747
+14	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	start_char=748|end_char=757
+15	rreth	rreth	ADP	_	Case=Abl	16	case	_	start_char=758|end_char=763
+16	vendbanimit	vendbanim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=764|end_char=775
+17	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=776|end_char=778
+18	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=779|end_char=783|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	start_char=783|end_char=784
+20	pa	pa	ADP	_	Case=Acc	22	case	_	start_char=785|end_char=787
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=788|end_char=791
+22	formë	formë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=792|end_char=797
+23	lejemarrjeje	lejemarrje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=798|end_char=810|SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	start_char=810|end_char=811
+
+# text = Lëvizja përtej 100 km do të ketë nevojë për leje.
+# sent_id = 7
+1	Lëvizja	Lëvizje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=812|end_char=819
+2	përtej	përtej	ADP	_	Case=Abl	4	case	_	start_char=820|end_char=826
+3	100	100	NUM	_	NumType=Card	4	nummod	_	start_char=827|end_char=830
+4	km	km	NOUN	_	_	1	nmod	_	start_char=831|end_char=833
+5	do	do	PART	_	_	7	fixed	_	start_char=834|end_char=836
+6	të	të	PART	_	_	7	fixed	_	start_char=837|end_char=839
+7	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=840|end_char=844
+8	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=845|end_char=851
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=852|end_char=855
+10	leje	leje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=856|end_char=860|SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	start_char=860|end_char=861|SpacesAfter=\n
+
+# text = “Kujdes edhe në zonat e gjelbërta”
+# sent_id = 8
+1	“	"	PUNCT	_	_	2	punct	_	start_char=862|end_char=863|SpaceAfter=No
+2	Kujdes	Kujdes	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=863|end_char=869
+3	edhe	edhe	PART	_	_	5	cc	_	start_char=870|end_char=874
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=875|end_char=877
+5	zonat	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=878|end_char=883
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=884|end_char=885
+7	gjelbërta	gjelbërtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=886|end_char=895|SpaceAfter=No
+8	”	"	PUNCT	_	_	2	punct	_	start_char=895|end_char=896|SpacesAfter=\n
+
+# text = Macron bëri thirrje për kujdes dhe “pragmatizëm” në lidhje me udhëtimin jashtë zonës 100 kilometra, për të shmangur përshpejtimin e përhapjes së virusit në zona ku infeksioni është në nivele më të ulta.
+# sent_id = 9
+1	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=897|end_char=903
+2	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=904|end_char=908
+3	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=909|end_char=916
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=917|end_char=920
+5	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=921|end_char=927
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=928|end_char=931
+7	“pragmatizëm”	“pragmatizëm”	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	start_char=932|end_char=945
+8	në	në	ADP	_	Case=Acc	11	case	_	start_char=946|end_char=948
+9	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=949|end_char=955
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=956|end_char=958
+11	udhëtimin	udhëtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=959|end_char=968
+12	jashtë	jashtë	ADP	_	Case=Abl	13	case	_	start_char=969|end_char=975
+13	zonës	zonë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=976|end_char=981
+14	100	100	NUM	_	NumType=Card	15	nummod	_	start_char=982|end_char=985
+15	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	start_char=986|end_char=995|SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	start_char=995|end_char=996
+17	për	për	PART	_	_	19	fixed	_	start_char=997|end_char=1000
+18	të	të	PART	_	_	19	fixed	_	start_char=1001|end_char=1003
+19	shmangur	shmangoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=1004|end_char=1012
+20	përshpejtimin	përshpejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=1013|end_char=1026
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=1027|end_char=1028
+22	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=1029|end_char=1038
+23	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=1039|end_char=1041
+24	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=1042|end_char=1049
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=1050|end_char=1052
+26	zona	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=1053|end_char=1057
+27	ku	ku	ADV	_	AdvType=Loc	29	advmod	_	start_char=1058|end_char=1060
+28	infeksioni	infeksion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	start_char=1061|end_char=1071
+29	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=1072|end_char=1077
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=1078|end_char=1080
+31	nivele	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	29	obl:arg	_	start_char=1081|end_char=1087
+32	më	më	PART	_	_	34	mark	_	start_char=1088|end_char=1090
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=1091|end_char=1093
+34	ulta	ultë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=1094|end_char=1098|SpaceAfter=No
+35	.	.	PUNCT	_	_	29	punct	_	start_char=1098|end_char=1099
+
+# text = Në një intervistë me stacionet televizive franceze TF1 dhe France 2, Macron u bëri thirrje banorëve të zonave të gjelbëra që të bëjnë kujdes, duke ruajtur distancën sociale.
+# sent_id = 10
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=1100|end_char=1102
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=1103|end_char=1106
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=1107|end_char=1117
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=1118|end_char=1120
+5	stacionet	stacion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=1121|end_char=1130
+6	televizive	televiziv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1131|end_char=1141
+7	franceze	francez	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1142|end_char=1150
+8	TF1	TF1	PROPN	_	Foreign=Yes	5	appos	_	start_char=1151|end_char=1154
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=1155|end_char=1158
+10	France	Franc	PROPN	_	Foreign=Yes	8	conj	_	start_char=1159|end_char=1165
+11	2	2	NUM	_	NumType=Card	10	flat	_	start_char=1166|end_char=1167|SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	start_char=1167|end_char=1168
+13	Macron	Macro	PROPN	_	Foreign=Yes	15	nsubj	_	start_char=1169|end_char=1175
+14	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	fixed	_	start_char=1176|end_char=1177
+15	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1178|end_char=1182
+16	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=1183|end_char=1190
+17	banorëve	banor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	start_char=1191|end_char=1199
+18	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=1200|end_char=1202
+19	zonave	zona	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=1203|end_char=1209
+20	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=1210|end_char=1212
+21	gjelbëra	gjelbër	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=1213|end_char=1221
+22	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=1222|end_char=1224
+23	të	të	PART	_	_	24	fixed	_	start_char=1225|end_char=1227
+24	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	acl	_	start_char=1228|end_char=1233
+25	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=1234|end_char=1240|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	start_char=1240|end_char=1241
+27	duke	duke	PART	_	_	28	fixed	_	start_char=1242|end_char=1246
+28	ruajtur	ruaj	VERB	_	VerbForm=Part	24	advmod	_	start_char=1247|end_char=1254
+29	distancën	distancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=1255|end_char=1264
+30	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=1265|end_char=1272|SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	start_char=1272|end_char=1273|SpacesAfter=\n
+
+# text = “Le të jemi shumë të qartë.
+# sent_id = 11
+1	“	"	PUNCT	_	_	4	punct	_	start_char=1274|end_char=1275|SpaceAfter=No
+2	Le	le	PART	_	_	4	mark	_	start_char=1275|end_char=1277
+3	të	të	PART	_	_	4	fixed	_	start_char=1278|end_char=1280
+4	jemi	jam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1281|end_char=1285
+5	shumë	shumë	ADV	_	AdvType=Deg	7	advmod	_	start_char=1286|end_char=1291
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=1292|end_char=1294
+7	qartë	qartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	cop	_	start_char=1295|end_char=1300|SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	start_char=1300|end_char=1301
+
+# text = Ne e dimë se si funksionon virusi dhe për cilët persona, ai është shumë i rrezikshëm,” tha presidenti francez.
+# sent_id = 12
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1302|end_char=1304
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=1305|end_char=1306
+3	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1307|end_char=1311
+4	se	se	SCONJ	_	_	6	mark	_	start_char=1312|end_char=1314
+5	si	si	SCONJ	_	_	6	mark	_	start_char=1315|end_char=1317
+6	funksionon	funksionoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=1318|end_char=1328
+7	virusi	virus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=1329|end_char=1335
+8	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=1336|end_char=1339
+9	për	për	ADP	_	Case=Acc	11	case	_	start_char=1340|end_char=1343
+10	cilët	cili	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	nummod	_	start_char=1344|end_char=1349
+11	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=1350|end_char=1357|SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	start_char=1357|end_char=1358
+13	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=1359|end_char=1361
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=1362|end_char=1367
+15	shumë	shumë	ADV	_	AdvType=Deg	17	advmod	_	start_char=1368|end_char=1373
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=1374|end_char=1375
+17	rrezikshëm	rrezikshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	cop	_	start_char=1376|end_char=1386|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=1386|end_char=1387|SpaceAfter=No
+19	”	"	PUNCT	_	_	20	punct	_	start_char=1387|end_char=1388
+20	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=1389|end_char=1392
+21	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=1393|end_char=1403
+22	francez	francez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=1404|end_char=1411|SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	start_char=1411|end_char=1412
+
+# text = “Për dikë që është i dobët dhe i moshuar, edhe zona e gjelbërt është shumë e rrezikshme”.
+# sent_id = 13
+1	“	"	PUNCT	_	_	3	punct	_	start_char=1413|end_char=1414|SpaceAfter=No
+2	Për	për	ADP	_	Case=Acc	3	case	_	start_char=1414|end_char=1417
+3	dikë	dikë	PRON	_	Case=Acc|Number=Sing|PronType=Ind	16	advmod	_	start_char=1418|end_char=1422
+4	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=1423|end_char=1425
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=1426|end_char=1431
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1432|end_char=1433
+7	dobët	dobët	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	cop	_	start_char=1434|end_char=1439
+8	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=1440|end_char=1443
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1444|end_char=1445
+10	moshuar	moshuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	start_char=1446|end_char=1453|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=1453|end_char=1454
+12	edhe	edhe	CCONJ	_	_	13	mark	_	start_char=1455|end_char=1459
+13	zona	zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=1460|end_char=1464
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1465|end_char=1466
+15	gjelbërt	gjelbër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=1467|end_char=1475
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1476|end_char=1481
+17	shumë	shumë	ADV	_	AdvType=Deg	19	advmod	_	start_char=1482|end_char=1487
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1488|end_char=1489
+19	rrezikshme”	rrezikshme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	cop	_	start_char=1490|end_char=1501|SpaceAfter=No
+20	.	.	PUNCT	_	_	16	punct	_	start_char=1501|end_char=1502|SpacesAfter=\n
+
+# text = “Jeta ekonomike duhet të rifillojë”
+# sent_id = 14
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1503|end_char=1504|SpaceAfter=No
+2	Jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1504|end_char=1508
+3	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=1509|end_char=1518
+4	duhet	duhem	AUX	_	_	6	aux	_	start_char=1519|end_char=1524
+5	të	të	PART	_	_	6	fixed	_	start_char=1525|end_char=1527
+6	rifillojë	rifilloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1528|end_char=1537|SpaceAfter=No
+7	”	"	PUNCT	_	_	6	punct	_	start_char=1537|end_char=1538|SpacesAfter=\n
+
+# text = Më shumë se 300 kryetarë bashkish, përfshirë edhe kryebashkiaken e Parisit, Anne Hidalgo, i shkruajtën një letër të hapur Macronit, duke i kërkuar atij të vonojë kthimet në shkolla.
+# sent_id = 15
+1	Më	më	PART	_	_	2	mark	_	start_char=1539|end_char=1541
+2	shumë	shumë	ADV	_	AdvType=Deg	3	fixed	_	start_char=1542|end_char=1547
+3	se	se	SCONJ	_	_	5	mark	_	start_char=1548|end_char=1550
+4	300	300	NUM	_	NumType=Card	5	nummod	_	start_char=1551|end_char=1554
+5	kryetarë	kryetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	advmod	_	start_char=1555|end_char=1563
+6	bashkish	bashkish	ADV	_	AdvType=Man	5	advmod	_	start_char=1564|end_char=1572|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	start_char=1572|end_char=1573
+8	përfshirë	përfshij	VERB	_	VerbForm=Part	18	advmod	_	start_char=1574|end_char=1583
+9	edhe	edhe	CCONJ	_	_	10	cc	_	start_char=1584|end_char=1588
+10	kryebashkiaken	kryebashkiakek	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=1589|end_char=1603
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=1604|end_char=1605
+12	Parisit	Paris	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1606|end_char=1613|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1613|end_char=1614
+14	Anne	Anne	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	start_char=1615|end_char=1619
+15	Hidalgo	Hidalgo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=1620|end_char=1627|SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	start_char=1627|end_char=1628
+17	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	start_char=1629|end_char=1630
+18	shkruajtën	shkruaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1631|end_char=1641
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=1642|end_char=1645
+20	letër	letër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=1646|end_char=1651
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1652|end_char=1654
+22	hapur	hapur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1655|end_char=1660
+23	Macronit	macron	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=1661|end_char=1669|SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	start_char=1669|end_char=1670
+25	duke	duke	PART	_	_	27	fixed	_	start_char=1671|end_char=1675
+26	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	iobj	_	start_char=1676|end_char=1677
+27	kërkuar	kërkoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=1678|end_char=1685
+28	atij	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=1686|end_char=1690
+29	të	të	PART	_	_	30	fixed	_	start_char=1691|end_char=1693
+30	vonojë	vonoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	advmod	_	start_char=1694|end_char=1700
+31	kthimet	kthim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	30	obj	_	start_char=1701|end_char=1708
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=1709|end_char=1711
+33	shkolla	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	advmod	_	start_char=1712|end_char=1719|SpaceAfter=No
+34	.	.	PUNCT	_	_	30	punct	_	start_char=1719|end_char=1720
+
+# text = Ata thanë se iu duhet më shumë kohë për riorganizimin e klasave dhe rutinave të përditshme.
+# sent_id = 16
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1721|end_char=1724
+2	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1725|end_char=1730
+3	se	se	SCONJ	_	_	6	mark	_	start_char=1731|end_char=1733
+4-5	iu	_	_	_	_	_	_	_	start_char=1734|end_char=1736
+4	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	start_char=1734|end_char=1735
+5	u	u	PART	_	_	6	fixed	_	start_char=1735|end_char=1736
+6	duhet	duhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	advcl	_	start_char=1737|end_char=1742
+7	më	më	PART	_	_	9	mark	_	start_char=1743|end_char=1745
+8	shumë	shumë	PRON	_	PronType=Ind	9	nummod	_	start_char=1746|end_char=1751
+9	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=1752|end_char=1756
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=1757|end_char=1760
+11	riorganizimin	riorganizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=1761|end_char=1774
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=1775|end_char=1776
+13	klasave	klasë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=1777|end_char=1784
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=1785|end_char=1788
+15	rutinave	rutinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	conj	_	start_char=1789|end_char=1797
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=1798|end_char=1800
+17	përditshme	përditshme	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1801|end_char=1811|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	start_char=1811|end_char=1812
+
+# text = Por qeveria ka mbrojtur kryeministrin Philippe duke pohuar se, “jeta ekonomike duhet të rifillojë në mënyrë të domosdoshme dhe të shpejtë”.
+# sent_id = 17
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=1813|end_char=1816
+2	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1817|end_char=1824
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1825|end_char=1827
+4	mbrojtur	mbroj	VERB	_	VerbForm=Part	0	root	_	start_char=1828|end_char=1836
+5	kryeministrin	kryeministr	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=1837|end_char=1850
+6	Philippe	Philipp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=1851|end_char=1859
+7	duke	duke	PART	_	_	8	fixed	_	start_char=1860|end_char=1864
+8	pohuar	pohoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=1865|end_char=1871
+9	se	se	SCONJ	_	_	15	mark	_	start_char=1872|end_char=1874|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1874|end_char=1875
+11	“jeta	“jetë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=1876|end_char=1881
+12	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1882|end_char=1891
+13	duhet	duhem	AUX	_	_	15	aux	_	start_char=1892|end_char=1897
+14	të	të	PART	_	_	15	fixed	_	start_char=1898|end_char=1900
+15	rifillojë	rifilloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=1901|end_char=1910
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1911|end_char=1913
+17	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=1914|end_char=1920
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1921|end_char=1923
+19	domosdoshme	domosdoshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=1924|end_char=1935
+20	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=1936|end_char=1939
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1940|end_char=1942
+22	shpejtë”	shpejtë”	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	start_char=1943|end_char=1951|SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	start_char=1951|end_char=1952|SpacesAfter=\n
+
+# text = “Unë e kuptoj shumë mirë ngurrimin e mësuesve, gjërat do të ndodhin me qetësi, me dialog, sepse askush nuk e di se sa kohë do të duhet të jetojmë me virusin.
+# sent_id = 18
+1	“	"	PUNCT	_	_	4	punct	_	start_char=1953|end_char=1954|SpaceAfter=No
+2	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1954|end_char=1957
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=1958|end_char=1959
+4	kuptoj	kuptoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1960|end_char=1966
+5	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=1967|end_char=1972
+6	mirë	mirë	ADV	_	AdvType=Man	4	advmod	_	start_char=1973|end_char=1977
+7	ngurrimin	ngurrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=1978|end_char=1987
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=1988|end_char=1989
+9	mësuesve	mësues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=1990|end_char=1998|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1998|end_char=1999
+11	gjërat	gjërat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	start_char=2000|end_char=2006
+12	do	do	PART	_	_	14	fixed	_	start_char=2007|end_char=2009
+13	të	të	PART	_	_	14	fixed	_	start_char=2010|end_char=2012
+14	ndodhin	ndodh	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=2013|end_char=2020
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=2021|end_char=2023
+16	qetësi	qetës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	start_char=2024|end_char=2030|SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	start_char=2030|end_char=2031
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=2032|end_char=2034
+19	dialog	dialog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=2035|end_char=2041|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=2041|end_char=2042
+21	sepse	sepse	SCONJ	_	_	25	mark	_	start_char=2043|end_char=2048
+22	askush	askush	PRON	_	PronType=Ind	25	nsubj	_	start_char=2049|end_char=2055
+23	nuk	nuk	PART	_	_	25	mark	_	start_char=2056|end_char=2059
+24	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=2060|end_char=2061
+25	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=2062|end_char=2064
+26	se	se	SCONJ	_	_	33	mark	_	start_char=2065|end_char=2067
+27	sa	sa	ADV	_	AdvType=Deg	28	nummod	_	start_char=2068|end_char=2070
+28	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=2071|end_char=2075
+29	do	do	PART	_	_	33	fixed	_	start_char=2076|end_char=2078
+30	të	të	PART	_	_	33	fixed	_	start_char=2079|end_char=2081
+31	duhet	duhem	AUX	_	_	33	aux	_	start_char=2082|end_char=2087
+32	të	të	PART	_	_	33	fixed	_	start_char=2088|end_char=2090
+33	jetojmë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	25	advcl	_	start_char=2091|end_char=2098
+34	me	me	ADP	_	Case=Acc	35	case	_	start_char=2099|end_char=2101
+35	virusin	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	33	obl	_	start_char=2102|end_char=2109|SpaceAfter=No
+36	.	.	PUNCT	_	_	33	punct	_	start_char=2109|end_char=2110
+
+# text = Ne nuk mund të vazhdojmë të themi për muaj me rradhë se vendi nuk po jeton më”, u shpreh Macron.
+# sent_id = 19
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=2111|end_char=2113
+2	nuk	nuk	PART	_	_	5	mark	_	start_char=2114|end_char=2117
+3	mund	mund	AUX	_	_	5	aux	_	start_char=2118|end_char=2122
+4	të	të	PART	_	_	5	fixed	_	start_char=2123|end_char=2125
+5	vazhdojmë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2126|end_char=2135
+6	të	të	PART	_	_	7	fixed	_	start_char=2136|end_char=2138
+7	themi	them	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	ccomp	_	start_char=2139|end_char=2144
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=2145|end_char=2148
+9	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=2149|end_char=2153
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=2154|end_char=2156
+11	rradhë	rradhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=2157|end_char=2163
+12	se	se	SCONJ	_	_	16	mark	_	start_char=2164|end_char=2166
+13	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=2167|end_char=2172
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=2173|end_char=2176
+15	po	po	PART	_	_	16	mark	_	start_char=2177|end_char=2179
+16	jeton	jetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=2180|end_char=2185
+17	më”	më”	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=2186|end_char=2189|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=2189|end_char=2190
+19	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	fixed	_	start_char=2191|end_char=2192
+20	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	ccomp	_	start_char=2193|end_char=2199
+21	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=2200|end_char=2206|SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	start_char=2206|end_char=2207|SpacesAfter=\n
+
+# text = “Do të duhet të jetojmë me virusin”, tha Macron.
+# sent_id = 20
+1	“	"	PUNCT	_	_	6	punct	_	start_char=2208|end_char=2209|SpaceAfter=No
+2	Do	do	PART	_	_	6	fixed	_	start_char=2209|end_char=2211
+3	të	të	PART	_	_	6	fixed	_	start_char=2212|end_char=2214
+4	duhet	duhem	AUX	_	_	6	aux	_	start_char=2215|end_char=2220
+5	të	të	PART	_	_	6	fixed	_	start_char=2221|end_char=2223
+6	jetojmë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2224|end_char=2231
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=2232|end_char=2234
+8	virusin”	virusin”	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=2235|end_char=2243|SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	start_char=2243|end_char=2244
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=2245|end_char=2248
+11	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2249|end_char=2255|SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	start_char=2255|end_char=2256
+
+# text = “Ne duhej ta vendosnim këtë bllokim të paparë dhe tani ka ardhur koha të fillojmë një fazë të re, ku duhet të vazhdojmë të trajtojmë epideminë, duke mbajtur ende jetën e një kombi të lirë”.
+# sent_id = 21
+1	“	"	PUNCT	_	_	2	punct	_	start_char=2257|end_char=2258|SpaceAfter=No
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=2258|end_char=2260
+3	duhej	duhem	AUX	_	Mood=Ind	6	aux	_	start_char=2261|end_char=2266
+4-5	ta	_	_	_	_	_	_	_	start_char=2267|end_char=2269
+4	të	të	PART	_	_	6	fixed	_	_
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	vendosnim	vendosn	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=2270|end_char=2279
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=2280|end_char=2284
+8	bllokim	bllokim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=2285|end_char=2292
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=2293|end_char=2295
+10	paparë	paparë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=2296|end_char=2302
+11	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=2303|end_char=2306
+12	tani	tani	ADV	_	AdvType=Tim	14	advmod	_	start_char=2307|end_char=2311
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=2312|end_char=2314
+14	ardhur	vij	VERB	_	VerbForm=Part	6	conj	_	start_char=2315|end_char=2321
+15	koha	kohë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=2322|end_char=2326
+16	të	të	PART	_	_	17	fixed	_	start_char=2327|end_char=2329
+17	fillojmë	filloj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	14	ccomp	_	start_char=2330|end_char=2338
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=2339|end_char=2342
+19	fazë	fazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=2343|end_char=2347
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=2348|end_char=2350
+21	re	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=2351|end_char=2353|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=2353|end_char=2354
+23	ku	ku	ADV	_	AdvType=Loc	26	advmod	_	start_char=2355|end_char=2357
+24	duhet	duhem	AUX	_	_	26	aux	_	start_char=2358|end_char=2363
+25	të	të	PART	_	_	26	fixed	_	start_char=2364|end_char=2366
+26	vazhdojmë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	17	advcl	_	start_char=2367|end_char=2376
+27	të	të	PART	_	_	28	fixed	_	start_char=2377|end_char=2379
+28	trajtojmë	trajtoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	26	ccomp	_	start_char=2380|end_char=2389
+29	epideminë	epidemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=2390|end_char=2399|SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	start_char=2399|end_char=2400
+31	duke	duke	PART	_	_	32	fixed	_	start_char=2401|end_char=2405
+32	mbajtur	mbaj	VERB	_	VerbForm=Part	28	advmod	_	start_char=2406|end_char=2413
+33	ende	ende	ADV	_	AdvType=Tim	32	advmod	_	start_char=2414|end_char=2418
+34	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=2419|end_char=2424
+35	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=2425|end_char=2426
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=2427|end_char=2430
+37	kombi	komb	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	start_char=2431|end_char=2436
+38	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	39	det:poss	_	start_char=2437|end_char=2439
+39	lirë”	lirë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=2440|end_char=2445|SpaceAfter=No
+40	.	.	PUNCT	_	_	32	punct	_	start_char=2445|end_char=2446|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 22
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=2447|end_char=2449
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2450|end_char=2460|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=2460|end_char=2461|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=2462|end_char=2466
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=2467|end_char=2469
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=2470|end_char=2473
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=2474|end_char=2478|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=2479|end_char=2497|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=2498|end_char=2507
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=2508|end_char=2520
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=2521|end_char=2527|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=2528|end_char=2537
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=2538|end_char=2550
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=2551|end_char=2558|SpacesAfter=\n\n\n
+

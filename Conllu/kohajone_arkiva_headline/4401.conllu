@@ -1,0 +1,291 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Skuqet” Evropa:
+# sent_id = 1
+1	Skuqet”	Skuqet”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1|end_char=8
+2	Evropa	Evropë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=9|end_char=15|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=15|end_char=16
+
+# text = Numër rekord të infektuarish në disa shtete, vendosen masa strikte anti-Covid Evropa është zyrtarisht duke u përballur me valën e dytë të koronavirusit.
+# sent_id = 2
+1	Numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	start_char=17|end_char=22
+2	rekord	rekord	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=23|end_char=29
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=30|end_char=32
+4	infektuarish	infektuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=33|end_char=45
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=46|end_char=48
+6	disa	disa	PRON	_	PronType=Ind	7	nummod	_	start_char=49|end_char=53
+7	shtete	shtet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=54|end_char=60|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=60|end_char=61
+9	vendosen	vendos	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=62|end_char=70
+10	masa	masë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	start_char=71|end_char=75
+11	strikte	strikt	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=76|end_char=83
+12	anti-Covid	anti-Covid	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=84|end_char=94|SpacesAfter=\n
+13	Evropa	Evropë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=95|end_char=101
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=102|end_char=107
+15	zyrtarisht	zyrtarisht	ADV	_	AdvType=Man	14	advmod	_	start_char=108|end_char=118
+16	duke	duke	PART	_	_	18	fixed	_	start_char=119|end_char=123
+17	u	u	PART	_	_	18	fixed	_	start_char=124|end_char=125
+18	përballur	përballoj	VERB	_	VerbForm=Part	14	advmod	_	start_char=126|end_char=135
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=136|end_char=138
+20	valën	valë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=139|end_char=144
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=145|end_char=146
+22	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=147|end_char=151
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=152|end_char=154
+24	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=155|end_char=168|SpaceAfter=No
+25	.	.	PUNCT	_	_	14	punct	_	start_char=168|end_char=169
+
+# text = Një numër i madhe shtetesh janë duke regjistruar shifra rekord rastesh të reja ndërsa po vendosen edhe masa të reja kufizuese me qëllim përmbajtjen e përhapjes së virusit.
+# sent_id = 3
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=170|end_char=173
+2	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=174|end_char=179
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=180|end_char=181
+4	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=182|end_char=187
+5	shtetesh	shtetesh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=188|end_char=196
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=197|end_char=201
+7	duke	duke	PART	_	_	8	fixed	_	start_char=202|end_char=206
+8	regjistruar	regjistroj	VERB	_	VerbForm=Part	6	advmod	_	start_char=207|end_char=218
+9	shifra	shifër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=219|end_char=225
+10	rekord	rekord	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=226|end_char=232
+11	rastesh	rastesh	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=233|end_char=240
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=241|end_char=243
+13	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=244|end_char=248
+14	ndërsa	ndërsa	CCONJ	_	_	16	cc	_	start_char=249|end_char=255
+15	po	po	PART	_	_	16	mark	_	start_char=256|end_char=258
+16	vendosen	vendos	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	8	conj	_	start_char=259|end_char=267
+17	edhe	edhe	PART	_	_	18	mark	_	start_char=268|end_char=272
+18	masa	masë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=273|end_char=277
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=278|end_char=280
+20	reja	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=281|end_char=285
+21	kufizuese	kufizues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=286|end_char=295
+22	me	me	ADP	_	Case=Acc	24	case	_	start_char=296|end_char=298
+23	qëllim	qëllim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	det	_	start_char=299|end_char=305
+24	përmbajtjen	përmbajtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=306|end_char=317
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=318|end_char=319
+26	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=320|end_char=329
+27	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=330|end_char=332
+28	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=333|end_char=340|SpaceAfter=No
+29	.	.	PUNCT	_	_	16	punct	_	start_char=340|end_char=341|SpacesAfter=\n
+
+# text = Në Greqi hynë në fuqi të shtunën masat e reja anti-Covid ndërsa Italia prej disa ditësh tashmë ka shtyrë gjendjen e jashtëzakonshme dhe ka vendosur masa të reja shtrënguese.
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=342|end_char=344
+2	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=345|end_char=350
+3	hynë	hyj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=351|end_char=355
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=356|end_char=358
+5	fuqi	fuqi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=359|end_char=363
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=364|end_char=366
+7	shtunën	shtunë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=367|end_char=374
+8	masat	masat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=375|end_char=380
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=381|end_char=382
+10	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=383|end_char=387
+11	anti-Covid	anti-Covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=388|end_char=398
+12	ndërsa	ndërsa	CCONJ	_	_	13	cc	_	start_char=399|end_char=405
+13	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	start_char=406|end_char=412
+14	prej	prej	ADP	_	Case=Abl	16	case	_	start_char=413|end_char=417
+15	disa	disa	PRON	_	PronType=Ind	16	nummod	_	start_char=418|end_char=422
+16	ditësh	ditë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	19	advmod	_	start_char=423|end_char=429
+17	tashmë	tashmë	ADV	_	AdvType=Tim	19	advmod	_	start_char=430|end_char=436
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=437|end_char=439
+19	shtyrë	shtyr	VERB	_	VerbForm=Part	3	conj	_	start_char=440|end_char=446
+20	gjendjen	gjendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=447|end_char=455
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=456|end_char=457
+22	jashtëzakonshme	jashtëzakonshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=458|end_char=473
+23	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=474|end_char=477
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=478|end_char=480
+25	vendosur	vendos	VERB	_	VerbForm=Part	19	conj	_	start_char=481|end_char=489
+26	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obj	_	start_char=490|end_char=494
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=495|end_char=497
+28	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=498|end_char=502
+29	shtrënguese	shtrëngues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=503|end_char=514|SpaceAfter=No
+30	.	.	PUNCT	_	_	25	punct	_	start_char=514|end_char=515
+
+# text = Gjermania nga ana tjetër, regjistron në ditën e dytë radhazi mbi 10,000 raste ditore me Covid-19.
+# sent_id = 5
+1	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=516|end_char=525
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=526|end_char=529
+3	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=530|end_char=533
+4	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	amod	_	start_char=534|end_char=540|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=540|end_char=541
+6	regjistron	regjistroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=542|end_char=552
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=553|end_char=555
+8	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=556|end_char=561
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=562|end_char=563
+10	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=564|end_char=568
+11	radhazi	radhazi	ADV	_	AdvType=Deg	8	amod	_	start_char=569|end_char=576
+12	mbi	mbi	ADP	_	Case=Acc	13	case	_	start_char=577|end_char=580
+13	10	10	NUM	_	NumType=Card	6	advmod	_	start_char=581|end_char=583|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=583|end_char=584|SpaceAfter=No
+15	000	000	NUM	_	NumType=Card	16	nummod	_	start_char=584|end_char=587
+16	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=588|end_char=593
+17	ditore	ditor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=594|end_char=600
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=601|end_char=603
+19	Covid-19	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=604|end_char=612|SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	start_char=612|end_char=613|SpacesAfter=\n
+
+# text = Ndërkohë, Spanja dhe Franca e kanë tejkaluar tashmë shifrën e 1 milion të infektuarve që nga fillimi i pandemisë e deri më tani.
+# sent_id = 6
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	8	advmod	_	start_char=614|end_char=622|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=622|end_char=623
+3	Spanja	Spanjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=624|end_char=630
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=631|end_char=634
+5	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	start_char=635|end_char=641
+6	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	cc	_	start_char=642|end_char=643
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=644|end_char=648
+8	tejkaluar	tejkaloj	VERB	_	VerbForm=Part	0	root	_	start_char=649|end_char=658
+9	tashmë	tashmë	ADV	_	AdvType=Deg	8	advmod	_	start_char=659|end_char=665
+10	shifrën	shifrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=666|end_char=673
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=674|end_char=675
+12	1	1	NUM	_	NumType=Card	13	nummod	_	start_char=676|end_char=677
+13	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=678|end_char=684
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=685|end_char=687
+15	infektuarve	infektuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=688|end_char=699
+16	që	që	PRON	_	PronType=Rel	18	mark	_	start_char=700|end_char=702
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=703|end_char=706
+18	fillimi	fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=707|end_char=714
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=715|end_char=716
+20	pandemisë	pandemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=717|end_char=726
+21	e	e	CCONJ	_	_	24	cc	_	start_char=727|end_char=728
+22	deri	deri	ADP	_	Case=Acc	24	case	_	start_char=729|end_char=733
+23	më	më	PART	_	_	24	mark	_	start_char=734|end_char=736
+24	tani	tani	ADV	_	AdvType=Tim	8	advmod	_	start_char=737|end_char=741|SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	start_char=741|end_char=742
+
+# text = Konkretisht, Franca numëron 1,041,991 të infektuar ndërsa Spanja 1,026,281 raste.
+# sent_id = 7
+1	Konkretisht	konkretisht	ADV	_	AdvType=Man	4	advmod	_	start_char=743|end_char=754|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=754|end_char=755
+3	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=756|end_char=762
+4	numëron	numëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=763|end_char=770
+5	1	1	NUM	_	NumType=Card	4	advmod	_	start_char=771|end_char=772|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=772|end_char=773|SpaceAfter=No
+7	041	041	NUM	_	NumType=Card	5	list	_	start_char=773|end_char=776|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=776|end_char=777|SpaceAfter=No
+9	991	991	NUM	_	NumType=Card	11	nummod	_	start_char=777|end_char=780
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=781|end_char=783
+11	infektuar	infektuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	start_char=784|end_char=793
+12	ndërsa	ndërsa	CCONJ	_	_	13	cc	_	start_char=794|end_char=800
+13	Spanja	Spanjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	start_char=801|end_char=807
+14	1,	1,	PROPN	_	Foreign=Yes	13	flat	_	start_char=808|end_char=810|SpaceAfter=No
+15	026	026	X	_	Abbr=Yes	14	flat	_	start_char=810|end_char=813|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=813|end_char=814|SpaceAfter=No
+17	281	281	NUM	_	NumType=Card	18	nummod	_	start_char=814|end_char=817
+18	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	start_char=818|end_char=823|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	start_char=823|end_char=824|SpacesAfter=\n
+
+# text = Ndërkohë, Qendra Evropoane për Kontrollin e Sëmundjeve ka publikuar një hartë lidhur me situatën epidemiologjike në kontinentin e vjetër.
+# sent_id = 8
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	10	advmod	_	start_char=825|end_char=833|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=833|end_char=834
+3	Qendra	qendër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=835|end_char=841
+4	Evropoane	Evropoan	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	flat	_	start_char=842|end_char=851
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=852|end_char=855
+6	Kontrollin	Kontroll	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=856|end_char=866
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=867|end_char=868
+8	Sëmundjeve	sëmundje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=869|end_char=879
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=880|end_char=882
+10	publikuar	publikoj	VERB	_	VerbForm=Part	0	root	_	start_char=883|end_char=892
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=893|end_char=896
+12	hartë	hartë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=897|end_char=902
+13	lidhur	lidh	VERB	_	VerbForm=Part	10	ccomp	_	start_char=903|end_char=909
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=910|end_char=912
+15	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=913|end_char=921
+16	epidemiologjike	epidemiologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=922|end_char=937
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=938|end_char=940
+18	kontinentin	kontinent	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=941|end_char=952
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=953|end_char=954
+20	vjetër	vjetër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=955|end_char=961|SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	start_char=961|end_char=962
+
+# text = Siç duket edhe nga harta, Evropa tashmë është “skuqur” sërish.
+# sent_id = 9
+1	Siç	siç	SCONJ	_	_	2	mark	_	start_char=963|end_char=966
+2	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	advcl	_	start_char=967|end_char=972
+3	edhe	edhe	PART	_	_	5	cc	_	start_char=973|end_char=977
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=978|end_char=981
+5	harta	hartë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=982|end_char=987|SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	start_char=987|end_char=988
+7	Evropa	Evropë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=989|end_char=995
+8	tashmë	tashmë	ADV	_	AdvType=Tim	9	advmod	_	start_char=996|end_char=1002
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1003|end_char=1008
+10	“	"	PUNCT	_	_	11	punct	_	start_char=1009|end_char=1010|SpaceAfter=No
+11	skuqur”	skuqur”	ADV	_	AdvType=Deg	9	advmod	_	start_char=1010|end_char=1017
+12	sërish	sërish	ADV	_	AdvType=Man	11	advmod	_	start_char=1018|end_char=1024|SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	start_char=1024|end_char=1025|SpacesAfter=\n
+
+# text = Treguesi i përbërë i përdorur nga ECDC (numri rekord i rasteve për 100,000 banorë në 14 ditët e fundit dhe i kombinuar me përqindjen e testeve pozitive) reflekton si shkallën e përhapjes së sëmundjes, ashtu edhe depërtimin e mundshëm të komunitetit.
+# sent_id = 10
+1	Treguesi	tregues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	nsubj	_	start_char=1026|end_char=1034
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1035|end_char=1036
+3	përbërë	përbërë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1037|end_char=1044
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1045|end_char=1046
+5	përdorur	përdor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1047|end_char=1055
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=1056|end_char=1059
+7	ECDC	ECDC	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=1060|end_char=1064
+8	(numri	(numr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=1065|end_char=1071
+9	rekord	rekord	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=1072|end_char=1078
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=1079|end_char=1080
+11	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=1081|end_char=1088
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=1089|end_char=1092
+13	100	100	NUM	_	NumType=Card	11	nummod	_	start_char=1093|end_char=1096|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1096|end_char=1097|SpaceAfter=No
+15	000	000	NUM	_	NumType=Card	16	nummod	_	start_char=1097|end_char=1100
+16	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	list	_	start_char=1101|end_char=1107
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=1108|end_char=1110
+18	14	14	NUM	_	NumType=Card	19	nummod	_	start_char=1111|end_char=1113
+19	ditët	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=1114|end_char=1119
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=1120|end_char=1121
+21	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=1122|end_char=1128
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=1129|end_char=1132
+23	i	i	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=1133|end_char=1134
+24	kombinuar	kombinuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	conj	_	start_char=1135|end_char=1144
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=1145|end_char=1147
+26	përqindjen	përqindje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	advmod	_	start_char=1148|end_char=1158
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=1159|end_char=1160
+28	testeve	testev	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	start_char=1161|end_char=1168
+29	pozitive	pozitiv	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=1169|end_char=1177|SpaceAfter=No
+30	)	)	PUNCT	_	_	31	punct	_	start_char=1177|end_char=1178
+31	reflekton	reflektoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1179|end_char=1188
+32	si	si	SCONJ	_	_	33	mark	_	start_char=1189|end_char=1191
+33	shkallën	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obj	_	start_char=1192|end_char=1200
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=1201|end_char=1202
+35	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=1203|end_char=1212
+36	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=1213|end_char=1215
+37	sëmundjes	sëmundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=1216|end_char=1225|SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	start_char=1225|end_char=1226
+39	ashtu	ashtu	ADV	_	AdvType=Man	41	mark	_	start_char=1227|end_char=1232
+40	edhe	edhe	CCONJ	_	_	41	mark	_	start_char=1233|end_char=1237
+41	depërtimin	depërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	33	conj	_	start_char=1238|end_char=1248
+42	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=1249|end_char=1250
+43	mundshëm	mundshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=1251|end_char=1259
+44	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	45	det:poss	_	start_char=1260|end_char=1262
+45	komunitetit	komunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	41	nmod	_	start_char=1263|end_char=1274|SpaceAfter=No
+46	.	.	PUNCT	_	_	31	punct	_	start_char=1274|end_char=1275|SpacesAfter=\n\n
+
+# text = /abcnews.al/
+# sent_id = 11
+1	/abcnews.al	/abcnews.al	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1277|end_char=1288|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1288|end_char=1289|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROI
+# sent_id = 12
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1290|end_char=1292
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1293|end_char=1303|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1303|end_char=1304|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1305|end_char=1309
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1310|end_char=1312
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1313|end_char=1316
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1317|end_char=1321|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1322|end_char=1340|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1341|end_char=1350
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1351|end_char=1363
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1364|end_char=1370|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1371|end_char=1380
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1381|end_char=1393
+14	ANDROI	ANDROI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1394|end_char=1400|SpaceAfter=No
+
+# text = D
+# sent_id = 13
+1	D	D	PUNCT	_	_	0	root	_	start_char=1400|end_char=1401|SpacesAfter=\n\n\n
+

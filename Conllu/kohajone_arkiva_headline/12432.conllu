@@ -1,0 +1,229 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Një humbje që të plas shpirtin”
+# sent_id = 1
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1|end_char=4
+2	humbje	humbje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=5|end_char=11
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=12|end_char=14
+4	të	të	PART	_	_	5	fixed	_	start_char=15|end_char=17
+5	plas	plaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=18|end_char=22
+6	shpirtin	shpirt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=23|end_char=31|SpaceAfter=No
+7	”	"	PUNCT	_	_	5	punct	_	start_char=31|end_char=32|SpacesAfter=\n
+
+# text = Ai ndoshta e ka vuajtur më shumë se të gjithë humbjen e sotme, pasi nuk ka arritur dot ta ndihmojë ekipin e vet.
+# sent_id = 2
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	fixed	_	start_char=33|end_char=35
+2	ndoshta	ndoshta	SCONJ	_	_	5	mark	_	start_char=36|end_char=43
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	cc	_	start_char=44|end_char=45
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=46|end_char=48
+5	vuajtur	vuajtur	VERB	_	VerbForm=Part	0	root	_	start_char=49|end_char=56
+6	më	më	PART	_	_	7	mark	_	start_char=57|end_char=59
+7	shumë	shumë	ADV	_	AdvType=Deg	5	advmod	_	start_char=60|end_char=65
+8	se	se	SCONJ	_	_	5	mark	_	start_char=66|end_char=68
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=69|end_char=71
+10	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	start_char=72|end_char=78
+11	humbjen	humbje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=79|end_char=86
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=87|end_char=88
+13	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=89|end_char=94|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=94|end_char=95
+15	pasi	pasi	SCONJ	_	_	18	mark	_	start_char=96|end_char=100
+16	nuk	nuk	PART	_	_	18	mark	_	start_char=101|end_char=104
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=105|end_char=107
+18	arritur	arrij	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=108|end_char=115
+19	dot	dot	PART	_	_	18	advmod	_	start_char=116|end_char=119
+20-21	ta	_	_	_	_	_	_	_	start_char=120|end_char=122
+20	të	të	PART	_	_	22	fixed	_	_
+21	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	ndihmojë	ndihmoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	18	advcl	_	start_char=123|end_char=131
+23	ekipin	ekip	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=132|end_char=138
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=139|end_char=140
+25	vet	vet	PRON	_	Gender=Masc|PronType=Prs|Reflex=Yes	23	nmod	_	start_char=141|end_char=144|SpaceAfter=No
+26	.	.	PUNCT	_	_	22	punct	_	start_char=144|end_char=145|SpacesAfter=\n
+
+# text = Një mungesë që ka ndikuar shumë në fundin e ndeshjes.
+# sent_id = 3
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=146|end_char=149
+2	mungesë	mungesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=150|end_char=157
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=158|end_char=160
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=161|end_char=163
+5	ndikuar	ndikoj	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=164|end_char=171
+6	shumë	shumë	ADV	_	AdvType=Deg	5	advmod	_	start_char=172|end_char=177
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=178|end_char=180
+8	fundin	fund	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=181|end_char=187
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=188|end_char=189
+10	ndeshjes	ndeshje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=190|end_char=198|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	start_char=198|end_char=199|SpacesAfter=\n
+
+# text = Bëhet fjalë për Mërgim Mavrajn, që shpreh gjithë hidhërimin e tij me anë të këtij statusi.
+# sent_id = 4
+1	Bëhet	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=200|end_char=205
+2	fjalë	fjalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=206|end_char=211
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=212|end_char=215
+4	Mërgim	Mërgim	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=216|end_char=222
+5	Mavrajn	mavraj	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=223|end_char=230|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=230|end_char=231
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=232|end_char=234
+8	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=235|end_char=241
+9	gjithë	gjithë	PRON	_	PronType=Ind	10	det	_	start_char=242|end_char=248
+10	hidhërimin	hidhërim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=249|end_char=259
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=260|end_char=261
+12	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	amod:poss	_	start_char=262|end_char=265
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=266|end_char=268
+14	anë	anë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=269|end_char=272
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=273|end_char=275
+16	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=276|end_char=281
+17	statusi	status	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=282|end_char=289|SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	start_char=289|end_char=290|SpacesAfter=\n
+
+# text = “Të dhëmb shpirti… Humbje shokuese që ta plas zemrën por më shumë se kurrë duhet mbështetja!!!
+# sent_id = 5
+1	“	"	PUNCT	_	_	3	punct	_	start_char=291|end_char=292|SpaceAfter=No
+2	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=292|end_char=294
+3	dhëmb	dhëmb	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=295|end_char=300
+4	shpirti…	shpirtij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=301|end_char=309|SpacesAfter=\n
+5	Humbje	Humbje	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=310|end_char=316
+6	shokuese	shokues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	compound	_	start_char=317|end_char=325
+7	që	që	SCONJ	_	_	10	mark	_	start_char=326|end_char=328
+8-9	ta	_	_	_	_	_	_	_	start_char=329|end_char=331
+8	të	të	PART	_	_	10	fixed	_	_
+9	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	plas	plaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=332|end_char=336
+11	zemrën	zemër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=337|end_char=343
+12	por	por	CCONJ	_	_	14	cc	_	start_char=344|end_char=347
+13	më	më	PART	_	_	14	mark	_	start_char=348|end_char=350
+14	shumë	shumë	ADV	_	AdvType=Deg	16	advmod	_	start_char=351|end_char=356
+15	se	se	SCONJ	_	_	16	mark	_	start_char=357|end_char=359
+16	kurrë	kurrë	ADV	_	AdvType=Tim	18	advmod	_	start_char=360|end_char=365
+17	duhet	duhem	AUX	_	Mood=Ind	18	aux	_	start_char=366|end_char=371
+18	mbështetja!	mbështetje	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	obl	_	start_char=372|end_char=383|SpaceAfter=No
+19	!	!	PUNCT	_	_	18	punct	_	start_char=383|end_char=384|SpaceAfter=No
+20	!	!	PUNCT	_	_	18	punct	_	start_char=384|end_char=385|SpacesAfter=\n
+
+# text = Unë besoj që, ashtu siç kemi pasur fatin kundra në dy ndeshjet e fundit, ashtu do të na buzëqeshë në Armeni.
+# sent_id = 6
+1	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=386|end_char=389
+2	besoj	besoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=390|end_char=395
+3	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=396|end_char=398|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=398|end_char=399
+5	ashtu	ashtu	ADV	_	AdvType=Man	6	fixed	_	start_char=400|end_char=405
+6	siç	siç	SCONJ	_	_	8	mark	_	start_char=406|end_char=409
+7	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	8	aux	_	start_char=410|end_char=414
+8	pasur	kam	VERB	_	VerbForm=Part	2	advcl	_	start_char=415|end_char=420
+9	fatin	fat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=421|end_char=426
+10	kundra	kundra	ADP	_	Case=Abl	13	case	_	start_char=427|end_char=433
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=434|end_char=436
+12	dy	dy	NUM	_	NumType=Card	13	nummod	_	start_char=437|end_char=439
+13	ndeshjet	ndeshje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=440|end_char=448
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=449|end_char=450
+15	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=451|end_char=457|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=457|end_char=458
+17	ashtu	ashtu	ADV	_	AdvType=Man	21	mark	_	start_char=459|end_char=464
+18	do	do	PART	_	_	21	fixed	_	start_char=465|end_char=467
+19	të	të	PART	_	_	21	fixed	_	start_char=468|end_char=470
+20	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	21	obj	_	start_char=471|end_char=473
+21	buzëqeshë	buzëqem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	acl:relcl	_	start_char=474|end_char=483
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=484|end_char=486
+23	Armeni	Armen	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	start_char=487|end_char=493|SpaceAfter=No
+24	.	.	PUNCT	_	_	21	punct	_	start_char=493|end_char=494
+
+# text = Shpresa jonë nuk vdes kurrë prandaj duhet të vazhdojmë të besojmë tek heronjtë tanë.
+# sent_id = 7
+1	Shpresa	shpresë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=495|end_char=502
+2	jonë	jonë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=503|end_char=507
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=508|end_char=511
+4	vdes	vdes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=512|end_char=516
+5	kurrë	kurrë	ADV	_	AdvType=Tim	4	advmod	_	start_char=517|end_char=522
+6	prandaj	prandaj	SCONJ	_	_	9	cc	_	start_char=523|end_char=530
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=531|end_char=536
+8	të	të	PART	_	_	9	fixed	_	start_char=537|end_char=539
+9	vazhdojmë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=540|end_char=549
+10	të	të	PART	_	_	11	fixed	_	start_char=550|end_char=552
+11	besojmë	besoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	ccomp	_	start_char=553|end_char=560
+12	tek	tek	ADP	_	Case=Nom	13	case	_	start_char=561|end_char=564
+13	heronjtë	hero	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	start_char=565|end_char=573
+14	tanë	tanë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod	_	start_char=574|end_char=578|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	start_char=578|end_char=579
+
+# text = Ata ishin të tillë dy orë më parë dhe duhet të vazhdojnë të jenë të tillë edhe pas kësaj disfate! Humbje që dhëmb thellë në shpirt, por dhimbja duhet kthyer në forcë dhe ta realizojmë ëndrrë e madhe !!!
+# sent_id = 8
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=580|end_char=583
+2	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=584|end_char=589
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=590|end_char=592
+4	tillë	tillë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	cop	_	start_char=593|end_char=598
+5	dy	dy	NUM	_	NumType=Card	6	nummod	_	start_char=599|end_char=601
+6	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	cop	_	start_char=602|end_char=605
+7	më	më	PART	_	_	8	mark	_	start_char=606|end_char=608
+8	parë	parë	ADV	_	AdvType=Tim	6	amod	_	start_char=609|end_char=613
+9	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=614|end_char=617
+10	duhet	duhem	AUX	_	_	12	aux	_	start_char=618|end_char=623
+11	të	të	PART	_	_	12	fixed	_	start_char=624|end_char=626
+12	vazhdojnë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=627|end_char=636
+13	të	të	PART	_	_	14	fixed	_	start_char=637|end_char=639
+14	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	csubj	_	start_char=640|end_char=644
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=645|end_char=647
+16	tillë	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	14	cop	_	start_char=648|end_char=653
+17	edhe	edhe	PART	_	_	20	cc	_	start_char=654|end_char=658
+18	pas	pas	ADP	_	Case=Abl	20	case	_	start_char=659|end_char=662
+19	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	start_char=663|end_char=668
+20	disfate	disfat	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	14	advmod	_	start_char=669|end_char=676|SpaceAfter=No
+21	!	!	PUNCT	_	_	22	punct	_	start_char=676|end_char=677|SpacesAfter=\n
+22	Humbje	Humbje	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	appos	_	start_char=678|end_char=684
+23	që	që	PRON	_	PronType=Rel	24	mark	_	start_char=685|end_char=687
+24	dhëmb	dhëmb	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=688|end_char=693
+25	thellë	thellë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=694|end_char=700
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=701|end_char=703
+27	shpirt	shpirt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=704|end_char=710|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=710|end_char=711
+29	por	por	CCONJ	_	_	32	cc	_	start_char=712|end_char=715
+30	dhimbja	dhimbje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	nsubj	_	start_char=716|end_char=723
+31	duhet	duhem	AUX	_	Mood=Ind	32	aux	_	start_char=724|end_char=729
+32	kthyer	kthej	VERB	_	VerbForm=Part	24	acl:relcl	_	start_char=730|end_char=736
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=737|end_char=739
+34	forcë	forcë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obl	_	start_char=740|end_char=745
+35	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=746|end_char=749
+36-37	ta	_	_	_	_	_	_	_	start_char=750|end_char=752
+36	të	të	PART	_	_	38	fixed	_	_
+37	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+38	realizojmë	realizoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	32	conj	_	start_char=753|end_char=763
+39	ëndrrë	ëndrrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	38	obj	_	start_char=764|end_char=770
+40	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	41	det	_	start_char=771|end_char=772
+41	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=773|end_char=778
+42	!	!	PUNCT	_	_	38	punct	_	start_char=779|end_char=780|SpaceAfter=No
+43	!	!	PUNCT	_	_	38	punct	_	start_char=780|end_char=781|SpaceAfter=No
+44	!	!	PUNCT	_	_	38	punct	_	start_char=781|end_char=782|SpacesAfter=\n
+
+# text = Përgjithmonë me ty Shqipëri, je më e mira”, shkruan Mavraj.
+# sent_id = 9
+1	Përgjithmonë	përgjithmonë	ADV	_	AdvType=Tim	11	advmod	_	start_char=783|end_char=795
+2	me	me	ADP	_	Case=Acc	4	case	_	start_char=796|end_char=798
+3	ty	ti	PRON	_	PronType=Ind	4	nummod	_	start_char=799|end_char=801
+4	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=802|end_char=810|SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	start_char=810|end_char=811
+6	je	je	PART	_	_	9	mark	_	start_char=812|end_char=814
+7	më	më	PART	_	_	9	mark	_	start_char=815|end_char=817
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=818|end_char=819
+9	mira”	mira”	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	cop	_	start_char=820|end_char=825|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	start_char=825|end_char=826
+11	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=827|end_char=834
+12	Mavraj	mavraj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=835|end_char=841|SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	start_char=841|end_char=842|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 10
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=843|end_char=845
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=846|end_char=856|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=856|end_char=857|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=858|end_char=862
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=863|end_char=865
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=866|end_char=869
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=870|end_char=874|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=875|end_char=893|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=894|end_char=903
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=904|end_char=916
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=917|end_char=923|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=924|end_char=933
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=934|end_char=946
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=947|end_char=954|SpacesAfter=\n\n\n
+

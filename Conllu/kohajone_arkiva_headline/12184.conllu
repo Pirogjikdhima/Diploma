@@ -1,0 +1,438 @@
+# text = Kjo është Rusia e frikshme Me një kosto prej 70 miliardë dollarësh në vit, Rusia ka buxhetin e tretë më të madh në botë për mbrojtje.
+# sent_id = 0
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9
+3	Rusia	Rusi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=10|end_char=15
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=17
+5	frikshme	frikshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=18|end_char=26|SpacesAfter=\s\n
+6	Me	me	ADP	_	Case=Acc	8	case	_	start_char=28|end_char=30
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=31|end_char=34
+8	kosto	kosto	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=35|end_char=40
+9	prej	prej	ADP	_	Case=Abl	12	case	_	start_char=41|end_char=45
+10	70	70	NUM	_	NumType=Card	11	nummod	_	start_char=46|end_char=48
+11	miliardë	miliardë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	start_char=49|end_char=57
+12	dollarësh	dollarë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=58|end_char=67
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=68|end_char=70
+14	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=71|end_char=74|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=74|end_char=75
+16	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=76|end_char=81
+17	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=82|end_char=84
+18	buxhetin	buxhet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=85|end_char=93
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=94|end_char=95
+20	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=96|end_char=101
+21	më	më	PART	_	_	23	mark	_	start_char=102|end_char=104
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=105|end_char=107
+23	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=108|end_char=112
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=113|end_char=115
+25	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=116|end_char=120
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=121|end_char=124
+27	mbrojtje	mbrojtje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=125|end_char=133|SpaceAfter=No
+28	.	.	PUNCT	_	_	17	punct	_	start_char=133|end_char=134
+
+# text = Shteti rus ka 845 mijë trupa, 22.250 tanke dhe 1399 avionë luftarakë.
+# sent_id = 1
+1	Shteti	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=135|end_char=141
+2	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=142|end_char=145
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=146|end_char=148
+4	845	845	NUM	_	NumType=Card	6	nummod	_	start_char=149|end_char=152
+5	mijë	mijë	NUM	_	NumType=Card	6	nummod	_	start_char=153|end_char=157
+6	trupa	trupë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=158|end_char=163|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=163|end_char=164
+8	22	22	NUM	_	NumType=Card	6	nummod	_	start_char=165|end_char=167|SpaceAfter=No
+9	.	.	PUNCT	_	_	11	punct	_	start_char=167|end_char=168|SpaceAfter=No
+10	250	250	NUM	_	NumType=Card	11	nummod	_	start_char=168|end_char=171
+11	tanke	tank	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	list	_	start_char=172|end_char=177
+12	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=178|end_char=181
+13	1399	1399	NUM	_	NumType=Card	14	nummod	_	start_char=182|end_char=186
+14	avionë	avionë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	conj	_	start_char=187|end_char=193
+15	luftarakë	luftarakë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=194|end_char=203|SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	start_char=203|end_char=204
+
+# text = Edhe pse vendi nuk konsiderohet e njëjta superfuqi që ka qenë më parë, forcat e armatosura ruse, kanë pësuar një transformim të madh që nga rizgjedhja e presidentit Vladimir Putin, në vitin 2012.
+# sent_id = 2
+1	Edhe	edhe	CCONJ	_	_	2	fixed	_	start_char=205|end_char=209
+2	pse	pse	SCONJ	_	_	3	mark	_	start_char=210|end_char=213
+3	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=214|end_char=219
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=220|end_char=223
+5	konsiderohet	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=224|end_char=236
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=237|end_char=238
+7	njëjta	njëjtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	det	_	start_char=239|end_char=245
+8	superfuqi	superfuq	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	cop	_	start_char=246|end_char=255
+9	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=256|end_char=258
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=259|end_char=261
+11	qenë	jam	VERB	_	VerbForm=Part	8	acl:relcl	_	start_char=262|end_char=266
+12	më	më	PART	_	_	13	advmod	_	start_char=267|end_char=269
+13	parë	parë	ADV	_	AdvType=Man	11	advmod	_	start_char=270|end_char=274|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=274|end_char=275
+15	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	nsubj	_	start_char=276|end_char=282
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=283|end_char=284
+17	armatosura	armatosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=285|end_char=295
+18	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=296|end_char=300|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	start_char=300|end_char=301
+20	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=302|end_char=306
+21	pësuar	pësoj	VERB	_	VerbForm=Part	5	conj	_	start_char=307|end_char=313
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=314|end_char=317
+23	transformim	transformim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	start_char=318|end_char=329
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=330|end_char=332
+25	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=333|end_char=337
+26	që	që	PRON	_	PronType=Rel	28	mark	_	start_char=338|end_char=340
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=341|end_char=344
+28	rizgjedhja	rizgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=345|end_char=355
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=356|end_char=357
+30	presidentit	president	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=358|end_char=369
+31	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	appos	_	start_char=370|end_char=378
+32	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	appos	_	start_char=379|end_char=384|SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	start_char=384|end_char=385
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=386|end_char=388
+35	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=389|end_char=394
+36	2012	2012	NUM	_	NumType=Card	35	amod:nummod	_	start_char=395|end_char=399|SpaceAfter=No
+37	.	.	PUNCT	_	_	21	punct	_	start_char=399|end_char=400|SpacesAfter=\n
+
+# text = Ja një rishikim i disa prej makinerive më të fuqishme ushtarake ruse.
+# sent_id = 3
+1	Ja	Ja	SCONJ	_	_	3	mark	_	start_char=401|end_char=403
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=404|end_char=407
+3	rishikim	rishikim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=408|end_char=416
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=417|end_char=418
+5	disa	disa	PRON	_	PronType=Ind	7	nummod	_	start_char=419|end_char=423
+6	prej	prej	ADP	_	Case=Abl	7	case	_	start_char=424|end_char=428
+7	makinerive	makiner	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=429|end_char=439
+8	më	më	PART	_	_	10	mark	_	start_char=440|end_char=442
+9	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=443|end_char=445
+10	fuqishme	fuqishëm	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=446|end_char=454
+11	ushtarake	ushtarak	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=455|end_char=464
+12	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=465|end_char=469|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=469|end_char=470|SpacesAfter=\n
+
+# text = 1 – Hedhësi i raketave të komanduara
+# sent_id = 4
+1	1	1	NUM	_	NumType=Card	2	advmod	_	start_char=471|end_char=472
+2	–	–	PUNCT	_	_	0	root	_	start_char=473|end_char=474
+3	Hedhësi	Hedhësi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=475|end_char=482
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=483|end_char=484
+5	raketave	raketë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=485|end_char=493
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=494|end_char=496
+7	komanduara	komanduar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=497|end_char=507|SpacesAfter=\n\n
+
+# text = Një kombinim i raketahedhësve dhe sistemit të raketave anti-ajrore.
+# sent_id = 5
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=509|end_char=512
+2	kombinim	kombinim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=513|end_char=521
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=522|end_char=523
+4	raketahedhësve	raketahedhësë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=524|end_char=538
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=539|end_char=542
+6	sistemit	sistem	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	start_char=543|end_char=551
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=552|end_char=554
+8	raketave	raketë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=555|end_char=563
+9	anti-ajrore	anti-ajror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=564|end_char=575|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	start_char=575|end_char=576
+
+# text = Sistemi përbëhet nga 12 raketa-lëshues dhe 2 topa automatikë efektivë kundra-airorë që godasin avionë dhe helikopterë, apo dhe raketa balistike.
+# sent_id = 6
+1	Sistemi	sistem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=577|end_char=584
+2	përbëhet	përbëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=585|end_char=593
+3	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=594|end_char=597
+4	12	12	NUM	_	NumType=Card	5	nummod	_	start_char=598|end_char=600
+5	raketa-lëshues	raketa-lëshues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	start_char=601|end_char=615
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=616|end_char=619
+7	2	2	NUM	_	NumType=Card	8	nummod	_	start_char=620|end_char=621
+8	topa	top	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	start_char=622|end_char=626
+9	automatikë	automatikë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=627|end_char=637
+10	efektivë	efekti	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	start_char=638|end_char=646
+11	kundra-airorë	kundra-airorë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=647|end_char=660
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=661|end_char=663
+13	godasin	godas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=664|end_char=671
+14	avionë	avionë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	start_char=672|end_char=678
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=679|end_char=682
+16	helikopterë	helikopterë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	conj	_	start_char=683|end_char=694|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=694|end_char=695
+18	apo	apo	CCONJ	_	_	20	cc	_	start_char=696|end_char=699
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=700|end_char=703
+20	raketa	raketë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	conj	_	start_char=704|end_char=710
+21	balistike	balistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=711|end_char=720|SpaceAfter=No
+22	.	.	PUNCT	_	_	13	punct	_	start_char=720|end_char=721|SpacesAfter=\n
+
+# text = 3 – Një nëndetëse thuajse e padukshme
+# sent_id = 7
+1	3	3	NUM	_	NumType=Card	2	advmod	_	start_char=722|end_char=723
+2	–	–	PUNCT	_	_	0	root	_	start_char=724|end_char=725
+3	Një	një	DET	_	Definite=Ind	4	det	_	start_char=726|end_char=729
+4	nëndetëse	nëndetës	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	cop	_	start_char=730|end_char=739
+5	thuajse	thuajs	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=740|end_char=747
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=748|end_char=749
+7	padukshme	padukshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=750|end_char=759|SpacesAfter=\n\n
+
+# text = I dobishëm qoftë për luftimet ajër-ajër, interceptimet (gjuajtës kapës) ashtu edhe për goditjet preccise në tokë.
+# sent_id = 8
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=761|end_char=762
+2	dobishëm	dobishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=763|end_char=771
+3	qoftë	qoftë	CCONJ	_	_	5	cc	_	start_char=772|end_char=777
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=778|end_char=781
+5	luftimet	luftim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=782|end_char=790
+6	ajër-ajër	ajër-ajër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=791|end_char=800|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=800|end_char=801
+8	interceptimet	interceptim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	list	_	start_char=802|end_char=815
+9	(	(	PUNCT	_	_	10	punct	_	start_char=816|end_char=817|SpaceAfter=No
+10	gjuajtës	gjuajtë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	list	_	start_char=817|end_char=825
+11	kapës	kapë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=826|end_char=831|SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	start_char=831|end_char=832
+13	ashtu	ashtu	ADV	_	AdvType=Man	14	fixed	_	start_char=833|end_char=838
+14	edhe	edhe	CCONJ	_	_	16	mark	_	start_char=839|end_char=843
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=844|end_char=847
+16	goditjet	goditje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	list	_	start_char=848|end_char=856
+17	preccise	preccis	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=857|end_char=865
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=866|end_char=868
+19	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=869|end_char=873|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	start_char=873|end_char=874
+
+# text = I aftë të arrijë një shpejtësi prej 2400 km/h, pavarësisht se është 30% më i madh se paraardhësit e tij.
+# sent_id = 9
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	fixed	_	start_char=875|end_char=876
+2	aftë	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=877|end_char=881
+3	të	të	PART	_	_	4	fixed	_	start_char=882|end_char=884
+4	arrijë	arrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	csubj	_	start_char=885|end_char=891
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=892|end_char=895
+6	shpejtësi	shpejtësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=896|end_char=905
+7	prej	prej	ADP	_	Case=Abl	9	case	_	start_char=906|end_char=910
+8	2400	2400	NUM	_	NumType=Card	9	nummod	_	start_char=911|end_char=915
+9	km/h	km/h	SYM	_	_	6	nmod	_	start_char=916|end_char=920|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=920|end_char=921
+11	pavarësisht	pavarësisht	ADV	_	AdvType=Man	12	fixed	_	start_char=922|end_char=933
+12	se	se	SCONJ	_	_	13	mark	_	start_char=934|end_char=936
+13	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=937|end_char=942
+14	30	30	NUM	_	NumType=Card	15	nummod	_	start_char=943|end_char=945|SpaceAfter=No
+15	%	%	SYM	_	_	13	cop	_	start_char=945|end_char=946
+16	më	më	PART	_	_	18	mark	_	start_char=947|end_char=949
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=950|end_char=951
+18	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=952|end_char=956
+19	se	se	SCONJ	_	_	20	mark	_	start_char=957|end_char=959
+20	paraardhësit	paraardhës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	cop	_	start_char=960|end_char=972
+21	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	22	det:poss	_	start_char=973|end_char=974
+22	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	amod:poss	_	start_char=975|end_char=978|SpaceAfter=No
+23	.	.	PUNCT	_	_	13	punct	_	start_char=978|end_char=979
+
+# text = Mig-35 është i aftë të shkatërrojë objektivat e tij si në det ashtu dhe në tokë nga një largësi e madhe.
+# sent_id = 10
+1	Mig-35	Mig-35	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=980|end_char=986
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=987|end_char=992
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=993|end_char=994
+4	aftë	aftë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	start_char=995|end_char=999
+5	të	të	PART	_	_	6	fixed	_	start_char=1000|end_char=1002
+6	shkatërrojë	shkatërroj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	xcomp	_	start_char=1003|end_char=1014
+7	objektivat	objektivë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=1015|end_char=1025
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=1026|end_char=1027
+9	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=1028|end_char=1031
+10	si	si	SCONJ	_	_	12	mark	_	start_char=1032|end_char=1034
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=1035|end_char=1037
+12	det	det	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=1038|end_char=1041
+13	ashtu	ashtu	ADV	_	AdvType=Man	14	fixed	_	start_char=1042|end_char=1047
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=1048|end_char=1051
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=1052|end_char=1054
+16	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	conj	_	start_char=1055|end_char=1059
+17	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=1060|end_char=1063
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=1064|end_char=1067
+19	largësi	largës	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=1068|end_char=1075
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1076|end_char=1077
+21	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1078|end_char=1083|SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	start_char=1083|end_char=1084|SpacesAfter=\n
+
+# text = 5 – Sistemi i raketave BUK-2
+# sent_id = 11
+1	5	5	NUM	_	NumType=Card	2	advmod	_	start_char=1085|end_char=1086
+2	–	–	PUNCT	_	_	0	root	_	start_char=1087|end_char=1088
+3	Sistemi	sistem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=1089|end_char=1096
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=1097|end_char=1098
+5	raketave	raketë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=1099|end_char=1107
+6	BUK-2	BUK-2	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=1108|end_char=1113|SpacesAfter=\n\n
+
+# text = Një sistem raketash balistike termobërthamore, që mund të arrijë deri në 10 mijë milje.
+# sent_id = 12
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1115|end_char=1118
+2	sistem	sistem	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1119|end_char=1125
+3	raketash	raketash	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=1126|end_char=1134
+4	balistike	balistik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1135|end_char=1144
+5	termobërthamore	termobërthamor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1145|end_char=1160|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1160|end_char=1161
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=1162|end_char=1164
+8	mund	mund	AUX	_	_	10	aux	_	start_char=1165|end_char=1169
+9	të	të	PART	_	_	10	fixed	_	start_char=1170|end_char=1172
+10	arrijë	arrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=1173|end_char=1179
+11	deri	deri	PART	_	_	12	fixed	_	start_char=1180|end_char=1184
+12	në	në	ADP	_	Case=Acc	15	case	_	start_char=1185|end_char=1187
+13	10	10	NUM	_	NumType=Card	10	obl	_	start_char=1188|end_char=1190
+14	mijë	mijë	NUM	_	NumType=Card	15	nummod	_	start_char=1191|end_char=1195
+15	milje	milje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	start_char=1196|end_char=1201|SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	start_char=1201|end_char=1202
+
+# text = E projektuar për të zëvendësuar raketat “Topol-M”, janë vendosur në punë që nga viti 2010.
+# sent_id = 13
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1203|end_char=1204
+2	projektuar	projektuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	dislocated	_	start_char=1205|end_char=1215
+3	për	për	PART	_	_	5	fixed	_	start_char=1216|end_char=1219
+4	të	të	PART	_	_	5	fixed	_	start_char=1220|end_char=1222
+5	zëvendësuar	zëvëndësoj	VERB	_	VerbForm=Part	11	advmod	_	start_char=1223|end_char=1234
+6	raketat	raketë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=1235|end_char=1242
+7	“	"	PUNCT	_	_	8	punct	_	start_char=1243|end_char=1244|SpaceAfter=No
+8	Topol-M”	Topol-M”	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=1244|end_char=1252|SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	start_char=1252|end_char=1253
+10	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=1254|end_char=1258
+11	vendosur	vendos	VERB	_	VerbForm=Part	0	root	_	start_char=1259|end_char=1267
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1268|end_char=1270
+13	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=1271|end_char=1275
+14	që	që	PART	_	_	16	mark	_	start_char=1276|end_char=1278
+15	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=1279|end_char=1282
+16	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=1283|end_char=1287
+17	2010	2010	NUM	_	NumType=Card	16	amod:nummod	_	start_char=1288|end_char=1292|SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	start_char=1292|end_char=1293
+
+# text = Çdo raketë është Testatë “Multiplat” (shumë kokëshe) dhe ka fuqinë e 100 “Little Boys” – bombës atomike që u hodh në Hiroshima në gusht të vitit 1945.
+# sent_id = 14
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=1294|end_char=1297
+2	raketë	raketë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1298|end_char=1304
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1305|end_char=1310
+4	Testatë	Testatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1311|end_char=1318
+5	“	"	PUNCT	_	_	6	punct	_	start_char=1319|end_char=1320|SpaceAfter=No
+6	Multiplat”	Multiplat”	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	flat	_	start_char=1320|end_char=1330
+7	(	(	PUNCT	_	_	9	punct	_	start_char=1331|end_char=1332|SpaceAfter=No
+8	shumë	shumë	ADV	_	AdvType=Deg	9	advmod	_	start_char=1332|end_char=1337
+9	kokëshe	kokësh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	start_char=1338|end_char=1345|SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	start_char=1345|end_char=1346
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=1347|end_char=1350
+12	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=1351|end_char=1353
+13	fuqinë	fuqi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=1354|end_char=1360
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1361|end_char=1362
+15	100	100	NUM	_	NumType=Card	17	nummod	_	start_char=1363|end_char=1366
+16	“	"	PUNCT	_	_	17	punct	_	start_char=1367|end_char=1368|SpaceAfter=No
+17	Little	Little	PROPN	_	Foreign=Yes	13	nmod	_	start_char=1368|end_char=1374
+18	Boys”	Boys”	PROPN	_	Foreign=Yes	17	flat	_	start_char=1375|end_char=1380
+19	–	–	PUNCT	_	_	20	punct	_	start_char=1381|end_char=1382
+20	bombës	bombë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	list	_	start_char=1383|end_char=1389
+21	atomike	atomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1390|end_char=1397
+22	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=1398|end_char=1400
+23	u	u	PART	_	_	24	fixed	_	start_char=1401|end_char=1402
+24	hodh	hedh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	20	acl:relcl	_	start_char=1403|end_char=1407
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=1408|end_char=1410
+26	Hiroshima	Hiroshimë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=1411|end_char=1420
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=1421|end_char=1423
+28	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	start_char=1424|end_char=1429
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=1430|end_char=1432
+30	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=1433|end_char=1438
+31	1945	1945	NUM	_	NumType=Card	30	amod:nummod	_	start_char=1439|end_char=1443|SpaceAfter=No
+32	.	.	PUNCT	_	_	24	punct	_	start_char=1443|end_char=1444|SpacesAfter=\n
+
+# text = 7 – “Konkordi” rus
+# sent_id = 15
+1	7	7	NUM	_	NumType=Card	2	nsubj	_	start_char=1445|end_char=1446
+2	–	–	PUNCT	_	_	0	root	_	start_char=1447|end_char=1448
+3	“	"	PUNCT	_	_	4	punct	_	start_char=1449|end_char=1450|SpaceAfter=No
+4	Konkordi”	Konkordi”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1450|end_char=1459
+5	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1460|end_char=1463|SpacesAfter=\n\n
+
+# text = Tanku luftarak më i avancuar i përdorur ndonjëherë nga forcat e armatosura ruse.
+# sent_id = 16
+1	Tanku	tank	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1465|end_char=1470
+2	luftarak	luftarak	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1471|end_char=1479
+3	më	më	PART	_	_	5	mark	_	start_char=1480|end_char=1482
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1483|end_char=1484
+5	avancuar	avancuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1485|end_char=1493
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1494|end_char=1495
+7	përdorur	përdor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1496|end_char=1504
+8	ndonjëherë	ndonjëherë	ADV	_	AdvType=Tim	5	advmod	_	start_char=1505|end_char=1515
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=1516|end_char=1519
+10	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=1520|end_char=1526
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=1527|end_char=1528
+12	armatosura	armatosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1529|end_char=1539
+13	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1540|end_char=1544|SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	start_char=1544|end_char=1545
+
+# text = Arma e saj kryesore është topi kryesor, por gjithashtu përmban edhe një grup armësh automatike të telekomanduara kundër avionëve.
+# sent_id = 17
+1	Arma	armë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1546|end_char=1550
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=1551|end_char=1552
+3	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=1553|end_char=1556
+4	kryesore	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=1557|end_char=1565
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1566|end_char=1571
+6	topi	top	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	cop	_	start_char=1572|end_char=1576
+7	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1577|end_char=1584|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1584|end_char=1585
+9	por	por	CCONJ	_	_	11	cc	_	start_char=1586|end_char=1589
+10	gjithashtu	gjithashtu	ADV	_	AdvType=Man	11	advmod	_	start_char=1590|end_char=1600
+11	përmban	përmbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=1601|end_char=1608
+12	edhe	edhe	PART	_	_	14	mark:emph	_	start_char=1609|end_char=1613
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=1614|end_char=1617
+14	grup	grup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=1618|end_char=1622
+15	armësh	armësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=1623|end_char=1629
+16	automatike	automatik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=1630|end_char=1640
+17	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=1641|end_char=1643
+18	telekomanduara	telekomanduar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1644|end_char=1658
+19	kundër	kundër	ADP	_	Case=Abl	20	case	_	start_char=1659|end_char=1665
+20	avionëve	avion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	18	advmod	_	start_char=1666|end_char=1674|SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	start_char=1674|end_char=1675|SpacesAfter=\n
+
+# text = 9 – Nëndetësja bërthamore “Borei”
+# sent_id = 18
+1	9	9	NUM	_	NumType=Card	2	advmod	_	start_char=1676|end_char=1677
+2	–	–	PUNCT	_	_	0	root	_	start_char=1678|end_char=1679
+3	Nëndetësja	nëndetësje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=1680|end_char=1690
+4	bërthamore	bërthamor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=1691|end_char=1701
+5	“	"	PUNCT	_	_	6	punct	_	start_char=1702|end_char=1703|SpaceAfter=No
+6	Borei	Bore	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=1703|end_char=1708|SpaceAfter=No
+7	”	"	PUNCT	_	_	3	punct	_	start_char=1708|end_char=1709|SpacesAfter=\n\n
+
+# text = Ky është helikopteri sulmues kryesor i ushtrisë dhe forcave helikopterike ruse.
+# sent_id = 19
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1711|end_char=1713
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1714|end_char=1719
+3	helikopteri	helikopter	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=1720|end_char=1731
+4	sulmues	sulmues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=1732|end_char=1739
+5	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1740|end_char=1747
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=1748|end_char=1749
+7	ushtrisë	ushtri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=1750|end_char=1758
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1759|end_char=1762
+9	forcave	forcë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	start_char=1763|end_char=1770
+10	helikopterike	helikopterik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=1771|end_char=1784
+11	ruse	rus	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=1785|end_char=1789|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=1789|end_char=1790
+
+# text = Ai mund të mbajë deri në 4 raketa antitank disa topa dhe një mitraloz 33 mm antitank.
+# sent_id = 20
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1791|end_char=1793
+2	mund	mund	AUX	_	_	4	aux	_	start_char=1794|end_char=1798
+3	të	të	PART	_	_	4	fixed	_	start_char=1799|end_char=1801
+4	mbajë	mbaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1802|end_char=1807
+5	deri	deri	PART	_	_	6	fixed	_	start_char=1808|end_char=1812
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=1813|end_char=1815
+7	4	4	NUM	_	NumType=Card	8	nummod	_	start_char=1816|end_char=1817
+8	raketa	raketë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=1818|end_char=1824
+9	antitank	antitank	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1825|end_char=1833
+10	disa	disa	PRON	_	PronType=Ind	11	det	_	start_char=1834|end_char=1838
+11	topa	top	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	start_char=1839|end_char=1843
+12	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=1844|end_char=1847
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=1848|end_char=1851
+14	mitraloz	mitraloz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	start_char=1852|end_char=1860
+15	33	33	NUM	_	NumType=Card	17	nummod	_	start_char=1861|end_char=1863
+16	mm	mm	SYM	_	_	17	det	_	start_char=1864|end_char=1866
+17	antitank	antitank	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=1867|end_char=1875|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	start_char=1875|end_char=1876|SpacesAfter=\n\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROI
+# sent_id = 21
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1878|end_char=1880
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1881|end_char=1891|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1891|end_char=1892|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1893|end_char=1897
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1898|end_char=1900
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1901|end_char=1904
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1905|end_char=1909|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1910|end_char=1928|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1929|end_char=1938
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1939|end_char=1951
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1952|end_char=1958|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1959|end_char=1968
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1969|end_char=1981
+14	ANDROI	ANDROI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1982|end_char=1988|SpaceAfter=No
+
+# text = D
+# sent_id = 22
+1	D	D	PUNCT	_	_	0	root	_	start_char=1988|end_char=1989|SpacesAfter=\n\n\n
+

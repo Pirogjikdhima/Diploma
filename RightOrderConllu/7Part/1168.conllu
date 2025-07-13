@@ -1,0 +1,264 @@
+# text = EUROSTAT:
+# sent_id = 0
+1	EUROSTAT	EUROSTA	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9
+
+# text = Shqiptarët të parët në martesa të fundit në divorce 24/06/2023 Martesa është një ndër ngjarjet më të rëndësishme në jetën e njeriut, pasi shënon bashkimin e dy familjeve dhe krijon lidhje të reja shoqërore.
+# sent_id = 1
+1	Shqiptarët	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	nsubj	_	start_char=10|end_char=20
+2	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det:poss	_	start_char=21|end_char=23
+3	parët	parë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=24|end_char=29
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=30|end_char=32
+5	martesa	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=33|end_char=40
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=41|end_char=43
+7	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=44|end_char=50
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=51|end_char=53
+9	divorce	divorc	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=54|end_char=61|SpacesAfter=\n
+10	24	24	NUM	_	NumType=Card	11	nummod	_	start_char=62|end_char=64|SpaceAfter=No
+11	/06	/06	SYM	_	_	9	nmod	_	start_char=64|end_char=67|SpaceAfter=No
+12	/	/	PUNCT	_	_	11	punct	_	start_char=67|end_char=68|SpaceAfter=No
+13	202	202	NUM	_	NumType=Card	11	flat	_	start_char=68|end_char=71|SpaceAfter=No
+14	3	3	NUM	_	NumType=Card	13	conj	_	start_char=71|end_char=72|SpacesAfter=\n
+15	Martesa	martesë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=73|end_char=80
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=81|end_char=86
+17	një	një	DET	_	Definite=Ind	19	det	_	start_char=87|end_char=90
+18	ndër	ndër	ADP	_	Case=Acc	19	case	_	start_char=91|end_char=95
+19	ngjarjet	ngjarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obl:arg	_	start_char=96|end_char=104
+20	më	më	PART	_	_	22	mark	_	start_char=105|end_char=107
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=108|end_char=110
+22	rëndësishme	rëndësishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=111|end_char=122
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=123|end_char=125
+24	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=126|end_char=131
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=132|end_char=133
+26	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=134|end_char=141|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	start_char=141|end_char=142
+28	pasi	pasi	SCONJ	_	_	29	mark	_	start_char=143|end_char=147
+29	shënon	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	acl:relcl	_	start_char=148|end_char=154
+30	bashkimin	bashkim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=155|end_char=164
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=165|end_char=166
+32	dy	dy	NUM	_	NumType=Card	33	nummod	_	start_char=167|end_char=169
+33	familjeve	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	30	nmod	_	start_char=170|end_char=179
+34	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=180|end_char=183
+35	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	conj	_	start_char=184|end_char=190
+36	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	obj	_	start_char=191|end_char=197
+37	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	38	det	_	start_char=198|end_char=200
+38	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	36	amod	_	start_char=201|end_char=205
+39	shoqërore	shoqëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	36	amod	_	start_char=206|end_char=215|SpaceAfter=No
+40	.	.	PUNCT	_	_	35	punct	_	start_char=215|end_char=216|SpacesAfter=\n
+
+# text = Zhvillimet sociale ekonomike në Shqipëri përgjatë dekadave të fundit kanë sjellë lëvizje të forta shoqërore por nga ana tjetër kjo nuk e ka lëkundur institucionin e martesë në vend.
+# sent_id = 2
+1	Zhvillimet	mhvillim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=217|end_char=227
+2	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=228|end_char=235
+3	ekonomike	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=236|end_char=245
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=246|end_char=248
+5	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=249|end_char=257
+6	përgjatë	përgjatë	ADP	_	Case=Abl	7	case	_	start_char=258|end_char=266
+7	dekadave	dekadë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=267|end_char=275
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=276|end_char=278
+9	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=279|end_char=285
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=286|end_char=290
+11	sjellë	sjell	VERB	_	VerbForm=Part	0	root	_	start_char=291|end_char=297
+12	lëvizje	lëvizje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=298|end_char=305
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=306|end_char=308
+14	forta	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=309|end_char=314
+15	shoqërore	shoqëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=315|end_char=324
+16	por	por	CCONJ	_	_	18	cc	_	start_char=325|end_char=328
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=329|end_char=332
+18	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	start_char=333|end_char=336
+19	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	amod	_	start_char=337|end_char=343
+20	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	24	nsubj	_	start_char=344|end_char=347
+21	nuk	nuk	PART	_	_	24	mark	_	start_char=348|end_char=351
+22	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=352|end_char=353
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=354|end_char=356
+24	lëkundur	lëkundoj	VERB	_	VerbForm=Part	11	conj	_	start_char=357|end_char=365
+25	institucionin	institucion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=366|end_char=379
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=380|end_char=381
+27	martesë	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=382|end_char=389
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=390|end_char=392
+29	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=393|end_char=397|SpaceAfter=No
+30	.	.	PUNCT	_	_	24	punct	_	start_char=397|end_char=398|SpacesAfter=\n
+
+# text = Sipas treguesit të Eurostat i cili mat numrin e martesave, për vitin 2021 rezulton se Shqipëria renditet e dyta në kontinent pas Hungarisë më 7 martesa për 1000 banorë e ndjekur nga Maqedonia e Veriut me 6.8 martesa.
+# sent_id = 3
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=399|end_char=404
+2	treguesit	tregues	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	15	advmod	_	start_char=405|end_char=414
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	4	det:poss	_	start_char=415|end_char=417
+4	Eurostat	Eurostë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=418|end_char=426
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=427|end_char=428
+6	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	start_char=429|end_char=433
+7	mat	mam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=434|end_char=437
+8	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=438|end_char=444
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=445|end_char=446
+10	martesave	martesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=447|end_char=456|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=456|end_char=457
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=458|end_char=461
+13	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=462|end_char=467
+14	2021	2021	NUM	_	NumType=Card	13	amod:nummod	_	start_char=468|end_char=472
+15	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=473|end_char=481
+16	se	se	SCONJ	_	_	18	mark	_	start_char=482|end_char=484
+17	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=485|end_char=494
+18	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	15	ccomp	_	start_char=495|end_char=503
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=504|end_char=505
+20	dyta	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	cop	_	start_char=506|end_char=510
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=511|end_char=513
+22	kontinent	kontinent	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=514|end_char=523
+23	pas	pas	ADP	_	Case=Abl	24	case	_	start_char=524|end_char=527
+24	Hungarisë	Hungari	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=528|end_char=537
+25	më	më	ADP	_	Case=Acc	27	case	_	start_char=538|end_char=540
+26	7	7	NUM	_	NumType=Card	27	nummod	_	start_char=541|end_char=542
+27	martesa	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=543|end_char=550
+28	për	për	ADP	_	Case=Acc	30	case	_	start_char=551|end_char=554
+29	1000	1000	NUM	_	NumType=Card	30	nummod	_	start_char=555|end_char=559
+30	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	27	nmod	_	start_char=560|end_char=566
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	32	det	_	start_char=567|end_char=568
+32	ndjekur	ndjekur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=569|end_char=576
+33	nga	nga	ADP	_	Case=Nom	34	case	_	start_char=577|end_char=580
+34	Maqedonia	Maqedoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=581|end_char=590
+35	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=591|end_char=592
+36	Veriut	veri	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=593|end_char=599
+37	me	me	ADP	_	Case=Acc	39	case	_	start_char=600|end_char=602
+38	6.8	6.8	NUM	_	NumType=Card	39	nummod	_	start_char=603|end_char=606
+39	martesa	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	34	nmod	_	start_char=607|end_char=614|SpaceAfter=No
+40	.	.	PUNCT	_	_	15	punct	_	start_char=614|end_char=615|SpacesAfter=\n
+
+# text = Duhet thënë se rajoni i Ballkanit është dukshëm mbi nivele e mesatares Europiane e cila përllogaritet në 3.9 martesa për 1000 banore.
+# sent_id = 4
+1	Duhet	duhem	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	aux	_	start_char=616|end_char=621
+2	thënë	them	VERB	_	VerbForm=Part	0	root	_	start_char=622|end_char=627
+3	se	se	SCONJ	_	_	7	mark	_	start_char=628|end_char=630
+4	rajoni	rajon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=631|end_char=637
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=638|end_char=639
+6	Ballkanit	Ballkan	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=640|end_char=649
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=650|end_char=655
+8	dukshëm	dukshëm	ADV	_	AdvType=Man	2	advmod	_	start_char=656|end_char=663
+9	mbi	mbi	ADP	_	Case=Acc	10	case	_	start_char=664|end_char=667
+10	nivele	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=668|end_char=674
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=675|end_char=676
+12	mesatares	mesatar	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=677|end_char=686
+13	Europiane	Europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=687|end_char=696
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=697|end_char=698
+15	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	start_char=699|end_char=703
+16	përllogaritet	përllogarit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	acl	_	start_char=704|end_char=717
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=718|end_char=720
+18	3.9	3.9	NUM	_	NumType=Card	19	nummod	_	start_char=721|end_char=724
+19	martesa	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obl	_	start_char=725|end_char=732
+20	për	për	ADP	_	Case=Acc	22	case	_	start_char=733|end_char=736
+21	1000	1000	NUM	_	NumType=Card	22	nummod	_	start_char=737|end_char=741
+22	banore	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obl	_	start_char=742|end_char=748|SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	start_char=748|end_char=749|SpacesAfter=\n
+
+# text = Eurostat mat gjithashtu edhe numrin e divorceve ku sërish Shqipëria renditet e fundit në kontinent sëbashku me Maqedoninë e Veriut respektivisht me 1.1 dhe 1 divorc për 1000 banorë.
+# sent_id = 5
+1	Eurostat	eurostë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	obj	_	start_char=750|end_char=758
+2	mat	mam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=759|end_char=762
+3	gjithashtu	gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=763|end_char=773
+4	edhe	edhe	CCONJ	_	_	5	cc	_	start_char=774|end_char=778
+5	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=779|end_char=785
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=786|end_char=787
+7	divorceve	divorc	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=788|end_char=797
+8	ku	ku	ADV	_	AdvType=Loc	9	advmod	_	start_char=798|end_char=800
+9	sërish	sërish	ADV	_	AdvType=Man	11	advmod	_	start_char=801|end_char=807
+10	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=808|end_char=817
+11	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=818|end_char=826
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=827|end_char=828
+13	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	cop	_	start_char=829|end_char=835
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=836|end_char=838
+15	kontinent	kontinent	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=839|end_char=848
+16	sëbashku	sëbashku	ADV	_	AdvType=Man	15	amod	_	start_char=849|end_char=857
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=858|end_char=860
+18	Maqedoninë	Maqedoni	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=861|end_char=871
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=872|end_char=873
+20	Veriut	veri	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=874|end_char=880
+21	respektivisht	respektivisht	ADV	_	AdvType=Man	20	flat	_	start_char=881|end_char=894
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=895|end_char=897
+23	1.1	1.1	NUM	_	NumType=Card	26	nummod	_	start_char=898|end_char=901
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=902|end_char=905
+25	1	1	NUM	_	NumType=Card	26	nummod	_	start_char=906|end_char=907
+26	divorc	divorc	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	start_char=908|end_char=914
+27	për	për	ADP	_	Case=Acc	29	case	_	start_char=915|end_char=918
+28	1000	1000	NUM	_	NumType=Card	29	nummod	_	start_char=919|end_char=923
+29	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	26	nmod	_	start_char=924|end_char=930|SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	start_char=930|end_char=931|SpacesAfter=\n
+
+# text = Por cilat janë arsyet pse martesa në Shqipëri mbetet një institucion i rëndësishëm krahasimisht me vendet e Europës?
+# sent_id = 6
+1	Por	por	CCONJ	_	_	3	cc	_	start_char=932|end_char=935
+2	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	3	nsubj	_	start_char=936|end_char=941
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=942|end_char=946
+4	arsyet	arsy	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	cop	_	start_char=947|end_char=953
+5	pse	pse	SCONJ	_	_	9	mark	_	start_char=954|end_char=957
+6	martesa	martesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=958|end_char=965
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=966|end_char=968
+8	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=969|end_char=977
+9	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=978|end_char=984
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=985|end_char=988
+11	institucion	institucion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=989|end_char=1000
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1001|end_char=1002
+13	rëndësishëm	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1003|end_char=1014
+14	krahasimisht	krahasimisht	ADV	_	AdvType=Man	11	amod	_	start_char=1015|end_char=1027
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=1028|end_char=1030
+16	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=1031|end_char=1037
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=1038|end_char=1039
+18	Europës	Europë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=1040|end_char=1047|SpaceAfter=No
+19	?	?	PUNCT	_	_	9	punct	_	start_char=1047|end_char=1048|SpacesAfter=\n
+
+# text = Vlen të thuhet se të dhënat e Eurostat për Kosovën janë deri në vitin 2019, ku rezulton se qytetarë e shtetit me të ri Europian renditen në 9.8 martesa për 1000 banore, me një distancë të konsiderueshme nga vendi i parë.
+# sent_id = 7
+1	Vlen	vlej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1049|end_char=1053
+2	të	të	PART	_	_	3	fixed	_	start_char=1054|end_char=1056
+3	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	ccomp	_	start_char=1057|end_char=1063
+4	se	se	SCONJ	_	_	6	mark	_	start_char=1064|end_char=1066
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=1067|end_char=1069
+6	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=1070|end_char=1076
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=1077|end_char=1078
+8	Eurostat	Eurostë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=1079|end_char=1087
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=1088|end_char=1091
+10	Kosovën	Kosovë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=1092|end_char=1099
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=1100|end_char=1104
+12	deri	deri	PART	_	_	14	case	_	start_char=1105|end_char=1109
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=1110|end_char=1112
+14	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=1113|end_char=1118
+15	2019	2019	NUM	_	NumType=Card	14	amod:nummod	_	start_char=1119|end_char=1123|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=1123|end_char=1124
+17	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=1125|end_char=1127
+18	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=1128|end_char=1136
+19	se	se	SCONJ	_	_	27	mark	_	start_char=1137|end_char=1139
+20	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	obj	_	start_char=1140|end_char=1148
+21	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	22	det:poss	_	start_char=1149|end_char=1150
+22	shtetit	shtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=1151|end_char=1158
+23	me	me	ADP	_	Case=Acc	25	case	_	start_char=1159|end_char=1161
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=1162|end_char=1164
+25	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=1165|end_char=1167
+26	Europian	Europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=1168|end_char=1176
+27	renditen	rendit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	20	acl:relcl	_	start_char=1177|end_char=1185
+28	në	në	ADP	_	Case=Acc	30	case	_	start_char=1186|end_char=1188
+29	9.8	9.8	NUM	_	NumType=Card	30	nummod	_	start_char=1189|end_char=1192
+30	martesa	martesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obl	_	start_char=1193|end_char=1200
+31	për	për	ADP	_	Case=Acc	33	case	_	start_char=1201|end_char=1204
+32	1000	1000	NUM	_	NumType=Card	33	nummod	_	start_char=1205|end_char=1209
+33	banore	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obl	_	start_char=1210|end_char=1216|SpaceAfter=No
+34	,	,	PUNCT	_	_	37	punct	_	start_char=1216|end_char=1217
+35	me	me	ADP	_	Case=Acc	37	case	_	start_char=1218|end_char=1220
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=1221|end_char=1224
+37	distancë	distancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	nmod	_	start_char=1225|end_char=1233
+38	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	39	det	_	start_char=1234|end_char=1236
+39	konsiderueshme	konsiderueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	start_char=1237|end_char=1251
+40	nga	nga	ADP	_	Case=Nom	41	case	_	start_char=1252|end_char=1255
+41	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=1256|end_char=1261
+42	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=1262|end_char=1263
+43	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=1264|end_char=1268|SpaceAfter=No
+44	.	.	PUNCT	_	_	27	punct	_	start_char=1268|end_char=1269|SpacesAfter=\n\n
+
+# text = Gazetar:
+# sent_id = 8
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1271|end_char=1278|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=1278|end_char=1279
+
+# text = Omer Saraçi /rtsh/
+# sent_id = 9
+1	Omer	Omer	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1280|end_char=1284
+2	Saraçi	Saraçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=1285|end_char=1291|SpacesAfter=\n
+3	/rtsh	/rtsh	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=1292|end_char=1297|SpaceAfter=No
+4	/	/	PUNCT	_	_	1	punct	_	start_char=1297|end_char=1298|SpacesAfter=\n\n\n
+

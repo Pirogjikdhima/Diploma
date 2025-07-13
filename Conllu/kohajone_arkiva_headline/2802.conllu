@@ -1,0 +1,265 @@
+# text = Reuters:
+# sent_id = 0
+1	Reuters	Reuter	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=7|end_char=8
+
+# text = Vendet e varfra pa vaksinë deri në vitin 2024 Skema globale e Organizatës Botërore të Shëndetësisë, për të shpërndarë vaksinat për Covid-19 në vendet e varfra ka një risk shumë të lartë dështimi.
+# sent_id = 1
+1	Vendet	Vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	29	obj	_	start_char=9|end_char=15
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=16|end_char=17
+3	varfra	varfrë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=18|end_char=24
+4	pa	pa	ADP	_	Case=Acc	5	case	_	start_char=25|end_char=27
+5	vaksinë	vaksi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=28|end_char=35
+6	deri	deri	PART	_	Case=TODO	8	case	_	start_char=36|end_char=40
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=41|end_char=43
+8	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=44|end_char=49
+9	202	202	NUM	_	NumType=Card	8	amod:nummod	_	start_char=50|end_char=53|SpaceAfter=No
+10	4	4	NUM	_	NumType=Card	11	nummod	_	start_char=53|end_char=54|SpacesAfter=\n
+11	Skema	skemë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=55|end_char=60
+12	globale	global	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=61|end_char=68
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=69|end_char=70
+14	Organizatës	Organizatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=71|end_char=82
+15	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=83|end_char=91
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=92|end_char=94
+17	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=95|end_char=107|SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	start_char=107|end_char=108
+19	për	për	PART	_	_	21	fixed	_	start_char=109|end_char=112
+20	të	të	PART	_	_	21	fixed	_	start_char=113|end_char=115
+21	shpërndarë	shpërndar	VERB	_	VerbForm=Part	29	advmod	_	start_char=116|end_char=126
+22	vaksinat	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	obj	_	start_char=127|end_char=135
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=136|end_char=139
+24	Covid-19	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	start_char=140|end_char=148
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=149|end_char=151
+26	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	advmod	_	start_char=152|end_char=158
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=159|end_char=160
+28	varfra	varfrë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=161|end_char=167
+29	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=168|end_char=170
+30	një	një	DET	_	Definite=Ind	31	det	_	start_char=171|end_char=174
+31	risk	risk	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=175|end_char=179
+32	shumë	shumë	ADV	_	AdvType=Deg	34	advmod	_	start_char=180|end_char=185
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=186|end_char=188
+34	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=189|end_char=194
+35	dështimi	dështim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=195|end_char=203|SpaceAfter=No
+36	.	.	PUNCT	_	_	29	punct	_	start_char=203|end_char=204
+
+# text = Kjo mund të lërë miliarda njerëz pa qasje në vaksina deri në vitin 2024, potencialisht duke i lënë ata të ekspozuar ndaj virusit.
+# sent_id = 2
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=205|end_char=208
+2	mund	mund	AUX	_	_	4	aux	_	start_char=209|end_char=213
+3	të	të	PART	_	_	4	fixed	_	start_char=214|end_char=216
+4	lërë	lëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=217|end_char=221
+5	miliarda	miliardë	PRON	_	Case=Acc|Number=Plur|PronType=Ind	6	nummod	_	start_char=222|end_char=230
+6	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	start_char=231|end_char=237
+7	pa	pa	ADP	_	Case=Acc	8	case	_	start_char=238|end_char=240
+8	qasje	qasje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=241|end_char=246
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=247|end_char=249
+10	vaksina	vaksinë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=250|end_char=257
+11	deri	deri	PART	_	_	12	fixed	_	start_char=258|end_char=262
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=263|end_char=265
+13	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=266|end_char=271
+14	2024	2024	NUM	_	NumType=Card	13	amod:nummod	_	start_char=272|end_char=276|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=276|end_char=277
+16	potencialisht	potencialisht	ADV	_	AdvType=Man	19	advmod	_	start_char=278|end_char=291
+17	duke	duke	PART	_	_	19	fixed	_	start_char=292|end_char=296
+18	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=297|end_char=298
+19	lënë	lë	VERB	_	VerbForm=Part	4	advmod	_	start_char=299|end_char=303
+20	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=304|end_char=307
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	22	fixed	_	start_char=308|end_char=310
+22	ekspozuar	ekspozoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=311|end_char=320
+23	ndaj	ndaj	ADP	_	Case=Abl	24	case	_	start_char=321|end_char=325
+24	virusit	virus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=326|end_char=333|SpaceAfter=No
+25	.	.	PUNCT	_	_	22	punct	_	start_char=333|end_char=334
+
+# text = Raportimi vjen nga ”Reuters” që citon dokumente të brendshme të OBSH-së.
+# sent_id = 3
+1	Raportimi	Raportim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=335|end_char=344
+2	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=345|end_char=349
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=350|end_char=353
+4	”Reuters”	”Reuters”	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	2	obl	_	start_char=354|end_char=363
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=364|end_char=366
+6	citon	citoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=367|end_char=372
+7	dokumente	dokument	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=373|end_char=382
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=383|end_char=385
+9	brendshme	brendshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=386|end_char=395
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=396|end_char=398
+11	OBSH-së	OBSH-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=399|end_char=406|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=406|end_char=407|SpacesAfter=\n
+
+# text = Promovuesit e skemës po ankohen se programi ka mungesë fondesh, gjë e cila kufizon blerjen e dozave dhe marrëveshjet kontraktuale.
+# sent_id = 4
+1	Promovuesit	promovues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=408|end_char=419
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det:poss	_	start_char=420|end_char=421
+3	skemës	skemë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=422|end_char=428
+4	po	po	PART	_	_	5	mark	_	start_char=429|end_char=431
+5	ankohen	ankoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=432|end_char=439
+6	se	se	SCONJ	_	_	8	mark	_	start_char=440|end_char=442
+7	programi	program	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=443|end_char=451
+8	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=452|end_char=454
+9	mungesë	mungesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=455|end_char=462
+10	fondesh	fondesh	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=463|end_char=470|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=470|end_char=471
+12	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=472|end_char=475
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=476|end_char=477
+14	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	start_char=478|end_char=482
+15	kufizon	kufizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=483|end_char=490
+16	blerjen	blerje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=491|end_char=498
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=499|end_char=500
+18	dozave	dozë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=501|end_char=507
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=508|end_char=511
+20	marrëveshjet	marrëveshje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	conj	_	start_char=512|end_char=524
+21	kontraktuale	kontraktual	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=525|end_char=537|SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	start_char=537|end_char=538
+
+# text = Të gjitha këto ndikojnë ndjeshëm në synimin e programit COVAX, pjesë e të cilit është dhe Shqipëria, për të vaksinuar njerëzit e varfër dhe me të ardhura mesatare në shtete të ndryshme të botës.
+# sent_id = 5
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=539|end_char=541
+2	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	nsubj	_	start_char=542|end_char=548
+3	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	iobj	_	start_char=549|end_char=553
+4	ndikojnë	ndikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=554|end_char=562
+5	ndjeshëm	ndjeshëm	ADV	_	AdvType=Man	4	advmod	_	start_char=563|end_char=571
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=572|end_char=574
+7	synimin	synim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=575|end_char=582
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=583|end_char=584
+9	programit	program	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=585|end_char=594
+10	COVAX	COVAX	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	start_char=595|end_char=600|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=600|end_char=601
+12	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	nsubj	_	start_char=602|end_char=607
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=608|end_char=609
+14	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=610|end_char=612
+15	cilit	cili	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	start_char=613|end_char=618
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl	_	start_char=619|end_char=624
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=625|end_char=628
+18	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	cop	_	start_char=629|end_char=638|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	start_char=638|end_char=639
+20	për	për	PART	_	_	22	fixed	_	start_char=640|end_char=643
+21	të	të	PART	_	_	22	fixed	_	start_char=644|end_char=646
+22	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	16	advmod	_	start_char=647|end_char=656
+23	njerëzit	njeri	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	22	obj	_	start_char=657|end_char=665
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=666|end_char=667
+25	varfër	varfër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=668|end_char=674
+26	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=675|end_char=678
+27	me	me	ADP	_	Case=Acc	29	case	_	start_char=679|end_char=681
+28	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=682|end_char=684
+29	ardhura	ardhurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	conj	_	start_char=685|end_char=692
+30	mesatare	mesatar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=693|end_char=701
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=702|end_char=704
+32	shtete	shtet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	29	advmod	_	start_char=705|end_char=711
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=712|end_char=714
+34	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	start_char=715|end_char=723
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det:poss	_	start_char=724|end_char=726
+36	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=727|end_char=732|SpaceAfter=No
+37	.	.	PUNCT	_	_	22	punct	_	start_char=732|end_char=733|SpacesAfter=\n
+
+# text = OBSH-ja ka planifikuar shpërndarjen e të paktën 2 miliardë dozave të vaksinave deri në fund të vitit të ardhshëm për të mbuluar 20% të personave që bëjnë pjesë në grupin e riskut në 91 vende, kryesisht në Afrikë, Azi dhe Amerikën Latine.
+# sent_id = 6
+1	OBSH-ja	OBSH-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=734|end_char=741
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=742|end_char=744
+3	planifikuar	planifikoj	VERB	_	VerbForm=Part	0	root	_	start_char=745|end_char=756
+4	shpërndarjen	shpërndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=757|end_char=769
+5	e	e	CCONJ	_	_	7	cc	_	start_char=770|end_char=771
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=772|end_char=774
+7	paktën	paktë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=775|end_char=781
+8	2	2	NUM	_	NumType=Card	10	nummod	_	start_char=782|end_char=783
+9	miliardë	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=784|end_char=792
+10	dozave	dozë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=793|end_char=799
+11	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=800|end_char=802
+12	vaksinave	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=803|end_char=812
+13	deri	deri	PART	_	_	15	case	_	start_char=813|end_char=817
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=818|end_char=820
+15	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=821|end_char=825
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=826|end_char=828
+17	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=829|end_char=834
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=835|end_char=837
+19	ardhshëm	ardhshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=838|end_char=846
+20	për	për	PART	_	_	22	fixed	_	start_char=847|end_char=850
+21	të	të	PART	_	_	22	fixed	_	start_char=851|end_char=853
+22	mbuluar	mbuloj	VERB	_	VerbForm=Part	17	advmod	_	start_char=854|end_char=861
+23	20	20	NUM	_	NumType=Card	24	nummod	_	start_char=862|end_char=864|SpaceAfter=No
+24	%	%	SYM	_	_	22	obj	_	start_char=864|end_char=865
+25	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=866|end_char=868
+26	personave	person	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	start_char=869|end_char=878
+27	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=879|end_char=881
+28	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=882|end_char=887
+29	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	start_char=888|end_char=893
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=894|end_char=896
+31	grupin	grup	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	obl	_	start_char=897|end_char=903
+32	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=904|end_char=905
+33	riskut	risk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=906|end_char=912
+34	në	në	ADP	_	Case=Acc	36	case	_	start_char=913|end_char=915
+35	91	91	NUM	_	NumType=Card	31	nummod	_	start_char=916|end_char=918
+36	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	nmod	_	start_char=919|end_char=924|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	start_char=924|end_char=925
+38	kryesisht	kryesisht	ADV	_	AdvType=Man	40	mark	_	start_char=926|end_char=935
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=936|end_char=938
+40	Afrikë	Afrikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	start_char=939|end_char=945|SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	start_char=945|end_char=946
+42	Azi	Azi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	40	list	_	start_char=947|end_char=950
+43	dhe	dhe	CCONJ	_	_	44	cc	_	start_char=951|end_char=954
+44	Amerikën	Amerikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	42	conj	_	start_char=955|end_char=963
+45	Latine	Latin	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	start_char=964|end_char=970|SpaceAfter=No
+46	.	.	PUNCT	_	_	28	punct	_	start_char=970|end_char=971|SpacesAfter=\n
+
+# text = Raporti thotë se rreziku i dështimit është shumë i lartë pasi skema është ndërtuar shpejt dhe në një territor të panjohur.
+# sent_id = 7
+1	Raporti	Raport	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=972|end_char=979
+2	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=980|end_char=985
+3	se	se	SCONJ	_	_	7	mark	_	start_char=986|end_char=988
+4	rreziku	rrezik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=989|end_char=996
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=997|end_char=998
+6	dështimit	dështim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=999|end_char=1008
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=1009|end_char=1014
+8	shumë	shumë	ADV	_	AdvType=Deg	10	advmod	_	start_char=1015|end_char=1020
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1021|end_char=1022
+10	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=1023|end_char=1028
+11	pasi	pasi	SCONJ	_	_	14	mark	_	start_char=1029|end_char=1033
+12	skema	skemë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1034|end_char=1039
+13	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=1040|end_char=1045
+14	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	7	advcl	_	start_char=1046|end_char=1054
+15	shpejt	shpejt	ADV	_	AdvType=Tim	14	advmod	_	start_char=1055|end_char=1061
+16	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=1062|end_char=1065
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=1066|end_char=1068
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=1069|end_char=1072
+19	territor	territor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=1073|end_char=1081
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=1082|end_char=1084
+21	panjohur	panjohur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=1085|end_char=1093|SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	start_char=1093|end_char=1094
+
+# text = ”Reuters” i është drejtuar OBSH-së për një koment, por nuk ka dashur t’ i referohet këtyre raportime.
+# sent_id = 8
+1	”Reuters”	”Reuters”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1095|end_char=1104
+2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	start_char=1105|end_char=1106
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1107|end_char=1112
+4	drejtuar	drejtoj	VERB	_	VerbForm=Part	0	root	_	start_char=1113|end_char=1121
+5	OBSH-së	OBSH-së	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=1122|end_char=1129
+6	për	për	ADP	_	Case=Acc	8	case	_	start_char=1130|end_char=1133
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=1134|end_char=1137
+8	koment	koment	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=1138|end_char=1144|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1144|end_char=1145
+10	por	por	CCONJ	_	_	13	cc	_	start_char=1146|end_char=1149
+11	nuk	nuk	PART	_	_	13	mark	_	start_char=1150|end_char=1153
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=1154|end_char=1156
+13	dashur	dua	VERB	_	VerbForm=Part	4	conj	_	start_char=1157|end_char=1163
+14	t’	t’	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=1164|end_char=1166
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	start_char=1167|end_char=1168
+16	referohet	referoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	ccomp	_	start_char=1169|end_char=1178
+17	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	18	det	_	start_char=1179|end_char=1185
+18	raportime	raportim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=1186|end_char=1195|SpaceAfter=No
+19	.	.	PUNCT	_	_	16	punct	_	start_char=1195|end_char=1196|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 9
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1197|end_char=1199
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1200|end_char=1210|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1210|end_char=1211|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1212|end_char=1216
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1217|end_char=1219
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1220|end_char=1223
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1224|end_char=1228|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1229|end_char=1247|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1248|end_char=1257
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1258|end_char=1270
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1271|end_char=1277|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1278|end_char=1287
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1288|end_char=1300
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1301|end_char=1308|SpacesAfter=\n\n\n
+

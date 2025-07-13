@@ -1,0 +1,178 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Kjo nuk është Bjellorusia!”
+# sent_id = 1
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=1|end_char=4
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=5|end_char=8
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=14
+4	Bjellorusia!	Bjellorusi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	cop	_	start_char=15|end_char=27|SpaceAfter=No
+5	”	"	PUNCT	_	_	3	punct	_	start_char=27|end_char=28
+
+# text = Kaos në Bullgari, xhandarmëria doli në rrugë Mijëra qytetarë protestuan përpara Parlamentit bullgar duke kërkuar dorëheqjen e Kryeministrit Boyko Borisov dhe kryeprokurorit të vendit, Ivan Geshev.
+# sent_id = 2
+1	Kaos	kaos	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=29|end_char=33
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=34|end_char=36
+3	Bullgari	Bullgar	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=37|end_char=45|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	start_char=45|end_char=46
+5	xhandarmëria	xhandarmëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=47|end_char=59
+6	doli	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=60|end_char=64
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=65|end_char=67
+8	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=68|end_char=73|SpacesAfter=\n
+9	Mijëra	mijërë	PRON	_	PronType=Ind	8	nummod	_	start_char=74|end_char=80
+10	qytetarë	qytetarë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=81|end_char=89
+11	protestuan	protestoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=90|end_char=100
+12	përpara	përpara	ADP	_	Case=Abl	13	case	_	start_char=101|end_char=108
+13	Parlamentit	parlament	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=109|end_char=120
+14	bullgar	bullgar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=121|end_char=128
+15	duke	duke	PART	_	_	16	fixed	_	start_char=129|end_char=133
+16	kërkuar	kërkoj	VERB	_	VerbForm=Part	11	advmod	_	start_char=134|end_char=141
+17	dorëheqjen	dorëheqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=142|end_char=152
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=153|end_char=154
+19	Kryeministrit	Kryeministr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=155|end_char=168
+20	Boyko	Boyko	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	appos	_	start_char=169|end_char=174
+21	Borisov	Borisov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=175|end_char=182
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=183|end_char=186
+23	kryeprokurorit	kryeprokuror	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	conj	_	start_char=187|end_char=201
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=202|end_char=204
+25	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=205|end_char=211|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=211|end_char=212
+27	Ivan	Ivan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	appos	_	start_char=213|end_char=217
+28	Geshev	Geshev	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=218|end_char=224|SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	start_char=224|end_char=225|SpacesAfter=\n
+
+# text = Protestuesit hodhën vezë dhe mollë në drejtim të policisë që mbronte parlamentin bullgar dhe xhandarmëria u vendos në rrugë.
+# sent_id = 3
+1	Protestuesit	protestues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=226|end_char=238
+2	hodhën	hedh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=239|end_char=245
+3	vezë	vezë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=246|end_char=250
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=251|end_char=254
+5	mollë	mollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	conj	_	start_char=255|end_char=260
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=261|end_char=263
+7	drejtim	drejtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=264|end_char=271
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=272|end_char=274
+9	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=275|end_char=283
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=284|end_char=286
+11	mbronte	mbroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	7	acl	_	start_char=287|end_char=294
+12	parlamentin	parlament	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=295|end_char=306
+13	bullgar	bullgar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=307|end_char=314
+14	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=315|end_char=318
+15	xhandarmëria	xhandarmëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=319|end_char=331
+16	u	u	PART	_	_	17	fixed	_	start_char=332|end_char=333
+17	vendos	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	start_char=334|end_char=340
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=341|end_char=343
+19	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=344|end_char=349|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=349|end_char=350
+
+# text = Ndërsa nuk munguan thirrjet:
+# sent_id = 4
+1	Ndërsa	ndërsa	CCONJ	_	_	3	cc	_	start_char=351|end_char=357
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=358|end_char=361
+3	munguan	mungoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=362|end_char=369
+4	thirrjet	thirrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=370|end_char=378|SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	start_char=378|end_char=379
+
+# text = “Kjo është Bullgaria, nuk është Bjellorusia!”
+# sent_id = 5
+1	“	"	PUNCT	_	_	3	punct	_	start_char=380|end_char=381|SpaceAfter=No
+2	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=381|end_char=384
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=385|end_char=390
+4	Bullgaria	Bullgari	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=391|end_char=400|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	start_char=400|end_char=401
+6	nuk	nuk	PART	_	_	7	mark	_	start_char=402|end_char=405
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=406|end_char=411
+8	Bjellorusia!	Bjellorusi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=412|end_char=424|SpaceAfter=No
+9	”	"	PUNCT	_	_	7	punct	_	start_char=424|end_char=425|SpacesAfter=\n
+
+# text = Policia ishte e pranishme në të gjitha bulevardet që të çojnë në ndërtesën e Parlamentit bullgar, ku po mbahej një seancë.
+# sent_id = 6
+1	Policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=426|end_char=433
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=434|end_char=439
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=440|end_char=441
+4	pranishme	pranishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=442|end_char=451
+5	në	në	ADP	_	Case=Acc	8	case	_	start_char=452|end_char=454
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=455|end_char=457
+7	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	nummod	_	start_char=458|end_char=464
+8	bulevardet	bulevard	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	start_char=465|end_char=475
+9	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=476|end_char=478
+10	të	të	PART	_	_	11	fixed	_	start_char=479|end_char=481
+11	çojnë	çoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=482|end_char=487
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=488|end_char=490
+13	ndërtesën	ndërtesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	start_char=491|end_char=500
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=501|end_char=502
+15	Parlamentit	parlament	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=503|end_char=514
+16	bullgar	bullgar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=515|end_char=522|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=522|end_char=523
+18	ku	ku	ADV	_	AdvType=Loc	20	advmod	_	start_char=524|end_char=526
+19	po	po	PART	_	_	20	mark	_	start_char=527|end_char=529
+20	mbahej	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	11	advcl	_	start_char=530|end_char=536
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=537|end_char=540
+22	seancë	seancë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	start_char=541|end_char=547|SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	start_char=547|end_char=548|SpacesAfter=\n
+
+# text = Mediat bullgare raportojnë se përshkallëzimi filloi kur protestuesit sulmuan automjetet e policisë.
+# sent_id = 7
+1	Mediat	mediat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=549|end_char=555
+2	bullgare	bullgar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=556|end_char=564
+3	raportojnë	raportoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=565|end_char=575
+4	se	se	SCONJ	_	_	9	mark	_	start_char=576|end_char=578
+5	përshkallëzimi	përshkallëzim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=579|end_char=593
+6	filloi	filloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	start_char=594|end_char=600
+7	kur	kur	SCONJ	_	_	9	mark	_	start_char=601|end_char=604
+8	protestuesit	protestues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	start_char=605|end_char=617
+9	sulmuan	sulmoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	advcl	_	start_char=618|end_char=625
+10	automjetet	automjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=626|end_char=636
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=637|end_char=638
+12	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=639|end_char=647|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=647|end_char=648|SpacesAfter=\n
+
+# text = Tensionet vijnë pasi policia shpërndau një tjetër protestë të premten, duke larguar qindra protestues me kamion.
+# sent_id = 8
+1	Tensionet	tension	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=649|end_char=658
+2	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=659|end_char=664
+3	pasi	pasi	SCONJ	_	_	5	mark	_	start_char=665|end_char=669
+4	policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=670|end_char=677
+5	shpërndau	shpërndoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	start_char=678|end_char=687
+6	një	një	DET	_	Definite=Ind	8	det	_	start_char=688|end_char=691
+7	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	start_char=692|end_char=698
+8	protestë	protestë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=699|end_char=707
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=708|end_char=710
+10	premten	premte	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=711|end_char=718|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=718|end_char=719
+12	duke	duke	PART	_	_	13	fixed	_	start_char=720|end_char=724
+13	larguar	largoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=725|end_char=732
+14	qindra	qind	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	det	_	start_char=733|end_char=739
+15	protestues	protestues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	start_char=740|end_char=750
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=751|end_char=753
+17	kamion	kamio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=754|end_char=760|SpaceAfter=No
+18	.	.	PUNCT	_	_	13	punct	_	start_char=760|end_char=761
+
+# text = Pati dhe arrestime.
+# sent_id = 9
+1	Pati	pat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=762|end_char=766
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=767|end_char=770
+3	arrestime	arrestim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	start_char=771|end_char=780|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	start_char=780|end_char=781|SpacesAfter=\n\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROI
+# sent_id = 10
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=783|end_char=785
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=786|end_char=796|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=796|end_char=797|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=798|end_char=802
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=803|end_char=805
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=806|end_char=809
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=810|end_char=814|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=815|end_char=833|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=834|end_char=843
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=844|end_char=856
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=857|end_char=863|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=864|end_char=873
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=874|end_char=886
+14	ANDROI	ANDROI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=887|end_char=893|SpaceAfter=No
+
+# text = D
+# sent_id = 11
+1	D	D	PUNCT	_	_	0	root	_	start_char=893|end_char=894|SpacesAfter=\n\n\n
+

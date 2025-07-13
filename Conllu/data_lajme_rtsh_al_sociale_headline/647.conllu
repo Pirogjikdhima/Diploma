@@ -1,0 +1,327 @@
+# text = Alarmi për shëndetin mendor/
+# sent_id = 0
+1	Alarmi	alarm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=7|end_char=10
+3	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=11|end_char=20
+4	mendor	mendor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=21|end_char=27|SpaceAfter=No
+5	/	/	PUNCT	_	_	1	punct	_	start_char=27|end_char=28
+
+# text = Psikologët thirrje të mos neglizhohen shenjat:
+# sent_id = 1
+1	Psikologët	psikolog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=29|end_char=39
+2	thirrje	thirrje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=40|end_char=47
+3	të	të	PART	_	_	5	fixed	_	start_char=48|end_char=50
+4	mos	mos	PART	_	_	5	mark	_	start_char=51|end_char=54
+5	neglizhohen	neglizhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=55|end_char=66
+6	shenjat	shenjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=67|end_char=74|SpaceAfter=No
+7	:	:	PUNCT	_	_	5	punct	_	start_char=74|end_char=75
+
+# text = Askush nuk është imun 10/10/2023 Pandemia dhe tërmeti janë dy prej faktorëve shkatërrues të gjendjes mendore të qytetarëve shqiptarë, ku jo me pak ndikim mbetet edhe faktori ekonomik.
+# sent_id = 2
+1	Askush	askush	PRON	_	Case=Nom|PronType=Int	3	nsubj	_	start_char=76|end_char=82
+2	nuk	nuk	PART	_	Polarity=Neg	3	mark	_	start_char=83|end_char=86
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=87|end_char=92
+4	imun	imun	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=93|end_char=97|SpacesAfter=\n
+5	10	10	NUM	_	NumType=Card	4	nummod	_	start_char=98|end_char=100|SpaceAfter=No
+6	/10	/10	NUM	_	NumType=Card	4	flat	_	start_char=100|end_char=103|SpaceAfter=No
+7	/	/	PUNCT	_	_	8	punct	_	start_char=103|end_char=104|SpaceAfter=No
+8	202	202	NUM	_	NumType=Card	6	conj	_	start_char=104|end_char=107|SpaceAfter=No
+9	3	3	NUM	_	NumType=Card	8	conj	_	start_char=107|end_char=108|SpacesAfter=\n
+10	Pandemia	pandemi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=109|end_char=117
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=118|end_char=121
+12	tërmeti	tërmet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=122|end_char=129
+13	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=130|end_char=134
+14	dy	dy	NUM	_	NumType=Card	16	nummod	_	start_char=135|end_char=137
+15	prej	prej	ADP	_	Case=Abl	16	case	_	start_char=138|end_char=142
+16	faktorëve	faktor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	13	obl:arg	_	start_char=143|end_char=152
+17	shkatërrues	shkatërrues	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	start_char=153|end_char=164
+18	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	19	det:poss	_	start_char=165|end_char=167
+19	gjendjes	gjendje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=168|end_char=176
+20	mendore	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=177|end_char=184
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=185|end_char=187
+22	qytetarëve	qytetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	start_char=188|end_char=198
+23	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=199|end_char=208|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=208|end_char=209
+25	ku	ku	ADV	_	AdvType=Loc	30	advmod	_	start_char=210|end_char=212
+26	jo	jo	PART	_	_	29	mark	_	start_char=213|end_char=215
+27	me	me	ADP	_	Case=Acc	29	case	_	start_char=216|end_char=218
+28	pak	pak	PRON	_	PronType=Ind	29	nummod	_	start_char=219|end_char=222
+29	ndikim	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	advmod	_	start_char=223|end_char=229
+30	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	acl	_	start_char=230|end_char=236
+31	edhe	edhe	PART	_	_	32	mark:emph	_	start_char=237|end_char=241
+32	faktori	faktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	obj	_	start_char=242|end_char=249
+33	ekonomik	ekonomik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=250|end_char=258|SpaceAfter=No
+34	.	.	PUNCT	_	_	30	punct	_	start_char=258|end_char=259|SpacesAfter=\n
+
+# text = Statistikat ndërkombëtarë flasin për 1 në 8 persona që janë të prekur nga një gjendje e shëndetit mendor por ky raport është edhe më i ngushtë në vendin tonë për shkak të matjeve jo reale pasi qytetarët nuk i qasen sistemit.
+# sent_id = 3
+1	Statistikat	statistikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=260|end_char=271
+2	ndërkombëtarë	ndërkombëtarë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	start_char=272|end_char=285
+3	flasin	flas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=286|end_char=292
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=293|end_char=296
+5	1	1	NUM	_	NumType=Card	3	advmod	_	start_char=297|end_char=298
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=299|end_char=301
+7	8	8	NUM	_	NumType=Card	8	nummod	_	start_char=302|end_char=303
+8	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	advmod	_	start_char=304|end_char=311
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=312|end_char=314
+10	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	dislocated	_	start_char=315|end_char=319
+11	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=320|end_char=322
+12	prekur	prekur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=323|end_char=329
+13	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=330|end_char=333
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=334|end_char=337
+15	gjendje	gjendje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=338|end_char=345
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=346|end_char=347
+17	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=348|end_char=357
+18	mendor	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=358|end_char=364
+19	por	por	CCONJ	_	_	21	cc	_	start_char=365|end_char=368
+20	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	start_char=369|end_char=371
+21	raport	rapor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	start_char=372|end_char=378
+22	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=379|end_char=384
+23	edhe	edhe	PART	_	_	26	mark	_	start_char=385|end_char=389
+24	më	më	PART	_	_	26	mark	_	start_char=390|end_char=392
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=393|end_char=394
+26	ngushtë	ngushtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	cop	_	start_char=395|end_char=402
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=403|end_char=405
+28	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	start_char=406|end_char=412
+29	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	amod	_	start_char=413|end_char=417
+30	për	për	ADP	_	Case=Acc	33	case	_	start_char=418|end_char=421
+31	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	start_char=422|end_char=427
+32	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=428|end_char=430
+33	matjeve	matje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	28	nmod	_	start_char=431|end_char=438
+34	jo	jo	PART	_	_	35	mark	_	start_char=439|end_char=441
+35	reale	real	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=442|end_char=447
+36	pasi	pasi	SCONJ	_	_	40	mark	_	start_char=448|end_char=452
+37	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	40	nsubj	_	start_char=453|end_char=462
+38	nuk	nuk	PART	_	_	40	mark	_	start_char=463|end_char=466
+39	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	40	iobj	_	start_char=467|end_char=468
+40	qasen	qas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	acl:relcl	_	start_char=469|end_char=474
+41	sistemit	sistem	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	40	obj	_	start_char=475|end_char=483|SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	start_char=483|end_char=484|SpacesAfter=\n
+
+# text = “Shëndeti mendor nuk është ajo që ne mendojmë , që janë personat që hospitalizohen në spitale.
+# sent_id = 4
+1	“	"	PUNCT	_	_	2	punct	_	start_char=485|end_char=486|SpaceAfter=No
+2	Shëndeti	Shëndet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=486|end_char=494
+3	mendor	mendor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=495|end_char=501
+4	nuk	nuk	PART	_	Polarity=Neg	5	mark	_	start_char=502|end_char=505
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=506|end_char=511
+6	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	cop	_	start_char=512|end_char=515
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=516|end_char=518
+8	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=519|end_char=521
+9	mendojmë	mendoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=522|end_char=530
+10	,	,	PUNCT	_	_	11	punct	_	start_char=531|end_char=532
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=533|end_char=535
+12	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=536|end_char=540
+13	personat	personë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	cop	_	start_char=541|end_char=549
+14	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=550|end_char=552
+15	hospitalizohen	hospitalizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=553|end_char=567
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=568|end_char=570
+17	spitale	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	start_char=571|end_char=578|SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	start_char=578|end_char=579
+
+# text = Me një problem të shëndetit mendor mund të jetë një i afërmi jonë, një familjar apo dhe mësuesi në shkollë”, shprehet Valbona Treska, Presidente e “Urdhrit të psikologut”
+# sent_id = 5
+1	Me	me	ADP	_	Case=Acc	3	case	_	start_char=580|end_char=582
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=583|end_char=586
+3	problem	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=587|end_char=594
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=595|end_char=597
+5	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=598|end_char=607
+6	mendor	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=608|end_char=614
+7	mund	mund	AUX	_	_	9	aux	_	start_char=615|end_char=619
+8	të	të	PART	_	_	9	fixed	_	start_char=620|end_char=622
+9	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=623|end_char=627
+10	një	një	DET	_	Definite=Ind	12	det	_	start_char=628|end_char=631
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=632|end_char=633
+12	afërmi	afërm	PRON	_	PronType=Ind	9	cop	_	start_char=634|end_char=640
+13	jonë	jonë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	amod	_	start_char=641|end_char=645|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=645|end_char=646
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=647|end_char=650
+16	familjar	familjar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=651|end_char=659
+17	apo	apo	CCONJ	_	_	19	cc	_	start_char=660|end_char=663
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=664|end_char=667
+19	mësuesi	mësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	start_char=668|end_char=675
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=676|end_char=678
+21	shkollë”	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=679|end_char=687|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=687|end_char=688
+23	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	parataxis	_	start_char=689|end_char=697
+24	Valbona	Valbonë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	start_char=698|end_char=705
+25	Treska	Treskë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	flat	_	start_char=706|end_char=712|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=712|end_char=713
+27	Presidente	president	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	list	_	start_char=714|end_char=724
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=725|end_char=726
+29	“	"	PUNCT	_	_	30	punct	_	start_char=727|end_char=728|SpaceAfter=No
+30	Urdhrit	Urdhr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=728|end_char=735
+31	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=736|end_char=738
+32	psikologut	psikolog	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=739|end_char=749|SpaceAfter=No
+33	”	"	PUNCT	_	_	27	punct	_	start_char=749|end_char=750|SpacesAfter=\n
+
+# text = Urdhri i Psikologut tregon se të rinjtë përjetojnë shpesh probleme të shëndetit mendor e duket se për këtë, vëmendja e familjes është periferike.
+# sent_id = 6
+1	Urdhri	urdhër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=751|end_char=757
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=758|end_char=759
+3	Psikologut	psikolog	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=760|end_char=770
+4	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=771|end_char=777
+5	se	se	SCONJ	_	_	8	mark	_	start_char=778|end_char=780
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=781|end_char=783
+7	rinjtë	rinjtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=784|end_char=790
+8	përjetojnë	përjetoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=791|end_char=801
+9	shpesh	shpesh	ADV	_	AdvType=Deg	8	advmod	_	start_char=802|end_char=808
+10	probleme	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=809|end_char=817
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=818|end_char=820
+12	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=821|end_char=830
+13	mendor	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=831|end_char=837
+14	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=838|end_char=839
+15	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=840|end_char=845
+16	se	se	SCONJ	_	_	23	mark	_	start_char=846|end_char=848
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=849|end_char=852
+18	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	start_char=853|end_char=857|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=857|end_char=858
+20	vëmendja	vëmendje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	start_char=859|end_char=867
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=868|end_char=869
+22	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=870|end_char=878
+23	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=879|end_char=884
+24	periferike	periferik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	cop	_	start_char=885|end_char=895|SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	start_char=895|end_char=896|SpacesAfter=\n
+
+# text = “Shpesh prindërit vrapojnë për të mbyllur ditën e tyre, punën dhe gjërat e përditshme dhe harrojnë të kenë vëmendjen e duhur tek fëmijët duke ja deleguar përgjegjësinë shkollave”, shton ajo.
+# sent_id = 7
+1	“	"	PUNCT	_	_	2	punct	_	start_char=897|end_char=898|SpaceAfter=No
+2	Shpesh	shpesh	ADV	_	AdvType=Man	4	advmod	_	start_char=898|end_char=904
+3	prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=905|end_char=914
+4	vrapojnë	vrapoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=915|end_char=923
+5	për	për	PART	_	_	7	fixed	_	start_char=924|end_char=927
+6	të	të	PART	_	_	7	fixed	_	start_char=928|end_char=930
+7	mbyllur	mbyllur	VERB	_	VerbForm=Part	4	advmod	_	start_char=931|end_char=938
+8	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=939|end_char=944
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=945|end_char=946
+10	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	amod:poss	_	start_char=947|end_char=951|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=951|end_char=952
+12	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	list	_	start_char=953|end_char=958
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=959|end_char=962
+14	gjërat	gjërat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=963|end_char=969
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=970|end_char=971
+16	përditshme	përditshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=972|end_char=982
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=983|end_char=986
+18	harrojnë	harroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=987|end_char=995
+19	të	të	PART	_	_	20	fixed	_	start_char=996|end_char=998
+20	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	ccomp	_	start_char=999|end_char=1003
+21	vëmendjen	vëmendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=1004|end_char=1013
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1014|end_char=1015
+23	duhur	duhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=1016|end_char=1021
+24	tek	tek	ADP	_	Case=Nom	25	case	_	start_char=1022|end_char=1025
+25	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	advmod	_	start_char=1026|end_char=1033
+26	duke	duke	PART	_	_	28	fixed	_	start_char=1034|end_char=1038
+27	ja	ja	PART	_	_	28	obj	_	start_char=1039|end_char=1041
+28	deleguar	delegoj	VERB	_	VerbForm=Part	20	advmod	_	start_char=1042|end_char=1050
+29	përgjegjësinë	përgjegjësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=1051|end_char=1064
+30	shkollave”	shkollav	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=1065|end_char=1075|SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	start_char=1075|end_char=1076
+32	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	ccomp	_	start_char=1077|end_char=1082
+33	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=1083|end_char=1086|SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	start_char=1086|end_char=1087|SpacesAfter=\n
+
+# text = E ndërsa thirrja është t’i referojmë shqetësimet emocionale sapo t’i konstatojë ato, mbulimi shëndetësor është problematike.
+# sent_id = 8
+1	E	e	CCONJ	_	_	4	cc	_	start_char=1088|end_char=1089
+2	ndërsa	ndërsa	CCONJ	_	_	4	cc	_	start_char=1090|end_char=1096
+3	thirrja	thirrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1097|end_char=1104
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1105|end_char=1110
+5	t’i	t’i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	6	obj	_	start_char=1111|end_char=1114
+6	referojmë	referoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	csubj	_	start_char=1115|end_char=1124
+7	shqetësimet	shqetësim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=1125|end_char=1136
+8	emocionale	emocional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1137|end_char=1147
+9	sapo	sapo	SCONJ	_	_	11	mark	_	start_char=1148|end_char=1152
+10	t’i	t’i	PRON	_	Case=Nom|Number=Plur|PronType=Prs	11	nsubj	_	start_char=1153|end_char=1156
+11	konstatojë	konstatoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	advcl	_	start_char=1157|end_char=1167
+12	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=1168|end_char=1171|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1171|end_char=1172
+14	mbulimi	mbulim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1173|end_char=1180
+15	shëndetësor	shëndetësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1181|end_char=1192
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=1193|end_char=1198
+17	problematike	problematik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	cop	_	start_char=1199|end_char=1211|SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	start_char=1211|end_char=1212|SpacesAfter=\n
+
+# text = Kjo situatë pa sjellë për pasoje vetëmjekimin, fenomenin aq shumë të përhapur tek qytetarët përmes medikamenteve pa rekomandim Shëndeti mendor sot në vend vuan stigmën dhe paragjykimin e të tjerëve.
+# sent_id = 9
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=1213|end_char=1216
+2	situatë	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=1217|end_char=1224
+3	pa	pa	PART	_	_	4	fixed	_	start_char=1225|end_char=1227
+4	sjellë	sjell	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=1228|end_char=1234
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=1235|end_char=1238
+6	pasoje	pasoj	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=1239|end_char=1245
+7	vetëmjekimin	vetëmjekim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=1246|end_char=1258|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1258|end_char=1259
+9	fenomenin	fenomen	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	list	_	start_char=1260|end_char=1269
+10	aq	aq	ADV	_	AdvType=Deg	13	mark	_	start_char=1270|end_char=1272
+11	shumë	shumë	ADV	_	AdvType=Deg	13	advmod	_	start_char=1273|end_char=1278
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=1279|end_char=1281
+13	përhapur	përhapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=1282|end_char=1290
+14	tek	tek	ADP	_	Case=Nom	15	case	_	start_char=1291|end_char=1294
+15	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	start_char=1295|end_char=1304
+16	përmes	përmes	ADP	_	Case=Abl	17	case	_	start_char=1305|end_char=1311
+17	medikamenteve	medikament	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=1312|end_char=1325
+18	pa	pa	ADP	_	Case=Acc	19	case	_	start_char=1326|end_char=1328
+19	rekomandim	rekomandim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=1329|end_char=1339|SpacesAfter=\n
+20	Shëndeti	Shëndet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=1340|end_char=1348
+21	mendor	mendor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=1349|end_char=1355
+22	sot	sot	ADV	_	AdvType=Tim	25	advmod	_	start_char=1356|end_char=1359
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=1360|end_char=1362
+24	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	advmod	_	start_char=1363|end_char=1367
+25	vuan	vuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	acl	_	start_char=1368|end_char=1372
+26	stigmën	stigmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=1373|end_char=1380
+27	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=1381|end_char=1384
+28	paragjykimin	paragjykim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	conj	_	start_char=1385|end_char=1397
+29	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=1398|end_char=1399
+30	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=1400|end_char=1402
+31	tjerëve	tjerë	PRON	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	28	nmod	_	start_char=1403|end_char=1410|SpaceAfter=No
+32	.	.	PUNCT	_	_	25	punct	_	start_char=1410|end_char=1411
+
+# text = Çdo kush që përjeton mundohet ta fshehë.
+# sent_id = 10
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=1412|end_char=1415
+2	kush	kush	PRON	_	PronType=Ind	5	nsubj	_	start_char=1416|end_char=1420
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=1421|end_char=1423
+4	përjeton	përjetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=1424|end_char=1432
+5	mundohet	mundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1433|end_char=1441
+6-7	ta	_	_	_	_	_	_	_	start_char=1442|end_char=1444
+6	të	të	PART	_	_	8	fixed	_	_
+7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	fshehë	fshem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=1445|end_char=1451|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	start_char=1451|end_char=1452
+
+# text = Çdo kush që e konstaton tek tjetri e kalon në heshtje ndërsa problemet sa vijnë e zmadhohen.
+# sent_id = 11
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=1453|end_char=1456
+2	kush	kush	PRON	_	PronType=Ind	9	nsubj	_	start_char=1457|end_char=1461
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=1462|end_char=1464
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=1465|end_char=1466
+5	konstaton	konstatoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=1467|end_char=1476
+6	tek	tek	ADP	_	Case=Nom	7	case	_	start_char=1477|end_char=1480
+7	tjetri	tjetr	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	start_char=1481|end_char=1487
+8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	cc	_	start_char=1488|end_char=1489
+9	kalon	kaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1490|end_char=1495
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=1496|end_char=1498
+11	heshtje	heshtje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=1499|end_char=1506
+12	ndërsa	ndërsa	CCONJ	_	_	15	cc	_	start_char=1507|end_char=1513
+13	problemet	problem	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=1514|end_char=1523
+14	sa	sa	ADV	_	AdvType=Deg	15	advmod	_	start_char=1524|end_char=1526
+15	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=1527|end_char=1532
+16	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	cc	_	start_char=1533|end_char=1534
+17	zmadhohen	zmadhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	15	conj	_	start_char=1535|end_char=1544|SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	start_char=1544|end_char=1545|SpacesAfter=\n
+
+# text = Gazetare:
+# sent_id = 12
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1546|end_char=1554|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=1554|end_char=1555
+
+# text = Sonila Mlloja
+# sent_id = 13
+1	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1556|end_char=1562
+2	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat:name	_	start_char=1563|end_char=1569|SpacesAfter=\n\n
+
+# text = /rtsh.al/
+# sent_id = 14
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1571|end_char=1579|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1579|end_char=1580|SpacesAfter=\n\n\n
+

@@ -1,0 +1,158 @@
+# text = COVID, shtrimet në spital të qëndrueshme, mjekët:
+# sent_id = 0
+1	COVID	COVID	NUM	_	NumType=Card	3	advmod	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=5|end_char=6
+3	shtrimet	shtrim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=7|end_char=15
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=18
+5	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=19|end_char=25
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=26|end_char=28
+7	qëndrueshme	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=29|end_char=40|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=40|end_char=41
+9	mjekët	mjekë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	conj	_	start_char=42|end_char=48|SpaceAfter=No
+10	:	:	PUNCT	_	_	3	punct	_	start_char=48|end_char=49
+
+# text = Pacientët me forma të rënda, të pavaksinuar 19/08/2022
+# sent_id = 1
+1	Pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	start_char=50|end_char=59
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=60|end_char=62
+3	forma	formë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=63|end_char=68
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=69|end_char=71
+5	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=72|end_char=77|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=77|end_char=78
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=79|end_char=81
+8	pavaksinuar	pavaksinuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	list	_	start_char=82|end_char=93|SpacesAfter=\n
+9	19	19	NUM	_	NumType=Card	10	nummod	_	start_char=94|end_char=96|SpaceAfter=No
+10	/08	/08	SYM	_	_	8	nmod	_	start_char=96|end_char=99|SpaceAfter=No
+11	/	/	PUNCT	_	_	12	punct	_	start_char=99|end_char=100|SpaceAfter=No
+12	202	202	NUM	_	NumType=Card	10	amod:nummod	_	start_char=100|end_char=103|SpaceAfter=No
+13	2	2	NUM	_	NumType=Card	10	amod	_	start_char=103|end_char=104|SpacesAfter=\n
+
+# text = Pavarësisht rënies së infektimeve nga CVID, në testimet e përgjithshme çdo 24 orë, kjo nuk reflektohet në spitalin COVID3.
+# sent_id = 2
+1	Pavarësisht	pavarësisht	ADV	_	AdvType=Man	2	mark	_	start_char=105|end_char=116
+2	rënies	rënie	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=117|end_char=123
+3	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=124|end_char=126
+4	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=127|end_char=138
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=139|end_char=142
+6	CVID	CVID	NUM	_	NumType=Card	2	nmod	_	start_char=143|end_char=147|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=147|end_char=148
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=149|end_char=151
+9	testimet	testim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	18	advmod	_	start_char=152|end_char=160
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=161|end_char=162
+11	përgjithshme	përgjithshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=163|end_char=175
+12	çdo	çdo	PRON	_	PronType=Ind	14	nummod	_	start_char=176|end_char=179
+13	24	24	NUM	_	NumType=Card	14	nummod	_	start_char=180|end_char=182
+14	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	nmod	_	start_char=183|end_char=186|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	start_char=186|end_char=187
+16	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	nsubj	_	start_char=188|end_char=191
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=192|end_char=195
+18	reflektohet	reflektoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=196|end_char=207
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=208|end_char=210
+20	spitalin	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=211|end_char=219
+21	COVID3	COVID3	PROPN	_	_	20	appos	_	start_char=220|end_char=226|SpaceAfter=No
+22	.	.	PUNCT	_	_	18	punct	_	start_char=226|end_char=227
+
+# text = Mjekët thonë se trendi i shtrimeve është I qëndrueshëm.
+# sent_id = 3
+1	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=228|end_char=234
+2	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=235|end_char=240
+3	se	se	SCONJ	_	_	7	mark	_	start_char=241|end_char=243
+4	trendi	trend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=244|end_char=250
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=251|end_char=252
+6	shtrimeve	shtrim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=253|end_char=262
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=263|end_char=268
+8	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=269|end_char=270
+9	qëndrueshëm	qëndrueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=271|end_char=282|SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	start_char=282|end_char=283
+
+# text = Çdo ditë shtrohen 7-8 persona me gjendje të rënduar Infeksionistja Eri Qato, thotë me shqetësim se ende ka pacientë me forma të rënda të prekjes së pulmoneve, pavarësisht zbutjes së valës pandemike, teksa shton se këto forma rezultojnë të pavaksinuar.
+# sent_id = 4
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=284|end_char=287
+2	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=288|end_char=292
+3	shtrohen	shtroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=293|end_char=301
+4	7-8	7-8	NUM	_	NumType=Card	3	advmod	_	start_char=302|end_char=305
+5	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	start_char=306|end_char=313
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=314|end_char=316
+7	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=317|end_char=324
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=325|end_char=327
+9	rënduar	rënduar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=328|end_char=335|SpacesAfter=\n
+10	Infeksionistja	Infeksionistjej	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=336|end_char=350
+11	Eri	Eri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=351|end_char=354
+12	Qato	Qato	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=355|end_char=359|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=359|end_char=360
+14	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=361|end_char=366
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=367|end_char=369
+16	shqetësim	shqetësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=370|end_char=379
+17	se	se	SCONJ	_	_	19	mark	_	start_char=380|end_char=382
+18	ende	ende	ADV	_	AdvType=Tim	19	advmod	_	start_char=383|end_char=387
+19	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	advcl	_	start_char=388|end_char=390
+20	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	start_char=391|end_char=399
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=400|end_char=402
+22	forma	formë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	start_char=403|end_char=408
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=409|end_char=411
+24	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=412|end_char=417
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=418|end_char=420
+26	prekjes	prekje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=421|end_char=428
+27	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=429|end_char=431
+28	pulmoneve	pulmon	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	start_char=432|end_char=441|SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	start_char=441|end_char=442
+30	pavarësisht	pavarësisht	ADV	_	AdvType=Man	31	mark	_	start_char=443|end_char=454
+31	zbutjes	zbutje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	conj	_	start_char=455|end_char=462
+32	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=463|end_char=465
+33	valës	valë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=466|end_char=471
+34	pandemike	pandemik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=472|end_char=481|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	start_char=481|end_char=482
+36	teksa	teksa	SCONJ	_	_	37	mark	_	start_char=483|end_char=488
+37	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	acl	_	start_char=489|end_char=494
+38	se	se	SCONJ	_	_	41	mark	_	start_char=495|end_char=497
+39	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	40	det	_	start_char=498|end_char=502
+40	forma	formë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	41	obj	_	start_char=503|end_char=508
+41	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	37	ccomp	_	start_char=509|end_char=519
+42	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	43	det	_	start_char=520|end_char=522
+43	pavaksinuar	pavaksinuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	41	cop	_	start_char=523|end_char=534|SpaceAfter=No
+44	.	.	PUNCT	_	_	41	punct	_	start_char=534|end_char=535|SpacesAfter=\n
+
+# text = Hyrje-daljet e turistëve gjatë sezonit turistik kanë shtuar gatishmërinë e stafit të këtij spitali për një vjeshtë me problematikë të shtuar, por gjithsesi ata apelojnë se kurrë nuk është vonë për ‘tu vaksinuar.
+# sent_id = 5
+1	Hyrje-daljet	Hyrje-dalje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	start_char=536|end_char=548
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=549|end_char=550
+3	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=551|end_char=560
+4	gjatë	gjatë	ADP	_	Case=Abl	5	case	_	start_char=561|end_char=566
+5	sezonit	sezon	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=567|end_char=574
+6	turistik	turistik	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=575|end_char=583
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=584|end_char=588
+8	shtuar	shtoj	VERB	_	VerbForm=Part	0	root	_	start_char=589|end_char=595
+9	gatishmërinë	gatishmëri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=596|end_char=608
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=609|end_char=610
+11	stafit	staf	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=611|end_char=617
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=618|end_char=620
+13	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=621|end_char=626
+14	spitali	spital	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=627|end_char=634
+15	për	për	ADP	_	Case=Acc	17	case	_	start_char=635|end_char=638
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=639|end_char=642
+17	vjeshtë	vjeshtë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=643|end_char=650
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=651|end_char=653
+19	problematikë	problematikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=654|end_char=666
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=667|end_char=669
+21	shtuar	shtoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=670|end_char=676|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=676|end_char=677
+23	por	por	CCONJ	_	_	26	cc	_	start_char=678|end_char=681
+24	gjithsesi	gjithsesi	ADV	_	AdvType=Man	26	advmod	_	start_char=682|end_char=691
+25	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=692|end_char=695
+26	apelojnë	apeloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=696|end_char=704
+27	se	se	SCONJ	_	_	30	mark	_	start_char=705|end_char=707
+28	kurrë	kurrë	ADV	_	AdvType=Tim	26	advmod	_	start_char=708|end_char=713
+29	nuk	nuk	PART	_	_	30	mark	_	start_char=714|end_char=717
+30	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=718|end_char=723
+31	vonë	vonë	ADV	_	AdvType=Tim	34	advmod	_	start_char=724|end_char=728
+32	për	për	ADP	_	Case=Acc	33	case	_	start_char=729|end_char=732
+33-33	‘tu	_	_	_	_	_	_	_	start_char=733|end_char=736
+33	uuu	uuu	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	34	advmod	_	_
+34	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	26	ccomp	_	start_char=737|end_char=746|SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	start_char=746|end_char=747|SpacesAfter=\n\n
+
+# text = /rtsh.al/
+# sent_id = 6
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=749|end_char=757|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=757|end_char=758|SpacesAfter=\n\n\n
+

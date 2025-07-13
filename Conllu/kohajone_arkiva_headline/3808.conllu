@@ -1,0 +1,218 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = BE marrëveshje me Pfizer për 300 milionë doza të vaksinës për Covid-19”
+# sent_id = 1
+1	BE	Be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1|end_char=3
+2	marrëveshje	marrëveshje	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	1	obj	_	start_char=4|end_char=15
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=16|end_char=18
+4	Pfizer	Pfizer	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	start_char=19|end_char=25
+5	për	për	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=29
+6	300	300	NUM	_	NumType=Card	7	nummod	_	start_char=30|end_char=33
+7	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	1	obl	_	start_char=34|end_char=41
+8	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	start_char=42|end_char=46
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=47|end_char=49
+10	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=50|end_char=58
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=59|end_char=62
+12	Covid-19	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=63|end_char=71|SpaceAfter=No
+13	”	"	PUNCT	_	_	1	punct	_	start_char=71|end_char=72|SpacesAfter=\n
+
+# text = Bashkimi Evropian do të nënshkruajë së shpejti një kontratë me kompaninë amerikane Pfizer dhe BioNTech për të siguruar 300 milionë doza të vaksinës, në testim e sipër, për Covid-19.
+# sent_id = 2
+1	Bashkimi	bashkim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=73|end_char=81
+2	Evropian	evropian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=82|end_char=90
+3	do	do	PART	_	_	5	fixed	_	start_char=91|end_char=93
+4	të	të	PART	_	_	5	fixed	_	start_char=94|end_char=96
+5	nënshkruajë	nënshkroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=97|end_char=108
+6	së	së	PART	_	_	7	det	_	start_char=109|end_char=111
+7	shpejti	shpejt	ADV	_	AdvType=Tim	9	advmod	_	start_char=112|end_char=119
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=120|end_char=123
+9	kontratë	kontratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=124|end_char=132
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=133|end_char=135
+11	kompaninë	kompani	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=136|end_char=145
+12	amerikane	amerikan	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=146|end_char=155
+13	Pfizer	Pfizer	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	11	appos	_	start_char=156|end_char=162
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=163|end_char=166
+15	BioNTech	BioNTech	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	13	conj	_	start_char=167|end_char=175
+16	për	për	PART	_	_	18	fixed	_	start_char=176|end_char=179
+17	të	të	PART	_	_	18	fixed	_	start_char=180|end_char=182
+18	siguruar	siguroj	VERB	_	VerbForm=Part	5	advmod	_	start_char=183|end_char=191
+19	300	300	NUM	_	NumType=Card	21	nummod	_	start_char=192|end_char=195
+20	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	det	_	start_char=196|end_char=203
+21	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=204|end_char=208
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=209|end_char=211
+23	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=212|end_char=220|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	start_char=220|end_char=221
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=222|end_char=224
+26	testim	testim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=225|end_char=231
+27	e	e	CCONJ	_	_	31	cc	_	start_char=232|end_char=233
+28	sipër	sipër	ADV	_	AdvType=Loc	26	conj	_	start_char=234|end_char=239|SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	start_char=239|end_char=240
+30	për	për	ADP	_	Case=Acc	31	case	_	start_char=241|end_char=244
+31	Covid-19	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=245|end_char=253|SpaceAfter=No
+32	.	.	PUNCT	_	_	18	punct	_	start_char=253|end_char=254|SpacesAfter=\n
+
+# text = Lajmin e dha presidentja e Komisionit Evropian, Ursula von der Leyen në një postim në mediat sociale.
+# sent_id = 3
+1	Lajmin	Lajm	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=255|end_char=261
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=262|end_char=263
+3	dha	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=264|end_char=267
+4	presidentja	presidentje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=268|end_char=279
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=280|end_char=281
+6	Komisionit	Komision	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=282|end_char=292
+7	Evropian	evropian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=293|end_char=301|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=301|end_char=302
+9	Ursula	Ursulë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	appos	_	start_char=303|end_char=309
+10	von	von	PROPN	_	Foreign=Yes	11	mark	_	start_char=310|end_char=313
+11	der	der	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	9	compound	_	start_char=314|end_char=317
+12	Leyen	Leyen	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	11	flat	_	start_char=318|end_char=323
+13	në	në	ADP	_	Case=Acc	15	case	_	start_char=324|end_char=326
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=327|end_char=330
+15	postim	postim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=331|end_char=337
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=338|end_char=340
+17	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=341|end_char=347
+18	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=348|end_char=355|SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	start_char=355|end_char=356|SpacesAfter=\n
+
+# text = “KE shumë shpejt do të firmosë një kontratë me Pfizer e BioNTech për të siguruar të paktën 300 milionë doza të vaksinës anti-Covid”, shkroi von der Leyen.
+# sent_id = 4
+1	“	"	PUNCT	_	_	2	punct	_	start_char=357|end_char=358|SpaceAfter=No
+2	KE	kem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=358|end_char=360
+3	shumë	shumë	ADV	_	AdvType=Deg	4	advmod	_	start_char=361|end_char=366
+4	shpejt	shpejt	ADV	_	AdvType=Tim	2	advmod	_	start_char=367|end_char=373
+5	do	do	PART	_	_	7	fixed	_	start_char=374|end_char=376
+6	të	të	PART	_	_	7	fixed	_	start_char=377|end_char=379
+7	firmosë	firmoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=380|end_char=387
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=388|end_char=391
+9	kontratë	kontratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=392|end_char=400
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=401|end_char=403
+11	Pfizer	Pfizer	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=404|end_char=410
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=411|end_char=412
+13	BioNTech	BioNTech	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=413|end_char=421
+14	për	për	PART	_	_	16	fixed	_	start_char=422|end_char=425
+15	të	të	PART	_	_	16	fixed	_	start_char=426|end_char=428
+16	siguruar	siguroj	VERB	_	VerbForm=Part	7	advmod	_	start_char=429|end_char=437
+17	të	të	PART	_	_	18	fixed	_	start_char=438|end_char=440
+18	paktën	paktë	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	ccomp	_	start_char=441|end_char=447
+19	300	300	NUM	_	NumType=Card	20	nummod	_	start_char=448|end_char=451
+20	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	start_char=452|end_char=459
+21	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=460|end_char=464
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=465|end_char=467
+23	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=468|end_char=476
+24	anti-Covid”	anti-Covid”	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=477|end_char=488|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	start_char=488|end_char=489
+26	shkroi	shkruaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	conj	_	start_char=490|end_char=496
+27	von	von	PROPN	_	Foreign=Yes	28	mark	_	start_char=497|end_char=500
+28	der	der	PROPN	_	Foreign=Yes	26	obj	_	start_char=501|end_char=504
+29	Leyen	Leyen	PROPN	_	Case=Nom|Foreign=Yes	28	flat	_	start_char=505|end_char=510|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=510|end_char=511|SpacesAfter=\n
+
+# text = Të hënën drejtuesi i Pfizer njoftoi se vaksina ka rezultuar 90 për qind efektive dhe ky lajm është pritur me shpresë dhe entuziazëm në shumë vende të botës pasi erdhi në një moment kur vala e dytë e pandemisë po detyron shumë vende të mbyllen.
+# sent_id = 5
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=512|end_char=514
+2	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=515|end_char=520
+3	drejtuesi	drejtues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=521|end_char=530
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=531|end_char=532
+5	Pfizer	Pfizer	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=533|end_char=539
+6	njoftoi	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=540|end_char=547
+7	se	se	SCONJ	_	_	10	mark	_	start_char=548|end_char=550
+8	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=551|end_char=558
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=559|end_char=561
+10	rezultuar	rezultoj	VERB	_	VerbForm=Part	6	advcl	_	start_char=562|end_char=571
+11	90	90	NUM	_	NumType=Card	10	advmod	_	start_char=572|end_char=574
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=575|end_char=578
+13	qind	qind	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	start_char=579|end_char=583
+14	efektive	efektiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=584|end_char=592
+15	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=593|end_char=596
+16	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=597|end_char=599
+17	lajm	lajm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	start_char=600|end_char=604
+18	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=605|end_char=610
+19	pritur	pritoj	VERB	_	VerbForm=Part	6	conj	_	start_char=611|end_char=617
+20	me	me	ADP	_	Case=Acc	21	case	_	start_char=618|end_char=620
+21	shpresë	shpresë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	start_char=621|end_char=628
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=629|end_char=632
+23	entuziazëm	entuziazëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	start_char=633|end_char=643
+24	në	në	ADP	_	Case=Acc	26	case	_	start_char=644|end_char=646
+25	shumë	shumë	PRON	_	PronType=Ind	26	nummod	_	start_char=647|end_char=652
+26	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	start_char=653|end_char=658
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=659|end_char=661
+28	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=662|end_char=667
+29	pasi	pasi	SCONJ	_	_	30	mark	_	start_char=668|end_char=672
+30	erdhi	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	acl:relcl	_	start_char=673|end_char=678
+31	në	në	ADP	_	Case=Acc	33	case	_	start_char=679|end_char=681
+32	një	një	DET	_	Definite=Ind	33	det	_	start_char=682|end_char=685
+33	moment	moment	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	start_char=686|end_char=692
+34	kur	kur	SCONJ	_	_	35	mark	_	start_char=693|end_char=696
+35	vala	valë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=697|end_char=701
+36	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=702|end_char=703
+37	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=704|end_char=708
+38	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	39	det:poss	_	start_char=709|end_char=710
+39	pandemisë	pandemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=711|end_char=720
+40	po	po	PART	_	_	41	mark	_	start_char=721|end_char=723
+41	detyron	detyroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	acl:relcl	_	start_char=724|end_char=731
+42	shumë	shumë	PRON	_	PronType=Ind	43	nummod	_	start_char=732|end_char=737
+43	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	41	obj	_	start_char=738|end_char=743
+44	të	të	PART	_	_	45	fixed	_	start_char=744|end_char=746
+45	mbyllen	mbyllej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	41	ccomp	_	start_char=747|end_char=754|SpaceAfter=No
+46	.	.	PUNCT	_	_	41	punct	_	start_char=754|end_char=755|SpacesAfter=\n
+
+# text = Po ashtu, Von der Leyen, si edhe disa prej liderëve të vendeve më të mëdha, u kërkoi qytetarëve që të mos e ulin vigjilencën pasi që vaksina të dalë në treg duhen ende disa muaj.
+# sent_id = 6
+1	Po	po	PART	_	_	2	mark:emph	_	start_char=756|end_char=758
+2	ashtu	ashtu	ADV	_	AdvType=Man	20	dislocated	_	start_char=759|end_char=764|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=764|end_char=765
+4	Von	Von	PROPN	_	Foreign=Yes	5	mark	_	start_char=766|end_char=769
+5	der	der	PROPN	_	Foreign=Yes	2	nmod	_	start_char=770|end_char=773
+6	Leyen	Leyen	PROPN	_	Foreign=Yes	5	flat	_	start_char=774|end_char=779|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	start_char=779|end_char=780
+8	si	si	SCONJ	_	_	9	fixed	_	start_char=781|end_char=783
+9	edhe	edhe	CCONJ	_	_	10	mark	_	start_char=784|end_char=788
+10	disa	disa	PRON	_	PronType=Ind	12	det	_	start_char=789|end_char=793
+11	prej	prej	ADP	_	Case=Abl	12	case	_	start_char=794|end_char=798
+12	liderëve	lider	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	20	advmod	_	start_char=799|end_char=807
+13	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=808|end_char=810
+14	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=811|end_char=818
+15	më	më	PART	_	_	17	mark	_	start_char=819|end_char=821
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=822|end_char=824
+17	mëdha	madh	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=825|end_char=830|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=830|end_char=831
+19	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	fixed	_	start_char=832|end_char=833
+20	kërkoi	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=834|end_char=840
+21	qytetarëve	qytetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	20	obj	_	start_char=841|end_char=851
+22	që	që	SCONJ	_	_	26	mark	_	start_char=852|end_char=854
+23	të	të	PART	_	_	26	fixed	_	start_char=855|end_char=857
+24	mos	mos	PART	_	_	26	mark	_	start_char=858|end_char=861
+25	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=862|end_char=863
+26	ulin	ulem	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	advcl	_	start_char=864|end_char=868
+27	vigjilencën	vigjilencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=869|end_char=880
+28	pasi	pasi	SCONJ	_	_	29	fixed	_	start_char=881|end_char=885
+29	që	që	SCONJ	_	_	32	mark	_	start_char=886|end_char=888
+30	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	nsubj	_	start_char=889|end_char=896
+31	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	32	fixed	_	start_char=897|end_char=899
+32	dalë	dal	VERB	_	VerbForm=Part	26	advcl	_	start_char=900|end_char=904
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=905|end_char=907
+34	treg	treg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	start_char=908|end_char=912
+35	duhen	duhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	32	ccomp	_	start_char=913|end_char=918
+36	ende	ende	ADV	_	AdvType=Tim	35	advmod	_	start_char=919|end_char=923
+37	disa	disa	PRON	_	PronType=Ind	38	det	_	start_char=924|end_char=928
+38	muaj	muaj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	35	obj	_	start_char=929|end_char=933|SpaceAfter=No
+39	.	.	PUNCT	_	_	35	punct	_	start_char=933|end_char=934|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 7
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=935|end_char=937
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=938|end_char=948|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=948|end_char=949|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=950|end_char=954
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=955|end_char=957
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=958|end_char=961
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=962|end_char=966|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=967|end_char=985|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=986|end_char=995
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=996|end_char=1008
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1009|end_char=1015|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1016|end_char=1025
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1026|end_char=1038
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1039|end_char=1046|SpacesAfter=\n\n\n
+

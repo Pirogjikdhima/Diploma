@@ -1,0 +1,886 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Sëmundje e pashpjegueshme”!
+# sent_id = 1
+1	Sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=1|end_char=9
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11
+3	pashpjegueshme”	pashpjegueshme”	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=27|SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	start_char=27|end_char=28
+
+# text = Ndërpritet në fazën e fundit testimi i vaksinës nga gjiganti farmaceutik në SHBA NEW BRUNSWICK, NEW JERSEY – Gjigandi i farmaceutikës, Johnson & Johnson, ndërpreu testimin e fazës së fundit të vaksinës për COVID-19, pasi një prej pjesëmarrësve u diagnostikua me një sëmundje të pashpjegueshme.
+# sent_id = 2
+1	Ndërpritet	ndërprit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=29|end_char=39
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=40|end_char=42
+3	fazën	fazë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	advmod	_	start_char=43|end_char=48
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=49|end_char=50
+5	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=51|end_char=57
+6	testimi	testim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=58|end_char=65
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=66|end_char=67
+8	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=68|end_char=76
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=77|end_char=80
+10	gjiganti	gjigant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=81|end_char=89
+11	farmaceutik	farmaceutik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=90|end_char=101
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=102|end_char=104
+13	SHBA	SHBA	PROPN	_	Foreign=Yes	10	nmod	_	start_char=105|end_char=109|SpacesAfter=\n
+14	NEW	NEW	PROPN	_	Foreign=Yes	13	flat	_	start_char=110|end_char=113
+15	BRUNSWICK	BRUNSWICK	PROPN	_	Foreign=Yes	14	flat	_	start_char=114|end_char=123|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=123|end_char=124
+17	NEW	NEW	PROPN	_	Foreign=Yes	15	list	_	start_char=125|end_char=128
+18	JERSEY	JERSEY	PROPN	_	Foreign=Yes	17	flat	_	start_char=129|end_char=135
+19	–	–	PUNCT	_	_	20	punct	_	start_char=136|end_char=137
+20	Gjigandi	Gjigand	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	list	_	start_char=138|end_char=146
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=147|end_char=148
+22	farmaceutikës	farmaceutikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=149|end_char=162|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=162|end_char=163
+24	Johnson	Johnso	PROPN	_	Foreign=Yes	22	appos	_	start_char=164|end_char=171
+25	&	&	PROPN	_	Foreign=Yes	24	flat	_	start_char=172|end_char=173
+26	Johnson	Johnso	PROPN	_	Foreign=Yes	24	flat	_	start_char=174|end_char=181|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	start_char=181|end_char=182
+28	ndërpreu	ndërprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	start_char=183|end_char=191
+29	testimin	testim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=192|end_char=200
+30	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=201|end_char=202
+31	fazës	fazë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=203|end_char=208
+32	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	33	det	_	start_char=209|end_char=211
+33	fundit	fundit	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=212|end_char=218
+34	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=219|end_char=221
+35	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=222|end_char=230
+36	për	për	ADP	_	Case=Acc	37	case	_	start_char=231|end_char=234
+37	COVID-19	COVID-19	PROPN	_	_	35	nmod	_	start_char=235|end_char=243|SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	start_char=243|end_char=244
+39	pasi	pasi	SCONJ	_	_	44	mark	_	start_char=245|end_char=249
+40	një	një	DET	_	Definite=Ind	42	det	_	start_char=250|end_char=253
+41	prej	prej	ADP	_	Case=Abl	42	case	_	start_char=254|end_char=258
+42	pjesëmarrësve	pjesëmarrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	44	advmod	_	start_char=259|end_char=272
+43	u	u	PART	_	_	44	fixed	_	start_char=273|end_char=274
+44	diagnostikua	diagnostikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	28	conj	_	start_char=275|end_char=287
+45	me	me	ADP	_	Case=Acc	47	case	_	start_char=288|end_char=290
+46	një	një	DET	_	Definite=Ind	47	det	_	start_char=291|end_char=294
+47	sëmundje	sëmundje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	44	obl	_	start_char=295|end_char=303
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	49	det	_	start_char=304|end_char=306
+49	pashpjegueshme	pashpjegueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	start_char=307|end_char=321|SpaceAfter=No
+50	.	.	PUNCT	_	_	44	punct	_	start_char=321|end_char=322|SpacesAfter=\n
+
+# text = Ndërprerja u raportua fillimisht nga faqja në internet Stat, e cila kishte marrë një dokument që kompania ua kishte dërguar ekspertëve të jashtëm.
+# sent_id = 3
+1	Ndërprerja	ndërprerje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=323|end_char=333
+2	u	u	PART	_	_	3	fixed	_	start_char=334|end_char=335
+3	raportua	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=336|end_char=344
+4	fillimisht	fillimisht	ADV	_	AdvType=Man	3	advmod	_	start_char=345|end_char=355
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=356|end_char=359
+6	faqja	faqjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=360|end_char=365
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=366|end_char=368
+8	internet	internet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=369|end_char=377
+9	Stat	Stat	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=378|end_char=382|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=382|end_char=383
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=384|end_char=385
+12	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	start_char=386|end_char=390
+13	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	14	aux	_	start_char=391|end_char=397
+14	marrë	marr	VERB	_	VerbForm=Part	3	advcl	_	start_char=398|end_char=403
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=404|end_char=407
+16	dokument	dokume	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	start_char=408|end_char=416
+17	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=417|end_char=419
+18	kompania	kompani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=420|end_char=428
+19	ua	ua	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	21	obj	_	start_char=429|end_char=431
+20	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	21	aux	_	start_char=432|end_char=438
+21	dërguar	dërgoj	VERB	_	VerbForm=Part	16	acl:relcl	_	start_char=439|end_char=446
+22	ekspertëve	ekspert	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	21	obj	_	start_char=447|end_char=457
+23	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	24	det	_	start_char=458|end_char=460
+24	jashtëm	jashtëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=461|end_char=468|SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	start_char=468|end_char=469|SpacesAfter=\n
+
+# text = Kompania Johnson & Johnson sapo e kishte filluar testimin në shkallë të gjerë të vaksinës së saj eksperimentale me një dozë të vetme.
+# sent_id = 4
+1	Kompania	Kompani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=470|end_char=478
+2	Johnson	Johnso	PROPN	_	Foreign=Yes	1	flat	_	start_char=479|end_char=486
+3	&	&	PROPN	_	Foreign=Yes	2	flat	_	start_char=487|end_char=488
+4	Johnson	Johnso	PROPN	_	Foreign=Yes	2	flat	_	start_char=489|end_char=496
+5	sapo	sapo	SCONJ	_	_	8	mark	_	start_char=497|end_char=501
+6	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	cc	_	start_char=502|end_char=503
+7	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	8	aux	_	start_char=504|end_char=510
+8	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=511|end_char=518
+9	testimin	testim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=519|end_char=527
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=528|end_char=530
+11	shkallë	shkallë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=531|end_char=538
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=539|end_char=541
+13	gjerë	gjerë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=542|end_char=547
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=548|end_char=550
+15	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=551|end_char=559
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=560|end_char=562
+17	saj	saj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=563|end_char=566
+18	eksperimentale	eksperimental	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=567|end_char=581
+19	me	me	ADP	_	Case=Acc	21	case	_	start_char=582|end_char=584
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=585|end_char=588
+21	dozë	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=589|end_char=593
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=594|end_char=596
+23	vetme	vetëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=597|end_char=602|SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	start_char=602|end_char=603
+
+# text = Në testim u përfshinë 60 mijë vullnetarë nga mbi 200 vendndodhje në Shtetet e Bashkuara dhe në vende të tjera, si Argjentinë, Brazil, Kili, Meksikë dhe Afrikë e Jugut.
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=604|end_char=606
+2	testim	testim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=607|end_char=613
+3	u	u	PART	_	_	4	fixed	_	start_char=614|end_char=615
+4	përfshinë	përfshij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=616|end_char=625
+5	60	60	NUM	_	NumType=Card	4	advmod	_	start_char=626|end_char=628
+6	mijë	mijë	NUM	_	NumType=Card	7	nummod	_	start_char=629|end_char=633
+7	vullnetarë	vullnetarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	start_char=634|end_char=644
+8	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=645|end_char=648
+9	mbi	mbi	ADP	_	Case=Acc	11	case	_	start_char=649|end_char=652
+10	200	200	NUM	_	NumType=Card	11	nummod	_	start_char=653|end_char=656
+11	vendndodhje	vendndodhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	start_char=657|end_char=668
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=669|end_char=671
+13	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=672|end_char=679
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=680|end_char=681
+15	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=682|end_char=691
+16	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=692|end_char=695
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=696|end_char=698
+18	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	start_char=699|end_char=704
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=705|end_char=707
+20	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	18	amod	_	start_char=708|end_char=713|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=713|end_char=714
+22	si	si	SCONJ	_	_	23	mark	_	start_char=715|end_char=717
+23	Argjentinë	Argjentinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	list	_	start_char=718|end_char=728|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=728|end_char=729
+25	Brazil	Brazil	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	list	_	start_char=730|end_char=736|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=736|end_char=737
+27	Kili	Kili	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	list	_	start_char=738|end_char=742|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=742|end_char=743
+29	Meksikë	Meksikë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	27	list	_	start_char=744|end_char=751
+30	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=752|end_char=755
+31	Afrikë	Afrikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	conj	_	start_char=756|end_char=762
+32	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=763|end_char=764
+33	Jugut	jug	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=765|end_char=770|SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	start_char=770|end_char=771|SpacesAfter=\n
+
+# text = Kompania tha në një deklaratë se të ashtuquajturat “zhvillime jo të favorshme”, si sëmundjet dhe aksidentet janë pjesë e pritshme e një studimi klinik, në veçanti kur përfshin një numër kaq të madh pjesëmarrësish.
+# sent_id = 6
+1	Kompania	kompani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=772|end_char=780
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=781|end_char=784
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=785|end_char=787
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=788|end_char=791
+5	deklaratë	deklaratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=792|end_char=801
+6	se	se	SCONJ	_	_	8	mark	_	start_char=802|end_char=804
+7	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=805|end_char=807
+8	ashtuquajturat	ashtuquajturë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=808|end_char=822
+9	“zhvillime	mzhvillim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=823|end_char=833
+10	jo	jo	PART	_	_	12	mark	_	start_char=834|end_char=836
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=837|end_char=839
+12	favorshme”	favorshme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=840|end_char=850|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	start_char=850|end_char=851
+14	si	si	SCONJ	_	_	15	mark	_	start_char=852|end_char=854
+15	sëmundjet	sëmundje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	advmod	_	start_char=855|end_char=864
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=865|end_char=868
+17	aksidentet	aksident	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	conj	_	start_char=869|end_char=879
+18	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=880|end_char=884
+19	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	cop	_	start_char=885|end_char=890
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=891|end_char=892
+21	pritshme	pritshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=893|end_char=901
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=902|end_char=903
+23	një	një	DET	_	Definite=Ind	24	det	_	start_char=904|end_char=907
+24	studimi	studim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=908|end_char=915
+25	klinik	klinik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=916|end_char=922|SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	start_char=922|end_char=923
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=924|end_char=926
+28	veçanti	veçant	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=927|end_char=934
+29	kur	kur	SCONJ	_	_	30	mark	_	start_char=935|end_char=938
+30	përfshin	përfshij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	acl:relcl	_	start_char=939|end_char=947
+31	një	një	DET	_	Definite=Ind	32	det	_	start_char=948|end_char=951
+32	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=952|end_char=957
+33	kaq	kaq	ADV	_	AdvType=Deg	35	advmod	_	start_char=958|end_char=961
+34	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=962|end_char=964
+35	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=965|end_char=969
+36	pjesëmarrësish	pjesëmarrësish	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	start_char=970|end_char=984|SpaceAfter=No
+37	.	.	PUNCT	_	_	30	punct	_	start_char=984|end_char=985
+
+# text = Kompania gjithashtu tha se ndërprerja është e llojit studimor dhe jo një ndërprerje klinike që vendoset nga një agjensi zyrtare e shëndetësisë.
+# sent_id = 7
+1	Kompania	kompani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=986|end_char=994
+2	gjithashtu	gjithashtu	ADV	_	AdvType=Man	3	advmod	_	start_char=995|end_char=1005
+3	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1006|end_char=1009
+4	se	se	SCONJ	_	_	6	mark	_	start_char=1010|end_char=1012
+5	ndërprerja	ndërprerje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1013|end_char=1023
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=1024|end_char=1029
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1030|end_char=1031
+8	llojit	lloj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=1032|end_char=1038
+9	studimor	studimor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1039|end_char=1047
+10	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=1048|end_char=1051
+11	jo	jo	PART	_	_	13	mark	_	start_char=1052|end_char=1054
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=1055|end_char=1058
+13	ndërprerje	ndërprerje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=1059|end_char=1069
+14	klinike	klinik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=1070|end_char=1077
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=1078|end_char=1080
+16	vendoset	vendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	acl:relcl	_	start_char=1081|end_char=1089
+17	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=1090|end_char=1093
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=1094|end_char=1097
+19	agjensi	agjens	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=1098|end_char=1105
+20	zyrtare	zyrtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1106|end_char=1113
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=1114|end_char=1115
+22	shëndetësisë	shëndetësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=1116|end_char=1128|SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	start_char=1128|end_char=1129|SpacesAfter=\n
+
+# text = Duke qenë se jepet me një dozë të vetme, vaksina e kompanisë Johnson & Johnson ka avantazhe domethënëse mbi tre vaksinat e tjera potenciale, për të cilat do të duhen dy doza.
+# sent_id = 8
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=1130|end_char=1134
+2	qenë	jam	VERB	_	VerbForm=Part	17	advmod	_	start_char=1135|end_char=1139
+3	se	se	SCONJ	_	_	4	mark	_	start_char=1140|end_char=1142
+4	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	csubj	_	start_char=1143|end_char=1148
+5	me	me	ADP	_	Case=Acc	7	case	_	start_char=1149|end_char=1151
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=1152|end_char=1155
+7	dozë	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=1156|end_char=1160
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1161|end_char=1163
+9	vetme	vetëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1164|end_char=1169|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1169|end_char=1170
+11	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=1171|end_char=1178
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=1179|end_char=1180
+13	kompanisë	kompani	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1181|end_char=1190
+14	Johnson	Johnso	PROPN	_	Foreign=Yes	13	appos	_	start_char=1191|end_char=1198
+15	&	&	PROPN	_	Foreign=Yes	14	flat	_	start_char=1199|end_char=1200
+16	Johnson	Johnso	PROPN	_	Foreign=Yes	14	flat	_	start_char=1201|end_char=1208
+17	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1209|end_char=1211
+18	avantazhe	avantazhe	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	start_char=1212|end_char=1221
+19	domethënëse	domethënës	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=1222|end_char=1233
+20	mbi	mbi	ADP	_	Case=Acc	22	case	_	start_char=1234|end_char=1237
+21	tre	tre	NUM	_	NumType=Card	22	nummod	_	start_char=1238|end_char=1241
+22	vaksinat	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obl	_	start_char=1242|end_char=1250
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=1251|end_char=1252
+24	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	22	amod	_	start_char=1253|end_char=1258
+25	potenciale	potenciale	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=1259|end_char=1269|SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	start_char=1269|end_char=1270
+27	për	për	ADP	_	Case=Acc	29	case	_	start_char=1271|end_char=1274
+28	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=1275|end_char=1277
+29	cilat	cila	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	32	obl	_	start_char=1278|end_char=1283
+30	do	do	PART	_	_	32	fixed	_	start_char=1284|end_char=1286
+31	të	të	PART	_	_	32	fixed	_	start_char=1287|end_char=1289
+32	duhen	duhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=1290|end_char=1295
+33	dy	dy	NUM	_	NumType=Card	34	nummod	_	start_char=1296|end_char=1298
+34	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	obj	_	start_char=1299|end_char=1303|SpaceAfter=No
+35	.	.	PUNCT	_	_	32	punct	_	start_char=1303|end_char=1304
+
+# text = Vaksina me një dozë gjithashtu nuk do të duhet të ruhet në temperatura shumë të ulëta, duke e bërë kështu më të lehtë përdorimin e saj në një fushatë imunizimi masiv.
+# sent_id = 9
+1	Vaksina	Vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1305|end_char=1312
+2	me	me	ADP	_	Case=Acc	4	case	_	start_char=1313|end_char=1315
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=1316|end_char=1319
+4	dozë	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=1320|end_char=1324
+5	gjithashtu	gjithashtu	ADV	_	AdvType=Man	4	advmod	_	start_char=1325|end_char=1335
+6	nuk	nuk	PART	_	_	11	mark	_	start_char=1336|end_char=1339
+7	do	do	PART	_	_	11	fixed	_	start_char=1340|end_char=1342
+8	të	të	PART	_	_	11	fixed	_	start_char=1343|end_char=1345
+9	duhet	duhem	AUX	_	Mood=Ind	11	aux	_	start_char=1346|end_char=1351
+10	të	të	PART	_	_	11	fixed	_	start_char=1352|end_char=1354
+11	ruhet	ruaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1355|end_char=1360
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1361|end_char=1363
+13	temperatura	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	start_char=1364|end_char=1375
+14	shumë	shumë	ADV	_	AdvType=Deg	16	advmod	_	start_char=1376|end_char=1381
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=1382|end_char=1384
+16	ulëta	ulëtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1385|end_char=1390|SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	start_char=1390|end_char=1391
+18	duke	duke	PART	_	_	20	fixed	_	start_char=1392|end_char=1396
+19	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=1397|end_char=1398
+20	bërë	bëj	VERB	_	VerbForm=Part	11	advmod	_	start_char=1399|end_char=1403
+21	kështu	kështu	ADV	_	AdvType=Man	20	advmod	_	start_char=1404|end_char=1410
+22	më	më	PART	_	_	24	mark	_	start_char=1411|end_char=1413
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=1414|end_char=1416
+24	lehtë	lehtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	cop	_	start_char=1417|end_char=1422
+25	përdorimin	përdorim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=1423|end_char=1433
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=1434|end_char=1435
+27	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=1436|end_char=1439
+28	në	në	ADP	_	Case=Acc	30	case	_	start_char=1440|end_char=1442
+29	një	një	DET	_	Definite=Ind	30	det	_	start_char=1443|end_char=1446
+30	fushatë	fushatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=1447|end_char=1454
+31	imunizimi	imunizim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=1455|end_char=1464
+32	masiv	masiv	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=1465|end_char=1470|SpaceAfter=No
+33	.	.	PUNCT	_	_	20	punct	_	start_char=1470|end_char=1471|SpacesAfter=\n
+
+# text = Testimi i vaksinës së kompanisë Johnson & Johnson është e dyta që vendoset në pauzë pasi një vullnetar u sëmur pas marrjes së vaksinën.
+# sent_id = 10
+1	Testimi	testim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1472|end_char=1479
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1480|end_char=1481
+3	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1482|end_char=1490
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1491|end_char=1493
+5	kompanisë	kompani	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=1494|end_char=1503
+6	Johnson	Johnso	PROPN	_	Foreign=Yes	5	appos	_	start_char=1504|end_char=1511
+7	&	&	PROPN	_	Foreign=Yes	6	flat	_	start_char=1512|end_char=1513
+8	Johnson	Johnso	PROPN	_	Foreign=Yes	6	flat	_	start_char=1514|end_char=1521
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1522|end_char=1527
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1528|end_char=1529
+11	dyta	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	cop	_	start_char=1530|end_char=1534
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=1535|end_char=1537
+13	vendoset	vendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	csubj	_	start_char=1538|end_char=1546
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=1547|end_char=1549
+15	pauzë	pauzë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	start_char=1550|end_char=1555
+16	pasi	pasi	SCONJ	_	_	20	mark	_	start_char=1556|end_char=1560
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=1561|end_char=1564
+18	vullnetar	vullnetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=1565|end_char=1574
+19	u	u	PART	_	_	20	fixed	_	start_char=1575|end_char=1576
+20	sëmur	sëm	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	advcl	_	start_char=1577|end_char=1582
+21	pas	pas	ADP	_	Case=Abl	22	case	_	start_char=1583|end_char=1586
+22	marrjes	marrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=1587|end_char=1594
+23	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=1595|end_char=1597
+24	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=1598|end_char=1606|SpaceAfter=No
+25	.	.	PUNCT	_	_	20	punct	_	start_char=1606|end_char=1607
+
+# text = Edhe kompania farmaceutike me seli në Shtetet e Bashkaura, AstraZeneca, ndali testimin e saj të fazës së fundit të një vaksine të zhvilluar në bashkëpunim me Universitetin e Oksfordit muajin e kaluar, pasi një vullnetar në Britani u diagnostikua me “mielit transvers”, një sindromë inflamatore që prek shtyllën kurrizore dhe që shkaktohet shpesh prej infeksioneve virale.
+# sent_id = 11
+1	Edhe	edhe	PART	_	_	2	mark:emph	_	start_char=1608|end_char=1612
+2	kompania	kompani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	advmod	_	start_char=1613|end_char=1621
+3	farmaceutike	farmaceutik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=1622|end_char=1634
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=1635|end_char=1637
+5	seli	seli	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=1638|end_char=1642
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=1643|end_char=1645
+7	Shtetet	Shtet	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=1646|end_char=1653
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=1654|end_char=1655
+9	Bashkaura	Bashkaurë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=1656|end_char=1665|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1665|end_char=1666
+11	Astra	Astrë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1667|end_char=1672|SpaceAfter=No
+12	Zeneca	Zenecë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=1672|end_char=1678|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1678|end_char=1679
+14	ndali	ndal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1680|end_char=1685
+15	testimin	testim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=1686|end_char=1694
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=1695|end_char=1696
+17	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=1697|end_char=1700
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=1701|end_char=1703
+19	fazës	fazë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=1704|end_char=1709
+20	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1710|end_char=1712
+21	fundit	fundit	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1713|end_char=1719
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=1720|end_char=1722
+23	një	një	DET	_	Definite=Ind	24	det	_	start_char=1723|end_char=1726
+24	vaksine	vaksin	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=1727|end_char=1734
+25	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=1735|end_char=1737
+26	zhvilluar	zhvilluar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=1738|end_char=1747
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=1748|end_char=1750
+28	bashkëpunim	bashkëpunim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=1751|end_char=1762
+29	me	me	ADP	_	Case=Acc	30	case	_	start_char=1763|end_char=1765
+30	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=1766|end_char=1779
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=1780|end_char=1781
+32	Oksfordit	Oksford	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=1782|end_char=1791
+33	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=1792|end_char=1798
+34	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=1799|end_char=1800
+35	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=1801|end_char=1807|SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	start_char=1807|end_char=1808
+37	pasi	pasi	SCONJ	_	_	43	mark	_	start_char=1809|end_char=1813
+38	një	një	DET	_	Definite=Ind	39	det	_	start_char=1814|end_char=1817
+39	vullnetar	vullnetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	35	advmod	_	start_char=1818|end_char=1827
+40	në	në	ADP	_	Case=Acc	41	case	_	start_char=1828|end_char=1830
+41	Britani	Britan	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	43	advmod	_	start_char=1831|end_char=1838
+42	u	u	PART	_	_	43	fixed	_	start_char=1839|end_char=1840
+43	diagnostikua	diagnostikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	39	acl:relcl	_	start_char=1841|end_char=1853
+44	me	me	ADP	_	Case=Acc	45	case	_	start_char=1854|end_char=1856
+45	“mielit	“miel	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	43	obl	_	start_char=1857|end_char=1864
+46	transvers”	transvers”	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	flat	_	start_char=1865|end_char=1875|SpaceAfter=No
+47	,	,	PUNCT	_	_	49	punct	_	start_char=1875|end_char=1876
+48	një	një	DET	_	Definite=Ind	49	det	_	start_char=1877|end_char=1880
+49	sindromë	sindromë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	43	obj	_	start_char=1881|end_char=1889
+50	inflamatore	inflamator	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	start_char=1890|end_char=1901
+51	që	që	PRON	_	PronType=Rel	52	nsubj	_	start_char=1902|end_char=1904
+52	prek	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	49	acl:relcl	_	start_char=1905|end_char=1909
+53	shtyllën	shtyllë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	52	obj	_	start_char=1910|end_char=1918
+54	kurrizore	kurrizor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	start_char=1919|end_char=1928
+55	dhe	dhe	CCONJ	_	_	57	cc	_	start_char=1929|end_char=1932
+56	që	që	PRON	_	PronType=Rel	57	nsubj	_	start_char=1933|end_char=1935
+57	shkaktohet	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	52	conj	_	start_char=1936|end_char=1946
+58	shpesh	shpesh	ADV	_	AdvType=Man	57	advmod	_	start_char=1947|end_char=1953
+59	prej	prej	ADP	_	Case=Abl	60	case	_	start_char=1954|end_char=1958
+60	infeksioneve	infeksion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	57	obl	_	start_char=1959|end_char=1971
+61	virale	viral	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	60	amod	_	start_char=1972|end_char=1978|SpaceAfter=No
+62	.	.	PUNCT	_	_	57	punct	_	start_char=1978|end_char=1979|SpacesAfter=\n
+
+# text = AstraZeneca e ka rifilluar testimin e vaksinës në Britani, Brazil, Indi dhe Afrikë të Jugut, por jo në Shtetet e Bashkuara.
+# sent_id = 12
+1	Astra	Astrë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1980|end_char=1985|SpaceAfter=No
+2	Zeneca	Zenecë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=1985|end_char=1991
+3	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	cc	_	start_char=1992|end_char=1993
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=1994|end_char=1996
+5	rifilluar	rifilloj	VERB	_	VerbForm=Part	0	root	_	start_char=1997|end_char=2006
+6	testimin	testim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=2007|end_char=2015
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=2016|end_char=2017
+8	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=2018|end_char=2026
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=2027|end_char=2029
+10	Britani	Britan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=2030|end_char=2037|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=2037|end_char=2038
+12	Brazil	Brazil	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	start_char=2039|end_char=2045|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=2045|end_char=2046
+14	Indi	Indi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	list	_	start_char=2047|end_char=2051
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=2052|end_char=2055
+16	Afrikë	Afrikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	start_char=2056|end_char=2062
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=2063|end_char=2065
+18	Jugut	jug	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=2066|end_char=2071|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=2071|end_char=2072
+20	por	por	CCONJ	_	_	23	cc	_	start_char=2073|end_char=2076
+21	jo	jo	PART	_	_	22	advmod:emph	_	start_char=2077|end_char=2079
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=2080|end_char=2082
+23	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	conj	_	start_char=2083|end_char=2090
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=2091|end_char=2092
+25	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=2093|end_char=2102|SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	start_char=2102|end_char=2103|SpacesAfter=\n
+
+# text = Ndërkohë, një studim i ri sugjeron se një person që e ka kaluar COVID-19 mund të preket sërisht nga sëmundja.
+# sent_id = 13
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	7	advmod	_	start_char=2104|end_char=2112|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=2112|end_char=2113
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=2114|end_char=2117
+4	studim	studim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2118|end_char=2124
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2125|end_char=2126
+6	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=2127|end_char=2129
+7	sugjeron	sugjeroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2130|end_char=2138
+8	se	se	SCONJ	_	_	14	mark	_	start_char=2139|end_char=2141
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=2142|end_char=2145
+10	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=2146|end_char=2152
+11	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=2153|end_char=2155
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=2156|end_char=2157
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=2158|end_char=2160
+14	kaluar	kaloj	VERB	_	VerbForm=Part	10	acl:relcl	_	start_char=2161|end_char=2167
+15	COVID-19	COVID-19	PROPN	_	_	14	obj	_	start_char=2168|end_char=2176
+16	mund	mund	AUX	_	_	18	aux	_	start_char=2177|end_char=2181
+17	të	të	PART	_	_	18	fixed	_	start_char=2182|end_char=2184
+18	preket	prek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	conj	_	start_char=2185|end_char=2191
+19	sërisht	sërisht	ADV	_	AdvType=Man	18	advmod	_	start_char=2192|end_char=2199
+20	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=2200|end_char=2203
+21	sëmundja	sëmundje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=2204|end_char=2212|SpaceAfter=No
+22	.	.	PUNCT	_	_	18	punct	_	start_char=2212|end_char=2213
+
+# text = Një raport i publikuar të hënën nga revista mjekësore Lancet për sëmundjet ngjitëse zbulon se një 25-vjeçar në shtetin amerikan Nevada, u testua fillimisht pozitiv me COVID-19 në muajin prill, si dhe për të dytën herë në qershor, me simptoma edhe më të rënda, për shkak të të cilave u vendos në oksigjen.
+# sent_id = 14
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=2214|end_char=2217
+2	raport	rapor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	start_char=2218|end_char=2224
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2225|end_char=2226
+4	publikuar	publikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=2227|end_char=2236
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=2237|end_char=2239
+6	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=2240|end_char=2245
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=2246|end_char=2249
+8	revista	revistë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=2250|end_char=2257
+9	mjekësore	mjekësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2258|end_char=2267
+10	Lancet	Lancet	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	8	appos	_	start_char=2268|end_char=2274
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=2275|end_char=2278
+12	sëmundjet	sëmundje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=2279|end_char=2288
+13	ngjitëse	ngjitës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=2289|end_char=2297
+14	zbulon	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2298|end_char=2304
+15	se	se	SCONJ	_	_	17	mark	_	start_char=2305|end_char=2307
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=2308|end_char=2311
+17	25-vjeçar	25-vjeçar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	start_char=2312|end_char=2321
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=2322|end_char=2324
+19	shtetin	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=2325|end_char=2332
+20	amerikan	amerikan	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=2333|end_char=2341
+21	Nevada	nevadë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=2342|end_char=2348|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	start_char=2348|end_char=2349
+23	u	u	PART	_	_	24	fixed	_	start_char=2350|end_char=2351
+24	testua	testoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	14	advcl	_	start_char=2352|end_char=2358
+25	fillimisht	fillimisht	ADV	_	AdvType=Man	24	advmod	_	start_char=2359|end_char=2369
+26	pozitiv	pozit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	cop	_	start_char=2370|end_char=2377
+27	me	me	ADP	_	Case=Acc	28	case	_	start_char=2378|end_char=2380
+28	COVID-19	COVID-19	PROPN	_	_	24	obl	_	start_char=2381|end_char=2389
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=2390|end_char=2392
+30	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=2393|end_char=2399
+31	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=2400|end_char=2405|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=2405|end_char=2406
+33	si	si	SCONJ	_	_	34	fixed	_	start_char=2407|end_char=2409
+34	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=2410|end_char=2413
+35	për	për	ADP	_	Case=Acc	37	fixed	_	start_char=2414|end_char=2417
+36	të	të	PART	_	_	37	fixed	_	start_char=2418|end_char=2420
+37	dytën	dytëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	advmod	_	start_char=2421|end_char=2426
+38	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	37	obj	_	start_char=2427|end_char=2431
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=2432|end_char=2434
+40	qershor	qershor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	37	advmod	_	start_char=2435|end_char=2442|SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	start_char=2442|end_char=2443
+42	me	me	ADP	_	Case=Acc	43	case	_	start_char=2444|end_char=2446
+43	simptoma	simptomë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	37	advmod	_	start_char=2447|end_char=2455
+44	edhe	edhe	PART	_	_	47	mark	_	start_char=2456|end_char=2460
+45	më	më	PART	_	_	47	mark	_	start_char=2461|end_char=2463
+46	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	47	det	_	start_char=2464|end_char=2466
+47	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	43	amod	_	start_char=2467|end_char=2472|SpaceAfter=No
+48	,	,	PUNCT	_	_	53	punct	_	start_char=2472|end_char=2473
+49	për	për	ADP	_	Case=Acc	53	case	_	start_char=2474|end_char=2477
+50	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	advmod	_	start_char=2478|end_char=2483
+51	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	53	det	_	start_char=2484|end_char=2486
+52	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	53	det	_	start_char=2487|end_char=2489
+53	cilave	cila	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	55	obl	_	start_char=2490|end_char=2496
+54	u	u	PART	_	_	55	fixed	_	start_char=2497|end_char=2498
+55	vendos	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	47	acl	_	start_char=2499|end_char=2505
+56	në	në	ADP	_	Case=Acc	57	case	_	start_char=2506|end_char=2508
+57	oksigjen	oksigje	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	obl	_	start_char=2509|end_char=2517|SpaceAfter=No
+58	.	.	PUNCT	_	_	55	punct	_	start_char=2517|end_char=2518|SpacesAfter=\n
+
+# text = Studiuesit thonë se ai u infektua nga dy variante të ndryshme të koronavirusit, por mjekët nuk janë të sigurtë se përse infektimi i dytë ishte më i rëndë.
+# sent_id = 15
+1	Studiuesit	studiues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2519|end_char=2529
+2	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2530|end_char=2535
+3	se	se	SCONJ	_	_	6	mark	_	start_char=2536|end_char=2538
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=2539|end_char=2541
+5	u	u	PART	_	_	6	fixed	_	start_char=2542|end_char=2543
+6	infektua	infektoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	advcl	_	start_char=2544|end_char=2552
+7	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=2553|end_char=2556
+8	dy	dy	NUM	_	NumType=Card	9	nummod	_	start_char=2557|end_char=2559
+9	variante	variant	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=2560|end_char=2568
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=2569|end_char=2571
+11	ndryshme	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=2572|end_char=2580
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=2581|end_char=2583
+13	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=2584|end_char=2597|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=2597|end_char=2598
+15	por	por	CCONJ	_	_	18	cc	_	start_char=2599|end_char=2602
+16	mjekët	mjekë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	start_char=2603|end_char=2609
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=2610|end_char=2613
+18	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=2614|end_char=2618
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=2619|end_char=2621
+20	sigurtë	sigurtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	cop	_	start_char=2622|end_char=2629
+21	se	se	SCONJ	_	_	18	mark	_	start_char=2630|end_char=2632
+22	përse	përse	SCONJ	_	_	26	mark	_	start_char=2633|end_char=2638
+23	infektimi	infektim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nsubj	_	start_char=2639|end_char=2648
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=2649|end_char=2650
+25	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=2651|end_char=2655
+26	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	18	advcl	_	start_char=2656|end_char=2661
+27	më	më	PART	_	_	29	mark	_	start_char=2662|end_char=2664
+28	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=2665|end_char=2666
+29	rëndë	rëndë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	cop	_	start_char=2667|end_char=2672|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=2672|end_char=2673
+
+# text = Ai mund të jetë ekspozuar me një dozë më të madhe të virusit, ose ndoshta varianti i dytë ishte me i rëndë se i pari.
+# sent_id = 16
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=2674|end_char=2676
+2	mund	mund	AUX	_	_	5	aux	_	start_char=2677|end_char=2681
+3	të	të	PART	_	_	4	fixed	_	start_char=2682|end_char=2684
+4	jetë	jam	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=2685|end_char=2689
+5	ekspozuar	ekspozoj	VERB	_	VerbForm=Part	0	root	_	start_char=2690|end_char=2699
+6	me	me	ADP	_	Case=Acc	8	case	_	start_char=2700|end_char=2702
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=2703|end_char=2706
+8	dozë	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=2707|end_char=2711
+9	më	më	PART	_	_	11	mark	_	start_char=2712|end_char=2714
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=2715|end_char=2717
+11	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2718|end_char=2723
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=2724|end_char=2726
+13	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=2727|end_char=2734|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=2734|end_char=2735
+15	ose	ose	CCONJ	_	_	17	cc	_	start_char=2736|end_char=2739
+16	ndoshta	ndoshta	SCONJ	_	_	17	mark	_	start_char=2740|end_char=2747
+17	varianti	variant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	start_char=2748|end_char=2756
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=2757|end_char=2758
+19	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=2759|end_char=2763
+20	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	conj	_	start_char=2764|end_char=2769
+21	me	me	ADP	_	Case=Acc	23	case	_	start_char=2770|end_char=2772
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=2773|end_char=2774
+23	rëndë	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	cop	_	start_char=2775|end_char=2780
+24	se	se	SCONJ	_	_	26	mark	_	start_char=2781|end_char=2783
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=2784|end_char=2785
+26	pari	pari	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl:agent	_	start_char=2786|end_char=2790|SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	start_char=2790|end_char=2791|SpacesAfter=\n
+
+# text = Ky është rasti i parë i konfirmuar i ri-infektimit me COVID-19 në Shtetet e Bashkuara, dhe vetëm i pesti në botë, pas rasteve të mëparshme në Belgjikë, Holandë, Hong Kong dhe Ekuador.
+# sent_id = 17
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=2792|end_char=2794
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2795|end_char=2800
+3	rasti	rast	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=2801|end_char=2806
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2807|end_char=2808
+5	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=2809|end_char=2813
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=2814|end_char=2815
+7	konfirmuar	konfirmuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=2816|end_char=2826
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=2827|end_char=2828
+9	ri-infektimit	ri-infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=2829|end_char=2842
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=2843|end_char=2845
+11	COVID-19	COVID-19	PROPN	_	Number=Sing	9	nmod	_	start_char=2846|end_char=2854
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=2855|end_char=2857
+13	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=2858|end_char=2865
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=2866|end_char=2867
+15	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=2868|end_char=2877|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=2877|end_char=2878
+17	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=2879|end_char=2882
+18	vetëm	vetëm	ADV	_	AdvType=Man	20	mark	_	start_char=2883|end_char=2888
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=2889|end_char=2890
+20	pesti	pesti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	start_char=2891|end_char=2896
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=2897|end_char=2899
+22	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	advmod	_	start_char=2900|end_char=2904|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	start_char=2904|end_char=2905
+24	pas	pas	ADP	_	Case=Abl	25	case	_	start_char=2906|end_char=2909
+25	rasteve	rast	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	22	list	_	start_char=2910|end_char=2917
+26	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=2918|end_char=2920
+27	mëparshme	mëparshëm	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=2921|end_char=2930
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=2931|end_char=2933
+29	Belgjikë	Belgjikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=2934|end_char=2942|SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	start_char=2942|end_char=2943
+31	Holandë	Holandë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	29	list	_	start_char=2944|end_char=2951|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=2951|end_char=2952
+33	Hong	Hong	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	31	list	_	start_char=2953|end_char=2957
+34	Kong	Kong	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	flat	_	start_char=2958|end_char=2962
+35	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=2963|end_char=2966
+36	Ekuador	Ekuador	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	34	conj	_	start_char=2967|end_char=2974|SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	start_char=2974|end_char=2975
+
+# text = Studiuesit thonë se këto ri-infektime sugjerojnë se ekspozimi i mëparshëm ndaj koronavirusit “nuk përkthehet detyrimisht në një imunitet të plotë të garantuar”.
+# sent_id = 18
+1	Studiuesit	studiues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2976|end_char=2986
+2	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2987|end_char=2992
+3	se	se	SCONJ	_	_	6	mark	_	start_char=2993|end_char=2995
+4	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=2996|end_char=3000
+5	ri-infektime	ri-infektim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	start_char=3001|end_char=3013
+6	sugjerojnë	sugjeroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=3014|end_char=3024
+7	se	se	SCONJ	_	_	14	mark	_	start_char=3025|end_char=3027
+8	ekspozimi	ekspozim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=3028|end_char=3037
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=3038|end_char=3039
+10	mëparshëm	mëparshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=3040|end_char=3049
+11	ndaj	ndaj	ADP	_	Case=Abl	12	case	_	start_char=3050|end_char=3054
+12	koronavirusit	koronavirus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=3055|end_char=3068
+13	“nuk	“nuk	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=3069|end_char=3073
+14	përkthehet	përkthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=3074|end_char=3084
+15	detyrimisht	detyrimisht	ADV	_	AdvType=Man	14	advmod	_	start_char=3085|end_char=3096
+16	në	në	ADP	_	Case=Acc	18	case	_	start_char=3097|end_char=3099
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=3100|end_char=3103
+18	imunitet	imunit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=3104|end_char=3112
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=3113|end_char=3115
+20	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=3116|end_char=3121
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=3122|end_char=3124
+22	garantuar”	garantuar”	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=3125|end_char=3135|SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	start_char=3135|end_char=3136|SpacesAfter=\n
+
+# text = Studimi i revistës Lancet duket se mbështet një paralajmërim të Organizatës Botërore të Shëndetësisë kundër strategjisë së imunitetit në masë për të ndalur pandeminë e koronavirusit, një strategji e cilësuar si joetike nga OBSH-ja.
+# sent_id = 19
+1	Studimi	studim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3137|end_char=3144
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=3145|end_char=3146
+3	revistës	revistë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=3147|end_char=3155
+4	Lancet	Lancet	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=3156|end_char=3162
+5	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3163|end_char=3168
+6	se	se	SCONJ	_	_	7	mark	_	start_char=3169|end_char=3171
+7	mbështet	mbështes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	ccomp	_	start_char=3172|end_char=3180
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=3181|end_char=3184
+9	paralajmërim	paralajmërim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=3185|end_char=3197
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=3198|end_char=3200
+11	Organizatës	Organizatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=3201|end_char=3212
+12	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=3213|end_char=3221
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=3222|end_char=3224
+14	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=3225|end_char=3237
+15	kundër	kundër	ADP	_	Case=Abl	16	case	_	start_char=3238|end_char=3244
+16	strategjisë	strategji	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=3245|end_char=3256
+17	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=3257|end_char=3259
+18	imunitetit	imunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=3260|end_char=3270
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=3271|end_char=3273
+20	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=3274|end_char=3278
+21	për	për	PART	_	_	23	fixed	_	start_char=3279|end_char=3282
+22	të	të	PART	_	_	23	fixed	_	start_char=3283|end_char=3285
+23	ndalur	ndal	VERB	_	VerbForm=Part	7	advmod	_	start_char=3286|end_char=3292
+24	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=3293|end_char=3302
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=3303|end_char=3304
+26	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=3305|end_char=3318|SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	start_char=3318|end_char=3319
+28	një	një	DET	_	Definite=Ind	29	det	_	start_char=3320|end_char=3323
+29	strategji	strategje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	24	conj	_	start_char=3324|end_char=3333
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=3334|end_char=3335
+31	cilësuar	cilësoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=3336|end_char=3344
+32	si	si	SCONJ	_	_	33	mark	_	start_char=3345|end_char=3347
+33	joetike	joetik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=3348|end_char=3355
+34	nga	nga	ADP	_	Case=Nom	35	case	_	start_char=3356|end_char=3359
+35	OBSH-ja	OBSH-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	obl:agent	_	start_char=3360|end_char=3367|SpaceAfter=No
+36	.	.	PUNCT	_	_	5	punct	_	start_char=3367|end_char=3368|SpacesAfter=\n
+
+# text = Në një seancë informimi të hënën në Gjenevë, Drejtori i Përgjithshëm i OBSH-së, Tedros Adhanom Ghebreyesus, tha se zyrtarët e shëndetësisë duhet të përpiqen të arrijnë imunitetin vetëm nëpërmjet vaksinimit, dhe jo nëpërmjet ekspozimit të njerëzve ndaj virusit.
+# sent_id = 20
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=3369|end_char=3371
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3372|end_char=3375
+3	seancë	seancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	advmod	_	start_char=3376|end_char=3382
+4	informimi	informim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=3383|end_char=3392
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3393|end_char=3395
+6	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=3396|end_char=3401
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=3402|end_char=3404
+8	Gjenevë	Gjenevë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=3405|end_char=3412|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=3412|end_char=3413
+10	Drejtori	Drejtor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=3414|end_char=3422
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=3423|end_char=3424
+12	Përgjithshëm	Përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=3425|end_char=3437
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=3438|end_char=3439
+14	OBSH-së	OBSH-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=3440|end_char=3447|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=3447|end_char=3448
+16	Tedros	Tedros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	nsubj	_	start_char=3449|end_char=3455
+17	Adhanom	Adhanom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=3456|end_char=3463
+18	Ghebreyesus	Ghebreyesus	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=3464|end_char=3475|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=3475|end_char=3476
+20	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3477|end_char=3480
+21	se	se	SCONJ	_	_	27	mark	_	start_char=3481|end_char=3483
+22	zyrtarët	zyrtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	obj	_	start_char=3484|end_char=3492
+23	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	24	det:poss	_	start_char=3493|end_char=3494
+24	shëndetësisë	shëndetësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=3495|end_char=3507
+25	duhet	duhem	AUX	_	_	27	aux	_	start_char=3508|end_char=3513
+26	të	të	PART	_	_	27	fixed	_	start_char=3514|end_char=3516
+27	përpiqen	përpjek	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	20	conj	_	start_char=3517|end_char=3525
+28	të	të	PART	_	_	29	fixed	_	start_char=3526|end_char=3528
+29	arrijnë	arrij	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	ccomp	_	start_char=3529|end_char=3536
+30	imunitetin	imunitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=3537|end_char=3547
+31	vetëm	vetëm	PART	_	_	33	mark	_	start_char=3548|end_char=3553
+32	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	33	case	_	start_char=3554|end_char=3563
+33	vaksinimit	vaksinim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	29	advmod	_	start_char=3564|end_char=3574|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	start_char=3574|end_char=3575
+35	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=3576|end_char=3579
+36	jo	jo	PART	_	_	37	advmod:emph	_	start_char=3580|end_char=3582
+37	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	38	case	_	start_char=3583|end_char=3592
+38	ekspozimit	ekspozim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	33	conj	_	start_char=3593|end_char=3603
+39	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=3604|end_char=3606
+40	njerëzve	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	38	nmod	_	start_char=3607|end_char=3615
+41	ndaj	ndaj	ADP	_	Case=Abl	42	case	_	start_char=3616|end_char=3620
+42	virusit	virus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	start_char=3621|end_char=3628|SpaceAfter=No
+43	.	.	PUNCT	_	_	29	punct	_	start_char=3628|end_char=3629|SpacesAfter=\n
+
+# text = Imuniteti në masë krijohet kur një popullsi është e mbrojtur nga virusi pasi gati të gjithë individët kanë krijuar një imunitet minimal.
+# sent_id = 21
+1	Imuniteti	Imunitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3630|end_char=3639
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=3640|end_char=3642
+3	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=3643|end_char=3647
+4	krijohet	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3648|end_char=3656
+5	kur	kur	SCONJ	_	_	8	mark	_	start_char=3657|end_char=3660
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=3661|end_char=3664
+7	popullsi	popullsi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=3665|end_char=3673
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=3674|end_char=3679
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3680|end_char=3681
+10	mbrojtur	mbroj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	cop	_	start_char=3682|end_char=3690
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=3691|end_char=3694
+12	virusi	virus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=3695|end_char=3701
+13	pasi	pasi	SCONJ	_	_	19	mark	_	start_char=3702|end_char=3706
+14	gati	gati	ADV	_	AdvType=Man	17	mark	_	start_char=3707|end_char=3711
+15	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=3712|end_char=3714
+16	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	start_char=3715|end_char=3721
+17	individët	individë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	nsubj	_	start_char=3722|end_char=3731
+18	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=3732|end_char=3736
+19	krijuar	krijoj	VERB	_	VerbForm=Part	8	advcl	_	start_char=3737|end_char=3744
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=3745|end_char=3748
+21	imunitet	imunit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	start_char=3749|end_char=3757
+22	minimal	minimal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=3758|end_char=3765|SpaceAfter=No
+23	.	.	PUNCT	_	_	19	punct	_	start_char=3765|end_char=3766|SpacesAfter=\n
+
+# text = “Asnjëherë në historinë e shëndetit publik nuk është përdorur imuniteti në masë si një strategji reagimi ndaj një përhapjeje, dhe jo më ndaj një pandemie.
+# sent_id = 22
+1	“	"	PUNCT	_	_	2	punct	_	start_char=3767|end_char=3768|SpaceAfter=No
+2	Asnjëherë	asnjëherë	ADV	_	AdvType=Tim	10	advmod	_	start_char=3768|end_char=3777
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=3778|end_char=3780
+4	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=3781|end_char=3790
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=3791|end_char=3792
+6	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=3793|end_char=3802
+7	publik	publik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=3803|end_char=3809
+8	nuk	nuk	PART	_	Polarity=Neg	10	mark	_	start_char=3810|end_char=3813
+9	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=3814|end_char=3819
+10	përdorur	përdor	VERB	_	VerbForm=Part	0	root	_	start_char=3820|end_char=3828
+11	imuniteti	imunitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=3829|end_char=3838
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=3839|end_char=3841
+13	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=3842|end_char=3846
+14	si	si	SCONJ	_	_	16	mark	_	start_char=3847|end_char=3849
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=3850|end_char=3853
+16	strategji	strategje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=3854|end_char=3863
+17	reagimi	reagim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=3864|end_char=3871
+18	ndaj	ndaj	ADP	_	Case=Abl	20	case	_	start_char=3872|end_char=3876
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=3877|end_char=3880
+20	përhapjeje	përhapje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=3881|end_char=3891|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=3891|end_char=3892
+22	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=3893|end_char=3896
+23	jo	jo	PART	_	_	25	advmod:emph	_	start_char=3897|end_char=3899
+24	më	më	PART	_	_	25	advmod:emph	_	start_char=3900|end_char=3902
+25	ndaj	ndaj	ADP	_	Case=Abl	27	case	_	start_char=3903|end_char=3907
+26	një	një	DET	_	Definite=Ind	27	det	_	start_char=3908|end_char=3911
+27	pandemie	pandem	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=3912|end_char=3920|SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	start_char=3920|end_char=3921
+
+# text = Është problematike nga pikëpamje shkencore dhe etike”, tha Dr.
+# sent_id = 23
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3922|end_char=3927
+2	problematike	problematik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=3928|end_char=3940
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=3941|end_char=3944
+4	pikëpamje	pikëpam	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	obl:arg	_	start_char=3945|end_char=3954
+5	shkencore	shkencor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=3955|end_char=3964
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=3965|end_char=3968
+7	etike”	etike”	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	start_char=3969|end_char=3975|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=3975|end_char=3976
+9	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	start_char=3977|end_char=3980
+10	Dr	Dr	NUM	_	NumType=Card	9	advmod	_	start_char=3981|end_char=3983|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	start_char=3983|end_char=3984
+
+# text = Tedros.
+# sent_id = 24
+1	Tedros	Tedros	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=3985|end_char=3991|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	start_char=3991|end_char=3992|SpacesAfter=\n
+
+# text = OBSH-ja vlerëson se rreth 10% e popullsisë së botës është prekur nga koronavirusi.
+# sent_id = 25
+1	OBSH-ja	OBSH-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=3993|end_char=4000
+2	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4001|end_char=4009
+3	se	se	SCONJ	_	_	12	mark	_	start_char=4010|end_char=4012
+4	rreth	rreth	ADP	_	Case=Abl	6	case	_	start_char=4013|end_char=4018
+5	10	10	NUM	_	NumType=Card	6	nummod	_	start_char=4019|end_char=4021|SpaceAfter=No
+6	%	%	SYM	_	_	2	advmod	_	start_char=4021|end_char=4022
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4023|end_char=4024
+8	popullsisë	popullsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=4025|end_char=4035
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=4036|end_char=4038
+10	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=4039|end_char=4044
+11	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=4045|end_char=4050
+12	prekur	prek	VERB	_	VerbForm=Part	2	conj	_	start_char=4051|end_char=4057
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=4058|end_char=4061
+14	koronavirusi	koronavirusi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=4062|end_char=4074|SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	start_char=4074|end_char=4075
+
+# text = Nuk dihet ende se çfarë përqindjeje infeksioni nevojitet për të arritur imunitetin në masë.
+# sent_id = 26
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=4076|end_char=4079
+2	dihet	dihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4080|end_char=4085
+3	ende	ende	ADV	_	AdvType=Tim	2	advmod	_	start_char=4086|end_char=4090
+4	se	se	SCONJ	_	_	8	mark	_	start_char=4091|end_char=4093
+5	çfarë	çfarë	PRON	_	PronType=Ind	6	det	_	start_char=4094|end_char=4099
+6	përqindjeje	përqindje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4100|end_char=4111
+7	infeksioni	infeksion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=4112|end_char=4122
+8	nevojitet	nevojitem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	csubj	_	start_char=4123|end_char=4132
+9	për	për	PART	_	_	11	fixed	_	start_char=4133|end_char=4136
+10	të	të	PART	_	_	11	fixed	_	start_char=4137|end_char=4139
+11	arritur	arrij	VERB	_	VerbForm=Part	8	advmod	_	start_char=4140|end_char=4147
+12	imunitetin	imunitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=4148|end_char=4158
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=4159|end_char=4161
+14	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=4162|end_char=4166|SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	start_char=4166|end_char=4167|SpacesAfter=\n
+
+# text = Zoti Tedros vuri në dukje se për t’u arritur imuniteti në masë nga fruthi, u vaksinua rreth 95% e popullsisë, ndërsa për polion, pragu ishte rreth 80%.
+# sent_id = 27
+1	Zoti	Zot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4168|end_char=4172
+2	Tedros	Tedros	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=4173|end_char=4179
+3	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4180|end_char=4184
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=4185|end_char=4187
+5	dukje	dukje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=4188|end_char=4193
+6	se	se	SCONJ	_	_	10	mark	_	start_char=4194|end_char=4196
+7	për	për	PART	_	_	10	fixed	_	start_char=4197|end_char=4200
+8-9	t’u	_	_	_	_	_	_	_	start_char=4201|end_char=4204
+8	të	të	PART	_	_	10	fixed	_	_
+9	u	u	PART	_	_	10	fixed	_	_
+10	arritur	arrij	VERB	_	VerbForm=Part	3	advmod	_	start_char=4205|end_char=4212
+11	imuniteti	imunitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=4213|end_char=4222
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=4223|end_char=4225
+13	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=4226|end_char=4230
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=4231|end_char=4234
+15	fruthi	fruth	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=4235|end_char=4241|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=4241|end_char=4242
+17	u	u	PART	_	_	18	fixed	_	start_char=4243|end_char=4244
+18	vaksinua	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	start_char=4245|end_char=4253
+19	rreth	rreth	ADP	_	Case=Abl	21	case	_	start_char=4254|end_char=4259
+20	95	95	NUM	_	NumType=Card	21	nummod	_	start_char=4260|end_char=4262|SpaceAfter=No
+21	%	%	SYM	_	_	18	obl	_	start_char=4262|end_char=4263
+22	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=4264|end_char=4265
+23	popullsisë	popullsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=4266|end_char=4276|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=4276|end_char=4277
+25	ndërsa	ndërsa	CCONJ	_	_	30	cc	_	start_char=4278|end_char=4284
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=4285|end_char=4288
+27	polion	polio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	advmod	_	start_char=4289|end_char=4295|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=4295|end_char=4296
+29	pragu	prag	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	nsubj	_	start_char=4297|end_char=4302
+30	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	18	conj	_	start_char=4303|end_char=4308
+31	rreth	rreth	ADP	_	Case=Abl	33	case	_	start_char=4309|end_char=4314
+32	80	80	NUM	_	NumType=Card	33	nummod	_	start_char=4315|end_char=4317|SpaceAfter=No
+33	%	%	SYM	_	_	30	advmod	_	start_char=4317|end_char=4318|SpaceAfter=No
+34	.	.	PUNCT	_	_	30	punct	_	start_char=4318|end_char=4319|SpaceAfter=No
+
+# text = /VOA NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 28
+1	/VOA	/VOA	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=4319|end_char=4323|SpacesAfter=\n
+2	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	det	_	start_char=4324|end_char=4326
+3	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=4327|end_char=4337|SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	start_char=4337|end_char=4338|SpacesAfter=\n
+5	+355	+355	NUM	_	NumType=Card	3	flat	_	start_char=4339|end_char=4343
+6	68	68	NUM	_	NumType=Card	5	conj	_	start_char=4344|end_char=4346
+7	608	608	NUM	_	NumType=Card	5	conj	_	start_char=4347|end_char=4350
+8	0290	0290	NUM	_	NumType=Card	7	conj	_	start_char=4351|end_char=4355|SpacesAfter=\n
+9	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=4356|end_char=4374|SpacesAfter=\n
+10	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=4375|end_char=4384
+11	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	start_char=4385|end_char=4397
+12	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	11	flat	_	start_char=4398|end_char=4404|SpacesAfter=\n
+13	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=4405|end_char=4414
+14	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=4415|end_char=4427
+15	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	parataxis	_	start_char=4428|end_char=4435|SpacesAfter=\n\n\n
+

@@ -1,0 +1,204 @@
+# text = A është kjo një provë që alienët ekzistojnë?!
+# sent_id = 0
+1	A	a	PUNCT	_	_	2	punct	_	start_char=0|end_char=1
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=7
+3	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=8|end_char=11
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=12|end_char=15
+5	provë	provë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	cop	_	start_char=16|end_char=21
+6	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=22|end_char=24
+7	alienët	alienë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=25|end_char=32
+8	ekzistojnë	ekzistoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=33|end_char=43|SpaceAfter=No
+9	?	?	PUNCT	_	_	5	punct	_	start_char=43|end_char=44|SpaceAfter=No
+10	!	!	PUNCT	_	_	2	punct	_	start_char=44|end_char=45
+
+# text = (Video) Gjuetarët e alienëve besojnë se kanë filmuar më në fund një qenie paranormale ose jashtëtokësore që dyshohet se jeton në Tokë.
+# sent_id = 1
+1	(	(	PUNCT	_	_	2	punct	_	start_char=46|end_char=47|SpaceAfter=No
+2	Video	Video	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=47|end_char=52|SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	start_char=52|end_char=53|SpacesAfter=\n
+4	Gjuetarët	Gjuetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	start_char=54|end_char=63
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det:poss	_	start_char=64|end_char=65
+6	alienëve	alien	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=66|end_char=74
+7	besojnë	besoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=75|end_char=82
+8	se	se	SCONJ	_	_	10	mark	_	start_char=83|end_char=85
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=86|end_char=90
+10	filmuar	filmoj	VERB	_	VerbForm=Part	7	advcl	_	start_char=91|end_char=98
+11	më	më	PART	_	_	13	mark	_	start_char=99|end_char=101
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=102|end_char=104
+13	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=105|end_char=109
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=110|end_char=113
+15	qenie	qeni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=114|end_char=119
+16	paranormale	paranormal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=120|end_char=131
+17	ose	ose	CCONJ	_	_	18	cc	_	start_char=132|end_char=135
+18	jashtëtokësore	jashtëtokësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	start_char=136|end_char=150
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=151|end_char=153
+20	dyshohet	dyshoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	15	acl:relcl	_	start_char=154|end_char=162
+21	se	se	SCONJ	_	_	22	mark	_	start_char=163|end_char=165
+22	jeton	jetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	ccomp	_	start_char=166|end_char=171
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=172|end_char=174
+24	Tokë	Tokë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	start_char=175|end_char=179|SpaceAfter=No
+25	.	.	PUNCT	_	_	20	punct	_	start_char=179|end_char=180
+
+# text = Paraqitja e këtij alieni është e njëjtë me të tjerë qenie të pashpjegueshme që janë parë në Meksikë dhe që dyshohet se mund të jenë fshehur në qendrën vullkanike amerikane.
+# sent_id = 2
+1	Paraqitja	paraqitje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=181|end_char=190
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=191|end_char=192
+3	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=193|end_char=198
+4	alieni	alien	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=199|end_char=205
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=206|end_char=211
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=212|end_char=213
+7	njëjtë	njëjtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=214|end_char=220
+8	me	me	ADP	_	Case=Acc	11	case	_	start_char=221|end_char=223
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=224|end_char=226
+10	tjerë	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	11	amod	_	start_char=227|end_char=232
+11	qenie	qeni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	cop	_	start_char=233|end_char=238
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=239|end_char=241
+13	pashpjegueshme	pashpjegueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=242|end_char=256
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=257|end_char=259
+15	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=260|end_char=264
+16	parë	shoh	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=265|end_char=269
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=270|end_char=272
+18	Meksikë	Meksikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=273|end_char=280
+19	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=281|end_char=284
+20	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=285|end_char=287
+21	dyshohet	dyshoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	conj	_	start_char=288|end_char=296
+22	se	se	SCONJ	_	_	26	mark	_	start_char=297|end_char=299
+23	mund	mund	AUX	_	_	26	aux	_	start_char=300|end_char=304
+24	të	të	PART	_	_	26	fixed	_	start_char=305|end_char=307
+25	jenë	jam	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=308|end_char=312
+26	fshehur	fsheh	VERB	_	VerbForm=Part	21	advcl	_	start_char=313|end_char=320
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=321|end_char=323
+28	qendrën	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obl	_	start_char=324|end_char=331
+29	vullkanike	vullkanik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=332|end_char=342
+30	amerikane	amerikan	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=343|end_char=352|SpaceAfter=No
+31	.	.	PUNCT	_	_	26	punct	_	start_char=352|end_char=353|SpacesAfter=\n
+
+# text = Në periferi të qytetit Nuevo Laredo, në mes të ditës pronari i një ferme dëgjoi një zhurmë të çuditshme jashtë shtëpisë dhe vendosi të hetonte se çfarë ishte.
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=354|end_char=356
+2	periferi	periferi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	advmod	_	start_char=357|end_char=365
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=366|end_char=368
+4	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=369|end_char=376
+5	Nuevo	Nuevo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=377|end_char=382
+6	Laredo	Laredo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=383|end_char=389|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	start_char=389|end_char=390
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=391|end_char=393
+9	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	advmod	_	start_char=394|end_char=397
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=398|end_char=400
+11	ditës	ditë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=401|end_char=406
+12	pronari	pronar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=407|end_char=414
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=415|end_char=416
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=417|end_char=420
+15	ferme	fermë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=421|end_char=426
+16	dëgjoi	dëgjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=427|end_char=433
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=434|end_char=437
+18	zhurmë	zhurmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=438|end_char=444
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=445|end_char=447
+20	çuditshme	çuditshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=448|end_char=457
+21	jashtë	jashtë	ADP	_	Case=Abl	22	case	_	start_char=458|end_char=464
+22	shtëpisë	shtëpi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=465|end_char=473
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=474|end_char=477
+24	vendosi	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	start_char=478|end_char=485
+25	të	të	PART	_	_	26	fixed	_	start_char=486|end_char=488
+26	hetonte	hetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	24	ccomp	_	start_char=489|end_char=496
+27	se	se	SCONJ	_	_	29	mark	_	start_char=497|end_char=499
+28	çfarë	çfarë	PRON	_	PronType=Ind	29	nsubj	_	start_char=500|end_char=505
+29	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	26	ccomp	_	start_char=506|end_char=511|SpaceAfter=No
+30	.	.	PUNCT	_	_	24	punct	_	start_char=511|end_char=512
+
+# text = Duke përdorur kamerën e telefonit të tij, ai filmoi një qenie të huaj me karakteristika njerëzore.
+# sent_id = 4
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=513|end_char=517
+2	përdorur	përdor	VERB	_	VerbForm=Part	10	advmod	_	start_char=518|end_char=526
+3	kamerën	kamerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=527|end_char=534
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=535|end_char=536
+5	telefonit	telefon	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=537|end_char=546
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=547|end_char=549
+7	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=550|end_char=553|SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	start_char=553|end_char=554
+9	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=555|end_char=557
+10	filmoi	filmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=558|end_char=564
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=565|end_char=568
+12	qenie	qeni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=569|end_char=574
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=575|end_char=577
+14	huaj	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=578|end_char=582
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=583|end_char=585
+16	karakteristika	karakteristikëkë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	advmod	_	start_char=586|end_char=600
+17	njerëzore	njerëzor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=601|end_char=610|SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	start_char=610|end_char=611
+
+# text = Krijesa me sa duket ishte e zhveshur dhe kishte një lëkurë të zbehtë.
+# sent_id = 5
+1	Krijesa	krijesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=612|end_char=619
+2	me	me	ADP	_	Case=Acc	4	fixed	_	start_char=620|end_char=622
+3	sa	sa	ADV	_	AdvType=Deg	4	advmod	_	start_char=623|end_char=625
+4	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	advmod	_	start_char=626|end_char=631
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=632|end_char=637
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=638|end_char=639
+7	zhveshur	zhveshur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=640|end_char=648
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=649|end_char=652
+9	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	conj	_	start_char=653|end_char=659
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=660|end_char=663
+11	lëkurë	lëkurë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=664|end_char=670
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=671|end_char=673
+13	zbehtë	zbehtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=674|end_char=680|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	start_char=680|end_char=681|SpacesAfter=\n
+
+# text = “Meksika është vendi më aktiv në botë për shenja nga UFO-t dhe askush nuk e di përse, por ne dyshojmë se ka shumë baza alienësh nën shumicën e vullkaneve meksikane”, thotë Scott C Waring.
+# sent_id = 6
+1	“	"	PUNCT	_	_	2	punct	_	start_char=682|end_char=683|SpaceAfter=No
+2	Meksika	meksikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=683|end_char=690
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=691|end_char=696
+4	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	cop	_	start_char=697|end_char=702
+5	më	më	PART	_	_	6	mark	_	start_char=703|end_char=705
+6	aktiv	aktiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=706|end_char=711
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=712|end_char=714
+8	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=715|end_char=719
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=720|end_char=723
+10	shenja	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=724|end_char=730
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=731|end_char=734
+12	UFO-t	UFO	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=735|end_char=740
+13	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=741|end_char=744
+14	askush	askush	PRON	_	PronType=Int	17	nsubj	_	start_char=745|end_char=751
+15	nuk	nuk	PART	_	_	17	mark	_	start_char=752|end_char=755
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=756|end_char=757
+17	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=758|end_char=760
+18	përse	përse	SCONJ	_	_	17	mark	_	start_char=761|end_char=766|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=766|end_char=767
+20	por	por	CCONJ	_	_	22	cc	_	start_char=768|end_char=771
+21	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=772|end_char=774
+22	dyshojmë	dyshoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	17	conj	_	start_char=775|end_char=783
+23	se	se	SCONJ	_	_	24	mark	_	start_char=784|end_char=786
+24	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=787|end_char=789
+25	shumë	shumë	PRON	_	PronType=Ind	26	nummod	_	start_char=790|end_char=795
+26	baza	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	obj	_	start_char=796|end_char=800
+27	alienësh	alienë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	start_char=801|end_char=809
+28	nën	nën	ADP	_	Case=Acc	29	case	_	start_char=810|end_char=813
+29	shumicën	shumicë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obl	_	start_char=814|end_char=822
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=823|end_char=824
+31	vullkaneve	vullkan	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=825|end_char=835
+32	meksikane”	meksikane	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=836|end_char=846|SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	start_char=846|end_char=847
+34	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	start_char=848|end_char=853
+35	Scott	Scott	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	34	obj	_	start_char=854|end_char=859
+36	C	C	PROPN	_	Foreign=Yes	35	flat	_	start_char=860|end_char=861
+37	Waring	Waring	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	flat	_	start_char=862|end_char=868|SpaceAfter=No
+38	.	.	PUNCT	_	_	34	punct	_	start_char=868|end_char=869|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 7
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=870|end_char=872
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=873|end_char=883|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=883|end_char=884|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=885|end_char=889
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=890|end_char=892
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=893|end_char=896
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=897|end_char=901|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=902|end_char=920|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=921|end_char=930
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=931|end_char=943
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=944|end_char=950|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=951|end_char=960
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=961|end_char=973
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=974|end_char=981|SpacesAfter=\n\n\n
+

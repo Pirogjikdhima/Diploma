@@ -1,0 +1,220 @@
+# text = Fauci:
+# sent_id = 0
+1	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=5|end_char=6
+
+# text = Nuk e kam pasur as edhe një ditë pushim nga janari, punoj 18 orë në ditë, 7 ditë në javë Drejtori i Institutit Kombëtar për Alergji dhe Sëmundje Infektive në SHBA, Dr.
+# sent_id = 1
+1	Nuk	nuk	PART	_	_	4	mark	_	start_char=7|end_char=10
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cc	_	start_char=11|end_char=12
+3	kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=13|end_char=16
+4	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=22
+5	as	as	CCONJ	_	_	8	cc	_	start_char=23|end_char=25
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=26|end_char=30
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=31|end_char=34
+8	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=35|end_char=39
+9	pushim	pushim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=40|end_char=46
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=47|end_char=50
+11	janari	janar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=51|end_char=57|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=57|end_char=58
+13	punoj	punoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=59|end_char=64
+14	18	18	NUM	_	NumType=Card	15	nummod	_	start_char=65|end_char=67
+15	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=68|end_char=71
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=72|end_char=74
+17	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=75|end_char=79|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=79|end_char=80
+19	7	7	NUM	_	NumType=Card	20	nummod	_	start_char=81|end_char=82
+20	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	advmod	_	start_char=83|end_char=87
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=88|end_char=90
+22	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=91|end_char=95|SpacesAfter=\n
+23	Drejtori	Drejtor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	appos	_	start_char=96|end_char=104
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=105|end_char=106
+25	Institutit	Institut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=107|end_char=117
+26	Kombëtar	Kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=118|end_char=126
+27	për	për	ADP	_	Case=Acc	28	case	_	start_char=127|end_char=130
+28	Alergji	Alergji	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	start_char=131|end_char=138
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=139|end_char=142
+30	Sëmundje	Sëmundje	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	conj	_	start_char=143|end_char=151
+31	Infektive	Infekti	PROPN	_	Number=Sing	30	flat	_	start_char=152|end_char=161
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=162|end_char=164
+33	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=165|end_char=169|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	start_char=169|end_char=170
+35	Dr	Dr	NUM	_	NumType=Card	33	amod:nummod	_	start_char=171|end_char=173|SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	start_char=173|end_char=174
+
+# text = Anthony Fauci, ka deklaruar sot se punon nga 18 orë në ditë – shtatë ditë në javë.
+# sent_id = 2
+1	Anthony	Anthon	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=175|end_char=182
+2	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=183|end_char=188|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	start_char=188|end_char=189
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=190|end_char=192
+5	deklaruar	deklaroj	VERB	_	VerbForm=Part	0	root	_	start_char=193|end_char=202
+6	sot	sot	ADV	_	AdvType=Tim	5	advmod	_	start_char=203|end_char=206
+7	se	se	SCONJ	_	_	8	mark	_	start_char=207|end_char=209
+8	punon	punoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=210|end_char=215
+9	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=216|end_char=219
+10	18	18	NUM	_	NumType=Card	11	nummod	_	start_char=220|end_char=222
+11	orë	orë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=223|end_char=226
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=227|end_char=229
+13	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=230|end_char=234
+14	–	–	PUNCT	_	_	16	punct	_	start_char=235|end_char=236
+15	shtatë	shtatë	NUM	_	NumType=Card	16	nummod	_	start_char=237|end_char=243
+16	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=244|end_char=248
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=249|end_char=251
+18	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=252|end_char=256|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	start_char=256|end_char=257|SpacesAfter=\n
+
+# text = Gjatë një interviste dhënë për CNN, Fauci tha se nuk e ka pasur as edhe një ditë pushim që nga mesi i janarit të këtij viti.
+# sent_id = 3
+1	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=258|end_char=263
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=264|end_char=267
+3	interviste	intervist	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=268|end_char=278
+4	dhënë	jap	VERB	_	VerbForm=Part	9	advcl	_	start_char=279|end_char=284
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=285|end_char=288
+6	CNN	CNN	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=289|end_char=292|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=292|end_char=293
+8	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=294|end_char=299
+9	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=300|end_char=303
+10	se	se	SCONJ	_	_	14	mark	_	start_char=304|end_char=306
+11	nuk	nuk	PART	_	_	14	mark	_	start_char=307|end_char=310
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=311|end_char=312
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=313|end_char=315
+14	pasur	kam	VERB	_	VerbForm=Part	9	advcl	_	start_char=316|end_char=321
+15	as	as	CCONJ	_	_	18	cc	_	start_char=322|end_char=324
+16	edhe	edhe	PART	_	_	18	mark	_	start_char=325|end_char=329
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=330|end_char=333
+18	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=334|end_char=338
+19	pushim	pushim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=339|end_char=345
+20	që	që	PART	_	_	22	mark	_	start_char=346|end_char=348
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=349|end_char=352
+22	mesi	mes	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=353|end_char=357
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=358|end_char=359
+24	janarit	janar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=360|end_char=367
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=368|end_char=370
+26	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	start_char=371|end_char=376
+27	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=377|end_char=381|SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	start_char=381|end_char=382|SpacesAfter=\n
+
+# text = Fauci sot feston 80-vjetorin e lindjes, por thotë se do të thyej traditën duke mos e kaluar mbrëmjen me tri vajzat e tij, shkruan tg.
+# sent_id = 4
+1	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=383|end_char=388
+2	sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=389|end_char=392
+3	feston	festoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=393|end_char=399
+4	80	80	NUM	_	NumType=Card	5	nummod	_	start_char=400|end_char=402|SpaceAfter=No
+5	-vjetorin	-vjetor	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=402|end_char=411
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=412|end_char=413
+7	lindjes	lindje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=414|end_char=421|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=421|end_char=422
+9	por	por	CCONJ	_	_	10	cc	_	start_char=423|end_char=426
+10	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=427|end_char=432
+11	se	se	SCONJ	_	_	14	mark	_	start_char=433|end_char=435
+12	do	do	PART	_	_	14	fixed	_	start_char=436|end_char=438
+13	të	të	PART	_	_	14	fixed	_	start_char=439|end_char=441
+14	thyej	thej	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=442|end_char=447
+15	traditën	traditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=448|end_char=456
+16	duke	duke	PART	_	_	19	fixed	_	start_char=457|end_char=461
+17	mos	mos	PART	_	_	19	fixed	_	start_char=462|end_char=465
+18	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=466|end_char=467
+19	kaluar	kaloj	VERB	_	VerbForm=Part	14	advmod	_	start_char=468|end_char=474
+20	mbrëmjen	mbrëmje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=475|end_char=483
+21	me	me	ADP	_	Case=Acc	23	case	_	start_char=484|end_char=486
+22	tri	tre	NUM	_	NumType=Card	23	nummod	_	start_char=487|end_char=490
+23	vajzat	vajzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	start_char=491|end_char=497
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=498|end_char=499
+25	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	amod:poss	_	start_char=500|end_char=503|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=503|end_char=504
+27	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	ccomp	_	start_char=505|end_char=512
+28	tg	tg	X	_	Abbr=Yes	27	nsubj	_	start_char=513|end_char=515|SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	start_char=515|end_char=516|SpacesAfter=\n
+
+# text = “Pa dyshim që po ndihem keq.
+# sent_id = 5
+1	“	"	PUNCT	_	_	3	punct	_	start_char=517|end_char=518|SpaceAfter=No
+2	Pa	pa	ADP	_	Case=Acc	3	case	_	start_char=518|end_char=520
+3	dyshim	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=521|end_char=527
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=528|end_char=530
+5	po	po	PART	_	_	6	mark	_	start_char=531|end_char=533
+6	ndihem	ndihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	acl:relcl	_	start_char=534|end_char=540
+7	keq	keq	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	cop	_	start_char=541|end_char=544|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	start_char=544|end_char=545
+
+# text = Janë Krishtlindjet e para dhe ditëlindja ime e parë që nuk e kam kaluar me bijat që kur ato kanë lindur”, ka shtuar mjeku amerikan.
+# sent_id = 6
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=546|end_char=550
+2	Krishtlindjet	krishtlindje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	cop	_	start_char=551|end_char=564
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=565|end_char=566
+4	para	para	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=567|end_char=571
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=572|end_char=575
+6	ditëlindja	ditëlindje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=576|end_char=586
+7	ime	ime	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	amod	_	start_char=587|end_char=590
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=591|end_char=592
+9	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=593|end_char=597
+10	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=598|end_char=600
+11	nuk	nuk	PART	_	_	14	mark	_	start_char=601|end_char=604
+12	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=605|end_char=606
+13	kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	14	aux	_	start_char=607|end_char=610
+14	kaluar	kaloj	VERB	_	VerbForm=Part	1	advcl	_	start_char=611|end_char=617
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=618|end_char=620
+16	bijat	bijë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	start_char=621|end_char=626
+17	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=627|end_char=629
+18	kur	kur	SCONJ	_	_	21	mark	_	start_char=630|end_char=633
+19	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	start_char=634|end_char=637
+20	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=638|end_char=642
+21	lindur”	lindor	VERB	_	VerbForm=Part	16	acl	_	start_char=643|end_char=650|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	start_char=650|end_char=651
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=652|end_char=654
+24	shtuar	shtoj	VERB	_	VerbForm=Part	21	advcl	_	start_char=655|end_char=661
+25	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=662|end_char=667
+26	amerikan	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=668|end_char=676|SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	start_char=676|end_char=677|SpacesAfter=\n
+
+# text = “Shpresojmë që vitin e ardhshëm në këtë kohë do të kemi festë me shumë përqafime, që aktualisht nuk guxojmë të bëjmë”, ka thënë për fund Fauci.
+# sent_id = 7
+1	“	"	PUNCT	_	_	2	punct	_	start_char=678|end_char=679|SpaceAfter=No
+2	Shpresojmë	shpresoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=679|end_char=689
+3	që	që	SCONJ	_	_	4	mark	_	start_char=690|end_char=692
+4	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=693|end_char=698
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=699|end_char=700
+6	ardhshëm	ardhshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=701|end_char=709
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=710|end_char=712
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=713|end_char=717
+9	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=718|end_char=722
+10	do	do	PART	_	_	12	fixed	_	start_char=723|end_char=725
+11	të	të	PART	_	_	12	fixed	_	start_char=726|end_char=728
+12	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=729|end_char=733
+13	festë	festë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=734|end_char=739
+14	me	me	ADP	_	Case=Acc	16	case	_	start_char=740|end_char=742
+15	shumë	shumë	PRON	_	PronType=Ind	16	nummod	_	start_char=743|end_char=748
+16	përqafime	përqafim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	start_char=749|end_char=758|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=758|end_char=759
+18	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=760|end_char=762
+19	aktualisht	aktualisht	ADV	_	AdvType=Man	21	advmod	_	start_char=763|end_char=773
+20	nuk	nuk	PART	_	_	21	mark	_	start_char=774|end_char=777
+21	guxojmë	guxoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	acl:relcl	_	start_char=778|end_char=785
+22	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=786|end_char=788
+23	bëjmë”	bëjmë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	cop	_	start_char=789|end_char=795|SpaceAfter=No
+24	,	,	PUNCT	_	_	21	punct	_	start_char=795|end_char=796
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=797|end_char=799
+26	thënë	them	VERB	_	VerbForm=Part	21	conj	_	start_char=800|end_char=805
+27	për	për	ADP	_	Case=Acc	28	case	_	start_char=806|end_char=809
+28	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	start_char=810|end_char=814
+29	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	28	flat	_	start_char=815|end_char=820|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=820|end_char=821|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 8
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=822|end_char=824
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=825|end_char=835|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=835|end_char=836|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=837|end_char=841
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=842|end_char=844
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=845|end_char=848
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=849|end_char=853|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=854|end_char=872|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=873|end_char=882
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=883|end_char=895
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=896|end_char=902|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=903|end_char=912
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=913|end_char=925
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=926|end_char=933|SpacesAfter=\n\n\n
+

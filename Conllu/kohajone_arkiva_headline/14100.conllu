@@ -1,0 +1,855 @@
+# text = Genocid nuk ishte.
+# sent_id = 0
+1	Genocid	Genocid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=7
+2	nuk	nuk	PART	_	Polarity=Neg	3	mark	_	start_char=8|end_char=11
+3	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=12|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	start_char=17|end_char=18
+
+# text = Po çfarë ishte?
+# sent_id = 1
+1	Po	po	PART	_	_	3	mark	_	start_char=19|end_char=21
+2	çfarë	çfarë	PRON	_	PronType=Ind	3	nsubj	_	start_char=22|end_char=27
+3	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=28|end_char=33|SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	start_char=33|end_char=34|SpacesAfter=\n
+
+# text = Vendimi i Gjykatës Ndërkombëtare në Hagë synon të ndihmojë për pajtimin: as serbët, as kroatët nuk kanë kryer gjenocid në luftën e Jugosllavisë në vitet 1990.
+# sent_id = 2
+1	Vendimi	Vendim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=35|end_char=42
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=43|end_char=44
+3	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=45|end_char=53
+4	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=54|end_char=67
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=68|end_char=70
+6	Hagë	Hagë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=71|end_char=75
+7	synon	synoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=76|end_char=81
+8	të	të	PART	_	_	9	fixed	_	start_char=82|end_char=84
+9	ndihmojë	ndihmoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	start_char=85|end_char=93
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=94|end_char=97
+11	pajtimin	pajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=98|end_char=106|SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	start_char=106|end_char=107
+13	as	as	CCONJ	_	_	14	cc	_	start_char=108|end_char=110
+14	serbët	serbë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	conj	_	start_char=111|end_char=117|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=117|end_char=118
+16	as	as	CCONJ	_	_	20	cc	_	start_char=119|end_char=121
+17	kroatët	kroatë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	nsubj	_	start_char=122|end_char=129
+18	nuk	nuk	PART	_	_	20	mark	_	start_char=130|end_char=133
+19	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=134|end_char=138
+20	kryer	kryej	VERB	_	VerbForm=Part	9	conj	_	start_char=139|end_char=144
+21	gjenocid	gjenocid	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=145|end_char=153
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=154|end_char=156
+23	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=157|end_char=163
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=164|end_char=165
+25	Jugosllavisë	Jugosllavi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=166|end_char=178
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=179|end_char=181
+27	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	advmod	_	start_char=182|end_char=187
+28	1990	1990	NUM	_	NumType=Card	27	amod:nummod	_	start_char=188|end_char=192|SpaceAfter=No
+29	.	.	PUNCT	_	_	20	punct	_	start_char=192|end_char=193
+
+# text = Po çfarë ndodhi atëherë atje, pyet Dragoslav Dedović.
+# sent_id = 3
+1	Po	po	PART	_	_	3	cc	_	start_char=194|end_char=196
+2	çfarë	çfarë	PRON	_	PronType=Ind	3	obj	_	start_char=197|end_char=202
+3	ndodhi	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	start_char=203|end_char=209
+4	atëherë	atëherë	ADV	_	AdvType=Tim	5	advmod	_	start_char=210|end_char=217
+5	atje	atje	ADV	_	AdvType=Loc	3	advmod	_	start_char=218|end_char=222|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	start_char=222|end_char=223
+7	pyet	pyes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=224|end_char=228
+8	Dragoslav	Dragoslë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=229|end_char=238
+9	Dedović	dedovi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=239|end_char=246|SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	start_char=246|end_char=247|SpacesAfter=\n
+
+# text = Gjuha e juristëve tingëllon tmerrësisht e ftohtë: elitat shoviniste në Jugosllavinë që po shpërbëhej atëherë nuk kanë treguar synimin për të shkatërruar "një grup të caktuar nacional, racor, fetar ose të përcaktuar nga përkatësia në një popull".
+# sent_id = 4
+1	Gjuha	Gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=248|end_char=253
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=254|end_char=255
+3	juristëve	juristë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=256|end_char=265
+4	tingëllon	tingëlloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=266|end_char=275
+5	tmerrësisht	tmerrësisht	ADV	_	AdvType=Man	4	advmod	_	start_char=276|end_char=287
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=288|end_char=289
+7	ftohtë	ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=290|end_char=296|SpaceAfter=No
+8	:	:	PUNCT	_	_	9	punct	_	start_char=296|end_char=297
+9	elitat	elitë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=298|end_char=304
+10	shoviniste	shovinist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=305|end_char=315
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=316|end_char=318
+12	Jugosllavinë	Jugosllavi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=319|end_char=331
+13	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=332|end_char=334
+14	po	po	PART	_	_	15	mark	_	start_char=335|end_char=337
+15	shpërbëhej	shpërbëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	9	acl:relcl	_	start_char=338|end_char=348
+16	atëherë	atëherë	ADV	_	AdvType=Tim	15	advmod	_	start_char=349|end_char=356
+17	nuk	nuk	PART	_	_	19	mark	_	start_char=357|end_char=360
+18	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=361|end_char=365
+19	treguar	tregoj	VERB	_	VerbForm=Part	15	advcl	_	start_char=366|end_char=373
+20	synimin	synim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=374|end_char=381
+21	për	për	PART	_	_	23	fixed	_	start_char=382|end_char=385
+22	të	të	PART	_	_	23	fixed	_	start_char=386|end_char=388
+23	shkatërruar	shkatërroj	VERB	_	VerbForm=Part	19	advmod	_	start_char=389|end_char=400
+24	"	"	PUNCT	_	_	26	punct	_	start_char=401|end_char=402|SpaceAfter=No
+25	një	një	DET	_	Definite=Ind	26	det	_	start_char=402|end_char=405
+26	grup	grup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	start_char=406|end_char=410
+27	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=411|end_char=413
+28	caktuar	caktuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=414|end_char=421
+29	nacional	nacional	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=422|end_char=430|SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	start_char=430|end_char=431
+31	racor	racor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	conj	_	start_char=432|end_char=437|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=437|end_char=438
+33	fetar	fetar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	conj	_	start_char=439|end_char=444
+34	ose	ose	CCONJ	_	_	36	cc	_	start_char=445|end_char=448
+35	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=449|end_char=451
+36	përcaktuar	përcaktoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	conj	_	start_char=452|end_char=462
+37	nga	nga	ADP	_	Case=Nom	38	case	_	start_char=463|end_char=466
+38	përkatësia	përkatësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	advmod	_	start_char=467|end_char=477
+39	në	në	ADP	_	Case=Acc	41	case	_	start_char=478|end_char=480
+40	një	një	DET	_	Definite=Ind	41	det	_	start_char=481|end_char=484
+41	popull	popull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	38	nmod	_	start_char=485|end_char=491|SpaceAfter=No
+42	"	"	PUNCT	_	_	41	punct	_	start_char=491|end_char=492|SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	start_char=492|end_char=493
+
+# text = As plotësisht dhe as pjesërisht.
+# sent_id = 5
+1	As	as	CCONJ	_	_	0	root	_	start_char=494|end_char=496
+2	plotësisht	plotësisht	ADV	_	AdvType=Man	1	fixed	_	start_char=497|end_char=507
+3	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=508|end_char=511
+4	as	as	CCONJ	_	_	5	cc	_	start_char=512|end_char=514
+5	pjesërisht	pjesërisht	ADV	_	AdvType=Man	2	conj	_	start_char=515|end_char=525|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	start_char=525|end_char=526
+
+# text = Kështu vendosën gjykatësit e Gjykatës Ndërkombëtare në Hagë të martën, me një shumicë të qartë votash.
+# sent_id = 6
+1	Kështu	kështu	ADV	_	AdvType=Man	2	mark	_	start_char=527|end_char=533
+2	vendosën	vendos	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=534|end_char=542
+3	gjykatësit	gjykatës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	obj	_	start_char=543|end_char=553
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	5	det:poss	_	start_char=554|end_char=555
+5	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=556|end_char=564
+6	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=565|end_char=578
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=579|end_char=581
+8	Hagë	Hagë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=582|end_char=586
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=587|end_char=589
+10	martën	martë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=590|end_char=596|SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	start_char=596|end_char=597
+12	me	me	ADP	_	Case=Acc	14	case	_	start_char=598|end_char=600
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=601|end_char=604
+14	shumicë	shumicë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=605|end_char=612
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=613|end_char=615
+16	qartë	qartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=616|end_char=621
+17	votash	votash	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=622|end_char=628|SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	start_char=628|end_char=629|SpacesAfter=\n
+
+# text = Në konfliktin serbo-kroat midis viteve 1991 dhe 1995 vdiqën dhjetra mijëra vetë.
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=630|end_char=632
+2	konfliktin	konflikt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=633|end_char=643
+3	serbo-kroat	serbo-kroj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=644|end_char=655
+4	midis	midis	ADP	_	Case=Abl	5	case	_	start_char=656|end_char=661
+5	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=662|end_char=668
+6	1991	1991	NUM	_	NumType=Card	5	amod:nummod	_	start_char=669|end_char=673
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=674|end_char=677
+8	1995	1995	NUM	_	NumType=Card	6	conj	_	start_char=678|end_char=682
+9	vdiqën	vdiq	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=683|end_char=689
+10	dhjetra	dhjetrë	PRON	_	PronType=Ind	12	nummod	_	start_char=690|end_char=697
+11	mijëra	mijë	PRON	_	PronType=Ind	12	det	_	start_char=698|end_char=704
+12	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	9	cop	_	start_char=705|end_char=709|SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	start_char=709|end_char=710
+
+# text = Serbë dhe kroatë të armatosur vranë civilë të palës tjetër, i torturuan, i përdhunuan, i dëbuan.
+# sent_id = 8
+1	Serbë	serbë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=711|end_char=716
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=717|end_char=720
+3	kroatë	kroatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	start_char=721|end_char=727
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=728|end_char=730
+5	armatosur	armatosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=731|end_char=740
+6	vranë	vras	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=741|end_char=746
+7	civilë	civilë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	6	obj	_	start_char=747|end_char=753
+8	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=754|end_char=756
+9	palës	palë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=757|end_char=762
+10	tjetër	tjetër	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Ind	9	amod	_	start_char=763|end_char=769|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=769|end_char=770
+12	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	start_char=771|end_char=772
+13	torturuan	torturoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	6	conj	_	start_char=773|end_char=782|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=782|end_char=783
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	start_char=784|end_char=785
+16	përdhunuan	përdhunoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	conj	_	start_char=786|end_char=796|SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	start_char=796|end_char=797
+18	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=798|end_char=799
+19	dëbuan	dëboj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	16	ccomp	_	start_char=800|end_char=806|SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	start_char=806|end_char=807
+
+# text = Në fund, qytete të tëra u mbuluan nga hiri e shkrumbi.
+# sent_id = 9
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=808|end_char=810
+2	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=811|end_char=815|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=815|end_char=816
+4	qytete	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	start_char=817|end_char=823
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=824|end_char=826
+6	tëra	tërë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=827|end_char=831
+7	u	u	PART	_	_	8	fixed	_	start_char=832|end_char=833
+8	mbuluan	mbuloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=834|end_char=841
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=842|end_char=845
+10	hiri	hiri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=846|end_char=850
+11	e	e	CCONJ	_	_	12	cc	_	start_char=851|end_char=852
+12	shkrumbi	shkrumbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	start_char=853|end_char=861|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	start_char=861|end_char=862
+
+# text = Grupe popullore u zhdukën krejtësisht nga rajone, të cilat ato i vështronin prej dekadash si atdheun e tyre.
+# sent_id = 10
+1	Grupe	Grup	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=863|end_char=868
+2	popullore	popullor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=869|end_char=878
+3	u	u	PART	_	_	4	fixed	_	start_char=879|end_char=880
+4	zhdukën	zhdukëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=881|end_char=888
+5	krejtësisht	krejtësisht	ADV	_	AdvType=Man	4	advmod	_	start_char=889|end_char=900
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=901|end_char=904
+7	rajone	rajon	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=905|end_char=911|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=911|end_char=912
+9	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=913|end_char=915
+10	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	start_char=916|end_char=921
+11	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=922|end_char=925
+12	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	start_char=926|end_char=927
+13	vështronin	vështroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	7	acl	_	start_char=928|end_char=938
+14	prej	prej	ADP	_	Case=Abl	15	case	_	start_char=939|end_char=943
+15	dekadash	dekadash	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	13	obl	_	start_char=944|end_char=952
+16	si	si	SCONJ	_	_	17	mark	_	start_char=953|end_char=955
+17	atdheun	atdhe	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=956|end_char=963
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=964|end_char=965
+19	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	amod:poss	_	start_char=966|end_char=970|SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	start_char=970|end_char=971
+
+# text = Por kjo megjithatë nuk ishte gjenocid, siç konstatuan gjykatësit më të lartë të Kombeve të Bashkuara.
+# sent_id = 11
+1	Por	por	CCONJ	_	_	5	cc	_	start_char=972|end_char=975
+2	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=976|end_char=979
+3	megjithatë	megjithatë	SCONJ	_	_	5	cc	_	start_char=980|end_char=990
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=991|end_char=994
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=995|end_char=1000
+6	gjenocid	gjenocid	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	cop	_	start_char=1001|end_char=1009|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=1009|end_char=1010
+8	siç	siç	SCONJ	_	_	9	mark	_	start_char=1011|end_char=1014
+9	konstatuan	konstatoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	advcl	_	start_char=1015|end_char=1025
+10	gjykatësit	gjykatës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	obj	_	start_char=1026|end_char=1036
+11	më	më	PART	_	_	13	mark	_	start_char=1037|end_char=1039
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=1040|end_char=1042
+13	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=1043|end_char=1048
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=1049|end_char=1051
+15	Kombeve	Kombe	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=1052|end_char=1059
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=1060|end_char=1062
+17	Bashkuara	bashkuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1063|end_char=1072|SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	start_char=1072|end_char=1073|SpacesAfter=\n
+
+# text = Shumë "anëtarë të një grupi" vdiqën, ose qenë të detyruar t'i braktisin përgjithmonë shtëpitë e tyre, vetëm sepse qenë kroatë apo serbë.
+# sent_id = 12
+1	Shumë	shumë	PRON	_	PronType=Ind	3	det	_	start_char=1074|end_char=1079
+2	"	"	PUNCT	_	_	3	punct	_	start_char=1080|end_char=1081|SpaceAfter=No
+3	anëtarë	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	start_char=1081|end_char=1088
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det:poss	_	start_char=1089|end_char=1091
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=1092|end_char=1095
+6	grupi	grup	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=1096|end_char=1101|SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	start_char=1101|end_char=1102
+8	vdiqën	vdiq	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1103|end_char=1109|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1109|end_char=1110
+10	ose	ose	CCONJ	_	_	11	cc	_	start_char=1111|end_char=1114
+11	qenë	jam	VERB	_	VerbForm=Part	8	conj	_	start_char=1115|end_char=1119
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=1120|end_char=1122
+13	detyruar	detyruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	cop	_	start_char=1123|end_char=1131
+14	t'i	t'i	ADV	_	AdvType=Man	15	advmod	_	start_char=1132|end_char=1135
+15	braktisin	braktis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	11	advcl	_	start_char=1136|end_char=1145
+16	përgjithmonë	përgjithmonë	ADV	_	AdvType=Man	15	advmod	_	start_char=1146|end_char=1158
+17	shtëpitë	shtëpi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=1159|end_char=1167
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=1168|end_char=1169
+19	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	amod:poss	_	start_char=1170|end_char=1174|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	start_char=1174|end_char=1175
+21	vetëm	vetëm	PART	_	_	22	fixed	_	start_char=1176|end_char=1181
+22	sepse	sepse	SCONJ	_	_	23	mark	_	start_char=1182|end_char=1187
+23	qenë	jam	VERB	_	_	15	advcl	_	start_char=1188|end_char=1192
+24	kroatë	kroatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	23	cop	_	start_char=1193|end_char=1199
+25	apo	apo	CCONJ	_	_	26	cc	_	start_char=1200|end_char=1203
+26	serbë	serbë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	24	conj	_	start_char=1204|end_char=1209|SpaceAfter=No
+27	.	.	PUNCT	_	_	23	punct	_	start_char=1209|end_char=1210
+
+# text = Ndonjë ushtar, i cili brohoritet deri sot në Beograd ose në Zagreb si hero kombëtar me siguri që u shkaktoi "anëtarëve të grupit dëme të rënda fizike ose shpirtërore".
+# sent_id = 13
+1	Ndonjë	ndonjë	PRON	_	PronType=Ind	2	det	_	start_char=1211|end_char=1217
+2	ushtar	ushtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1218|end_char=1224|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1224|end_char=1225
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1226|end_char=1227
+5	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	start_char=1228|end_char=1232
+6	brohoritet	brohorit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	acl:relcl	_	start_char=1233|end_char=1243
+7	deri	deri	PART	_	_	8	case	_	start_char=1244|end_char=1248
+8	sot	sot	ADV	_	AdvType=Tim	6	advmod	_	start_char=1249|end_char=1252
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=1253|end_char=1255
+10	Beograd	Beograd	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=1256|end_char=1263
+11	ose	ose	CCONJ	_	_	13	cc	_	start_char=1264|end_char=1267
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1268|end_char=1270
+13	Zagreb	Zagreb	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	start_char=1271|end_char=1277
+14	si	si	SCONJ	_	_	15	mark	_	start_char=1278|end_char=1280
+15	hero	hero	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	start_char=1281|end_char=1285
+16	kombëtar	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=1286|end_char=1294
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=1295|end_char=1297
+18	siguri	siguri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=1298|end_char=1304
+19	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=1305|end_char=1307
+20	u	u	PART	_	_	21	fixed	_	start_char=1308|end_char=1309
+21	shkaktoi	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	start_char=1310|end_char=1318
+22	"	"	PUNCT	_	_	23	punct	_	start_char=1319|end_char=1320|SpaceAfter=No
+23	anëtarëve	anëtar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	21	obj	_	start_char=1320|end_char=1329
+24	të	të	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=1330|end_char=1332
+25	grupit	grup	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=1333|end_char=1339
+26	dëme	dëmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	start_char=1340|end_char=1344
+27	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=1345|end_char=1347
+28	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=1348|end_char=1353
+29	fizike	fizik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=1354|end_char=1360
+30	ose	ose	CCONJ	_	_	31	cc	_	start_char=1361|end_char=1364
+31	shpirtërore	shpirtëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	conj	_	start_char=1365|end_char=1376|SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	start_char=1376|end_char=1377|SpaceAfter=No
+33	.	.	PUNCT	_	_	21	punct	_	start_char=1377|end_char=1378
+
+# text = Këtë e dinë edhe fansat e sotëm të këtyre "heronjve" me uniforma.
+# sent_id = 14
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=1379|end_char=1383
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=1384|end_char=1385
+3	dinë	dam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1386|end_char=1390
+4	edhe	edhe	PART	_	_	5	cc	_	start_char=1391|end_char=1395
+5	fansat	fansë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=1396|end_char=1402
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=1403|end_char=1404
+7	sotëm	sotëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1405|end_char=1410
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=1411|end_char=1413
+9	këtyre	këto	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	start_char=1414|end_char=1420
+10	"	"	PUNCT	_	_	11	punct	_	start_char=1421|end_char=1422|SpaceAfter=No
+11	heronjve	heronjë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=1422|end_char=1430|SpaceAfter=No
+12	"	"	PUNCT	_	_	14	punct	_	start_char=1430|end_char=1431
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=1432|end_char=1434
+14	uniforma	uniformë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	start_char=1435|end_char=1443|SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	start_char=1443|end_char=1444
+
+# text = Pikërisht për këtë "trimëri" i admirojnë ata pas dyerve të mbyllura deri sot "heronjtë" e tyre – dhe ata kënaqen me këtë.
+# sent_id = 15
+1	Pikërisht	pikërisht	ADV	_	AdvType=Man	8	dislocated	_	start_char=1445|end_char=1454
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=1455|end_char=1458
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=1459|end_char=1463
+4	"	"	PUNCT	_	_	5	punct	_	start_char=1464|end_char=1465|SpaceAfter=No
+5	trimëri	trimër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=1465|end_char=1472|SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	start_char=1472|end_char=1473
+7	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	iobj	_	start_char=1474|end_char=1475
+8	admirojnë	admiroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1476|end_char=1485
+9	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	det	_	start_char=1486|end_char=1489
+10	pas	pas	ADP	_	Case=Abl	11	case	_	start_char=1490|end_char=1493
+11	dyerve	dyerë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	obl	_	start_char=1494|end_char=1500
+12	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=1501|end_char=1503
+13	mbyllura	mbyllurë	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=1504|end_char=1512
+14	deri	deri	ADP	_	Case=Acc	15	case	_	start_char=1513|end_char=1517
+15	sot	sot	ADV	_	AdvType=Tim	8	advmod	_	start_char=1518|end_char=1521
+16	"	"	PUNCT	_	_	17	punct	_	start_char=1522|end_char=1523|SpaceAfter=No
+17	heronjtë	hero	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=1523|end_char=1531|SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	start_char=1531|end_char=1532
+19	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	20	det:poss	_	start_char=1533|end_char=1534
+20	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	amod:poss	_	start_char=1535|end_char=1539
+21	–	–	PUNCT	_	_	17	punct	_	start_char=1540|end_char=1541
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=1542|end_char=1545
+23	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	start_char=1546|end_char=1549
+24	kënaqen	kënaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	8	conj	_	start_char=1550|end_char=1557
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=1558|end_char=1560
+26	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	24	obl	_	start_char=1561|end_char=1565|SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	start_char=1565|end_char=1566
+
+# text = Publikisht ata theksojnë në mënyrë pak më të zbutur, se patriotët e nderuar, të cilët luftuan për një çështje të drejtë, që në përkufizim nuk mund të jenë kriminelë ose autorë gjenocidi.
+# sent_id = 16
+1	Publikisht	publikisht	ADV	_	AdvType=Man	3	advmod	_	start_char=1567|end_char=1577
+2	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1578|end_char=1581
+3	theksojnë	theksoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1582|end_char=1591
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1592|end_char=1594
+5	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=1595|end_char=1601
+6	pak	pak	ADV	_	AdvType=Deg	5	advmod	_	start_char=1602|end_char=1605
+7	më	më	PART	_	_	9	mark	_	start_char=1606|end_char=1608
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1609|end_char=1611
+9	zbutur	zbutur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1612|end_char=1618|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1618|end_char=1619
+11	se	se	SCONJ	_	_	18	mark	_	start_char=1620|end_char=1622
+12	patriotët	patriot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	advmod	_	start_char=1623|end_char=1632
+13	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=1633|end_char=1634
+14	nderuar	nderuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=1635|end_char=1642|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=1642|end_char=1643
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=1644|end_char=1646
+17	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	start_char=1647|end_char=1652
+18	luftuan	luftoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	start_char=1653|end_char=1660
+19	për	për	ADP	_	Case=Acc	21	case	_	start_char=1661|end_char=1664
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=1665|end_char=1668
+21	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=1669|end_char=1676
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1677|end_char=1679
+23	drejtë	drejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=1680|end_char=1686|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=1686|end_char=1687
+25	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=1688|end_char=1690
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=1691|end_char=1693
+27	përkufizim	përkufizim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	advmod	_	start_char=1694|end_char=1704
+28	nuk	nuk	PART	_	_	31	mark	_	start_char=1705|end_char=1708
+29	mund	mund	AUX	_	_	31	aux	_	start_char=1709|end_char=1713
+30	të	të	PART	_	_	31	fixed	_	start_char=1714|end_char=1716
+31	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=1717|end_char=1721
+32	kriminelë	kriminelë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	31	obj	_	start_char=1722|end_char=1731
+33	ose	ose	CCONJ	_	_	34	cc	_	start_char=1732|end_char=1735
+34	autorë	autor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	32	conj	_	start_char=1736|end_char=1742
+35	gjenocidi	gjenocid	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=1743|end_char=1752|SpaceAfter=No
+36	.	.	PUNCT	_	_	31	punct	_	start_char=1752|end_char=1753|SpacesAfter=\n
+
+# text = Tani, meqenëse nuk pati fare gjenocid, shtrohet një pyetje tjetër: si duhet të quhet e gjitha që ndodhi atëherë në luftën serbo-kroate?
+# sent_id = 17
+1	Tani	tani	ADV	_	AdvType=Tim	9	advmod	_	start_char=1754|end_char=1758|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=1758|end_char=1759
+3	meqenëse	meqenëse	SCONJ	_	_	5	mark	_	start_char=1760|end_char=1768
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=1769|end_char=1772
+5	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	start_char=1773|end_char=1777
+6	fare	fare	ADV	_	AdvType=Deg	7	advmod	_	start_char=1778|end_char=1782
+7	gjenocid	gjenocid	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=1783|end_char=1791|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	start_char=1791|end_char=1792
+9	shtrohet	shtroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1793|end_char=1801
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=1802|end_char=1805
+11	pyetje	pyetje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=1806|end_char=1812
+12	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	amod	_	start_char=1813|end_char=1819|SpaceAfter=No
+13	:	:	PUNCT	_	_	9	punct	_	start_char=1819|end_char=1820
+14	si	si	SCONJ	_	_	17	mark	_	start_char=1821|end_char=1823
+15	duhet	duhem	AUX	_	_	17	aux	_	start_char=1824|end_char=1829
+16	të	të	PART	_	_	17	fixed	_	start_char=1830|end_char=1832
+17	quhet	quaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	advcl	_	start_char=1833|end_char=1838
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=1839|end_char=1840
+19	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	17	cop	_	start_char=1841|end_char=1847
+20	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=1848|end_char=1850
+21	ndodhi	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	advcl	_	start_char=1851|end_char=1857
+22	atëherë	atëherë	ADV	_	AdvType=Tim	21	advmod	_	start_char=1858|end_char=1865
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=1866|end_char=1868
+24	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=1869|end_char=1875
+25	serbo-kroate	serbo-kroat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=1876|end_char=1888|SpaceAfter=No
+26	?	?	PUNCT	_	_	17	punct	_	start_char=1888|end_char=1889
+
+# text = Pse u desh që të vdisnin dhe të dëboheshin kaq shumë njerëz së bashku me shtetin e Jugosllavisë?
+# sent_id = 18
+1	Pse	pse	SCONJ	_	_	3	mark	_	start_char=1890|end_char=1893
+2	u	u	PART	_	_	3	fixed	_	start_char=1894|end_char=1895
+3	desh	dua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1896|end_char=1900
+4	që	që	SCONJ	_	_	6	mark	_	start_char=1901|end_char=1903
+5	të	të	PART	_	_	6	fixed	_	start_char=1904|end_char=1906
+6	vdisnin	vdisn	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	3	advcl	_	start_char=1907|end_char=1914
+7	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1915|end_char=1918
+8	të	të	PART	_	_	9	fixed	_	start_char=1919|end_char=1921
+9	dëboheshin	dëboj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	6	conj	_	start_char=1922|end_char=1932
+10	kaq	kaq	ADV	_	AdvType=Deg	12	mark	_	start_char=1933|end_char=1936
+11	shumë	shumë	PRON	_	PronType=Ind	12	nummod	_	start_char=1937|end_char=1942
+12	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	start_char=1943|end_char=1949
+13	së	së	PART	_	_	14	det	_	start_char=1950|end_char=1952
+14	bashku	bashku	ADV	_	AdvType=Man	12	amod	_	start_char=1953|end_char=1959
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=1960|end_char=1962
+16	shtetin	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=1963|end_char=1970
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=1971|end_char=1972
+18	Jugosllavisë	Jugosllavi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=1973|end_char=1985|SpaceAfter=No
+19	?	?	PUNCT	_	_	9	punct	_	start_char=1985|end_char=1986
+
+# text = Si mund t'i përmbledhësh nën një koncept fatet e viktimave?
+# sent_id = 19
+1	Si	si	SCONJ	_	_	3	mark	_	start_char=1987|end_char=1989
+2	mund	mund	AUX	_	_	4	aux	_	start_char=1990|end_char=1994
+3	t'i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	start_char=1995|end_char=1998
+4	përmbledhësh	përmbledhës	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1999|end_char=2011
+5	nën	nën	ADP	_	Case=Acc	7	case	_	start_char=2012|end_char=2015
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=2016|end_char=2019
+7	koncept	koncep	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=2020|end_char=2027
+8	fatet	fatet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=2028|end_char=2033
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=2034|end_char=2035
+10	viktimave	viktimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=2036|end_char=2045|SpaceAfter=No
+11	?	?	PUNCT	_	_	4	punct	_	start_char=2045|end_char=2046
+
+# text = Kujt-veç familjeve- u mungojnë personat e zhdukur, njerëzit pa varr?
+# sent_id = 20
+1	Kujt-veç	kujt-veç	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=2047|end_char=2055
+2	familjeve-	familje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=2056|end_char=2066
+3	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	fixed	_	start_char=2067|end_char=2068
+4	mungojnë	mungoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2069|end_char=2077
+5	personat	personë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=2078|end_char=2086
+6	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=2087|end_char=2088
+7	zhdukur	zhdukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=2089|end_char=2096|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=2096|end_char=2097
+9	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	list	_	start_char=2098|end_char=2106
+10	pa	pa	ADP	_	Case=Acc	11	case	_	start_char=2107|end_char=2109
+11	varr	varr	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=2110|end_char=2114|SpaceAfter=No
+12	?	?	PUNCT	_	_	4	punct	_	start_char=2114|end_char=2115
+
+# text = A e prekim thelbin po të flasim për "krime kundër njerëzimit" ose po të përdorim madje eufemizmin cinik "spastrim etnik"?
+# sent_id = 21
+1	A	a	PART	_	_	3	cc	_	start_char=2116|end_char=2117
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=2118|end_char=2119
+3	prekim	prek	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2120|end_char=2126
+4	thelbin	thelb	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=2127|end_char=2134
+5	po	po	PART	_	_	7	mark	_	start_char=2135|end_char=2137
+6	të	të	PART	_	_	7	fixed	_	start_char=2138|end_char=2140
+7	flasim	flas	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	start_char=2141|end_char=2147
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=2148|end_char=2151
+9	"	"	PUNCT	_	_	10	punct	_	start_char=2152|end_char=2153|SpaceAfter=No
+10	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	start_char=2153|end_char=2158
+11	kundër	kundër	ADP	_	Case=Abl	12	case	_	start_char=2159|end_char=2165
+12	njerëzimit	njerëzim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=2166|end_char=2176|SpaceAfter=No
+13	"	"	PUNCT	_	_	14	punct	_	start_char=2176|end_char=2177
+14	ose	ose	CCONJ	_	_	17	cc	_	start_char=2178|end_char=2181
+15	po	po	PART	_	_	17	mark	_	start_char=2182|end_char=2184
+16	të	të	PART	_	_	17	det	_	start_char=2185|end_char=2187
+17	përdorim	përdorim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	start_char=2188|end_char=2196
+18	madje	madje	SCONJ	_	_	19	mark	_	start_char=2197|end_char=2202
+19	eufemizmin	eufemizm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=2203|end_char=2213
+20	cinik	cinik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=2214|end_char=2219
+21	"	"	PUNCT	_	_	22	punct	_	start_char=2220|end_char=2221|SpaceAfter=No
+22	spastrim	spastrim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	list	_	start_char=2221|end_char=2229
+23	etnik	etnik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=2230|end_char=2235|SpaceAfter=No
+24	"	"	PUNCT	_	_	22	punct	_	start_char=2235|end_char=2236|SpaceAfter=No
+25	?	?	PUNCT	_	_	3	punct	_	start_char=2236|end_char=2237|SpacesAfter=\n
+
+# text = Sipas vlerësimeve ishin rreth një gjysmë milioni persona të armatosur që morën pjesë në luftërat shpërbërëse të Jugosllavisë.
+# sent_id = 22
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=2238|end_char=2243
+2	vlerësimeve	vlerësim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=2244|end_char=2255
+3	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2256|end_char=2261
+4	rreth	rreth	ADP	_	Case=Abl	6	case	_	start_char=2262|end_char=2267
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=2268|end_char=2271
+6	gjysmë	gjysmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=2272|end_char=2278
+7	milioni	milion	NUM	_	NumType=Card	8	nummod	_	start_char=2279|end_char=2286
+8	persona	person	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	start_char=2287|end_char=2294
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=2295|end_char=2297
+10	armatosur	armatosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=2298|end_char=2307
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=2308|end_char=2310
+12	morën	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	start_char=2311|end_char=2316
+13	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=2317|end_char=2322
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=2323|end_char=2325
+15	luftërat	luftërë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=2326|end_char=2334
+16	shpërbërëse	shpërbërës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=2335|end_char=2346
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=2347|end_char=2349
+18	Jugosllavisë	Jugosllavi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=2350|end_char=2362|SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	start_char=2362|end_char=2363
+
+# text = Shumë prej tyre e dinë sa pak vlerë kishte atëherë jeta e një civili "kundërshtar".
+# sent_id = 23
+1	Shumë	shumë	PRON	_	PronType=Ind	5	nsubj	_	start_char=2364|end_char=2369
+2	prej	prej	ADP	_	Case=Abl	3	case	_	start_char=2370|end_char=2374
+3	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	advmod	_	start_char=2375|end_char=2379
+4	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=2380|end_char=2381
+5	dinë	dam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2382|end_char=2386
+6	sa	sa	ADV	_	AdvType=Deg	8	advmod	_	start_char=2387|end_char=2389
+7	pak	pak	ADV	_	AdvType=Deg	8	nummod	_	start_char=2390|end_char=2393
+8	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	nsubj	_	start_char=2394|end_char=2399
+9	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	ccomp	_	start_char=2400|end_char=2406
+10	atëherë	atëherë	ADV	_	AdvType=Tim	11	advmod	_	start_char=2407|end_char=2414
+11	jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=2415|end_char=2419
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=2420|end_char=2421
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=2422|end_char=2425
+14	civili	civil	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=2426|end_char=2432
+15	"	"	PUNCT	_	_	16	punct	_	start_char=2433|end_char=2434|SpaceAfter=No
+16	kundërshtar	kundërshtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	list	_	start_char=2434|end_char=2445|SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	start_char=2445|end_char=2446|SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	start_char=2446|end_char=2447
+
+# text = Për këtë nuk flitet me dëshirë – as atëherë, as sot.
+# sent_id = 24
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=2448|end_char=2451
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	start_char=2452|end_char=2456
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=2457|end_char=2460
+4	flitet	flit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=2461|end_char=2467
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=2468|end_char=2470
+6	dëshirë	dëshirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=2471|end_char=2478
+7	–	–	PUNCT	_	_	8	punct	_	start_char=2479|end_char=2480
+8	as	as	CCONJ	_	_	9	cc	_	start_char=2481|end_char=2483
+9	atëherë	atëherë	ADV	_	AdvType=Tim	4	advmod	_	start_char=2484|end_char=2491|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=2491|end_char=2492
+11	as	as	CCONJ	_	_	12	cc	_	start_char=2493|end_char=2495
+12	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=2496|end_char=2499|SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	start_char=2499|end_char=2500
+
+# text = Në vend të kësaj, "gjenocidi" avancon në një koncept luftarak të preferuar të klasës politike postjugosllave dhe të masave të zhgënjyera.
+# sent_id = 25
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=2501|end_char=2503
+2	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=2504|end_char=2508
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2509|end_char=2511
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	start_char=2512|end_char=2517|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=2517|end_char=2518
+6	"	"	PUNCT	_	_	7	punct	_	start_char=2519|end_char=2520|SpaceAfter=No
+7	gjenocidi	gjenocid	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=2520|end_char=2529|SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	start_char=2529|end_char=2530
+9	avancon	avancoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2531|end_char=2538
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=2539|end_char=2541
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=2542|end_char=2545
+12	koncept	koncep	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=2546|end_char=2553
+13	luftarak	luftarak	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=2554|end_char=2562
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=2563|end_char=2565
+15	preferuar	preferuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=2566|end_char=2575
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=2576|end_char=2578
+17	klasës	klasë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=2579|end_char=2585
+18	politike	politik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=2586|end_char=2594
+19	postjugosllave	postjugoslëlë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=2595|end_char=2609
+20	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=2610|end_char=2613
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=2614|end_char=2616
+22	masave	masa	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	conj	_	start_char=2617|end_char=2623
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=2624|end_char=2626
+24	zhgënjyera	zhgënjyerë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=2627|end_char=2637|SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	start_char=2637|end_char=2638|SpacesAfter=\n
+
+# text = Të tjerët ishin "autorë gjenocidi" kurse ne kemi qenë në të drejtë, sepse jemi viktima të pavarura- kjo është e përbashkëta në të dyja anët e kufirit kroato-serb.
+# sent_id = 26
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=2639|end_char=2641
+2	tjerët	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	start_char=2642|end_char=2648
+3	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2649|end_char=2654
+4	"	"	PUNCT	_	_	5	punct	_	start_char=2655|end_char=2656|SpaceAfter=No
+5	autorë	autor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	cop	_	start_char=2656|end_char=2662
+6	gjenocidi	gjenocid	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=2663|end_char=2672|SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	start_char=2672|end_char=2673
+8	kurse	kurse	CCONJ	_	_	11	cc	_	start_char=2674|end_char=2679
+9	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=2680|end_char=2682
+10	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	aux	_	start_char=2683|end_char=2687
+11	qenë	jam	VERB	_	VerbForm=Part	3	advcl	_	start_char=2688|end_char=2692
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=2693|end_char=2695
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2696|end_char=2698
+14	drejtë	drejtë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=2699|end_char=2705|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=2705|end_char=2706
+16	sepse	sepse	SCONJ	_	_	17	mark	_	start_char=2707|end_char=2712
+17	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=2713|end_char=2717
+18	viktima	viktimë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	cop	_	start_char=2718|end_char=2725
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=2726|end_char=2728
+20	pavarura-	pavarurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=2729|end_char=2738
+21	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	fixed	_	start_char=2739|end_char=2742
+22	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=2743|end_char=2748
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=2749|end_char=2750
+24	përbashkëta	përbashkët	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	cop	_	start_char=2751|end_char=2762
+25	në	në	ADP	_	Case=Acc	28	case	_	start_char=2763|end_char=2765
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=2766|end_char=2768
+27	dyja	dy	NUM	_	NumType=Ord	28	nummod	_	start_char=2769|end_char=2773
+28	anët	anë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	22	advmod	_	start_char=2774|end_char=2778
+29	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=2779|end_char=2780
+30	kufirit	kufir	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=2781|end_char=2788
+31	kroato-serb	kroato-serb	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=2789|end_char=2800|SpaceAfter=No
+32	.	.	PUNCT	_	_	22	punct	_	start_char=2800|end_char=2801
+
+# text = Kurse një vështrim në forumet e internetit ish-jugosllave të jep përshtypjen se kjo ideologji vazhdon të jetë mall me shumicë.
+# sent_id = 27
+1	Kurse	kurse	CCONJ	_	_	10	cc	_	start_char=2802|end_char=2807
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=2808|end_char=2811
+3	vështrim	vështrim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2812|end_char=2820
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=2821|end_char=2823
+5	forumet	forum	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=2824|end_char=2831
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=2832|end_char=2833
+7	internetit	internet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=2834|end_char=2844
+8	ish-jugosllave	ish-jugoslëlë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=2845|end_char=2859
+9	të	të	PART	_	_	10	fixed	_	start_char=2860|end_char=2862
+10	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2863|end_char=2866
+11	përshtypjen	përshtypje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=2867|end_char=2878
+12	se	se	SCONJ	_	_	15	mark	_	start_char=2879|end_char=2881
+13	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=2882|end_char=2885
+14	ideologji	ideologji	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	nsubj	_	start_char=2886|end_char=2895
+15	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	ccomp	_	start_char=2896|end_char=2903
+16	të	të	PART	_	_	17	fixed	_	start_char=2904|end_char=2906
+17	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	ccomp	_	start_char=2907|end_char=2911
+18	mall	mall	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	cop	_	start_char=2912|end_char=2916
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=2917|end_char=2919
+20	shumicë	shumicë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=2920|end_char=2927|SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	start_char=2927|end_char=2928
+
+# text = Dhe se lufta serbo-kroate me sa duket nuk ka marrë fund.
+# sent_id = 28
+1	Dhe	dhe	CCONJ	_	_	10	cc	_	start_char=2929|end_char=2932
+2	se	se	SCONJ	_	_	3	mark	_	start_char=2933|end_char=2935
+3	lufta	luftë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=2936|end_char=2941
+4	serbo-kroate	serbo-kroat	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=2942|end_char=2954
+5	me	me	ADP	_	Case=Acc	7	fixed	_	start_char=2955|end_char=2957
+6	sa	sa	ADV	_	AdvType=Deg	7	advmod	_	start_char=2958|end_char=2960
+7	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	advmod	_	start_char=2961|end_char=2966
+8	nuk	nuk	PART	_	_	10	mark	_	start_char=2967|end_char=2970
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=2971|end_char=2973
+10	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=2974|end_char=2979
+11	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=2980|end_char=2984|SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	start_char=2984|end_char=2985|SpacesAfter=\n
+
+# text = Vendimi i Gjykatës Ndërkombëtare nuk do të ndryshojë asgjë në këtë drejtim.
+# sent_id = 29
+1	Vendimi	Vendim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=2986|end_char=2993
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=2994|end_char=2995
+3	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=2996|end_char=3004
+4	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=3005|end_char=3018
+5	nuk	nuk	PART	_	_	8	mark	_	start_char=3019|end_char=3022
+6	do	do	PART	_	_	8	fixed	_	start_char=3023|end_char=3025
+7	të	të	PART	_	_	8	fixed	_	start_char=3026|end_char=3028
+8	ndryshojë	ndryshoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3029|end_char=3038
+9	asgjë	asgjë	PRON	_	PronType=Ind	8	obj	_	start_char=3039|end_char=3044
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=3045|end_char=3047
+11	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=3048|end_char=3052
+12	drejtim	drejtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=3053|end_char=3060|SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	start_char=3060|end_char=3061
+
+# text = Është iluzore të presësh që serbët dhe kroatët ta marrin vendimin si nxitje për t'u treguar më konsekuentë në ndjekjen penale të dorasve në radhët e veta ose për një rivlerësim më intensiv të së kaluarës.
+# sent_id = 30
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3062|end_char=3067
+2	iluzore	iluzor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=3068|end_char=3075
+3	të	të	PART	_	_	4	fixed	_	start_char=3076|end_char=3078
+4	presësh	pres	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=3079|end_char=3086
+5	që	që	SCONJ	_	_	6	mark	_	start_char=3087|end_char=3089
+6	serbët	serbë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=3090|end_char=3096
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=3097|end_char=3100
+8	kroatët	kroatë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	6	conj	_	start_char=3101|end_char=3108
+9	ta	ata	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	iobj	_	start_char=3109|end_char=3111
+10	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=3112|end_char=3118
+11	vendimin	vendim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=3119|end_char=3127
+12	si	si	SCONJ	_	_	13	mark	_	start_char=3128|end_char=3130
+13	nxitje	nxitje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=3131|end_char=3137
+14	për	për	PART	_	_	17	fixed	_	start_char=3138|end_char=3141
+15-16	t'u	_	_	_	_	_	_	_	start_char=3142|end_char=3145
+15	të	të	PART	_	_	17	fixed	_	_
+16	u	u	PART	_	_	17	fixed	_	_
+17	treguar	tregoj	VERB	_	VerbForm=Part	10	advmod	_	start_char=3146|end_char=3153
+18	më	më	PART	_	_	19	advmod	_	start_char=3154|end_char=3156
+19	konsekuentë	konsekuentë	ADV	_	AdvType=Man	17	advmod	_	start_char=3157|end_char=3168
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=3169|end_char=3171
+21	ndjekjen	ndjekje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=3172|end_char=3180
+22	penale	penal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=3181|end_char=3187
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=3188|end_char=3190
+24	dorasve	doras	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	start_char=3191|end_char=3198
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=3199|end_char=3201
+26	radhët	radhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	start_char=3202|end_char=3208
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=3209|end_char=3210
+28	veta	vetë	PRON	_	Gender=Fem|PronType=Prs|Reflex=Yes	26	amod	_	start_char=3211|end_char=3215
+29	ose	ose	CCONJ	_	_	32	cc	_	start_char=3216|end_char=3219
+30	për	për	ADP	_	Case=Acc	32	case	_	start_char=3220|end_char=3223
+31	një	një	DET	_	Definite=Ind	32	det	_	start_char=3224|end_char=3227
+32	rivlerësim	rivlerësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	start_char=3228|end_char=3238
+33	më	më	PART	_	_	34	mark	_	start_char=3239|end_char=3241
+34	intensiv	intensiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=3242|end_char=3250
+35	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=3251|end_char=3253
+36	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=3254|end_char=3256
+37	kaluarës	kaluarë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=3257|end_char=3265|SpaceAfter=No
+38	.	.	PUNCT	_	_	32	punct	_	start_char=3265|end_char=3266
+
+# text = Në të dyja vendet, gjykimi i Hagës do të keqinterpretohet më tepër si dokument i pastërtisë së vetes dhe si gabim i drejtësisë përsa i përket shfajësimit të palës tjetër.
+# sent_id = 31
+1	Në	në	ADP	_	Case=Acc	4	case	_	start_char=3267|end_char=3269
+2	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=3270|end_char=3272
+3	dyja	dy	NUM	_	NumType=Ord	4	nummod	_	start_char=3273|end_char=3277
+4	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=3278|end_char=3284|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	start_char=3284|end_char=3285
+6	gjykimi	gjykim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=3286|end_char=3293
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=3294|end_char=3295
+8	Hagës	Hagë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=3296|end_char=3301
+9	do	do	PART	_	_	11	fixed	_	start_char=3302|end_char=3304
+10	të	të	PART	_	_	11	fixed	_	start_char=3305|end_char=3307
+11	keqinterpretohet	keqinterpretoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3308|end_char=3324
+12	më	më	PART	_	_	13	mark	_	start_char=3325|end_char=3327
+13	tepër	tepër	ADV	_	AdvType=Deg	11	advmod	_	start_char=3328|end_char=3333
+14	si	si	SCONJ	_	_	15	mark	_	start_char=3334|end_char=3336
+15	dokument	dokume	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=3337|end_char=3345
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=3346|end_char=3347
+17	pastërtisë	pastërti	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=3348|end_char=3358
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=3359|end_char=3361
+19	vetes	vete	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	17	nmod	_	start_char=3362|end_char=3367
+20	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=3368|end_char=3371
+21	si	si	SCONJ	_	_	22	mark	_	start_char=3372|end_char=3374
+22	gabim	gabim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	start_char=3375|end_char=3380
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=3381|end_char=3382
+24	drejtësisë	drejtësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=3383|end_char=3393
+25	përsa	përsa	ADP	_	Case=Abl	27	fixed	_	start_char=3394|end_char=3399
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	start_char=3400|end_char=3401
+27	përket	përkas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	advmod	_	start_char=3402|end_char=3408
+28	shfajësimit	shfajësim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=3409|end_char=3420
+29	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=3421|end_char=3423
+30	palës	palë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=3424|end_char=3429
+31	tjetër	tjetër	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	30	amod	_	start_char=3430|end_char=3436|SpaceAfter=No
+32	.	.	PUNCT	_	_	27	punct	_	start_char=3436|end_char=3437
+
+# text = Viktimat e atëhershme në këtë mënyrë keqpërdorohen nga nacionalistët serbë dhe kroatë.
+# sent_id = 32
+1	Viktimat	Viktimë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	start_char=3438|end_char=3446
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=3447|end_char=3448
+3	atëhershme	atëhershëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=3449|end_char=3459
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=3460|end_char=3462
+5	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=3463|end_char=3467
+6	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=3468|end_char=3474
+7	keqpërdorohen	keqpërdoroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3475|end_char=3488
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=3489|end_char=3492
+9	nacionalistët	nacionalistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obl	_	start_char=3493|end_char=3506
+10	serbë	serbë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3507|end_char=3512
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=3513|end_char=3516
+12	kroatë	kroatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	conj	_	start_char=3517|end_char=3523|SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	start_char=3523|end_char=3524|SpacesAfter=\n
+
+# text = Edhe nëse sipas vendimit të Gjykatës nuk ka pasur krime mes serbëve dhe kroatëve-në luftën serbo-kroate 20 vjet më parë pati krime masive.
+# sent_id = 33
+1	Edhe	edhe	CCONJ	_	_	2	fixed	_	start_char=3525|end_char=3529
+2	nëse	nëse	SCONJ	_	_	4	mark	_	start_char=3530|end_char=3534
+3	sipas	sipas	ADP	_	Case=Abl	4	case	_	start_char=3535|end_char=3540
+4	vendimit	vendim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=3541|end_char=3549
+5	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=3550|end_char=3552
+6	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=3553|end_char=3561
+7	nuk	nuk	PART	_	_	9	mark	_	start_char=3562|end_char=3565
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=3566|end_char=3568
+9	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=3569|end_char=3574
+10	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	start_char=3575|end_char=3580
+11	mes	mes	ADP	_	Case=Abl	12	case	_	start_char=3581|end_char=3584
+12	serbëve	serbë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	9	obl	_	start_char=3585|end_char=3592
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=3593|end_char=3596
+14	kroatëve-në	kroatëve	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	12	conj	_	start_char=3597|end_char=3608
+15	luftën	luftë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=3609|end_char=3615
+16	serbo-kroate	serbo-kroat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=3616|end_char=3628
+17	20	20	NUM	_	NumType=Card	18	nummod	_	start_char=3629|end_char=3631
+18	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	start_char=3632|end_char=3636
+19	më	më	PART	_	_	20	mark	_	start_char=3637|end_char=3639
+20	parë	parë	ADV	_	AdvType=Tim	21	advmod	_	start_char=3640|end_char=3644
+21	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	start_char=3645|end_char=3649
+22	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=3650|end_char=3655
+23	masive	masiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=3656|end_char=3662|SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	start_char=3662|end_char=3663
+
+# text = Të bëra në mënyrë të qëllimshme.
+# sent_id = 34
+1	Të	të	PART	_	_	2	fixed	_	start_char=3664|end_char=3666
+2	bëra	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=3667|end_char=3671
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=3672|end_char=3674
+4	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=3675|end_char=3681
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3682|end_char=3684
+6	qëllimshme	qëllimshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=3685|end_char=3695|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	start_char=3695|end_char=3696
+
+# text = Për këto krime janë ndëshkuar deri tani vetëm pak përfaqësues të elitave të atëhershme.
+# sent_id = 35
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=3697|end_char=3700
+2	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=3701|end_char=3705
+3	krime	krim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	start_char=3706|end_char=3711
+4	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=3712|end_char=3716
+5	ndëshkuar	ndëshkoj	VERB	_	VerbForm=Part	0	root	_	start_char=3717|end_char=3726
+6	deri	deri	PART	_	_	7	case	_	start_char=3727|end_char=3731
+7	tani	tani	ADV	_	AdvType=Tim	5	advmod	_	start_char=3732|end_char=3736
+8	vetëm	vetëm	PART	_	_	10	mark	_	start_char=3737|end_char=3742
+9	pak	pak	ADV	_	AdvType=Deg	10	nummod	_	start_char=3743|end_char=3746
+10	përfaqësues	përfaqësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	start_char=3747|end_char=3758
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det:poss	_	start_char=3759|end_char=3761
+12	elitave	elitav	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=3762|end_char=3769
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=3770|end_char=3772
+14	atëhershme	atëhershëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=3773|end_char=3783|SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	start_char=3783|end_char=3784
+
+# text = Dhe kjo nuk është e drejtë.
+# sent_id = 36
+1	Dhe	dhe	CCONJ	_	_	4	cc	_	start_char=3785|end_char=3788
+2	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=3789|end_char=3792
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=3793|end_char=3796
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3797|end_char=3802
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3803|end_char=3804
+6	drejtë	drejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=3805|end_char=3811|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	start_char=3811|end_char=3812|SpacesAfter=\n
+
+# text = Dwelle
+# sent_id = 37
+1	Dwelle	Dwell	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=3813|end_char=3819|SpacesAfter=\n\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROI
+# sent_id = 38
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=3821|end_char=3823
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=3824|end_char=3834|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=3834|end_char=3835|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=3836|end_char=3840
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=3841|end_char=3843
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=3844|end_char=3847
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=3848|end_char=3852|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=3853|end_char=3871|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=3872|end_char=3881
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=3882|end_char=3894
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=3895|end_char=3901|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3902|end_char=3911
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3912|end_char=3924
+14	ANDROI	ANDROI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=3925|end_char=3931|SpaceAfter=No
+
+# text = D
+# sent_id = 39
+1	D	D	PUNCT	_	_	0	root	_	start_char=3931|end_char=3932|SpacesAfter=\n\n\n
+

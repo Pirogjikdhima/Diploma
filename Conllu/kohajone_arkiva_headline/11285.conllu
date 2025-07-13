@@ -1,0 +1,566 @@
+# text = Presidenti nga populli?!
+# sent_id = 0
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=10
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=11|end_char=14
+3	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=22|SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	start_char=23|end_char=24
+
+# text = Padyshim që PO! “Zgjedhja e Presidentit nga populli, nuk e dobëson sistemin e republikës parlamentare.
+# sent_id = 1
+1	Padyshim	Padyshim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	start_char=25|end_char=33
+2	që	që	PRON	_	PronType=Rel	3	mark	_	start_char=34|end_char=36
+3	PO!	PO!	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=37|end_char=40|SpacesAfter=\n
+4	“	"	PUNCT	_	_	5	punct	_	start_char=41|end_char=42|SpaceAfter=No
+5	Zgjedhja	Zgjedhje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	appos	_	start_char=42|end_char=50
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=51|end_char=52
+7	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=53|end_char=64
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=65|end_char=68
+9	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=69|end_char=76|SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	start_char=76|end_char=77
+11	nuk	nuk	PART	_	Polarity=Neg	13	mark	_	start_char=78|end_char=81
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=82|end_char=83
+13	dobëson	dobësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=84|end_char=91
+14	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=92|end_char=100
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=101|end_char=102
+16	republikës	republikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=103|end_char=113
+17	parlamentare	parlamentar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=114|end_char=126|SpaceAfter=No
+18	.	.	PUNCT	_	_	13	punct	_	start_char=126|end_char=127
+
+# text = Ky është vetëm një justifikim.
+# sent_id = 2
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=128|end_char=130
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=131|end_char=136
+3	vetëm	vetëm	PART	_	_	5	cc	_	start_char=137|end_char=142
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=143|end_char=146
+5	justifikim	justifikim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=147|end_char=157|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	start_char=157|end_char=158
+
+# text = Maqedonia nuk është më pak parlamentare se sa Shqipëria e Kosova, ku Presidentin e zgjedh Parlamenti”…
+# sent_id = 3
+1	Maqedonia	Maqedoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=159|end_char=168
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=169|end_char=172
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=173|end_char=178
+4	më	më	PART	_	_	6	mark	_	start_char=179|end_char=181
+5	pak	pak	ADV	_	AdvType=Deg	6	advmod	_	start_char=182|end_char=185
+6	parlamentare	parlamentar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=186|end_char=198
+7	se	se	SCONJ	_	_	9	mark	_	start_char=199|end_char=201
+8	sa	sa	ADV	_	AdvType=Deg	9	mark	_	start_char=202|end_char=204
+9	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=205|end_char=214
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=215|end_char=216
+11	Kosova	Kosovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=217|end_char=223|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=223|end_char=224
+13	ku	ku	ADV	_	AdvType=Loc	16	advmod	_	start_char=225|end_char=227
+14	Presidentin	president	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=228|end_char=239
+15	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=240|end_char=241
+16	zgjedh	zgjed	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=242|end_char=248
+17	Parlamenti”	Parlamenti”	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=249|end_char=260|SpaceAfter=No
+18	…	…	PUNCT	_	_	16	punct	_	start_char=260|end_char=261|SpacesAfter=\n
+
+# text = Nga Blendi FEVZIU Kanë përkatësi të ndryshme politike, por një përqasje të njëjtë.
+# sent_id = 4
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=262|end_char=265
+2	Blendi	Blend	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=266|end_char=272
+3	FEVZIU	FEVZIU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=273|end_char=279|SpacesAfter=\n
+4	Kanë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=280|end_char=284
+5	përkatësi	përkatës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=285|end_char=294
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=295|end_char=297
+7	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=298|end_char=306
+8	politike	politik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=307|end_char=315|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=315|end_char=316
+10	por	por	CCONJ	_	_	12	cc	_	start_char=317|end_char=320
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=321|end_char=324
+12	përqasje	përqasje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	start_char=325|end_char=333
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=334|end_char=336
+14	njëjtë	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=337|end_char=343|SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	start_char=343|end_char=344
+
+# text = Atë mbi nevojën që ka politika për reformim.
+# sent_id = 5
+1	Atë	atë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=345|end_char=348
+2	mbi	mbi	ADP	_	Case=Acc	3	case	_	start_char=349|end_char=352
+3	nevojën	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=353|end_char=360
+4	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=361|end_char=363
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=364|end_char=366
+6	politika	politikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=367|end_char=375
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=376|end_char=379
+8	reformim	reformim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=380|end_char=388|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	start_char=388|end_char=389
+
+# text = Disa deputetë të Kuvendit të Shqipërisë, kanë firmosur kërkesën për ndryshime thelbësore në Kushtetutën e Shqipërisë dhe sistemin politik.
+# sent_id = 6
+1	Disa	disa	PRON	_	PronType=Ind	2	det	_	start_char=390|end_char=394
+2	deputetë	deputetë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	start_char=395|end_char=403
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det:poss	_	start_char=404|end_char=406
+4	Kuvendit	Kuvend	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=407|end_char=415
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=416|end_char=418
+6	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=419|end_char=429|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	start_char=429|end_char=430
+8	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=431|end_char=435
+9	firmosur	firmos	VERB	_	VerbForm=Part	0	root	_	start_char=436|end_char=444
+10	kërkesën	kërkesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=445|end_char=453
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=454|end_char=457
+12	ndryshime	ndryshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=458|end_char=467
+13	thelbësore	thelbësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=468|end_char=478
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=479|end_char=481
+15	Kushtetutën	Kushtetutë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=482|end_char=493
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=494|end_char=495
+17	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=496|end_char=506
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=507|end_char=510
+19	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=511|end_char=519
+20	politik	politik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=520|end_char=527|SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	start_char=527|end_char=528
+
+# text = Nisma parashikon disa përmirësime, por padyshim më thelbësori mbetet ai mbi Presidentin e zgjedhur nga populli.
+# sent_id = 7
+1	Nisma	nismë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=529|end_char=534
+2	parashikon	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=535|end_char=545
+3	disa	disa	PRON	_	PronType=Ind	4	nummod	_	start_char=546|end_char=550
+4	përmirësime	përmirësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=551|end_char=562|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	start_char=562|end_char=563
+6	por	por	CCONJ	_	_	10	cc	_	start_char=564|end_char=567
+7	padyshim	padyshim	ADV	_	AdvType=Tim	9	mark	_	start_char=568|end_char=576
+8	më	më	PART	_	_	9	mark	_	start_char=577|end_char=579
+9	thelbësori	thelbësor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=580|end_char=590
+10	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=591|end_char=597
+11	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=598|end_char=600
+12	mbi	mbi	ADP	_	Case=Acc	13	case	_	start_char=601|end_char=604
+13	Presidentin	president	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=605|end_char=616
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=617|end_char=618
+15	zgjedhur	zgjedh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=619|end_char=627
+16	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=628|end_char=631
+17	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=632|end_char=639|SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	start_char=639|end_char=640
+
+# text = Nismë e përsëritur disa herë, e artikuluar më qartë nga Ben Blushi dhe Dashamir Shehi edhe më herët.
+# sent_id = 8
+1	Nismë	nismë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=641|end_char=646
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=647|end_char=648
+3	përsëritur	përsëritur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=649|end_char=659
+4	disa	disa	PRON	_	PronType=Ind	5	det	_	start_char=660|end_char=664
+5	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=665|end_char=669|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=669|end_char=670
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=671|end_char=672
+8	artikuluar	artikuluar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=673|end_char=683
+9	më	më	PART	_	_	10	mark	_	start_char=684|end_char=686
+10	qartë	qartë	ADV	_	AdvType=Tim	8	advmod	_	start_char=687|end_char=692
+11	nga	nga	ADP	_	Case=Nom	12	fixed	_	start_char=693|end_char=696
+12	Ben	bej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advmod	_	start_char=697|end_char=700
+13	Blushi	Blush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=701|end_char=707
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=708|end_char=711
+15	Dashamir	Dashamir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	start_char=712|end_char=720
+16	Shehi	Shehi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	appos	_	start_char=721|end_char=726
+17	edhe	edhe	CCONJ	_	_	19	mark	_	start_char=727|end_char=731
+18	më	më	PART	_	_	19	mark	_	start_char=732|end_char=734
+19	herët	herët	ADV	_	AdvType=Tim	16	conj	_	start_char=735|end_char=740|SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	start_char=740|end_char=741|SpacesAfter=\n
+
+# text = Nuk ka asnjë dyshim që një President i zgjedhur nga populli është një hap i duhur në konsolidimin e demokracisë në vend.
+# sent_id = 9
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=742|end_char=745
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=746|end_char=748
+3	asnjë	asnjë	PRON	_	PronType=Ind	4	nummod	_	start_char=749|end_char=754
+4	dyshim	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=755|end_char=761
+5	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=762|end_char=764
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=765|end_char=768
+7	President	preside	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=769|end_char=778
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=779|end_char=780
+9	zgjedhur	zgjedh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=781|end_char=789
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=790|end_char=793
+11	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=794|end_char=801
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=802|end_char=807
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=808|end_char=811
+14	hap	hap	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	cop	_	start_char=812|end_char=815
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=816|end_char=817
+16	duhur	duhur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=818|end_char=823
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=824|end_char=826
+18	konsolidimin	konsolidim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=827|end_char=839
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=840|end_char=841
+20	demokracisë	demokraci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=842|end_char=853
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=854|end_char=856
+22	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=857|end_char=861|SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	start_char=861|end_char=862
+
+# text = Një zgjedhje direkte i jep Presidentit më shumë autoritet moral dhe krijon një balancë më të rëndësishme pushteti se sa kjo aktuale.
+# sent_id = 10
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=863|end_char=866
+2	zgjedhje	zgjedhje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	start_char=867|end_char=875
+3	direkte	direkt	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=876|end_char=883
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=884|end_char=885
+5	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=886|end_char=889
+6	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=890|end_char=901
+7	më	më	PART	_	_	9	mark	_	start_char=902|end_char=904
+8	shumë	shumë	PRON	_	PronType=Ind	9	nummod	_	start_char=905|end_char=910
+9	autoritet	autorit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=911|end_char=920
+10	moral	moral	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=921|end_char=926
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=927|end_char=930
+12	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=931|end_char=937
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=938|end_char=941
+14	balancë	balancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=942|end_char=949
+15	më	më	PART	_	_	17	mark	_	start_char=950|end_char=952
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=953|end_char=955
+17	rëndësishme	rëndësishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=956|end_char=967
+18	pushteti	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=968|end_char=976
+19	se	se	SCONJ	_	_	22	mark	_	start_char=977|end_char=979
+20	sa	sa	ADV	_	AdvType=Deg	22	mark	_	start_char=980|end_char=982
+21	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=983|end_char=986
+22	aktuale	aktual	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=987|end_char=994|SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	start_char=994|end_char=995
+
+# text = Presidenti fiton veç kompetencave të tij ligjore edhe një bagazh moral që vjen nga vota direkte dhe besimi që jep ajo.
+# sent_id = 11
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=996|end_char=1006
+2	fiton	fitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1007|end_char=1012
+3	veç	veç	ADP	_	Case=Abl	4	case	_	start_char=1013|end_char=1016
+4	kompetencave	kompetencë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=1017|end_char=1029
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=1030|end_char=1032
+6	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	amod:poss	_	start_char=1033|end_char=1036
+7	ligjore	ligjor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1037|end_char=1044
+8	edhe	edhe	PART	_	_	10	cc	_	start_char=1045|end_char=1049
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=1050|end_char=1053
+10	bagazh	bagazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	start_char=1054|end_char=1060
+11	moral	moral	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=1061|end_char=1066
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=1067|end_char=1069
+13	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=1070|end_char=1074
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=1075|end_char=1078
+15	vota	votë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	start_char=1079|end_char=1083
+16	direkte	direkt	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1084|end_char=1091
+17	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=1092|end_char=1095
+18	besimi	besim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=1096|end_char=1102
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=1103|end_char=1105
+20	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	start_char=1106|end_char=1109
+21	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1110|end_char=1113|SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	start_char=1113|end_char=1114
+
+# text = Në këtë rast, tentativat për ta nëpërkëmbur atë, ose për t ‘ja nënshtruar pushtetit të fortë që mazhoranca fiton me vonë, nuk do kishte asnjë vlerë.
+# sent_id = 12
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=1115|end_char=1117
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=1118|end_char=1122
+3	rast	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	advmod	_	start_char=1123|end_char=1127|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=1127|end_char=1128
+5	tentativat	tentativë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=1129|end_char=1139
+6	për	për	PART	_	_	9	fixed	_	start_char=1140|end_char=1143
+7-8	ta	_	_	_	_	_	_	_	start_char=1144|end_char=1146
+7	të	të	PART	_	_	9	fixed	_	_
+8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	nëpërkëmbur	nëpërkëmboj	VERB	_	VerbForm=Part	5	advmod	_	start_char=1147|end_char=1158
+10	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=1159|end_char=1162|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=1162|end_char=1163
+12	ose	ose	CCONJ	_	_	15	cc	_	start_char=1164|end_char=1167
+13	për	për	ADP	_	Case=Acc	15	fixed	_	start_char=1168|end_char=1171
+14	t	t	PART	_	_	15	fixed	_	start_char=1172|end_char=1173
+15	‘ja	‘ja	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advmod	_	start_char=1174|end_char=1177
+16	nënshtruar	nënshtroj	VERB	_	VerbForm=Part	9	conj	_	start_char=1178|end_char=1188
+17	pushtetit	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=1189|end_char=1198
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=1199|end_char=1201
+19	fortë	fortë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=1202|end_char=1207
+20	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=1208|end_char=1210
+21	mazhoranca	mazhorancë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	start_char=1211|end_char=1221
+22	fiton	fitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	acl	_	start_char=1222|end_char=1227
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=1228|end_char=1230
+24	vonë	vonë	ADV	_	AdvType=Tim	22	advmod	_	start_char=1231|end_char=1235|SpaceAfter=No
+25	,	,	PUNCT	_	_	22	punct	_	start_char=1235|end_char=1236
+26	nuk	nuk	PART	_	_	28	mark	_	start_char=1237|end_char=1240
+27	do	do	PART	_	_	28	fixed	_	start_char=1241|end_char=1243
+28	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	22	conj	_	start_char=1244|end_char=1250
+29	asnjë	asnjë	PRON	_	PronType=Ind	30	nummod	_	start_char=1251|end_char=1256
+30	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	start_char=1257|end_char=1262|SpaceAfter=No
+31	.	.	PUNCT	_	_	28	punct	_	start_char=1262|end_char=1263|SpacesAfter=\n
+
+# text = E dyta, zgjedhja e Presidentit nga populli, nuk e dobëson sistemin e republikës parlamentare.
+# sent_id = 13
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1264|end_char=1265
+2	dyta	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	dislocated	_	start_char=1266|end_char=1270|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1270|end_char=1271
+4	zgjedhja	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1272|end_char=1280
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=1281|end_char=1282
+6	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1283|end_char=1294
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=1295|end_char=1298
+8	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1299|end_char=1306|SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	start_char=1306|end_char=1307
+10	nuk	nuk	PART	_	Polarity=Neg	12	mark	_	start_char=1308|end_char=1311
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=1312|end_char=1313
+12	dobëson	dobësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1314|end_char=1321
+13	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=1322|end_char=1330
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1331|end_char=1332
+15	republikës	republikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=1333|end_char=1343
+16	parlamentare	parlamentar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=1344|end_char=1356|SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	start_char=1356|end_char=1357
+
+# text = Ky është vetëm një justifikim.
+# sent_id = 14
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1358|end_char=1360
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1361|end_char=1366
+3	vetëm	vetëm	PART	_	_	5	cc	_	start_char=1367|end_char=1372
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=1373|end_char=1376
+5	justifikim	justifikim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=1377|end_char=1387|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	start_char=1387|end_char=1388
+
+# text = Maqedonia nuk është më pak parlamentare se sa Shqipëria e Kosova, ku Presidentin e zgjedh Parlamenti.
+# sent_id = 15
+1	Maqedonia	Maqedoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1389|end_char=1398
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=1399|end_char=1402
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1403|end_char=1408
+4	më	më	PART	_	_	6	mark	_	start_char=1409|end_char=1411
+5	pak	pak	ADV	_	AdvType=Deg	6	advmod	_	start_char=1412|end_char=1415
+6	parlamentare	parlamentar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=1416|end_char=1428
+7	se	se	SCONJ	_	_	9	mark	_	start_char=1429|end_char=1431
+8	sa	sa	ADV	_	AdvType=Deg	9	mark	_	start_char=1432|end_char=1434
+9	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=1435|end_char=1444
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=1445|end_char=1446
+11	Kosova	Kosovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=1447|end_char=1453|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=1453|end_char=1454
+13	ku	ku	ADV	_	AdvType=Loc	16	advmod	_	start_char=1455|end_char=1457
+14	Presidentin	president	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1458|end_char=1469
+15	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=1470|end_char=1471
+16	zgjedh	zgjed	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=1472|end_char=1478
+17	Parlamenti	parlament	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=1479|end_char=1489|SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	start_char=1489|end_char=1490|SpacesAfter=\n
+
+# text = E treta, zgjedhja e Presidentit direkt mund të korrigjonte gabimin e 2008, ku për të shmangur krizën parlamentare, zgjedhja e tij kaloi në një shumicë të thjeshtë.
+# sent_id = 16
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1491|end_char=1492
+2	treta	tretë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	dislocated	_	start_char=1493|end_char=1498|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1498|end_char=1499
+4	zgjedhja	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1500|end_char=1508
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=1509|end_char=1510
+6	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1511|end_char=1522
+7	direkt	direk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=1523|end_char=1529
+8	mund	mund	AUX	_	_	10	aux	_	start_char=1530|end_char=1534
+9	të	të	PART	_	_	10	fixed	_	start_char=1535|end_char=1537
+10	korrigjonte	korrigjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=1538|end_char=1549
+11	gabimin	gabim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=1550|end_char=1557
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=1558|end_char=1559
+13	2008	2008	NUM	_	NumType=Card	11	amod:poss	_	start_char=1560|end_char=1564|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1564|end_char=1565
+15	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=1566|end_char=1568
+16	për	për	PART	_	_	18	fixed	_	start_char=1569|end_char=1572
+17	të	të	PART	_	_	18	fixed	_	start_char=1573|end_char=1575
+18	shmangur	shmangoj	VERB	_	VerbForm=Part	10	advmod	_	start_char=1576|end_char=1584
+19	krizën	krizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=1585|end_char=1591
+20	parlamentare	parlamentar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=1592|end_char=1604|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1604|end_char=1605
+22	zgjedhja	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	start_char=1606|end_char=1614
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=1615|end_char=1616
+24	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	amod:poss	_	start_char=1617|end_char=1620
+25	kaloi	kaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	start_char=1621|end_char=1626
+26	në	në	ADP	_	Case=Acc	28	case	_	start_char=1627|end_char=1629
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=1630|end_char=1633
+28	shumicë	shumicë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	start_char=1634|end_char=1641
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=1642|end_char=1644
+30	thjeshtë	thjeshtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1645|end_char=1653|SpaceAfter=No
+31	.	.	PUNCT	_	_	25	punct	_	start_char=1653|end_char=1654
+
+# text = Zgjedhja e Presidentit me 50 + 1 % të votave e ka dobësuar ndjeshëm atë dhe ka fuqizuar mazhorancën.
+# sent_id = 17
+1	Zgjedhja	Zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=1655|end_char=1663
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=1664|end_char=1665
+3	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=1666|end_char=1677
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=1678|end_char=1680
+5	50	50	NUM	_	NumType=Card	8	nummod	_	start_char=1681|end_char=1683
+6	+	+	SYM	_	_	8	det	_	start_char=1684|end_char=1685
+7	1	1	NUM	_	NumType=Card	8	nummod	_	start_char=1686|end_char=1687
+8	%	%	SYM	_	_	13	advmod	_	start_char=1688|end_char=1689
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=1690|end_char=1692
+10	votave	votë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=1693|end_char=1699
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	cc	_	start_char=1700|end_char=1701
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=1702|end_char=1704
+13	dobësuar	dobësoj	VERB	_	VerbForm=Part	0	root	_	start_char=1705|end_char=1713
+14	ndjeshëm	ndjeshëm	ADV	_	AdvType=Man	13	advmod	_	start_char=1714|end_char=1722
+15	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=1723|end_char=1726
+16	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=1727|end_char=1730
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=1731|end_char=1733
+18	fuqizuar	fuqizoj	VERB	_	VerbForm=Part	13	conj	_	start_char=1734|end_char=1742
+19	mazhorancën	mazhorancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=1743|end_char=1754|SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	start_char=1754|end_char=1755
+
+# text = Gjë që shkon dukshëm në dëm të demokracisë në vend.
+# sent_id = 18
+1	Gjë	Gjë	PRON	_	PronType=Ind	0	root	_	start_char=1756|end_char=1759
+2	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=1760|end_char=1762
+3	shkon	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=1763|end_char=1768
+4	dukshëm	dukshëm	ADV	_	AdvType=Man	3	advmod	_	start_char=1769|end_char=1776
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=1777|end_char=1779
+6	dëm	dëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=1780|end_char=1783
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1784|end_char=1786
+8	demokracisë	demokraci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=1787|end_char=1798
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=1799|end_char=1801
+10	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=1802|end_char=1806|SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	start_char=1806|end_char=1807|SpacesAfter=\n
+
+# text = E fundit, zgjedhja e Presidentit nga populli, është vetëm një detaj.
+# sent_id = 19
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1808|end_char=1809
+2	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	cop	_	start_char=1810|end_char=1816|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1816|end_char=1817
+4	zgjedhja	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=1818|end_char=1826
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=1827|end_char=1828
+6	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1829|end_char=1840
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=1841|end_char=1844
+8	populli	popull	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1845|end_char=1852|SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	start_char=1852|end_char=1853
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1854|end_char=1859
+11	vetëm	vetëm	PART	_	_	13	mark	_	start_char=1860|end_char=1865
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=1866|end_char=1869
+13	detaj	detë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	cop	_	start_char=1870|end_char=1875|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	start_char=1875|end_char=1876
+
+# text = Ai shërben për të kuptuar se nëse bëhet fjalë për një revizionim të sistemit politik në vend, ose më mirë të thuhet të disa kolonave të tij, ai duhet bërë i plotë.
+# sent_id = 20
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1877|end_char=1879
+2	shërben	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1880|end_char=1887
+3	për	për	PART	_	_	5	fixed	_	start_char=1888|end_char=1891
+4	të	të	PART	_	_	5	fixed	_	start_char=1892|end_char=1894
+5	kuptuar	kuptoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=1895|end_char=1902
+6	se	se	SCONJ	_	_	8	mark	_	start_char=1903|end_char=1905
+7	nëse	nëse	SCONJ	_	_	8	mark	_	start_char=1906|end_char=1910
+8	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	advcl	_	start_char=1911|end_char=1916
+9	fjalë	fjalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=1917|end_char=1922
+10	për	për	ADP	_	Case=Acc	12	case	_	start_char=1923|end_char=1926
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=1927|end_char=1930
+12	revizionim	revizionim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=1931|end_char=1941
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=1942|end_char=1944
+14	sistemit	sistem	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=1945|end_char=1953
+15	politik	politik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1954|end_char=1961
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1962|end_char=1964
+17	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=1965|end_char=1969|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	start_char=1969|end_char=1970
+19	ose	ose	CCONJ	_	_	23	cc	_	start_char=1971|end_char=1974
+20	më	më	PART	_	_	21	mark	_	start_char=1975|end_char=1977
+21	mirë	mirë	ADV	_	AdvType=Man	23	advmod	_	start_char=1978|end_char=1982
+22	të	të	PART	_	_	23	fixed	_	start_char=1983|end_char=1985
+23	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=1986|end_char=1992
+24	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=1993|end_char=1995
+25	disa	disa	PRON	_	PronType=Ind	26	nummod	_	start_char=1996|end_char=2000
+26	kolonave	kolonë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	obj	_	start_char=2001|end_char=2009
+27	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=2010|end_char=2012
+28	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	amod:poss	_	start_char=2013|end_char=2016|SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	start_char=2016|end_char=2017
+30	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=2018|end_char=2020
+31	duhet	duhem	AUX	_	_	32	aux	_	start_char=2021|end_char=2026
+32	bërë	bëj	VERB	_	VerbForm=Part	2	conj	_	start_char=2027|end_char=2031
+33	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=2032|end_char=2033
+34	plotë	plotë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	cop	_	start_char=2034|end_char=2039|SpaceAfter=No
+35	.	.	PUNCT	_	_	32	punct	_	start_char=2039|end_char=2040
+
+# text = Nëse hyjmë në një reformë thelbësore, Shqipëria duhet të reformojë jo vetëm drejtësinë, por edhe sistemin e zgjedhjeve, edhe sistemin territorial, edhe kompetencat që krijojnë disa pole pushteti.
+# sent_id = 21
+1	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=2041|end_char=2045
+2	hyjmë	hyj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advmod	_	start_char=2046|end_char=2051
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=2052|end_char=2054
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=2055|end_char=2058
+5	reformë	reformë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=2059|end_char=2066
+6	thelbësore	thelbësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2067|end_char=2077|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	start_char=2077|end_char=2078
+8	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=2079|end_char=2088
+9	duhet	duhem	AUX	_	_	11	aux	_	start_char=2089|end_char=2094
+10	të	të	PART	_	_	11	fixed	_	start_char=2095|end_char=2097
+11	reformojë	reformoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2098|end_char=2107
+12	jo	jo	PART	_	_	14	mark	_	start_char=2108|end_char=2110
+13	vetëm	vetëm	PART	_	_	14	mark	_	start_char=2111|end_char=2116
+14	drejtësinë	drejtësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=2117|end_char=2127|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=2127|end_char=2128
+16	por	por	CCONJ	_	_	18	cc	_	start_char=2129|end_char=2132
+17	edhe	edhe	CCONJ	_	_	18	cc	_	start_char=2133|end_char=2137
+18	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=2138|end_char=2146
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=2147|end_char=2148
+20	zgjedhjeve	zgjedhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=2149|end_char=2159|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=2159|end_char=2160
+22	edhe	edhe	CCONJ	_	_	23	mark	_	start_char=2161|end_char=2165
+23	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=2166|end_char=2174
+24	territorial	territorial	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=2175|end_char=2186|SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	start_char=2186|end_char=2187
+26	edhe	edhe	CCONJ	_	_	27	mark	_	start_char=2188|end_char=2192
+27	kompetencat	kompetencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	start_char=2193|end_char=2204
+28	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=2205|end_char=2207
+29	krijojnë	krijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	acl:relcl	_	start_char=2208|end_char=2216
+30	disa	disa	PRON	_	PronType=Ind	31	nummod	_	start_char=2217|end_char=2221
+31	pole	pole	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	29	obj	_	start_char=2222|end_char=2226
+32	pushteti	pushtet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=2227|end_char=2235|SpaceAfter=No
+33	.	.	PUNCT	_	_	29	punct	_	start_char=2235|end_char=2236
+
+# text = Nëse ne nuk krijojmë besim tek zgjedhjet; nëse ne nuk bindemi që votat nuk vidhen; nëse ne nuk numërojmë drejtë vullnetin e çdo zgjedhësi, ne nuk do kemi kurrë një sistem demokratik siç duhet.
+# sent_id = 22
+1	Nëse	nëse	SCONJ	_	_	4	mark	_	start_char=2237|end_char=2241
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=2242|end_char=2244
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=2245|end_char=2248
+4	krijojmë	krijoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2249|end_char=2257
+5	besim	besim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=2258|end_char=2263
+6	tek	tek	ADP	_	Case=Nom	7	case	_	start_char=2264|end_char=2267
+7	zgjedhjet	zgjedhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=2268|end_char=2277|SpaceAfter=No
+8	;	;	PUNCT	_	_	9	punct	_	start_char=2277|end_char=2278
+9	nëse	nëse	SCONJ	_	_	12	mark	_	start_char=2279|end_char=2283
+10	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=2284|end_char=2286
+11	nuk	nuk	PART	_	_	12	mark	_	start_char=2287|end_char=2290
+12	bindemi	bindem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Pass	4	advcl	_	start_char=2291|end_char=2298
+13	që	që	SCONJ	_	_	16	mark	_	start_char=2299|end_char=2301
+14	votat	votë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	nsubj	_	start_char=2302|end_char=2307
+15	nuk	nuk	PART	_	_	16	mark	_	start_char=2308|end_char=2311
+16	vidhen	vidhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=2312|end_char=2318|SpaceAfter=No
+17	;	;	PUNCT	_	_	18	punct	_	start_char=2318|end_char=2319
+18	nëse	nëse	SCONJ	_	_	21	mark	_	start_char=2320|end_char=2324
+19	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=2325|end_char=2327
+20	nuk	nuk	PART	_	_	21	mark	_	start_char=2328|end_char=2331
+21	numërojmë	numëroj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	advcl	_	start_char=2332|end_char=2341
+22	drejtë	drejtë	ADV	_	AdvType=Deg	21	advmod	_	start_char=2342|end_char=2348
+23	vullnetin	vullnet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=2349|end_char=2358
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=2359|end_char=2360
+25	çdo	çdo	PRON	_	PronType=Ind	26	nummod	_	start_char=2361|end_char=2364
+26	zgjedhësi	zgjedhës	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=2365|end_char=2374|SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	start_char=2374|end_char=2375
+28	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	start_char=2376|end_char=2378
+29	nuk	nuk	PART	_	_	31	mark	_	start_char=2379|end_char=2382
+30	do	do	PART	_	_	31	fixed	_	start_char=2383|end_char=2385
+31	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	23	acl	_	start_char=2386|end_char=2390
+32	kurrë	kurrë	ADV	_	AdvType=Tim	31	advmod	_	start_char=2391|end_char=2396
+33	një	një	DET	_	Definite=Ind	34	det	_	start_char=2397|end_char=2400
+34	sistem	sistem	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	31	obj	_	start_char=2401|end_char=2407
+35	demokratik	demokratik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=2408|end_char=2418
+36	siç	siç	SCONJ	_	_	37	mark	_	start_char=2419|end_char=2422
+37	duhet	duhem	AUX	_	Mood=Ind|Number=Sing	31	aux	_	start_char=2423|end_char=2428|SpaceAfter=No
+38	.	.	PUNCT	_	_	31	punct	_	start_char=2428|end_char=2429
+
+# text = Ndaj Presidenti është vetëm një element në këtë drejtim, por edhe një test për të parë se deri ku kërkon realisht politika të reformojë vetveten…Opinion.al NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 23
+1	Ndaj	ndaj	ADP	_	Case=Abl	2	case	_	start_char=2430|end_char=2434
+2	Presidenti	president	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=2435|end_char=2445
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2446|end_char=2451
+4	vetëm	vetëm	PART	_	_	6	cc	_	start_char=2452|end_char=2457
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=2458|end_char=2461
+6	element	element	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=2462|end_char=2469
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=2470|end_char=2472
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=2473|end_char=2477
+9	drejtim	drejtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=2478|end_char=2485|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=2485|end_char=2486
+11	por	por	CCONJ	_	_	14	cc	_	start_char=2487|end_char=2490
+12	edhe	edhe	PART	_	_	14	cc	_	start_char=2491|end_char=2495
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=2496|end_char=2499
+14	test	test	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	start_char=2500|end_char=2504
+15	për	për	PART	_	_	17	fixed	_	start_char=2505|end_char=2508
+16	të	të	PART	_	_	17	fixed	_	start_char=2509|end_char=2511
+17	parë	shoh	VERB	_	VerbForm=Part	14	advmod	_	start_char=2512|end_char=2516
+18	se	se	SCONJ	_	_	21	mark	_	start_char=2517|end_char=2519
+19	deri	deri	ADP	_	Case=Acc	20	case	_	start_char=2520|end_char=2524
+20	ku	ku	ADV	_	AdvType=Loc	21	advmod	_	start_char=2525|end_char=2527
+21	kërkon	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=2528|end_char=2534
+22	realisht	realisht	ADV	_	AdvType=Man	21	advmod	_	start_char=2535|end_char=2543
+23	politika	politikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=2544|end_char=2552
+24	të	të	PART	_	_	25	fixed	_	start_char=2553|end_char=2555
+25	reformojë	reformoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	advcl	_	start_char=2556|end_char=2565
+26	vetveten	vetvete	PRON	_	PronType=Prs|Reflex=Yes	25	obj	_	start_char=2566|end_char=2574|SpaceAfter=No
+27	…Opinion.al	…Opinion.al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	flat	_	start_char=2574|end_char=2585|SpacesAfter=\n
+28	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	29	det	_	start_char=2586|end_char=2588
+29	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	compound	_	start_char=2589|end_char=2599|SpaceAfter=No
+30	:	:	PUNCT	_	_	31	punct	_	start_char=2599|end_char=2600|SpacesAfter=\n
+31	+355	+355	NUM	_	NumType=Card	29	flat	_	start_char=2601|end_char=2605
+32	68	68	NUM	_	NumType=Card	33	nummod	_	start_char=2606|end_char=2608
+33	608	608	NUM	_	NumType=Card	31	conj	_	start_char=2609|end_char=2612
+34	0290	0290	NUM	_	NumType=Card	33	flat	_	start_char=2613|end_char=2617|SpacesAfter=\n
+35	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	flat	_	start_char=2618|end_char=2636|SpacesAfter=\n
+36	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	35	flat	_	start_char=2637|end_char=2646
+37	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	36	flat	_	start_char=2647|end_char=2659
+38	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	37	flat	_	start_char=2660|end_char=2666|SpacesAfter=\n
+39	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	flat	_	start_char=2667|end_char=2676
+40	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	flat	_	start_char=2677|end_char=2689
+41	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	39	flat:name	_	start_char=2690|end_char=2697|SpacesAfter=\n\n\n
+

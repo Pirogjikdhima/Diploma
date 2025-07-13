@@ -1,0 +1,400 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Navalny ka humbur peshë”!
+# sent_id = 1
+1	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1|end_char=8
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=9|end_char=11
+3	humbur	humbur	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=18
+4	peshë”	peshë”	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=19|end_char=25|SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	start_char=25|end_char=26
+
+# text = Ç’po ndodh me kritikun e madh të Putinit në burg?
+# sent_id = 2
+1	Ç’po	Ç’po	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	start_char=27|end_char=31
+2	ndodh	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=37
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=38|end_char=40
+4	kritikun	kritik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=41|end_char=49
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=50|end_char=51
+6	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=52|end_char=56
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=57|end_char=59
+8	Putinit	Putin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=60|end_char=67
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=68|end_char=70
+10	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=71|end_char=75|SpaceAfter=No
+11	?	?	PUNCT	_	_	2	punct	_	start_char=75|end_char=76
+
+# text = Çfarë thotë aleati i tij Udhëheqësi i burgosur i opozitës ruse, Aleksei Navalny, ka humbur peshë të konsiderueshme në burg, thanë aleatët e tij.
+# sent_id = 3
+1	Çfarë	çfarë	PRON	_	PronType=Ind	2	nsubj	_	start_char=77|end_char=82
+2	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=83|end_char=88
+3	aleati	aleat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=89|end_char=95
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=96|end_char=97
+5	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=98|end_char=101|SpacesAfter=\n
+6	Udhëheqësi	udhëheqës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=102|end_char=112
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=113|end_char=114
+8	burgosur	burgosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=115|end_char=123
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=124|end_char=125
+10	opozitës	opozitë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=126|end_char=134
+11	ruse	rus	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=135|end_char=139|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=139|end_char=140
+13	Aleksei	Alekse	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=141|end_char=148
+14	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=149|end_char=156|SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	start_char=156|end_char=157
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=158|end_char=160
+17	humbur	humbur	VERB	_	VerbForm=Part	0	root	_	start_char=161|end_char=167
+18	peshë	peshë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=168|end_char=173
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=174|end_char=176
+20	konsiderueshme	konsiderueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=177|end_char=191
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=192|end_char=194
+22	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=195|end_char=199|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=199|end_char=200
+24	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	conj	_	start_char=201|end_char=206
+25	aleatët	aleatë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	24	obj	_	start_char=207|end_char=214
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	27	det:poss	_	start_char=215|end_char=216
+27	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=217|end_char=220|SpaceAfter=No
+28	.	.	PUNCT	_	_	24	punct	_	start_char=220|end_char=221|SpacesAfter=\n
+
+# text = Në një postim në kanalin Telegram, ata thanë se Navalny ka peshuar 93 kg kur ka arritur në burg, muajin e kaluar, dhe se tani është 85 kg.
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=222|end_char=224
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=225|end_char=228
+3	postim	postim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=229|end_char=235
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=236|end_char=238
+5	kanalin	kanal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=239|end_char=246
+6	Telegram	Telegram	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=247|end_char=255|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=255|end_char=256
+8	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=257|end_char=260
+9	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=261|end_char=266
+10	se	se	SCONJ	_	_	13	mark	_	start_char=267|end_char=269
+11	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=270|end_char=277
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=278|end_char=280
+13	peshuar	peshoj	VERB	_	VerbForm=Part	9	advcl	_	start_char=281|end_char=288
+14	93	93	NUM	_	NumType=Card	15	conj	_	start_char=289|end_char=291
+15	kg	kg	NUM	_	NumType=Card	13	obl	_	start_char=292|end_char=294
+16	kur	kur	SCONJ	_	_	18	mark	_	start_char=295|end_char=298
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=299|end_char=301
+18	arritur	arrij	VERB	_	VerbForm=Part	13	advcl	_	start_char=302|end_char=309
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=310|end_char=312
+20	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=313|end_char=317|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=317|end_char=318
+22	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=319|end_char=325
+23	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=326|end_char=327
+24	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=328|end_char=334|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	start_char=334|end_char=335
+26	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=336|end_char=339
+27	se	se	SCONJ	_	_	29	mark	_	start_char=340|end_char=342
+28	tani	tani	ADV	_	AdvType=Tim	29	advmod	_	start_char=343|end_char=347
+29	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=348|end_char=353
+30	85	85	NUM	_	NumType=Card	31	nummod	_	start_char=354|end_char=356
+31	kg	kg	NUM	_	NumType=Card	29	cop	_	start_char=357|end_char=359|SpaceAfter=No
+32	.	.	PUNCT	_	_	29	punct	_	start_char=359|end_char=360|SpacesAfter=\n
+
+# text = Ekipi i tij tha se Navalny privohet nga gjumi dhe se rojet e zgjojnë tetë herë në natë.
+# sent_id = 5
+1	Ekipi	ekip	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=361|end_char=366
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=367|end_char=368
+3	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=369|end_char=372
+4	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=373|end_char=376
+5	se	se	SCONJ	_	_	7	mark	_	start_char=377|end_char=379
+6	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=380|end_char=387
+7	privohet	privoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=388|end_char=396
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=397|end_char=400
+9	gjumi	gjum	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=401|end_char=406
+10	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=407|end_char=410
+11	se	se	SCONJ	_	_	14	mark	_	start_char=411|end_char=413
+12	rojet	roje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=414|end_char=419
+13	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=420|end_char=421
+14	zgjojnë	zgjoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=422|end_char=429
+15	tetë	tetë	NUM	_	NumType=Card	16	nummod	_	start_char=430|end_char=434
+16	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	advmod	_	start_char=435|end_char=439
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=440|end_char=442
+18	natë	natë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	start_char=443|end_char=447|SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	start_char=447|end_char=448|SpacesAfter=\n
+
+# text = Navalny ka hyrë në grevë urie më 31 mars, duke thënë se zyrtarët e burgut nuk i ofrojnë kujdes mjekësor dhe nuk e lënë të flejë.
+# sent_id = 6
+1	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=449|end_char=456
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=457|end_char=459
+3	hyrë	hyj	VERB	_	VerbForm=Part	0	root	_	start_char=460|end_char=464
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=465|end_char=467
+5	grevë	grevë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=468|end_char=473
+6	urie	uri	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=474|end_char=478
+7	më	më	ADP	_	Case=Acc	9	case	_	start_char=479|end_char=481
+8	31	31	NUM	_	NumType=Card	9	nummod	_	start_char=482|end_char=484
+9	mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=485|end_char=489|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	start_char=489|end_char=490
+11	duke	duke	PART	_	_	12	fixed	_	start_char=491|end_char=495
+12	thënë	them	VERB	_	VerbForm=Part	3	advmod	_	start_char=496|end_char=501
+13	se	se	SCONJ	_	_	19	mark	_	start_char=502|end_char=504
+14	zyrtarët	zyrtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=505|end_char=513
+15	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det:poss	_	start_char=514|end_char=515
+16	burgut	burg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=516|end_char=522
+17	nuk	nuk	PART	_	_	19	mark	_	start_char=523|end_char=526
+18	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=527|end_char=528
+19	ofrojnë	ofroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=529|end_char=536
+20	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	start_char=537|end_char=543
+21	mjekësor	mjekësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=544|end_char=552
+22	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=553|end_char=556
+23	nuk	nuk	PART	_	_	25	mark	_	start_char=557|end_char=560
+24	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=561|end_char=562
+25	lënë	lë	VERB	_	VerbForm=Part	19	conj	_	start_char=563|end_char=567
+26	të	të	PART	_	_	27	fixed	_	start_char=568|end_char=570
+27	flejë	flej	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	ccomp	_	start_char=571|end_char=576|SpaceAfter=No
+28	.	.	PUNCT	_	_	19	punct	_	start_char=576|end_char=577|SpacesAfter=\n
+
+# text = Ai është ankuar për dhimbje akute në shpinë dhe mpirje në këmbë.
+# sent_id = 7
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=578|end_char=580
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=581|end_char=586
+3	ankuar	ankoj	VERB	_	VerbForm=Part	0	root	_	start_char=587|end_char=593
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=594|end_char=597
+5	dhimbje	dhimbje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=598|end_char=605
+6	akute	akut	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=606|end_char=611
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=612|end_char=614
+8	shpinë	shpinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=615|end_char=621
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=622|end_char=625
+10	mpirje	mpirje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=626|end_char=632
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=633|end_char=635
+12	këmbë	këmbë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=636|end_char=641|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=641|end_char=642|SpacesAfter=\n
+
+# text = Navalny, 44 vjeç, aktualisht ndodhet në Koloninë Korrektuese Nr. 2, që njihet si një prej burgjeve më të ashpra në Rusi.
+# sent_id = 8
+1	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=643|end_char=650|SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	start_char=650|end_char=651
+3	44	44	NUM	_	NumType=Card	4	nummod	_	start_char=652|end_char=654
+4	vjeç	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=655|end_char=659|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	start_char=659|end_char=660
+6	aktualisht	aktualisht	ADV	_	AdvType=Man	7	advmod	_	start_char=661|end_char=671
+7	ndodhet	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=672|end_char=679
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=680|end_char=682
+9	Koloninë	Koloni	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=683|end_char=691
+10	Korrektuese	korrektues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=692|end_char=703
+11	Nr	nr	NUM	_	NumType=Card	9	flat	_	start_char=704|end_char=706|SpaceAfter=No
+12	.	.	PUNCT	_	_	13	punct	_	start_char=706|end_char=707
+13	2	2	NUM	_	NumType=Card	11	conj	_	start_char=708|end_char=709|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=709|end_char=710
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=711|end_char=713
+16	njihet	njihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	acl	_	start_char=714|end_char=720
+17	si	si	SCONJ	_	_	20	mark	_	start_char=721|end_char=723
+18	një	një	DET	_	Definite=Ind	20	det	_	start_char=724|end_char=727
+19	prej	prej	ADP	_	Case=Abl	20	case	_	start_char=728|end_char=732
+20	burgjeve	burgje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=733|end_char=741
+21	më	më	PART	_	_	23	mark	_	start_char=742|end_char=744
+22	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=745|end_char=747
+23	ashpra	ashpër	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=748|end_char=754
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=755|end_char=757
+25	Rusi	Rusi	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obl:agent	_	start_char=758|end_char=762|SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	start_char=762|end_char=763|SpacesAfter=\n
+
+# text = Ai është arrestuar në një aeroport të Moskës në muajin janar, menjëherë pasi është kthyer nga Berlini, ku është shëruar nga helmimi me agjent nervor.
+# sent_id = 9
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=764|end_char=766
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=767|end_char=772
+3	arrestuar	arrestoj	VERB	_	VerbForm=Part	0	root	_	start_char=773|end_char=782
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=783|end_char=785
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=786|end_char=789
+6	aeroport	aeropor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=790|end_char=798
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=799|end_char=801
+8	Moskës	Moskë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=802|end_char=808
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=809|end_char=811
+10	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=812|end_char=818
+11	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=819|end_char=824|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=824|end_char=825
+13	menjëherë	menjëherë	ADV	_	AdvType=Man	16	advmod	_	start_char=826|end_char=835
+14	pasi	pasi	SCONJ	_	_	16	mark	_	start_char=836|end_char=840
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=841|end_char=846
+16	kthyer	kthej	VERB	_	VerbForm=Part	3	advcl	_	start_char=847|end_char=853
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=854|end_char=857
+18	Berlini	Berlin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	start_char=858|end_char=865|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=865|end_char=866
+20	ku	ku	ADV	_	AdvType=Loc	22	advmod	_	start_char=867|end_char=869
+21	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=870|end_char=875
+22	shëruar	shëroj	VERB	_	VerbForm=Part	16	advcl	_	start_char=876|end_char=883
+23	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=884|end_char=887
+24	helmimi	helmim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=888|end_char=895
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=896|end_char=898
+26	agjent	agjent	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=899|end_char=905
+27	nervor	nervor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=906|end_char=912|SpaceAfter=No
+28	.	.	PUNCT	_	_	22	punct	_	start_char=912|end_char=913|SpacesAfter=\n
+
+# text = Navalny është helmuar në muajin gusht, në një fluturim drejt Siberisë, ndërsa laboratorët perëndimorë kanë treguar se agjenti i përdorur në sulm ka qenë Noviçok.
+# sent_id = 10
+1	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=914|end_char=921
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=922|end_char=927
+3	helmuar	helmoj	VERB	_	VerbForm=Part	0	root	_	start_char=928|end_char=935
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=936|end_char=938
+5	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=939|end_char=945
+6	gusht	gusht	NUM	_	NumType=Card	5	amod:nummod	_	start_char=946|end_char=951|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	start_char=951|end_char=952
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=953|end_char=955
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=956|end_char=959
+10	fluturim	fluturim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=960|end_char=968
+11	drejt	drejt	ADP	_	Case=Abl	12	case	_	start_char=969|end_char=974
+12	Siberisë	Siberi	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=975|end_char=983|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=983|end_char=984
+14	ndërsa	ndërsa	CCONJ	_	_	18	cc	_	start_char=985|end_char=991
+15	laboratorët	laborator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	start_char=992|end_char=1003
+16	perëndimorë	perëndimorë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=1004|end_char=1015
+17	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=1016|end_char=1020
+18	treguar	tregoj	VERB	_	VerbForm=Part	3	conj	_	start_char=1021|end_char=1028
+19	se	se	SCONJ	_	_	26	mark	_	start_char=1029|end_char=1031
+20	agjenti	agjent	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	cop	_	start_char=1032|end_char=1039
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=1040|end_char=1041
+22	përdorur	përdor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=1042|end_char=1050
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=1051|end_char=1053
+24	sulm	sulm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=1054|end_char=1058
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=1059|end_char=1061
+26	qenë	jam	VERB	_	VerbForm=Part	18	conj	_	start_char=1062|end_char=1066
+27	Noviçok	Noviçok	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	nsubj	_	start_char=1067|end_char=1074|SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	start_char=1074|end_char=1075|SpacesAfter=\n
+
+# text = Ai ka thënë se atentati kundër tij është urdhëruar nga presidenti rus, Vladimir Putin, por këto pretendime janë hedhur poshtë nga Kremlini.
+# sent_id = 11
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1076|end_char=1078
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=1079|end_char=1081
+3	thënë	them	VERB	_	VerbForm=Part	0	root	_	start_char=1082|end_char=1087
+4	se	se	SCONJ	_	_	9	mark	_	start_char=1088|end_char=1090
+5	atentati	atentat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1091|end_char=1099
+6	kundër	kundër	ADP	_	Case=Abl	7	case	_	start_char=1100|end_char=1106
+7	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	amod:poss	_	start_char=1107|end_char=1110
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=1111|end_char=1116
+9	urdhëruar	urdhëroj	VERB	_	VerbForm=Part	3	conj	_	start_char=1117|end_char=1126
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=1127|end_char=1130
+11	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=1131|end_char=1141
+12	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1142|end_char=1145|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1145|end_char=1146
+14	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=1147|end_char=1155
+15	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=1156|end_char=1161|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=1161|end_char=1162
+17	por	por	CCONJ	_	_	21	cc	_	start_char=1163|end_char=1166
+18	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	19	det	_	start_char=1167|end_char=1171
+19	pretendime	pretendim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	21	nsubj	_	start_char=1172|end_char=1182
+20	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=1183|end_char=1187
+21	hedhur	hedh	VERB	_	VerbForm=Part	3	conj	_	start_char=1188|end_char=1194
+22	poshtë	poshtë	ADV	_	AdvType=Tim	21	advmod	_	start_char=1195|end_char=1201
+23	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=1202|end_char=1205
+24	Kremlini	Kremlin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	start_char=1206|end_char=1214|SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	start_char=1214|end_char=1215|SpacesAfter=\n
+
+# text = Në fillim të shkurtit, një gjykatë në Moskë ka konstatuar se Navalny, gjatë kohës sa ka qenë në Gjermani, ka shkelur dënimin me kusht, të shqiptuar më herët për një rast të përvetësimit të fondeve.
+# sent_id = 12
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=1216|end_char=1218
+2	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=1219|end_char=1225
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=1226|end_char=1228
+4	shkurtit	shkurt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=1229|end_char=1237|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=1237|end_char=1238
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=1239|end_char=1242
+7	gjykatë	gjykatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1243|end_char=1250
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=1251|end_char=1253
+9	Moskë	Moskë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=1254|end_char=1259
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=1260|end_char=1262
+11	konstatuar	konstatoj	VERB	_	VerbForm=Part	0	root	_	start_char=1263|end_char=1273
+12	se	se	SCONJ	_	_	19	mark	_	start_char=1274|end_char=1276
+13	Navalny	Navaln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1277|end_char=1284|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1284|end_char=1285
+15	gjatë	gjatë	ADP	_	Case=Abl	16	case	_	start_char=1286|end_char=1291
+16	kohës	kohë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=1292|end_char=1297
+17	sa	sa	SCONJ	_	_	19	mark	_	start_char=1298|end_char=1300
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=1301|end_char=1303
+19	qenë	jam	VERB	_	VerbForm=Part	11	advcl	_	start_char=1304|end_char=1308
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=1309|end_char=1311
+21	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=1312|end_char=1320|SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	start_char=1320|end_char=1321
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=1322|end_char=1324
+24	shkelur	shkel	VERB	_	VerbForm=Part	19	advcl	_	start_char=1325|end_char=1332
+25	dënimin	dënim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=1333|end_char=1340
+26	me	me	ADP	_	Case=Acc	27	case	_	start_char=1341|end_char=1343
+27	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	start_char=1344|end_char=1349|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	start_char=1349|end_char=1350
+29	të	të	PART	_	_	30	fixed	_	start_char=1351|end_char=1353
+30	shqiptuar	shqiptoj	VERB	_	VerbForm=Part	24	advmod	_	start_char=1354|end_char=1363
+31	më	më	PART	_	_	32	mark	_	start_char=1364|end_char=1366
+32	herët	herët	ADV	_	AdvType=Tim	30	advmod	_	start_char=1367|end_char=1372
+33	për	për	ADP	_	Case=Acc	35	case	_	start_char=1373|end_char=1376
+34	një	një	DET	_	Definite=Ind	35	det	_	start_char=1377|end_char=1380
+35	rast	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	start_char=1381|end_char=1385
+36	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=1386|end_char=1388
+37	përvetësimit	përvetësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=1389|end_char=1401
+38	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	39	det:poss	_	start_char=1402|end_char=1404
+39	fondeve	fonde	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	37	nmod	_	start_char=1405|end_char=1412|SpaceAfter=No
+40	.	.	PUNCT	_	_	30	punct	_	start_char=1412|end_char=1413|SpacesAfter=\n
+
+# text = Gjykata ka urdhëruar Navalnyn që të shërbejë dy vjet e gjysmë në burg.
+# sent_id = 13
+1	Gjykata	gjykatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1414|end_char=1421
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=1422|end_char=1424
+3	urdhëruar	urdhëroj	VERB	_	VerbForm=Part	0	root	_	start_char=1425|end_char=1434
+4	Navalnyn	Navalny	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=1435|end_char=1443
+5	që	që	SCONJ	_	_	7	mark	_	start_char=1444|end_char=1446
+6	të	të	PART	_	_	7	fixed	_	start_char=1447|end_char=1449
+7	shërbejë	shërbej	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=1450|end_char=1458
+8	dy	dy	NUM	_	NumType=Card	9	nummod	_	start_char=1459|end_char=1461
+9	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	start_char=1462|end_char=1466
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=1467|end_char=1468
+11	gjysmë	gjysmë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=1469|end_char=1475
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1476|end_char=1478
+13	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=1479|end_char=1483|SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	start_char=1483|end_char=1484|SpacesAfter=\n
+
+# text = Muajin e kaluar, Shtetet e Bashkuara dhe Bashkimi Evropian kanë sanksionuar disa zyrtarë rusë për, siç është thënë, përfshirje në helmimin e Navalnyt.
+# sent_id = 14
+1	Muajin	Muaj	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=1485|end_char=1491
+2	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1492|end_char=1493
+3	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=1494|end_char=1500|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=1500|end_char=1501
+5	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	start_char=1502|end_char=1509
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=1510|end_char=1511
+7	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=1512|end_char=1521
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1522|end_char=1525
+9	Bashkimi	Bashkim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	conj	_	start_char=1526|end_char=1534
+10	Evropian	evropian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1535|end_char=1543
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=1544|end_char=1548
+12	sanksionuar	sanksionoj	VERB	_	VerbForm=Part	0	root	_	start_char=1549|end_char=1560
+13	disa	disa	PRON	_	PronType=Ind	14	nummod	_	start_char=1561|end_char=1565
+14	zyrtarë	zyrtarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	start_char=1566|end_char=1573
+15	rusë	rusë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=1574|end_char=1578
+16	për	për	ADP	_	Case=Acc	18	fixed	_	start_char=1579|end_char=1582|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=1582|end_char=1583
+18	siç	siç	SCONJ	_	_	20	mark	_	start_char=1584|end_char=1587
+19	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=1588|end_char=1593
+20	thënë	them	VERB	_	VerbForm=Part	14	acl:relcl	_	start_char=1594|end_char=1599|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1599|end_char=1600
+22	përfshirje	përfshirje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	nsubj	_	start_char=1601|end_char=1611
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=1612|end_char=1614
+24	helmimin	helmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	advmod	_	start_char=1615|end_char=1623
+25	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=1624|end_char=1625
+26	Navalnyt	Navaln	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=1626|end_char=1634|SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	start_char=1634|end_char=1635|SpacesAfter=\n
+
+# text = Rasti i tij ka shkaktuar edhe një valë protestash në Rusi./rel NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 15
+1	Rasti	Rast	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1636|end_char=1641
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1642|end_char=1643
+3	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=1644|end_char=1647
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=1648|end_char=1650
+5	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	0	root	_	start_char=1651|end_char=1660
+6	edhe	edhe	PART	_	_	8	mark	_	start_char=1661|end_char=1665
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=1666|end_char=1669
+8	valë	valë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	det	_	start_char=1670|end_char=1674
+9	protestash	protestësh	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=1675|end_char=1685
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=1686|end_char=1688
+11	Rusi	Rusi	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=1689|end_char=1693|SpaceAfter=No
+12	.	.	PUNCT	_	_	13	punct	_	start_char=1693|end_char=1694|SpaceAfter=No
+13	/rel	/rel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=1694|end_char=1698|SpacesAfter=\n
+14	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	det	_	start_char=1699|end_char=1701
+15	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=1702|end_char=1712|SpaceAfter=No
+16	:	:	PUNCT	_	_	17	punct	_	start_char=1712|end_char=1713|SpacesAfter=\n
+17	+355	+355	NUM	_	NumType=Card	15	flat	_	start_char=1714|end_char=1718
+18	68	68	NUM	_	NumType=Card	19	conj	_	start_char=1719|end_char=1721
+19	608	608	NUM	_	NumType=Card	17	conj	_	start_char=1722|end_char=1725
+20	0290	0290	NUM	_	NumType=Card	19	conj	_	start_char=1726|end_char=1730|SpacesAfter=\n
+21	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=1731|end_char=1749|SpacesAfter=\n
+22	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	flat	_	start_char=1750|end_char=1759
+23	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	flat	_	start_char=1760|end_char=1772
+24	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	23	flat	_	start_char=1773|end_char=1779|SpacesAfter=\n
+25	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	flat	_	start_char=1780|end_char=1789
+26	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	flat	_	start_char=1790|end_char=1802
+27	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	flat:name	_	start_char=1803|end_char=1810|SpacesAfter=\n\n\n
+

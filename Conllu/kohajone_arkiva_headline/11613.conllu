@@ -1,0 +1,410 @@
+# text = Çfarë pret, zoti Rama?
+# sent_id = 0
+1	Çfarë	çfarë	PRON	_	PronType=Ind	2	nsubj	_	start_char=0|end_char=5
+2	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	start_char=10|end_char=11
+4	zoti	zot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=12|end_char=16
+5	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=17|end_char=21|SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	_	start_char=21|end_char=22|SpacesAfter=\n
+
+# text = “Çfarë pret, zoti Rama, mos do që të vihesh edhe ti kusht?
+# sent_id = 1
+1	“	"	PUNCT	_	_	3	punct	_	start_char=23|end_char=24|SpaceAfter=No
+2	Çfarë	çfarë	PRON	_	PronType=Ind	3	nsubj	_	start_char=24|end_char=29
+3	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=34|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=34|end_char=35
+5	zoti	zot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=36|end_char=40
+6	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=41|end_char=45|SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46
+8	mos	mos	PART	_	_	12	mark	_	start_char=47|end_char=50
+9	do	do	PART	_	_	12	fixed	_	start_char=51|end_char=53
+10	që	që	SCONJ	_	_	12	mark	_	start_char=54|end_char=56
+11	të	të	PART	_	_	12	fixed	_	start_char=57|end_char=59
+12	vihesh	vihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	5	acl:relcl	_	start_char=60|end_char=66
+13	edhe	edhe	PART	_	_	15	cc	_	start_char=67|end_char=71
+14	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nummod	_	start_char=72|end_char=74
+15	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=75|end_char=80|SpaceAfter=No
+16	?	?	PUNCT	_	_	12	punct	_	start_char=80|end_char=81
+
+# text = Vepro sa më shpejt me Reformen në Drejtesi, se nuk eshte “qesharak”
+# sent_id = 2
+1	Vepro	veproj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=82|end_char=87
+2	sa	sa	ADV	_	AdvType=Deg	4	advmod	_	start_char=88|end_char=90
+3	më	më	PART	_	_	4	mark	_	start_char=91|end_char=93
+4	shpejt	shpejt	ADV	_	AdvType=Tim	1	advmod	_	start_char=94|end_char=100
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=101|end_char=103
+6	Reformen	Reforme	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=104|end_char=112
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=113|end_char=115
+8	Drejtesi	Drejtes	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=116|end_char=124|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=124|end_char=125
+10	se	se	SCONJ	_	_	12	mark	_	start_char=126|end_char=128
+11	nuk	nuk	PART	_	_	12	mark	_	start_char=129|end_char=132
+12	eshte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=133|end_char=138
+13	“	"	PUNCT	_	_	14	punct	_	start_char=139|end_char=140|SpaceAfter=No
+14	qesharak	qesharak	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	cop	_	start_char=140|end_char=148|SpaceAfter=No
+15	”	"	PUNCT	_	_	12	punct	_	start_char=148|end_char=149
+
+# text = Saliu në thirrjen e tij, por një bandit antishqiptar që urren shqiptarët“.
+# sent_id = 3
+1	Saliu	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=150|end_char=155
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=156|end_char=158
+3	thirrjen	thirrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=159|end_char=167
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=168|end_char=169
+5	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=170|end_char=173|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=173|end_char=174
+7	por	por	CCONJ	_	_	9	cc	_	start_char=175|end_char=178
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=179|end_char=182
+9	bandit	band	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=183|end_char=189
+10	antishqiptar	antishqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=190|end_char=202
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=203|end_char=205
+12	urren	urrej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=206|end_char=211
+13	shqiptarët	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=212|end_char=222|SpaceAfter=No
+14	“	"	PUNCT	_	_	9	punct	_	start_char=222|end_char=223|SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	start_char=223|end_char=224|SpaceAfter=No
+
+# text = .
+# sent_id = 4
+1	.	.	PUNCT	_	_	0	root	_	start_char=224|end_char=225|SpacesAfter=\n
+
+# text = Nga Spartak
+# sent_id = 5
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=226|end_char=229
+2	Sparta	spartë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=230|end_char=236|SpaceAfter=No
+3	k	k	X	_	_	2	flat	_	start_char=236|end_char=237
+
+# text = Ngjela Vuçiç duket sikur po fiton ne Serbi.
+# sent_id = 6
+1	Ngjela	ngjelë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=238|end_char=244|SpacesAfter=\n
+2	Vuçiç	Vuçiç	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=245|end_char=250
+3	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=251|end_char=256
+4	sikur	sikur	SCONJ	_	_	6	mark	_	start_char=257|end_char=262
+5	po	po	PART	_	_	6	mark	_	start_char=263|end_char=265
+6	fiton	fitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=266|end_char=271
+7	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	obj	_	start_char=272|end_char=274
+8	Serbi	Serbi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	flat	_	start_char=275|end_char=280|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	start_char=280|end_char=281
+
+# text = Si është kjo për ne?
+# sent_id = 7
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=282|end_char=284
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=285|end_char=290
+3	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=291|end_char=294
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=295|end_char=298
+5	ne	ne	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	advmod	_	start_char=299|end_char=301|SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	_	start_char=301|end_char=302|SpacesAfter=\n
+
+# text = Po shoh se po ka shumë përkrahje perëndimore.
+# sent_id = 8
+1	Po	po	PART	_	_	2	mark	_	start_char=303|end_char=305
+2	shoh	shoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=306|end_char=310
+3	se	se	SCONJ	_	_	5	mark	_	start_char=311|end_char=313
+4	po	po	PART	_	_	5	mark	_	start_char=314|end_char=316
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=317|end_char=319
+6	shumë	shumë	PRON	_	PronType=Ind	7	nummod	_	start_char=320|end_char=325
+7	përkrahje	përkrahje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=326|end_char=335
+8	perëndimore	perëndimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=336|end_char=347|SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	start_char=347|end_char=348
+
+# text = Sidomos gjermane.
+# sent_id = 9
+1	Sidomos	sidomos	PART	_	_	0	root	_	start_char=349|end_char=356
+2	gjermane	gjerman	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=357|end_char=365|SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	start_char=365|end_char=366|SpacesAfter=\n
+
+# text = Por…në fakt kanë vepruar në menyre drastike kundër Miloshevicit.
+# sent_id = 10
+1	Por…në	Por…në	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=367|end_char=373
+2	fakt	fakt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=374|end_char=378
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=379|end_char=383
+4	vepruar	veproj	VERB	_	VerbForm=Part	0	root	_	start_char=384|end_char=391
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=392|end_char=394
+6	menyre	menyr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=395|end_char=401
+7	drastike	drastik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=402|end_char=410
+8	kundër	kundër	ADP	_	Case=Abl	9	case	_	start_char=411|end_char=417
+9	Miloshevicit	miloshevic	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=418|end_char=430|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	start_char=430|end_char=431
+
+# text = E dërguan në Hagë si kriminel lufte.
+# sent_id = 11
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=432|end_char=433
+2	dërguan	dërgoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=434|end_char=441
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=442|end_char=444
+4	Hagë	Hagë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=445|end_char=449
+5	si	si	SCONJ	_	_	6	mark	_	start_char=450|end_char=452
+6	kriminel	kriminel	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=453|end_char=461
+7	lufte	luftë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=462|end_char=467|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	start_char=467|end_char=468
+
+# text = Ky ishte kushti për perspektivën e tyre perëndimore drejt Bashkimit Europian.
+# sent_id = 12
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=469|end_char=471
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=472|end_char=477
+3	kushti	kusht	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=478|end_char=484
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=485|end_char=488
+5	perspektivën	perspektivë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=489|end_char=501
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=502|end_char=503
+7	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=504|end_char=508
+8	perëndimore	perëndimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=509|end_char=520
+9	drejt	drejt	ADP	_	Case=Abl	10	case	_	start_char=521|end_char=526
+10	Bashkimit	bashkim	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=527|end_char=536
+11	Europian	Europian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=537|end_char=545|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=545|end_char=546|SpacesAfter=\n
+
+# text = Serbët duan të hyjnë para nesh në Bashkimin Europian.
+# sent_id = 13
+1	Serbët	serbë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=547|end_char=553
+2	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=554|end_char=558
+3	të	të	PART	_	_	4	fixed	_	start_char=559|end_char=561
+4	hyjnë	hyj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	advmod	_	start_char=562|end_char=567
+5	para	para	ADP	_	Case=Abl	6	case	_	start_char=568|end_char=572
+6	nesh	nesh	PRON	_	Case=Acc|Number=Plur|PronType=Prs	4	advmod	_	start_char=573|end_char=577
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=578|end_char=580
+8	Bashkimin	bashkim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=581|end_char=590
+9	Europian	Europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=591|end_char=599|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	start_char=599|end_char=600
+
+# text = Kjo është gara jonë e kohës.
+# sent_id = 14
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=601|end_char=604
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=605|end_char=610
+3	gara	garë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=611|end_char=615
+4	jonë	jonë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	amod	_	start_char=616|end_char=620
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=621|end_char=622
+6	kohës	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=623|end_char=628|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	start_char=628|end_char=629
+
+# text = Po ne ku jemi?
+# sent_id = 15
+1	Po	po	PART	_	_	2	mark	_	start_char=630|end_char=632
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=633|end_char=635
+3	ku	ku	ADV	_	AdvType=Loc	4	advmod	_	start_char=636|end_char=638
+4	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=639|end_char=643|SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	start_char=643|end_char=644|SpacesAfter=\n
+
+# text = “Edhe ju, kusht për BE, keni pasur neutralizimin kriminal të Sali Berishes dhe klanit te tij” – më tha miku im A. T. nga Gjermania.
+# sent_id = 16
+1	“	"	PUNCT	_	_	3	punct	_	start_char=645|end_char=646|SpaceAfter=No
+2	Edhe	edhe	CCONJ	_	_	3	mark:emph	_	start_char=646|end_char=650
+3	ju	ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	det	_	start_char=651|end_char=653|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=653|end_char=654
+5	kusht	kusht	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=655|end_char=660
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=661|end_char=664
+7	BE	be	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	start_char=665|end_char=667|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	start_char=667|end_char=668
+9	keni	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	aux	_	start_char=669|end_char=673
+10	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=674|end_char=679
+11	neutralizimin	neutralizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=680|end_char=693
+12	kriminal	kriminal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=694|end_char=702
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=703|end_char=705
+14	Sali	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=706|end_char=710
+15	Berishes	Berishe	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=711|end_char=719
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=720|end_char=723
+17	klanit	klan	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=724|end_char=730
+18	te	te	ADP	_	Case=Nom	19	case	_	start_char=731|end_char=733
+19	tij”	tij”	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	17	nmod	_	start_char=734|end_char=738
+20	–	–	PUNCT	_	_	22	punct	_	start_char=739|end_char=740
+21	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	start_char=741|end_char=743
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	start_char=744|end_char=747
+23	miku	miku	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=748|end_char=752
+24	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	amod	_	start_char=753|end_char=755
+25	A.	A.	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=756|end_char=758
+26	T.	T.	X	_	_	28	flat	_	start_char=759|end_char=761
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=762|end_char=765
+28	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	advmod	_	start_char=766|end_char=775|SpaceAfter=No
+29	.	.	PUNCT	_	_	22	punct	_	start_char=775|end_char=776|SpacesAfter=\n
+
+# text = Po kush ta realizonte këtë kusht:
+# sent_id = 17
+1	Po	po	PART	_	_	2	fixed	_	start_char=777|end_char=779
+2	kush	kush	PRON	_	PronType=Ind	5	nsubj	_	start_char=780|end_char=784
+3-4	ta	_	_	_	_	_	_	_	start_char=785|end_char=787
+3	të	të	PART	_	_	5	fixed	_	_
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	realizonte	realizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=788|end_char=798
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=799|end_char=803
+7	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=804|end_char=809|SpaceAfter=No
+8	:	:	PUNCT	_	_	5	punct	_	start_char=809|end_char=810
+
+# text = Meta dhe Rama?
+# sent_id = 18
+1	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=811|end_char=815
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=816|end_char=819
+3	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=820|end_char=824|SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	start_char=824|end_char=825|SpacesAfter=\n
+
+# text = Ka njëqind vjet që korrupsioni i degraduar politik shqiptar luan kundër shqiptarëve, prandaj sokëllin Saliu “rrembeni armet”, se e di që, që të gjithe të korruptuarit që drejtojnë, janë kundër shqiptarëve.
+# sent_id = 19
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=826|end_char=828
+2	njëqind	njëqind	NUM	_	NumType=Card	3	det	_	start_char=829|end_char=836
+3	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	1	advmod	_	start_char=837|end_char=841
+4	që	që	PRON	_	PronType=Rel	5	mark	_	start_char=842|end_char=844
+5	korrupsioni	korrupsion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=845|end_char=856
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=857|end_char=858
+7	degraduar	degraduar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=859|end_char=868
+8	politik	politik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=869|end_char=876
+9	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=877|end_char=885
+10	luan	luaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=886|end_char=890
+11	kundër	kundër	ADP	_	Case=Abl	12	case	_	start_char=891|end_char=897
+12	shqiptarëve	shqiptar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	10	obl	_	start_char=898|end_char=909|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=909|end_char=910
+14	prandaj	prandaj	CCONJ	_	_	15	cc	_	start_char=911|end_char=918
+15	sokëllin	sokëll	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=919|end_char=927
+16	Saliu	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	appos	_	start_char=928|end_char=933
+17	“rrembeni	“rremben	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=934|end_char=943
+18	armet”	armetë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=944|end_char=950|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=950|end_char=951
+20	se	se	SCONJ	_	_	22	mark	_	start_char=952|end_char=954
+21	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=955|end_char=956
+22	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=957|end_char=959
+23	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=960|end_char=962|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=962|end_char=963
+25	që	që	SCONJ	_	_	22	mark	_	start_char=964|end_char=966
+26	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	27	det	_	start_char=967|end_char=969
+27	gjithe	gjithe	ADV	_	AdvType=Man	29	advmod	_	start_char=970|end_char=976
+28	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	29	det	_	start_char=977|end_char=979
+29	korruptuarit	korruptuar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	22	advmod	_	start_char=980|end_char=992
+30	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=993|end_char=995
+31	drejtojnë	drejtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	acl:relcl	_	start_char=996|end_char=1005|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=1005|end_char=1006
+33	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	acl	_	start_char=1007|end_char=1011
+34	kundër	kundër	ADP	_	Case=Abl	35	case	_	start_char=1012|end_char=1018
+35	shqiptarëve	shqiptar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	33	advmod	_	start_char=1019|end_char=1030|SpaceAfter=No
+36	.	.	PUNCT	_	_	33	punct	_	start_char=1030|end_char=1031|SpacesAfter=\n
+
+# text = Por tani ka ardhur fundi.
+# sent_id = 20
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=1032|end_char=1035
+2	tani	tani	ADV	_	AdvType=Tim	4	advmod	_	start_char=1036|end_char=1040
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1041|end_char=1043
+4	ardhur	vij	VERB	_	VerbForm=Part	0	root	_	start_char=1044|end_char=1050
+5	fundi	fund	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=1051|end_char=1056|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	start_char=1056|end_char=1057|SpacesAfter=\n
+
+# text = Çfarë pret, zoti Rama, mos do që të vihesh edhe ti kusht?
+# sent_id = 21
+1	Çfarë	çfarë	PRON	_	PronType=Ind	2	nsubj	_	start_char=1058|end_char=1063
+2	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1064|end_char=1068|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1068|end_char=1069
+4	zoti	zot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=1070|end_char=1074
+5	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=1075|end_char=1079|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	start_char=1079|end_char=1080
+7	mos	mos	PART	_	_	11	mark	_	start_char=1081|end_char=1084
+8	do	do	PART	_	_	11	fixed	_	start_char=1085|end_char=1087
+9	që	që	SCONJ	_	_	11	mark	_	start_char=1088|end_char=1090
+10	të	të	PART	_	_	11	fixed	_	start_char=1091|end_char=1093
+11	vihesh	vihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	4	acl:relcl	_	start_char=1094|end_char=1100
+12	edhe	edhe	PART	_	_	14	cc	_	start_char=1101|end_char=1105
+13	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nummod	_	start_char=1106|end_char=1108
+14	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=1109|end_char=1114|SpaceAfter=No
+15	?	?	PUNCT	_	_	11	punct	_	start_char=1114|end_char=1115
+
+# text = Vepro sa më shpejt me Reformen në Drejtesi, se nuk eshte “qesharak”
+# sent_id = 22
+1	Vepro	veproj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=1116|end_char=1121
+2	sa	sa	ADV	_	AdvType=Deg	4	advmod	_	start_char=1122|end_char=1124
+3	më	më	PART	_	_	4	mark	_	start_char=1125|end_char=1127
+4	shpejt	shpejt	ADV	_	AdvType=Tim	1	advmod	_	start_char=1128|end_char=1134
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=1135|end_char=1137
+6	Reformen	Reforme	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=1138|end_char=1146
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=1147|end_char=1149
+8	Drejtesi	Drejtes	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=1150|end_char=1158|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=1158|end_char=1159
+10	se	se	SCONJ	_	_	12	mark	_	start_char=1160|end_char=1162
+11	nuk	nuk	PART	_	_	12	mark	_	start_char=1163|end_char=1166
+12	eshte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=1167|end_char=1172
+13	“	"	PUNCT	_	_	14	punct	_	start_char=1173|end_char=1174|SpaceAfter=No
+14	qesharak	qesharak	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	cop	_	start_char=1174|end_char=1182|SpaceAfter=No
+15	”	"	PUNCT	_	_	12	punct	_	start_char=1182|end_char=1183
+
+# text = Saliu në thirrjen e tij, por një bandit antishqiptar që urren shqiptarët.
+# sent_id = 23
+1	Saliu	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1184|end_char=1189
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=1190|end_char=1192
+3	thirrjen	thirrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=1193|end_char=1201
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=1202|end_char=1203
+5	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=1204|end_char=1207|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1207|end_char=1208
+7	por	por	CCONJ	_	_	9	cc	_	start_char=1209|end_char=1212
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=1213|end_char=1216
+9	bandit	band	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=1217|end_char=1223
+10	antishqiptar	antishqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1224|end_char=1236
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=1237|end_char=1239
+12	urren	urrej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=1240|end_char=1245
+13	shqiptarët	shqiptar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=1246|end_char=1256|SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	start_char=1256|end_char=1257|SpacesAfter=\n
+
+# text = Leri “nenet zbutës” për Saliun, por, fute që këtë javë draftin e Reformës në Parlament!… se çdo zvarritje, nuk është më shume kunder shqiptarëve, sesa kunder teje.
+# sent_id = 24
+1	Leri	Leri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=1258|end_char=1262
+2	“nenet	“nenet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=1263|end_char=1269
+3	zbutës”	zbutës”	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=1270|end_char=1277
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=1278|end_char=1281
+5	Saliun	Saliun	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=1282|end_char=1288|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1288|end_char=1289
+7	por	por	CCONJ	_	_	9	cc	_	start_char=1290|end_char=1293|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	start_char=1293|end_char=1294
+9	fute	futem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=1295|end_char=1299
+10	që	që	SCONJ	_	_	12	mark	_	start_char=1300|end_char=1302
+11	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=1303|end_char=1307
+12	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=1308|end_char=1312
+13	draftin	draft	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=1313|end_char=1320
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=1321|end_char=1322
+15	Reformës	Reformë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=1323|end_char=1331
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1332|end_char=1334
+17	Parlament!…	Parlament!…	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=1335|end_char=1346
+18	se	se	SCONJ	_	_	23	mark	_	start_char=1347|end_char=1349
+19	çdo	çdo	PRON	_	PronType=Ind	20	nummod	_	start_char=1350|end_char=1353
+20	zvarritje	zvarritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=1354|end_char=1363|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	start_char=1363|end_char=1364
+22	nuk	nuk	PART	_	_	23	mark	_	start_char=1365|end_char=1368
+23	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=1369|end_char=1374
+24	më	më	PART	_	_	25	mark	_	start_char=1375|end_char=1377
+25	shume	shume	ADV	_	AdvType=Deg	23	advmod	_	start_char=1378|end_char=1383
+26	kunder	kunder	ADP	_	Case=Abl	27	case	_	start_char=1384|end_char=1390
+27	shqiptarëve	shqiptar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	23	advmod	_	start_char=1391|end_char=1402|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=1402|end_char=1403
+29	sesa	sesa	ADV	_	AdvType=Man	31	advmod	_	start_char=1404|end_char=1408
+30	kunder	kunder	ADP	_	Case=Abl	31	case	_	start_char=1409|end_char=1415
+31	teje	teje	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Prs	23	advmod	_	start_char=1416|end_char=1420|SpaceAfter=No
+32	.	.	PUNCT	_	_	23	punct	_	start_char=1420|end_char=1421|SpacesAfter=\n
+
+# text = Koha, tani e më tej, nuk eshte më e korrupsionit politik shqiptar, por e vetë shqiptarëve.
+# sent_id = 25
+1	Koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=1422|end_char=1426|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=1426|end_char=1427
+3	tani	tani	ADV	_	AdvType=Tim	9	advmod	_	start_char=1428|end_char=1432
+4	e	e	CCONJ	_	_	6	cc	_	start_char=1433|end_char=1434
+5	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	mark	_	start_char=1435|end_char=1437
+6	tej	tej	ADV	_	AdvType=Loc	3	conj	_	start_char=1438|end_char=1441|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	start_char=1441|end_char=1442
+8	nuk	nuk	PART	_	_	9	mark	_	start_char=1443|end_char=1446
+9	eshte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1447|end_char=1452
+10	më	më	PART	_	_	12	mark	_	start_char=1453|end_char=1455
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=1456|end_char=1457
+12	korrupsionit	korrupsion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	cop	_	start_char=1458|end_char=1470
+13	politik	politik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1471|end_char=1478
+14	shqiptar	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1479|end_char=1487|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1487|end_char=1488
+16	por	por	CCONJ	_	_	19	cc	_	start_char=1489|end_char=1492
+17	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	cc	_	start_char=1493|end_char=1494
+18	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	19	amod	_	start_char=1495|end_char=1499
+19	shqiptarëve	shqiptar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	12	conj	_	start_char=1500|end_char=1511|SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	start_char=1511|end_char=1512|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 26
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1513|end_char=1515
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1516|end_char=1526|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1526|end_char=1527|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1528|end_char=1532
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1533|end_char=1535
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1536|end_char=1539
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1540|end_char=1544|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1545|end_char=1563|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1564|end_char=1573
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1574|end_char=1586
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1587|end_char=1593|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1594|end_char=1603
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1604|end_char=1616
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1617|end_char=1624|SpacesAfter=\n\n\n
+

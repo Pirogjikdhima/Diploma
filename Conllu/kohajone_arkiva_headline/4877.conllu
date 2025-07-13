@@ -1,0 +1,377 @@
+# text = FH:
+# sent_id = 0
+1	FH	FH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=2|end_char=3
+
+# text = Pandemia thelloi krizën për demokraci në botë Pandemia e Covidit-19 e ka thelluar krizën për demokraci, liri politike dhe të drejtat e njeriut.
+# sent_id = 1
+1	Pandemia	pandemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=4|end_char=12
+2	thelloi	thelloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=13|end_char=20
+3	krizën	krizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=21|end_char=27
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=28|end_char=31
+5	demokraci	demokrac	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=32|end_char=41
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=42|end_char=44
+7	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=45|end_char=49|SpacesAfter=\n
+8	Pandemia	pandemi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=50|end_char=58
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=59|end_char=60
+10	Covidit-19	Covidit--	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	compound	_	start_char=61|end_char=71
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	cc	_	start_char=72|end_char=73
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=74|end_char=76
+13	thelluar	thelloj	VERB	_	VerbForm=Part	2	conj	_	start_char=77|end_char=85
+14	krizën	krizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=86|end_char=92
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=93|end_char=96
+16	demokraci	demokrac	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	start_char=97|end_char=106|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=106|end_char=107
+18	liri	liri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=108|end_char=112
+19	politike	politik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=113|end_char=121
+20	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=122|end_char=125
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=126|end_char=128
+22	drejtat	drejtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	18	conj	_	start_char=129|end_char=136
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=137|end_char=138
+24	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=139|end_char=146|SpaceAfter=No
+25	.	.	PUNCT	_	_	13	punct	_	start_char=146|end_char=147|SpacesAfter=\n
+
+# text = Sipas raportit “Demokracia në izolim” i publikuar të premten nga organizata amerikane “Freedom House”, kriza pritet të zgjatë 3 deri në 5 vitet e ardhshme.
+# sent_id = 2
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=148|end_char=153
+2	raportit	raport	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=154|end_char=162
+3	“	"	PUNCT	_	_	4	punct	_	start_char=163|end_char=164|SpaceAfter=No
+4	Demokracia	demokraci	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=164|end_char=174
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=175|end_char=177
+6	izolim”	izolimë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=178|end_char=185
+7	i	i	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=186|end_char=187
+8	publikuar	publikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=188|end_char=197
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=198|end_char=200
+10	premten	premte	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=201|end_char=208
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=209|end_char=212
+12	organizata	organizatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=213|end_char=223
+13	amerikane	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=224|end_char=233
+14	“	"	PUNCT	_	_	15	punct	_	start_char=234|end_char=235|SpaceAfter=No
+15	Freedom	Freedom	PROPN	_	Case=Nom|Foreign=Yes	12	appos	_	start_char=235|end_char=242
+16	House”	House”	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	15	flat	_	start_char=243|end_char=249|SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	start_char=249|end_char=250
+18	kriza	krizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	list	_	start_char=251|end_char=256
+19	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=257|end_char=263
+20	të	të	PART	_	_	21	fixed	_	start_char=264|end_char=266
+21	zgjatë	zgjas	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	ccomp	_	start_char=267|end_char=273
+22	3	3	NUM	_	NumType=Card	21	advmod	_	start_char=274|end_char=275
+23	deri	deri	PART	_	_	24	fixed	_	start_char=276|end_char=280
+24	në	në	ADP	_	Case=Acc	26	case	_	start_char=281|end_char=283
+25	5	5	NUM	_	NumType=Card	26	nummod	_	start_char=284|end_char=285
+26	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	advmod	_	start_char=286|end_char=291
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=292|end_char=293
+28	ardhshme	ardhshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=294|end_char=302|SpaceAfter=No
+29	.	.	PUNCT	_	_	19	punct	_	start_char=302|end_char=303|SpacesAfter=\n
+
+# text = Disa nga ekspertët e fushës të intervistuar në Shqipëri shprehën mosbesim për informacionet e qeverisë për situatën epidemike, duke i përqendruar kritikat te mungesa e transparencës, te pamundësia për monitorim dhe te pushteti që shtoi presionin mbi mediet dhe lirinë e shprehjes.
+# sent_id = 3
+1	Disa	disa	PRON	_	PronType=Ind	3	det	_	start_char=304|end_char=308
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=309|end_char=312
+3	ekspertët	ekspertë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	advmod	_	start_char=313|end_char=322
+4	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det:poss	_	start_char=323|end_char=324
+5	fushës	fushë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=325|end_char=331
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=332|end_char=334
+7	intervistuar	intervistuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=335|end_char=347
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=348|end_char=350
+9	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=351|end_char=359
+10	shprehën	shprehëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=360|end_char=368
+11	mosbesim	mosbesim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=369|end_char=377
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=378|end_char=381
+13	informacionet	informacion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	obl	_	start_char=382|end_char=395
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=396|end_char=397
+15	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=398|end_char=406
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=407|end_char=410
+17	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=411|end_char=419
+18	epidemike	epidemik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=420|end_char=429|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	start_char=429|end_char=430
+20	duke	duke	PART	_	_	22	fixed	_	start_char=431|end_char=435
+21	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	iobj	_	start_char=436|end_char=437
+22	përqendruar	përqendroj	VERB	_	VerbForm=Part	10	advmod	_	start_char=438|end_char=449
+23	kritikat	kritikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	22	obj	_	start_char=450|end_char=458
+24	te	te	ADP	_	Case=Nom	25	case	_	start_char=459|end_char=461
+25	mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	advmod	_	start_char=462|end_char=469
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=470|end_char=471
+27	transparencës	transparencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=472|end_char=485|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	start_char=485|end_char=486
+29	te	te	ADP	_	Case=Nom	30	case	_	start_char=487|end_char=489
+30	pamundësia	pamundësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=490|end_char=500
+31	për	për	ADP	_	Case=Acc	32	case	_	start_char=501|end_char=504
+32	monitorim	monitorim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=505|end_char=514
+33	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=515|end_char=518
+34	te	te	ADP	_	Case=Nom	35	case	_	start_char=519|end_char=521
+35	pushteti	pushtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	conj	_	start_char=522|end_char=530
+36	që	që	PRON	_	PronType=Rel	37	nsubj	_	start_char=531|end_char=533
+37	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	35	acl:relcl	_	start_char=534|end_char=539
+38	presionin	presion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	37	obj	_	start_char=540|end_char=549
+39	mbi	mbi	ADP	_	Case=Acc	40	case	_	start_char=550|end_char=553
+40	mediet	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	37	obl	_	start_char=554|end_char=560
+41	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=561|end_char=564
+42	lirinë	liri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	40	conj	_	start_char=565|end_char=571
+43	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	44	det:poss	_	start_char=572|end_char=573
+44	shprehjes	shprehje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	42	nmod	_	start_char=574|end_char=583|SpaceAfter=No
+45	.	.	PUNCT	_	_	37	punct	_	start_char=583|end_char=584|SpacesAfter=\n
+
+# text = Në shumicë, ata ndanë bindjen se institucionet dhe ministritë e linjës, dhe pushtetet e ndryshme në Shqipëri nuk e menaxhuan si duhet krizën, pasojat në ekonomi dhe në të drejtat e njeriut.
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=585|end_char=587
+2	shumicë	shumicë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=588|end_char=595|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=595|end_char=596
+4	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	iobj	_	start_char=597|end_char=600
+5	ndanë	ndaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=601|end_char=606
+6	bindjen	bindje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=607|end_char=614
+7	se	se	SCONJ	_	_	8	mark	_	start_char=615|end_char=617
+8	institucionet	institucion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=618|end_char=631
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=632|end_char=635
+10	ministritë	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	conj	_	start_char=636|end_char=646
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=647|end_char=648
+12	linjës	linjë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=649|end_char=655|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=655|end_char=656
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=657|end_char=660
+15	pushtetet	pushtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	conj	_	start_char=661|end_char=670
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=671|end_char=672
+17	ndryshme	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=673|end_char=681
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=682|end_char=684
+19	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	advmod	_	start_char=685|end_char=693
+20	nuk	nuk	PART	_	_	22	mark	_	start_char=694|end_char=697
+21	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=698|end_char=699
+22	menaxhuan	menaxhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=700|end_char=709
+23	si	si	SCONJ	_	_	24	mark	_	start_char=710|end_char=712
+24	duhet	duhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	ccomp	_	start_char=713|end_char=718
+25	krizën	krizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=719|end_char=725|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=725|end_char=726
+27	pasojat	pasojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	24	obj	_	start_char=727|end_char=734
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=735|end_char=737
+29	ekonomi	ekonomi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=738|end_char=745
+30	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=746|end_char=749
+31	në	në	ADP	_	Case=Acc	33	case	_	start_char=750|end_char=752
+32	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=753|end_char=755
+33	drejtat	drejtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	conj	_	start_char=756|end_char=763
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	35	det:poss	_	start_char=764|end_char=765
+35	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=766|end_char=773|SpaceAfter=No
+36	.	.	PUNCT	_	_	24	punct	_	start_char=773|end_char=774|SpacesAfter=\n
+
+# text = Megjithatë, në vlerësimin e përgjithshëm Shqipëria mbetet ende një vend pjesërisht i lirë.
+# sent_id = 5
+1	Megjithatë	megjithatë	CCONJ	_	_	8	cc	_	start_char=775|end_char=785|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	start_char=785|end_char=786
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=787|end_char=789
+4	vlerësimin	vlerësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=790|end_char=800
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=801|end_char=802
+6	përgjithshëm	përgjithshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=803|end_char=815
+7	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=816|end_char=825
+8	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=826|end_char=832
+9	ende	ende	ADV	_	AdvType=Tim	8	advmod	_	start_char=833|end_char=837
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=838|end_char=841
+11	vend	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=842|end_char=846
+12	pjesërisht	pjesërisht	ADV	_	AdvType=Man	14	advmod	_	start_char=847|end_char=857
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=858|end_char=859
+14	lirë	lirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=860|end_char=864|SpaceAfter=No
+15	.	.	PUNCT	_	_	8	punct	_	start_char=864|end_char=865|SpacesAfter=\n
+
+# text = “Freedom House”, në nivel global, zbuloi se qeveritë e përdorën pandeminë si arsye për t’i dhënë vetes kompetenca të veçanta, përtej asaj që kërkohej për të mbrojtur shëndetin publik.
+# sent_id = 6
+1	“	"	PUNCT	_	_	2	punct	_	start_char=866|end_char=867|SpaceAfter=No
+2	Freedom	Freedom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=867|end_char=874
+3	House”	House”	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=875|end_char=881|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	start_char=881|end_char=882
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=883|end_char=885
+6	nivel	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=886|end_char=891
+7	global	global	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=892|end_char=898|SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	start_char=898|end_char=899
+9	zbuloi	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=900|end_char=906
+10	se	se	SCONJ	_	_	13	mark	_	start_char=907|end_char=909
+11	qeveritë	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	start_char=910|end_char=918
+12	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=919|end_char=920
+13	përdorën	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	start_char=921|end_char=929
+14	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=930|end_char=939
+15	si	si	SCONJ	_	_	16	mark	_	start_char=940|end_char=942
+16	arsye	arsye	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=943|end_char=948
+17	për	për	PART	_	_	19	fixed	_	start_char=949|end_char=952
+18	t’i	t’i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	19	obj	_	start_char=953|end_char=956
+19	dhënë	jap	VERB	_	VerbForm=Part	13	advmod	_	start_char=957|end_char=962
+20	vetes	vete	PRON	_	PronType=Prs|Reflex=Yes	19	obj	_	start_char=963|end_char=968
+21	kompetenca	kompetencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=969|end_char=979
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=980|end_char=982
+23	veçanta	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=983|end_char=990|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	start_char=990|end_char=991
+25	përtej	përtej	ADP	_	Case=Abl	26	case	_	start_char=992|end_char=998
+26	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	advmod	_	start_char=999|end_char=1003
+27	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=1004|end_char=1006
+28	kërkohej	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	26	acl	_	start_char=1007|end_char=1015
+29	për	për	PART	_	_	31	fixed	_	start_char=1016|end_char=1019
+30	të	të	PART	_	_	31	fixed	_	start_char=1020|end_char=1022
+31	mbrojtur	mbroj	VERB	_	VerbForm=Part	28	advmod	_	start_char=1023|end_char=1031
+32	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=1032|end_char=1041
+33	publik	publik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=1042|end_char=1048|SpaceAfter=No
+34	.	.	PUNCT	_	_	28	punct	_	start_char=1048|end_char=1049|SpacesAfter=\n
+
+# text = Kjo rezultoi në dobësimin e nivelit të demokracisë në 80 shtete të botës, mes tyre vendet fqinje, Greqia, Mali i Zi dhe Serbia.
+# sent_id = 7
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	fixed	_	start_char=1050|end_char=1053
+2	rezultoi	rezultoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1054|end_char=1062
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=1063|end_char=1065
+4	dobësimin	dobësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=1066|end_char=1075
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=1076|end_char=1077
+6	nivelit	nivel	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1078|end_char=1085
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=1086|end_char=1088
+8	demokracisë	demokraci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=1089|end_char=1100
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=1101|end_char=1103
+10	80	80	NUM	_	NumType=Card	11	nummod	_	start_char=1104|end_char=1106
+11	shtete	shtet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=1107|end_char=1113
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=1114|end_char=1116
+13	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1117|end_char=1122|SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	start_char=1122|end_char=1123
+15	mes	mes	ADP	_	Case=Abl	16	case	_	start_char=1124|end_char=1127
+16	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	advmod	_	start_char=1128|end_char=1132
+17	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=1133|end_char=1139
+18	fqinje	fqinje	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=1140|end_char=1146|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=1146|end_char=1147
+20	Greqia	Greqi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	list	_	start_char=1148|end_char=1154|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1154|end_char=1155
+22	Mali	mal	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	list	_	start_char=1156|end_char=1160
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=1161|end_char=1162
+24	Zi	zi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=1163|end_char=1165
+25	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=1166|end_char=1169
+26	Serbia	Serbi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	conj	_	start_char=1170|end_char=1176|SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	start_char=1176|end_char=1177|SpacesAfter=\n
+
+# text = Disa qeveri zbatuan masa diskriminuese të izolimit dhe ndërmorën fushata keqinformimi.
+# sent_id = 8
+1	Disa	disa	PRON	_	PronType=Ind	2	det	_	start_char=1178|end_char=1182
+2	qeveri	qever	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1183|end_char=1189
+3	zbatuan	zbatoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1190|end_char=1197
+4	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=1198|end_char=1202
+5	diskriminuese	diskriminues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1203|end_char=1216
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=1217|end_char=1219
+7	izolimit	izolim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1220|end_char=1228
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=1229|end_char=1232
+9	ndërmorën	ndërmor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=1233|end_char=1242
+10	fushata	fushatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=1243|end_char=1250
+11	keqinformimi	keqinformim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1251|end_char=1263|SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	start_char=1263|end_char=1264|SpacesAfter=\n
+
+# text = Emigrantët u portretizuan si bartës të mundshëm të virusit në një rast në Serbi; në Mal të Zi u tentua të ndaleshin protestat për ligjin e feve me arsyen se përhapnin infeksionin; ndërsa në Turqi, Drejtoria për Çështjet Fetare deklaroi se personat e komunitetit LGBT janë përgjegjësit për shpërndarjen e koronavirusit të ri sepse i ka dënuar Zoti.
+# sent_id = 9
+1	Emigrantët	mmigrantë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1265|end_char=1275
+2	u	u	PART	_	_	3	fixed	_	start_char=1276|end_char=1277
+3	portretizuan	portretizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1278|end_char=1290
+4	si	si	SCONJ	_	_	5	mark	_	start_char=1291|end_char=1293
+5	bartës	bartë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=1294|end_char=1300
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=1301|end_char=1303
+7	mundshëm	mundshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1304|end_char=1312
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=1313|end_char=1315
+9	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=1316|end_char=1323
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=1324|end_char=1326
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=1327|end_char=1330
+12	rast	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=1331|end_char=1335
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=1336|end_char=1338
+14	Serbi;	Serbi;	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=1339|end_char=1345
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=1346|end_char=1348
+16	Mal	mal	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=1349|end_char=1352
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=1353|end_char=1355
+18	Zi	zi	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=1356|end_char=1358
+19	u	u	PART	_	_	20	fixed	_	start_char=1359|end_char=1360
+20	tentua	tentoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	start_char=1361|end_char=1367
+21	të	të	PART	_	_	22	fixed	_	start_char=1368|end_char=1370
+22	ndaleshin	ndalesh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	20	ccomp	_	start_char=1371|end_char=1380
+23	protestat	protestë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	obj	_	start_char=1381|end_char=1390
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=1391|end_char=1394
+25	ligjin	ligj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=1395|end_char=1401
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=1402|end_char=1403
+27	feve	fevë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=1404|end_char=1408
+28	me	me	ADP	_	Case=Acc	29	case	_	start_char=1409|end_char=1411
+29	arsyen	arsye	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=1412|end_char=1418
+30	se	se	SCONJ	_	_	31	mark	_	start_char=1419|end_char=1421
+31	përhapnin	përhap	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	25	acl:relcl	_	start_char=1422|end_char=1431
+32	infeksionin	infeksion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=1432|end_char=1443|SpaceAfter=No
+33	;	;	PUNCT	_	_	34	punct	_	start_char=1443|end_char=1444
+34	ndërsa	ndërsa	CCONJ	_	_	42	cc	_	start_char=1445|end_char=1451
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=1452|end_char=1454
+36	Turqi	Turqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	advmod	_	start_char=1455|end_char=1460|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	start_char=1460|end_char=1461
+38	Drejtoria	drejtori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	42	nsubj	_	start_char=1462|end_char=1471
+39	për	për	ADP	_	Case=Acc	40	case	_	start_char=1472|end_char=1475
+40	Çështjet	Çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	start_char=1476|end_char=1484
+41	Fetare	Fetar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=1485|end_char=1491
+42	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	36	acl	_	start_char=1492|end_char=1500
+43	se	se	SCONJ	_	_	48	mark	_	start_char=1501|end_char=1503
+44	personat	personë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	48	nsubj	_	start_char=1504|end_char=1512
+45	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	46	det:poss	_	start_char=1513|end_char=1514
+46	komunitetit	komunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=1515|end_char=1526
+47	LGBT	LGBT	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	46	appos	_	start_char=1527|end_char=1531
+48	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	42	conj	_	start_char=1532|end_char=1536
+49	përgjegjësit	përgjegjës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	48	cop	_	start_char=1537|end_char=1549
+50	për	për	ADP	_	Case=Acc	51	case	_	start_char=1550|end_char=1553
+51	shpërndarjen	shpërndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	48	advmod	_	start_char=1554|end_char=1566
+52	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	53	det	_	start_char=1567|end_char=1568
+53	koronavirusit	koronavirus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	51	nmod	_	start_char=1569|end_char=1582
+54	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	55	det	_	start_char=1583|end_char=1585
+55	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	start_char=1586|end_char=1588
+56	sepse	sepse	SCONJ	_	_	59	mark	_	start_char=1589|end_char=1594
+57	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	iobj	_	start_char=1595|end_char=1596
+58	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	59	aux	_	start_char=1597|end_char=1599
+59	dënuar	dënoj	VERB	_	VerbForm=Part	53	acl	_	start_char=1600|end_char=1606
+60	Zoti	Zot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	59	obj	_	start_char=1607|end_char=1611|SpaceAfter=No
+61	.	.	PUNCT	_	_	59	punct	_	start_char=1611|end_char=1612|SpacesAfter=\n
+
+# text = Fushata të tilla nuk kursyen as vendet më të zhvilluara si Shtetet e Bashkuara të Amerikës.
+# sent_id = 10
+1	Fushata	Fushatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=1613|end_char=1620
+2	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=1621|end_char=1623
+3	tilla	tillë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	1	amod	_	start_char=1624|end_char=1629
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=1630|end_char=1633
+5	kursyen	kursyj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1634|end_char=1641
+6	as	as	CCONJ	_	_	7	cc	_	start_char=1642|end_char=1644
+7	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=1645|end_char=1651
+8	më	më	PART	_	_	10	mark	_	start_char=1652|end_char=1654
+9	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=1655|end_char=1657
+10	zhvilluara	zhvilluar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=1658|end_char=1668
+11	si	si	SCONJ	_	_	12	mark	_	start_char=1669|end_char=1671
+12	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=1672|end_char=1679
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=1680|end_char=1681
+14	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=1682|end_char=1691
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=1692|end_char=1694
+16	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=1695|end_char=1703|SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	start_char=1703|end_char=1704|SpacesAfter=\n
+
+# text = Konkluzionet e Freedom House u nxorën pas sondazheve me afro 400 ekspertë nga 105 shtete të botës në muajt mars-shtator.
+# sent_id = 11
+1	Konkluzionet	konkluzion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=1705|end_char=1717
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=1718|end_char=1719
+3	Freedom	Freedom	PROPN	_	Foreign=Yes	1	nmod	_	start_char=1720|end_char=1727
+4	House	House	PROPN	_	Foreign=Yes	3	flat	_	start_char=1728|end_char=1733
+5	u	u	PART	_	_	6	fixed	_	start_char=1734|end_char=1735
+6	nxorën	nxjerr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1736|end_char=1742
+7	pas	pas	ADP	_	Case=Abl	8	case	_	start_char=1743|end_char=1746
+8	sondazheve	sondazhe	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	start_char=1747|end_char=1757
+9	me	me	ADP	_	Case=Acc	12	case	_	start_char=1758|end_char=1760
+10	afro	afro	NUM	_	NumType=Card	12	nummod	_	start_char=1761|end_char=1765
+11	400	400	NUM	_	NumType=Card	12	nummod	_	start_char=1766|end_char=1769
+12	ekspertë	ekspert	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=1770|end_char=1778
+13	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=1779|end_char=1782
+14	105	105	NUM	_	NumType=Card	15	nummod	_	start_char=1783|end_char=1786
+15	shtete	shtet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	start_char=1787|end_char=1793
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=1794|end_char=1796
+17	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=1797|end_char=1802
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=1803|end_char=1805
+19	muajt	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=1806|end_char=1811
+20	mars-shtator	mars-shtator	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	start_char=1812|end_char=1824|SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	start_char=1824|end_char=1825|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 12
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1826|end_char=1828
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1829|end_char=1839|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1839|end_char=1840|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1841|end_char=1845
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1846|end_char=1848
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1849|end_char=1852
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1853|end_char=1857|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1858|end_char=1876|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1877|end_char=1886
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1887|end_char=1899
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1900|end_char=1906|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1907|end_char=1916
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1917|end_char=1929
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1930|end_char=1937|SpacesAfter=\n\n\n
+

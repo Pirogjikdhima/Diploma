@@ -1,0 +1,748 @@
+# text = Polemika:
+# sent_id = 0
+1	Polemika	polemikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9
+
+# text = “Përse jo Vlora?” Anije, helikopterë, avionë dhe kavo të këputura, por ka polemika për zgjedhjen e portit.
+# sent_id = 1
+1	“	"	PUNCT	_	_	2	punct	_	start_char=10|end_char=11|SpaceAfter=No
+2	Përse	përse	SCONJ	_	_	4	mark	_	start_char=11|end_char=16
+3	jo	jo	PART	_	_	4	mark	_	start_char=17|end_char=19
+4	Vlora	Vlorë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=20|end_char=25|SpaceAfter=No
+5	?	?	PUNCT	_	_	7	punct	_	start_char=25|end_char=26|SpaceAfter=No
+6	”	"	PUNCT	_	_	7	punct	_	start_char=26|end_char=27|SpacesAfter=\n
+7	Anije	Anije	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	list	_	start_char=28|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=33|end_char=34
+9	helikopterë	helikopterë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	list	_	start_char=35|end_char=46|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=46|end_char=47
+11	avionë	avionë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	list	_	start_char=48|end_char=54
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=55|end_char=58
+13	kavo	kavo	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	conj	_	start_char=59|end_char=63
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=64|end_char=66
+15	këputura	këputurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=67|end_char=75|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=75|end_char=76
+17	por	por	CCONJ	_	_	18	cc	_	start_char=77|end_char=80
+18	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=81|end_char=83
+19	polemika	polemikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=84|end_char=92
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=93|end_char=96
+21	zgjedhjen	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=97|end_char=106
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=107|end_char=108
+23	portit	port	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=109|end_char=115|SpaceAfter=No
+24	.	.	PUNCT	_	_	18	punct	_	start_char=115|end_char=116
+
+# text = “Shumë ekipe për të koordinuar, nuk mund të bënim më asgjë.
+# sent_id = 2
+1	“	"	PUNCT	_	_	3	punct	_	start_char=117|end_char=118|SpaceAfter=No
+2	Shumë	shumë	PRON	_	PronType=Ind	3	nummod	_	start_char=118|end_char=123
+3	ekipe	ekip	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	11	nsubj	_	start_char=124|end_char=129
+4	për	për	PART	_	_	6	fixed	_	start_char=130|end_char=133
+5	të	të	PART	_	_	6	fixed	_	start_char=134|end_char=136
+6	koordinuar	koordinoj	VERB	_	VerbForm=Part	3	advmod	_	start_char=137|end_char=147|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	start_char=147|end_char=148
+8	nuk	nuk	PART	_	_	11	mark	_	start_char=149|end_char=152
+9	mund	mund	AUX	_	_	11	aux	_	start_char=153|end_char=157
+10	të	të	PART	_	_	11	fixed	_	start_char=158|end_char=160
+11	bënim	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=161|end_char=166
+12	më	më	PART	_	_	13	mark	_	start_char=167|end_char=169
+13	asgjë	asgjë	PRON	_	PronType=Ind	11	nsubj	_	start_char=170|end_char=175|SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	start_char=175|end_char=176
+
+# text = Renzi drejton operacionin.
+# sent_id = 3
+1	Renzi	Renzi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=177|end_char=182
+2	drejton	drejtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=183|end_char=190
+3	operacionin	operacion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=191|end_char=202|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=202|end_char=203
+
+# text = Ka dyshime për Pulian dhe Greqinë.
+# sent_id = 4
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=204|end_char=206
+2	dyshime	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	start_char=207|end_char=214
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=215|end_char=218
+4	Pulian	Pulian	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	start_char=219|end_char=225
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=226|end_char=229
+6	Greqinë	Greqinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=230|end_char=237|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	start_char=237|end_char=238
+
+# text = “Përse jo Vlora?
+# sent_id = 5
+1	“	"	PUNCT	_	_	2	punct	_	start_char=239|end_char=240|SpaceAfter=No
+2	Përse	përse	SCONJ	_	_	4	mark	_	start_char=240|end_char=245
+3	jo	jo	PART	_	_	4	mark	_	start_char=246|end_char=248
+4	Vlora	Vlorë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=249|end_char=254|SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	start_char=254|end_char=255|SpaceAfter=No
+
+# text = ”
+# sent_id = 6
+1	”	"	PUNCT	_	_	0	root	_	start_char=255|end_char=256|SpacesAfter=\n\n
+
+# text = Norman Atlantic nuk është i kollajtë për t’u qetësuar.
+# sent_id = 7
+1	Norman	Norman	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=258|end_char=264
+2	Atlantic	Atlantic	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=265|end_char=273
+3	nuk	nuk	PART	_	Polarity=Neg	4	mark	_	start_char=274|end_char=277
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=278|end_char=283
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=284|end_char=285
+6	kollajtë	kollajtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	cop	_	start_char=286|end_char=294
+7	për	për	PART	_	_	10	fixed	_	start_char=295|end_char=298
+8-9	t’u	_	_	_	_	_	_	_	start_char=299|end_char=302
+8	të	të	PART	_	_	10	fixed	_	_
+9	u	u	PART	_	_	10	fixed	_	_
+10	qetësuar	qetësoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=303|end_char=311|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	start_char=311|end_char=312
+
+# text = I rrethuar nga tetë anije dhe dy motovedeta, njëra e kapitenerisë së portit italian dhe një tjetër e kapitenerisë shqiptare, mbikëqyrur nga lartë prej dy avionëve dhe 9 helikopterëve, nën vështrimin nga një milje distancë të anijes San Giorgio, në orën 21.30 ka vazhduar të “endet” 13 milje larg brigjeve të Shqipërisë.
+# sent_id = 8
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=313|end_char=314
+2	rrethuar	rrethuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=315|end_char=323
+3	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=324|end_char=327
+4	tetë	tetë	NUM	_	NumType=Card	5	nummod	_	start_char=328|end_char=332
+5	anije	anije	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	start_char=333|end_char=338
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=339|end_char=342
+7	dy	dy	NUM	_	NumType=Card	8	nummod	_	start_char=343|end_char=345
+8	motovedeta	motovedetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=346|end_char=356|SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	start_char=356|end_char=357
+10	njëra	njëra	PRON	_	PronType=Ind	8	appos	_	start_char=358|end_char=363
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=364|end_char=365
+12	kapitenerisë	kapiteneri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=366|end_char=378
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=379|end_char=381
+14	portit	port	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=382|end_char=388
+15	italian	italian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=389|end_char=396
+16	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=397|end_char=400
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=401|end_char=404
+18	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	conj	_	start_char=405|end_char=411
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=412|end_char=413
+20	kapitenerisë	kapiteneri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=414|end_char=426
+21	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=427|end_char=436|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=436|end_char=437
+23	mbikëqyrur	mbikëqyroj	VERB	_	VerbForm=Part	20	amod	_	start_char=438|end_char=448
+24	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=449|end_char=452
+25	lartë	lartë	ADV	_	AdvType=Tim	23	advmod	_	start_char=453|end_char=458
+26	prej	prej	ADP	_	Case=Abl	28	case	_	start_char=459|end_char=463
+27	dy	dy	NUM	_	NumType=Card	28	nummod	_	start_char=464|end_char=466
+28	avionëve	avion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	23	advmod	_	start_char=467|end_char=475
+29	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=476|end_char=479
+30	9	9	NUM	_	NumType=Card	31	nummod	_	start_char=480|end_char=481
+31	helikopterëve	helikopter	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	28	conj	_	start_char=482|end_char=495|SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	start_char=495|end_char=496
+33	nën	nën	ADP	_	Case=Acc	34	case	_	start_char=497|end_char=500
+34	vështrimin	vështrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=501|end_char=511
+35	nga	nga	ADP	_	Case=Nom	37	case	_	start_char=512|end_char=515
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=516|end_char=519
+37	milje	milje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	34	nmod	_	start_char=520|end_char=525
+38	distancë	distancë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	start_char=526|end_char=534
+39	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	40	det:poss	_	start_char=535|end_char=537
+40	anijes	anije	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=538|end_char=544
+41	San	San	PROPN	_	Foreign=Yes	40	appos	_	start_char=545|end_char=548
+42	Giorgio	Giorgio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	40	appos	_	start_char=549|end_char=556|SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	start_char=556|end_char=557
+44	në	në	ADP	_	Case=Acc	45	case	_	start_char=558|end_char=560
+45	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	48	advmod	_	start_char=561|end_char=565
+46	21.30	21.30	NUM	_	NumType=Card	45	amod:nummod	_	start_char=566|end_char=571
+47	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	48	aux	_	start_char=572|end_char=574
+48	vazhduar	vazhdoj	VERB	_	VerbForm=Part	23	conj	_	start_char=575|end_char=583
+49	të	të	PART	_	_	50	det	_	start_char=584|end_char=586
+50	“endet”	“endet”	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	48	obj	_	start_char=587|end_char=594
+51	13	13	NUM	_	NumType=Card	52	nummod	_	start_char=595|end_char=597
+52	milje	milje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	48	obj	_	start_char=598|end_char=603
+53	larg	larg	ADP	_	Case=Abl	54	case	_	start_char=604|end_char=608
+54	brigjeve	brigje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	52	nmod	_	start_char=609|end_char=617
+55	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	56	det:poss	_	start_char=618|end_char=620
+56	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	54	nmod	_	start_char=621|end_char=631|SpaceAfter=No
+57	.	.	PUNCT	_	_	48	punct	_	start_char=631|end_char=632
+
+# text = 17 or pas flakëve të para, pas asaj sirene që lajmëroi 422 pasagjerët në orën 4.30 të mëngjesit, trageti i nisur nga Patra drejt Ankonës ka vazhduar të qëndrojë nën mëshirën e dallgëve.
+# sent_id = 9
+1	17	17	NUM	_	NumType=Card	29	advmod	_	start_char=633|end_char=635
+2	or	or	PUNCT	_	_	4	punct	_	start_char=636|end_char=638
+3	pas	pas	ADP	_	Case=Abl	4	case	_	start_char=639|end_char=642
+4	flakëve	flakë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	29	advmod	_	start_char=643|end_char=650
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=651|end_char=653
+6	para	para	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=654|end_char=658|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	start_char=658|end_char=659
+8	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=660|end_char=663
+9	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=664|end_char=668
+10	sirene	siren	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=669|end_char=675
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=676|end_char=678
+12	lajmëroi	lajmëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	start_char=679|end_char=687
+13	422	422	NUM	_	NumType=Card	14	nummod	_	start_char=688|end_char=691
+14	pasagjerët	pasagjerë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=692|end_char=702
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=703|end_char=705
+16	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=706|end_char=710
+17	4.30	4.30	NUM	_	NumType=Card	16	nummod	_	start_char=711|end_char=715
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=716|end_char=718
+19	mëngjesit	mëngjes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=719|end_char=728|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=728|end_char=729
+21	trageti	traget	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	list	_	start_char=730|end_char=737
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=738|end_char=739
+23	nisur	nisur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=740|end_char=745
+24	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=746|end_char=749
+25	Patra	patër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=750|end_char=755
+26	drejt	drejt	ADP	_	Case=Abl	27	case	_	start_char=756|end_char=761
+27	Ankonës	Ankonë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	29	obl	_	start_char=762|end_char=769
+28	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=770|end_char=772
+29	vazhduar	vazhdoj	VERB	_	VerbForm=Part	0	root	_	start_char=773|end_char=781
+30	të	të	PART	_	_	31	fixed	_	start_char=782|end_char=784
+31	qëndrojë	qëndroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	ccomp	_	start_char=785|end_char=793
+32	nën	nën	ADP	_	Case=Acc	33	case	_	start_char=794|end_char=797
+33	mëshirën	mëshirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obl	_	start_char=798|end_char=806
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=807|end_char=808
+35	dallgëve	dallgë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	33	nmod	_	start_char=809|end_char=817|SpaceAfter=No
+36	.	.	PUNCT	_	_	31	punct	_	start_char=817|end_char=818
+
+# text = Poshtë në ujë, në një det tetë ballësh dhe një erë 40 nyje, gjithë ditën kanë vazhduar oepracionet e shpëtimit, me përpjekjet për të kapur me kavo anijen, për ta stabilizuar, dhe për t’i ndalur lëkundjet e vazhdueshme.
+# sent_id = 10
+1	Poshtë	poshtë	ADV	_	AdvType=Tim	19	advmod	_	start_char=819|end_char=825
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=826|end_char=828
+3	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=829|end_char=832|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=832|end_char=833
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=834|end_char=836
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=837|end_char=840
+7	det	det	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=841|end_char=844
+8	tetë	tetë	NUM	_	NumType=Card	9	nummod	_	start_char=845|end_char=849
+9	ballësh	ballësh	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=850|end_char=857
+10	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=858|end_char=861
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=862|end_char=865
+12	erë	erë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	start_char=866|end_char=869
+13	40	40	NUM	_	NumType=Card	14	nummod	_	start_char=870|end_char=872
+14	nyje	nyje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	start_char=873|end_char=877|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	start_char=877|end_char=878
+16	gjithë	gjithë	PRON	_	PronType=Ind	17	det	_	start_char=879|end_char=885
+17	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	start_char=886|end_char=891
+18	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=892|end_char=896
+19	vazhduar	vazhdoj	VERB	_	VerbForm=Part	0	root	_	start_char=897|end_char=905
+20	oepracionet	oepracion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=906|end_char=917
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det:poss	_	start_char=918|end_char=919
+22	shpëtimit	shpëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=920|end_char=929|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	start_char=929|end_char=930
+24	me	me	ADP	_	Case=Acc	25	case	_	start_char=931|end_char=933
+25	përpjekjet	përpjekje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	28	advmod	_	start_char=934|end_char=944
+26	për	për	PART	_	_	28	fixed	_	start_char=945|end_char=948
+27	të	të	PART	_	_	28	fixed	_	start_char=949|end_char=951
+28	kapur	kam	VERB	_	VerbForm=Part	19	advmod	_	start_char=952|end_char=957
+29	me	me	ADP	_	Case=Acc	30	case	_	start_char=958|end_char=960
+30	kavo	kavo	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obl	_	start_char=961|end_char=965
+31	anijen	anije	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=966|end_char=972|SpaceAfter=No
+32	,	,	PUNCT	_	_	36	punct	_	start_char=972|end_char=973
+33	për	për	PART	_	_	36	fixed	_	start_char=974|end_char=977
+34-35	ta	_	_	_	_	_	_	_	start_char=978|end_char=980
+34	të	të	PART	_	_	36	fixed	_	_
+35	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+36	stabilizuar	stabilizoj	VERB	_	VerbForm=Part	28	advmod	_	start_char=981|end_char=992|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	start_char=992|end_char=993
+38	dhe	dhe	CCONJ	_	_	41	cc	_	start_char=994|end_char=997
+39	për	për	ADP	_	Case=Acc	40	case	_	start_char=998|end_char=1001
+40	t’i	t’i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obj	_	start_char=1002|end_char=1005
+41	ndalur	ndal	VERB	_	VerbForm=Part	36	conj	_	start_char=1006|end_char=1012
+42	lëkundjet	lëkundje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	41	obj	_	start_char=1013|end_char=1022
+43	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	44	det	_	start_char=1023|end_char=1024
+44	vazhdueshme	vazhdueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	start_char=1025|end_char=1036|SpaceAfter=No
+45	.	.	PUNCT	_	_	41	punct	_	start_char=1036|end_char=1037
+
+# text = Eshtë kjo fotografia e një prej “operacioneve të shpëtimit më kompleksë të viteve të fundit”, si e ka quajtur qeveria greke, i cili ka nisur zyrtarisht në 4.47 të mëngjesit të djeshëm me një mesazh për qendrën e koordinimit të kërkimeve detare në Romë dhe përfunduar vetëm agimin e sotën me një polemikë mbi tërheqjen e Norman, që autoritetet greke do të kishin preferuar të shkonte në Vlorë dhe jo në Brindizi.
+# sent_id = 11
+1	Eshtë	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1038|end_char=1043
+2	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=1044|end_char=1047
+3	fotografia	fotografi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	cop	_	start_char=1048|end_char=1058
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=1059|end_char=1060
+5	një	një	DET	_	Definite=Ind	3	det	_	start_char=1061|end_char=1064
+6	prej	prej	ADP	_	Case=Abl	7	case	_	start_char=1065|end_char=1069
+7	“operacioneve	“operacion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=1070|end_char=1083
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=1084|end_char=1086
+9	shpëtimit	shpëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=1087|end_char=1096
+10	më	më	PART	_	_	11	mark	_	start_char=1097|end_char=1099
+11	kompleksë	komplek	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1100|end_char=1109
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=1110|end_char=1112
+13	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=1113|end_char=1119
+14	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=1120|end_char=1122
+15	fundit”	fundit”	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1123|end_char=1130|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=1130|end_char=1131
+17	si	si	SCONJ	_	_	20	mark	_	start_char=1132|end_char=1134
+18	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	cc	_	start_char=1135|end_char=1136
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=1137|end_char=1139
+20	quajtur	quaj	VERB	_	VerbForm=Part	1	advcl	_	start_char=1140|end_char=1147
+21	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=1148|end_char=1155
+22	greke	grek	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=1156|end_char=1161|SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	start_char=1161|end_char=1162
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=1163|end_char=1164
+25	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	start_char=1165|end_char=1169
+26	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=1170|end_char=1172
+27	nisur	nis	VERB	_	VerbForm=Part	20	advcl	_	start_char=1173|end_char=1178
+28	zyrtarisht	zyrtarisht	ADV	_	AdvType=Man	27	advmod	_	start_char=1179|end_char=1189
+29	në	në	ADP	_	Case=Acc	32	case	_	start_char=1190|end_char=1192
+30	4.47	4.47	NUM	_	NumType=Card	32	nummod	_	start_char=1193|end_char=1197
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det	_	start_char=1198|end_char=1200
+32	mëngjesit	mëngjes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=1201|end_char=1210
+33	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=1211|end_char=1213
+34	djeshëm	djeshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=1214|end_char=1221
+35	me	me	ADP	_	Case=Acc	37	case	_	start_char=1222|end_char=1224
+36	një	një	DET	_	Definite=Ind	37	det	_	start_char=1225|end_char=1228
+37	mesazh	mesazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	start_char=1229|end_char=1235
+38	për	për	ADP	_	Case=Acc	39	case	_	start_char=1236|end_char=1239
+39	qendrën	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	start_char=1240|end_char=1247
+40	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	41	det:poss	_	start_char=1248|end_char=1249
+41	koordinimit	koordinim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	start_char=1250|end_char=1261
+42	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	43	det:poss	_	start_char=1262|end_char=1264
+43	kërkimeve	kërkim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	41	nmod	_	start_char=1265|end_char=1274
+44	detare	detar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	43	amod	_	start_char=1275|end_char=1281
+45	në	në	ADP	_	Case=Acc	46	case	_	start_char=1282|end_char=1284
+46	Romë	Romë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	43	nmod	_	start_char=1285|end_char=1289
+47	dhe	dhe	CCONJ	_	_	48	cc	_	start_char=1290|end_char=1293
+48	përfunduar	përfundoj	VERB	_	VerbForm=Part	43	conj	_	start_char=1294|end_char=1304
+49	vetëm	vetëm	PART	_	_	50	mark	_	start_char=1305|end_char=1310
+50	agimin	agim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	48	obj	_	start_char=1311|end_char=1317
+51	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	52	det:poss	_	start_char=1318|end_char=1319
+52	sotën	sotë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	50	nmod	_	start_char=1320|end_char=1325
+53	me	me	ADP	_	Case=Acc	55	case	_	start_char=1326|end_char=1328
+54	një	një	DET	_	Definite=Ind	55	det	_	start_char=1329|end_char=1332
+55	polemikë	polemikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	50	nmod	_	start_char=1333|end_char=1341
+56	mbi	mbi	ADP	_	Case=Acc	57	case	_	start_char=1342|end_char=1345
+57	tërheqjen	tërheqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	55	nmod	_	start_char=1346|end_char=1355
+58	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	59	det:poss	_	start_char=1356|end_char=1357
+59	Norman	Norman	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	57	nmod	_	start_char=1358|end_char=1364|SpaceAfter=No
+60	,	,	PUNCT	_	_	61	punct	_	start_char=1364|end_char=1365
+61	që	që	PRON	_	PronType=Rel	67	nsubj	_	start_char=1366|end_char=1368
+62	autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	57	nmod	_	start_char=1369|end_char=1380
+63	greke	grek	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	62	amod	_	start_char=1381|end_char=1386
+64	do	do	PART	_	_	67	fixed	_	start_char=1387|end_char=1389
+65	të	të	PART	_	_	67	fixed	_	start_char=1390|end_char=1392
+66	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	67	aux	_	start_char=1393|end_char=1399
+67	preferuar	preferoj	VERB	_	VerbForm=Part	62	acl:relcl	_	start_char=1400|end_char=1409
+68	të	të	PART	_	_	69	fixed	_	start_char=1410|end_char=1412
+69	shkonte	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	67	ccomp	_	start_char=1413|end_char=1420
+70	në	në	ADP	_	Case=Acc	71	case	_	start_char=1421|end_char=1423
+71	Vlorë	Vlorë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	69	obl	_	start_char=1424|end_char=1429
+72	dhe	dhe	CCONJ	_	_	75	cc	_	start_char=1430|end_char=1433
+73	jo	jo	PART	_	_	75	mark	_	start_char=1434|end_char=1436
+74	në	në	ADP	_	Case=Acc	75	case	_	start_char=1437|end_char=1439
+75	Brindizi	Brindiz	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	69	obl	_	start_char=1440|end_char=1448|SpaceAfter=No
+76	.	.	PUNCT	_	_	69	punct	_	start_char=1448|end_char=1449
+
+# text = Një mendim që e ndan edhe kreu i qytetit puljez, Mimmo Consales.
+# sent_id = 12
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1450|end_char=1453
+2	mendim	mendim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=1454|end_char=1460
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=1461|end_char=1463
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=1464|end_char=1465
+5	ndan	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=1466|end_char=1470
+6	edhe	edhe	PART	_	_	7	cc	_	start_char=1471|end_char=1475
+7	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=1476|end_char=1480
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1481|end_char=1482
+9	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=1483|end_char=1490
+10	puljez	puljez	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1491|end_char=1497|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	start_char=1497|end_char=1498
+12	Mimmo	Mimmo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=1499|end_char=1504
+13	Consales	Consale	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=1505|end_char=1513|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	start_char=1513|end_char=1514
+
+# text = “Nëse prioriteti është shpëtimi i pasagjerëve, përse të mos tërhiqet Norman në Shqipëri?
+# sent_id = 13
+1	“	"	PUNCT	_	_	2	punct	_	start_char=1515|end_char=1516|SpaceAfter=No
+2	Nëse	nëse	SCONJ	_	_	4	mark	_	start_char=1516|end_char=1520
+3	prioriteti	prioritet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1521|end_char=1531
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1532|end_char=1537
+5	shpëtimi	shpëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=1538|end_char=1546
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1547|end_char=1548
+7	pasagjerëve	pasagjer	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=1549|end_char=1560|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1560|end_char=1561
+9	përse	përse	SCONJ	_	_	12	mark	_	start_char=1562|end_char=1567
+10	të	të	PART	_	_	12	fixed	_	start_char=1568|end_char=1570
+11	mos	mos	PART	_	_	12	mark	_	start_char=1571|end_char=1574
+12	tërhiqet	tërhiq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=1575|end_char=1583
+13	Norman	Norman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=1584|end_char=1590
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=1591|end_char=1593
+15	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=1594|end_char=1602|SpaceAfter=No
+16	?	?	PUNCT	_	_	4	punct	_	start_char=1602|end_char=1603
+
+# text = Ata që ndodhen në anije rrezikojnë hipoterminë.
+# sent_id = 14
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1604|end_char=1607
+2	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=1608|end_char=1610
+3	ndodhen	ndodhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	6	advcl	_	start_char=1611|end_char=1618
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=1619|end_char=1621
+5	anije	anije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=1622|end_char=1627
+6	rrezikojnë	rrezikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1628|end_char=1638
+7	hipoterminë	hipotermi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=1639|end_char=1650|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	start_char=1650|end_char=1651
+
+# text = Pikërisht, sepse natën vonë transporti drejt anijeve të shpëtimit ndalet.
+# sent_id = 15
+1	Pikërisht	pikërisht	ADV	_	AdvType=Man	11	advmod	_	start_char=1652|end_char=1661|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=1661|end_char=1662
+3	sepse	sepse	SCONJ	_	_	4	mark	_	start_char=1663|end_char=1668
+4	natën	natë	ADV	_	AdvType=Tim	11	advmod	_	start_char=1669|end_char=1674
+5	vonë	vonë	ADV	_	AdvType=Tim	11	advmod	_	start_char=1675|end_char=1679
+6	transporti	transport	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=1680|end_char=1690
+7	drejt	drejt	ADP	_	Case=Abl	8	case	_	start_char=1691|end_char=1696
+8	anijeve	anije	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=1697|end_char=1704
+9	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=1705|end_char=1707
+10	shpëtimit	shpëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=1708|end_char=1717
+11	ndalet	ndal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1718|end_char=1724|SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	start_char=1724|end_char=1725
+
+# text = Shumë errësirë, shumë tym, shumë erë dhe shumë shi.
+# sent_id = 16
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=1726|end_char=1731
+2	errësirë	errësirë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=1732|end_char=1740|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=1740|end_char=1741
+4	shumë	shumë	PRON	_	PronType=Ind	5	det	_	start_char=1742|end_char=1747
+5	tym	tym	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=1748|end_char=1751|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=1751|end_char=1752
+7	shumë	shumë	PRON	_	PronType=Ind	8	nummod	_	start_char=1753|end_char=1758
+8	erë	erë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	list	_	start_char=1759|end_char=1762
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=1763|end_char=1766
+10	shumë	shumë	PRON	_	PronType=Ind	11	nummod	_	start_char=1767|end_char=1772
+11	shi	shi	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	start_char=1773|end_char=1776|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	start_char=1776|end_char=1777
+
+# text = Kështu që 200 pasagjerët që ndodhen nën kullën 9 të tragetit nuk munden të lëvizin.
+# sent_id = 17
+1	Kështu	kështu	ADV	_	AdvType=Cau	13	cc	_	start_char=1778|end_char=1784
+2	që	që	SCONJ	_	_	4	mark	_	start_char=1785|end_char=1787
+3	200	200	NUM	_	NumType=Card	4	nummod	_	start_char=1788|end_char=1791
+4	pasagjerët	pasagjerë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	start_char=1792|end_char=1802
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=1803|end_char=1805
+6	ndodhen	ndodhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	acl:relcl	_	start_char=1806|end_char=1813
+7	nën	nën	ADP	_	Case=Acc	8	case	_	start_char=1814|end_char=1817
+8	kullën	kullë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=1818|end_char=1824
+9	9	9	NUM	_	NumType=Card	8	nummod	_	start_char=1825|end_char=1826
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	11	det:poss	_	start_char=1827|end_char=1829
+11	tragetit	traget	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=1830|end_char=1838
+12	nuk	nuk	PART	_	_	13	mark	_	start_char=1839|end_char=1842
+13	munden	mundej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1843|end_char=1849
+14	të	të	PART	_	_	15	fixed	_	start_char=1850|end_char=1852
+15	lëvizin	lëviz	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	ccomp	_	start_char=1853|end_char=1860|SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	start_char=1860|end_char=1861
+
+# text = Destinacioni i tyre është ai i anijes që duhet të mbërrijë në Brindizi vetëm sot në mëngjes.
+# sent_id = 18
+1	Destinacioni	destinacion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1862|end_char=1874
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1875|end_char=1876
+3	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=1877|end_char=1881
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1882|end_char=1887
+5	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cop	_	start_char=1888|end_char=1890
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1891|end_char=1892
+7	anijes	anije	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=1893|end_char=1899
+8	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=1900|end_char=1902
+9	duhet	duhem	AUX	_	_	11	aux	_	start_char=1903|end_char=1908
+10	të	të	PART	_	_	11	fixed	_	start_char=1909|end_char=1911
+11	mbërrijë	mbërrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=1912|end_char=1920
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=1921|end_char=1923
+13	Brindizi	Brindiz	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=1924|end_char=1932
+14	vetëm	vetëm	PART	_	_	15	mark	_	start_char=1933|end_char=1938
+15	sot	sot	ADV	_	AdvType=Tim	11	advmod	_	start_char=1939|end_char=1942
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=1943|end_char=1945
+17	mëngjes	mëngje	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=1946|end_char=1953|SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	start_char=1953|end_char=1954
+
+# text = Gjithmonë nëse nuk ndërrojnë kurs, sipas kushteve të motit.
+# sent_id = 19
+1	Gjithmonë	Gjithmonë	ADV	_	AdvType=Tim	4	advmod	_	start_char=1955|end_char=1964
+2	nëse	nëse	SCONJ	_	_	4	mark	_	start_char=1965|end_char=1969
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=1970|end_char=1973
+4	ndërrojnë	ndërroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1974|end_char=1983
+5	kurs	kurs	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=1984|end_char=1988|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=1988|end_char=1989
+7	sipas	sipas	ADP	_	Case=Abl	8	case	_	start_char=1990|end_char=1995
+8	kushteve	kusht	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=1996|end_char=2004
+9	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=2005|end_char=2007
+10	motit	mot	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=2008|end_char=2013|SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	start_char=2013|end_char=2014
+
+# text = Në orën 23 të natës së mbrëmshme, fatet e 422 pasagjerëve dhe 56 pjesëtarëve të ekuipazhit janë ndarë: në atë orë, 200 kishin mundur të larogeshin nga Norman, për t’u transportuar në një anije më të qëndrueshme, Spirit of Pireus apo Mn Aby Jeannet, të gatshme për të shkuar në Brindizi.
+# sent_id = 20
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=2015|end_char=2017
+2	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	advmod	_	start_char=2018|end_char=2022
+3	23	23	NUM	_	NumType=Card	2	amod:nummod	_	start_char=2023|end_char=2025
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2026|end_char=2028
+5	natës	natë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=2029|end_char=2034
+6	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2035|end_char=2037
+7	mbrëmshme	mbrëmshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2038|end_char=2047|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	start_char=2047|end_char=2048
+9	fatet	fatet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	appos	_	start_char=2049|end_char=2054
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=2055|end_char=2056
+11	422	422	NUM	_	NumType=Card	12	nummod	_	start_char=2057|end_char=2060
+12	pasagjerëve	pasagjer	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=2061|end_char=2072
+13	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=2073|end_char=2076
+14	56	56	NUM	_	NumType=Card	15	nummod	_	start_char=2077|end_char=2079
+15	pjesëtarëve	pjesëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	conj	_	start_char=2080|end_char=2091
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=2092|end_char=2094
+17	ekuipazhit	ekuipazh	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=2095|end_char=2105
+18	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=2106|end_char=2110
+19	ndarë	ndaj	VERB	_	VerbForm=Part	0	root	_	start_char=2111|end_char=2116|SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	start_char=2116|end_char=2117
+21	në	në	ADP	_	Case=Acc	23	case	_	start_char=2118|end_char=2120
+22	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	start_char=2121|end_char=2124
+23	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	advmod	_	start_char=2125|end_char=2128|SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	start_char=2128|end_char=2129
+25	200	200	NUM	_	NumType=Card	27	nsubj	_	start_char=2130|end_char=2133
+26	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	27	aux	_	start_char=2134|end_char=2140
+27	mundur	mundur	VERB	_	VerbForm=Part	23	acl:relcl	_	start_char=2141|end_char=2147
+28	të	të	PART	_	_	29	fixed	_	start_char=2148|end_char=2150
+29	larogeshin	larog	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	27	ccomp	_	start_char=2151|end_char=2161
+30	nga	nga	ADP	_	Case=Nom	31	case	_	start_char=2162|end_char=2165
+31	Norman	Norman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	obl	_	start_char=2166|end_char=2172|SpaceAfter=No
+32	,	,	PUNCT	_	_	36	punct	_	start_char=2172|end_char=2173
+33	për	për	PART	_	_	36	fixed	_	start_char=2174|end_char=2177
+34-35	t’u	_	_	_	_	_	_	_	start_char=2178|end_char=2181
+34	të	të	PART	_	_	36	fixed	_	_
+35	u	u	PART	_	_	36	fixed	_	_
+36	transportuar	transportoj	VERB	_	VerbForm=Part	29	advmod	_	start_char=2182|end_char=2194
+37	në	në	ADP	_	Case=Acc	39	case	_	start_char=2195|end_char=2197
+38	një	një	DET	_	Definite=Ind	39	det	_	start_char=2198|end_char=2201
+39	anije	anije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	obl	_	start_char=2202|end_char=2207
+40	më	më	PART	_	_	42	mark	_	start_char=2208|end_char=2210
+41	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	42	det	_	start_char=2211|end_char=2213
+42	qëndrueshme	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=2214|end_char=2225|SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	start_char=2225|end_char=2226
+44	Spirit	Spir	PROPN	_	Foreign=Yes	39	appos	_	start_char=2227|end_char=2233
+45	of	of	PROPN	_	Foreign=Yes	46	det	_	start_char=2234|end_char=2236
+46	Pireus	Pireus	PROPN	_	Foreign=Yes	44	flat	_	start_char=2237|end_char=2243
+47	apo	apo	CCONJ	_	_	49	cc	_	start_char=2244|end_char=2247
+48	Mn	Mn	PROPN	_	Foreign=Yes	49	nummod	_	start_char=2248|end_char=2250
+49	Aby	Aby	PROPN	_	Foreign=Yes	46	conj	_	start_char=2251|end_char=2254
+50	Jeannet	Jeann	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	49	flat	_	start_char=2255|end_char=2262|SpaceAfter=No
+51	,	,	PUNCT	_	_	53	punct	_	start_char=2262|end_char=2263
+52	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	53	det	_	start_char=2264|end_char=2266
+53	gatshme	gatshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	50	conj	_	start_char=2267|end_char=2274
+54	për	për	PART	_	_	56	fixed	_	start_char=2275|end_char=2278
+55	të	të	PART	_	_	56	fixed	_	start_char=2279|end_char=2281
+56	shkuar	shkoj	VERB	_	VerbForm=Part	53	advmod	_	start_char=2282|end_char=2288
+57	në	në	ADP	_	Case=Acc	58	case	_	start_char=2289|end_char=2291
+58	Brindizi	Brindiz	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	56	obl	_	start_char=2292|end_char=2300|SpaceAfter=No
+59	.	.	PUNCT	_	_	56	punct	_	start_char=2300|end_char=2301
+
+# text = Të tjerët kanë qëndruar për të pritur për orë të tëra rastin e duhur, që vonon të vijë.
+# sent_id = 21
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=2302|end_char=2304
+2	tjerët	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	4	advmod	_	start_char=2305|end_char=2311
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=2312|end_char=2316
+4	qëndruar	qëndroj	VERB	_	VerbForm=Part	0	root	_	start_char=2317|end_char=2325
+5	për	për	PART	_	_	7	fixed	_	start_char=2326|end_char=2329
+6	të	të	PART	_	_	7	fixed	_	start_char=2330|end_char=2332
+7	pritur	pritoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=2333|end_char=2339
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=2340|end_char=2343
+9	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	start_char=2344|end_char=2347
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=2348|end_char=2350
+11	tëra	tërë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	nummod	_	start_char=2351|end_char=2355
+12	rastin	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=2356|end_char=2362
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=2363|end_char=2364
+14	duhur	duhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=2365|end_char=2370|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=2370|end_char=2371
+16	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=2372|end_char=2374
+17	vonon	vonoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=2375|end_char=2380
+18	të	të	PART	_	_	19	fixed	_	start_char=2381|end_char=2383
+19	vijë	vijë	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	ccomp	_	start_char=2384|end_char=2388|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=2388|end_char=2389
+
+# text = E të mendosh që vetëm një orë më herët, rimorkiatori Asmara kishte mundur të kapte Normanin me një kavo celiku dhe një najloni.
+# sent_id = 22
+1	E	e	CCONJ	_	_	3	cc	_	start_char=2390|end_char=2391
+2	të	të	PART	_	_	3	fixed	_	start_char=2392|end_char=2394
+3	mendosh	mendoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	advmod	_	start_char=2395|end_char=2402
+4	që	që	SCONJ	_	_	7	mark	_	start_char=2403|end_char=2405
+5	vetëm	vetëm	PART	_	_	7	mark	_	start_char=2406|end_char=2411
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=2412|end_char=2415
+7	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=2416|end_char=2419
+8	më	më	PART	_	_	9	mark	_	start_char=2420|end_char=2422
+9	herët	herët	ADV	_	AdvType=Tim	7	advmod	_	start_char=2423|end_char=2428|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=2428|end_char=2429
+11	rimorkiatori	rimorkiator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=2430|end_char=2442
+12	Asmara	Asmarë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=2443|end_char=2449
+13	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	14	aux	_	start_char=2450|end_char=2456
+14	mundur	mundur	VERB	_	VerbForm=Part	0	root	_	start_char=2457|end_char=2463
+15	të	të	PART	_	_	16	fixed	_	start_char=2464|end_char=2466
+16	kapte	kap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	14	ccomp	_	start_char=2467|end_char=2472
+17	Normanin	Norman	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=2473|end_char=2481
+18	me	me	ADP	_	Case=Acc	20	case	_	start_char=2482|end_char=2484
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=2485|end_char=2488
+20	kavo	kavo	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=2489|end_char=2493
+21	celiku	celik	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=2494|end_char=2500
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=2501|end_char=2504
+23	një	një	DET	_	Definite=Ind	24	det	_	start_char=2505|end_char=2508
+24	najloni	najlon	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	start_char=2509|end_char=2516|SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	start_char=2516|end_char=2517
+
+# text = Një orë më herët, një tjetër litar kish mbajtur vetëm një orë, por ishte shkrirë prej nxehtësisë së flakëve.
+# sent_id = 23
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=2518|end_char=2521
+2	orë	orë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=2522|end_char=2525
+3	më	më	PART	_	_	4	mark	_	start_char=2526|end_char=2528
+4	herët	herët	ADV	_	AdvType=Tim	2	advmod	_	start_char=2529|end_char=2534|SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	start_char=2534|end_char=2535
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=2536|end_char=2539
+7	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	start_char=2540|end_char=2546
+8	litar	litar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2547|end_char=2552
+9	kish	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	10	aux	_	start_char=2553|end_char=2557
+10	mbajtur	mbaj	VERB	_	VerbForm=Part	0	root	_	start_char=2558|end_char=2565
+11	vetëm	vetëm	PART	_	_	13	mark	_	start_char=2566|end_char=2571
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=2572|end_char=2575
+13	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=2576|end_char=2579|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=2579|end_char=2580
+15	por	por	CCONJ	_	_	17	cc	_	start_char=2581|end_char=2584
+16	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	17	aux	_	start_char=2585|end_char=2590
+17	shkrirë	shkrir	VERB	_	VerbForm=Part	10	conj	_	start_char=2591|end_char=2598
+18	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=2599|end_char=2603
+19	nxehtësisë	nxehtësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	start_char=2604|end_char=2614
+20	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=2615|end_char=2617
+21	flakëve	flakë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	start_char=2618|end_char=2625|SpaceAfter=No
+22	.	.	PUNCT	_	_	17	punct	_	start_char=2625|end_char=2626
+
+# text = “Problemi është – ka sqaruar kapiteni – se duhet të shkojë dikush në pjesën e përparme dhe të lëshojë në ujë një copë kavo”.
+# sent_id = 24
+1	“	"	PUNCT	_	_	2	punct	_	start_char=2627|end_char=2628|SpaceAfter=No
+2	Problemi	Problem	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2628|end_char=2636
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2637|end_char=2642
+4	–	–	PUNCT	_	_	6	punct	_	start_char=2643|end_char=2644
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=2645|end_char=2647
+6	sqaruar	sqaroj	VERB	_	VerbForm=Part	3	csubj	_	start_char=2648|end_char=2655
+7	kapiteni	kapiten	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=2656|end_char=2664
+8	–	–	PUNCT	_	_	9	punct	_	start_char=2665|end_char=2666
+9	se	se	SCONJ	_	_	12	mark	_	start_char=2667|end_char=2669
+10	duhet	duhem	AUX	_	_	12	aux	_	start_char=2670|end_char=2675
+11	të	të	PART	_	_	12	fixed	_	start_char=2676|end_char=2678
+12	shkojë	shkoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=2679|end_char=2685
+13	dikush	dikush	PRON	_	Number=Sing|PronType=Ind	12	obj	_	start_char=2686|end_char=2692
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=2693|end_char=2695
+15	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=2696|end_char=2702
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=2703|end_char=2704
+17	përparme	përparm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=2705|end_char=2713
+18	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=2714|end_char=2717
+19	të	të	PART	_	_	20	fixed	_	start_char=2718|end_char=2720
+20	lëshojë	lëshoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=2721|end_char=2728
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=2729|end_char=2731
+22	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	start_char=2732|end_char=2735
+23	një	një	DET	_	Definite=Ind	25	det	_	start_char=2736|end_char=2739
+24	copë	copë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	det	_	start_char=2740|end_char=2744
+25	kavo”	kavo”	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	start_char=2745|end_char=2750|SpaceAfter=No
+26	.	.	PUNCT	_	_	20	punct	_	start_char=2750|end_char=2751
+
+# text = Dhe për të mbërritur në pjesën e përparme duhet që të transportohet nga një helikopter, nga pjesa tjetër e Normanit, sepse në mes ka tym dhe flakë.
+# sent_id = 25
+1	Dhe	dhe	CCONJ	_	_	4	cc	_	start_char=2752|end_char=2755
+2	për	për	PART	_	_	4	fixed	_	start_char=2756|end_char=2759
+3	të	të	PART	_	_	4	fixed	_	start_char=2760|end_char=2762
+4	mbërritur	mbërritoj	VERB	_	VerbForm=Part	0	root	_	start_char=2763|end_char=2772
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=2773|end_char=2775
+6	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=2776|end_char=2782
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2783|end_char=2784
+8	përparme	përparm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2785|end_char=2793
+9	duhet	duhem	AUX	_	Mood=Ind|Person=3|Voice=Pass	12	aux	_	start_char=2794|end_char=2799
+10	që	që	SCONJ	_	_	12	mark	_	start_char=2800|end_char=2802
+11	të	të	PART	_	_	12	fixed	_	start_char=2803|end_char=2805
+12	transportohet	transportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	acl	_	start_char=2806|end_char=2819
+13	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=2820|end_char=2823
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=2824|end_char=2827
+15	helikopter	helikopter	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=2828|end_char=2838|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	start_char=2838|end_char=2839
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=2840|end_char=2843
+18	pjesa	pjesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=2844|end_char=2849
+19	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	amod	_	start_char=2850|end_char=2856
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=2857|end_char=2858
+21	Normanit	Norman	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=2859|end_char=2867|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=2867|end_char=2868
+23	sepse	sepse	SCONJ	_	_	26	mark	_	start_char=2869|end_char=2874
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=2875|end_char=2877
+25	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=2878|end_char=2881
+26	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	start_char=2882|end_char=2884
+27	tym	tym	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	start_char=2885|end_char=2888
+28	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=2889|end_char=2892
+29	flakë	flakë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	conj	_	start_char=2893|end_char=2898|SpaceAfter=No
+30	.	.	PUNCT	_	_	26	punct	_	start_char=2898|end_char=2899
+
+# text = “Ishte e pamundur të bëhej më herët”, siguron komandanti Giannuzzi.
+# sent_id = 26
+1	“	"	PUNCT	_	_	2	punct	_	start_char=2900|end_char=2901|SpaceAfter=No
+2	Ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2901|end_char=2906
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2907|end_char=2908
+4	pamundur	pamundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=2909|end_char=2917
+5	të	të	PART	_	_	6	fixed	_	start_char=2918|end_char=2920
+6	bëhej	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	2	xcomp	_	start_char=2921|end_char=2926
+7	më	më	PART	_	_	8	mark	_	start_char=2927|end_char=2929
+8	herët”	herët”	ADV	_	AdvType=Man	6	advmod	_	start_char=2930|end_char=2936|SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	start_char=2936|end_char=2937
+10	siguron	siguroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=2938|end_char=2945
+11	komandanti	komandant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=2946|end_char=2956
+12	Giannuzzi	Giannuzz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=2957|end_char=2966|SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	start_char=2966|end_char=2967
+
+# text = Faji i detit dhe faji i erës që dje në kanalin e Otrantos ishte shumë e fortë, deri 100 km në orë.
+# sent_id = 27
+1	Faji	Faj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=2968|end_char=2972
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=2973|end_char=2974
+3	detit	det	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=2975|end_char=2980
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=2981|end_char=2984
+5	faji	faji	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=2985|end_char=2989
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=2990|end_char=2991
+7	erës	erë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=2992|end_char=2996
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=2997|end_char=2999
+9	dje	djem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	start_char=3000|end_char=3003
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=3004|end_char=3006
+11	kanalin	kanal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=3007|end_char=3014
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=3015|end_char=3016
+13	Otrantos	Otrantos	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=3017|end_char=3025
+14	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=3026|end_char=3031
+15	shumë	shumë	ADV	_	AdvType=Deg	17	advmod	_	start_char=3032|end_char=3037
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=3038|end_char=3039
+17	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	cop	_	start_char=3040|end_char=3045|SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	start_char=3045|end_char=3046
+19	deri	deri	PART	_	_	21	case	_	start_char=3047|end_char=3051
+20	100	100	NUM	_	NumType=Card	21	nummod	_	start_char=3052|end_char=3055
+21	km	km	NOUN	_	_	14	advmod	_	start_char=3056|end_char=3058
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=3059|end_char=3061
+23	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	start_char=3062|end_char=3065|SpaceAfter=No
+24	.	.	PUNCT	_	_	14	punct	_	start_char=3065|end_char=3066
+
+# text = E thotë edhe ish gjenerali i aeronautikës Vincenzo Camporini:
+# sent_id = 28
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=3067|end_char=3068
+2	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3069|end_char=3074
+3	edhe	edhe	PART	_	_	4	cc	_	start_char=3075|end_char=3079
+4	ish	ish	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=3080|end_char=3083
+5	gjenerali	gjeneral	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=3084|end_char=3093
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=3094|end_char=3095
+7	aeronautikës	aeronautikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=3096|end_char=3108
+8	Vincenzo	Vincenzo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	start_char=3109|end_char=3117
+9	Camporini	Camporin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=3118|end_char=3127|SpaceAfter=No
+10	:	:	PUNCT	_	_	2	punct	_	start_char=3127|end_char=3128
+
+# text = “Ka një numër institucionesh që duhet të koordinohen mes tyre dhe kjo i ndërlikon gjërat”.
+# sent_id = 29
+1	“	"	PUNCT	_	_	2	punct	_	start_char=3129|end_char=3130|SpaceAfter=No
+2	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3130|end_char=3132
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=3133|end_char=3136
+4	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=3137|end_char=3142
+5	institucionesh	institucion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=3143|end_char=3157
+6	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=3158|end_char=3160
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=3161|end_char=3166
+8	të	të	PART	_	_	9	fixed	_	start_char=3167|end_char=3169
+9	koordinohen	koordinoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	acl:relcl	_	start_char=3170|end_char=3181
+10	mes	mes	ADP	_	Case=Abl	11	case	_	start_char=3182|end_char=3185
+11	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obl	_	start_char=3186|end_char=3190
+12	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=3191|end_char=3194
+13	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	iobj	_	start_char=3195|end_char=3198
+14	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	start_char=3199|end_char=3200
+15	ndërlikon	ndërlikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=3201|end_char=3210
+16	gjërat”	gjëratë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=3211|end_char=3218|SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	start_char=3218|end_char=3219
+
+# text = /la repubblica/ bota.al NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 30
+1	/la	/la	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=3220|end_char=3223
+2	repubblica/	repubblicë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=3224|end_char=3235|SpacesAfter=\n
+3	bota.al	bota.al	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	appos	_	start_char=3236|end_char=3243|SpacesAfter=\n
+4	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	det	_	start_char=3244|end_char=3246
+5	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=3247|end_char=3257|SpaceAfter=No
+6	:	:	PUNCT	_	_	7	punct	_	start_char=3257|end_char=3258|SpacesAfter=\n
+7	+355	+355	NUM	_	NumType=Card	5	flat	_	start_char=3259|end_char=3263
+8	68	68	NUM	_	NumType=Card	7	conj	_	start_char=3264|end_char=3266
+9	608	608	NUM	_	NumType=Card	7	conj	_	start_char=3267|end_char=3270
+10	0290	0290	NUM	_	NumType=Card	9	conj	_	start_char=3271|end_char=3275|SpacesAfter=\n
+11	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=3276|end_char=3294|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=3295|end_char=3304
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=3305|end_char=3317
+14	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	13	flat	_	start_char=3318|end_char=3324|SpacesAfter=\n
+15	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat	_	start_char=3325|end_char=3334
+16	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	flat	_	start_char=3335|end_char=3347
+17	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	parataxis	_	start_char=3348|end_char=3355|SpacesAfter=\n\n\n
+

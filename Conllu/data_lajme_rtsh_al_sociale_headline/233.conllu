@@ -1,0 +1,91 @@
+# text = Virozat e stinës, simptomat:
+# sent_id = 0
+1	Virozat	Virozë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=7
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=8|end_char=9
+3	stinës	stinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=16|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=16|end_char=17
+5	simptomat	simptomë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	appos	_	start_char=18|end_char=27|SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	start_char=27|end_char=28
+
+# text = Rrufë, temperaturë, diarre 26/12/2023 Pranë qendrës shëndetësore "Katerina Ivashku" në Memaliaj çdo ditë paraqiten rreth 35 pacientë.
+# sent_id = 1
+1	Rrufë	Rrufë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	dislocated	_	start_char=29|end_char=34|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	start_char=34|end_char=35
+3	temperaturë	temperaturë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=36|end_char=47|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=47|end_char=48
+5	diarre	dirrr	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	appos	_	start_char=49|end_char=55|SpacesAfter=\n
+6	26	26	NUM	_	NumType=Card	7	nummod	_	start_char=56|end_char=58|SpaceAfter=No
+7	/12	/12	SYM	_	_	5	nmod	_	start_char=58|end_char=61|SpaceAfter=No
+8	/202	/202	NUM	_	NumType=Card	7	flat	_	start_char=61|end_char=65|SpaceAfter=No
+9	3	3	NUM	_	NumType=Card	7	nummod	_	start_char=65|end_char=66|SpacesAfter=\n
+10	Pranë	pranë	ADP	_	Case=Abl	11	case	_	start_char=67|end_char=72
+11	qendrës	qendrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=73|end_char=80
+12	shëndetësore	shëndetësor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=81|end_char=93
+13	"	"	PUNCT	_	_	14	punct	_	start_char=94|end_char=95|SpaceAfter=No
+14	Katerina	Katerinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=95|end_char=103
+15	Ivashku	Ivashk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=104|end_char=111|SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	start_char=111|end_char=112
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=113|end_char=115
+18	Memaliaj	memali	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=116|end_char=124
+19	çdo	çdo	PRON	_	PronType=Ind	20	det	_	start_char=125|end_char=128
+20	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=129|end_char=133
+21	paraqiten	paraqit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=134|end_char=143
+22	rreth	rreth	ADP	_	Case=Abl	24	case	_	start_char=144|end_char=149
+23	35	35	NUM	_	NumType=Card	24	nummod	_	start_char=150|end_char=152
+24	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	start_char=153|end_char=161|SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	start_char=161|end_char=162|SpacesAfter=\n
+
+# text = Sipas mjekut të kësaj qendre Sefer Shehu mes rasteve të paraqitura janë konstatuar krahas virozave stinore me simptoma si temperaturë,diarre, brokopneumoni.
+# sent_id = 2
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=163|end_char=168
+2	mjekut	mjek	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=169|end_char=175
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=176|end_char=178
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=179|end_char=184
+5	qendre	qendr	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=185|end_char=191
+6	Sefer	Sefer	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=192|end_char=197
+7	Shehu	shem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=198|end_char=203
+8	mes	mes	ADP	_	Case=Abl	9	case	_	start_char=204|end_char=207
+9	rasteve	rast	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=208|end_char=215
+10	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=216|end_char=218
+11	paraqitura	paraqiturë	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=219|end_char=229
+12	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=230|end_char=234
+13	konstatuar	konstatoj	VERB	_	VerbForm=Part	7	conj	_	start_char=235|end_char=245
+14	krahas	krahas	ADP	_	Case=Abl	15	case	_	start_char=246|end_char=252
+15	virozave	virozë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	start_char=253|end_char=261
+16	stinore	stinor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=262|end_char=269
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=270|end_char=272
+18	simptoma	simptomë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	start_char=273|end_char=281
+19	si	si	SCONJ	_	_	20	mark	_	start_char=282|end_char=284
+20	temperaturë	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=285|end_char=296|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=296|end_char=297|SpaceAfter=No
+22	diarre	dirrr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	list	_	start_char=297|end_char=303|SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	start_char=303|end_char=304
+24	brokopneumoni	brokopneumon	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	list	_	start_char=305|end_char=318|SpaceAfter=No
+25	.	.	PUNCT	_	_	13	punct	_	start_char=318|end_char=319|SpacesAfter=\n
+
+# text = Ndërkaq ka shtuar se ka pasur raste me covid 19 pa patur simptoma të rënda për jetën.
+# sent_id = 3
+1	Ndërkaq	ndërkaq	ADV	_	AdvType=Tim	3	advmod	_	start_char=320|end_char=327
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=328|end_char=330
+3	shtuar	shtoj	VERB	_	VerbForm=Part	0	root	_	start_char=331|end_char=337
+4	se	se	SCONJ	_	_	6	mark	_	start_char=338|end_char=340
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=341|end_char=343
+6	pasur	kam	VERB	_	VerbForm=Part	3	advcl	_	start_char=344|end_char=349
+7	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=350|end_char=355
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=356|end_char=358
+9	covid	covid	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	start_char=359|end_char=364
+10	19	19	NUM	_	NumType=Card	9	flat	_	start_char=365|end_char=367
+11	pa	pa	PART	_	_	12	fixed	_	start_char=368|end_char=370
+12	patur	patoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=371|end_char=376
+13	simptoma	simptomë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=377|end_char=385
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=386|end_char=388
+15	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=389|end_char=394
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=395|end_char=398
+17	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=399|end_char=404|SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	start_char=404|end_char=405|SpacesAfter=\n
+
+# text = /rtsh.al /
+# sent_id = 4
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=406|end_char=414
+2	/	/	PUNCT	_	_	1	punct	_	start_char=415|end_char=416|SpacesAfter=\n\n\n
+

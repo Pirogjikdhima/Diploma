@@ -1,0 +1,198 @@
+# text = ‘
+# sent_id = 0
+1	‘	‘	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = ‘Uji i Ftohë" në Tepelenë, ndalesa e preferuar e turistëve 13/08/2022
+# sent_id = 1
+1	‘Uji	‘Uji	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1|end_char=5
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=6|end_char=7
+3	Ftohë	Ftohë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=13|SpaceAfter=No
+4	"	"	PUNCT	_	_	6	punct	_	start_char=13|end_char=14
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=15|end_char=17
+6	Tepelenë	Tepelenë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=18|end_char=26|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=26|end_char=27
+8	ndalesa	ndalesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	list	_	start_char=28|end_char=35
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=36|end_char=37
+10	preferuar	preferuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=38|end_char=47
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=48|end_char=49
+12	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=50|end_char=59|SpacesAfter=\n
+13	13	13	NUM	_	NumType=Card	12	nummod	_	start_char=60|end_char=62|SpaceAfter=No
+14	/08	/08	NUM	_	NumType=Card	12	flat	_	start_char=62|end_char=65|SpaceAfter=No
+15	/	/	PUNCT	_	_	16	punct	_	start_char=65|end_char=66|SpaceAfter=No
+16	202	202	NUM	_	NumType=Card	14	parataxis	_	start_char=66|end_char=69|SpaceAfter=No
+17	2	2	NUM	_	NumType=Card	14	parataxis	_	start_char=69|end_char=70|SpacesAfter=\n
+
+# text = Duke pasur edhe statusin Monument Natyre, 'Uji i ftohtë" mbetet e vizituar në të 4 stinët.
+# sent_id = 2
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=71|end_char=75
+2	pasur	kam	VERB	_	VerbForm=Part	12	advmod	_	start_char=76|end_char=81
+3	edhe	edhe	PART	_	_	4	mark	_	start_char=82|end_char=86
+4	statusin	status	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=87|end_char=95
+5	Monument	monume	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=96|end_char=104
+6	Natyre	Natyr	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	flat	_	start_char=105|end_char=111|SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	start_char=111|end_char=112
+8	'Uji	'Uji	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=113|end_char=117
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=118|end_char=119
+10	ftohtë	ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=120|end_char=126|SpaceAfter=No
+11	"	"	PUNCT	_	_	8	punct	_	start_char=126|end_char=127
+12	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=128|end_char=134
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=135|end_char=136
+14	vizituar	vizitoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	cop	_	start_char=137|end_char=145
+15	në	në	ADP	_	Case=Acc	18	case	_	start_char=146|end_char=148
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=149|end_char=151
+17	4	4	NUM	_	NumType=Card	18	nummod	_	start_char=152|end_char=153
+18	stinët	stinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=154|end_char=160|SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	start_char=160|end_char=161
+
+# text = I ndodhur në aksin rrugor Tepelenë - Gjirokastër, "Uji i Ftohtë" në Tepelenë është ndalesë kyç për të pushuar për të gjithë udhëtarët drejt jugut.
+# sent_id = 3
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	fixed	_	start_char=162|end_char=163
+2	ndodhur	ndodh	VERB	_	VerbForm=Part	17	advcl	_	start_char=164|end_char=171
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=172|end_char=174
+4	aksin	aksi	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=175|end_char=180
+5	rrugor	rrugor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=181|end_char=187
+6	Tepelenë	Tepelenë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=188|end_char=196
+7	-	-	PUNCT	_	_	8	punct	_	start_char=197|end_char=198
+8	Gjirokastër	Gjirokastër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=199|end_char=210|SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	start_char=210|end_char=211
+10	"	"	PUNCT	_	_	11	punct	_	start_char=212|end_char=213|SpaceAfter=No
+11	Uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=213|end_char=216
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=217|end_char=218
+13	Ftohtë	Ftohtë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=219|end_char=225|SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	start_char=225|end_char=226
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=227|end_char=229
+16	Tepelenë	Tepelenë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=230|end_char=238
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=239|end_char=244
+18	ndalesë	ndale	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	cop	_	start_char=245|end_char=252
+19	kyç	kyç	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=253|end_char=256
+20	për	për	PART	_	_	22	fixed	_	start_char=257|end_char=260
+21	të	të	PART	_	_	22	fixed	_	start_char=261|end_char=263
+22	pushuar	pushoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=264|end_char=271
+23	për	për	ADP	_	Case=Acc	26	case	_	start_char=272|end_char=275
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=276|end_char=278
+25	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	26	nummod	_	start_char=279|end_char=285
+26	udhëtarët	udhëtar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	22	obl	_	start_char=286|end_char=295
+27	drejt	drejt	ADP	_	Case=Abl	28	case	_	start_char=296|end_char=301
+28	jugut	jug	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=302|end_char=307|SpaceAfter=No
+29	.	.	PUNCT	_	_	17	punct	_	start_char=307|end_char=308|SpacesAfter=\n
+
+# text = Udhëtarët shprehen se freskia dhe natyra e bukur është një argëtim me vete përgjatë udhëtimit të tyre .
+# sent_id = 4
+1	Udhëtarët	udhëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=309|end_char=318
+2	shprehen	shpreh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=319|end_char=327
+3	se	se	SCONJ	_	_	9	mark	_	start_char=328|end_char=330
+4	freskia	freski	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=331|end_char=338
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=339|end_char=342
+6	natyra	natyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=343|end_char=349
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=350|end_char=351
+8	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=352|end_char=357
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=358|end_char=363
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=364|end_char=367
+11	argëtim	argëtim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	cop	_	start_char=368|end_char=375
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=376|end_char=378
+13	vete	vete	PRON	_	PronType=Prs|Reflex=Yes	11	nmod	_	start_char=379|end_char=383
+14	përgjatë	përgjatë	ADP	_	Case=Abl	15	case	_	start_char=384|end_char=392
+15	udhëtimit	udhëtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=393|end_char=402
+16	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=403|end_char=405
+17	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=406|end_char=410
+18	.	.	PUNCT	_	_	9	punct	_	start_char=411|end_char=412|SpacesAfter=\n
+
+# text = "Uji i Ftohtë" është një zonë turistike 8 km në jug larg qytetit të Tepelenës.
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=413|end_char=414|SpaceAfter=No
+2	Uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=414|end_char=417
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=418|end_char=419
+4	Ftohtë	Ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=420|end_char=426|SpaceAfter=No
+5	"	"	PUNCT	_	_	2	punct	_	start_char=426|end_char=427
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=428|end_char=433
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=434|end_char=437
+8	zonë	zonë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	cop	_	start_char=438|end_char=442
+9	turistike	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=443|end_char=452
+10	8	8	NUM	_	NumType=Card	11	nummod	_	start_char=453|end_char=454
+11	km	km	SYM	_	_	8	nmod	_	start_char=455|end_char=457
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=458|end_char=460
+13	jug	jug	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=461|end_char=464
+14	larg	larg	ADP	_	Case=Abl	15	case	_	start_char=465|end_char=469
+15	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=470|end_char=477
+16	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=478|end_char=480
+17	Tepelenës	Tepelenë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=481|end_char=490|SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	start_char=490|end_char=491
+
+# text = Kjo zonë marrë emrin "Uji i Ftohtë" sepse zona është e mbizotëruar nga burime natyrore-shkëmbore ku uji rrjedh gjithmonë i ftohtë dhe i pastër.
+# sent_id = 6
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=492|end_char=495
+2	zonë	zonë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=496|end_char=500
+3	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=501|end_char=506
+4	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=507|end_char=512
+5	"	"	PUNCT	_	_	6	punct	_	start_char=513|end_char=514|SpaceAfter=No
+6	Uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=514|end_char=517
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=518|end_char=519
+8	Ftohtë	Ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=520|end_char=526|SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	start_char=526|end_char=527
+10	sepse	sepse	SCONJ	_	_	12	mark	_	start_char=528|end_char=533
+11	zona	zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=534|end_char=538
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=539|end_char=544
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=545|end_char=546
+14	mbizotëruar	mbizotëruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	cop	_	start_char=547|end_char=558
+15	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=559|end_char=562
+16	burime	burim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	start_char=563|end_char=569
+17	natyrore-shkëmbore	natyrore-shkëmbor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=570|end_char=588
+18	ku	ku	ADV	_	AdvType=Loc	20	advmod	_	start_char=589|end_char=591
+19	uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	start_char=592|end_char=595
+20	rrjedh	rrjedh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl	_	start_char=596|end_char=602
+21	gjithmonë	gjithmonë	ADV	_	AdvType=Tim	20	advmod	_	start_char=603|end_char=612
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=613|end_char=614
+23	ftohtë	ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	cop	_	start_char=615|end_char=621
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=622|end_char=625
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=626|end_char=627
+26	pastër	pastër	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	start_char=628|end_char=634|SpaceAfter=No
+27	.	.	PUNCT	_	_	20	punct	_	start_char=634|end_char=635|SpacesAfter=\n
+
+# text = Ndërkohë përgjatë sipërfaqes së parkut natyror hasen edhe gjallesa dhe kafshë të ndryshme tipike për këtë zonë.
+# sent_id = 7
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	7	advmod	_	start_char=636|end_char=644
+2	përgjatë	përgjatë	ADP	_	Case=Abl	3	case	_	start_char=645|end_char=653
+3	sipërfaqes	sipërfaqe	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=654|end_char=664
+4	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=665|end_char=667
+5	parkut	park	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=668|end_char=674
+6	natyror	natyror	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=675|end_char=682
+7	hasen	has	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=683|end_char=688
+8	edhe	edhe	PART	_	_	9	mark	_	start_char=689|end_char=693
+9	gjallesa	gjallesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=694|end_char=702
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=703|end_char=706
+11	kafshë	kafshë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	start_char=707|end_char=713
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=714|end_char=716
+13	ndryshme	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=717|end_char=725
+14	tipike	tipik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=726|end_char=732
+15	për	për	ADP	_	Case=Acc	17	case	_	start_char=733|end_char=736
+16	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=737|end_char=741
+17	zonë	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=742|end_char=746|SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	start_char=746|end_char=747|SpacesAfter=\n
+
+# text = "Uji i Ftohtë" në Tepelenë ka vlera shkencore (hidrologjike, gjeomorfologjive), estetike e turistike.
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=748|end_char=749|SpaceAfter=No
+2	Uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=749|end_char=752
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=753|end_char=754
+4	Ftohtë	Ftohtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=755|end_char=761|SpaceAfter=No
+5	"	"	PUNCT	_	_	2	punct	_	start_char=761|end_char=762
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=763|end_char=765
+7	Tepelenë	Tepelenë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=766|end_char=774
+8	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=775|end_char=777
+9	vlera	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=778|end_char=783
+10	shkencore	shkencor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=784|end_char=793
+11	(hidrologjike	(hidrologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=794|end_char=807|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=807|end_char=808
+13	gjeomorfologjive	gjeomorfologji	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	conj	_	start_char=809|end_char=825|SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	start_char=825|end_char=826|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=826|end_char=827
+16	estetike	estetik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	list	_	start_char=828|end_char=836
+17	e	e	CCONJ	_	_	18	cc	_	start_char=837|end_char=838
+18	turistike	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	start_char=839|end_char=848|SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	start_char=848|end_char=849|SpacesAfter=\n\n
+
+# text = /rtsh/
+# sent_id = 9
+1	/rtsh	/rtsh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=851|end_char=856|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=856|end_char=857|SpacesAfter=\n\n\n
+

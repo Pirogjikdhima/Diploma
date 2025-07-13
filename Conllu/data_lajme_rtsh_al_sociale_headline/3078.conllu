@@ -1,0 +1,522 @@
+# text = OBSH:
+# sent_id = 0
+1	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=4|end_char=5
+
+# text = Një në tre gra përjeton dhunë fizike ose seksuale 09/03/2021 Pothuajse një në tre gra në mbarë botën përjeton dhunë fizike ose seksuale gjatë jetës së saj; një sjellje kriminale që është përhapur gjatë pandemisë, tha të martën Organizata Botërore e Shëndetësisë.
+# sent_id = 1
+1	Një	një	DET	_	Definite=Ind	5	nsubj	_	start_char=6|end_char=9
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12
+3	tre	tre	NUM	_	NumType=Card	4	nummod	_	start_char=13|end_char=16
+4	gra	grua	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=17|end_char=20
+5	përjeton	përjetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=29
+6	dhunë	dhunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=30|end_char=35
+7	fizike	fizik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=36|end_char=42
+8	ose	ose	CCONJ	_	_	9	cc	_	start_char=43|end_char=46
+9	seksuale	seksual	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=47|end_char=55|SpacesAfter=\n
+10	09	09	NUM	_	NumType=Card	9	nummod	_	start_char=56|end_char=58|SpaceAfter=No
+11	/03	/03	NUM	_	NumType=Card	10	flat	_	start_char=58|end_char=61|SpaceAfter=No
+12	/	/	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|SpaceAfter=No
+13	202	202	NUM	_	NumType=Card	11	conj	_	start_char=62|end_char=65|SpaceAfter=No
+14	1	1	NUM	_	NumType=Card	13	flat	_	start_char=65|end_char=66|SpacesAfter=\n
+15	Pothuajse	pothuajse	PART	_	_	19	mark	_	start_char=67|end_char=76
+16	një	një	DET	_	Definite=Ind	19	det	_	start_char=77|end_char=80
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=81|end_char=83
+18	tre	tre	NUM	_	NumType=Card	19	nummod	_	start_char=84|end_char=87
+19	gra	grua	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	advmod	_	start_char=88|end_char=91
+20	në	në	ADP	_	Case=Acc	22	case	_	start_char=92|end_char=94
+21	mbarë	mbarë	PRON	_	PronType=Ind	22	nummod	_	start_char=95|end_char=100
+22	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=101|end_char=106
+23	përjeton	përjetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=107|end_char=115
+24	dhunë	dhunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=116|end_char=121
+25	fizike	fizik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=122|end_char=128
+26	ose	ose	CCONJ	_	_	27	cc	_	start_char=129|end_char=132
+27	seksuale	seksual	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	start_char=133|end_char=141
+28	gjatë	gjatë	ADP	_	Case=Abl	29	case	_	start_char=142|end_char=147
+29	jetës	jetë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=148|end_char=153
+30	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=154|end_char=156
+31	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	amod:poss	_	start_char=157|end_char=160|SpaceAfter=No
+32	;	;	PUNCT	_	_	34	punct	_	start_char=160|end_char=161
+33	një	një	DET	_	Definite=Ind	34	det	_	start_char=162|end_char=165
+34	sjellje	sjellje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	29	list	_	start_char=166|end_char=173
+35	kriminale	kriminal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=174|end_char=183
+36	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=184|end_char=186
+37	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=187|end_char=192
+38	përhapur	përhapur	VERB	_	VerbForm=Part	34	acl:relcl	_	start_char=193|end_char=201
+39	gjatë	gjatë	ADP	_	Case=Abl	40	case	_	start_char=202|end_char=207
+40	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	38	obl	_	start_char=208|end_char=217|SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	start_char=217|end_char=218
+42	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	38	conj	_	start_char=219|end_char=222
+43	të	të	PART	_	_	44	det	_	start_char=223|end_char=225
+44	martën	martë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	cop	_	start_char=226|end_char=232
+45	Organizata	organizatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	42	obj	_	start_char=233|end_char=243
+46	Botërore	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	flat	_	start_char=244|end_char=252
+47	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	48	det:poss	_	start_char=253|end_char=254
+48	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	45	nmod	_	start_char=255|end_char=267|SpaceAfter=No
+49	.	.	PUNCT	_	_	42	punct	_	start_char=267|end_char=268
+
+# text = Agjencia e Kombeve të Bashkuara u bëri thirrje qeverive që të parandalojnë dhunën, përmirësojnë sherbimet për viktimat dhe të trajtojnë pabarazitë ekonomike që shpesh i detyrojnë gratë dhe vajzat që të qëndrojnë në marrëdhënie abuzive.
+# sent_id = 2
+1	Agjencia	tgjenci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=269|end_char=277
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=278|end_char=279
+3	Kombeve	Kombe	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=280|end_char=287
+4	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=288|end_char=290
+5	Bashkuara	bashkuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=291|end_char=300
+6	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	fixed	_	start_char=301|end_char=302
+7	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=303|end_char=307
+8	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=308|end_char=315
+9	qeverive	qeveri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=316|end_char=324
+10	që	që	SCONJ	_	_	12	mark	_	start_char=325|end_char=327
+11	të	të	PART	_	_	12	fixed	_	start_char=328|end_char=330
+12	parandalojnë	parandaloj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl	_	start_char=331|end_char=343
+13	dhunën	dhunë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=344|end_char=350|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=350|end_char=351
+15	përmirësojnë	përmirësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=352|end_char=364
+16	sherbimet	sherbim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=365|end_char=374
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=375|end_char=378
+18	viktimat	viktimë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obl	_	start_char=379|end_char=387
+19	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=388|end_char=391
+20	të	të	PART	_	_	21	fixed	_	start_char=392|end_char=394
+21	trajtojnë	trajtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=395|end_char=404
+22	pabarazitë	pabarazi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=405|end_char=415
+23	ekonomike	ekonomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=416|end_char=425
+24	që	që	PRON	_	PronType=Rel	27	nsubj	_	start_char=426|end_char=428
+25	shpesh	shpesh	ADV	_	AdvType=Deg	27	advmod	_	start_char=429|end_char=435
+26	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	iobj	_	start_char=436|end_char=437
+27	detyrojnë	detyroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	advcl	_	start_char=438|end_char=447
+28	gratë	grua	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=448|end_char=453
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=454|end_char=457
+30	vajzat	vajzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	28	conj	_	start_char=458|end_char=464
+31	që	që	PRON	_	PronType=Rel	33	nsubj	_	start_char=465|end_char=467
+32	të	të	PART	_	_	33	fixed	_	start_char=468|end_char=470
+33	qëndrojnë	qëndroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	advcl	_	start_char=471|end_char=480
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=481|end_char=483
+35	marrëdhënie	marrëdhënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	obl	_	start_char=484|end_char=495
+36	abuzive	abuziv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=496|end_char=503|SpaceAfter=No
+37	.	.	PUNCT	_	_	33	punct	_	start_char=503|end_char=504|SpacesAfter=\n
+
+# text = Djemtë duhet të edukohen në shkollë lidhur me nevojën e respektit të ndërsjellë në marrdhënie dhe miratimit të ndërsjellë për marrdhënie seksuale, thanë zyrtarët e Organizatës Botërore të Shëndetësisë.
+# sent_id = 3
+1	Djemtë	djemtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=505|end_char=511
+2	duhet	duhem	AUX	_	_	4	aux	_	start_char=512|end_char=517
+3	të	të	PART	_	_	4	fixed	_	start_char=518|end_char=520
+4	edukohen	edukoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=521|end_char=529
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=530|end_char=532
+6	shkollë	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=533|end_char=540
+7	lidhur	lidh	VERB	_	VerbForm=Part	4	ccomp	_	start_char=541|end_char=547
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=548|end_char=550
+9	nevojën	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=551|end_char=558
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=559|end_char=560
+11	respektit	respekt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=561|end_char=570
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=571|end_char=573
+13	ndërsjellë	ndërsjellë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=574|end_char=584
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=585|end_char=587
+15	marrdhënie	marrdhëni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=588|end_char=598
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=599|end_char=602
+17	miratimit	miratim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=603|end_char=612
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=613|end_char=615
+19	ndërsjellë	ndërsjellë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=616|end_char=626
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=627|end_char=630
+21	marrdhënie	marrdhëni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=631|end_char=641
+22	seksuale	seksual	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=642|end_char=650|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	start_char=650|end_char=651
+24	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=652|end_char=657
+25	zyrtarët	zyrtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	24	obj	_	start_char=658|end_char=666
+26	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	27	det:poss	_	start_char=667|end_char=668
+27	Organizatës	Organizatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=669|end_char=680
+28	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=681|end_char=689
+29	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=690|end_char=692
+30	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=693|end_char=705|SpaceAfter=No
+31	.	.	PUNCT	_	_	24	punct	_	start_char=705|end_char=706|SpacesAfter=\n
+
+# text = “Dhuna kundër grave është endemike në çdo shtet dhe kulturë, duke dëmtuar miliona gra dhe familjet e tyre dhe është përkeqësuar nga pandemia e koronavirusit”, tha drejtori i përgjithshëm i OBSH-së Tedros Adhanom Ghebreyesus.
+# sent_id = 4
+1	“	"	PUNCT	_	_	2	punct	_	start_char=707|end_char=708|SpaceAfter=No
+2	Dhuna	dhunë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=708|end_char=713
+3	kundër	kundër	ADP	_	Case=Abl	4	case	_	start_char=714|end_char=720
+4	grave	grua	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=721|end_char=726
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=727|end_char=732
+6	endemike	endemik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	cop	_	start_char=733|end_char=741
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=742|end_char=744
+8	çdo	çdo	PRON	_	PronType=Ind	9	nummod	_	start_char=745|end_char=748
+9	shtet	shtet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=749|end_char=754
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=755|end_char=758
+11	kulturë	kulturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	start_char=759|end_char=766|SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	start_char=766|end_char=767
+13	duke	duke	PART	_	_	14	fixed	_	start_char=768|end_char=772
+14	dëmtuar	dëmtuar	VERB	_	VerbForm=Part	5	advmod	_	start_char=773|end_char=780
+15	miliona	milionë	PRON	_	PronType=Ind	16	nummod	_	start_char=781|end_char=788
+16	gra	grua	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=789|end_char=792
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=793|end_char=796
+18	familjet	familje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	conj	_	start_char=797|end_char=805
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=806|end_char=807
+20	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=808|end_char=812
+21	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=813|end_char=816
+22	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=817|end_char=822
+23	përkeqësuar	përkeqësoj	VERB	_	VerbForm=Part	14	conj	_	start_char=823|end_char=834
+24	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=835|end_char=838
+25	pandemia	pandemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obl	_	start_char=839|end_char=847
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=848|end_char=849
+27	koronavirusit”	koronavirusit”	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=850|end_char=864|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=864|end_char=865
+29	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	start_char=866|end_char=869
+30	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=870|end_char=878
+31	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	32	det	_	start_char=879|end_char=880
+32	përgjithshëm	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=881|end_char=893
+33	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=894|end_char=895
+34	OBSH-së	OBSH-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=896|end_char=903
+35	Tedros	Tedros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	34	flat	_	start_char=904|end_char=910
+36	Adhanom	Adhanom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	34	flat	_	start_char=911|end_char=918
+37	Ghebreyesus	Ghebreyesus	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	flat:name	_	start_char=919|end_char=930|SpaceAfter=No
+38	.	.	PUNCT	_	_	29	punct	_	start_char=930|end_char=931|SpacesAfter=\n
+
+# text = Rreth 31% e grave nga mosha 14 - 49 ose deri 852 milionë gra kanë përjetuar dhunë fizike ose seksuale, tha OBSH-ja në atë që e quajti studimin më të madh të kësaj natyre ndonjëherë, duke përfshirë të dhëna nga shtetet dhe anketa nga viti 2000 deri në vitin 2018.
+# sent_id = 5
+1	Rreth	rreth	ADP	_	Case=Abl	2	case	_	start_char=932|end_char=937
+2	31	31	NUM	_	NumType=Card	23	advmod	_	start_char=938|end_char=940|SpaceAfter=No
+3	%	%	SYM	_	_	2	flat	_	start_char=940|end_char=941
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=942|end_char=943
+5	grave	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=944|end_char=949
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=950|end_char=953
+7	mosha	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=954|end_char=959
+8	14	14	NUM	_	NumType=Card	7	flat	_	start_char=960|end_char=962
+9	-	-	PUNCT	_	_	10	punct	_	start_char=963|end_char=964
+10	49	49	NUM	_	NumType=Card	7	flat	_	start_char=965|end_char=967
+11	ose	ose	CCONJ	_	_	17	cc	_	start_char=968|end_char=971
+12	deri	deri	PART	_	_	13	case	_	start_char=972|end_char=976
+13	852	852	NUM	_	NumType=Card	14	nummod	_	start_char=977|end_char=980
+14	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	advmod	_	start_char=981|end_char=988
+15	gra	grua	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	nsubj	_	start_char=989|end_char=992
+16	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=993|end_char=997
+17	përjetuar	përjetoj	VERB	_	VerbForm=Part	23	advcl	_	start_char=998|end_char=1007
+18	dhunë	dhunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=1008|end_char=1013
+19	fizike	fizik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=1014|end_char=1020
+20	ose	ose	CCONJ	_	_	21	cc	_	start_char=1021|end_char=1024
+21	seksuale	seksual	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	start_char=1025|end_char=1033|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=1033|end_char=1034
+23	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1035|end_char=1038
+24	OBSH-ja	OBSH-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	start_char=1039|end_char=1046
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=1047|end_char=1049
+26	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	obl	_	start_char=1050|end_char=1053
+27	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=1054|end_char=1056
+28	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	start_char=1057|end_char=1058
+29	quajti	quaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	advcl	_	start_char=1059|end_char=1065
+30	studimin	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=1066|end_char=1074
+31	më	më	PART	_	_	33	mark	_	start_char=1075|end_char=1077
+32	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=1078|end_char=1080
+33	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=1081|end_char=1085
+34	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=1086|end_char=1088
+35	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	36	det	_	start_char=1089|end_char=1094
+36	natyre	natyr	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	start_char=1095|end_char=1101
+37	ndonjëherë	ndonjëherë	ADV	_	AdvType=Tim	36	amod	_	start_char=1102|end_char=1112|SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	start_char=1112|end_char=1113
+39	duke	duke	PART	_	_	40	fixed	_	start_char=1114|end_char=1118
+40	përfshirë	përfshij	VERB	_	VerbForm=Part	36	advmod	_	start_char=1119|end_char=1128
+41	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=1129|end_char=1131
+42	dhëna	dhënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	40	obj	_	start_char=1132|end_char=1137
+43	nga	nga	ADP	_	Case=Nom	44	case	_	start_char=1138|end_char=1141
+44	shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	40	advmod	_	start_char=1142|end_char=1149
+45	dhe	dhe	CCONJ	_	_	46	cc	_	start_char=1150|end_char=1153
+46	anketa	anketë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	44	conj	_	start_char=1154|end_char=1160
+47	nga	nga	ADP	_	Case=Nom	48	case	_	start_char=1161|end_char=1164
+48	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	46	nmod	_	start_char=1165|end_char=1169
+49	2000	2000	NUM	_	NumType=Card	48	nummod	_	start_char=1170|end_char=1174
+50	deri	deri	PART	_	Case=TODO	51	fixed	_	start_char=1175|end_char=1179
+51	në	në	ADP	_	Case=Acc	52	case	_	start_char=1180|end_char=1182
+52	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	48	nmod	_	start_char=1183|end_char=1188
+53	2018	2018	NUM	_	NumType=Card	52	amod:nummod	_	start_char=1189|end_char=1193|SpaceAfter=No
+54	.	.	PUNCT	_	_	23	punct	_	start_char=1193|end_char=1194|SpacesAfter=\n
+
+# text = Një bashkëshort ose partner intim është autori më i zakonshëm i këtyre abuzimeve.
+# sent_id = 6
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1195|end_char=1198
+2	bashkëshort	bashkëshor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1199|end_char=1210
+3	ose	ose	CCONJ	_	_	4	cc	_	start_char=1211|end_char=1214
+4	partner	partner	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=1215|end_char=1222
+5	intim	intim	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1223|end_char=1228
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1229|end_char=1234
+7	autori	autor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=1235|end_char=1241
+8	më	më	PART	_	_	10	mark	_	start_char=1242|end_char=1244
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=1245|end_char=1246
+10	zakonshëm	zakonshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1247|end_char=1256
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=1257|end_char=1258
+12	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=1259|end_char=1265
+13	abuzimeve	abuzim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=1266|end_char=1275|SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	start_char=1275|end_char=1276
+
+# text = Një numër disproporcional i viktimave gjenden në vendet më të varfëra.
+# sent_id = 7
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=1277|end_char=1280
+2	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1281|end_char=1286
+3	disproporcional	disproporcional	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=1287|end_char=1302
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1303|end_char=1304
+5	viktimave	viktimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=1305|end_char=1314
+6	gjenden	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1315|end_char=1322
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=1323|end_char=1325
+8	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	start_char=1326|end_char=1332
+9	më	më	PART	_	_	11	mark	_	start_char=1333|end_char=1335
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=1336|end_char=1338
+11	varfëra	varfër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1339|end_char=1346|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	start_char=1346|end_char=1347
+
+# text = (https://tmsnrt.rs/3t5OO78)
+# sent_id = 8
+1	(https://tmsnrt.rs/3t5OO78)	(https://tmsnrt.rs/3t5OO78)	NUM	_	NumType=Card	0	root	_	start_char=1348|end_char=1375
+
+# text = Shifrat reale ka të ngjarë të jenë shumë më të larta si rezultat i mosraportimit të abuzimit seksual, një krim tejet i stigmatizuar.
+# sent_id = 9
+1	Shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1376|end_char=1383
+2	reale	real	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=1384|end_char=1389
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1390|end_char=1392
+4	të	të	PART	_	_	5	fixed	_	start_char=1393|end_char=1395
+5	ngjarë	ngjar	VERB	_	VerbForm=Part	3	ccomp	_	start_char=1396|end_char=1402
+6	të	të	PART	_	_	7	fixed	_	start_char=1403|end_char=1405
+7	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=1406|end_char=1410
+8	shumë	shumë	ADV	_	AdvType=Deg	11	advmod	_	start_char=1411|end_char=1416
+9	më	më	PART	_	_	11	mark	_	start_char=1417|end_char=1419
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=1420|end_char=1422
+11	larta	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	cop	_	start_char=1423|end_char=1428
+12	si	si	SCONJ	_	_	13	mark	_	start_char=1429|end_char=1431
+13	rezultat	rezultat	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	cop	_	start_char=1432|end_char=1440
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=1441|end_char=1442
+15	mosraportimit	mosraportim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=1443|end_char=1456
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=1457|end_char=1459
+17	abuzimit	abuzim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=1460|end_char=1468
+18	seksual	seksual	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=1469|end_char=1476|SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	start_char=1476|end_char=1477
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=1478|end_char=1481
+21	krim	krim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	list	_	start_char=1482|end_char=1486
+22	tejet	tejet	ADV	_	AdvType=Deg	24	advmod	_	start_char=1487|end_char=1492
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=1493|end_char=1494
+24	stigmatizuar	stigmatizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=1495|end_char=1507|SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	start_char=1507|end_char=1508|SpacesAfter=\n
+
+# text = “Këto janë shifra shumë tronditëse dhe në të vërtetë janë një lloj thirrjeje që qeveritë të zgjohen dhe të bëjnë më shumë për të parandaluar këtë dhunë”, tha autorja e raportit Claudia Garcia-Moreno.
+# sent_id = 10
+1	“	"	PUNCT	_	_	3	punct	_	start_char=1509|end_char=1510|SpaceAfter=No
+2	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	start_char=1510|end_char=1514
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1515|end_char=1519
+4	shifra	shifër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	cop	_	start_char=1520|end_char=1526
+5	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=1527|end_char=1532
+6	tronditëse	tronditës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1533|end_char=1543
+7	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=1544|end_char=1547
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=1548|end_char=1550
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=1551|end_char=1553
+10	vërtetë	vërtetë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	cop	_	start_char=1554|end_char=1561
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=1562|end_char=1566
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=1567|end_char=1570
+13	lloj	lloj	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	cop	_	start_char=1571|end_char=1575
+14	thirrjeje	thirrje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=1576|end_char=1585
+15	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=1586|end_char=1588
+16	qeveritë	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	nsubj	_	start_char=1589|end_char=1597
+17	të	të	PART	_	_	18	fixed	_	start_char=1598|end_char=1600
+18	zgjohen	zgjoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	13	acl:relcl	_	start_char=1601|end_char=1608
+19	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=1609|end_char=1612
+20	të	të	PART	_	_	21	fixed	_	start_char=1613|end_char=1615
+21	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=1616|end_char=1621
+22	më	më	PART	_	_	23	mark	_	start_char=1622|end_char=1624
+23	shumë	shumë	ADV	_	AdvType=Deg	21	advmod	_	start_char=1625|end_char=1630
+24	për	për	PART	_	_	26	fixed	_	start_char=1631|end_char=1634
+25	të	të	PART	_	_	26	fixed	_	start_char=1635|end_char=1637
+26	parandaluar	parandaloj	VERB	_	VerbForm=Part	21	advmod	_	start_char=1638|end_char=1649
+27	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=1650|end_char=1654
+28	dhunë”	dhunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	obj	_	start_char=1655|end_char=1661|SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	start_char=1661|end_char=1662
+30	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	ccomp	_	start_char=1663|end_char=1666
+31	autorja	autore	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	obj	_	start_char=1667|end_char=1674
+32	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=1675|end_char=1676
+33	raportit	raport	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=1677|end_char=1685
+34	Claudia	Claudi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	appos	_	start_char=1686|end_char=1693
+35	Garcia-Moreno	Garcia-Moreno	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	34	flat:name	_	start_char=1694|end_char=1707|SpaceAfter=No
+36	.	.	PUNCT	_	_	30	punct	_	start_char=1707|end_char=1708|SpacesAfter=\n
+
+# text = Në disa rajone, më shumë se gjysma e grave përballen me dhunë, tha ajo për agjencinë e lajmeve Reuters, ndërsa citoi Oqeaninë, Afrikën nën-Sahariane dhe Azinë Qendrore.
+# sent_id = 11
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=1709|end_char=1711
+2	disa	disa	PRON	_	PronType=Ind	3	nummod	_	start_char=1712|end_char=1716
+3	rajone	rajon	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	advmod	_	start_char=1717|end_char=1723|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	start_char=1723|end_char=1724
+5	më	më	PART	_	_	6	mark	_	start_char=1725|end_char=1727
+6	shumë	shumë	ADV	_	AdvType=Deg	3	advmod	_	start_char=1728|end_char=1733
+7	se	se	SCONJ	_	_	11	mark	_	start_char=1734|end_char=1736
+8	gjysma	gjysmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1737|end_char=1743
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=1744|end_char=1745
+10	grave	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=1746|end_char=1751
+11	përballen	përballem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	15	advcl	_	start_char=1752|end_char=1761
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=1762|end_char=1764
+13	dhunë	dhunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=1765|end_char=1770|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1770|end_char=1771
+15	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1772|end_char=1775
+16	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=1776|end_char=1779
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=1780|end_char=1783
+18	agjencinë	agjenci	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=1784|end_char=1793
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=1794|end_char=1795
+20	lajmeve	lajm	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=1796|end_char=1803
+21	Reuters	Reuter	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	start_char=1804|end_char=1811|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=1811|end_char=1812
+23	ndërsa	ndërsa	CCONJ	_	_	24	cc	_	start_char=1813|end_char=1819
+24	citoi	citoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	start_char=1820|end_char=1825
+25	Oqeaninë	Oqeani	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=1826|end_char=1834|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=1834|end_char=1835
+27	Afrikën	Afrikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	list	_	start_char=1836|end_char=1843
+28	nën	nën	ADP	_	Case=Acc	29	case	_	start_char=1844|end_char=1847|SpaceAfter=No
+29	-Sahariane	-Saharian	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=1847|end_char=1857
+30	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=1858|end_char=1861
+31	Azinë	Azinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	conj	_	start_char=1862|end_char=1867
+32	Qendrore	Qendror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=1868|end_char=1876|SpaceAfter=No
+33	.	.	PUNCT	_	_	24	punct	_	start_char=1876|end_char=1877
+
+# text = Në vendet me përhapjen më të lartë të këtij fenomeni përfshihen Kiribati, Fixhi, Papua New Guinea, Bangladeshi, Republika Demokratike e Kongos dhe Afganistani, tregojnë të dhënat e OBSH-së.
+# sent_id = 12
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=1878|end_char=1880
+2	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=1881|end_char=1887
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=1888|end_char=1890
+4	përhapjen	përhapje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=1891|end_char=1900
+5	më	më	PART	_	_	7	mark	_	start_char=1901|end_char=1903
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1904|end_char=1906
+7	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1907|end_char=1912
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=1913|end_char=1915
+9	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=1916|end_char=1921
+10	fenomeni	fenomen	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=1922|end_char=1930
+11	përfshihen	përfshij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1931|end_char=1941
+12	Kiribati	Kiribat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=1942|end_char=1950|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1950|end_char=1951
+14	Fixhi	Fixh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	list	_	start_char=1952|end_char=1957|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1957|end_char=1958
+16	Papua	papua	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	14	list	_	start_char=1959|end_char=1964
+17	New	new	PROPN	_	Foreign=Yes	16	flat	_	start_char=1965|end_char=1968
+18	Guinea	Guine	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=1969|end_char=1975|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=1975|end_char=1976
+20	Bangladeshi	Bangladesh	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	list	_	start_char=1977|end_char=1988|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1988|end_char=1989
+22	Republika	republikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	list	_	start_char=1990|end_char=1999
+23	Demokratike	demokratik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	flat	_	start_char=2000|end_char=2011
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=2012|end_char=2013
+25	Kongos	Kongos	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=2014|end_char=2020
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=2021|end_char=2024
+27	Afganistani	Afganistan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	conj	_	start_char=2025|end_char=2036|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=2036|end_char=2037
+29	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=2038|end_char=2046
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=2047|end_char=2049
+31	dhënat	dhënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	obj	_	start_char=2050|end_char=2056
+32	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det:poss	_	start_char=2057|end_char=2058
+33	OBSH-së	OBSH-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=2059|end_char=2066|SpaceAfter=No
+34	.	.	PUNCT	_	_	29	punct	_	start_char=2066|end_char=2067|SpacesAfter=\n
+
+# text = Shifrat më të ulta janë në Evropë, deri në 23% gjatë gjithë jetës.
+# sent_id = 13
+1	Shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	start_char=2068|end_char=2075
+2	më	më	PART	_	_	4	mark	_	start_char=2076|end_char=2078
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=2079|end_char=2081
+4	ulta	ultë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=2082|end_char=2086
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2087|end_char=2091
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=2092|end_char=2094
+7	Evropë	Evropë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=2095|end_char=2101|SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	start_char=2101|end_char=2102
+9	deri	deri	PART	_	_	10	fixed	_	start_char=2103|end_char=2107
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=2108|end_char=2110
+11	23	23	NUM	_	NumType=Card	12	nummod	_	start_char=2111|end_char=2113|SpaceAfter=No
+12	%	%	SYM	_	_	5	advmod	_	start_char=2113|end_char=2114
+13	gjatë	gjatë	ADP	_	Case=Abl	15	case	_	start_char=2115|end_char=2120
+14	gjithë	gjithë	PRON	_	PronType=Ind	15	det	_	start_char=2121|end_char=2127
+15	jetës	jetë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=2128|end_char=2133|SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	start_char=2133|end_char=2134
+
+# text = Dhuna fillon në një moshë “të re alarmante”, tha OBSH-ja.
+# sent_id = 14
+1	Dhuna	dhunë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2135|end_char=2140
+2	fillon	filloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2141|end_char=2147
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=2148|end_char=2150
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=2151|end_char=2154
+5	moshë	moshë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=2155|end_char=2160
+6	“të	“të	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2161|end_char=2164
+7	re	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	nummod	_	start_char=2165|end_char=2167
+8	alarmante”	alarmant	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=2168|end_char=2178|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=2178|end_char=2179
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=2180|end_char=2183
+11	OBSH-ja	OBSH-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2184|end_char=2191|SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	start_char=2191|end_char=2192
+
+# text = Një në katër vajza adoleshente të moshës 15-19 të cilat kanë patur marrëdhënie, i janë nënshtruar dhunës fizike ose seksuale, tha zonja Garcia-Moreno.
+# sent_id = 15
+1	Një	një	DET	_	Definite=Ind	4	det	_	start_char=2193|end_char=2196
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=2197|end_char=2199
+3	katër	katër	NUM	_	NumType=Card	4	nummod	_	start_char=2200|end_char=2205
+4	vajza	vajzë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=2206|end_char=2211
+5	adoleshente	adoleshent	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=2212|end_char=2223
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=2224|end_char=2226
+7	moshës	moshë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=2227|end_char=2233
+8	15-19	15-19	NUM	_	NumType=Card	7	nummod	_	start_char=2234|end_char=2239
+9	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=2240|end_char=2242
+10	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	12	nsubj	_	start_char=2243|end_char=2248
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=2249|end_char=2253
+12	patur	patoj	VERB	_	VerbForm=Part	17	advcl	_	start_char=2254|end_char=2259
+13	marrëdhënie	marrëdhënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=2260|end_char=2271|SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	start_char=2271|end_char=2272
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	iobj	_	start_char=2273|end_char=2274
+16	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=2275|end_char=2279
+17	nënshtruar	nënshtroj	VERB	_	VerbForm=Part	0	root	_	start_char=2280|end_char=2290
+18	dhunës	dhunë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=2291|end_char=2297
+19	fizike	fizik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=2298|end_char=2304
+20	ose	ose	CCONJ	_	_	21	cc	_	start_char=2305|end_char=2308
+21	seksuale	seksual	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	start_char=2309|end_char=2317|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=2317|end_char=2318
+23	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	start_char=2319|end_char=2322
+24	zonja	zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	start_char=2323|end_char=2328
+25	Garcia-Moreno	Garcia-Moreno	PROPN	_	Case=Nom|Foreign=Yes	24	flat	_	start_char=2329|end_char=2342|SpaceAfter=No
+26	.	.	PUNCT	_	_	23	punct	_	start_char=2342|end_char=2343|SpacesAfter=\n
+
+# text = “Kjo është një periudhë shumë e rëndësishme dhe formuese në jetë.
+# sent_id = 16
+1	“	"	PUNCT	_	_	3	punct	_	start_char=2344|end_char=2345|SpaceAfter=No
+2	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=2345|end_char=2348
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2349|end_char=2354
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=2355|end_char=2358
+5	periudhë	periudhë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	cop	_	start_char=2359|end_char=2367
+6	shumë	shumë	ADV	_	AdvType=Deg	5	amod	_	start_char=2368|end_char=2373
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2374|end_char=2375
+8	rëndësishme	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2376|end_char=2387
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=2388|end_char=2391
+10	formuese	formues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=2392|end_char=2400
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=2401|end_char=2403
+12	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advmod	_	start_char=2404|end_char=2408|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=2408|end_char=2409
+
+# text = E dimë që ndikimet e kësaj dhune mund të jenë afatgjata dhe mund të ndikojnë tek shëndeti fizik e mendor dhe mund të shkaktojnë shtatëzani të padëshiruara dhe ndërlikime të tjera”, tha ajo.
+# sent_id = 17
+1	E	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	cc	_	start_char=2410|end_char=2411
+2	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	advcl	_	start_char=2412|end_char=2416
+3	që	që	SCONJ	_	_	4	mark	_	start_char=2417|end_char=2419
+4	ndikimet	ndikim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=2420|end_char=2428
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=2429|end_char=2430
+6	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=2431|end_char=2436
+7	dhune	dhun	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=2437|end_char=2442
+8	mund	mund	AUX	_	_	10	aux	_	start_char=2443|end_char=2447
+9	të	të	PART	_	_	10	fixed	_	start_char=2448|end_char=2450
+10	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2451|end_char=2455
+11	afatgjata	afatgjatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	cop	_	start_char=2456|end_char=2465
+12	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=2466|end_char=2469
+13	mund	mund	AUX	_	_	15	aux	_	start_char=2470|end_char=2474
+14	të	të	PART	_	_	15	fixed	_	start_char=2475|end_char=2477
+15	ndikojnë	ndikoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=2478|end_char=2486
+16	tek	tek	ADP	_	Case=Nom	17	case	_	start_char=2487|end_char=2490
+17	shëndeti	shëndet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=2491|end_char=2499
+18	fizik	fizik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=2500|end_char=2505
+19	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=2506|end_char=2507
+20	mendor	mendor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=2508|end_char=2514
+21	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=2515|end_char=2518
+22	mund	mund	AUX	_	_	24	aux	_	start_char=2519|end_char=2523
+23	të	të	PART	_	_	24	fixed	_	start_char=2524|end_char=2526
+24	shkaktojnë	shkaktoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=2527|end_char=2537
+25	shtatëzani	shtatëzan	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=2538|end_char=2548
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=2549|end_char=2551
+27	padëshiruara	padëshiruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=2552|end_char=2564
+28	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=2565|end_char=2568
+29	ndërlikime	ndërlikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	conj	_	start_char=2569|end_char=2579
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=2580|end_char=2582
+31	tjera”	tjera”	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	29	amod:poss	_	start_char=2583|end_char=2589|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=2589|end_char=2590
+33	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	conj	_	start_char=2591|end_char=2594
+34	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	start_char=2595|end_char=2598|SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	start_char=2598|end_char=2599|SpacesAfter=\n\n\n
+

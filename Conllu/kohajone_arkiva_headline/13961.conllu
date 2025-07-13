@@ -1,0 +1,191 @@
+# text = Kush është personi që ka takuar Tahirin për vrasjen e Doshit dhe Fufit?
+# sent_id = 0
+1	Kush	kush	PRON	_	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	start_char=0|end_char=4
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=10
+3	personi	person	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=11|end_char=18
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=19|end_char=21
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=22|end_char=24
+6	takuar	takoj	VERB	_	VerbForm=Part	3	acl:relcl	_	start_char=25|end_char=31
+7	Tahirin	Tahir	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=32|end_char=39
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=43
+9	vrasjen	vrasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=44|end_char=51
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=52|end_char=53
+11	Doshit	Dosh	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=54|end_char=60
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=61|end_char=64
+13	Fufit	Fuf	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	start_char=65|end_char=70|SpaceAfter=No
+14	?	?	PUNCT	_	_	2	punct	_	start_char=70|end_char=71|SpacesAfter=\n
+
+# text = Deputeti Tom Doshi bëri sot një deklaratë bombë.
+# sent_id = 1
+1	Deputeti	deputet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=72|end_char=80
+2	Tom	Tom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=81|end_char=84
+3	Doshi	Doshi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=85|end_char=90
+4	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=91|end_char=95
+5	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=96|end_char=99
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=100|end_char=103
+7	deklaratë	deklaratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=104|end_char=113
+8	bombë	bombë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=114|end_char=119|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	start_char=119|end_char=120
+
+# text = Ai tha sot se kryeparlamentari Ilir Meta ka paguar njerëz që ta vrasin atë dhe deputetin demokrat Mëhill Fufi.
+# sent_id = 2
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=121|end_char=123
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	start_char=124|end_char=127
+3	sot	sot	ADV	_	AdvType=Tim	2	advmod	_	start_char=128|end_char=131
+4	se	se	SCONJ	_	_	9	mark	_	start_char=132|end_char=134
+5	kryeparlamentari	kryeparlamentar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=135|end_char=151
+6	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=152|end_char=156
+7	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=157|end_char=161
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=162|end_char=164
+9	paguar	pagoj	VERB	_	VerbForm=Part	0	root	_	start_char=165|end_char=171
+10	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	start_char=172|end_char=178
+11	që	që	SCONJ	_	_	14	mark	_	start_char=179|end_char=181
+12-13	ta	_	_	_	_	_	_	_	start_char=182|end_char=184
+12	të	të	PART	_	_	14	fixed	_	_
+13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+14	vrasin	vras	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=185|end_char=191
+15	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=192|end_char=195
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=196|end_char=199
+17	deputetin	deputet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=200|end_char=209
+18	demokrat	demokrë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=210|end_char=218
+19	Mëhill	Mëhill	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=219|end_char=225
+20	Fufi	Fufi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=226|end_char=230|SpaceAfter=No
+21	.	.	PUNCT	_	_	9	punct	_	start_char=230|end_char=231
+
+# text = Sipas Doshit, personi që do të kryente vrasjen është takuar me ministrin e Brendshëm, Saimir Tahiri.
+# sent_id = 3
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=232|end_char=237
+2	Doshit	Dosh	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=238|end_char=244|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=244|end_char=245
+4	personi	person	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=246|end_char=253
+5	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=254|end_char=256
+6	do	do	PART	_	_	8	fixed	_	start_char=257|end_char=259
+7	të	të	PART	_	_	8	fixed	_	start_char=260|end_char=262
+8	kryente	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	4	acl:relcl	_	start_char=263|end_char=270
+9	vrasjen	vrasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=271|end_char=278
+10	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=279|end_char=284
+11	takuar	takoj	VERB	_	VerbForm=Part	0	root	_	start_char=285|end_char=291
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=292|end_char=294
+13	ministrin	ministr	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=295|end_char=304
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=305|end_char=306
+15	Brendshëm	Brendshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=307|end_char=316|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	start_char=316|end_char=317
+17	Saimir	Saimir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=318|end_char=324
+18	Tahiri	Tahir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=325|end_char=331|SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	start_char=331|end_char=332
+
+# text = Po kush është ky person?
+# sent_id = 4
+1	Po	po	PART	_	_	2	mark	_	start_char=333|end_char=335
+2	kush	kush	PRON	_	Case=Nom|PronType=Int	3	nsubj	_	start_char=336|end_char=340
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=341|end_char=346
+4	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=347|end_char=349
+5	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=350|end_char=356|SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	start_char=356|end_char=357|SpacesAfter=\n
+
+# text = Ish-kryeministri Berisha dhe Partia Demokratike e kanë akuzuar vazhdimisht Saimir Tahirin për lidhje me Emiliano Shullazin.
+# sent_id = 5
+1	Ish-kryeministri	Ish-kryemisistri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=358|end_char=374
+2	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=375|end_char=382
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=383|end_char=386
+4	Partia	parti	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=387|end_char=393
+5	Demokratike	demokratik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=394|end_char=405
+6	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	cc	_	start_char=406|end_char=407
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=408|end_char=412
+8	akuzuar	akuzoj	VERB	_	VerbForm=Part	0	root	_	start_char=413|end_char=420
+9	vazhdimisht	vazhdimisht	ADV	_	AdvType=Man	8	advmod	_	start_char=421|end_char=432
+10	Saimir	Saimir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	start_char=433|end_char=439
+11	Tahirin	Tahir	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=440|end_char=447
+12	për	për	ADP	_	Case=Acc	15	case	_	start_char=448|end_char=451
+13	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=452|end_char=458
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=459|end_char=461
+15	Emiliano	Emiliano	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=462|end_char=470
+16	Shullazin	shullaz	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=471|end_char=480|SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	start_char=480|end_char=481
+
+# text = A është Shullazi, ai i cili është takuar me Tahirin për vrasjen e Doshit dhe Fufit?
+# sent_id = 6
+1	A	a	PUNCT	_	_	2	punct	_	start_char=482|end_char=483
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=484|end_char=489
+3	Shullazi	Shullaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=490|end_char=498|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	start_char=498|end_char=499
+5	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=500|end_char=502
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=503|end_char=504
+7	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	start_char=505|end_char=509
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=510|end_char=515
+9	takuar	takoj	VERB	_	VerbForm=Part	2	advcl	_	start_char=516|end_char=522
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=523|end_char=525
+11	Tahirin	Tahir	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=526|end_char=533
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=534|end_char=537
+13	vrasjen	vrasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=538|end_char=545
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=546|end_char=547
+15	Doshit	Dosh	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=548|end_char=554
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=555|end_char=558
+17	Fufit	Fuf	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=559|end_char=564|SpaceAfter=No
+18	?	?	PUNCT	_	_	9	punct	_	start_char=564|end_char=565
+
+# text = Për këtë të fundit dihet vetëm që ka qenë protagonist i ngjarjes së 23 qershorit 2013, kur u vra një përkrahës i LSI-së në qytetin e Laçit.
+# sent_id = 7
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=566|end_char=569
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	start_char=570|end_char=574
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=575|end_char=577
+4	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=578|end_char=584
+5	dihet	dihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=585|end_char=590
+6	vetëm	vetëm	ADV	_	AdvType=Man	5	advmod	_	start_char=591|end_char=596
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=597|end_char=599
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=600|end_char=602
+9	qenë	jam	VERB	_	VerbForm=Part	5	advcl	_	start_char=603|end_char=607
+10	protagonist	protagonist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	cop	_	start_char=608|end_char=619
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=620|end_char=621
+12	ngjarjes	ngjarje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=622|end_char=630
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=631|end_char=633
+14	23	23	NUM	_	NumType=Card	15	nummod	_	start_char=634|end_char=636
+15	qershorit	qershor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=637|end_char=646
+16	2013	2013	NUM	_	NumType=Card	15	nummod	_	start_char=647|end_char=651|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	start_char=651|end_char=652
+18	kur	kur	SCONJ	_	_	20	mark	_	start_char=653|end_char=656
+19	u	u	PART	_	_	20	fixed	_	start_char=657|end_char=658
+20	vra	vras	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	15	acl:relcl	_	start_char=659|end_char=662
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=663|end_char=666
+22	përkrahës	përkrahë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=667|end_char=676
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=677|end_char=678
+24	LSI-së	LSI-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=679|end_char=685
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=686|end_char=688
+26	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	advmod	_	start_char=689|end_char=696
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=697|end_char=698
+28	Laçit	Laç	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=699|end_char=704|SpaceAfter=No
+29	.	.	PUNCT	_	_	20	punct	_	start_char=704|end_char=705
+
+# text = Tom Doshi e ka sulmuar vazhdimisht ministrin e Brendshëm, Saimir Tahiri.
+# sent_id = 8
+1	Tom	Tom	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=706|end_char=709
+2	Doshi	Doshi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=710|end_char=715
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	cc	_	start_char=716|end_char=717
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=718|end_char=720
+5	sulmuar	sulmoj	VERB	_	VerbForm=Part	0	root	_	start_char=721|end_char=728
+6	vazhdimisht	vazhdimisht	ADV	_	AdvType=Man	5	advmod	_	start_char=729|end_char=740
+7	ministrin	ministr	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=741|end_char=750
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=751|end_char=752
+9	Brendshëm	Brendshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=753|end_char=762|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=762|end_char=763
+11	Saimir	Saimir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	start_char=764|end_char=770
+12	Tahiri	Tahir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=771|end_char=777|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	start_char=777|end_char=778|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 9
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=779|end_char=781
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=782|end_char=792|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=792|end_char=793|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=794|end_char=798
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=799|end_char=801
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=802|end_char=805
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=806|end_char=810|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=811|end_char=829|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=830|end_char=839
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=840|end_char=852
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=853|end_char=859|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=860|end_char=869
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=870|end_char=882
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=883|end_char=890|SpacesAfter=\n\n\n
+

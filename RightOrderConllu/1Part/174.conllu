@@ -1,0 +1,321 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Jetë Shqiptare”-
+# sent_id = 1
+1	Jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1|end_char=5
+2	Shqiptare”	Shqiptar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	start_char=6|end_char=16|SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	start_char=16|end_char=17
+
+# text = Eni Jani:
+# sent_id = 2
+1	Eni	Eni	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=18|end_char=21
+2	Jani	Jani	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=22|end_char=26|SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	start_char=26|end_char=27
+
+# text = Ishte kënaqësi të risillja veprën “Shi në plazh” me fëmijët pa kujdes prindëror 15/12/2023 Vepra teatrore “Shi në plazh” është risjellur edhe një herë në vëmendje nga regjisorja Eni Jani e cila ka dashur të angazhojë fëmijët pa kujdes prindëror.
+# sent_id = 3
+1	Ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=28|end_char=33
+2	kënaqësi	kënaqësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=34|end_char=42
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=43|end_char=45
+4	risillja	risillje	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=46|end_char=54
+5	veprën	veprë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=55|end_char=61
+6	“	"	PUNCT	_	_	7	punct	_	start_char=62|end_char=63|SpaceAfter=No
+7	Shi	shi	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	cop	_	start_char=63|end_char=66
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=67|end_char=69
+9	plazh”	plazhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=70|end_char=76
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=77|end_char=79
+11	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=80|end_char=87
+12	pa	pa	ADP	_	Case=Acc	13	case	_	start_char=88|end_char=90
+13	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=91|end_char=97
+14	prindëror	prindëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=98|end_char=107|SpacesAfter=\n
+15	15	15	NUM	_	NumType=Card	16	nummod	_	start_char=108|end_char=110|SpaceAfter=No
+16	/12	/12	SYM	_	_	13	nmod	_	start_char=110|end_char=113|SpaceAfter=No
+17	/202	/202	NUM	_	NumType=Card	16	flat	_	start_char=113|end_char=117|SpaceAfter=No
+18	3	3	NUM	_	NumType=Card	19	nummod	_	start_char=117|end_char=118|SpacesAfter=\n
+19	Vepra	vepër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=119|end_char=124
+20	teatrore	teatror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=125|end_char=133
+21	“	"	PUNCT	_	_	22	punct	_	start_char=134|end_char=135|SpaceAfter=No
+22	Shi	shi	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=135|end_char=138
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=139|end_char=141
+24	plazh”	plazh”	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=142|end_char=148
+25	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=149|end_char=154
+26	risjellur	risjelloj	VERB	_	VerbForm=Part	1	conj	_	start_char=155|end_char=164
+27	edhe	edhe	PART	_	_	29	mark	_	start_char=165|end_char=169
+28	një	një	DET	_	Definite=Ind	29	det	_	start_char=170|end_char=173
+29	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	26	obj	_	start_char=174|end_char=178
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=179|end_char=181
+31	vëmendje	vëmendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	nmod	_	start_char=182|end_char=190
+32	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=191|end_char=194
+33	regjisorja	regjisorje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=195|end_char=205
+34	Eni	Eni	PROPN	_	Case=Nom|Foreign=Yes	33	appos	_	start_char=206|end_char=209
+35	Jani	Jani	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	34	flat	_	start_char=210|end_char=214
+36	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=215|end_char=216
+37	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	39	nsubj	_	start_char=217|end_char=221
+38	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	aux	_	start_char=222|end_char=224
+39	dashur	dua	VERB	_	VerbForm=Part	33	acl	_	start_char=225|end_char=231
+40	të	të	PART	_	_	41	fixed	_	start_char=232|end_char=234
+41	angazhojë	angazhoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	39	ccomp	_	start_char=235|end_char=244
+42	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	41	obj	_	start_char=245|end_char=252
+43	pa	pa	ADP	_	Case=Acc	44	case	_	start_char=253|end_char=255
+44	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	41	obl	_	start_char=256|end_char=262
+45	prindëror	prindëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	start_char=263|end_char=272|SpaceAfter=No
+46	.	.	PUNCT	_	_	41	punct	_	start_char=272|end_char=273
+
+# text = E ftuar në emisionin “Jetë Shqiptare” regjisorja Eni Jani shpjegon arsyet se përse zgjodhi që këtë vepër t’ia besoj këtyre fëmijëve.
+# sent_id = 4
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	start_char=274|end_char=275
+2	ftuar	ftoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=276|end_char=281
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=282|end_char=284
+4	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=285|end_char=294
+5	“	"	PUNCT	_	_	2	punct	_	start_char=295|end_char=296|SpaceAfter=No
+6	Jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=296|end_char=300
+7	Shqiptare”	Shqiptar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=301|end_char=311
+8	regjisorja	regjisorje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=312|end_char=322
+9	Eni	Eni	PROPN	_	Foreign=Yes	8	appos	_	start_char=323|end_char=326
+10	Jani	Jani	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	9	flat	_	start_char=327|end_char=331
+11	shpjegon	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	csubj	_	start_char=332|end_char=340
+12	arsyet	arsy	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=341|end_char=347
+13	se	se	SCONJ	_	_	15	mark	_	start_char=348|end_char=350
+14	përse	përse	PRON	_	Case=Nom|Number=Sing|PronType=Prs	15	nsubj	_	start_char=351|end_char=356
+15	zgjodhi	zgjodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	11	advcl	_	start_char=357|end_char=364
+16	që	që	SCONJ	_	_	20	mark	_	start_char=365|end_char=367
+17	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=368|end_char=372
+18	vepër	vepër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=373|end_char=378
+19	t’ia	t’ia	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	18	amod	_	start_char=379|end_char=383
+20	besoj	besoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	15	ccomp	_	start_char=384|end_char=389
+21	këtyre	këto	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=390|end_char=396
+22	fëmijëve	fëmijë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	20	obj	_	start_char=397|end_char=405|SpaceAfter=No
+23	.	.	PUNCT	_	_	20	punct	_	start_char=405|end_char=406|SpacesAfter=\n
+
+# text = Ajo u shpreh se shpesh herë i është dashur të bëjë edhe psikologen me fëmijët sepse në të kundërt je gjatë të gjithë kohës në vëmendjen e tyre.
+# sent_id = 5
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=407|end_char=410
+2	u	u	PART	_	_	3	fixed	_	start_char=411|end_char=412
+3	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=413|end_char=419
+4	se	se	SCONJ	_	_	9	mark	_	start_char=420|end_char=422
+5	shpesh	shpesh	ADV	_	AdvType=Deg	6	advmod	_	start_char=423|end_char=429
+6	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=430|end_char=434
+7	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	start_char=435|end_char=436
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=437|end_char=442
+9	dashur	dua	VERB	_	VerbForm=Part	3	advcl	_	start_char=443|end_char=449
+10	të	të	PART	_	_	11	fixed	_	start_char=450|end_char=452
+11	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=453|end_char=457
+12	edhe	edhe	PART	_	_	13	mark	_	start_char=458|end_char=462
+13	psikologen	psikolog	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=463|end_char=473
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=474|end_char=476
+15	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	start_char=477|end_char=484
+16	sepse	sepse	SCONJ	_	_	19	mark	_	start_char=485|end_char=490
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=491|end_char=493
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=494|end_char=496
+19	kundërt	kundërt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=497|end_char=504
+20	je	je	NOUN	_	Case=Nom|Definite=Ind	24	mark	_	start_char=505|end_char=507
+21	gjatë	gjatë	ADP	_	Case=Abl	24	case	_	start_char=508|end_char=513
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=514|end_char=516
+23	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	24	nummod	_	start_char=517|end_char=523
+24	kohës	kohë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=524|end_char=529
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=530|end_char=532
+26	vëmendjen	vëmendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=533|end_char=542
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=543|end_char=544
+28	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	amod:poss	_	start_char=545|end_char=549|SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	start_char=549|end_char=550|SpacesAfter=\n
+
+# text = “Ato kanë një barrierë përpara dhe të gjithë kohën të testojnë, duhet të jesh shumë e kujdesshme në mënyrën se si duhet të sillesh dhe sidomos impakti i parë, nëse i hyn në zemër që në impaktin e parë është më e thjeshtë në të kundërt nëse nuk krijojnë një lloj besimi tek ty ato të testojnë gjithë kohën, je në vëmendjen e tyre.
+# sent_id = 6
+1	“	"	PUNCT	_	_	3	punct	_	start_char=551|end_char=552|SpaceAfter=No
+2	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=552|end_char=555
+3	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=556|end_char=560
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=561|end_char=564
+5	barrierë	barrierë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=565|end_char=573
+6	përpara	përpara	ADV	_	AdvType=Tim	5	amod	_	start_char=574|end_char=581
+7	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=582|end_char=585
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=586|end_char=588
+9	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=589|end_char=595
+10	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=596|end_char=601
+11	të	të	PART	_	_	12	fixed	_	start_char=602|end_char=604
+12	testojnë	testoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=605|end_char=613|SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	start_char=613|end_char=614
+14	duhet	duhem	AUX	_	_	16	aux	_	start_char=615|end_char=620
+15	të	të	PART	_	_	16	fixed	_	start_char=621|end_char=623
+16	jesh	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=624|end_char=628
+17	shumë	shumë	ADV	_	AdvType=Deg	19	advmod	_	start_char=629|end_char=634
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=635|end_char=636
+19	kujdesshme	kujdesshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	cop	_	start_char=637|end_char=647
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=648|end_char=650
+21	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=651|end_char=658
+22	se	se	SCONJ	_	_	26	mark	_	start_char=659|end_char=661
+23	si	si	SCONJ	_	_	26	mark	_	start_char=662|end_char=664
+24	duhet	duhem	AUX	_	Mood=Ind	26	aux	_	start_char=665|end_char=670
+25	të	të	PART	_	_	26	fixed	_	start_char=671|end_char=673
+26	sillesh	sillej	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	acl:relcl	_	start_char=674|end_char=681
+27	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=682|end_char=685
+28	sidomos	sidomos	PART	_	_	29	mark	_	start_char=686|end_char=693
+29	impakti	impakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=694|end_char=701
+30	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=702|end_char=703
+31	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=704|end_char=708|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	start_char=708|end_char=709
+33	nëse	nëse	SCONJ	_	_	35	mark	_	start_char=710|end_char=714
+34	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	start_char=715|end_char=716
+35	hyn	hyj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	acl:relcl	_	start_char=717|end_char=720
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=721|end_char=723
+37	zemër	zemër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	obl	_	start_char=724|end_char=729
+38	që	që	PRON	_	PronType=Rel	43	nsubj	_	start_char=730|end_char=732
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=733|end_char=735
+40	impaktin	impakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	advmod	_	start_char=736|end_char=744
+41	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det	_	start_char=745|end_char=746
+42	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	start_char=747|end_char=751
+43	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	ccomp	_	start_char=752|end_char=757
+44	më	më	PART	_	_	46	advmod	_	start_char=758|end_char=760
+45	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	46	det	_	start_char=761|end_char=762
+46	thjeshtë	thjeshtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	cop	_	start_char=763|end_char=771
+47	në	në	ADP	_	Case=Acc	49	case	_	start_char=772|end_char=774
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	49	det	_	start_char=775|end_char=777
+49	kundërt	kundërt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	46	obl	_	start_char=778|end_char=785
+50	nëse	nëse	SCONJ	_	_	52	mark	_	start_char=786|end_char=790
+51	nuk	nuk	PART	_	_	52	mark	_	start_char=791|end_char=794
+52	krijojnë	krijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	43	advcl	_	start_char=795|end_char=803
+53	një	një	DET	_	Definite=Ind	54	det	_	start_char=804|end_char=807
+54	lloj	lloj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	52	obj	_	start_char=808|end_char=812
+55	besimi	besim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	54	nmod	_	start_char=813|end_char=819
+56	tek	tek	ADP	_	Case=Nom	58	case	_	start_char=820|end_char=823
+57	ty	ti	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	58	nummod	_	start_char=824|end_char=826
+58	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	60	obl	_	start_char=827|end_char=830
+59	të	të	PART	_	_	60	fixed	_	start_char=831|end_char=833
+60	testojnë	testoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	54	advmod	_	start_char=834|end_char=842
+61	gjithë	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	62	det	_	start_char=843|end_char=849
+62	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	60	obj	_	start_char=850|end_char=855|SpaceAfter=No
+63	,	,	PUNCT	_	_	66	punct	_	start_char=855|end_char=856
+64	je	je	PART	_	_	66	mark	_	start_char=857|end_char=859
+65	në	në	ADP	_	Case=Acc	66	case	_	start_char=860|end_char=862
+66	vëmendjen	vëmendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	60	advmod	_	start_char=863|end_char=872
+67	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	68	det:poss	_	start_char=873|end_char=874
+68	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	66	amod:poss	_	start_char=875|end_char=879|SpaceAfter=No
+69	.	.	PUNCT	_	_	60	punct	_	start_char=879|end_char=880
+
+# text = Mënyra se si unë sillem nuk mbaj distancë me ta dhe kjo gjë i pëlqen, krijohet grupi dhe ato e pëlqejnë këtë gjë.
+# sent_id = 7
+1	Mënyra	mënyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=881|end_char=887
+2	se	se	SCONJ	_	_	5	mark	_	start_char=888|end_char=890
+3	si	si	SCONJ	_	_	4	mark	_	start_char=891|end_char=893
+4	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=894|end_char=897
+5	sillem	sillem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	1	acl	_	start_char=898|end_char=904
+6	nuk	nuk	PART	_	_	7	mark	_	start_char=905|end_char=908
+7	mbaj	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	1	acl:relcl	_	start_char=909|end_char=913
+8	distancë	distancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=914|end_char=922
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=923|end_char=925
+10	ta	ata	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	start_char=926|end_char=928
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=929|end_char=932
+12	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=933|end_char=936
+13	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	nsubj	_	start_char=937|end_char=940
+14	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	start_char=941|end_char=942
+15	pëlqen	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=943|end_char=949|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	start_char=949|end_char=950
+17	krijohet	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=951|end_char=959
+18	grupi	grup	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=960|end_char=965
+19	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=966|end_char=969
+20	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=970|end_char=973
+21	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=974|end_char=975
+22	pëlqejnë	pëlqej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=976|end_char=984
+23	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	start_char=985|end_char=989
+24	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	start_char=990|end_char=993|SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	start_char=993|end_char=994|SpacesAfter=\n
+
+# text = Në pjesën më të madhe është punë psikologjike se sa punë artistike.
+# sent_id = 8
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=995|end_char=997
+2	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=998|end_char=1004
+3	më	më	PART	_	_	5	mark	_	start_char=1005|end_char=1007
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1008|end_char=1010
+5	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=1011|end_char=1016
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1017|end_char=1022
+7	punë	punë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	cop	_	start_char=1023|end_char=1027
+8	psikologjike	psikologjik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1028|end_char=1040
+9	se	se	SCONJ	_	_	11	mark	_	start_char=1041|end_char=1043
+10	sa	sa	ADV	_	AdvType=Deg	11	nummod	_	start_char=1044|end_char=1046
+11	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=1047|end_char=1051
+12	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1052|end_char=1061|SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	start_char=1061|end_char=1062
+
+# text = Por fëmijët fillojnë edhe joshen sepse ne bëjmë tamam një shfaqje teatri me pjesën e ndriçimit, me foninë, me kostumet.
+# sent_id = 9
+1	Por	por	CCONJ	_	_	3	cc	_	start_char=1063|end_char=1066
+2	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1067|end_char=1074
+3	fillojnë	filloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=1075|end_char=1083
+4	edhe	edhe	PART	_	_	5	cc	_	start_char=1084|end_char=1088
+5	joshen	joshej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	ccomp	_	start_char=1089|end_char=1095
+6	sepse	sepse	SCONJ	_	_	8	mark	_	start_char=1096|end_char=1101
+7	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1102|end_char=1104
+8	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	advcl	_	start_char=1105|end_char=1110
+9	tamam	tamam	ADV	_	AdvType=Tim	11	advmod	_	start_char=1111|end_char=1116
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=1117|end_char=1120
+11	shfaqje	shfaqje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=1121|end_char=1128
+12	teatri	teatr	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=1129|end_char=1135
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=1136|end_char=1138
+14	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=1139|end_char=1145
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=1146|end_char=1147
+16	ndriçimit	ndriçim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=1148|end_char=1157|SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	start_char=1157|end_char=1158
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=1159|end_char=1161
+19	foninë	foni	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=1162|end_char=1168|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	start_char=1168|end_char=1169
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=1170|end_char=1172
+22	kostumet	kostum	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=1173|end_char=1181|SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	start_char=1181|end_char=1182
+
+# text = Por ama kanë pasur edhe pasiguritë e tyre.
+# sent_id = 10
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=1183|end_char=1186
+2	ama	ama	SCONJ	_	_	4	mark	_	start_char=1187|end_char=1190
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=1191|end_char=1195
+4	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=1196|end_char=1201
+5	edhe	edhe	CCONJ	_	_	6	cc	_	start_char=1202|end_char=1206
+6	pasiguritë	pasiguri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=1207|end_char=1217
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=1218|end_char=1219
+8	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=1220|end_char=1224|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	start_char=1224|end_char=1225|SpacesAfter=\n
+
+# text = Gjatë këtij projekti që për fat të mirë kanë filluar shumë organizata që të jenë sensibël gjatë këtyre kauzave por rastësia më ka bërë që unë të jem tek shtëpia”, tha regjisorja Eni Jani.
+# sent_id = 11
+1	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=1226|end_char=1231
+2	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=1232|end_char=1237
+3	projekti	projekt	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=1238|end_char=1246
+4	që	që	PRON	_	PronType=Rel	6	mark	_	start_char=1247|end_char=1249
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=1250|end_char=1253
+6	fat	fat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=1254|end_char=1257
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1258|end_char=1260
+8	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1261|end_char=1265
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=1266|end_char=1270
+10	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=1271|end_char=1278
+11	shumë	shumë	PRON	_	PronType=Ind	12	nummod	_	start_char=1279|end_char=1284
+12	organizata	organizatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=1285|end_char=1295
+13	që	që	SCONJ	_	_	15	mark	_	start_char=1296|end_char=1298
+14	të	të	PART	_	_	15	fixed	_	start_char=1299|end_char=1301
+15	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=1302|end_char=1306
+16	sensibël	sensibël	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=1307|end_char=1315
+17	gjatë	gjatë	ADP	_	Case=Abl	19	case	_	start_char=1316|end_char=1321
+18	këtyre	këto	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	start_char=1322|end_char=1328
+19	kauzave	kauzë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=1329|end_char=1336
+20	por	por	CCONJ	_	_	24	cc	_	start_char=1337|end_char=1340
+21	rastësia	rastësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	start_char=1341|end_char=1349
+22	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	mark	_	start_char=1350|end_char=1352
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=1353|end_char=1355
+24	bërë	bëj	VERB	_	VerbForm=Part	19	acl:relcl	_	start_char=1356|end_char=1360
+25	që	që	SCONJ	_	_	28	mark	_	start_char=1361|end_char=1363
+26	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=1364|end_char=1367
+27	të	të	PART	_	_	28	fixed	_	start_char=1368|end_char=1370
+28	jem	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	24	advcl	_	start_char=1371|end_char=1374
+29	tek	tek	ADP	_	Case=Nom	30	case	_	start_char=1375|end_char=1378
+30	shtëpia”	shtëpia”	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obl	_	start_char=1379|end_char=1387|SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	start_char=1387|end_char=1388
+32	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	conj	_	start_char=1389|end_char=1392
+33	regjisorja	regjisorje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=1393|end_char=1403
+34	Eni	Eni	PROPN	_	Foreign=Yes	33	appos	_	start_char=1404|end_char=1407
+35	Jani	Jani	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	33	appos	_	start_char=1408|end_char=1412|SpaceAfter=No
+36	.	.	PUNCT	_	_	32	punct	_	start_char=1412|end_char=1413|SpacesAfter=\n
+
+# text = /rtsh.al/
+# sent_id = 12
+1	/rtsh.al	/rtsh.al	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=1414|end_char=1422|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1422|end_char=1423|SpacesAfter=\n\n\n
+

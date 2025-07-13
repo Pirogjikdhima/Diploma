@@ -1,0 +1,171 @@
+# text = Papa:
+# sent_id = 0
+1	Papa	papa	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=4|end_char=5
+
+# text = Covid-19, një zonjë e ashpër.
+# sent_id = 1
+1	Covid-19	Covid-19	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=14|SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	start_char=14|end_char=15
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=16|end_char=19
+4	zonjë	zonjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	appos	_	start_char=20|end_char=25
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=26|end_char=27
+6	ashpër	ashpër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=28|end_char=34|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	start_char=34|end_char=35
+
+# text = Duhet ti bindmi Papa Françesku e përshkroi sot gjatë një meshe pandeminë e Covid-19, si një “zonjë të ashpër” e cila duhet t’i bindmi, por ndërkohë ai dhe ndihmësit e tij më të ngushtë nuk mbanin maskë gjatë audiencës.
+# sent_id = 2
+1	Duhet	duhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=36|end_char=41
+2	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	det	_	start_char=42|end_char=44
+3	bindmi	bindm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	start_char=45|end_char=51|SpacesAfter=\n
+4	Papa	papa	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=52|end_char=56
+5	Françesku	Françesk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=57|end_char=66
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=67|end_char=68
+7	përshkroi	përshkruaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	start_char=69|end_char=78
+8	sot	sot	ADV	_	AdvType=Tim	7	advmod	_	start_char=79|end_char=82
+9	gjatë	gjatë	ADP	_	Case=Abl	11	case	_	start_char=83|end_char=88
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=89|end_char=92
+11	meshe	mesh	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=93|end_char=98
+12	pandeminë	pandemi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=99|end_char=108
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=109|end_char=110
+14	Covid-19	Covid-19	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=111|end_char=119|SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	start_char=119|end_char=120
+16	si	si	SCONJ	_	_	18	mark	_	start_char=121|end_char=123
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=124|end_char=127
+18	“zonjë	“zonjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=128|end_char=134
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=135|end_char=137
+20	ashpër”	ashpër”	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=138|end_char=145
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=146|end_char=147
+22	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	25	det	_	start_char=148|end_char=152
+23	duhet	duhem	AUX	_	Mood=Ind|Voice=Pass	25	case	_	start_char=153|end_char=158
+24	t’i	t’i	PRON	_	PronType=Ind	25	nummod	_	start_char=159|end_char=162
+25	bindmi	bindm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=163|end_char=169|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	start_char=169|end_char=170
+27	por	por	CCONJ	_	_	29	cc	_	start_char=171|end_char=174
+28	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	29	advmod	_	start_char=175|end_char=183
+29	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	start_char=184|end_char=186
+30	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=187|end_char=190
+31	ndihmësit	ndihmës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	29	conj	_	start_char=191|end_char=200
+32	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	33	det:poss	_	start_char=201|end_char=202
+33	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	amod:poss	_	start_char=203|end_char=206
+34	më	më	PART	_	_	36	mark	_	start_char=207|end_char=209
+35	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	36	det	_	start_char=210|end_char=212
+36	ngushtë	ngushtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	start_char=213|end_char=220
+37	nuk	nuk	PART	_	_	38	mark	_	start_char=221|end_char=224
+38	mbanin	mbaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	1	conj	_	start_char=225|end_char=231
+39	maskë	maskë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	38	obj	_	start_char=232|end_char=237
+40	gjatë	gjatë	ADP	_	Case=Abl	41	case	_	start_char=238|end_char=243
+41	audiencës	audiencë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	38	obl	_	start_char=244|end_char=253|SpaceAfter=No
+42	.	.	PUNCT	_	_	38	punct	_	start_char=253|end_char=254|SpacesAfter=\n
+
+# text = Në fillim të takimit Papa iu kërkoi falje të pranishmëve që nuk do të zbriste nga skena e mermertë.
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=255|end_char=257
+2	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=258|end_char=264
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=265|end_char=267
+4	takimit	takim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=268|end_char=275
+5	Papa	papa	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=276|end_char=280
+6-7	iu	_	_	_	_	_	_	_	start_char=281|end_char=283
+6	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	start_char=281|end_char=282
+7	u	u	PART	_	_	8	fixed	_	start_char=282|end_char=283
+8	kërkoi	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=284|end_char=290
+9	falje	falje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=291|end_char=296
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=297|end_char=299
+11	pranishmëve	pranishëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=300|end_char=311
+12	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=312|end_char=314
+13	nuk	nuk	PART	_	_	16	mark	_	start_char=315|end_char=318
+14	do	do	PART	_	_	16	fixed	_	start_char=319|end_char=321
+15	të	të	PART	_	_	16	fixed	_	start_char=322|end_char=324
+16	zbriste	zbris	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	9	acl	_	start_char=325|end_char=332
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=333|end_char=336
+18	skena	skenë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=337|end_char=342
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=343|end_char=344
+20	mermertë	mermertë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=345|end_char=353|SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	start_char=353|end_char=354|SpacesAfter=\n
+
+# text = ”Unë do të qëndroj këtë lart.
+# sent_id = 4
+1	”Unë	”Unë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=355|end_char=359
+2	do	do	PART	_	_	4	fixed	_	start_char=360|end_char=362
+3	të	të	PART	_	_	4	fixed	_	start_char=363|end_char=365
+4	qëndroj	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=366|end_char=373
+5	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=374|end_char=378
+6	lart	lart	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=379|end_char=383|SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	start_char=383|end_char=384
+
+# text = Do të kisha dëshirë të vija e të përshëndetesha me të gjithë ju, por duhet të mbajmë distancën.
+# sent_id = 5
+1	Do	do	PART	_	_	4	fixed	_	start_char=385|end_char=387
+2	të	të	PART	_	_	4	fixed	_	start_char=388|end_char=390
+3	kisha	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=391|end_char=396
+4	dëshirë	dëshir	VERB	_	VerbForm=Part	0	root	_	start_char=397|end_char=404
+5	të	të	PART	_	_	6	det	_	start_char=405|end_char=407
+6	vija	vë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=408|end_char=412
+7	e	e	CCONJ	_	_	9	cc	_	start_char=413|end_char=414
+8	të	të	PART	_	_	9	fixed	_	start_char=415|end_char=417
+9	përshëndetesha	përshëndeteshë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	4	conj	_	start_char=418|end_char=432
+10	me	me	ADP	_	Case=Acc	13	case	_	start_char=433|end_char=435
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=436|end_char=438
+12	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	start_char=439|end_char=445
+13	ju	ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	obl	_	start_char=446|end_char=448|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=448|end_char=449
+15	por	por	CCONJ	_	_	18	cc	_	start_char=450|end_char=453
+16	duhet	duhem	AUX	_	_	18	aux	_	start_char=454|end_char=459
+17	të	të	PART	_	_	18	fixed	_	start_char=460|end_char=462
+18	mbajmë	mbaj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	conj	_	start_char=463|end_char=469
+19	distancën	distancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=470|end_char=479|SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	start_char=479|end_char=480
+
+# text = Nëse do të zbrisja do të formoheshin grupe dhe kjo është kundër masave të rekomanduara përballë kësaj zonje me emrin Covid që po na shkakton shumë dhimbje”, tha Ati i Shenjtë.
+# sent_id = 6
+1	Nëse	nëse	SCONJ	_	_	4	mark	_	start_char=481|end_char=485
+2	do	do	PART	_	_	4	fixed	_	start_char=486|end_char=488
+3	të	të	PART	_	_	4	fixed	_	start_char=489|end_char=491
+4	zbrisja	zbrisoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	7	advmod	_	start_char=492|end_char=499
+5	do	do	PART	_	_	7	fixed	_	start_char=500|end_char=502
+6	të	të	PART	_	_	7	fixed	_	start_char=503|end_char=505
+7	formoheshin	formoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=506|end_char=517
+8	grupe	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=518|end_char=523
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=524|end_char=527
+10	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	start_char=528|end_char=531
+11	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=532|end_char=537
+12	kundër	kundër	ADP	_	Case=Abl	13	case	_	start_char=538|end_char=544
+13	masave	masa	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	start_char=545|end_char=551
+14	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=552|end_char=554
+15	rekomanduara	rekomanduar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=555|end_char=567
+16	përballë	përballë	ADP	_	Case=Abl	18	case	_	start_char=568|end_char=576
+17	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	start_char=577|end_char=582
+18	zonje	zonje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=583|end_char=588
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=589|end_char=591
+20	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=592|end_char=597
+21	Covid	Covid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	appos	_	start_char=598|end_char=603
+22	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=604|end_char=606
+23	po	po	PART	_	_	25	mark	_	start_char=607|end_char=609
+24	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	25	iobj	_	start_char=610|end_char=612
+25	shkakton	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl:relcl	_	start_char=613|end_char=621
+26	shumë	shumë	PRON	_	PronType=Ind	27	nummod	_	start_char=622|end_char=627
+27	dhimbje”	dhimbje	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	obj	_	start_char=628|end_char=636|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	start_char=636|end_char=637
+29	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	conj	_	start_char=638|end_char=641
+30	Ati	ati	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=642|end_char=645
+31	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=646|end_char=647
+32	Shenjtë	Shenjtë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=648|end_char=655|SpaceAfter=No
+33	.	.	PUNCT	_	_	29	punct	_	start_char=655|end_char=656|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 7
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=657|end_char=659
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=660|end_char=670|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=670|end_char=671|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=672|end_char=676
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=677|end_char=679
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=680|end_char=683
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=684|end_char=688|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=689|end_char=707|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=708|end_char=717
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=718|end_char=730
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=731|end_char=737|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=738|end_char=747
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=748|end_char=760
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=761|end_char=768|SpacesAfter=\n\n\n
+

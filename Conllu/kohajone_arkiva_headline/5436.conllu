@@ -1,0 +1,241 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Dorëzohet”
+# sent_id = 1
+1	Dorëzohet	dorëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=1|end_char=10|SpaceAfter=No
+2	”	"	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+
+# text = Lukashenko:
+# sent_id = 2
+1	Lukashenko	Lukashenko	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=12|end_char=22|SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	start_char=22|end_char=23
+
+# text = Kam ndenjur gjatë në pushtet, nuk përjashtoj zgjedhjet e parakohshme Presidenti i Bjellorusisë Alexandër Lukashenko ka pranuar në një intervistë të mbajtur ditën e sotme se ai mund të ketë tejkaluar kohën e tij në detyrë, por shtoi se është i vetmi person i aftë për të mbajtur atë post.
+# sent_id = 3
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=24|end_char=27
+2	ndenjur	rri	VERB	_	VerbForm=Part	0	root	_	start_char=28|end_char=35
+3	gjatë	gjatë	ADV	_	AdvType=Tim	2	advmod	_	start_char=36|end_char=41
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=42|end_char=44
+5	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	advmod	_	start_char=45|end_char=52|SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	start_char=52|end_char=53
+7	nuk	nuk	PART	_	_	8	mark	_	start_char=54|end_char=57
+8	përjashtoj	përjashtoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=58|end_char=68
+9	zgjedhjet	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=69|end_char=78
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=79|end_char=80
+11	parakohshme	parakohshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=81|end_char=92|SpacesAfter=\n
+12	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=93|end_char=103
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=104|end_char=105
+14	Bjellorusisë	Bjellorusi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	compound	_	start_char=106|end_char=118
+15	Alexandër	Alexandër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	flat	_	start_char=119|end_char=128
+16	Lukashenko	Lukashenko	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=129|end_char=139
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=140|end_char=142
+18	pranuar	pranoj	VERB	_	VerbForm=Part	8	conj	_	start_char=143|end_char=150
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=151|end_char=153
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=154|end_char=157
+21	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=158|end_char=168
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	fixed	_	start_char=169|end_char=171
+23	mbajtur	mbaj	VERB	_	VerbForm=Part	21	amod	_	start_char=172|end_char=179
+24	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=180|end_char=185
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=186|end_char=187
+26	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=188|end_char=193
+27	se	se	SCONJ	_	_	32	mark	_	start_char=194|end_char=196
+28	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=197|end_char=199
+29	mund	mund	AUX	_	_	32	aux	_	start_char=200|end_char=204
+30	të	të	PART	_	_	32	fixed	_	start_char=205|end_char=207
+31	ketë	kam	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	32	aux	_	start_char=208|end_char=212
+32	tejkaluar	tejkaloj	VERB	_	VerbForm=Part	23	advcl	_	start_char=213|end_char=222
+33	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=223|end_char=228
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=229|end_char=230
+35	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	amod:poss	_	start_char=231|end_char=234
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=235|end_char=237
+37	detyrë	detyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	advmod	_	start_char=238|end_char=244|SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	start_char=244|end_char=245
+39	por	por	CCONJ	_	_	40	cc	_	start_char=246|end_char=249
+40	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	conj	_	start_char=250|end_char=255
+41	se	se	SCONJ	_	_	42	mark	_	start_char=256|end_char=258
+42	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	40	advcl	_	start_char=259|end_char=264
+43	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	44	det	_	start_char=265|end_char=266
+44	vetmi	vetmi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	start_char=267|end_char=272
+45	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	42	cop	_	start_char=273|end_char=279
+46	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	47	det	_	start_char=280|end_char=281
+47	aftë	aftë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	start_char=282|end_char=286
+48	për	për	PART	_	_	50	fixed	_	start_char=287|end_char=290
+49	të	të	PART	_	_	50	fixed	_	start_char=291|end_char=293
+50	mbajtur	mbaj	VERB	_	VerbForm=Part	42	advmod	_	start_char=294|end_char=301
+51	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	52	det	_	start_char=302|end_char=305
+52	post	post	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	50	obj	_	start_char=306|end_char=310|SpaceAfter=No
+53	.	.	PUNCT	_	_	42	punct	_	start_char=310|end_char=311|SpacesAfter=\n
+
+# text = Lukashenko i cili ka në pushtet që prej vitit 1994 tha se një përsëritje votimeve për zgjedhjen e presidentit mund të mbahet vetëm pas ndryshimeve kushtetuese pa dhënë më shumë detaje.
+# sent_id = 4
+1	Lukashenko	Lukashenko	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=312|end_char=322
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=323|end_char=324
+3	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	start_char=325|end_char=329
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=330|end_char=332
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=333|end_char=335
+6	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	obl	_	start_char=336|end_char=343
+7	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=344|end_char=346
+8	prej	prej	ADP	_	Case=Abl	9	case	_	start_char=347|end_char=351
+9	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=352|end_char=357
+10	1994	1994	NUM	_	NumType=Card	9	amod:nummod	_	start_char=358|end_char=362
+11	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=363|end_char=366
+12	se	se	SCONJ	_	_	22	mark	_	start_char=367|end_char=369
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=370|end_char=373
+14	përsëritje	përsëritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=374|end_char=384
+15	votimeve	votim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=385|end_char=393
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=394|end_char=397
+17	zgjedhjen	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=398|end_char=407
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=408|end_char=409
+19	presidentit	president	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=410|end_char=421
+20	mund	mund	AUX	_	_	22	aux	_	start_char=422|end_char=426
+21	të	të	PART	_	_	22	fixed	_	start_char=427|end_char=429
+22	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	conj	_	start_char=430|end_char=436
+23	vetëm	vetëm	PART	_	_	25	mark	_	start_char=437|end_char=442
+24	pas	pas	ADP	_	Case=Abl	25	case	_	start_char=443|end_char=446
+25	ndryshimeve	ndryshim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	22	obl	_	start_char=447|end_char=458
+26	kushtetuese	kushtetues	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=459|end_char=470
+27	pa	pa	PART	_	_	28	fixed	_	start_char=471|end_char=473
+28	dhënë	jap	VERB	_	VerbForm=Part	22	advmod	_	start_char=474|end_char=479
+29	më	më	PART	_	_	31	mark	_	start_char=480|end_char=482
+30	shumë	shumë	PRON	_	PronType=Ind	31	nummod	_	start_char=483|end_char=488
+31	detaje	detaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obj	_	start_char=489|end_char=495|SpaceAfter=No
+32	.	.	PUNCT	_	_	22	punct	_	start_char=495|end_char=496|SpacesAfter=\n
+
+# text = “Ne jemi gati të kryejmë reformën e kushtetutës.
+# sent_id = 5
+1	“	"	PUNCT	_	_	2	punct	_	start_char=497|end_char=498|SpaceAfter=No
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=498|end_char=500
+3	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=501|end_char=505
+4	gati	gati	ADV	_	AdvType=Deg	6	advmod	_	start_char=506|end_char=510
+5	të	të	PART	_	_	6	fixed	_	start_char=511|end_char=513
+6	kryejmë	kryej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	xcomp	_	start_char=514|end_char=521
+7	reformën	reformë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=522|end_char=530
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=531|end_char=532
+9	kushtetutës	kushtetutë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=533|end_char=544|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	start_char=544|end_char=545
+
+# text = Pas kësaj unë nuk përjashtoj zgjedhjet e parakohshme presidenciale”, tha Lukashenjko.
+# sent_id = 6
+1	Pas	pas	ADP	_	Case=Abl	3	case	_	start_char=546|end_char=549
+2	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=550|end_char=555
+3	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=556|end_char=559
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=560|end_char=563
+5	përjashtoj	përjashtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=564|end_char=574
+6	zgjedhjet	zgjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=575|end_char=584
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=585|end_char=586
+8	parakohshme	parakohshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=587|end_char=598
+9	presidenciale”	presidencial	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=599|end_char=613|SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	start_char=613|end_char=614
+11	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=615|end_char=618
+12	Lukashenjko	Lukashenjko	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=619|end_char=630|SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	start_char=630|end_char=631|SpacesAfter=\n
+
+# text = Ai tha se refuzon të mbajë bisedime me politikanë të tjerë të opozitës pasi thirrjes që qeveritë e BE i bënë për dialog.
+# sent_id = 7
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=632|end_char=634
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=635|end_char=638
+3	se	se	SCONJ	_	_	4	mark	_	start_char=639|end_char=641
+4	refuzon	refuzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=642|end_char=649
+5	të	të	PART	_	_	6	fixed	_	start_char=650|end_char=652
+6	mbajë	mbaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=653|end_char=658
+7	bisedime	bisedim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=659|end_char=667
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=668|end_char=670
+9	politikanë	politikanë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	start_char=671|end_char=681
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=682|end_char=684
+11	tjerë	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	9	amod	_	start_char=685|end_char=690
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=691|end_char=693
+13	opozitës	opozitë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=694|end_char=702
+14	pasi	pasi	ADP	_	Case=Abl	15	case	_	start_char=703|end_char=707
+15	thirrjes	thirrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=708|end_char=716
+16	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=717|end_char=719
+17	qeveritë	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=720|end_char=728
+18	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=729|end_char=730
+19	BE	be	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	21	obj	_	start_char=731|end_char=733
+20	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	iobj	_	start_char=734|end_char=735
+21	bënë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=736|end_char=740
+22	për	për	ADP	_	Case=Acc	23	case	_	start_char=741|end_char=744
+23	dialog	dialog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	start_char=745|end_char=751|SpaceAfter=No
+24	.	.	PUNCT	_	_	21	punct	_	start_char=751|end_char=752
+
+# text = Lukashenko u shpreh se Rusia do të ishte e ardhmja nëse regjimi i tij bie përballë një vale protestash masive.
+# sent_id = 8
+1	Lukashenko	Lukashenko	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=753|end_char=763
+2	u	u	PART	_	_	3	fixed	_	start_char=764|end_char=765
+3	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=766|end_char=772
+4	se	se	SCONJ	_	_	8	mark	_	start_char=773|end_char=775
+5	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=776|end_char=781
+6	do	do	PART	_	_	8	fixed	_	start_char=782|end_char=784
+7	të	të	PART	_	_	8	fixed	_	start_char=785|end_char=787
+8	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	3	advcl	_	start_char=788|end_char=793
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=794|end_char=795
+10	ardhmja	ardhmje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	cop	_	start_char=796|end_char=803
+11	nëse	nëse	SCONJ	_	_	15	mark	_	start_char=804|end_char=808
+12	regjimi	regjim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=809|end_char=816
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=817|end_char=818
+14	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	amod:poss	_	start_char=819|end_char=822
+15	bie	bie	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl	_	start_char=823|end_char=826
+16	përballë	përballë	ADP	_	Case=Abl	18	case	_	start_char=827|end_char=835
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=836|end_char=839
+18	vale	vale	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=840|end_char=844
+19	protestash	protestësh	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=845|end_char=855
+20	masive	masiv	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=856|end_char=862|SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	start_char=862|end_char=863|SpacesAfter=\n
+
+# text = “Ju e dini se çfarë përfunduam me themelimin dhe udhëheqjen ruse?
+# sent_id = 9
+1	“	"	PUNCT	_	_	4	punct	_	start_char=864|end_char=865|SpaceAfter=No
+2	Ju	Ju	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	mark	_	start_char=865|end_char=867
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=868|end_char=869
+4	dini	din	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=870|end_char=874
+5	se	se	SCONJ	_	_	7	mark	_	start_char=875|end_char=877
+6	çfarë	çfarë	PRON	_	PronType=Ind	7	nsubj	_	start_char=878|end_char=883
+7	përfunduam	përfundoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	4	advcl	_	start_char=884|end_char=894
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=895|end_char=897
+9	themelimin	themelim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=898|end_char=908
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=909|end_char=912
+11	udhëheqjen	udhëheqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=913|end_char=923
+12	ruse	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=924|end_char=928|SpaceAfter=No
+13	?	?	PUNCT	_	_	4	punct	_	start_char=928|end_char=929
+
+# text = Nëse Bjellorusia bie, Rusia do të jetë e ardhmja,” citoi agjencia shtetërore e lajmeve RIA Novosti.
+# sent_id = 10
+1	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=930|end_char=934
+2	Bjellorusia	Bjellorusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=935|end_char=946
+3	bie	bie	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=947|end_char=950|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	start_char=950|end_char=951
+5	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=952|end_char=957
+6	do	do	PART	_	_	8	fixed	_	start_char=958|end_char=960
+7	të	të	PART	_	_	8	fixed	_	start_char=961|end_char=963
+8	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=964|end_char=968
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=969|end_char=970
+10	ardhmja	ardhmje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	cop	_	start_char=971|end_char=978|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	start_char=978|end_char=979|SpaceAfter=No
+12	”	"	PUNCT	_	_	13	punct	_	start_char=979|end_char=980
+13	citoi	citoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	parataxis	_	start_char=981|end_char=986
+14	agjencia	agjenci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=987|end_char=995
+15	shtetërore	shtetëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=996|end_char=1006
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=1007|end_char=1008
+17	lajmeve	lajm	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=1009|end_char=1016
+18	RIA	RIA	PROPN	_	Case=Nom|Foreign=Yes	17	appos	_	start_char=1017|end_char=1020
+19	Novosti	Novost	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=1021|end_char=1028|SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	start_char=1028|end_char=1029|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 11
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=1030|end_char=1032
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1033|end_char=1043|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=1043|end_char=1044|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=1045|end_char=1049
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=1050|end_char=1052
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=1053|end_char=1056
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=1057|end_char=1061|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=1062|end_char=1080|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=1081|end_char=1090
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=1091|end_char=1103
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=1104|end_char=1110|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1111|end_char=1120
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=1121|end_char=1133
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=1134|end_char=1141|SpacesAfter=\n\n\n
+

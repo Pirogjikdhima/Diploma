@@ -1,0 +1,135 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Me dhëmb” fushatë sensibilizuese kundër dhunës së kafshëve‏
+# sent_id = 1
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=1|end_char=3
+2	dhëmb”	dhëmb”	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=4|end_char=10
+3	fushatë	fushatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=11|end_char=18
+4	sensibilizuese	sensibilizues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=19|end_char=33
+5	kundër	kundër	ADP	_	Case=Abl	6	case	_	start_char=34|end_char=40
+6	dhunës	dhunë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=41|end_char=47
+7	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=48|end_char=50
+8	kafshëve	kafshë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=51|end_char=59|SpaceAfter=No
+9	‏	‏	PUNCT	_	_	2	punct	_	start_char=59|end_char=60|SpacesAfter=\n
+
+# text = “Me dhëmb” eshte nje fushate sensibilizuese e ndermarre nga MAD TV kunder dhunes se kafsheve.
+# sent_id = 2
+1	“	"	PUNCT	_	_	3	punct	_	start_char=61|end_char=62|SpaceAfter=No
+2	Me	me	ADP	_	Case=Acc	3	case	_	start_char=62|end_char=64
+3	dhëmb”	dhëmb”	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=65|end_char=71
+4	eshte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=72|end_char=77
+5	nje	nje	DET	_	Definite=Ind	6	det	_	start_char=78|end_char=81
+6	fushate	fushat	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=82|end_char=89
+7	sensibilizuese	sensibilizues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=90|end_char=104
+8	e	e	CCONJ	_	_	9	cc	_	start_char=105|end_char=106
+9	ndermarre	ndermarr	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	start_char=107|end_char=116
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=117|end_char=120
+11	MAD	MAD	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=121|end_char=124
+12	TV	TV	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	start_char=125|end_char=127
+13	kunder	kunder	ADP	_	Case=Abl	14	case	_	start_char=128|end_char=134
+14	dhunes	dhune	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=135|end_char=141
+15	se	se	SCONJ	_	_	16	mark	_	start_char=142|end_char=144
+16	kafsheve	kafshe	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=145|end_char=153|SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	start_char=153|end_char=154|SpacesAfter=\n
+
+# text = Pamje që sot përfaqësojnë një realitet që dhemb.
+# sent_id = 3
+1	Pamje	pamje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=155|end_char=160
+2	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=161|end_char=163
+3	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=164|end_char=167
+4	përfaqësojnë	përfaqësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=168|end_char=180
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=181|end_char=184
+6	realitet	realit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=185|end_char=193
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=194|end_char=196
+8	dhemb	dhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl	_	start_char=197|end_char=202|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	start_char=202|end_char=203
+
+# text = I dhemb asaj qënieje të pafajshme.
+# sent_id = 4
+1	I	I	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=204|end_char=205
+2	dhemb	dhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=206|end_char=211
+3	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=212|end_char=216
+4	qënieje	qëniej	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=217|end_char=224
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=225|end_char=227
+6	pafajshme	pafajshëm	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=228|end_char=237|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	start_char=237|end_char=238
+
+# text = Më dhemb mua.
+# sent_id = 5
+1	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=239|end_char=241
+2	dhemb	dhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=242|end_char=247
+3	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=248|end_char=251|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	start_char=251|end_char=252
+
+# text = Po ty?
+# sent_id = 6
+1	Po	po	PART	_	_	2	advmod:emph	_	start_char=253|end_char=255
+2	ty	ti	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	start_char=256|end_char=258|SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	start_char=258|end_char=259|SpacesAfter=\n
+
+# text = Në kuadër të kësaj lëvizjeje për të rritur ndërgjegjësimin kundër dhunës, MAD TV jep mesazhin:
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=260|end_char=262
+2	kuadër	kuadër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=263|end_char=269
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=270|end_char=272
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=273|end_char=278
+5	lëvizjeje	lëvizje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=279|end_char=288
+6	për	për	PART	_	_	8	fixed	_	start_char=289|end_char=292
+7	të	të	PART	_	_	8	fixed	_	start_char=293|end_char=295
+8	rritur	rrit	VERB	_	VerbForm=Part	15	advmod	_	start_char=296|end_char=302
+9	ndërgjegjësimin	ndërgjegjësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=303|end_char=318
+10	kundër	kundër	ADP	_	Case=Abl	11	case	_	start_char=319|end_char=325
+11	dhunës	dhunë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=326|end_char=332|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=332|end_char=333
+13	MAD	MAD	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	start_char=334|end_char=337
+14	TV	TV	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	start_char=338|end_char=340
+15	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=341|end_char=344
+16	mesazhin	mesazh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=345|end_char=353|SpaceAfter=No
+17	:	:	PUNCT	_	_	15	punct	_	start_char=353|end_char=354
+
+# text = “Mos i lëndoni kafshët, më dhëmb”.
+# sent_id = 8
+1	“	"	PUNCT	_	_	4	punct	_	start_char=355|end_char=356|SpaceAfter=No
+2	Mos	mos	PART	_	_	4	fixed	_	start_char=356|end_char=359
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=360|end_char=361
+4	lëndoni	lëndoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=362|end_char=369
+5	kafshët	kafshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=370|end_char=377|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	start_char=377|end_char=378
+7	më	më	ADP	_	Case=Acc	8	case	_	start_char=379|end_char=381
+8	dhëmb”	dhëmb”	ADV	_	AdvType=Tim	4	advmod	_	start_char=382|end_char=388|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	start_char=388|end_char=389|SpacesAfter=\n
+
+# text = Me poshte do te gjeni videon e kesaj fushate sensibilizuese.
+# sent_id = 9
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=390|end_char=392
+2	poshte	posht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=393|end_char=399
+3	do	do	PART	_	_	5	fixed	_	start_char=400|end_char=402
+4	te	te	ADP	_	Case=Nom	5	fixed	_	start_char=403|end_char=405
+5	gjeni	gjej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=406|end_char=411
+6	videon	video	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=412|end_char=418
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=419|end_char=420
+8	kesaj	kesaj	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	nummod	_	start_char=421|end_char=426
+9	fushate	fushat	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=427|end_char=434
+10	sensibilizuese	sensibilizues	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=435|end_char=449|SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	start_char=449|end_char=450|SpacesAfter=\n
+
+# text = VIDEO NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 10
+1	VIDEO	VIDEO	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=451|end_char=456|SpacesAfter=\n
+2	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	det	_	start_char=457|end_char=459
+3	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=460|end_char=470|SpaceAfter=No
+4	:	:	PUNCT	_	_	5	punct	_	start_char=470|end_char=471|SpacesAfter=\n
+5	+355	+355	NUM	_	NumType=Card	3	conj	_	start_char=472|end_char=476
+6	68	68	NUM	_	NumType=Card	5	conj	_	start_char=477|end_char=479
+7	608	608	NUM	_	NumType=Card	5	conj	_	start_char=480|end_char=483
+8	0290	0290	NUM	_	NumType=Card	7	conj	_	start_char=484|end_char=488|SpacesAfter=\n
+9	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=489|end_char=507|SpacesAfter=\n
+10	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=508|end_char=517
+11	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	start_char=518|end_char=530
+12	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	11	flat	_	start_char=531|end_char=537|SpacesAfter=\n
+13	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=538|end_char=547
+14	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=548|end_char=560
+15	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	parataxis	_	start_char=561|end_char=568|SpacesAfter=\n\n\n
+

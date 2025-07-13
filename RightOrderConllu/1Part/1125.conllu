@@ -1,0 +1,385 @@
+# text = At Bernard
+# sent_id = 0
+1	At	at	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2
+2	Bernard	Bernard	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=3|end_char=10
+
+# text = Palaj, një nga intelektualët dhe klerikët i ekzekutuar nga regjimi komunist 05/02/2021
+# sent_id = 1
+1	Palaj	palaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16|SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	start_char=16|end_char=17
+3	një	një	DET	_	Definite=Ind	5	det	_	start_char=18|end_char=21
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=22|end_char=25
+5	intelektualët	intelektual	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=26|end_char=39
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=40|end_char=43
+7	klerikët	klerikë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	conj	_	start_char=44|end_char=52
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=53|end_char=54
+9	ekzekutuar	ekzekutuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=55|end_char=65
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=66|end_char=69
+11	regjimi	regjim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=70|end_char=77
+12	komunist	komunist	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=78|end_char=86|SpacesAfter=\n
+13	05	05	NUM	_	NumType=Card	11	amod:nummod	_	start_char=87|end_char=89|SpaceAfter=No
+14	/02	/02	NUM	_	NumType=Card	13	conj	_	start_char=89|end_char=92|SpaceAfter=No
+15	/202	/202	NUM	_	NumType=Card	14	parataxis	_	start_char=92|end_char=96|SpaceAfter=No
+16	1	1	NUM	_	NumType=Card	14	parataxis	_	start_char=96|end_char=97|SpacesAfter=\n
+
+# text = Muaji shkurt është shpallur nga Ministria e Kulturës si Muaji i Kujtesës për shumë figura të shquara intelektuale që u përndoqën dhe u ekzekutuan nga regjimi komunist në Shqipëri.
+# sent_id = 2
+1	Muaji	muaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=98|end_char=103
+2	shkurt	shkurt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=104|end_char=110
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=111|end_char=116
+4	shpallur	shpalloj	VERB	_	VerbForm=Part	0	root	_	start_char=117|end_char=125
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=126|end_char=129
+6	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=130|end_char=139
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=140|end_char=141
+8	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=142|end_char=150
+9	si	si	SCONJ	_	_	10	mark	_	start_char=151|end_char=153
+10	Muaji	muaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=154|end_char=159
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=160|end_char=161
+12	Kujtesës	Kujtesë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=162|end_char=170
+13	për	për	ADP	_	Case=Acc	15	case	_	start_char=171|end_char=174
+14	shumë	shumë	PRON	_	PronType=Ind	15	nummod	_	start_char=175|end_char=180
+15	figura	figurë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=181|end_char=187
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=188|end_char=190
+17	shquara	shquar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=191|end_char=198
+18	intelektuale	intelektual	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=199|end_char=211
+19	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=212|end_char=214
+20	u	u	PART	_	_	21	fixed	_	start_char=215|end_char=216
+21	përndoqën	përndoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	15	acl:relcl	_	start_char=217|end_char=226
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=227|end_char=230
+23	u	u	PART	_	_	24	fixed	_	start_char=231|end_char=232
+24	ekzekutuan	ekzekutoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	21	conj	_	start_char=233|end_char=243
+25	nga	nga	ADP	_	Case=Nom	26	case	_	start_char=244|end_char=247
+26	regjimi	regjim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	start_char=248|end_char=255
+27	komunist	komunist	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=256|end_char=264
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=265|end_char=267
+29	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=268|end_char=276|SpaceAfter=No
+30	.	.	PUNCT	_	_	24	punct	_	start_char=276|end_char=277|SpacesAfter=\n
+
+# text = Ministria e Kulturës sjell në kujtesë kontributin e At Bernard Palaj.
+# sent_id = 3
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=278|end_char=287
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=288|end_char=289
+3	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=290|end_char=298
+4	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=299|end_char=304
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=305|end_char=307
+6	kujtesë	kujtesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=308|end_char=315
+7	kontributin	kontribut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=316|end_char=327
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=328|end_char=329
+9	At	at	NUM	_	NumType=Card	10	nummod	_	start_char=330|end_char=332
+10	Bernard	Bernard	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=333|end_char=340
+11	Palaj	palaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=341|end_char=346|SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	start_char=346|end_char=347|SpacesAfter=\n
+
+# text = Ai lindi më 2 tetor 1894 në gjirin e një familjeje të shpërngulur nga Shllaku në Shkodër, i cili u pagëzua me emrin Zef.
+# sent_id = 4
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=348|end_char=350
+2	lindi	lind	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=351|end_char=356
+3	më	më	ADP	_	Case=Acc	5	case	_	start_char=357|end_char=359
+4	2	2	NUM	_	NumType=Card	5	nummod	_	start_char=360|end_char=361
+5	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=362|end_char=367
+6	1894	1894	NUM	_	NumType=Card	5	amod:nummod	_	start_char=368|end_char=372
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=373|end_char=375
+8	gjirin	gji	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=376|end_char=382
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=383|end_char=384
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=385|end_char=388
+11	familjeje	familje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=389|end_char=398
+12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=399|end_char=401
+13	shpërngulur	shpërngulur	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=402|end_char=413
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=414|end_char=417
+15	Shllaku	Shllak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=418|end_char=425
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=426|end_char=428
+17	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=429|end_char=436|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	start_char=436|end_char=437
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=438|end_char=439
+20	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	start_char=440|end_char=444
+21	u	u	PART	_	_	22	fixed	_	start_char=445|end_char=446
+22	pagëzua	pagëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	acl:relcl	_	start_char=447|end_char=454
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=455|end_char=457
+24	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=458|end_char=463
+25	Zef	Zef	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	appos	_	start_char=464|end_char=467|SpaceAfter=No
+26	.	.	PUNCT	_	_	22	punct	_	start_char=467|end_char=468
+
+# text = Mësimet fillore e të mesme i në shkollën e etërve françeskanë, ndërsa Liceun e kreu në Salzburg e ato teologjike e filozofike në Insbruck.
+# sent_id = 5
+1	Mësimet	mësim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=469|end_char=476
+2	fillore	fillor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=477|end_char=484
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=485|end_char=486
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=487|end_char=489
+5	mesme	mesëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=490|end_char=495
+6	i	i	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	det	_	start_char=496|end_char=497
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=498|end_char=500
+8	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=501|end_char=509
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=510|end_char=511
+10	etërve	etër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=512|end_char=518
+11	françeskanë	françeskanë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=519|end_char=530|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=530|end_char=531
+13	ndërsa	ndërsa	CCONJ	_	_	16	cc	_	start_char=532|end_char=538
+14	Liceun	lice	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=539|end_char=545
+15	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=546|end_char=547
+16	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	start_char=548|end_char=552
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=553|end_char=555
+18	Salzburg	Salzburg	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=556|end_char=564
+19	e	e	CCONJ	_	_	20	cc	_	start_char=565|end_char=566
+20	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	18	conj	_	start_char=567|end_char=570
+21	teologjike	teologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=571|end_char=581
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=582|end_char=583
+23	filozofike	filozofik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=584|end_char=594
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=595|end_char=597
+25	Insbruck	Insbruck	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=598|end_char=606|SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	start_char=606|end_char=607|SpacesAfter=\n
+
+# text = Gjatë periudhës studentore tregoi interes të veçantë për albanologjinë, kultivuar deri atëherë nga autorë të huaj.
+# sent_id = 6
+1	Gjatë	gjatë	ADP	_	Case=Abl	2	case	_	start_char=608|end_char=613
+2	periudhës	periudhë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=614|end_char=623
+3	studentore	studentor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=624|end_char=634
+4	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=635|end_char=641
+5	interes	interes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=642|end_char=649
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=650|end_char=652
+7	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=653|end_char=660
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=661|end_char=664
+9	albanologjinë	albanologjii	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=665|end_char=678|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	start_char=678|end_char=679
+11	kultivuar	kultivoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=680|end_char=689
+12	deri	deri	PART	_	_	13	mark	_	start_char=690|end_char=694
+13	atëherë	atëherë	ADV	_	AdvType=Tim	11	advmod	_	start_char=695|end_char=702
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=703|end_char=706
+15	autorë	autor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	start_char=707|end_char=713
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=714|end_char=716
+17	huaj	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=717|end_char=721|SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	start_char=721|end_char=722
+
+# text = Për disa vjet mësoi në liceun Ilyrikum në gjuhën shqipe dhe latinisht, pastaj shërbeu në famullitë e Toplanës, Palcit, Shalës, Bushkashit dhe të Rubikut.
+# sent_id = 7
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=723|end_char=726
+2	disa	disa	PRON	_	PronType=Ind	3	det	_	start_char=727|end_char=731
+3	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	advmod	_	start_char=732|end_char=736
+4	mësoi	mësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=737|end_char=742
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=743|end_char=745
+6	liceun	lice	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=746|end_char=752
+7	Ilyrikum	Ilyrikum	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	start_char=753|end_char=761
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=762|end_char=764
+9	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=765|end_char=771
+10	shqipe	shqip	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=772|end_char=778
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=779|end_char=782
+12	latinisht	latinisht	ADV	_	AdvType=Man	10	conj	_	start_char=783|end_char=792|SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	start_char=792|end_char=793
+14	pastaj	pastaj	ADV	_	AdvType=Tim	15	advmod	_	start_char=794|end_char=800
+15	shërbeu	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=801|end_char=808
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=809|end_char=811
+17	famullitë	famulli	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obl	_	start_char=812|end_char=821
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=822|end_char=823
+19	Toplanës	Toplanë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=824|end_char=832|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=832|end_char=833
+21	Palcit	Palc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=834|end_char=840|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=840|end_char=841
+23	Shalës	Shalë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	list	_	start_char=842|end_char=848|SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	start_char=848|end_char=849
+25	Bushkashit	Bushkash	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	list	_	start_char=850|end_char=860
+26	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=861|end_char=864
+27	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=865|end_char=867
+28	Rubikut	Rubik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	conj	_	start_char=868|end_char=875|SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	start_char=875|end_char=876
+
+# text = Iu kushtua poezisë, prozës, muzikës, duke punuar për të mirën e atdheut.
+# sent_id = 8
+1	Iu	Iu	PART	_	_	2	fixed	_	start_char=877|end_char=879
+2	kushtua	kushtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=880|end_char=887
+3	poezisë	poezi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=888|end_char=895|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=895|end_char=896
+5	prozës	prozë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=897|end_char=903|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	start_char=903|end_char=904
+7	muzikës	muzikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	list	_	start_char=905|end_char=912|SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	start_char=912|end_char=913
+9	duke	duke	PART	_	_	10	fixed	_	start_char=914|end_char=918
+10	punuar	punoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=919|end_char=925
+11	për	për	ADP	_	Case=Acc	13	case	_	start_char=926|end_char=929
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=930|end_char=932
+13	mirën	mirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=933|end_char=938
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=939|end_char=940
+15	atdheut	atdhe	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=941|end_char=948|SpaceAfter=No
+16	.	.	PUNCT	_	_	10	punct	_	start_char=948|end_char=949|SpacesAfter=\n
+
+# text = Më 15 prill të vitit 1923, bashkë më vëllezërit Mjeda, Fishtën, Anton Harapin e disa të tjerë, botuan në Shkodër gazetën “Ora Maleve”.
+# sent_id = 9
+1	Më	më	ADP	_	Case=Acc	3	case	_	start_char=950|end_char=952
+2	15	15	NUM	_	NumType=Card	3	nummod	_	start_char=953|end_char=955
+3	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=956|end_char=961
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=962|end_char=964
+5	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=965|end_char=970
+6	1923	1923	NUM	_	NumType=Card	5	flat	_	start_char=971|end_char=975|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=975|end_char=976
+8	bashkë	bashkë	ADV	_	AdvType=Man	10	mark	_	start_char=977|end_char=983
+9	më	më	ADP	_	Case=Acc	10	case	_	start_char=984|end_char=986
+10	vëllezërit	vëlla	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	22	advmod	_	start_char=987|end_char=997
+11	Mjeda	mjedë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=998|end_char=1003|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=1003|end_char=1004
+13	Fishtën	Fishtë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=1005|end_char=1012|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	start_char=1012|end_char=1013
+15	Anton	Anton	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	list	_	start_char=1014|end_char=1019
+16	Harapin	Harap	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=1020|end_char=1027
+17	e	e	CCONJ	_	_	20	cc	_	start_char=1028|end_char=1029
+18	disa	disa	PRON	_	PronType=Ind	20	det	_	start_char=1030|end_char=1034
+19	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	20	det	_	start_char=1035|end_char=1037
+20	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	16	conj	_	start_char=1038|end_char=1043|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1043|end_char=1044
+22	botuan	botoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1045|end_char=1051
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=1052|end_char=1054
+24	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	start_char=1055|end_char=1062
+25	gazetën	gazetë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	flat	_	start_char=1063|end_char=1070
+26	“	"	PUNCT	_	_	27	punct	_	start_char=1071|end_char=1072|SpaceAfter=No
+27	Ora	Ora	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=1072|end_char=1075
+28	Maleve”	maleve	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	flat	_	start_char=1076|end_char=1083|SpaceAfter=No
+29	.	.	PUNCT	_	_	22	punct	_	start_char=1083|end_char=1084
+
+# text = Ka botuar në organet “Leka”, “Tomori” etj.
+# sent_id = 10
+1	Ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=1085|end_char=1087
+2	botuar	botoj	VERB	_	VerbForm=Part	0	root	_	start_char=1088|end_char=1094
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=1095|end_char=1097
+4	organet	organ	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=1098|end_char=1105
+5	“	"	PUNCT	_	_	6	punct	_	start_char=1106|end_char=1107|SpaceAfter=No
+6	Leka”	Leka”	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	4	appos	_	start_char=1107|end_char=1112|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	start_char=1112|end_char=1113
+8	“	"	PUNCT	_	_	9	punct	_	start_char=1114|end_char=1115|SpaceAfter=No
+9	Tomori”	Tomori	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	6	list	_	start_char=1115|end_char=1122
+10	etj	etj.	X	_	Abbr=Yes	9	list	_	start_char=1123|end_char=1126|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	start_char=1126|end_char=1127
+
+# text = Gjithashtu Palaj ishte anëtar i Institutit të Studimeve Shqiptare që prej 1940.
+# sent_id = 11
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	3	advmod	_	start_char=1128|end_char=1138
+2	Palaj	palaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1139|end_char=1144
+3	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=1145|end_char=1150
+4	anëtar	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=1151|end_char=1157
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=1158|end_char=1159
+6	Institutit	Institut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=1160|end_char=1170
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=1171|end_char=1173
+8	Studimeve	studim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=1174|end_char=1183
+9	Shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1184|end_char=1193
+10	që	që	PART	_	_	12	mark	_	start_char=1194|end_char=1196
+11	prej	prej	ADP	_	Case=Abl	12	case	_	start_char=1197|end_char=1201
+12	1940	1940	NUM	_	NumType=Card	3	advmod	_	start_char=1202|end_char=1206|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=1206|end_char=1207|SpacesAfter=\n
+
+# text = Ndërsa dy vite më vonë, puna e tij shkencore si dhe aktivitetiti i tij fetar u nderpre.
+# sent_id = 12
+1	Ndërsa	ndërsa	CCONJ	_	_	18	cc	_	start_char=1208|end_char=1214
+2	dy	dy	NUM	_	NumType=Card	3	nummod	_	start_char=1215|end_char=1217
+3	vite	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	18	obl	_	start_char=1218|end_char=1222
+4	më	më	PART	_	_	5	mark	_	start_char=1223|end_char=1225
+5	vonë	vonë	ADV	_	AdvType=Tim	3	advmod	_	start_char=1226|end_char=1230|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	start_char=1230|end_char=1231
+7	puna	punë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=1232|end_char=1236
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=1237|end_char=1238
+9	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=1239|end_char=1242
+10	shkencore	shkencor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1243|end_char=1252
+11	si	si	SCONJ	_	_	12	fixed	_	start_char=1253|end_char=1255
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=1256|end_char=1259
+13	aktivitetiti	aktivitetit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	start_char=1260|end_char=1272
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=1273|end_char=1274
+15	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	amod:poss	_	start_char=1275|end_char=1278
+16	fetar	fetar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=1279|end_char=1284
+17	u	u	PART	_	_	18	fixed	_	start_char=1285|end_char=1286
+18	nderpre	nderpr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1287|end_char=1294|SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	start_char=1294|end_char=1295
+
+# text = E arrestuan në më 22 tetor 1946.
+# sent_id = 13
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=1296|end_char=1297
+2	arrestuan	arrestoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1298|end_char=1307
+3	në	në	ADP	_	Case=Acc	6	case	_	start_char=1308|end_char=1310
+4	më	më	ADP	_	Case=Acc	6	case	_	start_char=1311|end_char=1313
+5	22	22	NUM	_	NumType=Card	6	nummod	_	start_char=1314|end_char=1316
+6	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=1317|end_char=1322
+7	1946	1946	NUM	_	NumType=Card	6	amod:nummod	_	start_char=1323|end_char=1327|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	start_char=1327|end_char=1328
+
+# text = Gjatë kohës që kryente dënimin ai kërkonte ti bënte të qartë mbarë botës për ekzekutimin e intelektualëve shqiptarë pa asnjë shkak vetëm për faktin se ishin pionierë të mendimit të lirë dhe demokratik.
+# sent_id = 14
+1	Gjatë	gjatë	ADP	_	Case=Abl	2	case	_	start_char=1329|end_char=1334
+2	kohës	kohë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=1335|end_char=1340
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=1341|end_char=1343
+4	kryente	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	2	acl:relcl	_	start_char=1344|end_char=1351
+5	dënimin	dënim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=1352|end_char=1359
+6	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1360|end_char=1362
+7	kërkonte	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=1363|end_char=1371
+8	ti	ti	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	obj	_	start_char=1372|end_char=1374
+9	bënte	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	7	ccomp	_	start_char=1375|end_char=1380
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=1381|end_char=1383
+11	qartë	qartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	cop	_	start_char=1384|end_char=1389
+12	mbarë	mbarë	PRON	_	PronType=Ind	13	nummod	_	start_char=1390|end_char=1395
+13	botës	botë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=1396|end_char=1401
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=1402|end_char=1405
+15	ekzekutimin	ekzekutim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=1406|end_char=1417
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=1418|end_char=1419
+17	intelektualëve	intelektual	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=1420|end_char=1434
+18	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=1435|end_char=1444
+19	pa	pa	ADP	_	Case=Acc	21	case	_	start_char=1445|end_char=1447
+20	asnjë	asnjë	PRON	_	PronType=Ind	21	nummod	_	start_char=1448|end_char=1453
+21	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=1454|end_char=1459
+22	vetëm	vetëm	PART	_	_	26	mark	_	start_char=1460|end_char=1465
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=1466|end_char=1469
+24	faktin	fakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=1470|end_char=1476
+25	se	se	SCONJ	_	_	26	mark	_	start_char=1477|end_char=1479
+26	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	24	acl	_	start_char=1480|end_char=1485
+27	pionierë	pionierë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	26	cop	_	start_char=1486|end_char=1494
+28	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	29	det	_	start_char=1495|end_char=1497
+29	mendimit	mendim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=1498|end_char=1506
+30	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=1507|end_char=1509
+31	lirë	lirë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=1510|end_char=1514
+32	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=1515|end_char=1518
+33	demokratik	demokratik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	conj	_	start_char=1519|end_char=1529|SpaceAfter=No
+34	.	.	PUNCT	_	_	26	punct	_	start_char=1529|end_char=1530|SpacesAfter=\n
+
+# text = Ai u akuzua prej sistemit komunist për “agjent dhe bashkëpunëtor i fashizmit”.
+# sent_id = 15
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1531|end_char=1533
+2	u	u	PART	_	_	3	fixed	_	start_char=1534|end_char=1535
+3	akuzua	akuzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=1536|end_char=1542
+4	prej	prej	ADP	_	Case=Abl	5	case	_	start_char=1543|end_char=1547
+5	sistemit	sistem	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=1548|end_char=1556
+6	komunist	komunist	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1557|end_char=1565
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=1566|end_char=1569
+8	“agjent	“agjent	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=1570|end_char=1577
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=1578|end_char=1581
+10	bashkëpunëtor	bashkëpunëtor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	start_char=1582|end_char=1595
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=1596|end_char=1597
+12	fashizmit”	fashizm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=1598|end_char=1608|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	start_char=1608|end_char=1609|SpacesAfter=\n
+
+# text = Vdiq në burg, para se të “gjykohej” më 2 dhjetor të vitit 1946, sepse u mbajt lidhur me tela dhe vdiq nga tetanozi; vuante edhe nga sëmundje zemre.
+# sent_id = 16
+1	Vdiq	vdes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=1610|end_char=1614
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=1615|end_char=1617
+3	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=1618|end_char=1622|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=1622|end_char=1623
+5	para	para	ADV	_	AdvType=Tim	1	advmod	_	start_char=1624|end_char=1628
+6	se	se	SCONJ	_	_	8	mark	_	start_char=1629|end_char=1631
+7	të	të	PART	_	_	8	fixed	_	start_char=1632|end_char=1634
+8	“gjykohej”	“gjykoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	1	advcl	_	start_char=1635|end_char=1645
+9	më	më	ADP	_	Case=Acc	11	case	_	start_char=1646|end_char=1648
+10	2	2	NUM	_	NumType=Card	11	nummod	_	start_char=1649|end_char=1650
+11	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=1651|end_char=1658
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=1659|end_char=1661
+13	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=1662|end_char=1667
+14	1946	1946	NUM	_	NumType=Card	13	flat	_	start_char=1668|end_char=1672|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1672|end_char=1673
+16	sepse	sepse	SCONJ	_	_	18	mark	_	start_char=1674|end_char=1679
+17	u	u	PART	_	_	18	fixed	_	start_char=1680|end_char=1681
+18	mbajt	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	advcl	_	start_char=1682|end_char=1687
+19	lidhur	lidh	VERB	_	VerbForm=Part	18	advcl	_	start_char=1688|end_char=1694
+20	me	me	ADP	_	Case=Acc	21	case	_	start_char=1695|end_char=1697
+21	tela	telë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	start_char=1698|end_char=1702
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=1703|end_char=1706
+23	vdiq	vdes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	start_char=1707|end_char=1711
+24	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=1712|end_char=1715
+25	tetanozi	tetanoz	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	start_char=1716|end_char=1724|SpaceAfter=No
+26	;	;	PUNCT	_	_	27	punct	_	start_char=1724|end_char=1725
+27	vuante	vuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	23	conj	_	start_char=1726|end_char=1732
+28	edhe	edhe	PART	_	_	30	mark	_	start_char=1733|end_char=1737
+29	nga	nga	ADP	_	Case=Nom	30	case	_	start_char=1738|end_char=1741
+30	sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	start_char=1742|end_char=1750
+31	zemre	zemër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=1751|end_char=1756|SpaceAfter=No
+32	.	.	PUNCT	_	_	27	punct	_	start_char=1756|end_char=1757|SpacesAfter=\n\n\n
+

@@ -1,0 +1,215 @@
+# text = “
+# sent_id = 0
+1	“	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No
+
+# text = Pacientët në spitalin Covid-3 vijnë vonë”, mjekja:
+# sent_id = 1
+1	Pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=1|end_char=10
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13
+3	spitalin	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=14|end_char=22
+4	Covid-3	Covid-3	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=23|end_char=30
+5	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=36
+6	vonë”	vonë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=37|end_char=42|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	start_char=42|end_char=43
+8	mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=44|end_char=50|SpaceAfter=No
+9	:	:	PUNCT	_	_	5	punct	_	start_char=50|end_char=51
+
+# text = Preferojnë trajtimin në shtëpi duke rënduar gjëndjen 22/08/2022
+# sent_id = 2
+1	Preferojnë	preferoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=52|end_char=62
+2	trajtimin	trajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=63|end_char=72
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=73|end_char=75
+4	shtëpi	shtëpi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=76|end_char=82
+5	duke	duke	PART	_	_	6	fixed	_	start_char=83|end_char=87
+6	rënduar	rëndoj	VERB	_	VerbForm=Part	1	advmod	_	start_char=88|end_char=95
+7	gjëndjen	gjëndje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=96|end_char=104|SpacesAfter=\n
+8	22	22	NUM	_	NumType=Card	9	nummod	_	start_char=105|end_char=107|SpaceAfter=No
+9	/08	/08	NUM	_	NumType=Card	7	nummod	_	start_char=107|end_char=110|SpaceAfter=No
+10	/	/	PUNCT	_	_	11	punct	_	start_char=110|end_char=111|SpaceAfter=No
+11	202	202	NUM	_	NumType=Card	9	parataxis	_	start_char=111|end_char=114|SpaceAfter=No
+12	2	2	NUM	_	NumType=Card	11	parataxis	_	start_char=114|end_char=115|SpacesAfter=\n
+
+# text = Pandemia fatkeqësisht vijon të marrë jetë njerëzish dhe kjo pasi në shumë raste qytetarët janë të pavaksinuar dhe vijnë shumë vonë në spital.
+# sent_id = 3
+1	Pandemia	pandemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=116|end_char=124
+2	fatkeqësisht	fatkeqësisht	ADV	_	AdvType=Man	3	advmod	_	start_char=125|end_char=137
+3	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=138|end_char=143
+4	të	të	PART	_	_	5	fixed	_	start_char=144|end_char=146
+5	marrë	marr	VERB	_	VerbForm=Part	3	ccomp	_	start_char=147|end_char=152
+6	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=153|end_char=157
+7	njerëzish	njerëzish	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	cop	_	start_char=158|end_char=167
+8	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=168|end_char=171
+9	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	fixed	_	start_char=172|end_char=175
+10	pasi	pasi	SCONJ	_	_	15	mark	_	start_char=176|end_char=180
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=181|end_char=183
+12	shumë	shumë	PRON	_	PronType=Ind	13	nummod	_	start_char=184|end_char=189
+13	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=190|end_char=195
+14	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=196|end_char=205
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=206|end_char=210
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=211|end_char=213
+17	pavaksinuar	pavaksinuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	cop	_	start_char=214|end_char=225
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=226|end_char=229
+19	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=230|end_char=235
+20	shumë	shumë	ADV	_	AdvType=Deg	21	advmod	_	start_char=236|end_char=241
+21	vonë	vonë	ADV	_	AdvType=Tim	19	advmod	_	start_char=242|end_char=246
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=247|end_char=249
+23	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	start_char=250|end_char=256|SpaceAfter=No
+24	.	.	PUNCT	_	_	15	punct	_	start_char=256|end_char=257|SpacesAfter=\n
+
+# text = Mjekët e spitalin infektiv konstatojnë me keqardhje se pavarësisht mundësive për vaksinim dhe protokolleve të trajtimit më të konsoliduara, pacientët në gjendje të rëndë vijnë shumë vonë në spital, duke preferuar kurimin në kushte shtëpie.
+# sent_id = 4
+1	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=258|end_char=264
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det:poss	_	start_char=265|end_char=266
+3	spitalin	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=267|end_char=275
+4	infektiv	infekt	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=276|end_char=284
+5	konstatojnë	konstatoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=285|end_char=296
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=297|end_char=299
+7	keqardhje	keqardhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=300|end_char=309
+8	se	se	SCONJ	_	_	10	mark	_	start_char=310|end_char=312
+9	pavarësisht	pavarësisht	ADV	_	AdvType=Man	10	advmod	_	start_char=313|end_char=324
+10	mundësive	mundësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=325|end_char=334
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=335|end_char=338
+12	vaksinim	vaksinim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=339|end_char=347
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=348|end_char=351
+14	protokolleve	protokoll	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=352|end_char=364
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=365|end_char=367
+16	trajtimit	trajtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=368|end_char=377
+17	më	më	PART	_	_	19	mark	_	start_char=378|end_char=380
+18	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=381|end_char=383
+19	konsoliduara	konsoliduar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=384|end_char=396|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	start_char=396|end_char=397
+21	pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	26	nsubj	_	start_char=398|end_char=407
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=408|end_char=410
+23	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=411|end_char=418
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=419|end_char=421
+25	rëndë	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=422|end_char=427
+26	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=428|end_char=433
+27	shumë	shumë	ADV	_	AdvType=Deg	28	advmod	_	start_char=434|end_char=439
+28	vonë	vonë	ADV	_	AdvType=Tim	26	advmod	_	start_char=440|end_char=444
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=445|end_char=447
+30	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=448|end_char=454|SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	start_char=454|end_char=455
+32	duke	duke	PART	_	_	33	fixed	_	start_char=456|end_char=460
+33	preferuar	preferoj	VERB	_	VerbForm=Part	26	advmod	_	start_char=461|end_char=470
+34	kurimin	kurim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	33	obj	_	start_char=471|end_char=478
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=479|end_char=481
+36	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	33	advmod	_	start_char=482|end_char=488
+37	shtëpie	shtëpi	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	start_char=489|end_char=496|SpaceAfter=No
+38	.	.	PUNCT	_	_	26	punct	_	start_char=496|end_char=497|SpacesAfter=\n
+
+# text = Mjekja infeksioniste Esi Duka tha se grupmoshat janë që nga fare të rinj 21-22 vjeç e deri tek moshat 90 vjeç, por moshat e treta për shkak të sëmundjeve kronike paraqesin një klinikë më të rëndë e për pasojë më shumë risqe gjatë trajtimit.
+# sent_id = 5
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=498|end_char=504
+2	infeksioniste	infeksionist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=505|end_char=518
+3	Esi	Esi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=519|end_char=522
+4	Duka	duka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=523|end_char=527
+5	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=528|end_char=531
+6	se	se	SCONJ	_	_	8	mark	_	start_char=532|end_char=534
+7	grupmoshat	grupmoshë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=535|end_char=545
+8	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=546|end_char=550
+9	që	që	PART	_	_	8	nsubj	_	start_char=551|end_char=553
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=554|end_char=557
+11	fare	fare	ADV	_	AdvType=Deg	13	advmod	_	start_char=558|end_char=562
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=563|end_char=565
+13	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	cop	_	start_char=566|end_char=570
+14	21-22	21-22	NUM	_	NumType=Card	13	advmod	_	start_char=571|end_char=576
+15	vjeç	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=577|end_char=581
+16	e	e	CCONJ	_	_	19	cc	_	start_char=582|end_char=583
+17	deri	deri	PART	_	_	19	case	_	start_char=584|end_char=588
+18	tek	tek	ADP	_	Case=Nom	19	case	_	start_char=589|end_char=592
+19	moshat	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	conj	_	start_char=593|end_char=599
+20	90	90	NUM	_	NumType=Card	19	nummod	_	start_char=600|end_char=602
+21	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	start_char=603|end_char=607|SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	start_char=607|end_char=608
+23	por	por	CCONJ	_	_	24	cc	_	start_char=609|end_char=612
+24	moshat	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	conj	_	start_char=613|end_char=619
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=620|end_char=621
+26	treta	tretë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=622|end_char=627
+27	për	për	ADP	_	Case=Acc	30	case	_	start_char=628|end_char=631
+28	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	advmod	_	start_char=632|end_char=637
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=638|end_char=640
+30	sëmundjeve	sëmundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=641|end_char=651
+31	kronike	kronik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=652|end_char=659
+32	paraqesin	paraqes	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	acl	_	start_char=660|end_char=669
+33	një	një	DET	_	Definite=Ind	34	det	_	start_char=670|end_char=673
+34	klinikë	klinikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obj	_	start_char=674|end_char=681
+35	më	më	PART	_	_	37	mark	_	start_char=682|end_char=684
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=685|end_char=687
+37	rëndë	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=688|end_char=693
+38	e	e	CCONJ	_	_	40	cc	_	start_char=694|end_char=695
+39	për	për	ADP	_	Case=Acc	40	case	_	start_char=696|end_char=699
+40	pasojë	pasojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	conj	_	start_char=700|end_char=706
+41	më	më	PART	_	_	43	mark	_	start_char=707|end_char=709
+42	shumë	shumë	PRON	_	PronType=Ind	43	nummod	_	start_char=710|end_char=715
+43	risqe	risq	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	40	nmod	_	start_char=716|end_char=721
+44	gjatë	gjatë	ADP	_	Case=Abl	45	case	_	start_char=722|end_char=727
+45	trajtimit	trajtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	43	nmod	_	start_char=728|end_char=737|SpaceAfter=No
+46	.	.	PUNCT	_	_	32	punct	_	start_char=737|end_char=738|SpacesAfter=\n
+
+# text = Mjekja apelon që qytetarët që shfaqin temperaturë të mos dalin nga shtëpia duke infektuar të tjerë pasi po vërehet që kjo simptome merret shumë lehtë.
+# sent_id = 6
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=739|end_char=745
+2	apelon	apeloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=746|end_char=752
+3	që	që	SCONJ	_	_	4	mark	_	start_char=753|end_char=755
+4	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	obl	_	start_char=756|end_char=765
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=766|end_char=768
+6	shfaqin	shfaq	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=769|end_char=776
+7	temperaturë	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=777|end_char=788
+8	të	të	PART	_	_	10	fixed	_	start_char=789|end_char=791
+9	mos	mos	PART	_	_	10	fixed	_	start_char=792|end_char=795
+10	dalin	dal	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=796|end_char=801
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=802|end_char=805
+12	shtëpia	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=806|end_char=813
+13	duke	duke	PART	_	_	14	fixed	_	start_char=814|end_char=818
+14	infektuar	infektoj	VERB	_	VerbForm=Part	10	advmod	_	start_char=819|end_char=828
+15	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=829|end_char=831
+16	tjerë	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	14	cop	_	start_char=832|end_char=837
+17	pasi	pasi	SCONJ	_	_	19	mark	_	start_char=838|end_char=842
+18	po	po	PART	_	_	19	mark	_	start_char=843|end_char=845
+19	vërehet	vërej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	advcl	_	start_char=846|end_char=853
+20	që	që	SCONJ	_	_	23	mark	_	start_char=854|end_char=856
+21	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=857|end_char=860
+22	simptome	simptom	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=861|end_char=869
+23	merret	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	19	ccomp	_	start_char=870|end_char=876
+24	shumë	shumë	ADV	_	AdvType=Deg	25	advmod	_	start_char=877|end_char=882
+25	lehtë	lehtë	ADV	_	AdvType=Man	23	advmod	_	start_char=883|end_char=888|SpaceAfter=No
+26	.	.	PUNCT	_	_	23	punct	_	start_char=888|end_char=889
+
+# text = Mjekja thotë se në vjeshtë për shkak fluksit të pushuesve dhe viruseve të gripit, gjendja mund të përkeqësohet duke bërë kështu thirrje për vaksinim sa nuk është vonë.
+# sent_id = 7
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=890|end_char=896
+2	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=897|end_char=902
+3	se	se	SCONJ	_	_	19	mark	_	start_char=903|end_char=905
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=906|end_char=908
+5	vjeshtë	vjeshtë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=909|end_char=916
+6	për	për	ADP	_	Case=Acc	8	case	_	start_char=917|end_char=920
+7	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nummod	_	start_char=921|end_char=926
+8	fluksit	fluks	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=927|end_char=934
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=935|end_char=937
+10	pushuesve	pushues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=938|end_char=947
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=948|end_char=951
+12	viruseve	viruse	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	conj	_	start_char=952|end_char=960
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=961|end_char=963
+14	gripit	grip	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=964|end_char=970|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	start_char=970|end_char=971
+16	gjendja	gjendje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	start_char=972|end_char=979
+17	mund	mund	AUX	_	_	19	aux	_	start_char=980|end_char=984
+18	të	të	PART	_	_	19	fixed	_	start_char=985|end_char=987
+19	përkeqësohet	përkeqësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=988|end_char=1000
+20	duke	duke	PART	_	_	21	fixed	_	start_char=1001|end_char=1005
+21	bërë	bëj	VERB	_	VerbForm=Part	19	advmod	_	start_char=1006|end_char=1010
+22	kështu	kështu	ADV	_	AdvType=Man	21	advmod	_	start_char=1011|end_char=1017
+23	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=1018|end_char=1025
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=1026|end_char=1029
+25	vaksinim	vaksinim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	advmod	_	start_char=1030|end_char=1038
+26	sa	sa	SCONJ	_	_	29	mark	_	start_char=1039|end_char=1041
+27	nuk	nuk	PART	_	_	28	mark	_	start_char=1042|end_char=1045
+28	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	mark	_	start_char=1046|end_char=1051
+29	vonë	vonë	ADV	_	AdvType=Tim	21	advmod	_	start_char=1052|end_char=1056|SpaceAfter=No
+30	.	.	PUNCT	_	_	19	punct	_	start_char=1056|end_char=1057|SpacesAfter=\n\n
+
+# text = /rtsh/
+# sent_id = 8
+1	/rtsh	/rtsh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=1059|end_char=1064|SpaceAfter=No
+2	/	/	PUNCT	_	_	1	punct	_	start_char=1064|end_char=1065|SpacesAfter=\n\n\n
+

@@ -1,0 +1,132 @@
+# text = Joe Biden dhe shkallët!
+# sent_id = 0
+1	Joe	Joe	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=3
+2	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=4|end_char=9
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=10|end_char=13
+4	shkallët	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	start_char=14|end_char=22|SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	start_char=22|end_char=23
+
+# text = Presidenti pengohet sërish teksa ngjitet në avion (VIDEO)
+# sent_id = 1
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=24|end_char=34
+2	pengohet	pengoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=35|end_char=43
+3	sërish	sërish	ADV	_	AdvType=Deg	2	advmod	_	start_char=44|end_char=50
+4	teksa	teksa	ADV	_	AdvType=Loc	5	advmod	_	start_char=51|end_char=56
+5	ngjitet	ngjit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=57|end_char=64
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=65|end_char=67
+7	avion	avio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=68|end_char=73
+8	(	(	PUNCT	_	_	9	punct	_	start_char=74|end_char=75|SpaceAfter=No
+9	VIDEO	VIDEO	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=75|end_char=80|SpaceAfter=No
+10	)	)	PUNCT	_	_	2	punct	_	start_char=80|end_char=81|SpacesAfter=\n
+
+# text = Presidenti i Amerikës, Joe Biden, ka filluar ti ketë problem ngjitjen e shumë shkallëve.
+# sent_id = 2
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=82|end_char=92
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=93|end_char=94
+3	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=95|end_char=103|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	start_char=103|end_char=104
+5	Joe	Joe	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=105|end_char=108
+6	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=109|end_char=114|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	start_char=114|end_char=115
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=116|end_char=118
+9	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=119|end_char=126
+10	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	mark	_	start_char=127|end_char=129
+11	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=130|end_char=134
+12	problem	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=135|end_char=142
+13	ngjitjen	ngjitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=143|end_char=151
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=152|end_char=153
+15	shumë	shumë	PRON	_	PronType=Ind	16	nummod	_	start_char=154|end_char=159
+16	shkallëve	shkall	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=160|end_char=169|SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	start_char=169|end_char=170
+
+# text = Pas incidentit të ndodhur disa ditë më parë, kur u rrëzua tre herë në shkallët e avionit, Biden përsëriti sërish ”skenën”.
+# sent_id = 3
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=171|end_char=174
+2	incidentit	incident	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=175|end_char=185
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	start_char=186|end_char=188
+4	ndodhur	ndodh	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=189|end_char=196
+5	disa	disa	PRON	_	PronType=Ind	6	det	_	start_char=197|end_char=201
+6	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=202|end_char=206
+7	më	më	PART	_	_	8	mark	_	start_char=207|end_char=209
+8	parë	parë	ADV	_	AdvType=Tim	6	advmod	_	start_char=210|end_char=214|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	start_char=214|end_char=215
+10	kur	kur	SCONJ	_	_	12	mark	_	start_char=216|end_char=219
+11	u	u	PART	_	_	12	fixed	_	start_char=220|end_char=221
+12	rrëzua	rrëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	advcl	_	start_char=222|end_char=228
+13	tre	tre	NUM	_	NumType=Card	14	nummod	_	start_char=229|end_char=232
+14	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=233|end_char=237
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=238|end_char=240
+16	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=241|end_char=249
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=250|end_char=251
+18	avionit	avion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=252|end_char=259|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	start_char=259|end_char=260
+20	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=261|end_char=266
+21	përsëriti	përsërij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=267|end_char=276
+22	sërish	sërish	ADV	_	AdvType=Deg	21	advmod	_	start_char=277|end_char=283
+23	”skenën”	”skenën”	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=284|end_char=292|SpaceAfter=No
+24	.	.	PUNCT	_	_	21	punct	_	start_char=292|end_char=293
+
+# text = Teksa mbante një valixhe në njërën dorë dhe çadrën në tjetrën, Biden është penguar sërish në shkallët e avionit.
+# sent_id = 4
+1	Teksa	teksa	SCONJ	_	_	2	mark	_	start_char=294|end_char=299
+2	mbante	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	15	advcl	_	start_char=300|end_char=306
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=307|end_char=310
+4	valixhe	valixh	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=311|end_char=318
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=319|end_char=321
+6	njërën	njëra	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	7	nummod	_	start_char=322|end_char=328
+7	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=329|end_char=333
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=334|end_char=337
+9	çadrën	çadrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=338|end_char=344
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=345|end_char=347
+11	tjetrën	tjetrë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	nmod	_	start_char=348|end_char=355|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	start_char=355|end_char=356
+13	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=357|end_char=362
+14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=363|end_char=368
+15	penguar	penguar	VERB	_	VerbForm=Part	0	root	_	start_char=369|end_char=376
+16	sërish	sërish	ADV	_	AdvType=Man	15	advmod	_	start_char=377|end_char=383
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=384|end_char=386
+18	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=387|end_char=395
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=396|end_char=397
+20	avionit	avion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=398|end_char=405|SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	start_char=405|end_char=406
+
+# text = Pas incidentit, ai ka arritur t’i ngjisë shkallët deri në fund dhe më pas ka përshëndetur me dorë.
+# sent_id = 5
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=407|end_char=410
+2	incidentit	incident	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=411|end_char=421|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	start_char=421|end_char=422
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=423|end_char=425
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=426|end_char=428
+6	arritur	arrij	VERB	_	VerbForm=Part	0	root	_	start_char=429|end_char=436
+7	t’i	t’i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=437|end_char=440
+8	ngjisë	ngjej	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	ccomp	_	start_char=441|end_char=447
+9	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=448|end_char=456
+10	deri	deri	PART	_	_	11	fixed	_	start_char=457|end_char=461
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=462|end_char=464
+12	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=465|end_char=469
+13	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=470|end_char=473
+14	më	më	PART	_	_	15	mark	_	start_char=474|end_char=476
+15	pas	pas	ADV	_	AdvType=Tim	17	advmod	_	start_char=477|end_char=480
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=481|end_char=483
+17	përshëndetur	përshëndem	VERB	_	VerbForm=Part	8	conj	_	start_char=484|end_char=496
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=497|end_char=499
+19	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=500|end_char=504|SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	start_char=504|end_char=505|SpacesAfter=\n
+
+# text = NA KONTAKTONI: +355 68 608 0290 kj.stafi@gmail.com SHKARKONI APLIKACIONIN IPHONE SHKARKONI APLIKACIONIN ANDROID
+# sent_id = 6
+1	NA	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=506|end_char=508
+2	KONTAKTONI	KONTAKTONI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=509|end_char=519|SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	start_char=519|end_char=520|SpacesAfter=\n
+4	+355	+355	NUM	_	NumType=Card	2	flat	_	start_char=521|end_char=525
+5	68	68	NUM	_	NumType=Card	6	conj	_	start_char=526|end_char=528
+6	608	608	NUM	_	NumType=Card	4	flat	_	start_char=529|end_char=532
+7	0290	0290	NUM	_	NumType=Card	6	conj	_	start_char=533|end_char=537|SpacesAfter=\n
+8	kj.stafi@gmail.com	kj.stafi@gmail.com	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=538|end_char=556|SpacesAfter=\n
+9	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=557|end_char=566
+10	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=567|end_char=579
+11	IPHONE	IPHONE	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=580|end_char=586|SpacesAfter=\n
+12	SHKARKONI	SHKARKONI	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=587|end_char=596
+13	APLIKACIONIN	APLIKACION	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=597|end_char=609
+14	ANDROID	ANDROID	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	parataxis	_	start_char=610|end_char=617|SpacesAfter=\n\n\n
+
