@@ -1,0 +1,71 @@
+# text = Në Belsh ka vizitorë në çdo muaj të vitit .
+# sent_id = 0
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Belsh	Belsh	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=3|end_char=8|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=11|NER=O
+4	vizitorë	vizitoj	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=20|NER=O
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=23|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	nummod	_	start_char=24|end_char=27|NER=O
+7	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=28|end_char=32|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=33|end_char=35|NER=O
+9	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=36|end_char=41|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	4	punct	_	start_char=42|end_char=43|NER=O
+
+# text = Vetëm përgjatë fundjavave qyteza në " kërthizë " të Shqipërisë vizitohet nga afro 4 mijë persona .
+# sent_id = 1
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	përgjatë	përgjatë	ADP	_	Case=Abl	3	case	_	start_char=6|end_char=14|NER=O
+3	fundjavave	fundjavë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=15|end_char=25|NER=O
+4	qyteza	qytezë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=26|end_char=32|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=33|end_char=35|NER=O
+6	"	"	PUNCT	_	_	3	punct	_	start_char=36|end_char=37|NER=O
+7	kërthizë	kërthizë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=38|end_char=46|NER=O
+8	"	"	PUNCT	_	_	3	punct	_	start_char=47|end_char=48|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=49|end_char=51|NER=O
+10	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=52|end_char=62|NER=B-VEND_1
+11	vizitohet	vizitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=63|end_char=72|NER=O
+12	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=73|end_char=76|NER=O
+13	afro	afro	NUM	_	NumType=Card	14	nummod	_	start_char=77|end_char=81|NER=O
+14	4	4	NUM	_	NumType=Card	14	nummod	_	start_char=82|end_char=83|NER=O
+15	mijë	mijë	NUM	_	NumType=Card	14	nummod	_	start_char=84|end_char=88|NER=O
+16	persona	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	advmod	_	start_char=89|end_char=96|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	9	punct	_	start_char=97|end_char=98|NER=O
+
+# text = Vizitorë nga qytete të ndryshme por edhe nga jashtë Shqipërisë thonë se i tërheq natyra dhe qetësia e qytetit buzë liqenit .
+# sent_id = 2
+1	Vizitorë	Vizitor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	start_char=0|end_char=8|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=9|end_char=12|NER=O
+3	qytete	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=13|end_char=19|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=20|end_char=22|NER=O
+5	ndryshme	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=23|end_char=31|NER=O
+6	por	por	CCONJ	_	_	11	cc	_	start_char=32|end_char=35|NER=O
+7	edhe	edhe	PART	_	_	10	mark	_	start_char=36|end_char=40|NER=O
+8	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=41|end_char=44|NER=O
+9	jashtë	jashtë	ADP	_	Case=Abl	10	case	_	start_char=45|end_char=51|NER=O
+10	Shqipërisë	Shqipëri	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=52|end_char=62|NER=B-VEND_1
+11	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=68|NER=O
+12	se	se	SCONJ	_	_	14	mark	_	start_char=69|end_char=71|NER=O
+13	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	start_char=72|end_char=73|NER=O
+14	tërheq	tërhej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=74|end_char=80|NER=O
+15	natyra	natyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=81|end_char=87|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=88|end_char=91|NER=O
+17	qetësia	qetësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	conj	_	start_char=92|end_char=99|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=100|end_char=101|NER=O
+19	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=102|end_char=109|NER=O
+20	buzë	buzë	ADP	_	Case=Abl	21	case	_	start_char=110|end_char=114|NER=O
+21	liqenit	liqen	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=115|end_char=122|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	11	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Sakaq ka nga ata që kërkojnë më tepër investime .
+# sent_id = 3
+1	Sakaq	sakaq	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=5|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=8|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=9|end_char=12|NER=O
+4	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	start_char=13|end_char=16|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=17|end_char=19|NER=O
+6	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=20|end_char=28|NER=O
+7	më	më	PART	_	_	8	mark	_	start_char=29|end_char=31|NER=O
+8	tepër	tepër	ADV	_	AdvType=Deg	6	advmod	_	start_char=32|end_char=37|NER=O
+9	investime	investim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=38|end_char=47|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	2	punct	_	start_char=48|end_char=49|SpacesAfter=\n|NER=O
+

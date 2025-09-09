@@ -1,0 +1,76 @@
+# text = 02 / 08 / 2023 Kjo është një nga gjetjet e një studimi të kohëve të fundit të realizuar nga kërkuesit e Universitetit të Sidneit në Australi .
+# sent_id = 0
+1	02	02	NUM	_	NumType=Card	12	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	12	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	14	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=15|end_char=18|NER=O
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=24|NER=O
+8	një	një	DET	_	Definite=Ind	5	det	_	start_char=25|end_char=28|NER=O
+9	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=29|end_char=32|NER=O
+10	gjetjet	gjetje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	start_char=33|end_char=40|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=41|end_char=42|NER=O
+12	një	një	DET	_	Definite=Ind	8	det	_	start_char=43|end_char=46|NER=O
+13	studimi	studim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=47|end_char=54|NER=O
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=55|end_char=57|NER=O
+15	kohëve	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=58|end_char=64|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=65|end_char=67|NER=O
+17	fundit	fundit	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=68|end_char=74|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=75|end_char=77|NER=O
+19	realizuar	realizuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=78|end_char=87|NER=O
+20	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=88|end_char=91|NER=O
+21	kërkuesit	kërkues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=92|end_char=101|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=102|end_char=103|NER=O
+23	Universitetit	Universitet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=104|end_char=117|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=118|end_char=120|NER=O
+25	Sidneit	sidne	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=121|end_char=128|NER=B-VEND_0
+26	në	në	ADP	_	Case=Acc	22	case	_	start_char=129|end_char=131|NER=O
+27	Australi	Austral	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=132|end_char=140|SpaceAfter=No|NER=B-VEND_1
+28	.	.	PUNCT	_	_	2	punct	_	start_char=141|end_char=142|SpacesAfter=\n|NER=O
+
+# text = Autori kryesor , Emmanuel Stamatakis , tha se do të duhen kërkime të mëtejshme për të përforcuar gjetjet , por deri tani studimi ofron një rekomandim premtues pa kosto për uljen e rrezikut të kancerit .
+# sent_id = 1
+1	Autori	autor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=6|NER=O
+2	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=7|end_char=14|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|NER=O
+4	Emmanuel	Emmanuel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=17|end_char=25|NER=B-PER
+5	Stamatakis	stamatak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=26|end_char=36|SpaceAfter=No|NER=I-PER
+6	,	,	PUNCT	_	_	4	punct	_	start_char=37|end_char=38|NER=O
+7	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=39|end_char=42|NER=O
+8	se	se	SCONJ	_	_	11	mark	_	start_char=43|end_char=45|NER=O
+9	do	do	PART	_	_	11	fixed	_	start_char=46|end_char=48|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=49|end_char=51|NER=O
+11	duhen	duhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	advcl	_	start_char=52|end_char=57|NER=O
+12	kërkime	kërkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=58|end_char=65|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=66|end_char=68|NER=O
+14	mëtejshme	mëtejshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=69|end_char=78|NER=O
+15	për	për	PART	_	_	17	fixed	_	start_char=79|end_char=82|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=83|end_char=85|NER=O
+17	përforcuar	përforcoj	VERB	_	VerbForm=Part	11	advmod	_	start_char=86|end_char=96|NER=O
+18	gjetjet	gjetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=97|end_char=104|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=105|end_char=106|NER=O
+20	por	por	CCONJ	_	_	24	cc	_	start_char=107|end_char=110|NER=O
+21	deri	deri	PART	_	_	22	mark	_	start_char=111|end_char=115|NER=O
+22	tani	tani	ADV	_	AdvType=Tim	24	advmod	_	start_char=116|end_char=120|NER=O
+23	studimi	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=121|end_char=128|NER=O
+24	ofron	ofroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=129|end_char=134|NER=O
+25	një	një	DET	_	Definite=Ind	26	det	_	start_char=135|end_char=138|NER=O
+26	rekomandim	rekomandim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=139|end_char=149|NER=O
+27	premtues	premtues	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=150|end_char=158|NER=O
+28	pa	pa	ADP	_	Case=Acc	29	case	_	start_char=159|end_char=161|NER=O
+29	kosto	kosto	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	nmod	_	start_char=162|end_char=167|NER=O
+30	për	për	ADP	_	Case=Acc	31	case	_	start_char=168|end_char=171|NER=O
+31	uljen	ulje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=172|end_char=177|NER=O
+32	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=178|end_char=179|NER=O
+33	rrezikut	rrezik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=180|end_char=188|NER=O
+34	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=189|end_char=191|NER=O
+35	kancerit	kancer	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=192|end_char=200|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	24	punct	_	start_char=201|end_char=202|SpacesAfter=\n|NER=O
+
+# text = Gazetare Albana Agolli
+# sent_id = 2
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=9|end_char=15|NER=B-PER
+3	Agolli	Agoll	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=16|end_char=22|SpacesAfter=\n|NER=I-PER
+

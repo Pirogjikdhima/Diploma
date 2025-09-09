@@ -1,0 +1,112 @@
+# text = 14 / 08 / 2023 " Është dita e dytë e vizitës dhe deri tani kemi vizituar kryeqytetin e Shqipërisë , Tiranën , një qytet impresionant .
+# sent_id = 0
+1	14	14	NUM	_	NumType=Card	14	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	12	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	14	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=22|NER=O
+8	dita	ditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=23|end_char=27|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=28|end_char=29|NER=O
+10	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=30|end_char=34|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=35|end_char=36|NER=O
+12	vizitës	vizitë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=37|end_char=44|NER=O
+13	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=45|end_char=48|NER=O
+14	deri	deri	PART	_	_	10	mark	_	start_char=49|end_char=53|NER=O
+15	tani	tani	ADV	_	AdvType=Tim	12	advmod	_	start_char=54|end_char=58|NER=O
+16	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	aux	_	start_char=59|end_char=63|NER=O
+17	vizituar	vizitoj	VERB	_	VerbForm=Part	2	conj	_	start_char=64|end_char=72|NER=O
+18	kryeqytetin	kryeqytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=73|end_char=84|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=85|end_char=86|NER=O
+20	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=87|end_char=97|SpaceAfter=No|NER=B-VEND_1
+21	,	,	PUNCT	_	_	17	punct	_	start_char=98|end_char=99|NER=O
+22	Tiranën	Tiranë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	appos	_	start_char=100|end_char=107|SpaceAfter=No|NER=B-VEND_0
+23	,	,	PUNCT	_	_	20	punct	_	start_char=108|end_char=109|NER=O
+24	një	një	DET	_	Definite=Ind	20	det	_	start_char=110|end_char=113|NER=O
+25	qytet	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	list	_	start_char=114|end_char=119|NER=O
+26	impresionant	impresionan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=120|end_char=132|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	12	punct	_	start_char=133|end_char=134|NER=O
+
+# text = Në ditën e dytë jemi nisur në botën apo natyrën e egër , në Parkun e Divjakës , që deri tani na pëlqen dhe po e shijojmë , " shprehet një turist francez .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=3|end_char=8|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=10|NER=O
+4	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=11|end_char=15|NER=O
+5	jemi	jam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	aux	_	start_char=16|end_char=20|NER=O
+6	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=21|end_char=26|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=27|end_char=29|NER=O
+8	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=30|end_char=35|NER=O
+9	apo	apo	CCONJ	_	_	10	cc	_	start_char=36|end_char=39|NER=O
+10	natyrën	natyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	start_char=40|end_char=47|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=48|end_char=49|NER=O
+12	egër	egër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=50|end_char=54|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=55|end_char=56|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=57|end_char=59|NER=O
+15	Parkun	Parkun	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=60|end_char=66|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=67|end_char=68|NER=O
+17	Divjakës	divjakë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=69|end_char=77|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=78|end_char=79|NER=O
+19	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=80|end_char=82|NER=O
+20	deri	deri	PART	_	_	21	mark	_	start_char=83|end_char=87|NER=O
+21	tani	tani	ADV	_	AdvType=Tim	23	advmod	_	start_char=88|end_char=92|NER=O
+22	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	23	iobj	_	start_char=93|end_char=95|NER=O
+23	pëlqen	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=96|end_char=102|NER=O
+24	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=103|end_char=106|NER=O
+25	po	po	PART	_	_	27	mark	_	start_char=107|end_char=109|NER=O
+26	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=110|end_char=111|NER=O
+27	shijojmë	shijoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	23	conj	_	start_char=112|end_char=120|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	30	punct	_	start_char=121|end_char=122|SpaceAfter=No|NER=O
+29	"	"	PUNCT	_	_	30	punct	_	start_char=123|end_char=124|NER=O
+30	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	27	ccomp	_	start_char=125|end_char=133|NER=O
+31	një	një	DET	_	Definite=Ind	32	det	_	start_char=134|end_char=137|NER=O
+32	turist	turist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=138|end_char=144|NER=O
+33	francez	francez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=145|end_char=152|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	30	punct	_	start_char=153|end_char=154|SpacesAfter=\n|NER=O
+
+# text = " E kemi folur herë pas here edhe me Qendrën këtu , që të merren masa për pastrimin qoftë nga ata vetë , qoftë me programe të ndryshme , " thotë guida Alban Muharremi .
+# sent_id = 2
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cc	_	start_char=2|end_char=3|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=4|end_char=8|NER=O
+4	folur	flas	VERB	_	VerbForm=Part	0	root	_	start_char=9|end_char=14|NER=O
+5	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=15|end_char=19|NER=O
+6	pas	pas	ADV	_	AdvType=Tim	4	advmod	_	start_char=20|end_char=23|NER=O
+7	here	here	ADV	_	AdvType=Tim	4	advmod	_	start_char=24|end_char=28|NER=O
+8	edhe	edhe	PART	_	_	10	cc	_	start_char=29|end_char=33|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=34|end_char=36|NER=O
+10	Qendrën	qendër	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=37|end_char=44|NER=O
+11	këtu	këtu	ADV	_	AdvType=Tim	10	flat	_	start_char=45|end_char=49|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=50|end_char=51|NER=O
+13	që	që	SCONJ	_	_	15	mark	_	start_char=52|end_char=54|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=55|end_char=57|NER=O
+15	merren	merrej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	acl:relcl	_	start_char=58|end_char=64|NER=O
+16	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	start_char=65|end_char=69|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=70|end_char=73|NER=O
+18	pastrimin	pastrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=74|end_char=83|NER=O
+19	qoftë	qoftë	CCONJ	_	_	22	cc	_	start_char=84|end_char=89|NER=O
+20	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=90|end_char=93|NER=O
+21	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	det	_	start_char=94|end_char=97|NER=O
+22	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	18	amod	_	start_char=98|end_char=102|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	24	punct	_	start_char=103|end_char=104|NER=O
+24	qoftë	qoftë	CCONJ	_	_	26	cc	_	start_char=105|end_char=110|NER=O
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=111|end_char=113|NER=O
+26	programe	program	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	advmod	_	start_char=114|end_char=122|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=123|end_char=125|NER=O
+28	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=126|end_char=134|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	26	punct	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+30	"	"	PUNCT	_	_	31	punct	_	start_char=137|end_char=138|NER=O
+31	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	acl:relcl	_	start_char=139|end_char=144|NER=O
+32	guida	guidë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nsubj	_	start_char=145|end_char=150|NER=O
+33	Alban	Alban	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	32	flat	_	start_char=151|end_char=156|NER=B-PER
+34	Muharremi	muharrem	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	flat	_	start_char=157|end_char=166|SpaceAfter=No|NER=I-PER
+35	.	.	PUNCT	_	_	31	punct	_	start_char=167|end_char=168|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Megi Mëhilli
+# sent_id = 3
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Megi	Megi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Mëhilli	Mëhill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

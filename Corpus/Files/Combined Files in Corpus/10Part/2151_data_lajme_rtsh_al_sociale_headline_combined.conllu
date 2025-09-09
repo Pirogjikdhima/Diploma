@@ -1,0 +1,67 @@
+# text = 01 / 06 / 2022 Dhuna ndaj fëmijëve vijon të jetë prezent në Shqipëri , por pak prej qytetarëve do e denonconin atë te autoritetet përkatëse .
+# sent_id = 0
+1	01	01	NUM	_	NumType=Card	16	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	06	06	NUM	_	NumType=Card	16	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	16	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Dhuna	dhunë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=15|end_char=20|NER=O
+7	ndaj	ndaj	ADP	_	Case=Abl	23	case	_	start_char=21|end_char=25|NER=O
+8	fëmijëve	fëmijë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	start_char=26|end_char=34|NER=O
+9	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	acl	_	start_char=35|end_char=40|NER=O
+10	të	të	PART	_	_	26	fixed	_	start_char=41|end_char=43|NER=O
+11	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=44|end_char=48|NER=O
+12	prezent	prezej	VERB	_	VerbForm=Part	24	ccomp	_	start_char=49|end_char=56|NER=O
+13	në	në	ADP	_	Case=Acc	29	case	_	start_char=57|end_char=59|NER=O
+14	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	start_char=60|end_char=68|SpaceAfter=No|NER=B-VEND_1
+15	,	,	PUNCT	_	_	31	punct	_	start_char=69|end_char=70|NER=O
+16	por	por	CCONJ	_	_	37	cc	_	start_char=71|end_char=74|NER=O
+17	pak	pak	ADV	_	AdvType=Deg	37	advmod	_	start_char=75|end_char=78|NER=O
+18	prej	prej	ADP	_	Case=Abl	34	case	_	start_char=79|end_char=83|NER=O
+19	qytetarëve	qytetar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	37	obl	_	start_char=84|end_char=94|NER=O
+20	do	do	PART	_	_	37	fixed	_	start_char=95|end_char=97|NER=O
+21	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	start_char=98|end_char=99|NER=O
+22	denonconin	denoncoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	27	conj	_	start_char=100|end_char=110|NER=O
+23	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	start_char=111|end_char=114|NER=O
+24	te	te	ADP	_	Case=Nom	40	case	_	start_char=115|end_char=117|NER=O
+25	autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	37	obl	_	start_char=118|end_char=129|NER=O
+26	përkatëse	përkatës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=130|end_char=139|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	37	punct	_	start_char=140|end_char=141|SpacesAfter=\n|NER=O
+
+# text = Ky është një sondazh që u publikua këtë të mërkurë nga CRCA në Shqipëri , nga ku rezulton se pothuaj 60 % e të anketuarve mendojnë se është e pranueshme goditja e fëmijës .
+# sent_id = 1
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	sondazh	sondazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=13|end_char=20|NER=O
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=21|end_char=23|NER=O
+6	u	u	PART	_	_	7	fixed	_	start_char=24|end_char=25|NER=O
+7	publikua	publikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	acl:relcl	_	start_char=26|end_char=34|NER=O
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	start_char=35|end_char=39|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=40|end_char=42|NER=B-DATE_1
+10	mërkurë	mërkurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=43|end_char=50|NER=I-DATE_1
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=51|end_char=54|NER=O
+12	CRCA	CRCA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=55|end_char=59|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=60|end_char=62|NER=O
+14	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=63|end_char=71|SpaceAfter=No|NER=B-VEND_1
+15	,	,	PUNCT	_	_	18	punct	_	start_char=72|end_char=73|NER=O
+16	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=74|end_char=77|NER=O
+17	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=78|end_char=80|NER=O
+18	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=81|end_char=89|NER=O
+19	se	se	SCONJ	_	_	26	mark	_	start_char=90|end_char=92|NER=O
+20	pothuaj	pothuaj	ADV	_	AdvType=Tim	21	advmod	_	start_char=93|end_char=100|NER=O
+21	60	60	NUM	_	NumType=Card	18	advmod	_	start_char=101|end_char=103|SpaceAfter=No|NER=O
+22	%	%	SYM	_	_	21	flat	_	start_char=104|end_char=105|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	25	det:poss	_	start_char=106|end_char=107|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=108|end_char=110|NER=O
+25	anketuarve	anketuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=111|end_char=121|NER=O
+26	mendojnë	mendoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=122|end_char=130|NER=O
+27	se	se	SCONJ	_	_	28	mark	_	start_char=131|end_char=133|NER=O
+28	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	ccomp	_	start_char=134|end_char=139|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=140|end_char=141|NER=O
+30	pranueshme	pranueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	cop	_	start_char=142|end_char=152|NER=O
+31	goditja	goditje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	28	cop	_	start_char=153|end_char=160|NER=O
+32	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=161|end_char=162|NER=O
+33	fëmijës	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=163|end_char=170|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	28	punct	_	start_char=171|end_char=172|SpacesAfter=\n|NER=O
+

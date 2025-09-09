@@ -1,0 +1,111 @@
+# text = Edhe fëmijët me pasoja të COVID të zgjatur , Kuli : Vaksinimi i domosdoshëm !
+# sent_id = 0
+1	Edhe	edhe	CCONJ	_	_	2	mark	_	start_char=0|end_char=4|NER=O
+2	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	start_char=5|end_char=12|NER=O
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=13|end_char=15|NER=O
+4	pasoja	pasojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	start_char=16|end_char=22|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=23|end_char=25|NER=O
+6	COVID	COVID	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=26|end_char=31|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=32|end_char=34|NER=O
+8	zgjatur	zgjat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=35|end_char=42|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=43|end_char=44|NER=O
+10	Kuli	Kuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	cop	_	start_char=45|end_char=49|SpaceAfter=No|NER=B-PER
+11	:	:	PUNCT	_	_	2	punct	_	start_char=50|end_char=51|NER=O
+12	Vaksinimi	Vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=52|end_char=61|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=62|end_char=63|NER=O
+14	domosdoshëm	domosdoshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=64|end_char=75|SpaceAfter=No|NER=O
+15	!	!	PUNCT	_	_	6	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+
+# text = 18 / 05 / 2022 Mjekët bazuar në riformulimet që ka bërë OBSH për pasojat afatgjata kanë konstatuar shumë raste të simptomave të zgajtura siç janë dhimbja e kokës dhe temperaturë pa shkak të jashtëm .
+# sent_id = 1
+1	18	18	NUM	_	NumType=Card	6	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	1	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	05	05	NUM	_	NumType=Card	1	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	6	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	6	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=15|end_char=21|NER=O
+7	bazuar	bazoj	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=28|NER=O
+8	në	në	ADP	_	Case=Acc	4	case	_	start_char=29|end_char=31|NER=O
+9	riformulimet	riformulim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=32|end_char=44|NER=O
+10	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=45|end_char=47|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=48|end_char=50|NER=O
+12	bërë	bëj	VERB	_	VerbForm=Part	4	acl:relcl	_	start_char=51|end_char=55|NER=O
+13	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=56|end_char=60|NER=B-ORG
+14	për	për	ADP	_	Case=Acc	10	case	_	start_char=61|end_char=64|NER=O
+15	pasojat	pasojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=65|end_char=72|NER=O
+16	afatgjata	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=73|end_char=82|NER=O
+17	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=83|end_char=87|NER=O
+18	konstatuar	konstatoj	VERB	_	VerbForm=Part	2	conj	_	start_char=88|end_char=98|NER=O
+19	shumë	shumë	PRON	_	PronType=Ind	15	nummod	_	start_char=99|end_char=104|NER=O
+20	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=105|end_char=110|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=111|end_char=113|NER=O
+22	simptomave	simptomë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=114|end_char=124|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=125|end_char=127|NER=O
+24	zgajtura	zgajturë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=128|end_char=136|NER=O
+25	siç	siç	SCONJ	_	_	21	mark	_	start_char=137|end_char=140|NER=O
+26	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	acl	_	start_char=141|end_char=145|NER=O
+27	dhimbja	dhimbje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	cop	_	start_char=146|end_char=153|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=154|end_char=155|NER=O
+29	kokës	kokë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=156|end_char=161|NER=O
+30	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=162|end_char=165|NER=O
+31	temperaturë	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	conj	_	start_char=166|end_char=177|NER=O
+32	pa	pa	ADP	_	Case=Acc	28	case	_	start_char=178|end_char=180|NER=O
+33	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=181|end_char=186|NER=O
+34	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=187|end_char=189|NER=O
+35	jashtëm	jashtëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=190|end_char=197|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	21	punct	_	start_char=198|end_char=199|SpacesAfter=\n|NER=O
+
+# text = Pediatrja infeksioniste Prof .
+# sent_id = 2
+1	Pediatrja	pediatrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=9|NER=O
+2	infeksioniste	infeksionist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=10|end_char=23|NER=O
+3	Prof	Prof	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=24|end_char=28|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	1	punct	_	start_char=29|end_char=30|NER=O
+
+# text = Gjeorgjina Kuli sqaron arsyet pse duhen vaksinuar fëmijët .
+# sent_id = 3
+1	Gjeorgjina	Gjeorgjinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=10|NER=B-PER
+2	Kuli	Kuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=15|NER=I-PER
+3	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=22|NER=O
+4	arsyet	arsy	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=23|end_char=29|NER=O
+5	pse	pse	SCONJ	_	_	7	mark	_	start_char=30|end_char=33|NER=O
+6	duhen	duhem	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	aux	_	start_char=34|end_char=39|NER=O
+7	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	3	advcl	_	start_char=40|end_char=49|NER=O
+8	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	start_char=50|end_char=57|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=58|end_char=59|SpacesAfter=\n|NER=O
+
+# text = Shumë prindër e kushtëzojnë vaksinimin e fëmijëve me infeksionin që ata mund të kenë kaluar duke e konsideruar të panevojshme , por Prof .
+# sent_id = 4
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=5|NER=O
+2	prindër	prindër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	start_char=6|end_char=13|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=14|end_char=15|NER=O
+4	kushtëzojnë	kushtëzoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=27|NER=O
+5	vaksinimin	vaksinim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=28|end_char=38|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=39|end_char=40|NER=O
+7	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=41|end_char=49|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=50|end_char=52|NER=O
+9	infeksionin	infeksion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=53|end_char=64|NER=O
+10	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=65|end_char=67|NER=O
+11	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=68|end_char=71|NER=O
+12	mund	mund	AUX	_	_	15	aux	_	start_char=72|end_char=76|NER=O
+13	të	të	PART	_	_	15	fixed	_	start_char=77|end_char=79|NER=O
+14	kenë	kam	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=80|end_char=84|NER=O
+15	kaluar	kaloj	VERB	_	VerbForm=Part	4	advcl	_	start_char=85|end_char=91|NER=O
+16	duke	duke	PART	_	_	18	fixed	_	start_char=92|end_char=96|NER=O
+17	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=97|end_char=98|NER=O
+18	konsideruar	konsideroj	VERB	_	VerbForm=Part	15	advmod	_	start_char=99|end_char=110|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=111|end_char=113|NER=O
+20	panevojshme	panevojshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	cop	_	start_char=114|end_char=125|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	22	punct	_	start_char=126|end_char=127|NER=O
+22	por	por	CCONJ	_	_	23	cc	_	start_char=128|end_char=131|NER=O
+23	Prof	Prof	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	conj	_	start_char=132|end_char=136|SpaceAfter=No|NER=B-PER
+24	.	.	PUNCT	_	_	18	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=B-PER
+
+# text = Kuli nuk mendon kështu .
+# sent_id = 5
+1	Kuli	Kuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=4|NER=B-PER
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=5|end_char=8|NER=O
+3	mendon	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=15|NER=O
+4	kështu	kështu	ADV	_	AdvType=Man	3	advmod	_	start_char=16|end_char=22|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	3	punct	_	start_char=23|end_char=24|SpacesAfter=\n|NER=O
+

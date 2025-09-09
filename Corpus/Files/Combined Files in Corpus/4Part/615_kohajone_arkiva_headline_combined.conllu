@@ -1,0 +1,61 @@
+# text = Makina merr përpara turmën me njerëz në Gjermani , raportohet për viktima Një makinë përplasi një grup njerëzish në qytetin lindor gjerman Leipzig , duke vrarë dy persona dhe duke lënë dy të tjerë të plagosur , njoftoi policia .
+# sent_id = 0
+1	Makina	makinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=11|NER=O
+3	përpara	përpara	ADP	_	Case=Abl	4	case	_	start_char=12|end_char=19|NER=O
+4	turmën	turmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=20|end_char=26|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	start_char=30|end_char=36|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=37|end_char=39|NER=O
+8	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=40|end_char=48|SpaceAfter=No|NER=B-VEND_1
+9	,	,	PUNCT	_	_	2	punct	_	start_char=49|end_char=50|NER=O
+10	raportohet	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=51|end_char=61|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=62|end_char=65|NER=O
+12	viktima	viktimë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=66|end_char=73|SpacesAfter=\n|NER=O
+13	Një	një	DET	_	Definite=Ind	14	det	_	start_char=74|end_char=77|NER=O
+14	makinë	makinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=78|end_char=84|NER=O
+15	përplasi	përplas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	start_char=85|end_char=93|NER=O
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=94|end_char=97|NER=O
+17	grup	grup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	start_char=98|end_char=102|NER=O
+18	njerëzish	njerëzish	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=103|end_char=112|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=113|end_char=115|NER=O
+20	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=116|end_char=123|NER=O
+21	lindor	lindor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=124|end_char=130|NER=O
+22	gjerman	gjerman	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=131|end_char=138|NER=O
+23	Leipzig	Leipzig	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	appos	_	start_char=139|end_char=146|SpaceAfter=No|NER=B-VEND_0
+24	,	,	PUNCT	_	_	26	punct	_	start_char=147|end_char=148|NER=O
+25	duke	duke	PART	_	_	26	fixed	_	start_char=149|end_char=153|NER=O
+26	vrarë	vras	VERB	_	VerbForm=Part	15	advmod	_	start_char=154|end_char=159|NER=O
+27	dy	dy	NUM	_	NumType=Card	28	nummod	_	start_char=160|end_char=162|NER=O
+28	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	26	obj	_	start_char=163|end_char=170|NER=O
+29	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=171|end_char=174|NER=O
+30	duke	duke	PART	_	_	31	fixed	_	start_char=175|end_char=179|NER=O
+31	lënë	lë	VERB	_	VerbForm=Part	26	conj	_	start_char=180|end_char=184|NER=O
+32	dy	dy	NUM	_	NumType=Card	34	nummod	_	start_char=185|end_char=187|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	34	det	_	start_char=188|end_char=190|NER=O
+34	tjerë	tjetër	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	31	cop	_	start_char=191|end_char=196|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	36	det	_	start_char=197|end_char=199|NER=O
+36	plagosur	plagosur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	34	conj	_	start_char=200|end_char=208|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	38	punct	_	start_char=209|end_char=210|NER=O
+38	njoftoi	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	ccomp	_	start_char=211|end_char=218|NER=O
+39	policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	38	obj	_	start_char=219|end_char=226|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	38	punct	_	start_char=227|end_char=228|SpacesAfter=\n|NER=O
+
+# text = Makina drejtohej nga një burrë 50 - vjeçar , njoftoi agjencia e lajmeve DPA .
+# sent_id = 1
+1	Makina	makinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=0|end_char=6|NER=O
+2	drejtohej	drejtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=7|end_char=16|NER=O
+3	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=17|end_char=20|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=21|end_char=24|NER=O
+5	burrë	burrë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=25|end_char=30|NER=O
+6	50	50	NUM	_	NumType=Card	5	amod	_	start_char=31|end_char=33|SpaceAfter=No|NER=O
+7	-	-	PUNCT	_	_	5	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+8	vjeçar	50-vjeçar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=36|end_char=42|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|NER=O
+10	njoftoi	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=45|end_char=52|NER=O
+11	agjencia	agjenci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=53|end_char=61|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=62|end_char=63|NER=O
+13	lajmeve	lajm	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=64|end_char=71|NER=O
+14	DPA	DPA	PROPN	_	Foreign=Yes	11	appos	_	start_char=72|end_char=75|SpaceAfter=No|NER=B-ORG
+15	.	.	PUNCT	_	_	8	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+

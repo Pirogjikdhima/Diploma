@@ -1,0 +1,96 @@
+# text = 19 / 08 / 2023 Kjo vizitë , sipas mjekes Zana Zhuka , duhet të jetë shumë serioze .
+# sent_id = 0
+1	19	19	NUM	_	NumType=Card	9	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	9	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	11	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=15|end_char=18|NER=O
+7	vizitë	vizitë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=19|end_char=25|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	2	punct	_	start_char=26|end_char=27|NER=O
+9	sipas	sipas	ADP	_	Case=Abl	5	case	_	start_char=28|end_char=33|NER=O
+10	mjekes	mjeke	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=34|end_char=40|NER=O
+11	Zana	Zana	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=41|end_char=45|NER=B-PER
+12	Zhuka	Zhukë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=46|end_char=51|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	5	punct	_	start_char=52|end_char=53|NER=O
+14	duhet	duhem	AUX	_	_	11	aux	_	start_char=54|end_char=59|NER=O
+15	të	të	PART	_	_	11	fixed	_	start_char=60|end_char=62|NER=O
+16	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=67|NER=O
+17	shumë	shumë	ADV	_	AdvType=Deg	13	advmod	_	start_char=68|end_char=73|NER=O
+18	serioze	serioz	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	cop	_	start_char=74|end_char=81|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	11	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+
+# text = " Kemi pasur shumë djem dhe vajza që kanë nevojë për syze .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=6|NER=O
+3	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=12|NER=O
+4	shumë	shumë	PRON	_	PronType=Ind	5	nummod	_	start_char=13|end_char=18|NER=O
+5	djem	djalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	start_char=19|end_char=23|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=24|end_char=27|NER=O
+7	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=28|end_char=33|NER=O
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=34|end_char=36|NER=O
+9	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=37|end_char=41|NER=O
+10	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=42|end_char=48|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=49|end_char=52|NER=O
+12	syze	syze	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=53|end_char=57|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	3	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Një vërejtje kam , që ua kam thënë edhe drejtpërdrejt : duhet ta kishin bërë kontrollin përpara se të vinin për vizitën vlerësuese të patentës tek okulisti .
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	vërejtje	vërejtje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=12|NER=O
+3	kam	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=13|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|NER=O
+5	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=19|end_char=21|NER=O
+6	ua	ua	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	obj	_	start_char=22|end_char=24|NER=O
+7	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	8	aux	_	start_char=25|end_char=28|NER=O
+8	thënë	them	VERB	_	VerbForm=Part	3	advcl	_	start_char=29|end_char=34|NER=O
+9	edhe	edhe	CCONJ	_	_	10	mark	_	start_char=35|end_char=39|NER=O
+10	drejtpërdrejt	drejtpërdrejt	ADV	_	AdvType=Tim	8	advmod	_	start_char=40|end_char=53|SpaceAfter=No|NER=O
+11	:	:	PUNCT	_	_	8	punct	_	start_char=54|end_char=55|NER=O
+12	duhet	duhem	AUX	_	_	16	aux	_	start_char=56|end_char=61|NER=O
+13	ta	_	_	_	_	_	_	_	start_char=62|end_char=64|NER=O
+14	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	16	aux	_	start_char=65|end_char=71|NER=O
+15	bërë	bëj	VERB	_	VerbForm=Part	3	conj	_	start_char=72|end_char=76|NER=O
+16	kontrollin	kontroll	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=77|end_char=87|NER=O
+17	përpara	përpara	ADV	_	AdvType=Tim	16	advmod	_	start_char=88|end_char=95|NER=O
+18	se	se	SCONJ	_	_	21	mark	_	start_char=96|end_char=98|NER=O
+19	të	të	PART	_	_	21	fixed	_	start_char=99|end_char=101|NER=O
+20	vinin	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	16	advcl	_	start_char=102|end_char=107|NER=O
+21	për	për	ADP	_	Case=Acc	23	case	_	start_char=108|end_char=111|NER=O
+22	vizitën	vizitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=112|end_char=119|NER=O
+23	vlerësuese	vlerësues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=120|end_char=130|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=131|end_char=133|NER=O
+25	patentës	patentë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=134|end_char=142|NER=O
+26	tek	tek	ADP	_	Case=Nom	28	case	_	start_char=143|end_char=146|NER=O
+27	okulisti	okulist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=147|end_char=155|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	16	punct	_	start_char=156|end_char=157|NER=O
+
+# text = Pothuajse të gjithë i mësojnë problemet me shikimin gjatë kësaj vizite , " shprehet okulistja Zhuka .
+# sent_id = 3
+1	Pothuajse	pothuajse	SCONJ	_	_	5	mark	_	start_char=0|end_char=9|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=10|end_char=12|NER=O
+3	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	start_char=13|end_char=19|NER=O
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	iobj	_	start_char=20|end_char=21|NER=O
+5	mësojnë	mësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	advmod	_	start_char=22|end_char=29|NER=O
+6	problemet	problem	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=30|end_char=39|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=40|end_char=42|NER=O
+8	shikimin	shikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=43|end_char=51|NER=O
+9	gjatë	gjatë	ADP	_	Case=Abl	11	case	_	start_char=52|end_char=57|NER=O
+10	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=58|end_char=63|NER=O
+11	vizite	vizit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=64|end_char=70|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	5	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
+13	"	"	PUNCT	_	_	14	punct	_	start_char=73|end_char=74|NER=O
+14	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=75|end_char=83|NER=O
+15	okulistja	okulistje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=84|end_char=93|NER=O
+16	Zhuka	Zhukë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	appos	_	start_char=94|end_char=99|SpaceAfter=No|NER=B-PER
+17	.	.	PUNCT	_	_	14	punct	_	start_char=100|end_char=101|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

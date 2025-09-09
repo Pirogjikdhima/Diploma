@@ -1,0 +1,400 @@
+# text = Udhëtimet në Gjermani nuk ndalohen Pushime në Gjermani ?
+# sent_id = 0
+1	Udhëtimet	udhëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=0|end_char=9|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=10|end_char=12|NER=O
+3	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=13|end_char=21|NER=B-VEND_1
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=22|end_char=25|NER=O
+5	ndalohen	ndaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=26|end_char=34|SpacesAfter=\n|NER=O
+6	Pushime	pushim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=35|end_char=42|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=43|end_char=45|NER=O
+8	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=46|end_char=54|SpaceAfter=No|NER=B-VEND_1
+9	?	?	PUNCT	_	_	5	punct	_	start_char=55|end_char=56|NER=O
+
+# text = E pamundur !
+# sent_id = 1
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	pamundur	pamundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=10|SpaceAfter=No|NER=O
+3	!	!	PUNCT	_	_	2	punct	_	start_char=11|end_char=12|NER=O
+
+# text = Pushime jashtë vendit ?
+# sent_id = 2
+1	Pushime	pushim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=7|NER=O
+2	jashtë	jashtë	ADP	_	Case=Abl	3	case	_	start_char=8|end_char=14|NER=O
+3	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=21|SpaceAfter=No|NER=O
+4	?	?	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|NER=O
+
+# text = E mundur !
+# sent_id = 3
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	mundur	mundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	dislocated	_	start_char=2|end_char=8|SpaceAfter=No|NER=O
+3	!	!	PUNCT	_	_	4	punct	_	start_char=9|end_char=10|NER=O
+
+# text = Kancelarja Merkel do të donte ta ndryshonte këtë .
+# sent_id = 4
+1	Kancelarja	Kancelarje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=10|NER=O
+2	Merkel	Merkel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=11|end_char=17|NER=B-PER
+3	do	do	PART	_	_	8	fixed	_	start_char=18|end_char=20|NER=O
+4	të	të	PART	_	_	8	fixed	_	start_char=21|end_char=23|NER=O
+5	donte	dua	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=24|end_char=29|NER=O
+6	ta	_	_	_	_	_	_	_	start_char=30|end_char=32|NER=O
+7	ndryshonte	ndryshoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	8	ccomp	_	start_char=33|end_char=43|NER=O
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	start_char=44|end_char=48|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	8	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Por kjo nuk do të ndodhë .
+# sent_id = 5
+1	Por	por	CCONJ	_	_	6	cc	_	start_char=0|end_char=3|NER=O
+2	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	start_char=4|end_char=7|NER=O
+3	nuk	nuk	PART	_	_	6	mark	_	start_char=8|end_char=11|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=12|end_char=14|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=15|end_char=17|NER=O
+6	ndodhë	ndodh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=24|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	6	punct	_	start_char=25|end_char=26|NER=O
+
+# text = Tani futet obligimi i testimit para kthimit .
+# sent_id = 6
+1	Tani	tani	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=4|NER=O
+2	futet	fut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=5|end_char=10|NER=O
+3	obligimi	obligim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=11|end_char=19|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	testimit	testim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=30|NER=O
+6	para	para	ADP	_	Case=Abl	7	case	_	start_char=31|end_char=35|NER=O
+7	kthimit	kthim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=36|end_char=43|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	2	punct	_	start_char=44|end_char=45|SpacesAfter=\n|NER=O
+
+# text = Nuk është e mundur që të lejohen udhëtimet për pushime në Majorka të Spanjës , e në anën tjetër – nuk mund të shkosh në Flensburg për shembull , të cilin e ke vetëm 15 km larg .
+# sent_id = 7
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	mundur	mundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=12|end_char=18|NER=O
+5	që	që	SCONJ	_	_	7	mark	_	start_char=19|end_char=21|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=22|end_char=24|NER=O
+7	lejohen	lejoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	csubj	_	start_char=25|end_char=32|NER=O
+8	udhëtimet	udhëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=33|end_char=42|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=46|NER=O
+10	pushime	pushime	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	advmod	_	start_char=47|end_char=54|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=55|end_char=57|NER=O
+12	Majorka	majorkë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=58|end_char=65|NER=B-VEND_0
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=66|end_char=68|NER=O
+14	Spanjës	spanjë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=69|end_char=76|SpaceAfter=No|NER=B-VEND_1
+15	,	,	PUNCT	_	_	16	punct	_	start_char=77|end_char=78|NER=O
+16	e	e	CCONJ	_	_	18	cc	_	start_char=79|end_char=80|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=81|end_char=83|NER=O
+18	anën	anë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	advmod	_	start_char=84|end_char=88|NER=O
+19	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	amod	_	start_char=89|end_char=95|NER=O
+20	–	–	PUNCT	_	_	24	punct	_	start_char=96|end_char=97|NER=O
+21	nuk	nuk	PART	_	_	24	mark	_	start_char=98|end_char=101|NER=O
+22	mund	mund	AUX	_	_	24	aux	_	start_char=102|end_char=106|NER=O
+23	të	të	PART	_	_	24	fixed	_	start_char=107|end_char=109|NER=O
+24	shkosh	shkoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=110|end_char=116|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=117|end_char=119|NER=O
+26	Flensburg	Flensburg	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=120|end_char=129|NER=B-VEND_0
+27	për	për	ADP	_	Case=Acc	28	case	_	start_char=130|end_char=133|NER=O
+28	shembull	shembull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=134|end_char=142|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	31	punct	_	start_char=143|end_char=144|NER=O
+30	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=145|end_char=147|NER=O
+31	cilin	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	start_char=148|end_char=153|NER=O
+32	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	start_char=154|end_char=155|NER=O
+33	ke	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	24	advcl	_	start_char=156|end_char=158|NER=O
+34	vetëm	vetëm	PART	_	_	36	mark	_	start_char=159|end_char=164|NER=O
+35	15	15	NUM	_	NumType=Card	36	nummod	_	start_char=165|end_char=167|NER=O
+36	km	km	NOUN	_	_	33	obj	_	start_char=168|end_char=170|NER=O
+37	larg	larg	ADV	_	AdvType=Loc	36	amod	_	start_char=171|end_char=175|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	33	punct	_	start_char=176|end_char=177|NER=O
+
+# text = Kancelarja Angela Merkel së fundmi e tha këtë gjatë konsultimeve të saj me krerët e qeverive të 16 landeve gjermane .
+# sent_id = 8
+1	Kancelarja	kancelarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=10|NER=O
+2	Angela	Angelë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=11|end_char=17|NER=B-PER
+3	Merkel	Merkel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=18|end_char=24|NER=I-PER
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=25|end_char=27|NER=O
+5	fundmi	fundm	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=28|end_char=34|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	cc	_	start_char=35|end_char=36|NER=O
+7	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=37|end_char=40|NER=O
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	start_char=41|end_char=45|NER=O
+9	gjatë	gjatë	ADP	_	Case=Abl	10	case	_	start_char=46|end_char=51|NER=O
+10	konsultimeve	konsultim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=52|end_char=64|NER=O
+11	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=65|end_char=67|NER=O
+12	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	amod:poss	_	start_char=68|end_char=71|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=72|end_char=74|NER=O
+14	krerët	krerë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	start_char=75|end_char=81|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=82|end_char=83|NER=O
+16	qeverive	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=84|end_char=92|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=93|end_char=95|NER=O
+18	16	16	NUM	_	NumType=Card	19	nummod	_	start_char=96|end_char=98|NER=O
+19	landeve	lande	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=99|end_char=106|NER=O
+20	gjermane	gjerman	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=107|end_char=115|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	7	punct	_	start_char=116|end_char=117|NER=O
+
+# text = Ajo tha se do të rishikohet mundësia juridike e ndalimit të udhëtimeve jashtë vendit .
+# sent_id = 9
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4|end_char=7|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=8|end_char=10|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=11|end_char=13|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+6	rishikohet	rishikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=17|end_char=27|NER=O
+7	mundësia	mundësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=28|end_char=36|NER=O
+8	juridike	juridik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=37|end_char=45|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=46|end_char=47|NER=O
+10	ndalimit	ndalim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=48|end_char=56|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=57|end_char=59|NER=O
+12	udhëtimeve	udhëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=60|end_char=70|NER=O
+13	jashtë	jashtë	ADP	_	Case=Abl	14	case	_	start_char=71|end_char=77|NER=O
+14	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=78|end_char=84|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	2	punct	_	start_char=85|end_char=86|SpacesAfter=\n|NER=O
+
+# text = Por kërkesa e Merkelit që të shikohet mundësia e parandalimit të udhëtimeve turistike konsiderohet tani formalisht si e mbyllur , njofton qeveria federale .
+# sent_id = 10
+1	Por	por	CCONJ	_	_	14	cc	_	start_char=0|end_char=3|NER=O
+2	kërkesa	kërkesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=4|end_char=11|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=12|end_char=13|NER=O
+4	Merkelit	merkel	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=14|end_char=22|NER=B-PER
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=23|end_char=25|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=26|end_char=28|NER=O
+7	shikohet	shikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	acl:relcl	_	start_char=29|end_char=37|NER=O
+8	mundësia	mundësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=38|end_char=46|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=47|end_char=48|NER=O
+10	parandalimit	parandalim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=49|end_char=61|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=62|end_char=64|NER=O
+12	udhëtimeve	udhëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=65|end_char=75|NER=O
+13	turistike	turistik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=76|end_char=85|NER=O
+14	konsiderohet	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=86|end_char=98|NER=O
+15	tani	tani	ADV	_	AdvType=Tim	14	advmod	_	start_char=99|end_char=103|NER=O
+16	formalisht	formalisht	ADV	_	AdvType=Man	14	advmod	_	start_char=104|end_char=114|NER=O
+17	si	si	SCONJ	_	_	19	mark	_	start_char=115|end_char=117|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=118|end_char=119|NER=O
+19	mbyllur	mbyllur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	cop	_	start_char=120|end_char=127|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=128|end_char=129|NER=O
+21	njofton	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=130|end_char=137|NER=O
+22	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=138|end_char=145|NER=O
+23	federale	federal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=146|end_char=154|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	14	punct	_	start_char=155|end_char=156|NER=O
+
+# text = Një zëdhënës i qeverisë vuri në dukje të hënën në mbrëmje se udhëtimet nuk ndalohen , por kërkohet respektimi i rregullave aktuale .
+# sent_id = 11
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	zëdhënës	zëdhënë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=4|end_char=12|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=13|end_char=14|NER=O
+4	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=15|end_char=23|NER=O
+5	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=24|end_char=28|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=31|NER=O
+7	dukje	dukje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=32|end_char=37|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=38|end_char=40|NER=O
+9	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=41|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	mbrëmje	mbrëmje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=50|end_char=57|NER=O
+12	se	se	SCONJ	_	_	15	mark	_	start_char=58|end_char=60|NER=O
+13	udhëtimet	udhëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nsubj	_	start_char=61|end_char=70|NER=O
+14	nuk	nuk	PART	_	_	15	mark	_	start_char=71|end_char=74|NER=O
+15	ndalohen	ndaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	acl	_	start_char=75|end_char=83|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=84|end_char=85|NER=O
+17	por	por	CCONJ	_	_	18	cc	_	start_char=86|end_char=89|NER=O
+18	kërkohet	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	15	conj	_	start_char=90|end_char=98|NER=O
+19	respektimi	respektim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=99|end_char=109|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=110|end_char=111|NER=O
+21	rregullave	rregull	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=112|end_char=122|NER=O
+22	aktuale	aktual	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=123|end_char=130|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	18	punct	_	start_char=131|end_char=132|NER=O
+
+# text = " Një rregullim tjetër ligjor për momentin nuk planifikohet .
+# sent_id = 12
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Një	një	DET	_	Definite=Ind	3	det	_	start_char=2|end_char=5|NER=O
+3	rregullim	rregullim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=6|end_char=15|NER=O
+4	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	amod	_	start_char=16|end_char=22|NER=O
+5	ligjor	ligjor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=29|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=30|end_char=33|NER=O
+7	momentin	moment	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=34|end_char=42|NER=O
+8	nuk	nuk	PART	_	Polarity=Neg	9	mark	_	start_char=43|end_char=46|NER=O
+9	planifikohet	planifikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=47|end_char=59|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	9	punct	_	start_char=60|end_char=61|SpaceAfter=No|NER=O
+
+# text = " Pas heqjes së Majorkës si destinacionit më të dashur të gjermanëve për pushime nga lista e vendeve të rrezikuara nga virusi Corona në mes të marsit , në këtë ishull spanjoll u rrit shumë numri i turistëve nga Gjermania .
+# sent_id = 13
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=2|end_char=5|NER=O
+3	heqjes	heqje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	33	advmod	_	start_char=6|end_char=12|NER=O
+4	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=13|end_char=15|NER=O
+5	Majorkës	majorkë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=16|end_char=24|NER=B-VEND_0
+6	si	si	SCONJ	_	_	6	mark	_	start_char=25|end_char=27|NER=O
+7	destinacionit	destinacion	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=28|end_char=41|NER=O
+8	më	më	PART	_	_	9	mark	_	start_char=42|end_char=44|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=45|end_char=47|NER=O
+10	dashur	dua	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=48|end_char=54|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=55|end_char=57|NER=O
+12	gjermanëve	gjerman	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=58|end_char=68|NER=O
+13	për	për	ADP	_	Case=Acc	13	case	_	start_char=69|end_char=72|NER=O
+14	pushime	pushime	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	start_char=73|end_char=80|NER=O
+15	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=81|end_char=84|NER=O
+16	lista	listë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=85|end_char=90|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=91|end_char=92|NER=O
+18	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=93|end_char=100|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=101|end_char=103|NER=O
+20	rrezikuara	rrezikuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=104|end_char=114|NER=O
+21	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=115|end_char=118|NER=O
+22	virusi	virus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=119|end_char=125|NER=O
+23	Corona	Coronë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	appos	_	start_char=126|end_char=132|NER=O
+24	në	në	ADP	_	Case=Acc	24	case	_	start_char=133|end_char=135|NER=O
+25	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=136|end_char=139|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=140|end_char=142|NER=O
+27	marsit	mars	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=143|end_char=149|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	30	punct	_	start_char=150|end_char=151|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=152|end_char=154|NER=O
+30	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	30	det	_	start_char=155|end_char=159|NER=O
+31	ishull	ishull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	advmod	_	start_char=160|end_char=166|NER=O
+32	spanjoll	spanjoll	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=167|end_char=175|NER=O
+33	u	u	PART	_	_	33	fixed	_	start_char=176|end_char=177|NER=O
+34	rrit	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=178|end_char=182|NER=O
+35	shumë	shumë	PRON	_	PronType=Ind	35	nummod	_	start_char=183|end_char=188|NER=O
+36	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	obj	_	start_char=189|end_char=194|NER=O
+37	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=195|end_char=196|NER=O
+38	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	35	nmod	_	start_char=197|end_char=206|NER=O
+39	nga	nga	ADP	_	Case=Nom	39	case	_	start_char=207|end_char=210|NER=O
+40	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	start_char=211|end_char=220|SpaceAfter=No|NER=B-VEND_1
+41	.	.	PUNCT	_	_	33	punct	_	start_char=221|end_char=222|NER=O
+
+# text = Vetëm në fundjavën e kaluar , 129 aeroplanë nga Gjermania kanë fluturuar në drejtim të Majorkës .
+# sent_id = 14
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=6|end_char=8|NER=O
+3	fundjavën	fundjavë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=9|end_char=18|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=21|end_char=27|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=28|end_char=29|NER=O
+7	129	129	NUM	_	NumType=Card	8	nummod	_	start_char=30|end_char=33|NER=O
+8	aeroplanë	aeroplanë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	start_char=34|end_char=43|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=44|end_char=47|NER=O
+10	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=48|end_char=57|NER=B-VEND_1
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=58|end_char=62|NER=O
+12	fluturuar	fluturoj	VERB	_	VerbForm=Part	0	root	_	start_char=63|end_char=72|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=73|end_char=75|NER=O
+14	drejtim	drejtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=76|end_char=83|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=84|end_char=86|NER=O
+16	Majorkës	majorkë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=87|end_char=95|SpaceAfter=No|NER=B-VEND_0
+17	.	.	PUNCT	_	_	12	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Paralajmërimi nga Ministria e Jashtme gjermane që të mos udhëtohet u pezullua për shkak se numri i infektimeve në ishujt Baleare ka rënë nën 50 për 100 .
+# sent_id = 15
+1	Paralajmërimi	paralajmërim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=13|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=14|end_char=17|NER=O
+3	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=18|end_char=27|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=28|end_char=29|NER=O
+5	Jashtme	Jashtme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=30|end_char=37|NER=O
+6	gjermane	gjerman	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=38|end_char=46|NER=O
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=47|end_char=49|NER=O
+8	të	të	PART	_	_	10	fixed	_	start_char=50|end_char=52|NER=O
+9	mos	mos	PART	_	_	10	mark	_	start_char=53|end_char=56|NER=O
+10	udhëtohet	udhëtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	acl:relcl	_	start_char=57|end_char=66|NER=O
+11	u	u	PART	_	_	12	fixed	_	start_char=67|end_char=68|NER=O
+12	pezullua	pezulloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	advcl	_	start_char=69|end_char=77|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=78|end_char=81|NER=O
+14	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=82|end_char=87|NER=O
+15	se	se	SCONJ	_	_	23	mark	_	start_char=88|end_char=90|NER=O
+16	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=91|end_char=96|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=97|end_char=98|NER=O
+18	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=99|end_char=110|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=111|end_char=113|NER=O
+20	ishujt	ishujt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	start_char=114|end_char=120|NER=O
+21	Baleare	Balear	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	start_char=121|end_char=128|NER=O
+22	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=129|end_char=131|NER=O
+23	rënë	bie	VERB	_	VerbForm=Part	12	conj	_	start_char=132|end_char=136|NER=O
+24	nën	nën	ADP	_	Case=Acc	25	case	_	start_char=137|end_char=140|NER=O
+25	50	50	NUM	_	NumType=Card	23	advmod	_	start_char=141|end_char=143|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=144|end_char=147|NER=O
+27	100	100	NUM	_	NumType=Card	30	nummod	_	start_char=148|end_char=151|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	29	punct	_	start_char=152|end_char=153|SpaceAfter=No|NER=O
+
+# text = 000 banorë brenda një jave , që në Gjermani konsiderohet si kufiri i heqjes së ndonjë vendi nga lista e vendeve të rrezikuara .
+# sent_id = 16
+1	000	000	NUM	_	NumType=Card	30	nummod	_	start_char=0|end_char=3|NER=O
+2	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	23	obj	_	start_char=4|end_char=10|NER=O
+3	brenda	brenda	ADP	_	Case=Abl	33	case	_	start_char=11|end_char=17|NER=O
+4	një	një	DET	_	Definite=Ind	33	det	_	start_char=18|end_char=21|NER=O
+5	jave	javë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	start_char=22|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	35	punct	_	start_char=27|end_char=28|NER=O
+7	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=29|end_char=31|NER=O
+8	në	në	ADP	_	Case=Acc	37	case	_	start_char=32|end_char=34|NER=O
+9	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	38	advmod	_	start_char=35|end_char=43|NER=B-VEND_1
+10	konsiderohet	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	33	acl	_	start_char=44|end_char=56|NER=O
+11	si	si	SCONJ	_	_	40	mark	_	start_char=57|end_char=59|NER=O
+12	kufiri	kufi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	cop	_	start_char=60|end_char=66|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=67|end_char=68|NER=O
+14	heqjes	heqje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=69|end_char=75|NER=O
+15	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	45	det:poss	_	start_char=76|end_char=78|NER=O
+16	ndonjë	ndonjë	PRON	_	Number=Sing|PronType=Ind	45	det	_	start_char=79|end_char=85|NER=O
+17	vendi	vend	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	42	nmod	_	start_char=86|end_char=91|NER=O
+18	nga	nga	ADP	_	Case=Nom	47	case	_	start_char=92|end_char=95|NER=O
+19	lista	listë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	45	nmod	_	start_char=96|end_char=101|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	49	det:poss	_	start_char=102|end_char=103|NER=O
+21	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	47	nmod	_	start_char=104|end_char=111|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	51	det	_	start_char=112|end_char=114|NER=O
+23	rrezikuara	rrezikuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	start_char=115|end_char=125|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	38	punct	_	start_char=126|end_char=127|SpacesAfter=\n|NER=O
+
+# text = Por ndërkohë është futur detyrimi i testit negativ për të gjithë personat që udhëtojnë me avionë në drejtim të Gjermanisë nga vendet e jashtme .
+# sent_id = 17
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=0|end_char=3|NER=O
+2	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	4	advmod	_	start_char=4|end_char=12|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=13|end_char=18|NER=O
+4	futur	fut	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=24|NER=O
+5	detyrimi	detyrim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=25|end_char=33|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=34|end_char=35|NER=O
+7	testit	test	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=36|end_char=42|NER=O
+8	negativ	negat	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=43|end_char=50|NER=O
+9	për	për	ADP	_	Case=Acc	12	case	_	start_char=51|end_char=54|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=55|end_char=57|NER=O
+11	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	12	nummod	_	start_char=58|end_char=64|NER=O
+12	personat	personë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=65|end_char=73|NER=O
+13	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=74|end_char=76|NER=O
+14	udhëtojnë	udhëtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=77|end_char=86|NER=O
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=87|end_char=89|NER=O
+16	avionë	avionë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	start_char=90|end_char=96|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=97|end_char=99|NER=O
+18	drejtim	drejtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=100|end_char=107|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=108|end_char=110|NER=O
+20	Gjermanisë	Gjermani	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=111|end_char=121|NER=B-VEND_1
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=122|end_char=125|NER=O
+22	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	advmod	_	start_char=126|end_char=132|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=133|end_char=134|NER=O
+24	jashtme	jashtëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=135|end_char=142|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	4	punct	_	start_char=143|end_char=144|NER=O
+
+# text = Kjo do të thotë se në avion nuk mund të futet asnjë person që nuk ka një test negativ që nuk është më i vjetër se 48 orë .
+# sent_id = 18
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=4|end_char=6|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=7|end_char=9|NER=O
+4	thotë	them	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+5	se	se	SCONJ	_	_	11	mark	_	start_char=16|end_char=18|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=19|end_char=21|NER=O
+7	avion	avio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=22|end_char=27|NER=O
+8	nuk	nuk	PART	_	_	11	mark	_	start_char=28|end_char=31|NER=O
+9	mund	mund	AUX	_	_	11	aux	_	start_char=32|end_char=36|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=37|end_char=39|NER=O
+11	futet	fut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=40|end_char=45|NER=O
+12	asnjë	asnjë	PRON	_	PronType=Ind	13	nummod	_	start_char=46|end_char=51|NER=O
+13	person	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=52|end_char=58|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=59|end_char=61|NER=O
+15	nuk	nuk	PART	_	_	16	mark	_	start_char=62|end_char=65|NER=O
+16	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=66|end_char=68|NER=O
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=69|end_char=72|NER=O
+18	test	test	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=73|end_char=77|NER=O
+19	negativ	negat	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=78|end_char=85|NER=O
+20	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=86|end_char=88|NER=O
+21	nuk	nuk	PART	_	_	22	mark	_	start_char=89|end_char=92|NER=O
+22	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl	_	start_char=93|end_char=98|NER=O
+23	më	më	PART	_	_	25	mark	_	start_char=99|end_char=101|NER=O
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=102|end_char=103|NER=O
+25	vjetër	vjetër	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	cop	_	start_char=104|end_char=110|NER=O
+26	se	se	SCONJ	_	_	28	mark	_	start_char=111|end_char=113|NER=O
+27	48	48	NUM	_	NumType=Card	28	nummod	_	start_char=114|end_char=116|NER=O
+28	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	advmod	_	start_char=117|end_char=120|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	22	punct	_	start_char=121|end_char=122|SpaceAfter=No|NER=O
+
+# text = / DW
+# sent_id = 19
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	DW	DW	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=4|SpacesAfter=\n|NER=O
+

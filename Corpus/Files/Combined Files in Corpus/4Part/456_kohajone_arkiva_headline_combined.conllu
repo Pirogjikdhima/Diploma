@@ -1,0 +1,339 @@
+# text = Vladimir Putin merr vaksinën Sputnik V kundër covid - 19 Ashtu si krerë të tjerë të lartë në të gjithë botën edhe Presidenti rus Vladimir Putin është vaksinuar kundër Covid - 19 .
+# sent_id = 0
+1	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=8|NER=B-PER
+2	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=14|NER=I-PER
+3	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+4	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=20|end_char=28|NER=O
+5	Sputnik	Sputnik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=29|end_char=36|NER=B-PRO
+6	V	V	SYM	_	_	5	flat	_	start_char=37|end_char=38|NER=I-PRO
+7	kundër	kundër	ADP	_	Case=Abl	8	case	_	start_char=39|end_char=45|NER=O
+8	covid	covid-19	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	11	nummod	_	start_char=46|end_char=51|SpacesAfter=\n|NER=O
+9	-	-	PUNCT	_	_	11	punct	_	start_char=52|end_char=53|SpacesAfter=\n|NER=O
+10	19	19	NUM	_	NumType=Card	11	nummod	_	start_char=54|end_char=56|SpacesAfter=\n|NER=O
+11	Ashtu	ashtu	ADV	_	AdvType=Man	11	mark	_	start_char=57|end_char=62|NER=O
+12	si	si	SCONJ	_	_	11	mark	_	start_char=63|end_char=65|NER=O
+13	krerë	kokë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	start_char=66|end_char=71|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=72|end_char=74|NER=O
+15	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	11	amod	_	start_char=75|end_char=80|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=81|end_char=83|NER=O
+17	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=84|end_char=89|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=90|end_char=92|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=93|end_char=95|NER=O
+20	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	19	nummod	_	start_char=96|end_char=102|NER=O
+21	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=103|end_char=108|NER=O
+22	edhe	edhe	PART	_	_	21	mark	_	start_char=109|end_char=113|NER=O
+23	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=114|end_char=124|NER=O
+24	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=125|end_char=128|NER=O
+25	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=129|end_char=137|NER=B-PER
+26	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=138|end_char=143|NER=I-PER
+27	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=144|end_char=149|NER=O
+28	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	3	conj	_	start_char=150|end_char=159|NER=O
+29	kundër	kundër	ADP	_	Case=Abl	28	case	_	start_char=160|end_char=166|NER=O
+30	Covid	Covid-19	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	start_char=167|end_char=172|SpaceAfter=No|NER=O
+31	-	-	PUNCT	_	_	26	punct	_	start_char=173|end_char=174|SpaceAfter=No|NER=O
+32	19	19	NUM	_	NumType=Card	26	obl	_	start_char=175|end_char=177|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	26	punct	_	start_char=178|end_char=179|SpacesAfter=\n|NER=O
+
+# text = Njoftimi erdhi nëpërmjet një postimi në twitter në profilin zyrtar të kompanisë që ka prodhuar vaksinën ruse Sputnik .
+# sent_id = 1
+1	Njoftimi	njoftim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=0|end_char=8|NER=O
+2	erdhi	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+3	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	5	case	_	start_char=15|end_char=24|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=25|end_char=28|NER=O
+5	postimi	postim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=29|end_char=36|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=37|end_char=39|NER=O
+7	twitter	twitter	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=47|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=48|end_char=50|NER=O
+9	profilin	profil	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=51|end_char=59|NER=O
+10	zyrtar	zyrtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=60|end_char=66|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=67|end_char=69|NER=O
+12	kompanisë	kompani	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=70|end_char=79|NER=O
+13	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=80|end_char=82|NER=O
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=83|end_char=85|NER=O
+15	prodhuar	prodhoj	VERB	_	VerbForm=Part	9	acl	_	start_char=86|end_char=94|NER=O
+16	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=95|end_char=103|NER=O
+17	ruse	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=104|end_char=108|NER=O
+18	Sputnik	Sputnik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	start_char=109|end_char=116|SpaceAfter=No|NER=B-PRO
+19	.	.	PUNCT	_	_	15	punct	_	start_char=117|end_char=118|SpacesAfter=\n|NER=O
+
+# text = Postimi shoqërohet me një foto të Presidentit Putin duke buzëqeshur me krahët e ngritur për fitore .
+# sent_id = 2
+1	Postimi	postim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	shoqërohet	shoqëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=8|end_char=18|NER=O
+3	me	me	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=22|end_char=25|NER=O
+5	foto	foto	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=26|end_char=30|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=31|end_char=33|NER=O
+7	Presidentit	president	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=34|end_char=45|NER=O
+8	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=46|end_char=51|NER=B-PER
+9	duke	duke	PART	_	_	10	fixed	_	start_char=52|end_char=56|NER=O
+10	buzëqeshur	buzëqem	VERB	_	VerbForm=Part	2	advmod	_	start_char=57|end_char=67|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=68|end_char=70|NER=O
+12	krahët	krah	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	obl	_	start_char=71|end_char=77|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=78|end_char=79|NER=O
+14	ngritur	ngre	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=80|end_char=87|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=88|end_char=91|NER=O
+16	fitore	fitor	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	advmod	_	start_char=92|end_char=98|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	2	punct	_	start_char=99|end_char=100|SpacesAfter=\n|NER=O
+
+# text = Lajmi u raportua gjithashtu nga agjencia Interfax , e cila citoi zëdhënësin e Kremlinit , Dmitri Peskov .
+# sent_id = 3
+1	Lajmi	Lajm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=6|end_char=7|NER=O
+3	raportua	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=8|end_char=16|NER=O
+4	gjithashtu	gjithashtu	ADV	_	AdvType=Man	3	advmod	_	start_char=17|end_char=27|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=28|end_char=31|NER=O
+6	agjencia	agjenci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=32|end_char=40|NER=O
+7	Interfax	Interfax	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=41|end_char=49|SpaceAfter=No|NER=B-ORG
+8	,	,	PUNCT	_	_	10	punct	_	start_char=50|end_char=51|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=52|end_char=53|NER=O
+10	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	start_char=54|end_char=58|NER=O
+11	citoi	citoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl	_	start_char=59|end_char=64|NER=O
+12	zëdhënësin	zëdhënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=65|end_char=75|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=76|end_char=77|NER=O
+14	Kremlinit	Kremlin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=78|end_char=87|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=88|end_char=89|NER=O
+16	Dmitri	Dmitri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=90|end_char=96|NER=B-PER
+17	Peskov	peskov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=97|end_char=103|SpaceAfter=No|NER=I-PER
+18	.	.	PUNCT	_	_	11	punct	_	start_char=104|end_char=105|NER=O
+
+# text = " Putin ndihet mirë .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=7|NER=B-PER
+3	ndihet	ndjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=8|end_char=14|NER=O
+4	mirë	mirë	ADV	_	AdvType=Man	3	advmod	_	start_char=15|end_char=19|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	3	punct	_	start_char=20|end_char=21|NER=O
+
+# text = Ai ka një ditë pune të plotë nesër , " tha Peskov .
+# sent_id = 5
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=5|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=6|end_char=9|NER=O
+4	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=10|end_char=14|NER=O
+5	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=15|end_char=19|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=20|end_char=22|NER=O
+7	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=23|end_char=28|NER=O
+8	nesër	nesër	ADV	_	AdvType=Tim	11	advmod	_	start_char=29|end_char=34|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=35|end_char=36|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=37|end_char=38|NER=O
+11	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=39|end_char=42|NER=O
+12	Peskov	peskov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=43|end_char=49|SpaceAfter=No|NER=B-PER
+13	.	.	PUNCT	_	_	11	punct	_	start_char=50|end_char=51|SpacesAfter=\n|NER=O
+
+# text = Më herët edhe udhëheqës të tjerë si presidenti I SHBA Joe Biden janë vaksinuar kundër koronavirusit .
+# sent_id = 6
+1	Më	më	PART	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	herët	herët	ADV	_	AdvType=Tim	14	advmod	_	start_char=3|end_char=8|NER=O
+3	edhe	edhe	PART	_	_	4	cc	_	start_char=9|end_char=13|NER=O
+4	udhëheqës	udhëheqës	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	start_char=14|end_char=23|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	4	amod	_	start_char=27|end_char=32|NER=O
+7	si	si	SCONJ	_	_	8	mark	_	start_char=33|end_char=35|NER=O
+8	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=36|end_char=46|NER=O
+9	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=47|end_char=48|NER=O
+10	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=49|end_char=53|NER=B-VEND_1
+11	Joe	Joe	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=54|end_char=57|NER=B-PER
+12	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=58|end_char=63|NER=I-PER
+13	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=64|end_char=68|NER=O
+14	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	0	root	_	start_char=69|end_char=78|NER=O
+15	kundër	kundër	ADP	_	Case=Abl	16	case	_	start_char=79|end_char=85|NER=O
+16	koronavirusit	koronavirus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	start_char=86|end_char=99|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	14	punct	_	start_char=100|end_char=101|SpacesAfter=\n|NER=O
+
+# text = Ai mori dy doza të vaksinës Pfizer / BioNTech një një dhjetor dhe tjetrën në janar , ndërsa e gjithë procedura e bë edhe publike nëpërmjet një videoje .
+# sent_id = 7
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=7|NER=O
+3	dy	dy	NUM	_	NumType=Card	4	nummod	_	start_char=8|end_char=10|NER=O
+4	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=11|end_char=15|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=16|end_char=18|NER=O
+6	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=19|end_char=27|NER=O
+7	Pfizer	Pfizer	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	start_char=28|end_char=34|SpaceAfter=No|NER=B-PRO
+8	/	/	PUNCT	_	_	6	punct	_	start_char=35|end_char=36|NER=O
+9	BioNTech	BioNTech	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=37|end_char=45|NER=B-ORG
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=46|end_char=49|NER=O
+11	një	një	DET	_	Definite=Ind	11	det	_	start_char=50|end_char=53|NER=O
+12	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=54|end_char=61|NER=O
+13	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=62|end_char=65|NER=O
+14	tjetrën	tjetrë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	11	conj	_	start_char=66|end_char=73|NER=O
+15	në	në	ADP	_	Case=Acc	15	case	_	start_char=74|end_char=76|NER=O
+16	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=77|end_char=82|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84|NER=O
+18	ndërsa	ndërsa	CCONJ	_	_	22	cc	_	start_char=85|end_char=91|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=92|end_char=93|NER=O
+20	gjithë	gjithë	PRON	_	PronType=Ind	20	det	_	start_char=94|end_char=100|NER=O
+21	procedura	procedurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	start_char=101|end_char=110|NER=O
+22	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=111|end_char=112|NER=O
+23	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=113|end_char=115|NER=O
+24	edhe	edhe	PART	_	_	24	mark	_	start_char=116|end_char=120|NER=O
+25	publike	publik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	cop	_	start_char=121|end_char=128|NER=O
+26	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	27	case	_	start_char=129|end_char=138|NER=O
+27	një	një	DET	_	Definite=Ind	27	det	_	start_char=139|end_char=142|NER=O
+28	videoje	videoj	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	22	advmod	_	start_char=143|end_char=150|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	22	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+
+# text = Pas tij edhe zv .
+# sent_id = 8
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=4|end_char=7|NER=O
+3	edhe	edhe	PART	_	_	4	cc	_	start_char=8|end_char=12|NER=O
+4	zv	zv	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=13|end_char=15|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+
+# text = presidentja Kamala Harris dhe të tjerë zyrtarë të lartë amerikanë .
+# sent_id = 9
+1	presidentja	presidentje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=11|NER=O
+2	Kamala	Kamalë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=12|end_char=18|NER=B-PER
+3	Harris	Harri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=19|end_char=25|NER=I-PER
+4	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=26|end_char=29|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=30|end_char=32|NER=O
+6	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	3	conj	_	start_char=33|end_char=38|NER=O
+7	zyrtarë	zyrtarë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	start_char=39|end_char=46|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=47|end_char=49|NER=O
+9	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=50|end_char=55|NER=O
+10	amerikanë	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=56|end_char=65|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	1	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Mes udhëheqësve të vaksinuar janë edhe kryeministri I Indisë , Narendra Modi , kryeministri I Izraelit , Benjamin Netanyahu , ai i Hungarisë Viktor Orbán , britaniku Boris Johnson , presidenti I Turqisë Recep Tayyip Erdogan etj .
+# sent_id = 10
+1	Mes	mes	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	udhëheqësve	udhëheqë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	5	advmod	_	start_char=4|end_char=15|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=16|end_char=18|NER=O
+4	vaksinuar	vaksinuar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=19|end_char=28|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=33|NER=O
+6	edhe	edhe	PART	_	_	7	mark:emph	_	start_char=34|end_char=38|NER=O
+7	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	cop	_	start_char=39|end_char=51|NER=O
+8	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=52|end_char=53|NER=O
+9	Indisë	Indi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=54|end_char=60|SpaceAfter=No|NER=B-VEND_1
+10	,	,	PUNCT	_	_	11	punct	_	start_char=61|end_char=62|NER=O
+11	Narendra	Narendër	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=63|end_char=71|NER=B-PER
+12	Modi	Modi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=72|end_char=76|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|NER=O
+14	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=79|end_char=91|NER=O
+15	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=92|end_char=93|NER=O
+16	Izraelit	Izrael	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=94|end_char=102|SpaceAfter=No|NER=B-VEND_1
+17	,	,	PUNCT	_	_	18	punct	_	start_char=103|end_char=104|NER=O
+18	Benjamin	Benjam	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	list	_	start_char=105|end_char=113|NER=B-PER
+19	Netanyahu	Netanyah	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=114|end_char=123|SpaceAfter=No|NER=I-PER
+20	,	,	PUNCT	_	_	21	punct	_	start_char=124|end_char=125|NER=O
+21	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	list	_	start_char=126|end_char=128|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=129|end_char=130|NER=O
+23	Hungarisë	Hungari	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=131|end_char=140|NER=B-VEND_1
+24	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	flat	_	start_char=141|end_char=147|NER=B-PER
+25	Orbán	Orbán	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	flat	_	start_char=148|end_char=153|SpaceAfter=No|NER=I-PER
+26	,	,	PUNCT	_	_	27	punct	_	start_char=154|end_char=155|NER=O
+27	britaniku	britanik	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	list	_	start_char=156|end_char=165|NER=O
+28	Boris	Bori	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=166|end_char=171|NER=B-PER
+29	Johnson	Johnso	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	27	flat	_	start_char=172|end_char=179|SpaceAfter=No|NER=I-PER
+30	,	,	PUNCT	_	_	31	punct	_	start_char=180|end_char=181|NER=O
+31	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	list	_	start_char=182|end_char=192|NER=O
+32	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=193|end_char=194|NER=O
+33	Turqisë	Turqi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=195|end_char=202|NER=B-VEND_1
+34	Recep	Recep	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	flat	_	start_char=203|end_char=208|NER=B-PER
+35	Tayyip	Tayyip	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	flat	_	start_char=209|end_char=215|NER=I-PER
+36	Erdogan	Erdogan	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	35	flat	_	start_char=216|end_char=223|NER=I-PER
+37	etj	etj.	X	_	Abbr=Yes	35	flat	_	start_char=224|end_char=227|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	5	punct	_	start_char=228|end_char=229|SpacesAfter=\n|NER=O
+
+# text = Ndryshe nga liderët e tjerë botërore , kancelarja gjermane , Angela Merkel , nuk është vaksinuar ende ndaj koronavirusit .
+# sent_id = 11
+1	Ndryshe	ndryshe	ADV	_	AdvType=Man	16	advmod	_	start_char=0|end_char=7|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=8|end_char=11|NER=O
+3	liderët	lider	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	advmod	_	start_char=12|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	3	amod	_	start_char=22|end_char=27|NER=O
+6	botërore	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=28|end_char=36|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=37|end_char=38|NER=O
+8	kancelarja	kancelarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=39|end_char=49|NER=O
+9	gjermane	gjerman	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=50|end_char=58|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=59|end_char=60|NER=O
+11	Angela	Angelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	list	_	start_char=61|end_char=67|NER=B-PER
+12	Merkel	Merkel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=68|end_char=74|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	11	punct	_	start_char=75|end_char=76|NER=O
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=77|end_char=80|NER=O
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=81|end_char=86|NER=O
+16	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	0	root	_	start_char=87|end_char=96|NER=O
+17	ende	ende	ADV	_	AdvType=Tim	16	advmod	_	start_char=97|end_char=101|NER=O
+18	ndaj	ndaj	ADP	_	Case=Abl	19	case	_	start_char=102|end_char=106|NER=O
+19	koronavirusit	koronavirus	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	start_char=107|end_char=120|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	16	punct	_	start_char=121|end_char=122|SpacesAfter=\n|NER=O
+
+# text = Gjatë një interviste për një gazetë gjermane , Merkel tha se asaj nuk i lejohet të marrë vaksinën e , për shkak se vaksina në fjalë nuk është aprovuar për personat mbi 65 vjeç .
+# sent_id = 12
+1	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=6|end_char=9|NER=O
+3	interviste	intervist	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=10|end_char=20|NER=O
+4	për	për	ADP	_	Case=Acc	6	case	_	start_char=21|end_char=24|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=25|end_char=28|NER=O
+6	gazetë	gazetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=29|end_char=35|NER=O
+7	gjermane	gjerman	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=36|end_char=44|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	3	punct	_	start_char=45|end_char=46|NER=O
+9	Merkel	Merkel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=47|end_char=53|NER=B-PER
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=54|end_char=57|NER=O
+11	se	se	SCONJ	_	_	15	mark	_	start_char=58|end_char=60|NER=O
+12	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=61|end_char=65|NER=O
+13	nuk	nuk	PART	_	_	15	mark	_	start_char=66|end_char=69|NER=O
+14	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	start_char=70|end_char=71|NER=O
+15	lejohet	lejoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	advcl	_	start_char=72|end_char=79|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=80|end_char=82|NER=O
+17	marrë	marr	VERB	_	VerbForm=Part	15	ccomp	_	start_char=83|end_char=88|NER=O
+18	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=89|end_char=97|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=98|end_char=99|NER=O
+20	,	,	PUNCT	_	_	25	punct	_	start_char=100|end_char=101|NER=O
+21	për	për	ADP	_	Case=Acc	24	fixed	_	start_char=102|end_char=105|NER=O
+22	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	fixed	_	start_char=106|end_char=111|NER=O
+23	se	se	SCONJ	_	_	31	mark	_	start_char=112|end_char=114|NER=O
+24	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nsubj	_	start_char=115|end_char=122|NER=O
+25	në	në	ADP	_	Case=Acc	28	case	_	start_char=123|end_char=125|NER=O
+26	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	advmod	_	start_char=126|end_char=131|NER=O
+27	nuk	nuk	PART	_	_	31	mark	_	start_char=132|end_char=135|NER=O
+28	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=136|end_char=141|NER=O
+29	aprovuar	aprovoj	VERB	_	VerbForm=Part	17	conj	_	start_char=142|end_char=150|NER=O
+30	për	për	ADP	_	Case=Acc	33	case	_	start_char=151|end_char=154|NER=O
+31	personat	personë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	31	obl	_	start_char=155|end_char=163|NER=O
+32	mbi	mbi	ADP	_	Case=Acc	36	case	_	start_char=164|end_char=167|NER=O
+33	65	65	NUM	_	NumType=Card	36	nummod	_	start_char=168|end_char=170|NER=O
+34	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	31	obl	_	start_char=171|end_char=175|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	31	punct	_	start_char=176|end_char=177|SpacesAfter=\n|NER=O
+
+# text = Procesi i vaksinimit në të gjithë botën po vijon gradualisht .
+# sent_id = 13
+1	Procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	vaksinimit	vaksinim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=20|NER=O
+4	në	në	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=23|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	start_char=27|end_char=33|NER=O
+7	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=34|end_char=39|NER=O
+8	po	po	PART	_	_	9	mark	_	start_char=40|end_char=42|NER=O
+9	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=48|NER=O
+10	gradualisht	gradualisht	ADV	_	AdvType=Man	9	advmod	_	start_char=49|end_char=60|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	9	punct	_	start_char=61|end_char=62|NER=O
+
+# text = Izraeli , Emiratet e Bashkuara Arabe dhe Bahrejni janë vendet që kanë vaksinuar një pjesë më të madhe të popullsisë së tyre .
+# sent_id = 14
+1	Izraeli	Izrael	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-VEND_1
+2	,	,	PUNCT	_	_	3	punct	_	start_char=8|end_char=9|NER=O
+3	Emiratet	emirat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	start_char=10|end_char=18|NER=B-VEND_1
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=19|end_char=20|NER=I-VEND_1
+5	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=21|end_char=30|NER=I-VEND_1
+6	Arabe	Arab	PROPN	_	Case=Nom|Foreign=Yes	3	nmod	_	start_char=31|end_char=36|NER=I-VEND_1
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=37|end_char=40|NER=O
+8	Bahrejni	Bahrejn	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	start_char=41|end_char=49|NER=B-VEND_1
+9	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=50|end_char=54|NER=O
+10	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	cop	_	start_char=55|end_char=61|NER=O
+11	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=62|end_char=64|NER=O
+12	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=65|end_char=69|NER=O
+13	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	10	acl	_	start_char=70|end_char=79|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=80|end_char=83|NER=O
+15	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=84|end_char=89|NER=O
+16	më	më	PART	_	_	18	mark	_	start_char=90|end_char=92|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=93|end_char=95|NER=O
+18	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=96|end_char=101|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=102|end_char=104|NER=O
+20	popullsisë	popullsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=105|end_char=115|NER=O
+21	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=116|end_char=118|NER=O
+22	tyre	tyre	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	amod:poss	_	start_char=119|end_char=123|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	9	punct	_	start_char=124|end_char=125|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,119 @@
+# text = Kryetari i Komunitetit Mysliman Shqiptar , Bujar Spahiu ka uruar besimtarët myslimane për nisjen e muajit të Ramazanit më 23 mars .
+# sent_id = 0
+1	Kryetari	Kryetar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	list	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=9|end_char=10|NER=O
+3	Komunitetit	Komunitet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	compound	_	start_char=11|end_char=22|NER=O
+4	Mysliman	myslimë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=23|end_char=31|NER=O
+5	Shqiptar	Shqiptar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=32|end_char=40|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	20	punct	_	start_char=41|end_char=42|NER=O
+7	Bujar	Bujar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	list	_	start_char=43|end_char=48|NER=B-PER
+8	Spahiu	Spahi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=49|end_char=55|NER=I-PER
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=56|end_char=58|NER=O
+10	uruar	uroj	VERB	_	VerbForm=Part	0	root	_	start_char=59|end_char=64|NER=O
+11	besimtarët	besimtar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	23	obj	_	start_char=65|end_char=75|NER=O
+12	myslimane	mysliman	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=76|end_char=85|NER=O
+13	për	për	ADP	_	Case=Acc	27	case	_	start_char=86|end_char=89|NER=O
+14	nisjen	nisje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=90|end_char=96|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=97|end_char=98|NER=O
+16	muajit	muaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=99|end_char=105|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=106|end_char=108|NER=O
+18	Ramazanit	Ramazan	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=109|end_char=118|NER=O
+19	më	më	ADP	_	Case=Acc	34	case	_	start_char=119|end_char=121|NER=O
+20	23	23	NUM	_	NumType=Card	34	nummod	_	start_char=122|end_char=124|NER=B-DATE_0
+21	mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=125|end_char=129|SpaceAfter=No|NER=I-DATE_0
+22	.	.	PUNCT	_	_	23	punct	_	start_char=130|end_char=131|NER=O
+
+# text = Në urimin e tij , Spahiu tha se ky muaj është i begatisë dhe mirëkuptimit me njëri - tjetrin .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	urimin	urim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=12|end_char=15|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+6	Spahiu	Spahi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=18|end_char=24|NER=B-PER
+7	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=25|end_char=28|NER=O
+8	se	se	SCONJ	_	_	11	mark	_	start_char=29|end_char=31|NER=O
+9	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=32|end_char=34|NER=O
+10	muaj	muaj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=35|end_char=39|NER=O
+11	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	start_char=40|end_char=45|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=46|end_char=47|NER=O
+13	begatisë	begati	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	cop	_	start_char=48|end_char=56|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=57|end_char=60|NER=O
+15	mirëkuptimit	mirëkuptim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	start_char=61|end_char=73|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=74|end_char=76|NER=O
+17	njëri	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	15	nmod	_	start_char=77|end_char=82|SpaceAfter=No|NER=O
+18	-	-	PUNCT	_	_	15	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+19	tjetrin	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	15	nmod	_	start_char=85|end_char=92|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	11	punct	_	start_char=93|end_char=94|SpacesAfter=\n|NER=O
+
+# text = Teksa bën thirrje që të lihen mënjanë mospajtimet dhe egoizmin , kreu i Komunitetit Mysliman Shqiptar , Bujar Spahiu tha se gjatë Ramazanit besimtarët duhet të jenë më solidarë me familjet në nevojë , t ' i shtrijmë dorën njëri - tjetrit në punë të mira .
+# sent_id = 2
+1	Teksa	teksa	SCONJ	_	_	2	mark	_	start_char=0|end_char=5|NER=O
+2	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=6|end_char=9|NER=O
+3	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=10|end_char=17|NER=O
+4	që	që	SCONJ	_	_	6	mark	_	start_char=18|end_char=20|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+6	lihen	lihej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	acl	_	start_char=24|end_char=29|NER=O
+7	mënjanë	mënjanë	ADV	_	AdvType=Man	6	advmod	_	start_char=30|end_char=37|NER=O
+8	mospajtimet	mospajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=38|end_char=49|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=50|end_char=53|NER=O
+10	egoizmin	egoizm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=54|end_char=62|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=63|end_char=64|NER=O
+12	kreu	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	start_char=65|end_char=69|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=70|end_char=71|NER=O
+14	Komunitetit	Komunitet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=72|end_char=83|NER=O
+15	Mysliman	myslimë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat	_	start_char=84|end_char=92|NER=O
+16	Shqiptar	Shqiptar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	flat	_	start_char=93|end_char=101|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=102|end_char=103|NER=O
+18	Bujar	Bujar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	list	_	start_char=104|end_char=109|NER=B-PER
+19	Spahiu	Spahi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=110|end_char=116|NER=I-PER
+20	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=117|end_char=120|NER=O
+21	se	se	SCONJ	_	_	27	mark	_	start_char=121|end_char=123|NER=O
+22	gjatë	gjatë	ADP	_	Case=Abl	23	case	_	start_char=124|end_char=129|NER=O
+23	Ramazanit	Ramazan	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	advmod	_	start_char=130|end_char=139|NER=O
+24	besimtarët	besimtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	start_char=140|end_char=150|NER=O
+25	duhet	duhem	AUX	_	_	27	aux	_	start_char=151|end_char=156|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=157|end_char=159|NER=O
+27	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	conj	_	start_char=160|end_char=164|NER=O
+28	më	më	PART	_	_	29	mark	_	start_char=165|end_char=167|NER=O
+29	solidarë	solidarë	ADV	_	AdvType=Man	27	advmod	_	start_char=168|end_char=176|NER=O
+30	me	me	ADP	_	Case=Acc	31	case	_	start_char=177|end_char=179|NER=O
+31	familjet	familje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obl	_	start_char=180|end_char=188|NER=O
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=189|end_char=191|NER=O
+33	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	nmod	_	start_char=192|end_char=198|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	36	punct	_	start_char=199|end_char=200|NER=O
+35	t	t'i	PRON	_	Case=Nom|Number=Sing|PronType=Prs	36	nsubj	_	start_char=201|end_char=202|NER=O
+36	'	'	PUNCT	_	_	36	punct	_	start_char=203|end_char=204|NER=O
+37	i	t'i	PRON	_	Case=Nom|Number=Sing|PronType=Prs	36	nsubj	_	start_char=205|end_char=206|NER=O
+38	shtrijmë	shtrij	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	27	advcl	_	start_char=207|end_char=215|NER=O
+39	dorën	dorë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	obj	_	start_char=216|end_char=221|NER=O
+40	njëri	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	37	nmod	_	start_char=222|end_char=227|NER=O
+41	-	-	PUNCT	_	_	37	punct	_	start_char=228|end_char=229|NER=O
+42	tjetrit	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	37	nmod	_	start_char=230|end_char=237|NER=O
+43	në	në	ADP	_	Case=Acc	40	case	_	start_char=238|end_char=240|NER=O
+44	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	advmod	_	start_char=241|end_char=245|NER=O
+45	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	42	det	_	start_char=246|end_char=248|NER=O
+46	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=249|end_char=253|SpaceAfter=No|NER=O
+47	.	.	PUNCT	_	_	36	punct	_	start_char=254|end_char=255|SpacesAfter=\n|NER=O
+
+# text = muaji i Ramazanit nis të enjten më 23 mars dhe shënon muajin e nëntë në kalendarin Islam .
+# sent_id = 3
+1	muaji	muaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	cop	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=6|end_char=7|NER=O
+3	Ramazanit	Ramazan	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=8|end_char=17|NER=O
+4	nis	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=21|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=24|NER=B-DATE_1
+6	enjten	enjten	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=25|end_char=31|NER=I-DATE_1
+7	më	më	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=34|NER=O
+8	23	23	NUM	_	NumType=Card	9	nummod	_	start_char=35|end_char=37|NER=B-DATE_0
+9	mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=38|end_char=42|NER=I-DATE_0
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=43|end_char=46|NER=O
+11	shënon	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=47|end_char=53|NER=O
+12	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=54|end_char=60|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=61|end_char=62|NER=O
+14	nëntë	nëntë	NUM	_	NumType=Card	12	amod	_	start_char=63|end_char=68|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=69|end_char=71|NER=O
+16	kalendarin	kalendar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=72|end_char=82|NER=O
+17	Islam	Islam	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=83|end_char=88|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	11	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+

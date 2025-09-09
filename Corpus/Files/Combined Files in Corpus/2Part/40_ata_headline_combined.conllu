@@ -1,0 +1,100 @@
+# text = Euro feston 25 vjetorin e saj në fund të vitit .
+# sent_id = 0
+1	Euro	euro	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=0|end_char=4|NER=O
+2	feston	festoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=11|NER=O
+3	25	25	NUM	_	NumType=Card	4	nummod	_	start_char=12|end_char=14|NER=O
+4	vjetorin	vjetor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=15|end_char=23|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=24|end_char=25|NER=O
+6	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	amod:poss	_	start_char=26|end_char=29|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=30|end_char=32|NER=O
+8	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=33|end_char=37|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=38|end_char=40|NER=O
+10	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=41|end_char=46|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	2	punct	_	start_char=47|end_char=48|NER=O
+
+# text = Ajo u bë kurs ligjor për 11 nga 15 shtetet e atëhershme anëtare të Bashkimit Evropian më 1 janar 1999 , fillimisht në mënyrë elektronike , më pas si monedhë në 2002 .
+# sent_id = 1
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=4|end_char=5|NER=O
+3	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=6|end_char=8|NER=O
+4	kurs	kurs	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=9|end_char=13|NER=O
+5	ligjor	ligjor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=14|end_char=20|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=24|NER=O
+7	11	11	NUM	_	NumType=Card	10	nummod	_	start_char=25|end_char=27|NER=O
+8	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=28|end_char=31|NER=O
+9	15	15	NUM	_	NumType=Card	10	nummod	_	start_char=32|end_char=34|NER=O
+10	shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=35|end_char=42|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=43|end_char=44|NER=O
+12	atëhershme	atëhershëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=45|end_char=55|NER=O
+13	anëtare	anëtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=56|end_char=63|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=64|end_char=66|NER=O
+15	Bashkimit	bashkim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=67|end_char=76|NER=B-ORG
+16	Evropian	evropian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=77|end_char=85|NER=I-ORG
+17	më	më	ADP	_	Case=Acc	19	case	_	start_char=86|end_char=88|NER=O
+18	1	1	NUM	_	NumType=Card	19	nummod	_	start_char=89|end_char=90|NER=B-DATE_0
+19	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=91|end_char=96|NER=I-DATE_0
+20	1999	1999	NUM	_	NumType=Card	19	amod:nummod	_	start_char=97|end_char=101|SpaceAfter=No|NER=I-DATE_0
+21	,	,	PUNCT	_	_	22	punct	_	start_char=102|end_char=103|NER=O
+22	fillimisht	fillimisht	ADV	_	AdvType=Man	24	mark	_	start_char=104|end_char=114|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=115|end_char=117|NER=O
+24	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=118|end_char=124|NER=O
+25	elektronike	elektronik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=125|end_char=136|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	28	punct	_	start_char=137|end_char=138|NER=O
+27	më	më	PART	_	_	28	mark	_	start_char=139|end_char=141|NER=O
+28	pas	pas	ADV	_	AdvType=Tim	30	advmod	_	start_char=142|end_char=145|NER=O
+29	si	si	SCONJ	_	_	30	mark	_	start_char=146|end_char=148|NER=O
+30	monedhë	monedhë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	24	nmod	_	start_char=149|end_char=156|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=157|end_char=159|NER=B-DATE_0
+32	2002	2002	NUM	_	NumType=Card	30	advmod	_	start_char=160|end_char=164|SpaceAfter=No|NER=I-DATE_0
+33	.	.	PUNCT	_	_	3	punct	_	start_char=165|end_char=166|SpacesAfter=\n|NER=O
+
+# text = Pas punës për teknologjinë dhe mbrojtjen e të dhënave , BQE nisi një fazë përgatitore dy - vjeçare më 1 nëntor , në të cilën do të finalizohen rregullat dhe rregulloret për euron dixhitale .
+# sent_id = 2
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	punës	punë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=4|end_char=9|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=13|NER=O
+4	teknologjinë	teknologji	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=14|end_char=26|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=27|end_char=30|NER=O
+6	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=31|end_char=40|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=41|end_char=42|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=43|end_char=45|NER=O
+9	dhënave	dhënë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=46|end_char=53|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	2	punct	_	start_char=54|end_char=55|NER=O
+11	BQE	BQE	PROPN	_	Foreign=Yes	12	nsubj	_	start_char=56|end_char=59|NER=B-ORG
+12	nisi	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=60|end_char=64|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=65|end_char=68|NER=O
+14	fazë	fazë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=69|end_char=73|NER=O
+15	përgatitore	përgatitor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=74|end_char=85|NER=O
+16	dy	dy-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=86|end_char=88|NER=O
+17	-	-	PUNCT	_	_	14	punct	_	start_char=89|end_char=90|NER=O
+18	vjeçare	dy-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=91|end_char=98|NER=O
+19	më	më	ADP	_	Case=Acc	19	case	_	start_char=99|end_char=101|NER=O
+20	1	1	NUM	_	NumType=Card	19	nummod	_	start_char=102|end_char=103|NER=B-DATE_0
+21	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=104|end_char=110|SpaceAfter=No|NER=I-DATE_0
+22	,	,	PUNCT	_	_	23	punct	_	start_char=111|end_char=112|NER=O
+23	në	në	ADP	_	Case=Acc	23	case	_	start_char=113|end_char=115|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=116|end_char=118|NER=O
+25	cilën	cila	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	26	obl	_	start_char=119|end_char=124|NER=O
+26	do	do	PART	_	_	26	fixed	_	start_char=125|end_char=127|NER=O
+27	të	të	PART	_	_	26	fixed	_	start_char=128|end_char=130|NER=O
+28	finalizohen	finalizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	14	acl:relcl	_	start_char=131|end_char=142|NER=O
+29	rregullat	rregullë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	26	obj	_	start_char=143|end_char=152|NER=O
+30	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=153|end_char=156|NER=O
+31	rregulloret	rregullor	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	27	conj	_	start_char=157|end_char=168|NER=O
+32	për	për	ADP	_	Case=Acc	31	case	_	start_char=169|end_char=172|NER=O
+33	euron	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=173|end_char=178|NER=O
+34	dixhitale	dixhital	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=179|end_char=188|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	26	punct	_	start_char=189|end_char=190|SpaceAfter=No|NER=O
+
+# text = / / a .
+# sent_id = 3
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	/	/	PUNCT	_	_	0	punct	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	a	a	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	0	punct	_	start_char=6|end_char=7|SpaceAfter=No|NER=O
+
+# text = i /
+# sent_id = 4
+1	i	i	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	/	/	PUNCT	_	_	1	punct	_	start_char=2|end_char=3|SpacesAfter=\n\n\n|NER=O
+

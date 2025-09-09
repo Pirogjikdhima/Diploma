@@ -1,0 +1,113 @@
+# text = 23 / 08 / 2023 Iljaz Basha është njëri nga banorët e fshatit Shtiqen , që ka në pronësi një stan .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	5	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	9	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	7	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Iljaz	Iljaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=15|end_char=20|NER=B-PER
+7	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=21|end_char=26|NER=I-PER
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=32|NER=O
+9	njëri	njëri	ADV	_	AdvType=Man	3	advmod	_	start_char=33|end_char=38|NER=O
+10	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=39|end_char=42|NER=O
+11	banorët	banor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	advmod	_	start_char=43|end_char=50|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=51|end_char=52|NER=O
+13	fshatit	fshat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=53|end_char=60|NER=O
+14	Shtiqen	Shtiqe	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=61|end_char=68|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	11	punct	_	start_char=69|end_char=70|NER=O
+16	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=71|end_char=73|NER=O
+17	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl	_	start_char=74|end_char=76|NER=O
+18	në	në	ADP	_	Case=Acc	14	case	_	start_char=77|end_char=79|NER=O
+19	pronësi	pronës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=80|end_char=87|NER=O
+20	një	një	DET	_	Definite=Ind	16	det	_	start_char=88|end_char=91|NER=O
+21	stan	stan	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=92|end_char=96|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	3	punct	_	start_char=97|end_char=98|SpacesAfter=\n|NER=O
+
+# text = " Këtë e bëj që fëmijë , që nga koha e monizmit deri në këtë moshë .
+# sent_id = 1
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	start_char=2|end_char=6|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=7|end_char=8|NER=O
+4	bëj	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=12|NER=O
+5	që	që	SCONJ	_	_	6	mark	_	start_char=13|end_char=15|NER=O
+6	fëmijë	fëmijë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=16|end_char=22|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=23|end_char=24|NER=O
+8	që	që	PART	_	_	10	mark	_	start_char=25|end_char=27|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=28|end_char=31|NER=O
+10	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=32|end_char=36|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=37|end_char=38|NER=O
+12	monizmit	monizm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=39|end_char=47|NER=O
+13	deri	deri	ADP	_	Case=Acc	16	case	_	start_char=48|end_char=52|NER=O
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=53|end_char=55|NER=O
+15	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=56|end_char=60|NER=O
+16	moshë	moshë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=61|end_char=66|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	4	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Vit për vit kemi pasur blegtori , " thotë Basha .
+# sent_id = 2
+1	Vit	ait	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=0|end_char=3|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=4|end_char=7|NER=O
+3	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=11|NER=O
+4	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	start_char=12|end_char=16|NER=O
+5	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=22|NER=O
+6	blegtori	blegtor	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=23|end_char=31|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=32|end_char=33|SpaceAfter=No|NER=O
+8	"	"	PUNCT	_	_	9	punct	_	start_char=34|end_char=35|NER=O
+9	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=36|end_char=41|NER=O
+10	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=42|end_char=47|SpaceAfter=No|NER=B-PER
+11	.	.	PUNCT	_	_	9	punct	_	start_char=48|end_char=49|SpacesAfter=\n|NER=O
+
+# text = Iljazi tregon se fëmijët që i ka në emigracion e kanë nxitur ta restaurojnë stanin .
+# sent_id = 3
+1	Iljazi	Iljaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	se	se	SCONJ	_	_	7	mark	_	start_char=14|end_char=16|NER=O
+4	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=17|end_char=24|NER=O
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=25|end_char=27|NER=O
+6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	start_char=28|end_char=29|NER=O
+7	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=30|end_char=32|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=33|end_char=35|NER=O
+9	emigracion	emigracion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=36|end_char=46|NER=O
+10	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	cc	_	start_char=47|end_char=48|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=49|end_char=53|NER=O
+12	nxitur	nxitoj	VERB	_	VerbForm=Part	7	conj	_	start_char=54|end_char=60|NER=O
+13	ta	_	_	_	_	_	_	_	start_char=61|end_char=63|NER=O
+14	restaurojnë	restauroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=64|end_char=75|NER=O
+15	stanin	stan	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=76|end_char=82|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=83|end_char=84|SpacesAfter=\n|NER=O
+
+# text = " Është mirë edhe për turistët e huaj .
+# sent_id = 4
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=7|NER=O
+3	mirë	mirë	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=12|NER=O
+4	edhe	edhe	PART	_	_	6	advmod:emph	_	start_char=13|end_char=17|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=18|end_char=21|NER=O
+6	turistët	turist	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	obl	_	start_char=22|end_char=30|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=31|end_char=32|NER=O
+8	huaj	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=33|end_char=37|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|NER=O
+
+# text = Vetëm më punë të tilla do kishte zhvillim , " shprehet Basha .
+# sent_id = 5
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	më	më	PART	_	_	3	mark	_	start_char=6|end_char=8|NER=O
+3	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=9|end_char=13|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=16|NER=O
+5	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	3	amod	_	start_char=17|end_char=22|NER=O
+6	do	do	PART	_	_	7	fixed	_	start_char=23|end_char=25|NER=O
+7	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=26|end_char=32|NER=O
+8	zhvillim	zhvillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=33|end_char=41|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=44|end_char=45|NER=O
+11	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	conj	_	start_char=46|end_char=54|NER=O
+12	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=55|end_char=60|SpaceAfter=No|NER=B-PER
+13	.	.	PUNCT	_	_	7	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = Gazetar : Marjo Merhori
+# sent_id = 6
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Marjo	Marjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Merhori	merhor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

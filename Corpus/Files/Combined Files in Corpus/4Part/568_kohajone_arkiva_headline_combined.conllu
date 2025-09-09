@@ -1,0 +1,60 @@
+# text = Pas 1 muaji , Kina regjistron rastin e parë lokal me Covid - 19 Autoritetet në Kinë kanë raportuar rastin e parë lokal të infektimit me koronavirus që prej 14 shkurtit .
+# sent_id = 0
+1	Pas	pas	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=3|NER=O
+2	1	1	NUM	_	NumType=Card	3	nummod	_	start_char=4|end_char=5|NER=O
+3	muaji	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=6|end_char=11|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=12|end_char=13|NER=O
+5	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=14|end_char=18|NER=B-VEND_1
+6	regjistron	regjistroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=29|NER=O
+7	rastin	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=30|end_char=36|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=37|end_char=38|NER=O
+9	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=39|end_char=43|NER=O
+10	lokal	lokal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=44|end_char=49|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+12	Covid	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=53|end_char=58|SpacesAfter=\n|NER=O
+13	-	-	PUNCT	_	_	17	punct	_	start_char=59|end_char=60|SpacesAfter=\n|NER=O
+14	19	19	NUM	_	NumType=Card	17	obl	_	start_char=61|end_char=63|SpacesAfter=\n|NER=O
+15	Autoritetet	autoritet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	flat	_	start_char=64|end_char=75|NER=O
+16	në	në	ADP	_	Case=Acc	15	case	_	start_char=76|end_char=78|NER=O
+17	Kinë	Kinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=79|end_char=83|NER=B-VEND_1
+18	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=84|end_char=88|NER=O
+19	raportuar	raportoj	VERB	_	VerbForm=Part	6	conj	_	start_char=89|end_char=98|NER=O
+20	rastin	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=99|end_char=105|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=106|end_char=107|NER=O
+22	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=108|end_char=112|NER=O
+23	lokal	lokal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=113|end_char=118|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=119|end_char=121|NER=O
+25	infektimit	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=122|end_char=132|NER=O
+26	me	me	ADP	_	Case=Acc	25	case	_	start_char=133|end_char=135|NER=O
+27	koronavirus	koronaviru	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=136|end_char=147|NER=O
+28	që	që	PRON	_	PronType=Rel	29	mark	_	start_char=148|end_char=150|NER=O
+29	prej	prej	ADP	_	Case=Abl	29	case	_	start_char=151|end_char=155|NER=O
+30	14	14	NUM	_	NumType=Card	29	nummod	_	start_char=156|end_char=158|NER=B-DATE_0
+31	shkurtit	shkurt	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=159|end_char=167|SpaceAfter=No|NER=I-DATE_0
+32	.	.	PUNCT	_	_	17	punct	_	start_char=168|end_char=169|NER=O
+
+# text = Personi i infektuar është një punonjës në sektorin e shëndetësisë në qytetin Xi ' an , në veri të provincës Shaanxi .
+# sent_id = 1
+1	Personi	person	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	infektuar	infektuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=10|end_char=19|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=26|end_char=29|NER=O
+6	punonjës	punonjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	cop	_	start_char=30|end_char=38|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=39|end_char=41|NER=O
+8	sektorin	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=42|end_char=50|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=51|end_char=52|NER=O
+10	shëndetësisë	shëndetësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=53|end_char=65|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=66|end_char=68|NER=O
+12	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=69|end_char=76|NER=O
+13	Xi	Xi'an	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=77|end_char=79|SpaceAfter=No|NER=B-VEND_0
+14	'	'	PUNCT	_	_	12	punct	_	start_char=80|end_char=81|SpaceAfter=No|NER=B-VEND_0
+15	an	Xi'an	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=82|end_char=84|SpaceAfter=No|NER=B-VEND_0
+16	,	,	PUNCT	_	_	16	punct	_	start_char=85|end_char=86|NER=O
+17	në	në	ADP	_	Case=Acc	16	case	_	start_char=87|end_char=89|NER=O
+18	veri	veri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=90|end_char=94|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=95|end_char=97|NER=O
+20	provincës	provincë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=98|end_char=107|NER=O
+21	Shaanxi	Shannx	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	appos	_	start_char=108|end_char=115|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	4	punct	_	start_char=116|end_char=117|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,90 @@
+# text = 29 / 12 / 2023 Përgatitjet e ëmbëlsirave festive kanë filluar që në fillim të muajit dhe vazhdojnë deri në datën 31 Dhjetor .
+# sent_id = 0
+1	29	29	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	12	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Përgatitjet	përgatitje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	start_char=15|end_char=26|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=27|end_char=28|NER=O
+8	ëmbëlsirave	ëmbëlsirë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=29|end_char=40|NER=O
+9	festive	festi	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=41|end_char=48|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=49|end_char=53|NER=O
+11	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=54|end_char=61|NER=O
+12	që	që	SCONJ	_	_	13	mark	_	start_char=62|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	9	case	_	start_char=65|end_char=67|NER=O
+14	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=68|end_char=74|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=75|end_char=77|NER=O
+16	muajit	muaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=78|end_char=84|NER=O
+17	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=85|end_char=88|NER=O
+18	vazhdojnë	vazhdoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=89|end_char=98|NER=O
+19	deri	deri	PART	_	_	15	fixed	_	start_char=99|end_char=103|NER=O
+20	në	në	ADP	_	Case=Acc	16	case	_	start_char=104|end_char=106|NER=O
+21	datën	datë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=107|end_char=112|NER=O
+22	31	31	NUM	_	NumType=Card	16	nummod	_	start_char=113|end_char=115|NER=B-DATE_0
+23	Dhjetor	Dhjetor	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=116|end_char=123|SpaceAfter=No|NER=I-DATE_0
+24	.	.	PUNCT	_	_	13	punct	_	start_char=124|end_char=125|NER=O
+
+# text = Sipas Alma Xhema në pastiçerinë që e menaxhojnë familjarisht janë munduar që të mbajnë çmimet e përballueshme për gjithë qytetarët .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	Alma	Almë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=6|end_char=10|NER=B-PER
+3	Xhema	Xhemë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=11|end_char=16|NER=I-PER
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	pastiçerinë	pastiçeri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=20|end_char=31|NER=O
+6	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=32|end_char=34|NER=O
+7	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=35|end_char=36|NER=O
+8	menaxhojnë	menaxhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=37|end_char=47|NER=O
+9	familjarisht	familjarisht	ADV	_	AdvType=Man	8	advmod	_	start_char=48|end_char=60|NER=O
+10	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=61|end_char=65|NER=O
+11	munduar	mundoj	VERB	_	VerbForm=Part	0	root	_	start_char=66|end_char=73|NER=O
+12	që	që	SCONJ	_	_	14	mark	_	start_char=74|end_char=76|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=77|end_char=79|NER=O
+14	mbajnë	mbaj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=80|end_char=86|NER=O
+15	çmimet	çmim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=87|end_char=93|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=94|end_char=95|NER=O
+17	përballueshme	përballueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=96|end_char=109|NER=O
+18	për	për	ADP	_	Case=Acc	20	case	_	start_char=110|end_char=113|NER=O
+19	gjithë	gjithë	PRON	_	PronType=Ind	20	det	_	start_char=114|end_char=120|NER=O
+20	qytetarët	qytetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	14	advmod	_	start_char=121|end_char=130|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	11	punct	_	start_char=131|end_char=132|SpacesAfter=\n|NER=O
+
+# text = Ëmbëlsirat i japin kuptimin e plotë festave të fund vitit .
+# sent_id = 2
+1	Ëmbëlsirat	Ëmbëlsirë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=0|end_char=10|NER=O
+2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	iobj	_	start_char=11|end_char=12|NER=O
+3	japin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=18|NER=O
+4	kuptimin	kuptim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=19|end_char=27|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=28|end_char=29|NER=O
+6	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=30|end_char=35|NER=O
+7	festave	festë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=36|end_char=43|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=44|end_char=46|NER=O
+9	fund	fund	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=47|end_char=51|NER=O
+10	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=52|end_char=57|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	3	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Si gjithmonë kryesojnë ëmbëlsirat tradicionale bakllavaja , shëndetlija , kadaifi , dhiple e cila është ëmbëlsirë tradicionale për qarkut e Gjirokastrës .
+# sent_id = 3
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	gjithmonë	gjithmonë	ADV	_	AdvType=Tim	3	advmod	_	start_char=3|end_char=12|NER=O
+3	kryesojnë	kryesoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=22|NER=O
+4	ëmbëlsirat	ëmbëlsirë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=23|end_char=33|NER=O
+5	tradicionale	tradicional	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=34|end_char=46|NER=O
+6	bakllavaja	bakllavajë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=47|end_char=57|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=58|end_char=59|NER=O
+8	shëndetlija	shëndetlijë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	list	_	start_char=60|end_char=71|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=72|end_char=73|NER=O
+10	kadaifi	kadaif	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	list	_	start_char=74|end_char=81|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=82|end_char=83|NER=O
+12	dhiple	dhipl	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	list	_	start_char=84|end_char=90|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=91|end_char=92|NER=O
+14	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	start_char=93|end_char=97|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl	_	start_char=98|end_char=103|NER=O
+16	ëmbëlsirë	ëmbëlsirë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	cop	_	start_char=104|end_char=113|NER=O
+17	tradicionale	tradicional	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=114|end_char=126|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=127|end_char=130|NER=O
+19	qarkut	qark	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=131|end_char=137|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=138|end_char=139|NER=O
+21	Gjirokastrës	Gjirokastrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=140|end_char=152|SpaceAfter=No|NER=B-VEND_0
+22	.	.	PUNCT	_	_	15	punct	_	start_char=153|end_char=154|SpacesAfter=\n\n|NER=O
+

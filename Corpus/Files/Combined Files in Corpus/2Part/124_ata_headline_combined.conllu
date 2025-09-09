@@ -1,0 +1,91 @@
+# text = Forcës së Sigurisë së Kosovës i janë bashkangjitur edhe një gjeneratë e ushtarëve të rinj .
+# sent_id = 0
+1	Forcës	Forcë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	flat	_	start_char=0|end_char=6|NER=B-ORG
+2	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=7|end_char=9|NER=I-ORG
+3	Sigurisë	Siguri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	compound	_	start_char=10|end_char=18|NER=I-ORG
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=19|end_char=21|NER=I-ORG
+5	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=22|end_char=29|NER=I-ORG
+6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	start_char=30|end_char=31|NER=O
+7	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=32|end_char=36|NER=O
+8	bashkangjitur	bashkangjem	VERB	_	VerbForm=Part	1	conj	_	start_char=37|end_char=50|NER=O
+9	edhe	edhe	PART	_	_	25	advmod:emph	_	start_char=51|end_char=55|NER=O
+10	një	një	DET	_	Definite=Ind	25	det	_	start_char=56|end_char=59|NER=O
+11	gjeneratë	gjeneratë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	start_char=60|end_char=69|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=70|end_char=71|NER=O
+13	ushtarëve	ushtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	start_char=72|end_char=81|NER=O
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	29	det	_	start_char=82|end_char=84|NER=O
+15	rinj	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	start_char=85|end_char=89|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	22	punct	_	start_char=90|end_char=91|NER=O
+
+# text = 325 pjesëtar të rinj të kësaj force janë betuar për shërbim në këtë institucion , numër ky më i larti që ka diplomuar ndonjëherë në ushtri .
+# sent_id = 1
+1	325	325	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=3|NER=O
+2	pjesëtar	pjesëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	start_char=4|end_char=12|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=13|end_char=15|NER=O
+4	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=16|end_char=20|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=21|end_char=23|NER=O
+6	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=24|end_char=29|NER=O
+7	force	forc	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=30|end_char=35|NER=O
+8	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=36|end_char=40|NER=O
+9	betuar	betoj	VERB	_	VerbForm=Part	0	root	_	start_char=41|end_char=47|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=48|end_char=51|NER=O
+11	shërbim	shërbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=52|end_char=59|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=60|end_char=62|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=63|end_char=67|NER=O
+14	institucion	institucion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=68|end_char=79|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=80|end_char=81|NER=O
+16	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	list	_	start_char=82|end_char=87|NER=O
+17	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=88|end_char=90|NER=O
+18	më	më	PART	_	_	20	mark	_	start_char=91|end_char=93|NER=O
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=94|end_char=95|NER=O
+20	larti	lart	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=96|end_char=101|NER=O
+21	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=102|end_char=104|NER=O
+22	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=105|end_char=107|NER=O
+23	diplomuar	diplomoj	VERB	_	VerbForm=Part	20	acl:relcl	_	start_char=108|end_char=117|NER=O
+24	ndonjëherë	ndonjëherë	ADV	_	AdvType=Tim	23	advmod	_	start_char=118|end_char=128|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=129|end_char=131|NER=O
+26	ushtri	ushtri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obl	_	start_char=132|end_char=138|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	23	punct	_	start_char=139|end_char=140|SpacesAfter=\n|NER=O
+
+# text = Në anën tjetër , kryeministri i vendit , Albin Kurti derisa është shprehur krenar me të arriturat e Forcës së Ushtrisë së Kosovës , është zotuar para ushtarëve që qeveria do t ' i përkrahë gjithmonë këtë institucion .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	anën	anë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=3|end_char=7|NER=O
+3	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	amod	_	start_char=8|end_char=14|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|NER=O
+5	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	list	_	start_char=17|end_char=29|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=30|end_char=31|NER=O
+7	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=32|end_char=38|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+9	Albin	Albi	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=41|end_char=46|NER=B-PER
+10	Kurti	Kurt	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=47|end_char=52|NER=I-PER
+11	derisa	derisa	SCONJ	_	_	13	mark	_	start_char=53|end_char=59|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=60|end_char=65|NER=O
+13	shprehur	shpreh	VERB	_	VerbForm=Part	26	advcl	_	start_char=66|end_char=74|NER=O
+14	krenar	krenar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	cop	_	start_char=75|end_char=81|NER=O
+15	me	me	ADP	_	Case=Acc	17	case	_	start_char=82|end_char=84|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=85|end_char=87|NER=O
+17	arriturat	arriturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	start_char=88|end_char=97|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=98|end_char=99|NER=O
+19	Forcës	Forcë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=100|end_char=106|NER=B-ORG
+20	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=107|end_char=109|NER=I-ORG
+21	Ushtrisë	ushtri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=110|end_char=118|NER=I-ORG
+22	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=119|end_char=121|NER=I-ORG
+23	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=122|end_char=129|SpaceAfter=No|NER=I-ORG
+24	,	,	PUNCT	_	_	26	punct	_	start_char=130|end_char=131|NER=O
+25	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=132|end_char=137|NER=O
+26	zotuar	zotoj	VERB	_	VerbForm=Part	0	root	_	start_char=138|end_char=144|NER=O
+27	para	para	ADP	_	Case=Abl	28	case	_	start_char=145|end_char=149|NER=O
+28	ushtarëve	ushtar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	26	obl	_	start_char=150|end_char=159|NER=O
+29	që	që	PRON	_	PronType=Rel	33	nsubj	_	start_char=160|end_char=162|NER=O
+30	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	33	nsubj	_	start_char=163|end_char=170|NER=O
+31	do	do	PART	_	_	33	fixed	_	start_char=171|end_char=173|NER=O
+32	t	t'i	PART	_	_	33	obj	_	start_char=174|end_char=175|NER=O
+33	'	'	PUNCT	_	_	33	punct	_	start_char=176|end_char=177|NER=O
+34	i	t'i	PART	_	_	33	obj	_	start_char=178|end_char=179|NER=O
+35	përkrahë	përkraj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	advcl	_	start_char=180|end_char=188|NER=O
+36	gjithmonë	gjithmonë	ADV	_	AdvType=Man	33	advmod	_	start_char=189|end_char=198|NER=O
+37	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	start_char=199|end_char=203|NER=O
+38	institucion	institucion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	start_char=204|end_char=215|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	26	punct	_	start_char=216|end_char=217|SpacesAfter=\n\n\n|NER=O
+

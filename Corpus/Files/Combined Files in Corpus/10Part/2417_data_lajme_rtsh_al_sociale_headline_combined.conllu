@@ -1,0 +1,131 @@
+# text = Rama : Park i ri për fëmijët ku do mësojnë sjelljen në rrugë !
+# sent_id = 0
+1	Rama	damë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=5|end_char=6|NER=O
+3	Park	Park	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=11|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=12|end_char=13|NER=O
+5	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=14|end_char=16|NER=O
+6	për	për	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=20|NER=O
+7	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=21|end_char=28|NER=O
+8	ku	ku	ADV	_	AdvType=Loc	8	advmod	_	start_char=29|end_char=31|NER=O
+9	do	do	PART	_	_	8	fixed	_	start_char=32|end_char=34|NER=O
+10	mësojnë	mësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=35|end_char=42|NER=O
+11	sjelljen	sjellje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=43|end_char=51|NER=O
+12	në	në	ADP	_	Case=Acc	11	case	_	start_char=52|end_char=54|NER=O
+13	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=55|end_char=60|SpaceAfter=No|NER=O
+14	!	!	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = 02 / 02 / 2022 Kryeministri Edi Rama ka ndarë pamje nga ky park , ku fëmijët do të mësojnë sjelljen në rrugë , rregullat e qarkullimit e si të jenë sa më të kujdesshëm dhe bashkëpunues .
+# sent_id = 1
+1	02	02	NUM	_	NumType=Card	11	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	13	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	14	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Kryeministri	Kryeministri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=15|end_char=27|NER=O
+7	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=28|end_char=31|NER=B-PER
+8	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=32|end_char=36|NER=I-PER
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=37|end_char=39|NER=O
+10	ndarë	ndaj	VERB	_	VerbForm=Part	0	root	_	start_char=40|end_char=45|NER=O
+11	pamje	pamje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=46|end_char=51|NER=O
+12	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=52|end_char=55|NER=O
+13	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=56|end_char=58|NER=O
+14	park	park	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=59|end_char=63|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|NER=O
+16	ku	ku	ADV	_	AdvType=Loc	15	advmod	_	start_char=66|end_char=68|NER=O
+17	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	start_char=69|end_char=76|NER=O
+18	do	do	PART	_	_	15	fixed	_	start_char=77|end_char=79|NER=O
+19	të	të	PART	_	_	15	fixed	_	start_char=80|end_char=82|NER=O
+20	mësojnë	mësoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=83|end_char=90|NER=O
+21	sjelljen	sjellje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=91|end_char=99|NER=O
+22	në	në	ADP	_	Case=Acc	18	case	_	start_char=100|end_char=102|NER=O
+23	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=103|end_char=108|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	20	punct	_	start_char=109|end_char=110|NER=O
+25	rregullat	rregullë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=111|end_char=120|NER=O
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	22	det:poss	_	start_char=121|end_char=122|NER=O
+27	qarkullimit	qarkullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=123|end_char=134|NER=O
+28	e	e	CCONJ	_	_	26	cc	_	start_char=135|end_char=136|NER=O
+29	si	si	SCONJ	_	_	26	mark	_	start_char=137|end_char=139|NER=O
+30	të	të	PART	_	_	26	fixed	_	start_char=140|end_char=142|NER=O
+31	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=143|end_char=147|NER=O
+32	sa	sa	ADV	_	AdvType=Deg	30	advmod	_	start_char=148|end_char=150|NER=O
+33	më	më	PART	_	_	30	mark	_	start_char=151|end_char=153|NER=O
+34	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	30	det	_	start_char=154|end_char=156|NER=O
+35	kujdesshëm	kujdesshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	26	cop	_	start_char=157|end_char=167|NER=O
+36	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=168|end_char=171|NER=O
+37	bashkëpunues	bashkëpunues	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	30	conj	_	start_char=172|end_char=184|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	26	punct	_	start_char=185|end_char=186|SpacesAfter=\n|NER=O
+
+# text = Me anë të këtij parku fëmijët do të dallojnë rreziqet kryesore në rrugë , do të njohin sjelljet e rrezikshme në rrugë dhe ato të sigurta ; të përshkruajnë mënyrën e sigurt të përdorimit të biçikletës , të patinave etj .
+# sent_id = 2
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	anë	anë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=3|end_char=6|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=7|end_char=9|NER=O
+4	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=10|end_char=15|NER=O
+5	parku	park	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=16|end_char=21|NER=O
+6	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=22|end_char=29|NER=O
+7	do	do	PART	_	_	9	fixed	_	start_char=30|end_char=32|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=33|end_char=35|NER=O
+9	dallojnë	dalloj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=36|end_char=44|NER=O
+10	rreziqet	rreziq	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=45|end_char=53|NER=O
+11	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=54|end_char=62|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=63|end_char=65|NER=O
+13	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=66|end_char=71|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	17	punct	_	start_char=72|end_char=73|NER=O
+15	do	do	PART	_	_	17	fixed	_	start_char=74|end_char=76|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=77|end_char=79|NER=O
+17	njohin	njoh	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=80|end_char=86|NER=O
+18	sjelljet	sjellje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=87|end_char=95|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=96|end_char=97|NER=O
+20	rrezikshme	rrezikshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=98|end_char=108|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=109|end_char=111|NER=O
+22	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=112|end_char=117|NER=O
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=118|end_char=121|NER=O
+24	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	22	conj	_	start_char=122|end_char=125|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=126|end_char=128|NER=O
+26	sigurta	sigurtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=129|end_char=136|SpaceAfter=No|NER=O
+27	;	;	PUNCT	_	_	29	punct	_	start_char=137|end_char=138|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=139|end_char=141|NER=O
+29	përshkruajnë	përshkruaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	acl:relcl	_	start_char=142|end_char=154|NER=O
+30	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=155|end_char=162|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=163|end_char=164|NER=O
+32	sigurt	sigurt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=165|end_char=171|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=172|end_char=174|NER=O
+34	përdorimit	përdorim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=175|end_char=185|NER=O
+35	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=186|end_char=188|NER=O
+36	biçikletës	biçikletë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=189|end_char=199|SpaceAfter=No|NER=B-PRO
+37	,	,	PUNCT	_	_	39	punct	_	start_char=200|end_char=201|NER=O
+38	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	39	det	_	start_char=202|end_char=204|NER=O
+39	patinave	patinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	conj	_	start_char=205|end_char=213|NER=B-PRO
+40	etj	etj.	ADV	_	Abbr=Yes	39	list	_	start_char=214|end_char=217|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	29	punct	_	start_char=218|end_char=219|NER=O
+
+# text = në rrugë dhe në mjedise publike , të dallojnë disa nga shenjat që rregullojnë lëvizjen e tyre si këmbësorë në rrugë dhe në parqe publike .
+# sent_id = 3
+1	në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=3|end_char=8|NER=O
+3	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=9|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=15|NER=O
+5	mjedise	mjedis	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	start_char=16|end_char=23|NER=O
+6	publike	publik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=24|end_char=31|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	2	punct	_	start_char=32|end_char=33|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=34|end_char=36|NER=O
+9	dallojnë	dalloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=37|end_char=45|NER=O
+10	disa	disa	PRON	_	PronType=Ind	12	nummod	_	start_char=46|end_char=50|NER=O
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=51|end_char=54|NER=O
+12	shenjat	shenjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=55|end_char=62|NER=O
+13	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=63|end_char=65|NER=O
+14	rregullojnë	rregulloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=66|end_char=77|NER=O
+15	lëvizjen	lëvizje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=78|end_char=86|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=87|end_char=88|NER=O
+17	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=89|end_char=93|NER=O
+18	si	si	SCONJ	_	_	19	mark	_	start_char=94|end_char=96|NER=O
+19	këmbësorë	këmbësorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	advmod	_	start_char=97|end_char=106|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=107|end_char=109|NER=O
+21	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	advmod	_	start_char=110|end_char=115|NER=O
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=116|end_char=119|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=120|end_char=122|NER=O
+24	parqe	parq	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	conj	_	start_char=123|end_char=128|NER=O
+25	publike	publik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=129|end_char=136|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	14	punct	_	start_char=137|end_char=138|SpacesAfter=\n\n\n|NER=O
+

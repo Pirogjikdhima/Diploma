@@ -1,0 +1,66 @@
+# text = 21 / 01 / 2024 Terminali i ri i autobusëve të juglindjes është tashmë funksional në zonën e Lundrës .
+# sent_id = 0
+1	21	21	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	15	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	17	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Terminali	terminal	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=15|end_char=24|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=25|end_char=26|NER=O
+8	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=27|end_char=29|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=30|end_char=31|NER=O
+10	autobusëve	autobusë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=32|end_char=42|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	26	det:poss	_	start_char=43|end_char=45|NER=O
+12	juglindjes	juglindje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=46|end_char=56|NER=O
+13	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=57|end_char=62|NER=O
+14	tashmë	tashmë	ADV	_	AdvType=Deg	27	advmod	_	start_char=63|end_char=69|NER=O
+15	funksional	funksional	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	cop	_	start_char=70|end_char=80|NER=O
+16	në	në	ADP	_	Case=Acc	31	case	_	start_char=81|end_char=83|NER=O
+17	zonën	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	advmod	_	start_char=84|end_char=89|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=90|end_char=91|NER=O
+19	Lundrës	Lundrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=92|end_char=99|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	27	punct	_	start_char=100|end_char=101|NER=O
+
+# text = Terminali , i cili ndodhet pranë Unazës së Madhe dhe autostradës Tiranë - Elbasan është ndërtuar në në hapësirë prej 14 mijë metra katrorë dhe ka në dispozicion 65 vende për mjetet .
+# sent_id = 1
+1	Terminali	terminal	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=9|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	4	punct	_	start_char=10|end_char=11|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=12|end_char=13|NER=O
+4	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	start_char=14|end_char=18|NER=O
+5	ndodhet	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	acl:relcl	_	start_char=19|end_char=26|NER=O
+6	pranë	pranë	ADP	_	Case=Abl	7	case	_	start_char=27|end_char=32|NER=O
+7	Unazës	Unazë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=33|end_char=39|NER=O
+8	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=40|end_char=42|NER=O
+9	Madhe	madh	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=43|end_char=48|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=49|end_char=52|NER=O
+11	autostradës	autostradë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=53|end_char=64|NER=O
+12	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	appos	_	start_char=65|end_char=71|SpaceAfter=No|NER=B-VEND_0
+13	-	-	PUNCT	_	_	5	punct	_	start_char=72|end_char=73|SpaceAfter=No|NER=B-VEND_0
+14	Elbasan	Elbasan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=74|end_char=81|NER=B-VEND_0
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=82|end_char=87|NER=O
+16	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	0	root	_	start_char=88|end_char=96|NER=O
+17	në	në	ADP	_	Case=Acc	6	case	_	start_char=97|end_char=99|NER=O
+18	në	në	ADP	_	Case=Acc	6	case	_	start_char=100|end_char=102|NER=O
+19	hapësirë	hapësirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=103|end_char=111|NER=O
+20	prej	prej	ADP	_	Case=Abl	10	case	_	start_char=112|end_char=116|NER=O
+21	14	14	NUM	_	NumType=Card	10	nummod	_	start_char=117|end_char=119|NER=O
+22	mijë	mijë	NUM	_	NumType=Card	10	nummod	_	start_char=120|end_char=124|NER=O
+23	metra	metër	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	start_char=125|end_char=130|NER=O
+24	katrorë	katrorë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=131|end_char=138|NER=O
+25	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=139|end_char=142|NER=O
+26	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=143|end_char=145|NER=O
+27	në	në	ADP	_	Case=Acc	15	case	_	start_char=146|end_char=148|NER=O
+28	dispozicion	dispozicion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	start_char=149|end_char=160|NER=O
+29	65	65	NUM	_	NumType=Card	17	nummod	_	start_char=161|end_char=163|NER=O
+30	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obl	_	start_char=164|end_char=169|NER=O
+31	për	për	ADP	_	Case=Acc	19	case	_	start_char=170|end_char=173|NER=O
+32	mjetet	mjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	start_char=174|end_char=180|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	13	punct	_	start_char=181|end_char=182|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Amela Koçerri
+# sent_id = 2
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Amela	Amelë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16|NER=B-PER
+4	Koçerri	Koçerr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat:name	_	start_char=17|end_char=24|SpacesAfter=\n\n|NER=I-PER
+

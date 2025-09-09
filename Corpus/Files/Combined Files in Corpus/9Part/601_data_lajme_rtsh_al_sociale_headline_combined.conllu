@@ -1,0 +1,63 @@
+# text = 19 / 10 / 2023 Përgjegjegjësi i Departametit të Fizikës Polikron Dhoqina sqaron se dega e fizikës tashmë përzgjidhet vetëm nga ata studentë që janë të apasjonuar pas saj .
+# sent_id = 0
+1	19	19	NUM	_	NumType=Card	11	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	11	amod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Përgjegjegjësi	përgjegjegjësi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=15|end_char=29|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=30|end_char=31|NER=O
+8	Departametit	departamet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=32|end_char=44|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=45|end_char=47|NER=O
+10	Fizikës	Fizikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=48|end_char=55|NER=O
+11	Polikron	Polikro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=56|end_char=64|NER=B-PER
+12	Dhoqina	Dhoqinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=65|end_char=72|NER=I-PER
+13	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=73|end_char=79|NER=O
+14	se	se	SCONJ	_	_	14	mark	_	start_char=80|end_char=82|NER=O
+15	dega	degë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=83|end_char=87|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=88|end_char=89|NER=O
+17	fizikës	fizikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=90|end_char=97|NER=O
+18	tashmë	tashmë	ADV	_	AdvType=Tim	14	advmod	_	start_char=98|end_char=104|NER=O
+19	përzgjidhet	përzgjidhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	conj	_	start_char=105|end_char=116|NER=O
+20	vetëm	vetëm	PART	_	_	18	mark	_	start_char=117|end_char=122|NER=O
+21	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=123|end_char=126|NER=O
+22	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	det	_	start_char=127|end_char=130|NER=O
+23	studentë	studentë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	start_char=131|end_char=139|NER=O
+24	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=140|end_char=142|NER=O
+25	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	acl	_	start_char=143|end_char=147|NER=O
+26	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	22	det	_	start_char=148|end_char=150|NER=O
+27	apasjonuar	apasjonuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	cop	_	start_char=151|end_char=161|NER=O
+28	pas	pas	ADP	_	Case=Abl	24	case	_	start_char=162|end_char=165|NER=O
+29	saj	saj	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	advmod	_	start_char=166|end_char=169|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	14	punct	_	start_char=170|end_char=171|NER=O
+
+# text = Ai është një program studimi me një nivel të lartë vështirësie ndërsa motivimi financiar pasi punësohen nuk është i madh .
+# sent_id = 1
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	program	program	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=13|end_char=20|NER=O
+5	studimi	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=21|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	8	case	_	start_char=29|end_char=31|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=32|end_char=35|NER=O
+8	nivel	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=36|end_char=41|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=42|end_char=44|NER=O
+10	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=45|end_char=50|NER=O
+11	vështirësie	vështirësi	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=51|end_char=62|NER=O
+12	ndërsa	ndërsa	CCONJ	_	_	13	cc	_	start_char=63|end_char=69|NER=O
+13	motivimi	motivim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=70|end_char=78|NER=O
+14	financiar	financiar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=79|end_char=88|NER=O
+15	pasi	pasi	SCONJ	_	_	16	mark	_	start_char=89|end_char=93|NER=O
+16	punësohen	punësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	13	acl:relcl	_	start_char=94|end_char=103|NER=O
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=104|end_char=107|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	ccomp	_	start_char=108|end_char=113|NER=O
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=114|end_char=115|NER=O
+20	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	cop	_	start_char=116|end_char=120|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	18	punct	_	start_char=121|end_char=122|SpacesAfter=\n|NER=O
+
+# text = Gazetare Keti Toroveci
+# sent_id = 2
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Keti	Keti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=13|NER=B-PER
+3	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=14|end_char=22|SpacesAfter=\n|NER=I-PER
+

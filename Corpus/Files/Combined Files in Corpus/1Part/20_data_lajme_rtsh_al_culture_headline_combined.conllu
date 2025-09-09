@@ -1,0 +1,197 @@
+# text = " Me Viktor Zhustin kemi lindur 14 vjeç .
+# sent_id = 0
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Me	me	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	Viktor	Viktor	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	start_char=5|end_char=11|NER=B-PER
+4	Zhustin	Zhust	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=12|end_char=19|NER=I-PER
+5	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=20|end_char=24|NER=O
+6	lindur	lindur	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=31|NER=O
+7	14	14	NUM	_	NumType=Card	8	nummod	_	start_char=32|end_char=34|NER=O
+8	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=35|end_char=39|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	6	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 1
+1	.	.	PUNCT	_	_	6	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 2
+1	.	.	PUNCT	_	_	6	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = " - Ja sekreti i miqësisë Bungo - Zhusti !
+# sent_id = 3
+1	"	"	PUNCT	_	_	1	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	-	-	PUNCT	_	_	1	punct	_	start_char=2|end_char=3|NER=O
+3	Ja	Ja	SCONJ	_	_	2	mark	_	start_char=4|end_char=6|NER=O
+4	sekreti	sekret	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=7|end_char=14|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=15|end_char=16|NER=O
+6	miqësisë	miqësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=17|end_char=25|NER=O
+7	Bungo	Bungo-Zhust	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=26|end_char=31|SpacesAfter=\n|NER=B-PER
+8	-	-	PUNCT	_	_	4	punct	_	start_char=32|end_char=33|SpacesAfter=\n|NER=B-PER
+9	Zhusti	Bungo-Zhust	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=34|end_char=40|SpacesAfter=\n|NER=B-PER
+10	!	!	PUNCT	_	_	4	punct	_	start_char=41|end_char=42|SpacesAfter=\n|NER=O
+
+# text = 26 / 01 / 2024 I ftuar në emisionin " 3D " regjizori i njohur Leka Bungo tregoi sekretin e miqësisë me aktorin Viktor Zhusti , i cili është dhe personazhi kryesor në komedinë " Testamenti " .
+# sent_id = 4
+1	26	26	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	4	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	4	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	7	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	7	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=15|end_char=16|NER=O
+7	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=17|end_char=22|NER=O
+8	në	në	ADP	_	Case=Acc	12	case	_	start_char=23|end_char=25|NER=O
+9	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=26|end_char=35|NER=O
+10	"	"	PUNCT	_	_	15	punct	_	start_char=36|end_char=37|SpaceAfter=No|NER=O
+11	3D	3d	NUM	_	NumType=Card	15	nummod	_	start_char=38|end_char=40|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	12	punct	_	start_char=41|end_char=42|NER=O
+13	regjizori	regjizor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=43|end_char=52|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=53|end_char=54|NER=O
+15	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=55|end_char=61|NER=O
+16	Leka	Leka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	appos	_	start_char=62|end_char=66|NER=B-PER
+17	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=67|end_char=72|NER=I-PER
+18	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=73|end_char=79|NER=O
+19	sekretin	sekret	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=80|end_char=88|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=89|end_char=90|NER=O
+21	miqësisë	miqësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=91|end_char=99|NER=O
+22	me	me	ADP	_	Case=Acc	26	case	_	start_char=100|end_char=102|NER=O
+23	aktorin	aktor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=103|end_char=110|NER=O
+24	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	appos	_	start_char=111|end_char=117|NER=B-PER
+25	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=118|end_char=124|SpaceAfter=No|NER=I-PER
+26	,	,	PUNCT	_	_	31	punct	_	start_char=125|end_char=126|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=127|end_char=128|NER=O
+28	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	32	nsubj	_	start_char=129|end_char=133|NER=O
+29	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=134|end_char=139|NER=O
+30	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=140|end_char=143|NER=O
+31	personazhi	personazh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	cop	_	start_char=144|end_char=154|NER=O
+32	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=155|end_char=162|NER=O
+33	në	në	ADP	_	Case=Acc	37	case	_	start_char=163|end_char=165|NER=O
+34	komedinë	komedi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	advmod	_	start_char=166|end_char=174|NER=O
+35	"	"	PUNCT	_	_	39	punct	_	start_char=175|end_char=176|SpaceAfter=No|NER=O
+36	Testamenti	Testamenti	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	appos	_	start_char=177|end_char=187|SpaceAfter=No|NER=O
+37	"	"	PUNCT	_	_	37	punct	_	start_char=188|end_char=189|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	32	punct	_	start_char=190|end_char=191|SpacesAfter=\n|NER=O
+
+# text = Bungo tha se me Zhustin njihen prej kohësh dhe se sëbashku kanë bërë shumë bashkëpunime .
+# sent_id = 5
+1	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=6|end_char=9|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=10|end_char=12|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=15|NER=O
+5	Zhustin	Zhust	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=16|end_char=23|NER=B-PER
+6	njihen	njihej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	ccomp	_	start_char=24|end_char=30|NER=O
+7	prej	prej	ADP	_	Case=Abl	8	case	_	start_char=31|end_char=35|NER=O
+8	kohësh	kohë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=36|end_char=42|NER=O
+9	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=43|end_char=46|NER=O
+10	se	se	SCONJ	_	_	13	mark	_	start_char=47|end_char=49|NER=O
+11	sëbashku	sëbashku	ADV	_	AdvType=Man	13	advmod	_	start_char=50|end_char=58|NER=O
+12	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=59|end_char=63|NER=O
+13	bërë	bëj	VERB	_	VerbForm=Part	6	conj	_	start_char=64|end_char=68|NER=O
+14	shumë	shumë	PRON	_	PronType=Ind	15	nummod	_	start_char=69|end_char=74|NER=O
+15	bashkëpunime	bashkëpunim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=75|end_char=87|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	13	punct	_	start_char=88|end_char=89|SpacesAfter=\n|NER=O
+
+# text = Regjizori e konsideron një benefit rrugëtimin në skenë me Zhustin .
+# sent_id = 6
+1	Regjizori	degjizor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=10|end_char=11|NER=O
+3	konsideron	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=22|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=23|end_char=26|NER=O
+5	benefit	benef	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=27|end_char=34|NER=O
+6	rrugëtimin	rrugëtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=45|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=46|end_char=48|NER=O
+8	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=49|end_char=54|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=55|end_char=57|NER=O
+10	Zhustin	Zhust	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=58|end_char=65|SpaceAfter=No|NER=B-PER
+11	.	.	PUNCT	_	_	3	punct	_	start_char=66|end_char=67|SpacesAfter=\n|NER=O
+
+# text = " Gjetja e Viktorit ka qenë një tjetër benefit për mua .
+# sent_id = 7
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjetja	Gjetja	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2|end_char=8|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=9|end_char=10|NER=O
+4	Viktorit	Viktor	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=11|end_char=19|NER=B-PER
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=20|end_char=22|NER=O
+6	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=23|end_char=27|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=28|end_char=31|NER=O
+8	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	start_char=32|end_char=38|NER=O
+9	benefit	benef	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	cop	_	start_char=39|end_char=46|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=50|NER=O
+11	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	start_char=51|end_char=54|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	6	punct	_	start_char=55|end_char=56|NER=O
+
+# text = Me Viktorin më duket sikur kam lindur në maternitet bashkë .
+# sent_id = 8
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Viktorin	Viktor	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=3|end_char=11|NER=B-PER
+3	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	mark	_	start_char=12|end_char=14|NER=O
+4	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=15|end_char=20|NER=O
+5	sikur	sikur	SCONJ	_	_	7	mark	_	start_char=21|end_char=26|NER=O
+6	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	7	aux	_	start_char=27|end_char=30|NER=O
+7	lindur	lindur	VERB	_	VerbForm=Part	4	advcl	_	start_char=31|end_char=37|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	maternitet	maternit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=41|end_char=51|NER=O
+10	bashkë	bashkë	ADV	_	AdvType=Man	9	amod:nummod	_	start_char=52|end_char=58|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	7	punct	_	start_char=59|end_char=60|NER=O
+
+# text = Jemi shokë shkolle që 14 - vjeç , që në Liceun Artistik kur kemi filluar këtë rrugë bashkë për në skenë , por ka një gjë se veçanërisht kohët e fundit kemi punuar shumë bashkë .
+# sent_id = 9
+1	Jemi	Jem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	shokë	shokë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	obj	_	start_char=5|end_char=10|NER=O
+3	shkolle	shkoll	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	start_char=11|end_char=18|NER=O
+4	që	që	PRON	_	PronType=Rel	5	mark	_	start_char=19|end_char=21|NER=O
+5	14	14	NUM	_	NumType=Card	3	nmod	_	start_char=22|end_char=24|SpaceAfter=No|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=O
+7	vjeç	14-vjeç	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=27|end_char=31|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	7	punct	_	start_char=32|end_char=33|NER=O
+9	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=34|end_char=36|NER=O
+10	në	në	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+11	Liceun	lice	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	advmod	_	start_char=40|end_char=46|NER=B-ORG
+12	Artistik	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=47|end_char=55|NER=I-ORG
+13	kur	kur	SCONJ	_	_	13	mark	_	start_char=56|end_char=59|NER=O
+14	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	aux	_	start_char=60|end_char=64|NER=O
+15	filluar	filloj	VERB	_	VerbForm=Part	1	advcl	_	start_char=65|end_char=72|NER=O
+16	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=73|end_char=77|NER=O
+17	rrugë	rrugë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=78|end_char=83|NER=O
+18	bashkë	bashkë	ADV	_	AdvType=Man	15	amod	_	start_char=84|end_char=90|NER=O
+19	për	për	ADP	_	Case=Acc	19	case	_	start_char=91|end_char=94|NER=O
+20	në	në	ADP	_	Case=Acc	19	case	_	start_char=95|end_char=97|NER=O
+21	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=98|end_char=103|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	21	punct	_	start_char=104|end_char=105|NER=O
+23	por	por	CCONJ	_	_	22	cc	_	start_char=106|end_char=109|NER=O
+24	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	start_char=110|end_char=112|NER=O
+25	një	një	DET	_	Definite=Ind	24	det	_	start_char=113|end_char=116|NER=O
+26	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	start_char=117|end_char=120|NER=O
+27	se	se	SCONJ	_	_	31	mark	_	start_char=121|end_char=123|NER=O
+28	veçanërisht	veçanërisht	ADV	_	AdvType=Man	31	advmod	_	start_char=124|end_char=135|NER=O
+29	kohët	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	31	obj	_	start_char=136|end_char=141|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=142|end_char=143|NER=O
+31	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=144|end_char=150|NER=O
+32	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=151|end_char=155|NER=O
+33	punuar	punoj	VERB	_	VerbForm=Part	22	conj	_	start_char=156|end_char=162|NER=O
+34	shumë	shumë	PRON	_	PronType=Ind	33	nummod	_	start_char=163|end_char=168|NER=O
+35	bashkë	bashkë	ADV	_	AdvType=Man	31	advmod	_	start_char=169|end_char=175|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	31	punct	_	start_char=176|end_char=177|NER=O
+
+# text = Kemi punuar dramë , telefilm , komedi dhe besoj kjo të jetë e parafundit " , tha Bungo .
+# sent_id = 10
+1	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	punuar	punoj	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=11|NER=O
+3	dramë	dramë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=12|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=18|end_char=19|NER=O
+5	telefilm	telefilm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	start_char=20|end_char=28|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	5	punct	_	start_char=29|end_char=30|NER=O
+7	komedi	komed	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	list	_	start_char=31|end_char=37|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=38|end_char=41|NER=O
+9	besoj	besoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=42|end_char=47|NER=O
+10	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	fixed	_	start_char=48|end_char=51|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=52|end_char=54|NER=O
+12	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=55|end_char=59|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=60|end_char=61|NER=O
+14	parafundit	parafundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	cop	_	start_char=62|end_char=72|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	12	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=75|end_char=76|NER=O
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	start_char=77|end_char=80|NER=O
+18	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=81|end_char=86|SpaceAfter=No|NER=B-PER
+19	.	.	PUNCT	_	_	16	punct	_	start_char=87|end_char=88|SpacesAfter=\n\n|NER=O
+

@@ -1,0 +1,44 @@
+# text = 05 / 12 / 2023 Bonusi prej 5 mijë lekësh ka filluar shpërndarjen që prej datës 4 dhjetor dhe të gjithë do të kenë mundësi ta tërheqin deri në dhjetor të vitit 2024 .
+# sent_id = 0
+1	05	05	NUM	_	NumType=Card	14	advmod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	14	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	16	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Bonusi	Bonusi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=15|end_char=21|NER=O
+7	prej	prej	ADP	_	Case=Abl	5	case	_	start_char=22|end_char=26|NER=O
+8	5	5	NUM	_	NumType=Card	5	nummod	_	start_char=27|end_char=28|NER=O
+9	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	5	det	_	start_char=29|end_char=33|NER=O
+10	lekësh	lekësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	7	advmod	_	start_char=34|end_char=40|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=41|end_char=43|NER=O
+12	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=44|end_char=51|NER=O
+13	shpërndarjen	shpërndarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=52|end_char=64|NER=O
+14	që	që	PRON	_	PronType=Rel	11	mark	_	start_char=65|end_char=67|NER=O
+15	prej	prej	ADP	_	Case=Abl	11	case	_	start_char=68|end_char=72|NER=O
+16	datës	datë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=73|end_char=78|NER=O
+17	4	4	NUM	_	NumType=Card	13	nummod	_	start_char=79|end_char=80|NER=B-DATE_0
+18	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=81|end_char=88|NER=I-DATE_0
+19	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=89|end_char=92|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=93|end_char=95|NER=O
+21	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	19	nsubj	_	start_char=96|end_char=102|NER=O
+22	do	do	PART	_	_	19	fixed	_	start_char=103|end_char=105|NER=O
+23	të	të	PART	_	_	19	fixed	_	start_char=106|end_char=108|NER=O
+24	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=109|end_char=113|NER=O
+25	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=114|end_char=121|NER=O
+26	ta	_	_	_	_	_	_	_	start_char=122|end_char=124|NER=O
+27	tërheqin	tërhej	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	advcl	_	start_char=125|end_char=133|NER=O
+28	deri	deri	PART	_	_	25	fixed	_	start_char=134|end_char=138|NER=O
+29	në	në	ADP	_	Case=Acc	26	case	_	start_char=139|end_char=141|NER=O
+30	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	start_char=142|end_char=149|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=150|end_char=152|NER=O
+32	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=153|end_char=158|NER=B-DATE_0
+33	2024	2024	NUM	_	NumType=Card	28	amod:nummod	_	start_char=159|end_char=163|SpaceAfter=No|NER=I-DATE_0
+34	.	.	PUNCT	_	_	23	punct	_	start_char=164|end_char=165|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Amela Koçerri
+# sent_id = 1
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Amela	Amelë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16|NER=B-PER
+4	Koçerri	Koçerr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=17|end_char=24|SpacesAfter=\n|NER=I-PER
+

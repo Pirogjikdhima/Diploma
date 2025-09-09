@@ -1,0 +1,33 @@
+# text = Stubgen do të marrë përsipër kryesimin e takimeve midis ministrave të Brendshëm të 16 landeve gjermane nga janari .
+# sent_id = 0
+1	Stubgen	Stubge	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	flat	_	start_char=0|end_char=7|NER=B-PER
+2	do	do	PART	_	_	4	fixed	_	start_char=8|end_char=10|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=14|end_char=19|NER=O
+5	përsipër	përsipër	ADV	_	AdvType=Man	4	advmod	_	start_char=20|end_char=28|NER=O
+6	kryesimin	kryesim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=29|end_char=38|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=39|end_char=40|NER=O
+8	takimeve	takim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=41|end_char=49|NER=O
+9	midis	midis	ADP	_	Case=Abl	10	case	_	start_char=50|end_char=55|NER=O
+10	ministrave	ministrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=56|end_char=66|NER=O
+11	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=67|end_char=69|NER=O
+12	Brendshëm	Brendshëm	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=70|end_char=79|NER=O
+13	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=80|end_char=82|NER=O
+14	16	16	NUM	_	NumType=Card	15	nummod	_	start_char=83|end_char=85|NER=O
+15	landeve	lande	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=86|end_char=93|NER=O
+16	gjermane	gjerman	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=94|end_char=102|NER=O
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=103|end_char=106|NER=O
+18	janari	janar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=107|end_char=113|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	4	punct	_	start_char=114|end_char=115|SpacesAfter=\n|NER=O
+
+# text = / a .
+# sent_id = 1
+1	/	/	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+2	a	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	0	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = jor .
+# sent_id = 2
+1	jor	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+

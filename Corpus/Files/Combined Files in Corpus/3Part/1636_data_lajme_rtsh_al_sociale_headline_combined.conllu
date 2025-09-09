@@ -1,0 +1,113 @@
+# text = Pajisjet , higjena , ndriçimi dhe ajrosja kanë bërë që prerjet anatomiketë jenë me komode dhe pa ndikime në shëndetin e personelit .
+# sent_id = 0
+1	Pajisjet	pajisje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	conj	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	21	punct	_	start_char=9|end_char=10|NER=O
+3	higjena	higjenë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	list	_	start_char=11|end_char=18|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	23	punct	_	start_char=19|end_char=20|NER=O
+5	ndriçimi	ndriçim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	list	_	start_char=21|end_char=29|NER=O
+6	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=30|end_char=33|NER=O
+7	ajrosja	ajrosjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	conj	_	start_char=34|end_char=41|NER=O
+8	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=42|end_char=46|NER=O
+9	bërë	bëj	VERB	_	VerbForm=Part	23	acl:relcl	_	start_char=47|end_char=51|NER=O
+10	që	që	SCONJ	_	_	29	mark	_	start_char=52|end_char=54|NER=O
+11	prerjet	prerje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=55|end_char=62|NER=O
+12	anatomiketë	anatomike	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=63|end_char=74|NER=O
+13	jenë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	conj	_	start_char=75|end_char=79|NER=O
+14	me	me	ADP	_	Case=Acc	33	case	_	start_char=80|end_char=82|NER=O
+15	komode	komod	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	obl	_	start_char=83|end_char=89|NER=O
+16	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=90|end_char=93|NER=O
+17	pa	pa	ADP	_	Case=Acc	36	case	_	start_char=94|end_char=96|NER=O
+18	ndikime	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	advmod	_	start_char=97|end_char=104|NER=O
+19	në	në	ADP	_	Case=Acc	38	case	_	start_char=105|end_char=107|NER=O
+20	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=108|end_char=117|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=118|end_char=119|NER=O
+22	personelit	personel	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=120|end_char=130|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	31	punct	_	start_char=131|end_char=132|NER=O
+
+# text = Këto falë Laboratorit të ri të Anatomisë Patologjike në QSUT .
+# sent_id = 1
+1	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=0|end_char=4|NER=O
+2	falë	falë	ADP	_	Case=Abl	3	case	_	start_char=5|end_char=9|NER=O
+3	Laboratorit	Laborator	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=21|NER=O
+4	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=22|end_char=24|NER=O
+5	ri	ri	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=25|end_char=27|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=28|end_char=30|NER=O
+7	Anatomisë	Anatomi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=31|end_char=40|NER=O
+8	Patologjike	patologjik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=41|end_char=52|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=53|end_char=55|NER=O
+10	QSUT	QSUT	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=56|end_char=60|SpaceAfter=No|NER=B-ORG
+11	.	.	PUNCT	_	_	1	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = Profesoreshë , Majlina Ikonomi , thotë se vlera e shtuar këtij laboratori qëndron tek fakti se çdo ekzaminim del i interpretuar nga profesionistët më të mirë duke shënuar kështu standarte të reja .
+# sent_id = 2
+1	Profesoreshë	profesoreshë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=12|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	3	punct	_	start_char=13|end_char=14|NER=O
+3	Majlina	majlinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=15|end_char=22|NER=B-PER
+4	Ikonomi	Ikonom	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=23|end_char=30|SpaceAfter=No|NER=I-PER
+5	,	,	PUNCT	_	_	3	punct	_	start_char=31|end_char=32|NER=O
+6	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=33|end_char=38|NER=O
+7	se	se	SCONJ	_	_	13	mark	_	start_char=39|end_char=41|NER=O
+8	vlera	vlerë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=42|end_char=47|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=48|end_char=49|NER=O
+10	shtuar	shtoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=50|end_char=56|NER=O
+11	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=57|end_char=62|NER=O
+12	laboratori	laborator	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=63|end_char=73|NER=O
+13	qëndron	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=74|end_char=81|NER=O
+14	tek	tek	ADP	_	Case=Nom	15	case	_	start_char=82|end_char=85|NER=O
+15	fakti	fakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=86|end_char=91|NER=O
+16	se	se	SCONJ	_	_	19	mark	_	start_char=92|end_char=94|NER=O
+17	çdo	çdo	PRON	_	PronType=Ind	18	nummod	_	start_char=95|end_char=98|NER=O
+18	ekzaminim	ekzaminim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	start_char=99|end_char=108|NER=O
+19	del	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=109|end_char=112|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=113|end_char=114|NER=O
+21	interpretuar	interpretuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	cop	_	start_char=115|end_char=127|NER=O
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=128|end_char=131|NER=O
+23	profesionistët	profesionistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	obl	_	start_char=132|end_char=146|NER=O
+24	më	më	PART	_	_	26	mark	_	start_char=147|end_char=149|NER=O
+25	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	26	det	_	start_char=150|end_char=152|NER=O
+26	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=153|end_char=157|NER=O
+27	duke	duke	PART	_	_	28	fixed	_	start_char=158|end_char=162|NER=O
+28	shënuar	shënoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=163|end_char=170|NER=O
+29	kështu	kështu	ADV	_	AdvType=Man	30	advmod	_	start_char=171|end_char=177|NER=O
+30	standarte	standart	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obj	_	start_char=178|end_char=187|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=188|end_char=190|NER=O
+32	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=191|end_char=195|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	28	punct	_	start_char=196|end_char=197|NER=O
+
+# text = Lajmi i mirë për pacientët është kohëpritja e cila do të reduktohet nga mbi një muaj që është aktualisht në disa ditë për ekzaminime të thjeshta dhe maksimumi në 10 ditë për tumoret .
+# sent_id = 3
+1	Lajmi	Lajm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=8|end_char=12|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=16|NER=O
+5	pacientët	pacientë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=17|end_char=26|NER=O
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=32|NER=O
+7	kohëpritja	kohëpritje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	cop	_	start_char=33|end_char=43|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=44|end_char=45|NER=O
+9	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	start_char=46|end_char=50|NER=O
+10	do	do	PART	_	_	12	fixed	_	start_char=51|end_char=53|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=54|end_char=56|NER=O
+12	reduktohet	reduktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	acl	_	start_char=57|end_char=67|NER=O
+13	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=68|end_char=71|NER=O
+14	mbi	mbi	ADP	_	Case=Acc	16	case	_	start_char=72|end_char=75|NER=O
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=76|end_char=79|NER=O
+16	muaj	muaj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=80|end_char=84|NER=O
+17	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=85|end_char=87|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl	_	start_char=88|end_char=93|NER=O
+19	aktualisht	aktualisht	ADV	_	AdvType=Man	18	advmod	_	start_char=94|end_char=104|NER=O
+20	në	në	ADP	_	Case=Acc	22	case	_	start_char=105|end_char=107|NER=O
+21	disa	disa	PRON	_	PronType=Ind	22	nummod	_	start_char=108|end_char=112|NER=O
+22	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	advmod	_	start_char=113|end_char=117|NER=O
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=118|end_char=121|NER=O
+24	ekzaminime	ekzaminim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=122|end_char=132|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=133|end_char=135|NER=O
+26	thjeshta	thjeshtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=136|end_char=144|NER=O
+27	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=145|end_char=148|NER=O
+28	maksimumi	maksimum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	conj	_	start_char=149|end_char=158|NER=O
+29	në	në	ADP	_	Case=Acc	31	case	_	start_char=159|end_char=161|NER=O
+30	10	10	NUM	_	NumType=Card	31	nummod	_	start_char=162|end_char=164|NER=O
+31	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	nmod	_	start_char=165|end_char=169|NER=O
+32	për	për	ADP	_	Case=Acc	33	case	_	start_char=170|end_char=173|NER=O
+33	tumoret	tumor	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	start_char=174|end_char=181|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	18	punct	_	start_char=182|end_char=183|SpacesAfter=\n|NER=O
+

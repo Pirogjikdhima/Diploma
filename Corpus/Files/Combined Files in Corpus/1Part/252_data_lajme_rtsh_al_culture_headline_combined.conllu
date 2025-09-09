@@ -1,0 +1,339 @@
+# text = 30 / 10 / 2023 Instituti i Historisë publikohet botimin " Historia e shqiptarëve gjatë shekullit XX " në pesë vëllime .
+# sent_id = 0
+1	30	30	NUM	_	NumType=Card	16	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	16	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	18	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	18	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Instituti	Institut	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=15|end_char=24|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=25|end_char=26|NER=O
+8	Historisë	Histori	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	flat	_	start_char=27|end_char=36|NER=O
+9	publikohet	publikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	conj	_	start_char=37|end_char=47|NER=O
+10	botimin	botim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=48|end_char=55|NER=O
+11	"	"	PUNCT	_	_	27	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=O
+12	Historia	Histori	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=58|end_char=66|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=67|end_char=68|NER=O
+14	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	27	nmod	_	start_char=69|end_char=80|NER=O
+15	gjatë	gjatë	ADP	_	Case=Abl	31	case	_	start_char=81|end_char=86|NER=O
+16	shekullit	shekull	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=87|end_char=96|NER=O
+17	XX	XX	NUM	_	NumType=Card	31	amod:nummod	_	start_char=97|end_char=99|SpaceAfter=No|NER=O
+18	"	"	PUNCT	_	_	36	punct	_	start_char=100|end_char=101|NER=O
+19	në	në	ADP	_	Case=Acc	36	case	_	start_char=102|end_char=104|NER=O
+20	pesë	pesë	NUM	_	NumType=Card	36	nummod	_	start_char=105|end_char=109|NER=O
+21	vëllime	vëllim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	advmod	_	start_char=110|end_char=117|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	24	punct	_	start_char=118|end_char=119|NER=O
+
+# text = Ky eshte një produkt i punës se palodhur të 44 studiuesve , stafit kërkimor në Institutin e Historisë , në Universitetin e Tiranës , në institucione të tjera universitare në vend , si dhe në institucione homologe në Prishtinë dhe Tetovë .
+# sent_id = 1
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	eshte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	produkt	produkt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=13|end_char=20|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=21|end_char=22|NER=O
+6	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=23|end_char=28|NER=O
+7	se	se	SCONJ	_	_	8	mark	_	start_char=29|end_char=31|NER=O
+8	palodhur	palodhur	VERB	_	VerbForm=Part	2	csubj	_	start_char=32|end_char=40|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=41|end_char=43|NER=O
+10	44	44	NUM	_	NumType=Card	11	nummod	_	start_char=44|end_char=46|NER=O
+11	studiuesve	studiuesë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	obj	_	start_char=47|end_char=57|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=58|end_char=59|NER=O
+13	stafit	staf	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=60|end_char=66|NER=O
+14	kërkimor	kërkimor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=67|end_char=75|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=76|end_char=78|NER=O
+16	Institutin	Institut	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=79|end_char=89|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=90|end_char=91|NER=O
+18	Historisë	Histori	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=92|end_char=101|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	21	punct	_	start_char=102|end_char=103|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=104|end_char=106|NER=O
+21	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=107|end_char=120|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=121|end_char=122|NER=O
+23	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=123|end_char=130|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=131|end_char=132|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=133|end_char=135|NER=O
+26	institucione	institucion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	list	_	start_char=136|end_char=148|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=149|end_char=151|NER=O
+28	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	26	amod	_	start_char=152|end_char=157|NER=O
+29	universitare	universitar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=158|end_char=170|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=171|end_char=173|NER=O
+31	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=174|end_char=178|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	34	punct	_	start_char=179|end_char=180|NER=O
+33	si	si	SCONJ	_	_	34	fixed	_	start_char=181|end_char=183|NER=O
+34	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=184|end_char=187|NER=O
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=188|end_char=190|NER=O
+36	institucione	institucion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	conj	_	start_char=191|end_char=203|NER=O
+37	homologe	homolog	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	36	nmod	_	start_char=204|end_char=212|NER=O
+38	në	në	ADP	_	Case=Acc	39	case	_	start_char=213|end_char=215|NER=O
+39	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	start_char=216|end_char=225|NER=B-VEND_0
+40	dhe	dhe	CCONJ	_	_	41	cc	_	start_char=226|end_char=229|NER=O
+41	Tetovë	Tetovë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	conj	_	start_char=230|end_char=236|SpaceAfter=No|NER=B-VEND_0
+42	.	.	PUNCT	_	_	36	punct	_	start_char=237|end_char=238|SpacesAfter=\n|NER=O
+
+# text = I pranishëm në ceremoninë e publikimit të kësaj vepre volumize , Presidenti Begaj theksoi nevojën për shkrimin sa më të drejtë dhe pa ndikime të historisë .
+# sent_id = 2
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	pranishëm	pranishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	dislocated	_	start_char=2|end_char=11|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=12|end_char=14|NER=O
+4	ceremoninë	ceremoni	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=15|end_char=25|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=26|end_char=27|NER=O
+6	publikimit	publikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=28|end_char=38|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=39|end_char=41|NER=O
+8	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=42|end_char=47|NER=O
+9	vepre	vepër	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=48|end_char=53|NER=O
+10	volumize	volumiz	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=54|end_char=62|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=63|end_char=64|NER=O
+12	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=65|end_char=75|NER=O
+13	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=76|end_char=81|NER=B-PER
+14	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=82|end_char=89|NER=O
+15	nevojën	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=90|end_char=97|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=98|end_char=101|NER=O
+17	shkrimin	shkrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	start_char=102|end_char=110|NER=O
+18	sa	sa	ADV	_	AdvType=Deg	21	advmod	_	start_char=111|end_char=113|NER=O
+19	më	më	PART	_	_	21	mark	_	start_char=114|end_char=116|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=117|end_char=119|NER=O
+21	drejtë	drejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=120|end_char=126|NER=O
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=127|end_char=130|NER=O
+23	pa	pa	ADP	_	Case=Acc	24	case	_	start_char=131|end_char=133|NER=O
+24	ndikime	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	advmod	_	start_char=134|end_char=141|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=142|end_char=144|NER=O
+26	historisë	histori	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=145|end_char=154|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	14	punct	_	start_char=155|end_char=156|SpacesAfter=\n|NER=O
+
+# text = " Nuk duhet të kesh të ardhme pa njohur historinë , në këtë kontekst rrugëtimi ynë drejtë Europës merr një kuptim të veçantë .
+# sent_id = 3
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Nuk	nuk	PART	_	_	5	mark	_	start_char=2|end_char=5|NER=O
+3	duhet	duhem	AUX	_	_	5	aux	_	start_char=6|end_char=11|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=12|end_char=14|NER=O
+5	kesh	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=20|end_char=22|NER=O
+7	ardhme	ardhme	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=23|end_char=29|NER=O
+8	pa	pa	PART	_	_	9	fixed	_	start_char=30|end_char=32|NER=O
+9	njohur	njoh	VERB	_	VerbForm=Part	5	advmod	_	start_char=33|end_char=39|NER=O
+10	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=40|end_char=49|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	14	punct	_	start_char=50|end_char=51|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=52|end_char=54|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=55|end_char=59|NER=O
+14	kontekst	kontekst	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=60|end_char=68|NER=O
+15	rrugëtimi	rrugëtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=69|end_char=78|NER=O
+16	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	appos	_	start_char=79|end_char=82|NER=O
+17	drejtë	drejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=83|end_char=89|NER=O
+18	Europës	Europë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=90|end_char=97|NER=O
+19	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=98|end_char=102|NER=O
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=103|end_char=106|NER=O
+21	kuptim	kuptim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	start_char=107|end_char=113|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=114|end_char=116|NER=O
+23	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=117|end_char=124|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=125|end_char=126|NER=O
+
+# text = Ajo është në në farë mënyrë kthim në origjinë , prandaj është me rëndësi që tregimi i drejtë i narrativës të kombit tonë të shihet nën dritën e përpjekjeve tona historike për të ndërtuar një shoqëri të drejtë me frymë europiane .
+# sent_id = 4
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	6	case	_	start_char=10|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=13|end_char=15|NER=O
+5	farë	farë	PRON	_	PronType=Ind	6	nummod	_	start_char=16|end_char=20|NER=O
+6	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=21|end_char=27|NER=O
+7	kthim	kthim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=28|end_char=33|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=34|end_char=36|NER=O
+9	origjinë	origjinë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=37|end_char=45|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=46|end_char=47|NER=O
+11	prandaj	prandaj	SCONJ	_	_	12	cc	_	start_char=48|end_char=55|NER=O
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=56|end_char=61|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=62|end_char=64|NER=O
+14	rëndësi	rëndësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=65|end_char=72|NER=O
+15	që	që	SCONJ	_	_	25	mark	_	start_char=73|end_char=75|NER=O
+16	tregimi	tregim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	cop	_	start_char=76|end_char=83|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=84|end_char=85|NER=O
+18	drejtë	drejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=86|end_char=92|NER=O
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=93|end_char=94|NER=O
+20	narrativës	narrativë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=95|end_char=105|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=106|end_char=108|NER=O
+22	kombit	komb	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=109|end_char=115|NER=O
+23	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	amod:poss	_	start_char=116|end_char=120|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=121|end_char=123|NER=O
+25	shihet	shihet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	20	acl	_	start_char=124|end_char=130|NER=O
+26	nën	nën	ADP	_	Case=Acc	27	case	_	start_char=131|end_char=134|NER=O
+27	dritën	dritë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=135|end_char=141|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=142|end_char=143|NER=O
+29	përpjekjeve	përpjekje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=144|end_char=155|NER=O
+30	tona	jonë	PRON	_	Case=Gen|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	amod	_	start_char=156|end_char=160|NER=O
+31	historike	historik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=161|end_char=170|NER=O
+32	për	për	PART	_	_	34	fixed	_	start_char=171|end_char=174|NER=O
+33	të	të	PART	_	_	34	fixed	_	start_char=175|end_char=177|NER=O
+34	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	25	advmod	_	start_char=178|end_char=186|NER=O
+35	një	një	DET	_	Definite=Ind	36	det	_	start_char=187|end_char=190|NER=O
+36	shoqëri	shoqër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	obj	_	start_char=191|end_char=198|NER=O
+37	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=199|end_char=201|NER=O
+38	drejtë	drejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=202|end_char=208|NER=O
+39	me	me	ADP	_	Case=Acc	40	case	_	start_char=209|end_char=211|NER=O
+40	frymë	frymë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	start_char=212|end_char=217|NER=O
+41	europiane	europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	start_char=218|end_char=227|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	34	punct	_	start_char=228|end_char=229|NER=O
+
+# text = Natyrisht rrugës kemi pasur pengesa dhe devijime por kursi është i qartë dhe ne jemi të vendosur për destinacionin tonë drejt Europës demokratike " , tha Begaj ne fjalën e tij .
+# sent_id = 5
+1	Natyrisht	natyrisht	ADV	_	AdvType=Man	2	advmod	_	start_char=0|end_char=9|NER=O
+2	rrugës	rrugë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=10|end_char=16|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=17|end_char=21|NER=O
+4	pasur	kam	VERB	_	VerbForm=Part	10	advcl	_	start_char=22|end_char=27|NER=O
+5	pengesa	pengesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=28|end_char=35|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=36|end_char=39|NER=O
+7	devijime	devijim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	start_char=40|end_char=48|NER=O
+8	por	por	CCONJ	_	_	9	cc	_	start_char=49|end_char=52|NER=O
+9	kursi	kurs	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	start_char=53|end_char=58|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=64|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=65|end_char=66|NER=O
+12	qartë	qartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	cop	_	start_char=67|end_char=72|NER=O
+13	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=73|end_char=76|NER=O
+14	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=77|end_char=79|NER=O
+15	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	conj	_	start_char=80|end_char=84|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=85|end_char=87|NER=O
+17	vendosur	vendosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	cop	_	start_char=88|end_char=96|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=97|end_char=100|NER=O
+19	destinacionin	destinacion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=101|end_char=114|NER=O
+20	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	amod:poss	_	start_char=115|end_char=119|NER=O
+21	drejt	drejt	ADP	_	Case=Abl	22	case	_	start_char=120|end_char=125|NER=O
+22	Europës	Europë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=126|end_char=133|NER=O
+23	demokratike	demokratik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=134|end_char=145|SpaceAfter=No|NER=O
+24	"	"	PUNCT	_	_	22	punct	_	start_char=146|end_char=147|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	25	punct	_	start_char=148|end_char=149|NER=O
+26	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	parataxis	_	start_char=150|end_char=153|NER=O
+27	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	start_char=154|end_char=159|NER=B-PER
+28	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nummod	_	start_char=160|end_char=162|NER=O
+29	fjalën	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=163|end_char=169|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=170|end_char=171|NER=O
+31	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	amod:poss	_	start_char=172|end_char=175|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	25	punct	_	start_char=176|end_char=177|SpacesAfter=\n|NER=O
+
+# text = Historiani Beqir Meta i cili është edhe drejtues shkencor i këtij projekti 10 vjeçar u ndal tek kujdesi që është treguar për të sjellë faktet historike të periudhave të ndryshme në mënyrë sa më të balancuar .
+# sent_id = 6
+1	Historiani	Historian	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=0|end_char=10|NER=O
+2	Beqir	Beqir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=11|end_char=16|NER=B-PER
+3	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=17|end_char=21|NER=I-PER
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=22|end_char=23|NER=O
+5	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	start_char=24|end_char=28|NER=O
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl	_	start_char=29|end_char=34|NER=O
+7	edhe	edhe	PART	_	_	8	mark:emph	_	start_char=35|end_char=39|NER=O
+8	drejtues	drejtue	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	cop	_	start_char=40|end_char=48|NER=O
+9	shkencor	shkencor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=49|end_char=57|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=58|end_char=59|NER=O
+11	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=60|end_char=65|NER=O
+12	projekti	projekt	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=66|end_char=74|NER=O
+13	10	10	NUM	_	NumType=Card	12	nummod	_	start_char=75|end_char=77|NER=O
+14	vjeçar	vjeçar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=78|end_char=84|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=85|end_char=86|NER=O
+16	ndal	ndal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=87|end_char=91|NER=O
+17	tek	tek	ADP	_	Case=Nom	18	case	_	start_char=92|end_char=95|NER=O
+18	kujdesi	kujdes	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	start_char=96|end_char=103|NER=O
+19	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=104|end_char=106|NER=O
+20	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=107|end_char=112|NER=O
+21	treguar	tregoj	VERB	_	VerbForm=Part	16	advcl	_	start_char=113|end_char=120|NER=O
+22	për	për	PART	_	_	24	fixed	_	start_char=121|end_char=124|NER=O
+23	të	të	PART	_	_	24	fixed	_	start_char=125|end_char=127|NER=O
+24	sjellë	sjell	VERB	_	VerbForm=Part	21	advmod	_	start_char=128|end_char=134|NER=O
+25	faktet	fakt	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	24	obj	_	start_char=135|end_char=141|NER=O
+26	historike	historik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=142|end_char=151|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=152|end_char=154|NER=O
+28	periudhave	periudhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=155|end_char=165|NER=O
+29	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=166|end_char=168|NER=O
+30	ndryshme	ndryshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=169|end_char=177|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=178|end_char=180|NER=O
+32	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	start_char=181|end_char=187|NER=O
+33	sa	sa	ADV	_	AdvType=Deg	36	advmod	_	start_char=188|end_char=190|NER=O
+34	më	më	PART	_	_	36	mark	_	start_char=191|end_char=193|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=194|end_char=196|NER=O
+36	balancuar	balancuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=197|end_char=206|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	16	punct	_	start_char=207|end_char=208|SpacesAfter=\n|NER=O
+
+# text = " Në vëllimin e katër i cili trajton periudhën më të debatueshme në historinë tonë për periudhën e Luftës së Dytë Botërore është bërë një kujdes i madh që të paraqiten të gjitha ngjarjet , por dhe forcat politiko - ushtarake të kohës në mënyrë sa më të balancuar .
+# sent_id = 7
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	vëllimin	vëllim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=5|end_char=13|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=15|NER=O
+5	katër	katër	NUM	_	NumType=Card	3	nummod	_	start_char=16|end_char=21|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=22|end_char=23|NER=O
+7	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	start_char=24|end_char=28|NER=O
+8	trajton	trajtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=29|end_char=36|NER=O
+9	periudhën	periudhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=37|end_char=46|NER=O
+10	më	më	PART	_	_	12	mark	_	start_char=47|end_char=49|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=52|NER=O
+12	debatueshme	debatueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=53|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=65|end_char=67|NER=O
+14	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=68|end_char=77|NER=O
+15	tonë	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	amod	_	start_char=78|end_char=82|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=83|end_char=86|NER=O
+17	periudhën	periudhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=87|end_char=96|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=97|end_char=98|NER=O
+19	Luftës	luftë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=99|end_char=105|NER=O
+20	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=106|end_char=108|NER=O
+21	Dytë	dytë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=109|end_char=113|NER=O
+22	Botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=114|end_char=122|NER=O
+23	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=123|end_char=128|NER=O
+24	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=129|end_char=133|NER=O
+25	një	një	DET	_	Definite=Ind	26	det	_	start_char=134|end_char=137|NER=O
+26	kujdes	kujdes	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=138|end_char=144|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=145|end_char=146|NER=O
+28	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=147|end_char=151|NER=O
+29	që	që	SCONJ	_	_	31	mark	_	start_char=152|end_char=154|NER=O
+30	të	të	PART	_	_	31	fixed	_	start_char=155|end_char=157|NER=O
+31	paraqiten	paraqit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	24	advcl	_	start_char=158|end_char=167|NER=O
+32	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	34	det:poss	_	start_char=168|end_char=170|NER=O
+33	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	34	nummod	_	start_char=171|end_char=177|NER=O
+34	ngjarjet	ngjarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	31	obj	_	start_char=178|end_char=186|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	36	punct	_	start_char=187|end_char=188|NER=O
+36	por	por	CCONJ	_	_	38	cc	_	start_char=189|end_char=192|NER=O
+37	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=193|end_char=196|NER=O
+38	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	34	conj	_	start_char=197|end_char=203|NER=O
+39	politiko	politiko-uhtarkak	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=204|end_char=212|NER=O
+40	-	-	PUNCT	_	_	38	punct	_	start_char=213|end_char=214|NER=O
+41	ushtarake	politiko-uhtarkak	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=215|end_char=224|NER=O
+42	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	41	det:poss	_	start_char=225|end_char=227|NER=O
+43	kohës	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=228|end_char=233|NER=O
+44	në	në	ADP	_	Case=Acc	43	case	_	start_char=234|end_char=236|NER=O
+45	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	41	nmod	_	start_char=237|end_char=243|NER=O
+46	sa	sa	ADV	_	AdvType=Deg	47	advmod	_	start_char=244|end_char=246|NER=O
+47	më	më	PART	_	_	47	mark	_	start_char=247|end_char=249|NER=O
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	47	det	_	start_char=250|end_char=252|NER=O
+49	balancuar	balancuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	start_char=253|end_char=262|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	24	punct	_	start_char=263|end_char=264|NER=O
+
+# text = Kjo analizë është bazuar mbi burime të shumta që nuk ekziston në botimet e mëparshme shqiptare dhe të huaja " , tha Beqie Meta .
+# sent_id = 8
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	analizë	analizë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4|end_char=11|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=12|end_char=17|NER=O
+4	bazuar	bazoj	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=24|NER=O
+5	mbi	mbi	ADP	_	Case=Acc	6	case	_	start_char=25|end_char=28|NER=O
+6	burime	burim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	start_char=29|end_char=35|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=36|end_char=38|NER=O
+8	shumta	shumta	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=39|end_char=45|NER=O
+9	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=46|end_char=48|NER=O
+10	nuk	nuk	PART	_	_	11	mark	_	start_char=49|end_char=52|NER=O
+11	ekziston	ekzistoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl	_	start_char=53|end_char=61|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=62|end_char=64|NER=O
+13	botimet	botim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	start_char=65|end_char=72|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=73|end_char=74|NER=O
+15	mëparshme	mëparshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=75|end_char=84|NER=O
+16	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=85|end_char=94|NER=O
+17	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=95|end_char=98|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=99|end_char=101|NER=O
+19	huaja	huaja	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	conj	_	start_char=102|end_char=107|SpaceAfter=No|NER=O
+20	"	"	PUNCT	_	_	16	punct	_	start_char=108|end_char=109|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	21	punct	_	start_char=110|end_char=111|NER=O
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=112|end_char=115|NER=O
+23	Beqie	Beqi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=116|end_char=121|NER=B-PER
+24	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	flat	_	start_char=122|end_char=126|SpaceAfter=No|NER=I-PER
+25	.	.	PUNCT	_	_	21	punct	_	start_char=127|end_char=128|SpacesAfter=\n|NER=O
+
+# text = Gazetar : O .
+# sent_id = 9
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	O	o	NUM	_	NumType=Card	1	flat	_	start_char=10|end_char=11|SpaceAfter=No|NER=B-PER
+4	.	.	PUNCT	_	_	1	punct	_	start_char=12|end_char=13|NER=O
+
+# text = Saraçi
+# sent_id = 10
+1	Saraçi	Saraçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpacesAfter=\n\n|NER=I-PER
+

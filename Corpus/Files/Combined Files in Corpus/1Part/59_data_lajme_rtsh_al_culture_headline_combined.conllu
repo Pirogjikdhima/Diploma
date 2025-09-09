@@ -1,0 +1,46 @@
+# text = 29 / 12 / 2023 Këshilli Kombëtar i Trashëgimisë Kulturore Jomateriale ka vendosur në listën e kryevlerave kombëtare , vallen devolliçe .
+# sent_id = 0
+1	29	29	NUM	_	NumType=Card	12	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	7	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	12	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Këshilli	Këshill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=15|end_char=23|NER=B-ORG
+7	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	flat	_	start_char=24|end_char=32|NER=I-ORG
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=33|end_char=34|NER=I-ORG
+9	Trashëgimisë	Trashëgimim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	compound	_	start_char=35|end_char=47|NER=I-ORG
+10	Kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=48|end_char=57|NER=I-ORG
+11	Jomateriale	Jomaterial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=58|end_char=69|NER=I-ORG
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=70|end_char=72|NER=O
+13	vendosur	vendos	VERB	_	VerbForm=Part	2	conj	_	start_char=73|end_char=81|NER=O
+14	në	në	ADP	_	Case=Acc	23	case	_	start_char=82|end_char=84|NER=O
+15	listën	listë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=85|end_char=91|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=92|end_char=93|NER=O
+17	kryevlerave	kryevlerë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=94|end_char=105|NER=O
+18	kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=106|end_char=115|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	28	punct	_	start_char=116|end_char=117|NER=O
+20	vallen	valle	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	appos	_	start_char=118|end_char=124|NER=O
+21	devolliçe	devolliç	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=125|end_char=134|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	21	punct	_	start_char=135|end_char=136|NER=O
+
+# text = Vendimi vjen pas shqyrtimit të propozimit të Shoqatës atdhetare kulturore " Devolli " dhe bashkisë së Devollit .
+# sent_id = 1
+1	Vendimi	Vendim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+3	pas	pas	ADP	_	Case=Abl	4	case	_	start_char=13|end_char=16|NER=O
+4	shqyrtimit	shqyrtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=17|end_char=27|NER=O
+5	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=28|end_char=30|NER=O
+6	propozimit	propozim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=31|end_char=41|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=42|end_char=44|NER=O
+8	Shoqatës	shoqatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=45|end_char=53|NER=B-ORG
+9	atdhetare	atdhetar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=54|end_char=63|NER=I-ORG
+10	kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=64|end_char=73|NER=I-ORG
+11	"	"	PUNCT	_	_	12	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+12	Devolli	Devolli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=76|end_char=83|NER=I-ORG
+13	"	"	PUNCT	_	_	8	punct	_	start_char=84|end_char=85|NER=O
+14	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=86|end_char=89|NER=O
+15	bashkisë	bashki	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	start_char=90|end_char=98|NER=O
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=99|end_char=101|NER=O
+17	Devollit	Devoll	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=102|end_char=110|SpaceAfter=No|NER=B-VEND_0
+18	.	.	PUNCT	_	_	2	punct	_	start_char=111|end_char=112|SpacesAfter=\n|NER=O
+

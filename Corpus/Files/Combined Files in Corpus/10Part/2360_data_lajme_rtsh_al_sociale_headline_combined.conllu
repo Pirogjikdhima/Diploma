@@ -1,0 +1,275 @@
+# text = Spitali " Memorial " në Fier , në nëntë muaj mbi 36 mijë shërbime 20 / 02 / 2022 Mbi 36 mijë shërbime , janë ofruar në 9 muaj në spitalin " Memorial " të Fierit .
+# sent_id = 0
+1	Spitali	spital	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	"	"	PUNCT	_	_	3	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=O
+3	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=10|end_char=18|NER=O
+4	"	"	PUNCT	_	_	1	punct	_	start_char=19|end_char=20|NER=O
+5	në	në	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=23|NER=O
+6	Fier	Fier	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=24|end_char=28|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	9	punct	_	start_char=29|end_char=30|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=31|end_char=33|NER=O
+9	nëntë	nëntë	NUM	_	NumType=Card	9	nummod	_	start_char=34|end_char=39|NER=O
+10	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	advmod	_	start_char=40|end_char=44|NER=O
+11	mbi	mbi	ADP	_	Case=Acc	13	case	_	start_char=45|end_char=48|NER=O
+12	36	36	NUM	_	NumType=Card	13	nummod	_	start_char=49|end_char=51|NER=O
+13	mijë	mijë	NUM	_	NumType=Card	13	nummod	_	start_char=52|end_char=56|NER=O
+14	shërbime	shërbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	nmod	_	start_char=57|end_char=65|SpacesAfter=\n|NER=O
+15	20	20	NUM	_	NumType=Card	15	nummod	_	start_char=66|end_char=68|SpaceAfter=No|NER=B-DATE_0
+16	/	/	PUNCT	_	_	13	punct	_	start_char=69|end_char=70|SpaceAfter=No|NER=I-DATE_0
+17	02	02	NUM	_	NumType=Card	13	nmod	_	start_char=71|end_char=73|SpaceAfter=No|NER=I-DATE_0
+18	/	/	PUNCT	_	_	15	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=I-DATE_0
+19	2022	2022	NUM	_	NumType=Card	15	amod:nummod	_	start_char=76|end_char=80|SpaceAfter=No|NER=I-DATE_0
+20	Mbi	mbi	ADP	_	Case=Acc	4	case	_	start_char=81|end_char=84|NER=O
+21	36	36	NUM	_	NumType=Card	4	nummod	_	start_char=85|end_char=87|NER=O
+22	mijë	mijë	NUM	_	NumType=Card	4	nummod	_	start_char=88|end_char=92|NER=O
+23	shërbime	shërbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	advmod	_	start_char=93|end_char=101|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	4	punct	_	start_char=102|end_char=103|NER=O
+25	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=104|end_char=108|NER=O
+26	ofruar	ofroj	VERB	_	VerbForm=Part	0	root	_	start_char=109|end_char=115|NER=O
+27	në	në	ADP	_	Case=Acc	10	case	_	start_char=116|end_char=118|NER=O
+28	9	9	NUM	_	NumType=Card	10	nummod	_	start_char=119|end_char=120|NER=O
+29	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	advmod	_	start_char=121|end_char=125|NER=O
+30	në	në	ADP	_	Case=Acc	12	case	_	start_char=126|end_char=128|NER=O
+31	spitalin	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=129|end_char=137|NER=O
+32	"	"	PUNCT	_	_	14	punct	_	start_char=138|end_char=139|SpaceAfter=No|NER=O
+33	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=140|end_char=148|NER=O
+34	"	"	PUNCT	_	_	12	punct	_	start_char=149|end_char=150|NER=O
+35	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=151|end_char=153|NER=O
+36	Fierit	Fier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	compound	_	start_char=154|end_char=160|SpaceAfter=No|NER=B-VEND_0
+37	.	.	PUNCT	_	_	7	punct	_	start_char=161|end_char=162|NER=O
+
+# text = Por tej shifrës ata që besuan që në hapjen e këtij spitali vlerësojnë qasjen e re .
+# sent_id = 1
+1	Por	por	CCONJ	_	_	13	cc	_	start_char=0|end_char=3|NER=O
+2	tej	tej	ADV	_	AdvType=Loc	13	advmod	_	start_char=4|end_char=7|NER=O
+3	shifrës	shifrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=8|end_char=15|NER=O
+4	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=16|end_char=19|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=20|end_char=22|NER=O
+6	besuan	besoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	start_char=23|end_char=29|NER=O
+7	që	që	PART	_	_	6	obj	_	start_char=30|end_char=32|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=33|end_char=35|NER=O
+9	hapjen	hapje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=36|end_char=42|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=43|end_char=44|NER=O
+11	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=45|end_char=50|NER=O
+12	spitali	spital	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=51|end_char=58|NER=O
+13	vlerësojnë	vlerësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=69|NER=O
+14	qasjen	qasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=70|end_char=76|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=77|end_char=78|NER=O
+16	re	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=81|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	13	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+
+# text = Pacientët janë kryesisht nga qarqet Fier , Vlorë dhe Gjirokastër , e vijnë në këtë spital përmes sistemit të referimit .
+# sent_id = 2
+1	Pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=0|end_char=9|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=14|NER=O
+3	kryesisht	kryesisht	ADV	_	AdvType=Man	2	advmod	_	start_char=15|end_char=24|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=25|end_char=28|NER=O
+5	qarqet	qark	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	start_char=29|end_char=35|NER=O
+6	Fier	Fier	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=36|end_char=40|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	8	punct	_	start_char=41|end_char=42|NER=O
+8	Vlorë	Vlorë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	appos	_	start_char=43|end_char=48|NER=B-VEND_0
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=49|end_char=52|NER=O
+10	Gjirokastër	Gjirokastër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=53|end_char=64|SpaceAfter=No|NER=B-VEND_0
+11	,	,	PUNCT	_	_	8	punct	_	start_char=65|end_char=66|NER=O
+12	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=67|end_char=68|NER=O
+13	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=69|end_char=74|NER=O
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=75|end_char=77|NER=O
+15	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=78|end_char=82|NER=O
+16	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	start_char=83|end_char=89|NER=O
+17	përmes	përmes	ADP	_	Case=Abl	18	case	_	start_char=90|end_char=96|NER=O
+18	sistemit	sistem	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=97|end_char=105|NER=O
+19	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=106|end_char=108|NER=O
+20	referimit	referim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=109|end_char=118|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	13	punct	_	start_char=119|end_char=120|NER=O
+
+# text = Stafi shqiptaro - turk , afro 400 vetë , ndajnë bashkë çdo gjë .
+# sent_id = 3
+1	Stafi	staf	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=0|end_char=5|NER=O
+2	shqiptaro	shqiptaro-turk	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=6|end_char=15|SpaceAfter=No|NER=O
+3	-	-	PUNCT	_	_	1	punct	_	start_char=16|end_char=17|SpaceAfter=No|NER=O
+4	turk	shqiptaro-turk	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=18|end_char=22|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	4	punct	_	start_char=23|end_char=24|NER=O
+6	afro	afro	NUM	_	NumType=Card	6	nummod	_	start_char=25|end_char=29|NER=O
+7	400	400	NUM	_	NumType=Card	6	nummod	_	start_char=30|end_char=33|NER=O
+8	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	2	conj	_	start_char=34|end_char=38|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	6	punct	_	start_char=39|end_char=40|NER=O
+10	ndajnë	ndaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=41|end_char=47|NER=O
+11	bashkë	bashkë	ADV	_	AdvType=Man	8	advmod	_	start_char=48|end_char=54|NER=O
+12	çdo	çdo	PRON	_	PronType=Ind	11	nummod	_	start_char=55|end_char=58|NER=O
+13	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=59|end_char=62|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	8	punct	_	start_char=63|end_char=64|SpacesAfter=\n|NER=O
+
+# text = " Kam 6 muaj që punoj në spitalin " Memorial " .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kam	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=5|NER=O
+3	6	6	NUM	_	NumType=Card	4	nummod	_	start_char=6|end_char=7|NER=O
+4	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=8|end_char=12|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=13|end_char=15|NER=O
+6	punoj	punoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=16|end_char=21|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=22|end_char=24|NER=O
+8	spitalin	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=25|end_char=33|NER=O
+9	"	"	PUNCT	_	_	10	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+10	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=36|end_char=44|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	8	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	2	punct	_	start_char=47|end_char=48|NER=O
+
+# text = Të dy popujt tanë kanë kulturë të përbashkët , vetëm gjuha i dallon , prandaj nuk ka qenë e vështirë për mua që të përshtatem këtu , në Shqipëri .
+# sent_id = 5
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	dy	dy	NUM	_	NumType=Sets	3	nummod	_	start_char=3|end_char=5|NER=O
+3	popujt	popujt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=6|end_char=12|NER=O
+4	tanë	tanë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	amod	_	start_char=13|end_char=17|NER=O
+5	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=22|NER=O
+6	kulturë	kulturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=23|end_char=30|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=31|end_char=33|NER=O
+8	përbashkët	përbashkët	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=34|end_char=44|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46|NER=O
+10	vetëm	vetëm	ADV	_	AdvType=Man	13	mark	_	start_char=47|end_char=52|NER=O
+11	gjuha	gjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=53|end_char=58|NER=O
+12	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=59|end_char=60|NER=O
+13	dallon	dalloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=61|end_char=67|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|NER=O
+15	prandaj	prandaj	SCONJ	_	_	18	cc	_	start_char=70|end_char=77|NER=O
+16	nuk	nuk	PART	_	_	18	mark	_	start_char=78|end_char=81|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=82|end_char=84|NER=O
+18	qenë	jam	VERB	_	VerbForm=Part	13	conj	_	start_char=85|end_char=89|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=90|end_char=91|NER=O
+20	vështirë	vështirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	cop	_	start_char=92|end_char=100|NER=O
+21	për	për	ADP	_	Case=Acc	22	case	_	start_char=101|end_char=104|NER=O
+22	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	advmod	_	start_char=105|end_char=108|NER=O
+23	që	që	SCONJ	_	_	25	mark	_	start_char=109|end_char=111|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=112|end_char=114|NER=O
+25	përshtatem	përshtat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=115|end_char=125|NER=O
+26	këtu	ky	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	25	obj	_	start_char=126|end_char=130|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	29	punct	_	start_char=131|end_char=132|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=133|end_char=135|NER=O
+29	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=136|end_char=144|SpaceAfter=No|NER=B-VEND_1
+30	.	.	PUNCT	_	_	18	punct	_	start_char=145|end_char=146|NER=O
+
+# text = Për këtë periudhë kam bërë 100 operacione dhe 1 mijë konsulta .
+# sent_id = 6
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=3|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=4|end_char=8|NER=O
+3	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=9|end_char=17|NER=O
+4	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	5	aux	_	start_char=18|end_char=21|NER=O
+5	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=26|NER=O
+6	100	100	NUM	_	NumType=Card	7	nummod	_	start_char=27|end_char=30|NER=O
+7	operacione	operacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=31|end_char=41|NER=O
+8	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=42|end_char=45|NER=O
+9	1	1	NUM	_	NumType=Card	11	nummod	_	start_char=46|end_char=47|NER=O
+10	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	det	_	start_char=48|end_char=52|NER=O
+11	konsulta	konsultë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	conj	_	start_char=53|end_char=61|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	5	punct	_	start_char=62|end_char=63|NER=O
+
+# text = Kam bërë disa ndërhyrje të vështira .
+# sent_id = 7
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=8|NER=O
+3	disa	disa	PRON	_	PronType=Ind	4	nummod	_	start_char=9|end_char=13|NER=O
+4	ndërhyrje	ndërhyrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=14|end_char=23|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	vështira	vështirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=27|end_char=35|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	2	punct	_	start_char=36|end_char=37|NER=O
+
+# text = Nga pacientët kemi marrë vlerësime shumë të mira .
+# sent_id = 8
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	advmod	_	start_char=4|end_char=13|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=14|end_char=18|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=24|NER=O
+5	vlerësime	vlerësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=25|end_char=34|NER=O
+6	shumë	shumë	ADV	_	AdvType=Deg	8	advmod	_	start_char=35|end_char=40|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=41|end_char=43|NER=O
+8	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=44|end_char=48|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	4	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Për ne është i rëndësishëm shëndeti i tyre .
+# sent_id = 9
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	ne	ne	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	start_char=4|end_char=6|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=13|end_char=14|NER=O
+5	rëndësishëm	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=15|end_char=26|NER=O
+6	shëndeti	shëndet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=27|end_char=35|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=36|end_char=37|NER=O
+8	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=38|end_char=42|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=43|end_char=44|NER=O
+
+# text = Kam parë shumë pacientë me gur në veshka , ndaj këshilla ime e parë është që të pakësojnë sasinë e kripës që përdorin dhe të konsumojnë sa më shumë ujë .
+# sent_id = 10
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	parë	shoh	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=8|NER=O
+3	shumë	shumë	PRON	_	PronType=Ind	4	nummod	_	start_char=9|end_char=14|NER=O
+4	pacientë	pacientë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=15|end_char=23|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=24|end_char=26|NER=O
+6	gur	gur	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=27|end_char=30|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=33|NER=O
+8	veshka	veshkë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=34|end_char=40|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	2	punct	_	start_char=41|end_char=42|NER=O
+10	ndaj	ndaj	ADP	_	Case=Abl	11	case	_	start_char=43|end_char=47|NER=O
+11	këshilla	këshillë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=48|end_char=56|NER=O
+12	ime	ime	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	amod	_	start_char=57|end_char=60|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=61|end_char=62|NER=O
+14	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=63|end_char=67|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=68|end_char=73|NER=O
+16	që	që	SCONJ	_	_	18	mark	_	start_char=74|end_char=76|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=77|end_char=79|NER=O
+18	pakësojnë	pakësoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	csubj	_	start_char=80|end_char=89|NER=O
+19	sasinë	sasi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=90|end_char=96|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=97|end_char=98|NER=O
+21	kripës	kripë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=99|end_char=105|NER=O
+22	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=106|end_char=108|NER=O
+23	përdorin	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	acl	_	start_char=109|end_char=117|NER=O
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=118|end_char=121|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=122|end_char=124|NER=O
+26	konsumojnë	konsumoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	conj	_	start_char=125|end_char=135|NER=O
+27	sa	sa	ADV	_	AdvType=Deg	30	advmod	_	start_char=136|end_char=138|NER=O
+28	më	më	PART	_	_	30	mark	_	start_char=139|end_char=141|NER=O
+29	shumë	shumë	ADV	_	AdvType=Deg	30	nummod	_	start_char=142|end_char=147|NER=O
+30	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	start_char=148|end_char=151|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	26	punct	_	start_char=152|end_char=153|SpaceAfter=No|NER=O
+
+# text = " , - shprehet Ahmet Teoman , Mjek kirurg - urolog .
+# sent_id = 11
+1	"	"	PUNCT	_	_	30	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	33	punct	_	start_char=2|end_char=3|NER=O
+3	-	-	PUNCT	_	_	30	punct	_	start_char=4|end_char=5|NER=O
+4	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	30	acl:relcl	_	start_char=6|end_char=14|NER=O
+5	Ahmet	Ahmet	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	nsubj	_	start_char=15|end_char=20|NER=B-PER
+6	Teoman	Teoman	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	flat	_	start_char=21|end_char=27|SpaceAfter=No|NER=I-PER
+7	,	,	PUNCT	_	_	37	punct	_	start_char=28|end_char=29|NER=O
+8	Mjek	mjek	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	start_char=30|end_char=34|NER=O
+9	kirurg	kirurg-urolog	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=35|end_char=41|SpaceAfter=No|NER=O
+10	-	-	PUNCT	_	_	37	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+11	urolog	kirurg-urolog	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=44|end_char=50|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	33	punct	_	start_char=51|end_char=52|SpacesAfter=\n|NER=O
+
+# text = Spitali , i cili hapi dyert me 21 prill të vitit të shkuar ka 150 shtretër , 6 shërbime poliklinike , 6 salla operacioni .
+# sent_id = 12
+1	Spitali	spital	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	start_char=12|end_char=16|NER=O
+5	hapi	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	start_char=17|end_char=21|NER=O
+6	dyert	dyrër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=22|end_char=27|NER=O
+7	me	me	ADP	_	Case=Acc	9	case	_	start_char=28|end_char=30|NER=O
+8	21	21	NUM	_	NumType=Card	9	nummod	_	start_char=31|end_char=33|NER=B-DATE_0
+9	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=34|end_char=39|NER=I-DATE_0
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=40|end_char=42|NER=O
+11	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=43|end_char=48|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=49|end_char=51|NER=O
+13	shkuar	shkoj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=52|end_char=58|NER=O
+14	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=61|NER=O
+15	150	150	NUM	_	NumType=Card	16	nummod	_	start_char=62|end_char=65|NER=O
+16	shtretër	shtretër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	start_char=66|end_char=74|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=75|end_char=76|NER=O
+18	6	6	NUM	_	NumType=Card	19	nummod	_	start_char=77|end_char=78|NER=O
+19	shërbime	shërbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=79|end_char=87|NER=O
+20	poliklinike	poliklinik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=88|end_char=99|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=100|end_char=101|NER=O
+22	6	6	NUM	_	NumType=Card	23	nummod	_	start_char=102|end_char=103|NER=O
+23	salla	sallë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	list	_	start_char=104|end_char=109|NER=O
+24	operacioni	operacion	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=110|end_char=120|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	14	punct	_	start_char=121|end_char=122|SpacesAfter=\n|NER=O
+

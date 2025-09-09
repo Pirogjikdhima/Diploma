@@ -1,0 +1,128 @@
+# text = 21 / 06 / 2022 Prej disa javësh qendrat shëndetësore po përballen me raste të shtuara të infektimeve me COVID .
+# sent_id = 0
+1	21	21	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	06	06	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	10	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Prej	prej	ADP	_	Case=Abl	3	case	_	start_char=15|end_char=19|NER=O
+7	disa	disa	PRON	_	PronType=Ind	3	nummod	_	start_char=20|end_char=24|NER=O
+8	javësh	javësh	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=25|end_char=31|NER=O
+9	qendrat	qendër	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=32|end_char=39|NER=O
+10	shëndetësore	shëndetësor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=40|end_char=52|NER=O
+11	po	po	PART	_	_	7	mark	_	start_char=53|end_char=55|NER=O
+12	përballen	përballem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=56|end_char=65|NER=O
+13	me	me	ADP	_	Case=Acc	9	case	_	start_char=66|end_char=68|NER=O
+14	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	start_char=69|end_char=74|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=75|end_char=77|NER=O
+16	shtuara	shtuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=78|end_char=85|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=86|end_char=88|NER=O
+18	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=89|end_char=100|NER=O
+19	me	me	ADP	_	Case=Acc	15	case	_	start_char=101|end_char=103|NER=O
+20	COVID	COVID	PROPN	_	_	13	nmod	_	start_char=104|end_char=109|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	7	punct	_	start_char=110|end_char=111|NER=O
+
+# text = Mjekja Bruna Shiroka në qendrën shëndetësore nr .
+# sent_id = 1
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=0|end_char=6|NER=O
+2	Bruna	Brunë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=7|end_char=12|NER=B-PER
+3	Shiroka	shirokë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=13|end_char=20|NER=I-PER
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=23|NER=O
+5	qendrën	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=24|end_char=31|NER=O
+6	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=32|end_char=44|NER=O
+7	nr	nr.3	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	5	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+
+# text = 3 , thotë se ndryshe nga qetësia e një viti më parë në këtë periudhë , qershori po rezulton me infektime të reja , sidomos tek të rinjtë e pavaknisuar , por edhe në subjekte të vaksinuara .
+# sent_id = 2
+1	3	3	NUM	_	NumType=Card	5	appos	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	9	punct	_	start_char=2|end_char=3|NER=O
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+4	se	se	SCONJ	_	_	11	mark	_	start_char=10|end_char=12|NER=O
+5	ndryshe	ndryshe	ADV	_	AdvType=Man	9	advmod	_	start_char=13|end_char=20|NER=O
+6	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=21|end_char=24|NER=O
+7	qetësia	qetësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=25|end_char=32|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=33|end_char=34|NER=O
+9	një	një	DET	_	Definite=Ind	16	det	_	start_char=35|end_char=38|NER=O
+10	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=39|end_char=43|NER=O
+11	më	më	PART	_	_	18	mark	_	start_char=44|end_char=46|NER=O
+12	parë	parë	ADV	_	AdvType=Man	16	advmod	_	start_char=47|end_char=51|NER=O
+13	në	në	ADP	_	Case=Acc	21	case	_	start_char=52|end_char=54|NER=O
+14	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	start_char=55|end_char=59|NER=O
+15	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=60|end_char=68|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	25	punct	_	start_char=69|end_char=70|NER=O
+17	qershori	qershor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	start_char=71|end_char=79|NER=O
+18	po	po	PART	_	_	25	mark	_	start_char=80|end_char=82|NER=O
+19	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=83|end_char=91|NER=O
+20	me	me	ADP	_	Case=Acc	27	case	_	start_char=92|end_char=94|NER=O
+21	infektime	infektim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obl	_	start_char=95|end_char=104|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=105|end_char=107|NER=O
+23	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=108|end_char=112|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	31	punct	_	start_char=113|end_char=114|NER=O
+25	sidomos	sidomos	PART	_	_	34	mark	_	start_char=115|end_char=122|NER=O
+26	tek	tek	ADP	_	Case=Nom	34	case	_	start_char=123|end_char=126|NER=O
+27	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	34	det	_	start_char=127|end_char=129|NER=O
+28	rinjtë	rinjtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	27	nmod	_	start_char=130|end_char=136|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	36	det	_	start_char=137|end_char=138|NER=O
+30	pavaknisuar	pavaknisuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=139|end_char=150|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	38	punct	_	start_char=151|end_char=152|NER=O
+32	por	por	CCONJ	_	_	41	cc	_	start_char=153|end_char=156|NER=O
+33	edhe	edhe	PART	_	_	41	mark	_	start_char=157|end_char=161|NER=O
+34	në	në	ADP	_	Case=Acc	41	case	_	start_char=162|end_char=164|NER=O
+35	subjekte	subjekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	34	conj	_	start_char=165|end_char=173|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	43	det	_	start_char=174|end_char=176|NER=O
+37	vaksinuara	vaksinuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	start_char=177|end_char=187|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	9	punct	_	start_char=188|end_char=189|SpacesAfter=\n|NER=O
+
+# text = Numrin më të lartë të të infektuarve me COVID e mban Tirana , 530 persona .
+# sent_id = 3
+1	Numrin	Numri	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=0|end_char=6|NER=O
+2	më	më	PART	_	_	4	mark	_	start_char=7|end_char=9|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=12|NER=O
+4	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=13|end_char=18|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=19|end_char=21|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=22|end_char=24|NER=O
+7	infektuarve	infektuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=25|end_char=36|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+9	COVID	COVID	PROPN	_	Number=Sing	7	nmod	_	start_char=40|end_char=45|NER=O
+10	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=46|end_char=47|NER=O
+11	mban	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=52|NER=O
+12	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=53|end_char=59|SpaceAfter=No|NER=B-VEND_0
+13	,	,	PUNCT	_	_	15	punct	_	start_char=60|end_char=61|NER=O
+14	530	530	NUM	_	NumType=Card	15	nummod	_	start_char=62|end_char=65|NER=O
+15	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	start_char=66|end_char=73|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	11	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Mjekët i bëjnë apel të rinjve të pavaksinuar të marrin dozat bazike kundër COVID - 19 dhe të mos bëhen shkak për transmetimin e sëmundshmërisë së rëndë tek familjarët .
+# sent_id = 4
+1	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	start_char=0|end_char=6|NER=O
+2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	iobj	_	start_char=7|end_char=8|NER=O
+3	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+4	apel	apel	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=15|end_char=19|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=20|end_char=22|NER=O
+6	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=23|end_char=29|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=30|end_char=32|NER=O
+8	pavaksinuar	pavaksinuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=33|end_char=44|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=45|end_char=47|NER=O
+10	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=48|end_char=54|NER=O
+11	dozat	dozë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=55|end_char=60|NER=O
+12	bazike	bazik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=61|end_char=67|NER=O
+13	kundër	kundër	ADP	_	Case=Abl	14	case	_	start_char=68|end_char=74|NER=O
+14	COVID	COVID-19	PROPN	_	Number=Sing	10	advmod	_	start_char=75|end_char=80|NER=O
+15	-	-	PUNCT	_	_	10	punct	_	start_char=81|end_char=82|NER=O
+16	19	19	NUM	_	NumType=Card	10	advmod	_	start_char=83|end_char=85|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=86|end_char=89|NER=O
+18	të	të	PART	_	_	18	fixed	_	start_char=90|end_char=92|NER=O
+19	mos	mos	PART	_	_	18	mark	_	start_char=93|end_char=96|NER=O
+20	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	conj	_	start_char=97|end_char=102|NER=O
+21	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	start_char=103|end_char=108|NER=O
+22	për	për	ADP	_	Case=Acc	21	case	_	start_char=109|end_char=112|NER=O
+23	transmetimin	transmetim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=113|end_char=125|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=126|end_char=127|NER=O
+25	sëmundshmërisë	sëmundshmëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=128|end_char=142|NER=O
+26	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=143|end_char=145|NER=O
+27	rëndë	rëndë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=146|end_char=151|NER=O
+28	tek	tek	ADP	_	Case=Nom	27	case	_	start_char=152|end_char=155|NER=O
+29	familjarët	familjar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	advmod	_	start_char=156|end_char=166|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	18	punct	_	start_char=167|end_char=168|SpacesAfter=\n\n|NER=O
+

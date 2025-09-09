@@ -1,0 +1,309 @@
+# text = " CNN Travel " : Shqipëria mes destinacioneve më të bukura për t ' u vizituar në 2024 TIRAN , 31 dhjetor / ATSH / Kaq shumë vende për të zbuluar në botë .
+# sent_id = 0
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	CNN	CNN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=5|NER=B-ORG
+3	Travel	Travel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=12|SpaceAfter=No|NER=I-ORG
+4	"	"	PUNCT	_	_	1	punct	_	start_char=13|end_char=14|SpaceAfter=No|NER=O
+5	:	:	PUNCT	_	_	1	punct	_	start_char=15|end_char=16|NER=O
+6	Shqipëria	Shqipëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=17|end_char=26|NER=B-VEND_1
+7	mes	mes	ADP	_	Case=Abl	3	case	_	start_char=27|end_char=30|NER=O
+8	destinacioneve	destinacion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=31|end_char=45|NER=O
+9	më	më	PART	_	_	6	mark	_	start_char=46|end_char=48|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=49|end_char=51|NER=O
+11	bukura	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=52|end_char=58|NER=O
+12	për	për	PART	_	_	10	fixed	_	start_char=59|end_char=62|NER=O
+13	t	_	_	_	_	_	_	_	start_char=63|end_char=64|NER=O
+14	'	'	PUNCT	_	_	_	punct	_	start_char=65|end_char=66|NER=O
+15	u	_	_	_	_	_	_	_	start_char=67|end_char=68|NER=O
+16	vizituar	vizitoj	VERB	_	VerbForm=Part	3	advmod	_	start_char=69|end_char=77|NER=O
+17	në	në	ADP	_	Case=Acc	12	case	_	start_char=78|end_char=80|NER=O
+18	2024	2024	NUM	_	NumType=Card	10	advmod	_	start_char=81|end_char=85|SpacesAfter=\n|NER=O
+19	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=86|end_char=91|SpaceAfter=No|NER=B-VEND_0
+20	,	,	PUNCT	_	_	17	punct	_	start_char=92|end_char=93|NER=O
+21	31	31	NUM	_	NumType=Card	17	nummod	_	start_char=94|end_char=96|NER=B-DATE_0
+22	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=97|end_char=104|NER=I-DATE_0
+23	/	/	PUNCT	_	_	19	punct	_	start_char=105|end_char=106|SpaceAfter=No|NER=O
+24	ATSH	ATSH	PROPN	_	Foreign=Yes	17	appos	_	start_char=107|end_char=111|SpaceAfter=No|NER=O
+25	/	/	PUNCT	_	_	17	punct	_	start_char=112|end_char=113|NER=O
+26	Kaq	kaq	ADV	_	AdvType=Deg	3	mark	_	start_char=114|end_char=117|NER=O
+27	shumë	shumë	PRON	_	PronType=Ind	3	nummod	_	start_char=118|end_char=123|NER=O
+28	vende	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=124|end_char=129|NER=O
+29	për	për	PART	_	_	6	fixed	_	start_char=130|end_char=133|NER=O
+30	të	të	PART	_	_	6	fixed	_	start_char=134|end_char=136|NER=O
+31	zbuluar	zbuloj	VERB	_	VerbForm=Part	3	advmod	_	start_char=137|end_char=144|NER=O
+32	në	në	ADP	_	Case=Acc	8	case	_	start_char=145|end_char=147|NER=O
+33	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=148|end_char=152|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	6	punct	_	start_char=153|end_char=154|NER=O
+
+# text = Shumë njerëz janë të etur për t ' i parë ato .
+# sent_id = 1
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=5|NER=O
+2	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	start_char=6|end_char=12|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=17|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=18|end_char=20|NER=O
+5	etur	etur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	cop	_	start_char=21|end_char=25|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=29|NER=O
+7	t	t'i	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=30|end_char=31|NER=O
+8	'	'	PUNCT	_	_	8	punct	_	start_char=32|end_char=33|NER=O
+9	i	t'i	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=34|end_char=35|NER=O
+10	parë	shoh	VERB	_	VerbForm=Part	3	xcomp	_	start_char=36|end_char=40|NER=O
+11	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=41|end_char=44|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	3	punct	_	start_char=45|end_char=46|SpacesAfter=\n|NER=O
+
+# text = Turizmi ndërkombëtar arriti rreth 90 % të niveleve para pandemisë në vitin 2023 dhe Shtetet e Bashkuara të Amerikës lëshuan një numër rekord pasaportash .
+# sent_id = 2
+1	Turizmi	turizëm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=0|end_char=7|NER=O
+2	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=8|end_char=20|NER=O
+3	arriti	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=21|end_char=27|NER=O
+4	rreth	rreth	ADP	_	Case=Abl	5	case	_	start_char=28|end_char=33|NER=O
+5	90	90	NUM	_	NumType=Card	3	advmod	_	start_char=34|end_char=36|SpaceAfter=No|NER=O
+6	%	%	SYM	_	_	3	advmod	_	start_char=37|end_char=38|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=39|end_char=41|NER=O
+8	niveleve	nivel	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=42|end_char=50|NER=O
+9	para	para	ADP	_	Case=Abl	10	case	_	start_char=51|end_char=55|NER=O
+10	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=56|end_char=65|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=66|end_char=68|NER=O
+12	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=69|end_char=74|NER=B-DATE_0
+13	2023	2023	NUM	_	NumType=Card	12	amod:nummod	_	start_char=75|end_char=79|NER=I-DATE_0
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=80|end_char=83|NER=O
+15	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=84|end_char=91|NER=B-VEND_1
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=92|end_char=93|NER=I-VEND_1
+17	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=94|end_char=103|NER=I-VEND_1
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=104|end_char=106|NER=I-VEND_1
+19	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=107|end_char=115|NER=I-VEND_1
+20	lëshuan	lëshoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=116|end_char=123|NER=O
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=124|end_char=127|NER=O
+22	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=128|end_char=133|NER=O
+23	rekord	rekord	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	start_char=134|end_char=140|NER=O
+24	pasaportash	pasaportash	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=141|end_char=152|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	20	punct	_	start_char=153|end_char=154|SpacesAfter=\n|NER=O
+
+# text = " CNN Travel " zgjodhi 24 vende mes tyre edhe Shqipërinë për t ' u vizituar në vitin 2024 .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	CNN	CNN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2|end_char=5|NER=B-ORG
+3	Travel	Travel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=6|end_char=12|NER=I-ORG
+4	"	"	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|NER=O
+5	zgjodhi	zgjodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=15|end_char=22|NER=O
+6	24	24	NUM	_	NumType=Card	6	nummod	_	start_char=23|end_char=25|NER=O
+7	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=26|end_char=31|NER=O
+8	mes	mes	ADP	_	Case=Abl	8	case	_	start_char=32|end_char=35|NER=O
+9	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	start_char=36|end_char=40|NER=O
+10	edhe	edhe	CCONJ	_	_	10	cc	_	start_char=41|end_char=45|NER=O
+11	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=46|end_char=56|NER=B-VEND_1
+12	për	për	PART	_	_	14	fixed	_	start_char=57|end_char=60|NER=O
+13	t	_	_	_	_	_	_	_	start_char=61|end_char=62|NER=O
+14	'	'	PUNCT	_	_	_	punct	_	start_char=63|end_char=64|NER=O
+15	u	_	_	_	_	_	_	_	start_char=65|end_char=66|NER=O
+16	vizituar	vizitoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=67|end_char=75|NER=O
+17	në	në	ADP	_	Case=Acc	16	case	_	start_char=76|end_char=78|NER=O
+18	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=79|end_char=84|NER=B-DATE_0
+19	2024	2024	NUM	_	NumType=Card	16	amod:nummod	_	start_char=85|end_char=89|SpaceAfter=No|NER=I-DATE_0
+20	.	.	PUNCT	_	_	4	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+
+# text = Shqipëria E vendosur në bregdetin e Adriatikut midis Greqisë dhe Malit të Zi , është për t ' u habitur që Shqipëria nuk ishte kaq popullore si destinacion plazhi më parë .
+# sent_id = 4
+1	Shqipëria	Shqipëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=0|end_char=9|SpacesAfter=\n|NER=B-VEND_1
+2	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	vendosur	vendosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=20|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=23|NER=O
+5	bregdetin	bregdet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=24|end_char=33|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=34|end_char=35|NER=O
+7	Adriatikut	Adriatik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=36|end_char=46|NER=O
+8	midis	midis	ADP	_	Case=Abl	9	case	_	start_char=47|end_char=52|NER=O
+9	Greqisë	Greqi	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=53|end_char=60|NER=B-VEND_1
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=61|end_char=64|NER=O
+11	Malit	mal	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	start_char=65|end_char=70|NER=B-VEND_1
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=71|end_char=73|NER=I-VEND_1
+13	Zi	zi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=74|end_char=76|SpaceAfter=No|NER=I-VEND_1
+14	,	,	PUNCT	_	_	15	punct	_	start_char=77|end_char=78|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=79|end_char=84|NER=O
+16	për	për	PART	_	_	19	fixed	_	start_char=85|end_char=88|NER=O
+17	t	_	_	_	_	_	_	_	start_char=89|end_char=90|NER=O
+18	'	'	PUNCT	_	_	_	punct	_	start_char=91|end_char=92|NER=O
+19	u	_	_	_	_	_	_	_	start_char=93|end_char=94|NER=O
+20	habitur	habitoj	VERB	_	VerbForm=Part	15	advmod	_	start_char=95|end_char=102|NER=O
+21	që	që	SCONJ	_	_	23	mark	_	start_char=103|end_char=105|NER=O
+22	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	start_char=106|end_char=115|NER=B-VEND_1
+23	nuk	nuk	PART	_	_	23	mark	_	start_char=116|end_char=119|NER=O
+24	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	19	ccomp	_	start_char=120|end_char=125|NER=O
+25	kaq	kaq	ADV	_	AdvType=Deg	25	advmod	_	start_char=126|end_char=129|NER=O
+26	popullore	popullor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	cop	_	start_char=130|end_char=139|NER=O
+27	si	si	SCONJ	_	_	27	mark	_	start_char=140|end_char=142|NER=O
+28	destinacion	destinacion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	cop	_	start_char=143|end_char=154|NER=O
+29	plazhi	plazh	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=155|end_char=161|NER=O
+30	më	më	PART	_	_	30	mark	_	start_char=162|end_char=164|NER=O
+31	parë	parë	ADV	_	AdvType=Tim	28	advmod	_	start_char=165|end_char=169|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	23	punct	_	start_char=170|end_char=171|SpacesAfter=\n|NER=O
+
+# text = Por çmimet e saj miqësore me portofolin kanë parë një lulëzim të turizmit gjatë viteve të fundit .
+# sent_id = 5
+1	Por	por	CCONJ	_	_	9	cc	_	start_char=0|end_char=3|NER=O
+2	çmimet	çmim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=4|end_char=10|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=11|end_char=12|NER=O
+4	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=13|end_char=16|NER=O
+5	miqësore	miqësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=17|end_char=25|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=28|NER=O
+7	portofolin	portofol	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=29|end_char=39|NER=B-PRO
+8	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=40|end_char=44|NER=O
+9	parë	shoh	VERB	_	VerbForm=Part	0	root	_	start_char=45|end_char=49|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=50|end_char=53|NER=O
+11	lulëzim	lulëzim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=54|end_char=61|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=62|end_char=64|NER=O
+13	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=65|end_char=73|NER=O
+14	gjatë	gjatë	ADP	_	Case=Abl	15	case	_	start_char=74|end_char=79|NER=O
+15	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=80|end_char=86|NER=O
+16	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=87|end_char=89|NER=O
+17	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=90|end_char=96|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	9	punct	_	start_char=97|end_char=98|SpacesAfter=\n|NER=O
+
+# text = Në vitin 2023 , një numër rekord italianësh u dyndën në të gjithë Adriatikun për pushimet e tyre të volitshme verore .
+# sent_id = 6
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=3|end_char=8|NER=B-DATE_0
+3	2023	2023	NUM	_	NumType=Card	2	amod:nummod	_	start_char=9|end_char=13|SpaceAfter=No|NER=I-DATE_0
+4	,	,	PUNCT	_	_	2	punct	_	start_char=14|end_char=15|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=16|end_char=19|NER=O
+6	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=20|end_char=25|NER=O
+7	rekord	rekord	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=26|end_char=32|NER=O
+8	italianësh	italianësh	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=33|end_char=43|NER=O
+9	u	u	PART	_	_	10	fixed	_	start_char=44|end_char=45|NER=O
+10	dyndën	dyndëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=46|end_char=52|NER=O
+11	në	në	ADP	_	Case=Acc	14	case	_	start_char=53|end_char=55|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=56|end_char=58|NER=O
+13	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	14	nummod	_	start_char=59|end_char=65|NER=O
+14	Adriatikun	Adriatik	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=66|end_char=76|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=77|end_char=80|NER=O
+16	pushimet	pushim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=81|end_char=89|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=90|end_char=91|NER=O
+18	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=92|end_char=96|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=97|end_char=99|NER=O
+20	volitshme	volitshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=100|end_char=109|NER=O
+21	verore	veror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=110|end_char=116|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	10	punct	_	start_char=117|end_char=118|SpacesAfter=\n|NER=O
+
+# text = Në vitin 2024 pritet të hapet një aeroport i ri në Vlorë , në bregdet , që do të lehtësojë udhëtimet në plazh .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=3|end_char=8|NER=B-DATE_0
+3	2024	2024	NUM	_	NumType=Card	2	amod:nummod	_	start_char=9|end_char=13|NER=I-DATE_0
+4	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=14|end_char=20|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+6	hapet	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=24|end_char=29|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=30|end_char=33|NER=O
+8	aeroport	aeropor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=34|end_char=42|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=43|end_char=44|NER=O
+10	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=45|end_char=47|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=48|end_char=50|NER=O
+12	Vlorë	Vlorë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=51|end_char=56|SpaceAfter=No|NER=B-VEND_0
+13	,	,	PUNCT	_	_	17	punct	_	start_char=57|end_char=58|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=59|end_char=61|NER=O
+15	bregdet	bregd	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=62|end_char=69|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=70|end_char=71|NER=O
+17	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=72|end_char=74|NER=O
+18	do	do	PART	_	_	20	fixed	_	start_char=75|end_char=77|NER=O
+19	të	të	PART	_	_	20	fixed	_	start_char=78|end_char=80|NER=O
+20	lehtësojë	lehtësoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=81|end_char=90|NER=O
+21	udhëtimet	udhëtim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obj	_	start_char=91|end_char=100|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=101|end_char=103|NER=O
+23	plazh	plazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	start_char=104|end_char=109|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	20	punct	_	start_char=110|end_char=111|SpacesAfter=\n|NER=O
+
+# text = Por , Shqipëria ofron shumë më tepër sesa bregdetin e saj .
+# sent_id = 8
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|NER=O
+3	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=6|end_char=15|NER=B-VEND_1
+4	ofron	ofroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=21|NER=O
+5	shumë	shumë	ADV	_	AdvType=Deg	7	advmod	_	start_char=22|end_char=27|NER=O
+6	më	më	PART	_	_	7	mark	_	start_char=28|end_char=30|NER=O
+7	tepër	tepër	ADV	_	AdvType=Deg	4	advmod	_	start_char=31|end_char=36|NER=O
+8	sesa	sesa	ADV	_	AdvType=Deg	7	advmod	_	start_char=37|end_char=41|NER=O
+9	bregdetin	bregdet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=42|end_char=51|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=52|end_char=53|NER=O
+11	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	amod:poss	_	start_char=54|end_char=57|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	4	punct	_	start_char=58|end_char=59|SpacesAfter=\n|NER=O
+
+# text = Vendi ka një kulturë të pasur , duke përfshirë historinë e krishterë dhe myslimane , me qendra historike në qytete si Berati dhe Gjirokastër , si dhe peizazhe malore mahnitëse , Thethi është më i popullarizuari .
+# sent_id = 9
+1	Vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	kulturë	kulturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=13|end_char=20|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=21|end_char=23|NER=O
+6	pasur	pasur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=24|end_char=29|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=30|end_char=31|NER=O
+8	duke	duke	PART	_	_	9	fixed	_	start_char=32|end_char=36|NER=O
+9	përfshirë	përfshij	VERB	_	VerbForm=Part	2	advmod	_	start_char=37|end_char=46|NER=O
+10	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=47|end_char=56|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=57|end_char=58|NER=O
+12	krishterë	krishterë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=59|end_char=68|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=69|end_char=72|NER=O
+14	myslimane	mysliman	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	start_char=73|end_char=82|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=85|end_char=87|NER=O
+17	qendra	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=88|end_char=94|NER=O
+18	historike	historik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=95|end_char=104|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=105|end_char=107|NER=O
+20	qytete	qytet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	nmod	_	start_char=108|end_char=114|NER=O
+21	si	si	SCONJ	_	_	22	mark	_	start_char=115|end_char=117|NER=O
+22	Berati	Berat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=118|end_char=124|NER=B-VEND_0
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=125|end_char=128|NER=O
+24	Gjirokastër	Gjirokastër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	start_char=129|end_char=140|SpaceAfter=No|NER=B-VEND_0
+25	,	,	PUNCT	_	_	26	punct	_	start_char=141|end_char=142|NER=O
+26	si	si	SCONJ	_	_	27	fixed	_	start_char=143|end_char=145|NER=O
+27	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=146|end_char=149|NER=O
+28	peizazhe	peizazhe	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	24	conj	_	start_char=150|end_char=158|NER=O
+29	malore	malor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=159|end_char=165|NER=O
+30	mahnitëse	mahnitës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=166|end_char=175|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	32	punct	_	start_char=176|end_char=177|NER=O
+32	Thethi	Theth	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	nsubj	_	start_char=178|end_char=184|NER=B-VEND_0
+33	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=185|end_char=190|NER=O
+34	më	më	PART	_	_	36	mark	_	start_char=191|end_char=193|NER=O
+35	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=194|end_char=195|NER=O
+36	popullarizuari	popullarizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	cop	_	start_char=196|end_char=210|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	33	punct	_	start_char=211|end_char=212|SpacesAfter=\n|NER=O
+
+# text = Në vitin 2023 , Vjosa e Shqipërisë prej 168 miljesh ( 270 kilometrash ) u shpall zyrtarisht parku i parë kombëtar i lumit të egër në Evropë .
+# sent_id = 10
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=3|end_char=8|NER=B-DATE_0
+3	2023	2023	NUM	_	NumType=Card	2	amod:nummod	_	start_char=9|end_char=13|SpaceAfter=No|NER=I-DATE_0
+4	,	,	PUNCT	_	_	2	punct	_	start_char=14|end_char=15|NER=O
+5	Vjosa	Vjosa	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=16|end_char=21|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=22|end_char=23|NER=O
+7	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=24|end_char=34|NER=B-VEND_1
+8	prej	prej	ADP	_	Case=Abl	10	case	_	start_char=35|end_char=39|NER=O
+9	168	168	NUM	_	NumType=Card	10	nummod	_	start_char=40|end_char=43|NER=O
+10	miljesh	miljesh	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=44|end_char=51|NER=O
+11	(	(	PUNCT	_	_	13	punct	_	start_char=52|end_char=53|SpaceAfter=No|NER=O
+12	270	270	NUM	_	NumType=Card	13	nummod	_	start_char=54|end_char=57|NER=O
+13	kilometrash	kilometrash	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	16	advmod	_	start_char=58|end_char=69|SpaceAfter=No|NER=O
+14	)	)	PUNCT	_	_	13	punct	_	start_char=70|end_char=71|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=72|end_char=73|NER=O
+16	shpall	shpall	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=74|end_char=80|NER=O
+17	zyrtarisht	zyrtarisht	ADV	_	AdvType=Man	16	advmod	_	start_char=81|end_char=91|NER=O
+18	parku	park	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=92|end_char=97|NER=O
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=98|end_char=99|NER=O
+20	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=100|end_char=104|NER=O
+21	kombëtar	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=105|end_char=113|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=114|end_char=115|NER=O
+23	lumit	lumë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=116|end_char=121|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=122|end_char=124|NER=O
+25	egër	egër	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=125|end_char=129|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=130|end_char=132|NER=O
+27	Evropë	Evropë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	start_char=133|end_char=139|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	16	punct	_	start_char=140|end_char=141|NER=O
+
+# text = / / a .
+# sent_id = 11
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	/	/	PUNCT	_	_	0	punct	_	start_char=2|end_char=3|SpacesAfter=\n\n\n|NER=O
+3	a	a.i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+4	.	.	PUNCT	_	_	0	punct	_	start_char=6|end_char=7|SpacesAfter=\n\n\n|NER=O
+
+# text = i /
+# sent_id = 12
+1	i	a.i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	/	/	PUNCT	_	_	0	punct	_	start_char=2|end_char=3|SpacesAfter=\n\n\n|NER=O
+

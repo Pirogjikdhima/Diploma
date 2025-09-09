@@ -1,0 +1,296 @@
+# text = 07 / 09 / 2023 Ky vit mund të cilësohet si më i vështiri në vreshtari .
+# sent_id = 0
+1	07	07	NUM	_	NumType=Card	16	advmod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	16	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	18	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	18	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=15|end_char=17|NER=O
+7	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	advmod	_	start_char=18|end_char=21|NER=O
+8	mund	mund	AUX	_	_	25	aux	_	start_char=22|end_char=26|NER=O
+9	të	të	PART	_	_	25	fixed	_	start_char=27|end_char=29|NER=O
+10	cilësohet	cilësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	conj	_	start_char=30|end_char=39|NER=O
+11	si	si	SCONJ	_	_	29	mark	_	start_char=40|end_char=42|NER=O
+12	më	më	PART	_	_	29	mark	_	start_char=43|end_char=45|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=46|end_char=47|NER=O
+14	vështiri	vështir	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	cop	_	start_char=48|end_char=56|NER=O
+15	në	në	ADP	_	Case=Acc	31	case	_	start_char=57|end_char=59|NER=O
+16	vreshtari	vreshtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	advmod	_	start_char=60|end_char=69|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	25	punct	_	start_char=70|end_char=71|NER=O
+
+# text = Breshëri dhe shiu kanë bërë që të ketë fare pak prodhim të rrushit .
+# sent_id = 1
+1	Breshëri	breshër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=8|NER=O
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=9|end_char=12|NER=O
+3	shiu	shi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=13|end_char=17|NER=O
+4	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=18|end_char=22|NER=O
+5	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=23|end_char=27|NER=O
+6	që	që	SCONJ	_	_	8	mark	_	start_char=28|end_char=30|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=31|end_char=33|NER=O
+8	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=34|end_char=38|NER=O
+9	fare	fare	ADV	_	AdvType=Man	8	advmod	_	start_char=39|end_char=43|NER=O
+10	pak	pak	ADV	_	AdvType=Deg	11	nummod	_	start_char=44|end_char=47|NER=O
+11	prodhim	prodhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=48|end_char=55|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=56|end_char=58|NER=O
+13	rrushit	rrush	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=59|end_char=66|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Familja e Musa Hilës nga fshati Mgullë i Kukësit nuk do të mund të prodhojë më verë , raki , lëng rrushi ose siç e quajnë vendasit musht si një vit më parë .
+# sent_id = 2
+1	Familja	Familje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=8|end_char=9|NER=O
+3	Musa	musa	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=14|NER=B-PER
+4	Hilës	Hilë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	flat	_	start_char=15|end_char=20|NER=I-PER
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=21|end_char=24|NER=O
+6	fshati	fshat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=25|end_char=31|NER=O
+7	Mgullë	Mgullë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	start_char=32|end_char=38|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=39|end_char=40|NER=O
+9	Kukësit	Kukës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=41|end_char=48|NER=B-VEND_0
+10	nuk	nuk	PART	_	Polarity=Neg	15	mark	_	start_char=49|end_char=52|NER=O
+11	do	do	PART	_	_	15	fixed	_	start_char=53|end_char=55|NER=O
+12	të	të	PART	_	_	15	fixed	_	start_char=56|end_char=58|NER=O
+13	mund	mund	AUX	_	_	15	aux	_	start_char=59|end_char=63|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=64|end_char=66|NER=O
+15	prodhojë	prodhoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=67|end_char=75|NER=O
+16	më	më	ADP	_	Case=Acc	17	case	_	start_char=76|end_char=78|NER=O
+17	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=79|end_char=83|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=84|end_char=85|NER=O
+19	raki	raki	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	start_char=86|end_char=90|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=91|end_char=92|NER=O
+21	lëng	lëng	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	list	_	start_char=93|end_char=97|NER=O
+22	rrushi	rrush	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	list	_	start_char=98|end_char=104|NER=O
+23	ose	ose	CCONJ	_	_	26	cc	_	start_char=105|end_char=108|NER=O
+24	siç	siç	SCONJ	_	_	26	mark	_	start_char=109|end_char=112|NER=O
+25	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=113|end_char=114|NER=O
+26	quajnë	quaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=115|end_char=121|NER=O
+27	vendasit	vendas	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	26	obj	_	start_char=122|end_char=130|NER=O
+28	musht	musht	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	start_char=131|end_char=136|NER=O
+29	si	si	SCONJ	_	_	31	mark	_	start_char=137|end_char=139|NER=O
+30	një	një	DET	_	Definite=Ind	31	det	_	start_char=140|end_char=143|NER=O
+31	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	start_char=144|end_char=147|NER=O
+32	më	më	PART	_	_	33	mark	_	start_char=148|end_char=150|NER=O
+33	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=151|end_char=155|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	26	punct	_	start_char=156|end_char=157|NER=O
+
+# text = Mundi i gjithë viteve në vreshtari po i shkon dëm , duke ndikuar edhe në ekonominë e tij familjare .
+# sent_id = 3
+1	Mundi	mund	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=6|end_char=7|NER=O
+3	gjithë	gjithë	PRON	_	PronType=Ind	4	det	_	start_char=8|end_char=14|NER=O
+4	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	advmod	_	start_char=15|end_char=21|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	vreshtari	vreshtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=25|end_char=34|NER=O
+7	po	po	PART	_	_	9	mark	_	start_char=35|end_char=37|NER=O
+8	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	start_char=38|end_char=39|NER=O
+9	shkon	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=40|end_char=45|NER=O
+10	dëm	dëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=46|end_char=49|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=50|end_char=51|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=52|end_char=56|NER=O
+13	ndikuar	ndikoj	VERB	_	VerbForm=Part	9	advmod	_	start_char=57|end_char=64|NER=O
+14	edhe	edhe	PART	_	_	16	advmod:emph	_	start_char=65|end_char=69|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=70|end_char=72|NER=O
+16	ekonominë	ekonomi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=73|end_char=82|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=83|end_char=84|NER=O
+18	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=85|end_char=88|NER=O
+19	familjare	familjar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=89|end_char=98|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	1	punct	_	start_char=99|end_char=100|SpacesAfter=\n|NER=O
+
+# text = Ndërsa sipërmarrësi Brati nga fshati Bicaj i Kukësit vreshtarinë e ka kthyer në në biznes fitimprurës prej 10 vitesh .
+# sent_id = 4
+1	Ndërsa	ndërsa	CCONJ	_	_	12	cc	_	start_char=0|end_char=6|NER=O
+2	sipërmarrësi	sipërmarrës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=7|end_char=19|NER=O
+3	Brati	Brat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=20|end_char=25|NER=B-PER
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=26|end_char=29|NER=O
+5	fshati	fshat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=30|end_char=36|NER=O
+6	Bicaj	Bicaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=37|end_char=42|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=43|end_char=44|NER=O
+8	Kukësit	Kukës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=45|end_char=52|NER=B-VEND_0
+9	vreshtarinë	vreshtari	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=53|end_char=64|NER=O
+10	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	cc	_	start_char=65|end_char=66|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=67|end_char=69|NER=O
+12	kthyer	kthej	VERB	_	VerbForm=Part	0	root	_	start_char=70|end_char=76|NER=O
+13	në	në	ADP	_	Case=Acc	15	case	_	start_char=77|end_char=79|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=80|end_char=82|NER=O
+15	biznes	bizne	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=83|end_char=89|NER=O
+16	fitimprurës	fitimprurës	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=90|end_char=101|NER=O
+17	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=102|end_char=106|NER=O
+18	10	10	NUM	_	NumType=Card	19	nummod	_	start_char=107|end_char=109|NER=O
+19	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=110|end_char=116|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=117|end_char=118|NER=O
+
+# text = Por nga prodhimi i këtij viti është shumë i zhgënjyer .
+# sent_id = 5
+1	Por	por	CCONJ	_	_	7	cc	_	start_char=0|end_char=3|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=4|end_char=7|NER=O
+3	prodhimi	prodhim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=8|end_char=16|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=17|end_char=18|NER=O
+5	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=19|end_char=24|NER=O
+6	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=25|end_char=29|NER=O
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=35|NER=O
+8	shumë	shumë	ADV	_	AdvType=Deg	10	advmod	_	start_char=36|end_char=41|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=42|end_char=43|NER=O
+10	zhgënjyer	zhgënjyer	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=44|end_char=53|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	7	punct	_	start_char=54|end_char=55|SpacesAfter=\n|NER=O
+
+# text = " Vitin që shkoi kam marr 1500 kg rrush këtë vit nuk kam marr as 50 kg .
+# sent_id = 6
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vitin	Vit	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=2|end_char=7|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=8|end_char=10|NER=O
+4	shkoi	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	start_char=11|end_char=16|NER=O
+5	kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	6	aux	_	start_char=17|end_char=20|NER=O
+6	marr	marr	VERB	_	VerbForm=Part	0	root	_	start_char=21|end_char=25|NER=O
+7	1500	1500	NUM	_	NumType=Card	9	nummod	_	start_char=26|end_char=30|NER=O
+8	kg	kg	NUM	_	NumType=Card	9	nummod	_	start_char=31|end_char=33|NER=O
+9	rrush	rrush	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=34|end_char=39|NER=O
+10	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=40|end_char=44|NER=O
+11	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=45|end_char=48|NER=O
+12	nuk	nuk	PART	_	_	14	mark	_	start_char=49|end_char=52|NER=O
+13	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	14	aux	_	start_char=53|end_char=56|NER=O
+14	marr	marr	VERB	_	VerbForm=Part	6	conj	_	start_char=57|end_char=61|NER=O
+15	as	as	CCONJ	_	_	17	cc	_	start_char=62|end_char=64|NER=O
+16	50	50	NUM	_	NumType=Card	17	nummod	_	start_char=65|end_char=67|NER=O
+17	kg	kg	NUM	_	NumType=Card	14	advmod	_	start_char=68|end_char=70|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	14	punct	_	start_char=71|end_char=72|NER=O
+
+# text = Kemi pas shumë dëmtime .
+# sent_id = 7
+1	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	pas	pas	ADV	_	AdvType=Tim	1	advmod	_	start_char=5|end_char=8|NER=O
+3	shumë	shumë	PRON	_	PronType=Ind	4	nummod	_	start_char=9|end_char=14|NER=O
+4	dëmtime	dëmtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	start_char=15|end_char=22|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	1	punct	_	start_char=23|end_char=24|NER=O
+
+# text = Për mushtin kemi gjetur treg për shitje në Durrës dhe kemi pas fitime të mira " thotë sipërmarrësi Brati .
+# sent_id = 8
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	mushtin	musht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=4|end_char=11|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=12|end_char=16|NER=O
+4	gjetur	gjet	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=23|NER=O
+5	treg	treg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=24|end_char=28|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=32|NER=O
+7	shitje	shitje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=33|end_char=39|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=42|NER=O
+9	Durrës	Durrë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=43|end_char=49|NER=B-VEND_0
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=50|end_char=53|NER=O
+11	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=54|end_char=58|NER=O
+12	pas	pas	ADP	_	Case=Abl	13	case	_	start_char=59|end_char=62|NER=O
+13	fitime	fitim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	start_char=63|end_char=69|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=70|end_char=72|NER=O
+15	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=73|end_char=77|NER=O
+16	"	"	PUNCT	_	_	13	punct	_	start_char=78|end_char=79|NER=O
+17	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=80|end_char=85|NER=O
+18	sipërmarrësi	sipërmarrës	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=86|end_char=98|NER=O
+19	Brati	Brat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=99|end_char=104|SpaceAfter=No|NER=B-PER
+20	.	.	PUNCT	_	_	16	punct	_	start_char=105|end_char=106|SpacesAfter=\n|NER=O
+
+# text = " Sivjet ka qenë një vit pak i vështirë sepse ka qenë një vit i ngarkuar me reshje .
+# sent_id = 9
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|NER=O
+2	Sivjet	Sivjet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2|end_char=8|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=11|NER=O
+4	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=16|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=17|end_char=20|NER=O
+6	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	cop	_	start_char=21|end_char=24|NER=O
+7	pak	pak	ADV	_	AdvType=Deg	9	advmod	_	start_char=25|end_char=28|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=29|end_char=30|NER=O
+9	vështirë	vështirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=31|end_char=39|NER=O
+10	sepse	sepse	SCONJ	_	_	12	mark	_	start_char=40|end_char=45|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=46|end_char=48|NER=O
+12	qenë	jam	VERB	_	VerbForm=Part	6	acl:relcl	_	start_char=49|end_char=53|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=54|end_char=57|NER=O
+14	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	cop	_	start_char=58|end_char=61|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=62|end_char=63|NER=O
+16	ngarkuar	ngarkoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=64|end_char=72|NER=O
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=73|end_char=75|NER=O
+18	reshje	reshje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	advmod	_	start_char=76|end_char=82|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	12	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Rrushi reagon negativisht nga lagështira " thotë agronomi Sherif Visha .
+# sent_id = 10
+1	Rrushi	Rrush	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=0|end_char=6|NER=O
+2	reagon	reagoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	negativisht	negativisht	ADV	_	AdvType=Man	2	advmod	_	start_char=14|end_char=25|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=26|end_char=29|NER=O
+5	lagështira	lagështirë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=30|end_char=40|NER=O
+6	"	"	PUNCT	_	_	6	punct	_	start_char=41|end_char=42|NER=O
+7	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=43|end_char=48|NER=O
+8	agronomi	agronom	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=49|end_char=57|NER=O
+9	Sherif	Sherif	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	start_char=58|end_char=64|NER=B-PER
+10	Visha	Vishë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=65|end_char=70|SpaceAfter=No|NER=I-PER
+11	.	.	PUNCT	_	_	2	punct	_	start_char=71|end_char=72|SpacesAfter=\n|NER=O
+
+# text = Mungesa e prodhimit vendas të rrushit po vërehet edhe në tregun agro ushqimor të Kukësit .
+# sent_id = 11
+1	Mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	prodhimit	prodhim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=19|NER=O
+4	vendas	vendas	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=20|end_char=26|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=27|end_char=29|NER=O
+6	rrushit	rrush	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=30|end_char=37|NER=O
+7	po	po	PART	_	_	8	mark	_	start_char=38|end_char=40|NER=O
+8	vërehet	vërej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=41|end_char=48|NER=O
+9	edhe	edhe	PART	_	_	11	advmod:emph	_	start_char=49|end_char=53|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=54|end_char=56|NER=O
+11	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	start_char=57|end_char=63|NER=O
+12	agro	agro	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=64|end_char=68|NER=O
+13	ushqimor	ushqimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=69|end_char=77|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=78|end_char=80|NER=O
+15	Kukësit	Kukës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=81|end_char=88|SpaceAfter=No|NER=B-VEND_0
+16	.	.	PUNCT	_	_	8	punct	_	start_char=89|end_char=90|NER=O
+
+# text = Ndikimi i parë është çmimi i lartë që varion nga 150 - 200 lekë kilogrami .
+# sent_id = 12
+1	Ndikimi	ndikim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=10|end_char=14|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=20|NER=O
+5	çmimi	çmim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=21|end_char=26|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=27|end_char=28|NER=O
+7	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=29|end_char=34|NER=O
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=35|end_char=37|NER=O
+9	varion	varij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=38|end_char=44|NER=O
+10	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=45|end_char=48|NER=O
+11	150	150	NUM	_	NumType=Card	13	nummod	_	start_char=49|end_char=52|SpaceAfter=No|NER=O
+12	-	-	PUNCT	_	_	13	punct	_	start_char=53|end_char=54|SpaceAfter=No|NER=O
+13	200	200	NUM	_	NumType=Card	13	nummod	_	start_char=55|end_char=58|NER=O
+14	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	start_char=59|end_char=63|NER=O
+15	kilogrami	kilogram	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=64|end_char=73|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	4	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Shitësit e konfirmojnë se janë të detyruar të importojnë rrush nga vendet e tjera të Shqipërisë , Italia , Maqedonia dhe Greqia .
+# sent_id = 13
+1	Shitësit	shitës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=0|end_char=8|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	cc	_	start_char=9|end_char=10|NER=O
+3	konfirmojnë	konfirmoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=22|NER=O
+4	se	se	SCONJ	_	_	5	mark	_	start_char=23|end_char=25|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=26|end_char=30|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=31|end_char=33|NER=O
+7	detyruar	detyruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	cop	_	start_char=34|end_char=42|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=43|end_char=45|NER=O
+9	importojnë	importoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	csubj	_	start_char=46|end_char=56|NER=O
+10	rrush	rrush	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=57|end_char=62|NER=O
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=63|end_char=66|NER=O
+12	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=67|end_char=73|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=74|end_char=75|NER=O
+14	tjera	tjetër	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	12	amod	_	start_char=76|end_char=81|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=82|end_char=84|NER=O
+16	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=85|end_char=95|SpaceAfter=No|NER=B-VEND_1
+17	,	,	PUNCT	_	_	18	punct	_	start_char=96|end_char=97|NER=O
+18	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	appos	_	start_char=98|end_char=104|SpaceAfter=No|NER=B-VEND_1
+19	,	,	PUNCT	_	_	20	punct	_	start_char=105|end_char=106|NER=O
+20	Maqedonia	Maqedoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	list	_	start_char=107|end_char=116|NER=B-VEND_1
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=117|end_char=120|NER=O
+22	Greqia	Greqi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	conj	_	start_char=121|end_char=127|SpaceAfter=No|NER=B-VEND_1
+23	.	.	PUNCT	_	_	9	punct	_	start_char=128|end_char=129|SpacesAfter=\n|NER=O
+
+# text = Gazetar G .
+# sent_id = 14
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	G	G	SYM	_	_	1	flat	_	start_char=8|end_char=9|SpaceAfter=No|NER=B-PER
+3	.	.	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+
+# text = Hilaj
+# sent_id = 15
+1	Hilaj	Hilaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpacesAfter=\n\n|NER=I-PER
+

@@ -1,0 +1,125 @@
+# text = Presidenti Meta nga selia e presidencës bën thirrje : Dhuroni gjak , shpëtoni jetë !
+# sent_id = 0
+1	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=10|NER=O
+2	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=11|end_char=15|NER=B-PER
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=16|end_char=19|NER=O
+4	selia	seli	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=20|end_char=25|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=26|end_char=27|NER=O
+6	presidencës	presidencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=28|end_char=39|NER=O
+7	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=43|NER=O
+8	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=44|end_char=51|SpaceAfter=No|NER=O
+9	:	:	PUNCT	_	_	7	punct	_	start_char=52|end_char=53|NER=O
+10	Dhuroni	dhuroj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=54|end_char=61|NER=O
+11	gjak	gjak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nsubj	_	start_char=62|end_char=66|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	4	punct	_	start_char=67|end_char=68|NER=O
+13	shpëtoni	shpëtoni	ADV	_	AdvType=Man	5	advmod	_	start_char=69|end_char=77|NER=O
+14	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=78|end_char=82|SpaceAfter=No|NER=O
+15	!	!	PUNCT	_	_	8	punct	_	start_char=83|end_char=84|SpacesAfter=\n|NER=O
+
+# text = 15 / 07 / 2022 9 ditë nga përfundimi i mandatit si president i vendit , zoti Ilir Meta hapi dyert e selisë së tij për një tjetër seancë vullnetare dhurimi gjaku .
+# sent_id = 1
+1	15	15	NUM	_	NumType=Card	8	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	07	07	NUM	_	NumType=Card	5	nsubj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	8	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	8	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	9	9	NUM	_	NumType=Card	12	nummod	_	start_char=15|end_char=16|NER=O
+7	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=17|end_char=21|NER=O
+8	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=22|end_char=25|NER=O
+9	përfundimi	përfundim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=26|end_char=36|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=37|end_char=38|NER=O
+11	mandatit	mandat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=39|end_char=47|NER=O
+12	si	si	SCONJ	_	_	18	mark	_	start_char=48|end_char=50|NER=O
+13	president	president	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=51|end_char=60|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=61|end_char=62|NER=O
+15	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=63|end_char=69|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	22	punct	_	start_char=70|end_char=71|NER=O
+17	zoti	zot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	start_char=72|end_char=76|NER=O
+18	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	flat	_	start_char=77|end_char=81|NER=B-PER
+19	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	flat	_	start_char=82|end_char=86|NER=I-PER
+20	hapi	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	start_char=87|end_char=91|NER=O
+21	dyert	dyrër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	obj	_	start_char=92|end_char=97|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=98|end_char=99|NER=O
+23	selisë	seli	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=100|end_char=106|NER=O
+24	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=107|end_char=109|NER=O
+25	tij	tij	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	amod:poss	_	start_char=110|end_char=113|NER=O
+26	për	për	ADP	_	Case=Acc	34	case	_	start_char=114|end_char=117|NER=O
+27	një	një	DET	_	Definite=Ind	34	det	_	start_char=118|end_char=121|NER=O
+28	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	34	nummod	_	start_char=122|end_char=128|NER=O
+29	seancë	seancë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	start_char=129|end_char=135|NER=O
+30	vullnetare	vullnetar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=136|end_char=146|NER=O
+31	dhurimi	dhurim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=147|end_char=154|NER=O
+32	gjaku	gjak	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	36	flat:name	_	start_char=155|end_char=160|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	25	punct	_	start_char=161|end_char=162|SpacesAfter=\n|NER=O
+
+# text = Zoti Meta ka dhënë kontributin së bashku me dhjetëra te rinj , nëpunës të administratës dhe anëtarë të Kabinetit .
+# sent_id = 2
+1	Zoti	Zot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=4|NER=O
+2	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=5|end_char=9|NER=B-PER
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=10|end_char=12|NER=O
+4	dhënë	jap	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=18|NER=O
+5	kontributin	kontribut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=19|end_char=30|NER=O
+6	së	së	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=31|end_char=33|NER=O
+7	bashku	bashku	ADV	_	AdvType=Man	5	amod	_	start_char=34|end_char=40|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=41|end_char=43|NER=O
+9	dhjetëra	dhjetë	PRON	_	PronType=Ind	4	advmod	_	start_char=44|end_char=52|NER=O
+10	te	te	ADP	_	Case=Nom	11	case	_	start_char=53|end_char=55|NER=O
+11	rinj	ri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	advmod	_	start_char=56|end_char=60|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|NER=O
+13	nëpunës	nëpunës	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	list	_	start_char=63|end_char=70|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=71|end_char=73|NER=O
+15	administratës	administratë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=74|end_char=87|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=88|end_char=91|NER=O
+17	anëtarë	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	start_char=92|end_char=99|NER=O
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det:poss	_	start_char=100|end_char=102|NER=O
+19	Kabinetit	Kabinet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=103|end_char=112|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	4	punct	_	start_char=113|end_char=114|SpacesAfter=\n|NER=O
+
+# text = Presidenti Meta thotë se ndihet krenar dhe falenderues duke përmendur dhe rolin sensibilizues e frymëzues , që " Aleanca për Dhurimin e Gjakut " ka luajtur në këto vite për garantimin e gjakut të mjaftueshëm dhe të sigurt për nevoja jetësore të mijëra qytetarëve .
+# sent_id = 3
+1	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=10|NER=O
+2	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=15|NER=B-PER
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=21|NER=O
+4	se	se	SCONJ	_	_	5	mark	_	start_char=22|end_char=24|NER=O
+5	ndihet	ndjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	ccomp	_	start_char=25|end_char=31|NER=O
+6	krenar	krenar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=32|end_char=38|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=39|end_char=42|NER=O
+8	falenderues	falenderue	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	start_char=43|end_char=54|NER=O
+9	duke	duke	PART	_	_	10	fixed	_	start_char=55|end_char=59|NER=O
+10	përmendur	përmendoj	VERB	_	VerbForm=Part	3	advmod	_	start_char=60|end_char=69|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=70|end_char=73|NER=O
+12	rolin	rol	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=74|end_char=79|NER=O
+13	sensibilizues	sensibilizues	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=80|end_char=93|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=94|end_char=95|NER=O
+15	frymëzues	frymëzues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=96|end_char=105|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=106|end_char=107|NER=O
+17	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=108|end_char=110|NER=O
+18	"	"	PUNCT	_	_	19	punct	_	start_char=111|end_char=112|SpaceAfter=No|NER=O
+19	Aleanca	Aleancë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	appos	_	start_char=113|end_char=120|NER=O
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=121|end_char=124|NER=O
+21	Dhurimin	Dhurim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	advmod	_	start_char=125|end_char=133|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=134|end_char=135|NER=O
+23	Gjakut	Gjakut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=136|end_char=142|NER=O
+24	"	"	PUNCT	_	_	21	punct	_	start_char=143|end_char=144|NER=O
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=145|end_char=147|NER=O
+26	luajtur	luaj	VERB	_	VerbForm=Part	3	conj	_	start_char=148|end_char=155|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=156|end_char=158|NER=O
+28	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	28	det	_	start_char=159|end_char=163|NER=O
+29	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obl	_	start_char=164|end_char=168|NER=O
+30	për	për	ADP	_	Case=Acc	30	case	_	start_char=169|end_char=172|NER=O
+31	garantimin	garantim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=173|end_char=183|NER=O
+32	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=184|end_char=185|NER=O
+33	gjakut	gjak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=186|end_char=192|NER=O
+34	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=193|end_char=195|NER=O
+35	mjaftueshëm	mjaftueshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=196|end_char=207|NER=O
+36	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=208|end_char=211|NER=O
+37	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=212|end_char=214|NER=O
+38	sigurt	sigurt	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	conj	_	start_char=215|end_char=221|NER=O
+39	për	për	ADP	_	Case=Acc	39	case	_	start_char=222|end_char=225|NER=O
+40	nevoja	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	37	advmod	_	start_char=226|end_char=232|NER=O
+41	jetësore	jetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=233|end_char=241|NER=O
+42	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	43	det:poss	_	start_char=242|end_char=244|NER=O
+43	mijëra	mijë	PRON	_	Number=Plur|PronType=Ind	43	det	_	start_char=245|end_char=251|NER=O
+44	qytetarëve	qytetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	39	nmod	_	start_char=252|end_char=262|SpaceAfter=No|NER=O
+45	.	.	PUNCT	_	_	25	punct	_	start_char=263|end_char=264|SpacesAfter=\n|NER=O
+

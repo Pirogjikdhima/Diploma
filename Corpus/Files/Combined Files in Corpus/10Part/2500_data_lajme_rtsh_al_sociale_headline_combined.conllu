@@ -1,0 +1,204 @@
+# text = 31 / 12 / 2021 Edhe këtë vit pandemia shumë familje i ka detyruar të festojnë të ndara .
+# sent_id = 0
+1	31	31	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	10	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	10	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2021	2021	NUM	_	NumType=Card	12	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Edhe	edhe	CCONJ	_	_	17	cc	_	start_char=15|end_char=19|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=20|end_char=24|NER=O
+8	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	start_char=25|end_char=28|NER=O
+9	pandemia	pandemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=29|end_char=37|NER=O
+10	shumë	shumë	PRON	_	PronType=Ind	20	nummod	_	start_char=38|end_char=43|NER=O
+11	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	nsubj	_	start_char=44|end_char=51|NER=O
+12	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	iobj	_	start_char=52|end_char=53|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=54|end_char=56|NER=O
+14	detyruar	detyruar	VERB	_	VerbForm=Part	0	root	_	start_char=57|end_char=65|NER=O
+15	të	të	PART	_	_	25	fixed	_	start_char=66|end_char=68|NER=O
+16	festojnë	festoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	ccomp	_	start_char=69|end_char=77|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=78|end_char=80|NER=O
+18	ndara	ndarë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	cop	_	start_char=81|end_char=86|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	23	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Tregues janë dhe hyrjet në Pikë Kalimet Kufitare tokësore që na lidhin me shtetin fqinj , Greqinë .
+# sent_id = 1
+1	Tregues	tregues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=13|end_char=16|NER=O
+4	hyrjet	hyrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	cop	_	start_char=17|end_char=23|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=24|end_char=26|NER=O
+6	Pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=27|end_char=31|NER=O
+7	Kalimet	kalim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=32|end_char=39|NER=O
+8	Kufitare	kufitar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=40|end_char=48|NER=O
+9	tokësore	tokësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=49|end_char=57|NER=O
+10	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=58|end_char=60|NER=O
+11	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	start_char=61|end_char=63|NER=O
+12	lidhin	lidh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl	_	start_char=64|end_char=70|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=71|end_char=73|NER=O
+14	shtetin	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=74|end_char=81|NER=O
+15	fqinj	fqinj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=82|end_char=87|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=88|end_char=89|NER=O
+17	Greqinë	Greqinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	appos	_	start_char=90|end_char=97|SpaceAfter=No|NER=B-VEND_1
+18	.	.	PUNCT	_	_	12	punct	_	start_char=98|end_char=99|NER=O
+
+# text = Shifrat tregojnë se mbetemi shumë larg atyre të dy viteve më parë .
+# sent_id = 2
+1	Shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=16|NER=O
+3	se	se	SCONJ	_	_	4	mark	_	start_char=17|end_char=19|NER=O
+4	mbetemi	mbetem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Pass	2	ccomp	_	start_char=20|end_char=27|NER=O
+5	shumë	shumë	PRON	_	PronType=Ind	6	nummod	_	start_char=28|end_char=33|NER=O
+6	larg	larg	ADP	_	Case=Abl	7	case	_	start_char=34|end_char=38|NER=O
+7	atyre	ato	PRON	_	Case=Abl|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=39|end_char=44|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=45|end_char=47|NER=O
+9	dy	dy	NUM	_	NumType=Card	10	nummod	_	start_char=48|end_char=50|NER=O
+10	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=51|end_char=57|NER=O
+11	më	më	PART	_	_	12	mark	_	start_char=58|end_char=60|NER=O
+12	parë	parë	ADV	_	AdvType=Man	10	advmod	_	start_char=61|end_char=65|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Përmes Kakavijës për festat e funditvitit këtë vit kanë hyrë rreth 11 mijë persona , nga 18 mijë që erdhën në vitin 2019 - të .
+# sent_id = 3
+1	Përmes	përmes	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=6|NER=O
+2	Kakavijës	Kakavijë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=7|end_char=16|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=17|end_char=20|NER=O
+4	festat	festë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=21|end_char=27|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=28|end_char=29|NER=O
+6	funditvitit	funditvit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=30|end_char=41|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=42|end_char=46|NER=O
+8	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=47|end_char=50|NER=O
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=51|end_char=55|NER=O
+10	hyrë	hyj	VERB	_	VerbForm=Part	0	root	_	start_char=56|end_char=60|NER=O
+11	rreth	rreth	ADP	_	Case=Abl	14	case	_	start_char=61|end_char=66|NER=O
+12	11	11	NUM	_	NumType=Card	14	nummod	_	start_char=67|end_char=69|NER=O
+13	mijë	mijë	NUM	_	NumType=Card	14	nummod	_	start_char=70|end_char=74|NER=O
+14	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	advmod	_	start_char=75|end_char=82|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	18	punct	_	start_char=83|end_char=84|NER=O
+16	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=85|end_char=88|NER=O
+17	18	18	NUM	_	NumType=Card	18	nummod	_	start_char=89|end_char=91|NER=O
+18	mijë	mijë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	10	advmod	_	start_char=92|end_char=96|NER=O
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=97|end_char=99|NER=O
+20	erdhën	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	start_char=100|end_char=106|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=107|end_char=109|NER=O
+22	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	start_char=110|end_char=115|NER=B-DATE_0
+23	2019	2019	NUM	_	NumType=Card	22	amod:nummod	_	start_char=116|end_char=120|SpaceAfter=No|NER=I-DATE_0
+24	-	-	PUNCT	_	_	22	punct	_	start_char=121|end_char=122|SpaceAfter=No|NER=I-DATE_0
+25	të	2019-të	NUM	_	NumType=Card	22	amod:nummod	_	start_char=123|end_char=125|SpaceAfter=No|NER=I-DATE_0
+26	.	.	PUNCT	_	_	20	punct	_	start_char=126|end_char=127|NER=O
+
+# text = E njëjta situatë edhe në Kapshticë .
+# sent_id = 4
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	njëjta	njëjtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	det	_	start_char=2|end_char=8|NER=O
+3	situatë	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=16|NER=O
+4	edhe	edhe	PART	_	_	6	cc	_	start_char=17|end_char=21|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	Kapshticë	Kapshticë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=25|end_char=34|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	3	punct	_	start_char=35|end_char=36|NER=O
+
+# text = Pikat kufitare të Kakavijëa , Kapshticës dhe Qafbotës funksionojnë gjatë 24 orëve , ndërsa pika kufitare e Tri Urave funksionon nga ora 08 : 00 deri në orën 20 : 00 .
+# sent_id = 5
+1	Pikat	pikat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=0|end_char=5|NER=O
+2	kufitare	kufitar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=6|end_char=14|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=15|end_char=17|NER=O
+4	Kakavijëa	Kakavijë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=18|end_char=27|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=28|end_char=29|NER=O
+6	Kapshticës	Kapshticë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=30|end_char=40|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=41|end_char=44|NER=O
+8	Qafbotës	Qafbotë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=45|end_char=53|NER=O
+9	funksionojnë	funksionoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=54|end_char=66|NER=O
+10	gjatë	gjatë	ADP	_	Case=Abl	12	case	_	start_char=67|end_char=72|NER=O
+11	24	24	NUM	_	NumType=Card	12	nummod	_	start_char=73|end_char=75|NER=O
+12	orëve	orë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=76|end_char=81|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=82|end_char=83|NER=O
+14	ndërsa	ndërsa	CCONJ	_	_	15	cc	_	start_char=84|end_char=90|NER=O
+15	pika	pikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	20	obj	_	start_char=91|end_char=95|NER=O
+16	kufitare	kufitar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=96|end_char=104|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=105|end_char=106|NER=O
+18	Tri	tre	NUM	_	Gender=Fem|NumType=Card	19	nummod	_	start_char=107|end_char=110|NER=O
+19	Urave	Urav	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=111|end_char=116|NER=O
+20	funksionon	funksionoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=117|end_char=127|NER=O
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=128|end_char=131|NER=O
+22	ora	orë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=132|end_char=135|NER=O
+23	08	08	NUM	_	NumType=Card	22	nummod	_	start_char=136|end_char=138|SpaceAfter=No|NER=O
+24	:	:	PUNCT	_	_	22	punct	_	start_char=139|end_char=140|NER=O
+25	00	00	NUM	_	NumType=Card	22	nummod	_	start_char=141|end_char=143|NER=O
+26	deri	deri	PART	_	Case=TODO	26	fixed	_	start_char=144|end_char=148|NER=O
+27	në	në	ADP	_	Case=Acc	27	case	_	start_char=149|end_char=151|NER=O
+28	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	start_char=152|end_char=156|NER=O
+29	20	20	NUM	_	NumType=Card	29	nummod	_	start_char=157|end_char=159|SpaceAfter=No|NER=O
+30	:	:	PUNCT	_	_	27	punct	_	start_char=160|end_char=161|SpaceAfter=No|NER=O
+31	00	00	NUM	_	NumType=Card	27	nmod	_	start_char=162|end_char=164|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	20	punct	_	start_char=165|end_char=166|NER=O
+
+# text = Deri më 10 janar , çdo person mbi 5 vjeç që udhëton drejt Greqisë , pavarësisht është apo jo i vaksinuar , duhet të paraqesë test negativ PCR deri në 72 orë , ose RAPID TEST 24 orësh .
+# sent_id = 6
+1	Deri	deri	ADP	_	Case=Acc	4	case	_	start_char=0|end_char=4|NER=O
+2	më	më	ADP	_	Case=Acc	4	case	_	start_char=5|end_char=7|NER=O
+3	10	10	NUM	_	NumType=Card	4	nummod	_	start_char=8|end_char=10|NER=B-DATE_0
+4	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=11|end_char=16|SpaceAfter=No|NER=I-DATE_0
+5	,	,	PUNCT	_	_	4	punct	_	start_char=17|end_char=18|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	det	_	start_char=19|end_char=22|NER=O
+7	person	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=23|end_char=29|NER=O
+8	mbi	mbi	ADP	_	Case=Acc	10	case	_	start_char=30|end_char=33|NER=O
+9	5	5	NUM	_	NumType=Card	10	nummod	_	start_char=34|end_char=35|NER=O
+10	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=36|end_char=40|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=41|end_char=43|NER=O
+12	udhëton	udhëtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=44|end_char=51|NER=O
+13	drejt	drejt	ADP	_	Case=Abl	14	case	_	start_char=52|end_char=57|NER=O
+14	Greqisë	Greqi	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=58|end_char=65|SpaceAfter=No|NER=B-VEND_1
+15	,	,	PUNCT	_	_	16	punct	_	start_char=66|end_char=67|NER=O
+16	pavarësisht	pavarësisht	ADV	_	AdvType=Man	17	mark	_	start_char=68|end_char=79|NER=O
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=80|end_char=85|NER=O
+18	apo	apo	CCONJ	_	_	21	cc	_	start_char=86|end_char=89|NER=O
+19	jo	jo	PART	_	_	21	mark	_	start_char=90|end_char=92|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=93|end_char=94|NER=O
+21	vaksinuar	vaksinuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	cop	_	start_char=95|end_char=104|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	25	punct	_	start_char=105|end_char=106|NER=O
+23	duhet	duhem	AUX	_	_	25	aux	_	start_char=107|end_char=112|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=113|end_char=115|NER=O
+25	paraqesë	paraqem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=116|end_char=124|NER=O
+26	test	test	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	start_char=125|end_char=129|NER=O
+27	negativ	negat	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=130|end_char=137|NER=O
+28	PCR	PCR	PROPN	_	Foreign=Yes	26	appos	_	start_char=138|end_char=141|NER=O
+29	deri	deri	PART	_	Case=TODO	30	fixed	_	start_char=142|end_char=146|NER=O
+30	në	në	ADP	_	Case=Acc	32	case	_	start_char=147|end_char=149|NER=O
+31	72	72	NUM	_	NumType=Card	32	nummod	_	start_char=150|end_char=152|NER=O
+32	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	advmod	_	start_char=153|end_char=156|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	34	punct	_	start_char=157|end_char=158|NER=O
+34	ose	ose	CCONJ	_	_	35	cc	_	start_char=159|end_char=162|NER=O
+35	RAPID	RAPID	PROPN	_	Foreign=Yes	32	conj	_	start_char=163|end_char=168|NER=O
+36	TEST	TEST	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	flat:name	_	start_char=169|end_char=173|NER=O
+37	24	24	NUM	_	NumType=Card	38	nummod	_	start_char=174|end_char=176|NER=O
+38	orësh	orësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	start_char=177|end_char=182|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	25	punct	_	start_char=183|end_char=184|NER=O
+
+# text = Ky rregull i vendosur nga Ministria greke e Shëndetësisë , vjen si masë për parandalimin e përhapjes së variantit të ri të virusit , Omicron .
+# sent_id = 7
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	rregull	rregull	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=3|end_char=10|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	vendosur	vendosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=13|end_char=21|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=22|end_char=25|NER=O
+6	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=26|end_char=35|NER=B-ORG
+7	greke	grek	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=36|end_char=41|NER=I-ORG
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=42|end_char=43|NER=I-ORG
+9	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=44|end_char=56|SpaceAfter=No|NER=I-ORG
+10	,	,	PUNCT	_	_	11	punct	_	start_char=57|end_char=58|NER=O
+11	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=63|NER=O
+12	si	si	SCONJ	_	_	13	mark	_	start_char=64|end_char=66|NER=O
+13	masë	masë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=67|end_char=71|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=72|end_char=75|NER=O
+15	parandalimin	parandalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=76|end_char=88|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=89|end_char=90|NER=O
+17	përhapjes	përhapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=91|end_char=100|NER=O
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=101|end_char=103|NER=O
+19	variantit	variant	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=104|end_char=113|NER=O
+20	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=114|end_char=116|NER=O
+21	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=117|end_char=119|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=120|end_char=122|NER=O
+23	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=123|end_char=130|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	25	punct	_	start_char=131|end_char=132|NER=O
+25	Omicron	Omicro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	appos	_	start_char=133|end_char=140|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	11	punct	_	start_char=141|end_char=142|SpacesAfter=\n\n\n|NER=O
+

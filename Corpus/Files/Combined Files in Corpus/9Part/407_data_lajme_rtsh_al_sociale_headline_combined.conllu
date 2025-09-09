@@ -1,0 +1,157 @@
+# text = OBSH : 1 / 3 e europianëve marrin antibiotikë pa recetë , keqpërdorimi do sjellë 10 mln vdekje çdo vit deri në 2050 - ën 23 / 11 / 2023 Bota shumë shpejt nuk do të ketë më kontroll as mbi mjekimin e antibiotikëve as mbi keqpërdorimin e tyre .
+# sent_id = 0
+1	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-ORG
+2	:	:	PUNCT	_	_	3	punct	_	start_char=5|end_char=6|NER=O
+3	1	1	NUM	_	NumType=Card	1	flat	_	start_char=7|end_char=8|NER=O
+4	/	/	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+5	3	3	NUM	_	NumType=Card	1	flat	_	start_char=11|end_char=12|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=13|end_char=14|NER=O
+7	europianëve	europian	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=15|end_char=26|NER=O
+8	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=33|NER=O
+9	antibiotikë	antibiotikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=34|end_char=45|NER=O
+10	pa	pa	ADP	_	Case=Acc	9	case	_	start_char=46|end_char=48|NER=O
+11	recetë	recetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=49|end_char=55|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=56|end_char=57|NER=O
+13	keqpërdorimi	keqpërdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=58|end_char=70|NER=O
+14	do	do	PART	_	_	13	fixed	_	start_char=71|end_char=73|NER=O
+15	sjellë	sjell	VERB	_	VerbForm=Part	6	conj	_	start_char=74|end_char=80|NER=O
+16	10	10	NUM	_	NumType=Card	16	nummod	_	start_char=81|end_char=83|NER=O
+17	mln	mln	NUM	_	NumType=Card	16	nummod	_	start_char=84|end_char=87|NER=O
+18	vdekje	vdekje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=88|end_char=94|NER=O
+19	çdo	çdo	PRON	_	PronType=Ind	18	det	_	start_char=95|end_char=98|NER=O
+20	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=99|end_char=102|NER=O
+21	deri	deri	PART	_	_	21	case	_	start_char=103|end_char=107|NER=O
+22	në	në	ADP	_	Case=Acc	21	case	_	start_char=108|end_char=110|NER=B-DATE_0
+23	2050	2050	NUM	_	NumType=Card	18	nummod	_	start_char=111|end_char=115|SpacesAfter=\n|NER=I-DATE_0
+24	-	-	PUNCT	_	_	18	punct	_	start_char=116|end_char=117|SpacesAfter=\n|NER=I-DATE_0
+25	ën	2050	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	nummod	_	start_char=118|end_char=120|SpacesAfter=\n|NER=I-DATE_0
+26	23	23	NUM	_	NumType=Card	23	conj	_	start_char=121|end_char=123|SpaceAfter=No|NER=B-DATE_0
+27	/	/	PUNCT	_	_	21	punct	_	start_char=124|end_char=125|SpaceAfter=No|NER=I-DATE_0
+28	11	11	NUM	_	NumType=Card	21	flat	_	start_char=126|end_char=128|SpaceAfter=No|NER=I-DATE_0
+29	/	/	PUNCT	_	_	23	punct	_	start_char=129|end_char=130|SpaceAfter=No|NER=I-DATE_0
+30	2023	2023	NUM	_	NumType=Card	23	conj	_	start_char=131|end_char=135|SpaceAfter=No|NER=I-DATE_0
+31	Bota	botë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=136|end_char=140|NER=O
+32	shumë	shumë	ADV	_	AdvType=Deg	28	advmod	_	start_char=141|end_char=146|NER=O
+33	shpejt	shpejt	ADV	_	AdvType=Tim	32	advmod	_	start_char=147|end_char=153|NER=O
+34	nuk	nuk	PART	_	_	32	mark	_	start_char=154|end_char=157|NER=O
+35	do	do	PART	_	_	32	fixed	_	start_char=158|end_char=160|NER=O
+36	të	të	PART	_	_	32	fixed	_	start_char=161|end_char=163|NER=O
+37	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	acl:relcl	_	start_char=164|end_char=168|NER=O
+38	më	më	ADP	_	Case=Acc	34	case	_	start_char=169|end_char=171|NER=O
+39	kontroll	kontroll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	start_char=172|end_char=180|NER=O
+40	as	as	CCONJ	_	_	37	cc	_	start_char=181|end_char=183|NER=O
+41	mbi	mbi	ADP	_	Case=Acc	37	case	_	start_char=184|end_char=187|NER=O
+42	mjekimin	mjekim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	32	advmod	_	start_char=188|end_char=196|NER=O
+43	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	39	det:poss	_	start_char=197|end_char=198|NER=O
+44	antibiotikëve	antibiotik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	37	nmod	_	start_char=199|end_char=212|NER=O
+45	as	as	CCONJ	_	_	42	cc	_	start_char=213|end_char=215|NER=O
+46	mbi	mbi	ADP	_	Case=Acc	42	case	_	start_char=216|end_char=219|NER=O
+47	keqpërdorimin	keqpërdorim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	37	conj	_	start_char=220|end_char=233|NER=O
+48	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	44	det:poss	_	start_char=234|end_char=235|NER=O
+49	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	amod:poss	_	start_char=236|end_char=240|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	32	punct	_	start_char=241|end_char=242|NER=O
+
+# text = Paralajmërimi i fortë vjen nga OBSH ku të dhënat e fundit të një anketimi në 14 vende të Rajonit Europian përfshirë edhe Shqipërinë , treguan se një e treta e popullsisë konsumon antibiotikë pa recetë mjekësore .
+# sent_id = 1
+1	Paralajmërimi	paralajmërim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=13|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=14|end_char=15|NER=O
+3	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=16|end_char=21|NER=O
+4	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=26|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=27|end_char=30|NER=O
+6	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=31|end_char=35|NER=B-ORG
+7	ku	ku	ADV	_	AdvType=Loc	9	nummod	_	start_char=36|end_char=38|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=39|end_char=41|NER=O
+9	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=42|end_char=48|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=49|end_char=50|NER=O
+11	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=51|end_char=57|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=58|end_char=60|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=61|end_char=64|NER=O
+14	anketimi	anketim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=65|end_char=73|NER=O
+15	në	në	ADP	_	Case=Acc	17	case	_	start_char=74|end_char=76|NER=O
+16	14	14	NUM	_	NumType=Card	17	nummod	_	start_char=77|end_char=79|NER=O
+17	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=80|end_char=85|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=86|end_char=88|NER=O
+19	Rajonit	Rajon	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=89|end_char=96|NER=O
+20	Europian	Europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=97|end_char=105|NER=O
+21	përfshirë	përfshij	VERB	_	VerbForm=Part	17	amod	_	start_char=106|end_char=115|NER=O
+22	edhe	edhe	CCONJ	_	_	23	cc	_	start_char=116|end_char=120|NER=O
+23	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=121|end_char=131|SpaceAfter=No|NER=B-VEND_1
+24	,	,	PUNCT	_	_	25	punct	_	start_char=132|end_char=133|NER=O
+25	treguan	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	21	conj	_	start_char=134|end_char=141|NER=O
+26	se	se	SCONJ	_	_	32	mark	_	start_char=142|end_char=144|NER=O
+27	një	një	DET	_	Definite=Ind	29	det	_	start_char=145|end_char=148|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=149|end_char=150|NER=O
+29	treta	tretë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	cop	_	start_char=151|end_char=156|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=157|end_char=158|NER=O
+31	popullsisë	popullsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nsubj	_	start_char=159|end_char=169|NER=O
+32	konsumon	konsumoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	start_char=170|end_char=178|NER=O
+33	antibiotikë	antibiotikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obj	_	start_char=179|end_char=190|NER=O
+34	pa	pa	ADP	_	Case=Acc	35	case	_	start_char=191|end_char=193|NER=O
+35	recetë	recetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obl	_	start_char=194|end_char=200|NER=O
+36	mjekësore	mjekësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=201|end_char=210|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	32	punct	_	start_char=211|end_char=212|SpacesAfter=\n|NER=O
+
+# text = Shqipëria duket qartë në grafikët që ilustrojnë studimin se ka nivele shqetsuese të përdorimit të antibiotikëve pa kriter .
+# sent_id = 2
+1	Shqipëria	Shqipëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=9|NER=B-VEND_1
+2	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=15|NER=O
+3	qartë	qartë	ADV	_	AdvType=Man	2	advmod	_	start_char=16|end_char=21|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=24|NER=O
+5	grafikët	grafikë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	obl	_	start_char=25|end_char=33|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=34|end_char=36|NER=O
+7	ilustrojnë	ilustroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl	_	start_char=37|end_char=47|NER=O
+8	studimin	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=48|end_char=56|NER=O
+9	se	se	SCONJ	_	_	10	mark	_	start_char=57|end_char=59|NER=O
+10	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=60|end_char=62|NER=O
+11	nivele	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=63|end_char=69|NER=O
+12	shqetsuese	shqetsues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=70|end_char=80|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=81|end_char=83|NER=O
+14	përdorimit	përdorim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=84|end_char=94|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=95|end_char=97|NER=O
+16	antibiotikëve	antibiotik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=98|end_char=111|NER=O
+17	pa	pa	ADP	_	Case=Acc	18	case	_	start_char=112|end_char=114|NER=O
+18	kriter	kriter	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=115|end_char=121|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	2	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+
+# text = Antibiotiku më i përdorur rezultoi antibiotiku oral Azitromicinë gjatë vitit 2020 i cili gjatë këtij viti ishte i dyti më i më i përdorur në protokollet e mjekimit anti - covid .
+# sent_id = 3
+1	Antibiotiku	antibiotik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=11|NER=O
+2	më	më	PART	_	_	4	mark	_	start_char=12|end_char=14|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=15|end_char=16|NER=O
+4	përdorur	përdor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=17|end_char=25|NER=O
+5	rezultoi	rezultoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=26|end_char=34|NER=O
+6	antibiotiku	antibiotik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=35|end_char=46|NER=O
+7	oral	oral	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=47|end_char=51|NER=O
+8	Azitromicinë	Azitromici	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=52|end_char=64|NER=O
+9	gjatë	gjatë	ADP	_	Case=Abl	10	case	_	start_char=65|end_char=70|NER=O
+10	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=71|end_char=76|NER=B-DATE_0
+11	2020	2020	NUM	_	NumType=Card	10	amod:nummod	_	start_char=77|end_char=81|NER=I-DATE_0
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=82|end_char=83|NER=O
+13	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	start_char=84|end_char=88|NER=O
+14	gjatë	gjatë	ADP	_	Case=Abl	16	case	_	start_char=89|end_char=94|NER=O
+15	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=95|end_char=100|NER=O
+16	viti	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=101|end_char=105|NER=O
+17	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	ccomp	_	start_char=106|end_char=111|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=112|end_char=113|NER=O
+19	dyti	dyti	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	cop	_	start_char=114|end_char=118|NER=O
+20	më	më	PART	_	_	24	mark	_	start_char=119|end_char=121|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=122|end_char=123|NER=O
+22	më	më	PART	_	_	24	mark	_	start_char=124|end_char=126|NER=O
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=127|end_char=128|NER=O
+24	përdorur	përdor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=129|end_char=137|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=138|end_char=140|NER=O
+26	protokollet	protokoll	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	24	obl	_	start_char=141|end_char=152|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=153|end_char=154|NER=O
+28	mjekimit	mjekim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=155|end_char=163|NER=O
+29	anti	anti-covid	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=164|end_char=168|SpaceAfter=No|NER=O
+30	-	-	PUNCT	_	_	28	punct	_	start_char=169|end_char=170|SpaceAfter=No|NER=O
+31	covid	anti-covid	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=171|end_char=176|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	17	punct	_	start_char=177|end_char=178|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

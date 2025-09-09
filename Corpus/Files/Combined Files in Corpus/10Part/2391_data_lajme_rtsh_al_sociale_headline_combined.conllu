@@ -1,0 +1,59 @@
+# text = Më pak ndërhyrje kirurgjikale , Gjata : Në sallë , vetëm urgjencat ekstreme me COVID - 19 !
+# sent_id = 0
+1	Më	më	PART	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	pak	pak	ADV	_	AdvType=Deg	3	nummod	_	start_char=3|end_char=6|NER=O
+3	ndërhyrje	ndërhyrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=7|end_char=16|NER=O
+4	kirurgjikale	kirurgjikal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=17|end_char=29|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=30|end_char=31|NER=O
+6	Gjata	Gjatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=32|end_char=37|SpaceAfter=No|NER=B-PER
+7	:	:	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|NER=O
+8	Në	në	ADP	_	Case=Acc	2	case	_	start_char=40|end_char=42|NER=O
+9	sallë	sallë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=43|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	2	punct	_	start_char=49|end_char=50|NER=O
+11	vetëm	vetëm	PART	_	_	5	mark	_	start_char=51|end_char=56|NER=O
+12	urgjencat	urgjencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	start_char=57|end_char=66|NER=O
+13	ekstreme	ekstrem	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=67|end_char=75|NER=O
+14	me	me	ADP	_	Case=Acc	8	case	_	start_char=76|end_char=78|NER=O
+15	COVID	COVID-19	PROPN	_	Foreign=Yes	5	nmod	_	start_char=79|end_char=84|SpaceAfter=No|NER=O
+16	-	-	PUNCT	_	_	5	punct	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+17	19	19	NUM	_	NumType=Card	5	nmod	_	start_char=87|end_char=89|SpaceAfter=No|NER=O
+18	!	!	PUNCT	_	_	11	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+
+# text = 10 / 02 / 2022 Shefi i Shërbimit të Kirurgjisë Digjestive , Porf .
+# sent_id = 1
+1	10	10	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	11	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Shefi	shef	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=20|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=21|end_char=22|NER=O
+8	Shërbimit	shërbim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=23|end_char=32|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=33|end_char=35|NER=O
+10	Kirurgjisë	Kirurgji	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	compound	_	start_char=36|end_char=46|NER=O
+11	Digjestive	digjest	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=47|end_char=57|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	8	punct	_	start_char=58|end_char=59|NER=O
+13	Porf	Porf	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=60|end_char=64|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	1	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Arben Gjata thotë se gjatë pandemisë , në spital përveç ndërhyrjeve të planifikuara janë kryer edhe urgjenca .
+# sent_id = 2
+1	Arben	Arbe	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Gjata	Gjatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=6|end_char=11|NER=I-PER
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=17|NER=O
+4	se	se	SCONJ	_	_	15	mark	_	start_char=18|end_char=20|NER=O
+5	gjatë	gjatë	ADP	_	Case=Abl	6	case	_	start_char=21|end_char=26|NER=O
+6	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=27|end_char=36|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=37|end_char=38|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=39|end_char=41|NER=O
+9	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	advmod	_	start_char=42|end_char=48|NER=O
+10	përveç	përveç	ADP	_	Case=Abl	11	case	_	start_char=49|end_char=55|NER=O
+11	ndërhyrjeve	ndërhyrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=56|end_char=67|NER=O
+12	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=68|end_char=70|NER=O
+13	planifikuara	planifikuar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=71|end_char=83|NER=O
+14	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=84|end_char=88|NER=O
+15	kryer	kryej	VERB	_	VerbForm=Part	3	conj	_	start_char=89|end_char=94|NER=O
+16	edhe	edhe	CCONJ	_	_	17	mark:emph	_	start_char=95|end_char=99|NER=O
+17	urgjenca	urgjencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=100|end_char=108|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	15	punct	_	start_char=109|end_char=110|SpacesAfter=\n|NER=O
+

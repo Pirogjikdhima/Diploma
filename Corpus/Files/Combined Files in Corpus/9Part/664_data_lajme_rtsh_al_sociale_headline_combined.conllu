@@ -1,0 +1,515 @@
+# text = 25 vite në mësuesi .
+# sent_id = 0
+1	25	25	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|NER=O
+2	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=3|end_char=7|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=8|end_char=10|NER=O
+4	mësuesi	mësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=11|end_char=18|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	2	punct	_	start_char=19|end_char=20|NER=O
+
+# text = Loreta , mësuesja e dashuruar me profesionin 06 / 10 / 2023 Loreta Samara është një mësuese e pasionuar e gjuhë letërsisë e cila për 25 vite rresht ka dhënë mësim në në prej shkollave elitare të qytetit të Korçës , në shkollën " Stavri Themeli " .
+# sent_id = 1
+1	Loreta	Loretë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-PER
+2	,	,	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|NER=O
+3	mësuesja	mësuesjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=9|end_char=17|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=18|end_char=19|NER=O
+5	dashuruar	dashuruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=20|end_char=29|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=30|end_char=32|NER=O
+7	profesionin	profesion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=33|end_char=44|SpacesAfter=\n|NER=O
+8	06	06	NUM	_	NumType=Card	7	flat	_	start_char=45|end_char=47|SpaceAfter=No|NER=B-DATE_0
+9	/	/	PUNCT	_	_	7	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=I-DATE_0
+10	10	10	NUM	_	NumType=Card	7	flat	_	start_char=50|end_char=52|SpaceAfter=No|NER=I-DATE_0
+11	/	/	PUNCT	_	_	11	punct	_	start_char=53|end_char=54|SpaceAfter=No|NER=I-DATE_0
+12	2023	2023	NUM	_	NumType=Card	7	flat	_	start_char=55|end_char=59|SpaceAfter=No|NER=I-DATE_0
+13	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=60|end_char=66|NER=B-PER
+14	Samara	samarë	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	13	flat	_	start_char=67|end_char=73|NER=I-PER
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=74|end_char=79|NER=O
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=80|end_char=83|NER=O
+17	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	cop	_	start_char=84|end_char=91|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=92|end_char=93|NER=O
+19	pasionuar	pasionuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=94|end_char=103|NER=O
+20	e	e	CCONJ	_	_	21	cc	_	start_char=104|end_char=105|NER=O
+21	gjuhë	gjuhë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	conj	_	start_char=106|end_char=111|NER=O
+22	letërsisë	letërsi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=112|end_char=121|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=122|end_char=123|NER=O
+24	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nmod	_	start_char=124|end_char=128|NER=O
+25	për	për	ADP	_	Case=Acc	27	case	_	start_char=129|end_char=132|NER=O
+26	25	25	NUM	_	NumType=Card	27	nummod	_	start_char=133|end_char=135|NER=O
+27	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	30	advmod	_	start_char=136|end_char=140|NER=O
+28	rresht	rresh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	27	nmod	_	start_char=141|end_char=147|NER=O
+29	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	start_char=148|end_char=150|NER=O
+30	dhënë	jap	VERB	_	VerbForm=Part	15	conj	_	start_char=151|end_char=156|NER=O
+31	mësim	mësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=157|end_char=162|NER=O
+32	në	në	ADP	_	Case=Acc	35	case	_	start_char=163|end_char=165|NER=O
+33	në	në	ADP	_	Case=Acc	35	case	_	start_char=166|end_char=168|NER=O
+34	prej	prej	ADP	_	Case=Abl	35	case	_	start_char=169|end_char=173|NER=O
+35	shkollave	shkollë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	30	advmod	_	start_char=174|end_char=183|NER=O
+36	elitare	elitar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	35	amod	_	start_char=184|end_char=191|NER=O
+37	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	38	det:poss	_	start_char=192|end_char=194|NER=O
+38	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=195|end_char=202|NER=O
+39	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=203|end_char=205|NER=O
+40	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=206|end_char=212|SpaceAfter=No|NER=B-VEND_0
+41	,	,	PUNCT	_	_	43	punct	_	start_char=213|end_char=214|NER=O
+42	në	në	ADP	_	Case=Acc	43	case	_	start_char=215|end_char=217|NER=O
+43	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=218|end_char=226|NER=O
+44	"	"	PUNCT	_	_	45	punct	_	start_char=227|end_char=228|SpaceAfter=No|NER=O
+45	Stavri	Stavri	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	43	nmod	_	start_char=229|end_char=235|NER=O
+46	Themeli	Themel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	45	flat	_	start_char=236|end_char=243|SpaceAfter=No|NER=O
+47	"	"	PUNCT	_	_	45	punct	_	start_char=244|end_char=245|SpaceAfter=No|NER=O
+48	.	.	PUNCT	_	_	30	punct	_	start_char=246|end_char=247|SpacesAfter=\n|NER=O
+
+# text = " M ' u duk sot sikur do merrja regjistrin në dorë dhe do filloja mësimin ditën e parë të shkollës .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	M	M'u	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=3|NER=O
+3	'	'	PUNCT	_	_	3	punct	_	start_char=4|end_char=5|NER=O
+4	u	M'u	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6|end_char=7|NER=O
+5	duk	duk	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=8|end_char=11|NER=O
+6	sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=12|end_char=15|NER=O
+7	sikur	sikur	SCONJ	_	_	7	mark	_	start_char=16|end_char=21|NER=O
+8	do	do	PART	_	_	7	fixed	_	start_char=22|end_char=24|NER=O
+9	merrja	merrjej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	3	advcl	_	start_char=25|end_char=31|NER=O
+10	regjistrin	regjistr	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=32|end_char=42|NER=O
+11	në	në	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=45|NER=O
+12	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=46|end_char=50|NER=O
+13	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=51|end_char=54|NER=O
+14	do	do	PART	_	_	13	fixed	_	start_char=55|end_char=57|NER=O
+15	filloja	filloj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	7	conj	_	start_char=58|end_char=65|NER=O
+16	mësimin	mësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=66|end_char=73|NER=O
+17	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=74|end_char=79|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=80|end_char=81|NER=O
+19	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=82|end_char=86|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=87|end_char=89|NER=O
+21	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=90|end_char=98|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	13	punct	_	start_char=99|end_char=100|NER=O
+
+# text = Kemi qenë një brez mësuesish që kanë punuar me pasion , sepse mësimdhënia në fund të fundit është vërtet jo thjesht profesion , por pasion , " thotë mësuese Loreta .
+# sent_id = 3
+1	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=9|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=10|end_char=13|NER=O
+4	brez	brez	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=14|end_char=18|NER=O
+5	mësuesish	mësuesish	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	start_char=19|end_char=28|NER=O
+6	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=29|end_char=31|NER=O
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=32|end_char=36|NER=O
+8	punuar	punoj	VERB	_	VerbForm=Part	4	acl:relcl	_	start_char=37|end_char=43|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=44|end_char=46|NER=O
+10	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=47|end_char=53|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=54|end_char=55|NER=O
+12	sepse	sepse	SCONJ	_	_	18	mark	_	start_char=56|end_char=61|NER=O
+13	mësimdhënia	mësimdhëni	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=62|end_char=73|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=74|end_char=76|NER=O
+15	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=77|end_char=81|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=82|end_char=84|NER=O
+17	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=85|end_char=91|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	csubj	_	start_char=92|end_char=97|NER=O
+19	vërtet	vërtet	ADV	_	AdvType=Deg	18	advmod	_	start_char=98|end_char=104|NER=O
+20	jo	jo	PART	_	_	21	mark	_	start_char=105|end_char=107|NER=O
+21	thjesht	thjesht	ADV	_	AdvType=Deg	22	advmod	_	start_char=108|end_char=115|NER=O
+22	profesion	profesion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	cop	_	start_char=116|end_char=125|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	24	punct	_	start_char=126|end_char=127|NER=O
+24	por	por	CCONJ	_	_	28	cc	_	start_char=128|end_char=131|NER=O
+25	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	start_char=132|end_char=138|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	28	punct	_	start_char=139|end_char=140|SpaceAfter=No|NER=O
+27	"	"	PUNCT	_	_	28	punct	_	start_char=141|end_char=142|NER=O
+28	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=143|end_char=148|NER=O
+29	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	start_char=149|end_char=156|NER=O
+30	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	appos	_	start_char=157|end_char=163|SpaceAfter=No|NER=B-PER
+31	.	.	PUNCT	_	_	28	punct	_	start_char=164|end_char=165|SpacesAfter=\n|NER=O
+
+# text = Prej 22 vitesh mësuese Loreta ka dalë në pension , por pasioni dhe dëshira për mësimdhënien nuk i është larguar asnjëherë .
+# sent_id = 4
+1	Prej	prej	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=4|NER=O
+2	22	22	NUM	_	NumType=Card	3	nummod	_	start_char=5|end_char=7|NER=O
+3	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=8|end_char=14|NER=O
+4	mësuese	mësues	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=15|end_char=22|NER=O
+5	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	flat	_	start_char=23|end_char=29|NER=B-PER
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=30|end_char=32|NER=O
+7	dalë	dal	VERB	_	VerbForm=Part	0	root	_	start_char=33|end_char=37|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	pension	pension	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=41|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|NER=O
+11	por	por	CCONJ	_	_	12	cc	_	start_char=51|end_char=54|NER=O
+12	pasioni	pasion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=55|end_char=62|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=63|end_char=66|NER=O
+14	dëshira	dëshirë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	start_char=67|end_char=74|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=75|end_char=78|NER=O
+16	mësimdhënien	mësimdhënii	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	start_char=79|end_char=91|NER=O
+17	nuk	nuk	PART	_	_	20	mark	_	start_char=92|end_char=95|NER=O
+18	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	start_char=96|end_char=97|NER=O
+19	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=98|end_char=103|NER=O
+20	larguar	largoj	VERB	_	VerbForm=Part	7	conj	_	start_char=104|end_char=111|NER=O
+21	asnjëherë	asnjëherë	ADV	_	AdvType=Tim	20	advmod	_	start_char=112|end_char=121|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	20	punct	_	start_char=122|end_char=123|NER=O
+
+# text = Ajo sot 78 vjeçe kujton me mall kohën kur ka shërbyer në arsim , kohë që për të ka qenë më e bukura në jetë .
+# sent_id = 5
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	det	_	start_char=0|end_char=3|NER=O
+2	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=4|end_char=7|NER=O
+3	78	78	NUM	_	NumType=Card	4	nummod	_	start_char=8|end_char=10|NER=O
+4	vjeçe	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=11|end_char=16|NER=O
+5	kujton	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=23|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=24|end_char=26|NER=O
+7	mall	mall	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=27|end_char=31|NER=O
+8	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=32|end_char=37|NER=O
+9	kur	kur	SCONJ	_	_	11	mark	_	start_char=38|end_char=41|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=42|end_char=44|NER=O
+11	shërbyer	shërbej	VERB	_	VerbForm=Part	5	advcl	_	start_char=45|end_char=53|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+13	arsim	arsim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=57|end_char=62|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=63|end_char=64|NER=O
+15	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=65|end_char=69|NER=O
+16	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=70|end_char=72|NER=O
+17	për	për	PART	_	_	20	fixed	_	start_char=73|end_char=76|NER=O
+18	të	të	PART	_	_	20	fixed	_	start_char=77|end_char=79|NER=O
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=80|end_char=82|NER=O
+20	qenë	jam	VERB	_	VerbForm=Part	11	advcl	_	start_char=83|end_char=87|NER=O
+21	më	më	PART	_	_	23	mark	_	start_char=88|end_char=90|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=91|end_char=92|NER=O
+23	bukura	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	cop	_	start_char=93|end_char=99|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=100|end_char=102|NER=O
+25	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	advmod	_	start_char=103|end_char=107|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	20	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = " Kishim shkumësin në dorë , kishim buzëqeshjen në fytyrë , kishim dëshirën për të dhënë maksimumin tonë dhe them që ajo kohë ka qenë më e bukura që mund të përfytyroja , " shprehet mësuese Loreta .
+# sent_id = 6
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kishim	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=8|NER=O
+3	shkumësin	shkumës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=9|end_char=18|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=22|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=27|end_char=28|NER=O
+7	kishim	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	conj	_	start_char=29|end_char=35|NER=O
+8	buzëqeshjen	buzëqeshje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=36|end_char=47|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=48|end_char=50|NER=O
+10	fytyrë	fytyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=51|end_char=57|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=58|end_char=59|NER=O
+12	kishim	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	7	conj	_	start_char=60|end_char=66|NER=O
+13	dëshirën	dëshirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=67|end_char=75|NER=O
+14	për	për	PART	_	_	16	fixed	_	start_char=76|end_char=79|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=80|end_char=82|NER=O
+16	dhënë	jap	VERB	_	VerbForm=Part	12	advmod	_	start_char=83|end_char=88|NER=O
+17	maksimumin	maksimum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=89|end_char=99|NER=O
+18	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	amod	_	start_char=100|end_char=104|NER=O
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=105|end_char=108|NER=O
+20	them	them	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	16	conj	_	start_char=109|end_char=113|NER=O
+21	që	që	SCONJ	_	_	25	mark	_	start_char=114|end_char=116|NER=O
+22	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	det	_	start_char=117|end_char=120|NER=O
+23	kohë	kohë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	25	nsubj	_	start_char=121|end_char=125|NER=O
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=126|end_char=128|NER=O
+25	qenë	jam	VERB	_	VerbForm=Part	20	advcl	_	start_char=129|end_char=133|NER=O
+26	më	më	PART	_	_	28	mark	_	start_char=134|end_char=136|NER=O
+27	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=137|end_char=138|NER=O
+28	bukura	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	cop	_	start_char=139|end_char=145|NER=O
+29	që	që	PRON	_	PronType=Rel	32	nsubj	_	start_char=146|end_char=148|NER=O
+30	mund	mund	AUX	_	_	32	aux	_	start_char=149|end_char=153|NER=O
+31	të	të	PART	_	_	32	fixed	_	start_char=154|end_char=156|NER=O
+32	përfytyroja	përfytyroj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	25	advcl	_	start_char=157|end_char=168|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	35	punct	_	start_char=169|end_char=170|SpaceAfter=No|NER=O
+34	"	"	PUNCT	_	_	35	punct	_	start_char=171|end_char=172|NER=O
+35	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	32	ccomp	_	start_char=173|end_char=181|NER=O
+36	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	35	obj	_	start_char=182|end_char=189|NER=O
+37	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	flat	_	start_char=190|end_char=196|SpaceAfter=No|NER=B-PER
+38	.	.	PUNCT	_	_	35	punct	_	start_char=197|end_char=198|SpacesAfter=\n|NER=O
+
+# text = Në korridoret e shkollës takuam një mësuese të edukimit fizik , e cila dikur ka qenë nxënëse e mësuese Loretës .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	korridoret	korridor	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=3|end_char=13|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=16|end_char=24|NER=O
+5	takuam	takoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=25|end_char=31|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=32|end_char=35|NER=O
+7	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=36|end_char=43|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=44|end_char=46|NER=O
+9	edukimit	edukim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=47|end_char=55|NER=O
+10	fizik	fizik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=56|end_char=61|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=62|end_char=63|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=64|end_char=65|NER=O
+13	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	start_char=66|end_char=70|NER=O
+14	dikur	dikur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	cop	_	start_char=71|end_char=76|NER=O
+15	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=77|end_char=79|NER=O
+16	qenë	jam	VERB	_	VerbForm=Part	5	advcl	_	start_char=80|end_char=84|NER=O
+17	nxënëse	nxënës	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	cop	_	start_char=85|end_char=92|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=93|end_char=94|NER=O
+19	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=95|end_char=102|NER=O
+20	Loretës	Loretë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	appos	_	start_char=103|end_char=110|SpaceAfter=No|NER=B-VEND_0
+21	.	.	PUNCT	_	_	16	punct	_	start_char=111|end_char=112|NER=O
+
+# text = Nevila Jorgji nuk ngurron të shprehë emocionet e këtij takimi .
+# sent_id = 8
+1	Nevila	nevilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	Jorgji	Jorgji	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=13|NER=I-PER
+3	nuk	nuk	PART	_	Polarity=Neg	4	mark	_	start_char=14|end_char=17|NER=O
+4	ngurron	ngurroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=25|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=26|end_char=28|NER=O
+6	shprehë	shpreh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=29|end_char=36|NER=O
+7	emocionet	emocion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=37|end_char=46|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=47|end_char=48|NER=O
+9	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=49|end_char=54|NER=O
+10	takimi	takim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=55|end_char=61|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	4	punct	_	start_char=62|end_char=63|SpacesAfter=\n|NER=O
+
+# text = " Gjithnjë ashtu e qeshur , me fjalë të ëmbla , na ka mësuar me mënyrën e saj aktoriale .
+# sent_id = 9
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjithnjë	Gjithnjë	ADV	_	AdvType=Tim	14	advmod	_	start_char=2|end_char=10|NER=O
+3	ashtu	ashtu	ADV	_	AdvType=Man	5	mark	_	start_char=11|end_char=16|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=18|NER=O
+5	qeshur	qeshur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=19|end_char=25|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=26|end_char=27|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=28|end_char=30|NER=O
+8	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	advmod	_	start_char=31|end_char=36|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=37|end_char=39|NER=O
+10	ëmbla	ëmbël	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=40|end_char=45|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	8	punct	_	start_char=46|end_char=47|NER=O
+12	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	14	iobj	_	start_char=48|end_char=50|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=51|end_char=53|NER=O
+14	mësuar	mësoj	VERB	_	VerbForm=Part	0	root	_	start_char=54|end_char=60|NER=O
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=61|end_char=63|NER=O
+16	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	start_char=64|end_char=71|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=72|end_char=73|NER=O
+18	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=74|end_char=77|NER=O
+19	aktoriale	aktorial	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=78|end_char=87|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	14	punct	_	start_char=88|end_char=89|NER=O
+
+# text = Ka qenë e dhënë me nxënësit .
+# sent_id = 10
+1	Ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=2|NER=O
+2	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=3|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=9|NER=O
+4	dhënë	jap	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=10|end_char=15|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=16|end_char=18|NER=O
+6	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	advmod	_	start_char=19|end_char=27|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	2	punct	_	start_char=28|end_char=29|NER=O
+
+# text = E bekuar ajo , të bekuar ne që kemi qenë nxënësit e saj , " thotë mësuese Nevila .
+# sent_id = 11
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	start_char=0|end_char=1|NER=O
+2	bekuar	bekoj	VERB	_	VerbForm=Part	16	advmod	_	start_char=2|end_char=8|NER=O
+3	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=9|end_char=12|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=15|end_char=17|NER=O
+6	bekuar	bekoj	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=24|NER=O
+7	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	obj	_	start_char=25|end_char=27|NER=O
+8	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=28|end_char=30|NER=O
+9	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	aux	_	start_char=31|end_char=35|NER=O
+10	qenë	jam	VERB	_	VerbForm=Part	7	acl:relcl	_	start_char=36|end_char=40|NER=O
+11	nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	cop	_	start_char=41|end_char=49|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det:poss	_	start_char=50|end_char=51|NER=O
+13	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=52|end_char=55|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	16	punct	_	start_char=58|end_char=59|NER=O
+16	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	parataxis	_	start_char=60|end_char=65|NER=O
+17	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=66|end_char=73|NER=O
+18	Nevila	nevilë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	appos	_	start_char=74|end_char=80|SpaceAfter=No|NER=B-PER
+19	.	.	PUNCT	_	_	16	punct	_	start_char=81|end_char=82|SpacesAfter=\n\n|NER=O
+
+# text = Dashurinë për profesionin e bukur të mësuesit Loreta Samara e ka shprehur edhe njëherë sot teksa mori pjesë në në orë mësimi , duke bërë për vete ashtu siç di ajo , nxënësit e klasës së pestë të shkollës Stavri Themeli .
+# sent_id = 12
+1	Dashurinë	dashuri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=0|end_char=9|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=10|end_char=13|NER=O
+3	profesionin	profesion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=14|end_char=25|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=26|end_char=27|NER=O
+5	bukur	bukur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=28|end_char=33|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=34|end_char=36|NER=O
+7	mësuesit	mësues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=37|end_char=45|NER=O
+8	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=46|end_char=52|NER=B-PER
+9	Samara	samarë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=53|end_char=59|NER=I-PER
+10	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	cc	_	start_char=60|end_char=61|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=62|end_char=64|NER=O
+12	shprehur	shpreh	VERB	_	VerbForm=Part	0	root	_	start_char=65|end_char=73|NER=O
+13	edhe	edhe	PART	_	_	14	mark	_	start_char=74|end_char=78|NER=O
+14	njëherë	njëherë	ADV	_	AdvType=Tim	12	advmod	_	start_char=79|end_char=86|NER=O
+15	sot	sot	ADV	_	AdvType=Tim	12	advmod	_	start_char=87|end_char=90|NER=O
+16	teksa	teksa	SCONJ	_	_	17	mark	_	start_char=91|end_char=96|NER=O
+17	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	start_char=97|end_char=101|NER=O
+18	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=102|end_char=107|NER=O
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=108|end_char=110|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=111|end_char=113|NER=O
+21	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=114|end_char=117|NER=O
+22	mësimi	mësim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=118|end_char=124|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	25	punct	_	start_char=125|end_char=126|NER=O
+24	duke	duke	PART	_	_	25	fixed	_	start_char=127|end_char=131|NER=O
+25	bërë	bëj	VERB	_	VerbForm=Part	17	advmod	_	start_char=132|end_char=136|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=137|end_char=140|NER=O
+27	vete	vete	PRON	_	PronType=Prs|Reflex=Yes	25	obl	_	start_char=141|end_char=145|NER=O
+28	ashtu	ashtu	ADV	_	AdvType=Man	30	mark	_	start_char=146|end_char=151|NER=O
+29	siç	siç	SCONJ	_	_	30	mark	_	start_char=152|end_char=155|NER=O
+30	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	advcl	_	start_char=156|end_char=158|NER=O
+31	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	start_char=159|end_char=162|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	33	punct	_	start_char=163|end_char=164|NER=O
+33	nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	30	obj	_	start_char=165|end_char=173|NER=O
+34	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	35	det:poss	_	start_char=174|end_char=175|NER=O
+35	klasës	klasë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=176|end_char=182|NER=O
+36	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=183|end_char=185|NER=O
+37	pestë	pestë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=186|end_char=191|NER=O
+38	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	39	det	_	start_char=192|end_char=194|NER=O
+39	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=195|end_char=203|NER=O
+40	Stavri	Stavri	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	39	appos	_	start_char=204|end_char=210|NER=O
+41	Themeli	Themel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	appos	_	start_char=211|end_char=218|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	30	punct	_	start_char=219|end_char=220|NER=O
+
+# text = Samara ka edhe një thirrje për nxënësit e studentët të cilët janë ende duke u regjistruar në fakultete .
+# sent_id = 13
+1	Samara	samarë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=9|NER=O
+3	edhe	edhe	PART	_	_	5	cc	_	start_char=10|end_char=14|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=15|end_char=18|NER=O
+5	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=19|end_char=26|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=30|NER=O
+7	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=31|end_char=39|NER=O
+8	e	e	CCONJ	_	_	9	cc	_	start_char=40|end_char=41|NER=O
+9	studentët	studentë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	conj	_	start_char=42|end_char=51|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=52|end_char=54|NER=O
+11	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	nsubj	_	start_char=55|end_char=60|NER=O
+12	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=61|end_char=65|NER=O
+13	ende	ende	ADV	_	AdvType=Tim	12	advmod	_	start_char=66|end_char=70|NER=O
+14	duke	duke	PART	_	_	16	fixed	_	start_char=71|end_char=75|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=76|end_char=77|NER=O
+16	regjistruar	regjistroj	VERB	_	VerbForm=Part	12	advmod	_	start_char=78|end_char=89|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=90|end_char=92|NER=O
+18	fakultete	fakultet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obl	_	start_char=93|end_char=102|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	12	punct	_	start_char=103|end_char=104|SpacesAfter=\n|NER=O
+
+# text = " Të zgjedhin mësuesinë .
+# sent_id = 14
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Të	të	PART	_	_	3	fixed	_	start_char=2|end_char=4|NER=O
+3	zgjedhin	zgjedh	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=13|NER=O
+4	mësuesinë	mësuesi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=14|end_char=23|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	3	punct	_	start_char=24|end_char=25|NER=O
+
+# text = Të bëhen fizikanë , kimistë , sepse mësimdhënia është gjëja më e jashtëzakonshme që mund t ' i ndodhë njeriut në jetë , " shton Loreta .
+# sent_id = 15
+1	Të	të	PART	_	_	2	fixed	_	start_char=0|end_char=2|NER=O
+2	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	9	advcl	_	start_char=3|end_char=8|NER=O
+3	fizikanë	fizikanë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=9|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=18|end_char=19|NER=O
+5	kimistë	kimistë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=20|end_char=27|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29|NER=O
+7	sepse	sepse	SCONJ	_	_	9	mark	_	start_char=30|end_char=35|NER=O
+8	mësimdhënia	mësimdhëni	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=36|end_char=47|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=53|NER=O
+10	gjëja	gjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	cop	_	start_char=54|end_char=59|NER=O
+11	më	më	PART	_	_	13	mark	_	start_char=60|end_char=62|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=63|end_char=64|NER=O
+13	jashtëzakonshme	jashtëzakonshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=65|end_char=80|NER=O
+14	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=81|end_char=83|NER=O
+15	mund	mund	AUX	_	_	17	aux	_	start_char=84|end_char=88|NER=O
+16	t	t'i	PART	_	_	17	mark	_	start_char=89|end_char=90|NER=O
+17	'	'	PUNCT	_	_	17	punct	_	start_char=91|end_char=92|NER=O
+18	i	t'i	PART	_	_	17	mark	_	start_char=93|end_char=94|NER=O
+19	ndodhë	ndodh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=95|end_char=101|NER=O
+20	njeriut	njeri	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=102|end_char=109|NER=O
+21	në	në	ADP	_	Case=Acc	20	case	_	start_char=110|end_char=112|NER=O
+22	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advmod	_	start_char=113|end_char=117|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	23	punct	_	start_char=118|end_char=119|SpaceAfter=No|NER=O
+24	"	"	PUNCT	_	_	23	punct	_	start_char=120|end_char=121|NER=O
+25	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	start_char=122|end_char=127|NER=O
+26	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=128|end_char=134|SpaceAfter=No|NER=B-PER
+27	.	.	PUNCT	_	_	23	punct	_	start_char=135|end_char=136|SpacesAfter=\n|NER=O
+
+# text = Si një mësuese e pasionuar e gjuhës Loreta Samara nuk harron të theksojë rëndësinë e drejtshkrimit dhe drejtshqiptimit të gjuhës shqipe .
+# sent_id = 16
+1	Si	si	SCONJ	_	_	3	mark	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=7|end_char=14|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=16|NER=O
+5	pasionuar	pasionuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=17|end_char=26|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=27|end_char=28|NER=O
+7	gjuhës	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=29|end_char=35|NER=O
+8	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=36|end_char=42|NER=B-PER
+9	Samara	samarë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=43|end_char=49|NER=I-PER
+10	nuk	nuk	PART	_	_	11	mark	_	start_char=50|end_char=53|NER=O
+11	harron	harroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=54|end_char=60|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=61|end_char=63|NER=O
+13	theksojë	theksoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	start_char=64|end_char=72|NER=O
+14	rëndësinë	rëndësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=73|end_char=82|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=83|end_char=84|NER=O
+16	drejtshkrimit	drejtshkrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=85|end_char=98|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=99|end_char=102|NER=O
+18	drejtshqiptimit	drejtshqiptim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=103|end_char=118|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=119|end_char=121|NER=O
+20	gjuhës	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=122|end_char=128|NER=O
+21	shqipe	shqip	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=129|end_char=135|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	11	punct	_	start_char=136|end_char=137|SpacesAfter=\n|NER=O
+
+# text = Një mësues i mirë është një mësues i dashuruar me profesionin e vet , një ndjesi kjo që Samara e uron për të gjithë mësuesit e ditëve tona .
+# sent_id = 17
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	mësues	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=4|end_char=10|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=13|end_char=17|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=24|end_char=27|NER=O
+7	mësues	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	cop	_	start_char=28|end_char=34|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=35|end_char=36|NER=O
+9	dashuruar	dashuruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=37|end_char=46|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	profesionin	profesion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=50|end_char=61|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=62|end_char=63|NER=O
+13	vet	vet	PRON	_	Gender=Masc|PronType=Prs|Reflex=Yes	11	amod:poss	_	start_char=64|end_char=67|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=68|end_char=69|NER=O
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=70|end_char=73|NER=O
+16	ndjesi	ndjes	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	list	_	start_char=74|end_char=80|NER=O
+17	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	start_char=81|end_char=84|NER=O
+18	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=85|end_char=87|NER=O
+19	Samara	samarë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=88|end_char=94|NER=B-PER
+20	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=95|end_char=96|NER=O
+21	uron	uroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	start_char=97|end_char=101|NER=O
+22	për	për	ADP	_	Case=Acc	25	case	_	start_char=102|end_char=105|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=106|end_char=108|NER=O
+24	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	25	det	_	start_char=109|end_char=115|NER=O
+25	mësuesit	mësues	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	21	obl	_	start_char=116|end_char=124|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	27	det:poss	_	start_char=125|end_char=126|NER=O
+27	ditëve	ditë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	start_char=127|end_char=133|NER=O
+28	tona	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	amod	_	start_char=134|end_char=138|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	21	punct	_	start_char=139|end_char=140|SpacesAfter=\n|NER=O
+
+# text = Teksa largohet nga shkolla " Stavri Themeli " , mësuese Loreta merr me vete mjaft emocione të bukura , ndërsa premton se do të rikthehet për një orë mësimi letërsie me nxënësit e klasave të nënta .
+# sent_id = 18
+1	Teksa	teksa	SCONJ	_	_	2	mark	_	start_char=0|end_char=5|NER=O
+2	largohet	largoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=6|end_char=14|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=15|end_char=18|NER=O
+4	shkolla	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=19|end_char=26|NER=O
+5	"	"	PUNCT	_	_	6	punct	_	start_char=27|end_char=28|SpaceAfter=No|NER=O
+6	Stavri	Stavri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=29|end_char=35|NER=O
+7	Themeli	Themel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=36|end_char=43|SpaceAfter=No|NER=O
+8	"	"	PUNCT	_	_	6	punct	_	start_char=44|end_char=45|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	mësuese	mësues	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	start_char=48|end_char=55|NER=O
+11	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=56|end_char=62|NER=B-PER
+12	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=67|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=68|end_char=70|NER=O
+14	vete	vete	PRON	_	PronType=Prs|Reflex=Yes	12	obl	_	start_char=71|end_char=75|NER=O
+15	mjaft	mjaft	ADV	_	AdvType=Deg	16	nummod	_	start_char=76|end_char=81|NER=O
+16	emocione	emocion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=82|end_char=90|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=91|end_char=93|NER=O
+18	bukura	bukur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=94|end_char=100|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=101|end_char=102|NER=O
+20	ndërsa	ndërsa	CCONJ	_	_	21	cc	_	start_char=103|end_char=109|NER=O
+21	premton	premtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=110|end_char=117|NER=O
+22	se	se	SCONJ	_	_	25	mark	_	start_char=118|end_char=120|NER=O
+23	do	do	PART	_	_	25	fixed	_	start_char=121|end_char=123|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=124|end_char=126|NER=O
+25	rikthehet	rikthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	advcl	_	start_char=127|end_char=136|NER=O
+26	për	për	ADP	_	Case=Acc	28	case	_	start_char=137|end_char=140|NER=O
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=141|end_char=144|NER=O
+28	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	start_char=145|end_char=148|NER=O
+29	mësimi	mësim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=149|end_char=155|NER=O
+30	letërsie	letërsi	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	29	nmod	_	start_char=156|end_char=164|NER=O
+31	me	me	ADP	_	Case=Acc	32	case	_	start_char=165|end_char=167|NER=O
+32	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	25	obl	_	start_char=168|end_char=176|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	34	det:poss	_	start_char=177|end_char=178|NER=O
+34	klasave	klasë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	32	nmod	_	start_char=179|end_char=186|NER=O
+35	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	36	det	_	start_char=187|end_char=189|NER=O
+36	nënta	nëntë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=190|end_char=195|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	25	punct	_	start_char=196|end_char=197|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Konstanca Koti
+# sent_id = 19
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Konstanca	Konstancë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=20|NER=B-PER
+4	Koti	Koti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=21|end_char=25|SpacesAfter=\n|NER=I-PER
+

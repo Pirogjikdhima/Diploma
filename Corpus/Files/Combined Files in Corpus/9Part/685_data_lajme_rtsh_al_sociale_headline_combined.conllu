@@ -1,0 +1,184 @@
+# text = 02 / 10 / 2023 " Universiteti Bujqësor është i vetmi në vend që jo vetëm që nuk ka rënie por ka rritje duke dëshmuar cilësi akademike , cilësi stafi dhe cilësi të infrastrukturës " , tha rektori i Universitetit Bujqësor Fatbardh Sallaku .
+# sent_id = 0
+1	02	02	NUM	_	NumType=Card	10	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	12	conj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	"	"	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Universiteti	Universitet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=17|end_char=29|NER=O
+8	Bujqësor	bujqësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=30|end_char=38|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=44|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=45|end_char=46|NER=O
+11	vetmi	vetmi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	cop	_	start_char=47|end_char=52|NER=O
+12	në	në	ADP	_	Case=Acc	8	case	_	start_char=53|end_char=55|NER=O
+13	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=56|end_char=60|NER=O
+14	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=61|end_char=63|NER=O
+15	jo	jo	PART	_	_	11	mark	_	start_char=64|end_char=66|NER=O
+16	vetëm	vetëm	ADV	_	AdvType=Man	14	advmod	_	start_char=67|end_char=72|NER=O
+17	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=73|end_char=75|NER=O
+18	nuk	nuk	PART	_	_	14	mark	_	start_char=76|end_char=79|NER=O
+19	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=80|end_char=82|NER=O
+20	rënie	rënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=83|end_char=88|NER=O
+21	por	por	CCONJ	_	_	17	cc	_	start_char=89|end_char=92|NER=O
+22	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=93|end_char=95|NER=O
+23	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obj	_	start_char=96|end_char=102|NER=O
+24	duke	duke	PART	_	_	20	fixed	_	start_char=103|end_char=107|NER=O
+25	dëshmuar	dëshmoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=108|end_char=116|NER=O
+26	cilësi	cilësi	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	20	obj	_	start_char=117|end_char=123|NER=O
+27	akademike	akademik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=124|end_char=133|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	24	punct	_	start_char=134|end_char=135|NER=O
+29	cilësi	cilësi	PRON	_	PronType=Ind	25	list	_	start_char=136|end_char=142|NER=O
+30	stafi	staf	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=143|end_char=148|NER=O
+31	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=149|end_char=152|NER=O
+32	cilësi	cilësi	PRON	_	Number=Sing|PronType=Ind	25	conj	_	start_char=153|end_char=159|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=160|end_char=162|NER=O
+34	infrastrukturës	infrastrukturës	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=163|end_char=178|SpaceAfter=No|NER=O
+35	"	"	PUNCT	_	_	27	punct	_	start_char=179|end_char=180|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	31	punct	_	start_char=181|end_char=182|NER=O
+37	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	parataxis	_	start_char=183|end_char=186|NER=O
+38	rektori	rektor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=187|end_char=194|NER=O
+39	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=195|end_char=196|NER=O
+40	Universitetit	Universitet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=197|end_char=210|NER=O
+41	Bujqësor	Bujqësor	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	34	flat	_	start_char=211|end_char=219|NER=O
+42	Fatbardh	Fatbardh	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	34	flat	_	start_char=220|end_char=228|NER=B-PER
+43	Sallaku	Sallak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	flat:name	_	start_char=229|end_char=236|SpaceAfter=No|NER=I-PER
+44	.	.	PUNCT	_	_	31	punct	_	start_char=237|end_char=238|SpacesAfter=\n|NER=O
+
+# text = " Vij nga Firencja .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vij	jem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=5|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=6|end_char=9|NER=O
+4	Firencja	Firencje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=10|end_char=18|SpaceAfter=No|NER=B-VEND_0
+5	.	.	PUNCT	_	_	2	punct	_	start_char=19|end_char=20|NER=O
+
+# text = Zgjodhëm të studiojmë në Shqipëri pas një vizite që bëmë në vendin tuaj .
+# sent_id = 2
+1	Zgjodhëm	Zgjodhëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=8|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=9|end_char=11|NER=O
+3	studiojmë	studioj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	ccomp	_	start_char=12|end_char=21|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=24|NER=O
+5	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=25|end_char=33|NER=B-VEND_1
+6	pas	pas	ADP	_	Case=Abl	8	case	_	start_char=34|end_char=37|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=38|end_char=41|NER=O
+8	vizite	vizit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=42|end_char=48|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=49|end_char=51|NER=O
+10	bëmë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	8	acl	_	start_char=52|end_char=56|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=57|end_char=59|NER=O
+12	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=60|end_char=66|NER=O
+13	tuaj	juaj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	amod	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	3	punct	_	start_char=72|end_char=73|NER=O
+
+# text = Na pëlqeu shumë dhe vendosëm që dhe studimet e larta t ' i kryejmë këtu .
+# sent_id = 3
+1	Na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=0|end_char=2|NER=O
+2	pëlqeu	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=9|NER=O
+3	shumë	shumë	ADV	_	AdvType=Deg	2	advmod	_	start_char=10|end_char=15|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=16|end_char=19|NER=O
+5	vendosëm	vendoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	conj	_	start_char=20|end_char=28|NER=O
+6	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=29|end_char=31|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=32|end_char=35|NER=O
+8	studimet	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=36|end_char=44|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=45|end_char=46|NER=O
+10	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=47|end_char=52|NER=O
+11	t	t'i	PRON	_	Case=Acc|Number=Plur|PronType=Prs	12	nsubj	_	start_char=53|end_char=54|NER=O
+12	'	'	PUNCT	_	_	12	punct	_	start_char=55|end_char=56|NER=O
+13	i	t'i	PRON	_	Case=Acc|Number=Plur|PronType=Prs	12	nsubj	_	start_char=57|end_char=58|NER=O
+14	kryejmë	kryej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=59|end_char=66|NER=O
+15	këtu	ky	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	12	obj	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=72|end_char=73|NER=O
+
+# text = Në qytetin tonë ka shumë ndërtime ndërsa në Shqipëri na bën përshtypje gjelbërimi , pemët , natyra " , thotë një studente .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=3|end_char=10|NER=O
+3	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=11|end_char=15|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=18|NER=O
+5	shumë	shumë	PRON	_	PronType=Ind	6	nummod	_	start_char=19|end_char=24|NER=O
+6	ndërtime	ndërtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=25|end_char=33|NER=O
+7	ndërsa	ndërsa	CCONJ	_	_	11	cc	_	start_char=34|end_char=40|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=41|end_char=43|NER=O
+9	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=44|end_char=52|NER=B-VEND_1
+10	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	start_char=53|end_char=55|NER=O
+11	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=56|end_char=59|NER=O
+12	përshtypje	përshtypje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=60|end_char=70|NER=O
+13	gjelbërimi	gjelbërim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=71|end_char=81|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=82|end_char=83|NER=O
+15	pemët	pemë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	list	_	start_char=84|end_char=89|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=90|end_char=91|NER=O
+17	natyra	natyra	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	15	list	_	start_char=92|end_char=98|SpaceAfter=No|NER=O
+18	"	"	PUNCT	_	_	15	punct	_	start_char=99|end_char=100|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	17	punct	_	start_char=101|end_char=102|NER=O
+20	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=103|end_char=108|NER=O
+21	një	një	DET	_	Definite=Ind	21	det	_	start_char=109|end_char=112|NER=O
+22	studente	student	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=113|end_char=121|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	19	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+
+# text = " Unë jam nga Roma .
+# sent_id = 5
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2|end_char=5|NER=O
+3	jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=9|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=10|end_char=13|NER=O
+5	Roma	Romë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=14|end_char=18|SpaceAfter=No|NER=B-VEND_0
+6	.	.	PUNCT	_	_	3	punct	_	start_char=19|end_char=20|NER=O
+
+# text = Kam zgjedhur të ndjek studimet këtu , pasi është një mundësi e mirë për ne të studiojmë në në qytet që është në zhvillim .
+# sent_id = 6
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	zgjedhur	zgjedh	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=12|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=13|end_char=15|NER=O
+4	ndjek	ndjek	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=16|end_char=21|NER=O
+5	studimet	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=22|end_char=30|NER=O
+6	këtu	këtu	ADV	_	AdvType=Man	5	amod	_	start_char=31|end_char=35|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=36|end_char=37|NER=O
+8	pasi	pasi	SCONJ	_	_	9	mark	_	start_char=38|end_char=42|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=43|end_char=48|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=49|end_char=52|NER=O
+11	mundësi	mundësi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	cop	_	start_char=53|end_char=60|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=61|end_char=62|NER=O
+13	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=63|end_char=67|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=68|end_char=71|NER=O
+15	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	obl	_	start_char=72|end_char=74|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=75|end_char=77|NER=O
+17	studiojmë	studioj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advmod	_	start_char=78|end_char=87|NER=O
+18	në	në	ADP	_	Case=Acc	20	case	_	start_char=88|end_char=90|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=91|end_char=93|NER=O
+20	qytet	qytet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=94|end_char=99|NER=O
+21	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=100|end_char=102|NER=O
+22	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl	_	start_char=103|end_char=108|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=109|end_char=111|NER=O
+24	zhvillim	zhvillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=112|end_char=120|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	22	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Shpresoj të jetë një eksperiencë e bukur dhe e vlefshme për të ardhmen tonë " , tha një student .
+# sent_id = 7
+1	Shpresoj	shpresoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=8|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=9|end_char=11|NER=O
+3	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=12|end_char=16|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=17|end_char=20|NER=O
+5	eksperiencë	eksperiencë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	cop	_	start_char=21|end_char=32|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=33|end_char=34|NER=O
+7	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=35|end_char=40|NER=O
+8	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=41|end_char=44|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=45|end_char=46|NER=O
+10	vlefshme	vlefshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=47|end_char=55|NER=O
+11	për	për	ADP	_	Case=Acc	13	case	_	start_char=56|end_char=59|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=60|end_char=62|NER=O
+13	ardhmen	ardhme	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=63|end_char=70|NER=O
+14	tonë	tonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=71|end_char=75|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	13	punct	_	start_char=76|end_char=77|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=78|end_char=79|NER=O
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=80|end_char=83|NER=O
+18	një	një	DET	_	Definite=Ind	18	det	_	start_char=84|end_char=87|NER=O
+19	student	student	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=88|end_char=95|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	16	punct	_	start_char=96|end_char=97|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Keti Toroveci
+# sent_id = 8
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Keti	Keti	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=16|end_char=24|SpacesAfter=\n\n|NER=I-PER
+

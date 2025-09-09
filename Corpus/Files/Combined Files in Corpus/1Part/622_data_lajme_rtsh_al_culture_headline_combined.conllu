@@ -1,0 +1,289 @@
+# text = " Gjuha e Luizit e papranueshme " .
+# sent_id = 0
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|NER=O
+2	Gjuha	tGjuhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=2|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+4	Luizit	Luiz	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=16|NER=B-PER
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	start_char=17|end_char=18|NER=O
+6	papranueshme	papranueshmem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=19|end_char=31|SpaceAfter=No|NER=O
+7	"	"	PUNCT	_	_	0	punct	_	start_char=32|end_char=33|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	5	punct	_	start_char=34|end_char=35|NER=O
+
+# text = Balina Bodinaku vitin tjetër opinioniste ?
+# sent_id = 1
+1	Balina	Balinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-PER
+2	Bodinaku	Bodinak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=15|NER=I-PER
+3	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=21|NER=O
+4	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	amod	_	start_char=22|end_char=28|NER=O
+5	opinioniste	opinionist	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=29|end_char=40|SpaceAfter=No|NER=O
+6	?	?	PUNCT	_	_	1	punct	_	start_char=41|end_char=42|SpacesAfter=\n|NER=O
+
+# text = 30 / 04 / 2023 Balina Bodinaku ishte me Ermal Peçin këtë të diel në programin " Më prit në fundjavë " .
+# sent_id = 2
+1	30	30	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	04	04	NUM	_	NumType=Card	7	nsubj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	2	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Balina	Balinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=15|end_char=21|NER=B-PER
+7	Bodinaku	Bodinak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=22|end_char=30|NER=I-PER
+8	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=31|end_char=36|NER=O
+9	me	me	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+10	Ermal	Ermal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	obl:arg	_	start_char=40|end_char=45|NER=B-PER
+11	Peçin	Peçi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=46|end_char=51|NER=I-PER
+12	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=52|end_char=56|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=57|end_char=59|NER=B-DATE_1
+14	diel	diel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=60|end_char=64|NER=I-DATE_1
+15	në	në	ADP	_	Case=Acc	15	case	_	start_char=65|end_char=67|NER=O
+16	programin	program	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=68|end_char=77|NER=O
+17	"	"	PUNCT	_	_	13	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=O
+18	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	start_char=80|end_char=82|NER=O
+19	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	csubj	_	start_char=83|end_char=87|NER=O
+20	në	në	ADP	_	Case=Acc	20	case	_	start_char=88|end_char=90|NER=O
+21	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=91|end_char=99|NER=O
+22	"	"	PUNCT	_	_	18	punct	_	start_char=100|end_char=101|NER=O
+23	.	.	PUNCT	_	_	23	punct	_	start_char=102|end_char=103|SpaceAfter=No|NER=O
+
+# text = Edhe pse ajo nuk ishte këtë vit opinioniste në Big Brother Vip , nuk i ka shpëtuar dot jehonës së reality show .
+# sent_id = 3
+1	Edhe	edhe	CCONJ	_	_	23	fixed	_	start_char=0|end_char=4|NER=O
+2	pse	pse	SCONJ	_	_	26	mark	_	start_char=5|end_char=8|NER=O
+3	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=9|end_char=12|NER=O
+4	nuk	nuk	PART	_	_	26	mark	_	start_char=13|end_char=16|NER=O
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	18	advcl	_	start_char=17|end_char=22|NER=O
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=23|end_char=27|NER=O
+7	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	cop	_	start_char=28|end_char=31|NER=O
+8	opinioniste	opinionist	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=32|end_char=43|NER=O
+9	në	në	ADP	_	Case=Acc	31	case	_	start_char=44|end_char=46|NER=O
+10	Big	Big	PROPN	_	Foreign=Yes	28	nmod	_	start_char=47|end_char=50|NER=O
+11	Brother	Brother	PROPN	_	Foreign=Yes	31	flat	_	start_char=51|end_char=58|NER=O
+12	Vip	Vip	PROPN	_	Foreign=Yes	32	flat	_	start_char=59|end_char=62|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	38	punct	_	start_char=63|end_char=64|NER=O
+14	nuk	nuk	PART	_	_	38	mark	_	start_char=65|end_char=68|NER=O
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	iobj	_	start_char=69|end_char=70|NER=O
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=71|end_char=73|NER=O
+17	shpëtuar	shpëtoj	VERB	_	VerbForm=Part	7	conj	_	start_char=74|end_char=82|NER=O
+18	dot	dot	ADP	_	Case=Abl	40	case	_	start_char=83|end_char=86|NER=O
+19	jehonës	jehonë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	38	obl	_	start_char=87|end_char=94|NER=O
+20	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	42	det:poss	_	start_char=95|end_char=97|NER=O
+21	reality	reality	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	40	nmod	_	start_char=98|end_char=105|NER=O
+22	show	show	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	42	nmod	_	start_char=106|end_char=110|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	38	punct	_	start_char=111|end_char=112|NER=O
+
+# text = Gazetarja i tregoi Ermalit se presionin që po ndjejnë dy opinionistët aktual e ka ende të freskët nga eksperienca e saj e vjetshme , duke nënvizuar aspak normale gjuhën që përdoret kundër tyre .
+# sent_id = 4
+1	Gazetarja	Gazetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=O
+2	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=10|end_char=11|NER=O
+3	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=12|end_char=18|NER=O
+4	Ermalit	Ermal	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=19|end_char=26|NER=B-PER
+5	se	se	SCONJ	_	_	9	mark	_	start_char=27|end_char=29|NER=O
+6	presionin	presion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=30|end_char=39|NER=O
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=40|end_char=42|NER=O
+8	po	po	PART	_	_	9	mark	_	start_char=43|end_char=45|NER=O
+9	ndjejnë	ndjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=46|end_char=53|NER=O
+10	dy	dy	NUM	_	NumType=Card	11	nummod	_	start_char=54|end_char=56|NER=O
+11	opinionistët	opinionistë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	9	obj	_	start_char=57|end_char=69|NER=O
+12	aktual	aktual	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=70|end_char=76|NER=O
+13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=77|end_char=78|NER=O
+14	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=79|end_char=81|NER=O
+15	ende	ende	ADV	_	AdvType=Tim	17	advmod	_	start_char=82|end_char=86|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=87|end_char=89|NER=O
+17	freskët	freskët	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	cop	_	start_char=90|end_char=97|NER=O
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=98|end_char=101|NER=O
+19	eksperienca	eksperiencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	start_char=102|end_char=113|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=114|end_char=115|NER=O
+21	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	amod:poss	_	start_char=116|end_char=119|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=120|end_char=121|NER=O
+23	vjetshme	vjetshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=122|end_char=130|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=131|end_char=132|NER=O
+25	duke	duke	PART	_	_	26	fixed	_	start_char=133|end_char=137|NER=O
+26	nënvizuar	nënvizoj	VERB	_	VerbForm=Part	14	advmod	_	start_char=138|end_char=147|NER=O
+27	aspak	aspak	ADV	_	AdvType=Deg	28	advmod	_	start_char=148|end_char=153|NER=O
+28	normale	normal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	obj	_	start_char=154|end_char=161|NER=O
+29	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=162|end_char=168|NER=O
+30	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=169|end_char=171|NER=O
+31	përdoret	përdor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	26	ccomp	_	start_char=172|end_char=180|NER=O
+32	kundër	kundër	ADP	_	Case=Abl	33	case	_	start_char=181|end_char=187|NER=O
+33	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obl	_	start_char=188|end_char=192|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	31	punct	_	start_char=193|end_char=194|SpacesAfter=\n|NER=O
+
+# text = " Opinionet mbeten opinione .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Opinionet	Opinion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=2|end_char=11|NER=O
+3	mbeten	mbet	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=12|end_char=18|NER=O
+4	opinione	opinion	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=19|end_char=27|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	3	punct	_	start_char=28|end_char=29|NER=O
+
+# text = Ti duhet ta respektosh , ta dëgjosh .
+# sent_id = 6
+1	Ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=0|end_char=2|NER=O
+2	duhet	duhem	AUX	_	_	5	aux	_	start_char=3|end_char=8|NER=O
+3	ta	_	_	_	_	_	_	_	start_char=9|end_char=11|NER=O
+4	respektosh	respektoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=22|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	9	punct	_	start_char=23|end_char=24|NER=O
+6	ta	_	_	_	_	_	_	_	start_char=25|end_char=27|NER=O
+7	dëgjosh	dëgjoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	advcl	_	start_char=28|end_char=35|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|NER=O
+
+# text = Mund të mos pëlqejë , por duhet ta respektosh opinionin e dikujt në lidhje me një temë të caktuar " , tha Bodinaku duke shtuar se edhe rastet e dhunës janë të pa tolerueshme .
+# sent_id = 7
+1	Mund	mund	AUX	_	_	4	aux	_	start_char=0|end_char=4|NER=O
+2	të	të	PART	_	_	4	fixed	_	start_char=5|end_char=7|NER=O
+3	mos	mos	PART	_	_	4	mark	_	start_char=8|end_char=11|NER=O
+4	pëlqejë	pëlqej	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	22	advcl	_	start_char=12|end_char=19|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|NER=O
+6	por	por	CCONJ	_	_	10	cc	_	start_char=22|end_char=25|NER=O
+7	duhet	duhem	AUX	_	_	10	aux	_	start_char=26|end_char=31|NER=O
+8	ta	_	_	_	_	_	_	_	start_char=32|end_char=34|NER=O
+9	respektosh	respektoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=35|end_char=45|NER=O
+10	opinionin	opinion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=46|end_char=55|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=56|end_char=57|NER=O
+12	dikujt	dikujt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=58|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	18	case	_	start_char=65|end_char=67|NER=O
+14	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	det	_	start_char=68|end_char=74|NER=O
+15	me	me	ADP	_	Case=Acc	18	case	_	start_char=75|end_char=77|NER=O
+16	një	një	DET	_	Definite=Ind	18	det	_	start_char=78|end_char=81|NER=O
+17	temë	temë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	advmod	_	start_char=82|end_char=86|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=87|end_char=89|NER=O
+19	caktuar	caktuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=90|end_char=97|SpaceAfter=No|NER=O
+20	"	"	PUNCT	_	_	18	punct	_	start_char=98|end_char=99|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	22	punct	_	start_char=100|end_char=101|NER=O
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=102|end_char=105|NER=O
+23	Bodinaku	Bodinak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	start_char=106|end_char=114|NER=B-PER
+24	duke	duke	PART	_	_	25	fixed	_	start_char=115|end_char=119|NER=O
+25	shtuar	shtoj	VERB	_	VerbForm=Part	22	advmod	_	start_char=120|end_char=126|NER=O
+26	se	se	SCONJ	_	_	31	mark	_	start_char=127|end_char=129|NER=O
+27	edhe	edhe	CCONJ	_	_	28	mark	_	start_char=130|end_char=134|NER=O
+28	rastet	rast	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	31	nsubj	_	start_char=135|end_char=141|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=142|end_char=143|NER=O
+30	dhunës	dhunë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=144|end_char=150|NER=O
+31	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	conj	_	start_char=151|end_char=155|NER=O
+32	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	34	fixed	_	start_char=156|end_char=158|NER=O
+33	pa	pa	PART	_	_	34	advmod	_	start_char=159|end_char=161|NER=O
+34	tolerueshme	toleruem	VERB	_	VerbForm=Part	31	ccomp	_	start_char=162|end_char=173|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	31	punct	_	start_char=174|end_char=175|SpacesAfter=\n|NER=O
+
+# text = " Gjuha e Luiz Ejllit herët e fundit ka qenë e papranueshme .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjuha	Gjuhë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=8|end_char=9|NER=O
+4	Luiz	Luiz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=10|end_char=14|NER=B-PER
+5	Ejllit	Ejll	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=15|end_char=21|NER=I-PER
+6	herët	herët	ADV	_	AdvType=Tim	4	flat	_	start_char=22|end_char=27|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=28|end_char=29|NER=O
+8	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=30|end_char=36|NER=O
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=37|end_char=39|NER=O
+10	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=40|end_char=44|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=45|end_char=46|NER=O
+12	papranueshme	papranueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	cop	_	start_char=47|end_char=59|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	10	punct	_	start_char=60|end_char=61|NER=O
+
+# text = Po të isha opinioniste aty do ta thosha patjetër " , shtoi Balina .
+# sent_id = 9
+1	Po	po	PART	_	_	3	mark	_	start_char=0|end_char=2|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=3|end_char=5|NER=O
+3	isha	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	12	advcl	_	start_char=6|end_char=10|NER=O
+4	opinioniste	opinionist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=11|end_char=22|NER=O
+5	aty	aty	ADV	_	AdvType=Loc	3	advmod	_	start_char=23|end_char=26|NER=O
+6	do	do	PART	_	_	9	fixed	_	start_char=27|end_char=29|NER=O
+7	ta	_	_	_	_	_	_	_	start_char=30|end_char=32|NER=O
+8	thosha	thoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	12	advcl	_	start_char=33|end_char=39|NER=O
+9	patjetër	patjetër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=40|end_char=48|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	9	punct	_	start_char=49|end_char=50|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	9	punct	_	start_char=51|end_char=52|NER=O
+12	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=53|end_char=58|NER=O
+13	Balina	Balinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=59|end_char=65|SpaceAfter=No|NER=B-PER
+14	.	.	PUNCT	_	_	12	punct	_	start_char=66|end_char=67|SpacesAfter=\n|NER=O
+
+# text = " Të gjithë flasin për ta , për ngjarjet aty .
+# sent_id = 10
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2|end_char=4|NER=O
+3	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	start_char=5|end_char=11|NER=O
+4	flasin	flas	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=18|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=19|end_char=22|NER=O
+6	ta	ata	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	start_char=23|end_char=25|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=26|end_char=27|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=28|end_char=31|NER=O
+9	ngjarjet	ngjarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	start_char=32|end_char=40|NER=O
+10	aty	aty	ADV	_	AdvType=Loc	9	advmod	_	start_char=41|end_char=44|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	4	punct	_	start_char=45|end_char=46|NER=O
+
+# text = Edhe nëse e bëj për audiencë , për ndjekës nuk shoh asgjë të keqe .
+# sent_id = 11
+1	Edhe	edhe	CCONJ	_	_	2	fixed	_	start_char=0|end_char=4|NER=O
+2	nëse	nëse	SCONJ	_	_	4	mark	_	start_char=5|end_char=9|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=10|end_char=11|NER=O
+4	bëj	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=12|end_char=15|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=16|end_char=19|NER=O
+6	audiencë	audiencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=20|end_char=28|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	4	punct	_	start_char=29|end_char=30|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=31|end_char=34|NER=O
+9	ndjekës	ndjekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=35|end_char=42|NER=O
+10	nuk	nuk	PART	_	_	11	mark	_	start_char=43|end_char=46|NER=O
+11	shoh	shoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=47|end_char=51|NER=O
+12	asgjë	asgjë	PRON	_	PronType=Ind	11	obj	_	start_char=52|end_char=57|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=58|end_char=60|NER=O
+14	keqe	keqe	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=61|end_char=65|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	11	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Nëse më rriten ndjekësit nga këto LIVE , le të rriten s ' ka asgjë të keqe " , përfundoi Bodinaku .
+# sent_id = 12
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=0|end_char=4|NER=O
+2	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=5|end_char=7|NER=O
+3	rriten	rris	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	17	advmod	_	start_char=8|end_char=14|NER=O
+4	ndjekësit	ndjekës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=15|end_char=24|NER=O
+5	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=25|end_char=28|NER=O
+6	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=29|end_char=33|NER=O
+7	LIVE	LIVE	NOUN	_	_	3	advmod	_	start_char=34|end_char=38|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+9	le	le	PART	_	_	11	mark	_	start_char=41|end_char=43|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=44|end_char=46|NER=O
+11	rriten	rris	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	17	advcl	_	start_char=47|end_char=53|NER=O
+12	s	s'ka	ADV	_	AdvType=Deg	11	advmod	_	start_char=54|end_char=55|NER=O
+13	'	'	PUNCT	_	_	11	punct	_	start_char=56|end_char=57|NER=O
+14	ka	s'ka	ADV	_	AdvType=Deg	11	advmod	_	start_char=58|end_char=60|NER=O
+15	asgjë	asgjë	PRON	_	PronType=Ind	11	nsubj	_	start_char=61|end_char=66|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=67|end_char=69|NER=O
+17	keqe	keqe	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=70|end_char=74|SpaceAfter=No|NER=O
+18	"	"	PUNCT	_	_	13	punct	_	start_char=75|end_char=76|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	17	punct	_	start_char=77|end_char=78|NER=O
+20	përfundoi	përfundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=79|end_char=88|NER=O
+21	Bodinaku	Bodinak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=89|end_char=97|SpaceAfter=No|NER=B-PER
+22	.	.	PUNCT	_	_	17	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = A do të rikthehet edicionin tjetër ?
+# sent_id = 13
+1	A	a	PART	_	_	4	mark	_	start_char=0|end_char=1|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=2|end_char=4|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=5|end_char=7|NER=O
+4	rikthehet	rikthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=8|end_char=17|NER=O
+5	edicionin	edicion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=18|end_char=27|NER=O
+6	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	amod	_	start_char=28|end_char=34|SpaceAfter=No|NER=O
+7	?	?	PUNCT	_	_	4	punct	_	start_char=35|end_char=36|NER=O
+
+# text = Balina duket se nuk mbyll dyer në projektet e saj dhe la të hapur mundësinë e rikthimit në spektakël .
+# sent_id = 14
+1	Balina	Balinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=7|end_char=12|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=13|end_char=15|NER=O
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=16|end_char=19|NER=O
+5	mbyll	mbyll	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=20|end_char=25|NER=O
+6	dyer	derë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=26|end_char=30|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=33|NER=O
+8	projektet	projekt	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obl	_	start_char=34|end_char=43|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=44|end_char=45|NER=O
+10	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	amod:poss	_	start_char=46|end_char=49|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=50|end_char=53|NER=O
+12	la	lë	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=54|end_char=56|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=57|end_char=59|NER=O
+14	hapur	hap	VERB	_	VerbForm=Part	12	ccomp	_	start_char=60|end_char=65|NER=O
+15	mundësinë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=66|end_char=75|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=76|end_char=77|NER=O
+17	rikthimit	rikthim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=78|end_char=87|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=88|end_char=90|NER=O
+19	spektakël	spektakël	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=91|end_char=100|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=101|end_char=102|SpacesAfter=\n\n|NER=O
+

@@ -1,0 +1,110 @@
+# text = 18 / 12 / 2023 Andon Poçi , një prej fshatrave që gjendet rreth 6 kilometra larg qytetit të Gjirokastrës , këtë vit ka ngjallur interes tek të huajt për t ' u vizituar .
+# sent_id = 0
+1	18	18	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	15	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Andon	Andon	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=15|end_char=20|NER=B-PER
+7	Poçi	Poçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=21|end_char=25|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	24	punct	_	start_char=26|end_char=27|NER=O
+9	një	një	DET	_	Definite=Ind	24	det	_	start_char=28|end_char=31|NER=O
+10	prej	prej	ADP	_	Case=Abl	24	case	_	start_char=32|end_char=36|NER=O
+11	fshatrave	fshatrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=37|end_char=46|NER=O
+12	që	që	PRON	_	PronType=Rel	26	nsubj	_	start_char=47|end_char=49|NER=O
+13	gjendet	gjendem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	24	acl:relcl	_	start_char=50|end_char=57|NER=O
+14	rreth	rreth	ADP	_	Case=Abl	29	case	_	start_char=58|end_char=63|NER=O
+15	6	6	NUM	_	NumType=Card	29	nummod	_	start_char=64|end_char=65|NER=O
+16	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=66|end_char=75|NER=O
+17	larg	larg	ADP	_	Case=Abl	31	case	_	start_char=76|end_char=80|NER=O
+18	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=81|end_char=88|NER=O
+19	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=89|end_char=91|NER=O
+20	Gjirokastrës	Gjirokastrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=92|end_char=104|SpaceAfter=No|NER=B-VEND_0
+21	,	,	PUNCT	_	_	36	punct	_	start_char=105|end_char=106|NER=O
+22	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	start_char=107|end_char=111|NER=O
+23	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	38	advmod	_	start_char=112|end_char=115|NER=O
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=116|end_char=118|NER=O
+25	ngjallur	ngjalloj	VERB	_	VerbForm=Part	0	root	_	start_char=119|end_char=127|NER=O
+26	interes	interes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	38	obj	_	start_char=128|end_char=135|NER=O
+27	tek	tek	ADP	_	Case=Nom	42	case	_	start_char=136|end_char=139|NER=O
+28	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	42	det	_	start_char=140|end_char=142|NER=O
+29	huajt	huaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	38	obl	_	start_char=143|end_char=148|NER=O
+30	për	për	PART	_	_	46	fixed	_	start_char=149|end_char=152|NER=O
+31	t	_	_	_	_	_	_	_	start_char=153|end_char=154|NER=O
+32	'	'	PUNCT	_	_	_	punct	_	start_char=155|end_char=156|NER=O
+33	u	_	_	_	_	_	_	_	start_char=157|end_char=158|NER=O
+34	vizituar	vizitoj	VERB	_	VerbForm=Part	38	advmod	_	start_char=159|end_char=167|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	38	punct	_	start_char=168|end_char=169|SpacesAfter=\n|NER=O
+
+# text = " banorë në fshat kanë qenë rreth 750 , por tani kanë mbetur rreth 100 .
+# sent_id = 1
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	banorë	banor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	start_char=2|end_char=8|SpaceAfter=No|NER=O
+3	në	në	ADP	_	Case=Acc	14	case	_	start_char=9|end_char=11|NER=O
+4	fshat	fshat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	advmod	_	start_char=12|end_char=17|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=18|end_char=22|NER=O
+6	qenë	jam	VERB	_	VerbForm=Part	22	conj	_	start_char=23|end_char=27|NER=O
+7	rreth	rreth	ADP	_	Case=Abl	33	case	_	start_char=28|end_char=33|NER=O
+8	750	750	NUM	_	NumType=Card	31	advmod	_	start_char=34|end_char=37|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	35	punct	_	start_char=38|end_char=39|NER=O
+10	por	por	CCONJ	_	_	38	cc	_	start_char=40|end_char=43|NER=O
+11	tani	tani	ADV	_	AdvType=Tim	38	advmod	_	start_char=44|end_char=48|NER=O
+12	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=49|end_char=53|NER=O
+13	mbetur	mbes	VERB	_	VerbForm=Part	31	conj	_	start_char=54|end_char=60|NER=O
+14	rreth	rreth	ADP	_	Case=Abl	40	case	_	start_char=61|end_char=66|NER=O
+15	100	100	NUM	_	NumType=Card	38	advmod	_	start_char=67|end_char=70|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	38	punct	_	start_char=71|end_char=72|NER=O
+
+# text = Këta që kanë ngelur këtu janë pensionistë dhe merren kryesisht me bujqësi .
+# sent_id = 2
+1	Këta	këta	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	6	nsubj	_	start_char=0|end_char=4|NER=O
+2	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=5|end_char=7|NER=O
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=8|end_char=12|NER=O
+4	ngelur	ngel	VERB	_	VerbForm=Part	6	advcl	_	start_char=13|end_char=19|NER=O
+5	këtu	këtu	ADV	_	AdvType=Tim	4	advmod	_	start_char=20|end_char=24|NER=O
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=25|end_char=29|NER=O
+7	pensionistë	pensionistë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	cop	_	start_char=30|end_char=41|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=42|end_char=45|NER=O
+9	merren	merrej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	6	conj	_	start_char=46|end_char=52|NER=O
+10	kryesisht	kryesisht	ADV	_	AdvType=Man	9	advmod	_	start_char=53|end_char=62|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=63|end_char=65|NER=O
+12	bujqësi	bujqesi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=66|end_char=73|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	6	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Turistë vijën në fshat , por duhet të ketë ndonjë investim nga shteti që të hapen bujtina " , tha kryeplaku i fshatit , Perikli Basho .
+# sent_id = 3
+1	Turistë	turij	VERB	_	Mood=Ind|Person=3|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	vijën	vijë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	start_char=8|end_char=13|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=14|end_char=16|NER=O
+4	fshat	fshat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=17|end_char=22|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=23|end_char=24|NER=O
+6	por	por	CCONJ	_	_	9	cc	_	start_char=25|end_char=28|NER=O
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=29|end_char=34|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=35|end_char=37|NER=O
+9	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=38|end_char=42|NER=O
+10	ndonjë	ndonjë	PRON	_	PronType=Ind	11	det	_	start_char=43|end_char=49|NER=O
+11	investim	investim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=50|end_char=58|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=59|end_char=62|NER=O
+13	shteti	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=63|end_char=69|NER=O
+14	që	që	SCONJ	_	_	16	mark	_	start_char=70|end_char=72|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=73|end_char=75|NER=O
+16	hapen	hap	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	acl:relcl	_	start_char=76|end_char=81|NER=O
+17	bujtina	bujtinë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=82|end_char=89|SpaceAfter=No|NER=O
+18	"	"	PUNCT	_	_	16	punct	_	start_char=90|end_char=91|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	16	punct	_	start_char=92|end_char=93|NER=O
+20	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	start_char=94|end_char=97|NER=O
+21	kryeplaku	kryeplak	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=98|end_char=107|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=108|end_char=109|NER=O
+23	fshatit	fshat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=110|end_char=117|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	24	punct	_	start_char=118|end_char=119|NER=O
+25	Perikli	Perikl	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	appos	_	start_char=120|end_char=127|NER=B-PER
+26	Basho	Basho	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=128|end_char=133|SpaceAfter=No|NER=I-PER
+27	.	.	PUNCT	_	_	19	punct	_	start_char=134|end_char=135|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Leonida Koçiu
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Leonida	Leonidë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=18|NER=B-PER
+4	Koçiu	Koçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=19|end_char=24|SpacesAfter=\n|NER=I-PER
+

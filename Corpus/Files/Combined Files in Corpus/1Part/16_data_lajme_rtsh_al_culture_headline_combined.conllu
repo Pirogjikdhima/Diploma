@@ -1,0 +1,346 @@
+# text = Si e takoi " Kuqo " Stalinin ?
+# sent_id = 0
+1	Si	si	SCONJ	_	_	3	advmod	_	start_char=0|end_char=2|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=3|end_char=4|NER=O
+3	takoi	takoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=5|end_char=10|NER=O
+4	"	"	PUNCT	_	_	5	punct	_	start_char=11|end_char=12|SpaceAfter=No|NER=O
+5	Kuqo	Kuqo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=13|end_char=17|SpaceAfter=No|NER=B-PER
+6	"	"	PUNCT	_	_	7	punct	_	start_char=18|end_char=19|NER=O
+7	Stalinin	Stalin	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	compound	_	start_char=20|end_char=28|SpaceAfter=No|NER=B-PER
+8	?	?	PUNCT	_	_	3	punct	_	start_char=29|end_char=30|NER=O
+
+# text = Rrëfimi i rrallë i aktorit Viktor Zhusti , personazh i vetëm i " Testamentit " 26 / 01 / 2024 Viktor Zhusti , personazhi i vetëm i komedisë " Testamenti " ka treguar në " 3D " më shumë rreth " Kuqos " .
+# sent_id = 1
+1	Rrëfimi	Rrëfim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	rrallë	rrallë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=10|end_char=16|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=17|end_char=18|NER=O
+5	aktorit	aktor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=19|end_char=26|NER=O
+6	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=27|end_char=33|NER=B-PER
+7	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=34|end_char=40|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	9	punct	_	start_char=41|end_char=42|NER=O
+9	personazh	personazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=43|end_char=52|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=53|end_char=54|NER=O
+11	vetëm	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=55|end_char=60|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=61|end_char=62|NER=O
+13	"	"	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+14	Testamentit	testament	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=65|end_char=76|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|SpacesAfter=\n|NER=O
+16	26	26	NUM	_	NumType=Card	17	nummod	_	start_char=79|end_char=81|SpaceAfter=No|NER=B-DATE_0
+17	/	/	PUNCT	_	_	14	punct	_	start_char=82|end_char=83|SpaceAfter=No|NER=I-DATE_0
+18	01	01	NUM	_	NumType=Card	14	flat	_	start_char=84|end_char=86|SpaceAfter=No|NER=I-DATE_0
+19	/	/	PUNCT	_	_	17	punct	_	start_char=87|end_char=88|SpaceAfter=No|NER=I-DATE_0
+20	2024	2024	NUM	_	NumType=Card	17	flat	_	start_char=89|end_char=93|SpaceAfter=No|NER=I-DATE_0
+21	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=94|end_char=100|NER=B-PER
+22	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=101|end_char=107|SpaceAfter=No|NER=I-PER
+23	,	,	PUNCT	_	_	23	punct	_	start_char=108|end_char=109|NER=O
+24	personazhi	personazh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	list	_	start_char=110|end_char=120|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=121|end_char=122|NER=O
+26	vetëm	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=123|end_char=128|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=129|end_char=130|NER=O
+28	komedisë	komedi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=131|end_char=139|NER=O
+29	"	"	PUNCT	_	_	29	punct	_	start_char=140|end_char=141|SpaceAfter=No|NER=O
+30	Testamenti	Testamenti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	appos	_	start_char=142|end_char=152|NER=O
+31	"	"	PUNCT	_	_	27	punct	_	start_char=153|end_char=154|NER=O
+32	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=155|end_char=157|NER=O
+33	treguar	tregoj	VERB	_	VerbForm=Part	0	root	_	start_char=158|end_char=165|NER=O
+34	në	në	ADP	_	Case=Acc	34	case	_	start_char=166|end_char=168|NER=O
+35	"	"	PUNCT	_	_	34	punct	_	start_char=169|end_char=170|SpaceAfter=No|NER=O
+36	3D	3D	PROPN	_	_	31	obl	_	start_char=171|end_char=173|SpaceAfter=No|NER=O
+37	"	"	PUNCT	_	_	34	punct	_	start_char=174|end_char=175|NER=O
+38	më	më	PART	_	_	37	mark	_	start_char=176|end_char=178|NER=O
+39	shumë	shumë	ADV	_	AdvType=Deg	40	advmod	_	start_char=179|end_char=184|NER=O
+40	rreth	rreth	ADP	_	Case=Abl	40	case	_	start_char=185|end_char=190|NER=O
+41	"	"	PUNCT	_	_	40	punct	_	start_char=191|end_char=192|SpaceAfter=No|NER=O
+42	Kuqos	Kuqos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	advmod	_	start_char=193|end_char=198|SpaceAfter=No|NER=B-PER
+43	"	"	PUNCT	_	_	31	punct	_	start_char=199|end_char=200|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	31	punct	_	start_char=201|end_char=202|NER=O
+
+# text = Zhusti tha se personazhi jeton dhe bën krahasimin e dy kohërave , atë atë komunizmit dhe demokracisë .
+# sent_id = 2
+1	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=7|end_char=10|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=11|end_char=13|NER=O
+4	personazhi	personazh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=14|end_char=24|NER=O
+5	jeton	jetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=25|end_char=30|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=31|end_char=34|NER=O
+7	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=35|end_char=38|NER=O
+8	krahasimin	krahasim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=39|end_char=49|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=50|end_char=51|NER=O
+10	dy	dy	NUM	_	NumType=Card	11	nummod	_	start_char=52|end_char=54|NER=O
+11	kohërave	kohëra	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=55|end_char=63|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=64|end_char=65|NER=O
+13	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	appos	_	start_char=66|end_char=69|NER=O
+14	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	appos	_	start_char=70|end_char=73|NER=O
+15	komunizmit	komunizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=74|end_char=84|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=85|end_char=88|NER=O
+17	demokracisë	demokraci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	conj	_	start_char=89|end_char=100|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	2	punct	_	start_char=101|end_char=102|NER=O
+
+# text = Aktori rrëfen se e gjithë kjo histori realizohet brenda një bunkeri .
+# sent_id = 3
+1	Aktori	aktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	rrëfen	rrëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	se	se	SCONJ	_	_	8	mark	_	start_char=14|end_char=16|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=18|NER=O
+5	gjithë	gjithë	PRON	_	PronType=Ind	7	det	_	start_char=19|end_char=25|NER=O
+6	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=26|end_char=29|NER=O
+7	histori	histori	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=30|end_char=37|NER=O
+8	realizohet	realizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=38|end_char=48|NER=O
+9	brenda	brenda	ADP	_	Case=Abl	11	case	_	start_char=49|end_char=55|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=56|end_char=59|NER=O
+11	bunkeri	bunker	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=60|end_char=67|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	8	punct	_	start_char=68|end_char=69|SpacesAfter=\n|NER=O
+
+# text = " Është një personazh i çuditshëm pasi ka jetuar në dy kohë , atë atë sistemit të komunizmit dhe në në kohë tjetër .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=7|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=8|end_char=11|NER=O
+4	personazh	personazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=12|end_char=21|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=23|NER=O
+6	çuditshëm	çuditshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=24|end_char=33|NER=O
+7	pasi	pasi	SCONJ	_	_	9	mark	_	start_char=34|end_char=38|NER=O
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=39|end_char=41|NER=O
+9	jetuar	jetoj	VERB	_	VerbForm=Part	2	advcl	_	start_char=42|end_char=48|NER=O
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=49|end_char=51|NER=O
+11	dy	dy	NUM	_	NumType=Card	12	nummod	_	start_char=52|end_char=54|NER=O
+12	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=55|end_char=59|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=60|end_char=61|NER=O
+14	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	det	_	start_char=62|end_char=65|NER=O
+15	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	det	_	start_char=66|end_char=69|NER=O
+16	sistemit	sistem	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=70|end_char=78|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=79|end_char=81|NER=O
+18	komunizmit	komunizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=82|end_char=92|NER=O
+19	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=93|end_char=96|NER=O
+20	në	në	ADP	_	Case=Acc	22	case	_	start_char=97|end_char=99|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=100|end_char=102|NER=O
+22	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	start_char=103|end_char=107|NER=O
+23	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	22	amod	_	start_char=108|end_char=114|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	2	punct	_	start_char=115|end_char=116|NER=O
+
+# text = Në sistemin e parë ai ka jetuar me mendje trup në sistemin e dytë vetëm merr frymë pasi mendja , idetë janë të kësaj bote .
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=3|end_char=11|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=12|end_char=13|NER=O
+4	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=14|end_char=18|NER=O
+5	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=19|end_char=21|NER=O
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=22|end_char=24|NER=O
+7	jetuar	jetoj	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=31|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=34|NER=O
+9	mendje	mendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=35|end_char=41|NER=O
+10	trup	trup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=42|end_char=46|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=47|end_char=49|NER=O
+12	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=50|end_char=58|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=59|end_char=60|NER=O
+14	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=61|end_char=65|NER=O
+15	vetëm	vetëm	PART	_	_	16	mark	_	start_char=66|end_char=71|NER=O
+16	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=72|end_char=76|NER=O
+17	frymë	frymë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=77|end_char=82|NER=O
+18	pasi	pasi	SCONJ	_	_	19	mark	_	start_char=83|end_char=87|NER=O
+19	mendja	mend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=88|end_char=94|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=95|end_char=96|NER=O
+21	idetë	ide	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	nsubj	_	start_char=97|end_char=102|NER=O
+22	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=103|end_char=107|NER=O
+23	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=108|end_char=110|NER=O
+24	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=111|end_char=116|NER=O
+25	bote	botë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	22	cop	_	start_char=117|end_char=121|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	22	punct	_	start_char=122|end_char=123|NER=O
+
+# text = Optika që ka ai nga botëkuptimi i vet e bën të shikojë ngjarjet e kohës së sotme krejt ndryshe .
+# sent_id = 6
+1	Optika	Optikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=0|end_char=6|NER=O
+2	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=7|end_char=9|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=10|end_char=12|NER=O
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=13|end_char=15|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=16|end_char=19|NER=O
+6	botëkuptimi	botëkuptim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=20|end_char=31|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=33|NER=O
+8	vet	vet	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	6	amod:poss	_	start_char=34|end_char=37|NER=O
+9	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	cc	_	start_char=38|end_char=39|NER=O
+10	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=43|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=44|end_char=46|NER=O
+12	shikojë	shikoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	ccomp	_	start_char=47|end_char=54|NER=O
+13	ngjarjet	ngjarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=55|end_char=63|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=64|end_char=65|NER=O
+15	kohës	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=66|end_char=71|NER=O
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=72|end_char=74|NER=O
+17	sotme	sotme	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=75|end_char=80|NER=O
+18	krejt	krejt	ADV	_	AdvType=Deg	19	advmod	_	start_char=81|end_char=86|NER=O
+19	ndryshe	ndryshe	ADV	_	AdvType=Man	12	advmod	_	start_char=87|end_char=94|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=95|end_char=96|NER=O
+
+# text = Shikon dhe bëhet krahasimi i asaj që si ishte diktatura dhe si është kjo që ca uliganë na e sollën dhe e quajnë demokraci " shpjegon Zhusti .
+# sent_id = 7
+1	Shikon	shikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=6|NER=O
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=7|end_char=10|NER=O
+3	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	conj	_	start_char=11|end_char=16|NER=O
+4	krahasimi	krahasim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=17|end_char=26|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=27|end_char=28|NER=O
+6	asaj	ajo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	nmod	_	start_char=29|end_char=33|NER=O
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=34|end_char=36|NER=O
+8	si	si	SCONJ	_	_	9	mark	_	start_char=37|end_char=39|NER=O
+9	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	4	acl	_	start_char=40|end_char=45|NER=O
+10	diktatura	diktaturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	cop	_	start_char=46|end_char=55|NER=O
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=56|end_char=59|NER=O
+12	si	si	SCONJ	_	_	13	mark	_	start_char=60|end_char=62|NER=O
+13	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=63|end_char=68|NER=O
+14	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	start_char=69|end_char=72|NER=O
+15	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=73|end_char=75|NER=O
+16	ca	_	_	_	_	_	_	_	start_char=76|end_char=78|NER=O
+17	uliganë	uliganë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=79|end_char=86|NER=O
+18	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	20	iobj	_	start_char=87|end_char=89|NER=O
+19	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=90|end_char=91|NER=O
+20	sollën	soll	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	advcl	_	start_char=92|end_char=98|NER=O
+21	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=99|end_char=102|NER=O
+22	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=103|end_char=104|NER=O
+23	quajnë	quaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	conj	_	start_char=105|end_char=111|NER=O
+24	demokraci	demokrac	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=112|end_char=121|NER=O
+25	"	"	PUNCT	_	_	26	punct	_	start_char=122|end_char=123|NER=O
+26	shpjegon	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	ccomp	_	start_char=124|end_char=132|NER=O
+27	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=133|end_char=139|SpaceAfter=No|NER=B-PER
+28	.	.	PUNCT	_	_	26	punct	_	start_char=140|end_char=141|SpacesAfter=\n|NER=O
+
+# text = Autori përfiton nga rasti që të bëjë një paralelizëm midis dy kohëve , një skaner të historisë së Shqipërisë .
+# sent_id = 8
+1	Autori	autor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	përfiton	përfitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=15|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=16|end_char=19|NER=O
+4	rasti	rast	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=20|end_char=25|NER=O
+5	që	që	SCONJ	_	_	7	mark	_	start_char=26|end_char=28|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=29|end_char=31|NER=O
+7	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=32|end_char=36|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=37|end_char=40|NER=O
+9	paralelizëm	paralelizëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=41|end_char=52|NER=O
+10	midis	midis	ADP	_	Case=Abl	12	case	_	start_char=53|end_char=58|NER=O
+11	dy	dy	NUM	_	NumType=Card	12	nummod	_	start_char=59|end_char=61|NER=O
+12	kohëve	kohë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=62|end_char=68|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=69|end_char=70|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=71|end_char=74|NER=O
+15	skaner	skaner	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	list	_	start_char=75|end_char=81|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=82|end_char=84|NER=O
+17	historisë	histori	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=85|end_char=94|NER=O
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=95|end_char=97|NER=O
+19	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=98|end_char=108|SpaceAfter=No|NER=B-VEND_1
+20	.	.	PUNCT	_	_	2	punct	_	start_char=109|end_char=110|NER=O
+
+# text = Por nuk mungon dhe humori drithërues për Kuqon .
+# sent_id = 9
+1	Por	por	CCONJ	_	_	3	cc	_	start_char=0|end_char=3|NER=O
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=4|end_char=7|NER=O
+3	mungon	mungoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=14|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=15|end_char=18|NER=O
+5	humori	humor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=19|end_char=25|NER=O
+6	drithërues	drithërue	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=26|end_char=36|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=37|end_char=40|NER=O
+8	Kuqon	Kuqon	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=41|end_char=46|SpaceAfter=No|NER=B-PER
+9	.	.	PUNCT	_	_	3	punct	_	start_char=47|end_char=48|NER=O
+
+# text = " Kuqo në disa ngjarje nuk ka marrë pjesë !
+# sent_id = 10
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kuqo	Kuqo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=2|end_char=6|NER=B-PER
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=7|end_char=9|NER=O
+4	disa	disa	PRON	_	PronType=Ind	5	det	_	start_char=10|end_char=14|NER=O
+5	ngjarje	ngjarje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=15|end_char=22|NER=O
+6	nuk	nuk	PART	_	_	8	mark	_	start_char=23|end_char=26|NER=O
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=27|end_char=29|NER=O
+8	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=30|end_char=35|NER=O
+9	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=36|end_char=41|SpaceAfter=No|NER=O
+10	!	!	PUNCT	_	_	8	punct	_	start_char=42|end_char=43|NER=O
+
+# text = As në Moskë s ' ka qenë , e megjithatë ai beson se ka qenë dhe ka parë sakofakun e Leninit , çka e trishtoi .
+# sent_id = 11
+1	As	as	CCONJ	_	_	5	dislocated	_	start_char=0|end_char=2|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=3|end_char=5|NER=O
+3	Moskë	Moskë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=6|end_char=11|NER=B-VEND_0
+4	s	s'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	flat	_	start_char=12|end_char=13|NER=O
+5	'	'	PUNCT	_	_	3	punct	_	start_char=14|end_char=15|NER=O
+6	ka	s'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	flat	_	start_char=16|end_char=18|NER=O
+7	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=23|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	8	punct	_	start_char=24|end_char=25|NER=O
+9	e	e	CCONJ	_	_	10	cc	_	start_char=26|end_char=27|NER=O
+10	megjithatë	megjithatë	CCONJ	_	_	10	cc	_	start_char=28|end_char=38|NER=O
+11	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=39|end_char=41|NER=O
+12	beson	besoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=42|end_char=47|NER=O
+13	se	se	SCONJ	_	_	13	mark	_	start_char=48|end_char=50|NER=O
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=51|end_char=53|NER=O
+15	qenë	jam	VERB	_	VerbForm=Part	10	advcl	_	start_char=54|end_char=58|NER=O
+16	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=59|end_char=62|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=63|end_char=65|NER=O
+18	parë	shoh	VERB	_	VerbForm=Part	13	conj	_	start_char=66|end_char=70|NER=O
+19	sakofakun	sakofak	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=71|end_char=80|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=81|end_char=82|NER=O
+21	Leninit	Lenin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=83|end_char=90|SpaceAfter=No|NER=B-PER
+22	,	,	PUNCT	_	_	21	punct	_	start_char=91|end_char=92|NER=O
+23	çka	çka	PRON	_	PronType=Int	23	nsubj	_	start_char=93|end_char=96|NER=O
+24	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=97|end_char=98|NER=O
+25	trishtoi	trishtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	start_char=99|end_char=107|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	16	punct	_	start_char=108|end_char=109|NER=O
+
+# text = Papritur shikon një siluetë që vjen drejt tij , tmerrohet dhe shikon që është Stalini , i cili dhe ky i fundit e njohu atë sepse ishte shqiptar .
+# sent_id = 12
+1	Papritur	papritoj	VERB	_	VerbForm=Part	2	nsubj	_	start_char=0|end_char=8|NER=O
+2	shikon	shikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=15|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=16|end_char=19|NER=O
+4	siluetë	siluetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=20|end_char=27|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=28|end_char=30|NER=O
+6	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=31|end_char=35|NER=O
+7	drejt	drejt	ADP	_	Case=Abl	8	case	_	start_char=36|end_char=41|NER=O
+8	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	start_char=42|end_char=45|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	tmerrohet	tmerroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=48|end_char=57|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=58|end_char=61|NER=O
+12	shikon	shikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=62|end_char=68|NER=O
+13	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=69|end_char=71|NER=O
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=72|end_char=77|NER=O
+15	Stalini	Stalin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=78|end_char=85|SpaceAfter=No|NER=B-PER
+16	,	,	PUNCT	_	_	18	punct	_	start_char=86|end_char=87|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=88|end_char=89|NER=O
+18	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	start_char=90|end_char=94|NER=O
+19	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=95|end_char=98|NER=O
+20	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	start_char=99|end_char=101|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=102|end_char=103|NER=O
+22	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=104|end_char=110|NER=O
+23	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=111|end_char=112|NER=O
+24	njohu	njoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=113|end_char=118|NER=O
+25	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=119|end_char=122|NER=O
+26	sepse	sepse	SCONJ	_	_	27	mark	_	start_char=123|end_char=128|NER=O
+27	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	24	ccomp	_	start_char=129|end_char=134|NER=O
+28	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	cop	_	start_char=135|end_char=143|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	24	punct	_	start_char=144|end_char=145|NER=O
+
+# text = Gjithë kjo histori , fantazi është brenda një bunkeri .
+# sent_id = 13
+1	Gjithë	Gjithë	PRON	_	PronType=Ind	3	det	_	start_char=0|end_char=6|NER=O
+2	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=7|end_char=10|NER=O
+3	histori	histori	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=11|end_char=18|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=19|end_char=20|NER=O
+5	fantazi	fantaz	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	start_char=21|end_char=28|NER=O
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=34|NER=O
+7	brenda	brenda	ADP	_	Case=Abl	9	case	_	start_char=35|end_char=41|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=42|end_char=45|NER=O
+9	bunkeri	bunker	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=46|end_char=53|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	6	punct	_	start_char=54|end_char=55|NER=O
+
+# text = Bunkeri është bota e tij , dhe për të mjafton tërësisht " shprehet me humor Zhusti .
+# sent_id = 14
+1	Bunkeri	bunker	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=13|NER=O
+3	bota	botë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=14|end_char=18|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=19|end_char=20|NER=O
+5	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=21|end_char=24|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=25|end_char=26|NER=O
+7	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=27|end_char=30|NER=O
+8	për	për	ADP	_	Case=Acc	10	fixed	_	start_char=31|end_char=34|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=35|end_char=37|NER=O
+10	mjafton	mjaftoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=38|end_char=45|NER=O
+11	tërësisht	tërësisht	ADV	_	AdvType=Man	10	advmod	_	start_char=46|end_char=55|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	13	punct	_	start_char=56|end_char=57|NER=O
+13	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	ccomp	_	start_char=58|end_char=66|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=69|NER=O
+15	humor	humor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	start_char=70|end_char=75|NER=O
+16	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=76|end_char=82|SpaceAfter=No|NER=B-PER
+17	.	.	PUNCT	_	_	13	punct	_	start_char=83|end_char=84|SpacesAfter=\n\n|NER=O
+

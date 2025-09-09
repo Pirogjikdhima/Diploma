@@ -1,0 +1,45 @@
+# text = 05 / 01 / 2024 Në Tiranë , policia ka nisur të vendosi gjobat ndaj qytetarëve që shkelin rregullat e qarkullimit rrugor si këmbësorë .
+# sent_id = 0
+1	05	05	NUM	_	NumType=Card	11	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	11	amod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	17	case	_	start_char=15|end_char=17|NER=O
+7	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=18|end_char=24|SpaceAfter=No|NER=B-VEND_0
+8	,	,	PUNCT	_	_	21	punct	_	start_char=25|end_char=26|NER=O
+9	policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=27|end_char=34|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=35|end_char=37|NER=O
+11	nisur	nis	VERB	_	VerbForm=Part	3	conj	_	start_char=38|end_char=43|NER=O
+12	të	të	PART	_	_	23	fixed	_	start_char=44|end_char=46|NER=O
+13	vendosi	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	21	ccomp	_	start_char=47|end_char=54|NER=O
+14	gjobat	gjobë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	23	obj	_	start_char=55|end_char=61|NER=O
+15	ndaj	ndaj	ADP	_	Case=Abl	26	case	_	start_char=62|end_char=66|NER=O
+16	qytetarëve	qytetar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	23	obl	_	start_char=67|end_char=77|NER=O
+17	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=78|end_char=80|NER=O
+18	shkelin	shkel	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=81|end_char=88|NER=O
+19	rregullat	rregullë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	28	obj	_	start_char=89|end_char=98|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=99|end_char=100|NER=O
+21	qarkullimit	qarkullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=101|end_char=112|NER=O
+22	rrugor	rrugor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=113|end_char=119|NER=O
+23	si	si	SCONJ	_	_	34	mark	_	start_char=120|end_char=122|NER=O
+24	këmbësorë	këmbësorë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	28	obl	_	start_char=123|end_char=132|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	28	punct	_	start_char=133|end_char=134|SpacesAfter=\n|NER=O
+
+# text = Sipas INSTAT , këmbësorët janë të dytët për shkakun kryesor të aksidenteve rrugore .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	INSTAT	INSTA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=6|end_char=12|SpaceAfter=No|NER=B-ORG
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|NER=O
+4	këmbësorët	këmbësor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=15|end_char=25|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=26|end_char=30|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=31|end_char=33|NER=O
+7	dytët	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	cop	_	start_char=34|end_char=39|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=43|NER=O
+9	shkakun	shkak	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=44|end_char=51|NER=O
+10	kryesor	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=52|end_char=59|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=60|end_char=62|NER=O
+12	aksidenteve	aksident	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=63|end_char=74|NER=O
+13	rrugore	rrugor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=75|end_char=82|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=83|end_char=84|SpacesAfter=\n|NER=O
+

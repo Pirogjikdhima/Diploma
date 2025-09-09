@@ -1,0 +1,235 @@
+# text = 22 / 02 / 2023 Muzeu Historik Kombëtar në Tiranë mbetet një prej atraksioneve kulturore dhe historike më të vizituara në kryeqytet .
+# sent_id = 0
+1	22	22	NUM	_	NumType=Card	18	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	16	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	18	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	18	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Muzeu	muze	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=15|end_char=20|NER=O
+7	Historik	Historik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=21|end_char=29|NER=O
+8	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=30|end_char=38|NER=O
+9	në	në	ADP	_	Case=Acc	25	case	_	start_char=39|end_char=41|NER=O
+10	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=42|end_char=48|NER=B-VEND_0
+11	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	acl:relcl	_	start_char=49|end_char=55|NER=O
+12	një	një	DET	_	Definite=Ind	29	det	_	start_char=56|end_char=59|NER=O
+13	prej	prej	ADP	_	Case=Abl	29	case	_	start_char=60|end_char=64|NER=O
+14	atraksioneve	atraksion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=65|end_char=77|NER=O
+15	kulturore	kulturor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=78|end_char=87|NER=O
+16	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=88|end_char=91|NER=O
+17	historike	historik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	30	conj	_	start_char=92|end_char=101|NER=O
+18	më	më	PART	_	_	35	mark	_	start_char=102|end_char=104|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=105|end_char=107|NER=O
+20	vizituara	vizituar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=108|end_char=117|NER=O
+21	në	në	ADP	_	Case=Acc	37	case	_	start_char=118|end_char=120|NER=O
+22	kryeqytet	kryeqyt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	advmod	_	start_char=121|end_char=130|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	26	punct	_	start_char=131|end_char=132|NER=O
+
+# text = 1578 vizitorë , të huaj dhe vendas , kanë vizituar Muzeun Historik Kombëtar vetëm në muajin janar 2023 .
+# sent_id = 1
+1	1578	1578	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=4|NER=O
+2	vizitorë	vizitor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	10	advmod	_	start_char=5|end_char=13|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	5	punct	_	start_char=14|end_char=15|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=16|end_char=18|NER=O
+5	huaj	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=19|end_char=23|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=24|end_char=27|NER=O
+7	vendas	vendas	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	start_char=28|end_char=34|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	5	punct	_	start_char=35|end_char=36|NER=O
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=37|end_char=41|NER=O
+10	vizituar	vizitoj	VERB	_	VerbForm=Part	0	root	_	start_char=42|end_char=50|NER=O
+11	Muzeun	Muzeu	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=51|end_char=57|NER=O
+12	Historik	Historik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	compound	_	start_char=58|end_char=66|NER=O
+13	Kombëtar	Kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=67|end_char=75|NER=O
+14	vetëm	vetëm	PART	_	_	16	mark	_	start_char=76|end_char=81|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=82|end_char=84|NER=O
+16	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=85|end_char=91|NER=O
+17	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=92|end_char=97|NER=B-DATE_0
+18	2023	2023	NUM	_	NumType=Card	17	amod:nummod	_	start_char=98|end_char=102|SpaceAfter=No|NER=I-DATE_0
+19	.	.	PUNCT	_	_	10	punct	_	start_char=103|end_char=104|SpacesAfter=\n|NER=O
+
+# text = Shifrat janë bërë me dije nga vetë Muzeu ku thotë se kjo është një " rritje me 345 % më shumë vizitorë në total në krahasim me muajin janar të vitit 2022 " .
+# sent_id = 2
+1	Shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=12|NER=O
+3	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=17|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=20|NER=O
+5	dije	dije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=21|end_char=25|NER=O
+6	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=26|end_char=29|NER=O
+7	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	8	det	_	start_char=30|end_char=34|NER=O
+8	Muzeu	muze	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=40|NER=O
+9	ku	ku	ADV	_	AdvType=Loc	10	advmod	_	start_char=41|end_char=43|NER=O
+10	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=44|end_char=49|NER=O
+11	se	se	SCONJ	_	_	13	mark	_	start_char=50|end_char=52|NER=O
+12	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	start_char=53|end_char=56|NER=O
+13	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=57|end_char=62|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=63|end_char=66|NER=O
+15	"	"	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|NER=O
+16	rritje	rritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	cop	_	start_char=69|end_char=75|NER=O
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=76|end_char=78|NER=O
+18	345	345	NUM	_	NumType=Card	18	nummod	_	start_char=79|end_char=82|SpaceAfter=No|NER=O
+19	%	%	SYM	_	_	15	nmod	_	start_char=83|end_char=84|NER=O
+20	më	më	PART	_	_	21	mark	_	start_char=85|end_char=87|NER=O
+21	shumë	shumë	ADV	_	AdvType=Deg	21	nummod	_	start_char=88|end_char=93|NER=O
+22	vizitorë	vizitor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	start_char=94|end_char=102|NER=O
+23	në	në	ADP	_	Case=Acc	23	case	_	start_char=103|end_char=105|NER=O
+24	total	total	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=106|end_char=111|NER=O
+25	në	në	ADP	_	Case=Acc	25	case	_	start_char=112|end_char=114|NER=O
+26	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=115|end_char=123|NER=O
+27	me	me	ADP	_	Case=Acc	27	case	_	start_char=124|end_char=126|NER=O
+28	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=127|end_char=133|NER=O
+29	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	start_char=134|end_char=139|NER=B-DATE_0
+30	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=140|end_char=142|NER=I-DATE_0
+31	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=143|end_char=148|NER=I-DATE_0
+32	2022	2022	NUM	_	NumType=Card	30	amod:nummod	_	start_char=149|end_char=153|SpaceAfter=No|NER=I-DATE_0
+33	"	"	PUNCT	_	_	30	punct	_	start_char=154|end_char=155|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	3	punct	_	start_char=156|end_char=157|SpacesAfter=\n|NER=O
+
+# text = Gjatë muajit janar 2022 , Muzeu u vizitua vetëm nga 355 vizitorë në total .
+# sent_id = 3
+1	Gjatë	gjatë	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	muajit	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=6|end_char=12|NER=O
+3	janar	janar	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=13|end_char=18|NER=B-DATE_0
+4	2022	2022	NUM	_	NumType=Card	3	flat	_	start_char=19|end_char=23|SpaceAfter=No|NER=I-DATE_0
+5	,	,	PUNCT	_	_	2	punct	_	start_char=24|end_char=25|NER=O
+6	Muzeu	muze	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=26|end_char=31|NER=O
+7	u	u	PART	_	_	8	fixed	_	start_char=32|end_char=33|NER=O
+8	vizitua	vizitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=34|end_char=41|NER=O
+9	vetëm	vetëm	PART	_	_	12	mark	_	start_char=42|end_char=47|NER=O
+10	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=48|end_char=51|NER=O
+11	355	355	NUM	_	NumType=Card	12	nummod	_	start_char=52|end_char=55|NER=O
+12	vizitorë	vizitor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	8	advmod	_	start_char=56|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=65|end_char=67|NER=O
+14	total	total	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=68|end_char=73|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	8	punct	_	start_char=74|end_char=75|SpacesAfter=\n|NER=O
+
+# text = Në mjediset e muzeut gjenden rreth 4750 objekte , të cilat i përkasin një periudhe të gjatë kohore duke filluar nga mijëvjeçari IV para Krishtit dhe deri në gjysmën e dytë të shekullit XX .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	mjediset	mjedis	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=3|end_char=11|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=12|end_char=13|NER=O
+4	muzeut	muze	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=14|end_char=20|NER=O
+5	gjenden	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=21|end_char=28|NER=O
+6	rreth	rreth	ADP	_	Case=Abl	8	case	_	start_char=29|end_char=34|NER=O
+7	4750	4750	NUM	_	NumType=Card	8	nummod	_	start_char=35|end_char=39|NER=O
+8	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	start_char=40|end_char=47|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=48|end_char=49|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=50|end_char=52|NER=O
+11	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	start_char=53|end_char=58|NER=O
+12	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	start_char=59|end_char=60|NER=O
+13	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=61|end_char=69|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=70|end_char=73|NER=O
+15	periudhe	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=74|end_char=82|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=83|end_char=85|NER=O
+17	gjatë	gjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=86|end_char=91|NER=O
+18	kohore	kohor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=92|end_char=98|NER=O
+19	duke	duke	PART	_	_	20	fixed	_	start_char=99|end_char=103|NER=O
+20	filluar	filloj	VERB	_	VerbForm=Part	13	advmod	_	start_char=104|end_char=111|NER=O
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=112|end_char=115|NER=O
+22	mijëvjeçari	mijëvjeçar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	start_char=116|end_char=127|NER=O
+23	IV	IV	NUM	_	NumType=Card	22	nummod	_	start_char=128|end_char=130|NER=O
+24	para	para	ADP	_	Case=Abl	25	case	_	start_char=131|end_char=135|NER=O
+25	Krishtit	Krisht	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=136|end_char=144|NER=B-PER
+26	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=145|end_char=148|NER=O
+27	deri	deri	PART	_	_	28	fixed	_	start_char=149|end_char=153|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=154|end_char=156|NER=O
+29	gjysmën	gjysmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	conj	_	start_char=157|end_char=164|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=165|end_char=166|NER=O
+31	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=167|end_char=171|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=172|end_char=174|NER=O
+33	shekullit	shekull	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=175|end_char=184|NER=O
+34	XX	XX	NUM	_	NumType=Card	33	amod:nummod	_	start_char=185|end_char=187|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	5	punct	_	start_char=188|end_char=189|NER=O
+
+# text = Pavijoni i Lashtësisë është nga më të pasurit në Muzeun Historik Kombëtar , me afro 400 objekte të ndryshme .
+# sent_id = 5
+1	Pavijoni	pavijon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	Lashtësisë	Lashtësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=21|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=27|NER=O
+5	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=28|end_char=31|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=32|end_char=34|NER=O
+7	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=35|end_char=37|NER=O
+8	pasurit	pasur	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=38|end_char=45|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=46|end_char=48|NER=O
+10	Muzeun	Muzeu	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=49|end_char=55|NER=O
+11	Historik	Historik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=56|end_char=64|NER=O
+12	Kombëtar	Kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=65|end_char=73|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	17	punct	_	start_char=74|end_char=75|NER=O
+14	me	me	ADP	_	Case=Acc	17	case	_	start_char=76|end_char=78|NER=O
+15	afro	afro	NUM	_	NumType=Card	17	nummod	_	start_char=79|end_char=83|NER=O
+16	400	400	NUM	_	NumType=Card	17	nummod	_	start_char=84|end_char=87|NER=O
+17	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=88|end_char=95|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=96|end_char=98|NER=O
+19	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=99|end_char=107|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	4	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = Objektet e paraqitura nisin me paleolitin e vonë , ku kultura prehistorike dëshmohet e gjallë dhe e fuqishme në trojet tona .
+# sent_id = 6
+1	Objektet	objekt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	paraqitura	paraqiturë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=11|end_char=21|NER=O
+4	nisin	nis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=27|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=28|end_char=30|NER=O
+6	paleolitin	paleolit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=31|end_char=41|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=42|end_char=43|NER=O
+8	vonë	vonë	ADV	_	AdvType=Tim	6	amod	_	start_char=44|end_char=48|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=49|end_char=50|NER=O
+10	ku	ku	ADV	_	AdvType=Loc	11	nummod	_	start_char=51|end_char=53|NER=O
+11	kultura	kulturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=54|end_char=61|NER=O
+12	prehistorike	prehistorik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=62|end_char=74|NER=O
+13	dëshmohet	dëshmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=75|end_char=84|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=85|end_char=86|NER=O
+15	gjallë	gjallë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	cop	_	start_char=87|end_char=93|NER=O
+16	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=94|end_char=97|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=98|end_char=99|NER=O
+18	fuqishme	fuqishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	start_char=100|end_char=108|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=109|end_char=111|NER=O
+20	trojet	truall	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	18	advmod	_	start_char=112|end_char=118|NER=O
+21	tona	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	amod	_	start_char=119|end_char=123|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	13	punct	_	start_char=124|end_char=125|NER=O
+
+# text = Në stendat e muzeut gjenden objekte që i përkasin epokës së Bronzit ( 2100 - 1200 para Krishtit ) , si dhe objekte të epokës së Hekurit ( 1200 - 450 para Krishtit ) , periudha këto që përvijojnë tiparet e ilirëve .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	stendat	stendë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=3|end_char=10|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	muzeut	muze	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=13|end_char=19|NER=O
+5	gjenden	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=20|end_char=27|NER=O
+6	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=28|end_char=35|NER=O
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=36|end_char=38|NER=O
+8	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	iobj	_	start_char=39|end_char=40|NER=O
+9	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=41|end_char=49|NER=O
+10	epokës	epokë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=50|end_char=56|NER=O
+11	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=57|end_char=59|NER=O
+12	Bronzit	Bronz	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=60|end_char=67|NER=O
+13	(	(	PUNCT	_	_	14	punct	_	start_char=68|end_char=69|SpaceAfter=No|NER=O
+14	2100	2100	NUM	_	NumType=Card	12	flat	_	start_char=70|end_char=74|SpaceAfter=No|NER=O
+15	-	-	PUNCT	_	_	16	punct	_	start_char=75|end_char=76|SpaceAfter=No|NER=O
+16	1200	1200	NUM	_	NumType=Card	14	conj	_	start_char=77|end_char=81|NER=O
+17	para	para	ADP	_	Case=Abl	18	case	_	start_char=82|end_char=86|NER=O
+18	Krishtit	Krisht	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=87|end_char=95|SpaceAfter=No|NER=B-PER
+19	)	)	PUNCT	_	_	18	punct	_	start_char=96|end_char=97|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=98|end_char=99|NER=O
+21	si	si	SCONJ	_	_	23	mark	_	start_char=100|end_char=102|NER=O
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=103|end_char=106|NER=O
+23	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	conj	_	start_char=107|end_char=114|NER=O
+24	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=115|end_char=117|NER=O
+25	epokës	epokë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=118|end_char=124|NER=O
+26	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=125|end_char=127|NER=O
+27	Hekurit	Hekur	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=128|end_char=135|NER=O
+28	(	(	PUNCT	_	_	29	punct	_	start_char=136|end_char=137|SpaceAfter=No|NER=O
+29	1200	1200	NUM	_	NumType=Card	30	conj	_	start_char=138|end_char=142|SpaceAfter=No|NER=O
+30	-	-	PUNCT	_	_	25	punct	_	start_char=143|end_char=144|NER=O
+31	450	450	NUM	_	NumType=Card	25	nummod	_	start_char=145|end_char=148|NER=O
+32	para	para	ADP	_	Case=Abl	32	case	_	start_char=149|end_char=153|NER=O
+33	Krishtit	Krisht	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=154|end_char=162|SpaceAfter=No|NER=B-PER
+34	)	)	PUNCT	_	_	32	punct	_	start_char=163|end_char=164|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	35	punct	_	start_char=165|end_char=166|NER=O
+36	periudha	periudhë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	32	list	_	start_char=167|end_char=175|NER=O
+37	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	35	det	_	start_char=176|end_char=180|NER=O
+38	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=181|end_char=183|NER=O
+39	përvijojnë	përvijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	acl:relcl	_	start_char=184|end_char=194|NER=O
+40	tiparet	tipar	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	38	obj	_	start_char=195|end_char=202|NER=O
+41	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	41	det:poss	_	start_char=203|end_char=204|NER=O
+42	ilirëve	ilirë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	39	nmod	_	start_char=205|end_char=212|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	38	punct	_	start_char=213|end_char=214|SpacesAfter=\n|NER=O
+

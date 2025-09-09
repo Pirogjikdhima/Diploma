@@ -1,0 +1,138 @@
+# text = 16 / 01 / 2024 Nëse kërkon në Këlcyrë të takosh një mjeshtër të zanateve tradicionale , të gjithë kelcyrjotët të adresojnë tek mjeshtër Hiqmeti .
+# sent_id = 0
+1	16	16	NUM	_	NumType=Card	16	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	14	amod:nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	16	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=15|end_char=19|NER=O
+7	kërkon	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=26|NER=O
+8	në	në	ADP	_	Case=Acc	4	case	_	start_char=27|end_char=29|NER=O
+9	Këlcyrë	Këlcyrë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=30|end_char=37|NER=B-VEND_0
+10	të	të	PART	_	_	6	fixed	_	start_char=38|end_char=40|NER=O
+11	takosh	takoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=41|end_char=47|NER=O
+12	një	një	DET	_	Definite=Ind	8	det	_	start_char=48|end_char=51|NER=O
+13	mjeshtër	mjeshtër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=52|end_char=60|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=61|end_char=63|NER=O
+15	zanateve	zanat	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=64|end_char=72|NER=O
+16	tradicionale	tradicional	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=73|end_char=85|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	15	punct	_	start_char=86|end_char=87|NER=O
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=88|end_char=90|NER=O
+19	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	start_char=91|end_char=97|NER=O
+20	kelcyrjotët	kelcyrjot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	start_char=98|end_char=109|NER=O
+21	të	të	PART	_	_	17	fixed	_	start_char=110|end_char=112|NER=O
+22	adresojnë	adresoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=113|end_char=122|NER=O
+23	tek	tek	ADP	_	Case=Nom	19	case	_	start_char=123|end_char=126|NER=O
+24	mjeshtër	mjeshtër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=127|end_char=135|NER=O
+25	Hiqmeti	Hiqmet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=136|end_char=143|SpaceAfter=No|NER=B-PER
+26	.	.	PUNCT	_	_	17	punct	_	start_char=144|end_char=145|SpacesAfter=\n|NER=O
+
+# text = Krahas kësaj pune Hiqmeti ka edhe një pasion tjetër .
+# sent_id = 1
+1	Krahas	krahas	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=6|NER=O
+2	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=7|end_char=12|NER=O
+3	pune	pune	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=13|end_char=17|NER=O
+4	Hiqmeti	Hiqmet	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=18|end_char=25|NER=B-PER
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=26|end_char=28|NER=O
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=29|end_char=33|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=34|end_char=37|NER=O
+8	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=38|end_char=44|NER=O
+9	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	amod	_	start_char=45|end_char=51|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	5	punct	_	start_char=52|end_char=53|NER=O
+
+# text = Ai merret edhe me përpunimin dhe nxjerrjen e disa pijeve nga frutat dhe bimët kryesisht të egra .
+# sent_id = 2
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	merret	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3|end_char=9|NER=O
+3	edhe	edhe	PART	_	_	5	cc	_	start_char=10|end_char=14|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=15|end_char=17|NER=O
+5	përpunimin	përpunim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=18|end_char=28|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=29|end_char=32|NER=O
+7	nxjerrjen	nxjerrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=33|end_char=42|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=43|end_char=44|NER=O
+9	disa	disa	PRON	_	PronType=Ind	10	nummod	_	start_char=45|end_char=49|NER=O
+10	pijeve	pije	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=50|end_char=56|NER=O
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=57|end_char=60|NER=O
+12	frutat	frutë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=61|end_char=67|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=68|end_char=71|NER=O
+14	bimët	bimë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=72|end_char=77|NER=O
+15	kryesisht	kryesisht	ADV	_	AdvType=Man	17	advmod	_	start_char=78|end_char=87|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=88|end_char=90|NER=O
+17	egra	egër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=91|end_char=95|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	2	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Këto pije cilësohen si pije kurative , për të cilat ka interes jo vetëm nga vendasit por edhe prej të huajve .
+# sent_id = 3
+1	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=0|end_char=4|NER=O
+2	pije	pije	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	start_char=5|end_char=9|NER=O
+3	cilësohen	cilësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=19|NER=O
+4	si	si	SCONJ	_	_	5	mark	_	start_char=20|end_char=22|NER=O
+5	pije	pije	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=23|end_char=27|NER=O
+6	kurative	kurati	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=28|end_char=36|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	10	punct	_	start_char=37|end_char=38|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=42|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=43|end_char=45|NER=O
+10	cilat	cila	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	11	obl	_	start_char=46|end_char=51|NER=O
+11	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	start_char=52|end_char=54|NER=O
+12	interes	interes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=55|end_char=62|NER=O
+13	jo	jo	PART	_	_	14	fixed	_	start_char=63|end_char=65|NER=O
+14	vetëm	vetëm	PART	_	_	16	mark	_	start_char=66|end_char=71|NER=O
+15	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=72|end_char=75|NER=O
+16	vendasit	vendas	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	advmod	_	start_char=76|end_char=84|NER=O
+17	por	por	CCONJ	_	_	21	cc	_	start_char=85|end_char=88|NER=O
+18	edhe	edhe	PART	_	_	19	mark:emph	_	start_char=89|end_char=93|NER=O
+19	prej	prej	ADP	_	Case=Abl	21	case	_	start_char=94|end_char=98|NER=O
+20	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=99|end_char=101|NER=O
+21	huajve	huaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	16	conj	_	start_char=102|end_char=108|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	3	punct	_	start_char=109|end_char=110|SpacesAfter=\n|NER=O
+
+# text = Zanati i punimit të vozave dhe fuçive është një zanat i vjetër dhe sipas mjeshtrit nuk ka vlerësim për të .
+# sent_id = 4
+1	Zanati	Zanat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=0|end_char=6|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	punimit	punim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=9|end_char=16|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=19|NER=O
+5	vozave	vozë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=20|end_char=26|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=27|end_char=30|NER=O
+7	fuçive	fuçi	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	conj	_	start_char=31|end_char=37|NER=O
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=43|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=44|end_char=47|NER=O
+10	zanat	zanat	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	cop	_	start_char=48|end_char=53|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=54|end_char=55|NER=O
+12	vjetër	vjetër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=56|end_char=62|NER=O
+13	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=63|end_char=66|NER=O
+14	sipas	sipas	ADP	_	Case=Abl	15	case	_	start_char=67|end_char=72|NER=O
+15	mjeshtrit	mjeshtr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=73|end_char=82|NER=O
+16	nuk	nuk	PART	_	Polarity=Neg	17	mark	_	start_char=83|end_char=86|NER=O
+17	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=87|end_char=89|NER=O
+18	vlerësim	vlerësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=90|end_char=98|NER=O
+19	për	për	ADP	_	Case=Acc	20	case	_	start_char=99|end_char=102|NER=O
+20	të	të	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	start_char=103|end_char=105|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	17	punct	_	start_char=106|end_char=107|NER=O
+
+# text = Ka shumë në Këlcyrë dhe jo vetëm që e kanë mësuar zanatin nga Hiqmeti por shumica prej tyre janë larguar jashtë Shqipërisë .
+# sent_id = 5
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=2|NER=O
+2	shumë	shumë	PRON	_	PronType=Ind	1	advmod	_	start_char=3|end_char=8|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=9|end_char=11|NER=O
+4	Këlcyrë	Këlcyrë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=12|end_char=19|NER=O
+5	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=20|end_char=23|NER=O
+6	jo	jo	PART	_	_	7	mark	_	start_char=24|end_char=26|NER=O
+7	vetëm	vetëm	ADV	_	AdvType=Man	8	fixed	_	start_char=27|end_char=32|NER=O
+8	që	që	SCONJ	_	_	11	mark	_	start_char=33|end_char=35|NER=O
+9	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=36|end_char=37|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=38|end_char=42|NER=O
+11	mësuar	mësoj	VERB	_	VerbForm=Part	1	conj	_	start_char=43|end_char=49|NER=O
+12	zanatin	zanat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=50|end_char=57|NER=O
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=58|end_char=61|NER=O
+14	Hiqmeti	Hiqmet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=62|end_char=69|NER=B-PER
+15	por	por	CCONJ	_	_	20	cc	_	start_char=70|end_char=73|NER=O
+16	shumica	shumicë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	start_char=74|end_char=81|NER=O
+17	prej	prej	ADP	_	Case=Abl	18	case	_	start_char=82|end_char=86|NER=O
+18	tyre	tyre	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	start_char=87|end_char=91|NER=O
+19	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=92|end_char=96|NER=O
+20	larguar	largoj	VERB	_	VerbForm=Part	1	conj	_	start_char=97|end_char=104|NER=O
+21	jashtë	jashtë	ADP	_	Case=Abl	22	case	_	start_char=105|end_char=111|NER=O
+22	Shqipërisë	Shqipëri	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=112|end_char=122|SpaceAfter=No|NER=B-VEND_1
+23	.	.	PUNCT	_	_	20	punct	_	start_char=123|end_char=124|SpacesAfter=\n|NER=O
+

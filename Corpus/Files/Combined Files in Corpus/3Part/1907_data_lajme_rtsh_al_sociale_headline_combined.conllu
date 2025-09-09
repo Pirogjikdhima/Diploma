@@ -1,0 +1,144 @@
+# text = pensionet e pleqërisë të punonjësve të minierave në nëntokë , që kanë datë fillimi të së drejtës deri më 31 .
+# sent_id = 0
+1	pensionet	pension	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	30	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	CCONJ	_	_	28	cc	_	start_char=10|end_char=11|NER=O
+3	pleqërisë	pleqëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=21|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=22|end_char=24|NER=O
+5	punonjësve	punonjë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=25|end_char=35|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=36|end_char=38|NER=O
+7	minierave	minierë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=39|end_char=48|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=49|end_char=51|NER=O
+9	nëntokë	nëntokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=52|end_char=59|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=60|end_char=61|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=62|end_char=64|NER=O
+12	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=65|end_char=69|NER=O
+13	datë	datë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=70|end_char=74|NER=O
+14	fillimi	fillim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=75|end_char=82|NER=O
+15	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=83|end_char=85|NER=O
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=86|end_char=88|NER=O
+17	drejtës	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=89|end_char=96|NER=O
+18	deri	deri	ADP	_	Case=Acc	20	case	_	start_char=97|end_char=101|NER=O
+19	më	më	ADP	_	Case=Acc	20	case	_	start_char=102|end_char=104|NER=O
+20	31	31	NUM	_	NumType=Card	17	nummod	_	start_char=105|end_char=107|SpaceAfter=No|NER=B-DATE_0
+21	.	.	PUNCT	_	_	22	punct	_	start_char=108|end_char=109|SpaceAfter=No|NER=B-DATE_0
+
+# text = 12 .
+# sent_id = 1
+1	12	12	NUM	_	NumType=Card	20	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	.	.	PUNCT	_	_	24	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=B-DATE_0
+
+# text = 2014 , pas datës së hyrjes në fuqi të këtij vendimi , nuk do të jenë më pak se 15 822 ( pesëmbëdhjetë mijë e tetëqind e njëzet e dy ) lekë në muaj dhe më shumë se 31 644 ( tridhjetë e një mijë e gjashtëqind e dyzet e katër ) lekë në muaj .
+# sent_id = 2
+1	2014	2014	NUM	_	NumType=Card	22	conj	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-DATE_0
+2	,	,	PUNCT	_	_	27	punct	_	start_char=5|end_char=6|NER=O
+3	pas	pas	ADP	_	Case=Abl	27	case	_	start_char=7|end_char=10|NER=O
+4	datës	datë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	24	advmod	_	start_char=11|end_char=16|NER=O
+5	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=17|end_char=19|NER=O
+6	hyrjes	hyrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=20|end_char=26|NER=O
+7	në	në	ADP	_	Case=Acc	31	case	_	start_char=27|end_char=29|NER=O
+8	fuqi	fuqi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=30|end_char=34|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=35|end_char=37|NER=O
+10	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	34	det	_	start_char=38|end_char=43|NER=O
+11	vendimi	vendim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	start_char=44|end_char=51|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	39	punct	_	start_char=52|end_char=53|NER=O
+13	nuk	nuk	PART	_	_	39	mark	_	start_char=54|end_char=57|NER=O
+14	do	do	PART	_	_	39	fixed	_	start_char=58|end_char=60|NER=O
+15	të	të	PART	_	_	39	fixed	_	start_char=61|end_char=63|NER=O
+16	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	acl	_	start_char=64|end_char=68|NER=O
+17	më	më	PART	_	_	41	mark	_	start_char=69|end_char=71|NER=O
+18	pak	pak	ADV	_	AdvType=Deg	44	advmod	_	start_char=72|end_char=75|NER=O
+19	se	se	SCONJ	_	_	44	mark	_	start_char=76|end_char=78|NER=O
+20	15	15	NUM	_	NumType=Card	44	nummod	_	start_char=79|end_char=81|NER=O
+21	822	822	NUM	_	NumType=Card	39	advmod	_	start_char=82|end_char=85|NER=O
+22	(	(	PUNCT	_	_	46	punct	_	start_char=86|end_char=87|SpaceAfter=No|NER=O
+23	pesëmbëdhjetë	pesëmbëdhjetë	NUM	_	NumType=Card	44	flat	_	start_char=88|end_char=101|NER=O
+24	mijë	mijë	NUM	_	NumType=Card	46	flat	_	start_char=102|end_char=106|NER=O
+25	e	e	CCONJ	_	_	49	cc	_	start_char=107|end_char=108|NER=O
+26	tetëqind	tetëqind	NUM	_	NumType=Sets	47	conj	_	start_char=109|end_char=117|NER=O
+27	e	e	CCONJ	_	_	51	cc	_	start_char=118|end_char=119|NER=O
+28	njëzet	njëzet	NUM	_	NumType=Card	49	conj	_	start_char=120|end_char=126|NER=O
+29	e	e	CCONJ	_	_	55	cc	_	start_char=127|end_char=128|NER=O
+30	dy	dy	NUM	_	NumType=Card	55	nummod	_	start_char=129|end_char=131|SpaceAfter=No|NER=O
+31	)	)	PUNCT	_	_	55	punct	_	start_char=132|end_char=133|NER=O
+32	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	51	conj	_	start_char=134|end_char=138|NER=O
+33	në	në	ADP	_	Case=Acc	57	case	_	start_char=139|end_char=141|NER=O
+34	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	nmod	_	start_char=142|end_char=146|NER=O
+35	dhe	dhe	CCONJ	_	_	60	cc	_	start_char=147|end_char=150|NER=O
+36	më	më	PART	_	_	60	mark	_	start_char=151|end_char=153|NER=O
+37	shumë	shumë	ADV	_	AdvType=Deg	62	advmod	_	start_char=154|end_char=159|NER=O
+38	se	se	SCONJ	_	_	62	mark	_	start_char=160|end_char=162|NER=O
+39	31	31	NUM	_	NumType=Card	64	nummod	_	start_char=163|end_char=165|NER=O
+40	644	644	NUM	_	NumType=Card	64	nummod	_	start_char=166|end_char=169|NER=O
+41	(	(	PUNCT	_	_	57	punct	_	start_char=170|end_char=171|NER=O
+42	tridhjetë	tridhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	57	nmod	_	start_char=172|end_char=181|NER=O
+43	e	e	CCONJ	_	_	67	cc	_	start_char=182|end_char=183|NER=O
+44	një	një	DET	_	Definite=Ind	67	det	_	start_char=184|end_char=187|NER=O
+45	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	64	conj	_	start_char=188|end_char=192|NER=O
+46	e	e	CCONJ	_	_	69	cc	_	start_char=193|end_char=194|NER=O
+47	gjashtëqind	gjashtëqind	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	67	conj	_	start_char=195|end_char=206|NER=O
+48	e	e	CCONJ	_	_	71	cc	_	start_char=207|end_char=208|NER=O
+49	dyzet	dyzet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	69	conj	_	start_char=209|end_char=214|NER=O
+50	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	73	det	_	start_char=215|end_char=216|NER=O
+51	katër	katër	NUM	_	NumType=Card	75	nummod	_	start_char=217|end_char=222|SpaceAfter=No|NER=O
+52	)	)	PUNCT	_	_	75	punct	_	start_char=223|end_char=224|NER=O
+53	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	71	nmod	_	start_char=225|end_char=229|NER=O
+54	në	në	ADP	_	Case=Acc	77	case	_	start_char=230|end_char=232|NER=O
+55	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	75	nmod	_	start_char=233|end_char=237|SpaceAfter=No|NER=O
+56	.	.	PUNCT	_	_	71	punct	_	start_char=238|end_char=239|SpacesAfter=\n|NER=O
+
+# text = Efektet financiare për zbatimin e këtij vendimi përllogariten në shumën 2 060 000 000 ( dymiliardë e gjashtëdhjetë milionë ) lekë .
+# sent_id = 3
+1	Efektet	efekt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=0|end_char=7|NER=O
+2	financiare	financiar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=8|end_char=18|SpacesAfter=\n|NER=O
+3	për	për	ADP	_	Case=Acc	6	case	_	start_char=19|end_char=22|NER=O
+4	zbatimin	zbatim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=31|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=32|end_char=33|NER=O
+6	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=34|end_char=39|NER=O
+7	vendimi	vendim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=40|end_char=47|NER=O
+8	përllogariten	përllogarit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=48|end_char=61|NER=O
+9	në	në	ADP	_	Case=Acc	12	case	_	start_char=62|end_char=64|NER=O
+10	shumën	shumë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=65|end_char=71|NER=O
+11	2	2	NUM	_	NumType=Card	12	nummod	_	start_char=72|end_char=73|NER=O
+12	060	060	NUM	_	NumType=Card	12	nummod	_	start_char=74|end_char=77|NER=O
+13	000	000	NUM	_	NumType=Card	12	nummod	_	start_char=78|end_char=81|NER=O
+14	000	000	NUM	_	NumType=Card	12	nummod	_	start_char=82|end_char=85|NER=O
+15	(	(	PUNCT	_	_	18	punct	_	start_char=86|end_char=87|SpaceAfter=No|NER=O
+16	dymiliardë	dymiliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	list	_	start_char=88|end_char=98|NER=O
+17	e	e	CCONJ	_	_	21	cc	_	start_char=99|end_char=100|NER=O
+18	gjashtëdhjetë	gjashtëdhjetë	NUM	_	NumType=Card	21	nummod	_	start_char=101|end_char=114|NER=O
+19	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	conj	_	start_char=115|end_char=122|SpaceAfter=No|NER=O
+20	)	)	PUNCT	_	_	23	punct	_	start_char=123|end_char=124|NER=O
+21	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	nmod	_	start_char=125|end_char=129|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	10	punct	_	start_char=130|end_char=131|NER=O
+
+# text = Ato përballohen nga fondi për politikat e indeksimit të pensioneve , i parashikuar në buxhetin e Institutit të Sigurimeve Shoqërore të vitit 2022 , të cilat ndahen :
+# sent_id = 4
+1	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	përballohen	përballoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4|end_char=15|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=16|end_char=19|NER=O
+4	fondi	fond	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=20|end_char=25|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=26|end_char=29|NER=O
+6	politikat	politikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=30|end_char=39|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=40|end_char=41|NER=O
+8	indeksimit	indeksim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=42|end_char=52|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=53|end_char=55|NER=O
+10	pensioneve	pension	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=56|end_char=66|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=69|end_char=70|NER=O
+13	parashikuar	parashikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=71|end_char=82|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=83|end_char=85|NER=O
+15	buxhetin	buxhet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=86|end_char=94|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=95|end_char=96|NER=O
+17	Institutit	Institut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=97|end_char=107|NER=B-ORG
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=108|end_char=110|NER=I-ORG
+19	Sigurimeve	sigurim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=111|end_char=121|NER=I-ORG
+20	Shoqërore	shoqëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=122|end_char=131|NER=I-ORG
+21	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	22	det:poss	_	start_char=132|end_char=134|NER=O
+22	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=135|end_char=140|NER=O
+23	2022	2022	NUM	_	NumType=Card	22	flat	_	start_char=141|end_char=145|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=146|end_char=147|NER=O
+25	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=148|end_char=150|NER=O
+26	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	27	nsubj	_	start_char=151|end_char=156|NER=O
+27	ndahen	ndaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	22	acl	_	start_char=157|end_char=163|SpaceAfter=No|NER=O
+28	:	:	PUNCT	_	_	26	punct	_	start_char=164|end_char=165|SpacesAfter=\n|NER=O
+

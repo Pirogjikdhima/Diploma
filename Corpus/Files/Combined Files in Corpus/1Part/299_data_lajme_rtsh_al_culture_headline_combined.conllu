@@ -1,0 +1,133 @@
+# text = 29 / 09 / 2023 Që prej vitit 2003 , 29 shtatori përkujtohet në Shqipëri si Dita Kombëtare e Trashëgimisë Kulturore .
+# sent_id = 0
+1	29	29	NUM	_	NumType=Card	8	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	8	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	8	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Që	që	PART	_	_	13	mark	_	start_char=15|end_char=17|NER=O
+7	prej	prej	ADP	_	Case=Abl	13	case	_	start_char=18|end_char=22|NER=O
+8	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=23|end_char=28|NER=O
+9	2003	2003	NUM	_	NumType=Card	13	amod:nummod	_	start_char=29|end_char=33|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	17	punct	_	start_char=34|end_char=35|NER=O
+11	29	29	NUM	_	NumType=Card	17	nummod	_	start_char=36|end_char=38|NER=B-DATE_0
+12	shtatori	shtator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=39|end_char=47|NER=I-DATE_0
+13	përkujtohet	përkujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	conj	_	start_char=48|end_char=59|NER=O
+14	në	në	ADP	_	Case=Acc	20	case	_	start_char=60|end_char=62|NER=O
+15	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=63|end_char=71|NER=B-VEND_1
+16	si	si	SCONJ	_	_	22	mark	_	start_char=72|end_char=74|NER=O
+17	Dita	ditë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=75|end_char=79|NER=O
+18	Kombëtare	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=80|end_char=89|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=90|end_char=91|NER=O
+20	Trashëgimisë	Trashëgimim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=92|end_char=104|NER=O
+21	Kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=105|end_char=114|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	18	punct	_	start_char=115|end_char=116|SpacesAfter=\n|NER=O
+
+# text = Historiku është mjaft interesant .
+# sent_id = 1
+1	Historiku	Historik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=9|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+3	mjaft	mjaft	ADV	_	AdvType=Deg	4	advmod	_	start_char=16|end_char=21|NER=O
+4	interesant	interesant	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	start_char=22|end_char=32|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	2	punct	_	start_char=33|end_char=34|NER=O
+
+# text = Përpjekjet e para janë ato të patriotëve dhe ushtarakëve , Kamber Bënja , Bexhet Manastirliu dhe Abaz Taushani , të cilët ndaluan plaçkitjen dhe vjedhjen e objekteve arkeologjike të parkut të Apollonisë , në vitin 1916 , gjatë Luftës së Parë Botërore .
+# sent_id = 2
+1	Përpjekjet	përpjekje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=0|end_char=10|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=11|end_char=12|NER=O
+3	para	para	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=13|end_char=17|NER=O
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=22|NER=O
+5	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	cop	_	start_char=23|end_char=26|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=27|end_char=29|NER=O
+7	patriotëve	patriot	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=30|end_char=40|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=41|end_char=44|NER=O
+9	ushtarakëve	ushtarak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	conj	_	start_char=45|end_char=56|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=57|end_char=58|NER=O
+11	Kamber	Kamber	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=59|end_char=65|NER=B-PER
+12	Bënja	Bënjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=66|end_char=71|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|NER=O
+14	Bexhet	Bexhet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=74|end_char=80|NER=B-PER
+15	Manastirliu	manastirli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=81|end_char=92|NER=I-PER
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=93|end_char=96|NER=O
+17	Abaz	Abaz	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	start_char=97|end_char=101|NER=B-PER
+18	Taushani	Taushan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=102|end_char=110|SpaceAfter=No|NER=I-PER
+19	,	,	PUNCT	_	_	21	punct	_	start_char=111|end_char=112|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	21	det	_	start_char=113|end_char=115|NER=O
+21	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	22	nsubj	_	start_char=116|end_char=121|NER=O
+22	ndaluan	ndaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	start_char=122|end_char=129|NER=O
+23	plaçkitjen	plaçkitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=130|end_char=140|NER=O
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=141|end_char=144|NER=O
+25	vjedhjen	vjedhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	conj	_	start_char=145|end_char=153|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=154|end_char=155|NER=O
+27	objekteve	objekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=156|end_char=165|NER=O
+28	arkeologjike	arkeologjik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=166|end_char=178|NER=O
+29	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=179|end_char=181|NER=O
+30	parkut	park	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=182|end_char=188|NER=O
+31	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=189|end_char=191|NER=O
+32	Apollonisë	Apolloni	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=192|end_char=202|SpaceAfter=No|NER=B-VEND_0
+33	,	,	PUNCT	_	_	35	punct	_	start_char=203|end_char=204|NER=O
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=205|end_char=207|NER=O
+35	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=208|end_char=213|NER=B-DATE_0
+36	1916	1916	NUM	_	NumType=Card	35	amod:nummod	_	start_char=214|end_char=218|SpaceAfter=No|NER=I-DATE_0
+37	,	,	PUNCT	_	_	39	punct	_	start_char=219|end_char=220|NER=O
+38	gjatë	gjatë	ADP	_	Case=Abl	39	case	_	start_char=221|end_char=226|NER=O
+39	Luftës	luftë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=227|end_char=233|NER=O
+40	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	41	det	_	start_char=234|end_char=236|NER=O
+41	Parë	parë	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=237|end_char=241|NER=O
+42	Botërore	botëror	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=242|end_char=250|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	4	punct	_	start_char=251|end_char=252|SpacesAfter=\n|NER=O
+
+# text = Përkujtimi i Ditës Kombëtare të Trashëgimisë Kulturore më 29 shtator , parashikon gjithashtu edhe detyrimin e të gjitha institucioneve kulturore dhe ato të trashëgimisë , të organizojnë aktivitete të ndryshme kulturore , që në bazë të saj ka përcjelljen e vlerave kombëtare shqiptare .
+# sent_id = 3
+1	Përkujtimi	përkujtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=0|end_char=10|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=11|end_char=12|NER=O
+3	Ditës	Ditë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=13|end_char=18|NER=O
+4	Kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=19|end_char=28|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=29|end_char=31|NER=O
+6	Trashëgimisë	Trashëgimim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=32|end_char=44|NER=O
+7	Kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=45|end_char=54|NER=O
+8	më	më	ADP	_	Case=Acc	10	case	_	start_char=55|end_char=57|NER=O
+9	29	29	NUM	_	NumType=Card	10	nummod	_	start_char=58|end_char=60|NER=B-DATE_0
+10	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=61|end_char=68|SpaceAfter=No|NER=I-DATE_0
+11	,	,	PUNCT	_	_	12	punct	_	start_char=69|end_char=70|NER=O
+12	parashikon	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=71|end_char=81|NER=O
+13	gjithashtu	gjithashtu	ADV	_	AdvType=Man	12	advmod	_	start_char=82|end_char=92|NER=O
+14	edhe	edhe	CCONJ	_	_	15	cc	_	start_char=93|end_char=97|NER=O
+15	detyrimin	detyrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=98|end_char=107|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=108|end_char=109|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=110|end_char=112|NER=O
+18	gjitha	gjithë	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	19	nummod	_	start_char=113|end_char=119|NER=O
+19	institucioneve	institucion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=120|end_char=134|NER=O
+20	kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=135|end_char=144|NER=O
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=145|end_char=148|NER=O
+22	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	19	conj	_	start_char=149|end_char=152|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=153|end_char=155|NER=O
+24	trashëgimisë	trashëgimi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=156|end_char=168|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	27	punct	_	start_char=169|end_char=170|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=171|end_char=173|NER=O
+27	organizojnë	organizoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=174|end_char=185|NER=O
+28	aktivitete	aktivitet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obj	_	start_char=186|end_char=196|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=197|end_char=199|NER=O
+30	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=200|end_char=208|NER=O
+31	kulturore	kulturor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=209|end_char=218|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	33	punct	_	start_char=219|end_char=220|NER=O
+33	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=221|end_char=223|NER=O
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=224|end_char=226|NER=O
+35	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	38	advmod	_	start_char=227|end_char=231|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=232|end_char=234|NER=O
+37	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	amod:poss	_	start_char=235|end_char=238|NER=O
+38	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	conj	_	start_char=239|end_char=241|NER=O
+39	përcjelljen	përcjellje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	38	obj	_	start_char=242|end_char=253|NER=O
+40	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	41	det:poss	_	start_char=254|end_char=255|NER=O
+41	vlerave	vlera	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	39	nmod	_	start_char=256|end_char=263|NER=O
+42	kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	start_char=264|end_char=273|NER=O
+43	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	start_char=274|end_char=283|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	38	punct	_	start_char=284|end_char=285|SpacesAfter=\n|NER=O
+
+# text = Gazetar : Mario Merhori
+# sent_id = 4
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Mario	Mario	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Merhori	merhor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

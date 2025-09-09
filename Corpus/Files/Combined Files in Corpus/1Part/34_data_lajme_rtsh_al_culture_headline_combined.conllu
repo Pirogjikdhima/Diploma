@@ -1,0 +1,303 @@
+# text = Fonoteka , pasuria e Radio Shkodrës .
+# sent_id = 0
+1	Fonoteka	Fonotekë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	pasuria	pasuri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	start_char=11|end_char=18|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=21|end_char=26|NER=O
+6	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	compound	_	start_char=27|end_char=35|SpaceAfter=No|NER=B-VEND_0
+7	.	.	PUNCT	_	_	1	punct	_	start_char=36|end_char=37|NER=O
+
+# text = Mbi 5 mijë materiale janë digjitalizuar vitet e fundit 21 / 01 / 2024 Fonoteka e Radio Shkodrës përmban një pjesë të rëndësishme të historisë së këtij radiostacioni .
+# sent_id = 1
+1	Mbi	mbi	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	5	5	NUM	_	NumType=Card	4	nummod	_	start_char=4|end_char=5|NER=O
+3	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	det	_	start_char=6|end_char=10|NER=O
+4	materiale	material	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	start_char=11|end_char=20|NER=O
+5	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=21|end_char=25|NER=O
+6	digjitalizuar	digjitalizoj	VERB	_	VerbForm=Part	0	root	_	start_char=26|end_char=39|NER=O
+7	vitet	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=40|end_char=45|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=46|end_char=47|NER=O
+9	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=48|end_char=54|SpacesAfter=\n|NER=O
+10	21	21	NUM	_	NumType=Card	11	conj	_	start_char=55|end_char=57|SpaceAfter=No|NER=B-DATE_0
+11	/	/	PUNCT	_	_	7	punct	_	start_char=58|end_char=59|SpaceAfter=No|NER=I-DATE_0
+12	01	01	NUM	_	NumType=Card	7	nummod	_	start_char=60|end_char=62|SpaceAfter=No|NER=I-DATE_0
+13	/	/	PUNCT	_	_	11	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=I-DATE_0
+14	2024	2024	NUM	_	NumType=Card	11	flat	_	start_char=65|end_char=69|SpaceAfter=No|NER=I-DATE_0
+15	Fonoteka	Fonotekë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=70|end_char=78|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=79|end_char=80|NER=O
+17	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	compound	_	start_char=81|end_char=86|NER=O
+18	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	flat	_	start_char=87|end_char=95|NER=B-VEND_0
+19	përmban	përmbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=96|end_char=103|NER=O
+20	një	një	DET	_	Definite=Ind	20	det	_	start_char=104|end_char=107|NER=O
+21	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=108|end_char=113|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=114|end_char=116|NER=O
+23	rëndësishme	rëndësishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=117|end_char=128|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=129|end_char=131|NER=O
+25	historisë	histori	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=132|end_char=141|NER=O
+26	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=142|end_char=144|NER=O
+27	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	start_char=145|end_char=150|NER=O
+28	radiostacioni	radiostacion	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=151|end_char=164|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	18	punct	_	start_char=165|end_char=166|NER=O
+
+# text = Në të përfshihen : edicione informative , emisione kulturore , programe humoristike , emisione për fëmijë , rubrika sportive etj .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	fixed	_	start_char=0|end_char=2|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=3|end_char=5|NER=O
+3	përfshihen	përfshij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=6|end_char=16|SpaceAfter=No|NER=O
+4	:	:	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|NER=O
+5	edicione	edicion	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=19|end_char=27|NER=O
+6	informative	informati	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=28|end_char=39|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=40|end_char=41|NER=O
+8	emisione	emision	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	list	_	start_char=42|end_char=50|NER=O
+9	kulturore	kulturor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=51|end_char=60|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=61|end_char=62|NER=O
+11	programe	program	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	list	_	start_char=63|end_char=71|NER=O
+12	humoristike	humoristik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=72|end_char=83|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=84|end_char=85|NER=O
+14	emisione	emision	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	list	_	start_char=86|end_char=94|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=95|end_char=98|NER=O
+16	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=99|end_char=105|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=106|end_char=107|NER=O
+18	rubrika	rubrikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	list	_	start_char=108|end_char=115|NER=O
+19	sportive	sportiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=116|end_char=124|NER=O
+20	etj	etj.	ADV	_	Abbr=Yes	18	list	_	start_char=125|end_char=128|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	14	punct	_	start_char=129|end_char=130|NER=O
+
+# text = " Muzika është një nga elementët me rëndësi që gjendet aty " , tregon mirëmbajtësja e fonotekës , gazetarja Blerta Cina .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Muzika	Muzikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2|end_char=8|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+4	një	një	DET	_	Definite=Ind	6	det	_	start_char=15|end_char=18|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=19|end_char=22|NER=O
+6	elementët	elementë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obl:arg	_	start_char=23|end_char=32|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=33|end_char=35|NER=O
+8	rëndësi	rëndësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=36|end_char=43|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=44|end_char=46|NER=O
+10	gjendet	gjendem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	acl	_	start_char=47|end_char=54|NER=O
+11	aty	aty	ADV	_	AdvType=Loc	10	advmod	_	start_char=55|end_char=58|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	14	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=61|end_char=62|NER=O
+14	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	parataxis	_	start_char=63|end_char=69|NER=O
+15	mirëmbajtësja	mirëmbajtësje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=70|end_char=83|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=84|end_char=85|NER=O
+17	fonotekës	fonotekë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=86|end_char=95|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=96|end_char=97|NER=O
+19	gazetarja	gazetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	list	_	start_char=98|end_char=107|NER=O
+20	Blerta	Blertë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	flat	_	start_char=108|end_char=114|NER=B-PER
+21	Cina	Cina	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	flat	_	start_char=115|end_char=119|SpaceAfter=No|NER=I-PER
+22	.	.	PUNCT	_	_	14	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+
+# text = " Këtu është thesari i muzikës shqiptare , i muzikës popullore , i muzikës folklorike i krijuar ndër vite .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Këtu	Këtu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=6|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+4	thesari	thesar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	cop	_	start_char=13|end_char=20|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=21|end_char=22|NER=O
+6	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=23|end_char=30|NER=O
+7	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=31|end_char=40|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	10	punct	_	start_char=41|end_char=42|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=43|end_char=44|NER=O
+10	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=45|end_char=52|NER=O
+11	popullore	popullor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=53|end_char=62|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=65|end_char=66|NER=O
+14	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	list	_	start_char=67|end_char=74|NER=O
+15	folklorike	folklorik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=75|end_char=85|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=86|end_char=87|NER=O
+17	krijuar	krijoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=88|end_char=95|NER=O
+18	ndër	ndër	ADP	_	Case=Acc	19	case	_	start_char=96|end_char=100|NER=O
+19	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=101|end_char=105|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	3	punct	_	start_char=106|end_char=107|NER=O
+
+# text = Ne arkivin tonë ekzistojnë këngë nga ansambli , muzikë orkestrale , muzikë popullore e përpunuar .
+# sent_id = 5
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nummod	_	start_char=0|end_char=2|NER=O
+2	arkivin	arkiv	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=3|end_char=10|NER=O
+3	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=11|end_char=15|NER=O
+4	ekzistojnë	ekzistoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=26|NER=O
+5	këngë	këngë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=27|end_char=32|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=33|end_char=36|NER=O
+7	ansambli	ansambël	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=37|end_char=45|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=46|end_char=47|NER=O
+9	muzikë	muzikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	list	_	start_char=48|end_char=54|NER=O
+10	orkestrale	orkestral	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=55|end_char=65|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=66|end_char=67|NER=O
+12	muzikë	muzikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	list	_	start_char=68|end_char=74|NER=O
+13	popullore	popullor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=75|end_char=84|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=85|end_char=86|NER=O
+15	përpunuar	përpunuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=87|end_char=96|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	4	punct	_	start_char=97|end_char=98|NER=O
+
+# text = Muzikë popullore qytetare , muzikë të filamve shqiptarë , muzikë e huaj , orkestrime " , tha gazetarja Blerta Cina .
+# sent_id = 6
+1	Muzikë	muzikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=0|end_char=6|NER=O
+2	popullore	popullor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=16|NER=O
+3	qytetare	qytetar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=17|end_char=25|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=26|end_char=27|NER=O
+5	muzikë	muzikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nsubj	_	start_char=28|end_char=34|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=35|end_char=37|NER=O
+7	filamve	filam	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=38|end_char=45|NER=O
+8	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=46|end_char=55|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=56|end_char=57|NER=O
+10	muzikë	muzikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	list	_	start_char=58|end_char=64|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=65|end_char=66|NER=O
+12	huaj	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|NER=O
+14	orkestrime	orkestrim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	list	_	start_char=74|end_char=84|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	10	punct	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	14	punct	_	start_char=87|end_char=88|NER=O
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=89|end_char=92|NER=O
+18	gazetarja	gazetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=93|end_char=102|NER=O
+19	Blerta	Blertë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	appos	_	start_char=103|end_char=109|NER=B-PER
+20	Cina	Cina	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	appos	_	start_char=110|end_char=114|SpaceAfter=No|NER=I-PER
+21	.	.	PUNCT	_	_	16	punct	_	start_char=115|end_char=116|SpacesAfter=\n|NER=O
+
+# text = Mbi 5 mijë materiale të fonotekës janë digjitalizuar tashmë dhe me këtë proces është marrë Muhamet Basha , ish - punonjës prej 30 vitesh i Radio Shkodrës .
+# sent_id = 7
+1	Mbi	mbi	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	5	5	NUM	_	NumType=Card	4	nummod	_	start_char=4|end_char=5|NER=O
+3	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	det	_	start_char=6|end_char=10|NER=O
+4	materiale	material	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=11|end_char=20|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=21|end_char=23|NER=O
+6	fonotekës	fonotekë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=24|end_char=33|NER=O
+7	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=34|end_char=38|NER=O
+8	digjitalizuar	digjitalizoj	VERB	_	VerbForm=Part	0	root	_	start_char=39|end_char=52|NER=O
+9	tashmë	tashmë	ADV	_	AdvType=Tim	8	advmod	_	start_char=53|end_char=59|NER=O
+10	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=60|end_char=63|NER=O
+11	me	me	ADP	_	Case=Acc	13	case	_	start_char=64|end_char=66|NER=O
+12	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=67|end_char=71|NER=O
+13	proces	proces	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	start_char=72|end_char=78|NER=O
+14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=79|end_char=84|NER=O
+15	marrë	marr	VERB	_	VerbForm=Part	8	conj	_	start_char=85|end_char=90|NER=O
+16	Muhamet	muham	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=91|end_char=98|NER=B-PER
+17	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	flat	_	start_char=99|end_char=104|SpaceAfter=No|NER=I-PER
+18	,	,	PUNCT	_	_	19	punct	_	start_char=105|end_char=106|NER=O
+19	ish	ish-punonjë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=107|end_char=110|NER=O
+20	-	-	PUNCT	_	_	15	punct	_	start_char=111|end_char=112|NER=O
+21	punonjës	ish-punonjë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=113|end_char=121|NER=O
+22	prej	prej	ADP	_	Case=Abl	22	case	_	start_char=122|end_char=126|NER=O
+23	30	30	NUM	_	NumType=Card	22	nummod	_	start_char=127|end_char=129|NER=O
+24	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=130|end_char=136|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=137|end_char=138|NER=O
+26	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=139|end_char=144|NER=O
+27	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	flat	_	start_char=145|end_char=153|SpaceAfter=No|NER=B-VEND_0
+28	.	.	PUNCT	_	_	15	punct	_	start_char=154|end_char=155|SpacesAfter=\n|NER=O
+
+# text = " Këtu janë digjitalizuar vetëm këngë shqipe , popullore shkodrane , të Shqipërisë së Mesme , folklorike , këngët e fëmijëve " , tha Muhamet Basha .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Këtu	këtu	ADV	_	AdvType=Tim	4	advmod	_	start_char=2|end_char=6|NER=O
+3	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=7|end_char=11|NER=O
+4	digjitalizuar	digjitalizoj	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=25|NER=O
+5	vetëm	vetëm	PART	_	_	6	mark	_	start_char=26|end_char=31|NER=O
+6	këngë	këngë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=32|end_char=37|NER=O
+7	shqipe	shqip	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=38|end_char=44|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=45|end_char=46|NER=O
+9	popullore	popullor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	conj	_	start_char=47|end_char=56|NER=O
+10	shkodrane	shkodran	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=57|end_char=66|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=69|end_char=71|NER=O
+13	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	list	_	start_char=72|end_char=82|NER=O
+14	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=83|end_char=85|NER=O
+15	Mesme	mesme	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=86|end_char=91|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=92|end_char=93|NER=O
+17	folklorike	folklorik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	start_char=94|end_char=104|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=105|end_char=106|NER=O
+19	këngët	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	list	_	start_char=107|end_char=113|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=114|end_char=115|NER=O
+21	fëmijëve	fëmijëve	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	start_char=116|end_char=124|NER=O
+22	"	"	PUNCT	_	_	19	punct	_	start_char=125|end_char=126|NER=O
+23	,	,	PUNCT	_	_	19	punct	_	start_char=127|end_char=128|NER=O
+24	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=129|end_char=132|NER=O
+25	Muhamet	muham	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=133|end_char=140|NER=B-PER
+26	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=141|end_char=146|SpaceAfter=No|NER=I-PER
+27	.	.	PUNCT	_	_	23	punct	_	start_char=147|end_char=148|SpacesAfter=\n|NER=O
+
+# text = Procesi ka patur vështirësitë e veta thotë Basha .
+# sent_id = 9
+1	Procesi	proces	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=10|NER=O
+3	patur	patoj	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=16|NER=O
+4	vështirësitë	vështirësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=17|end_char=29|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=30|end_char=31|NER=O
+6	veta	vetë	PRON	_	PronType=Prs|Reflex=Yes	4	amod	_	start_char=32|end_char=36|NER=O
+7	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=37|end_char=42|NER=O
+8	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=43|end_char=48|SpaceAfter=No|NER=B-PER
+9	.	.	PUNCT	_	_	3	punct	_	start_char=49|end_char=50|SpacesAfter=\n|NER=O
+
+# text = " Vështirësi ka sepse kishte edhe shirita shumë të vjetër , probleme me lagështirën që ka pas Fonoteka përpara " tha ai .
+# sent_id = 10
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vështirësi	dështirës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=12|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=15|NER=O
+4	sepse	sepse	SCONJ	_	_	5	mark	_	start_char=16|end_char=21|NER=O
+5	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	3	ccomp	_	start_char=22|end_char=28|NER=O
+6	edhe	edhe	PART	_	_	7	mark	_	start_char=29|end_char=33|NER=O
+7	shirita	shiritë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	start_char=34|end_char=41|NER=O
+8	shumë	shumë	ADV	_	AdvType=Deg	7	amod	_	start_char=42|end_char=47|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=48|end_char=50|NER=O
+10	vjetër	vjetër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=51|end_char=57|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=58|end_char=59|NER=O
+12	probleme	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	list	_	start_char=60|end_char=68|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=69|end_char=71|NER=O
+14	lagështirën	lagështirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=72|end_char=83|NER=O
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=84|end_char=86|NER=O
+16	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl	_	start_char=87|end_char=89|NER=O
+17	pas	pas	ADP	_	Case=Abl	18	case	_	start_char=90|end_char=93|NER=O
+18	Fonoteka	Fonotekë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=94|end_char=102|NER=O
+19	përpara	përpara	ADV	_	AdvType=Tim	20	advmod	_	start_char=103|end_char=110|NER=O
+20	"	"	PUNCT	_	_	20	punct	_	start_char=111|end_char=112|NER=O
+21	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	ccomp	_	start_char=113|end_char=116|NER=O
+22	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=117|end_char=119|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	20	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+
+# text = Një pjesë e materialeve të Fonotekës së Radio Shkodrës janë ende të padigjitalizuara .
+# sent_id = 11
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	nsubj	_	start_char=4|end_char=9|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	materialeve	material	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=12|end_char=23|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	Fonotekës	Fonotekë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=27|end_char=36|NER=O
+7	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=37|end_char=39|NER=O
+8	Radio	Radio	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=40|end_char=45|NER=O
+9	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=46|end_char=54|NER=B-VEND_0
+10	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=55|end_char=59|NER=O
+11	ende	ende	ADV	_	AdvType=Tim	13	advmod	_	start_char=60|end_char=64|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=65|end_char=67|NER=O
+13	padigjitalizuara	padigjitalizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	cop	_	start_char=68|end_char=84|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	10	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Ato përbëjnë një pjesë të rëndësishme të pasurisë kulturore dhe shpirtit të këtij qyteti dhe jo vetëm të radios .
+# sent_id = 12
+1	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	përbëjnë	përbëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=12|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=13|end_char=16|NER=O
+4	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=17|end_char=22|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=23|end_char=25|NER=O
+6	rëndësishme	rëndësishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=26|end_char=37|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=38|end_char=40|NER=O
+8	pasurisë	pasuri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=41|end_char=49|NER=O
+9	kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=50|end_char=59|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=60|end_char=63|NER=O
+11	shpirtit	shpirt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=64|end_char=72|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=73|end_char=75|NER=O
+13	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=76|end_char=81|NER=O
+14	qyteti	qytet	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=82|end_char=88|NER=O
+15	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=89|end_char=92|NER=O
+16	jo	jo	PART	_	_	17	fixed	_	start_char=93|end_char=95|NER=O
+17	vetëm	vetëm	PART	_	_	19	mark	_	start_char=96|end_char=101|NER=O
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=102|end_char=104|NER=O
+19	radios	radio	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	conj	_	start_char=105|end_char=111|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	2	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+
+# text = Gazetarë : Marjo Gjini
+# sent_id = 13
+1	Gazetarë	Gazetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Marjo	Marjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16|NER=B-PER
+4	Gjini	Gjini	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat:name	_	start_char=17|end_char=22|SpacesAfter=\n\n|NER=I-PER
+

@@ -1,0 +1,114 @@
+# text = Një oficer italian kapet duke i shitur sekrete Rusisë Shtetasi rus për të cilin thuhet se ka punuar në Ambasadën e Rusisë në Itali , pritet të dëbohet nga vendi .
+# sent_id = 0
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	oficer	oficer	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4|end_char=10|NER=O
+3	italian	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=11|end_char=18|NER=O
+4	kapet	kaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=19|end_char=24|NER=O
+5	duke	duke	PART	_	_	7	fixed	_	start_char=25|end_char=29|NER=O
+6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	start_char=30|end_char=31|NER=O
+7	shitur	shes	VERB	_	VerbForm=Part	4	advmod	_	start_char=32|end_char=38|NER=O
+8	sekrete	sekret	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=39|end_char=46|NER=O
+9	Rusisë	Rusisë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=47|end_char=53|SpacesAfter=\n|NER=B-VEND_1
+10	Shtetasi	shtetas	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=54|end_char=62|NER=O
+11	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=63|end_char=66|NER=O
+12	për	për	ADP	_	Case=Acc	5	case	_	start_char=67|end_char=70|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=71|end_char=73|NER=O
+14	cilin	cili	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	start_char=74|end_char=79|NER=O
+15	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	acl:relcl	_	start_char=80|end_char=86|NER=O
+16	se	se	SCONJ	_	_	9	mark	_	start_char=87|end_char=89|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=90|end_char=92|NER=O
+18	punuar	punoj	VERB	_	VerbForm=Part	6	advcl	_	start_char=93|end_char=99|NER=O
+19	në	në	ADP	_	Case=Acc	11	case	_	start_char=100|end_char=102|NER=O
+20	Ambasadën	Ambasadë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=103|end_char=112|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=113|end_char=114|NER=O
+22	Rusisë	Rusisë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=115|end_char=121|NER=B-VEND_1
+23	në	në	ADP	_	Case=Acc	15	case	_	start_char=122|end_char=124|NER=O
+24	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=125|end_char=130|SpaceAfter=No|NER=B-VEND_1
+25	,	,	PUNCT	_	_	17	punct	_	start_char=131|end_char=132|NER=O
+26	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=133|end_char=139|NER=O
+27	të	të	PART	_	_	19	fixed	_	start_char=140|end_char=142|NER=O
+28	dëbohet	dëboj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	ccomp	_	start_char=143|end_char=150|NER=O
+29	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=151|end_char=154|NER=O
+30	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	start_char=155|end_char=160|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	17	punct	_	start_char=161|end_char=162|NER=O
+
+# text = Ai nuk është arrestuar pasi gëzon imunitet diplomatik , tha deklarata e policisë .
+# sent_id = 1
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=0|end_char=2|NER=O
+2	nuk	nuk	PART	_	Polarity=Neg	4	mark	_	start_char=3|end_char=6|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=7|end_char=12|NER=O
+4	arrestuar	arrestoj	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=22|NER=O
+5	pasi	pasi	SCONJ	_	_	6	mark	_	start_char=23|end_char=27|NER=O
+6	gëzon	gëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=28|end_char=33|NER=O
+7	imunitet	imunit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=34|end_char=42|NER=O
+8	diplomatik	diplomatik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=43|end_char=53|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=54|end_char=55|NER=O
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=56|end_char=59|NER=O
+11	deklarata	deklaratë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=60|end_char=69|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=70|end_char=71|NER=O
+13	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=72|end_char=80|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	4	punct	_	start_char=81|end_char=82|SpacesAfter=\n|NER=O
+
+# text = Ministria e Jashtme e Italisë ka thirrur në bisedë ambasadorin rus në Itali , Sergei Razov .
+# sent_id = 2
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	Jashtme	Jashtme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=20|end_char=21|NER=O
+5	Italisë	Itali	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=22|end_char=29|NER=B-VEND_1
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=30|end_char=32|NER=O
+7	thirrur	thirroj	VERB	_	VerbForm=Part	0	root	_	start_char=33|end_char=40|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=41|end_char=43|NER=O
+9	bisedë	bisedë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=44|end_char=50|NER=O
+10	ambasadorin	ambasador	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=51|end_char=62|NER=O
+11	rus	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=63|end_char=66|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=67|end_char=69|NER=O
+13	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=70|end_char=75|SpaceAfter=No|NER=B-VEND_1
+14	,	,	PUNCT	_	_	15	punct	_	start_char=76|end_char=77|NER=O
+15	Sergei	Sergei	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	list	_	start_char=78|end_char=84|NER=B-PER
+16	Razov	Razov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=85|end_char=90|SpaceAfter=No|NER=I-PER
+17	.	.	PUNCT	_	_	7	punct	_	start_char=91|end_char=92|SpacesAfter=\n|NER=O
+
+# text = Gazeta italiane " Corriere della Sera " raporton se oficeri italian mund të ketë dorëzuar sekrete të NATO - s , bazuar në dokumentet e konfiskuara në banesën e tij nga ana e policisë .
+# sent_id = 3
+1	Gazeta	Gazetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=0|end_char=6|NER=O
+2	italiane	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=15|NER=O
+3	"	"	PUNCT	_	_	4	punct	_	start_char=16|end_char=17|SpaceAfter=No|NER=O
+4	Corriere	Corrier	PROPN	_	Foreign=Yes	1	appos	_	start_char=18|end_char=26|NER=O
+5	della	dellë	PROPN	_	Foreign=Yes	4	flat	_	start_char=27|end_char=32|NER=O
+6	Sera	Sera	PROPN	_	Foreign=Yes	4	flat	_	start_char=33|end_char=37|NER=O
+7	"	"	PUNCT	_	_	4	punct	_	start_char=38|end_char=39|NER=O
+8	raporton	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=48|NER=O
+9	se	se	SCONJ	_	_	14	mark	_	start_char=49|end_char=51|NER=O
+10	oficeri	oficer	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=52|end_char=59|NER=O
+11	italian	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=60|end_char=67|NER=O
+12	mund	mund	AUX	_	_	14	aux	_	start_char=68|end_char=72|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=73|end_char=75|NER=O
+14	ketë	kam	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=76|end_char=80|NER=O
+15	dorëzuar	dorëzoj	VERB	_	VerbForm=Part	7	advcl	_	start_char=81|end_char=89|NER=O
+16	sekrete	sekret	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=90|end_char=97|NER=O
+17	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=98|end_char=100|NER=O
+18	NATO	NATO-s	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=101|end_char=105|SpaceAfter=No|NER=B-ORG
+19	-	-	PUNCT	_	_	15	punct	_	start_char=106|end_char=107|SpaceAfter=No|NER=B-ORG
+20	s	NATO-s	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=108|end_char=109|SpaceAfter=No|NER=B-ORG
+21	,	,	PUNCT	_	_	19	punct	_	start_char=110|end_char=111|NER=O
+22	bazuar	bazoj	VERB	_	VerbForm=Part	14	conj	_	start_char=112|end_char=118|NER=O
+23	në	në	ADP	_	Case=Acc	21	case	_	start_char=119|end_char=121|NER=O
+24	dokumentet	dokument	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	start_char=122|end_char=132|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=133|end_char=134|NER=O
+26	konfiskuara	konfiskuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=135|end_char=146|NER=O
+27	në	në	ADP	_	Case=Acc	25	case	_	start_char=147|end_char=149|NER=O
+28	banesën	banesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=150|end_char=157|NER=O
+29	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=158|end_char=159|NER=O
+30	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=160|end_char=163|NER=O
+31	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=164|end_char=167|NER=O
+32	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=168|end_char=171|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=172|end_char=173|NER=O
+34	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=174|end_char=182|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	19	punct	_	start_char=183|end_char=184|SpacesAfter=\n|NER=O
+
+# text = / REL
+# sent_id = 4
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	REL	REL	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=5|SpacesAfter=\n|NER=O
+

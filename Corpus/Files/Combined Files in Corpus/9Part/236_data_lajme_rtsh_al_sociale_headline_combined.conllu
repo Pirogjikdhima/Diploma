@@ -1,0 +1,88 @@
+# text = 25 / 12 / 2023 Në pikën më të lartë të Shishtavecit shtëpizat turistike të ndërtuara prej 1 viti .
+# sent_id = 0
+1	25	25	NUM	_	NumType=Card	16	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	14	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	16	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	2	case	_	start_char=15|end_char=17|NER=O
+7	pikën	pikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=18|end_char=23|NER=O
+8	më	më	PART	_	_	5	mark	_	start_char=24|end_char=26|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=27|end_char=29|NER=O
+10	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=30|end_char=35|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=36|end_char=38|NER=O
+12	Shishtavecit	shishtavec	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=39|end_char=51|NER=O
+13	shtëpizat	shtëpizë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=52|end_char=61|NER=O
+14	turistike	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=62|end_char=71|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=72|end_char=74|NER=O
+16	ndërtuara	ndërtuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=75|end_char=84|NER=O
+17	prej	prej	ADP	_	Case=Abl	14	case	_	start_char=85|end_char=89|NER=O
+18	1	1	NUM	_	NumType=Card	14	nummod	_	start_char=90|end_char=91|NER=O
+19	viti	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=92|end_char=96|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	11	punct	_	start_char=97|end_char=98|NER=O
+
+# text = Mbështetura financiarisht nga Qeveria Austriake dhe Zvicerane në bashkëpunim me bashkinë e Kukësit është një atraksion që ka nxitur interesin e turistëve duke ndikuar në zhvillimin e shumë sektorëve .
+# sent_id = 1
+1	Mbështetura	mbështeturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	start_char=0|end_char=11|NER=O
+2	financiarisht	financiarisht	ADV	_	AdvType=Man	1	advmod	_	start_char=12|end_char=25|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=26|end_char=29|NER=O
+4	Qeveria	qeveri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=30|end_char=37|NER=O
+5	Austriake	austriak	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=38|end_char=47|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=48|end_char=51|NER=O
+7	Zvicerane	Zviceran	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=52|end_char=61|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=62|end_char=64|NER=O
+9	bashkëpunim	bashkëpunim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=65|end_char=76|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=77|end_char=79|NER=O
+11	bashkinë	bashki	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=80|end_char=88|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=89|end_char=90|NER=O
+13	Kukësit	Kukës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=91|end_char=98|NER=B-VEND_0
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=99|end_char=104|NER=O
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=105|end_char=108|NER=O
+16	atraksion	atraksion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	cop	_	start_char=109|end_char=118|NER=O
+17	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=119|end_char=121|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=122|end_char=124|NER=O
+19	nxitur	nxitoj	VERB	_	VerbForm=Part	16	acl:relcl	_	start_char=125|end_char=131|NER=O
+20	interesin	interes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=132|end_char=141|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=142|end_char=143|NER=O
+22	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=144|end_char=153|NER=O
+23	duke	duke	PART	_	_	24	fixed	_	start_char=154|end_char=158|NER=O
+24	ndikuar	ndikoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=159|end_char=166|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=167|end_char=169|NER=O
+26	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	start_char=170|end_char=180|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=181|end_char=182|NER=O
+28	shumë	shumë	PRON	_	PronType=Ind	29	nummod	_	start_char=183|end_char=188|NER=O
+29	sektorëve	sektor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	start_char=189|end_char=198|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	14	punct	_	start_char=199|end_char=200|SpacesAfter=\n|NER=O
+
+# text = Hoxha tregon që turistët janë nga më të ndryshmit që frekuentojnë shtëpizat e parkut , kryesisht të huajt më shumë i tërheq peizazhi malor dhe sportet e dimrit .
+# sent_id = 2
+1	Hoxha	Hoxhë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=12|NER=O
+3	që	që	SCONJ	_	_	4	mark	_	start_char=13|end_char=15|NER=O
+4	turistët	turist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=16|end_char=24|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=25|end_char=29|NER=O
+6	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=30|end_char=33|NER=O
+7	më	më	PART	_	_	9	mark	_	start_char=34|end_char=36|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=37|end_char=39|NER=O
+9	ndryshmit	ndryshm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	advmod	_	start_char=40|end_char=49|NER=O
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=50|end_char=52|NER=O
+11	frekuentojnë	frekuentoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=53|end_char=65|NER=O
+12	shtëpizat	shtëpizë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=66|end_char=75|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=76|end_char=77|NER=O
+14	parkut	park	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=78|end_char=84|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	18	punct	_	start_char=85|end_char=86|NER=O
+16	kryesisht	kryesisht	ADV	_	AdvType=Man	18	mark	_	start_char=87|end_char=96|NER=O
+17	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=97|end_char=99|NER=O
+18	huajt	huaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=100|end_char=105|NER=O
+19	më	më	PART	_	_	20	mark	_	start_char=106|end_char=108|NER=O
+20	shumë	shumë	ADV	_	AdvType=Deg	22	advmod	_	start_char=109|end_char=114|NER=O
+21	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	iobj	_	start_char=115|end_char=116|NER=O
+22	tërheq	tërhej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	start_char=117|end_char=123|NER=O
+23	peizazhi	peizazh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	start_char=124|end_char=132|NER=O
+24	malor	malor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=133|end_char=138|NER=O
+25	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=139|end_char=142|NER=O
+26	sportet	sport	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	start_char=143|end_char=150|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=151|end_char=152|NER=O
+28	dimrit	dimër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=153|end_char=159|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	22	punct	_	start_char=160|end_char=161|SpacesAfter=\n|NER=O
+

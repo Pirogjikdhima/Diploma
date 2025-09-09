@@ -1,0 +1,92 @@
+# text = TIRAN , 26 dhjetor / ATSH / Euroja dhe dollari fituan terren këtë të martë në kursin e këmbimit me lekun .
+# sent_id = 0
+1	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	16	punct	_	start_char=6|end_char=7|NER=O
+3	26	26	NUM	_	NumType=Card	16	nummod	_	start_char=8|end_char=10|NER=B-DATE_0
+4	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=11|end_char=18|SpaceAfter=No|NER=I-DATE_0
+5	/	/	PUNCT	_	_	4	punct	_	start_char=19|end_char=20|SpaceAfter=No|NER=O
+6	ATSH	ATSH/Euroj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=21|end_char=25|NER=O
+7	/	/	PUNCT	_	_	4	punct	_	start_char=26|end_char=27|NER=O
+8	Euroja	ATSH/Euroj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=28|end_char=34|NER=O
+9	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=35|end_char=38|NER=O
+10	dollari	dollar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=39|end_char=46|NER=O
+11	fituan	fitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=47|end_char=53|NER=O
+12	terren	terre	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=54|end_char=60|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=61|end_char=65|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=66|end_char=68|NER=B-DATE_1
+15	martë	martë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=69|end_char=74|NER=I-DATE_1
+16	në	në	ADP	_	Case=Acc	10	case	_	start_char=75|end_char=77|NER=O
+17	kursin	kurs	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=78|end_char=84|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=85|end_char=86|NER=O
+19	këmbimit	këmbim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=87|end_char=95|NER=O
+20	me	me	ADP	_	Case=Acc	14	case	_	start_char=96|end_char=98|NER=O
+21	lekun	leku	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=99|end_char=104|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	4	punct	_	start_char=105|end_char=106|SpacesAfter=\n|NER=O
+
+# text = Sipas kursit zyrtar të Bankës së Shqipërisë , në tregun valutor , një dollar këmbehet me 94 .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	kursit	kurs	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=6|end_char=12|NER=O
+3	zyrtar	zyrtar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=13|end_char=19|NER=O
+4	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=20|end_char=22|NER=O
+5	Bankës	Bankë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=23|end_char=29|NER=B-ORG
+6	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=30|end_char=32|NER=I-ORG
+7	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=33|end_char=43|SpaceAfter=No|NER=I-ORG
+8	,	,	PUNCT	_	_	10	punct	_	start_char=44|end_char=45|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=46|end_char=48|NER=O
+10	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=49|end_char=55|NER=O
+11	valutor	valutor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=56|end_char=63|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	10	punct	_	start_char=64|end_char=65|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=66|end_char=69|NER=O
+14	dollar	dollar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	start_char=70|end_char=76|NER=O
+15	këmbehet	këmbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=77|end_char=85|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=86|end_char=88|NER=O
+17	94	94	NUM	_	NumType=Card	20	nummod	_	start_char=89|end_char=91|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	20	punct	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+
+# text = 28 lekë ose 0 .
+# sent_id = 2
+1	28	28	NUM	_	NumType=Card	20	nummod	_	start_char=0|end_char=2|NER=O
+2	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	advmod	_	start_char=3|end_char=7|NER=O
+3	ose	ose	CCONJ	_	_	23	cc	_	start_char=8|end_char=11|NER=O
+4	0	0	NUM	_	NumType=Card	23	nummod	_	start_char=12|end_char=13|NER=O
+5	.	.	PUNCT	_	_	23	punct	_	start_char=14|end_char=15|NER=O
+
+# text = 13 lekë më tepër se të premten e javës së shkuar , ndërsa një euro këmbehet me 103 .
+# sent_id = 3
+1	13	13	NUM	_	NumType=Card	23	nummod	_	start_char=0|end_char=2|NER=O
+2	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	conj	_	start_char=3|end_char=7|NER=O
+3	më	më	PART	_	_	25	mark	_	start_char=8|end_char=10|NER=O
+4	tepër	tepër	ADV	_	AdvType=Deg	23	advmod	_	start_char=11|end_char=16|NER=O
+5	se	se	SCONJ	_	_	28	mark	_	start_char=17|end_char=19|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=20|end_char=22|NER=B-DATE_1
+7	premten	premte	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=23|end_char=30|NER=I-DATE_1
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=31|end_char=32|NER=O
+9	javës	javë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=33|end_char=38|NER=O
+10	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=39|end_char=41|NER=O
+11	shkuar	shkoj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=42|end_char=48|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	34	punct	_	start_char=49|end_char=50|NER=O
+13	ndërsa	ndërsa	CCONJ	_	_	37	cc	_	start_char=51|end_char=57|NER=O
+14	një	një	DET	_	Definite=Ind	36	det	_	start_char=58|end_char=61|NER=O
+15	euro	euro	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	37	obj	_	start_char=62|end_char=66|NER=O
+16	këmbehet	këmbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	30	acl	_	start_char=67|end_char=75|NER=O
+17	me	me	ADP	_	Case=Acc	39	case	_	start_char=76|end_char=78|NER=O
+18	103	103	NUM	_	NumType=Card	37	advmod	_	start_char=79|end_char=82|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	42	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+
+# text = 87 lekë ose 0 .
+# sent_id = 4
+1	87	87	NUM	_	NumType=Card	42	nummod	_	start_char=0|end_char=2|NER=O
+2	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	37	advmod	_	start_char=3|end_char=7|NER=O
+3	ose	ose	CCONJ	_	_	45	cc	_	start_char=8|end_char=11|NER=O
+4	0	0	NUM	_	NumType=Card	45	nummod	_	start_char=12|end_char=13|NER=O
+5	.	.	PUNCT	_	_	45	punct	_	start_char=14|end_char=15|NER=O
+
+# text = 13 lekë më tepër .
+# sent_id = 5
+1	13	13	NUM	_	NumType=Card	45	nummod	_	start_char=0|end_char=2|NER=O
+2	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	42	conj	_	start_char=3|end_char=7|NER=O
+3	më	më	PART	_	_	47	mark	_	start_char=8|end_char=10|NER=O
+4	tepër	tepër	ADV	_	AdvType=Deg	45	advmod	_	start_char=11|end_char=16|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	37	punct	_	start_char=17|end_char=18|SpacesAfter=\n|NER=O
+

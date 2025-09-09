@@ -1,0 +1,149 @@
+# text = 25 / 12 / 2023 Përmeti i këngëve dhe valleve duket që dashurinë për artin e ka përcjellë mjaft mirë edhe te brezat e rinj .
+# sent_id = 0
+1	25	25	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	17	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	17	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	19	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Përmeti	përmet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=15|end_char=22|NER=B-VEND_0
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=23|end_char=24|NER=O
+8	këngëve	këngë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=25|end_char=32|NER=O
+9	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=33|end_char=36|NER=O
+10	valleve	valle	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	conj	_	start_char=37|end_char=44|NER=O
+11	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	acl:relcl	_	start_char=45|end_char=50|NER=O
+12	që	që	SCONJ	_	_	29	mark	_	start_char=51|end_char=53|NER=O
+13	dashurinë	dashuri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	obj	_	start_char=54|end_char=63|NER=O
+14	për	për	ADP	_	Case=Acc	31	case	_	start_char=64|end_char=67|NER=O
+15	artin	art	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=68|end_char=73|NER=O
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	cc	_	start_char=74|end_char=75|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	34	aux	_	start_char=76|end_char=78|NER=O
+18	përcjellë	përcjell	VERB	_	VerbForm=Part	27	conj	_	start_char=79|end_char=88|NER=O
+19	mjaft	mjaft	ADV	_	AdvType=Deg	34	advmod	_	start_char=89|end_char=94|NER=O
+20	mirë	mirë	ADV	_	AdvType=Man	34	advmod	_	start_char=95|end_char=99|NER=O
+21	edhe	edhe	PART	_	_	39	mark	_	start_char=100|end_char=104|NER=O
+22	te	te	ADP	_	Case=Nom	39	case	_	start_char=105|end_char=107|NER=O
+23	brezat	brezë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	34	obl	_	start_char=108|end_char=114|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	41	det	_	start_char=115|end_char=116|NER=O
+25	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	39	amod	_	start_char=117|end_char=121|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	34	punct	_	start_char=122|end_char=123|NER=O
+
+# text = Janë nxënësit e shkollave 9 vjeçare që nëpërmjet një interviste tregojnë se angazhohen në mësimin e valleve , këngëve mësimin e instrumenteve muzikore jo vetëm pranë shkollave por edhe në Qendrën Rinore të çelur prej para pak kohësh në qytetin e Përmetit .
+# sent_id = 1
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	cop	_	start_char=5|end_char=13|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det:poss	_	start_char=14|end_char=15|NER=O
+4	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=16|end_char=25|NER=O
+5	9	9	NUM	_	NumType=Card	4	nummod	_	start_char=26|end_char=27|NER=O
+6	vjeçare	vjeçar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=28|end_char=35|NER=O
+7	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=36|end_char=38|NER=O
+8	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	10	case	_	start_char=39|end_char=48|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=49|end_char=52|NER=O
+10	interviste	intervist	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=53|end_char=63|NER=O
+11	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=64|end_char=72|NER=O
+12	se	se	SCONJ	_	_	13	mark	_	start_char=73|end_char=75|NER=O
+13	angazhohen	angazhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	ccomp	_	start_char=76|end_char=86|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=87|end_char=89|NER=O
+15	mësimin	mësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=90|end_char=97|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=98|end_char=99|NER=O
+17	valleve	valle	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=100|end_char=107|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=108|end_char=109|NER=O
+19	këngëve	këngë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	list	_	start_char=110|end_char=117|NER=O
+20	mësimin	mësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=118|end_char=125|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=126|end_char=127|NER=O
+22	instrumenteve	instrument	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=128|end_char=141|NER=O
+23	muzikore	muzikor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=142|end_char=150|NER=O
+24	jo	jo	PART	_	_	25	fixed	_	start_char=151|end_char=153|NER=O
+25	vetëm	vetëm	PART	_	_	27	mark	_	start_char=154|end_char=159|NER=O
+26	pranë	pranë	ADP	_	Case=Abl	27	case	_	start_char=160|end_char=165|NER=O
+27	shkollave	shkollë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=166|end_char=175|NER=O
+28	por	por	CCONJ	_	_	31	cc	_	start_char=176|end_char=179|NER=O
+29	edhe	edhe	PART	_	_	31	mark	_	start_char=180|end_char=184|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=185|end_char=187|NER=O
+31	Qendrën	qendër	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	conj	_	start_char=188|end_char=195|NER=O
+32	Rinore	Rinor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=196|end_char=202|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=203|end_char=205|NER=O
+34	çelur	çelur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=206|end_char=211|NER=O
+35	prej	prej	ADP	_	Case=Abl	38	case	_	start_char=212|end_char=216|NER=O
+36	para	para	ADP	_	Case=Abl	38	case	_	start_char=217|end_char=221|NER=O
+37	pak	pak	ADV	_	AdvType=Deg	38	nummod	_	start_char=222|end_char=225|NER=O
+38	kohësh	kohë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	34	advmod	_	start_char=226|end_char=232|NER=O
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=233|end_char=235|NER=O
+40	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=236|end_char=243|NER=O
+41	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=244|end_char=245|NER=O
+42	Përmetit	përmet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	start_char=246|end_char=254|SpaceAfter=No|NER=B-VEND_0
+43	.	.	PUNCT	_	_	1	punct	_	start_char=255|end_char=256|SpacesAfter=\n|NER=O
+
+# text = Instruktori i pianos Aurel Bariu flet për interesin në rritje të fëmijëve që drejtohen qendrës rinore dhe nga aty marrin mësimet në fusha të ndryshme të artit .
+# sent_id = 2
+1	Instruktori	Instruktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=11|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=12|end_char=13|NER=O
+3	pianos	piano	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=14|end_char=20|NER=O
+4	Aurel	Aurel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=21|end_char=26|NER=B-PER
+5	Bariu	Bari	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=27|end_char=32|NER=I-PER
+6	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=37|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=38|end_char=41|NER=O
+8	interesin	interes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=42|end_char=51|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=52|end_char=54|NER=O
+10	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=55|end_char=61|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=62|end_char=64|NER=O
+12	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	start_char=65|end_char=73|NER=O
+13	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=74|end_char=76|NER=O
+14	drejtohen	drejtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	acl	_	start_char=77|end_char=86|NER=O
+15	qendrës	qendrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=87|end_char=94|NER=O
+16	rinore	rinor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=95|end_char=101|NER=O
+17	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=102|end_char=105|NER=O
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=106|end_char=109|NER=O
+19	aty	aty	ADV	_	AdvType=Loc	20	advmod	_	start_char=110|end_char=113|NER=O
+20	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=114|end_char=120|NER=O
+21	mësimet	mësim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obj	_	start_char=121|end_char=128|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=129|end_char=131|NER=O
+23	fusha	fushë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	obl	_	start_char=132|end_char=137|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=138|end_char=140|NER=O
+25	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=141|end_char=149|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det:poss	_	start_char=150|end_char=152|NER=O
+27	artit	art	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=153|end_char=158|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	20	punct	_	start_char=159|end_char=160|SpacesAfter=\n|NER=O
+
+# text = Me 23 nëntor u përuruar Qendra Rinore " Ollga Shuraja " .
+# sent_id = 3
+1	Me	me	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	23	23	NUM	_	NumType=Card	3	nummod	_	start_char=3|end_char=5|NER=B-DATE_0
+3	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=6|end_char=12|NER=I-DATE_0
+4	u	u	PART	_	_	5	fixed	_	start_char=13|end_char=14|NER=O
+5	përuruar	përuroj	VERB	_	VerbForm=Part	0	root	_	start_char=15|end_char=23|NER=O
+6	Qendra	qendër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=24|end_char=30|NER=O
+7	Rinore	Rinor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	compound	_	start_char=31|end_char=37|NER=O
+8	"	"	PUNCT	_	_	9	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+9	Ollga	Ollga	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	list	_	start_char=40|end_char=45|NER=O
+10	Shuraja	Shurajë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	flat	_	start_char=46|end_char=53|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	9	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	5	punct	_	start_char=56|end_char=57|NER=O
+
+# text = Brenda kësaj godine shumë të rinj kanë mundësinë që nëpërmjet instruktoreve të muzikës të marrin mësime të vlefshme në fusha të ndryshme të artit .
+# sent_id = 4
+1	Brenda	brenda	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=6|NER=O
+2	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=7|end_char=12|NER=O
+3	godine	godin	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=13|end_char=19|NER=O
+4	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=20|end_char=25|NER=O
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=26|end_char=28|NER=O
+6	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=29|end_char=33|NER=O
+7	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=34|end_char=38|NER=O
+8	mundësinë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=39|end_char=48|NER=O
+9	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=49|end_char=51|NER=O
+10	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	11	case	_	start_char=52|end_char=61|NER=O
+11	instruktoreve	instruktor	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=62|end_char=75|NER=O
+12	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=76|end_char=78|NER=O
+13	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=79|end_char=86|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=87|end_char=89|NER=O
+15	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	acl:relcl	_	start_char=90|end_char=96|NER=O
+16	mësime	mësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	start_char=97|end_char=103|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=104|end_char=106|NER=O
+18	vlefshme	vlefshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=107|end_char=115|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=116|end_char=118|NER=O
+20	fusha	fushë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	advmod	_	start_char=119|end_char=124|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=125|end_char=127|NER=O
+22	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=128|end_char=136|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=137|end_char=139|NER=O
+24	artit	art	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=140|end_char=145|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	7	punct	_	start_char=146|end_char=147|SpacesAfter=\n\n|NER=O
+

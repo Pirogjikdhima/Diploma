@@ -1,0 +1,64 @@
+# text = TIRAN , 26 dhjetor / ATSH / Sektori i pasurive të paluajtshme po kryeson investimet e huaja direkte për të dytin vit radhazi , bëri të ditur Banka e Shqipërisë .
+# sent_id = 0
+1	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	18	punct	_	start_char=6|end_char=7|NER=O
+3	26	26	NUM	_	NumType=Card	18	nummod	_	start_char=8|end_char=10|NER=B-DATE_0
+4	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=11|end_char=18|NER=I-DATE_0
+5	/	/	PUNCT	_	_	20	punct	_	start_char=19|end_char=20|SpaceAfter=No|NER=O
+6	ATSH	ATSH	PROPN	_	Foreign=Yes	18	appos	_	start_char=21|end_char=25|NER=O
+7	/	/	PUNCT	_	_	18	punct	_	start_char=26|end_char=27|NER=O
+8	Sektori	sektor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=28|end_char=35|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=36|end_char=37|NER=O
+10	pasurive	pasuri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=38|end_char=46|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=47|end_char=49|NER=O
+12	paluajtshme	paluajtshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=50|end_char=61|NER=O
+13	po	po	PART	_	_	7	mark	_	start_char=62|end_char=64|NER=O
+14	kryeson	kryesoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=65|end_char=72|NER=O
+15	investimet	investim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=73|end_char=83|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=84|end_char=85|NER=O
+17	huaja	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=86|end_char=91|NER=O
+18	direkte	direkt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=92|end_char=99|NER=O
+19	për	për	ADP	_	Case=Acc	14	fixed	_	start_char=100|end_char=103|NER=O
+20	të	të	PART	_	_	14	fixed	_	start_char=104|end_char=106|NER=O
+21	dytin	dyt	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	advmod	_	start_char=107|end_char=112|NER=O
+22	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	start_char=113|end_char=116|NER=O
+23	radhazi	radhazi	ADV	_	AdvType=Man	15	advmod	_	start_char=117|end_char=124|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	18	punct	_	start_char=125|end_char=126|NER=O
+25	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	ccomp	_	start_char=127|end_char=131|NER=O
+26	të	të	PART	_	_	20	fixed	_	start_char=132|end_char=134|NER=O
+27	ditur	ditur	VERB	_	VerbForm=Part	18	ccomp	_	start_char=135|end_char=140|NER=O
+28	Banka	Bankë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=141|end_char=146|NER=B-ORG
+29	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=147|end_char=148|NER=I-ORG
+30	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=149|end_char=159|SpaceAfter=No|NER=I-ORG
+31	.	.	PUNCT	_	_	18	punct	_	start_char=160|end_char=161|SpacesAfter=\n|NER=O
+
+# text = Sipas statistikave , për tremujorin e tretë të këtij viti investimet e të huajve në pasuri të paluajtshme në Shqipëri arritën vlerën e 95 milionë eurove .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	statistikave	statistikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	21	advmod	_	start_char=6|end_char=18|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=19|end_char=20|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=24|NER=O
+5	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=25|end_char=35|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=36|end_char=37|NER=O
+7	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=38|end_char=43|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=44|end_char=46|NER=O
+9	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=47|end_char=52|NER=O
+10	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=53|end_char=57|NER=O
+11	investimet	investim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=58|end_char=68|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=69|end_char=70|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=71|end_char=73|NER=O
+14	huajve	huaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=74|end_char=80|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=81|end_char=83|NER=O
+16	pasuri	pasur	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=84|end_char=90|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=91|end_char=93|NER=O
+18	paluajtshme	paluajtshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=94|end_char=105|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=106|end_char=108|NER=O
+20	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=109|end_char=117|NER=B-VEND_1
+21	arritën	arrij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=118|end_char=125|NER=O
+22	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=126|end_char=132|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=133|end_char=134|NER=O
+24	95	95	NUM	_	NumType=Card	25	nummod	_	start_char=135|end_char=137|NER=O
+25	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	start_char=138|end_char=145|NER=O
+26	eurove	euro	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=146|end_char=152|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	21	punct	_	start_char=153|end_char=154|SpacesAfter=\n|NER=O
+

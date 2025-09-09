@@ -1,0 +1,60 @@
+# text = 30 / 12 / 2023 Për të kaluar festa të gëzuara dhe pa problematika shëndetësore kujdes së pari duhet të bëjmë me ushqimin .
+# sent_id = 0
+1	30	30	NUM	_	NumType=Card	14	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	11	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	14	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Për	për	PART	_	_	19	fixed	_	start_char=15|end_char=18|NER=O
+7	të	të	PART	_	_	19	fixed	_	start_char=19|end_char=21|NER=O
+8	kaluar	kaloj	VERB	_	VerbForm=Part	14	advmod	_	start_char=22|end_char=28|NER=O
+9	festa	festë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=29|end_char=34|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=35|end_char=37|NER=O
+11	gëzuara	gëzuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=38|end_char=45|NER=O
+12	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=46|end_char=49|NER=O
+13	pa	pa	ADP	_	Case=Acc	25	case	_	start_char=50|end_char=52|NER=O
+14	problematika	problematikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	conj	_	start_char=53|end_char=65|NER=O
+15	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=66|end_char=78|NER=O
+16	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=79|end_char=85|NER=O
+17	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=86|end_char=88|NER=O
+18	pari	pari	PRON	_	Number=Sing|PronType=Prs	32	nsubj	_	start_char=89|end_char=93|NER=O
+19	duhet	duhem	AUX	_	_	32	aux	_	start_char=94|end_char=99|NER=O
+20	të	të	PART	_	_	32	fixed	_	start_char=100|end_char=102|NER=O
+21	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	19	advcl	_	start_char=103|end_char=108|NER=O
+22	me	me	ADP	_	Case=Acc	34	case	_	start_char=109|end_char=111|NER=O
+23	ushqimin	ushqim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	32	obl	_	start_char=112|end_char=120|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	32	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Ky është rekomandimi i parë që vjen nga specialisti i shëndetit publik Bledar Ahmetaj këtë fund vit që i adresohet kryesisht të sëmurëve kronikë , grave shtatzëna dhe fëmijëve .
+# sent_id = 1
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	rekomandimi	rekomandim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=9|end_char=20|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=21|end_char=22|NER=O
+5	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=27|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=28|end_char=30|NER=O
+7	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=31|end_char=35|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=36|end_char=39|NER=O
+9	specialisti	specialist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=40|end_char=51|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=52|end_char=53|NER=O
+11	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=54|end_char=63|NER=O
+12	publik	publik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=64|end_char=70|NER=O
+13	Bledar	Bledar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=71|end_char=77|NER=B-PER
+14	Ahmetaj	Ahmetaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=78|end_char=85|NER=I-PER
+15	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=86|end_char=90|NER=O
+16	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=91|end_char=95|NER=O
+17	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=96|end_char=99|NER=O
+18	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=100|end_char=102|NER=O
+19	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	start_char=103|end_char=104|NER=O
+20	adresohet	adresoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	acl	_	start_char=105|end_char=114|NER=O
+21	kryesisht	kryesisht	ADV	_	AdvType=Man	20	advmod	_	start_char=115|end_char=124|NER=O
+22	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=125|end_char=127|NER=O
+23	sëmurëve	sëmurë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	obj	_	start_char=128|end_char=136|NER=O
+24	kronikë	kronikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	start_char=137|end_char=144|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	26	punct	_	start_char=145|end_char=146|NER=O
+26	grave	grua	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	23	list	_	start_char=147|end_char=152|NER=O
+27	shtatzëna	shtatzënë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=153|end_char=162|NER=O
+28	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=163|end_char=166|NER=O
+29	fëmijëve	fëmijë	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	26	conj	_	start_char=167|end_char=175|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	2	punct	_	start_char=176|end_char=177|SpacesAfter=\n|NER=O
+

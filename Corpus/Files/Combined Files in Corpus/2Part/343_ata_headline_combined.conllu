@@ -1,0 +1,153 @@
+# text = EUROSTAT : Shqipëria renditet e 3 - ta në konsumin energjisë nga burime të rinovueshme TIRAN , 26 dhjetor / ATSH / Një raport i EUROSTAT mbi konsumin bruto të energjisë , që gjenerohet nga burime të rinovueshme në kontinentin europian rendit Shqipërinë në vendin e 3 - të .
+# sent_id = 0
+1	EUROSTAT	EUROSTA	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=B-ORG
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Shqipëria	Shqipëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=11|end_char=20|NER=B-PER
+4	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=21|end_char=29|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=30|end_char=31|NER=O
+6	3	3	NUM	_	NumType=Card	2	advmod	_	start_char=32|end_char=33|NER=O
+7	-	-	PUNCT	_	_	2	punct	_	start_char=34|end_char=35|NER=O
+8	ta	3-të	NUM	_	NumType=Card	2	advmod	_	start_char=36|end_char=38|NER=O
+9	në	në	ADP	_	Case=Acc	6	case	_	start_char=39|end_char=41|NER=O
+10	konsumin	konsum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=42|end_char=50|NER=O
+11	energjisë	energji	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=51|end_char=60|NER=O
+12	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=61|end_char=64|NER=O
+13	burime	burim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=65|end_char=71|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=72|end_char=74|NER=O
+15	rinovueshme	rinovueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=75|end_char=86|SpacesAfter=\n|NER=O
+16	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=87|end_char=92|SpaceAfter=No|NER=B-VEND_0
+17	,	,	PUNCT	_	_	16	punct	_	start_char=93|end_char=94|NER=O
+18	26	26	NUM	_	NumType=Card	16	nummod	_	start_char=95|end_char=97|NER=B-DATE_0
+19	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	list	_	start_char=98|end_char=105|SpaceAfter=No|NER=I-DATE_0
+20	/	/	PUNCT	_	_	18	punct	_	start_char=106|end_char=107|SpaceAfter=No|NER=O
+21	ATSH	ATSH/Një	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=108|end_char=112|NER=O
+22	/	/	PUNCT	_	_	16	punct	_	start_char=113|end_char=114|NER=O
+23	Një	ATSH/Një	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=115|end_char=118|NER=O
+24	raport	rapor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=119|end_char=125|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=126|end_char=127|NER=O
+26	EUROSTAT	EUROSTA	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	start_char=128|end_char=136|NER=B-ORG
+27	mbi	mbi	ADP	_	Case=Acc	23	case	_	start_char=137|end_char=140|NER=O
+28	konsumin	konsum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=141|end_char=149|NER=O
+29	bruto	bruto	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=150|end_char=155|NER=O
+30	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=156|end_char=158|NER=O
+31	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=159|end_char=168|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	28	punct	_	start_char=169|end_char=170|NER=O
+33	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=171|end_char=173|NER=O
+34	gjenerohet	gjeneroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	23	acl	_	start_char=174|end_char=184|NER=O
+35	nga	nga	ADP	_	Case=Nom	31	case	_	start_char=185|end_char=188|NER=O
+36	burime	burim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	29	obl	_	start_char=189|end_char=195|NER=O
+37	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=196|end_char=198|NER=O
+38	rinovueshme	rinovueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=199|end_char=210|NER=O
+39	në	në	ADP	_	Case=Acc	35	case	_	start_char=211|end_char=213|NER=O
+40	kontinentin	kontinent	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=214|end_char=225|NER=O
+41	europian	europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=226|end_char=234|NER=O
+42	rendit	rend	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	appos	_	start_char=235|end_char=241|NER=O
+43	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	37	flat	_	start_char=242|end_char=252|NER=B-VEND_1
+44	në	në	ADP	_	Case=Acc	40	case	_	start_char=253|end_char=255|NER=O
+45	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	advmod	_	start_char=256|end_char=262|NER=O
+46	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det	_	start_char=263|end_char=264|NER=O
+47	3	3	NUM	_	NumType=Card	40	amod	_	start_char=265|end_char=266|SpaceAfter=No|NER=O
+48	-	-	PUNCT	_	_	40	punct	_	start_char=267|end_char=268|SpaceAfter=No|NER=O
+49	të	3-të	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	start_char=269|end_char=271|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	29	punct	_	start_char=272|end_char=273|SpacesAfter=\n|NER=O
+
+# text = Në raport evidentohet se konsumi bruto i energjisë , që gjenerohet nga burime të rinovueshme për vitin 2022 në Shqipëri rezultoi në 44 % Në vendin e parë renditet Suedia me 66 % .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	raport	rapor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=3|end_char=9|NER=O
+3	evidentohet	evidentoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=21|NER=O
+4	se	se	SCONJ	_	_	5	mark	_	start_char=22|end_char=24|NER=O
+5	konsumi	konsum	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=25|end_char=32|NER=O
+6	bruto	bruto	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=33|end_char=38|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=39|end_char=40|NER=O
+8	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=41|end_char=50|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=51|end_char=52|NER=O
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=53|end_char=55|NER=O
+11	gjenerohet	gjeneroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	acl:relcl	_	start_char=56|end_char=66|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=67|end_char=70|NER=O
+13	burime	burim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	start_char=71|end_char=77|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=78|end_char=80|NER=O
+15	rinovueshme	rinovueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=81|end_char=92|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=93|end_char=96|NER=O
+17	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=97|end_char=102|NER=B-DATE_0
+18	2022	2022	NUM	_	NumType=Card	17	amod:nummod	_	start_char=103|end_char=107|NER=I-DATE_0
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=108|end_char=110|NER=O
+20	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=111|end_char=119|NER=B-VEND_1
+21	rezultoi	rezultoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=120|end_char=128|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=129|end_char=131|NER=O
+23	44	44	NUM	_	NumType=Card	21	obl	_	start_char=132|end_char=134|SpaceAfter=No|NER=O
+24	%	%	SYM	_	_	23	flat	_	start_char=135|end_char=136|SpacesAfter=\n|NER=O
+25	Në	në	ADP	_	Case=Acc	2	case	_	start_char=137|end_char=139|NER=O
+26	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=140|end_char=146|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=147|end_char=148|NER=O
+28	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=149|end_char=153|NER=O
+29	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=154|end_char=162|NER=O
+30	Suedia	Suedi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=163|end_char=169|NER=B-VEND_1
+31	me	me	ADP	_	Case=Acc	9	case	_	start_char=170|end_char=172|NER=O
+32	66	66	NUM	_	NumType=Card	9	nummod	_	start_char=173|end_char=175|NER=O
+33	%	%	SYM	_	_	5	advmod	_	start_char=176|end_char=177|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	5	punct	_	start_char=178|end_char=179|NER=O
+
+# text = Në vendin e dytë renditet Finlanda me 47 .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=12|end_char=16|NER=O
+5	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=17|end_char=25|NER=O
+6	Finlanda	Finlandë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=26|end_char=34|NER=B-VEND_1
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=35|end_char=37|NER=O
+8	47	47	NUM	_	NumType=Card	9	nummod	_	start_char=38|end_char=40|NER=O
+9	.	.	PUNCT	_	_	9	punct	_	start_char=41|end_char=42|NER=O
+
+# text = 8 % duke u mbështetur gjithashtu në hidro , erë dhe biokarburantet e ngurta .
+# sent_id = 3
+1	8	8	NUM	_	NumType=Card	9	nummod	_	start_char=0|end_char=1|NER=O
+2	%	%	SYM	_	_	12	advmod	_	start_char=2|end_char=3|NER=O
+3	duke	duke	PART	_	_	12	fixed	_	start_char=4|end_char=8|NER=O
+4	u	u	PART	_	_	12	fixed	_	start_char=9|end_char=10|NER=O
+5	mbështetur	mbështetur	VERB	_	VerbForm=Part	5	advmod	_	start_char=11|end_char=21|NER=O
+6	gjithashtu	gjithashtu	ADV	_	AdvType=Man	12	advmod	_	start_char=22|end_char=32|NER=O
+7	në	në	ADP	_	Case=Acc	15	case	_	start_char=33|end_char=35|NER=O
+8	hidro	hidro	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=36|end_char=41|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	17	punct	_	start_char=42|end_char=43|NER=O
+10	erë	erë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=44|end_char=47|NER=O
+11	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=48|end_char=51|NER=O
+12	biokarburantet	biokarburant	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	conj	_	start_char=52|end_char=66|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=67|end_char=68|NER=O
+14	ngurta	ngurtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=69|end_char=75|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	5	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+
+# text = Rritja e burimeve të rinovueshme të energjisë mund të stimulojë gjithashtu punësimin në BE , përmes krijimit të vendeve të punës në teknologjitë e reja " të gjelbra " .
+# sent_id = 4
+1	Rritja	Rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	burimeve	burim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=9|end_char=17|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=18|end_char=20|NER=O
+5	rinovueshme	rinovueshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=21|end_char=32|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=33|end_char=35|NER=O
+7	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=36|end_char=45|NER=O
+8	mund	mund	AUX	_	_	10	aux	_	start_char=46|end_char=50|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=51|end_char=53|NER=O
+10	stimulojë	stimuloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=54|end_char=63|NER=O
+11	gjithashtu	gjithashtu	ADV	_	AdvType=Man	10	advmod	_	start_char=64|end_char=74|NER=O
+12	punësimin	punësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=75|end_char=84|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=85|end_char=87|NER=O
+14	BE	be	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=88|end_char=90|SpaceAfter=No|NER=B-ORG
+15	,	,	PUNCT	_	_	17	punct	_	start_char=91|end_char=92|NER=O
+16	përmes	përmes	ADP	_	Case=Abl	17	case	_	start_char=93|end_char=99|NER=O
+17	krijimit	krijim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=100|end_char=108|NER=O
+18	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=109|end_char=111|NER=O
+19	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=112|end_char=119|NER=O
+20	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=120|end_char=122|NER=O
+21	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=123|end_char=128|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=129|end_char=131|NER=O
+23	teknologjitë	teknologji	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=132|end_char=144|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=145|end_char=146|NER=O
+25	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=147|end_char=151|NER=O
+26	"	"	PUNCT	_	_	27	punct	_	start_char=152|end_char=153|NER=O
+27	të	ntë	NUM	_	NumType=Card	27	nummod	_	start_char=154|end_char=156|NER=O
+28	gjelbra	gjelbrë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	23	nmod	_	start_char=157|end_char=164|SpaceAfter=No|NER=O
+29	"	"	PUNCT	_	_	23	punct	_	start_char=165|end_char=166|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	10	punct	_	start_char=167|end_char=168|SpacesAfter=\n|NER=O
+

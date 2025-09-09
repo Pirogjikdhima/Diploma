@@ -1,0 +1,72 @@
+# text = 28 / 06 / 2022 Përfundimi i punimeve në rrugën Kardhiq - Delvinë do të shkurtojë për të gjithë , distancën drejt Sarandës .
+# sent_id = 0
+1	28	28	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	06	06	NUM	_	NumType=Card	11	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	13	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Përfundimi	përfundim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=15|end_char=25|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=26|end_char=27|NER=O
+8	punimeve	punim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=28|end_char=36|NER=O
+9	në	në	ADP	_	Case=Acc	5	case	_	start_char=37|end_char=39|NER=O
+10	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=40|end_char=46|NER=O
+11	Kardhiq	Kardhiq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=47|end_char=54|SpaceAfter=No|NER=O
+12	-	-	PUNCT	_	_	5	punct	_	start_char=55|end_char=56|SpaceAfter=No|NER=O
+13	Delvinë	delvinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=57|end_char=64|NER=O
+14	do	do	PART	_	_	10	fixed	_	start_char=65|end_char=67|NER=O
+15	të	të	PART	_	_	10	fixed	_	start_char=68|end_char=70|NER=O
+16	shkurtojë	shkurtoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=71|end_char=80|NER=O
+17	për	për	ADP	_	Case=Acc	13	case	_	start_char=81|end_char=84|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=85|end_char=87|NER=O
+19	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	obl	_	start_char=88|end_char=94|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	15	punct	_	start_char=95|end_char=96|NER=O
+21	distancën	distancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=97|end_char=106|NER=O
+22	drejt	drejt	ADP	_	Case=Abl	17	case	_	start_char=107|end_char=112|NER=O
+23	Sarandës	sarandë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=113|end_char=121|SpaceAfter=No|NER=B-VEND_0
+24	.	.	PUNCT	_	_	10	punct	_	start_char=122|end_char=123|NER=O
+
+# text = Punimet në këtë aks rrugor janë drejt fundit dhe banorët e parë po frekuentojnë kalimin edhe pse nuk lejohet .
+# sent_id = 1
+1	Punimet	punim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	start_char=0|end_char=7|NER=O
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=8|end_char=10|NER=O
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=11|end_char=15|NER=O
+4	aks	aks	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=19|NER=O
+5	rrugor	rrugor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=20|end_char=26|NER=O
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=31|NER=O
+7	drejt	drejt	ADP	_	Case=Abl	8	case	_	start_char=32|end_char=37|NER=O
+8	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	cop	_	start_char=38|end_char=44|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=45|end_char=48|NER=O
+10	banorët	banor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	conj	_	start_char=49|end_char=56|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=58|NER=O
+12	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=59|end_char=63|NER=O
+13	po	po	PART	_	_	14	mark	_	start_char=64|end_char=66|NER=O
+14	frekuentojnë	frekuentoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=67|end_char=79|NER=O
+15	kalimin	kalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=80|end_char=87|NER=O
+16	edhe	edhe	CCONJ	_	_	17	fixed	_	start_char=88|end_char=92|NER=O
+17	pse	pse	SCONJ	_	_	19	mark	_	start_char=93|end_char=96|NER=O
+18	nuk	nuk	PART	_	_	19	mark	_	start_char=97|end_char=100|NER=O
+19	lejohet	lejoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	advcl	_	start_char=101|end_char=108|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	6	punct	_	start_char=109|end_char=110|SpacesAfter=\n|NER=O
+
+# text = Duke nisur nga data 2 korrik parashikohet që ky aks të jetë i hapur për qarkullimin e automjeteve .
+# sent_id = 2
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=0|end_char=4|NER=O
+2	nisur	nis	VERB	_	VerbForm=Part	7	advmod	_	start_char=5|end_char=10|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=11|end_char=14|NER=O
+4	data	datë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=15|end_char=19|NER=O
+5	2	2	NUM	_	NumType=Card	6	nummod	_	start_char=20|end_char=21|NER=B-DATE_0
+6	korrik	korrik	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=22|end_char=28|NER=I-DATE_0
+7	parashikohet	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=29|end_char=41|NER=O
+8	që	që	SCONJ	_	_	12	mark	_	start_char=42|end_char=44|NER=O
+9	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=45|end_char=47|NER=O
+10	aks	aks	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	start_char=48|end_char=51|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=52|end_char=54|NER=O
+12	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	start_char=55|end_char=59|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=60|end_char=61|NER=O
+14	hapur	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	cop	_	start_char=62|end_char=67|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=68|end_char=71|NER=O
+16	qarkullimin	qarkullim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=72|end_char=83|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=84|end_char=85|NER=O
+18	automjeteve	automjet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=86|end_char=97|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	7	punct	_	start_char=98|end_char=99|SpacesAfter=\n\n|NER=O
+

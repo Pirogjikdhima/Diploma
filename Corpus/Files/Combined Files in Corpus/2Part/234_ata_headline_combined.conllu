@@ -1,0 +1,109 @@
+# text = AXHENDA NDËRKOMBËTARE 28 / 12 / 2023 ROMË ( Itali ) – Konferenca për shtyp e fundvitit e kryeministres , Giorgia Meloni .
+# sent_id = 0
+1	AXHENDA	AXHEND	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	NDËRKOMBËTARE	NDËRKOMBËTR	PROPN	_	Case=Nom|Foreign=Yes	1	flat	_	start_char=8|end_char=21|NER=O
+3	28	28	NUM	_	NumType=Card	4	nummod	_	start_char=22|end_char=24|SpaceAfter=No|NER=B-DATE_0
+4	/	/	PUNCT	_	_	1	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=I-DATE_0
+5	12	12	NUM	_	NumType=Card	1	nmod	_	start_char=27|end_char=29|SpaceAfter=No|NER=I-DATE_0
+6	/	/	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|SpacesAfter=\n|NER=I-DATE_0
+7	2023	2023	NUM	_	NumType=Card	4	flat	_	start_char=32|end_char=36|SpacesAfter=\n|NER=I-DATE_0
+8	ROMË	ROMË	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=37|end_char=41|NER=B-VEND_0
+9	(	(	PUNCT	_	_	8	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+10	Itali	Itali	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	list	_	start_char=44|end_char=49|SpaceAfter=No|NER=B-VEND_1
+11	)	)	PUNCT	_	_	8	punct	_	start_char=50|end_char=51|NER=O
+12	–	–	PUNCT	_	_	11	punct	_	start_char=52|end_char=53|NER=O
+13	Konferenca	Konferencë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	list	_	start_char=54|end_char=64|NER=O
+14	për	për	ADP	_	Case=Acc	13	case	_	start_char=65|end_char=68|NER=O
+15	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=69|end_char=74|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=75|end_char=76|NER=O
+17	fundvitit	fundvit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=77|end_char=86|NER=O
+18	e	e	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=87|end_char=88|NER=O
+19	kryeministres	kryeministre	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=89|end_char=102|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=103|end_char=104|NER=O
+21	Giorgia	Giorgi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	appos	_	start_char=105|end_char=112|NER=B-PER
+22	Meloni	Melon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=113|end_char=119|SpaceAfter=No|NER=I-PER
+23	.	.	PUNCT	_	_	11	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+
+# text = PARIS ( Francë ) – 50 - vjetori i botimit të " Arkipalagu Gulag " nga Aleksander Solzhenicin .
+# sent_id = 1
+1	PARIS	paris	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No|NER=O
+3	Francë	Francë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	appos	_	start_char=8|end_char=14|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	6	punct	_	start_char=15|end_char=16|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=17|end_char=18|NER=O
+6	50	50	NUM	_	NumType=Card	3	list	_	start_char=19|end_char=21|NER=O
+7	-	-	PUNCT	_	_	3	punct	_	start_char=22|end_char=23|NER=O
+8	vjetori	50-vjetor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	list	_	start_char=24|end_char=31|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=33|NER=O
+10	botimit	botim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=34|end_char=41|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=42|end_char=44|NER=O
+12	"	"	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=O
+13	Arkipalagu	Arkipalag	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=47|end_char=57|NER=O
+14	Gulag	Gulag	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=58|end_char=63|NER=O
+15	"	"	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|NER=O
+16	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=66|end_char=69|NER=O
+17	Aleksander	Aleksander	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=70|end_char=80|NER=B-PER
+18	Solzhenicin	solzhenic	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=81|end_char=92|SpaceAfter=No|NER=I-PER
+19	.	.	PUNCT	_	_	3	punct	_	start_char=93|end_char=94|SpacesAfter=\n|NER=O
+
+# text = PEKIN ( Kinë ) – Konferenca mujore për shtyp e Ministrisë së Mbrojtjes .
+# sent_id = 2
+1	PEKIN	PEKIN	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No|NER=O
+3	Kinë	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=8|end_char=12|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	6	punct	_	start_char=13|end_char=14|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=15|end_char=16|NER=O
+6	Konferenca	Konferencë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	list	_	start_char=17|end_char=27|NER=O
+7	mujore	mujor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=28|end_char=34|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=38|NER=O
+9	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=39|end_char=44|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=45|end_char=46|NER=O
+11	Ministrisë	ministri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=47|end_char=57|NER=B-ORG
+12	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=58|end_char=60|NER=I-ORG
+13	Mbrojtjes	mbrojtje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=61|end_char=70|SpaceAfter=No|NER=I-ORG
+14	.	.	PUNCT	_	_	3	punct	_	start_char=71|end_char=72|SpacesAfter=\n|NER=O
+
+# text = ÇAD – Shpallja e rezultateve përfundimtare të referendumit kushtetues .
+# sent_id = 3
+1	ÇAD	ÇAD	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=3|NER=B-VEND_1
+2	–	–	PUNCT	_	_	3	punct	_	start_char=4|end_char=5|NER=O
+3	Shpallja	shpallje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=14|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=16|NER=O
+5	rezultateve	rezultat	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=17|end_char=28|NER=O
+6	përfundimtare	përfundimtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=29|end_char=42|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=43|end_char=45|NER=O
+8	referendumit	referendum	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=46|end_char=58|NER=O
+9	kushtetues	kushtetues	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=59|end_char=69|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	2	punct	_	start_char=70|end_char=71|SpacesAfter=\n|NER=O
+
+# text = LONDËR ( Mbretëria e Bashkuar ) – Futboll – Kampionati anglez – Arsenal - West Ham .
+# sent_id = 4
+1	LONDËR	LONDËR	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No|NER=O
+3	Mbretëria	mbretëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=9|end_char=18|NER=B-VEND_1
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=I-VEND_1
+5	Bashkuar	Bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=21|end_char=29|SpaceAfter=No|NER=I-VEND_1
+6	)	)	PUNCT	_	_	3	punct	_	start_char=30|end_char=31|NER=O
+7	–	–	PUNCT	_	_	8	punct	_	start_char=32|end_char=33|NER=O
+8	Futboll	Futboll	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=34|end_char=41|NER=O
+9	–	–	PUNCT	_	_	10	punct	_	start_char=42|end_char=43|NER=O
+10	Kampionati	Kampionat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	list	_	start_char=44|end_char=54|NER=B-EVENT
+11	anglez	anglez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=55|end_char=61|NER=I-EVENT
+12	–	–	PUNCT	_	_	13	punct	_	start_char=62|end_char=63|NER=O
+13	Arsenal	Arsenal-WWes	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	list	_	start_char=64|end_char=71|NER=O
+14	-	-	PUNCT	_	_	10	punct	_	start_char=72|end_char=73|NER=O
+15	West	Arsenal-WWes	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	list	_	start_char=74|end_char=78|NER=O
+16	Ham	Ham	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=79|end_char=82|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	13	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+
+# text = / a .
+# sent_id = 5
+1	/	/	PUNCT	_	_	16	punct	_	start_char=0|end_char=1|NER=O
+2	a	a.jor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	list	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	13	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = jor .
+# sent_id = 6
+1	jor	a.jor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	list	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	3	punct	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+

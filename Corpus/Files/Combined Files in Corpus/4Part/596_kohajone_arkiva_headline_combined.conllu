@@ -1,0 +1,49 @@
+# text = Një ushtar rus do ta mbajë mend gjatë episodin e të martës .
+# sent_id = 0
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	ushtar	ushtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	start_char=4|end_char=10|NER=O
+3	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=11|end_char=14|NER=O
+4	do	do	PART	_	_	7	fixed	_	start_char=15|end_char=17|NER=O
+5	ta	_	_	_	_	_	_	_	start_char=18|end_char=20|NER=O
+6	mbajë	mbaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=26|NER=O
+7	mend	mend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=27|end_char=31|NER=O
+8	gjatë	gjatë	ADP	_	Case=Abl	10	case	_	start_char=32|end_char=37|NER=O
+9	episodin	episod	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=38|end_char=46|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=47|end_char=48|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=49|end_char=51|NER=B-DATE_1
+12	martës	martë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=52|end_char=58|SpaceAfter=No|NER=I-DATE_1
+13	.	.	PUNCT	_	_	7	punct	_	start_char=59|end_char=60|SpacesAfter=\n|NER=O
+
+# text = Parashutisti sapo kishte dalë nga një helikopter Mil Mil - 8 Hip në 6 , 500 metra lartësi mbi një fushë ushtarake në fshatin Kashtak pranë qytetit të Chita .
+# sent_id = 1
+1	Parashutisti	parashutist	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=12|NER=O
+2	sapo	sapo	ADV	_	AdvType=Tim	4	advmod	_	start_char=13|end_char=17|NER=O
+3	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	4	aux	_	start_char=18|end_char=24|NER=O
+4	dalë	dal	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=29|NER=O
+5	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=30|end_char=33|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=34|end_char=37|NER=O
+7	helikopter	helikopter	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=38|end_char=48|NER=O
+8	Mil	mil	X	_	_	7	nummod	_	start_char=49|end_char=52|NER=O
+9	Mil	mil	X	_	_	7	nummod	_	start_char=53|end_char=56|NER=O
+10	-	-	PUNCT	_	_	7	punct	_	start_char=57|end_char=58|NER=O
+11	8	8	NUM	_	NumType=Card	7	nmod	_	start_char=59|end_char=60|NER=O
+12	Hip	Hip	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=61|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	12	case	_	start_char=65|end_char=67|NER=O
+14	6	6	NUM	_	NumType=Card	7	nmod	_	start_char=68|end_char=69|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	7	punct	_	start_char=70|end_char=71|SpaceAfter=No|NER=O
+16	500	500	NUM	_	NumType=Card	14	nummod	_	start_char=72|end_char=75|NER=O
+17	metra	metër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	start_char=76|end_char=81|NER=O
+18	lartësi	lartësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=82|end_char=89|NER=O
+19	mbi	mbi	ADP	_	Case=Acc	18	case	_	start_char=90|end_char=93|NER=O
+20	një	një	DET	_	Definite=Ind	18	det	_	start_char=94|end_char=97|NER=O
+21	fushë	fushë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=98|end_char=103|NER=O
+22	ushtarake	ushtarak	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=104|end_char=113|NER=O
+23	në	në	ADP	_	Case=Acc	21	case	_	start_char=114|end_char=116|NER=O
+24	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=117|end_char=124|NER=O
+25	Kashtak	Kashtak	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	start_char=125|end_char=132|NER=O
+26	pranë	pranë	ADP	_	Case=Abl	24	case	_	start_char=133|end_char=138|NER=O
+27	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=139|end_char=146|NER=O
+28	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=147|end_char=149|NER=O
+29	Chita	Chitë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=150|end_char=155|SpaceAfter=No|NER=B-VEND_0
+30	.	.	PUNCT	_	_	4	punct	_	start_char=156|end_char=157|SpacesAfter=\n|NER=O
+

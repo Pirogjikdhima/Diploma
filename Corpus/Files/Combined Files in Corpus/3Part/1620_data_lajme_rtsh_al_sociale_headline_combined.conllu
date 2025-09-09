@@ -1,0 +1,208 @@
+# text = Vendi ynë vijon të paraqitet me një situatë të qëndrueshme , sa i përket Covid - 19 .
+# sent_id = 0
+1	Vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=0|end_char=5|NER=O
+2	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	appos	_	start_char=6|end_char=9|NER=O
+3	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	acl	_	start_char=10|end_char=15|NER=O
+4	të	të	PART	_	_	29	fixed	_	start_char=16|end_char=18|NER=O
+5	paraqitet	paraqit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	27	ccomp	_	start_char=19|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	32	case	_	start_char=29|end_char=31|NER=O
+7	një	një	DET	_	Definite=Ind	32	det	_	start_char=32|end_char=35|NER=O
+8	situatë	situatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obl	_	start_char=36|end_char=43|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=44|end_char=46|NER=O
+10	qëndrueshme	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=47|end_char=58|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	36	punct	_	start_char=59|end_char=60|NER=O
+12	sa	sa	SCONJ	_	_	38	mark	_	start_char=61|end_char=63|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	38	fixed	_	start_char=64|end_char=65|NER=O
+14	përket	përkas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	advcl	_	start_char=66|end_char=72|NER=O
+15	Covid	Covid-19	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	obj	_	start_char=73|end_char=78|SpaceAfter=No|NER=O
+16	-	-	PUNCT	_	_	38	punct	_	start_char=79|end_char=80|SpaceAfter=No|NER=O
+17	19	19	NUM	_	NumType=Card	38	obj	_	start_char=81|end_char=83|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	29	punct	_	start_char=84|end_char=85|NER=O
+
+# text = Ministria e Shëndetësisë , ka publikuar sot të dhënat më të fundit , në lidhje me situatën me Covid - 19 në vend , ku , sipas saj , nga 336 testime të kryera , ka rezultuar pozitiv vetëm një qytetar .
+# sent_id = 1
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=9|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=I-ORG
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|SpaceAfter=No|NER=I-ORG
+4	,	,	PUNCT	_	_	6	punct	_	start_char=25|end_char=26|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=27|end_char=29|NER=O
+6	publikuar	publikoj	VERB	_	VerbForm=Part	0	root	_	start_char=30|end_char=39|NER=O
+7	sot	sot	ADV	_	AdvType=Tim	6	advmod	_	start_char=40|end_char=43|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=44|end_char=46|NER=O
+9	dhënat	dhënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=47|end_char=53|NER=O
+10	më	më	PART	_	_	12	mark	_	start_char=54|end_char=56|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=59|NER=O
+12	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=60|end_char=66|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=67|end_char=68|NER=O
+14	në	në	ADP	_	Case=Acc	17	case	_	start_char=69|end_char=71|NER=O
+15	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	case	_	start_char=72|end_char=78|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=79|end_char=81|NER=O
+17	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=82|end_char=90|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=91|end_char=93|NER=O
+19	Covid	Covid-19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=94|end_char=99|NER=O
+20	-	-	PUNCT	_	_	17	punct	_	start_char=100|end_char=101|NER=O
+21	19	19	NUM	_	NumType=Card	17	nmod	_	start_char=102|end_char=104|NER=O
+22	në	në	ADP	_	Case=Acc	21	case	_	start_char=105|end_char=107|NER=O
+23	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=108|end_char=112|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	23	punct	_	start_char=113|end_char=114|NER=O
+25	ku	ku	ADV	_	AdvType=Loc	21	advmod	_	start_char=115|end_char=117|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	26	punct	_	start_char=118|end_char=119|NER=O
+27	sipas	sipas	ADP	_	Case=Abl	26	case	_	start_char=120|end_char=125|NER=O
+28	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	fixed	_	start_char=126|end_char=129|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	30	punct	_	start_char=130|end_char=131|NER=O
+30	nga	nga	ADP	_	Case=Nom	30	case	_	start_char=132|end_char=135|NER=O
+31	336	336	NUM	_	NumType=Card	30	nummod	_	start_char=136|end_char=139|NER=O
+32	testime	testim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	35	advmod	_	start_char=140|end_char=147|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=148|end_char=150|NER=O
+34	kryera	kryer	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=151|end_char=157|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	30	punct	_	start_char=158|end_char=159|NER=O
+36	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=160|end_char=162|NER=O
+37	rezultuar	rezultoj	VERB	_	VerbForm=Part	6	conj	_	start_char=163|end_char=172|NER=O
+38	pozitiv	pozit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	35	obj	_	start_char=173|end_char=180|NER=O
+39	vetëm	vetëm	PART	_	_	39	mark	_	start_char=181|end_char=186|NER=O
+40	një	një	DET	_	Definite=Ind	39	det	_	start_char=187|end_char=190|NER=O
+41	qytetar	qytetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	nmod	_	start_char=191|end_char=198|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	35	punct	_	start_char=199|end_char=200|SpacesAfter=\n|NER=O
+
+# text = " Ju informojmë për situatën e Covid19 në 24 orët e fundit : Janë kryer 336 testime , nga të cilët 1 qytetar ka rezultuar pozitiv me COVID19 në Bashkinë Tiranë .
+# sent_id = 2
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ju	Ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	fixed	_	start_char=2|end_char=4|NER=O
+3	informojmë	informoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=15|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=19|NER=O
+5	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=20|end_char=28|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=29|end_char=30|NER=O
+7	Covid19	Covid19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=31|end_char=38|NER=O
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=41|NER=O
+9	24	24	NUM	_	NumType=Card	10	nummod	_	start_char=42|end_char=44|NER=O
+10	orët	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=45|end_char=49|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=50|end_char=51|NER=O
+12	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=52|end_char=58|SpaceAfter=No|NER=O
+13	:	:	PUNCT	_	_	3	punct	_	start_char=59|end_char=60|NER=O
+14	Janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=61|end_char=65|NER=O
+15	kryer	kryej	VERB	_	VerbForm=Part	0	root	_	start_char=66|end_char=71|NER=O
+16	336	336	NUM	_	NumType=Card	4	nummod	_	start_char=72|end_char=75|NER=O
+17	testime	testim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=76|end_char=83|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	8	punct	_	start_char=84|end_char=85|NER=O
+19	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=86|end_char=89|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=90|end_char=92|NER=O
+21	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	obl	_	start_char=93|end_char=98|NER=O
+22	1	1	NUM	_	NumType=Card	10	nummod	_	start_char=99|end_char=100|NER=O
+23	qytetar	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	start_char=101|end_char=108|NER=O
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=109|end_char=111|NER=O
+25	rezultuar	rezultoj	VERB	_	VerbForm=Part	2	conj	_	start_char=112|end_char=121|NER=O
+26	pozitiv	pozit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=122|end_char=129|NER=O
+27	me	me	ADP	_	Case=Acc	15	case	_	start_char=130|end_char=132|NER=O
+28	COVID19	COVID19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=133|end_char=140|NER=O
+29	në	në	ADP	_	Case=Acc	17	case	_	start_char=141|end_char=143|NER=O
+30	Bashkinë	Bashkinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=144|end_char=152|NER=O
+31	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	flat	_	start_char=153|end_char=159|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	12	punct	_	start_char=160|end_char=161|NER=O
+
+# text = Janë 112 qytetarë aktivë me Covid19 në të gjithë vendin .
+# sent_id = 3
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	112	112	NUM	_	NumType=Card	3	nummod	_	start_char=5|end_char=8|NER=O
+3	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	cop	_	start_char=9|end_char=17|NER=O
+4	aktivë	aktivë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=18|end_char=24|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=25|end_char=27|NER=O
+6	Covid19	Covid19	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=28|end_char=35|NER=O
+7	në	në	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=38|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=39|end_char=41|NER=O
+9	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=42|end_char=48|NER=O
+10	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=49|end_char=55|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	1	punct	_	start_char=56|end_char=57|NER=O
+
+# text = Aktualisht në Spitalin Infektiv po marrin trajtim 1 pacient .
+# sent_id = 4
+1	Aktualisht	aktualisht	ADV	_	AdvType=Man	6	advmod	_	start_char=0|end_char=10|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13|NER=O
+3	Spitalin	Spital	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=14|end_char=22|NER=O
+4	Infektiv	Infekt	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	flat	_	start_char=23|end_char=31|NER=O
+5	po	po	PART	_	_	6	mark	_	start_char=32|end_char=34|NER=O
+6	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=35|end_char=41|NER=O
+7	trajtim	trajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=42|end_char=49|NER=O
+8	1	1	NUM	_	NumType=Card	9	nummod	_	start_char=50|end_char=51|NER=O
+9	pacient	pacien	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=52|end_char=59|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	6	punct	_	start_char=60|end_char=61|NER=O
+
+# text = Në 24 orët e fundit nuk ka asnjë humbje jete me SarsCov2 .
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	24	24	NUM	_	NumType=Card	3	nummod	_	start_char=3|end_char=5|NER=O
+3	orët	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=6|end_char=10|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=11|end_char=12|NER=O
+5	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=13|end_char=19|NER=O
+6	nuk	nuk	PART	_	_	7	mark	_	start_char=20|end_char=23|NER=O
+7	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=26|NER=O
+8	asnjë	asnjë	PRON	_	PronType=Ind	9	nummod	_	start_char=27|end_char=32|NER=O
+9	humbje	humbje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=33|end_char=39|NER=O
+10	jete	jetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=40|end_char=44|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=45|end_char=47|NER=O
+12	SarsCov2	SarsCov2	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=48|end_char=56|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	7	punct	_	start_char=57|end_char=58|NER=O
+
+# text = Janë shëruar 19 qytetarë gjatë 24 orëve të fundit , duke e çuar numrin e të shëruarve në 329 , 562 që nga fillimi i epidemisë .
+# sent_id = 6
+1	Janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	shëruar	shëroj	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=12|NER=O
+3	19	19	NUM	_	NumType=Card	4	nummod	_	start_char=13|end_char=15|NER=O
+4	qytetarë	qytetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=16|end_char=24|NER=O
+5	gjatë	gjatë	ADP	_	Case=Abl	7	case	_	start_char=25|end_char=30|NER=O
+6	24	24	NUM	_	NumType=Card	7	nummod	_	start_char=31|end_char=33|NER=O
+7	orëve	orë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	2	advmod	_	start_char=34|end_char=39|NER=O
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=40|end_char=42|NER=O
+9	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=43|end_char=49|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	13	punct	_	start_char=50|end_char=51|NER=O
+11	duke	duke	PART	_	_	13	fixed	_	start_char=52|end_char=56|NER=O
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=57|end_char=58|NER=O
+13	çuar	çoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=59|end_char=63|NER=O
+14	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=64|end_char=70|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=71|end_char=72|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=73|end_char=75|NER=O
+17	shëruarve	shëruar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=76|end_char=85|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=86|end_char=88|NER=O
+19	329	329	NUM	_	NumType=Card	17	nummod	_	start_char=89|end_char=92|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=93|end_char=94|SpaceAfter=No|NER=O
+21	562	562	NUM	_	NumType=Card	17	advmod	_	start_char=95|end_char=98|NER=O
+22	që	që	PART	_	_	24	mark	_	start_char=99|end_char=101|NER=O
+23	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=102|end_char=105|NER=O
+24	fillimi	fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=106|end_char=113|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=114|end_char=115|NER=O
+26	epidemisë	epidemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=116|end_char=125|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	2	punct	_	start_char=126|end_char=127|SpaceAfter=No|NER=O
+
+# text = " - thuhet në njoftimin e MSHMS .
+# sent_id = 7
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|NER=O
+2	-	-	PUNCT	_	_	2	punct	_	start_char=2|end_char=3|NER=O
+3	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4|end_char=10|NER=O
+4	në	në	ADP	_	Case=Acc	4	case	_	start_char=11|end_char=13|NER=O
+5	njoftimin	njoftim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=14|end_char=23|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=24|end_char=25|NER=O
+7	MSHMS	MSHMS	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=26|end_char=31|SpaceAfter=No|NER=B-ORG
+8	.	.	PUNCT	_	_	2	punct	_	start_char=32|end_char=33|SpacesAfter=\n|NER=O
+
+# text = Statistika ( 4 Shkurt 2023 ) Tiranë 93 Fier 9 Vlorë 3 Berat 3 Durrës 2 Elbasan 2 Lezhë 1
+# sent_id = 8
+1	Statistika	statistikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=10|NER=O
+2	(	(	PUNCT	_	_	4	punct	_	start_char=11|end_char=12|NER=O
+3	4	4	NUM	_	NumType=Card	4	nummod	_	start_char=13|end_char=14|NER=B-DATE_0
+4	Shkurt	Shkurt	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=21|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	4	amod:nummod	_	start_char=22|end_char=26|SpaceAfter=No|NER=I-DATE_0
+6	)	)	PUNCT	_	_	1	punct	_	start_char=27|end_char=28|SpacesAfter=\n|NER=O
+7	Tiranë	Tiranë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=29|end_char=35|NER=B-VEND_0
+8	93	93	NUM	_	NumType=Card	3	nummod	_	start_char=36|end_char=38|NER=O
+9	Fier	Fier	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=39|end_char=43|NER=B-VEND_0
+10	9	9	NUM	_	NumType=Card	5	nummod	_	start_char=44|end_char=45|NER=O
+11	Vlorë	Vlorë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	compound	_	start_char=46|end_char=51|NER=B-VEND_0
+12	3	3	NUM	_	NumType=Card	5	flat	_	start_char=52|end_char=53|NER=O
+13	Berat	Berat	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	start_char=54|end_char=59|NER=B-VEND_0
+14	3	3	NUM	_	NumType=Card	7	flat	_	start_char=60|end_char=61|NER=O
+15	Durrës	Durrë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	compound	_	start_char=62|end_char=68|NER=B-VEND_0
+16	2	2	NUM	_	NumType=Card	11	nummod	_	start_char=69|end_char=70|NER=O
+17	Elbasan	Elbasan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	compound	_	start_char=71|end_char=78|NER=B-VEND_0
+18	2	2	NUM	_	NumType=Card	13	flat	_	start_char=79|end_char=80|NER=O
+19	Lezhë	Lezhë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	compound	_	start_char=81|end_char=86|NER=B-VEND_0
+20	1	1	NUM	_	NumType=Card	15	nummod	_	start_char=87|end_char=88|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,60 @@
+# text = 23 / 04 / 2022 Artizanati dhe tradita e punimit të enëve prej balte janë bërë pjesë e një panairi në qytetin e Korçës .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	04	04	NUM	_	NumType=Card	13	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	13	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Artizanati	Artizanat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	start_char=15|end_char=25|NER=O
+7	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=26|end_char=29|NER=O
+8	tradita	traditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	start_char=30|end_char=37|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=38|end_char=39|NER=O
+10	punimit	punim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=40|end_char=47|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=48|end_char=50|NER=O
+12	enëve	enë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=51|end_char=56|NER=O
+13	prej	prej	ADP	_	Case=Abl	26	case	_	start_char=57|end_char=61|NER=O
+14	balte	balt	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	28	advmod	_	start_char=62|end_char=67|NER=O
+15	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=68|end_char=72|NER=O
+16	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=73|end_char=77|NER=O
+17	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	start_char=78|end_char=83|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=84|end_char=85|NER=O
+19	një	një	DET	_	Definite=Ind	32	det	_	start_char=86|end_char=89|NER=O
+20	panairi	panair	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=90|end_char=97|NER=O
+21	në	në	ADP	_	Case=Acc	34	case	_	start_char=98|end_char=100|NER=O
+22	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	advmod	_	start_char=101|end_char=108|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=109|end_char=110|NER=O
+24	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=111|end_char=117|SpaceAfter=No|NER=B-VEND_0
+25	.	.	PUNCT	_	_	28	punct	_	start_char=118|end_char=119|NER=O
+
+# text = Përtej simbolikës dhe nxitjes së artizanatit me prezantimin e objekteve të ndryshme , ky panair përkon me festën e Pashkës Ortodokse , që festohet masivisht në këtë qytet .
+# sent_id = 1
+1	Përtej	përtej	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=6|NER=O
+2	simbolikës	simbolikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=7|end_char=17|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=18|end_char=21|NER=O
+4	nxitjes	nxitje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=22|end_char=29|NER=O
+5	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=30|end_char=32|NER=O
+6	artizanatit	artizanat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=33|end_char=44|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=45|end_char=47|NER=O
+8	prezantimin	prezantim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=48|end_char=59|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=60|end_char=61|NER=O
+10	objekteve	objekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=62|end_char=71|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=72|end_char=74|NER=O
+12	ndryshme	ndryshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=75|end_char=83|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	16	punct	_	start_char=84|end_char=85|NER=O
+14	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=86|end_char=88|NER=O
+15	panair	panair	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nsubj	_	start_char=89|end_char=95|NER=O
+16	përkon	përkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=96|end_char=102|NER=O
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=103|end_char=105|NER=O
+18	festën	festë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=106|end_char=112|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=113|end_char=114|NER=O
+20	Pashkës	pashkë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=115|end_char=122|NER=O
+21	Ortodokse	Ortodoks	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=123|end_char=132|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=133|end_char=134|NER=O
+23	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=135|end_char=137|NER=O
+24	festohet	festoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	acl	_	start_char=138|end_char=146|NER=O
+25	masivisht	masivisht	ADV	_	AdvType=Man	24	advmod	_	start_char=147|end_char=156|NER=O
+26	në	në	ADP	_	Case=Acc	28	case	_	start_char=157|end_char=159|NER=O
+27	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=160|end_char=164|NER=O
+28	qytet	qytet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	start_char=165|end_char=170|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	24	punct	_	start_char=171|end_char=172|SpacesAfter=\n|NER=O
+

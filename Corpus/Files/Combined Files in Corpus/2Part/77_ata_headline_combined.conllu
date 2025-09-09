@@ -1,0 +1,266 @@
+# text = Rama : Përfundojnë 10 .
+# sent_id = 0
+1	Rama	damë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=5|end_char=6|NER=O
+3	Përfundojnë	përfundoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=18|NER=O
+4	10	10	NUM	_	NumType=Card	3	nummod	_	start_char=19|end_char=21|NER=O
+5	.	.	PUNCT	_	_	3	punct	_	start_char=22|end_char=23|NER=O
+
+# text = 5 kilometra në Lotin 2 të rrugës Qukës - Qafë Plloçë TIRAN , 30 dhjetor / ATSH / Rruga Qukës - Qafë Plloçë nxit zhvillimin e turizmit në zonën e Pogradecit dhe Korçës , si dhe shkurton ndjeshëm distancën me Tiranën .
+# sent_id = 1
+1	5	5	NUM	_	NumType=Card	3	nummod	_	start_char=0|end_char=1|NER=O
+2	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	start_char=2|end_char=11|NER=O
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=14|NER=O
+4	Lotin	Lot	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=15|end_char=20|NER=O
+5	2	2	NUM	_	NumType=Card	5	flat	_	start_char=21|end_char=22|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=23|end_char=25|NER=O
+7	rrugës	rrugë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=26|end_char=32|NER=B-RRUGE
+8	Qukës	Qukës	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=33|end_char=38|SpaceAfter=No|NER=I-RRUGE
+9	-	-	PUNCT	_	_	8	punct	_	start_char=39|end_char=40|SpaceAfter=No|NER=I-RRUGE
+10	Qafë	Qafë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	appos	_	start_char=41|end_char=45|NER=I-RRUGE
+11	Plloçë	Plloçë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	flat	_	start_char=46|end_char=52|SpacesAfter=\n|NER=I-RRUGE
+12	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=53|end_char=58|SpaceAfter=No|NER=B-VEND_0
+13	,	,	PUNCT	_	_	16	punct	_	start_char=59|end_char=60|NER=O
+14	30	30	NUM	_	NumType=Card	16	nummod	_	start_char=61|end_char=63|NER=B-DATE_0
+15	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=64|end_char=71|SpaceAfter=No|NER=I-DATE_0
+16	/	/	PUNCT	_	_	18	punct	_	start_char=72|end_char=73|SpaceAfter=No|NER=O
+17	ATSH	ATSH	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	start_char=74|end_char=78|NER=O
+18	/	/	PUNCT	_	_	16	punct	_	start_char=79|end_char=80|NER=O
+19	Rruga	rrugë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	flat	_	start_char=81|end_char=86|NER=B-RRUGE
+20	Qukës	Qukës	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=87|end_char=92|SpaceAfter=No|NER=I-RRUGE
+21	-	-	PUNCT	_	_	18	punct	_	start_char=93|end_char=94|SpaceAfter=No|NER=I-RRUGE
+22	Qafë	Qafë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	flat	_	start_char=95|end_char=99|NER=I-RRUGE
+23	Plloçë	Plloçë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	flat	_	start_char=100|end_char=106|NER=I-RRUGE
+24	nxit	nxem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=107|end_char=111|NER=O
+25	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=112|end_char=122|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=123|end_char=124|NER=O
+27	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=125|end_char=133|NER=O
+28	në	në	ADP	_	Case=Acc	28	case	_	start_char=134|end_char=136|NER=O
+29	zonën	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=137|end_char=142|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=143|end_char=144|NER=O
+31	Pogradecit	pogradec	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=145|end_char=155|NER=B-VEND_0
+32	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=156|end_char=159|NER=O
+33	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	conj	_	start_char=160|end_char=166|SpaceAfter=No|NER=B-VEND_0
+34	,	,	PUNCT	_	_	34	punct	_	start_char=167|end_char=168|NER=O
+35	si	si	SCONJ	_	_	36	mark	_	start_char=169|end_char=171|NER=O
+36	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=172|end_char=175|NER=O
+37	shkurton	shkurtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	conj	_	start_char=176|end_char=184|NER=O
+38	ndjeshëm	ndjeshëm	ADV	_	AdvType=Man	36	advmod	_	start_char=185|end_char=193|NER=O
+39	distancën	distancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	obj	_	start_char=194|end_char=203|NER=O
+40	me	me	ADP	_	Case=Acc	40	case	_	start_char=204|end_char=206|NER=O
+41	Tiranën	Tiranë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	obl	_	start_char=207|end_char=214|SpaceAfter=No|NER=B-VEND_0
+42	.	.	PUNCT	_	_	36	punct	_	start_char=215|end_char=216|SpacesAfter=\n|NER=O
+
+# text = Kryeministri Edi Rama ndau sot në rrjetet sociale pamje nga ky kantier , ku aktualisht kanë përfunduar 10 .
+# sent_id = 2
+1	Kryeministri	Kryeministri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=12|NER=O
+2	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=13|end_char=16|NER=B-PER
+3	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=17|end_char=21|NER=I-PER
+4	ndau	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=22|end_char=26|NER=O
+5	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=27|end_char=30|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=31|end_char=33|NER=O
+7	rrjetet	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=34|end_char=41|NER=O
+8	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=42|end_char=49|NER=O
+9	pamje	pamje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=50|end_char=55|NER=O
+10	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=56|end_char=59|NER=O
+11	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=60|end_char=62|NER=O
+12	kantier	kantier	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=63|end_char=70|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=71|end_char=72|NER=O
+14	ku	ku	ADV	_	AdvType=Loc	17	advmod	_	start_char=73|end_char=75|NER=O
+15	aktualisht	aktualisht	ADV	_	AdvType=Man	17	advmod	_	start_char=76|end_char=86|NER=O
+16	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=87|end_char=91|NER=O
+17	përfunduar	përfundoj	VERB	_	VerbForm=Part	4	advcl	_	start_char=92|end_char=102|NER=O
+18	10	10	NUM	_	NumType=Card	19	nummod	_	start_char=103|end_char=105|NER=O
+19	.	.	PUNCT	_	_	19	punct	_	start_char=106|end_char=107|NER=O
+
+# text = 5 kilometra në Lotin 2 .
+# sent_id = 3
+1	5	5	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=1|NER=O
+2	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	start_char=2|end_char=11|NER=O
+3	në	në	ADP	_	Case=Acc	21	case	_	start_char=12|end_char=14|NER=O
+4	Lotin	Lot	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=15|end_char=20|NER=O
+5	2	2	NUM	_	NumType=Card	21	flat	_	start_char=21|end_char=22|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	17	punct	_	start_char=23|end_char=24|SpacesAfter=\n|NER=O
+
+# text = Rama u shpreh se ky segment është plotësuar me të gjitha parametrat e sigurisë rrugore me sinjalistikë vertikale / horizontale , guardreil dhe bankina .
+# sent_id = 4
+1	Rama	damë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=4|NER=B-PER
+2	u	u	PART	_	_	3	fixed	_	start_char=5|end_char=6|NER=O
+3	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=7|end_char=13|NER=O
+4	se	se	SCONJ	_	_	8	mark	_	start_char=14|end_char=16|NER=O
+5	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=17|end_char=19|NER=O
+6	segment	segmen	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	start_char=20|end_char=27|NER=O
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=28|end_char=33|NER=O
+8	plotësuar	plotësoj	VERB	_	VerbForm=Part	3	advcl	_	start_char=34|end_char=43|NER=O
+9	me	me	ADP	_	Case=Acc	12	case	_	start_char=44|end_char=46|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=47|end_char=49|NER=O
+11	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	nummod	_	start_char=50|end_char=56|NER=O
+12	parametrat	parametrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obl	_	start_char=57|end_char=67|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=68|end_char=69|NER=O
+14	sigurisë	siguri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=70|end_char=78|NER=O
+15	rrugore	rrugor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=86|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=87|end_char=89|NER=O
+17	sinjalistikë	sinjalistikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=90|end_char=102|NER=O
+18	vertikale	vertikale/horizal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=103|end_char=112|SpaceAfter=No|NER=O
+19	/	/	PUNCT	_	_	17	punct	_	start_char=113|end_char=114|SpaceAfter=No|NER=O
+20	horizontale	vertikale/horizal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=115|end_char=126|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	20	punct	_	start_char=127|end_char=128|NER=O
+22	guardreil	guardreil	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	list	_	start_char=129|end_char=138|NER=O
+23	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=139|end_char=142|NER=O
+24	bankina	bankinë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	conj	_	start_char=143|end_char=150|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	8	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+
+# text = I gjithë financimi për ndërtimin e tre loteve të rrugës Qukës - Qafë Plloçë arrin në 255 .
+# sent_id = 5
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	gjithë	gjithë	PRON	_	Gender=Masc|PronType=Ind	3	det	_	start_char=2|end_char=8|NER=O
+3	financimi	financim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=18|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=22|NER=O
+5	ndërtimin	ndërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=32|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=33|end_char=34|NER=O
+7	tre	tre	NUM	_	NumType=Card	8	nummod	_	start_char=35|end_char=38|NER=O
+8	loteve	lote	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=39|end_char=45|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=46|end_char=48|NER=O
+10	rrugës	rrugë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=49|end_char=55|NER=B-RRUGE
+11	Qukës	Qukës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=56|end_char=61|SpaceAfter=No|NER=I-RRUGE
+12	-	-	PUNCT	_	_	10	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=I-RRUGE
+13	Qafë	Qafë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=64|end_char=68|NER=I-RRUGE
+14	Plloçë	Plloçë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	appos	_	start_char=69|end_char=75|NER=I-RRUGE
+15	arrin	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=76|end_char=81|NER=O
+16	në	në	ADP	_	Case=Acc	5	case	_	start_char=82|end_char=84|NER=O
+17	255	255	NUM	_	NumType=Card	3	advmod	_	start_char=85|end_char=88|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	7	punct	_	start_char=89|end_char=90|NER=O
+
+# text = 8 milionë dollarë .
+# sent_id = 6
+1	8	8	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	det	_	start_char=2|end_char=9|NER=O
+3	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	start_char=10|end_char=17|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|SpacesAfter=\n|NER=O
+
+# text = Ky projekt përmirëson parametrat e rrugëtimit dhe bën të mundur aksesimin e trafikut , që kalon ndërmjet Korridorit 8 nga aksi rrugor Tiranë - Elbasan me pjesën e juglindjes , si dhe shkurtimin e distancave me pikën e kalimit kufitar të Kapshticës , qytetin e Korçës dhe më tej .
+# sent_id = 7
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	projekt	projek	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3|end_char=10|NER=O
+3	përmirëson	përmirësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=21|NER=O
+4	parametrat	parametrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=22|end_char=32|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=33|end_char=34|NER=O
+6	rrugëtimit	rrugëtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=35|end_char=45|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=46|end_char=49|NER=O
+8	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=50|end_char=53|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=54|end_char=56|NER=O
+10	mundur	mundur	VERB	_	VerbForm=Part	8	advcl	_	start_char=57|end_char=63|NER=O
+11	aksesimin	aksesim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=64|end_char=73|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=74|end_char=75|NER=O
+13	trafikut	trafik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=76|end_char=84|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=85|end_char=86|NER=O
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=87|end_char=89|NER=O
+16	kalon	kaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=90|end_char=95|NER=O
+17	ndërmjet	ndërmjet	ADP	_	Case=Abl	18	case	_	start_char=96|end_char=104|NER=O
+18	Korridorit	Korridor	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	start_char=105|end_char=115|NER=O
+19	8	8	NUM	_	NumType=Card	18	flat	_	start_char=116|end_char=117|NER=O
+20	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=118|end_char=121|NER=O
+21	aksi	aksi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=122|end_char=126|NER=O
+22	rrugor	rrugor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=127|end_char=133|NER=O
+23	Tiranë	Tiranë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=134|end_char=140|SpaceAfter=No|NER=B-VEND_0
+24	-	-	PUNCT	_	_	23	punct	_	start_char=141|end_char=142|NER=B-VEND_0
+25	Elbasan	Elbasa	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	flat	_	start_char=143|end_char=150|NER=B-VEND_0
+26	me	me	ADP	_	Case=Acc	26	case	_	start_char=151|end_char=153|NER=O
+27	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=154|end_char=160|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=161|end_char=162|NER=O
+29	juglindjes	juglindje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=163|end_char=173|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	30	punct	_	start_char=174|end_char=175|NER=O
+31	si	si	SCONJ	_	_	31	fixed	_	start_char=176|end_char=178|NER=O
+32	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=179|end_char=182|NER=O
+33	shkurtimin	shkurtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	conj	_	start_char=183|end_char=193|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=194|end_char=195|NER=O
+35	distancave	distancë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	32	nmod	_	start_char=196|end_char=206|NER=O
+36	me	me	ADP	_	Case=Acc	36	case	_	start_char=207|end_char=209|NER=O
+37	pikën	pikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=210|end_char=215|NER=O
+38	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=216|end_char=217|NER=O
+39	kalimit	kalim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=218|end_char=225|NER=O
+40	kufitar	kufitar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=226|end_char=233|NER=O
+41	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	41	det:poss	_	start_char=234|end_char=236|NER=O
+42	Kapshticës	Kapshticë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=237|end_char=247|SpaceAfter=No|NER=B-VEND_0
+43	,	,	PUNCT	_	_	43	punct	_	start_char=248|end_char=249|NER=O
+44	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	appos	_	start_char=250|end_char=257|NER=O
+45	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	45	det:poss	_	start_char=258|end_char=259|NER=O
+46	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	43	nmod	_	start_char=260|end_char=266|NER=B-VEND_0
+47	dhe	dhe	CCONJ	_	_	48	cc	_	start_char=267|end_char=270|NER=O
+48	më	më	ADP	_	Case=Acc	48	case	_	start_char=271|end_char=273|NER=O
+49	tej	tej	ADV	_	AdvType=Loc	43	conj	_	start_char=274|end_char=277|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	3	punct	_	start_char=278|end_char=279|SpacesAfter=\n|NER=O
+
+# text = Po ashtu , rruga lehtëson trafikun , ndikon në zhvillimin e bujqësisë së zonës rurale të Mokrës dhe fshatrave përreth , si dhe shkurton kohën për transportin e mallrave nga porti i Durrësit për në pikën e kalimit kufitar të Kapshticës .
+# sent_id = 8
+1	Po	po	PART	_	_	2	mark:emph	_	start_char=0|end_char=2|NER=O
+2	ashtu	ashtu	ADV	_	AdvType=Man	5	dislocated	_	start_char=3|end_char=8|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=9|end_char=10|NER=O
+4	rruga	rrugë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=11|end_char=16|NER=O
+5	lehtëson	lehtësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=25|NER=O
+6	trafikun	trafik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=26|end_char=34|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=35|end_char=36|NER=O
+8	ndikon	ndikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=37|end_char=43|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=44|end_char=46|NER=O
+10	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	start_char=47|end_char=57|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=58|end_char=59|NER=O
+12	bujqësisë	bujqësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=60|end_char=69|NER=O
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=70|end_char=72|NER=O
+14	zonës	zonë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=73|end_char=78|NER=O
+15	rurale	rural	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=85|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=86|end_char=88|NER=O
+17	Mokrës	mokrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=89|end_char=95|NER=B-VEND_0
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=96|end_char=99|NER=O
+19	fshatrave	fshatrë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	conj	_	start_char=100|end_char=109|NER=O
+20	përreth	përreth	ADV	_	AdvType=Man	19	amod	_	start_char=110|end_char=117|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	22	punct	_	start_char=118|end_char=119|NER=O
+22	si	si	SCONJ	_	_	24	mark	_	start_char=120|end_char=122|NER=O
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=123|end_char=126|NER=O
+24	shkurton	shkurtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=127|end_char=135|NER=O
+25	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=136|end_char=141|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=142|end_char=145|NER=O
+27	transportin	transport	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	start_char=146|end_char=157|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=158|end_char=159|NER=O
+29	mallrave	mall	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=160|end_char=168|NER=O
+30	nga	nga	ADP	_	Case=Nom	31	case	_	start_char=169|end_char=172|NER=O
+31	porti	port	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=173|end_char=178|NER=O
+32	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=179|end_char=180|NER=O
+33	Durrësit	Durrës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=181|end_char=189|NER=B-VEND_0
+34	për	për	ADP	_	Case=Acc	36	case	_	start_char=190|end_char=193|NER=O
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=194|end_char=196|NER=O
+36	pikën	pikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=197|end_char=202|NER=O
+37	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=203|end_char=204|NER=O
+38	kalimit	kalim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=205|end_char=212|NER=O
+39	kufitar	kufitar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=213|end_char=220|NER=O
+40	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	41	det:poss	_	start_char=221|end_char=223|NER=O
+41	Kapshticës	Kapshticë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=224|end_char=234|SpaceAfter=No|NER=B-VEND_0
+42	.	.	PUNCT	_	_	5	punct	_	start_char=235|end_char=236|SpacesAfter=\n|NER=O
+
+# text = Ndërkohë , puna për ndërtimin e lotit të tretë të rrugës Qukës - Qafë Plloçë pritet të përfundojë deri në fund të vitit 2025 .
+# sent_id = 9
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	3	advmod	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	puna	punë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=15|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=19|NER=O
+5	ndërtimin	ndërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=20|end_char=29|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=30|end_char=31|NER=O
+7	lotit	lot	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=32|end_char=37|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=38|end_char=40|NER=O
+9	tretë	tretë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=41|end_char=46|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=47|end_char=49|NER=O
+11	rrugës	rrugë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=50|end_char=56|NER=B-RRUGE
+12	Qukës	Qukës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=57|end_char=62|SpaceAfter=No|NER=I-RRUGE
+13	-	-	PUNCT	_	_	11	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=I-RRUGE
+14	Qafë	Qafë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=65|end_char=69|NER=I-RRUGE
+15	Plloçë	Plloçë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	appos	_	start_char=70|end_char=76|NER=I-RRUGE
+16	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=77|end_char=83|NER=O
+17	të	të	PART	_	_	5	fixed	_	start_char=84|end_char=86|NER=O
+18	përfundojë	përfundoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=87|end_char=97|NER=O
+19	deri	deri	PART	_	_	7	fixed	_	start_char=98|end_char=102|NER=O
+20	në	në	ADP	_	Case=Acc	8	case	_	start_char=103|end_char=105|NER=O
+21	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=106|end_char=110|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=111|end_char=113|NER=O
+23	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=114|end_char=119|NER=B-DATE_0
+24	2025	2025	NUM	_	NumType=Card	10	amod:nummod	_	start_char=120|end_char=124|SpaceAfter=No|NER=I-DATE_0
+25	.	.	PUNCT	_	_	3	punct	_	start_char=125|end_char=126|SpacesAfter=\n|NER=O
+

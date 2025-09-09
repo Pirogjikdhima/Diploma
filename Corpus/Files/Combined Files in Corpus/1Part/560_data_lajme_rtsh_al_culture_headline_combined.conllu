@@ -1,0 +1,139 @@
+# text = Shqipëria në Ekspozitën e 18 - të Ndërkombëtare të Bienales së Venecias .
+# sent_id = 0
+1	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=9|NER=B-VEND_1
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=10|end_char=12|NER=O
+3	Ekspozitën	Ekspozitë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=13|end_char=23|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=24|end_char=25|NER=O
+5	18	18	NUM	_	NumType=Card	3	amod	_	start_char=26|end_char=28|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=29|end_char=30|NER=O
+7	të	18-të	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=31|end_char=33|NER=O
+8	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=34|end_char=47|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=48|end_char=50|NER=O
+10	Bienales	Bienale	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=51|end_char=59|NER=O
+11	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=60|end_char=62|NER=O
+12	Venecias	Venecia	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	compound	_	start_char=63|end_char=71|SpaceAfter=No|NER=B-VEND_0
+13	.	.	PUNCT	_	_	1	punct	_	start_char=72|end_char=73|SpacesAfter=\n|NER=O
+
+# text = 23 / 05 / 2023 " Përsiatje të Pakohë " , ose si të jetojmë në realitete të sintetizuara , është tema që katër artistë të rinj shqiptarë Era Merkuri , Martin Gjoleka , Ani Marku dhe Geraldo Prendushi kanë paraqitur në Pavijonin e Shqipërisë në Ekspozitën e 18 - të Ndërkombëtare të Bienales së Venecias .
+# sent_id = 1
+1	23	23	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	18	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	05	05	NUM	_	NumType=Card	18	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	2	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	2	amod:nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	"	"	PUNCT	_	_	5	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Përsiatje	përsiatje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=17|end_char=26|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=27|end_char=29|NER=O
+9	Pakohë	Pakohë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=30|end_char=36|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	5	punct	_	start_char=37|end_char=38|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+12	ose	ose	CCONJ	_	_	12	cc	_	start_char=41|end_char=44|NER=O
+13	si	si	SCONJ	_	_	12	mark	_	start_char=45|end_char=47|NER=O
+14	të	të	PART	_	_	12	fixed	_	start_char=48|end_char=50|NER=O
+15	jetojmë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	18	advcl	_	start_char=51|end_char=58|NER=O
+16	në	në	ADP	_	Case=Acc	14	case	_	start_char=59|end_char=61|NER=O
+17	realitete	realitet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	start_char=62|end_char=71|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=72|end_char=74|NER=O
+19	sintetizuara	sintetizuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=75|end_char=87|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	18	punct	_	start_char=88|end_char=89|NER=O
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=90|end_char=95|NER=O
+22	tema	temë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	cop	_	start_char=96|end_char=100|NER=O
+23	që	që	PRON	_	PronType=Rel	22	mark	_	start_char=101|end_char=103|NER=O
+24	katër	katër	NUM	_	NumType=Card	22	nummod	_	start_char=104|end_char=109|NER=O
+25	artistë	artist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	start_char=110|end_char=117|NER=O
+26	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	24	det	_	start_char=118|end_char=120|NER=O
+27	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=121|end_char=125|NER=O
+28	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=126|end_char=135|NER=O
+29	Era	erë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=136|end_char=139|NER=B-PER
+30	Merkuri	merkur	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	flat	_	start_char=140|end_char=147|SpaceAfter=No|NER=I-PER
+31	,	,	PUNCT	_	_	29	punct	_	start_char=148|end_char=149|NER=O
+32	Martin	Martin	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	list	_	start_char=150|end_char=156|NER=B-PER
+33	Gjoleka	Gjolekë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=157|end_char=164|SpaceAfter=No|NER=I-PER
+34	,	,	PUNCT	_	_	32	punct	_	start_char=165|end_char=166|NER=O
+35	Ani	Ani	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	list	_	start_char=167|end_char=170|NER=B-PER
+36	Marku	mark	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	flat	_	start_char=171|end_char=176|NER=I-PER
+37	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=177|end_char=180|NER=O
+38	Geraldo	Geraldo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	conj	_	start_char=181|end_char=188|NER=B-PER
+39	Prendushi	Prendush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	flat	_	start_char=189|end_char=198|NER=I-PER
+40	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=199|end_char=203|NER=O
+41	paraqitur	paraqit	VERB	_	VerbForm=Part	18	conj	_	start_char=204|end_char=213|NER=O
+42	në	në	ADP	_	Case=Acc	40	case	_	start_char=214|end_char=216|NER=O
+43	Pavijonin	pavijon	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	obl	_	start_char=217|end_char=226|NER=O
+44	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=227|end_char=228|NER=O
+45	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=229|end_char=239|NER=B-VEND_1
+46	në	në	ADP	_	Case=Acc	44	case	_	start_char=240|end_char=242|NER=O
+47	Ekspozitën	Ekspozitë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	38	advmod	_	start_char=243|end_char=253|NER=O
+48	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	46	det	_	start_char=254|end_char=255|NER=O
+49	18	18	NUM	_	NumType=Card	44	amod	_	start_char=256|end_char=258|NER=O
+50	-	-	PUNCT	_	_	44	punct	_	start_char=259|end_char=260|NER=O
+51	të	18-të	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	start_char=261|end_char=263|NER=O
+52	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	start_char=264|end_char=277|NER=O
+53	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	49	det	_	start_char=278|end_char=280|NER=O
+54	Bienales	Bienale	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	44	nmod	_	start_char=281|end_char=289|NER=O
+55	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	51	det:poss	_	start_char=290|end_char=292|NER=O
+56	Venecias	Venecia	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	49	nmod	_	start_char=293|end_char=301|SpaceAfter=No|NER=B-VEND_0
+57	.	.	PUNCT	_	_	38	punct	_	start_char=302|end_char=303|SpacesAfter=\n|NER=O
+
+# text = Tematikën e bienales kuratoja Lesley Lokko e ka titulluar " Laboratori i së ardhmes " .
+# sent_id = 2
+1	Tematikën	tematikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	bienales	bienale	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=20|NER=O
+4	kuratoja	kuratojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	appos	_	start_char=21|end_char=29|NER=O
+5	Lesley	Lesley	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=30|end_char=36|NER=B-PER
+6	Lokko	Lokko	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=37|end_char=42|NER=I-PER
+7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	cc	_	start_char=43|end_char=44|NER=O
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=45|end_char=47|NER=O
+9	titulluar	titulloj	VERB	_	VerbForm=Part	0	root	_	start_char=48|end_char=57|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=58|end_char=59|SpaceAfter=No|NER=O
+11	Laboratori	Laborator	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=60|end_char=70|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=71|end_char=72|NER=O
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=73|end_char=75|NER=O
+14	ardhmes	ardhmes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=76|end_char=83|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	11	punct	_	start_char=84|end_char=85|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	9	punct	_	start_char=86|end_char=87|SpacesAfter=\n|NER=O
+
+# text = Artistët kanë marrë si modele rekreacioni dhe të imagjinatës stadiumin " Selman Stërmasi " dhe Parkun Artificial të Tiranës .
+# sent_id = 3
+1	Artistët	artistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=0|end_char=8|NER=O
+2	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=9|end_char=13|NER=O
+3	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=14|end_char=19|NER=O
+4	si	si	SCONJ	_	_	5	mark	_	start_char=20|end_char=22|NER=O
+5	modele	model	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	start_char=23|end_char=29|NER=O
+6	rekreacioni	rekreacion	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=30|end_char=41|NER=O
+7	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=42|end_char=45|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=46|end_char=48|NER=O
+9	imagjinatës	imagjinatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=49|end_char=60|NER=O
+10	stadiumin	stadium	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=61|end_char=70|NER=O
+11	"	"	PUNCT	_	_	12	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
+12	Selman	Selman	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=73|end_char=79|NER=O
+13	Stërmasi	Stërmasi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=80|end_char=88|NER=O
+14	"	"	PUNCT	_	_	12	punct	_	start_char=89|end_char=90|NER=O
+15	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=91|end_char=94|NER=O
+16	Parkun	Parkun	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=95|end_char=101|NER=O
+17	Artificial	Artificial	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=102|end_char=112|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=113|end_char=115|NER=O
+19	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=116|end_char=123|SpaceAfter=No|NER=B-VEND_0
+20	.	.	PUNCT	_	_	3	punct	_	start_char=124|end_char=125|SpacesAfter=\n|NER=O
+
+# text = Bienaljan e Venecias do të qëndrojë e hapur për gjashtë muaj , deri më 26 nëntor 2023 .
+# sent_id = 4
+1	Bienaljan	Bienalja	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Venecias	Venecia	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=20|NER=B-VEND_0
+4	do	do	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=24|end_char=26|NER=O
+6	qëndrojë	qëndroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=35|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=36|end_char=37|NER=O
+8	hapur	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	cop	_	start_char=38|end_char=43|NER=O
+9	për	për	ADP	_	Case=Acc	11	case	_	start_char=44|end_char=47|NER=O
+10	gjashtë	gjashtë	NUM	_	NumType=Card	11	nummod	_	start_char=48|end_char=55|NER=O
+11	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=56|end_char=60|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	16	punct	_	start_char=61|end_char=62|NER=O
+13	deri	deri	ADP	_	Case=Acc	14	fixed	_	start_char=63|end_char=67|NER=O
+14	më	më	ADP	_	Case=Acc	16	case	_	start_char=68|end_char=70|NER=O
+15	26	26	NUM	_	NumType=Card	16	nummod	_	start_char=71|end_char=73|NER=B-DATE_0
+16	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=74|end_char=80|NER=I-DATE_0
+17	2023	2023	NUM	_	NumType=Card	16	amod:nummod	_	start_char=81|end_char=85|SpaceAfter=No|NER=I-DATE_0
+18	.	.	PUNCT	_	_	6	punct	_	start_char=86|end_char=87|SpacesAfter=\n\n\n|NER=O
+

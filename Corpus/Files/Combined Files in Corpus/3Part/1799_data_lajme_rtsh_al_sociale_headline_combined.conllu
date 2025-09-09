@@ -1,0 +1,38 @@
+# text = Të ardhurat që mbledhin ISSH dhe ISKSH llogariten 126 .
+# sent_id = 0
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	ardhurat	ardhurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=3|end_char=11|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=12|end_char=14|NER=O
+4	mbledhin	mbledh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=15|end_char=23|NER=O
+5	ISSH	ISSH	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	4	obj	_	start_char=24|end_char=28|NER=B-ORG
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=29|end_char=32|NER=O
+7	ISKSH	ISKSH	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	5	conj	_	start_char=33|end_char=38|NER=B-ORG
+8	llogariten	llogarit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=39|end_char=49|NER=O
+9	126	126	NUM	_	NumType=Card	10	nummod	_	start_char=50|end_char=53|NER=O
+10	.	.	PUNCT	_	_	10	punct	_	start_char=54|end_char=55|NER=O
+
+# text = 5 miliardë lekë , nga 120 .
+# sent_id = 1
+1	5	5	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	start_char=2|end_char=10|NER=O
+3	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=11|end_char=15|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	15	punct	_	start_char=16|end_char=17|NER=O
+5	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=18|end_char=21|NER=O
+6	120	120	NUM	_	NumType=Card	15	nummod	_	start_char=22|end_char=25|NER=O
+7	.	.	PUNCT	_	_	15	punct	_	start_char=26|end_char=27|NER=O
+
+# text = 5 miliardë lekë që parashikohet se do arkëtohen në vitin 2022 .
+# sent_id = 2
+1	5	5	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	18	obl	_	start_char=2|end_char=10|NER=O
+3	lekë	lekë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	start_char=11|end_char=15|NER=O
+4	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=16|end_char=18|NER=O
+5	parashikohet	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	acl	_	start_char=19|end_char=31|NER=O
+6	se	se	SCONJ	_	_	21	mark	_	start_char=32|end_char=34|NER=O
+7	do	do	PART	_	_	21	fixed	_	start_char=35|end_char=37|NER=O
+8	arkëtohen	arkëtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	18	advcl	_	start_char=38|end_char=47|NER=O
+9	në	në	ADP	_	Case=Acc	23	case	_	start_char=48|end_char=50|NER=O
+10	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	start_char=51|end_char=56|NER=B-DATE_0
+11	2022	2022	NUM	_	NumType=Card	23	amod:nummod	_	start_char=57|end_char=61|SpaceAfter=No|NER=I-DATE_0
+12	.	.	PUNCT	_	_	21	punct	_	start_char=62|end_char=63|SpacesAfter=\n|NER=O
+

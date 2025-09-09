@@ -1,0 +1,89 @@
+# text = 30 / 09 / 2023 Ne Shkodër veçohet shega Devedishe dhe ajo e Tivarit .
+# sent_id = 0
+1	30	30	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	14	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	19	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	det	_	start_char=15|end_char=17|NER=O
+7	Shkodër	Shkodër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=18|end_char=25|NER=B-VEND_0
+8	veçohet	veçoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=26|end_char=33|NER=O
+9	shega	shegë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=34|end_char=39|NER=O
+10	Devedishe	devedishe	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=40|end_char=49|NER=O
+11	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=50|end_char=53|NER=O
+12	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	conj	_	start_char=54|end_char=57|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=58|end_char=59|NER=O
+14	Tivarit	Tivar	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=60|end_char=67|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	3	punct	_	start_char=68|end_char=69|SpacesAfter=\n|NER=O
+
+# text = Enver Halili , fermer në zonën e Anës së Malit në Shkodër , disa hektarë tokë të mbjella , kryesisht me shege të cilat i tregton pjesën më të madhe të tyre në Tiranë .
+# sent_id = 1
+1	Enver	Enver	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=B-PER
+2	Halili	Halili	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=12|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14|NER=O
+4	fermer	fermer	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=15|end_char=21|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	zonën	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=25|end_char=30|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=31|end_char=32|NER=O
+8	Anës	Anës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=33|end_char=37|NER=O
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=38|end_char=40|NER=O
+10	Malit	mal	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=41|end_char=46|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=47|end_char=49|NER=O
+12	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=50|end_char=57|SpaceAfter=No|NER=B-VEND_0
+13	,	,	PUNCT	_	_	15	punct	_	start_char=58|end_char=59|NER=O
+14	disa	disa	PRON	_	PronType=Ind	15	det	_	start_char=60|end_char=64|NER=O
+15	hektarë	hektarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	list	_	start_char=65|end_char=72|NER=O
+16	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	start_char=73|end_char=77|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=78|end_char=80|NER=O
+18	mbjella	mbjellë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=81|end_char=88|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=89|end_char=90|NER=O
+20	kryesisht	kryesisht	ADV	_	AdvType=Man	22	mark	_	start_char=91|end_char=100|NER=O
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=101|end_char=103|NER=O
+22	shege	sheg	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	start_char=104|end_char=109|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=110|end_char=112|NER=O
+24	cilat	cila	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	26	nsubj	_	start_char=113|end_char=118|NER=O
+25	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	iobj	_	start_char=119|end_char=120|NER=O
+26	tregton	tregtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	start_char=121|end_char=128|NER=O
+27	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=129|end_char=135|NER=O
+28	më	më	PART	_	_	30	mark	_	start_char=136|end_char=138|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=139|end_char=141|NER=O
+30	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=142|end_char=147|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=148|end_char=150|NER=O
+32	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=151|end_char=155|NER=O
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=156|end_char=158|NER=O
+34	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=159|end_char=165|SpaceAfter=No|NER=B-VEND_0
+35	.	.	PUNCT	_	_	26	punct	_	start_char=166|end_char=167|SpacesAfter=\n|NER=O
+
+# text = Enveri tregon se , kanë zgjedhur te kultivoje shegë pasi toka e kësaj zone është e përshtatshme për rritjen e këtij fruti .
+# sent_id = 2
+1	Enveri	Enver	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=14|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=17|end_char=18|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=19|end_char=23|NER=O
+6	zgjedhur	zgjedh	VERB	_	VerbForm=Part	2	advcl	_	start_char=24|end_char=32|NER=O
+7	te	te	ADP	_	Case=Nom	8	case	_	start_char=33|end_char=35|NER=O
+8	kultivoje	kultivoj	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=36|end_char=45|NER=O
+9	shegë	shegë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=46|end_char=51|NER=O
+10	pasi	pasi	SCONJ	_	_	15	mark	_	start_char=52|end_char=56|NER=O
+11	toka	tokë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=57|end_char=61|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=62|end_char=63|NER=O
+13	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=64|end_char=69|NER=O
+14	zone	zonë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=70|end_char=74|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=75|end_char=80|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=81|end_char=82|NER=O
+17	përshtatshme	përshtatshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	cop	_	start_char=83|end_char=95|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=96|end_char=99|NER=O
+19	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	start_char=100|end_char=107|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=108|end_char=109|NER=O
+21	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=110|end_char=115|NER=O
+22	fruti	frut	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=116|end_char=121|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	15	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+
+# text = Gazetar : L .
+# sent_id = 3
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	L	L	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|SpaceAfter=No|NER=B-PER
+4	.	.	PUNCT	_	_	1	punct	_	start_char=12|end_char=13|NER=O
+

@@ -1,0 +1,102 @@
+# text = 22 / 01 / 2024 Punimet e dorës si ato me shtiza , grep , qepjet apo qëndisjet , janë pjesë e traditës shqiptare .
+# sent_id = 0
+1	22	22	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=15|end_char=22|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=23|end_char=24|NER=O
+8	dorës	dorë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=25|end_char=30|NER=O
+9	si	si	SCONJ	_	_	22	mark	_	start_char=31|end_char=33|NER=O
+10	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	20	nmod	_	start_char=34|end_char=37|NER=O
+11	me	me	ADP	_	Case=Acc	24	case	_	start_char=38|end_char=40|NER=O
+12	shtiza	shtizë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=41|end_char=47|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	26	punct	_	start_char=48|end_char=49|NER=O
+14	grep	grep	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	list	_	start_char=50|end_char=54|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	28	punct	_	start_char=55|end_char=56|NER=O
+16	qepjet	qepje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	list	_	start_char=57|end_char=63|NER=O
+17	apo	apo	CCONJ	_	_	30	cc	_	start_char=64|end_char=67|NER=O
+18	qëndisjet	qëndisje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	28	conj	_	start_char=68|end_char=77|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	28	punct	_	start_char=78|end_char=79|NER=O
+20	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=80|end_char=84|NER=O
+21	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	cop	_	start_char=85|end_char=90|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=91|end_char=92|NER=O
+23	traditës	traditë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=93|end_char=101|NER=O
+24	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=102|end_char=111|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	32	punct	_	start_char=112|end_char=113|NER=O
+
+# text = Dikur 81 - vjeçarja Fatmira Matraku realizonte dhe punime në vegël si rrugica apo qilima , të cilët ajo i përdor edhe sot .
+# sent_id = 1
+1	Dikur	dikoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=0|end_char=5|NER=O
+2	81	81	NUM	_	NumType=Card	1	obj	_	start_char=6|end_char=8|NER=O
+3	-	-	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+4	vjeçarja	81-vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	start_char=11|end_char=19|NER=O
+5	Fatmira	Fatmirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=20|end_char=27|NER=B-PER
+6	Matraku	matrak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=28|end_char=35|NER=I-PER
+7	realizonte	realizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=36|end_char=46|NER=O
+8	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=47|end_char=50|NER=O
+9	punime	punim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=51|end_char=57|NER=O
+10	në	në	ADP	_	Case=Acc	9	case	_	start_char=58|end_char=60|NER=O
+11	vegël	vegël	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=61|end_char=66|NER=O
+12	si	si	SCONJ	_	_	11	mark	_	start_char=67|end_char=69|NER=O
+13	rrugica	rrugicë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=70|end_char=77|NER=O
+14	apo	apo	CCONJ	_	_	13	cc	_	start_char=78|end_char=81|NER=O
+15	qilima	qilimë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	conj	_	start_char=82|end_char=88|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=89|end_char=90|NER=O
+17	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=91|end_char=93|NER=O
+18	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	19	nsubj	_	start_char=94|end_char=99|NER=O
+19	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=100|end_char=103|NER=O
+20	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	start_char=104|end_char=105|NER=O
+21	përdor	përdor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=106|end_char=112|NER=O
+22	edhe	edhe	PART	_	_	21	mark	_	start_char=113|end_char=117|NER=O
+23	sot	sot	ADV	_	AdvType=Tim	19	advmod	_	start_char=118|end_char=121|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+
+# text = I veçantë është fakti se në punën që bën , Fatmirën e ndihmon edhe bashkëshorti , Pëllumbi .
+# sent_id = 2
+1	I	I	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=0|end_char=1|NER=O
+2	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=2|end_char=9|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+4	fakti	fakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	cop	_	start_char=16|end_char=21|NER=O
+5	se	se	SCONJ	_	_	17	mark	_	start_char=22|end_char=24|NER=O
+6	në	në	ADP	_	Case=Acc	15	case	_	start_char=25|end_char=27|NER=O
+7	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=28|end_char=33|NER=O
+8	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=34|end_char=36|NER=O
+9	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl	_	start_char=37|end_char=40|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	19	punct	_	start_char=41|end_char=42|NER=O
+11	Fatmirën	Fatmirë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=43|end_char=51|NER=B-PER
+12	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=52|end_char=53|NER=O
+13	ndihmon	ndihmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=54|end_char=61|NER=O
+14	edhe	edhe	PART	_	_	23	mark	_	start_char=62|end_char=66|NER=O
+15	bashkëshorti	bashkëshort	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=67|end_char=79|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	25	punct	_	start_char=80|end_char=81|NER=O
+17	Pëllumbi	pëllumb	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	list	_	start_char=82|end_char=90|SpaceAfter=No|NER=B-PER
+18	.	.	PUNCT	_	_	21	punct	_	start_char=91|end_char=92|SpacesAfter=\n|NER=O
+
+# text = Artizania Fatmira Matraku ka marrë pjesë edhe në panaire të ndryshme të organizuara për punimet artizanale ku ka shpalosur pasionin e saj .
+# sent_id = 3
+1	Artizania	Artizani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	appos	_	start_char=0|end_char=9|NER=O
+2	Fatmira	Fatmirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	flat	_	start_char=10|end_char=17|NER=B-PER
+3	Matraku	matrak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=18|end_char=25|NER=I-PER
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=26|end_char=28|NER=O
+5	marrë	marr	VERB	_	VerbForm=Part	15	conj	_	start_char=29|end_char=34|NER=O
+6	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=35|end_char=40|NER=O
+7	edhe	edhe	PART	_	_	25	mark	_	start_char=41|end_char=45|NER=O
+8	në	në	ADP	_	Case=Acc	25	case	_	start_char=46|end_char=48|NER=O
+9	panaire	panair	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obl	_	start_char=49|end_char=56|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=57|end_char=59|NER=O
+11	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=60|end_char=68|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=69|end_char=71|NER=O
+13	organizuara	organizuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=72|end_char=83|NER=O
+14	për	për	ADP	_	Case=Acc	31	case	_	start_char=84|end_char=87|NER=O
+15	punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=88|end_char=95|NER=O
+16	artizanale	artizanal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=96|end_char=106|NER=O
+17	ku	ku	ADV	_	AdvType=Loc	35	advmod	_	start_char=107|end_char=109|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=110|end_char=112|NER=O
+19	shpalosur	shpaloj	VERB	_	VerbForm=Part	31	acl	_	start_char=113|end_char=122|NER=O
+20	pasionin	pasion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=123|end_char=131|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	38	det:poss	_	start_char=132|end_char=133|NER=O
+22	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	amod:poss	_	start_char=134|end_char=137|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	35	punct	_	start_char=138|end_char=139|NER=O
+

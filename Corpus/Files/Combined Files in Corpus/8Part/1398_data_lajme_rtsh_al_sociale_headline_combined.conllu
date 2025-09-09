@@ -1,0 +1,140 @@
+# text = Tiranë , organizohet " MotoSport Weekend " " Patina , Supermoto , Skuter elektrik janë këto disiplinat që po marrin pjesë në garat e organizuara në cirkutin e ndërtuar , posaçërisht nga Bashkia Tiranë , në segmentin e fundit të Bulevardit Zog I .
+# sent_id = 0
+1	Tiranë	Tiranë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|NER=O
+3	organizohet	organizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=9|end_char=20|NER=O
+4	"	"	PUNCT	_	_	5	punct	_	start_char=21|end_char=22|SpaceAfter=No|NER=B-EVENT
+5	MotoSport	MotoSpor	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=23|end_char=32|NER=I-EVENT
+6	Weekend	Weekend	PROPN	_	Foreign=Yes	5	flat	_	start_char=33|end_char=40|SpaceAfter=No|NER=I-EVENT
+7	"	"	PUNCT	_	_	8	punct	_	start_char=41|end_char=42|SpacesAfter=\n|NER=I-EVENT
+8	"	"	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|SpacesAfter=\n|NER=O
+9	Patina	Patinë	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	11	list	_	start_char=45|end_char=51|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	15	punct	_	start_char=52|end_char=53|NER=O
+11	Supermoto	Supermoto	PROPN	_	Foreign=Yes	13	list	_	start_char=54|end_char=63|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	17	punct	_	start_char=64|end_char=65|NER=O
+13	Skuter	Skuter	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	list	_	start_char=66|end_char=72|NER=O
+14	elektrik	elektrik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=73|end_char=81|NER=O
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	parataxis	_	start_char=82|end_char=86|NER=O
+16	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	21	det	_	start_char=87|end_char=91|NER=O
+17	disiplinat	disiplinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	cop	_	start_char=92|end_char=102|NER=O
+18	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=103|end_char=105|NER=O
+19	po	po	PART	_	_	24	mark	_	start_char=106|end_char=108|NER=O
+20	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	acl:relcl	_	start_char=109|end_char=115|NER=O
+21	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=116|end_char=121|NER=O
+22	në	në	ADP	_	Case=Acc	27	case	_	start_char=122|end_char=124|NER=O
+23	garat	garë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	24	obl	_	start_char=125|end_char=130|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=131|end_char=132|NER=O
+25	organizuara	organizuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=133|end_char=144|NER=O
+26	në	në	ADP	_	Case=Acc	31	case	_	start_char=145|end_char=147|NER=O
+27	cirkutin	cirkut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=148|end_char=156|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=157|end_char=158|NER=O
+29	ndërtuar	ndërtuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=159|end_char=167|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	35	punct	_	start_char=168|end_char=169|NER=O
+31	posaçërisht	posaçërisht	ADV	_	AdvType=Man	36	fixed	_	start_char=170|end_char=181|NER=O
+32	nga	nga	ADP	_	Case=Nom	37	case	_	start_char=182|end_char=185|NER=O
+33	Bashkia	Bashki	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=186|end_char=193|NER=O
+34	Tiranë	Tiranë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	start_char=194|end_char=200|SpaceAfter=No|NER=B-VEND_0
+35	,	,	PUNCT	_	_	41	punct	_	start_char=201|end_char=202|NER=O
+36	në	në	ADP	_	Case=Acc	41	case	_	start_char=203|end_char=205|NER=O
+37	segmentin	segment	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	list	_	start_char=206|end_char=215|NER=O
+38	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=216|end_char=217|NER=O
+39	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=218|end_char=224|NER=O
+40	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	45	det	_	start_char=225|end_char=227|NER=O
+41	Bulevardit	Bulevard	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	41	nmod	_	start_char=228|end_char=238|NER=O
+42	Zog	Zog	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	flat	_	start_char=239|end_char=242|NER=O
+43	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	45	det	_	start_char=243|end_char=244|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	41	punct	_	start_char=245|end_char=246|SpacesAfter=\n|NER=O
+
+# text = Në këtë event do të ketë gjithashtu edhe një defile të motorit emblematik Vespa .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	event	event	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	start_char=8|end_char=13|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=24|NER=O
+7	gjithashtu	gjithashtu	ADV	_	AdvType=Man	6	advmod	_	start_char=25|end_char=35|NER=O
+8	edhe	edhe	PART	_	_	10	advmod:emph	_	start_char=36|end_char=40|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=41|end_char=44|NER=O
+10	defile	defil	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=45|end_char=51|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=52|end_char=54|NER=O
+12	motorit	motor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=55|end_char=62|NER=O
+13	emblematik	emblematik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=63|end_char=73|NER=O
+14	Vespa	Vespë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	appos	_	start_char=74|end_char=79|SpaceAfter=No|NER=B-PRO
+15	.	.	PUNCT	_	_	6	punct	_	start_char=80|end_char=81|SpacesAfter=\n|NER=O
+
+# text = Eventi organizohet nga Bashkia Tiranë në bashkëpunim me Drejtorinë e Përgjithshme të Shërbimit të Transportit Rrugor , Federatën Shqiptare te Motociklizmit dhe Drejtorinë e Policisë Rrugore .
+# sent_id = 2
+1	Eventi	event	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	organizohet	organizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=7|end_char=18|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=19|end_char=22|NER=O
+4	Bashkia	Bashki	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=23|end_char=30|NER=O
+5	Tiranë	Tiranë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=31|end_char=37|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=38|end_char=40|NER=O
+7	bashkëpunim	bashkëpunim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=41|end_char=52|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=53|end_char=55|NER=O
+9	Drejtorinë	drejtori	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=56|end_char=66|NER=B-ORG
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=67|end_char=68|NER=I-ORG
+11	Përgjithshme	përgjithshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=69|end_char=81|NER=I-ORG
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=82|end_char=84|NER=I-ORG
+13	Shërbimit	shërbim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=85|end_char=94|NER=I-ORG
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=95|end_char=97|NER=I-ORG
+15	Transportit	Transport	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=98|end_char=109|NER=I-ORG
+16	Rrugor	Rrugor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=110|end_char=116|SpaceAfter=No|NER=I-ORG
+17	,	,	PUNCT	_	_	18	punct	_	start_char=117|end_char=118|NER=O
+18	Federatën	Federatë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	appos	_	start_char=119|end_char=128|NER=B-ORG
+19	Shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=129|end_char=138|NER=I-ORG
+20	te	te	ADP	_	Case=Nom	21	case	_	start_char=139|end_char=141|NER=I-ORG
+21	Motociklizmit	motociklizm	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=142|end_char=155|NER=I-ORG
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=156|end_char=159|NER=O
+23	Drejtorinë	drejtori	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	conj	_	start_char=160|end_char=170|NER=B-ORG
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=171|end_char=172|NER=I-ORG
+25	Policisë	polici	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=173|end_char=181|NER=I-ORG
+26	Rrugore	Rrugor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=182|end_char=189|SpaceAfter=No|NER=I-ORG
+27	.	.	PUNCT	_	_	2	punct	_	start_char=190|end_char=191|SpacesAfter=\n|NER=O
+
+# text = Gara të tjera por edhe shpërndarja e çmimeve do të behet ditën e nesërme ( 9 prill ) .
+# sent_id = 3
+1	Gara	Garë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=0|end_char=4|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=5|end_char=7|NER=O
+3	tjera	tjetër	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	1	amod	_	start_char=8|end_char=13|NER=O
+4	por	por	CCONJ	_	_	6	cc	_	start_char=14|end_char=17|NER=O
+5	edhe	edhe	CCONJ	_	_	6	cc	_	start_char=18|end_char=22|NER=O
+6	shpërndarja	shpërndarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	start_char=23|end_char=34|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=35|end_char=36|NER=O
+8	çmimeve	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=37|end_char=44|NER=O
+9	do	do	PART	_	_	11	fixed	_	start_char=45|end_char=47|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=48|end_char=50|NER=O
+11	behet	bej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=51|end_char=56|NER=O
+12	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=57|end_char=62|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=63|end_char=64|NER=O
+14	nesërme	nesërm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=65|end_char=72|NER=O
+15	(	(	PUNCT	_	_	16	punct	_	start_char=73|end_char=74|NER=O
+16	9	9	NUM	_	NumType=Card	16	nummod	_	start_char=75|end_char=76|NER=B-DATE_0
+17	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=77|end_char=82|SpaceAfter=No|NER=I-DATE_0
+18	)	)	PUNCT	_	_	16	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	11	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Duhet thënë gjithashtu se këto aktivitete zhvillohen në kuadër të organizimeve " Tirana 2023 , Qyteti Europian i Sporteve .
+# sent_id = 4
+1	Duhet	duhem	AUX	_	Mood=Ind|Person=3|Tense=Pres|Voice=Pass	2	aux	_	start_char=0|end_char=5|NER=O
+2	thënë	them	VERB	_	VerbForm=Part	0	root	_	start_char=6|end_char=11|NER=O
+3	gjithashtu	gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=12|end_char=22|NER=O
+4	se	se	SCONJ	_	_	7	mark	_	start_char=23|end_char=25|NER=O
+5	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	start_char=26|end_char=30|NER=O
+6	aktivitete	aktivitet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	start_char=31|end_char=41|NER=O
+7	zhvillohen	zhvilloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	ccomp	_	start_char=42|end_char=52|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=53|end_char=55|NER=O
+9	kuadër	kuadër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=56|end_char=62|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=63|end_char=65|NER=O
+11	organizimeve	organizim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=66|end_char=78|NER=O
+12	"	"	PUNCT	_	_	13	punct	_	start_char=79|end_char=80|SpaceAfter=No|NER=O
+13	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=81|end_char=87|NER=O
+14	2023	2023	NUM	_	NumType=Card	13	flat	_	start_char=88|end_char=92|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=93|end_char=94|NER=O
+16	Qyteti	Qytet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	list	_	start_char=95|end_char=101|NER=O
+17	Europian	Europian	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=102|end_char=110|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=111|end_char=112|NER=O
+19	Sporteve	sport	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	compound	_	start_char=113|end_char=121|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	2	punct	_	start_char=122|end_char=123|SpacesAfter=\n\n|NER=O
+

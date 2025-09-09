@@ -1,0 +1,149 @@
+# text = " Franca në valën e 3 të pandemisë " , Macron : Vaksina mund të parandalojë izolimin kombëtar " Franca ka hyrë në valën e tretë të pandemisë Covid " , kështu është shprehur kryeministri francez Jean Castex .
+# sent_id = 0
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=8|NER=B-VEND_1
+3	në	në	ADP	_	Case=Acc	3	case	_	start_char=9|end_char=11|NER=O
+4	valën	valë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=17|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=18|end_char=19|NER=O
+6	3	3	NUM	_	NumType=Card	3	amod	_	start_char=20|end_char=21|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=22|end_char=24|NER=O
+8	pandemisë	pandemisë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=25|end_char=34|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	3	punct	_	start_char=35|end_char=36|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	9	punct	_	start_char=37|end_char=38|NER=O
+11	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=39|end_char=45|SpaceAfter=No|NER=B-PER
+12	:	:	PUNCT	_	_	1	punct	_	start_char=46|end_char=47|NER=O
+13	Vaksina	Vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=48|end_char=55|NER=O
+14	mund	mund	AUX	_	_	4	aux	_	start_char=56|end_char=60|NER=O
+15	të	të	PART	_	_	4	fixed	_	start_char=61|end_char=63|NER=O
+16	parandalojë	parandaloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=64|end_char=75|NER=O
+17	izolimin	izolim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=76|end_char=84|NER=O
+18	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=85|end_char=93|SpacesAfter=\n|NER=O
+19	"	"	PUNCT	_	_	8	punct	_	start_char=94|end_char=95|SpaceAfter=No|NER=O
+20	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=96|end_char=102|NER=B-VEND_1
+21	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=103|end_char=105|NER=O
+22	hyrë	hyj	VERB	_	VerbForm=Part	4	conj	_	start_char=106|end_char=110|NER=O
+23	në	në	ADP	_	Case=Acc	12	case	_	start_char=111|end_char=113|NER=O
+24	valën	valë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=114|end_char=119|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=120|end_char=121|NER=O
+26	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=122|end_char=127|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=128|end_char=130|NER=O
+28	pandemisë	pandemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=131|end_char=140|NER=O
+29	Covid	Covid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	start_char=141|end_char=146|SpaceAfter=No|NER=O
+30	"	"	PUNCT	_	_	16	punct	_	start_char=147|end_char=148|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	19	punct	_	start_char=149|end_char=150|NER=O
+32	kështu	kështu	ADV	_	AdvType=Man	21	mark	_	start_char=151|end_char=157|NER=O
+33	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=158|end_char=163|NER=O
+34	shprehur	shpreh	VERB	_	VerbForm=Part	10	conj	_	start_char=164|end_char=172|NER=O
+35	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=173|end_char=185|NER=O
+36	francez	francez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=186|end_char=193|NER=O
+37	Jean	Jean	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	appos	_	start_char=194|end_char=198|NER=B-PER
+38	Castex	Castex	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=199|end_char=205|SpaceAfter=No|NER=I-PER
+39	.	.	PUNCT	_	_	21	punct	_	start_char=206|end_char=207|SpacesAfter=\n|NER=O
+
+# text = Për herë të parë që nga 20 nëntori , Franca ka shënuar rritje të rasteve të reja me koronavirus .
+# sent_id = 1
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=4|end_char=8|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=11|NER=O
+4	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=12|end_char=16|NER=O
+5	që	që	PART	_	_	8	mark	_	start_char=17|end_char=19|NER=O
+6	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=20|end_char=23|NER=O
+7	20	20	NUM	_	NumType=Card	8	nummod	_	start_char=24|end_char=26|NER=B-DATE_0
+8	nëntori	nëntor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=27|end_char=34|SpaceAfter=No|NER=I-DATE_0
+9	,	,	PUNCT	_	_	2	punct	_	start_char=35|end_char=36|NER=O
+10	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=37|end_char=43|NER=B-VEND_1
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=44|end_char=46|NER=O
+12	shënuar	shënoj	VERB	_	VerbForm=Part	0	root	_	start_char=47|end_char=54|NER=O
+13	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=55|end_char=61|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=62|end_char=64|NER=O
+15	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=65|end_char=72|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=73|end_char=75|NER=O
+17	reja	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=76|end_char=80|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=81|end_char=83|NER=O
+19	koronavirus	koronaviru	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=84|end_char=95|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=96|end_char=97|SpacesAfter=\n|NER=O
+
+# text = Të martën autoritetet shëndetësore raportuan 29 , 975 raste me Covid , një rritje kjo prej 4 , 5 % .
+# sent_id = 2
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=B-DATE_0
+2	martën	martë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=3|end_char=9|NER=I-DATE_0
+3	autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=10|end_char=21|NER=O
+4	shëndetësore	shëndetësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=22|end_char=34|NER=O
+5	raportuan	raportoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=35|end_char=44|NER=O
+6	29	29	NUM	_	NumType=Card	5	advmod	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+8	975	975	NUM	_	NumType=Card	9	nummod	_	start_char=50|end_char=53|NER=O
+9	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=54|end_char=59|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=60|end_char=62|NER=O
+11	Covid	Covid	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=63|end_char=68|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=69|end_char=70|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=71|end_char=74|NER=O
+14	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	list	_	start_char=75|end_char=81|NER=O
+15	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=82|end_char=85|NER=O
+16	prej	prej	ADP	_	Case=Abl	18	case	_	start_char=86|end_char=90|NER=O
+17	4	4	NUM	_	NumType=Card	18	nummod	_	start_char=91|end_char=92|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	18	punct	_	start_char=93|end_char=94|SpaceAfter=No|NER=O
+19	5	5	NUM	_	NumType=Card	18	nummod	_	start_char=95|end_char=96|SpaceAfter=No|NER=O
+20	%	%	SYM	_	_	14	nmod	_	start_char=97|end_char=98|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	5	punct	_	start_char=99|end_char=100|SpacesAfter=\n|NER=O
+
+# text = Nga ana tjetër presidenti Emmanuel Macron u shpreh besimplotë se vaksina mund të shmangë pasojat e një vale të re pandemike , të shkaktuar sipas tij nga mutacionet e reja të Covid .
+# sent_id = 3
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=4|end_char=7|NER=O
+3	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	start_char=8|end_char=14|NER=O
+4	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=25|NER=O
+5	Emmanuel	Emmanuel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=26|end_char=34|NER=B-PER
+6	Macron	Macro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=35|end_char=41|NER=I-PER
+7	u	u	PART	_	_	8	fixed	_	start_char=42|end_char=43|NER=O
+8	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=44|end_char=50|NER=O
+9	besimplotë	besimplotë	ADV	_	AdvType=Man	8	advmod	_	start_char=51|end_char=61|NER=O
+10	se	se	SCONJ	_	_	14	mark	_	start_char=62|end_char=64|NER=O
+11	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=65|end_char=72|NER=O
+12	mund	mund	AUX	_	_	14	aux	_	start_char=73|end_char=77|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=78|end_char=80|NER=O
+14	shmangë	shmang	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=81|end_char=88|NER=O
+15	pasojat	pasojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=89|end_char=96|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=97|end_char=98|NER=O
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=99|end_char=102|NER=O
+18	vale	vale	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=103|end_char=107|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=108|end_char=110|NER=O
+20	re	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=111|end_char=113|NER=O
+21	pandemike	pandemik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=114|end_char=123|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	24	punct	_	start_char=124|end_char=125|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	24	fixed	_	start_char=126|end_char=128|NER=O
+24	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	18	amod	_	start_char=129|end_char=138|NER=O
+25	sipas	sipas	ADP	_	Case=Abl	26	case	_	start_char=139|end_char=144|NER=O
+26	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	start_char=145|end_char=148|NER=O
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=149|end_char=152|NER=O
+28	mutacionet	mutacion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	24	obl	_	start_char=153|end_char=163|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=164|end_char=165|NER=O
+30	reja	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=166|end_char=170|NER=O
+31	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=171|end_char=173|NER=O
+32	Covid	Covid	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=174|end_char=179|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	24	punct	_	start_char=180|end_char=181|NER=O
+
+# text = " Vaksina mund të parandalojë Francën që të përdorë një bllokim të tretë kombëtar " , tha më tej Macron .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vaksina	Vaksinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2|end_char=9|NER=O
+3	mund	mund	AUX	_	_	5	aux	_	start_char=10|end_char=14|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=15|end_char=17|NER=O
+5	parandalojë	parandaloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=29|NER=O
+6	Francën	Francë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=30|end_char=37|NER=B-VEND_1
+7	që	që	SCONJ	_	_	9	mark	_	start_char=38|end_char=40|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=41|end_char=43|NER=O
+9	përdorë	përdor	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=44|end_char=51|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=52|end_char=55|NER=O
+11	bllokim	bllokim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=56|end_char=63|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=64|end_char=66|NER=O
+13	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=67|end_char=72|NER=O
+14	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=73|end_char=81|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	11	punct	_	start_char=82|end_char=83|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=84|end_char=85|NER=O
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=86|end_char=89|NER=O
+18	më	më	ADP	_	Case=Acc	18	case	_	start_char=90|end_char=92|NER=O
+19	tej	tej	ADV	_	AdvType=Loc	16	advmod	_	start_char=93|end_char=96|NER=O
+20	Macron	Macro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	start_char=97|end_char=103|SpaceAfter=No|NER=B-PER
+21	.	.	PUNCT	_	_	16	punct	_	start_char=104|end_char=105|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,72 @@
+# text = 03 / 01 / 2024 Epidemiologu Artan Simaku thotë se ne vend ka bashkëqarkullim të gripit dhe covid por me viruset gribale të tipit A dhe B mbizotërojnë infektimet .
+# sent_id = 0
+1	03	03	NUM	_	NumType=Card	5	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	5	appos	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	7	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	7	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Epidemiologu	Epidemiolog	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	appos	_	start_char=15|end_char=27|NER=O
+7	Artan	Artan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	flat	_	start_char=28|end_char=33|NER=B-PER
+8	Simaku	Simak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	flat	_	start_char=34|end_char=40|NER=I-PER
+9	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	acl	_	start_char=41|end_char=46|NER=O
+10	se	se	SCONJ	_	_	37	mark	_	start_char=47|end_char=49|NER=O
+11	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	nummod	_	start_char=50|end_char=52|NER=O
+12	vend	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	obj	_	start_char=53|end_char=57|NER=O
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	advcl	_	start_char=58|end_char=60|NER=O
+14	bashkëqarkullim	bashkëqarkullim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	37	obj	_	start_char=61|end_char=76|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=77|end_char=79|NER=O
+16	gripit	grip	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=80|end_char=86|NER=O
+17	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=87|end_char=90|NER=O
+18	covid	covid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	40	conj	_	start_char=91|end_char=96|NER=O
+19	por	por	CCONJ	_	_	45	cc	_	start_char=97|end_char=100|NER=O
+20	me	me	ADP	_	Case=Acc	45	case	_	start_char=101|end_char=103|NER=O
+21	viruset	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	40	conj	_	start_char=104|end_char=111|NER=O
+22	gribale	gribal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	45	amod	_	start_char=112|end_char=119|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	48	det:poss	_	start_char=120|end_char=122|NER=O
+24	tipit	tip	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	45	nmod	_	start_char=123|end_char=128|NER=O
+25	A	a	PUNCT	_	_	48	punct	_	start_char=129|end_char=130|NER=O
+26	dhe	dhe	CCONJ	_	_	52	cc	_	start_char=131|end_char=134|NER=O
+27	B	B	SYM	_	_	52	nsubj	_	start_char=135|end_char=136|NER=O
+28	mbizotërojnë	mbizotëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	37	conj	_	start_char=137|end_char=149|NER=O
+29	infektimet	infektim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	52	obj	_	start_char=150|end_char=160|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	52	punct	_	start_char=161|end_char=162|NER=O
+
+# text = " Mbizotërojnë qarkullimi i virusit dhe gripit me prirje në rritje .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Mbizotërojnë	mbizotëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=14|NER=O
+3	qarkullimi	qarkullim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=15|end_char=25|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=26|end_char=27|NER=O
+5	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=28|end_char=35|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=36|end_char=39|NER=O
+7	gripit	grip	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=40|end_char=46|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=47|end_char=49|NER=O
+9	prirje	prirje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=50|end_char=56|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=57|end_char=59|NER=O
+11	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=60|end_char=66|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	2	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Mbizotërojnë viruset e tipit A por , edhe ato B të gripit " .
+# sent_id = 2
+1	Mbizotërojnë	mbizotëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=12|NER=O
+2	viruset	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	obj	_	start_char=13|end_char=20|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=21|end_char=22|NER=O
+4	tipit	tip	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=23|end_char=28|NER=O
+5	A	a	PUNCT	_	_	6	punct	_	start_char=29|end_char=30|NER=O
+6	por	por	CCONJ	_	_	9	cc	_	start_char=31|end_char=34|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=35|end_char=36|NER=O
+8	edhe	edhe	CCONJ	_	_	9	mark	_	start_char=37|end_char=41|NER=O
+9	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	conj	_	start_char=42|end_char=45|NER=O
+10	B	B	SYM	_	_	9	appos	_	start_char=46|end_char=47|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=48|end_char=50|NER=O
+12	gripit	gripit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=51|end_char=57|SpaceAfter=No|NER=O
+13	"	"	PUNCT	_	_	10	punct	_	start_char=58|end_char=59|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	1	punct	_	start_char=60|end_char=61|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 3
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

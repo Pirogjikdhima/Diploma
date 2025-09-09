@@ -1,0 +1,319 @@
+# text = 12 / 05 / 2022 Dita Ndërkombëtare e Infermierëve , e gjen qarkun e Korçës me një numër më të pakët infermierësh .
+# sent_id = 0
+1	12	12	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	05	05	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	17	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Dita	ditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=15|end_char=19|NER=O
+7	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=20|end_char=33|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=34|end_char=35|NER=O
+9	Infermierëve	Infermier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=36|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	26	punct	_	start_char=49|end_char=50|NER=O
+11	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=51|end_char=52|NER=O
+12	gjen	gjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl:relcl	_	start_char=53|end_char=57|NER=O
+13	qarkun	qark	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=58|end_char=64|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=65|end_char=66|NER=O
+15	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=67|end_char=73|NER=B-VEND_0
+16	me	me	ADP	_	Case=Acc	32	case	_	start_char=74|end_char=76|NER=O
+17	një	një	DET	_	Definite=Ind	32	det	_	start_char=77|end_char=80|NER=O
+18	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=81|end_char=86|NER=O
+19	më	më	PART	_	_	36	mark	_	start_char=87|end_char=89|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=90|end_char=92|NER=O
+21	pakët	pakët	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=93|end_char=98|NER=O
+22	infermierësh	infermierësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	start_char=99|end_char=111|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	26	punct	_	start_char=112|end_char=113|NER=O
+
+# text = Kjo për arsye se një pjesë e madhe e tyre janë larguar për punë jashtë vendit .
+# sent_id = 1
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	nsubj	_	start_char=0|end_char=3|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=4|end_char=7|NER=O
+3	arsye	arsye	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=8|end_char=13|NER=O
+4	se	se	SCONJ	_	_	12	mark	_	start_char=14|end_char=16|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=17|end_char=20|NER=O
+6	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	start_char=21|end_char=26|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=27|end_char=28|NER=O
+8	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=29|end_char=34|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=35|end_char=36|NER=O
+10	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=37|end_char=41|NER=O
+11	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=42|end_char=46|NER=O
+12	larguar	largoj	VERB	_	VerbForm=Part	0	root	_	start_char=47|end_char=54|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=55|end_char=58|NER=O
+14	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=59|end_char=63|NER=O
+15	jashtë	jashtë	ADP	_	Case=Abl	16	case	_	start_char=64|end_char=70|NER=O
+16	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=71|end_char=77|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	12	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Janë jo vetëm studente të cilët sapo kanë mbaruar studimet por dhe infermierë me një karrierë pune të pasur .
+# sent_id = 2
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	jo	jo	PART	_	_	4	mark	_	start_char=5|end_char=7|NER=O
+3	vetëm	vetëm	PART	_	_	4	mark	_	start_char=8|end_char=13|NER=O
+4	studente	student	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	advmod	_	start_char=14|end_char=22|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=23|end_char=25|NER=O
+6	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	9	nsubj	_	start_char=26|end_char=31|NER=O
+7	sapo	sapo	ADV	_	AdvType=Tim	9	advmod	_	start_char=32|end_char=36|NER=O
+8	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=37|end_char=41|NER=O
+9	mbaruar	mbaroj	VERB	_	VerbForm=Part	1	advcl	_	start_char=42|end_char=49|NER=O
+10	studimet	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=50|end_char=58|NER=O
+11	por	por	CCONJ	_	_	13	cc	_	start_char=59|end_char=62|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=63|end_char=66|NER=O
+13	infermierë	infermierë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	conj	_	start_char=67|end_char=77|NER=O
+14	me	me	ADP	_	Case=Acc	16	case	_	start_char=78|end_char=80|NER=O
+15	një	një	DET	_	Definite=Ind	16	det	_	start_char=81|end_char=84|NER=O
+16	karrierë	karrierë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=85|end_char=93|NER=O
+17	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=94|end_char=98|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=99|end_char=101|NER=O
+19	pasur	pasur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=102|end_char=107|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	1	punct	_	start_char=108|end_char=109|NER=O
+
+# text = Kjo gjë reflektohet dhe tek brezi i ri i studentëve , të cilët , janë të dyzuar për mundësinë e ushtrimit të profesioni të tyre jashtë apo brenda vendit .
+# sent_id = 3
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=7|NER=O
+3	reflektohet	reflektoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=8|end_char=19|NER=O
+4	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=20|end_char=23|NER=O
+5	tek	tek	ADP	_	Case=Nom	6	case	_	start_char=24|end_char=27|NER=O
+6	brezi	brez	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=28|end_char=33|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=34|end_char=35|NER=O
+8	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=36|end_char=38|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=39|end_char=40|NER=O
+10	studentëve	student	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=41|end_char=51|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=52|end_char=53|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=54|end_char=56|NER=O
+13	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	15	nsubj	_	start_char=57|end_char=62|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	13	punct	_	start_char=63|end_char=64|NER=O
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=65|end_char=69|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=70|end_char=72|NER=O
+17	dyzuar	dyzuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	cop	_	start_char=73|end_char=79|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=80|end_char=83|NER=O
+19	mundësinë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	start_char=84|end_char=93|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=94|end_char=95|NER=O
+21	ushtrimit	ushtrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=96|end_char=105|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=106|end_char=108|NER=O
+23	profesioni	profesion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=109|end_char=119|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=120|end_char=122|NER=O
+25	tyre	tyre	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	amod:poss	_	start_char=123|end_char=127|NER=O
+26	jashtë	jashtë	ADV	_	AdvType=Tim	23	amod	_	start_char=128|end_char=134|NER=O
+27	apo	apo	CCONJ	_	_	29	cc	_	start_char=135|end_char=138|NER=O
+28	brenda	brenda	ADP	_	Case=Abl	29	case	_	start_char=139|end_char=145|NER=O
+29	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	23	conj	_	start_char=146|end_char=152|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	3	punct	_	start_char=153|end_char=154|SpacesAfter=\n|NER=O
+
+# text = Sot në Ditën Ndërkombëtare të Infermierit , një pjesë e mirë e studentëve kërkojnë mundësi jashtë vendit duke u joshur nga standardi i jetesës dhe pagesa , e kjo kryesisht në Gjermani dhe Itali .
+# sent_id = 4
+1	Sot	sot	ADV	_	AdvType=Tim	14	advmod	_	start_char=0|end_char=3|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=4|end_char=6|NER=O
+3	Ditën	ditë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	advmod	_	start_char=7|end_char=12|NER=O
+4	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=13|end_char=26|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=27|end_char=29|NER=O
+6	Infermierit	Infermier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=30|end_char=41|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	1	punct	_	start_char=42|end_char=43|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=44|end_char=47|NER=O
+9	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	nsubj	_	start_char=48|end_char=53|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=54|end_char=55|NER=O
+11	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=56|end_char=60|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=61|end_char=62|NER=O
+13	studentëve	student	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=63|end_char=73|NER=O
+14	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=74|end_char=82|NER=O
+15	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=83|end_char=90|NER=O
+16	jashtë	jashtë	ADP	_	Case=Abl	17	case	_	start_char=91|end_char=97|NER=O
+17	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	start_char=98|end_char=104|NER=O
+18	duke	duke	PART	_	_	20	fixed	_	start_char=105|end_char=109|NER=O
+19	u	u	PART	_	_	20	fixed	_	start_char=110|end_char=111|NER=O
+20	joshur	joshoj	VERB	_	VerbForm=Part	14	advmod	_	start_char=112|end_char=118|NER=O
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=119|end_char=122|NER=O
+22	standardi	standard	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	start_char=123|end_char=132|NER=O
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=133|end_char=134|NER=O
+24	jetesës	jetesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=135|end_char=142|NER=O
+25	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=143|end_char=146|NER=O
+26	pagesa	pagesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	conj	_	start_char=147|end_char=153|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	30	punct	_	start_char=154|end_char=155|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=156|end_char=157|NER=O
+29	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	start_char=158|end_char=161|NER=O
+30	kryesisht	kryesisht	ADV	_	AdvType=Man	32	advmod	_	start_char=162|end_char=171|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=172|end_char=174|NER=O
+32	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	nmod	_	start_char=175|end_char=183|NER=B-VEND_1
+33	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=184|end_char=187|NER=O
+34	Itali	Itali	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	32	conj	_	start_char=188|end_char=193|SpaceAfter=No|NER=B-VEND_1
+35	.	.	PUNCT	_	_	14	punct	_	start_char=194|end_char=195|SpacesAfter=\n|NER=O
+
+# text = Por ka dhe nga ata të cilët perspektivën e shohin në Shqipëri pasi mendojnë se kanë më shumë mundësi punësimi dhe ngritjeje profesionale .
+# sent_id = 5
+1	Por	por	CCONJ	_	_	2	cc	_	start_char=0|end_char=3|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=6|NER=O
+3	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=7|end_char=10|NER=O
+4	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=11|end_char=14|NER=O
+5	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	det	_	start_char=15|end_char=18|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=19|end_char=21|NER=O
+7	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	obl	_	start_char=22|end_char=27|NER=O
+8	perspektivën	perspektivë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=28|end_char=40|NER=O
+9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=41|end_char=42|NER=O
+10	shohin	shoh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=43|end_char=49|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+12	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=53|end_char=61|NER=B-VEND_1
+13	pasi	pasi	SCONJ	_	_	14	mark	_	start_char=62|end_char=66|NER=O
+14	mendojnë	mendoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=67|end_char=75|NER=O
+15	se	se	SCONJ	_	_	16	mark	_	start_char=76|end_char=78|NER=O
+16	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	advcl	_	start_char=79|end_char=83|NER=O
+17	më	më	PART	_	_	19	mark	_	start_char=84|end_char=86|NER=O
+18	shumë	shumë	PRON	_	PronType=Ind	19	nummod	_	start_char=87|end_char=92|NER=O
+19	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=93|end_char=100|NER=O
+20	punësimi	punësim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=101|end_char=109|NER=O
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=110|end_char=113|NER=O
+22	ngritjeje	ngritje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	start_char=114|end_char=123|NER=O
+23	profesionale	profesional	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=124|end_char=136|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	16	punct	_	start_char=137|end_char=138|SpacesAfter=\n|NER=O
+
+# text = Me rastin e kësaj ditë " Urdhri i Infermierit " në qarkun Korçë ka organizuar një aktivitet ku janë shpërndarë dhe certifikata mirënjohjeje .
+# sent_id = 6
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	rastin	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=10|end_char=11|NER=O
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=12|end_char=17|NER=O
+5	ditë	ditë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=18|end_char=22|NER=O
+6	"	"	PUNCT	_	_	7	punct	_	start_char=23|end_char=24|SpaceAfter=No|NER=O
+7	Urdhri	urdhër	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=25|end_char=31|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=32|end_char=33|NER=O
+9	Infermierit	Infermier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	compound	_	start_char=34|end_char=45|NER=O
+10	"	"	PUNCT	_	_	7	punct	_	start_char=46|end_char=47|NER=O
+11	në	në	ADP	_	Case=Acc	11	case	_	start_char=48|end_char=50|NER=O
+12	qarkun	qark	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=57|NER=O
+13	Korçë	Korçë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	appos	_	start_char=58|end_char=63|NER=B-VEND_0
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=64|end_char=66|NER=O
+15	organizuar	organizuar	VERB	_	VerbForm=Part	0	root	_	start_char=67|end_char=77|NER=O
+16	një	një	DET	_	Definite=Ind	16	det	_	start_char=78|end_char=81|NER=O
+17	aktivitet	aktivitet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	start_char=82|end_char=91|NER=O
+18	ku	ku	ADV	_	AdvType=Loc	19	advmod	_	start_char=92|end_char=94|NER=O
+19	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=95|end_char=99|NER=O
+20	shpërndarë	shpërndar	VERB	_	VerbForm=Part	16	acl:relcl	_	start_char=100|end_char=110|NER=O
+21	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=111|end_char=114|NER=O
+22	certifikata	certifikatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=115|end_char=126|NER=O
+23	mirënjohjeje	mirënjohje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=127|end_char=139|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	14	punct	_	start_char=140|end_char=141|SpacesAfter=\n|NER=O
+
+# text = Për Presidenten e këtij urdhri në Korçë Delantina Mulla mirënjohja shkon për të gjithë infermierët të cilët janë në vijën e parë të rrezikut duke shpëtuar jetët e njerëzve .
+# sent_id = 7
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	Presidenten	presidenten	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=4|end_char=15|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=16|end_char=17|NER=O
+4	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=18|end_char=23|NER=O
+5	urdhri	urdhër	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=24|end_char=30|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=31|end_char=33|NER=O
+7	Korçë	Korçë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=34|end_char=39|NER=B-VEND_0
+8	Delantina	delantinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=40|end_char=49|NER=B-PER
+9	Mulla	Mulla	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=50|end_char=55|NER=I-PER
+10	mirënjohja	mirënjohje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=56|end_char=66|NER=O
+11	shkon	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=67|end_char=72|NER=O
+12	për	për	ADP	_	Case=Acc	15	case	_	start_char=73|end_char=76|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=77|end_char=79|NER=O
+14	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	15	nummod	_	start_char=80|end_char=86|NER=O
+15	infermierët	infermier	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	start_char=87|end_char=98|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=99|end_char=101|NER=O
+17	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	start_char=102|end_char=107|NER=O
+18	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	acl	_	start_char=108|end_char=112|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=113|end_char=115|NER=O
+20	vijën	vijë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=116|end_char=121|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=122|end_char=123|NER=O
+22	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=124|end_char=128|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=129|end_char=131|NER=O
+24	rrezikut	rrezik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=132|end_char=140|NER=O
+25	duke	duke	PART	_	_	26	fixed	_	start_char=141|end_char=145|NER=O
+26	shpëtuar	shpëtoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=146|end_char=154|NER=O
+27	jetët	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obj	_	start_char=155|end_char=160|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det:poss	_	start_char=161|end_char=162|NER=O
+29	njerëzve	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	27	nmod	_	start_char=163|end_char=171|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	26	punct	_	start_char=172|end_char=173|NER=O
+
+# text = Po ajo nuk le pa përmendur dhe faktin e largimit të infermierëve si një fenomen social .
+# sent_id = 8
+1	Po	po	PART	_	_	2	mark:emph	_	start_char=0|end_char=2|NER=O
+2	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3|end_char=6|NER=O
+3	nuk	nuk	PART	_	_	6	mark	_	start_char=7|end_char=10|NER=O
+4	le	le	PART	_	_	6	obj	_	start_char=11|end_char=13|NER=O
+5	pa	pa	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=14|end_char=16|NER=O
+6	përmendur	përmendoj	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=26|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=27|end_char=30|NER=O
+8	faktin	fakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=31|end_char=37|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=38|end_char=39|NER=O
+10	largimit	largim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=40|end_char=48|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=49|end_char=51|NER=O
+12	infermierëve	infermier	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	start_char=52|end_char=64|NER=O
+13	si	si	SCONJ	_	_	15	mark	_	start_char=65|end_char=67|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=68|end_char=71|NER=O
+15	fenomen	fenom	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=72|end_char=79|NER=O
+16	social	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=80|end_char=86|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	6	punct	_	start_char=87|end_char=88|SpacesAfter=\n|NER=O
+
+# text = Çertifikata mirënjohjeje nga " Urdhri i Infermierit " në Korçë kanë shkuar për ekipin e spitalit " Shaniko Jupasi " Kolonjë dhe vlerësimi për infermierin i ka takuar Vaska Vasilikofskit në Liqenas .
+# sent_id = 9
+1	Çertifikata	Çertifikatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=0|end_char=11|NER=O
+2	mirënjohjeje	mirënjohje	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|NER=O
+3	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=25|end_char=28|NER=O
+4	"	"	PUNCT	_	_	5	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+5	Urdhri	urdhër	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=31|end_char=37|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=38|end_char=39|NER=O
+7	Infermierit	Infermier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	compound	_	start_char=40|end_char=51|NER=O
+8	"	"	PUNCT	_	_	5	punct	_	start_char=52|end_char=53|NER=O
+9	në	në	ADP	_	Case=Acc	9	case	_	start_char=54|end_char=56|NER=O
+10	Korçë	Korçë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=57|end_char=62|NER=B-VEND_0
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=63|end_char=67|NER=O
+12	shkuar	shkoj	VERB	_	VerbForm=Part	0	root	_	start_char=68|end_char=74|NER=O
+13	për	për	ADP	_	Case=Acc	13	case	_	start_char=75|end_char=78|NER=O
+14	ekipin	ekip	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=79|end_char=85|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=86|end_char=87|NER=O
+16	spitalit	spital	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=88|end_char=96|NER=O
+17	"	"	PUNCT	_	_	17	punct	_	start_char=97|end_char=98|SpaceAfter=No|NER=O
+18	Shaniko	Shaniko	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=99|end_char=106|NER=O
+19	Jupasi	Jupasi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=107|end_char=113|NER=O
+20	"	"	PUNCT	_	_	17	punct	_	start_char=114|end_char=115|NER=O
+21	Kolonjë	Kolonjë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	flat	_	start_char=116|end_char=123|NER=O
+22	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=124|end_char=127|NER=O
+23	vlerësimi	vlerësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=128|end_char=137|NER=O
+24	për	për	ADP	_	Case=Acc	23	case	_	start_char=138|end_char=141|NER=O
+25	infermierin	infermier	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	start_char=142|end_char=153|NER=O
+26	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	start_char=154|end_char=155|NER=O
+27	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=156|end_char=158|NER=O
+28	takuar	takoj	VERB	_	VerbForm=Part	11	conj	_	start_char=159|end_char=165|NER=O
+29	Vaska	Vaskë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=166|end_char=171|NER=B-PER
+30	Vasilikofskit	Vasilikofsk	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=172|end_char=185|NER=I-PER
+31	në	në	ADP	_	Case=Acc	30	case	_	start_char=186|end_char=188|NER=O
+32	Liqenas	Liqenas	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=189|end_char=196|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	26	punct	_	start_char=197|end_char=198|SpacesAfter=\n|NER=O
+
+# text = Ndërsa nga ana e studentëve të infermierisë janë demostruar për nxënësit e gjimnazeve dhënia e ndihmës së parë si dhe ju është ofruar qytetarëve të Korçës matja e tensionit dhe glicemisë falas .
+# sent_id = 10
+1	Ndërsa	ndërsa	CCONJ	_	_	9	cc	_	start_char=0|end_char=6|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=7|end_char=10|NER=O
+3	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=11|end_char=14|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=16|NER=O
+5	studentëve	student	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=17|end_char=27|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=28|end_char=30|NER=O
+7	infermierisë	infermieri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=31|end_char=43|NER=O
+8	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=44|end_char=48|NER=O
+9	demostruar	demostroj	VERB	_	VerbForm=Part	0	root	_	start_char=49|end_char=59|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=60|end_char=63|NER=O
+11	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	9	obl	_	start_char=64|end_char=72|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det:poss	_	start_char=73|end_char=74|NER=O
+13	gjimnazeve	gjimnaz	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=75|end_char=85|NER=O
+14	dhënia	dhënie	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=86|end_char=92|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=93|end_char=94|NER=O
+16	ndihmës	ndihmë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=95|end_char=102|NER=O
+17	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=103|end_char=105|NER=O
+18	parë	parë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=106|end_char=110|NER=O
+19	si	si	SCONJ	_	_	20	fixed	_	start_char=111|end_char=113|NER=O
+20	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=114|end_char=117|NER=O
+21	ju	ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	23	mark	_	start_char=118|end_char=120|NER=O
+22	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=121|end_char=126|NER=O
+23	ofruar	ofroj	VERB	_	VerbForm=Part	9	conj	_	start_char=127|end_char=133|NER=O
+24	qytetarëve	qytetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	23	obj	_	start_char=134|end_char=144|NER=O
+25	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	26	det:poss	_	start_char=145|end_char=147|NER=O
+26	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=148|end_char=154|NER=B-VEND_0
+27	matja	matjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=155|end_char=160|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=161|end_char=162|NER=O
+29	tensionit	tension	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=163|end_char=172|NER=O
+30	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=173|end_char=176|NER=O
+31	glicemisë	glicemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	conj	_	start_char=177|end_char=186|NER=O
+32	falas	falas	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=187|end_char=192|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	23	punct	_	start_char=193|end_char=194|SpacesAfter=\n\n|NER=O
+

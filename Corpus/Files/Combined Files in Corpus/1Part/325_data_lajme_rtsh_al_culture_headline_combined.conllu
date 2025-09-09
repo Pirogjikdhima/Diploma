@@ -1,0 +1,143 @@
+# text = 14 / 09 / 2023 " Kujdesin për fëmijët dhe adoleshentët e kemi në ADN - në e këtij teatri .
+# sent_id = 0
+1	14	14	NUM	_	NumType=Card	12	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	9	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	12	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	20	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Kujdesin	Kujdes	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=17|end_char=25|NER=O
+8	për	për	ADP	_	Case=Acc	4	case	_	start_char=26|end_char=29|NER=O
+9	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=30|end_char=37|NER=O
+10	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=38|end_char=41|NER=O
+11	adoleshentët	adoleshentë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	conj	_	start_char=42|end_char=54|NER=O
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=55|end_char=56|NER=O
+13	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=57|end_char=61|NER=O
+14	në	në	ADP	_	Case=Acc	10	case	_	start_char=62|end_char=64|NER=O
+15	ADN	ADN	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=65|end_char=68|NER=O
+16	-	-	PUNCT	_	_	8	punct	_	start_char=69|end_char=70|NER=O
+17	në	ADN	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=71|end_char=73|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=74|end_char=75|NER=O
+19	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=76|end_char=81|NER=O
+20	teatri	teatr	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=82|end_char=88|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	8	punct	_	start_char=89|end_char=90|NER=O
+
+# text = Gjithmonë ai ka funksionuar edhe me premiera për fëmijë .
+# sent_id = 1
+1	Gjithmonë	Gjithmonë	ADV	_	AdvType=Tim	4	advmod	_	start_char=0|end_char=9|NER=O
+2	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=10|end_char=12|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=13|end_char=15|NER=O
+4	funksionuar	funksionoj	VERB	_	VerbForm=Part	0	root	_	start_char=16|end_char=27|NER=O
+5	edhe	edhe	PART	_	_	7	cc	_	start_char=28|end_char=32|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=33|end_char=35|NER=O
+7	premiera	premierë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=36|end_char=44|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=45|end_char=48|NER=O
+9	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=49|end_char=55|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	4	punct	_	start_char=56|end_char=57|NER=O
+
+# text = Ne prekim audiencat e reja , " thotë drejtori i Teatrit , Gjergji Prevazi .
+# sent_id = 2
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	prekim	prek	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	8	advcl	_	start_char=3|end_char=9|NER=O
+3	audiencat	audiencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=10|end_char=19|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=22|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=27|end_char=28|SpaceAfter=No|NER=O
+7	"	"	PUNCT	_	_	8	punct	_	start_char=29|end_char=30|NER=O
+8	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=36|NER=O
+9	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=37|end_char=45|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=46|end_char=47|NER=O
+11	Teatrit	Teatr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=48|end_char=55|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=56|end_char=57|NER=O
+13	Gjergji	Gjergji	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=58|end_char=65|NER=B-PER
+14	Prevazi	prevaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=66|end_char=73|SpaceAfter=No|NER=I-PER
+15	.	.	PUNCT	_	_	8	punct	_	start_char=74|end_char=75|SpacesAfter=\n|NER=O
+
+# text = Në një intervistë për RTSH - në , drejtori Prevazi thotë se synim kryesor kanë promovimin e artit teatror jashtë kufijve të vendit .
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=7|end_char=17|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=21|NER=O
+5	RTSH	RTSH-në	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=22|end_char=26|SpaceAfter=No|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=27|end_char=28|SpaceAfter=No|NER=O
+7	në	RTSH-në	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=29|end_char=31|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	3	punct	_	start_char=32|end_char=33|NER=O
+9	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=34|end_char=42|NER=O
+10	Prevazi	prevaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=43|end_char=50|NER=B-PER
+11	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=51|end_char=56|NER=O
+12	se	se	SCONJ	_	_	13	mark	_	start_char=57|end_char=59|NER=O
+13	synim	synim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=60|end_char=65|NER=O
+14	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=66|end_char=73|NER=O
+15	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=74|end_char=78|NER=O
+16	promovimin	promovim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=79|end_char=89|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=90|end_char=91|NER=O
+18	artit	art	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=92|end_char=97|NER=O
+19	teatror	teatror	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=98|end_char=105|NER=O
+20	jashtë	jashtë	ADP	_	Case=Abl	19	case	_	start_char=106|end_char=112|NER=O
+21	kufijve	kufij	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	13	advmod	_	start_char=113|end_char=120|NER=O
+22	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	21	det:poss	_	start_char=121|end_char=123|NER=O
+23	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=124|end_char=130|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	13	punct	_	start_char=131|end_char=132|SpacesAfter=\n|NER=O
+
+# text = " Ky Teatër , që nga muaji maj deri më sot , ka qenë pjesëmarrës në gjashtë festivale ndërkombëtare , në Itali , Bullgari dhe në rajonin e Ballkanit , çka flet për cilësinë e produksioneve tona , që janë të aksesueshme edhe për tregun ndërkombëtar , " shton Prevazi .
+# sent_id = 4
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=2|end_char=4|NER=O
+3	Teatër	Teatër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=5|end_char=11|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=12|end_char=13|NER=O
+5	që	që	PART	_	_	7	mark	_	start_char=14|end_char=16|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=17|end_char=20|NER=O
+7	muaji	muaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=21|end_char=26|NER=O
+8	maj	maj	NUM	_	NumType=Card	7	amod	_	start_char=27|end_char=30|NER=O
+9	deri	deri	ADP	_	Case=Acc	11	case	_	start_char=31|end_char=35|NER=O
+10	më	më	PART	_	_	11	mark	_	start_char=36|end_char=38|NER=O
+11	sot	sot	ADV	_	AdvType=Tim	14	advmod	_	start_char=39|end_char=42|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	11	punct	_	start_char=43|end_char=44|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=45|end_char=47|NER=O
+14	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=48|end_char=52|NER=O
+15	pjesëmarrës	pjesëmarrë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	cop	_	start_char=53|end_char=64|NER=O
+16	në	në	ADP	_	Case=Acc	18	case	_	start_char=65|end_char=67|NER=O
+17	gjashtë	gjashtë	NUM	_	NumType=Card	18	nummod	_	start_char=68|end_char=75|NER=O
+18	festivale	festival	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	advmod	_	start_char=76|end_char=85|NER=O
+19	ndërkombëtare	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=86|end_char=99|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	22	punct	_	start_char=100|end_char=101|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=102|end_char=104|NER=O
+22	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=105|end_char=110|SpaceAfter=No|NER=B-VEND_1
+23	,	,	PUNCT	_	_	24	punct	_	start_char=111|end_char=112|NER=O
+24	Bullgari	Bullgar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	list	_	start_char=113|end_char=121|NER=B-VEND_1
+25	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=122|end_char=125|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=126|end_char=128|NER=O
+27	rajonin	rajon	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	conj	_	start_char=129|end_char=136|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=137|end_char=138|NER=O
+29	Ballkanit	Ballkan	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=139|end_char=148|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=149|end_char=150|NER=O
+31	çka	çka	PRON	_	PronType=Int	32	nsubj	_	start_char=151|end_char=154|NER=O
+32	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	acl:relcl	_	start_char=155|end_char=159|NER=O
+33	për	për	ADP	_	Case=Acc	34	case	_	start_char=160|end_char=163|NER=O
+34	cilësinë	cilësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obl	_	start_char=164|end_char=172|NER=O
+35	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=173|end_char=174|NER=O
+36	produksioneve	produksion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	34	nmod	_	start_char=175|end_char=188|NER=O
+37	tona	jonë	PRON	_	Case=Gen|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	amod	_	start_char=189|end_char=193|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	39	punct	_	start_char=194|end_char=195|NER=O
+39	që	që	PRON	_	PronType=Rel	40	nsubj	_	start_char=196|end_char=198|NER=O
+40	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	acl	_	start_char=199|end_char=203|NER=O
+41	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=204|end_char=206|NER=O
+42	aksesueshme	aksesueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	40	cop	_	start_char=207|end_char=218|NER=O
+43	edhe	edhe	PART	_	_	45	mark	_	start_char=219|end_char=223|NER=O
+44	për	për	ADP	_	Case=Acc	45	case	_	start_char=224|end_char=227|NER=O
+45	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	40	advmod	_	start_char=228|end_char=234|NER=O
+46	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	start_char=235|end_char=247|SpaceAfter=No|NER=O
+47	,	,	PUNCT	_	_	49	punct	_	start_char=248|end_char=249|SpaceAfter=No|NER=O
+48	"	"	PUNCT	_	_	49	punct	_	start_char=250|end_char=251|NER=O
+49	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	40	conj	_	start_char=252|end_char=257|NER=O
+50	Prevazi	prevaz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	49	obj	_	start_char=258|end_char=265|SpaceAfter=No|NER=B-PER
+51	.	.	PUNCT	_	_	49	punct	_	start_char=266|end_char=267|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Katerina Kule
+# sent_id = 5
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Katerina	Katerinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=19|NER=B-PER
+4	Kule	Kule	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=20|end_char=24|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,318 @@
+# text = " Kam marrë pjesë në shumë festivale të këngës për fëmijë .
+# sent_id = 0
+1	"	"	PUNCT	_	_	13	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	20	aux	_	start_char=2|end_char=5|NER=O
+3	marrë	marr	VERB	_	VerbForm=Part	3	conj	_	start_char=6|end_char=11|NER=O
+4	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	start_char=12|end_char=17|NER=O
+5	në	në	ADP	_	Case=Acc	24	case	_	start_char=18|end_char=20|NER=O
+6	shumë	shumë	PRON	_	PronType=Ind	24	nummod	_	start_char=21|end_char=26|NER=O
+7	festivale	festival	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	obl	_	start_char=27|end_char=36|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=37|end_char=39|NER=O
+9	këngës	këngë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=40|end_char=46|NER=O
+10	për	për	ADP	_	Case=Acc	28	case	_	start_char=47|end_char=50|NER=O
+11	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=51|end_char=57|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	20	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Vij me dëshirë në kurs e më pëlqen shumë të këndoj .
+# sent_id = 1
+1	Vij	jem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=4|end_char=6|NER=O
+3	dëshirë	dëshirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=7|end_char=14|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=15|end_char=17|NER=O
+5	kurs	kurs	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=18|end_char=22|NER=O
+6	e	e	CCONJ	_	_	8	cc	_	start_char=23|end_char=24|NER=O
+7	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	start_char=25|end_char=27|NER=O
+8	pëlqen	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=28|end_char=34|NER=O
+9	shumë	shumë	ADV	_	AdvType=Deg	11	advmod	_	start_char=35|end_char=40|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=41|end_char=43|NER=O
+11	këndoj	këndoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	ccomp	_	start_char=44|end_char=50|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	1	punct	_	start_char=51|end_char=52|SpaceAfter=No|NER=O
+
+# text = Vij dy herë në javë që bëj prova pranë qendrës Fato Berberi .
+# sent_id = 2
+1	Vij	jem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	dy	dy	NUM	_	NumType=Card	3	nummod	_	start_char=4|end_char=6|NER=O
+3	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	advmod	_	start_char=7|end_char=11|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=14|NER=O
+5	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=15|end_char=19|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=20|end_char=22|NER=O
+7	bëj	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	acl	_	start_char=23|end_char=26|NER=O
+8	prova	provë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=27|end_char=32|NER=O
+9	pranë	pranë	ADP	_	Case=Abl	10	case	_	start_char=33|end_char=38|NER=O
+10	qendrës	qendrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=39|end_char=46|NER=O
+11	Fato	Fato	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	start_char=47|end_char=51|NER=B-PER
+12	Berberi	Berber	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=52|end_char=59|SpaceAfter=No|NER=I-PER
+13	.	.	PUNCT	_	_	1	punct	_	start_char=60|end_char=61|SpaceAfter=No|NER=I-PER
+
+# text = Është një sakrificë për prindërit e mi që më shoqërojnë dhe unë dua t ' ua shpërblej një ditë " – thotë Olgerta Janë 15 fëmijë të talentuar që frekuentojnë rregullisht , 2 herë në javë , kursin e këngës në këtë qendër .
+# sent_id = 3
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=I-PER
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=6|end_char=9|NER=O
+3	sakrificë	sakrificë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=10|end_char=19|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=20|end_char=23|NER=O
+5	prindërit	prind	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=24|end_char=33|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=34|end_char=35|NER=O
+7	mi	im	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=36|end_char=38|NER=O
+8	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=39|end_char=41|NER=O
+9	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=42|end_char=44|NER=O
+10	shoqërojnë	shoqëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=45|end_char=55|NER=O
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=56|end_char=59|NER=O
+12	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	obj	_	start_char=60|end_char=63|NER=O
+13	dua	duaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	10	conj	_	start_char=64|end_char=67|NER=O
+14	t	t'ua	ADV	_	AdvType=Man	13	advmod	_	start_char=68|end_char=69|NER=O
+15	'	'	PUNCT	_	_	13	punct	_	start_char=70|end_char=71|NER=O
+16	ua	t'ua	ADV	_	AdvType=Man	13	advmod	_	start_char=72|end_char=74|NER=O
+17	shpërblej	shpërblem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	13	ccomp	_	start_char=75|end_char=84|NER=O
+18	një	një	DET	_	Definite=Ind	17	det	_	start_char=85|end_char=88|NER=O
+19	ditë	ditë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=89|end_char=93|NER=O
+20	"	"	PUNCT	_	_	15	punct	_	start_char=94|end_char=95|NER=O
+21	–	–	PUNCT	_	_	19	punct	_	start_char=96|end_char=97|NER=O
+22	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=98|end_char=103|NER=O
+23	Olgerta	Olgertë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=104|end_char=111|SpacesAfter=\n|NER=B-PER
+24	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	ccomp	_	start_char=112|end_char=116|NER=O
+25	15	15	NUM	_	NumType=Card	23	nummod	_	start_char=117|end_char=119|NER=O
+26	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	cop	_	start_char=120|end_char=126|NER=O
+27	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	25	det	_	start_char=127|end_char=129|NER=O
+28	talentuar	talentuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=130|end_char=139|NER=O
+29	që	që	PRON	_	PronType=Rel	27	nsubj	_	start_char=140|end_char=142|NER=O
+30	frekuentojnë	frekuentoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	acl:relcl	_	start_char=143|end_char=155|NER=O
+31	rregullisht	rregullisht	ADV	_	AdvType=Man	27	advmod	_	start_char=156|end_char=167|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	31	punct	_	start_char=168|end_char=169|NER=O
+33	2	2	NUM	_	NumType=Card	31	nummod	_	start_char=170|end_char=171|NER=O
+34	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	advmod	_	start_char=172|end_char=176|NER=O
+35	në	në	ADP	_	Case=Acc	33	case	_	start_char=177|end_char=179|NER=O
+36	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	advmod	_	start_char=180|end_char=184|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	35	punct	_	start_char=185|end_char=186|NER=O
+38	kursin	kurs	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	33	list	_	start_char=187|end_char=193|NER=O
+39	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=194|end_char=195|NER=O
+40	këngës	këngë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=196|end_char=202|NER=O
+41	në	në	ADP	_	Case=Acc	40	case	_	start_char=203|end_char=205|NER=O
+42	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	40	det	_	start_char=206|end_char=210|NER=O
+43	qendër	qendër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	nmod	_	start_char=211|end_char=217|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	1	punct	_	start_char=218|end_char=219|NER=O
+
+# text = Dashuria për muzikën i sjell ata edhe nga zona jashtë qytetit si Lazarati , Libohova , Kardhiqi .
+# sent_id = 4
+1	Dashuria	dashuri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=8|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=9|end_char=12|NER=O
+3	muzikën	muzikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=13|end_char=20|NER=O
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=21|end_char=22|NER=O
+5	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=28|NER=O
+6	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	start_char=29|end_char=32|NER=O
+7	edhe	edhe	PART	_	_	9	cc	_	start_char=33|end_char=37|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=38|end_char=41|NER=O
+9	zona	zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=42|end_char=46|NER=O
+10	jashtë	jashtë	ADP	_	Case=Abl	11	case	_	start_char=47|end_char=53|NER=O
+11	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=54|end_char=61|NER=O
+12	si	si	SCONJ	_	_	13	mark	_	start_char=62|end_char=64|NER=O
+13	Lazarati	Lazarat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=65|end_char=73|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=74|end_char=75|NER=O
+15	Libohova	Libohovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	list	_	start_char=76|end_char=84|SpaceAfter=No|NER=B-VEND_0
+16	,	,	PUNCT	_	_	15	punct	_	start_char=85|end_char=86|NER=O
+17	Kardhiqi	Kardhiq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	list	_	start_char=87|end_char=95|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	5	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Edhe në këto ditë të ftohta ata nuk e kanë ndërprerë pjesëmarrjen .
+# sent_id = 5
+1	Edhe	edhe	PART	_	_	4	mark:emph	_	start_char=0|end_char=4|NER=O
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=5|end_char=7|NER=O
+3	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=8|end_char=12|NER=O
+4	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	advmod	_	start_char=13|end_char=17|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=18|end_char=20|NER=O
+6	ftohta	ftohtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=21|end_char=27|NER=O
+7	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=28|end_char=31|NER=O
+8	nuk	nuk	PART	_	_	11	mark	_	start_char=32|end_char=35|NER=O
+9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=36|end_char=37|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=38|end_char=42|NER=O
+11	ndërprerë	ndërpres	VERB	_	VerbForm=Part	0	root	_	start_char=43|end_char=52|NER=O
+12	pjesëmarrjen	pjesëmarrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=53|end_char=65|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	11	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Gjithsecili , me karakteristikat e zërit të tij , dëshiron që të bëhet këngëtar .
+# sent_id = 6
+1	Gjithsecili	Gjithsecil	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	nsubj	_	start_char=0|end_char=11|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|NER=O
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=14|end_char=16|NER=O
+4	karakteristikat	karakteristikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=17|end_char=32|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=33|end_char=34|NER=O
+6	zërit	zër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=35|end_char=40|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=41|end_char=43|NER=O
+8	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=44|end_char=47|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	4	punct	_	start_char=48|end_char=49|NER=O
+10	dëshiron	dëshiroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=50|end_char=58|NER=O
+11	që	që	SCONJ	_	_	13	mark	_	start_char=59|end_char=61|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=62|end_char=64|NER=O
+13	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	ccomp	_	start_char=65|end_char=70|NER=O
+14	këngëtar	këngëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=71|end_char=79|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	10	punct	_	start_char=80|end_char=81|SpacesAfter=\n|NER=O
+
+# text = " Të gjithë fëmijët vijnë me pasion shprehin emocionet dhe talentin e tyre .
+# sent_id = 7
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2|end_char=4|NER=O
+3	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=5|end_char=11|NER=O
+4	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=12|end_char=19|NER=O
+5	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=28|NER=O
+7	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=29|end_char=35|NER=O
+8	shprehin	shprej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=36|end_char=44|NER=O
+9	emocionet	emocion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=45|end_char=54|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=55|end_char=58|NER=O
+11	talentin	talent	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	start_char=59|end_char=67|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=68|end_char=69|NER=O
+13	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=70|end_char=74|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=75|end_char=76|NER=O
+
+# text = Ne kemi sjellë në fund të vitit kengën e vitit të ri si një kartolinë me mesazh urimi për qytetin e Gjirokastrës .
+# sent_id = 8
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=3|end_char=7|NER=O
+3	sjellë	sjell	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=14|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=15|end_char=17|NER=O
+5	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=18|end_char=22|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=23|end_char=25|NER=O
+7	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=26|end_char=31|NER=O
+8	kengën	kengë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=32|end_char=38|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=39|end_char=40|NER=O
+10	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=41|end_char=46|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=47|end_char=49|NER=O
+12	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=50|end_char=52|NER=O
+13	si	si	SCONJ	_	_	15	mark	_	start_char=53|end_char=55|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=56|end_char=59|NER=O
+15	kartolinë	kartoli	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=60|end_char=69|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=70|end_char=72|NER=O
+17	mesazh	mesazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=73|end_char=79|NER=O
+18	urimi	urim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=80|end_char=85|NER=O
+19	për	për	ADP	_	Case=Acc	20	case	_	start_char=86|end_char=89|NER=O
+20	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=90|end_char=97|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=98|end_char=99|NER=O
+22	Gjirokastrës	Gjirokastrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=100|end_char=112|SpaceAfter=No|NER=B-VEND_0
+23	.	.	PUNCT	_	_	3	punct	_	start_char=113|end_char=114|NER=O
+
+# text = Zërat e fëmijëve në qendër i kemi 15 fëmijë të talentuar .
+# sent_id = 9
+1	Zërat	Zërat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=8|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	qendër	qendër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=20|end_char=26|NER=O
+6	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=27|end_char=28|NER=O
+7	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=33|NER=O
+8	15	15	NUM	_	NumType=Card	9	nummod	_	start_char=34|end_char=36|NER=O
+9	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	start_char=37|end_char=43|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=44|end_char=46|NER=O
+11	talentuar	talentuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=47|end_char=56|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	7	punct	_	start_char=57|end_char=58|NER=O
+
+# text = Nuk vijnë për t ' u argëtuar , por nesër të bëhen këngëtarë .
+# sent_id = 10
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	vijnë	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	për	për	PART	_	_	6	fixed	_	start_char=10|end_char=13|NER=O
+4	t	_	_	_	_	_	_	_	start_char=14|end_char=15|NER=O
+5	'	'	PUNCT	_	_	_	punct	_	start_char=16|end_char=17|NER=O
+6	u	_	_	_	_	_	_	_	start_char=18|end_char=19|NER=O
+7	argëtuar	argëtoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=20|end_char=28|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	8	punct	_	start_char=29|end_char=30|NER=O
+9	por	por	CCONJ	_	_	11	cc	_	start_char=31|end_char=34|NER=O
+10	nesër	nesër	ADV	_	AdvType=Deg	11	advmod	_	start_char=35|end_char=40|NER=O
+11	të	të	PART	_	_	11	fixed	_	start_char=41|end_char=43|NER=O
+12	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=44|end_char=49|NER=O
+13	këngëtarë	këngëtarë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	start_char=50|end_char=59|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	11	punct	_	start_char=60|end_char=61|NER=O
+
+# text = I kemi dhe nga zonat përreth qytetit si Lazarati , Libohova , Ura e Kardhiqit .
+# sent_id = 11
+1	I	I	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	start_char=0|end_char=1|NER=O
+2	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=7|end_char=10|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=11|end_char=14|NER=O
+5	zonat	zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	start_char=15|end_char=20|NER=O
+6	përreth	përreth	ADP	_	Case=Abl	7	case	_	start_char=21|end_char=28|NER=O
+7	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=29|end_char=36|NER=O
+8	si	si	SCONJ	_	_	9	mark	_	start_char=37|end_char=39|NER=O
+9	Lazarati	Lazarat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=40|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|NER=O
+11	Libohova	Libohovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	list	_	start_char=51|end_char=59|SpaceAfter=No|NER=B-VEND_0
+12	,	,	PUNCT	_	_	13	punct	_	start_char=60|end_char=61|NER=O
+13	Ura	urë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	list	_	start_char=62|end_char=65|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=66|end_char=67|NER=O
+15	Kardhiqit	Kardhiq	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=68|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	2	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Zërat fëminorë janë zëra të bardhë , të pastër , të bukur .
+# sent_id = 12
+1	Zërat	Zërat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	fëminorë	fëminorë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	start_char=6|end_char=14|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+4	zëra	zërë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	cop	_	start_char=20|end_char=24|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=25|end_char=27|NER=O
+6	bardhë	bardhë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=28|end_char=34|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=35|end_char=36|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=37|end_char=39|NER=O
+9	pastër	pastër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	list	_	start_char=40|end_char=46|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=47|end_char=48|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=49|end_char=51|NER=O
+12	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	start_char=52|end_char=57|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	3	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Çdo fëmijë ka veçorinë e zërit , por ka dhe nga ata që janë të vlerësuar si të vecantë .
+# sent_id = 13
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	fëmijë	fëmijë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=4|end_char=10|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=13|NER=O
+4	veçorinë	veçori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=14|end_char=22|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=23|end_char=24|NER=O
+6	zërit	zër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=25|end_char=30|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=31|end_char=32|NER=O
+8	por	por	CCONJ	_	_	9	cc	_	start_char=33|end_char=36|NER=O
+9	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=37|end_char=39|NER=O
+10	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=40|end_char=43|NER=O
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=44|end_char=47|NER=O
+12	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obl	_	start_char=48|end_char=51|NER=O
+13	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=52|end_char=54|NER=O
+14	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=55|end_char=59|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=60|end_char=62|NER=O
+16	vlerësuar	vlerësuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	cop	_	start_char=63|end_char=72|NER=O
+17	si	si	SCONJ	_	_	19	mark	_	start_char=73|end_char=75|NER=O
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det	_	start_char=76|end_char=78|NER=O
+19	vecantë	vecantë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	conj	_	start_char=79|end_char=86|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	14	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Kemi zëra të fortë e të fuqishëm si Klaudia , Rinadi , Olgerta Aferdita , Aleksandra që të lënë mbresë kur i dëgjon .
+# sent_id = 14
+1	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	zëra	zërë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	1	obj	_	start_char=5|end_char=9|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=10|end_char=12|NER=O
+4	fortë	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=13|end_char=18|NER=O
+5	e	e	CCONJ	_	_	7	cc	_	start_char=19|end_char=20|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=21|end_char=23|NER=O
+7	fuqishëm	fuqishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	conj	_	start_char=24|end_char=32|NER=O
+8	si	si	SCONJ	_	_	9	mark	_	start_char=33|end_char=35|NER=O
+9	Klaudia	Klaudi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=36|end_char=43|SpaceAfter=No|NER=B-PER
+10	,	,	PUNCT	_	_	11	punct	_	start_char=44|end_char=45|NER=O
+11	Rinadi	Rinad	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	list	_	start_char=46|end_char=52|SpaceAfter=No|NER=B-PER
+12	,	,	PUNCT	_	_	13	punct	_	start_char=53|end_char=54|NER=O
+13	Olgerta	Olgertë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=55|end_char=62|NER=B-PER
+14	Aferdita	Aferditë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=63|end_char=71|NER=I-PER
+15	,	,	PUNCT	_	_	16	punct	_	start_char=72|end_char=73|NER=O
+16	Aleksandra	Aleksandërë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	list	_	start_char=74|end_char=84|NER=B-PER
+17	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=85|end_char=87|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=88|end_char=90|NER=O
+19	lënë	lë	VERB	_	VerbForm=Part	16	acl:relcl	_	start_char=91|end_char=95|NER=O
+20	mbresë	mbresë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=96|end_char=102|NER=O
+21	kur	kur	SCONJ	_	_	23	mark	_	start_char=103|end_char=106|NER=O
+22	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	iobj	_	start_char=107|end_char=108|NER=O
+23	dëgjon	dëgjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	advcl	_	start_char=109|end_char=115|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=116|end_char=117|SpaceAfter=No|NER=O
+
+# text = " - thotë instruktori Gentian Selfo .
+# sent_id = 15
+1	"	"	PUNCT	_	_	23	punct	_	start_char=0|end_char=1|NER=O
+2	-	-	PUNCT	_	_	23	punct	_	start_char=2|end_char=3|NER=O
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	ccomp	_	start_char=4|end_char=9|NER=O
+4	instruktori	instruktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	obj	_	start_char=10|end_char=21|NER=O
+5	Gentian	Gentian	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	appos	_	start_char=22|end_char=29|NER=B-PER
+6	Selfo	Selfo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=30|end_char=35|SpaceAfter=No|NER=I-PER
+7	.	.	PUNCT	_	_	25	punct	_	start_char=36|end_char=37|SpacesAfter=\n|NER=O
+

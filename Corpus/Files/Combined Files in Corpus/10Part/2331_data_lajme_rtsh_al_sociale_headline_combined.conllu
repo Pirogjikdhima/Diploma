@@ -1,0 +1,77 @@
+# text = 10 / 03 / 2022 Ndërkohë edhe tregtarët shprehen se prej disa ditësh ka një rritje të çmimeve për çdo produkt të shportës .
+# sent_id = 0
+1	10	10	NUM	_	NumType=Card	10	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	03	03	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	10	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	4	advmod	_	start_char=15|end_char=23|NER=O
+7	edhe	edhe	CCONJ	_	_	3	cc	_	start_char=24|end_char=28|NER=O
+8	tregtarët	tregtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=29|end_char=38|NER=O
+9	shprehen	shpreh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=39|end_char=47|NER=O
+10	se	se	SCONJ	_	_	9	mark	_	start_char=48|end_char=50|NER=O
+11	prej	prej	ADP	_	Case=Abl	8	case	_	start_char=51|end_char=55|NER=O
+12	disa	disa	PRON	_	PronType=Ind	8	nummod	_	start_char=56|end_char=60|NER=O
+13	ditësh	ditë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=61|end_char=67|NER=O
+14	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=68|end_char=70|NER=O
+15	një	një	DET	_	Definite=Ind	11	det	_	start_char=71|end_char=74|NER=O
+16	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=75|end_char=81|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=82|end_char=84|NER=O
+18	çmimeve	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=85|end_char=92|NER=O
+19	për	për	ADP	_	Case=Acc	16	case	_	start_char=93|end_char=96|NER=O
+20	çdo	çdo	PRON	_	PronType=Ind	16	nummod	_	start_char=97|end_char=100|NER=O
+21	produkt	produkt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=101|end_char=108|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=109|end_char=111|NER=O
+23	shportës	shportë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=112|end_char=120|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	9	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Ata theksojnë se kjo rritje ka ardhur si pasojë e luftës në Ukrainë dhe rritja e çmimit të naftës .
+# sent_id = 1
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	theksojnë	theksoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=13|NER=O
+3	se	se	SCONJ	_	_	7	mark	_	start_char=14|end_char=16|NER=O
+4	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=17|end_char=20|NER=O
+5	rritje	rritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	start_char=21|end_char=27|NER=O
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=28|end_char=30|NER=O
+7	ardhur	vij	VERB	_	VerbForm=Part	2	advcl	_	start_char=31|end_char=37|NER=O
+8	si	si	SCONJ	_	_	9	mark	_	start_char=38|end_char=40|NER=O
+9	pasojë	pasojë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=41|end_char=47|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=48|end_char=49|NER=O
+11	luftës	luftë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=50|end_char=56|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=57|end_char=59|NER=O
+13	Ukrainë	Ukrai	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=60|end_char=67|NER=B-VEND_1
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=68|end_char=71|NER=O
+15	rritja	rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=72|end_char=78|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=79|end_char=80|NER=O
+17	çmimit	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=81|end_char=87|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=88|end_char=90|NER=O
+19	naftës	naftë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=91|end_char=97|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	7	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = Rritja e çmimeve ka shkaktuar zemërim tek qytetarët shqiptarë pasi gjatë një vëzhgimi në tregjet e Tiranës shihet që janë braktisur nga qytetarët .
+# sent_id = 2
+1	Rritja	Rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	çmimeve	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=9|end_char=16|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=17|end_char=19|NER=O
+5	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	0	root	_	start_char=20|end_char=29|NER=O
+6	zemërim	zemërim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=30|end_char=37|NER=O
+7	tek	tek	ADP	_	Case=Nom	8	case	_	start_char=38|end_char=41|NER=O
+8	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	start_char=42|end_char=51|NER=O
+9	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=52|end_char=61|NER=O
+10	pasi	pasi	SCONJ	_	_	13	mark	_	start_char=62|end_char=66|NER=O
+11	gjatë	gjatë	ADP	_	Case=Abl	13	case	_	start_char=67|end_char=72|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=73|end_char=76|NER=O
+13	vëzhgimi	vëzhgim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=77|end_char=85|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=86|end_char=88|NER=O
+15	tregjet	tregje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=89|end_char=96|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=97|end_char=98|NER=O
+17	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=99|end_char=106|NER=B-VEND_0
+18	shihet	shihet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	conj	_	start_char=107|end_char=113|NER=O
+19	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=114|end_char=116|NER=O
+20	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=117|end_char=121|NER=O
+21	braktisur	braktisur	VERB	_	VerbForm=Part	18	advcl	_	start_char=122|end_char=131|NER=O
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=132|end_char=135|NER=O
+23	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	obl	_	start_char=136|end_char=145|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	18	punct	_	start_char=146|end_char=147|SpacesAfter=\n|NER=O
+

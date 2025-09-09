@@ -1,0 +1,52 @@
+# text = 26 / 12 / 2023 Pranë qendrës shëndetësore " Katerina Ivashku " në Memaliaj çdo ditë paraqiten rreth 35 pacientë .
+# sent_id = 0
+1	26	26	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	5	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	7	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	7	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Pranë	pranë	ADP	_	Case=Abl	11	case	_	start_char=15|end_char=20|NER=O
+7	qendrës	qendrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=21|end_char=28|NER=O
+8	shëndetësore	shëndetësor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=29|end_char=41|NER=O
+9	"	"	PUNCT	_	_	14	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+10	Katerina	Katerinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=44|end_char=52|NER=O
+11	Ivashku	Ivashk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=53|end_char=60|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	14	punct	_	start_char=61|end_char=62|NER=O
+13	në	në	ADP	_	Case=Acc	18	case	_	start_char=63|end_char=65|NER=O
+14	Memaliaj	memali	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=66|end_char=74|NER=B-VEND_0
+15	çdo	çdo	PRON	_	PronType=Ind	20	det	_	start_char=75|end_char=78|NER=O
+16	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=79|end_char=83|NER=O
+17	paraqiten	paraqit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=84|end_char=93|NER=O
+18	rreth	rreth	ADP	_	Case=Abl	24	case	_	start_char=94|end_char=99|NER=O
+19	35	35	NUM	_	NumType=Card	24	nummod	_	start_char=100|end_char=102|NER=O
+20	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	start_char=103|end_char=111|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	21	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+
+# text = Sipas mjekut të kësaj qendre Sefer Shehu mes rasteve të paraqitura janë konstatuar krahas virozave stinore me simptoma si temperaturë , diarre , brokopneumoni .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	mjekut	mjek	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=6|end_char=12|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=13|end_char=15|NER=O
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=16|end_char=21|NER=O
+5	qendre	qendr	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=22|end_char=28|NER=O
+6	Sefer	Sefer	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=29|end_char=34|NER=B-PER
+7	Shehu	shem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=35|end_char=40|NER=I-PER
+8	mes	mes	ADP	_	Case=Abl	9	case	_	start_char=41|end_char=44|NER=O
+9	rasteve	rast	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=45|end_char=52|NER=O
+10	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=53|end_char=55|NER=O
+11	paraqitura	paraqiturë	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=56|end_char=66|NER=O
+12	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=67|end_char=71|NER=O
+13	konstatuar	konstatoj	VERB	_	VerbForm=Part	7	conj	_	start_char=72|end_char=82|NER=O
+14	krahas	krahas	ADP	_	Case=Abl	15	case	_	start_char=83|end_char=89|NER=O
+15	virozave	virozë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	start_char=90|end_char=98|NER=O
+16	stinore	stinor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=99|end_char=106|NER=O
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=107|end_char=109|NER=O
+18	simptoma	simptomë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	start_char=110|end_char=118|NER=O
+19	si	si	SCONJ	_	_	20	mark	_	start_char=119|end_char=121|NER=O
+20	temperaturë	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=122|end_char=133|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	22	punct	_	start_char=134|end_char=135|SpaceAfter=No|NER=O
+22	diarre	dirrr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	list	_	start_char=136|end_char=142|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	22	punct	_	start_char=143|end_char=144|NER=O
+24	brokopneumoni	brokopneumon	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	list	_	start_char=145|end_char=158|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	13	punct	_	start_char=159|end_char=160|SpacesAfter=\n|NER=O
+

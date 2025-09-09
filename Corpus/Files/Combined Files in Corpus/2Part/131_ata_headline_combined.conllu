@@ -1,0 +1,1296 @@
+# text = Sadushi : Gjykata e Lartë dha 7 .
+# sent_id = 0
+1	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Gjykata	gjykatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=10|end_char=17|NER=B-ORG
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=18|end_char=19|NER=I-ORG
+5	Lartë	Lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=20|end_char=25|NER=I-ORG
+6	dha	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=26|end_char=29|NER=O
+7	7	7	NUM	_	NumType=Card	4	advmod	_	start_char=30|end_char=31|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	8	punct	_	start_char=32|end_char=33|SpaceAfter=No|NER=O
+
+# text = 848 vendime këtë vit TIRAN , 29 dhjetor / ATSH / Sokol Sadushi , Kryetari i Gjykatës së Lartë , gjatë një deklarate për mediat , duke bërë një rezyme të punës së këtij institucioni për vitin 2023 , theksoi se numri i çështjeve është ulur ndjeshëm dhe për faktin se tashmë trupa e Gjykatës së Lartë është e plotë dhe funksionale .
+# sent_id = 1
+1	848	848	NUM	_	NumType=Card	8	nummod	_	start_char=0|end_char=3|NER=O
+2	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=4|end_char=11|NER=O
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=12|end_char=16|NER=O
+4	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=17|end_char=20|SpacesAfter=\n|NER=O
+5	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	start_char=21|end_char=26|SpaceAfter=No|NER=B-VEND_0
+6	,	,	PUNCT	_	_	15	punct	_	start_char=27|end_char=28|NER=O
+7	29	29	NUM	_	NumType=Card	15	nummod	_	start_char=29|end_char=31|NER=B-DATE_0
+8	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=32|end_char=39|SpaceAfter=No|NER=I-DATE_0
+9	/	/	PUNCT	_	_	17	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+10	ATSH	ATSH	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=42|end_char=46|NER=O
+11	/	/	PUNCT	_	_	15	punct	_	start_char=47|end_char=48|NER=O
+12	Sokol	Sokol	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	flat	_	start_char=49|end_char=54|NER=B-PER
+13	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=55|end_char=62|SpaceAfter=No|NER=I-PER
+14	,	,	PUNCT	_	_	21	punct	_	start_char=63|end_char=64|NER=O
+15	Kryetari	Kryetar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	list	_	start_char=65|end_char=73|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=74|end_char=75|NER=O
+17	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=76|end_char=84|NER=B-ORG
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=85|end_char=87|NER=I-ORG
+19	Lartë	Lartë	PROPN	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	nmod	_	start_char=88|end_char=93|SpaceAfter=No|NER=I-ORG
+20	,	,	PUNCT	_	_	29	punct	_	start_char=94|end_char=95|NER=O
+21	gjatë	gjatë	ADP	_	Case=Abl	29	case	_	start_char=96|end_char=101|NER=O
+22	një	një	DET	_	Definite=Ind	29	det	_	start_char=102|end_char=105|NER=O
+23	deklarate	deklarat	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	25	conj	_	start_char=106|end_char=115|NER=O
+24	për	për	ADP	_	Case=Acc	31	case	_	start_char=116|end_char=119|NER=O
+25	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=120|end_char=126|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	34	punct	_	start_char=127|end_char=128|NER=O
+27	duke	duke	PART	_	_	34	fixed	_	start_char=129|end_char=133|NER=O
+28	bërë	bëj	VERB	_	VerbForm=Part	29	advmod	_	start_char=134|end_char=138|NER=O
+29	një	një	DET	_	Definite=Ind	36	det	_	start_char=139|end_char=142|NER=O
+30	rezyme	rezym	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	obj	_	start_char=143|end_char=149|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=150|end_char=152|NER=O
+32	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	36	nmod	_	start_char=153|end_char=158|NER=O
+33	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	41	det:poss	_	start_char=159|end_char=161|NER=O
+34	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	41	det	_	start_char=162|end_char=167|NER=O
+35	institucioni	institucion	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	38	nmod	_	start_char=168|end_char=180|NER=O
+36	për	për	ADP	_	Case=Acc	43	case	_	start_char=181|end_char=184|NER=O
+37	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	41	nmod	_	start_char=185|end_char=190|NER=B-DATE_0
+38	2023	2023	NUM	_	NumType=Card	43	flat	_	start_char=191|end_char=195|SpaceAfter=No|NER=I-DATE_0
+39	,	,	PUNCT	_	_	46	punct	_	start_char=196|end_char=197|NER=O
+40	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	41	amod	_	start_char=198|end_char=205|NER=O
+41	se	se	SCONJ	_	_	52	mark	_	start_char=206|end_char=208|NER=O
+42	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	52	nsubj	_	start_char=209|end_char=214|NER=O
+43	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	50	det:poss	_	start_char=215|end_char=216|NER=O
+44	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	48	nmod	_	start_char=217|end_char=226|NER=O
+45	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	52	aux	_	start_char=227|end_char=232|NER=O
+46	ulur	ules	VERB	_	VerbForm=Part	46	conj	_	start_char=233|end_char=237|NER=O
+47	ndjeshëm	ndjeshëm	ADV	_	AdvType=Man	52	advmod	_	start_char=238|end_char=246|NER=O
+48	dhe	dhe	CCONJ	_	_	56	cc	_	start_char=247|end_char=250|NER=O
+49	për	për	ADP	_	Case=Acc	56	case	_	start_char=251|end_char=254|NER=O
+50	faktin	fakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	52	obl	_	start_char=255|end_char=261|NER=O
+51	se	se	SCONJ	_	_	52	mark	_	start_char=262|end_char=264|NER=O
+52	tashmë	tashmë	ADV	_	AdvType=Deg	59	mark	_	start_char=265|end_char=271|NER=O
+53	trupa	trupë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	56	conj	_	start_char=272|end_char=277|NER=O
+54	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	61	det:poss	_	start_char=278|end_char=279|NER=O
+55	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	59	nmod	_	start_char=280|end_char=288|NER=B-ORG
+56	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	63	det	_	start_char=289|end_char=291|NER=I-ORG
+57	Lartë	Lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	start_char=292|end_char=297|NER=I-ORG
+58	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	52	conj	_	start_char=298|end_char=303|NER=O
+59	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	66	det	_	start_char=304|end_char=305|NER=O
+60	plotë	plotë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	64	cop	_	start_char=306|end_char=311|NER=O
+61	dhe	dhe	CCONJ	_	_	68	cc	_	start_char=312|end_char=315|NER=O
+62	funksionale	funksional	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	66	conj	_	start_char=316|end_char=327|SpaceAfter=No|NER=O
+63	.	.	PUNCT	_	_	64	punct	_	start_char=328|end_char=329|SpacesAfter=\n|NER=O
+
+# text = " Plotësimi i Gjykatës së Lartë me 18 gjyqtarë ka bërë tërësisht funksionalë Kolegjet e Bashkuara , si trupë vendimmarrëse për ndryshimin e praktikës gjyqësore , ndërkohë që Mbledhja e Përgjithshme e Gjyqtarëve ka përfunduar procedurën e zgjedhjes së gjyqtarëve të Gjykatës Kushtetuese , si dhe të Kryetarit të Gjykatës së Lartë dhe Zëvendëskryetarit " , tha Sadushi në deklaratën e fundvitit për mediat .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Plotësimi	plotësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=2|end_char=11|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=12|end_char=13|NER=O
+4	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=14|end_char=22|NER=B-ORG
+5	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=23|end_char=25|NER=I-ORG
+6	Lartë	Lartë	PROPN	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	start_char=26|end_char=31|NER=I-ORG
+7	me	me	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=34|NER=O
+8	18	18	NUM	_	NumType=Card	9	nummod	_	start_char=35|end_char=37|NER=O
+9	gjyqtarë	gjyqtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	advmod	_	start_char=38|end_char=46|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=47|end_char=49|NER=O
+11	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=50|end_char=54|NER=O
+12	tërësisht	tërësisht	ADV	_	AdvType=Man	11	advmod	_	start_char=55|end_char=64|NER=O
+13	funksionalë	funksionalë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	cop	_	start_char=65|end_char=76|NER=O
+14	Kolegjet	Kolegje	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	appos	_	start_char=77|end_char=85|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=86|end_char=87|NER=O
+16	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	compound	_	start_char=88|end_char=97|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=98|end_char=99|NER=O
+18	si	si	SCONJ	_	_	19	mark	_	start_char=100|end_char=102|NER=O
+19	trupë	trupë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=103|end_char=108|NER=O
+20	vendimmarrëse	vendimmarës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=109|end_char=122|NER=O
+21	për	për	ADP	_	Case=Acc	22	case	_	start_char=123|end_char=126|NER=O
+22	ndryshimin	ndryshim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=127|end_char=137|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=138|end_char=139|NER=O
+24	praktikës	praktikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=140|end_char=149|NER=O
+25	gjyqësore	gjyqësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=150|end_char=159|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	27	punct	_	start_char=160|end_char=161|NER=O
+27	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	35	advmod	_	start_char=162|end_char=170|NER=O
+28	që	që	SCONJ	_	_	35	mark	_	start_char=171|end_char=173|NER=O
+29	Mbledhja	mbledhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	nsubj	_	start_char=174|end_char=182|NER=B-EVENT
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=183|end_char=184|NER=I-EVENT
+31	Përgjithshme	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=185|end_char=197|NER=I-EVENT
+32	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=198|end_char=199|NER=I-EVENT
+33	Gjyqtarëve	Gjyqtar	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	29	nmod	_	start_char=200|end_char=210|NER=I-EVENT
+34	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=211|end_char=213|NER=O
+35	përfunduar	përfundoj	VERB	_	VerbForm=Part	11	conj	_	start_char=214|end_char=224|NER=O
+36	procedurën	procedurë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	35	obj	_	start_char=225|end_char=235|NER=O
+37	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=236|end_char=237|NER=O
+38	zgjedhjes	zgjedhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	36	nmod	_	start_char=238|end_char=247|NER=O
+39	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	40	det:poss	_	start_char=248|end_char=250|NER=O
+40	gjyqtarëve	gjyqtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	38	nmod	_	start_char=251|end_char=261|NER=O
+41	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	42	det:poss	_	start_char=262|end_char=264|NER=O
+42	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=265|end_char=273|NER=B-ORG
+43	Kushtetuese	kushtetues	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=274|end_char=285|SpaceAfter=No|NER=I-ORG
+44	,	,	PUNCT	_	_	45	punct	_	start_char=286|end_char=287|NER=O
+45	si	si	SCONJ	_	_	46	fixed	_	start_char=288|end_char=290|NER=O
+46	dhe	dhe	CCONJ	_	_	48	cc	_	start_char=291|end_char=294|NER=O
+47	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	48	det	_	start_char=295|end_char=297|NER=O
+48	Kryetarit	Kryetar	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	42	conj	_	start_char=298|end_char=307|NER=O
+49	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	50	det:poss	_	start_char=308|end_char=310|NER=O
+50	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	48	nmod	_	start_char=311|end_char=319|NER=B-ORG
+51	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	52	det:poss	_	start_char=320|end_char=322|NER=I-ORG
+52	Lartë	Lartë	PROPN	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	50	nmod	_	start_char=323|end_char=328|NER=I-ORG
+53	dhe	dhe	CCONJ	_	_	54	cc	_	start_char=329|end_char=332|NER=O
+54	Zëvendëskryetarit	Zëvendëskryyetar	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	50	conj	_	start_char=333|end_char=350|SpaceAfter=No|NER=O
+55	"	"	PUNCT	_	_	50	punct	_	start_char=351|end_char=352|SpaceAfter=No|NER=O
+56	,	,	PUNCT	_	_	56	punct	_	start_char=353|end_char=354|NER=O
+57	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	50	acl	_	start_char=355|end_char=358|NER=O
+58	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	56	obj	_	start_char=359|end_char=366|NER=B-PER
+59	në	në	ADP	_	Case=Acc	59	case	_	start_char=367|end_char=369|NER=O
+60	deklaratën	deklaratë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	56	advmod	_	start_char=370|end_char=380|NER=O
+61	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	61	det:poss	_	start_char=381|end_char=382|NER=O
+62	fundvitit	fundvit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	59	nmod	_	start_char=383|end_char=392|NER=O
+63	për	për	ADP	_	Case=Acc	63	case	_	start_char=393|end_char=396|NER=O
+64	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	61	nmod	_	start_char=397|end_char=403|SpaceAfter=No|NER=O
+65	.	.	PUNCT	_	_	56	punct	_	start_char=404|end_char=405|SpacesAfter=\n|NER=O
+
+# text = " Tre vjet më parë , kur rifilloi funksionin me vetëm tre anëtarë , Gjykata e Lartë gjendej në në kolaps të plotë .
+# sent_id = 3
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Tre	tre	NUM	_	NumType=Card	3	nummod	_	start_char=2|end_char=5|NER=O
+3	vjet	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	18	advmod	_	start_char=6|end_char=10|NER=O
+4	më	më	PART	_	_	5	mark	_	start_char=11|end_char=13|NER=O
+5	parë	parë	ADV	_	AdvType=Tim	3	advmod	_	start_char=14|end_char=18|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=19|end_char=20|NER=O
+7	kur	kur	SCONJ	_	_	8	mark	_	start_char=21|end_char=24|NER=O
+8	rifilloi	rifilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	advcl	_	start_char=25|end_char=33|NER=O
+9	funksionin	funksion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=34|end_char=44|NER=O
+10	me	me	ADP	_	Case=Acc	13	case	_	start_char=45|end_char=47|NER=O
+11	vetëm	vetëm	PART	_	_	13	mark	_	start_char=48|end_char=53|NER=O
+12	tre	tre	NUM	_	NumType=Card	13	nummod	_	start_char=54|end_char=57|NER=O
+13	anëtarë	anëtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	advmod	_	start_char=58|end_char=65|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=66|end_char=67|NER=O
+15	Gjykata	gjykatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=68|end_char=75|NER=B-ORG
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=76|end_char=77|NER=I-ORG
+17	Lartë	Lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=78|end_char=83|NER=I-ORG
+18	gjendej	gjendej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=84|end_char=91|NER=O
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=92|end_char=94|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=95|end_char=97|NER=O
+21	kolaps	kolap	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=98|end_char=104|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=105|end_char=107|NER=O
+23	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=108|end_char=113|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	18	punct	_	start_char=114|end_char=115|NER=O
+
+# text = Vetëm në harkun e tre vjet rimëkëmbjeje , numri prej 24 .
+# sent_id = 4
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=6|end_char=8|NER=O
+3	harkun	harkun	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=9|end_char=15|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=17|NER=O
+5	tre	tre	NUM	_	NumType=Card	6	nummod	_	start_char=18|end_char=21|NER=O
+6	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	start_char=22|end_char=26|NER=O
+7	rimëkëmbjeje	rimëkëmbjej	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	start_char=27|end_char=39|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=40|end_char=41|NER=O
+9	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=42|end_char=47|NER=O
+10	prej	prej	ADP	_	Case=Abl	11	case	_	start_char=48|end_char=52|NER=O
+11	24	24	NUM	_	NumType=Card	9	nummod	_	start_char=53|end_char=55|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	14	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=O
+
+# text = 688 vendimesh ka tejkaluar backlogun , që rezulton i ulur ndjeshëm në 24 .
+# sent_id = 5
+1	688	688	NUM	_	NumType=Card	14	nummod	_	start_char=0|end_char=3|NER=O
+2	vendimesh	vendim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=4|end_char=13|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=14|end_char=16|NER=O
+4	tejkaluar	tejkaloj	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=26|NER=O
+5	backlogun	backlog	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=27|end_char=36|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	19	punct	_	start_char=37|end_char=38|NER=O
+7	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=39|end_char=41|NER=O
+8	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advcl	_	start_char=42|end_char=50|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=51|end_char=52|NER=O
+10	ulur	ulur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	cop	_	start_char=53|end_char=57|NER=O
+11	ndjeshëm	ndjeshëm	ADV	_	AdvType=Man	20	advmod	_	start_char=58|end_char=66|NER=O
+12	në	në	ADP	_	Case=Acc	25	case	_	start_char=67|end_char=69|NER=O
+13	24	24	NUM	_	NumType=Card	20	advmod	_	start_char=70|end_char=72|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	16	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=O
+
+# text = 120 çështje .
+# sent_id = 6
+1	120	120	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=3|NER=O
+2	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=4|end_char=11|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	2	punct	_	start_char=12|end_char=13|NER=O
+
+# text = Ulja e numrit të lartë të çështjeve të prapambetura kërkon kohë dhe një strategji koherente e frytdhënëse , që falë bashkëpunimit me projektin që mbështetet nga Departamenti i Shtetit , Byroja për Çështjet Ndërkombëtare të Narkotikëve dhe Zbatimit të Ligjit pranë Ambasadës së SHBA në Tiranë , ka rezultuar i suksesshëm " , nënvizon Sadushi .
+# sent_id = 7
+1	Ulja	uljë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=5|end_char=6|NER=O
+3	numrit	numër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=13|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=16|NER=O
+5	lartë	lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=17|end_char=22|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=23|end_char=25|NER=O
+7	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=26|end_char=35|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=36|end_char=38|NER=O
+9	prapambetura	prapambeturë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=39|end_char=51|NER=O
+10	kërkon	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=52|end_char=58|NER=O
+11	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=59|end_char=63|NER=O
+12	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=64|end_char=67|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=68|end_char=71|NER=O
+14	strategji	strategje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	conj	_	start_char=72|end_char=81|NER=O
+15	koherente	koherent	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=82|end_char=91|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=92|end_char=93|NER=O
+17	frytdhënëse	frytdhënës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=94|end_char=105|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=106|end_char=107|NER=O
+19	që	që	PRON	_	PronType=Rel	21	mark	_	start_char=108|end_char=110|NER=O
+20	falë	falë	ADP	_	Case=Abl	21	case	_	start_char=111|end_char=115|NER=O
+21	bashkëpunimit	bashkëpunim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=116|end_char=129|NER=O
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=130|end_char=132|NER=O
+23	projektin	projekt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=133|end_char=142|NER=O
+24	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=143|end_char=145|NER=O
+25	mbështetet	mbështet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	acl:relcl	_	start_char=146|end_char=156|NER=O
+26	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=157|end_char=160|NER=O
+27	Departamenti	departament	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	start_char=161|end_char=173|NER=B-ORG
+28	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=174|end_char=175|NER=I-ORG
+29	Shtetit	shtet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=176|end_char=183|SpaceAfter=No|NER=I-ORG
+30	,	,	PUNCT	_	_	31	punct	_	start_char=184|end_char=185|NER=O
+31	Byroja	Byrojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	appos	_	start_char=186|end_char=192|NER=O
+32	për	për	ADP	_	Case=Acc	33	case	_	start_char=193|end_char=196|NER=O
+33	Çështjet	Çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	start_char=197|end_char=205|NER=O
+34	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=206|end_char=219|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det:poss	_	start_char=220|end_char=222|NER=O
+36	Narkotikëve	narkotikë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	33	nmod	_	start_char=223|end_char=234|NER=O
+37	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=235|end_char=238|NER=O
+38	Zbatimit	Zbatim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	conj	_	start_char=239|end_char=247|NER=O
+39	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=248|end_char=250|NER=O
+40	Ligjit	Ligj	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=251|end_char=257|NER=O
+41	pranë	pranë	ADP	_	Case=Abl	42	case	_	start_char=258|end_char=263|NER=O
+42	Ambasadës	Ambasadë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=264|end_char=273|NER=O
+43	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	44	det:poss	_	start_char=274|end_char=276|NER=O
+44	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	42	nmod	_	start_char=277|end_char=281|NER=B-VEND_1
+45	në	në	ADP	_	Case=Acc	46	case	_	start_char=282|end_char=284|NER=O
+46	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	49	advmod	_	start_char=285|end_char=291|SpaceAfter=No|NER=B-VEND_0
+47	,	,	PUNCT	_	_	49	punct	_	start_char=292|end_char=293|NER=O
+48	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	49	aux	_	start_char=294|end_char=296|NER=O
+49	rezultuar	rezultoj	VERB	_	VerbForm=Part	10	conj	_	start_char=297|end_char=306|NER=O
+50	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	51	det	_	start_char=307|end_char=308|NER=O
+51	suksesshëm	suksesshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	49	cop	_	start_char=309|end_char=319|SpaceAfter=No|NER=O
+52	"	"	PUNCT	_	_	49	punct	_	start_char=320|end_char=321|SpaceAfter=No|NER=O
+53	,	,	PUNCT	_	_	53	punct	_	start_char=322|end_char=323|NER=O
+54	nënvizon	nënvizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	49	ccomp	_	start_char=324|end_char=332|NER=O
+55	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	53	obj	_	start_char=333|end_char=340|SpaceAfter=No|NER=B-PER
+56	.	.	PUNCT	_	_	49	punct	_	start_char=341|end_char=342|SpacesAfter=\n|NER=O
+
+# text = Kreu i Gjykatës së Lartë po ashtu ka nënvizuar se me shifra atë që ai e cilëson sukses të punës së institucionit që ai drejton .
+# sent_id = 8
+1	Kreu	krej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=5|end_char=6|NER=O
+3	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	start_char=7|end_char=15|NER=B-ORG
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=18|NER=I-ORG
+5	Lartë	Lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=19|end_char=24|NER=I-ORG
+6	po	po	PART	_	_	7	fixed	_	start_char=25|end_char=27|NER=O
+7	ashtu	ashtu	ADV	_	AdvType=Man	9	mark	_	start_char=28|end_char=33|NER=O
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=34|end_char=36|NER=O
+9	nënvizuar	nënvizoj	VERB	_	VerbForm=Part	1	conj	_	start_char=37|end_char=46|NER=O
+10	se	se	SCONJ	_	_	9	mark	_	start_char=47|end_char=49|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+12	shifra	shifër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=53|end_char=59|NER=O
+13	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	nmod	_	start_char=60|end_char=63|NER=O
+14	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=64|end_char=66|NER=O
+15	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=67|end_char=69|NER=O
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=70|end_char=71|NER=O
+17	cilëson	cilësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=72|end_char=79|NER=O
+18	sukses	sukses	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=80|end_char=86|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=87|end_char=89|NER=O
+20	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=90|end_char=95|NER=O
+21	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=96|end_char=98|NER=O
+22	institucionit	institucion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=99|end_char=112|NER=O
+23	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=113|end_char=115|NER=O
+24	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=116|end_char=118|NER=O
+25	drejton	drejtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl	_	start_char=119|end_char=126|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	25	punct	_	start_char=127|end_char=128|SpacesAfter=\n|NER=O
+
+# text = " Për vitin 2023 janë dhënë 7 .
+# sent_id = 9
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Për	për	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=5|NER=O
+3	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=6|end_char=11|NER=B-DATE_0
+4	2023	2023	NUM	_	NumType=Card	3	amod:nummod	_	start_char=12|end_char=16|NER=I-DATE_0
+5	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=17|end_char=21|NER=O
+6	dhënë	jap	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=27|NER=O
+7	7	7	NUM	_	NumType=Card	6	advmod	_	start_char=28|end_char=29|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	6	punct	_	start_char=30|end_char=31|SpaceAfter=No|NER=O
+
+# text = 848 vendime gjyqësore , nga të cilët 2 .
+# sent_id = 10
+1	848	848	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=3|NER=O
+2	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=4|end_char=11|NER=O
+3	gjyqësore	gjyqësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=12|end_char=21|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	15	punct	_	start_char=22|end_char=23|NER=O
+5	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=24|end_char=27|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=28|end_char=30|NER=O
+7	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	19	obl	_	start_char=31|end_char=36|NER=O
+8	2	2	NUM	_	NumType=Card	19	nsubj	_	start_char=37|end_char=38|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	19	punct	_	start_char=39|end_char=40|NER=O
+
+# text = 931 i përkasin Kolegjit Administrativ , 2 .
+# sent_id = 11
+1	931	931	NUM	_	NumType=Card	19	nsubj	_	start_char=0|end_char=3|NER=O
+2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=4|end_char=5|NER=O
+3	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=6|end_char=14|NER=O
+4	Kolegjit	Kolegj	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=15|end_char=23|NER=B-ORG
+5	Administrativ	Administrat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=24|end_char=37|SpaceAfter=No|NER=I-ORG
+6	,	,	PUNCT	_	_	23	punct	_	start_char=38|end_char=39|NER=O
+7	2	2	NUM	_	NumType=Card	25	nummod	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	25	punct	_	start_char=42|end_char=43|NER=O
+
+# text = 689 vendime të Kolegjit Civil dhe 2 .
+# sent_id = 12
+1	689	689	NUM	_	NumType=Card	25	nummod	_	start_char=0|end_char=3|NER=O
+2	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=4|end_char=11|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det:poss	_	start_char=12|end_char=14|NER=O
+4	Kolegjit	Kolegj	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=15|end_char=23|NER=B-ORG
+5	Civil	Civil	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=24|end_char=29|NER=I-ORG
+6	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=30|end_char=33|NER=O
+7	2	2	NUM	_	NumType=Card	28	conj	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	33	punct	_	start_char=36|end_char=37|SpaceAfter=No|NER=O
+
+# text = 228 vendime të Kolegjit Penal .
+# sent_id = 13
+1	228	228	NUM	_	NumType=Card	33	nummod	_	start_char=0|end_char=3|NER=O
+2	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	nmod	_	start_char=4|end_char=11|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	35	det:poss	_	start_char=12|end_char=14|NER=O
+4	Kolegjit	Kolegj	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=15|end_char=23|NER=B-ORG
+5	Penal	penal	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=24|end_char=29|SpaceAfter=No|NER=I-ORG
+6	.	.	PUNCT	_	_	6	punct	_	start_char=30|end_char=31|NER=O
+
+# text = Treguesi kryesor i performancës dhe efiçencës , referuar standardeve dhe praktikave më të mira të CEPEJ është norma e likuidimit të çështjeve , që përcaktohet nga raporti ndërmjet çështjeve të përfunduara dhe çështjeve të reja që regjistrohen .
+# sent_id = 14
+1	Treguesi	tregues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=0|end_char=8|NER=O
+2	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=9|end_char=16|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=17|end_char=18|NER=O
+4	performancës	performancë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=19|end_char=31|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=32|end_char=35|NER=O
+6	efiçencës	efiçencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=36|end_char=45|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=46|end_char=47|NER=O
+8	referuar	referoj	VERB	_	VerbForm=Part	0	root	_	start_char=48|end_char=56|NER=O
+9	standardeve	standard	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=57|end_char=68|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=69|end_char=72|NER=O
+11	praktikave	praktikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	start_char=73|end_char=83|NER=O
+12	më	më	PART	_	_	14	mark	_	start_char=84|end_char=86|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=87|end_char=89|NER=O
+14	mira	mira	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=90|end_char=94|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=95|end_char=97|NER=O
+16	CEPEJ	CEPEJ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=98|end_char=103|NER=B-ORG
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=104|end_char=109|NER=O
+18	norma	normë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	cop	_	start_char=110|end_char=115|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=116|end_char=117|NER=O
+20	likuidimit	likuidim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=118|end_char=128|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=129|end_char=131|NER=O
+22	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=132|end_char=141|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	24	punct	_	start_char=142|end_char=143|NER=O
+24	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=144|end_char=146|NER=O
+25	përcaktohet	përcaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	20	acl	_	start_char=147|end_char=158|NER=O
+26	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=159|end_char=162|NER=O
+27	raporti	raport	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	start_char=163|end_char=170|NER=O
+28	ndërmjet	ndërmjet	ADP	_	Case=Abl	29	case	_	start_char=171|end_char=179|NER=O
+29	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	obl	_	start_char=180|end_char=189|NER=O
+30	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=190|end_char=192|NER=O
+31	përfunduara	përfunduar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=193|end_char=204|NER=O
+32	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=205|end_char=208|NER=O
+33	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	29	conj	_	start_char=209|end_char=218|NER=O
+34	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=219|end_char=221|NER=O
+35	reja	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=222|end_char=226|NER=O
+36	që	që	PRON	_	PronType=Rel	37	nsubj	_	start_char=227|end_char=229|NER=O
+37	regjistrohen	regjistroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	33	acl:relcl	_	start_char=230|end_char=242|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	37	punct	_	start_char=243|end_char=244|NER=O
+
+# text = Gjykata e Lartë ka mbi 2 vjet që tejkalon standardin ndërkombëtar , duke arritur për vitin 2023 , një normë të likuidimit të çështjeve prej afro 425 % " , tha Sadushi .
+# sent_id = 15
+1	Gjykata	gjykatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=I-ORG
+3	Lartë	Lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=10|end_char=15|NER=I-ORG
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=18|NER=O
+5	mbi	mbi	ADP	_	Case=Acc	7	case	_	start_char=19|end_char=22|NER=O
+6	2	2	NUM	_	NumType=Card	7	nummod	_	start_char=23|end_char=24|NER=O
+7	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	advmod	_	start_char=25|end_char=29|NER=O
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=30|end_char=32|NER=O
+9	tejkalon	tejkaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=33|end_char=41|NER=O
+10	standardin	standard	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	start_char=42|end_char=52|NER=O
+11	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=53|end_char=65|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=66|end_char=67|NER=O
+13	duke	duke	PART	_	_	14	fixed	_	start_char=68|end_char=72|NER=O
+14	arritur	arrij	VERB	_	VerbForm=Part	4	advmod	_	start_char=73|end_char=80|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=81|end_char=84|NER=O
+16	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=85|end_char=90|NER=B-DATE_0
+17	2023	2023	NUM	_	NumType=Card	16	nummod	_	start_char=91|end_char=95|SpaceAfter=No|NER=I-DATE_0
+18	,	,	PUNCT	_	_	20	punct	_	start_char=96|end_char=97|NER=O
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=98|end_char=101|NER=O
+20	normë	normë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=102|end_char=107|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=108|end_char=110|NER=O
+22	likuidimit	likuidim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=111|end_char=121|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=122|end_char=124|NER=O
+24	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=125|end_char=134|NER=O
+25	prej	prej	ADP	_	Case=Abl	27	case	_	start_char=135|end_char=139|NER=O
+26	afro	afro	NUM	_	NumType=Card	27	nummod	_	start_char=140|end_char=144|NER=O
+27	425	425	NUM	_	NumType=Card	29	advmod	_	start_char=145|end_char=148|SpaceAfter=No|NER=O
+28	%	%	PUNCT	_	_	29	punct	_	start_char=149|end_char=150|SpaceAfter=No|NER=O
+29	"	"	PUNCT	_	_	29	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	29	punct	_	start_char=153|end_char=154|NER=O
+31	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=155|end_char=158|NER=O
+32	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	obj	_	start_char=159|end_char=166|SpaceAfter=No|NER=B-PER
+33	.	.	PUNCT	_	_	29	punct	_	start_char=167|end_char=168|SpacesAfter=\n|NER=O
+
+# text = " Gjatë këtij viti janë regjistruar 1 .
+# sent_id = 16
+1	"	"	PUNCT	_	_	6	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjatë	gjatë	ADP	_	Case=Abl	4	case	_	start_char=2|end_char=7|NER=O
+3	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=8|end_char=13|NER=O
+4	viti	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=14|end_char=18|NER=O
+5	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=19|end_char=23|NER=O
+6	regjistruar	regjistroj	VERB	_	VerbForm=Part	0	root	_	start_char=24|end_char=35|NER=O
+7	1	1	NUM	_	NumType=Card	6	advmod	_	start_char=36|end_char=37|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	10	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+
+# text = 846 çështje të reja dhe sipas standardit ndërkombëtarë po kaq duhej të ishte edhe numri i vendimeve gjyqësore , ndërkohë që janë dhënë 7 .
+# sent_id = 17
+1	846	846	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=3|NER=O
+2	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=4|end_char=11|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=12|end_char=14|NER=O
+4	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=15|end_char=19|NER=O
+5	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=20|end_char=23|NER=O
+6	sipas	sipas	ADP	_	Case=Abl	15	case	_	start_char=24|end_char=29|NER=O
+7	standardit	standard	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=30|end_char=40|NER=O
+8	ndërkombëtarë	ndërkombëtarë	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=41|end_char=54|NER=O
+9	po	po	PART	_	_	21	mark	_	start_char=55|end_char=57|NER=O
+10	kaq	kaq	ADV	_	AdvType=Deg	21	nsubj	_	start_char=58|end_char=61|NER=O
+11	duhej	duhem	AUX	_	Mood=Ind|Tense=Imp	21	aux	_	start_char=62|end_char=67|NER=O
+12	të	të	PART	_	_	21	fixed	_	start_char=68|end_char=70|NER=O
+13	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	advcl	_	start_char=71|end_char=76|NER=O
+14	edhe	edhe	PART	_	_	23	mark	_	start_char=77|end_char=81|NER=O
+15	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	cop	_	start_char=82|end_char=87|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=88|end_char=89|NER=O
+17	vendimeve	vendim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=90|end_char=99|NER=O
+18	gjyqësore	gjyqësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=100|end_char=109|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	28	punct	_	start_char=110|end_char=111|NER=O
+20	ndërkohë	ndërkohë	ADV	_	AdvType=Loc	31	advmod	_	start_char=112|end_char=120|NER=O
+21	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=121|end_char=123|NER=O
+22	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=124|end_char=128|NER=O
+23	dhënë	jap	VERB	_	VerbForm=Part	25	acl	_	start_char=129|end_char=134|NER=O
+24	7	7	NUM	_	NumType=Card	31	advmod	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	35	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=O
+
+# text = 848 vendime , pra , 4 herë më shumë se norma e rendimentit për gjyqtar .
+# sent_id = 18
+1	848	848	NUM	_	NumType=Card	35	nummod	_	start_char=0|end_char=3|NER=O
+2	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	obj	_	start_char=4|end_char=11|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	37	punct	_	start_char=12|end_char=13|NER=O
+4	pra	pra	ADV	_	_	40	advmod	_	start_char=14|end_char=17|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	40	punct	_	start_char=18|end_char=19|NER=O
+6	4	4	NUM	_	NumType=Card	40	nummod	_	start_char=20|end_char=21|NER=O
+7	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	list	_	start_char=22|end_char=26|NER=O
+8	më	më	PART	_	_	42	mark	_	start_char=27|end_char=29|NER=O
+9	shumë	shumë	ADV	_	AdvType=Deg	40	advmod	_	start_char=30|end_char=35|NER=O
+10	se	se	SCONJ	_	_	44	mark	_	start_char=36|end_char=38|NER=O
+11	norma	normë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=39|end_char=44|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	46	det:poss	_	start_char=45|end_char=46|NER=O
+13	rendimentit	rendiment	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=47|end_char=58|NER=O
+14	për	për	ADP	_	Case=Acc	48	case	_	start_char=59|end_char=62|NER=O
+15	gjyqtar	gjyqtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	44	nmod	_	start_char=63|end_char=70|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	40	punct	_	start_char=71|end_char=72|NER=O
+
+# text = Referuar këtyre të dhënave , çdo gjyqtar ka mbajtur për këtë vit një ngarkesë prej afro 440 vendime në vit ( një shifër rekord ) , ndërkohë që historikisht , në vitin e saj më të mirë dhe me më shumë këshilltarë ligjorë , Gjykata e Lartë shqyrtonte mesatarisht jo më shumë se 250 çështje në vit për gjyqtar .
+# sent_id = 19
+1	Referuar	Referoj	VERB	_	VerbForm=Part	0	root	_	start_char=0|end_char=8|NER=O
+2	këtyre	këto	PRON	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=9|end_char=15|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=16|end_char=18|NER=O
+4	dhënave	dhënë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	advmod	_	start_char=19|end_char=26|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	4	punct	_	start_char=27|end_char=28|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	det	_	start_char=29|end_char=32|NER=O
+7	gjyqtar	gjyqtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=33|end_char=40|NER=O
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=41|end_char=43|NER=O
+9	mbajtur	mbaj	VERB	_	VerbForm=Part	1	conj	_	start_char=44|end_char=51|NER=O
+10	për	për	ADP	_	Case=Acc	12	case	_	start_char=52|end_char=55|NER=O
+11	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=56|end_char=60|NER=O
+12	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=61|end_char=64|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=65|end_char=68|NER=O
+14	ngarkesë	ngarke	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=69|end_char=77|NER=O
+15	prej	prej	ADP	_	Case=Abl	18	case	_	start_char=78|end_char=82|NER=O
+16	afro	afro	NUM	_	NumType=Card	18	nummod	_	start_char=83|end_char=87|NER=O
+17	440	440	NUM	_	NumType=Card	18	nummod	_	start_char=88|end_char=91|NER=O
+18	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=92|end_char=99|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=100|end_char=102|NER=O
+20	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=103|end_char=106|NER=O
+21	(	(	PUNCT	_	_	23	punct	_	start_char=107|end_char=108|SpaceAfter=No|NER=O
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=109|end_char=112|NER=O
+23	shifër	shifër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=113|end_char=119|NER=O
+24	rekord	rekord	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=120|end_char=126|SpaceAfter=No|NER=O
+25	)	)	PUNCT	_	_	23	punct	_	start_char=127|end_char=128|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	27	punct	_	start_char=129|end_char=130|NER=O
+27	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	28	fixed	_	start_char=131|end_char=139|NER=O
+28	që	që	SCONJ	_	_	29	fixed	_	start_char=140|end_char=142|NER=O
+29	historikisht	historikisht	ADV	_	AdvType=Man	32	advmod	_	start_char=143|end_char=155|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=156|end_char=157|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=158|end_char=160|NER=O
+32	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=161|end_char=166|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=167|end_char=168|NER=O
+34	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	amod:poss	_	start_char=169|end_char=172|NER=O
+35	më	më	PART	_	_	37	mark	_	start_char=173|end_char=175|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=176|end_char=178|NER=O
+37	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=179|end_char=183|NER=O
+38	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=184|end_char=187|NER=O
+39	me	me	ADP	_	Case=Acc	42	case	_	start_char=188|end_char=190|NER=O
+40	më	më	PART	_	_	42	mark	_	start_char=191|end_char=193|NER=O
+41	shumë	shumë	PRON	_	PronType=Ind	42	nummod	_	start_char=194|end_char=199|NER=O
+42	këshilltarë	këshilltar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	37	advmod	_	start_char=200|end_char=211|NER=O
+43	ligjorë	ligjorë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	42	amod	_	start_char=212|end_char=219|SpaceAfter=No|NER=O
+44	,	,	PUNCT	_	_	45	punct	_	start_char=220|end_char=221|NER=O
+45	Gjykata	gjykatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	48	nsubj	_	start_char=222|end_char=229|NER=B-ORG
+46	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	47	det	_	start_char=230|end_char=231|NER=I-ORG
+47	Lartë	Lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	start_char=232|end_char=237|NER=I-ORG
+48	shqyrtonte	shqyrtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	42	acl:relcl	_	start_char=238|end_char=248|NER=O
+49	mesatarisht	mesatarisht	ADV	_	AdvType=Man	48	advmod	_	start_char=249|end_char=260|NER=O
+50	jo	jo	PART	_	_	52	mark	_	start_char=261|end_char=263|NER=O
+51	më	më	PART	_	_	52	mark	_	start_char=264|end_char=266|NER=O
+52	shumë	shumë	ADV	_	AdvType=Deg	48	advmod	_	start_char=267|end_char=272|NER=O
+53	se	se	SCONJ	_	_	55	mark	_	start_char=273|end_char=275|NER=O
+54	250	250	NUM	_	NumType=Card	55	nummod	_	start_char=276|end_char=279|NER=O
+55	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	48	advmod	_	start_char=280|end_char=287|NER=O
+56	në	në	ADP	_	Case=Acc	57	case	_	start_char=288|end_char=290|NER=O
+57	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	nmod	_	start_char=291|end_char=294|NER=O
+58	për	për	ADP	_	Case=Acc	59	case	_	start_char=295|end_char=298|NER=O
+59	gjyqtar	gjyqtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	nmod	_	start_char=299|end_char=306|SpaceAfter=No|NER=O
+60	.	.	PUNCT	_	_	48	punct	_	start_char=307|end_char=308|NER=O
+
+# text = Këto janë të dhëna që dëshmojnë për përgjegjshmërinë e lartë të trupës gjyqësore për tu përballur , por edhe për të dalë nga kjo gjendje " , theksoi Sadushi .
+# sent_id = 20
+1	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	start_char=0|end_char=4|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=10|end_char=12|NER=O
+4	dhëna	dhënë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	cop	_	start_char=13|end_char=18|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=19|end_char=21|NER=O
+6	dëshmojnë	dëshmoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	csubj	_	start_char=22|end_char=31|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=32|end_char=35|NER=O
+8	përgjegjshmërinë	përgjegjhmëriri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=36|end_char=52|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=53|end_char=54|NER=O
+10	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=55|end_char=60|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=61|end_char=63|NER=O
+12	trupës	trupë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=64|end_char=70|NER=O
+13	gjyqësore	gjyqësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=71|end_char=80|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=81|end_char=84|NER=O
+15	tu	_	_	_	_	_	_	_	start_char=85|end_char=87|NER=O
+16	përballur	përballoj	VERB	_	VerbForm=Part	12	amod	_	start_char=88|end_char=97|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=98|end_char=99|NER=O
+18	por	por	CCONJ	_	_	22	cc	_	start_char=100|end_char=103|NER=O
+19	edhe	edhe	PART	_	_	22	mark	_	start_char=104|end_char=108|NER=O
+20	për	për	PART	_	_	22	fixed	_	start_char=109|end_char=112|NER=O
+21	të	të	PART	_	_	22	fixed	_	start_char=113|end_char=115|NER=O
+22	dalë	dal	VERB	_	VerbForm=Part	16	advmod	_	start_char=116|end_char=120|NER=O
+23	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=121|end_char=124|NER=O
+24	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=125|end_char=128|NER=O
+25	gjendje	gjendje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	start_char=129|end_char=136|SpaceAfter=No|NER=O
+26	"	"	PUNCT	_	_	22	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	27	punct	_	start_char=139|end_char=140|NER=O
+28	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	ccomp	_	start_char=141|end_char=148|NER=O
+29	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=149|end_char=156|SpaceAfter=No|NER=B-PER
+30	.	.	PUNCT	_	_	27	punct	_	start_char=157|end_char=158|SpacesAfter=\n|NER=O
+
+# text = Ai garantoi se " shumë shpejt do të konstatoni se pasi të kemi përfunduar shqyrtimin e çështjeve që i përkasin viteve 2017 - 2018 , si vitet me numrin më të lartë të çështjeve të regjistruara , nuk do të ketë çështje që tejkalojnë afatet e arsyeshme të gjykimit .
+# sent_id = 21
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	garantoi	garantoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=11|NER=O
+3	se	se	SCONJ	_	_	8	mark	_	start_char=12|end_char=14|NER=O
+4	"	"	PUNCT	_	_	5	punct	_	start_char=15|end_char=16|NER=O
+5	shumë	shumë	ADV	_	AdvType=Tim	5	advmod	_	start_char=17|end_char=22|NER=O
+6	shpejt	shpejt	ADV	_	AdvType=Tim	2	advmod	_	start_char=23|end_char=29|NER=O
+7	do	do	PART	_	_	8	fixed	_	start_char=30|end_char=32|NER=O
+8	të	të	PART	_	_	8	fixed	_	start_char=33|end_char=35|NER=O
+9	konstatoni	konstatoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=36|end_char=46|NER=O
+10	se	se	SCONJ	_	_	13	mark	_	start_char=47|end_char=49|NER=O
+11	pasi	pasi	SCONJ	_	_	13	mark	_	start_char=50|end_char=54|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=55|end_char=57|NER=O
+13	kemi	kam	AUX	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	aux	_	start_char=58|end_char=62|NER=O
+14	përfunduar	përfundoj	VERB	_	VerbForm=Part	8	advcl	_	start_char=63|end_char=73|NER=O
+15	shqyrtimin	shqyrtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=74|end_char=84|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=85|end_char=86|NER=O
+17	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=87|end_char=96|NER=O
+18	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=97|end_char=99|NER=O
+19	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=100|end_char=101|NER=O
+20	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=102|end_char=110|NER=O
+21	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=111|end_char=117|NER=O
+22	2017	2017	NUM	_	NumType=Card	20	nummod	_	start_char=118|end_char=122|SpaceAfter=No|NER=O
+23	-	-	PUNCT	_	_	23	punct	_	start_char=123|end_char=124|SpaceAfter=No|NER=O
+24	2018	2018	NUM	_	NumType=Card	20	conj	_	start_char=125|end_char=129|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	26	punct	_	start_char=130|end_char=131|NER=O
+26	si	si	SCONJ	_	_	26	mark	_	start_char=132|end_char=134|NER=O
+27	vitet	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	start_char=135|end_char=140|NER=O
+28	me	me	ADP	_	Case=Acc	28	case	_	start_char=141|end_char=143|NER=O
+29	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=144|end_char=150|NER=O
+30	më	më	PART	_	_	31	mark	_	start_char=151|end_char=153|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=154|end_char=156|NER=O
+32	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=157|end_char=162|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=163|end_char=165|NER=O
+34	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	28	nmod	_	start_char=166|end_char=175|NER=O
+35	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=176|end_char=178|NER=O
+36	regjistruara	regjistruar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=179|end_char=191|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	40	punct	_	start_char=192|end_char=193|NER=O
+38	nuk	nuk	PART	_	_	40	mark	_	start_char=194|end_char=197|NER=O
+39	do	do	PART	_	_	40	fixed	_	start_char=198|end_char=200|NER=O
+40	të	të	PART	_	_	40	fixed	_	start_char=201|end_char=203|NER=O
+41	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	acl	_	start_char=204|end_char=208|NER=O
+42	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	obj	_	start_char=209|end_char=216|NER=O
+43	që	që	PRON	_	PronType=Rel	43	nsubj	_	start_char=217|end_char=219|NER=O
+44	tejkalojnë	tejkaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	40	ccomp	_	start_char=220|end_char=230|NER=O
+45	afatet	afat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	43	obj	_	start_char=231|end_char=237|NER=O
+46	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	46	det	_	start_char=238|end_char=239|NER=O
+47	arsyeshme	arsyeshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	44	amod	_	start_char=240|end_char=249|NER=O
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	48	det:poss	_	start_char=250|end_char=252|NER=O
+49	gjykimit	gjykim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=253|end_char=261|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	40	punct	_	start_char=262|end_char=263|NER=O
+
+# text = Mjafton t ' i referohemi numrit të vendimeve të dhëna nga viti 2020 , për të qenë besimplotë se për një periudhë afro dy vjeçare , backlogu prej 24 .
+# sent_id = 22
+1	Mjafton	mjafton	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	t	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=9|NER=O
+3	'	'	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+4	i	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=12|end_char=13|NER=O
+5	referohemi	referojem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=14|end_char=24|NER=O
+6	numrit	numër	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=25|end_char=31|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=32|end_char=34|NER=O
+8	vendimeve	vendim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=35|end_char=44|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=45|end_char=47|NER=O
+10	dhëna	dhënë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=48|end_char=53|NER=O
+11	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=54|end_char=57|NER=O
+12	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=58|end_char=62|NER=B-DATE_0
+13	2020	2020	NUM	_	NumType=Card	10	flat	_	start_char=63|end_char=67|SpaceAfter=No|NER=I-DATE_0
+14	,	,	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|NER=O
+15	për	për	PART	_	_	15	fixed	_	start_char=70|end_char=73|NER=O
+16	të	të	PART	_	_	15	fixed	_	start_char=74|end_char=76|NER=O
+17	qenë	jam	VERB	_	VerbForm=Part	3	advmod	_	start_char=77|end_char=81|NER=O
+18	besimplotë	besimplotë	ADV	_	AdvType=Man	15	advmod	_	start_char=82|end_char=92|NER=O
+19	se	se	SCONJ	_	_	20	mark	_	start_char=93|end_char=95|NER=O
+20	për	për	ADP	_	Case=Acc	20	case	_	start_char=96|end_char=99|NER=O
+21	një	një	DET	_	Definite=Ind	20	det	_	start_char=100|end_char=103|NER=O
+22	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=104|end_char=112|NER=O
+23	afro	afro	NUM	_	NumType=Card	23	nummod	_	start_char=113|end_char=117|NER=O
+24	dy	dy	NUM	_	NumType=Card	23	nummod	_	start_char=118|end_char=120|NER=O
+25	vjeçare	vjeçar	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	start_char=121|end_char=128|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	25	punct	_	start_char=129|end_char=130|NER=O
+27	backlogu	backlog	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	list	_	start_char=131|end_char=139|NER=O
+28	prej	prej	ADP	_	Case=Abl	29	case	_	start_char=140|end_char=144|NER=O
+29	24	24	NUM	_	NumType=Card	29	nummod	_	start_char=145|end_char=147|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	29	punct	_	start_char=148|end_char=149|NER=O
+
+# text = 000 çështjesh do të konsiderohet si një reminishencë e të shkuarës " .
+# sent_id = 23
+1	000	000	NUM	_	NumType=Card	29	nummod	_	start_char=0|end_char=3|NER=O
+2	çështjesh	çështje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	32	advmod	_	start_char=4|end_char=13|NER=O
+3	do	do	PART	_	_	32	fixed	_	start_char=14|end_char=16|NER=O
+4	të	të	PART	_	_	32	fixed	_	start_char=17|end_char=19|NER=O
+5	konsiderohet	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=20|end_char=32|NER=O
+6	si	si	SCONJ	_	_	35	mark	_	start_char=33|end_char=35|NER=O
+7	një	një	DET	_	Definite=Ind	35	det	_	start_char=36|end_char=39|NER=O
+8	reminishencë	reminishencë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	obj	_	start_char=40|end_char=52|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=53|end_char=54|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=55|end_char=57|NER=O
+11	shkuarës	shkuarës	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=58|end_char=66|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	35	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	32	punct	_	start_char=69|end_char=70|SpacesAfter=\n|NER=O
+
+# text = " Gjatë vitit 2023 ka filluar procedura për 13 vendime njësimi ( 4 nga Kolegji Penal , 2 nga Kolegji Civil dhe 7 nga Kolegji Administrativ ) , ndërkohë që një pjesë prej tyre janë shpallur dhe të tjerat janë në proces arsyetimi .
+# sent_id = 24
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=2|end_char=7|NER=O
+3	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=8|end_char=13|NER=B-DATE_0
+4	2023	2023	NUM	_	NumType=Card	3	amod:nummod	_	start_char=14|end_char=18|NER=I-DATE_0
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=19|end_char=21|NER=O
+6	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=29|NER=O
+7	procedura	procedurë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=30|end_char=39|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=40|end_char=43|NER=O
+9	13	13	NUM	_	NumType=Card	10	nummod	_	start_char=44|end_char=46|NER=O
+10	vendime	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=47|end_char=54|NER=O
+11	njësimi	njësim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=55|end_char=62|NER=O
+12	(	(	PUNCT	_	_	10	punct	_	start_char=63|end_char=64|NER=O
+13	4	4	NUM	_	NumType=Card	10	nmod	_	start_char=65|end_char=66|NER=O
+14	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=67|end_char=70|NER=O
+15	Kolegji	Kolegji	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=71|end_char=78|NER=B-ORG
+16	Penal	penal	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=79|end_char=84|SpaceAfter=No|NER=I-ORG
+17	,	,	PUNCT	_	_	17	punct	_	start_char=85|end_char=86|NER=O
+18	2	2	NUM	_	NumType=Card	14	appos	_	start_char=87|end_char=88|NER=O
+19	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=89|end_char=92|NER=O
+20	Kolegji	Kolegji	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=93|end_char=100|NER=B-ORG
+21	Civil	Civil	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=101|end_char=106|NER=I-ORG
+22	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=107|end_char=110|NER=O
+23	7	7	NUM	_	NumType=Card	19	conj	_	start_char=111|end_char=112|NER=O
+24	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=113|end_char=116|NER=O
+25	Kolegji	Kolegji	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=117|end_char=124|NER=B-ORG
+26	Administrativ	Administrat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=125|end_char=138|SpaceAfter=No|NER=I-ORG
+27	)	)	PUNCT	_	_	24	punct	_	start_char=139|end_char=140|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	28	punct	_	start_char=141|end_char=142|NER=O
+29	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	29	fixed	_	start_char=143|end_char=151|NER=O
+30	që	që	SCONJ	_	_	31	mark	_	start_char=152|end_char=154|NER=O
+31	një	një	DET	_	Definite=Ind	31	det	_	start_char=155|end_char=158|NER=O
+32	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	35	advmod	_	start_char=159|end_char=164|NER=O
+33	prej	prej	ADP	_	Case=Abl	33	case	_	start_char=165|end_char=169|NER=O
+34	tyre	tyre	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obl	_	start_char=170|end_char=174|NER=O
+35	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	aux	_	start_char=175|end_char=179|NER=O
+36	shpallur	shpalloj	VERB	_	VerbForm=Part	6	conj	_	start_char=180|end_char=188|NER=O
+37	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=189|end_char=192|NER=O
+38	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	38	det	_	start_char=193|end_char=195|NER=O
+39	tjerat	tjerat	PRON	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Ind	39	nsubj	_	start_char=196|end_char=202|NER=O
+40	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	advcl	_	start_char=203|end_char=207|NER=O
+41	në	në	ADP	_	Case=Acc	41	case	_	start_char=208|end_char=210|NER=O
+42	proces	proces	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	obl:arg	_	start_char=211|end_char=217|NER=O
+43	arsyetimi	arsyetim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	41	nmod	_	start_char=218|end_char=227|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	35	punct	_	start_char=228|end_char=229|NER=O
+
+# text = Vendime të strukturuara mirë profesionalisht , përmes të cilave zhvillohet dhe njësohet praktika gjyqësore e bëjnë shumë më eficent gjykimin dhe qëndrueshmërinë në vendimmarrjen e gjykatave më të ulta , duke garantuar stabilitet dhe siguri juridike në zgjidhjen e mosmarrëveshjeve .
+# sent_id = 25
+1	Vendime	Vendim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	16	nsubj	_	start_char=0|end_char=7|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=8|end_char=10|NER=O
+3	strukturuara	strukturuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=11|end_char=23|NER=O
+4	mirë	mirë	ADV	_	AdvType=Man	3	advmod	_	start_char=24|end_char=28|NER=O
+5	profesionalisht	profesionalisht	ADV	_	AdvType=Man	3	advmod	_	start_char=29|end_char=44|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	9	punct	_	start_char=45|end_char=46|NER=O
+7	përmes	përmes	ADP	_	Case=Abl	9	case	_	start_char=47|end_char=53|NER=O
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=54|end_char=56|NER=O
+9	cilave	cila	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	10	advmod	_	start_char=57|end_char=63|NER=O
+10	zhvillohet	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	acl	_	start_char=64|end_char=74|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=75|end_char=78|NER=O
+12	njësohet	njësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	conj	_	start_char=79|end_char=87|NER=O
+13	praktika	praktikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=88|end_char=96|NER=O
+14	gjyqësore	gjyqësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=97|end_char=106|NER=O
+15	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	cc	_	start_char=107|end_char=108|NER=O
+16	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=109|end_char=114|NER=O
+17	shumë	shumë	ADV	_	AdvType=Deg	19	advmod	_	start_char=115|end_char=120|NER=O
+18	më	më	PART	_	_	19	mark	_	start_char=121|end_char=123|NER=O
+19	eficent	eficen	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=124|end_char=131|NER=O
+20	gjykimin	gjykim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=132|end_char=140|NER=O
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=141|end_char=144|NER=O
+22	qëndrueshmërinë	qëndrueshmëriri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	conj	_	start_char=145|end_char=160|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=161|end_char=163|NER=O
+24	vendimmarrjen	vendimmarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=164|end_char=177|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=178|end_char=179|NER=O
+26	gjykatave	gjykatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=180|end_char=189|NER=O
+27	më	më	PART	_	_	29	mark	_	start_char=190|end_char=192|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=193|end_char=195|NER=O
+29	ulta	ultë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=196|end_char=200|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=201|end_char=202|NER=O
+31	duke	duke	PART	_	_	32	fixed	_	start_char=203|end_char=207|NER=O
+32	garantuar	garantoj	VERB	_	VerbForm=Part	16	advmod	_	start_char=208|end_char=217|NER=O
+33	stabilitet	stabilit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	32	obj	_	start_char=218|end_char=228|NER=O
+34	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=229|end_char=232|NER=O
+35	siguri	siguri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	conj	_	start_char=233|end_char=239|NER=O
+36	juridike	juridik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=240|end_char=248|NER=O
+37	në	në	ADP	_	Case=Acc	38	case	_	start_char=249|end_char=251|NER=O
+38	zgjidhjen	zgjidhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	advmod	_	start_char=252|end_char=261|NER=O
+39	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	40	det:poss	_	start_char=262|end_char=263|NER=O
+40	mosmarrëveshjeve	mosmarrëveshje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	start_char=264|end_char=280|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	32	punct	_	start_char=281|end_char=282|NER=O
+
+# text = Ky është dhe do të mbetet prioriteti ynë " , vuri në dukje Sadushi .
+# sent_id = 26
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=9|end_char=12|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=13|end_char=15|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=16|end_char=18|NER=O
+6	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=19|end_char=25|NER=O
+7	prioriteti	prioritet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=26|end_char=36|NER=O
+8	ynë	ynë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=37|end_char=40|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	7	punct	_	start_char=41|end_char=42|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	10	punct	_	start_char=43|end_char=44|NER=O
+11	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=45|end_char=49|NER=O
+12	në	në	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+13	dukje	dukje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=53|end_char=58|NER=O
+14	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=59|end_char=66|SpaceAfter=No|NER=B-PER
+15	.	.	PUNCT	_	_	10	punct	_	start_char=67|end_char=68|SpacesAfter=\n|NER=O
+
+# text = " Heqjet dorë nga rekursi prej institucioneve publike ka vijuar edhe gjatë këtij viti , fenomen që është vënë re edhe te individët .
+# sent_id = 27
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Heqjet	Heqje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	start_char=2|end_char=8|NER=O
+3	dorë	dorë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=9|end_char=13|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=14|end_char=17|NER=O
+5	rekursi	rekurs	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=18|end_char=25|NER=O
+6	prej	prej	ADP	_	Case=Abl	7	case	_	start_char=26|end_char=30|NER=O
+7	institucioneve	institucion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=31|end_char=45|NER=O
+8	publike	publik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=46|end_char=53|NER=O
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=54|end_char=56|NER=O
+10	vijuar	vijoj	VERB	_	VerbForm=Part	0	root	_	start_char=57|end_char=63|NER=O
+11	edhe	edhe	PART	_	_	14	cc	_	start_char=64|end_char=68|NER=O
+12	gjatë	gjatë	ADP	_	Case=Abl	14	case	_	start_char=69|end_char=74|NER=O
+13	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=75|end_char=80|NER=O
+14	viti	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=81|end_char=85|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=86|end_char=87|NER=O
+16	fenomen	fenom	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	start_char=88|end_char=95|NER=O
+17	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=96|end_char=98|NER=O
+18	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=99|end_char=104|NER=O
+19	vënë	vëj	VERB	_	VerbForm=Part	14	acl	_	start_char=105|end_char=109|NER=O
+20	re	re	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=110|end_char=112|NER=O
+21	edhe	edhe	PART	_	_	23	mark	_	start_char=113|end_char=117|NER=O
+22	te	te	ADP	_	Case=Nom	23	case	_	start_char=118|end_char=120|NER=O
+23	individët	individë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	obl	_	start_char=121|end_char=130|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=131|end_char=132|NER=O
+
+# text = Janë 468 kërkesa për heqje dorë nga rekursi , nga të cilat 384 i përkasin institucioneve publike dhe 84 individëve , të ndara në : 261 në fushën administrative , 177 në civile dhe 30 në penale .
+# sent_id = 28
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	468	468	NUM	_	NumType=Card	3	nummod	_	start_char=5|end_char=8|NER=O
+3	kërkesa	kërkesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	cop	_	start_char=9|end_char=16|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=20|NER=O
+5	heqje	heqje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=21|end_char=26|NER=O
+6	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=27|end_char=31|NER=O
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=32|end_char=35|NER=O
+8	rekursi	rekurs	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=36|end_char=43|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	12	punct	_	start_char=44|end_char=45|NER=O
+10	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=46|end_char=49|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=50|end_char=52|NER=O
+12	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	15	obl	_	start_char=53|end_char=58|NER=O
+13	384	384	NUM	_	NumType=Card	15	advmod	_	start_char=59|end_char=62|NER=O
+14	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	iobj	_	start_char=63|end_char=64|NER=O
+15	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=65|end_char=73|NER=O
+16	institucioneve	institucion	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=74|end_char=88|NER=O
+17	publike	publik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=89|end_char=96|NER=O
+18	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=97|end_char=100|NER=O
+19	84	84	NUM	_	NumType=Card	20	nummod	_	start_char=101|end_char=103|NER=O
+20	individëve	individ	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	16	conj	_	start_char=104|end_char=114|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=115|end_char=116|NER=O
+22	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=117|end_char=119|NER=O
+23	ndara	ndarë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=120|end_char=125|NER=O
+24	në	në	ADP	_	Case=Acc	26	case	_	start_char=126|end_char=128|SpaceAfter=No|NER=O
+25	:	:	PUNCT	_	_	26	punct	_	start_char=129|end_char=130|NER=O
+26	261	261	NUM	_	NumType=Card	23	advmod	_	start_char=131|end_char=134|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=135|end_char=137|NER=O
+28	fushën	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=138|end_char=144|NER=O
+29	administrative	administrativ	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=145|end_char=159|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	31	punct	_	start_char=160|end_char=161|NER=O
+31	177	177	NUM	_	NumType=Card	33	nummod	_	start_char=162|end_char=165|NER=O
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=166|end_char=168|NER=O
+33	civile	civil	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	start_char=169|end_char=175|NER=O
+34	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=176|end_char=179|NER=O
+35	30	30	NUM	_	NumType=Card	33	conj	_	start_char=180|end_char=182|NER=O
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=183|end_char=185|NER=O
+37	penale	penal	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	conj	_	start_char=186|end_char=192|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	1	punct	_	start_char=193|end_char=194|NER=O
+
+# text = Kjo prirje nevojitet të shoqërohet edhe me mosparaqitjen e rekurseve të reja , që dukshëm rezultojnë të pabazuara " , tha Sadushi .
+# sent_id = 29
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	prirje	prirje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=10|NER=O
+3	nevojitet	nevojitem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=11|end_char=20|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=21|end_char=23|NER=O
+5	shoqërohet	shoqëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	ccomp	_	start_char=24|end_char=34|NER=O
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=35|end_char=39|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=40|end_char=42|NER=O
+8	mosparaqitjen	mosparaqitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=43|end_char=56|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=57|end_char=58|NER=O
+10	rekurseve	rekurs	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=59|end_char=68|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=69|end_char=71|NER=O
+12	reja	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=72|end_char=76|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=79|end_char=81|NER=O
+15	dukshëm	dukshëm	ADV	_	AdvType=Man	16	advmod	_	start_char=82|end_char=89|NER=O
+16	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=90|end_char=100|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=101|end_char=103|NER=O
+18	pabazuara	pabazuarë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	cop	_	start_char=104|end_char=113|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	16	punct	_	start_char=114|end_char=115|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	20	punct	_	start_char=116|end_char=117|NER=O
+21	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	ccomp	_	start_char=118|end_char=121|NER=O
+22	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=122|end_char=129|SpaceAfter=No|NER=B-PER
+23	.	.	PUNCT	_	_	20	punct	_	start_char=130|end_char=131|SpacesAfter=\n|NER=O
+
+# text = Përherë e kam evidentuar si një problematikë shqetësuese numrin e lartë të rekurseve , të cilat nuk arrijnë të kalojnë testin e pranueshmërisë .
+# sent_id = 30
+1	Përherë	përherë	ADV	_	AdvType=Tim	4	advmod	_	start_char=0|end_char=7|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cc	_	start_char=8|end_char=9|NER=O
+3	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=10|end_char=13|NER=O
+4	evidentuar	evidentoj	VERB	_	VerbForm=Part	0	root	_	start_char=14|end_char=24|NER=O
+5	si	si	SCONJ	_	_	7	mark	_	start_char=25|end_char=27|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=28|end_char=31|NER=O
+7	problematikë	problematikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=32|end_char=44|NER=O
+8	shqetësuese	shqetësues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=45|end_char=56|NER=O
+9	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=57|end_char=63|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=64|end_char=65|NER=O
+11	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=66|end_char=71|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=72|end_char=74|NER=O
+13	rekurseve	rekurs	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=75|end_char=84|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=85|end_char=86|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=87|end_char=89|NER=O
+16	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	18	nsubj	_	start_char=90|end_char=95|NER=O
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=96|end_char=99|NER=O
+18	arrijnë	arrij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=100|end_char=107|NER=O
+19	të	të	PART	_	_	20	fixed	_	start_char=108|end_char=110|NER=O
+20	kalojnë	kaloj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	ccomp	_	start_char=111|end_char=118|NER=O
+21	testin	test	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=119|end_char=125|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=126|end_char=127|NER=O
+23	pranueshmërisë	pranueshmëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=128|end_char=142|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	18	punct	_	start_char=143|end_char=144|NER=O
+
+# text = E ndarë sipas fushave , për vitin 2023 nuk e kalojnë këtë test 36 % e rekurseve në Kolegjin Civil , 70 % në Kolegjin Administrativ dhe 70 % në Kolegjin Penal .
+# sent_id = 31
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	ndarë	ndaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	dislocated	_	start_char=2|end_char=7|NER=O
+3	sipas	sipas	ADP	_	Case=Abl	4	case	_	start_char=8|end_char=13|NER=O
+4	fushave	fushë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=14|end_char=21|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	7	punct	_	start_char=22|end_char=23|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=24|end_char=27|NER=O
+7	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=28|end_char=33|NER=B-DATE_0
+8	2023	2023	NUM	_	NumType=Card	7	amod:nummod	_	start_char=34|end_char=38|NER=I-DATE_0
+9	nuk	nuk	PART	_	Polarity=Neg	11	mark	_	start_char=39|end_char=42|NER=O
+10	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=43|end_char=44|NER=O
+11	kalojnë	kaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=45|end_char=52|NER=O
+12	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=53|end_char=57|NER=O
+13	test	test	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=58|end_char=62|NER=O
+14	36	36	NUM	_	NumType=Card	15	nummod	_	start_char=63|end_char=65|SpaceAfter=No|NER=O
+15	%	%	SYM	_	_	13	nmod	_	start_char=66|end_char=67|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=68|end_char=69|NER=O
+17	rekurseve	rekurs	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=70|end_char=79|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=80|end_char=82|NER=O
+19	Kolegjin	kolegj	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=83|end_char=91|NER=B-ORG
+20	Civil	Civil	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=92|end_char=97|SpaceAfter=No|NER=I-ORG
+21	,	,	PUNCT	_	_	23	punct	_	start_char=98|end_char=99|NER=O
+22	70	70	NUM	_	NumType=Card	23	nummod	_	start_char=100|end_char=102|SpaceAfter=No|NER=O
+23	%	%	SYM	_	_	19	list	_	start_char=103|end_char=104|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=105|end_char=107|NER=O
+25	Kolegjin	kolegj	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=108|end_char=116|NER=B-ORG
+26	Administrativ	Administrat	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	flat	_	start_char=117|end_char=130|NER=I-ORG
+27	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=131|end_char=134|NER=O
+28	70	70	NUM	_	NumType=Card	29	nummod	_	start_char=135|end_char=137|SpaceAfter=No|NER=O
+29	%	%	SYM	_	_	26	conj	_	start_char=138|end_char=139|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=140|end_char=142|NER=O
+31	Kolegjin	kolegj	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=143|end_char=151|NER=B-ORG
+32	Penal	penal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=152|end_char=157|SpaceAfter=No|NER=I-ORG
+33	.	.	PUNCT	_	_	11	punct	_	start_char=158|end_char=159|NER=O
+
+# text = Por nëse do shohim raportin ndërmjet individëve / personave juridik privatë , nga njëra anë dhe organeve publike nga ana tjetër , rekurset e papranueshme në fushën administrative dhe civile i përkasin më tepër organeve publike .
+# sent_id = 32
+1	Por	por	CCONJ	_	_	4	cc	_	start_char=0|end_char=3|NER=O
+2	nëse	nëse	SCONJ	_	_	4	mark	_	start_char=4|end_char=8|NER=O
+3	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+4	shohim	shoh	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=18|NER=O
+5	raportin	raport	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=19|end_char=27|NER=O
+6	ndërmjet	ndërmjet	ADP	_	Case=Abl	7	case	_	start_char=28|end_char=36|NER=O
+7	individëve	individ	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=37|end_char=47|SpaceAfter=No|NER=O
+8	/	/	PUNCT	_	_	7	punct	_	start_char=48|end_char=49|NER=O
+9	personave	personë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=50|end_char=59|NER=O
+10	juridik	juridik	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=60|end_char=67|NER=O
+11	privatë	privatë	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=68|end_char=75|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=76|end_char=77|NER=O
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=78|end_char=81|NER=O
+14	njëra	njëra	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	14	nummod	_	start_char=82|end_char=87|NER=O
+15	anë	anë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=88|end_char=91|NER=O
+16	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=92|end_char=95|NER=O
+17	organeve	organ	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	conj	_	start_char=96|end_char=104|NER=O
+18	publike	publik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=105|end_char=112|NER=O
+19	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=113|end_char=116|NER=O
+20	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=117|end_char=120|NER=O
+21	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	amod	_	start_char=121|end_char=127|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	22	punct	_	start_char=128|end_char=129|NER=O
+23	rekurset	rekurs	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	list	_	start_char=130|end_char=138|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=139|end_char=140|NER=O
+25	papranueshme	papranueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=141|end_char=153|NER=O
+26	në	në	ADP	_	Case=Acc	26	case	_	start_char=154|end_char=156|NER=O
+27	fushën	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=157|end_char=163|NER=O
+28	administrative	administrativ	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=164|end_char=178|NER=O
+29	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=179|end_char=182|NER=O
+30	civile	civil	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	31	nsubj	_	start_char=183|end_char=189|NER=O
+31	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	start_char=190|end_char=191|NER=O
+32	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=192|end_char=200|NER=O
+33	më	më	PART	_	_	33	mark	_	start_char=201|end_char=203|NER=O
+34	tepër	tepër	ADV	_	AdvType=Deg	31	advmod	_	start_char=204|end_char=209|NER=O
+35	organeve	organ	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	31	obj	_	start_char=210|end_char=218|NER=O
+36	publike	publik	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=219|end_char=226|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	31	punct	_	start_char=227|end_char=228|NER=O
+
+# text = Për këtë vit , organet publike rezultojnë gjyqhumbëse në 70 % të çështjeve administrative ( 1 .
+# sent_id = 33
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=3|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=4|end_char=8|NER=O
+3	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=9|end_char=12|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=13|end_char=14|NER=O
+5	organet	organ	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	start_char=15|end_char=22|NER=O
+6	publike	publik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=23|end_char=30|NER=O
+7	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=41|NER=O
+8	gjyqhumbëse	gjyqhumbës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=42|end_char=53|NER=O
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=54|end_char=56|NER=O
+10	70	70	NUM	_	NumType=Card	11	nummod	_	start_char=57|end_char=59|SpaceAfter=No|NER=O
+11	%	%	SYM	_	_	7	advmod	_	start_char=60|end_char=61|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=62|end_char=64|NER=O
+13	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=65|end_char=74|NER=O
+14	administrative	administrativ	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=75|end_char=89|NER=O
+15	(	(	PUNCT	_	_	16	punct	_	start_char=90|end_char=91|SpaceAfter=No|NER=O
+16	1	1	NUM	_	NumType=Card	13	amod:nummod	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	7	punct	_	start_char=94|end_char=95|SpaceAfter=No|NER=O
+
+# text = 441 çështje ) dhe 73 % të çështjeve civile ( 701 çështje ) .
+# sent_id = 34
+1	441	441	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=3|NER=O
+2	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=4|end_char=11|SpaceAfter=No|NER=O
+3	)	)	PUNCT	_	_	2	punct	_	start_char=12|end_char=13|NER=O
+4	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=14|end_char=17|NER=O
+5	73	73	NUM	_	NumType=Card	6	nummod	_	start_char=18|end_char=20|SpaceAfter=No|NER=O
+6	%	%	SYM	_	_	2	conj	_	start_char=21|end_char=22|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=23|end_char=25|NER=O
+8	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=26|end_char=35|NER=O
+9	civile	civil	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=36|end_char=42|NER=O
+10	(	(	PUNCT	_	_	12	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+11	701	701	NUM	_	NumType=Card	12	nummod	_	start_char=45|end_char=48|NER=O
+12	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=49|end_char=56|SpaceAfter=No|NER=O
+13	)	)	PUNCT	_	_	12	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	2	punct	_	start_char=59|end_char=60|NER=O
+
+# text = Individët / personat juridik privatë rezultojnë gjyqhumbës në 30 % të çështjeve administrative ( 629 çështje ) dhe 27 % të çështjeve civile ( 263 çështje ) .
+# sent_id = 35
+1	Individët	Individë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=0|end_char=9|SpaceAfter=No|NER=O
+2	/	/	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+3	personat	personë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=12|end_char=20|NER=O
+4	juridik	juridik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=21|end_char=28|NER=O
+5	privatë	privatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=29|end_char=36|NER=O
+6	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=37|end_char=47|NER=O
+7	gjyqhumbës	gjyqhumbë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=48|end_char=58|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=59|end_char=61|NER=O
+9	30	30	NUM	_	NumType=Card	9	nummod	_	start_char=62|end_char=64|SpaceAfter=No|NER=O
+10	%	%	SYM	_	_	5	advmod	_	start_char=65|end_char=66|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=67|end_char=69|NER=O
+12	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=70|end_char=79|NER=O
+13	administrative	administrativ	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=80|end_char=94|NER=O
+14	(	(	PUNCT	_	_	15	punct	_	start_char=95|end_char=96|SpaceAfter=No|NER=O
+15	629	629	NUM	_	NumType=Card	15	nummod	_	start_char=97|end_char=100|NER=O
+16	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	start_char=101|end_char=108|SpaceAfter=No|NER=O
+17	)	)	PUNCT	_	_	15	punct	_	start_char=109|end_char=110|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=111|end_char=114|NER=O
+19	27	27	NUM	_	NumType=Card	19	nummod	_	start_char=115|end_char=117|SpaceAfter=No|NER=O
+20	%	%	SYM	_	_	15	conj	_	start_char=118|end_char=119|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=120|end_char=122|NER=O
+22	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=123|end_char=132|NER=O
+23	civile	civil	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=133|end_char=139|NER=O
+24	(	(	PUNCT	_	_	25	punct	_	start_char=140|end_char=141|SpaceAfter=No|NER=O
+25	263	263	NUM	_	NumType=Card	25	nummod	_	start_char=142|end_char=145|NER=O
+26	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	start_char=146|end_char=153|SpaceAfter=No|NER=O
+27	)	)	PUNCT	_	_	25	punct	_	start_char=154|end_char=155|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	5	punct	_	start_char=156|end_char=157|NER=O
+
+# text = Ky raport është i ndryshëm në fushën penale , ku prokuroria rezulton gjyqhumbëse në 33 % të çështjeve ( 521 çështje ) , ndërsa individët rezultojnë gjyqhumbës në 67 % të tyre ( 1039 çështje ) " , shtoi Sadushi .
+# sent_id = 36
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	raport	rapor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3|end_char=9|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	ndryshëm	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=18|end_char=26|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=29|NER=O
+7	fushën	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=30|end_char=36|NER=O
+8	penale	penal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=37|end_char=43|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=44|end_char=45|NER=O
+10	ku	ku	ADV	_	AdvType=Loc	12	advmod	_	start_char=46|end_char=48|NER=O
+11	prokuroria	prokurori	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=49|end_char=59|NER=O
+12	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	csubj	_	start_char=60|end_char=68|NER=O
+13	gjyqhumbëse	gjyqhumbës	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=69|end_char=80|NER=O
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=81|end_char=83|NER=O
+15	33	33	NUM	_	NumType=Card	16	nummod	_	start_char=84|end_char=86|SpaceAfter=No|NER=O
+16	%	%	SYM	_	_	12	advmod	_	start_char=87|end_char=88|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=89|end_char=91|NER=O
+18	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=92|end_char=101|NER=O
+19	(	(	PUNCT	_	_	21	punct	_	start_char=102|end_char=103|SpaceAfter=No|NER=O
+20	521	521	NUM	_	NumType=Card	21	nummod	_	start_char=104|end_char=107|NER=O
+21	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	list	_	start_char=108|end_char=115|SpaceAfter=No|NER=O
+22	)	)	PUNCT	_	_	21	punct	_	start_char=116|end_char=117|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	24	punct	_	start_char=118|end_char=119|NER=O
+24	ndërsa	ndërsa	CCONJ	_	_	26	cc	_	start_char=120|end_char=126|NER=O
+25	individët	individë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	26	nsubj	_	start_char=127|end_char=136|NER=O
+26	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=137|end_char=147|NER=O
+27	gjyqhumbës	gjyqhumbë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=148|end_char=158|NER=O
+28	në	në	ADP	_	Case=Acc	30	case	_	start_char=159|end_char=161|NER=O
+29	67	67	NUM	_	NumType=Card	30	nummod	_	start_char=162|end_char=164|SpaceAfter=No|NER=O
+30	%	%	SYM	_	_	26	obl	_	start_char=165|end_char=166|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=167|end_char=169|NER=O
+32	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	amod:poss	_	start_char=170|end_char=174|NER=O
+33	(	(	PUNCT	_	_	34	punct	_	start_char=175|end_char=176|SpaceAfter=No|NER=O
+34	1039	1039	NUM	_	NumType=Card	35	nummod	_	start_char=177|end_char=181|NER=O
+35	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	37	obj	_	start_char=182|end_char=189|SpaceAfter=No|NER=O
+36	)	)	PUNCT	_	_	37	punct	_	start_char=190|end_char=191|SpaceAfter=No|NER=O
+37	"	"	PUNCT	_	_	37	punct	_	start_char=192|end_char=193|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	37	punct	_	start_char=194|end_char=195|NER=O
+39	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	start_char=196|end_char=201|NER=O
+40	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	obj	_	start_char=202|end_char=209|SpaceAfter=No|NER=B-PER
+41	.	.	PUNCT	_	_	37	punct	_	start_char=210|end_char=211|SpacesAfter=\n|NER=O
+
+# text = " Moskalimi i testit të pranueshmërisë adreson shqetësimin tek avokatët privat , Avokatura e Shtetit dhe prokuroria .
+# sent_id = 37
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Moskalimi	moskalim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2|end_char=11|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=12|end_char=13|NER=O
+4	testit	test	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=14|end_char=20|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=21|end_char=23|NER=O
+6	pranueshmërisë	pranueshmëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=24|end_char=38|NER=O
+7	adreson	adresoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=46|NER=O
+8	shqetësimin	shqetësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=47|end_char=58|NER=O
+9	tek	tek	ADP	_	Case=Nom	10	case	_	start_char=59|end_char=62|NER=O
+10	avokatët	avokatë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	advmod	_	start_char=63|end_char=71|NER=O
+11	privat	privat	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=72|end_char=78|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=79|end_char=80|NER=O
+13	Avokatura	Avokaturë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=81|end_char=90|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=91|end_char=92|NER=O
+15	Shtetit	shtet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=93|end_char=100|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=101|end_char=104|NER=O
+17	prokuroria	prokurori	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	conj	_	start_char=105|end_char=115|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	7	punct	_	start_char=116|end_char=117|NER=O
+
+# text = Është e papranueshme për ata që prezumohet se kanë njohuri për ligjin , të vijojnë të paraqesin rekurse haptazi të pabazuara " , evidentoi Kreu i Gjykatës së Lartë .
+# sent_id = 38
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	papranueshme	papranueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=8|end_char=20|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=24|NER=O
+5	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl:arg	_	start_char=25|end_char=28|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=29|end_char=31|NER=O
+7	prezumohet	prezumoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	acl:relcl	_	start_char=32|end_char=42|NER=O
+8	se	se	SCONJ	_	_	10	mark	_	start_char=43|end_char=45|NER=O
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=46|end_char=50|NER=O
+10	njohuri	njohur	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advcl	_	start_char=51|end_char=58|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=59|end_char=62|NER=O
+12	ligjin	ligj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=63|end_char=69|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=70|end_char=71|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=72|end_char=74|NER=O
+15	vijojnë	vijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=75|end_char=82|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=83|end_char=85|NER=O
+17	paraqesin	paraqes	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	ccomp	_	start_char=86|end_char=95|NER=O
+18	rekurse	rekurs	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	start_char=96|end_char=103|NER=O
+19	haptazi	haptaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	nmod	_	start_char=104|end_char=111|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=112|end_char=114|NER=O
+21	pabazuara	pabazuarë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=115|end_char=124|SpaceAfter=No|NER=O
+22	"	"	PUNCT	_	_	19	punct	_	start_char=125|end_char=126|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	23	punct	_	start_char=127|end_char=128|NER=O
+24	evidentoi	evidentoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	start_char=129|end_char=138|NER=O
+25	Kreu	Kreu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=139|end_char=143|NER=O
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=144|end_char=145|NER=O
+27	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	compound	_	start_char=146|end_char=154|NER=B-ORG
+28	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=155|end_char=157|NER=I-ORG
+29	Lartë	Lartë	PROPN	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	nmod	_	start_char=158|end_char=163|SpaceAfter=No|NER=I-ORG
+30	.	.	PUNCT	_	_	23	punct	_	start_char=164|end_char=165|SpacesAfter=\n|NER=O
+
+# text = " Avokatët duhet të kuptojnë se Gjykata e Lartë është një gjykatë ligji dhe jo një gjykatë fakti .
+# sent_id = 39
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Avokatët	avokatë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2|end_char=10|NER=O
+3	duhet	duhem	AUX	_	_	5	aux	_	start_char=11|end_char=16|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=17|end_char=19|NER=O
+5	kuptojnë	kuptoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=28|NER=O
+6	se	se	SCONJ	_	_	10	mark	_	start_char=29|end_char=31|NER=O
+7	Gjykata	gjykatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=32|end_char=39|NER=B-ORG
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=40|end_char=41|NER=I-ORG
+9	Lartë	Lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=42|end_char=47|NER=I-ORG
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=48|end_char=53|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=54|end_char=57|NER=O
+12	gjykatë	gjykatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	cop	_	start_char=58|end_char=65|NER=O
+13	ligji	ligji	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=66|end_char=71|NER=O
+14	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=72|end_char=75|NER=O
+15	jo	jo	PART	_	_	17	mark	_	start_char=76|end_char=78|NER=O
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=79|end_char=82|NER=O
+17	gjykatë	gjykatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	conj	_	start_char=83|end_char=90|NER=O
+18	fakti	fakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=91|end_char=96|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	10	punct	_	start_char=97|end_char=98|NER=O
+
+# text = Nevojitet që ata të ndjekin praktikën gjyqësore , me qëllim që të mos e investojnë Gjykatën për çështje të panevojshme , me rekurse të pasuksesshme dhe haptazi të pabazuara .
+# sent_id = 40
+1	Nevojitet	nevojit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=9|NER=O
+2	që	që	SCONJ	_	_	5	mark	_	start_char=10|end_char=12|NER=O
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	start_char=13|end_char=16|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=17|end_char=19|NER=O
+5	ndjekin	ndjek	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	advmod	_	start_char=20|end_char=27|NER=O
+6	praktikën	praktikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=28|end_char=37|NER=O
+7	gjyqësore	gjyqësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=38|end_char=47|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	10	punct	_	start_char=48|end_char=49|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=50|end_char=52|NER=O
+10	qëllim	qëllim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=53|end_char=59|NER=O
+11	që	që	SCONJ	_	_	15	mark	_	start_char=60|end_char=62|NER=O
+12	të	të	PART	_	_	15	fixed	_	start_char=63|end_char=65|NER=O
+13	mos	mos	PART	_	_	15	mark	_	start_char=66|end_char=69|NER=O
+14	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=70|end_char=71|NER=O
+15	investojnë	investoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=72|end_char=82|NER=O
+16	Gjykatën	gjykatë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=83|end_char=91|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=92|end_char=95|NER=O
+18	çështje	çështje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=96|end_char=103|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=104|end_char=106|NER=O
+20	panevojshme	panevojshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=107|end_char=118|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=119|end_char=120|NER=O
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=121|end_char=123|NER=O
+23	rekurse	rekurs	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	nmod	_	start_char=124|end_char=131|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=132|end_char=134|NER=O
+25	pasuksesshme	pasukseshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=135|end_char=147|NER=O
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=148|end_char=151|NER=O
+27	haptazi	haptaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	conj	_	start_char=152|end_char=159|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det	_	start_char=160|end_char=162|NER=O
+29	pabazuara	pabazuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=163|end_char=172|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	1	punct	_	start_char=173|end_char=174|NER=O
+
+# text = Këtë e dëshmon më së miri procedura e seleksionimit të rekurseve e aplikuar nga Kolegji Administrativ që po jep rezultat pozitiv si në moslejimin e shtimit artificial të çështjeve , në orientimin e shpejtë të praktikës gjyqësore , por edhe në evidentimin e mungesës së profesionalizimit të përfaqësuesve ligjorë .
+# sent_id = 41
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=4|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=5|end_char=6|NER=O
+3	dëshmon	dëshmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=14|NER=O
+4	më	më	PART	_	_	7	mark	_	start_char=15|end_char=17|NER=O
+5	së	së	PART	_	_	6	det	_	start_char=18|end_char=20|NER=O
+6	miri	miri	SCONJ	_	_	7	det	_	start_char=21|end_char=25|NER=O
+7	procedura	procedurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=26|end_char=35|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=36|end_char=37|NER=O
+9	seleksionimit	seleksionim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=38|end_char=51|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=52|end_char=54|NER=O
+11	rekurseve	rekurs	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=55|end_char=64|NER=O
+12	e	e	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=65|end_char=66|NER=O
+13	aplikuar	aplikuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=67|end_char=75|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=76|end_char=79|NER=O
+15	Kolegji	Kolegji	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=80|end_char=87|NER=B-ORG
+16	Administrativ	Administrat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=88|end_char=101|NER=I-ORG
+17	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=102|end_char=104|NER=O
+18	po	po	PART	_	_	19	mark	_	start_char=105|end_char=107|NER=O
+19	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=108|end_char=111|NER=O
+20	rezultat	rezultat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	start_char=112|end_char=120|NER=O
+21	pozitiv	pozit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=121|end_char=128|NER=O
+22	si	si	SCONJ	_	_	24	mark	_	start_char=129|end_char=131|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=132|end_char=134|NER=O
+24	moslejimin	moslejim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=135|end_char=145|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=146|end_char=147|NER=O
+26	shtimit	shtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=148|end_char=155|NER=O
+27	artificial	artificial	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=156|end_char=166|NER=O
+28	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=167|end_char=169|NER=O
+29	çështjeve	çështje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	start_char=170|end_char=179|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=180|end_char=181|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=182|end_char=184|NER=O
+32	orientimin	orientim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=185|end_char=195|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=196|end_char=197|NER=O
+34	shpejtë	shpejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=198|end_char=205|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=206|end_char=208|NER=O
+36	praktikës	praktikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=209|end_char=218|NER=O
+37	gjyqësore	gjyqësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=219|end_char=228|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	39	punct	_	start_char=229|end_char=230|NER=O
+39	por	por	CCONJ	_	_	42	cc	_	start_char=231|end_char=234|NER=O
+40	edhe	edhe	PART	_	_	42	mark	_	start_char=235|end_char=239|NER=O
+41	në	në	ADP	_	Case=Acc	42	case	_	start_char=240|end_char=242|NER=O
+42	evidentimin	evidentim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	36	conj	_	start_char=243|end_char=254|NER=O
+43	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	44	det:poss	_	start_char=255|end_char=256|NER=O
+44	mungesës	mungesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	42	nmod	_	start_char=257|end_char=265|NER=O
+45	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	46	det:poss	_	start_char=266|end_char=268|NER=O
+46	profesionalizimit	profesionalizm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=269|end_char=286|NER=O
+47	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	48	det:poss	_	start_char=287|end_char=289|NER=O
+48	përfaqësuesve	përfaqësues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	46	nmod	_	start_char=290|end_char=303|NER=O
+49	ligjorë	ligjorë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	48	amod	_	start_char=304|end_char=311|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	42	punct	_	start_char=312|end_char=313|NER=O
+
+# text = Vetëm gjatë vitit 2023 , nga ky proces seleksionues në fushën administrative janë vlerësuar haptazi të pabazuara 42 % e rekurseve të paraqitura " , tha Sadushi .
+# sent_id = 42
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=6|end_char=11|NER=O
+3	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	25	advmod	_	start_char=12|end_char=17|NER=B-DATE_0
+4	2023	2023	NUM	_	NumType=Card	3	amod:nummod	_	start_char=18|end_char=22|SpaceAfter=No|NER=I-DATE_0
+5	,	,	PUNCT	_	_	3	punct	_	start_char=23|end_char=24|NER=O
+6	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=25|end_char=28|NER=O
+7	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=29|end_char=31|NER=O
+8	proces	proces	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=32|end_char=38|NER=O
+9	seleksionues	seleksionues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=39|end_char=51|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=52|end_char=54|NER=O
+11	fushën	fushë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=55|end_char=61|NER=O
+12	administrative	administrativ	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=62|end_char=76|NER=O
+13	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=77|end_char=81|NER=O
+14	vlerësuar	vlerësoj	VERB	_	VerbForm=Part	0	root	_	start_char=82|end_char=91|NER=O
+15	haptazi	haptazi	ADV	_	AdvType=Man	14	advmod	_	start_char=92|end_char=99|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=100|end_char=102|NER=O
+17	pabazuara	pabazuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	cop	_	start_char=103|end_char=112|NER=O
+18	42	42	NUM	_	NumType=Card	19	nummod	_	start_char=113|end_char=115|SpaceAfter=No|NER=O
+19	%	%	SYM	_	_	17	nmod	_	start_char=116|end_char=117|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=118|end_char=119|NER=O
+21	rekurseve	rekurs	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=120|end_char=129|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=130|end_char=132|NER=O
+23	paraqitura	paraqitura	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=133|end_char=143|SpaceAfter=No|NER=O
+24	"	"	PUNCT	_	_	21	punct	_	start_char=144|end_char=145|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	25	punct	_	start_char=146|end_char=147|NER=O
+26	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=148|end_char=151|NER=O
+27	Sadushi	Sadush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	obj	_	start_char=152|end_char=159|SpaceAfter=No|NER=B-PER
+28	.	.	PUNCT	_	_	14	punct	_	start_char=160|end_char=161|SpacesAfter=\n\n\n|NER=O
+

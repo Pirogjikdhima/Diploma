@@ -1,0 +1,104 @@
+# text = AXHENDA NDËRKOMBËTARE 27 / 12 / 2023 PARIS ( Francë ) – 100 - vjetori i vdekjes së inxhinierit Gustave Eiffel , kulla e të cilit në Paris mban emrin e tij .
+# sent_id = 0
+1	AXHENDA	AXHEND	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	NDËRKOMBËTARE	NDËRKOMBËTR	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	1	flat	_	start_char=8|end_char=21|NER=O
+3	27	27	NUM	_	NumType=Card	4	nummod	_	start_char=22|end_char=24|SpaceAfter=No|NER=B-DATE_0
+4	/	/	PUNCT	_	_	2	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=I-DATE_0
+5	12	12	NUM	_	NumType=Card	2	flat	_	start_char=27|end_char=29|SpaceAfter=No|NER=I-DATE_0
+6	/	/	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|SpaceAfter=No|NER=I-DATE_0
+7	2023	2023	NUM	_	NumType=Card	4	flat	_	start_char=32|end_char=36|SpaceAfter=No|NER=I-DATE_0
+8	PARIS	PARIS	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=37|end_char=42|NER=B-VEND_0
+9	(	(	PUNCT	_	_	9	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+10	Francë	Francë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	list	_	start_char=45|end_char=51|SpaceAfter=No|NER=B-VEND_1
+11	)	)	PUNCT	_	_	9	punct	_	start_char=52|end_char=53|NER=O
+12	–	–	PUNCT	_	_	12	punct	_	start_char=54|end_char=55|NER=O
+13	100	100	NUM	_	NumType=Card	9	list	_	start_char=56|end_char=59|NER=O
+14	-	-	PUNCT	_	_	9	punct	_	start_char=60|end_char=61|NER=O
+15	vjetori	100-vjetor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	list	_	start_char=62|end_char=69|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=70|end_char=71|NER=O
+17	vdekjes	vdekje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=72|end_char=79|NER=O
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=80|end_char=82|NER=O
+19	inxhinierit	inxhinier	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=83|end_char=94|NER=O
+20	Gustave	Gustav	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	appos	_	start_char=95|end_char=102|NER=B-PER
+21	Eiffel	Eiffel	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	start_char=103|end_char=109|SpaceAfter=No|NER=I-PER
+22	,	,	PUNCT	_	_	20	punct	_	start_char=110|end_char=111|NER=O
+23	kulla	kullë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	appos	_	start_char=112|end_char=117|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=118|end_char=119|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=120|end_char=122|NER=O
+26	cilit	cili	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	20	nmod	_	start_char=123|end_char=128|NER=O
+27	në	në	ADP	_	Case=Acc	25	case	_	start_char=129|end_char=131|NER=O
+28	Paris	pari	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=132|end_char=137|NER=B-VEND_0
+29	mban	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl:relcl	_	start_char=138|end_char=142|NER=O
+30	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=143|end_char=148|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=149|end_char=150|NER=O
+32	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=151|end_char=154|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	26	punct	_	start_char=155|end_char=156|SpacesAfter=\n|NER=O
+
+# text = MOSKË ( Rusi ) – Ministri i Jashtëm Lavrov takohet me homologun e tij indian Jaishankar .
+# sent_id = 1
+1	MOSKË	MOSKË	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=0|end_char=5|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No|NER=O
+3	Rusi	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=8|end_char=12|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	6	punct	_	start_char=13|end_char=14|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=15|end_char=16|NER=O
+6	Ministri	ministr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=17|end_char=25|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=26|end_char=27|NER=O
+8	Jashtëm	Jashtëm	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	compound	_	start_char=28|end_char=35|NER=O
+9	Lavrov	Lavro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=36|end_char=42|NER=B-PER
+10	takohet	takoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=43|end_char=50|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=51|end_char=53|NER=O
+12	homologun	homolog	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=54|end_char=63|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=64|end_char=65|NER=O
+14	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	amod:poss	_	start_char=66|end_char=69|NER=O
+15	indian	indian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=70|end_char=76|NER=O
+16	Jaishankar	Jaishankar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=77|end_char=87|SpaceAfter=No|NER=B-PER
+17	.	.	PUNCT	_	_	10	punct	_	start_char=88|end_char=89|SpacesAfter=\n|NER=O
+
+# text = MEXICO CITY ( Meksikë ) – Vizitë e sekretarit amerikan të Shtetit Blinken për migracionin .
+# sent_id = 2
+1	MEXICO	MEXICO	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-VEND_0
+2	CITY	CITY	PROPN	_	Foreign=Yes	1	flat	_	start_char=7|end_char=11|NER=I-VEND_0
+3	(	(	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|SpaceAfter=No|NER=O
+4	Meksikë	Meksikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	appos	_	start_char=14|end_char=21|SpaceAfter=No|NER=B-VEND_1
+5	)	)	PUNCT	_	_	4	punct	_	start_char=22|end_char=23|NER=O
+6	–	–	PUNCT	_	_	7	punct	_	start_char=24|end_char=25|NER=O
+7	Vizitë	Vizitë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	list	_	start_char=26|end_char=32|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=33|end_char=34|NER=O
+9	sekretarit	sekretar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=35|end_char=45|NER=O
+10	amerikan	amerikan	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=46|end_char=54|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=55|end_char=57|NER=O
+12	Shtetit	shtet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=58|end_char=65|NER=O
+13	Blinken	Blinke	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	flat	_	start_char=66|end_char=73|NER=B-PER
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=74|end_char=77|NER=O
+15	migracionin	migracion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=78|end_char=89|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	6	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+
+# text = LIVERPUL ( BM ) – Futboll – Premier League – Everton - Manchester City .
+# sent_id = 3
+1	LIVERPUL	LIVERPU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No|NER=O
+3	BM	BM	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=13|NER=B-VEND_1
+4	)	)	PUNCT	_	_	1	punct	_	start_char=14|end_char=15|NER=O
+5	–	–	PUNCT	_	_	5	punct	_	start_char=16|end_char=17|NER=O
+6	Futboll	Futboll	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	list	_	start_char=18|end_char=25|NER=O
+7	–	–	PUNCT	_	_	7	punct	_	start_char=26|end_char=27|NER=O
+8	Premier	Premier	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	list	_	start_char=28|end_char=35|NER=B-EVENT
+9	League	League	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	7	flat	_	start_char=36|end_char=42|NER=I-EVENT
+10	–	–	PUNCT	_	_	10	punct	_	start_char=43|end_char=44|NER=O
+11	Everton	Everton	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	list	_	start_char=45|end_char=52|SpaceAfter=No|NER=O
+12	-	-	PUNCT	_	_	3	punct	_	start_char=53|end_char=54|SpaceAfter=No|NER=O
+13	Manchester	Manchester	PROPN	_	Foreign=Yes	0	root	_	start_char=55|end_char=65|NER=O
+14	City	City	PROPN	_	Foreign=Yes	1	flat	_	start_char=66|end_char=70|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	5	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
+
+# text = / a .
+# sent_id = 4
+1	/	/	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|NER=O
+2	a	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	2	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = jor .
+# sent_id = 5
+1	jor	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+

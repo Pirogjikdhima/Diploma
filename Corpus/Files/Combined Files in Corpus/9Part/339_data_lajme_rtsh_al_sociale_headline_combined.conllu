@@ -1,0 +1,56 @@
+# text = 06 / 12 / 2023 Sot e gjithë bota po përballet me më pak njerëz efektiv në punë për shkak të pasojave të COVID .
+# sent_id = 0
+1	06	06	NUM	_	NumType=Card	18	advmod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	19	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	19	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	19	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Sot	sot	ADV	_	AdvType=Tim	6	advmod	_	start_char=15|end_char=18|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=19|end_char=20|NER=O
+8	gjithë	gjithë	PRON	_	PronType=Ind	4	det	_	start_char=21|end_char=27|NER=O
+9	bota	botë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=28|end_char=32|NER=O
+10	po	po	PART	_	_	6	mark	_	start_char=33|end_char=35|NER=O
+11	përballet	përballem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=36|end_char=45|NER=O
+12	me	me	ADP	_	Case=Acc	10	case	_	start_char=46|end_char=48|NER=O
+13	më	më	PART	_	_	10	mark	_	start_char=49|end_char=51|NER=O
+14	pak	pak	ADV	_	AdvType=Deg	10	nummod	_	start_char=52|end_char=55|NER=O
+15	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	start_char=56|end_char=62|NER=O
+16	efektiv	efektiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=63|end_char=70|NER=O
+17	në	në	ADP	_	Case=Acc	13	case	_	start_char=71|end_char=73|NER=O
+18	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=74|end_char=78|NER=O
+19	për	për	ADP	_	Case=Acc	17	case	_	start_char=79|end_char=82|NER=O
+20	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	det	_	start_char=83|end_char=88|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=89|end_char=91|NER=O
+22	pasojave	pasoja	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=92|end_char=100|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=101|end_char=103|NER=O
+24	COVID	COVID	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	start_char=104|end_char=109|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	6	punct	_	start_char=110|end_char=111|NER=O
+
+# text = Në Shqipëri nuk ka matje të fenomenit por një tregues janë raportet e shpeshta mjekësore të punonjësve .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=11|NER=B-VEND_1
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=12|end_char=15|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=18|NER=O
+5	matje	matje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=19|end_char=24|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=25|end_char=27|NER=O
+7	fenomenit	fenomen	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=28|end_char=37|NER=O
+8	por	por	CCONJ	_	_	10	cc	_	start_char=38|end_char=41|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=42|end_char=45|NER=O
+10	tregues	tregues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	start_char=46|end_char=53|NER=O
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=54|end_char=58|NER=O
+12	raportet	raport	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	cop	_	start_char=59|end_char=67|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=68|end_char=69|NER=O
+14	shpeshta	shpeshtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=70|end_char=78|NER=O
+15	mjekësore	mjekësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=79|end_char=88|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=89|end_char=91|NER=O
+17	punonjësve	punonjë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=92|end_char=102|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	11	punct	_	start_char=103|end_char=104|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 2
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

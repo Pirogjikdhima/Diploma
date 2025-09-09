@@ -1,0 +1,103 @@
+# text = Valbonën sezoni turistik është çelur që në fillim të muajit maj .
+# sent_id = 0
+1	Valbonën	Valbonë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=0|end_char=8|NER=O
+2	sezoni	sezon	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=9|end_char=15|NER=O
+3	turistik	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=16|end_char=24|NER=O
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=25|end_char=30|NER=O
+5	çelur	çeloj	VERB	_	VerbForm=Part	4	conj	_	start_char=31|end_char=36|NER=O
+6	që	që	SCONJ	_	_	22	mark	_	start_char=37|end_char=39|NER=O
+7	në	në	ADP	_	Case=Acc	22	case	_	start_char=40|end_char=42|NER=O
+8	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	advmod	_	start_char=43|end_char=49|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=50|end_char=52|NER=O
+10	muajit	muaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=53|end_char=59|NER=O
+11	maj	maj	NUM	_	NumType=Card	24	amod	_	start_char=60|end_char=63|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	19	punct	_	start_char=64|end_char=65|NER=O
+
+# text = Turistët që e kanë vizituar deri tani janë kryesisht nga Gjermania .
+# sent_id = 1
+1	Turistët	turistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=0|end_char=8|NER=O
+2	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=9|end_char=11|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=12|end_char=13|NER=O
+4	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=14|end_char=18|NER=O
+5	vizituar	vizitoj	VERB	_	VerbForm=Part	1	acl:relcl	_	start_char=19|end_char=27|NER=O
+6	deri	deri	PART	_	_	7	mark	_	start_char=28|end_char=32|NER=O
+7	tani	tani	ADV	_	AdvType=Tim	5	advmod	_	start_char=33|end_char=37|NER=O
+8	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=42|NER=O
+9	kryesisht	kryesisht	ADV	_	AdvType=Man	8	advmod	_	start_char=43|end_char=52|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=53|end_char=56|NER=O
+11	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=57|end_char=66|SpaceAfter=No|NER=B-VEND_1
+12	.	.	PUNCT	_	_	8	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Ata pëlqejnë të eksplorojnë natyrën .
+# sent_id = 2
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	pëlqejnë	pëlqej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=12|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=13|end_char=15|NER=O
+4	eksplorojnë	eksploroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=16|end_char=27|NER=O
+5	natyrën	natyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=28|end_char=35|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	2	punct	_	start_char=36|end_char=37|SpacesAfter=\n|NER=O
+
+# text = Një shqiptar nga Ulqini ka sjellë disa turistë nga Shtutgarti dhe Koln i Gjermanisë , të cilët prej vitesh pushonin në hotelin e tij .
+# sent_id = 3
+1	Një	një	DET	_	Definite=Ind	6	nsubj	_	start_char=0|end_char=3|NER=O
+2	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=4|end_char=12|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=13|end_char=16|NER=O
+4	Ulqini	Ulqin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=17|end_char=23|NER=B-VEND_0
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=24|end_char=26|NER=O
+6	sjellë	sjell	VERB	_	VerbForm=Part	0	root	_	start_char=27|end_char=33|NER=O
+7	disa	disa	PRON	_	PronType=Ind	8	nummod	_	start_char=34|end_char=38|NER=O
+8	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=39|end_char=46|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=47|end_char=50|NER=O
+10	Shtutgarti	shtutgart	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=51|end_char=61|NER=B-VEND_0
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=62|end_char=65|NER=O
+12	Koln	Koln	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=66|end_char=70|NER=B-VEND_0
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=71|end_char=72|NER=O
+14	Gjermanisë	Gjermani	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=73|end_char=83|SpaceAfter=No|NER=B-VEND_1
+15	,	,	PUNCT	_	_	17	punct	_	start_char=84|end_char=85|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=86|end_char=88|NER=O
+17	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	20	nsubj	_	start_char=89|end_char=94|NER=O
+18	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=95|end_char=99|NER=O
+19	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	20	advmod	_	start_char=100|end_char=106|NER=O
+20	pushonin	pushoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	6	conj	_	start_char=107|end_char=115|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=116|end_char=118|NER=O
+22	hotelin	hotel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	start_char=119|end_char=126|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=127|end_char=128|NER=O
+24	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	amod:poss	_	start_char=129|end_char=132|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	20	punct	_	start_char=133|end_char=134|SpacesAfter=\n|NER=O
+
+# text = Ai preferon të promovojë kryesisht turizmin në vendet e Shqipërisë .
+# sent_id = 4
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	preferon	preferoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	promovojë	promovoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=15|end_char=24|NER=O
+5	kryesisht	kryesisht	ADV	_	AdvType=Man	4	advmod	_	start_char=25|end_char=34|NER=O
+6	turizmin	turizm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=35|end_char=43|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=44|end_char=46|NER=O
+8	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=47|end_char=53|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=54|end_char=55|NER=O
+10	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=56|end_char=66|SpaceAfter=No|NER=B-VEND_1
+11	.	.	PUNCT	_	_	2	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Sipas turistëve të huaj , me aq sa kanë parë deri tani , nuk i mungon asgjë turizmit shqiptar
+# sent_id = 5
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	turistëve	turist	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	16	advmod	_	start_char=6|end_char=15|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=16|end_char=18|NER=O
+4	huaj	huaj	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=19|end_char=23|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=24|end_char=25|NER=O
+6	me	me	ADP	_	Case=Acc	7	fixed	_	start_char=26|end_char=28|NER=O
+7	aq	aq	ADV	_	AdvType=Deg	8	fixed	_	start_char=29|end_char=31|NER=O
+8	sa	sa	ADV	_	AdvType=Deg	10	advmod	_	start_char=32|end_char=34|NER=O
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=35|end_char=39|NER=O
+10	parë	shoh	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=40|end_char=44|NER=O
+11	deri	deri	PART	_	_	12	case	_	start_char=45|end_char=49|NER=O
+12	tani	tani	ADV	_	AdvType=Tim	10	advmod	_	start_char=50|end_char=54|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	10	punct	_	start_char=55|end_char=56|NER=O
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=57|end_char=60|NER=O
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	start_char=61|end_char=62|NER=O
+16	mungon	mungoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=69|NER=O
+17	asgjë	asgjë	PRON	_	PronType=Ind	18	det	_	start_char=70|end_char=75|NER=O
+18	turizmit	turizëm	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=76|end_char=84|NER=O
+19	shqiptar	shqiptar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=85|end_char=93|SpacesAfter=\n|NER=O
+

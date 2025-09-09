@@ -1,0 +1,51 @@
+# text = Këtë herë Teatri Kombëtar i Operës dhe Baletit u ka lënë hapësirë krijuese artistë të rinj .
+# sent_id = 0
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=0|end_char=4|NER=O
+2	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=5|end_char=9|NER=O
+3	Teatri	Teatri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=10|end_char=16|NER=O
+4	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	flat	_	start_char=17|end_char=25|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=26|end_char=27|NER=O
+6	Operës	Operë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	compound	_	start_char=28|end_char=34|NER=O
+7	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=35|end_char=38|NER=O
+8	Baletit	Balet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	conj	_	start_char=39|end_char=46|NER=O
+9	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	fixed	_	start_char=47|end_char=48|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=49|end_char=51|NER=O
+11	lënë	lë	VERB	_	VerbForm=Part	20	acl:relcl	_	start_char=52|end_char=56|NER=O
+12	hapësirë	hapësirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=57|end_char=65|NER=O
+13	krijuese	krijues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=66|end_char=74|NER=O
+14	artistë	artist	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	30	nmod	_	start_char=75|end_char=82|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	34	det	_	start_char=83|end_char=85|NER=O
+16	rinj	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	amod	_	start_char=86|end_char=90|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	29	punct	_	start_char=91|end_char=92|NER=O
+
+# text = Ishte gjetja e koreografit Julind Dervishi kjo premiere e cila u vu në skenë këtë të mërkurë që do të vazhdojë të jepet edhe në datë 30 .
+# sent_id = 1
+1	Ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	gjetja	gjetjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=12|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=13|end_char=14|NER=O
+4	koreografit	koreograf	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=26|NER=O
+5	Julind	Julind	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=27|end_char=33|NER=B-PER
+6	Dervishi	dervish	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=34|end_char=42|NER=I-PER
+7	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=43|end_char=46|NER=O
+8	premiere	premier	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=47|end_char=55|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=56|end_char=57|NER=O
+10	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	start_char=58|end_char=62|NER=O
+11	u	u	PART	_	_	12	fixed	_	start_char=63|end_char=64|NER=O
+12	vu	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	acl:relcl	_	start_char=65|end_char=67|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=68|end_char=70|NER=O
+14	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=71|end_char=76|NER=O
+15	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	nmod	_	start_char=77|end_char=81|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=82|end_char=84|NER=O
+17	mërkurë	mërkurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=85|end_char=92|NER=O
+18	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=93|end_char=95|NER=O
+19	do	do	PART	_	_	21	fixed	_	start_char=96|end_char=98|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=99|end_char=101|NER=O
+21	vazhdojë	vazhdoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl	_	start_char=102|end_char=110|NER=O
+22	të	të	PART	_	_	23	fixed	_	start_char=111|end_char=113|NER=O
+23	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	ccomp	_	start_char=114|end_char=119|NER=O
+24	edhe	edhe	PART	_	_	26	mark	_	start_char=120|end_char=124|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=125|end_char=127|NER=O
+26	datë	datë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obl	_	start_char=128|end_char=132|NER=O
+27	30	30	NUM	_	NumType=Card	26	amod:nummod	_	start_char=133|end_char=135|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	23	punct	_	start_char=136|end_char=137|SpacesAfter=\n|NER=O
+

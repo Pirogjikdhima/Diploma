@@ -1,0 +1,115 @@
+# text = Mjekët dhe infermierët italianë janë zyrtarisht kandidatë për Çmimin Nobel për Paqe në vitin 2021 !
+# sent_id = 0
+1	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=7|end_char=10|NER=O
+3	infermierët	infermier	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	conj	_	start_char=11|end_char=22|NER=O
+4	italianë	italianë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=23|end_char=31|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=36|NER=O
+6	zyrtarisht	zyrtarisht	ADV	_	AdvType=Man	5	advmod	_	start_char=37|end_char=47|NER=O
+7	kandidatë	kandidatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	cop	_	start_char=48|end_char=57|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=58|end_char=61|NER=O
+9	Çmimin	Çmim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=62|end_char=68|NER=O
+10	Nobel	Nobel	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=69|end_char=74|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=75|end_char=78|NER=O
+12	Paqe	paqe	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=79|end_char=83|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=84|end_char=86|NER=O
+14	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=87|end_char=92|NER=B-DATE_0
+15	2021	2021	NUM	_	NumType=Card	14	amod:nummod	_	start_char=93|end_char=97|SpaceAfter=No|NER=I-DATE_0
+16	!	!	PUNCT	_	_	5	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = Gjendja e virusit në Itali ishte më alarmantja krahasuar me vendet e tjera , ndërsa mjekët e infermierët luftuan me mish e me shpirt për të shpëtuar sa të mundnin jetë qytetarësh , ndërkohë që shifrat e infektimit vinin në rritje nga dita në ditë .
+# sent_id = 1
+1	Gjendja	Gjendje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=8|end_char=9|NER=O
+3	virusit	virus	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=17|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=20|NER=O
+5	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=21|end_char=26|NER=B-VEND_1
+6	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=27|end_char=32|NER=O
+7	më	më	PART	_	_	8	mark	_	start_char=33|end_char=35|NER=O
+8	alarmantja	alarmantje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=36|end_char=46|NER=O
+9	krahasuar	krahasoj	VERB	_	VerbForm=Part	6	csubj	_	start_char=47|end_char=56|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=57|end_char=59|NER=O
+11	vendet	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=60|end_char=66|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=67|end_char=68|NER=O
+13	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	amod	_	start_char=69|end_char=74|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=75|end_char=76|NER=O
+15	ndërsa	ndërsa	CCONJ	_	_	19	cc	_	start_char=77|end_char=83|NER=O
+16	mjekët	mjekë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	19	nsubj	_	start_char=84|end_char=90|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=91|end_char=92|NER=O
+18	infermierët	infermier	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	start_char=93|end_char=104|NER=O
+19	luftuan	luftoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	start_char=105|end_char=112|NER=O
+20	me	me	ADP	_	Case=Acc	21	case	_	start_char=113|end_char=115|NER=O
+21	mish	mish	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	start_char=116|end_char=120|NER=O
+22	e	e	CCONJ	_	_	24	cc	_	start_char=121|end_char=122|NER=O
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=123|end_char=125|NER=O
+24	shpirt	shpirt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	start_char=126|end_char=132|NER=O
+25	për	për	PART	_	_	27	fixed	_	start_char=133|end_char=136|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=137|end_char=139|NER=O
+27	shpëtuar	shpëtoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=140|end_char=148|NER=O
+28	sa	sa	SCONJ	_	_	31	mark	_	start_char=149|end_char=151|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=152|end_char=154|NER=O
+30	mundnin	mund	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	31	advcl	_	start_char=155|end_char=162|NER=O
+31	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	ccomp	_	start_char=163|end_char=167|NER=O
+32	qytetarësh	qytetarë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	31	cop	_	start_char=168|end_char=178|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	34	punct	_	start_char=179|end_char=180|NER=O
+34	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	35	fixed	_	start_char=181|end_char=189|NER=O
+35	që	që	SCONJ	_	_	39	mark	_	start_char=190|end_char=192|NER=O
+36	shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	39	nsubj	_	start_char=193|end_char=200|NER=O
+37	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	38	det:poss	_	start_char=201|end_char=202|NER=O
+38	infektimit	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=203|end_char=213|NER=O
+39	vinin	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	31	conj	_	start_char=214|end_char=219|NER=O
+40	në	në	ADP	_	Case=Acc	41	case	_	start_char=220|end_char=222|NER=O
+41	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	obl	_	start_char=223|end_char=229|NER=O
+42	nga	nga	ADP	_	Case=Nom	43	case	_	start_char=230|end_char=233|NER=O
+43	dita	ditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	39	advmod	_	start_char=234|end_char=238|NER=O
+44	në	në	ADP	_	Case=Acc	45	case	_	start_char=239|end_char=241|NER=O
+45	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	advmod	_	start_char=242|end_char=246|SpaceAfter=No|NER=O
+46	.	.	PUNCT	_	_	39	punct	_	start_char=247|end_char=248|SpacesAfter=\n|NER=O
+
+# text = Kështu , në nderim të mjekëve dhe infermierëve italianë për punën e tyre të palodhur , Fondacioni Gorbachev ka propozuar personelin shëndetësor italian si kanditatë për Cmimin Nobel për Paqe në vitin 2021 .
+# sent_id = 2
+1	Kështu	kështu	ADV	_	AdvType=Cau	20	cc	_	start_char=0|end_char=6|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=9|end_char=11|NER=O
+4	nderim	nderim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	advmod	_	start_char=12|end_char=18|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=19|end_char=21|NER=O
+6	mjekëve	mjekë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=22|end_char=29|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=30|end_char=33|NER=O
+8	infermierëve	infermier	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	conj	_	start_char=34|end_char=46|NER=O
+9	italianë	italianë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=47|end_char=55|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=56|end_char=59|NER=O
+11	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=60|end_char=65|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=66|end_char=67|NER=O
+13	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=68|end_char=72|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=73|end_char=75|NER=O
+15	palodhur	palodhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=76|end_char=84|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=85|end_char=86|NER=O
+17	Fondacioni	Fondacion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	start_char=87|end_char=97|NER=B-ORG
+18	Gorbachev	Gorbache	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=98|end_char=107|NER=I-ORG
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=108|end_char=110|NER=O
+20	propozuar	propozoj	VERB	_	VerbForm=Part	0	root	_	start_char=111|end_char=120|NER=O
+21	personelin	personel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=121|end_char=131|NER=O
+22	shëndetësor	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=132|end_char=143|NER=O
+23	italian	italian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=144|end_char=151|NER=O
+24	si	si	SCONJ	_	_	25	mark	_	start_char=152|end_char=154|NER=O
+25	kanditatë	kanditatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=155|end_char=164|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=165|end_char=168|NER=O
+27	Cmimin	Cmim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=169|end_char=175|NER=O
+28	Nobel	Nobel	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	flat	_	start_char=176|end_char=181|NER=O
+29	për	për	ADP	_	Case=Acc	30	case	_	start_char=182|end_char=185|NER=O
+30	Paqe	paqe	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=186|end_char=190|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=191|end_char=193|NER=O
+32	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	advmod	_	start_char=194|end_char=199|NER=B-DATE_0
+33	2021	2021	NUM	_	NumType=Card	32	amod:nummod	_	start_char=200|end_char=204|SpaceAfter=No|NER=I-DATE_0
+34	.	.	PUNCT	_	_	20	punct	_	start_char=205|end_char=206|NER=O
+
+# text = Kjo kandidaturë është pranuar nga Oslo .
+# sent_id = 3
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	kandidaturë	kandidaturë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4|end_char=15|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=16|end_char=21|NER=O
+4	pranuar	pranoj	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=29|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=30|end_char=33|NER=O
+6	Oslo	Oslo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=34|end_char=38|SpaceAfter=No|NER=B-VEND_0
+7	.	.	PUNCT	_	_	4	punct	_	start_char=39|end_char=40|SpacesAfter=\n|NER=O
+

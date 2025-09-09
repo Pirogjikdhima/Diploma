@@ -1,0 +1,286 @@
+# text = MFE : 127 .
+# sent_id = 0
+1	MFE	MFE	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3|SpaceAfter=No|NER=B-ORG
+2	:	:	PUNCT	_	_	3	punct	_	start_char=4|end_char=5|NER=O
+3	127	127	NUM	_	NumType=Card	4	nummod	_	start_char=6|end_char=9|NER=O
+4	.	.	PUNCT	_	_	4	punct	_	start_char=10|end_char=11|NER=O
+
+# text = 6 miliardë lekë nga kontributet për sigurimet shoqërore dhe shëndetësore TIRAN , 25 dhjetor / ATSH / Të ardhurat e mbledhura nga kontributet për sigurimet shoqërore dhe shëndetësore të administruara nga Drejtoria e Përgjithshme e Tatimeve përgjatë periudhës janar - nëntor të vitit u realizuan në masën 127 .
+# sent_id = 1
+1	6	6	NUM	_	NumType=Card	4	nummod	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	start_char=2|end_char=10|NER=O
+3	lekë	lekë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	start_char=11|end_char=15|NER=O
+4	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=16|end_char=19|NER=O
+5	kontributet	kontribut	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=20|end_char=31|NER=O
+6	për	për	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=35|NER=O
+7	sigurimet	sigurim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=36|end_char=45|NER=O
+8	shoqërore	shoqëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=46|end_char=55|NER=O
+9	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=56|end_char=59|NER=O
+10	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	conj	_	start_char=60|end_char=72|SpacesAfter=\n|NER=O
+11	TIRAN	TIRAN	PROPN	_	Case=Nom|Number=Sing	12	appos	_	start_char=73|end_char=78|SpaceAfter=No|NER=B-VEND_0
+12	,	,	PUNCT	_	_	17	punct	_	start_char=79|end_char=80|NER=O
+13	25	25	NUM	_	NumType=Card	17	nummod	_	start_char=81|end_char=83|NER=B-DATE_0
+14	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	start_char=84|end_char=91|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	19	punct	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+16	ATSH	ATSH/Të	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	appos	_	start_char=94|end_char=98|NER=O
+17	/	/	PUNCT	_	_	17	punct	_	start_char=99|end_char=100|NER=O
+18	Të	ATSH/Të	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	appos	_	start_char=101|end_char=103|NER=O
+19	ardhurat	ardhurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=104|end_char=112|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=113|end_char=114|NER=O
+21	mbledhura	mbledhurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=115|end_char=124|NER=O
+22	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=125|end_char=128|NER=O
+23	kontributet	kontribut	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	obl	_	start_char=129|end_char=140|NER=O
+24	për	për	ADP	_	Case=Acc	26	case	_	start_char=141|end_char=144|NER=O
+25	sigurimet	sigurim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=145|end_char=154|NER=O
+26	shoqërore	shoqëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=155|end_char=164|NER=O
+27	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=165|end_char=168|NER=O
+28	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	conj	_	start_char=169|end_char=181|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=182|end_char=184|NER=O
+30	administruara	administruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=185|end_char=198|NER=O
+31	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=199|end_char=202|NER=O
+32	Drejtoria	drejtori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	advmod	_	start_char=203|end_char=212|NER=B-ORG
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=213|end_char=214|NER=I-ORG
+34	Përgjithshme	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=215|end_char=227|NER=I-ORG
+35	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=228|end_char=229|NER=I-ORG
+36	Tatimeve	tatim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	33	nmod	_	start_char=230|end_char=238|NER=I-ORG
+37	përgjatë	përgjatë	ADP	_	Case=Abl	39	case	_	start_char=239|end_char=247|NER=O
+38	periudhës	periudhë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	start_char=248|end_char=257|NER=O
+39	janar	janar-nëntor	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	start_char=258|end_char=263|NER=O
+40	-	-	PUNCT	_	_	39	punct	_	start_char=264|end_char=265|NER=O
+41	nëntor	janar-nëntor	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	start_char=266|end_char=272|NER=O
+42	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=273|end_char=275|NER=O
+43	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	start_char=276|end_char=281|NER=O
+44	u	u	PART	_	_	44	fixed	_	start_char=282|end_char=283|NER=O
+45	realizuan	realizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	39	acl	_	start_char=284|end_char=293|NER=O
+46	në	në	ADP	_	Case=Acc	46	case	_	start_char=294|end_char=296|NER=O
+47	masën	masë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	44	obl	_	start_char=297|end_char=302|NER=O
+48	127	127	NUM	_	NumType=Card	49	nummod	_	start_char=303|end_char=306|SpaceAfter=No|NER=O
+49	.	.	PUNCT	_	_	49	punct	_	start_char=307|end_char=308|NER=O
+
+# text = 6 miliardë lekë .
+# sent_id = 2
+1	6	6	NUM	_	NumType=Card	49	punct	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	44	obj	_	start_char=2|end_char=10|NER=O
+3	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	49	nmod	_	start_char=11|end_char=15|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	44	punct	_	start_char=16|end_char=17|SpacesAfter=\n|NER=O
+
+# text = Të dhënat zyrtare nga INSTAT konfirmojnë trendin pozitiv të treguesve të tregut të punës gjatë tremujorit të dytë .
+# sent_id = 3
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=3|end_char=9|NER=O
+3	zyrtare	zyrtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=10|end_char=17|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=18|end_char=21|NER=O
+5	INSTAT	INSTA	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=28|NER=B-ORG
+6	konfirmojnë	konfirmoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=40|NER=O
+7	trendin	trend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=41|end_char=48|NER=O
+8	pozitiv	pozit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=49|end_char=56|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=57|end_char=59|NER=O
+10	treguesve	tregues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=60|end_char=69|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=70|end_char=72|NER=O
+12	tregut	treg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=73|end_char=79|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=80|end_char=82|NER=O
+14	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=83|end_char=88|NER=O
+15	gjatë	gjatë	ADP	_	Case=Abl	16	case	_	start_char=89|end_char=94|NER=O
+16	tremujorit	tremujor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=95|end_char=105|NER=O
+17	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=106|end_char=108|NER=O
+18	dytë	dy	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=109|end_char=113|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	6	punct	_	start_char=114|end_char=115|SpacesAfter=\n|NER=O
+
+# text = Në tremujorin e tretë të këtij viti , shkalla e pjesëmarrjes në forcat e punës , për popullsinë 15 - 64 vjeç , është 76 .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	advmod	_	start_char=3|end_char=13|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=16|end_char=21|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=22|end_char=24|NER=O
+6	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=25|end_char=30|NER=O
+7	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=31|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|NER=O
+9	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	start_char=38|end_char=45|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=46|end_char=47|NER=O
+11	pjesëmarrjes	pjesëmarrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=48|end_char=60|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=61|end_char=63|NER=O
+13	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=64|end_char=70|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=71|end_char=72|NER=O
+15	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=73|end_char=78|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=79|end_char=80|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=81|end_char=84|NER=O
+18	popullsinë	popullsi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	advmod	_	start_char=85|end_char=95|NER=O
+19	15	15	NUM	_	NumType=Card	20	nummod	_	start_char=96|end_char=98|NER=O
+20	-	-	PUNCT	_	_	20	punct	_	start_char=99|end_char=100|NER=O
+21	64	64	NUM	_	NumType=Card	20	nummod	_	start_char=101|end_char=103|NER=O
+22	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=104|end_char=108|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	18	punct	_	start_char=109|end_char=110|NER=O
+24	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=111|end_char=116|NER=O
+25	76	76	NUM	_	NumType=Card	24	nummod	_	start_char=117|end_char=119|NER=O
+26	.	.	PUNCT	_	_	24	punct	_	start_char=120|end_char=121|NER=O
+
+# text = 1 % .
+# sent_id = 5
+1	1	1	NUM	_	NumType=Card	24	nummod	_	start_char=0|end_char=1|NER=O
+2	%	%	SYM	_	_	22	cop	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	22	punct	_	start_char=4|end_char=5|NER=O
+
+# text = Krahasuar me tremujorin e tretë të vitit 2022 , shkalla e pjesëmarrjes në forcat e punës është 2 .
+# sent_id = 6
+1	Krahasuar	krahasoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=0|end_char=9|NER=O
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=10|end_char=12|NER=O
+3	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=13|end_char=23|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=24|end_char=25|NER=O
+5	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=26|end_char=31|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=32|end_char=34|NER=O
+7	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=35|end_char=40|NER=B-DATE_0
+8	2022	2022	NUM	_	NumType=Card	7	flat	_	start_char=41|end_char=45|SpaceAfter=No|NER=I-DATE_0
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=48|end_char=55|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=56|end_char=57|NER=O
+12	pjesëmarrjes	pjesëmarrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=58|end_char=70|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=71|end_char=73|NER=O
+14	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=74|end_char=80|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=81|end_char=82|NER=O
+16	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=83|end_char=88|NER=O
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=89|end_char=94|NER=O
+18	2	2	NUM	_	NumType=Card	19	nummod	_	start_char=95|end_char=96|NER=O
+19	.	.	PUNCT	_	_	19	punct	_	start_char=97|end_char=98|NER=O
+
+# text = 7 pikë përqindje më e lartë , ndërkohë që krahasuar me tremujorin e mëparshëm është rritur me 0 .
+# sent_id = 7
+1	7	7	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=1|NER=O
+2	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	cop	_	start_char=2|end_char=6|NER=O
+3	përqindje	përqindje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=7|end_char=16|NER=O
+4	më	më	PART	_	_	23	mark	_	start_char=17|end_char=19|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=20|end_char=21|NER=O
+6	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=22|end_char=27|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	25	punct	_	start_char=28|end_char=29|NER=O
+8	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	26	fixed	_	start_char=30|end_char=38|NER=O
+9	që	që	SCONJ	_	_	27	mark	_	start_char=39|end_char=41|NER=O
+10	krahasuar	krahasoj	VERB	_	VerbForm=Part	33	advcl	_	start_char=42|end_char=51|NER=O
+11	me	me	ADP	_	Case=Acc	29	case	_	start_char=52|end_char=54|NER=O
+12	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=55|end_char=65|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=66|end_char=67|NER=O
+14	mëparshëm	mëparshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=68|end_char=77|NER=O
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=78|end_char=83|NER=O
+16	rritur	rrit	VERB	_	VerbForm=Part	1	conj	_	start_char=84|end_char=90|NER=O
+17	me	me	ADP	_	Case=Acc	36	case	_	start_char=91|end_char=93|NER=O
+18	0	0	NUM	_	NumType=Card	36	nummod	_	start_char=94|end_char=95|NER=O
+19	.	.	PUNCT	_	_	36	punct	_	start_char=96|end_char=97|NER=O
+
+# text = 3 pikë përqindje .
+# sent_id = 8
+1	3	3	NUM	_	NumType=Card	36	nummod	_	start_char=0|end_char=1|NER=O
+2	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	33	obl	_	start_char=2|end_char=6|NER=O
+3	përqindje	përqindje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	36	nmod	_	start_char=7|end_char=16|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	33	punct	_	start_char=17|end_char=18|SpacesAfter=\n|NER=O
+
+# text = Gjatë tremujorit të tretë të vitit 2023 , shkalla e pjesëmarrjes në forcat e punës për të rinjtë e moshës 15 - 29 vjeç është 57 .
+# sent_id = 9
+1	Gjatë	gjatë	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	tremujorit	tremujor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=6|end_char=16|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=17|end_char=19|NER=O
+4	tretë	tretë	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=20|end_char=25|NER=O
+5	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=26|end_char=28|NER=O
+6	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=29|end_char=34|NER=B-DATE_0
+7	2023	2023	NUM	_	NumType=Card	6	flat	_	start_char=35|end_char=39|SpaceAfter=No|NER=I-DATE_0
+8	,	,	PUNCT	_	_	9	punct	_	start_char=40|end_char=41|NER=O
+9	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	start_char=42|end_char=49|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=50|end_char=51|NER=O
+11	pjesëmarrjes	pjesëmarrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=52|end_char=64|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=65|end_char=67|NER=O
+13	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=68|end_char=74|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=75|end_char=76|NER=O
+15	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=77|end_char=82|NER=O
+16	për	për	ADP	_	Case=Acc	18	case	_	start_char=83|end_char=86|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=87|end_char=89|NER=O
+18	rinjtë	rinjtë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=90|end_char=96|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=97|end_char=98|NER=O
+20	moshës	moshë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=99|end_char=105|NER=O
+21	15	15	NUM	_	NumType=Card	20	nummod	_	start_char=106|end_char=108|SpaceAfter=No|NER=O
+22	-	-	PUNCT	_	_	23	punct	_	start_char=109|end_char=110|NER=O
+23	29	29	NUM	_	NumType=Card	23	nummod	_	start_char=111|end_char=113|NER=O
+24	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=114|end_char=118|NER=O
+25	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=119|end_char=124|NER=O
+26	57	57	NUM	_	NumType=Card	26	nummod	_	start_char=125|end_char=127|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	26	punct	_	start_char=128|end_char=129|SpaceAfter=No|NER=O
+
+# text = 5 % .
+# sent_id = 10
+1	5	5	NUM	_	NumType=Card	26	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	24	cop	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	24	punct	_	start_char=4|end_char=5|NER=O
+
+# text = Ky tregues është rritur me 2 .
+# sent_id = 11
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	tregues	tregues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3|end_char=10|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=11|end_char=16|NER=O
+4	rritur	rrit	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=23|NER=O
+5	me	me	ADP	_	Case=Acc	7	case	_	start_char=24|end_char=26|NER=O
+6	2	2	NUM	_	NumType=Card	7	nummod	_	start_char=27|end_char=28|NER=O
+7	.	.	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|NER=O
+
+# text = 6 pikë përqindje , krahasuar me tremujorin e tretë të vitit 2022 , dhe është rritur me 0 .
+# sent_id = 12
+1	6	6	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=1|NER=O
+2	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	start_char=2|end_char=6|NER=O
+3	përqindje	përqindje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	start_char=7|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	10	punct	_	start_char=17|end_char=18|NER=O
+5	krahasuar	krahasoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=19|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	12	case	_	start_char=29|end_char=31|NER=O
+7	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=32|end_char=42|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=43|end_char=44|NER=O
+9	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=45|end_char=50|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=51|end_char=53|NER=O
+11	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=54|end_char=59|NER=B-DATE_0
+12	2022	2022	NUM	_	NumType=Card	16	flat	_	start_char=60|end_char=64|SpaceAfter=No|NER=I-DATE_0
+13	,	,	PUNCT	_	_	19	punct	_	start_char=65|end_char=66|NER=O
+14	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=67|end_char=70|NER=O
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=71|end_char=76|NER=O
+16	rritur	rrit	VERB	_	VerbForm=Part	4	conj	_	start_char=77|end_char=83|NER=O
+17	me	me	ADP	_	Case=Acc	24	case	_	start_char=84|end_char=86|NER=O
+18	0	0	NUM	_	NumType=Card	24	nummod	_	start_char=87|end_char=88|NER=O
+19	.	.	PUNCT	_	_	24	punct	_	start_char=89|end_char=90|NER=O
+
+# text = 8 pikë përqindje në krahasim me tremujorin e dytë 2023 .
+# sent_id = 13
+1	8	8	NUM	_	NumType=Card	24	nummod	_	start_char=0|end_char=1|NER=O
+2	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obl	_	start_char=2|end_char=6|NER=O
+3	përqindje	përqindje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	nmod	_	start_char=7|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	27	case	_	start_char=17|end_char=19|NER=O
+5	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=20|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	29	case	_	start_char=29|end_char=31|NER=O
+7	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=32|end_char=42|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=43|end_char=44|NER=O
+9	dytë	dy	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=45|end_char=49|NER=O
+10	2023	2023	NUM	_	NumType=Card	29	amod:nummod	_	start_char=50|end_char=54|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	21	punct	_	start_char=55|end_char=56|NER=O
+
+# text = Për popullsinë 30 - 64 vjeç , në tremujorin e tretë 2023 , shkalla e pjesëmarrjes në forcat e punës është 84 .
+# sent_id = 14
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	popullsinë	popullsi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	advmod	_	start_char=4|end_char=14|NER=O
+3	30	30	NUM	_	NumType=Card	4	nummod	_	start_char=15|end_char=17|NER=O
+4	-	-	PUNCT	_	_	4	punct	_	start_char=18|end_char=19|NER=O
+5	64	64	NUM	_	NumType=Card	4	nummod	_	start_char=20|end_char=22|NER=O
+6	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=23|end_char=27|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	2	punct	_	start_char=28|end_char=29|NER=O
+8	në	në	ADP	_	Case=Acc	7	case	_	start_char=30|end_char=32|NER=O
+9	tremujorin	tremujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=33|end_char=43|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=44|end_char=45|NER=O
+11	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=46|end_char=51|NER=O
+12	2023	2023	NUM	_	NumType=Card	7	amod:nummod	_	start_char=52|end_char=56|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	12	punct	_	start_char=57|end_char=58|NER=O
+14	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	start_char=59|end_char=66|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=67|end_char=68|NER=O
+16	pjesëmarrjes	pjesëmarrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=69|end_char=81|NER=O
+17	në	në	ADP	_	Case=Acc	16	case	_	start_char=82|end_char=84|NER=O
+18	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=85|end_char=91|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=92|end_char=93|NER=O
+20	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=94|end_char=99|NER=O
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=100|end_char=105|NER=O
+22	84	84	NUM	_	NumType=Card	22	nummod	_	start_char=106|end_char=108|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	19	punct	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+
+# text = 6
+# sent_id = 15
+1	6	6	NUM	_	NumType=Card	19	cop	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+

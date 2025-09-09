@@ -1,0 +1,94 @@
+# text = Nafta pa taksa për bujqësinë , AZHBR : Deri tani , 19 .
+# sent_id = 0
+1	Nafta	naftë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|NER=O
+2	pa	pa	ADP	_	Case=Acc	3	case	_	start_char=6|end_char=8|NER=O
+3	taksa	taksë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=9|end_char=14|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=15|end_char=18|NER=O
+5	bujqësinë	bujqësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=19|end_char=28|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|NER=O
+7	AZHBR	AZHBR	PROPN	_	Foreign=Yes	5	appos	_	start_char=31|end_char=36|SpaceAfter=No|NER=B-ORG
+8	:	:	PUNCT	_	_	1	punct	_	start_char=37|end_char=38|NER=O
+9	Deri	deri	ADP	_	Case=Acc	2	case	_	start_char=39|end_char=43|NER=O
+10	tani	tani	ADV	_	AdvType=Tim	15	advmod	_	start_char=44|end_char=48|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	2	punct	_	start_char=49|end_char=50|NER=O
+12	19	19	NUM	_	NumType=Card	2	advmod	_	start_char=51|end_char=53|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	4	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+
+# text = 412 fermerë përfitues Në Shqipëri vijon shpërndarja e kartave të naftës pa taksa për fermerët në të gjithë vendin , sipas Skemës Kombëtare të Mbështetjes 2023 .
+# sent_id = 1
+1	412	412	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=3|NER=O
+2	fermerë	fermerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	start_char=4|end_char=11|NER=O
+3	përfitues	përfitues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	start_char=12|end_char=21|SpacesAfter=\n|NER=O
+4	Në	në	ADP	_	Case=Acc	14	case	_	start_char=22|end_char=24|NER=O
+5	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=25|end_char=33|NER=B-VEND_1
+6	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=34|end_char=39|NER=O
+7	shpërndarja	shpërndarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=40|end_char=51|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=52|end_char=53|NER=O
+9	kartave	kartë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=54|end_char=61|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=62|end_char=64|NER=O
+11	naftës	naftë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=65|end_char=71|NER=O
+12	pa	pa	ADP	_	Case=Acc	22	case	_	start_char=72|end_char=74|NER=O
+13	taksa	taksë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	start_char=75|end_char=80|NER=O
+14	për	për	ADP	_	Case=Acc	24	case	_	start_char=81|end_char=84|NER=O
+15	fermerët	fermer	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=85|end_char=93|NER=O
+16	në	në	ADP	_	Case=Acc	28	case	_	start_char=94|end_char=96|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	27	det	_	start_char=97|end_char=99|NER=O
+18	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	28	nummod	_	start_char=100|end_char=106|NER=O
+19	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=107|end_char=113|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	31	punct	_	start_char=114|end_char=115|NER=O
+21	sipas	sipas	ADP	_	Case=Abl	31	case	_	start_char=116|end_char=121|NER=O
+22	Skemës	skemë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=122|end_char=128|NER=O
+23	Kombëtare	kombëtar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=129|end_char=138|NER=O
+24	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=139|end_char=141|NER=O
+25	Mbështetjes	mbështetje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=142|end_char=153|NER=O
+26	2023	2023	NUM	_	NumType=Card	34	amod:nummod	_	start_char=154|end_char=158|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	15	punct	_	start_char=159|end_char=160|SpacesAfter=\n|NER=O
+
+# text = Agjencia për Zhvillim Bujqësor dhe Rural ( AZHBR ) njoftoi se deri më tani janë 19 , 412 fermerë përfitues .
+# sent_id = 2
+1	Agjencia	tgjenci	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=0|end_char=8|NER=B-ORG
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=9|end_char=12|NER=I-ORG
+3	Zhvillim	Zhvillim	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=13|end_char=21|NER=I-ORG
+4	Bujqësor	bujqësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=22|end_char=30|NER=I-ORG
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=31|end_char=34|NER=I-ORG
+6	Rural	Rural	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	start_char=35|end_char=40|NER=I-ORG
+7	(	(	PUNCT	_	_	8	punct	_	start_char=41|end_char=42|SpaceAfter=No|NER=O
+8	AZHBR	AZHBR	PROPN	_	Foreign=Yes	6	appos	_	start_char=43|end_char=48|NER=B-ORG
+9	)	)	PUNCT	_	_	6	punct	_	start_char=49|end_char=50|NER=O
+10	njoftoi	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=51|end_char=58|NER=O
+11	se	se	SCONJ	_	_	14	mark	_	start_char=59|end_char=61|NER=O
+12	deri	deri	ADP	_	Case=Acc	12	fixed	_	start_char=62|end_char=66|NER=O
+13	më	më	ADP	_	Case=Acc	13	case	_	start_char=67|end_char=69|NER=O
+14	tani	tani	ADV	_	AdvType=Tim	14	advmod	_	start_char=70|end_char=74|NER=O
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=75|end_char=79|NER=O
+16	19	19	NUM	_	NumType=Card	14	advmod	_	start_char=80|end_char=82|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+18	412	412	NUM	_	NumType=Card	18	nummod	_	start_char=85|end_char=88|NER=O
+19	fermerë	fermerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	cop	_	start_char=89|end_char=96|NER=O
+20	përfitues	përfitues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	start_char=97|end_char=106|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	14	punct	_	start_char=107|end_char=108|SpacesAfter=\n|NER=O
+
+# text = Aplikimet për përfitimin e subvencioneve direkte për bujqësinë dhe naftës falas nisën më 20 Mars dhe përfunduan më 11 prill .
+# sent_id = 3
+1	Aplikimet	aplikim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=0|end_char=9|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=10|end_char=13|NER=O
+3	përfitimin	përfitim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=14|end_char=24|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=25|end_char=26|NER=O
+5	subvencioneve	subvencion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=27|end_char=40|NER=O
+6	direkte	direkt	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=41|end_char=48|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=49|end_char=52|NER=O
+8	bujqësinë	bujqësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=53|end_char=62|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=63|end_char=66|NER=O
+10	naftës	naftë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	start_char=67|end_char=73|NER=O
+11	falas	falas	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=74|end_char=79|NER=O
+12	nisën	nis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=80|end_char=85|NER=O
+13	më	më	ADP	_	Case=Acc	15	case	_	start_char=86|end_char=88|NER=O
+14	20	20	NUM	_	NumType=Card	15	nummod	_	start_char=89|end_char=91|NER=B-DATE_0
+15	Mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=92|end_char=96|NER=I-DATE_0
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=97|end_char=100|NER=O
+17	përfunduan	përfundoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	conj	_	start_char=101|end_char=111|NER=O
+18	më	më	ADP	_	Case=Acc	20	case	_	start_char=112|end_char=114|NER=O
+19	11	11	NUM	_	NumType=Card	20	nummod	_	start_char=115|end_char=117|NER=B-DATE_0
+20	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=118|end_char=123|SpaceAfter=No|NER=I-DATE_0
+21	.	.	PUNCT	_	_	12	punct	_	start_char=124|end_char=125|SpacesAfter=\n|NER=O
+

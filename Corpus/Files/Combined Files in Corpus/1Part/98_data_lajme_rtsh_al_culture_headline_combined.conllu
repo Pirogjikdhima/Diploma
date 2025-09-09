@@ -1,0 +1,112 @@
+# text = Fest 62 / Ermal Peçi : Festivali i Këngës është gjithmonë festë .
+# sent_id = 0
+1	Fest	fest	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|NER=O
+2	62	62	NUM	_	NumType=Card	1	amod:nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=O
+3	/	/	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+4	Ermal	Ermal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+5	Peçi	peçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=20|SpaceAfter=No|NER=I-PER
+6	:	:	PUNCT	_	_	1	punct	_	start_char=21|end_char=22|NER=O
+7	Festivali	festival	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=23|end_char=32|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=33|end_char=34|NER=O
+9	Këngës	Këngë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=35|end_char=41|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=47|NER=O
+11	gjithmonë	gjithmonë	ADV	_	AdvType=Deg	4	advmod	_	start_char=48|end_char=57|NER=O
+12	festë	festë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=58|end_char=63|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	4	punct	_	start_char=64|end_char=65|NER=O
+
+# text = Garë e fortë mes 5 këngësh për vendin e parë 22 / 12 / 2023 Një festë e ka konsideruar moderatori Ermal Peçi Fest 62 në RTSH .
+# sent_id = 1
+1	Garë	Garë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5|end_char=6|NER=O
+3	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=12|NER=O
+4	mes	mes	ADP	_	Case=Abl	6	case	_	start_char=13|end_char=16|NER=O
+5	5	5	NUM	_	NumType=Card	6	nummod	_	start_char=17|end_char=18|NER=O
+6	këngësh	këngësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=19|end_char=26|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=27|end_char=30|NER=O
+8	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=31|end_char=37|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=38|end_char=39|NER=O
+10	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=40|end_char=44|SpacesAfter=\n|NER=O
+11	22	22	NUM	_	NumType=Card	12	nummod	_	start_char=45|end_char=47|SpaceAfter=No|NER=B-DATE_0
+12	/	/	PUNCT	_	_	8	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=I-DATE_0
+13	12	12	NUM	_	NumType=Card	8	nmod	_	start_char=50|end_char=52|SpaceAfter=No|NER=I-DATE_0
+14	/	/	PUNCT	_	_	12	punct	_	start_char=53|end_char=54|SpaceAfter=No|NER=I-DATE_0
+15	2023	2023	NUM	_	NumType=Card	12	nummod	_	start_char=55|end_char=59|SpaceAfter=No|NER=I-DATE_0
+16	Një	një	DET	_	Definite=Ind	16	det	_	start_char=60|end_char=63|NER=O
+17	festë	festë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=64|end_char=69|NER=O
+18	e	e	CCONJ	_	_	19	cc	_	start_char=70|end_char=71|NER=O
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=72|end_char=74|NER=O
+20	konsideruar	konsideroj	VERB	_	VerbForm=Part	16	conj	_	start_char=75|end_char=86|NER=O
+21	moderatori	moderator	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=87|end_char=97|NER=O
+22	Ermal	Ermal	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	20	flat	_	start_char=98|end_char=103|NER=B-PER
+23	Peçi	peçi	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	20	flat	_	start_char=104|end_char=108|NER=I-PER
+24	Fest	fest	PROPN	_	Foreign=Yes	22	flat	_	start_char=109|end_char=113|NER=O
+25	62	62	NUM	_	NumType=Card	23	flat	_	start_char=114|end_char=116|NER=O
+26	në	në	ADP	_	Case=Acc	26	case	_	start_char=117|end_char=119|NER=O
+27	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	advmod	_	start_char=120|end_char=124|SpaceAfter=No|NER=B-ORG
+28	.	.	PUNCT	_	_	19	punct	_	start_char=125|end_char=126|NER=O
+
+# text = Në " Magjia para shfaqjes " me Arjola Shehun , moderatori nuk hezitoi të tregonte edhe këngët e tij të preferuara në këtë Festival .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	"	"	PUNCT	_	_	3	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=O
+3	Magjia	magji	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=5|end_char=11|NER=O
+4	para	para	ADP	_	Case=Abl	5	case	_	start_char=12|end_char=16|NER=O
+5	shfaqjes	shfaqjes	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=17|end_char=25|NER=O
+6	"	"	PUNCT	_	_	3	punct	_	start_char=26|end_char=27|NER=O
+7	me	me	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=30|NER=O
+8	Arjola	Arjolë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=31|end_char=37|NER=B-PER
+9	Shehun	Shehun	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=38|end_char=44|SpaceAfter=No|NER=I-PER
+10	,	,	PUNCT	_	_	1	punct	_	start_char=45|end_char=46|NER=O
+11	moderatori	moderator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=47|end_char=57|NER=O
+12	nuk	nuk	PART	_	_	12	mark	_	start_char=58|end_char=61|NER=O
+13	hezitoi	hezitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=62|end_char=69|NER=O
+14	të	të	PART	_	_	14	fixed	_	start_char=70|end_char=72|NER=O
+15	tregonte	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	12	ccomp	_	start_char=73|end_char=81|NER=O
+16	edhe	edhe	PART	_	_	16	mark	_	start_char=82|end_char=86|NER=O
+17	këngët	këngë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=87|end_char=93|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=94|end_char=95|NER=O
+19	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=96|end_char=99|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=100|end_char=102|NER=O
+21	preferuara	preferuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=103|end_char=113|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=114|end_char=116|NER=O
+23	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	start_char=117|end_char=121|NER=O
+24	Festival	Festival	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=122|end_char=130|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	14	punct	_	start_char=131|end_char=132|SpacesAfter=\n|NER=O
+
+# text = Sipas tij , gara për vendin e parë të Festivalit do të jetë mes Besa Kokëdhimës , duetit të Vesa Lumës dhe Big Basta , Elsa Lilës , Anduel Kovaçit dhe Kastro Zizos .
+# sent_id = 3
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	advmod	_	start_char=6|end_char=9|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=10|end_char=11|NER=O
+4	gara	garë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nsubj	_	start_char=12|end_char=16|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=17|end_char=20|NER=O
+6	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=21|end_char=27|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=28|end_char=29|NER=O
+8	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=30|end_char=34|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=35|end_char=37|NER=O
+10	Festivalit	festival	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=48|NER=O
+11	do	do	PART	_	_	13	fixed	_	start_char=49|end_char=51|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=52|end_char=54|NER=O
+13	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=55|end_char=59|NER=O
+14	mes	mes	ADP	_	Case=Abl	15	case	_	start_char=60|end_char=63|NER=O
+15	Besa	Besa	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=64|end_char=68|NER=B-PER
+16	Kokëdhimës	Kokëdhimë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=69|end_char=79|SpaceAfter=No|NER=I-PER
+17	,	,	PUNCT	_	_	18	punct	_	start_char=80|end_char=81|NER=O
+18	duetit	duet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=82|end_char=88|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=89|end_char=91|NER=O
+20	Vesa	Vesa	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=92|end_char=96|NER=B-PER
+21	Lumës	Lumë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	flat	_	start_char=97|end_char=102|NER=I-PER
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=103|end_char=106|NER=O
+23	Big	Big	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	start_char=107|end_char=110|NER=B-PER
+24	Basta	Bastë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	flat	_	start_char=111|end_char=116|SpaceAfter=No|NER=I-PER
+25	,	,	PUNCT	_	_	26	punct	_	start_char=117|end_char=118|NER=O
+26	Elsa	Elsa	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	appos	_	start_char=119|end_char=123|NER=B-PER
+27	Lilës	Lilë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	flat	_	start_char=124|end_char=129|SpaceAfter=No|NER=I-PER
+28	,	,	PUNCT	_	_	29	punct	_	start_char=130|end_char=131|NER=O
+29	Anduel	Anduel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	list	_	start_char=132|end_char=138|NER=B-PER
+30	Kovaçit	Kovaç	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=139|end_char=146|NER=I-PER
+31	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=147|end_char=150|NER=O
+32	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	conj	_	start_char=151|end_char=157|NER=B-PER
+33	Zizos	Zizos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	flat:name	_	start_char=158|end_char=163|SpaceAfter=No|NER=I-PER
+34	.	.	PUNCT	_	_	13	punct	_	start_char=164|end_char=165|SpacesAfter=\n|NER=O
+

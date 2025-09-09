@@ -1,0 +1,63 @@
+# text = Rritet numri i diabetikëve në Elbasan , pacientët të paorientuar për fishat falas Diabeti po prek gjithnjë e më shumë fëmjë .
+# sent_id = 0
+1	Rritet	Rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=6|NER=O
+2	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=7|end_char=12|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=13|end_char=14|NER=O
+4	diabetikëve	diabetikë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=15|end_char=26|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	Elbasan	Elbasan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=30|end_char=37|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	8	punct	_	start_char=38|end_char=39|NER=O
+8	pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nsubj	_	start_char=40|end_char=49|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=50|end_char=52|NER=O
+10	paorientuar	paorientuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=53|end_char=64|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=65|end_char=68|NER=O
+12	fishat	fishë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=69|end_char=75|NER=O
+13	falas	falas	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=76|end_char=81|SpacesAfter=\n|NER=O
+14	Diabeti	Diabet	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=82|end_char=89|NER=O
+15	po	po	PART	_	_	21	mark	_	start_char=90|end_char=92|NER=O
+16	prek	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=93|end_char=97|NER=O
+17	gjithnjë	gjithnjë	ADV	_	AdvType=Tim	21	advmod	_	start_char=98|end_char=106|NER=O
+18	e	e	CCONJ	_	_	26	cc	_	start_char=107|end_char=108|NER=O
+19	më	më	PART	_	_	26	mark	_	start_char=109|end_char=111|NER=O
+20	shumë	shumë	ADV	_	AdvType=Deg	26	advmod	_	start_char=112|end_char=117|NER=O
+21	fëmjë	fëmjë	ADV	_	AdvType=Tim	21	advmod	_	start_char=118|end_char=123|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	21	punct	_	start_char=124|end_char=125|NER=O
+
+# text = Në Elbasan çdo vit numri i personave adult me diabet rritet me 400 raste të reja ndërsa tek fëmijët nga mosha 0 deri në 3 vjeç ky numër rritet çdo muaj me 3 raste .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Elbasan	Elbasan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=3|end_char=10|NER=B-VEND_0
+3	çdo	çdo	PRON	_	PronType=Ind	4	det	_	start_char=11|end_char=14|NER=O
+4	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=18|NER=O
+5	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=19|end_char=24|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=25|end_char=26|NER=O
+7	personave	person	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=27|end_char=36|NER=O
+8	adult	adult	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=37|end_char=42|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=45|NER=O
+10	diabet	diab	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	advmod	_	start_char=46|end_char=52|NER=O
+11	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=53|end_char=59|NER=O
+12	me	me	ADP	_	Case=Acc	14	case	_	start_char=60|end_char=62|NER=O
+13	400	400	NUM	_	NumType=Card	14	nummod	_	start_char=63|end_char=66|NER=O
+14	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	start_char=67|end_char=72|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=73|end_char=75|NER=O
+16	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=76|end_char=80|NER=O
+17	ndërsa	ndërsa	CCONJ	_	_	19	cc	_	start_char=81|end_char=87|NER=O
+18	tek	tek	ADP	_	Case=Nom	19	case	_	start_char=88|end_char=91|NER=O
+19	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	conj	_	start_char=92|end_char=99|NER=O
+20	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=100|end_char=103|NER=O
+21	mosha	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=104|end_char=109|NER=O
+22	0	0	NUM	_	NumType=Card	21	nummod	_	start_char=110|end_char=111|NER=O
+23	deri	deri	PART	_	Case=TODO	24	fixed	_	start_char=112|end_char=116|NER=O
+24	në	në	ADP	_	Case=Acc	26	case	_	start_char=117|end_char=119|NER=O
+25	3	3	NUM	_	NumType=Card	26	nummod	_	start_char=120|end_char=121|NER=O
+26	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=122|end_char=126|NER=O
+27	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=127|end_char=129|NER=O
+28	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	nsubj	_	start_char=130|end_char=135|NER=O
+29	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	26	acl:relcl	_	start_char=136|end_char=142|NER=O
+30	çdo	çdo	PRON	_	PronType=Ind	31	nummod	_	start_char=143|end_char=146|NER=O
+31	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	obj	_	start_char=147|end_char=151|NER=O
+32	me	me	ADP	_	Case=Acc	34	case	_	start_char=152|end_char=154|NER=O
+33	3	3	NUM	_	NumType=Card	34	nummod	_	start_char=155|end_char=156|NER=O
+34	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	29	advmod	_	start_char=157|end_char=162|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	29	punct	_	start_char=163|end_char=164|SpacesAfter=\n|NER=O
+

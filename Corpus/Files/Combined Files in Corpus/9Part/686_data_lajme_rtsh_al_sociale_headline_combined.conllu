@@ -1,0 +1,217 @@
+# text = 02 / 10 / 2023 Autoriteti Kombëtar i Ushqimit ( AKU ) ka shtuar kontrollet tek subjektet që ofrojnë ushqime pranë shkollave .
+# sent_id = 0
+1	02	02	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	11	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Autoriteti	Autoritet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=15|end_char=25|NER=B-ORG
+7	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	flat	_	start_char=26|end_char=34|NER=I-ORG
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=35|end_char=36|NER=I-ORG
+9	Ushqimit	Ushqim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	compound	_	start_char=37|end_char=45|NER=I-ORG
+10	(	(	PUNCT	_	_	21	punct	_	start_char=46|end_char=47|SpaceAfter=No|NER=I-ORG
+11	AKU	AKU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	start_char=48|end_char=51|NER=I-ORG
+12	)	)	PUNCT	_	_	23	punct	_	start_char=52|end_char=53|NER=I-ORG
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=54|end_char=56|NER=O
+14	shtuar	shtoj	VERB	_	VerbForm=Part	4	conj	_	start_char=57|end_char=63|NER=O
+15	kontrollet	kontroll	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	23	obj	_	start_char=64|end_char=74|NER=O
+16	tek	tek	ADP	_	Case=Nom	26	case	_	start_char=75|end_char=78|NER=O
+17	subjektet	subjekt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	obl	_	start_char=79|end_char=88|NER=O
+18	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=89|end_char=91|NER=O
+19	ofrojnë	ofroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	acl	_	start_char=92|end_char=99|NER=O
+20	ushqime	ushqim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obj	_	start_char=100|end_char=107|NER=O
+21	pranë	pranë	ADP	_	Case=Abl	31	case	_	start_char=108|end_char=113|NER=O
+22	shkollave	shkollë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	28	obl	_	start_char=114|end_char=123|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	23	punct	_	start_char=124|end_char=125|NER=O
+
+# text = Çdo javë grupet e taskëforcë - s kontrollojnë fast food - et për të mbrojtur fëmijët .
+# sent_id = 1
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	javë	javë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=4|end_char=8|NER=O
+3	grupet	grup	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=9|end_char=15|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	taskëforcë	taskëforcë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=18|end_char=28|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=29|end_char=30|NER=O
+7	s	taskëforcë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=31|end_char=32|NER=O
+8	kontrollojnë	kontrolloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=45|NER=O
+9	fast	fast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=46|end_char=50|NER=O
+10	food	food-e	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=51|end_char=55|NER=O
+11	-	-	PUNCT	_	_	7	punct	_	start_char=56|end_char=57|NER=O
+12	et	food-e	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=58|end_char=60|NER=O
+13	për	për	PART	_	_	11	fixed	_	start_char=61|end_char=64|NER=O
+14	të	të	PART	_	_	11	fixed	_	start_char=65|end_char=67|NER=O
+15	mbrojtur	mbroj	VERB	_	VerbForm=Part	6	advmod	_	start_char=68|end_char=76|NER=O
+16	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obj	_	start_char=77|end_char=84|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	6	punct	_	start_char=85|end_char=86|NER=O
+
+# text = AKU ka bllokuar aktivitetin e 30 subjekteve për shkelje të ndryshme , ndërsa nga janari në korrik ka arkëtuar 70 milionë lekë gjoba Ushqimi i shpejtë është I preferuar për nxënësit dhe në pushimet mes orëve , ata nxitojnë të blejnë diçka .
+# sent_id = 2
+1	AKU	AKU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=3|NER=B-ORG
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=6|NER=O
+3	bllokuar	bllokoj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=15|NER=O
+4	aktivitetin	aktivitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=16|end_char=27|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=28|end_char=29|NER=O
+6	30	30	NUM	_	NumType=Card	7	nummod	_	start_char=30|end_char=32|NER=O
+7	subjekteve	subjekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=33|end_char=43|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=44|end_char=47|NER=O
+9	shkelje	shkelje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=48|end_char=55|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=56|end_char=58|NER=O
+11	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=59|end_char=67|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=68|end_char=69|NER=O
+13	ndërsa	ndërsa	CCONJ	_	_	19	cc	_	start_char=70|end_char=76|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=77|end_char=80|NER=O
+15	janari	janar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=81|end_char=87|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=88|end_char=90|NER=O
+17	korrik	korrik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=91|end_char=97|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=98|end_char=100|NER=O
+19	arkëtuar	arkëtoj	VERB	_	VerbForm=Part	3	conj	_	start_char=101|end_char=109|NER=O
+20	70	70	NUM	_	NumType=Card	21	nummod	_	start_char=110|end_char=112|NER=O
+21	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	start_char=113|end_char=120|NER=O
+22	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	start_char=121|end_char=125|NER=O
+23	gjoba	gjobë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=126|end_char=131|SpacesAfter=\n|NER=O
+24	Ushqimi	ushqim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=132|end_char=139|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=140|end_char=141|NER=O
+26	shpejtë	shpejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=142|end_char=149|NER=O
+27	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=150|end_char=155|NER=O
+28	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=156|end_char=157|NER=O
+29	preferuar	preferuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	cop	_	start_char=158|end_char=167|NER=O
+30	për	për	ADP	_	Case=Acc	31	case	_	start_char=168|end_char=171|NER=O
+31	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	27	advmod	_	start_char=172|end_char=180|NER=O
+32	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=181|end_char=184|NER=O
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=185|end_char=187|NER=O
+34	pushimet	pushim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	31	conj	_	start_char=188|end_char=196|NER=O
+35	mes	mes	ADP	_	Case=Abl	36	case	_	start_char=197|end_char=200|NER=O
+36	orëve	orë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	34	nmod	_	start_char=201|end_char=206|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	39	punct	_	start_char=207|end_char=208|NER=O
+38	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	start_char=209|end_char=212|NER=O
+39	nxitojnë	nxitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	acl:relcl	_	start_char=213|end_char=221|NER=O
+40	të	të	PART	_	_	41	fixed	_	start_char=222|end_char=224|NER=O
+41	blejnë	blej	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	39	ccomp	_	start_char=225|end_char=231|NER=O
+42	diçka	diçka	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	41	obj	_	start_char=232|end_char=237|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	39	punct	_	start_char=238|end_char=239|NER=O
+
+# text = Por a janë të sigurta produktet që nxënësit blejnë pranë njësive tregtare në afërsi të shkollave ?
+# sent_id = 3
+1	Por	por	CCONJ	_	_	3	cc	_	start_char=0|end_char=3|NER=O
+2	a	a	PART	_	_	3	mark	_	start_char=4|end_char=5|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=10|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=11|end_char=13|NER=O
+5	sigurta	sigurtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	cop	_	start_char=14|end_char=21|NER=O
+6	produktet	produkt	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	cop	_	start_char=22|end_char=31|NER=O
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=32|end_char=34|NER=O
+8	nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=35|end_char=43|NER=O
+9	blejnë	blej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl	_	start_char=44|end_char=50|NER=O
+10	pranë	pranë	ADP	_	Case=Abl	11	case	_	start_char=51|end_char=56|NER=O
+11	njësive	njësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=57|end_char=64|NER=O
+12	tregtare	tregtar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=65|end_char=73|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=74|end_char=76|NER=O
+14	afërsi	afërsi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=77|end_char=83|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=84|end_char=86|NER=O
+16	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=87|end_char=96|SpaceAfter=No|NER=O
+17	?	?	PUNCT	_	_	9	punct	_	start_char=97|end_char=98|NER=O
+
+# text = Autoriteti Kombëtar I Ushqimit ( AKU ) po punon me një paketë të posaçme lidhur me këtë .
+# sent_id = 4
+1	Autoriteti	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=0|end_char=10|NER=B-ORG
+2	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=19|NER=I-ORG
+3	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=20|end_char=21|NER=I-ORG
+4	Ushqimit	Ushqim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=22|end_char=30|NER=I-ORG
+5	(	(	PUNCT	_	_	6	punct	_	start_char=31|end_char=32|SpaceAfter=No|NER=I-ORG
+6	AKU	AKU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=33|end_char=36|NER=I-ORG
+7	)	)	PUNCT	_	_	4	punct	_	start_char=37|end_char=38|NER=I-ORG
+8	po	po	PART	_	_	8	mark	_	start_char=39|end_char=41|NER=O
+9	punon	punoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=47|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=48|end_char=50|NER=O
+11	një	një	DET	_	Definite=Ind	11	det	_	start_char=51|end_char=54|NER=O
+12	paketë	paketë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=55|end_char=61|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=62|end_char=64|NER=O
+14	posaçme	posaçm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=65|end_char=72|NER=O
+15	lidhur	lidh	VERB	_	VerbForm=Part	8	conj	_	start_char=73|end_char=79|NER=O
+16	me	me	ADP	_	Case=Acc	16	case	_	start_char=80|end_char=82|NER=O
+17	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	start_char=83|end_char=87|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	14	punct	_	start_char=88|end_char=89|SpacesAfter=\n|NER=O
+
+# text = " Jemi të angazhuar që prej datës 1 shtator për të verifikuar të gjithë operatorët që operojnë jo vetëm brenda shkollave , çerdheve , kopshteve por edhe rreth një perimetri me rreze 1 km " , thotë Jeta Deda , drejtore e AKU .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Jemi	Jem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=7|end_char=9|NER=O
+4	angazhuar	angazhuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	cop	_	start_char=10|end_char=19|NER=O
+5	që	që	PART	_	_	7	mark	_	start_char=20|end_char=22|NER=O
+6	prej	prej	ADP	_	Case=Abl	7	case	_	start_char=23|end_char=27|NER=O
+7	datës	datë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=28|end_char=33|NER=O
+8	1	1	NUM	_	NumType=Card	9	nummod	_	start_char=34|end_char=35|NER=O
+9	shtator	shator	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=36|end_char=43|NER=O
+10	për	për	PART	_	_	12	fixed	_	start_char=44|end_char=47|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=48|end_char=50|NER=O
+12	verifikuar	verifikoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=51|end_char=61|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=62|end_char=64|NER=O
+14	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	15	nummod	_	start_char=65|end_char=71|NER=O
+15	operatorët	operator	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=72|end_char=82|NER=O
+16	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=83|end_char=85|NER=O
+17	operojnë	operoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=86|end_char=94|NER=O
+18	jo	jo	PART	_	_	19	fixed	_	start_char=95|end_char=97|NER=O
+19	vetëm	vetëm	PART	_	_	21	mark	_	start_char=98|end_char=103|NER=O
+20	brenda	brenda	ADP	_	Case=Abl	21	case	_	start_char=104|end_char=110|NER=O
+21	shkollave	shkollë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	17	advmod	_	start_char=111|end_char=120|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=121|end_char=122|NER=O
+23	çerdheve	çerdhe	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	21	list	_	start_char=123|end_char=131|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	25	punct	_	start_char=132|end_char=133|NER=O
+25	kopshteve	kopsht	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	23	list	_	start_char=134|end_char=143|NER=O
+26	por	por	CCONJ	_	_	30	cc	_	start_char=144|end_char=147|NER=O
+27	edhe	edhe	PART	_	_	30	mark	_	start_char=148|end_char=152|NER=O
+28	rreth	rreth	ADP	_	Case=Abl	30	case	_	start_char=153|end_char=158|NER=O
+29	një	një	DET	_	Definite=Ind	30	det	_	start_char=159|end_char=162|NER=O
+30	perimetri	perimetr	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	25	conj	_	start_char=163|end_char=172|NER=O
+31	me	me	ADP	_	Case=Acc	32	case	_	start_char=173|end_char=175|NER=O
+32	rreze	rrez	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	30	nmod	_	start_char=176|end_char=181|NER=O
+33	1	1	NUM	_	NumType=Card	32	nummod	_	start_char=182|end_char=183|NER=O
+34	km	km	SYM	_	_	32	nmod	_	start_char=184|end_char=186|SpaceAfter=No|NER=O
+35	"	"	PUNCT	_	_	32	punct	_	start_char=187|end_char=188|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	36	punct	_	start_char=189|end_char=190|NER=O
+37	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	acl:relcl	_	start_char=191|end_char=196|NER=O
+38	Jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	obj	_	start_char=197|end_char=201|NER=B-PER
+39	Deda	dedë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat	_	start_char=202|end_char=206|SpaceAfter=No|NER=I-PER
+40	,	,	PUNCT	_	_	40	punct	_	start_char=207|end_char=208|NER=O
+41	drejtore	drejtor	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	36	obj	_	start_char=209|end_char=217|NER=O
+42	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	42	det:poss	_	start_char=218|end_char=219|NER=O
+43	AKU	AKU	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	40	nmod	_	start_char=220|end_char=223|SpaceAfter=No|NER=B-ORG
+44	.	.	PUNCT	_	_	36	punct	_	start_char=224|end_char=225|SpacesAfter=\n|NER=O
+
+# text = AKU ka bllokuar aktivitetin e 30 subjekteve për shkelje të ndryshme , ndërsa nga janari në korrik ka arkëtuar 70 milionë lekë gjoba .
+# sent_id = 6
+1	AKU	AKU	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=0|end_char=3|NER=B-ORG
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=4|end_char=6|NER=O
+3	bllokuar	bllokoj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=15|NER=O
+4	aktivitetin	aktivitet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=16|end_char=27|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=28|end_char=29|NER=O
+6	30	30	NUM	_	NumType=Card	7	nummod	_	start_char=30|end_char=32|NER=O
+7	subjekteve	subjekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=33|end_char=43|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=44|end_char=47|NER=O
+9	shkelje	shkelje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=48|end_char=55|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=56|end_char=58|NER=O
+11	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=59|end_char=67|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=68|end_char=69|NER=O
+13	ndërsa	ndërsa	CCONJ	_	_	19	cc	_	start_char=70|end_char=76|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=77|end_char=80|NER=O
+15	janari	janar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=81|end_char=87|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=88|end_char=90|NER=O
+17	korrik	korrik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	advmod	_	start_char=91|end_char=97|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=98|end_char=100|NER=O
+19	arkëtuar	arkëtoj	VERB	_	VerbForm=Part	3	conj	_	start_char=101|end_char=109|NER=O
+20	70	70	NUM	_	NumType=Card	21	nummod	_	start_char=110|end_char=112|NER=O
+21	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	start_char=113|end_char=120|NER=O
+22	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=121|end_char=125|NER=O
+23	gjoba	gjobë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=126|end_char=131|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=132|end_char=133|SpacesAfter=\n|NER=O
+
+# text = Gazetare T .
+# sent_id = 7
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	T	t	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	flat	_	start_char=9|end_char=10|SpaceAfter=No|NER=B-PER
+3	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+
+# text = Shamku
+# sent_id = 8
+1	Shamku	Shamku	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpacesAfter=\n\n|NER=I-PER
+

@@ -1,0 +1,145 @@
+# text = Presidenti Putin merr nesër vaksinën anti - covid , ja dozat e cilës kompani do të marrë Presidenti rus , Vladimir Putin ka vendosur që të vaksinohet ditën e nesërme me ruse " Sputnik V " kundër COVID - 19 .
+# sent_id = 0
+1	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=10|NER=O
+2	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=16|NER=B-PER
+3	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=21|NER=O
+4	nesër	nesër	ADV	_	AdvType=Deg	3	advmod	_	start_char=22|end_char=27|NER=O
+5	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=28|end_char=36|NER=O
+6	anti	anti-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=37|end_char=41|SpaceAfter=No|NER=O
+7	-	-	PUNCT	_	_	5	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+8	covid	anti-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=44|end_char=49|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	8	punct	_	start_char=50|end_char=51|NER=O
+10	ja	ja	CCONJ	_	_	9	cc	_	start_char=52|end_char=54|NER=O
+11	dozat	dozë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=55|end_char=60|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=61|end_char=62|NER=O
+13	cilës	cila	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	9	nmod	_	start_char=63|end_char=68|NER=O
+14	kompani	kompani	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=69|end_char=76|NER=O
+15	do	do	PART	_	_	15	fixed	_	start_char=77|end_char=79|NER=O
+16	të	të	PART	_	_	15	fixed	_	start_char=80|end_char=82|NER=O
+17	marrë	marr	VERB	_	VerbForm=Part	3	advcl	_	start_char=83|end_char=88|SpacesAfter=\n|NER=O
+18	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=89|end_char=99|NER=O
+19	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=100|end_char=103|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=104|end_char=105|NER=O
+21	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	start_char=106|end_char=114|NER=B-PER
+22	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=115|end_char=120|NER=I-PER
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=121|end_char=123|NER=O
+24	vendosur	vendos	VERB	_	VerbForm=Part	3	conj	_	start_char=124|end_char=132|NER=O
+25	që	që	SCONJ	_	_	25	mark	_	start_char=133|end_char=135|NER=O
+26	të	të	PART	_	_	25	fixed	_	start_char=136|end_char=138|NER=O
+27	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	22	ccomp	_	start_char=139|end_char=149|NER=O
+28	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=150|end_char=155|NER=O
+29	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=156|end_char=157|NER=O
+30	nesërme	nesërm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=158|end_char=165|NER=O
+31	me	me	ADP	_	Case=Acc	30	case	_	start_char=166|end_char=168|NER=O
+32	ruse	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=169|end_char=173|NER=O
+33	"	"	PUNCT	_	_	32	punct	_	start_char=174|end_char=175|SpaceAfter=No|NER=O
+34	Sputnik	Sputnik	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	26	nmod	_	start_char=176|end_char=183|NER=B-PRO
+35	V	V	PROPN	_	Foreign=Yes	32	flat	_	start_char=184|end_char=185|NER=I-PRO
+36	"	"	PUNCT	_	_	32	punct	_	start_char=186|end_char=187|NER=O
+37	kundër	kundër	ADP	_	Case=Abl	35	case	_	start_char=188|end_char=194|NER=O
+38	COVID	COVID-19	PROPN	_	Foreign=Yes|Number=Sing	32	nmod	_	start_char=195|end_char=200|SpaceAfter=No|NER=O
+39	-	-	PUNCT	_	_	32	punct	_	start_char=201|end_char=202|SpaceAfter=No|NER=O
+40	19	19	NUM	_	NumType=Card	32	nmod	_	start_char=203|end_char=205|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	22	punct	_	start_char=206|end_char=207|NER=O
+
+# text = Mediat e huaja raportojnë se ai do të vaksinohet nesër .
+# sent_id = 1
+1	Mediat	mediat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	huaja	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=9|end_char=14|NER=O
+4	raportojnë	raportoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=25|NER=O
+5	se	se	SCONJ	_	_	9	mark	_	start_char=26|end_char=28|NER=O
+6	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=29|end_char=31|NER=O
+7	do	do	PART	_	_	9	fixed	_	start_char=32|end_char=34|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=35|end_char=37|NER=O
+9	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=38|end_char=48|NER=O
+10	nesër	nesër	ADV	_	AdvType=Deg	9	advmod	_	start_char=49|end_char=54|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	4	punct	_	start_char=55|end_char=56|SpacesAfter=\n|NER=O
+
+# text = Ndërkohë , ministri rus i industrisë , Denis Manturov deklaroi se është vendosur që të prodhohen mbi 80 milion doza vaksinash , në gjysmën e parë të këtij viti .
+# sent_id = 2
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	10	advmod	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	ministri	ministr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=11|end_char=19|NER=O
+4	rus	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=20|end_char=23|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=24|end_char=25|NER=O
+6	industrisë	industri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=26|end_char=36|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=37|end_char=38|NER=O
+8	Denis	Denis	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=39|end_char=44|NER=B-PER
+9	Manturov	manturo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=45|end_char=53|NER=I-PER
+10	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=54|end_char=62|NER=O
+11	se	se	SCONJ	_	_	13	mark	_	start_char=63|end_char=65|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=66|end_char=71|NER=O
+13	vendosur	vendos	VERB	_	VerbForm=Part	10	advcl	_	start_char=72|end_char=80|NER=O
+14	që	që	SCONJ	_	_	16	mark	_	start_char=81|end_char=83|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=84|end_char=86|NER=O
+16	prodhohen	prodhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	13	advcl	_	start_char=87|end_char=96|NER=O
+17	mbi	mbi	ADP	_	Case=Acc	19	case	_	start_char=97|end_char=100|NER=O
+18	80	80	NUM	_	NumType=Card	19	nummod	_	start_char=101|end_char=103|NER=O
+19	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	start_char=104|end_char=110|NER=O
+20	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=111|end_char=115|NER=O
+21	vaksinash	vaksinash	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=116|end_char=125|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	24	punct	_	start_char=126|end_char=127|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=128|end_char=130|NER=O
+24	gjysmën	gjysmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=131|end_char=138|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=139|end_char=140|NER=O
+26	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=141|end_char=145|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=146|end_char=148|NER=O
+28	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=149|end_char=154|NER=O
+29	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=155|end_char=159|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	10	punct	_	start_char=160|end_char=161|NER=O
+
+# text = Manturov pohoi se 12 .
+# sent_id = 3
+1	Manturov	manturo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=8|NER=B-PER
+2	pohoi	pohoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+3	se	se	SCONJ	_	_	9	mark	_	start_char=15|end_char=17|NER=O
+4	12	12	NUM	_	NumType=Card	5	nummod	_	start_char=18|end_char=20|NER=O
+5	.	.	PUNCT	_	_	5	punct	_	start_char=21|end_char=22|NER=O
+
+# text = 5 milionë doza do të prodhohen në mars dhe 17 milionë të tjera në Prill .
+# sent_id = 4
+1	5	5	NUM	_	NumType=Card	5	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	det	_	start_char=2|end_char=9|NER=O
+3	doza	dozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	start_char=10|end_char=14|NER=O
+4	do	do	PART	_	_	9	fixed	_	start_char=15|end_char=17|NER=O
+5	të	të	PART	_	_	9	fixed	_	start_char=18|end_char=20|NER=O
+6	prodhohen	prodhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=21|end_char=30|NER=O
+7	në	në	ADP	_	Case=Acc	11	case	_	start_char=31|end_char=33|NER=O
+8	mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=34|end_char=38|NER=O
+9	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=39|end_char=42|NER=O
+10	17	17	NUM	_	NumType=Card	14	nummod	_	start_char=43|end_char=45|NER=O
+11	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	start_char=46|end_char=53|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=54|end_char=56|NER=O
+13	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	14	amod	_	start_char=57|end_char=62|NER=O
+14	në	në	ADP	_	Case=Acc	18	case	_	start_char=63|end_char=65|NER=O
+15	Prill	Prill	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=66|end_char=71|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	9	punct	_	start_char=72|end_char=73|SpacesAfter=\n|NER=O
+
+# text = Ai shtoi se Rusia kishte transferuar teknologjinë e nevojshme për të prodhuar vaksinat e saj në 10 vende të tjera deri më tani .
+# sent_id = 5
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=9|end_char=11|NER=O
+4	Rusia	Rusi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=12|end_char=17|NER=B-VEND_1
+5	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	aux	_	start_char=18|end_char=24|NER=O
+6	transferuar	transferoj	VERB	_	VerbForm=Part	2	advcl	_	start_char=25|end_char=36|NER=O
+7	teknologjinë	teknologji	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=37|end_char=49|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=50|end_char=51|NER=O
+9	nevojshme	nevojshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=52|end_char=61|NER=O
+10	për	për	PART	_	_	12	fixed	_	start_char=62|end_char=65|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=66|end_char=68|NER=O
+12	prodhuar	prodhoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=69|end_char=77|NER=O
+13	vaksinat	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=78|end_char=86|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=87|end_char=88|NER=O
+15	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	amod:poss	_	start_char=89|end_char=92|NER=O
+16	në	në	ADP	_	Case=Acc	18	case	_	start_char=93|end_char=95|NER=O
+17	10	10	NUM	_	NumType=Card	18	nummod	_	start_char=96|end_char=98|NER=O
+18	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	advmod	_	start_char=99|end_char=104|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=105|end_char=107|NER=O
+20	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	18	amod	_	start_char=108|end_char=113|NER=O
+21	deri	deri	ADP	_	Case=Acc	23	case	_	start_char=114|end_char=118|NER=O
+22	më	më	PART	_	_	23	mark	_	start_char=119|end_char=121|NER=O
+23	tani	tani	ADV	_	AdvType=Tim	20	advmod	_	start_char=122|end_char=126|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	2	punct	_	start_char=127|end_char=128|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,115 @@
+# text = Artur Prifti dhe Marjeta Meço janë me aftësi të kufizuara dhe jetojnë në kushte të vështira strehimi .
+# sent_id = 0
+1	Artur	jrtoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=0|end_char=5|NER=B-PER
+2	Prifti	prift	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=6|end_char=12|NER=I-PER
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=13|end_char=16|NER=O
+4	Marjeta	Marjeta	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=17|end_char=24|NER=B-PER
+5	Meço	Meço	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=25|end_char=29|NER=I-PER
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=34|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=35|end_char=37|NER=O
+8	aftësi	aftës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=38|end_char=44|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=45|end_char=47|NER=O
+10	kufizuara	kufizuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=48|end_char=57|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=58|end_char=61|NER=O
+12	jetojnë	jetoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=62|end_char=69|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=70|end_char=72|NER=O
+14	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	start_char=73|end_char=79|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=80|end_char=82|NER=O
+16	vështira	vështirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=83|end_char=91|NER=O
+17	strehimi	strehim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=92|end_char=100|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	12	punct	_	start_char=101|end_char=102|NER=O
+
+# text = Shtëpia ku ata jetojnë është ndërtuar në vitin 1971 , ku nuk është ndërhyrë asnjëherë dhe është drejt rrënimit total të saj .
+# sent_id = 1
+1	Shtëpia	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=7|NER=O
+2	ku	ku	ADV	_	AdvType=Loc	4	advmod	_	start_char=8|end_char=10|NER=O
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=11|end_char=14|NER=O
+4	jetojnë	jetoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=15|end_char=22|NER=O
+5	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=23|end_char=28|NER=O
+6	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	0	root	_	start_char=29|end_char=37|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=38|end_char=40|NER=O
+8	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=41|end_char=46|NER=B-DATE_0
+9	1971	1971	NUM	_	NumType=Card	8	nummod	_	start_char=47|end_char=51|SpaceAfter=No|NER=I-DATE_0
+10	,	,	PUNCT	_	_	11	punct	_	start_char=52|end_char=53|NER=O
+11	ku	ku	ADV	_	AdvType=Loc	14	advmod	_	start_char=54|end_char=56|NER=O
+12	nuk	nuk	PART	_	_	14	mark	_	start_char=57|end_char=60|NER=O
+13	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=61|end_char=66|NER=O
+14	ndërhyrë	ndërhyj	VERB	_	VerbForm=Part	6	advcl	_	start_char=67|end_char=75|NER=O
+15	asnjëherë	asnjëherë	ADV	_	AdvType=Tim	14	advmod	_	start_char=76|end_char=85|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=86|end_char=89|NER=O
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=90|end_char=95|NER=O
+18	drejt	drejt	ADP	_	Case=Abl	19	case	_	start_char=96|end_char=101|NER=O
+19	rrënimit	rrënim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=102|end_char=110|NER=O
+20	total	total	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=111|end_char=116|NER=O
+21	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=117|end_char=119|NER=O
+22	saj	saj	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	amod:poss	_	start_char=120|end_char=123|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	17	punct	_	start_char=124|end_char=125|SpacesAfter=\n|NER=O
+
+# text = Të ardhurat e tyre janë 22 mijë lekë së bashku marrë nga statusi i invaliditetit .
+# sent_id = 2
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	ardhurat	ardhurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=3|end_char=11|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=12|end_char=13|NER=O
+4	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=14|end_char=18|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+6	22	22	NUM	_	NumType=Card	8	nummod	_	start_char=24|end_char=26|NER=O
+7	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	det	_	start_char=27|end_char=31|NER=O
+8	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	cop	_	start_char=32|end_char=36|NER=O
+9	së	së	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=37|end_char=39|NER=O
+10	bashku	bashku	ADV	_	AdvType=Man	11	advmod	_	start_char=40|end_char=46|NER=O
+11	marrë	marr	VERB	_	VerbForm=Part	8	acl:relcl	_	start_char=47|end_char=52|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=53|end_char=56|NER=O
+13	statusi	status	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=57|end_char=64|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=65|end_char=66|NER=O
+15	invaliditetit	invaliditet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=67|end_char=80|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	5	punct	_	start_char=81|end_char=82|NER=O
+
+# text = Djali i vetëm i ciftit ka emigruar këtë vit , ndërsa bashkë me ta jeton nëna e Arturit , Jorgjie Prifti .
+# sent_id = 3
+1	Djali	djalë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	vetëm	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=8|end_char=13|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=15|NER=O
+5	ciftit	cift	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=22|NER=O
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=23|end_char=25|NER=O
+7	emigruar	emigroj	VERB	_	VerbForm=Part	0	root	_	start_char=26|end_char=34|NER=O
+8	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=35|end_char=39|NER=O
+9	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=40|end_char=43|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=44|end_char=45|NER=O
+11	ndërsa	ndërsa	CCONJ	_	_	16	cc	_	start_char=46|end_char=52|NER=O
+12	bashkë	bashkë	ADV	_	AdvType=Man	7	advmod	_	start_char=53|end_char=59|NER=O
+13	me	me	ADP	_	Case=Acc	16	fixed	_	start_char=60|end_char=62|NER=O
+14	ta	_	_	_	_	_	_	_	start_char=63|end_char=65|NER=O
+15	jeton	jetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advmod	_	start_char=66|end_char=71|NER=O
+16	nëna	nënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=72|end_char=76|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=77|end_char=78|NER=O
+18	Arturit	Artur	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=79|end_char=86|SpaceAfter=No|NER=B-PER
+19	,	,	PUNCT	_	_	21	punct	_	start_char=87|end_char=88|NER=O
+20	Jorgjie	Jorgji	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=89|end_char=96|NER=B-PER
+21	Prifti	prift	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=97|end_char=103|SpaceAfter=No|NER=I-PER
+22	.	.	PUNCT	_	_	16	punct	_	start_char=104|end_char=105|NER=O
+
+# text = 85 - vjeçarja na tregon se kushtet e shtëpisë janë të mjerueshme dhe e rëndojnë shumë gjëndjen e tyre shëndetësore .
+# sent_id = 4
+1	85	85	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	-	-	PUNCT	_	_	4	punct	_	start_char=3|end_char=4|NER=O
+3	vjeçarja	vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=5|end_char=13|NER=O
+4	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	iobj	_	start_char=14|end_char=16|NER=O
+5	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=23|NER=O
+6	se	se	SCONJ	_	_	9	mark	_	start_char=24|end_char=26|NER=O
+7	kushtet	kusht	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	start_char=27|end_char=34|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=35|end_char=36|NER=O
+9	shtëpisë	shtëpi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=37|end_char=45|NER=O
+10	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=46|end_char=50|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=51|end_char=53|NER=O
+12	mjerueshme	mjerueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	cop	_	start_char=54|end_char=64|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=65|end_char=68|NER=O
+14	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=69|end_char=70|NER=O
+15	rëndojnë	rëndoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=71|end_char=79|NER=O
+16	shumë	shumë	PRON	_	PronType=Ind	16	nummod	_	start_char=80|end_char=85|NER=O
+17	gjëndjen	gjëndje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=86|end_char=94|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=95|end_char=96|NER=O
+19	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=97|end_char=101|NER=O
+20	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=102|end_char=114|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	9	punct	_	start_char=115|end_char=116|SpacesAfter=\n|NER=O
+

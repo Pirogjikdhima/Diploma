@@ -1,0 +1,102 @@
+# text = Kompanitë e aeroporteve në Francë u gjendën përballë një " katastrofe " gjatë vitit 2020 .
+# sent_id = 0
+1	Kompanitë	Kompani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=10|end_char=11|NER=O
+3	aeroporteve	aeroport	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	compound	_	start_char=12|end_char=23|NER=O
+4	në	në	ADP	_	Case=Acc	17	case	_	start_char=24|end_char=26|NER=O
+5	Francë	Francë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=27|end_char=33|NER=B-VEND_1
+6	u	u	PART	_	_	19	fixed	_	start_char=34|end_char=35|NER=O
+7	gjendën	gjendëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	7	conj	_	start_char=36|end_char=43|NER=O
+8	përballë	përballë	ADV	_	AdvType=Tim	19	advmod	_	start_char=44|end_char=52|NER=O
+9	një	një	DET	_	Definite=Ind	23	det	_	start_char=53|end_char=56|NER=O
+10	"	"	PUNCT	_	_	23	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+11	katastrofe	katastrof	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	start_char=59|end_char=69|NER=O
+12	"	"	PUNCT	_	_	19	punct	_	start_char=70|end_char=71|NER=O
+13	gjatë	gjatë	ADP	_	Case=Abl	25	case	_	start_char=72|end_char=77|NER=O
+14	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=78|end_char=83|NER=B-DATE_0
+15	2020	2020	NUM	_	NumType=Card	25	amod:nummod	_	start_char=84|end_char=88|SpaceAfter=No|NER=I-DATE_0
+16	.	.	PUNCT	_	_	19	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+
+# text = Vetëm 70 milion udhëtarë u regjistruan në vitin 2020 më një rënie prej 67 , 3 % krahasuar me një vitin 2019 ku ishin 214 milion vizitorë , bëri me dije shoqata e Aeroporteve Franceze .
+# sent_id = 1
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	70	70	NUM	_	NumType=Card	3	nummod	_	start_char=6|end_char=8|NER=O
+3	milion	milio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=9|end_char=15|NER=O
+4	udhëtarë	udhëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	start_char=16|end_char=24|NER=O
+5	u	u	PART	_	_	6	fixed	_	start_char=25|end_char=26|NER=O
+6	regjistruan	regjistroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=27|end_char=38|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=39|end_char=41|NER=O
+8	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=42|end_char=47|NER=B-DATE_0
+9	2020	2020	NUM	_	NumType=Card	8	amod:nummod	_	start_char=48|end_char=52|NER=I-DATE_0
+10	më	më	ADP	_	Case=Acc	12	case	_	start_char=53|end_char=55|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=56|end_char=59|NER=O
+12	rënie	rënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=60|end_char=65|NER=O
+13	prej	prej	ADP	_	Case=Abl	14	case	_	start_char=66|end_char=70|NER=O
+14	67	67	NUM	_	NumType=Card	12	nummod	_	start_char=71|end_char=73|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	18	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+16	3	3	NUM	_	NumType=Card	17	nummod	_	start_char=76|end_char=77|SpaceAfter=No|NER=O
+17	%	%	SYM	_	_	18	nsubj	_	start_char=78|end_char=79|NER=O
+18	krahasuar	krahasoj	VERB	_	VerbForm=Part	12	acl:relcl	_	start_char=80|end_char=89|NER=O
+19	me	me	ADP	_	Case=Acc	21	case	_	start_char=90|end_char=92|NER=O
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=93|end_char=96|NER=O
+21	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=97|end_char=102|NER=B-DATE_0
+22	2019	2019	NUM	_	NumType=Card	21	nummod	_	start_char=103|end_char=107|NER=I-DATE_0
+23	ku	ku	ADV	_	AdvType=Loc	24	advmod	_	start_char=108|end_char=110|NER=O
+24	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	21	acl	_	start_char=111|end_char=116|NER=O
+25	214	214	NUM	_	NumType=Card	26	nummod	_	start_char=117|end_char=120|NER=O
+26	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	24	nsubj	_	start_char=121|end_char=127|NER=O
+27	vizitorë	vizitor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	24	nsubj	_	start_char=128|end_char=136|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	29	punct	_	start_char=137|end_char=138|NER=O
+29	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	parataxis	_	start_char=139|end_char=143|NER=O
+30	me	me	ADP	_	Case=Acc	31	case	_	start_char=144|end_char=146|NER=O
+31	dije	dije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obl	_	start_char=147|end_char=151|NER=O
+32	shoqata	shoqatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=152|end_char=159|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=160|end_char=161|NER=O
+34	Aeroporteve	Aeroport	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	32	nmod	_	start_char=162|end_char=173|NER=O
+35	Franceze	Francez	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=174|end_char=182|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	29	punct	_	start_char=183|end_char=184|SpacesAfter=\n|NER=O
+
+# text = Presidentin i UAF , Thomas Xuen theksoi se humbjet e xhiros kanë arritur në miliarda euro .
+# sent_id = 2
+1	Presidentin	president	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=11|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=12|end_char=13|NER=O
+3	UAF	UAF	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=14|end_char=17|SpaceAfter=No|NER=B-ORG
+4	,	,	PUNCT	_	_	5	punct	_	start_char=18|end_char=19|NER=O
+5	Thomas	Thomas	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	start_char=20|end_char=26|NER=B-PER
+6	Xuen	Xuen	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=27|end_char=31|NER=I-PER
+7	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=32|end_char=39|NER=O
+8	se	se	SCONJ	_	_	13	mark	_	start_char=40|end_char=42|NER=O
+9	humbjet	humbje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=43|end_char=50|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=51|end_char=52|NER=O
+11	xhiros	xhiro	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=53|end_char=59|NER=O
+12	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=60|end_char=64|NER=O
+13	arritur	arrij	VERB	_	VerbForm=Part	7	conj	_	start_char=65|end_char=72|NER=O
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=73|end_char=75|NER=O
+15	miliarda	miliardë	PRON	_	PronType=Ind	16	nummod	_	start_char=76|end_char=84|NER=O
+16	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	start_char=85|end_char=89|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	13	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+
+# text = Shoqata e Aeroporteve Franceze beson të fillojë rikuperimin e verë , duke shpresuar edhe në heqjen e masave të karantinës .
+# sent_id = 3
+1	Shoqata	shoqatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=7|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=I-ORG
+3	Aeroporteve	aeroport	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=10|end_char=21|NER=I-ORG
+4	Franceze	Francez	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=22|end_char=30|NER=I-ORG
+5	beson	besoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=36|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=37|end_char=39|NER=O
+7	fillojë	filloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=40|end_char=47|NER=O
+8	rikuperimin	rikuperim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=48|end_char=59|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=60|end_char=61|NER=O
+10	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=62|end_char=66|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=69|end_char=73|NER=O
+13	shpresuar	shpresoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=74|end_char=83|NER=O
+14	edhe	edhe	PART	_	_	16	advmod:emph	_	start_char=84|end_char=88|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=89|end_char=91|NER=O
+16	heqjen	heqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=92|end_char=98|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=99|end_char=100|NER=O
+18	masave	masa	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=101|end_char=107|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=108|end_char=110|NER=O
+20	karantinës	karantinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=111|end_char=121|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	13	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+

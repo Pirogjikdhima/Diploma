@@ -1,0 +1,166 @@
+# text = 09 / 02 / 2023 Problemet teknike janë rikthyer në mbrëmjen e tretë të Festivalit të Sanremos .
+# sent_id = 0
+1	09	09	NUM	_	NumType=Card	18	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	19	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	19	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	19	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Problemet	problem	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obj	_	start_char=15|end_char=24|NER=O
+7	teknike	teknik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=25|end_char=32|NER=O
+8	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=33|end_char=37|NER=O
+9	rikthyer	rikthyj	VERB	_	VerbForm=Part	14	conj	_	start_char=38|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	28	case	_	start_char=47|end_char=49|NER=O
+11	mbrëmjen	mbrëmje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obl	_	start_char=50|end_char=58|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=59|end_char=60|NER=O
+13	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=61|end_char=66|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=67|end_char=69|NER=O
+15	Festivalit	festival	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=70|end_char=80|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=81|end_char=83|NER=O
+17	Sanremos	Sanremo	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=84|end_char=92|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	26	punct	_	start_char=93|end_char=94|NER=O
+
+# text = Këngëtari Gianluca Grignani duhej të ndërpriste performancën e tij , pikërisht sepse nuk mund të dëgjonte në kufje , njësoj siç i ndodhi këngëtarit Blanco , i cili nuk e menaxhoi mirë situatën teksa shkatërroi skenografinë .
+# sent_id = 1
+1	Këngëtari	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=9|NER=O
+2	Gianluca	Gianlucë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=10|end_char=18|NER=B-PER
+3	Grignani	Grignan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=19|end_char=27|NER=I-PER
+4	duhej	duhem	AUX	_	Mood=Ind|Tense=Imp	6	aux	_	start_char=28|end_char=33|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=34|end_char=36|NER=O
+6	ndërpriste	ndërpres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=37|end_char=47|NER=O
+7	performancën	performancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=48|end_char=60|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=61|end_char=62|NER=O
+9	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=63|end_char=66|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=67|end_char=68|NER=O
+11	pikërisht	pikërisht	ADV	_	AdvType=Man	12	fixed	_	start_char=69|end_char=78|NER=O
+12	sepse	sepse	SCONJ	_	_	16	mark	_	start_char=79|end_char=84|NER=O
+13	nuk	nuk	PART	_	_	16	mark	_	start_char=85|end_char=88|NER=O
+14	mund	mund	AUX	_	_	16	aux	_	start_char=89|end_char=93|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=94|end_char=96|NER=O
+16	dëgjonte	dëgjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	advcl	_	start_char=97|end_char=105|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=106|end_char=108|NER=O
+18	kufje	kufje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=109|end_char=114|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=115|end_char=116|NER=O
+20	njësoj	njësoj	ADV	_	AdvType=Deg	23	mark	_	start_char=117|end_char=123|NER=O
+21	siç	siç	SCONJ	_	_	23	mark	_	start_char=124|end_char=127|NER=O
+22	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	iobj	_	start_char=128|end_char=129|NER=O
+23	ndodhi	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	advcl	_	start_char=130|end_char=136|NER=O
+24	këngëtarit	këngëtar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=137|end_char=147|NER=O
+25	Blanco	Blanco	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	appos	_	start_char=148|end_char=154|SpaceAfter=No|NER=B-PER
+26	,	,	PUNCT	_	_	28	punct	_	start_char=155|end_char=156|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=157|end_char=158|NER=O
+28	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	31	nsubj	_	start_char=159|end_char=163|NER=O
+29	nuk	nuk	PART	_	Polarity=Neg	31	mark	_	start_char=164|end_char=167|NER=O
+30	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	start_char=168|end_char=169|NER=O
+31	menaxhoi	menaxhoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	advcl	_	start_char=170|end_char=178|NER=O
+32	mirë	mirë	ADV	_	AdvType=Man	31	advmod	_	start_char=179|end_char=183|NER=O
+33	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obj	_	start_char=184|end_char=192|NER=O
+34	teksa	teksa	SCONJ	_	_	35	mark	_	start_char=193|end_char=198|NER=O
+35	shkatërroi	shkatërroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	ccomp	_	start_char=199|end_char=209|NER=O
+36	skenografinë	skenografi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	35	obj	_	start_char=210|end_char=222|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	31	punct	_	start_char=223|end_char=224|SpacesAfter=\n|NER=O
+
+# text = Mbrëmjen e tretë të Sanremos e hapi Gianni Morandi , ndërsa pas tij hyri drejtori artistik Amadeus .
+# sent_id = 2
+1	Mbrëmjen	mbrëmje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=11|end_char=16|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=17|end_char=19|NER=O
+5	Sanremos	Sanremo	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=20|end_char=28|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=29|end_char=30|NER=O
+7	hapi	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=31|end_char=35|NER=O
+8	Gianni	Giann	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=36|end_char=42|NER=B-PER
+9	Morandi	Morand	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=43|end_char=50|SpaceAfter=No|NER=I-PER
+10	,	,	PUNCT	_	_	11	punct	_	start_char=51|end_char=52|NER=O
+11	ndërsa	ndërsa	CCONJ	_	_	14	cc	_	start_char=53|end_char=59|NER=O
+12	pas	pas	ADP	_	Case=Abl	13	case	_	start_char=60|end_char=63|NER=O
+13	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	advmod	_	start_char=64|end_char=67|NER=O
+14	hyri	hyj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	start_char=68|end_char=72|NER=O
+15	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=73|end_char=81|NER=O
+16	artistik	artistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=82|end_char=90|NER=O
+17	Amadeus	Amadeus	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=91|end_char=98|SpaceAfter=No|NER=B-PER
+18	.	.	PUNCT	_	_	14	punct	_	start_char=99|end_char=100|NER=O
+
+# text = Më pas ata thirrën bashkëmikpritësen Paola Egonu , kampione volejbolli , ndërsa këtë mbrëmje u kujtua edhe kompozitori Burt Bacharach , i cili u nda nga jeta në moshën 94 - vjeçare .
+# sent_id = 3
+1	Më	më	PART	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	pas	pas	ADV	_	AdvType=Tim	4	advmod	_	start_char=3|end_char=6|NER=O
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=7|end_char=10|NER=O
+4	thirrën	thirr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=11|end_char=18|NER=O
+5	bashkëmikpritësen	bashkëmikpritësen	ADV	_	AdvType=Man	4	obj	_	start_char=19|end_char=36|NER=O
+6	Paola	Paolë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=37|end_char=42|NER=B-PER
+7	Egonu	Egonu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=43|end_char=48|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	9	punct	_	start_char=49|end_char=50|NER=O
+9	kampione	kampion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=51|end_char=59|NER=O
+10	volejbolli	volejboll	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=60|end_char=70|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=71|end_char=72|NER=O
+12	ndërsa	ndërsa	CCONJ	_	_	16	cc	_	start_char=73|end_char=79|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=80|end_char=84|NER=O
+14	mbrëmje	mbrëmje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	start_char=85|end_char=92|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=93|end_char=94|NER=O
+16	kujtua	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	conj	_	start_char=95|end_char=101|NER=O
+17	edhe	edhe	PART	_	_	18	mark	_	start_char=102|end_char=106|NER=O
+18	kompozitori	kompozitor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=107|end_char=118|NER=O
+19	Burt	Burt	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	appos	_	start_char=119|end_char=123|NER=B-PER
+20	Bacharach	Bacharach	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=124|end_char=133|SpaceAfter=No|NER=I-PER
+21	,	,	PUNCT	_	_	23	punct	_	start_char=134|end_char=135|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=136|end_char=137|NER=O
+23	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	start_char=138|end_char=142|NER=O
+24	u	u	PART	_	_	25	fixed	_	start_char=143|end_char=144|NER=O
+25	nda	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	18	acl:relcl	_	start_char=145|end_char=148|NER=O
+26	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=149|end_char=152|NER=O
+27	jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=153|end_char=157|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=158|end_char=160|NER=O
+29	moshën	moshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=161|end_char=167|NER=O
+30	94	94	NUM	_	NumType=Card	29	amod	_	start_char=168|end_char=170|SpaceAfter=No|NER=O
+31	-	-	PUNCT	_	_	29	punct	_	start_char=171|end_char=172|SpaceAfter=No|NER=O
+32	vjeçare	94-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=173|end_char=180|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	25	punct	_	start_char=181|end_char=182|NER=O
+
+# text = Të ftuar të kësaj mbrëmje ishin edhe grupi " Maneskin " , të cilët u rikthyen atje ku filloi gjithçka .
+# sent_id = 4
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	fixed	_	start_char=0|end_char=2|NER=O
+2	ftuar	ftoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=3|end_char=8|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=9|end_char=11|NER=O
+4	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=12|end_char=17|NER=O
+5	mbrëmje	mbrëmje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=18|end_char=25|NER=O
+6	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=26|end_char=31|NER=O
+7	edhe	edhe	PART	_	_	8	mark	_	start_char=32|end_char=36|NER=O
+8	grupi	grup	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=37|end_char=42|NER=O
+9	"	"	PUNCT	_	_	10	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+10	Maneskin	manesk	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=45|end_char=53|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	10	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=56|end_char=57|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=58|end_char=60|NER=O
+14	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	16	nsubj	_	start_char=61|end_char=66|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=67|end_char=68|NER=O
+16	rikthyen	rikthyj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	8	acl:relcl	_	start_char=69|end_char=77|NER=O
+17	atje	atje	ADV	_	AdvType=Loc	16	advmod	_	start_char=78|end_char=82|NER=O
+18	ku	ku	ADV	_	AdvType=Loc	19	advmod	_	start_char=83|end_char=85|NER=O
+19	filloi	filloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	ccomp	_	start_char=86|end_char=92|NER=O
+20	gjithçka	gjithçka	PRON	_	PronType=Ind	19	nsubj	_	start_char=93|end_char=101|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	16	punct	_	start_char=102|end_char=103|NER=O
+
+# text = Ata kënduan " Out of my mind " , me të cilin fituan dy vjet më parë , në 2021 .
+# sent_id = 5
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	kënduan	këndoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4|end_char=11|NER=O
+3	"	"	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|SpaceAfter=No|NER=O
+4	Out	Out	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=14|end_char=17|NER=O
+5	of	of	PROPN	_	Foreign=Yes	7	det	_	start_char=18|end_char=20|NER=O
+6	my	my	PUNCT	_	_	7	punct	_	start_char=21|end_char=23|NER=O
+7	mind	mind	PROPN	_	Foreign=Yes	4	compound	_	start_char=24|end_char=28|SpaceAfter=No|NER=O
+8	"	"	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	12	punct	_	start_char=31|end_char=32|NER=O
+10	me	me	ADP	_	Case=Acc	12	case	_	start_char=33|end_char=35|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=36|end_char=38|NER=O
+12	cilin	cili	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	start_char=39|end_char=44|NER=O
+13	fituan	fitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=45|end_char=51|NER=O
+14	dy	dy	NUM	_	NumType=Card	15	nummod	_	start_char=52|end_char=54|NER=O
+15	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	start_char=55|end_char=59|NER=O
+16	më	më	PART	_	_	17	mark	_	start_char=60|end_char=62|NER=O
+17	parë	parë	ADV	_	AdvType=Tim	13	advmod	_	start_char=63|end_char=67|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	20	punct	_	start_char=68|end_char=69|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=70|end_char=72|NER=B-DATE_0
+20	2021	2021	NUM	_	NumType=Card	13	advmod	_	start_char=73|end_char=77|SpaceAfter=No|NER=I-DATE_0
+21	.	.	PUNCT	_	_	13	punct	_	start_char=78|end_char=79|SpacesAfter=\n|NER=O
+

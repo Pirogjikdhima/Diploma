@@ -1,0 +1,484 @@
+# text = 06 / 08 / 2023 " Barbie " i është përgjigjur pyetjes miliarda dollarëshe me një " Po " .
+# sent_id = 0
+1	06	06	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	10	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	10	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	12	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	"	"	PUNCT	_	_	16	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Barbie	Barbie	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=17|end_char=23|NER=O
+8	"	"	PUNCT	_	_	19	punct	_	start_char=24|end_char=25|NER=O
+9	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	start_char=26|end_char=27|NER=O
+10	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=28|end_char=33|NER=O
+11	përgjigjur	përgjigjoj	VERB	_	VerbForm=Part	4	conj	_	start_char=34|end_char=44|NER=O
+12	pyetjes	pyetje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=45|end_char=52|NER=O
+13	miliarda	miliardë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	start_char=53|end_char=61|NER=O
+14	dollarëshe	dollarëshe	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=62|end_char=72|NER=O
+15	me	me	ADP	_	Case=Acc	26	case	_	start_char=73|end_char=75|NER=O
+16	një	një	DET	_	Definite=Ind	26	det	_	start_char=76|end_char=79|NER=O
+17	"	"	PUNCT	_	_	26	punct	_	start_char=80|end_char=81|SpaceAfter=No|NER=O
+18	Po	Po	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	19	advmod	_	start_char=82|end_char=84|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	19	punct	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	19	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Në tre javë të shfaqjes së tij , filmi i regjisores dhe shkrimtares , Greta Gerwig , ka arritur të arkëtojë një shifër befasuese prej 1 .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	tre	tre	NUM	_	NumType=Card	3	nummod	_	start_char=3|end_char=6|NER=O
+3	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	advmod	_	start_char=7|end_char=11|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=12|end_char=14|NER=O
+5	shfaqjes	shfaqje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=15|end_char=23|NER=O
+6	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=24|end_char=26|NER=O
+7	tij	tij	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=27|end_char=30|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=31|end_char=32|NER=O
+9	filmi	film	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=33|end_char=38|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=39|end_char=40|NER=O
+11	regjisores	regjisor	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=41|end_char=51|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=52|end_char=55|NER=O
+13	shkrimtares	shkrimtare	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	start_char=56|end_char=67|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|NER=O
+15	Greta	Gretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	appos	_	start_char=70|end_char=75|NER=B-PER
+16	Gerwig	Gerwig	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=76|end_char=82|SpaceAfter=No|NER=I-PER
+17	,	,	PUNCT	_	_	15	punct	_	start_char=83|end_char=84|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=85|end_char=87|NER=O
+19	arritur	arrij	VERB	_	VerbForm=Part	0	root	_	start_char=88|end_char=95|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=96|end_char=98|NER=O
+21	arkëtojë	arkëtoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	ccomp	_	start_char=99|end_char=107|NER=O
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=108|end_char=111|NER=O
+23	shifër	shifër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=112|end_char=118|NER=O
+24	befasuese	befasues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=119|end_char=128|NER=O
+25	prej	prej	ADP	_	Case=Abl	27	case	_	start_char=129|end_char=133|NER=O
+26	1	1	NUM	_	NumType=Card	27	nummod	_	start_char=134|end_char=135|NER=O
+27	.	.	PUNCT	_	_	27	punct	_	start_char=136|end_char=137|NER=O
+
+# text = 03 miliardë dollarësh në nivel global .
+# sent_id = 2
+1	03	03	NUM	_	NumType=Card	27	nummod	_	start_char=0|end_char=2|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	start_char=3|end_char=11|NER=O
+3	dollarësh	dollarë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	23	nmod	_	start_char=12|end_char=21|NER=O
+4	në	në	ADP	_	Case=Acc	30	case	_	start_char=22|end_char=24|NER=O
+5	nivel	nivel	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	start_char=25|end_char=30|NER=O
+6	global	global	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=31|end_char=37|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	21	punct	_	start_char=38|end_char=39|SpacesAfter=\n|NER=O
+
+# text = Të dhënat u bënë të ditura nga vlerësimet zyrtare të Warner Bros .
+# sent_id = 3
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=3|end_char=9|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=10|end_char=11|NER=O
+4	bënë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=12|end_char=16|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=17|end_char=19|NER=O
+6	ditura	diturë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	cop	_	start_char=20|end_char=26|NER=O
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=27|end_char=30|NER=O
+8	vlerësimet	vlerësim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=31|end_char=41|NER=O
+9	zyrtare	zyrtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=42|end_char=49|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=50|end_char=52|NER=O
+11	Warner	Warner	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=53|end_char=59|NER=B-PER
+12	Bros	Bros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=60|end_char=64|SpaceAfter=No|NER=I-PER
+13	.	.	PUNCT	_	_	4	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Kjo e bën Gerwig regjisoren e parë femër me një film që ka arkëtuar miliarda dollarë .
+# sent_id = 4
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4|end_char=5|NER=O
+3	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=9|NER=O
+4	Gerwig	Gerwig	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=10|end_char=16|NER=B-PER
+5	regjisoren	regjisor	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=17|end_char=27|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=28|end_char=29|NER=O
+7	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=30|end_char=34|NER=O
+8	femër	femër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=35|end_char=40|NER=O
+9	me	me	ADP	_	Case=Acc	11	case	_	start_char=41|end_char=43|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=44|end_char=47|NER=O
+11	film	film	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=48|end_char=52|NER=O
+12	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=53|end_char=55|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=56|end_char=58|NER=O
+14	arkëtuar	arkëtoj	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=59|end_char=67|NER=O
+15	miliarda	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=68|end_char=76|NER=O
+16	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	start_char=77|end_char=84|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	14	punct	_	start_char=85|end_char=86|SpacesAfter=\n|NER=O
+
+# text = " në ka qenë në këtë lojë për 30 vjet dhe fenomeni Barbie dhe Barbenheimer është sa i paprecedentë aq edhe i paparashikueshëm , " - tha Paul Dergarabedian , analist i nivelit të lartë në media në Comscore .
+# sent_id = 5
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	në	në	ADP	_	Case=Acc	8	case	_	start_char=2|end_char=4|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=5|end_char=7|NER=O
+4	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=12|NER=O
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=13|end_char=15|NER=O
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=16|end_char=20|NER=O
+7	lojë	lojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=21|end_char=25|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=26|end_char=29|NER=O
+9	30	30	NUM	_	NumType=Card	10	nummod	_	start_char=30|end_char=32|NER=O
+10	vjet	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	start_char=33|end_char=37|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=38|end_char=41|NER=O
+12	fenomeni	fenomen	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=42|end_char=50|NER=O
+13	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=51|end_char=57|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=58|end_char=61|NER=O
+15	Barbenheimer	Barbenheimer	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	start_char=62|end_char=74|NER=O
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=75|end_char=80|NER=O
+17	sa	sa	ADV	_	AdvType=Deg	19	advmod	_	start_char=81|end_char=83|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=84|end_char=85|NER=O
+19	paprecedentë	paprecedentë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	cop	_	start_char=86|end_char=98|NER=O
+20	aq	aq	ADV	_	AdvType=Deg	23	mark	_	start_char=99|end_char=101|NER=O
+21	edhe	edhe	PART	_	_	23	mark	_	start_char=102|end_char=106|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=107|end_char=108|NER=O
+23	paparashikueshëm	paparashikueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	start_char=109|end_char=125|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	27	punct	_	start_char=126|end_char=127|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	23	punct	_	start_char=128|end_char=129|SpaceAfter=No|NER=O
+26	-	-	PUNCT	_	_	27	punct	_	start_char=130|end_char=131|NER=O
+27	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	parataxis	_	start_char=132|end_char=135|NER=O
+28	Paul	Paul	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	27	obj	_	start_char=136|end_char=140|NER=B-PER
+29	Dergarabedian	dergarabedian	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	flat	_	start_char=141|end_char=154|SpaceAfter=No|NER=I-PER
+30	,	,	PUNCT	_	_	31	punct	_	start_char=155|end_char=156|NER=O
+31	analist	analist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	27	obj	_	start_char=157|end_char=164|NER=O
+32	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=165|end_char=166|NER=O
+33	nivelit	nivel	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=167|end_char=174|NER=O
+34	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=175|end_char=177|NER=O
+35	lartë	lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=178|end_char=183|NER=O
+36	në	në	ADP	_	Case=Acc	37	case	_	start_char=184|end_char=186|NER=O
+37	media	medi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	nmod	_	start_char=187|end_char=192|NER=O
+38	në	në	ADP	_	Case=Acc	39	case	_	start_char=193|end_char=195|NER=O
+39	Comscore	Comscor	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	start_char=196|end_char=204|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	27	punct	_	start_char=205|end_char=206|SpacesAfter=\n|NER=O
+
+# text = Sipas Dergarabedian , në gjithë historinë vetëm rreth 50 filma kanë arritur shifrën e miliarda dollarëve .
+# sent_id = 6
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	Dergarabedian	dergarabedian	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=6|end_char=19|SpaceAfter=No|NER=B-PER
+3	,	,	PUNCT	_	_	2	punct	_	start_char=20|end_char=21|NER=O
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+5	gjithë	gjithë	PRON	_	PronType=Ind	6	det	_	start_char=25|end_char=31|NER=O
+6	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=32|end_char=41|NER=O
+7	vetëm	vetëm	PART	_	_	10	mark	_	start_char=42|end_char=47|NER=O
+8	rreth	rreth	ADP	_	Case=Abl	10	case	_	start_char=48|end_char=53|NER=O
+9	50	50	NUM	_	NumType=Card	10	nummod	_	start_char=54|end_char=56|NER=O
+10	filma	film	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	advmod	_	start_char=57|end_char=62|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=63|end_char=67|NER=O
+12	arritur	arrij	VERB	_	VerbForm=Part	0	root	_	start_char=68|end_char=75|NER=O
+13	shifrën	shifrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=76|end_char=83|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=84|end_char=85|NER=O
+15	miliarda	miliardë	PRON	_	PronType=Ind	16	det	_	start_char=86|end_char=94|NER=O
+16	dollarëve	dollar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=95|end_char=104|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	12	punct	_	start_char=105|end_char=106|SpacesAfter=\n|NER=O
+
+# text = Në një intervistë me Collider muajin e kaluar , Margot Robbie , e cila prodhoi filmin përveç interpretimit të personazhit kryesor , ndau një parandjenjë që do të kishte një takim me studiot .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=7|end_char=17|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=20|NER=O
+5	Collider	Collider	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=21|end_char=29|NER=B-PER
+6	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=30|end_char=36|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=37|end_char=38|NER=O
+8	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=39|end_char=45|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	Margot	margot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=48|end_char=54|NER=B-PER
+11	Robbie	Robbi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=55|end_char=61|SpaceAfter=No|NER=I-PER
+12	,	,	PUNCT	_	_	14	punct	_	start_char=62|end_char=63|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=64|end_char=65|NER=O
+14	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	start_char=66|end_char=70|NER=O
+15	prodhoi	prodhoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	advcl	_	start_char=71|end_char=78|NER=O
+16	filmin	film	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=79|end_char=85|NER=O
+17	përveç	përveç	ADP	_	Case=Abl	18	case	_	start_char=86|end_char=92|NER=O
+18	interpretimit	interpretim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=93|end_char=106|NER=O
+19	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=107|end_char=109|NER=O
+20	personazhit	personazh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=110|end_char=121|NER=O
+21	kryesor	kryesor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=122|end_char=129|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=130|end_char=131|NER=O
+23	ndau	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=132|end_char=136|NER=O
+24	një	një	DET	_	Definite=Ind	25	det	_	start_char=137|end_char=140|NER=O
+25	parandjenjë	parandjenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=141|end_char=152|NER=O
+26	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=153|end_char=155|NER=O
+27	do	do	PART	_	_	29	fixed	_	start_char=156|end_char=158|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=159|end_char=161|NER=O
+29	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	25	acl:relcl	_	start_char=162|end_char=168|NER=O
+30	një	një	DET	_	Definite=Ind	31	det	_	start_char=169|end_char=172|NER=O
+31	takim	takim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	obj	_	start_char=173|end_char=178|NER=O
+32	me	me	ADP	_	Case=Acc	33	case	_	start_char=179|end_char=181|NER=O
+33	studiot	studiot	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	start_char=182|end_char=189|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	23	punct	_	start_char=190|end_char=191|SpacesAfter=\n|NER=O
+
+# text = " Barbie " u shpërnda nga Warner Bros .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=2|end_char=8|SpaceAfter=No|NER=O
+3	"	"	PUNCT	_	_	2	punct	_	start_char=9|end_char=10|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=11|end_char=12|NER=O
+5	shpërnda	shpërndoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=13|end_char=21|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=22|end_char=25|NER=O
+7	Warner	Warner	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=26|end_char=32|NER=B-PER
+8	Bros	Bros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	flat	_	start_char=33|end_char=37|SpaceAfter=No|NER=I-PER
+9	.	.	PUNCT	_	_	5	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+
+# text = , e cila është në pronësi të kompanisë mëmë të CNN , Ëarner Bros Discovery .
+# sent_id = 9
+1	,	,	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2|end_char=3|NER=O
+3	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	4	nsubj	_	start_char=4|end_char=8|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=15|end_char=17|NER=O
+6	pronësi	pronës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=18|end_char=25|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=26|end_char=28|NER=O
+8	kompanisë	kompani	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=29|end_char=38|NER=O
+9	mëmë	mëmë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=39|end_char=43|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=44|end_char=46|NER=O
+11	CNN	CNN	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=47|end_char=50|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=51|end_char=52|NER=O
+13	Ëarner	Ëarner	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	list	_	start_char=53|end_char=59|NER=O
+14	Bros	Bros	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=60|end_char=64|NER=O
+15	Discovery	Discover	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=65|end_char=74|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	4	punct	_	start_char=75|end_char=76|SpacesAfter=\n|NER=O
+
+# text = Suksesi i tij global u nxit edhe nga shpërndarja në disa prej tregjeve më të mëdha të filmit në botë , duke përfshirë Mbretërinë e Bashkuar , Meksikën dhe Australinë .
+# sent_id = 10
+1	Suksesi	sukses	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=8|end_char=9|NER=O
+3	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=10|end_char=13|NER=O
+4	global	global	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=14|end_char=20|NER=O
+5	u	u	PART	_	_	6	fixed	_	start_char=21|end_char=22|NER=O
+6	nxit	nxem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=23|end_char=27|NER=O
+7	edhe	edhe	PART	_	_	9	cc	_	start_char=28|end_char=32|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=33|end_char=36|NER=O
+9	shpërndarja	shpërndarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=37|end_char=48|NER=O
+10	në	në	ADP	_	Case=Acc	13	case	_	start_char=49|end_char=51|NER=O
+11	disa	disa	PRON	_	PronType=Ind	13	nummod	_	start_char=52|end_char=56|NER=O
+12	prej	prej	ADP	_	Case=Abl	13	case	_	start_char=57|end_char=61|NER=O
+13	tregjeve	treg	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=62|end_char=70|NER=O
+14	më	më	PART	_	_	16	mark	_	start_char=71|end_char=73|NER=O
+15	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=74|end_char=76|NER=O
+16	mëdha	madh	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=77|end_char=82|NER=O
+17	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=83|end_char=85|NER=O
+18	filmit	film	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=86|end_char=92|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=93|end_char=95|NER=O
+20	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=96|end_char=100|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=101|end_char=102|NER=O
+22	duke	duke	PART	_	_	23	fixed	_	start_char=103|end_char=107|NER=O
+23	përfshirë	përfshij	VERB	_	VerbForm=Part	6	advmod	_	start_char=108|end_char=117|NER=O
+24	Mbretërinë	mbretëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=118|end_char=128|NER=B-VEND_1
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=129|end_char=130|NER=I-VEND_1
+26	Bashkuar	Bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=131|end_char=139|SpaceAfter=No|NER=I-VEND_1
+27	,	,	PUNCT	_	_	28	punct	_	start_char=140|end_char=141|NER=O
+28	Meksikën	meksikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	list	_	start_char=142|end_char=150|NER=B-VEND_1
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=151|end_char=154|NER=O
+30	Australinë	Australi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	conj	_	start_char=155|end_char=165|SpaceAfter=No|NER=B-VEND_1
+31	.	.	PUNCT	_	_	23	punct	_	start_char=166|end_char=167|SpacesAfter=\n|NER=O
+
+# text = " Barbie " performoi mirë edhe në Kinë , tregu i dytë më i madh në botë dhe një treg që është bërë gjithnjë e më i izoluar gjatë viteve të fundit .
+# sent_id = 11
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2|end_char=8|SpaceAfter=No|NER=O
+3	"	"	PUNCT	_	_	2	punct	_	start_char=9|end_char=10|NER=O
+4	performoi	performoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=11|end_char=20|NER=O
+5	mirë	mirë	ADV	_	AdvType=Man	4	advmod	_	start_char=21|end_char=25|NER=O
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=26|end_char=30|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=33|NER=O
+8	Kinë	Kinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=34|end_char=38|SpaceAfter=No|NER=B-VEND_1
+9	,	,	PUNCT	_	_	10	punct	_	start_char=39|end_char=40|NER=O
+10	tregu	treg	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=41|end_char=46|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=47|end_char=48|NER=O
+12	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=49|end_char=53|NER=O
+13	më	më	PART	_	_	15	mark	_	start_char=54|end_char=56|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=57|end_char=58|NER=O
+15	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=59|end_char=63|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=64|end_char=66|NER=O
+17	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=67|end_char=71|NER=O
+18	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=72|end_char=75|NER=O
+19	një	një	DET	_	Definite=Ind	20	det	_	start_char=76|end_char=79|NER=O
+20	treg	treg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	start_char=80|end_char=84|NER=O
+21	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=85|end_char=87|NER=O
+22	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=88|end_char=93|NER=O
+23	bërë	bëj	VERB	_	VerbForm=Part	20	acl:relcl	_	start_char=94|end_char=98|NER=O
+24	gjithnjë	gjithnjë	ADV	_	AdvType=Tim	23	advmod	_	start_char=99|end_char=107|NER=O
+25	e	e	CCONJ	_	_	28	cc	_	start_char=108|end_char=109|NER=O
+26	më	më	PART	_	_	28	mark	_	start_char=110|end_char=112|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=113|end_char=114|NER=O
+28	izoluar	izoluar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	cop	_	start_char=115|end_char=122|NER=O
+29	gjatë	gjatë	ADP	_	Case=Abl	30	case	_	start_char=123|end_char=128|NER=O
+30	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	23	advmod	_	start_char=129|end_char=135|NER=O
+31	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=136|end_char=138|NER=O
+32	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=139|end_char=145|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	23	punct	_	start_char=146|end_char=147|SpacesAfter=\n|NER=O
+
+# text = Ndërsa " Barbie " është i ngjashëm me " Transformers " në atë që bazohet në në lodër ekzistuese , por " nuk është një IP me të cilin janë rritur brezat e kinezëve , kështu që ju mungon tërheqja ndër breza krahasuar me një film si " Barbie " në Shtetet e Bashkuara " , - tha Michael Berry , drejtor i Qendrës për Studime Kineze të UCLA .
+# sent_id = 12
+1	Ndërsa	ndërsa	CCONJ	_	_	5	cc	_	start_char=0|end_char=6|NER=O
+2	"	"	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No|NER=O
+3	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=9|end_char=15|SpaceAfter=No|NER=O
+4	"	"	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=24|end_char=25|NER=O
+7	ngjashëm	ngjashëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	cop	_	start_char=26|end_char=34|NER=O
+8	me	me	ADP	_	Case=Acc	10	case	_	start_char=35|end_char=37|NER=O
+9	"	"	PUNCT	_	_	10	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+10	Transformers	Transformer	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	5	advmod	_	start_char=40|end_char=52|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	10	punct	_	start_char=53|end_char=54|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=55|end_char=57|NER=O
+13	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	nmod	_	start_char=58|end_char=61|NER=O
+14	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=62|end_char=64|NER=O
+15	bazohet	bazoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	acl:relcl	_	start_char=65|end_char=72|NER=O
+16	në	në	ADP	_	Case=Acc	18	case	_	start_char=73|end_char=75|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=76|end_char=78|NER=O
+18	lodër	lodër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=79|end_char=84|NER=O
+19	ekzistuese	ekzistues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=85|end_char=95|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=96|end_char=97|NER=O
+21	por	por	CCONJ	_	_	24	cc	_	start_char=98|end_char=101|NER=O
+22	"	"	PUNCT	_	_	21	punct	_	start_char=102|end_char=103|SpaceAfter=No|NER=O
+23	nuk	nuk	PART	_	_	24	mark	_	start_char=104|end_char=107|NER=O
+24	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	start_char=108|end_char=113|NER=O
+25	një	një	DET	_	Definite=Ind	24	cop	_	start_char=114|end_char=117|NER=O
+26	IP	ip	PUNCT	_	_	24	punct	_	start_char=118|end_char=120|NER=O
+27	me	me	ADP	_	Case=Acc	29	case	_	start_char=121|end_char=123|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	29	det	_	start_char=124|end_char=126|NER=O
+29	cilin	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	31	nsubj	_	start_char=127|end_char=132|NER=O
+30	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=133|end_char=137|NER=O
+31	rritur	rrit	VERB	_	VerbForm=Part	24	advcl	_	start_char=138|end_char=144|NER=O
+32	brezat	brezë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	31	obj	_	start_char=145|end_char=151|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	34	det:poss	_	start_char=152|end_char=153|NER=O
+34	kinezëve	kinezë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	32	nmod	_	start_char=154|end_char=162|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	36	punct	_	start_char=163|end_char=164|NER=O
+36	kështu	kështu	ADV	_	AdvType=Man	39	cc	_	start_char=165|end_char=171|NER=O
+37	që	që	PRON	_	PronType=Rel	39	nsubj	_	start_char=172|end_char=174|NER=O
+38	ju	ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	39	mark	_	start_char=175|end_char=177|NER=O
+39	mungon	mungoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	advcl	_	start_char=178|end_char=184|NER=O
+40	tërheqja	tërheqje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	39	obj	_	start_char=185|end_char=193|NER=O
+41	ndër	ndër	ADP	_	Case=Acc	42	case	_	start_char=194|end_char=198|NER=O
+42	breza	brezë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	43	obl	_	start_char=199|end_char=204|NER=O
+43	krahasuar	krahasoj	VERB	_	VerbForm=Part	39	conj	_	start_char=205|end_char=214|NER=O
+44	me	me	ADP	_	Case=Acc	46	case	_	start_char=215|end_char=217|NER=O
+45	një	një	DET	_	Definite=Ind	46	det	_	start_char=218|end_char=221|NER=O
+46	film	film	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	43	obl	_	start_char=222|end_char=226|NER=O
+47	si	si	SCONJ	_	_	49	mark	_	start_char=227|end_char=229|NER=O
+48	"	"	PUNCT	_	_	49	punct	_	start_char=230|end_char=231|SpaceAfter=No|NER=O
+49	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	46	nmod	_	start_char=232|end_char=238|SpaceAfter=No|NER=O
+50	"	"	PUNCT	_	_	49	punct	_	start_char=239|end_char=240|NER=O
+51	në	në	ADP	_	Case=Acc	52	case	_	start_char=241|end_char=243|NER=O
+52	Shtetet	Shtet	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	56	advmod	_	start_char=244|end_char=251|NER=O
+53	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	54	det:poss	_	start_char=252|end_char=253|NER=O
+54	Bashkuara	Bashkuara	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	52	nmod	_	start_char=254|end_char=263|SpaceAfter=No|NER=O
+55	"	"	PUNCT	_	_	52	punct	_	start_char=264|end_char=265|SpaceAfter=No|NER=O
+56	,	,	PUNCT	_	_	52	punct	_	start_char=266|end_char=267|SpaceAfter=No|NER=O
+57	-	-	PUNCT	_	_	56	punct	_	start_char=268|end_char=269|NER=O
+58	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	43	conj	_	start_char=270|end_char=273|NER=O
+59	Michael	Michael	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	56	nsubj	_	start_char=274|end_char=281|NER=B-PER
+60	Berry	Berry	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	57	flat	_	start_char=282|end_char=287|SpaceAfter=No|NER=I-PER
+61	,	,	PUNCT	_	_	60	punct	_	start_char=288|end_char=289|NER=O
+62	drejtor	drejtor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	56	obj	_	start_char=290|end_char=297|NER=O
+63	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	62	det:poss	_	start_char=298|end_char=299|NER=O
+64	Qendrës	Qendrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	60	nmod	_	start_char=300|end_char=307|NER=O
+65	për	për	ADP	_	Case=Acc	64	case	_	start_char=308|end_char=311|NER=O
+66	Studime	studim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	60	nmod	_	start_char=312|end_char=319|NER=O
+67	Kineze	Kinez	PROPN	_	_	64	appos	_	start_char=320|end_char=326|NER=O
+68	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	67	det:poss	_	start_char=327|end_char=329|NER=O
+69	UCLA	UCLA	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	64	nmod	_	start_char=330|end_char=334|SpaceAfter=No|NER=O
+70	.	.	PUNCT	_	_	56	punct	_	start_char=335|end_char=336|SpacesAfter=\n|NER=O
+
+# text = Por Berry , i cili hulumton kinemanë kineze dhe kulturën pop , thotë se Barbie është ende ikonë në mbarë botën , duke i dhënë filmit një trampolinë solide për vlerësim ndërkombëtar .
+# sent_id = 13
+1	Por	por	CCONJ	_	_	13	cc	_	start_char=0|end_char=3|NER=O
+2	Berry	Berry	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=4|end_char=9|SpaceAfter=No|NER=B-PER
+3	,	,	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=12|end_char=13|NER=O
+5	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	start_char=14|end_char=18|NER=O
+6	hulumton	hulumtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=19|end_char=27|NER=O
+7	kinemanë	kinemanë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=28|end_char=36|NER=O
+8	kineze	kinez	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=37|end_char=43|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=44|end_char=47|NER=O
+10	kulturën	kulturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=48|end_char=56|NER=O
+11	pop	pop	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=57|end_char=60|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|NER=O
+13	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=68|NER=O
+14	se	se	SCONJ	_	_	16	mark	_	start_char=69|end_char=71|NER=O
+15	Barbie	Barbi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=72|end_char=78|NER=O
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	ccomp	_	start_char=79|end_char=84|NER=O
+17	ende	ende	ADV	_	AdvType=Deg	16	advmod	_	start_char=85|end_char=89|NER=O
+18	ikonë	ikonë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	cop	_	start_char=90|end_char=95|NER=O
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=96|end_char=98|NER=O
+20	mbarë	mbarë	PRON	_	PronType=Ind	21	nummod	_	start_char=99|end_char=104|NER=O
+21	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=105|end_char=110|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	25	punct	_	start_char=111|end_char=112|NER=O
+23	duke	duke	PART	_	_	25	fixed	_	start_char=113|end_char=117|NER=O
+24	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	iobj	_	start_char=118|end_char=119|NER=O
+25	dhënë	jap	VERB	_	VerbForm=Part	16	advmod	_	start_char=120|end_char=125|NER=O
+26	filmit	film	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	25	obj	_	start_char=126|end_char=132|NER=O
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=133|end_char=136|NER=O
+28	trampolinë	trampoli	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obj	_	start_char=137|end_char=147|NER=O
+29	solide	solid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=148|end_char=154|NER=O
+30	për	për	ADP	_	Case=Acc	31	case	_	start_char=155|end_char=158|NER=O
+31	vlerësim	vlerësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	start_char=159|end_char=167|NER=O
+32	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=168|end_char=180|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	25	punct	_	start_char=181|end_char=182|SpacesAfter=\n|NER=O
+
+# text = " Drejtimi i këtij ligjërimi është përqafimi i asaj që brezat e grave kanë dashur dhe urryer për markën dhe atë që ajo është përfaqësuar shpesh në të kaluarën , " - tha shefi analist i BoxOffice Pro , ShaWn Robbins , duke shtuar se filmi " ka përfshirë në biseda kulturore edhe rolet gjinore dhe fuqizimin e femrave që nuk kufizohen tashmë nga kufijtë ndërkombëtarë .
+# sent_id = 14
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Drejtimi	drejtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=2|end_char=10|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=11|end_char=12|NER=O
+4	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=13|end_char=18|NER=O
+5	ligjërimi	ligjërim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=28|NER=O
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=34|NER=O
+7	përqafimi	përqafim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=35|end_char=44|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=45|end_char=46|NER=O
+9	asaj	ajo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	start_char=47|end_char=51|NER=O
+10	që	që	PRON	_	PronType=Rel	11	mark	_	start_char=52|end_char=54|NER=O
+11	brezat	brezë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=55|end_char=61|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det:poss	_	start_char=62|end_char=63|NER=O
+13	grave	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=64|end_char=69|NER=O
+14	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=70|end_char=74|NER=O
+15	dashur	dua	VERB	_	VerbForm=Part	6	advcl	_	start_char=75|end_char=81|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=82|end_char=85|NER=O
+17	urryer	urryj	VERB	_	VerbForm=Part	15	conj	_	start_char=86|end_char=92|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=93|end_char=96|NER=O
+19	markën	markë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	start_char=97|end_char=103|NER=O
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=104|end_char=107|NER=O
+21	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	conj	_	start_char=108|end_char=111|NER=O
+22	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=112|end_char=114|NER=O
+23	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=115|end_char=118|NER=O
+24	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=119|end_char=124|NER=O
+25	përfaqësuar	përfaqësoj	VERB	_	VerbForm=Part	17	advcl	_	start_char=125|end_char=136|NER=O
+26	shpesh	shpesh	ADV	_	AdvType=Deg	25	advmod	_	start_char=137|end_char=143|NER=O
+27	në	në	ADP	_	Case=Acc	29	case	_	start_char=144|end_char=146|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=147|end_char=149|NER=O
+29	kaluarën	kaluarë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	advmod	_	start_char=150|end_char=158|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=159|end_char=160|SpaceAfter=No|NER=O
+31	"	"	PUNCT	_	_	32	punct	_	start_char=161|end_char=162|NER=O
+32	-	-	PUNCT	_	_	32	punct	_	start_char=163|end_char=164|NER=O
+33	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	conj	_	start_char=165|end_char=168|NER=O
+34	shefi	Shef	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	obj	_	start_char=169|end_char=174|NER=O
+35	analist	analist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	start_char=175|end_char=182|NER=O
+36	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=183|end_char=184|NER=O
+37	BoxOffice	BoxOffic	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=185|end_char=194|NER=O
+38	Pro	Pro	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	flat	_	start_char=195|end_char=198|SpaceAfter=No|NER=O
+39	,	,	PUNCT	_	_	39	punct	_	start_char=199|end_char=200|NER=O
+40	ShaWn	ShaWn	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	36	appos	_	start_char=201|end_char=206|NER=B-PER
+41	Robbins	Robbins	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=207|end_char=214|SpaceAfter=No|NER=I-PER
+42	,	,	PUNCT	_	_	43	punct	_	start_char=215|end_char=216|NER=O
+43	duke	duke	PART	_	_	43	fixed	_	start_char=217|end_char=221|NER=O
+44	shtuar	shtoj	VERB	_	VerbForm=Part	39	advmod	_	start_char=222|end_char=228|NER=O
+45	se	se	SCONJ	_	_	47	mark	_	start_char=229|end_char=231|NER=O
+46	filmi	film	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	obj	_	start_char=232|end_char=237|NER=O
+47	"	"	PUNCT	_	_	45	punct	_	start_char=238|end_char=239|NER=O
+48	ka	ka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	45	appos	_	start_char=240|end_char=242|NER=O
+49	përfshirë	përfshij	VERB	_	VerbForm=Part	45	amod	_	start_char=243|end_char=252|NER=O
+50	në	në	ADP	_	Case=Acc	49	case	_	start_char=253|end_char=255|NER=O
+51	biseda	bisedë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	47	obl	_	start_char=256|end_char=262|NER=O
+52	kulturore	kulturor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	start_char=263|end_char=272|NER=O
+53	edhe	edhe	CCONJ	_	_	52	cc	_	start_char=273|end_char=277|NER=O
+54	rolet	role	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	49	conj	_	start_char=278|end_char=283|NER=O
+55	gjinore	gjinor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	52	amod	_	start_char=284|end_char=291|NER=O
+56	dhe	dhe	CCONJ	_	_	55	cc	_	start_char=292|end_char=295|NER=O
+57	fuqizimin	fuqizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	52	conj	_	start_char=296|end_char=305|NER=O
+58	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	57	det:poss	_	start_char=306|end_char=307|NER=O
+59	femrave	femra	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	55	nmod	_	start_char=308|end_char=315|NER=O
+60	që	që	PRON	_	PronType=Rel	60	nsubj	_	start_char=316|end_char=318|NER=O
+61	nuk	nuk	PART	_	_	60	mark	_	start_char=319|end_char=322|NER=O
+62	kufizohen	kufizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	55	acl:relcl	_	start_char=323|end_char=332|NER=O
+63	tashmë	tashmë	ADV	_	AdvType=Deg	60	advmod	_	start_char=333|end_char=339|NER=O
+64	nga	nga	ADP	_	Case=Nom	63	case	_	start_char=340|end_char=343|NER=O
+65	kufijtë	kufijtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	60	obl	_	start_char=344|end_char=351|NER=O
+66	ndërkombëtarë	ndërkombëtarë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	63	amod	_	start_char=352|end_char=365|SpaceAfter=No|NER=O
+67	.	.	PUNCT	_	_	60	punct	_	start_char=366|end_char=367|SpaceAfter=No|NER=O
+
+# text = " CNN
+# sent_id = 15
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+2	CNN	CNN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=5|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,112 @@
+# text = 05 / 10 / 2023 Një fëmijë 3 vjeçar ka humbur jetën , pas ndërhyrjes në në klinikë private dentare në Tiranë .
+# sent_id = 0
+1	05	05	NUM	_	NumType=Card	10	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	12	conj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Një	një	DET	_	Definite=Ind	2	det	_	start_char=15|end_char=18|NER=O
+7	fëmijë	fëmijë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=19|end_char=25|NER=O
+8	3	3	NUM	_	NumType=Card	2	amod:nummod	_	start_char=26|end_char=27|NER=O
+9	vjeçar	vjeçar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=28|end_char=34|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=35|end_char=37|NER=O
+11	humbur	humbur	VERB	_	VerbForm=Part	0	root	_	start_char=38|end_char=44|NER=O
+12	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=45|end_char=50|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	10	punct	_	start_char=51|end_char=52|NER=O
+14	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=53|end_char=56|NER=O
+15	ndërhyrjes	ndërhyrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=57|end_char=67|NER=O
+16	në	në	ADP	_	Case=Acc	13	case	_	start_char=68|end_char=70|NER=O
+17	në	në	ADP	_	Case=Acc	13	case	_	start_char=71|end_char=73|NER=O
+18	klinikë	klinikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=74|end_char=81|NER=O
+19	private	privat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=82|end_char=89|NER=O
+20	dentare	dentar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=90|end_char=97|NER=O
+21	në	në	ADP	_	Case=Acc	17	case	_	start_char=98|end_char=100|NER=O
+22	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=101|end_char=107|SpaceAfter=No|NER=B-VEND_0
+23	.	.	PUNCT	_	_	6	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = Ngjarja ka ndodhur tre ditë më parë , por u bë e ditur këtë të enjte , pas kallëzimit të paraqitur në Komisariatin e Policisë numër 4 nga babai i fëmijës për mjekun anestezist Roland Xhaxho 70 vjeç .
+# sent_id = 1
+1	Ngjarja	ngjarjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=10|NER=O
+3	ndodhur	ndodh	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=18|NER=O
+4	tre	tre	NUM	_	NumType=Card	5	nummod	_	start_char=19|end_char=22|NER=O
+5	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=23|end_char=27|NER=O
+6	më	më	PART	_	_	7	mark	_	start_char=28|end_char=30|NER=O
+7	parë	parë	ADV	_	AdvType=Tim	5	advmod	_	start_char=31|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|NER=O
+9	por	por	CCONJ	_	_	11	cc	_	start_char=38|end_char=41|NER=O
+10	u	u	PART	_	_	11	fixed	_	start_char=42|end_char=43|NER=O
+11	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	start_char=44|end_char=46|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	fixed	_	start_char=47|end_char=48|NER=O
+13	ditur	ditur	VERB	_	VerbForm=Part	11	csubj	_	start_char=49|end_char=54|NER=O
+14	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=55|end_char=59|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=60|end_char=62|NER=O
+16	enjte	enjt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=63|end_char=68|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=69|end_char=70|NER=O
+18	pas	pas	ADP	_	Case=Abl	19	case	_	start_char=71|end_char=74|NER=O
+19	kallëzimit	kallëzim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=75|end_char=85|NER=O
+20	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=86|end_char=88|NER=O
+21	paraqitur	paraqit	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=89|end_char=98|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=99|end_char=101|NER=O
+23	Komisariatin	Komisariat	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=102|end_char=114|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=115|end_char=116|NER=O
+25	Policisë	polici	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=117|end_char=125|NER=O
+26	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=126|end_char=131|NER=O
+27	4	4	NUM	_	NumType=Card	25	nummod	_	start_char=132|end_char=133|NER=O
+28	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=134|end_char=137|NER=O
+29	babai	baba	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=138|end_char=143|NER=O
+30	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=144|end_char=145|NER=O
+31	fëmijës	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=146|end_char=153|NER=O
+32	për	për	ADP	_	Case=Acc	33	case	_	start_char=154|end_char=157|NER=O
+33	mjekun	mjeku	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=158|end_char=164|NER=O
+34	anestezist	anestezist	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=165|end_char=175|NER=O
+35	Roland	Roland	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	appos	_	start_char=176|end_char=182|NER=B-PER
+36	Xhaxho	Xhaxho	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	35	flat	_	start_char=183|end_char=189|NER=I-PER
+37	70	70	NUM	_	NumType=Card	38	nummod	_	start_char=190|end_char=192|NER=O
+38	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	start_char=193|end_char=197|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	3	punct	_	start_char=198|end_char=199|SpacesAfter=\n|NER=O
+
+# text = Policia e Tiranës thotë në njoftim se mjeku anestezist akuzohet për mjekim të pakujdeshëm .
+# sent_id = 2
+1	Policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=17|NER=B-VEND_0
+4	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=24|end_char=26|NER=O
+6	njoftim	njoftim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=27|end_char=34|NER=O
+7	se	se	SCONJ	_	_	10	mark	_	start_char=35|end_char=37|NER=O
+8	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=43|NER=O
+9	anestezist	anestezist	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=44|end_char=54|NER=O
+10	akuzohet	akuzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=55|end_char=63|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=64|end_char=67|NER=O
+12	mjekim	mjekim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=68|end_char=74|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=75|end_char=77|NER=O
+14	pakujdeshëm	pakujdeshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=78|end_char=89|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	10	punct	_	start_char=90|end_char=91|NER=O
+
+# text = Ai po procedohet në gjendje të lirë , ndërsa hetimet janë referuar në Prokurorinë e Tiranës .
+# sent_id = 3
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	po	po	PART	_	_	3	mark	_	start_char=3|end_char=5|NER=O
+3	procedohet	procedoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=6|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=20|end_char=27|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=28|end_char=30|NER=O
+7	lirë	lirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=31|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|NER=O
+9	ndërsa	ndërsa	CCONJ	_	_	12	cc	_	start_char=38|end_char=44|NER=O
+10	hetimet	hetim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=45|end_char=52|NER=O
+11	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=53|end_char=57|NER=O
+12	referuar	referoj	VERB	_	VerbForm=Part	3	conj	_	start_char=58|end_char=66|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=67|end_char=69|NER=O
+14	Prokurorinë	prokurori	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	start_char=70|end_char=81|NER=B-ORG
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=82|end_char=83|NER=I-ORG
+16	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=84|end_char=91|SpaceAfter=No|NER=I-ORG
+17	.	.	PUNCT	_	_	12	punct	_	start_char=92|end_char=93|SpacesAfter=\n|NER=O
+
+# text = Gazetare Eriselda Dyrmishi
+# sent_id = 4
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Eriselda	Eriseldë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=17|NER=B-PER
+3	Dyrmishi	Dyrmish	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=18|end_char=26|SpacesAfter=\n|NER=I-PER
+

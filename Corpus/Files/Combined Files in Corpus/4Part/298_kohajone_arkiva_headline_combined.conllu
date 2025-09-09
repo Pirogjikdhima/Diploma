@@ -1,0 +1,148 @@
+# text = Fauci : SHBA s ' ka nevojë për - n , edhe nëse miratohet Shtetet e Bashkuara të Amerikës mund të mos kenë nevojë për vaksinën anti - covid të , edhe në rast aprovimi nga rregullatori i barnave .
+# sent_id = 0
+1	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|NER=O
+3	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=8|end_char=12|NER=B-VEND_1
+4	s	s'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=13|end_char=14|NER=O
+5	'	'	PUNCT	_	_	1	punct	_	start_char=15|end_char=16|NER=O
+6	ka	s'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=17|end_char=19|NER=O
+7	nevojë	nevojë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=26|NER=O
+8	për	për	ADP	_	Case=Acc	5	case	_	start_char=27|end_char=30|NER=O
+9	-	-	PUNCT	_	_	5	punct	_	start_char=31|end_char=32|SpaceAfter=No|NER=B-ORG
+10	n	Zeneca	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	flat	_	start_char=33|end_char=34|SpaceAfter=No|NER=B-ORG
+11	,	,	PUNCT	_	_	9	punct	_	start_char=35|end_char=36|NER=O
+12	edhe	edhe	CCONJ	_	_	9	fixed	_	start_char=37|end_char=41|NER=O
+13	nëse	nëse	SCONJ	_	_	10	mark	_	start_char=42|end_char=46|NER=O
+14	miratohet	miratoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	advcl	_	start_char=47|end_char=56|SpacesAfter=\n|NER=O
+15	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=57|end_char=64|NER=B-VEND_1
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=65|end_char=66|NER=I-VEND_1
+17	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=67|end_char=76|NER=I-VEND_1
+18	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=77|end_char=79|NER=I-VEND_1
+19	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=80|end_char=88|NER=I-VEND_1
+20	mund	mund	AUX	_	_	19	aux	_	start_char=89|end_char=93|NER=O
+21	të	të	PART	_	_	19	fixed	_	start_char=94|end_char=96|NER=O
+22	mos	mos	PART	_	_	19	fixed	_	start_char=97|end_char=100|NER=O
+23	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=101|end_char=105|NER=O
+24	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=106|end_char=112|NER=O
+25	për	për	ADP	_	Case=Acc	22	case	_	start_char=113|end_char=116|NER=O
+26	vaksinën	vaksinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	start_char=117|end_char=125|NER=O
+27	anti	anti-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=126|end_char=130|NER=O
+28	-	-	PUNCT	_	_	22	punct	_	start_char=131|end_char=132|NER=O
+29	covid	anti-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=133|end_char=138|NER=O
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=139|end_char=141|NER=O
+31	,	,	PUNCT	_	_	28	punct	_	start_char=142|end_char=143|NER=O
+32	edhe	edhe	PART	_	_	30	mark	_	start_char=144|end_char=148|NER=O
+33	në	në	ADP	_	Case=Acc	30	case	_	start_char=149|end_char=151|NER=O
+34	rast	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	start_char=152|end_char=156|NER=O
+35	aprovimi	aprovim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=157|end_char=165|NER=O
+36	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=166|end_char=169|NER=O
+37	rregullatori	rregullator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=170|end_char=182|NER=O
+38	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=183|end_char=184|NER=O
+39	barnave	barna	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	33	nmod	_	start_char=185|end_char=192|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	19	punct	_	start_char=193|end_char=194|NER=O
+
+# text = Deklarata vjen nga virologu kryesor i këtij vendi , Anthony Fauci .
+# sent_id = 1
+1	Deklarata	deklaratë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=9|NER=O
+2	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=14|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=15|end_char=18|NER=O
+4	virologu	virolog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=19|end_char=27|NER=O
+5	kryesor	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=28|end_char=35|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=37|NER=O
+7	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=38|end_char=43|NER=O
+8	vendi	vend	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=44|end_char=49|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=50|end_char=51|NER=O
+10	Anthony	Anthon	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=52|end_char=59|NER=B-PER
+11	Fauci	Fauc	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=60|end_char=65|SpaceAfter=No|NER=I-PER
+12	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67|SpacesAfter=\n|NER=O
+
+# text = Kreu i departamentit të sëmundjeve infektuese i ka thënë agjencisë Reuters , se SHBA ka mjaftueshëm kontrata me prodhues të tjerë të vaksinave për të imunizuar të gjithë popullatën ndaj Covid - 19 .
+# sent_id = 2
+1	Kreu	krej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=5|end_char=6|NER=O
+3	departamentit	departament	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=7|end_char=20|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=21|end_char=23|NER=O
+5	sëmundjeve	sëmundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=24|end_char=34|NER=O
+6	infektuese	infektues	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=35|end_char=45|NER=O
+7	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	start_char=46|end_char=47|NER=O
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=48|end_char=50|NER=O
+9	thënë	them	VERB	_	VerbForm=Part	1	conj	_	start_char=51|end_char=56|NER=O
+10	agjencisë	agjenci	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=57|end_char=66|NER=O
+11	Reuters	Reuter	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	10	appos	_	start_char=67|end_char=74|SpaceAfter=No|NER=B-ORG
+12	,	,	PUNCT	_	_	13	punct	_	start_char=75|end_char=76|NER=O
+13	se	se	SCONJ	_	_	16	mark	_	start_char=77|end_char=79|NER=O
+14	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=80|end_char=84|NER=B-VEND_1
+15	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=85|end_char=87|NER=O
+16	mjaftueshëm	mjaftuem	VERB	_	VerbForm=Part	9	advcl	_	start_char=88|end_char=99|NER=O
+17	kontrata	kontratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=100|end_char=108|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=109|end_char=111|NER=O
+19	prodhues	prodhues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	start_char=112|end_char=120|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=121|end_char=123|NER=O
+21	tjerë	tjetër	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	19	amod	_	start_char=124|end_char=129|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=130|end_char=132|NER=O
+23	vaksinave	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=133|end_char=142|NER=O
+24	për	për	PART	_	_	26	fixed	_	start_char=143|end_char=146|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=147|end_char=149|NER=O
+26	imunizuar	imunizoj	VERB	_	VerbForm=Part	16	advmod	_	start_char=150|end_char=159|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	29	det:poss	_	start_char=160|end_char=162|NER=O
+28	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	29	det	_	start_char=163|end_char=169|NER=O
+29	popullatën	popullatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=170|end_char=180|NER=O
+30	ndaj	ndaj	ADP	_	Case=Abl	31	case	_	start_char=181|end_char=185|NER=O
+31	Covid	Covid-19	PROPN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=186|end_char=191|SpaceAfter=No|NER=O
+32	-	-	PUNCT	_	_	29	punct	_	start_char=192|end_char=193|SpaceAfter=No|NER=O
+33	19	19	NUM	_	NumType=Card	29	nmod	_	start_char=194|end_char=196|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	26	punct	_	start_char=197|end_char=198|SpacesAfter=\n|NER=O
+
+# text = Kjo deklaratë vjen teksa po përballet me një valë dyshimi pas disa incidenteve në Europë me mpiksje të gjakut .
+# sent_id = 3
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	deklaratë	deklaratë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=13|NER=O
+3	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=18|NER=O
+4	teksa	teksa	ADV	_	AdvType=Loc	5	advmod	_	start_char=19|end_char=24|NER=O
+5	po	po	PART	_	_	8	mark	_	start_char=25|end_char=27|NER=O
+6	përballet	përballem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=28|end_char=37|NER=O
+7	me	me	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=40|NER=O
+8	një	një	DET	_	Definite=Ind	11	det	_	start_char=41|end_char=44|NER=O
+9	valë	valë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=45|end_char=49|NER=O
+10	dyshimi	dyshim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=50|end_char=57|NER=O
+11	pas	pas	ADP	_	Case=Abl	15	case	_	start_char=58|end_char=61|NER=O
+12	disa	disa	PRON	_	PronType=Ind	15	nummod	_	start_char=62|end_char=66|NER=O
+13	incidenteve	incident	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	obl	_	start_char=67|end_char=78|NER=O
+14	në	në	ADP	_	Case=Acc	17	case	_	start_char=79|end_char=81|NER=O
+15	Europë	Europë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=82|end_char=88|NER=O
+16	me	me	ADP	_	Case=Acc	19	case	_	start_char=89|end_char=91|NER=O
+17	mpiksje	mpiksje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=92|end_char=99|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=100|end_char=102|NER=O
+19	gjakut	gjak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=103|end_char=109|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	3	punct	_	start_char=110|end_char=111|NER=O
+
+# text = Organizata Botërore e Shëndetësisë dhe Agjencia Europian e Barnave kanë konfirmuar se vaksina e zhvilluar nga Universitetit i Oksfordit është efikase dhe e sigurt për përdorim .
+# sent_id = 4
+1	Organizata	organizatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=0|end_char=10|NER=B-ORG
+2	Botërore	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=11|end_char=19|NER=I-ORG
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=20|end_char=21|NER=I-ORG
+4	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=22|end_char=34|NER=I-ORG
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=35|end_char=38|NER=O
+6	Agjencia	Agjenci	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=39|end_char=47|NER=B-ORG
+7	Europian	Europian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=48|end_char=56|NER=I-ORG
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=57|end_char=58|NER=I-ORG
+9	Barnave	Barnav	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=59|end_char=66|NER=I-ORG
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=67|end_char=71|NER=O
+11	konfirmuar	konfirmoj	VERB	_	VerbForm=Part	0	root	_	start_char=72|end_char=82|NER=O
+12	se	se	SCONJ	_	_	20	mark	_	start_char=83|end_char=85|NER=O
+13	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=86|end_char=93|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=94|end_char=95|NER=O
+15	zhvilluar	zhvilluar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=96|end_char=105|NER=O
+16	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=106|end_char=109|NER=O
+17	Universitetit	Universitet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=110|end_char=123|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=124|end_char=125|NER=O
+19	Oksfordit	Oksford	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=126|end_char=135|NER=O
+20	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=136|end_char=141|NER=O
+21	efikase	efikas	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	cop	_	start_char=142|end_char=149|NER=O
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=150|end_char=153|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=154|end_char=155|NER=O
+24	sigurt	sigurt	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	start_char=156|end_char=162|NER=O
+25	për	për	ADP	_	Case=Acc	26	case	_	start_char=163|end_char=166|NER=O
+26	përdorim	përdorim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=167|end_char=175|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	20	punct	_	start_char=176|end_char=177|SpacesAfter=\n|NER=O
+

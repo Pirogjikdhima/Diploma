@@ -1,0 +1,43 @@
+# text = Fillimi i vitit të ri shkollor do të nisë të hënën e ardhshme me 12 shtator pa një protokoll sigurie .
+# sent_id = 0
+1	Fillimi	Fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=8|end_char=9|NER=O
+3	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=10|end_char=15|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=16|end_char=18|NER=O
+5	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=19|end_char=21|NER=O
+6	shkollor	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=22|end_char=30|NER=O
+7	do	do	PART	_	_	22	fixed	_	start_char=31|end_char=33|NER=O
+8	të	të	PART	_	_	22	fixed	_	start_char=34|end_char=36|NER=O
+9	nisë	nij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=37|end_char=41|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=42|end_char=44|NER=O
+11	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=45|end_char=50|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=51|end_char=52|NER=O
+13	ardhshme	ardhshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=53|end_char=61|NER=O
+14	me	me	ADP	_	Case=Acc	29	case	_	start_char=62|end_char=64|NER=O
+15	12	12	NUM	_	NumType=Card	29	nummod	_	start_char=65|end_char=67|NER=B-DATE_0
+16	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=68|end_char=75|NER=I-DATE_0
+17	pa	pa	ADP	_	Case=Acc	32	case	_	start_char=76|end_char=78|NER=O
+18	një	një	DET	_	Definite=Ind	32	det	_	start_char=79|end_char=82|NER=O
+19	protokoll	protokoll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=83|end_char=92|NER=O
+20	sigurie	siguri	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	32	nmod	_	start_char=93|end_char=100|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	22	punct	_	start_char=101|end_char=102|SpacesAfter=\n|NER=O
+
+# text = Risi e këtij viti shkollor do të jetë edhe Abetarja e unifikuar Shqipëri – Kosovë .
+# sent_id = 1
+1	Risi	disi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5|end_char=6|NER=O
+3	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=7|end_char=12|NER=O
+4	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=13|end_char=17|NER=O
+5	shkollor	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=18|end_char=26|NER=O
+6	do	do	PART	_	_	8	fixed	_	start_char=27|end_char=29|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=30|end_char=32|NER=O
+8	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=37|NER=O
+9	edhe	edhe	PART	_	_	10	mark	_	start_char=38|end_char=42|NER=O
+10	Abetarja	Abetarje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=43|end_char=51|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=52|end_char=53|NER=O
+12	unifikuar	unifikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=54|end_char=63|NER=O
+13	Shqipëri	Shqipëri	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=64|end_char=72|NER=B-VEND_1
+14	–	–	PUNCT	_	_	13	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=B-VEND_1
+15	Kosovë	Koso	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	flat	_	start_char=75|end_char=81|SpaceAfter=No|NER=B-VEND_1
+16	.	.	PUNCT	_	_	8	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+

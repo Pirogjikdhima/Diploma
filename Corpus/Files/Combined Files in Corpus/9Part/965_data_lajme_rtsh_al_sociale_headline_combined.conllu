@@ -1,0 +1,63 @@
+# text = 07 / 08 / 2023 Sëmundjet që lidhen me shëndetin mendor vijojnë me trend rritës edhe këtë sezon .
+# sent_id = 0
+1	07	07	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	15	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Sëmundjet	sëmundje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=15|end_char=24|NER=O
+7	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=25|end_char=27|NER=O
+8	lidhen	lidhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	21	acl:relcl	_	start_char=28|end_char=34|NER=O
+9	me	me	ADP	_	Case=Acc	25	case	_	start_char=35|end_char=37|NER=O
+10	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	start_char=38|end_char=47|NER=O
+11	mendor	mendor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=48|end_char=54|NER=O
+12	vijojnë	vijoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	acl	_	start_char=55|end_char=62|NER=O
+13	me	me	ADP	_	Case=Acc	29	case	_	start_char=63|end_char=65|NER=O
+14	trend	trend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	start_char=66|end_char=71|NER=O
+15	rritës	rritëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	advmod	_	start_char=72|end_char=78|NER=O
+16	edhe	edhe	CCONJ	_	_	33	mark:emph	_	start_char=79|end_char=83|NER=O
+17	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	start_char=84|end_char=88|NER=O
+18	sezon	sezo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=89|end_char=94|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	27	punct	_	start_char=95|end_char=96|NER=O
+
+# text = Duke iu referuar të dhënave të shprehura nga mjekja psikiatre në Poliklinikën Fier , Ina Prifti numri i urgjencave në në muaj është rritur nga 90 deri në 300 persona .
+# sent_id = 1
+1	Duke	duke	PART	_	_	4	fixed	_	start_char=0|end_char=4|NER=O
+2	iu	iu	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=5|end_char=7|NER=O
+3	referuar	referoj	VERB	_	VerbForm=Part	25	advmod	_	start_char=8|end_char=16|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=17|end_char=19|NER=O
+5	dhënave	dhënë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=20|end_char=27|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=28|end_char=30|NER=O
+7	shprehura	shprehurë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=31|end_char=40|NER=O
+8	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=41|end_char=44|NER=O
+9	mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=45|end_char=51|NER=O
+10	psikiatre	psikiatr	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=52|end_char=61|NER=O
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=62|end_char=64|NER=O
+12	Poliklinikën	poliklinikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=65|end_char=77|NER=O
+13	Fier	Fier	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=78|end_char=82|SpaceAfter=No|NER=B-VEND_0
+14	,	,	PUNCT	_	_	16	punct	_	start_char=83|end_char=84|NER=O
+15	Ina	Ina	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=85|end_char=88|NER=B-PER
+16	Prifti	prift	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=89|end_char=95|NER=I-PER
+17	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=96|end_char=101|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=102|end_char=103|NER=O
+19	urgjencave	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=104|end_char=114|NER=O
+20	në	në	ADP	_	Case=Acc	23	case	_	start_char=115|end_char=117|NER=O
+21	në	në	ADP	_	Case=Acc	23	case	_	start_char=118|end_char=120|NER=O
+22	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	advmod	_	start_char=121|end_char=125|NER=O
+23	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=126|end_char=131|NER=O
+24	rritur	rrit	VERB	_	VerbForm=Part	0	root	_	start_char=132|end_char=138|NER=O
+25	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=139|end_char=142|NER=O
+26	90	90	NUM	_	NumType=Card	25	advmod	_	start_char=143|end_char=145|NER=O
+27	deri	deri	PART	_	_	29	fixed	_	start_char=146|end_char=150|NER=O
+28	në	në	ADP	_	Case=Acc	31	case	_	start_char=151|end_char=153|NER=O
+29	300	300	NUM	_	NumType=Card	31	nummod	_	start_char=154|end_char=157|NER=O
+30	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	advmod	_	start_char=158|end_char=165|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	25	punct	_	start_char=166|end_char=167|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Megi Mëhilli
+# sent_id = 2
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Megi	Megi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Mëhilli	Mëhill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

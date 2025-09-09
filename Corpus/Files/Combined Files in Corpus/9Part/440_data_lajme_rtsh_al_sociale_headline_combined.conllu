@@ -1,0 +1,65 @@
+# text = 18 / 11 / 2023 Vajzat që janë në djeni të kësaj sëmundje u rekomandohet të mos marrin kontraceptivë orale pasi rrit rriskun për trombohemboli pulmonare .
+# sent_id = 0
+1	18	18	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	10	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	11	11	NUM	_	NumType=Card	10	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	10	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Vajzat	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=15|end_char=21|NER=O
+7	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=22|end_char=24|NER=O
+8	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl	_	start_char=25|end_char=29|NER=O
+9	në	në	ADP	_	Case=Acc	5	fixed	_	start_char=30|end_char=32|NER=O
+10	djeni	djej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	advmod	_	start_char=33|end_char=38|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=39|end_char=41|NER=O
+12	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=42|end_char=47|NER=O
+13	sëmundje	sëmundje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=48|end_char=56|NER=O
+14	u	u	PART	_	_	10	fixed	_	start_char=57|end_char=58|NER=O
+15	rekomandohet	rekomandoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=59|end_char=71|NER=O
+16	të	të	PART	_	_	13	fixed	_	start_char=72|end_char=74|NER=O
+17	mos	mos	PART	_	_	13	fixed	_	start_char=75|end_char=78|NER=O
+18	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=79|end_char=85|NER=O
+19	kontraceptivë	kontracepti	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=86|end_char=99|NER=O
+20	orale	oral	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=100|end_char=105|NER=O
+21	pasi	pasi	SCONJ	_	_	17	mark	_	start_char=106|end_char=110|NER=O
+22	rrit	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	advcl	_	start_char=111|end_char=115|NER=O
+23	rriskun	rrisk	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=116|end_char=123|NER=O
+24	për	për	ADP	_	Case=Acc	20	case	_	start_char=124|end_char=127|NER=O
+25	trombohemboli	trombohembol	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	17	obl	_	start_char=128|end_char=141|NER=O
+26	pulmonare	pulmonar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=142|end_char=151|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	17	punct	_	start_char=152|end_char=153|NER=O
+
+# text = Në Shqipëri nuk kemi matje , por edhe pse nuk është në frekuencë të madhe duhet matur .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=11|NER=B-VEND_1
+3	nuk	nuk	PART	_	_	4	mark	_	start_char=12|end_char=15|NER=O
+4	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=20|NER=O
+5	matje	matje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=21|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=27|end_char=28|NER=O
+7	por	por	CCONJ	_	_	11	cc	_	start_char=29|end_char=32|NER=O
+8	edhe	edhe	CCONJ	_	_	9	fixed	_	start_char=33|end_char=37|NER=O
+9	pse	pse	SCONJ	_	_	11	mark	_	start_char=38|end_char=41|NER=O
+10	nuk	nuk	PART	_	_	11	mark	_	start_char=42|end_char=45|NER=O
+11	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=46|end_char=51|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=52|end_char=54|NER=O
+13	frekuencë	frekuencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=55|end_char=64|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=65|end_char=67|NER=O
+15	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=68|end_char=73|NER=O
+16	duhet	duhem	AUX	_	Mood=Ind|Person=3	17	aux	_	start_char=74|end_char=79|NER=O
+17	matur	mat	VERB	_	VerbForm=Part	4	conj	_	start_char=80|end_char=85|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	17	punct	_	start_char=86|end_char=87|NER=O
+
+# text = Në botë kemi një një 5 mijë njerëz me Trombofilia .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=3|end_char=7|NER=O
+3	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+4	një	një	DET	_	Definite=Ind	6	det	_	start_char=13|end_char=16|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=17|end_char=20|NER=O
+6	5	5	NUM	_	NumType=Card	8	nummod	_	start_char=21|end_char=22|NER=O
+7	mijë	mijë	NUM	_	NumType=Card	8	nummod	_	start_char=23|end_char=27|NER=O
+8	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	start_char=28|end_char=34|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=35|end_char=37|NER=O
+10	Trombofilia	Trombofili	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=38|end_char=49|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	3	punct	_	start_char=50|end_char=51|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,125 @@
+# text = Shkodër / Dyfishohen frekuencat e pastrimit në sezonin veror .
+# sent_id = 0
+1	Shkodër	Shkodër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-VEND_0
+2	/	/	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Dyfishohen	dyfishoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=20|NER=O
+4	frekuencat	frekuencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	obj	_	start_char=21|end_char=31|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=32|end_char=33|NER=O
+6	pastrimit	pastrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=34|end_char=43|NER=O
+7	në	në	ADP	_	Case=Acc	6	case	_	start_char=44|end_char=46|NER=O
+8	sezonin	sezon	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	advmod	_	start_char=47|end_char=54|NER=O
+9	veror	veror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=55|end_char=60|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	1	punct	_	start_char=61|end_char=62|NER=O
+
+# text = Gjoba për biznese dhe qytetarë 17 / 08 / 2023 Këtë sezon frekuencat e pastrimit në Shkodër dhe rrethina janë shtuar .
+# sent_id = 1
+1	Gjoba	Gjobë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	obj	_	start_char=0|end_char=5|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=6|end_char=9|NER=O
+3	biznese	biznes	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=10|end_char=17|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=18|end_char=21|NER=O
+5	qytetarë	qytetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	start_char=22|end_char=30|SpacesAfter=\n|NER=O
+6	17	17	NUM	_	NumType=Card	7	nummod	_	start_char=31|end_char=33|SpaceAfter=No|NER=B-DATE_0
+7	/	/	PUNCT	_	_	5	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=I-DATE_0
+8	08	08	NUM	_	NumType=Card	5	nmod	_	start_char=36|end_char=38|SpaceAfter=No|NER=I-DATE_0
+9	/	/	PUNCT	_	_	7	punct	_	start_char=39|end_char=40|SpaceAfter=No|NER=I-DATE_0
+10	2023	2023	NUM	_	NumType=Card	7	nummod	_	start_char=41|end_char=45|SpaceAfter=No|NER=I-DATE_0
+11	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=46|end_char=50|NER=O
+12	sezon	sezo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=56|NER=O
+13	frekuencat	frekuencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=57|end_char=67|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=68|end_char=69|NER=O
+15	pastrimit	pastrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=70|end_char=79|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=80|end_char=82|NER=O
+17	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=83|end_char=90|NER=B-VEND_0
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=91|end_char=94|NER=O
+19	rrethina	rrethinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	advmod	_	start_char=95|end_char=103|NER=O
+20	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=104|end_char=108|NER=O
+21	shtuar	shtoj	VERB	_	VerbForm=Part	0	root	_	start_char=109|end_char=115|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	21	punct	_	start_char=116|end_char=117|NER=O
+
+# text = Nga dy herë në javë , nga njësitë administrative tashmë është kërkuar që frekuenca të jetë 3 – 4 , ndërsa Velipoja pastrohet 4 herë në ditë .
+# sent_id = 2
+1	Nga	nga	ADP	_	Case=Nom	3	case	_	start_char=0|end_char=3|NER=O
+2	dy	dy	NUM	_	NumType=Card	3	nummod	_	start_char=4|end_char=6|NER=O
+3	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	advmod	_	start_char=7|end_char=11|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=14|NER=O
+5	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=15|end_char=19|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	3	punct	_	start_char=20|end_char=21|NER=O
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=22|end_char=25|NER=O
+8	njësitë	njësitë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=26|end_char=33|NER=O
+9	administrative	administrativ	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=34|end_char=48|NER=O
+10	tashmë	tashmë	ADV	_	AdvType=Tim	12	advmod	_	start_char=49|end_char=55|NER=O
+11	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=56|end_char=61|NER=O
+12	kërkuar	kërkoj	VERB	_	VerbForm=Part	0	root	_	start_char=62|end_char=69|NER=O
+13	që	që	SCONJ	_	_	16	mark	_	start_char=70|end_char=72|NER=O
+14	frekuenca	frekuencë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	nsubj	_	start_char=73|end_char=82|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=83|end_char=85|NER=O
+16	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=86|end_char=90|NER=O
+17	3	3	NUM	_	NumType=Card	16	advmod	_	start_char=91|end_char=92|NER=O
+18	–	–	PUNCT	_	_	16	punct	_	start_char=93|end_char=94|NER=O
+19	4	4	NUM	_	NumType=Card	16	advmod	_	start_char=95|end_char=96|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=97|end_char=98|NER=O
+21	ndërsa	ndërsa	CCONJ	_	_	21	cc	_	start_char=99|end_char=105|NER=O
+22	Velipoja	Velipojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=106|end_char=114|NER=O
+23	pastrohet	pastroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	conj	_	start_char=115|end_char=124|NER=O
+24	4	4	NUM	_	NumType=Card	23	nummod	_	start_char=125|end_char=126|NER=O
+25	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=127|end_char=131|NER=O
+26	në	në	ADP	_	Case=Acc	25	case	_	start_char=132|end_char=134|NER=O
+27	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=135|end_char=139|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	21	punct	_	start_char=140|end_char=141|SpacesAfter=\n|NER=O
+
+# text = Hartimi i rregullores së re pritet ta zgjidhë në mënyrë përfundimtare çështjen e pastrimit në Shkodër .
+# sent_id = 3
+1	Hartimi	Hartim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	rregullores	rregullore	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=21|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=22|end_char=24|NER=O
+5	re	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=25|end_char=27|NER=O
+6	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=28|end_char=34|NER=O
+7	ta	_	_	_	_	_	_	_	start_char=35|end_char=37|NER=O
+8	zgjidhë	zgjidh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=38|end_char=45|NER=O
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+10	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=49|end_char=55|NER=O
+11	përfundimtare	përfundimtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=56|end_char=69|NER=O
+12	çështjen	çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=70|end_char=78|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=79|end_char=80|NER=O
+14	pastrimit	pastrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=81|end_char=90|NER=O
+15	në	në	ADP	_	Case=Acc	17	case	_	start_char=91|end_char=93|NER=O
+16	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=94|end_char=101|SpaceAfter=No|NER=B-VEND_0
+17	.	.	PUNCT	_	_	9	punct	_	start_char=102|end_char=103|SpacesAfter=\n|NER=O
+
+# text = Krahas penaliteteve që janë ndërmarrë gjatë këtyre javëve për bizneset , në Shkodër , në disa raste ka nisur aplikimi i gjobave edhe për qytetarët .
+# sent_id = 4
+1	Krahas	krahas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=6|NER=O
+2	penaliteteve	penalitet	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	19	advmod	_	start_char=7|end_char=19|NER=O
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=20|end_char=22|NER=O
+4	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=23|end_char=27|NER=O
+5	ndërmarrë	ndërmarr	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=28|end_char=37|NER=O
+6	gjatë	gjatë	ADP	_	Case=Abl	8	case	_	start_char=38|end_char=43|NER=O
+7	këtyre	këto	PRON	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	start_char=44|end_char=50|NER=O
+8	javëve	javë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=51|end_char=57|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=58|end_char=61|NER=O
+10	bizneset	biznes	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=62|end_char=70|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=71|end_char=72|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=73|end_char=75|NER=O
+13	Shkodër	Shkodër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=76|end_char=83|SpaceAfter=No|NER=B-VEND_0
+14	,	,	PUNCT	_	_	17	punct	_	start_char=84|end_char=85|NER=O
+15	në	në	ADP	_	Case=Acc	17	case	_	start_char=86|end_char=88|NER=O
+16	disa	disa	PRON	_	PronType=Ind	17	det	_	start_char=89|end_char=93|NER=O
+17	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	advmod	_	start_char=94|end_char=99|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=100|end_char=102|NER=O
+19	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=103|end_char=108|NER=O
+20	aplikimi	aplikim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=109|end_char=117|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=118|end_char=119|NER=O
+22	gjobave	gjobë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=120|end_char=127|NER=O
+23	edhe	edhe	PART	_	_	25	cc	_	start_char=128|end_char=132|NER=O
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=133|end_char=136|NER=O
+25	qytetarët	qytetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	19	advmod	_	start_char=137|end_char=146|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	19	punct	_	start_char=147|end_char=148|SpacesAfter=\n\n|NER=O
+
+# text = Gazetar : Marjo Merhori
+# sent_id = 5
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Marjo	Marjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Merhori	merhor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

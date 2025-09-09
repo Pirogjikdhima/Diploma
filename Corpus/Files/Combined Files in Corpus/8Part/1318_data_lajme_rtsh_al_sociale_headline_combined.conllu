@@ -1,0 +1,190 @@
+# text = Një në 3 të moshuar në vendin tonë ka nevojë për kujdes afatgjatë .
+# sent_id = 0
+1	Një	një	DET	_	Definite=Ind	6	nsubj	_	start_char=0|end_char=3|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=4|end_char=6|NER=O
+3	3	3	NUM	_	NumType=Card	10	nummod	_	start_char=7|end_char=8|SpacesAfter=\n|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=9|end_char=11|NER=O
+5	moshuar	moshuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=12|end_char=19|NER=O
+6	në	në	ADP	_	Case=Acc	19	case	_	start_char=20|end_char=22|NER=O
+7	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=23|end_char=29|NER=O
+8	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	amod	_	start_char=30|end_char=34|NER=O
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=35|end_char=37|NER=O
+10	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	conj	_	start_char=38|end_char=44|NER=O
+11	për	për	ADP	_	Case=Acc	24	case	_	start_char=45|end_char=48|NER=O
+12	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	start_char=49|end_char=55|NER=O
+13	afatgjatë	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=56|end_char=65|NER=O
+14	.	.	PUNCT	_	_	27	punct	_	start_char=66|end_char=67|SpaceAfter=No|NER=O
+
+# text = 5 % e tyre kërkojnë intensiv ndërsa 95 % kanë nevojë për disa orë përkujdesje në ditë .
+# sent_id = 1
+1	5	5	NUM	_	NumType=Card	27	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	24	appos	_	start_char=2|end_char=3|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	29	det:poss	_	start_char=4|end_char=5|NER=O
+4	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=6|end_char=10|NER=O
+5	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	start_char=11|end_char=19|NER=O
+6	intensiv	intens	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=20|end_char=28|NER=O
+7	ndërsa	ndërsa	CCONJ	_	_	34	cc	_	start_char=29|end_char=35|NER=O
+8	95	95	NUM	_	NumType=Card	34	nummod	_	start_char=36|end_char=38|SpaceAfter=No|NER=O
+9	%	%	SYM	_	_	31	conj	_	start_char=39|end_char=40|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	36	aux	_	start_char=41|end_char=45|NER=O
+11	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	advmod	_	start_char=46|end_char=52|NER=O
+12	për	për	ADP	_	Case=Acc	39	case	_	start_char=53|end_char=56|NER=O
+13	disa	disa	PRON	_	PronType=Ind	39	nummod	_	start_char=57|end_char=61|NER=O
+14	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	36	nmod	_	start_char=62|end_char=65|NER=O
+15	përkujdesje	përkujdesje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	39	nmod	_	start_char=66|end_char=77|NER=O
+16	në	në	ADP	_	Case=Acc	42	case	_	start_char=78|end_char=80|NER=O
+17	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	nmod	_	start_char=81|end_char=85|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	30	punct	_	start_char=86|end_char=87|NER=O
+
+# text = Të dhënat i përkasin raportit më të fundit mbi qasjen e shërbimeve në kujdesin afatgjata në Shqipëri hartuar nga ekspertët e geriartrisë .
+# sent_id = 2
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=3|end_char=9|NER=O
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=10|end_char=11|NER=O
+4	përkasin	përkas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=20|NER=O
+5	raportit	raport	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=21|end_char=29|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=30|end_char=32|NER=O
+7	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=33|end_char=35|NER=O
+8	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=36|end_char=42|NER=O
+9	mbi	mbi	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=46|NER=O
+10	qasjen	qasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=47|end_char=53|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=54|end_char=55|NER=O
+12	shërbimeve	shërbim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=56|end_char=66|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=67|end_char=69|NER=O
+14	kujdesin	kujdes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=70|end_char=78|NER=O
+15	afatgjata	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=88|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=89|end_char=91|NER=O
+17	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=92|end_char=100|NER=B-VEND_1
+18	hartuar	hartoj	VERB	_	VerbForm=Part	4	conj	_	start_char=101|end_char=108|NER=O
+19	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=109|end_char=112|NER=O
+20	ekspertët	ekspertë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	obl	_	start_char=113|end_char=122|NER=O
+21	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	22	det:poss	_	start_char=123|end_char=124|NER=O
+22	geriartrisë	geriartri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=125|end_char=136|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	18	punct	_	start_char=137|end_char=138|SpacesAfter=\n|NER=O
+
+# text = Alban Ylli thotë se barra e moshimit në Shqipëri ka shkuar në 22 % nga 11 % që ishte 10 vite më parë dhe trendi pritet të kapë 33 % , çka përkthehet më shumë të moshuar se persona në moshë pune .
+# sent_id = 3
+1	Alban	Alban	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Ylli	Ylli	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6|end_char=10|NER=I-PER
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=16|NER=O
+4	se	se	SCONJ	_	_	11	mark	_	start_char=17|end_char=19|NER=O
+5	barra	barrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=20|end_char=25|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=26|end_char=27|NER=O
+7	moshimit	moshim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=28|end_char=36|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+9	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=40|end_char=48|NER=B-VEND_1
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=49|end_char=51|NER=O
+11	shkuar	shkoj	VERB	_	VerbForm=Part	3	conj	_	start_char=52|end_char=58|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=59|end_char=61|NER=O
+13	22	22	NUM	_	NumType=Card	14	nummod	_	start_char=62|end_char=64|SpaceAfter=No|NER=O
+14	%	%	SYM	_	_	11	advmod	_	start_char=65|end_char=66|NER=O
+15	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=67|end_char=70|NER=O
+16	11	11	NUM	_	NumType=Card	17	nummod	_	start_char=71|end_char=73|SpaceAfter=No|NER=O
+17	%	%	SYM	_	_	14	nmod	_	start_char=74|end_char=75|NER=O
+18	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=76|end_char=78|NER=O
+19	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	17	acl:relcl	_	start_char=79|end_char=84|NER=O
+20	10	10	NUM	_	NumType=Card	21	nummod	_	start_char=85|end_char=87|NER=O
+21	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	cop	_	start_char=88|end_char=92|NER=O
+22	më	më	PART	_	_	23	advmod	_	start_char=93|end_char=95|NER=O
+23	parë	parë	ADV	_	AdvType=Tim	21	advmod	_	start_char=96|end_char=100|NER=O
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=101|end_char=104|NER=O
+25	trendi	trend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	start_char=105|end_char=111|NER=O
+26	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	acl	_	start_char=112|end_char=118|NER=O
+27	të	të	PART	_	_	28	fixed	_	start_char=119|end_char=121|NER=O
+28	kapë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	ccomp	_	start_char=122|end_char=126|NER=O
+29	33	33	NUM	_	NumType=Card	30	nummod	_	start_char=127|end_char=129|SpaceAfter=No|NER=O
+30	%	%	SYM	_	_	28	obl	_	start_char=130|end_char=131|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	33	punct	_	start_char=132|end_char=133|NER=O
+32	çka	çka	PRON	_	PronType=Int	33	nsubj	_	start_char=134|end_char=137|NER=O
+33	përkthehet	përkthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	28	conj	_	start_char=138|end_char=148|NER=O
+34	më	më	PART	_	_	37	mark	_	start_char=149|end_char=151|NER=O
+35	shumë	shumë	ADV	_	AdvType=Deg	37	advmod	_	start_char=152|end_char=157|NER=O
+36	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=158|end_char=160|NER=O
+37	moshuar	moshuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	cop	_	start_char=161|end_char=168|NER=O
+38	se	se	SCONJ	_	_	39	mark	_	start_char=169|end_char=171|NER=O
+39	persona	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	33	obj	_	start_char=172|end_char=179|NER=O
+40	në	në	ADP	_	Case=Acc	41	case	_	start_char=180|end_char=182|NER=O
+41	moshë	moshë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	nmod	_	start_char=183|end_char=188|NER=O
+42	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	41	nmod	_	start_char=189|end_char=193|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	33	punct	_	start_char=194|end_char=195|NER=O
+
+# text = Kjo do të thotë se shteti duhet të përgatitet me urgjencë të identifikojë ku dhe si janë nevojat e të moshuarve .
+# sent_id = 4
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=4|end_char=6|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=7|end_char=9|NER=O
+4	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+5	se	se	SCONJ	_	_	9	mark	_	start_char=16|end_char=18|NER=O
+6	shteti	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=19|end_char=25|NER=O
+7	duhet	duhem	AUX	_	_	9	aux	_	start_char=26|end_char=31|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=32|end_char=34|NER=O
+9	përgatitet	përgatit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=35|end_char=45|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+11	urgjencë	urgjencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=49|end_char=57|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=58|end_char=60|NER=O
+13	identifikojë	identifikoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=61|end_char=73|NER=O
+14	ku	ku	ADV	_	AdvType=Loc	17	advmod	_	start_char=74|end_char=76|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=77|end_char=80|NER=O
+16	si	si	SCONJ	_	_	17	mark	_	start_char=81|end_char=83|NER=O
+17	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	start_char=84|end_char=88|NER=O
+18	nevojat	nevojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	cop	_	start_char=89|end_char=96|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=97|end_char=98|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=99|end_char=101|NER=O
+21	moshuarve	moshuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	start_char=102|end_char=111|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	17	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+
+# text = Shqipëria nuk është ende gati për kujdes rezidencial ndaj formalizimi i kujdestarit duhet të zyrtarizohet me ligj .
+# sent_id = 5
+1	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=B-VEND_1
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=10|end_char=13|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=19|NER=O
+4	ende	ende	ADV	_	AdvType=Tim	3	advmod	_	start_char=20|end_char=24|NER=O
+5	gati	gati	ADV	_	AdvType=Deg	3	advmod	_	start_char=25|end_char=29|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=30|end_char=33|NER=O
+7	kujdes	kujdes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=34|end_char=40|NER=O
+8	rezidencial	rezidencial	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=41|end_char=52|NER=O
+9	ndaj	ndaj	ADP	_	Case=Abl	10	case	_	start_char=53|end_char=57|NER=O
+10	formalizimi	formalizim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=58|end_char=69|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=70|end_char=71|NER=O
+12	kujdestarit	kujdestar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=72|end_char=83|NER=O
+13	duhet	duhem	AUX	_	_	15	aux	_	start_char=84|end_char=89|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=90|end_char=92|NER=O
+15	zyrtarizohet	zyrtarizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=93|end_char=105|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=106|end_char=108|NER=O
+17	ligj	ligj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	start_char=109|end_char=113|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	15	punct	_	start_char=114|end_char=115|SpacesAfter=\n|NER=O
+
+# text = Raporti nënvizon nevojën e reagimit të sistemit shëndetësor dhe pushtetit lokal për nevojat afatgjata të të moshuarve në Shqipëri , për të cilët familja mbete baza ku ata gjejnë zgjidhje .
+# sent_id = 6
+1	Raporti	Raport	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	nënvizon	nënvizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=16|NER=O
+3	nevojën	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=17|end_char=24|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=25|end_char=26|NER=O
+5	reagimit	reagim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=27|end_char=35|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=36|end_char=38|NER=O
+7	sistemit	sistem	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=39|end_char=47|NER=O
+8	shëndetësor	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=48|end_char=59|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=60|end_char=63|NER=O
+10	pushtetit	pushtet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	start_char=64|end_char=73|NER=O
+11	lokal	lokal	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=74|end_char=79|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=80|end_char=83|NER=O
+13	nevojat	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=84|end_char=91|NER=O
+14	afatgjata	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=92|end_char=101|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=102|end_char=104|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=105|end_char=107|NER=O
+17	moshuarve	moshuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=108|end_char=117|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=118|end_char=120|NER=O
+19	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=121|end_char=129|NER=B-VEND_1
+20	,	,	PUNCT	_	_	23	punct	_	start_char=130|end_char=131|NER=O
+21	për	për	ADP	_	Case=Acc	23	case	_	start_char=132|end_char=135|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=136|end_char=138|NER=O
+23	cilët	cili	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	25	obl	_	start_char=139|end_char=144|NER=O
+24	familja	familje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	start_char=145|end_char=152|NER=O
+25	mbete	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	17	acl:relcl	_	start_char=153|end_char=158|NER=O
+26	baza	bazë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=159|end_char=163|NER=O
+27	ku	ku	ADV	_	AdvType=Loc	29	advmod	_	start_char=164|end_char=166|NER=O
+28	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	iobj	_	start_char=167|end_char=170|NER=O
+29	gjejnë	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	ccomp	_	start_char=171|end_char=177|NER=O
+30	zgjidhje	zgjidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=178|end_char=186|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	25	punct	_	start_char=187|end_char=188|SpacesAfter=\n\n|NER=O
+

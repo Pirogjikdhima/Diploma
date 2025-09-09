@@ -1,0 +1,86 @@
+# text = 31 / 08 / 2023 1 shtatori shënon afatin e fundit të regjistrimit të nxënësve në institucionet shkollore .
+# sent_id = 0
+1	31	31	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	13	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	1	1	NUM	_	NumType=Card	19	nummod	_	start_char=15|end_char=16|NER=B-DATE_0
+7	shtatori	shtator	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	start_char=17|end_char=25|NER=I-DATE_0
+8	shënon	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=26|end_char=32|NER=O
+9	afatin	afat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	start_char=33|end_char=39|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=40|end_char=41|NER=O
+11	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=42|end_char=48|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=49|end_char=51|NER=O
+13	regjistrimit	regjistrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=52|end_char=64|NER=O
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=65|end_char=67|NER=O
+15	nxënësve	nxënës	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	start_char=68|end_char=76|NER=O
+16	në	në	ADP	_	Case=Acc	29	case	_	start_char=77|end_char=79|NER=O
+17	institucionet	institucion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=80|end_char=93|NER=O
+18	shkollore	shkollor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=94|end_char=103|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	20	punct	_	start_char=104|end_char=105|SpacesAfter=\n|NER=O
+
+# text = Në shkollën 9 vjeçare " Dëshmorët e Lirisë " një nga më të njohurat në Tiranë , rezultojnë vetëm 3 regjistrime për këtë kategori fëmijësh .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=3|end_char=11|NER=O
+3	9	9	NUM	_	NumType=Card	2	amod:nummod	_	start_char=12|end_char=13|NER=O
+4	vjeçare	vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=14|end_char=21|NER=O
+5	"	"	PUNCT	_	_	6	punct	_	start_char=22|end_char=23|SpaceAfter=No|NER=O
+6	Dëshmorët	dëshmor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=24|end_char=33|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det:poss	_	start_char=34|end_char=35|NER=O
+8	Lirisë	liri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=36|end_char=42|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	6	punct	_	start_char=43|end_char=44|NER=O
+10	një	një	DET	_	Definite=Ind	14	det	_	start_char=45|end_char=48|NER=O
+11	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=49|end_char=52|NER=O
+12	më	më	PART	_	_	14	mark	_	start_char=53|end_char=55|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=56|end_char=58|NER=O
+14	njohurat	njohurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	dislocated	_	start_char=59|end_char=67|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=68|end_char=70|NER=O
+16	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	advmod	_	start_char=71|end_char=77|SpaceAfter=No|NER=B-VEND_0
+17	,	,	PUNCT	_	_	14	punct	_	start_char=78|end_char=79|NER=O
+18	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=80|end_char=90|NER=O
+19	vetëm	vetëm	PART	_	_	21	mark	_	start_char=91|end_char=96|NER=O
+20	3	3	NUM	_	NumType=Card	21	nummod	_	start_char=97|end_char=98|NER=O
+21	regjistrime	regjistrim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=99|end_char=110|NER=O
+22	për	për	ADP	_	Case=Acc	24	case	_	start_char=111|end_char=114|NER=O
+23	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	start_char=115|end_char=119|NER=O
+24	kategori	kategori	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=120|end_char=128|NER=O
+25	fëmijësh	fëmijë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	start_char=129|end_char=137|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	18	punct	_	start_char=138|end_char=139|SpacesAfter=\n|NER=O
+
+# text = Deri më tani në zyrën vendore arsimore të Tiranës rezultojnë të regjistruar 7138 nxënës në klasë të pare dhe 5471 nxënës në klasë të dhjetë .
+# sent_id = 2
+1	Deri	deri	PART	_	_	3	case	_	start_char=0|end_char=4|NER=O
+2	më	më	PART	_	_	3	mark	_	start_char=5|end_char=7|NER=O
+3	tani	tani	ADV	_	AdvType=Tim	10	advmod	_	start_char=8|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=15|NER=O
+5	zyrën	zyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=16|end_char=21|NER=O
+6	vendore	vendor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=22|end_char=29|NER=O
+7	arsimore	arsimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=30|end_char=38|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=39|end_char=41|NER=O
+9	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=42|end_char=49|NER=B-VEND_0
+10	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=50|end_char=60|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=61|end_char=63|NER=O
+12	regjistruar	regjistroj	VERB	_	VerbForm=Part	10	advmod	_	start_char=64|end_char=75|NER=O
+13	7138	7138	NUM	_	NumType=Card	14	nummod	_	start_char=76|end_char=80|NER=O
+14	nxënës	nxënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	start_char=81|end_char=87|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=88|end_char=90|NER=O
+16	klasë	klasë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=91|end_char=96|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=97|end_char=99|NER=O
+18	pare	pare	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=100|end_char=104|NER=O
+19	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=105|end_char=108|NER=O
+20	5471	5471	NUM	_	NumType=Card	21	nummod	_	start_char=109|end_char=113|NER=O
+21	nxënës	nxënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	16	conj	_	start_char=114|end_char=120|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=121|end_char=123|NER=O
+23	klasë	klasë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=124|end_char=129|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=130|end_char=132|NER=O
+25	dhjetë	dhjetë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=133|end_char=139|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	10	punct	_	start_char=140|end_char=141|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare Keti Toroveci
+# sent_id = 3
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Keti	Keti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=13|NER=B-PER
+3	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=14|end_char=22|SpacesAfter=\n|NER=I-PER
+

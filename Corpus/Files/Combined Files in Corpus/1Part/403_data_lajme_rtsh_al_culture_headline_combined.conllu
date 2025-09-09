@@ -1,0 +1,51 @@
+# text = 01 / 08 / 2023 Në rrugën nacionale Librazhd - Elbasan , 5 km larg qytetit të Librazhdit , ndodhet Ura e Kamarës .
+# sent_id = 0
+1	01	01	NUM	_	NumType=Card	7	advmod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	8	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	9	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	9	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	2	case	_	start_char=15|end_char=17|NER=O
+7	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=18|end_char=24|NER=B-RRUGE
+8	nacionale	nacional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=25|end_char=34|NER=I-RRUGE
+9	Librazhd	Librazhd-Elasan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	appos	_	start_char=35|end_char=43|SpaceAfter=No|NER=I-RRUGE
+10	-	-	PUNCT	_	_	2	punct	_	start_char=44|end_char=45|SpaceAfter=No|NER=I-RRUGE
+11	Elbasan	Librazhd-Elasan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	appos	_	start_char=46|end_char=53|SpaceAfter=No|NER=I-RRUGE
+12	,	,	PUNCT	_	_	2	punct	_	start_char=54|end_char=55|NER=O
+13	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=56|end_char=57|NER=O
+14	km	km	SYM	_	_	13	advmod	_	start_char=58|end_char=60|NER=O
+15	larg	larg	ADP	_	Case=Abl	9	case	_	start_char=61|end_char=65|NER=O
+16	qytetit	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=66|end_char=73|NER=O
+17	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=74|end_char=76|NER=O
+18	Librazhdit	Librazhd	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=77|end_char=87|SpaceAfter=No|NER=B-VEND_0
+19	,	,	PUNCT	_	_	9	punct	_	start_char=88|end_char=89|NER=O
+20	ndodhet	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=90|end_char=97|NER=O
+21	Ura	urë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=98|end_char=101|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=102|end_char=103|NER=O
+23	Kamarës	Kamarë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=104|end_char=111|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	13	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+
+# text = Historiani Shaban Gjura thotë se ura mund të kthehet në në atraksion për turistët .
+# sent_id = 1
+1	Historiani	Historian	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=10|NER=O
+2	Shaban	Shaban	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=17|NER=B-PER
+3	Gjura	Gjurë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=18|end_char=23|NER=I-PER
+4	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=29|NER=O
+5	se	se	SCONJ	_	_	9	mark	_	start_char=30|end_char=32|NER=O
+6	ura	ura	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=33|end_char=36|NER=O
+7	mund	mund	AUX	_	_	9	aux	_	start_char=37|end_char=41|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=42|end_char=44|NER=O
+9	kthehet	kthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	advcl	_	start_char=45|end_char=52|NER=O
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=53|end_char=55|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=56|end_char=58|NER=O
+12	atraksion	atraksion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=59|end_char=68|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=69|end_char=72|NER=O
+14	turistët	turist	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=73|end_char=81|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	9	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+
+# text = Gazetare Albana Agolli
+# sent_id = 2
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=9|end_char=15|NER=B-PER
+3	Agolli	Agoll	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=16|end_char=22|SpacesAfter=\n|NER=I-PER
+

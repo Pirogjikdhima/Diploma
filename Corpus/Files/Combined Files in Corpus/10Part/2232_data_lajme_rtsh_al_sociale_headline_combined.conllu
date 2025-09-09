@@ -1,0 +1,387 @@
+# text = Balluku : S ' ka vendim për rritjen e çmimit të energjisë !
+# sent_id = 0
+1	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	S	S'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=10|end_char=11|NER=O
+4	'	'	PUNCT	_	_	22	punct	_	start_char=12|end_char=13|NER=O
+5	ka	S'ka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=14|end_char=16|NER=O
+6	vendim	vendim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=17|end_char=23|NER=O
+7	për	për	ADP	_	Case=Acc	4	case	_	start_char=24|end_char=27|NER=O
+8	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=28|end_char=35|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=36|end_char=37|NER=O
+10	çmimit	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=38|end_char=44|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=45|end_char=47|NER=O
+12	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=48|end_char=57|SpaceAfter=No|NER=O
+13	!	!	PUNCT	_	_	11	punct	_	start_char=58|end_char=59|SpacesAfter=\n|NER=O
+
+# text = 23 / 04 / 2022 Ministrja e Infrastrukturës dhe Energjitikës , Belinda Balluku deklaroi të shtunën se nuk do të ketë rritje të çmimit të energjisë për familjarët që harxhojnë mbi 700 KW .
+# sent_id = 1
+1	23	23	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	04	04	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	11	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=15|end_char=24|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=25|end_char=26|NER=O
+8	Infrastrukturës	Infrastrukturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=27|end_char=42|NER=O
+9	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=43|end_char=46|NER=O
+10	Energjitikës	Energjitikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	start_char=47|end_char=59|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	20	punct	_	start_char=60|end_char=61|NER=O
+12	Belinda	Belindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	start_char=62|end_char=69|NER=B-PER
+13	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=70|end_char=77|NER=I-PER
+14	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=78|end_char=86|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=87|end_char=89|NER=O
+16	shtunën	shtunë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=90|end_char=97|NER=O
+17	se	se	SCONJ	_	_	29	mark	_	start_char=98|end_char=100|NER=O
+18	nuk	nuk	PART	_	_	29	mark	_	start_char=101|end_char=104|NER=O
+19	do	do	PART	_	_	29	fixed	_	start_char=105|end_char=107|NER=O
+20	të	të	PART	_	_	29	fixed	_	start_char=108|end_char=110|NER=O
+21	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=111|end_char=115|NER=O
+22	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=116|end_char=122|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=123|end_char=125|NER=O
+24	çmimit	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=126|end_char=132|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=133|end_char=135|NER=O
+26	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	start_char=136|end_char=145|NER=O
+27	për	për	ADP	_	Case=Acc	36	case	_	start_char=146|end_char=149|NER=O
+28	familjarët	familjar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	32	nmod	_	start_char=150|end_char=160|NER=O
+29	që	që	PRON	_	PronType=Rel	38	nsubj	_	start_char=161|end_char=163|NER=O
+30	harxhojnë	harxhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	36	acl	_	start_char=164|end_char=173|NER=O
+31	mbi	mbi	ADP	_	Case=Acc	41	case	_	start_char=174|end_char=177|NER=O
+32	700	700	NUM	_	NumType=Card	41	nummod	_	start_char=178|end_char=181|NER=O
+33	KW	kw	NUM	_	NumType=Card	38	obl	_	start_char=182|end_char=184|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	38	punct	_	start_char=185|end_char=186|SpacesAfter=\n|NER=O
+
+# text = E pyetur nëse do të përballemi me mungesë energjie , Balluku tha se qeveria është duke marra masa në mënyrë që të mos kemi mungesë energjie në vend .
+# sent_id = 2
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	start_char=0|end_char=1|NER=O
+2	pyetur	pyes	VERB	_	VerbForm=Part	12	advmod	_	start_char=2|end_char=8|NER=O
+3	nëse	nëse	SCONJ	_	_	6	mark	_	start_char=9|end_char=13|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	përballemi	përballem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	advcl	_	start_char=20|end_char=30|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=33|NER=O
+8	mungesë	mungesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=34|end_char=41|NER=O
+9	energjie	energji	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=42|end_char=50|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	6	punct	_	start_char=51|end_char=52|NER=O
+11	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=53|end_char=60|NER=B-PER
+12	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=61|end_char=64|NER=O
+13	se	se	SCONJ	_	_	15	mark	_	start_char=65|end_char=67|NER=O
+14	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=68|end_char=75|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	start_char=76|end_char=81|NER=O
+16	duke	duke	PART	_	_	17	fixed	_	start_char=82|end_char=86|NER=O
+17	marra	marrë	VERB	_	VerbForm=Part	15	advmod	_	start_char=87|end_char=92|NER=O
+18	masa	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	start_char=93|end_char=97|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=98|end_char=100|NER=O
+20	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=101|end_char=107|NER=O
+21	që	që	SCONJ	_	_	24	mark	_	start_char=108|end_char=110|NER=O
+22	të	të	PART	_	_	24	fixed	_	start_char=111|end_char=113|NER=O
+23	mos	mos	PART	_	_	24	fixed	_	start_char=114|end_char=117|NER=O
+24	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	17	advcl	_	start_char=118|end_char=122|NER=O
+25	mungesë	mungesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=123|end_char=130|NER=O
+26	energjie	energji	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=131|end_char=139|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=140|end_char=142|NER=O
+28	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=143|end_char=147|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	24	punct	_	start_char=148|end_char=149|SpacesAfter=\n|NER=O
+
+# text = Balluku : Nuk ka një vendim por kemi bërë një analizë për fashën mbi 700 KW vendosim një çmim tjetër .
+# sent_id = 3
+1	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Nuk	nuk	PART	_	_	2	mark	_	start_char=10|end_char=13|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=16|NER=O
+5	një	një	DET	_	Definite=Ind	4	det	_	start_char=17|end_char=20|NER=O
+6	vendim	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=21|end_char=27|NER=O
+7	por	por	CCONJ	_	_	7	cc	_	start_char=28|end_char=31|NER=O
+8	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	aux	_	start_char=32|end_char=36|NER=O
+9	bërë	bëj	VERB	_	VerbForm=Part	2	conj	_	start_char=37|end_char=41|NER=O
+10	një	një	DET	_	Definite=Ind	9	det	_	start_char=42|end_char=45|NER=O
+11	analizë	analizë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=46|end_char=53|NER=O
+12	për	për	ADP	_	Case=Acc	11	case	_	start_char=54|end_char=57|NER=O
+13	fashën	fashë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=58|end_char=64|NER=O
+14	mbi	mbi	ADP	_	Case=Acc	13	case	_	start_char=65|end_char=68|NER=O
+15	700	700	NUM	_	NumType=Card	15	obl	_	start_char=69|end_char=72|NER=O
+16	KW	kw	NUM	_	NumType=Card	15	obj	_	start_char=73|end_char=75|NER=O
+17	vendosim	vendos	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	advmod	_	start_char=76|end_char=84|NER=O
+18	një	një	DET	_	Definite=Ind	17	det	_	start_char=85|end_char=88|NER=O
+19	çmim	çmim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	start_char=89|end_char=93|NER=O
+20	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	amod	_	start_char=94|end_char=100|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=101|end_char=102|NER=O
+
+# text = Kemi nisur një studim tregu për çmimin e energjisë .
+# sent_id = 4
+1	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=10|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=11|end_char=14|NER=O
+4	studim	studim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=15|end_char=21|NER=O
+5	tregu	treg	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=22|end_char=27|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=31|NER=O
+7	çmimin	çmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=32|end_char=38|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=39|end_char=40|NER=O
+9	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=41|end_char=50|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	2	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Ne nuk do të ndryshojmë asgjë nga sa kemi thënë .
+# sent_id = 5
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=0|end_char=2|NER=O
+2	nuk	nuk	PART	_	_	5	mark	_	start_char=3|end_char=6|NER=O
+3	do	do	PART	_	_	5	fixed	_	start_char=7|end_char=9|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=10|end_char=12|NER=O
+5	ndryshojmë	ndryshoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=23|NER=O
+6	asgjë	asgjë	PRON	_	PronType=Ind	5	obj	_	start_char=24|end_char=29|NER=O
+7	nga	nga	ADP	_	Case=Nom	10	fixed	_	start_char=30|end_char=33|NER=O
+8	sa	sa	ADV	_	AdvType=Deg	10	advmod	_	start_char=34|end_char=36|NER=O
+9	kemi	kam	AUX	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	aux	_	start_char=37|end_char=41|NER=O
+10	thënë	them	VERB	_	VerbForm=Part	5	advmod	_	start_char=42|end_char=47|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	5	punct	_	start_char=48|end_char=49|NER=O
+
+# text = Familjarët do të mbrohen duke mos rritur asnjë qindarkë çmimin e energjisë .
+# sent_id = 6
+1	Familjarët	Familjar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=0|end_char=10|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=14|end_char=16|NER=O
+4	mbrohen	mbroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=17|end_char=24|NER=O
+5	duke	duke	PART	_	_	7	fixed	_	start_char=25|end_char=29|NER=O
+6	mos	mos	PART	_	_	7	fixed	_	start_char=30|end_char=33|NER=O
+7	rritur	rrit	VERB	_	VerbForm=Part	4	advmod	_	start_char=34|end_char=40|NER=O
+8	asnjë	asnjë	PRON	_	PronType=Ind	10	nummod	_	start_char=41|end_char=46|NER=O
+9	qindarkë	qindarkë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	det	_	start_char=47|end_char=55|NER=O
+10	çmimin	çmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=56|end_char=62|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=63|end_char=64|NER=O
+12	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=65|end_char=74|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	4	punct	_	start_char=75|end_char=76|NER=O
+
+# text = Përsa i përkët përdorimit familjar , 700 Kë i përkojnë një konsumi mesatar të qëndrueshëm për një familje për një numër të konsiderueshëm anëtarësh .
+# sent_id = 7
+1	Përsa	përsa	ADP	_	Case=Abl	3	fixed	_	start_char=0|end_char=5|NER=O
+2	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=6|end_char=7|NER=O
+3	përkët	përk	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=14|NER=O
+4	përdorimit	përdorim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=15|end_char=25|NER=O
+5	familjar	familjar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=26|end_char=34|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	3	punct	_	start_char=35|end_char=36|NER=O
+7	700	700	NUM	_	NumType=Card	10	nsubj	_	start_char=37|end_char=40|NER=O
+8	Kë	kë	PRON	_	PronType=Ind	10	mark	_	start_char=41|end_char=43|NER=O
+9	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	iobj	_	start_char=44|end_char=45|NER=O
+10	përkojnë	përkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	acl	_	start_char=46|end_char=54|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=55|end_char=58|NER=O
+12	konsumi	konsum	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=59|end_char=66|NER=O
+13	mesatar	mesatare	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=67|end_char=74|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=75|end_char=77|NER=O
+15	qëndrueshëm	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=78|end_char=89|NER=O
+16	për	për	ADP	_	Case=Acc	18	case	_	start_char=90|end_char=93|NER=O
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=94|end_char=97|NER=O
+18	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=98|end_char=105|NER=O
+19	për	për	ADP	_	Case=Acc	21	case	_	start_char=106|end_char=109|NER=O
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=110|end_char=113|NER=O
+21	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=114|end_char=119|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=120|end_char=122|NER=O
+23	konsiderueshëm	konsiderueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=123|end_char=137|NER=O
+24	anëtarësh	anëtarë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	start_char=138|end_char=147|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	10	punct	_	start_char=148|end_char=149|NER=O
+
+# text = Ne jemi akoma në analizë dhe nuk kemi marrë ende një vendim .
+# sent_id = 8
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=7|NER=O
+3	akoma	akoma	ADV	_	AdvType=Tim	2	advmod	_	start_char=8|end_char=13|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=14|end_char=16|NER=O
+5	analizë	analizë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=17|end_char=24|NER=O
+6	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=25|end_char=28|NER=O
+7	nuk	nuk	PART	_	_	9	mark	_	start_char=29|end_char=32|NER=O
+8	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	aux	_	start_char=33|end_char=37|NER=O
+9	marrë	marr	VERB	_	VerbForm=Part	2	conj	_	start_char=38|end_char=43|NER=O
+10	ende	ende	ADV	_	AdvType=Tim	9	advmod	_	start_char=44|end_char=48|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=49|end_char=52|NER=O
+12	vendim	vendim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=53|end_char=59|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	9	punct	_	start_char=60|end_char=61|NER=O
+
+# text = Ka konsume që nuk kanë lidhje me konsumin bazik .
+# sent_id = 9
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=2|NER=O
+2	konsume	konsum	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	start_char=3|end_char=10|NER=O
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=11|end_char=13|NER=O
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=14|end_char=17|NER=O
+5	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=18|end_char=22|NER=O
+6	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	case	_	start_char=23|end_char=29|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=30|end_char=32|NER=O
+8	konsumin	konsum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=33|end_char=41|NER=O
+9	bazik	bazik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=42|end_char=47|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	1	punct	_	start_char=48|end_char=49|NER=O
+
+# text = Vitet e thata nuk kanë nevojë për shumë fakte , por themi se kaskada e Drinit është menaxhuar shumë mirë .
+# sent_id = 10
+1	Vitet	Vit	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	obj	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	thata	thatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=8|end_char=13|NER=O
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=14|end_char=17|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=18|end_char=22|NER=O
+6	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=23|end_char=29|NER=O
+7	për	për	ADP	_	Case=Acc	9	case	_	start_char=30|end_char=33|NER=O
+8	shumë	shumë	PRON	_	PronType=Ind	9	nummod	_	start_char=34|end_char=39|NER=O
+9	fakte	fakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=40|end_char=45|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=46|end_char=47|NER=O
+11	por	por	CCONJ	_	_	12	cc	_	start_char=48|end_char=51|NER=O
+12	themi	them	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	18	conj	_	start_char=52|end_char=57|NER=O
+13	se	se	SCONJ	_	_	18	mark	_	start_char=58|end_char=60|NER=O
+14	kaskada	kaskadë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=61|end_char=68|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=69|end_char=70|NER=O
+16	Drinit	Drin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=71|end_char=77|NER=O
+17	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=78|end_char=83|NER=O
+18	menaxhuar	menaxhoj	VERB	_	VerbForm=Part	0	root	_	start_char=84|end_char=93|NER=O
+19	shumë	shumë	ADV	_	AdvType=Deg	20	advmod	_	start_char=94|end_char=99|NER=O
+20	mirë	mirë	ADV	_	AdvType=Man	18	advmod	_	start_char=100|end_char=104|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	18	punct	_	start_char=105|end_char=106|NER=O
+
+# text = Përveç kaskadës së Drinit kemi dhe dy kaskada të tjerë dhe janë privatizuar nga qeveria në ikje në shkëmbim të Tvsh .
+# sent_id = 11
+1	Përveç	përveç	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=6|NER=O
+2	kaskadës	kaskadë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=7|end_char=15|NER=O
+3	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=16|end_char=18|NER=O
+4	Drinit	Drin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=25|NER=O
+5	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=26|end_char=30|NER=O
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=31|end_char=34|NER=O
+7	dy	dy	NUM	_	NumType=Card	8	nummod	_	start_char=35|end_char=37|NER=O
+8	kaskada	kaskadë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=38|end_char=45|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=46|end_char=48|NER=O
+10	tjerë	tjetër	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	amod	_	start_char=49|end_char=54|NER=O
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=55|end_char=58|NER=O
+12	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=59|end_char=63|NER=O
+13	privatizuar	privatizoj	VERB	_	VerbForm=Part	5	conj	_	start_char=64|end_char=75|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=76|end_char=79|NER=O
+15	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=80|end_char=87|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=88|end_char=90|NER=O
+17	ikje	ikje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	start_char=91|end_char=95|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=96|end_char=98|NER=O
+19	shkëmbim	shkëmbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=99|end_char=107|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=108|end_char=110|NER=O
+21	Tvsh	Tvsh	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=111|end_char=115|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	13	punct	_	start_char=116|end_char=117|SpacesAfter=\n|NER=O
+
+# text = Balluku : Nuk na rezulton të jenë përdorues të energjisë , por fakti se Shqipëria ka evidentuar raste të tilla , tregojnë se ne po i paraprijmëe këtyre rasteve .
+# sent_id = 12
+1	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Nuk	nuk	PART	_	_	3	mark	_	start_char=10|end_char=13|NER=O
+4	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	start_char=14|end_char=16|NER=O
+5	rezulton	rezulton	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=25|NER=O
+6	të	të	PART	_	_	5	fixed	_	start_char=26|end_char=28|NER=O
+7	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=29|end_char=33|NER=O
+8	përdorues	përdorue	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	cop	_	start_char=34|end_char=43|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det:poss	_	start_char=44|end_char=46|NER=O
+10	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=47|end_char=56|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	10	punct	_	start_char=57|end_char=58|NER=O
+12	por	por	CCONJ	_	_	15	cc	_	start_char=59|end_char=62|NER=O
+13	fakti	fakt	SCONJ	_	_	12	fixed	_	start_char=63|end_char=68|NER=O
+14	se	se	SCONJ	_	_	15	mark	_	start_char=69|end_char=71|NER=O
+15	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=72|end_char=81|NER=B-VEND_1
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=82|end_char=84|NER=O
+17	evidentuar	evidentoj	VERB	_	VerbForm=Part	5	advcl	_	start_char=85|end_char=95|NER=O
+18	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	start_char=96|end_char=101|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=102|end_char=104|NER=O
+20	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	amod	_	start_char=105|end_char=110|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	20	punct	_	start_char=111|end_char=112|NER=O
+22	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=113|end_char=121|NER=O
+23	se	se	SCONJ	_	_	25	mark	_	start_char=122|end_char=124|NER=O
+24	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	start_char=125|end_char=127|NER=O
+25	po	po	PART	_	_	25	mark	_	start_char=128|end_char=130|NER=O
+26	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	iobj	_	start_char=131|end_char=132|NER=O
+27	paraprijmëe	paraprij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	advcl	_	start_char=133|end_char=144|NER=O
+28	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	27	det	_	start_char=145|end_char=151|NER=O
+29	rasteve	rast	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	25	obj	_	start_char=152|end_char=159|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	20	punct	_	start_char=160|end_char=161|NER=O
+
+# text = Ky është një aksion që duhet parë sesi vepron policia në raste të tilla dhe duhet përgëzuar për këtë , ndërsa opozita duhet të bëj akuza që të fshehë situatën që është .
+# sent_id = 13
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	aksion	aksion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=13|end_char=19|NER=O
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=20|end_char=22|NER=O
+6	duhet	duhem	AUX	_	_	7	aux	_	start_char=23|end_char=28|NER=O
+7	parë	shoh	VERB	_	VerbForm=Part	4	acl:relcl	_	start_char=29|end_char=33|NER=O
+8	sesi	sesi	SCONJ	_	_	9	mark	_	start_char=34|end_char=38|NER=O
+9	vepron	veproj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=39|end_char=45|NER=O
+10	policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=46|end_char=53|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=54|end_char=56|NER=O
+12	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=57|end_char=62|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=63|end_char=65|NER=O
+14	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	12	amod	_	start_char=66|end_char=71|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=72|end_char=75|NER=O
+16	duhet	duhem	AUX	_	_	17	aux	_	start_char=76|end_char=81|NER=O
+17	përgëzuar	përgëzoj	VERB	_	VerbForm=Part	9	conj	_	start_char=82|end_char=91|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=92|end_char=95|NER=O
+19	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	start_char=96|end_char=100|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=101|end_char=102|NER=O
+21	ndërsa	ndërsa	CCONJ	_	_	25	cc	_	start_char=103|end_char=109|NER=O
+22	opozita	opozitë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=110|end_char=117|NER=O
+23	duhet	duhem	AUX	_	_	25	aux	_	start_char=118|end_char=123|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=124|end_char=126|NER=O
+25	bëj	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	17	conj	_	start_char=127|end_char=130|NER=O
+26	akuza	akuzë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	obj	_	start_char=131|end_char=136|NER=O
+27	që	që	SCONJ	_	_	29	mark	_	start_char=137|end_char=139|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=140|end_char=142|NER=O
+29	fshehë	fshem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	advcl	_	start_char=143|end_char=149|NER=O
+30	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=150|end_char=158|NER=O
+31	që	që	PRON	_	PronType=Rel	32	nsubj	_	start_char=159|end_char=161|NER=O
+32	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	ccomp	_	start_char=162|end_char=167|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	25	punct	_	start_char=168|end_char=169|SpacesAfter=\n|NER=O
+
+# text = Balluku : Ne kërkojmë që të maksimalizojmë liqenin e Fierzës , për të krijuar rezerva energjitike .
+# sent_id = 14
+1	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=10|end_char=12|NER=O
+4	kërkojmë	kërkoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=21|NER=O
+5	që	që	SCONJ	_	_	5	mark	_	start_char=22|end_char=24|NER=O
+6	të	të	PART	_	_	5	fixed	_	start_char=25|end_char=27|NER=O
+7	maksimalizojmë	maksimalizoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	advcl	_	start_char=28|end_char=42|NER=O
+8	liqenin	liqen	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=43|end_char=50|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=51|end_char=52|NER=O
+10	Fierzës	Fierzë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=53|end_char=60|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=61|end_char=62|NER=O
+12	për	për	PART	_	_	12	fixed	_	start_char=63|end_char=66|NER=O
+13	të	të	PART	_	_	12	fixed	_	start_char=67|end_char=69|NER=O
+14	krijuar	krijoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=70|end_char=77|NER=O
+15	rezerva	rezervë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=78|end_char=85|NER=O
+16	energjitike	energjitik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=86|end_char=97|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	2	punct	_	start_char=98|end_char=99|NER=O
+
+# text = Synimi ynë është që në vjeshtën e 2022 të kemi një kapacitet më të siguruar dhe të kemi sa më pak importe .
+# sent_id = 15
+1	Synimi	synim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=O
+2	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	flat	_	start_char=7|end_char=10|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=16|NER=O
+4	që	që	PART	_	_	10	mark	_	start_char=17|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+6	vjeshtën	vjeshtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=23|end_char=31|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=32|end_char=33|NER=O
+8	2022	2022	NUM	_	NumType=Card	6	amod:poss	_	start_char=34|end_char=38|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=39|end_char=41|NER=O
+10	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	csubj	_	start_char=42|end_char=46|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=47|end_char=50|NER=O
+12	kapacitet	kapacit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=51|end_char=60|NER=O
+13	më	më	PART	_	_	15	mark	_	start_char=61|end_char=63|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=64|end_char=66|NER=O
+15	siguruar	siguroj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=67|end_char=75|NER=O
+16	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=76|end_char=79|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=80|end_char=82|NER=O
+18	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	conj	_	start_char=83|end_char=87|NER=O
+19	sa	sa	ADV	_	AdvType=Deg	22	advmod	_	start_char=88|end_char=90|NER=O
+20	më	më	PART	_	_	21	mark	_	start_char=91|end_char=93|NER=O
+21	pak	pak	ADV	_	AdvType=Deg	22	nummod	_	start_char=94|end_char=97|NER=O
+22	importe	import	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=98|end_char=105|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	18	punct	_	start_char=106|end_char=107|NER=O
+
+# text = Kjo është një situatë dinamike në tregun ndërkombëtar të energjisë .
+# sent_id = 16
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=10|end_char=13|NER=O
+4	situatë	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	cop	_	start_char=14|end_char=21|NER=O
+5	dinamike	dinamik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=22|end_char=30|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=31|end_char=33|NER=O
+7	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=34|end_char=40|NER=O
+8	ndërkombëtar	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=41|end_char=53|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=54|end_char=56|NER=O
+10	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=57|end_char=66|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	2	punct	_	start_char=67|end_char=68|SpacesAfter=\n\n\n|NER=O
+

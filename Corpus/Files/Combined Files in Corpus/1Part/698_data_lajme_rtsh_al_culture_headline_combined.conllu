@@ -1,0 +1,173 @@
+# text = Përse u përlot Ilir Shaqiri ?
+# sent_id = 0
+1	Përse	përse	SCONJ	_	_	3	mark	_	start_char=0|end_char=5|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=6|end_char=7|NER=O
+3	përlot	përloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=8|end_char=14|NER=O
+4	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=15|end_char=19|NER=B-PER
+5	Shaqiri	Shaqir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=20|end_char=27|SpaceAfter=No|NER=I-PER
+6	?	?	PUNCT	_	_	3	punct	_	start_char=28|end_char=29|NER=O
+
+# text = Nuk futet në shtëpi , gati për në ishullin Italian 19 / 03 / 2023 Ilir Shaqiri ishtë I ftuari I Ermal Peçi në ' Më prit në fundjavë ' .
+# sent_id = 1
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	futet	fut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	advcl	_	start_char=4|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12|NER=O
+4	shtëpi	shtëpi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=13|end_char=19|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|NER=O
+6	gati	gati	ADV	_	AdvType=Deg	2	advmod	_	start_char=22|end_char=26|NER=O
+7	për	për	ADP	_	Case=Acc	9	case	_	start_char=27|end_char=30|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=31|end_char=33|NER=O
+9	ishullin	ishull	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=34|end_char=42|NER=O
+10	Italian	Italian	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=43|end_char=50|SpacesAfter=\n|NER=O
+11	19	19	NUM	_	NumType=Card	12	nummod	_	start_char=51|end_char=53|SpaceAfter=No|NER=B-DATE_0
+12	/	/	PUNCT	_	_	9	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=I-DATE_0
+13	03	03	NUM	_	NumType=Card	9	nmod	_	start_char=56|end_char=58|SpaceAfter=No|NER=I-DATE_0
+14	/	/	PUNCT	_	_	12	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=I-DATE_0
+15	2023	2023	NUM	_	NumType=Card	12	flat	_	start_char=61|end_char=65|SpacesAfter=\n|NER=I-DATE_0
+16	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=66|end_char=70|NER=B-PER
+17	Shaqiri	Shaqir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=71|end_char=78|NER=I-PER
+18	ishtë	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=79|end_char=84|NER=O
+19	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=85|end_char=86|NER=O
+20	ftuari	ftuar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	cop	_	start_char=87|end_char=93|NER=O
+21	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=94|end_char=95|NER=O
+22	Ermal	Ermal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=96|end_char=101|NER=B-PER
+23	Peçi	peçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=102|end_char=106|NER=I-PER
+24	në	në	ADP	_	Case=Acc	24	case	_	start_char=107|end_char=109|NER=O
+25	'	'	PUNCT	_	_	25	punct	_	start_char=110|end_char=111|NER=O
+26	Më	Më	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	start_char=112|end_char=114|NER=O
+27	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	start_char=115|end_char=119|NER=O
+28	në	në	ADP	_	Case=Acc	27	case	_	start_char=120|end_char=122|NER=O
+29	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	start_char=123|end_char=131|SpaceAfter=No|NER=O
+30	'	'	PUNCT	_	_	25	punct	_	start_char=132|end_char=133|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	17	punct	_	start_char=134|end_char=135|NER=O
+
+# text = Programi nisi që në sekondat e para me emocione pasi në të njëjtën studio televizive ruhen kujtime shumë të veçanta për të .
+# sent_id = 2
+1	Programi	program	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=8|NER=O
+2	nisi	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=13|NER=O
+3	që	që	SCONJ	_	_	5	mark	_	start_char=14|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	sekondat	sekondë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=20|end_char=28|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=29|end_char=30|NER=O
+7	para	para	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=31|end_char=35|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=36|end_char=38|NER=O
+9	emocione	emocion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	start_char=39|end_char=47|NER=O
+10	pasi	pasi	CCONJ	_	_	14	cc	_	start_char=48|end_char=52|NER=O
+11	në	në	ADP	_	Case=Acc	14	case	_	start_char=53|end_char=55|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=56|end_char=58|NER=O
+13	njëjtën	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	det	_	start_char=59|end_char=66|NER=O
+14	studio	studio	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=67|end_char=73|NER=O
+15	televizive	televiziv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=74|end_char=84|NER=O
+16	ruhen	ruhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	14	acl	_	start_char=85|end_char=90|NER=O
+17	kujtime	kujtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=91|end_char=98|NER=O
+18	shumë	shumë	ADV	_	AdvType=Deg	20	advmod	_	start_char=99|end_char=104|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=105|end_char=107|NER=O
+20	veçanta	veçantë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=108|end_char=115|NER=O
+21	për	për	ADP	_	Case=Acc	22	case	_	start_char=116|end_char=119|NER=O
+22	të	të	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	det	_	start_char=120|end_char=122|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	16	punct	_	start_char=123|end_char=124|SpacesAfter=\n|NER=O
+
+# text = ' Shumë kohë pa ardhur në RTSH , shtëpia e televizioneve .
+# sent_id = 3
+1	'	'	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|NER=O
+2	Shumë	shumë	PRON	_	PronType=Ind	2	nummod	_	start_char=2|end_char=7|NER=O
+3	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=8|end_char=12|NER=O
+4	pa	pa	PART	_	_	4	fixed	_	start_char=13|end_char=15|NER=O
+5	ardhur	vij	VERB	_	VerbForm=Part	0	root	_	start_char=16|end_char=22|NER=O
+6	në	në	ADP	_	Case=Acc	6	case	_	start_char=23|end_char=25|NER=O
+7	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=26|end_char=30|SpaceAfter=No|NER=B-ORG
+8	,	,	PUNCT	_	_	8	punct	_	start_char=31|end_char=32|NER=O
+9	shtëpia	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=33|end_char=40|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=41|end_char=42|NER=O
+11	televizioneve	televizion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=43|end_char=56|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	4	punct	_	start_char=57|end_char=58|NER=O
+
+# text = Në këtë studio Ermal kam kërcyer me mamin tim .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	studio	studio	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=8|end_char=14|NER=O
+4	Ermal	Ermal	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=15|end_char=20|NER=B-PER
+5	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	aux	_	start_char=21|end_char=24|NER=O
+6	kërcyer	kërcyj	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=32|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=33|end_char=35|NER=O
+8	mamin	mam	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=36|end_char=41|NER=O
+9	tim	im	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	amod	_	start_char=42|end_char=45|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	6	punct	_	start_char=46|end_char=47|NER=O
+
+# text = Shumë emocione , shumë ndjesi , këmi kërcyer Luli vocer ' .
+# sent_id = 5
+1	Shumë	shumë	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=5|NER=O
+2	emocione	emocion	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=6|end_char=14|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|NER=O
+4	shumë	shumë	PRON	_	PronType=Ind	5	nummod	_	start_char=17|end_char=22|NER=O
+5	ndjesi	ndjes	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	start_char=23|end_char=29|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	5	punct	_	start_char=30|end_char=31|NER=O
+7	këmi	këm	PRON	_	Case=Acc|Number=Plur|PronType=Ind	8	nsubj	_	start_char=32|end_char=36|NER=O
+8	kërcyer	kërcyj	VERB	_	VerbForm=Part	0	root	_	start_char=37|end_char=44|NER=O
+9	Luli	Luli	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=45|end_char=49|NER=B-PER
+10	vocer	vocer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	start_char=50|end_char=55|SpaceAfter=No|NER=O
+11	'	'	PUNCT	_	_	9	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	8	punct	_	start_char=58|end_char=59|SpacesAfter=\n|NER=O
+
+# text = Nëse shumë personazhe po tentojne programet reality në Shqipëri , Iliri ka të tjera plane .
+# sent_id = 6
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=0|end_char=4|NER=O
+2	shumë	shumë	PRON	_	PronType=Ind	3	nummod	_	start_char=5|end_char=10|NER=O
+3	personazhe	personazhe	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	start_char=11|end_char=21|NER=O
+4	po	po	PART	_	_	5	mark	_	start_char=22|end_char=24|NER=O
+5	tentojne	tentoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=25|end_char=33|NER=O
+6	programet	program	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=34|end_char=43|NER=O
+7	reality	reality	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=44|end_char=51|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=52|end_char=54|NER=O
+9	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=55|end_char=63|SpaceAfter=No|NER=B-VEND_1
+10	,	,	PUNCT	_	_	1	punct	_	start_char=64|end_char=65|NER=O
+11	Iliri	Iliri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=66|end_char=71|NER=B-PER
+12	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=72|end_char=74|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=75|end_char=77|NER=O
+14	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	15	amod	_	start_char=78|end_char=83|NER=O
+15	plane	plan	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=84|end_char=89|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=90|end_char=91|NER=O
+
+# text = Ai tregoi në ' Më prit në fundjavë ' se është gati projekti ' Isola de famosi ' .
+# sent_id = 7
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12|NER=O
+4	'	'	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|NER=O
+5	Më	Më	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=15|end_char=17|NER=O
+6	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	start_char=18|end_char=22|NER=O
+7	në	në	ADP	_	Case=Acc	7	case	_	start_char=23|end_char=25|NER=O
+8	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=26|end_char=34|NER=O
+9	'	'	PUNCT	_	_	5	punct	_	start_char=35|end_char=36|NER=O
+10	se	se	SCONJ	_	_	9	mark	_	start_char=37|end_char=39|NER=O
+11	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=40|end_char=45|NER=O
+12	gati	gati	ADV	_	AdvType=Deg	11	nummod	_	start_char=46|end_char=50|NER=O
+13	projekti	projekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	cop	_	start_char=51|end_char=59|NER=O
+14	'	'	PUNCT	_	_	11	punct	_	start_char=60|end_char=61|NER=O
+15	Isola	Isola	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=62|end_char=67|NER=O
+16	de	de	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat:name	_	start_char=68|end_char=70|NER=O
+17	famosi	famos	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=71|end_char=77|SpaceAfter=No|NER=O
+18	'	'	PUNCT	_	_	11	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	5	punct	_	start_char=80|end_char=81|NER=O
+
+# text = Balerini I njohur do të sfidoj veten në ishull me personazhet e njohur të ekranit Italian .
+# sent_id = 8
+1	Balerini	balerin	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=8|NER=O
+2	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=17|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=18|end_char=20|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+6	sfidoj	sfidoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=30|NER=O
+7	veten	vete	PRON	_	PronType=Prs|Reflex=Yes	6	obj	_	start_char=31|end_char=36|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+9	ishull	ishull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=40|end_char=46|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	personazhet	personazhet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=50|end_char=61|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=62|end_char=63|NER=O
+13	njohur	njohur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=64|end_char=70|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=71|end_char=73|NER=O
+15	ekranit	ekran	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=74|end_char=81|NER=O
+16	Italian	Italian	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=82|end_char=89|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	6	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+

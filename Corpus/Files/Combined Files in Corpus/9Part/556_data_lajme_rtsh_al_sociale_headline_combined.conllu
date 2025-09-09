@@ -1,0 +1,109 @@
+# text = 29 / 10 / 2023 " Numri i rasteve me strok është mjaft i lartë .
+# sent_id = 0
+1	29	29	NUM	_	NumType=Card	18	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	18	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	18	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=17|end_char=22|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=23|end_char=24|NER=O
+9	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=25|end_char=32|NER=O
+10	me	me	ADP	_	Case=Acc	6	case	_	start_char=33|end_char=35|NER=O
+11	strok	strok	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=36|end_char=41|NER=O
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=47|NER=O
+13	mjaft	mjaft	ADV	_	AdvType=Deg	10	advmod	_	start_char=48|end_char=53|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=54|end_char=55|NER=O
+15	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=56|end_char=61|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	7	punct	_	start_char=62|end_char=63|NER=O
+
+# text = Nëpër spitalet tona bëhen mbi 5 – 6 shtrime pacientësh në ditë , " neurologia Entela Basha .
+# sent_id = 1
+1	Nëpër	nëpër	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=5|NER=O
+2	spitalet	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=6|end_char=14|NER=O
+3	tona	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	amod:nummod	_	start_char=15|end_char=19|NER=O
+4	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=20|end_char=25|NER=O
+5	mbi	mbi	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=29|NER=O
+6	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=30|end_char=31|NER=O
+7	–	–	PUNCT	_	_	7	punct	_	start_char=32|end_char=33|NER=O
+8	6	6	NUM	_	NumType=Card	7	nummod	_	start_char=34|end_char=35|NER=O
+9	shtrime	shtrim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	start_char=36|end_char=43|NER=O
+10	pacientësh	pacientësh	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=44|end_char=54|NER=O
+11	në	në	ADP	_	Case=Acc	10	case	_	start_char=55|end_char=57|NER=O
+12	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=58|end_char=62|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	13	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+14	"	"	PUNCT	_	_	13	punct	_	start_char=65|end_char=66|NER=O
+15	neurologia	neurologi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	list	_	start_char=67|end_char=77|NER=O
+16	Entela	Entelë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=78|end_char=84|NER=B-PER
+17	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	flat	_	start_char=85|end_char=90|SpaceAfter=No|NER=I-PER
+18	.	.	PUNCT	_	_	4	punct	_	start_char=91|end_char=92|SpacesAfter=\n|NER=O
+
+# text = " Sigurisht që është ulur mosha .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Sigurisht	sigurisht	ADV	_	AdvType=Man	5	advmod	_	start_char=2|end_char=11|NER=O
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=12|end_char=14|NER=O
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=15|end_char=20|NER=O
+5	ulur	ules	VERB	_	VerbForm=Part	0	root	_	start_char=21|end_char=25|NER=O
+6	mosha	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=26|end_char=31|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	5	punct	_	start_char=32|end_char=33|NER=O
+
+# text = Tani ne kemi pacientë me aksidente vaskulare - cerebrale edhe të moshës 35 – 45 vjeç .
+# sent_id = 3
+1	Tani	tani	ADV	_	AdvType=Tim	3	advmod	_	start_char=0|end_char=4|NER=O
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5|end_char=7|NER=O
+3	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+4	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	start_char=13|end_char=21|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	aksidente	aksident	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	start_char=25|end_char=34|NER=O
+7	vaskulare	vaskulare-cebral	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=35|end_char=44|NER=O
+8	-	-	PUNCT	_	_	6	punct	_	start_char=45|end_char=46|NER=O
+9	cerebrale	vaskulare-cebral	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=47|end_char=56|NER=O
+10	edhe	edhe	PART	_	_	10	cc	_	start_char=57|end_char=61|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=62|end_char=64|NER=O
+12	moshës	moshë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=65|end_char=71|NER=O
+13	35	35	NUM	_	NumType=Card	13	nummod	_	start_char=72|end_char=74|SpaceAfter=No|NER=O
+14	–	–	PUNCT	_	_	13	punct	_	start_char=75|end_char=76|NER=O
+15	45	45	NUM	_	NumType=Card	13	nummod	_	start_char=77|end_char=79|NER=O
+16	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=80|end_char=84|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	3	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Cilësia jo e mirë e jetesës , ushqyerja jo e mirë , jeta sedentare , stresi dhe ngarkesa ndikojnë te enët e gjakut , " shpjegon neurologia Basha .
+# sent_id = 4
+1	Cilësia	Cilësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	nsubj	_	start_char=0|end_char=7|NER=O
+2	jo	jo	PART	_	_	4	mark	_	start_char=8|end_char=10|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=13|end_char=17|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=18|end_char=19|NER=O
+6	jetesës	jetesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=20|end_char=27|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=28|end_char=29|NER=O
+8	ushqyerja	ushqyerje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=30|end_char=39|NER=O
+9	jo	jo	PART	_	_	11	mark	_	start_char=40|end_char=42|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=43|end_char=44|NER=O
+11	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=45|end_char=49|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=50|end_char=51|NER=O
+13	jeta	jetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	list	_	start_char=52|end_char=56|NER=O
+14	sedentare	sedentar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=57|end_char=66|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=67|end_char=68|NER=O
+16	stresi	stres	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=69|end_char=75|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=76|end_char=79|NER=O
+18	ngarkesa	ngarkesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	start_char=80|end_char=88|NER=O
+19	ndikojnë	ndikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=89|end_char=97|NER=O
+20	te	te	ADP	_	Case=Nom	21	case	_	start_char=98|end_char=100|NER=O
+21	enët	enët	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	start_char=101|end_char=105|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=106|end_char=107|NER=O
+23	gjakut	gjak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=108|end_char=114|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=115|end_char=116|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	26	punct	_	start_char=117|end_char=118|NER=O
+26	shpjegon	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=119|end_char=127|NER=O
+27	neurologia	neurologi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=128|end_char=138|NER=O
+28	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	flat	_	start_char=139|end_char=144|SpaceAfter=No|NER=B-PER
+29	.	.	PUNCT	_	_	26	punct	_	start_char=145|end_char=146|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 5
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat:name	_	start_char=18|end_char=24|SpacesAfter=\n\n|NER=I-PER
+

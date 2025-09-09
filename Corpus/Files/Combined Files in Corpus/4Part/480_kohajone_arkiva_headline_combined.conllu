@@ -1,0 +1,149 @@
+# text = Sot vaksinohet Putin .
+# sent_id = 0
+1	Sot	sot	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=3|NER=O
+2	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4|end_char=14|NER=O
+3	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=15|end_char=20|SpaceAfter=No|NER=B-PER
+4	.	.	PUNCT	_	_	2	punct	_	start_char=21|end_char=22|NER=O
+
+# text = Nuk dihet vendi , lloji i vaksinës dhe nuk do shfaqet në kamera Presidenti i Rusisë , Vladimir Putin , do të vaksinohet ditën e sotme , por Kremlini tha se procesi nuk do të filmohet dhe nuk do të shfaqet publikisht .
+# sent_id = 1
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	dihet	dihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4|end_char=9|NER=O
+3	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=10|end_char=15|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+5	lloji	lloj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=18|end_char=23|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=24|end_char=25|NER=O
+7	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=26|end_char=34|NER=O
+8	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=35|end_char=38|NER=O
+9	nuk	nuk	PART	_	_	11	mark	_	start_char=39|end_char=42|NER=O
+10	do	do	PART	_	_	11	fixed	_	start_char=43|end_char=45|NER=O
+11	shfaqet	shfaq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=46|end_char=53|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+13	kamera	kamerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	start_char=57|end_char=63|SpacesAfter=\n|NER=O
+14	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	appos	_	start_char=64|end_char=74|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=75|end_char=76|NER=O
+16	Rusisë	Rusisë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=77|end_char=83|SpaceAfter=No|NER=B-VEND_1
+17	,	,	PUNCT	_	_	18	punct	_	start_char=84|end_char=85|NER=O
+18	Vladimir	Vladimir	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	appos	_	start_char=86|end_char=94|NER=B-PER
+19	Putin	Put	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=95|end_char=100|SpaceAfter=No|NER=I-PER
+20	,	,	PUNCT	_	_	23	punct	_	start_char=101|end_char=102|NER=O
+21	do	do	PART	_	_	23	fixed	_	start_char=103|end_char=105|NER=O
+22	të	të	PART	_	_	23	fixed	_	start_char=106|end_char=108|NER=O
+23	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=109|end_char=119|NER=O
+24	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=120|end_char=125|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=126|end_char=127|NER=O
+26	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=128|end_char=133|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	28	punct	_	start_char=134|end_char=135|NER=O
+28	por	por	CCONJ	_	_	30	cc	_	start_char=136|end_char=139|NER=O
+29	Kremlini	Kremlin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	nsubj	_	start_char=140|end_char=148|NER=O
+30	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	start_char=149|end_char=152|NER=O
+31	se	se	SCONJ	_	_	36	mark	_	start_char=153|end_char=155|NER=O
+32	procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	nsubj	_	start_char=156|end_char=163|NER=O
+33	nuk	nuk	PART	_	_	36	mark	_	start_char=164|end_char=167|NER=O
+34	do	do	PART	_	_	36	fixed	_	start_char=168|end_char=170|NER=O
+35	të	të	PART	_	_	36	fixed	_	start_char=171|end_char=173|NER=O
+36	filmohet	filmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	30	advcl	_	start_char=174|end_char=182|NER=O
+37	dhe	dhe	CCONJ	_	_	41	cc	_	start_char=183|end_char=186|NER=O
+38	nuk	nuk	PART	_	_	41	mark	_	start_char=187|end_char=190|NER=O
+39	do	do	PART	_	_	41	fixed	_	start_char=191|end_char=193|NER=O
+40	të	të	PART	_	_	41	fixed	_	start_char=194|end_char=196|NER=O
+41	shfaqet	shfaq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	36	conj	_	start_char=197|end_char=204|NER=O
+42	publikisht	publikisht	ADV	_	AdvType=Man	41	advmod	_	start_char=205|end_char=215|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	41	punct	_	start_char=216|end_char=217|SpacesAfter=\n|NER=O
+
+# text = Zëdhënësi i Kremlinit Dmitry Peskov u tha gazetarëve në në konferencë për shtyp se Putinit nuk i pëlqen që të vaksinohet në kamera .
+# sent_id = 2
+1	Zëdhënësi	mëdhënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=0|end_char=9|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Kremlinit	Kremlin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=21|NER=O
+4	Dmitry	Dmitry	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=22|end_char=28|NER=B-PER
+5	Peskov	peskov	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=29|end_char=35|NER=I-PER
+6	u	u	PART	_	_	7	fixed	_	start_char=36|end_char=37|NER=O
+7	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=38|end_char=41|NER=O
+8	gazetarëve	gazetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	start_char=42|end_char=52|NER=O
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=53|end_char=55|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=56|end_char=58|NER=O
+11	konferencë	konferencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=59|end_char=69|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=70|end_char=73|NER=O
+13	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=74|end_char=79|NER=O
+14	se	se	SCONJ	_	_	18	mark	_	start_char=80|end_char=82|NER=O
+15	Putinit	Putin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	start_char=83|end_char=90|NER=B-PER
+16	nuk	nuk	PART	_	_	18	mark	_	start_char=91|end_char=94|NER=O
+17	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	start_char=95|end_char=96|NER=O
+18	pëlqen	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=97|end_char=103|NER=O
+19	që	që	SCONJ	_	_	21	mark	_	start_char=104|end_char=106|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=107|end_char=109|NER=O
+21	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	ccomp	_	start_char=110|end_char=120|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=121|end_char=123|NER=O
+23	kamera	kamerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obl	_	start_char=124|end_char=130|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	18	punct	_	start_char=131|end_char=132|SpacesAfter=\n|NER=O
+
+# text = Zëdhënësi i Kremlinit shtoi se nuk dihet ende nëse Putini do të shkojë në në qendër të posaçme apo nëse një mjek do ta vizitojë atë në shtëpi ose zyrë .
+# sent_id = 3
+1	Zëdhënësi	mëdhënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=0|end_char=9|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Kremlinit	Kremlin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=21|NER=O
+4	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=22|end_char=27|NER=O
+5	se	se	SCONJ	_	_	7	mark	_	start_char=28|end_char=30|NER=O
+6	nuk	nuk	PART	_	_	7	mark	_	start_char=31|end_char=34|NER=O
+7	dihet	dihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=35|end_char=40|NER=O
+8	ende	ende	ADV	_	AdvType=Tim	7	advmod	_	start_char=41|end_char=45|NER=O
+9	nëse	nëse	SCONJ	_	_	13	mark	_	start_char=46|end_char=50|NER=O
+10	Putini	Putin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=51|end_char=57|NER=B-PER
+11	do	do	PART	_	_	13	fixed	_	start_char=58|end_char=60|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=61|end_char=63|NER=O
+13	shkojë	shkoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	start_char=64|end_char=70|NER=O
+14	në	në	ADP	_	Case=Acc	16	case	_	start_char=71|end_char=73|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=74|end_char=76|NER=O
+16	qendër	qendër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	start_char=77|end_char=83|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=84|end_char=86|NER=O
+18	posaçme	posaçm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=87|end_char=94|NER=O
+19	apo	apo	CCONJ	_	_	22	cc	_	start_char=95|end_char=98|NER=O
+20	nëse	nëse	SCONJ	_	_	26	mark	_	start_char=99|end_char=103|NER=O
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=104|end_char=107|NER=O
+22	mjek	mjek	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	start_char=108|end_char=112|NER=O
+23	do	do	PART	_	_	26	fixed	_	start_char=113|end_char=115|NER=O
+24	ta	_	_	_	_	_	_	_	start_char=116|end_char=118|NER=O
+25	vizitojë	vizitoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	advcl	_	start_char=119|end_char=127|NER=O
+26	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=128|end_char=131|NER=O
+27	në	në	ADP	_	Case=Acc	29	case	_	start_char=132|end_char=134|NER=O
+28	shtëpi	shtëpi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=135|end_char=141|NER=O
+29	ose	ose	CCONJ	_	_	31	cc	_	start_char=142|end_char=145|NER=O
+30	zyrë	zyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	conj	_	start_char=146|end_char=150|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	26	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+
+# text = Po ashtu , nuk dihet se cila vaksinë do të përdoret , por do të jetë një nga tre vaksinat ruse që janë aprovuar : Sputnik V , EpiVacCorona ose CoviVac .
+# sent_id = 4
+1	Po	po	PART	_	_	2	fixed	_	start_char=0|end_char=2|NER=O
+2	ashtu	ashtu	ADV	_	AdvType=Man	5	dislocated	_	start_char=3|end_char=8|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=9|end_char=10|NER=O
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=11|end_char=14|NER=O
+5	dihet	dihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=15|end_char=20|NER=O
+6	se	se	SCONJ	_	_	11	mark	_	start_char=21|end_char=23|NER=O
+7	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	11	nsubj	_	start_char=24|end_char=28|NER=O
+8	vaksinë	vaksi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=29|end_char=36|NER=O
+9	do	do	PART	_	_	11	fixed	_	start_char=37|end_char=39|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=40|end_char=42|NER=O
+11	përdoret	përdor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	advcl	_	start_char=43|end_char=51|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=52|end_char=53|NER=O
+13	por	por	CCONJ	_	_	16	cc	_	start_char=54|end_char=57|NER=O
+14	do	do	PART	_	_	16	fixed	_	start_char=58|end_char=60|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=61|end_char=63|NER=O
+16	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=64|end_char=68|NER=O
+17	një	një	DET	_	Definite=Ind	20	det	_	start_char=69|end_char=72|NER=O
+18	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=73|end_char=76|NER=O
+19	tre	tre	NUM	_	NumType=Card	20	nummod	_	start_char=77|end_char=80|NER=O
+20	vaksinat	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=81|end_char=89|NER=O
+21	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=90|end_char=94|NER=O
+22	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=95|end_char=97|NER=O
+23	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=98|end_char=102|NER=O
+24	aprovuar	aprovoj	VERB	_	VerbForm=Part	20	acl:relcl	_	start_char=103|end_char=111|SpaceAfter=No|NER=O
+25	:	:	PUNCT	_	_	16	punct	_	start_char=112|end_char=113|NER=O
+26	Sputnik	Sputnik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=114|end_char=121|NER=B-PRO
+27	V	V	X	_	Abbr=Yes	1	flat	_	start_char=122|end_char=123|SpaceAfter=No|NER=I-PRO
+28	,	,	PUNCT	_	_	4	punct	_	start_char=124|end_char=125|NER=O
+29	EpiVacCorona	EpiVacCoron	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	1	appos	_	start_char=126|end_char=138|NER=B-PRO
+30	ose	ose	CCONJ	_	_	6	cc	_	start_char=139|end_char=142|NER=O
+31	CoviVac	CoviVac	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=143|end_char=150|SpaceAfter=No|NER=B-PRO
+32	.	.	PUNCT	_	_	1	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+

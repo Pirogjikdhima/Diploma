@@ -1,0 +1,432 @@
+# text = 10 / 03 / 2023 Ka ardhur në shqip libri " Njihni të drejtat tuaja dhe kërkojini ato " i hartuar nga Amnesty International .
+# sent_id = 0
+1	10	10	NUM	_	NumType=Card	2	det	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	03	03	NUM	_	NumType=Card	7	nsubj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	4	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	2	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=15|end_char=17|NER=O
+7	ardhur	vij	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=24|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=25|end_char=27|NER=O
+9	shqip	shqip	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=28|end_char=33|NER=O
+10	libri	libër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=34|end_char=39|NER=O
+11	"	"	PUNCT	_	_	12	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+12	Njihni	njih	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	conj	_	start_char=42|end_char=48|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=49|end_char=51|NER=O
+14	drejtat	drejtë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=52|end_char=59|NER=O
+15	tuaja	tuajë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=60|end_char=65|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=66|end_char=69|NER=O
+17	kërkojini	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	12	conj	_	start_char=70|end_char=79|NER=O
+18	ato	ato	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=80|end_char=83|NER=O
+19	"	"	PUNCT	_	_	17	punct	_	start_char=84|end_char=85|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=86|end_char=87|NER=O
+21	hartuar	hartoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=88|end_char=95|NER=O
+22	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=96|end_char=99|NER=O
+23	Amnesty	Amnestë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=100|end_char=107|NER=B-ORG
+24	International	International	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	flat	_	start_char=108|end_char=121|SpaceAfter=No|NER=I-ORG
+25	.	.	PUNCT	_	_	17	punct	_	start_char=122|end_char=123|NER=O
+
+# text = Autore të këtij botimi janë aktorja dhe aktivistja Angelina Jolie dhe Geraldine Van Bueren , avokate e të drejtave të njeriut .
+# sent_id = 1
+1	Autore	Autor	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=7|end_char=9|NER=O
+3	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=10|end_char=15|NER=O
+4	botimi	botim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=22|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=27|NER=O
+6	aktorja	aktorjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	cop	_	start_char=28|end_char=35|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=36|end_char=39|NER=O
+8	aktivistja	aktivistje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	start_char=40|end_char=50|NER=O
+9	Angelina	Angelinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	appos	_	start_char=51|end_char=59|NER=B-PER
+10	Jolie	Joli	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	flat	_	start_char=60|end_char=65|NER=I-PER
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=66|end_char=69|NER=O
+12	Geraldine	Geraldin	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=70|end_char=79|NER=B-PER
+13	Van	Van	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=80|end_char=83|NER=I-PER
+14	Bueren	Buere	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	13	flat	_	start_char=84|end_char=90|SpaceAfter=No|NER=I-PER
+15	,	,	PUNCT	_	_	16	punct	_	start_char=91|end_char=92|NER=O
+16	avokate	avokat	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	list	_	start_char=93|end_char=100|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=101|end_char=102|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=103|end_char=105|NER=O
+19	drejtave	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=106|end_char=114|NER=O
+20	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=115|end_char=117|NER=O
+21	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=118|end_char=125|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	5	punct	_	start_char=126|end_char=127|NER=O
+
+# text = Në një intervistë për emisionin " Në radio " nga Andri Xhahu , drejtuesi i shtëpisë botuese " Fan Noli " , Rexhep Hida , tregon se shkas për të botuar këtë libër është bërë një film i xhiruar në Kamboxhia .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=7|end_char=17|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=21|NER=O
+5	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=31|NER=O
+6	"	"	PUNCT	_	_	5	punct	_	start_char=32|end_char=33|SpaceAfter=No|NER=O
+7	Në	në	ADP	_	Case=Acc	8	case	_	start_char=34|end_char=36|NER=O
+8	radio	radio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=37|end_char=42|NER=O
+9	"	"	PUNCT	_	_	3	punct	_	start_char=43|end_char=44|NER=O
+10	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=45|end_char=48|NER=O
+11	Andri	Andri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=49|end_char=54|NER=B-PER
+12	Xhahu	Xhahu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=55|end_char=60|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|NER=O
+14	drejtuesi	drejtues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=63|end_char=72|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=73|end_char=74|NER=O
+16	shtëpisë	shtëpi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=75|end_char=83|NER=O
+17	botuese	botues	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=84|end_char=91|NER=O
+18	"	"	PUNCT	_	_	18	punct	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+19	Fan	Fan	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	15	appos	_	start_char=94|end_char=97|NER=O
+20	Noli	Noli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=98|end_char=102|SpaceAfter=No|NER=O
+21	"	"	PUNCT	_	_	18	punct	_	start_char=103|end_char=104|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	21	punct	_	start_char=105|end_char=106|NER=O
+23	Rexhep	Rexhep	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	nsubj	_	start_char=107|end_char=113|NER=B-PER
+24	Hida	Hida	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=114|end_char=118|SpaceAfter=No|NER=I-PER
+25	,	,	PUNCT	_	_	21	punct	_	start_char=119|end_char=120|NER=O
+26	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=121|end_char=127|NER=O
+27	se	se	SCONJ	_	_	29	mark	_	start_char=128|end_char=130|NER=O
+28	shkas	shkas	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=131|end_char=136|NER=O
+29	për	për	PART	_	_	29	fixed	_	start_char=137|end_char=140|NER=O
+30	të	të	PART	_	_	29	fixed	_	start_char=141|end_char=143|NER=O
+31	botuar	botoj	VERB	_	VerbForm=Part	24	advmod	_	start_char=144|end_char=150|NER=O
+32	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	start_char=151|end_char=155|NER=O
+33	libër	libër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	nsubj	_	start_char=156|end_char=161|NER=O
+34	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=162|end_char=167|NER=O
+35	bërë	bëj	VERB	_	VerbForm=Part	24	conj	_	start_char=168|end_char=172|NER=O
+36	një	një	DET	_	Definite=Ind	35	det	_	start_char=173|end_char=176|NER=O
+37	film	film	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	start_char=177|end_char=181|NER=O
+38	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=182|end_char=183|NER=O
+39	xhiruar	xhiruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=184|end_char=191|NER=O
+40	në	në	ADP	_	Case=Acc	39	case	_	start_char=192|end_char=194|NER=O
+41	Kamboxhia	Kamboxhi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=195|end_char=204|SpaceAfter=No|NER=B-VEND_1
+42	.	.	PUNCT	_	_	33	punct	_	start_char=205|end_char=206|NER=O
+
+# text = " Angelina Jolie ndodhej në Kamboxhia për xhirimet e një filmi Hollywood - ian .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Angelina	Angelinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2|end_char=10|NER=O
+3	Jolie	Joli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=11|end_char=16|NER=O
+4	ndodhej	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=17|end_char=24|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=25|end_char=27|NER=O
+6	Kamboxhia	Kamboxhi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=28|end_char=37|NER=B-VEND_1
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=38|end_char=41|NER=O
+8	xhirimet	xhirim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	start_char=42|end_char=50|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=51|end_char=52|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=53|end_char=56|NER=O
+11	filmi	film	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=57|end_char=62|NER=O
+12	Hollywood	Hollywood-iania	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=63|end_char=72|SpaceAfter=No|NER=O
+13	-	-	PUNCT	_	_	11	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=O
+14	ian	Hollywood-iania	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=75|end_char=78|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	4	punct	_	start_char=79|end_char=80|NER=O
+
+# text = Në këtë vend janë shkelur të drejtat e njeriut , sidomos të fëmijëve dhe të rinjve .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=8|end_char=12|NER=O
+4	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=13|end_char=17|NER=O
+5	shkelur	shkel	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=25|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=26|end_char=28|NER=O
+7	drejtat	drejtë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=29|end_char=36|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=37|end_char=38|NER=O
+9	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=39|end_char=46|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	13	punct	_	start_char=47|end_char=48|NER=O
+11	sidomos	sidomos	PART	_	_	13	mark	_	start_char=49|end_char=56|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=57|end_char=59|NER=O
+13	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=60|end_char=68|NER=O
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=69|end_char=72|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=73|end_char=75|NER=O
+16	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	conj	_	start_char=76|end_char=82|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	5	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Duke luajtur këtë film , Jolie preket nga trajtimi mizor që u është bërë fëmijëve kamboxhianë , dhe vendos të shkruajë këtë libër .
+# sent_id = 5
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=0|end_char=4|NER=O
+2	luajtur	luaj	VERB	_	VerbForm=Part	7	advmod	_	start_char=5|end_char=12|NER=O
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=13|end_char=17|NER=O
+4	film	film	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=18|end_char=22|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|NER=O
+6	Jolie	Joli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=25|end_char=30|NER=B-PER
+7	preket	prek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=31|end_char=37|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=38|end_char=41|NER=O
+9	trajtimi	trajtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=42|end_char=50|NER=O
+10	mizor	mizor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=51|end_char=56|NER=O
+11	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=57|end_char=59|NER=O
+12	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	fixed	_	start_char=60|end_char=61|NER=O
+13	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=62|end_char=67|NER=O
+14	bërë	bëj	VERB	_	VerbForm=Part	9	acl	_	start_char=68|end_char=72|NER=O
+15	fëmijëve	fëmijë	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	14	obj	_	start_char=73|end_char=81|NER=O
+16	kamboxhianë	kamboxhianë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=82|end_char=93|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=94|end_char=95|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=96|end_char=99|NER=O
+19	vendos	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=100|end_char=106|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=107|end_char=109|NER=O
+21	shkruajë	shkruaj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	19	ccomp	_	start_char=110|end_char=118|NER=O
+22	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	start_char=119|end_char=123|NER=O
+23	libër	libër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	start_char=124|end_char=129|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=130|end_char=131|SpaceAfter=No|NER=O
+
+# text = " Libri nis me një parathënie të aktores dhe përfaqësueses së të drejtave drejtave të njeriut në OKB dhe Amnesty International .
+# sent_id = 6
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n|NER=O
+2	Libri	Libr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2|end_char=7|NER=O
+3	nis	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=11|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=14|NER=O
+5	një	një	DET	_	Definite=Ind	5	det	_	start_char=15|end_char=18|NER=O
+6	parathënie	parathëni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=19|end_char=29|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=30|end_char=32|NER=O
+8	aktores	aktore	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=33|end_char=40|NER=O
+9	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=41|end_char=44|NER=O
+10	përfaqësueses	përfaqësues	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=45|end_char=58|NER=O
+11	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=59|end_char=61|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=62|end_char=64|NER=O
+13	drejtave	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=65|end_char=73|NER=O
+14	drejtave	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=74|end_char=82|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=83|end_char=85|NER=O
+16	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=86|end_char=93|NER=O
+17	në	në	ADP	_	Case=Acc	17	case	_	start_char=94|end_char=96|NER=O
+18	OKB	OKB	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=97|end_char=100|NER=B-ORG
+19	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=101|end_char=104|NER=O
+20	Amnesty	Amnestë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	start_char=105|end_char=112|NER=B-ORG
+21	International	International	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	flat:name	_	start_char=113|end_char=126|SpaceAfter=No|NER=I-ORG
+22	.	.	PUNCT	_	_	2	punct	_	start_char=127|end_char=128|NER=O
+
+# text = " Nëse qeveritë do të mbanin fjalën dhe nëse të gjithë të rriturit do t ' i respektonin të drejtat e fëmijëve , s ' do të lindte nevoja për këtë libër " , shkruan Jolie në parathënie .
+# sent_id = 7
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=2|end_char=6|NER=O
+3	qeveritë	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	start_char=7|end_char=15|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=16|end_char=18|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=19|end_char=21|NER=O
+6	mbanin	mbaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=22|end_char=28|NER=O
+7	fjalën	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=29|end_char=35|NER=O
+8	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=36|end_char=39|NER=O
+9	nëse	nëse	SCONJ	_	_	6	mark	_	start_char=40|end_char=44|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=45|end_char=47|NER=O
+11	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	start_char=48|end_char=54|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=55|end_char=57|NER=O
+13	rriturit	rritur	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=58|end_char=66|NER=O
+14	do	do	PART	_	_	16	fixed	_	start_char=67|end_char=69|NER=O
+15	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=70|end_char=71|NER=O
+16	'	'	PUNCT	_	_	16	punct	_	start_char=72|end_char=73|NER=O
+17	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=74|end_char=75|NER=O
+18	respektonin	respektoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	6	advcl	_	start_char=76|end_char=87|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=88|end_char=90|NER=O
+20	drejtat	drejtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obj	_	start_char=91|end_char=98|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=99|end_char=100|NER=O
+22	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	start_char=101|end_char=109|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	22	punct	_	start_char=110|end_char=111|NER=O
+24	s	s'do	SCONJ	_	_	24	mark	_	start_char=112|end_char=113|NER=O
+25	'	'	PUNCT	_	_	24	punct	_	start_char=114|end_char=115|NER=O
+26	do	s'do	SCONJ	_	_	24	mark	_	start_char=116|end_char=118|NER=O
+27	të	të	PART	_	_	24	fixed	_	start_char=119|end_char=121|NER=O
+28	lindte	lind	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	16	advcl	_	start_char=122|end_char=128|NER=O
+29	nevoja	nevojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=129|end_char=135|NER=O
+30	për	për	ADP	_	Case=Acc	28	case	_	start_char=136|end_char=139|NER=O
+31	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	start_char=140|end_char=144|NER=O
+32	libër	libër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=145|end_char=150|SpaceAfter=No|NER=O
+33	"	"	PUNCT	_	_	24	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	30	punct	_	start_char=153|end_char=154|NER=O
+35	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	start_char=155|end_char=162|NER=O
+36	Jolie	Joli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	obj	_	start_char=163|end_char=168|NER=B-PER
+37	në	në	ADP	_	Case=Acc	33	case	_	start_char=169|end_char=171|NER=O
+38	parathënie	parathëni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obl	_	start_char=172|end_char=182|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	30	punct	_	start_char=183|end_char=184|NER=O
+
+# text = " Ekziston një hendek i madh midis të drejtave të fëmijëve në parim dhe asaj që ndodh në praktikë .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ekziston	Ekziston	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=10|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=11|end_char=14|NER=O
+4	hendek	hendek	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	start_char=15|end_char=21|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=23|NER=O
+6	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=24|end_char=28|NER=O
+7	midis	midis	ADP	_	Case=Abl	9	case	_	start_char=29|end_char=34|NER=O
+8	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=35|end_char=37|NER=O
+9	drejtave	drejtë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=38|end_char=46|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=47|end_char=49|NER=O
+11	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=50|end_char=58|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=59|end_char=61|NER=O
+13	parim	parim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=62|end_char=67|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=68|end_char=71|NER=O
+15	asaj	ajo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	13	conj	_	start_char=72|end_char=76|NER=O
+16	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=77|end_char=79|NER=O
+17	ndodh	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=80|end_char=85|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=86|end_char=88|NER=O
+19	praktikë	praktikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=89|end_char=97|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	17	punct	_	start_char=98|end_char=99|SpaceAfter=No|NER=O
+
+# text = " Rexhep Hida shprehet se Angelina Jolie ka shprehur dëshirën që të vijë në Shqipëri për të promovuar këtë libër .
+# sent_id = 9
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Rexhep	Rexhep	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=8|NER=B-PER
+3	Hida	Hida	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=13|NER=I-PER
+4	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=14|end_char=22|NER=O
+5	se	se	SCONJ	_	_	8	mark	_	start_char=23|end_char=25|NER=O
+6	Angelina	Angelinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=26|end_char=34|NER=B-PER
+7	Jolie	Joli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=35|end_char=40|NER=I-PER
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=41|end_char=43|NER=O
+9	shprehur	shpreh	VERB	_	VerbForm=Part	3	advcl	_	start_char=44|end_char=52|NER=O
+10	dëshirën	dëshirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=53|end_char=61|NER=O
+11	që	që	SCONJ	_	_	12	mark	_	start_char=62|end_char=64|NER=O
+12	të	të	PART	_	_	12	fixed	_	start_char=65|end_char=67|NER=O
+13	vijë	vijë	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=68|end_char=72|NER=O
+14	në	në	ADP	_	Case=Acc	14	case	_	start_char=73|end_char=75|NER=O
+15	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=76|end_char=84|NER=B-VEND_1
+16	për	për	PART	_	_	17	fixed	_	start_char=85|end_char=88|NER=O
+17	të	të	PART	_	_	17	fixed	_	start_char=89|end_char=91|NER=O
+18	promovuar	promovoj	VERB	_	VerbForm=Part	12	advmod	_	start_char=92|end_char=101|NER=O
+19	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=102|end_char=106|NER=O
+20	libër	libër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=107|end_char=112|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	8	punct	_	start_char=113|end_char=114|NER=O
+
+# text = " Prej agjendës së ngarkuar nuk mund të garantojmë 100 për qind nëse do të vijë ose jo .
+# sent_id = 10
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Prej	prej	ADP	_	Case=Abl	3	case	_	start_char=2|end_char=6|NER=O
+3	agjendës	agjendë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=7|end_char=15|NER=O
+4	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=18|NER=O
+5	ngarkuar	ngarkoj	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=19|end_char=27|NER=O
+6	nuk	nuk	PART	_	_	9	mark	_	start_char=28|end_char=31|NER=O
+7	mund	mund	AUX	_	_	9	aux	_	start_char=32|end_char=36|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=37|end_char=39|NER=O
+9	garantojmë	garantoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=50|NER=O
+10	100	100	NUM	_	NumType=Card	12	nummod	_	start_char=51|end_char=54|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=55|end_char=58|NER=O
+12	qind	qind	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	start_char=59|end_char=63|NER=O
+13	nëse	nëse	SCONJ	_	_	16	mark	_	start_char=64|end_char=68|NER=O
+14	do	do	PART	_	_	16	fixed	_	start_char=69|end_char=71|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=72|end_char=74|NER=O
+16	vijë	vijë	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=75|end_char=79|NER=O
+17	ose	ose	CCONJ	_	_	16	cc	_	start_char=80|end_char=83|NER=O
+18	jo	jo	PART	_	_	16	advmod	_	start_char=84|end_char=86|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	9	punct	_	start_char=87|end_char=88|NER=O
+
+# text = E vërteta është që mezi e pret librin dhe më dërgoi falënderime dhe përgëzime për të .
+# sent_id = 11
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	vërteta	vërtetë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=2|end_char=9|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+4	që	që	SCONJ	_	_	7	mark	_	start_char=16|end_char=18|NER=O
+5	mezi	mezi	ADV	_	AdvType=Loc	7	advmod	_	start_char=19|end_char=23|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=24|end_char=25|NER=O
+7	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=26|end_char=30|NER=O
+8	librin	libër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=31|end_char=37|NER=O
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=38|end_char=41|NER=O
+10	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	start_char=42|end_char=44|NER=O
+11	dërgoi	dërgoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	start_char=45|end_char=51|NER=O
+12	falënderime	falënderim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=52|end_char=63|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=64|end_char=67|NER=O
+14	përgëzime	përgëzim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	conj	_	start_char=68|end_char=77|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=78|end_char=81|NER=O
+16	të	të	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	det	_	start_char=82|end_char=84|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	3	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Ardhja e saj është reklamë e madhe për shtëpinë botuese dhe Shqipërinë .
+# sent_id = 12
+1	Ardhja	trdhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=7|end_char=8|NER=O
+3	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=9|end_char=12|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=18|NER=O
+5	reklamë	reklamë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=19|end_char=26|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=27|end_char=28|NER=O
+7	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=29|end_char=34|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=38|NER=O
+9	shtëpinë	shtëpi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=39|end_char=47|NER=O
+10	botuese	botues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=48|end_char=55|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=56|end_char=59|NER=O
+12	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=60|end_char=70|SpaceAfter=No|NER=B-VEND_1
+13	.	.	PUNCT	_	_	4	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
+
+# text = " Libri është botuar së pari në SHBA në shtator 2021 .
+# sent_id = 13
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Libri	Libr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=7|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=13|NER=O
+4	botuar	botoj	VERB	_	VerbForm=Part	0	root	_	start_char=14|end_char=20|NER=O
+5	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=21|end_char=23|NER=O
+6	pari	pari	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=24|end_char=28|NER=O
+7	në	në	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=31|NER=O
+8	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=32|end_char=36|NER=B-VEND_1
+9	në	në	ADP	_	Case=Acc	9	case	_	start_char=37|end_char=39|NER=O
+10	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=40|end_char=47|NER=B-DATE_0
+11	2021	2021	NUM	_	NumType=Card	9	amod:nummod	_	start_char=48|end_char=52|SpaceAfter=No|NER=I-DATE_0
+12	.	.	PUNCT	_	_	3	punct	_	start_char=53|end_char=54|NER=O
+
+# text = Më pas në Britani , Francë , Gjermani , Japoni , Greqi dhe Kamboxhia .
+# sent_id = 14
+1	Më	më	PART	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	pas	pas	ADV	_	AdvType=Tim	4	advmod	_	start_char=3|end_char=6|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=7|end_char=9|NER=O
+4	Britani	Britan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=17|SpaceAfter=No|NER=B-VEND_1
+5	,	,	PUNCT	_	_	6	punct	_	start_char=18|end_char=19|NER=O
+6	Francë	Francë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	list	_	start_char=20|end_char=26|SpaceAfter=No|NER=B-VEND_1
+7	,	,	PUNCT	_	_	8	punct	_	start_char=27|end_char=28|NER=O
+8	Gjermani	Gjermani	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	list	_	start_char=29|end_char=37|SpaceAfter=No|NER=B-VEND_1
+9	,	,	PUNCT	_	_	10	punct	_	start_char=38|end_char=39|NER=O
+10	Japoni	Japon	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	list	_	start_char=40|end_char=46|SpaceAfter=No|NER=B-VEND_1
+11	,	,	PUNCT	_	_	12	punct	_	start_char=47|end_char=48|NER=O
+12	Greqi	Greqi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	list	_	start_char=49|end_char=54|NER=B-VEND_1
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=55|end_char=58|NER=O
+14	Kamboxhia	Kamboxhi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	start_char=59|end_char=68|SpaceAfter=No|NER=B-VEND_1
+15	.	.	PUNCT	_	_	14	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Është i shkruar në në gjuhë të thjeshtë dhe të qartë , me shfira konkrete dhe histori njerëzore .
+# sent_id = 15
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	shkruar	shkruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	cop	_	start_char=8|end_char=15|NER=O
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=16|end_char=18|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=19|end_char=21|NER=O
+6	gjuhë	gjuhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=22|end_char=27|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=28|end_char=30|NER=O
+8	thjeshtë	thjeshtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=31|end_char=39|NER=O
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=40|end_char=43|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=44|end_char=46|NER=O
+11	qartë	qartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=47|end_char=52|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=53|end_char=54|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=55|end_char=57|NER=O
+14	shfira	shfirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	advmod	_	start_char=58|end_char=64|NER=O
+15	konkrete	konkret	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=65|end_char=73|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=74|end_char=77|NER=O
+17	histori	histori	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	start_char=78|end_char=85|NER=O
+18	njerëzore	njerëzor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=86|end_char=95|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	1	punct	_	start_char=96|end_char=97|NER=O
+
+# text = " Dua që libri t ' i shërbejë mjedisit shqiptar .
+# sent_id = 16
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Dua	duaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=5|NER=O
+3	që	që	SCONJ	_	_	6	mark	_	start_char=6|end_char=8|NER=O
+4	libri	libër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=9|end_char=14|NER=O
+5	t	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=15|end_char=16|NER=O
+6	'	'	PUNCT	_	_	4	punct	_	start_char=17|end_char=18|NER=O
+7	i	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=19|end_char=20|NER=O
+8	shërbejë	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=21|end_char=29|NER=O
+9	mjedisit	mjedis	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=30|end_char=38|NER=O
+10	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=39|end_char=47|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	2	punct	_	start_char=48|end_char=49|NER=O
+
+# text = Shpresoj që familjet , prindërit , shoqatat , organizatat dhe shkollat të gjejnë një material të dobishëm përmes këtij libri .
+# sent_id = 17
+1	Shpresoj	shpresoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=8|NER=O
+2	që	që	SCONJ	_	_	3	mark	_	start_char=9|end_char=11|NER=O
+3	familjet	familje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	nsubj	_	start_char=12|end_char=20|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=21|end_char=22|NER=O
+5	prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	obj	_	start_char=23|end_char=32|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=33|end_char=34|NER=O
+7	shoqatat	shoqatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	list	_	start_char=35|end_char=43|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=44|end_char=45|NER=O
+9	organizatat	organizatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	list	_	start_char=46|end_char=57|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=58|end_char=61|NER=O
+11	shkollat	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	start_char=62|end_char=70|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=71|end_char=73|NER=O
+13	gjejnë	gjej	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=74|end_char=80|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=81|end_char=84|NER=O
+15	material	material	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=85|end_char=93|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=94|end_char=96|NER=O
+17	dobishëm	dobishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=97|end_char=105|NER=O
+18	përmes	përmes	ADP	_	Case=Abl	20	case	_	start_char=106|end_char=112|NER=O
+19	këtij	ky	PRON	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=113|end_char=118|NER=O
+20	libri	libër	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=119|end_char=124|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	23	punct	_	start_char=125|end_char=126|SpaceAfter=No|NER=O
+
+# text = "
+# sent_id = 18
+1	"	"	PUNCT	_	_	23	punct	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+

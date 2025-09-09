@@ -1,0 +1,307 @@
+# text = Në një konferencë për shtyp , Berisha tha se " Fatos Nano nuk ka pasur asnjë akuzë të vetme nga qeveria e PD - së " .
+# sent_id = 0
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	konferencë	konferencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=7|end_char=17|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=21|NER=O
+5	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=27|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	3	punct	_	start_char=28|end_char=29|NER=O
+7	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=30|end_char=37|NER=B-PER
+8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=38|end_char=41|NER=O
+9	se	se	SCONJ	_	_	15	mark	_	start_char=42|end_char=44|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=O
+11	Fatos	Fatos	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	start_char=47|end_char=52|NER=B-PER
+12	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=53|end_char=57|NER=I-PER
+13	nuk	nuk	PART	_	_	15	mark	_	start_char=58|end_char=61|NER=O
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=62|end_char=64|NER=O
+15	pasur	kam	VERB	_	VerbForm=Part	8	conj	_	start_char=65|end_char=70|NER=O
+16	asnjë	asnjë	PRON	_	PronType=Ind	17	nummod	_	start_char=71|end_char=76|NER=O
+17	akuzë	akuzë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=77|end_char=82|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=83|end_char=85|NER=O
+19	vetme	vetëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=86|end_char=91|NER=O
+20	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=92|end_char=95|NER=O
+21	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	start_char=96|end_char=103|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=104|end_char=105|NER=O
+23	PD	PD-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=106|end_char=108|SpaceAfter=No|NER=B-ORG
+24	-	-	PUNCT	_	_	21	punct	_	start_char=109|end_char=110|SpaceAfter=No|NER=B-ORG
+25	së	PD-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=111|end_char=113|SpaceAfter=No|NER=B-ORG
+26	"	"	PUNCT	_	_	21	punct	_	start_char=114|end_char=115|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	15	punct	_	start_char=116|end_char=117|SpacesAfter=\n|NER=O
+
+# text = " Krahasimi i të pakrahasueshmeve nuk shërben , dhe është fatkeq në kuptimin e vërtetë .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Krahasimi	Krahasim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2|end_char=11|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=12|end_char=13|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=14|end_char=16|NER=O
+5	pakrahasueshmeve	pakrahasueshmem	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=17|end_char=33|NER=O
+6	nuk	nuk	PART	_	_	7	mark	_	start_char=34|end_char=37|NER=O
+7	shërben	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=45|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=46|end_char=47|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=48|end_char=51|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=52|end_char=57|NER=O
+11	fatkeq	fatkeq	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	cop	_	start_char=58|end_char=64|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=65|end_char=67|NER=O
+13	kuptimin	kuptim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=68|end_char=76|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=77|end_char=78|NER=O
+15	vërtetë	vërtetë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=79|end_char=86|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	10	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Fatos Nano është arrestuar për një abuzim i cili sipas llogaritjeve të qeverisë së PS , konkretisht ish - ministrit të Tregtisë së Jashtme Shane Korbeci , dhe të ministrave të tjerë që nuk kishin firmosur , por iu ishte falsifikuar firma në qeveri , njëri prej tyre Qemal Disha , ishin zhdukur mbi 10 milionë ndihma humanitare për shqiptarët e uritur .
+# sent_id = 2
+1	Fatos	Fatos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=6|end_char=10|NER=I-PER
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=11|end_char=16|NER=O
+4	arrestuar	arrestoj	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=26|NER=O
+5	për	për	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=30|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=31|end_char=34|NER=O
+7	abuzim	abuzim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=35|end_char=41|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=42|end_char=43|NER=O
+9	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nmod	_	start_char=44|end_char=48|NER=O
+10	sipas	sipas	ADP	_	Case=Abl	11	case	_	start_char=49|end_char=54|NER=O
+11	llogaritjeve	llogaritje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=55|end_char=67|NER=O
+12	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=68|end_char=70|NER=O
+13	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=71|end_char=79|NER=O
+14	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=80|end_char=82|NER=O
+15	PS	PS	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=83|end_char=85|SpaceAfter=No|NER=B-ORG
+16	,	,	PUNCT	_	_	18	punct	_	start_char=86|end_char=87|NER=O
+17	konkretisht	konkretisht	ADV	_	AdvType=Man	18	advmod	_	start_char=88|end_char=99|NER=O
+18	ish	ish-ministr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=100|end_char=103|NER=O
+19	-	-	PUNCT	_	_	13	punct	_	start_char=104|end_char=105|NER=O
+20	ministrit	ish-ministr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=106|end_char=115|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=116|end_char=118|NER=O
+22	Tregtisë	tregti	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=119|end_char=127|NER=O
+23	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=128|end_char=130|NER=O
+24	Jashtme	Jashtme	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=131|end_char=138|NER=O
+25	Shane	Shane	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	appos	_	start_char=139|end_char=144|NER=B-PER
+26	Korbeci	Korbec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=145|end_char=152|SpaceAfter=No|NER=I-PER
+27	,	,	PUNCT	_	_	26	punct	_	start_char=153|end_char=154|NER=O
+28	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=155|end_char=158|NER=O
+29	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	28	det:poss	_	start_char=159|end_char=161|NER=O
+30	ministrave	ministrë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	23	conj	_	start_char=162|end_char=172|NER=O
+31	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	30	det	_	start_char=173|end_char=175|NER=O
+32	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	28	amod	_	start_char=176|end_char=181|NER=O
+33	që	që	PRON	_	PronType=Rel	34	nsubj	_	start_char=182|end_char=184|NER=O
+34	nuk	nuk	PART	_	_	34	mark	_	start_char=185|end_char=188|NER=O
+35	kishin	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	34	aux	_	start_char=189|end_char=195|NER=O
+36	firmosur	firmos	VERB	_	VerbForm=Part	28	acl:relcl	_	start_char=196|end_char=204|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	36	punct	_	start_char=205|end_char=206|NER=O
+38	por	por	CCONJ	_	_	40	cc	_	start_char=207|end_char=210|NER=O
+39	iu	iu	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	iobj	_	start_char=211|end_char=213|NER=O
+40	ishte	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	40	aux	_	start_char=214|end_char=219|NER=O
+41	falsifikuar	falsifikoj	VERB	_	VerbForm=Part	34	conj	_	start_char=220|end_char=231|NER=O
+42	firma	firmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	40	obj	_	start_char=232|end_char=237|NER=O
+43	në	në	ADP	_	Case=Acc	43	case	_	start_char=238|end_char=240|NER=O
+44	qeveri	qever	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	obl	_	start_char=241|end_char=247|SpaceAfter=No|NER=O
+45	,	,	PUNCT	_	_	45	punct	_	start_char=248|end_char=249|NER=O
+46	njëri	njëri	ADV	_	AdvType=Tim	52	mark	_	start_char=250|end_char=255|NER=O
+47	prej	prej	ADP	_	Case=Abl	47	case	_	start_char=256|end_char=260|NER=O
+48	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	advmod	_	start_char=261|end_char=265|NER=O
+49	Qemal	Qemal	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	47	flat	_	start_char=266|end_char=271|NER=B-ORG
+50	Disha	dishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	48	flat	_	start_char=272|end_char=277|SpaceAfter=No|NER=I-ORG
+51	,	,	PUNCT	_	_	52	punct	_	start_char=278|end_char=279|NER=O
+52	ishin	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	52	aux	_	start_char=280|end_char=285|NER=O
+53	zhdukur	zhdukur	VERB	_	VerbForm=Part	40	conj	_	start_char=286|end_char=293|NER=O
+54	mbi	mbi	ADP	_	Case=Acc	55	case	_	start_char=294|end_char=297|NER=O
+55	10	10	NUM	_	NumType=Card	55	nummod	_	start_char=298|end_char=300|NER=O
+56	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	52	obl	_	start_char=301|end_char=308|NER=O
+57	ndihma	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	52	obl	_	start_char=309|end_char=315|NER=O
+58	humanitare	humanitar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	56	amod	_	start_char=316|end_char=326|NER=O
+59	për	për	ADP	_	Case=Acc	59	case	_	start_char=327|end_char=330|NER=O
+60	shqiptarët	shqiptar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	52	advmod	_	start_char=331|end_char=341|NER=O
+61	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	61	det	_	start_char=342|end_char=343|NER=O
+62	uritur	uritur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	59	amod	_	start_char=344|end_char=350|SpaceAfter=No|NER=O
+63	.	.	PUNCT	_	_	52	punct	_	start_char=351|end_char=352|NER=O
+
+# text = Pa nam dhe nishan " , u shpreh Berisha .
+# sent_id = 3
+1	Pa	pa	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	nam	nam	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=3|end_char=6|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=7|end_char=10|NER=O
+4	nishan	nishan	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=11|end_char=17|SpaceAfter=No|NER=O
+5	"	"	PUNCT	_	_	2	punct	_	start_char=18|end_char=19|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=20|end_char=21|NER=O
+7	u	u	PART	_	_	7	fixed	_	start_char=22|end_char=23|NER=O
+8	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=24|end_char=30|NER=O
+9	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=31|end_char=38|SpaceAfter=No|NER=B-PER
+10	.	.	PUNCT	_	_	7	punct	_	start_char=39|end_char=40|SpacesAfter=\n|NER=O
+
+# text = Sipas tij , " dosja u përgatit dhe u paraqit edhe në parlament me elementë kryesorë nga Korbeci , e vërteta doli është se edhe Qemal Disha , në atë kohë ministër financash , kishte refuzuar të firmoste " .
+# sent_id = 4
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dislocated	_	start_char=6|end_char=9|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=10|end_char=11|NER=O
+4	"	"	PUNCT	_	_	6	punct	_	start_char=12|end_char=13|NER=O
+5	dosja	dosjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=14|end_char=19|NER=O
+6	u	u	PART	_	_	6	fixed	_	start_char=20|end_char=21|NER=O
+7	përgatit	përgatis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=22|end_char=30|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=31|end_char=34|NER=O
+9	u	u	PART	_	_	9	fixed	_	start_char=35|end_char=36|NER=O
+10	paraqit	paraj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	conj	_	start_char=37|end_char=44|NER=O
+11	edhe	edhe	PART	_	_	12	cc	_	start_char=45|end_char=49|NER=O
+12	në	në	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+13	parlament	parlament	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=53|end_char=62|NER=O
+14	me	me	ADP	_	Case=Acc	14	case	_	start_char=63|end_char=65|NER=O
+15	elementë	elementë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	start_char=66|end_char=74|NER=O
+16	kryesorë	kryesorë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=75|end_char=83|NER=O
+17	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=84|end_char=87|NER=O
+18	Korbeci	Korbec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=88|end_char=95|SpaceAfter=No|NER=B-PER
+19	,	,	PUNCT	_	_	20	punct	_	start_char=96|end_char=97|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=98|end_char=99|NER=O
+21	vërteta	vërtetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=100|end_char=107|NER=O
+22	doli	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	advcl	_	start_char=108|end_char=112|NER=O
+23	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	ccomp	_	start_char=113|end_char=118|NER=O
+24	se	se	SCONJ	_	_	25	mark	_	start_char=119|end_char=121|NER=O
+25	edhe	edhe	PART	_	_	25	mark	_	start_char=122|end_char=126|NER=O
+26	Qemal	Qemal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=127|end_char=132|NER=B-PER
+27	Disha	dishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	flat	_	start_char=133|end_char=138|SpaceAfter=No|NER=I-PER
+28	,	,	PUNCT	_	_	30	punct	_	start_char=139|end_char=140|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=141|end_char=143|NER=O
+30	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	30	det	_	start_char=144|end_char=147|NER=O
+31	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	advmod	_	start_char=148|end_char=152|NER=O
+32	ministër	ministër	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=153|end_char=161|NER=O
+33	financash	financash	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	start_char=162|end_char=171|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	35	punct	_	start_char=172|end_char=173|NER=O
+35	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	35	aux	_	start_char=174|end_char=180|NER=O
+36	refuzuar	refuzoj	VERB	_	VerbForm=Part	22	conj	_	start_char=181|end_char=189|NER=O
+37	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=190|end_char=192|NER=O
+38	firmoste	firmost	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	35	obj	_	start_char=193|end_char=201|SpaceAfter=No|NER=O
+39	"	"	PUNCT	_	_	35	punct	_	start_char=202|end_char=203|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	35	punct	_	start_char=204|end_char=205|SpacesAfter=\n|NER=O
+
+# text = " Fatos Nano është thirrur dhe është pyetur , sikundër janë në dosje akuzat e ministrave të tij .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Fatos	Fatos	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2|end_char=7|NER=B-PER
+3	Nano	Nano	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=8|end_char=12|NER=I-PER
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=13|end_char=18|NER=O
+5	thirrur	thirroj	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=26|NER=O
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=27|end_char=30|NER=O
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=31|end_char=36|NER=O
+8	pyetur	pyes	VERB	_	VerbForm=Part	5	conj	_	start_char=37|end_char=43|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=44|end_char=45|NER=O
+10	sikundër	sikundër	ADV	_	AdvType=Loc	11	advmod	_	start_char=46|end_char=54|NER=O
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=55|end_char=59|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=60|end_char=62|NER=O
+13	dosje	dosje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	start_char=63|end_char=68|NER=O
+14	akuzat	akuzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	cop	_	start_char=69|end_char=75|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=76|end_char=77|NER=O
+16	ministrave	ministrë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=78|end_char=88|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=89|end_char=91|NER=O
+18	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=92|end_char=95|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	11	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Të krahasosh 10 milionë euro ndihma bujare të qeverisë italiane të zhdukur me 410 metër katrorë tokë të trashëguar të vetën të Jamarbër Malltezi , pastaj krahason dy gjëra më të pakrahasueshme që mund të ndodhin .
+# sent_id = 6
+1	Të	të	PART	_	_	2	fixed	_	start_char=0|end_char=2|NER=O
+2	krahasosh	krahasoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=12|NER=O
+3	10	10	NUM	_	NumType=Card	5	nummod	_	start_char=13|end_char=15|NER=O
+4	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	5	det	_	start_char=16|end_char=23|NER=O
+5	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=24|end_char=28|NER=O
+6	ndihma	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=29|end_char=35|NER=O
+7	bujare	bujar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=36|end_char=42|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=43|end_char=45|NER=O
+9	qeverisë	qeveri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=46|end_char=54|NER=O
+10	italiane	italian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=55|end_char=63|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=64|end_char=66|NER=O
+12	zhdukur	zhdukur	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=67|end_char=74|NER=O
+13	me	me	ADP	_	Case=Acc	15	case	_	start_char=75|end_char=77|NER=O
+14	410	410	NUM	_	NumType=Card	15	nummod	_	start_char=78|end_char=81|NER=O
+15	metër	metër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=82|end_char=87|NER=O
+16	katrorë	katrorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	start_char=88|end_char=95|NER=O
+17	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=96|end_char=100|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=101|end_char=103|NER=O
+19	trashëguar	trashëguar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=104|end_char=114|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=115|end_char=117|NER=O
+21	vetën	vetë	PRON	_	PronType=Ind	17	amod	_	start_char=118|end_char=123|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=124|end_char=126|NER=O
+23	Jamarbër	Jamarbër	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=127|end_char=135|NER=B-PER
+24	Malltezi	malltez	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=136|end_char=144|SpaceAfter=No|NER=I-PER
+25	,	,	PUNCT	_	_	27	punct	_	start_char=145|end_char=146|NER=O
+26	pastaj	pastaj	ADV	_	AdvType=Tim	27	advmod	_	start_char=147|end_char=153|NER=O
+27	krahason	krahasoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	acl	_	start_char=154|end_char=162|NER=O
+28	dy	dy	NUM	_	NumType=Card	29	nummod	_	start_char=163|end_char=165|NER=O
+29	gjëra	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obj	_	start_char=166|end_char=171|NER=O
+30	më	më	PART	_	_	32	mark	_	start_char=172|end_char=174|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=175|end_char=177|NER=O
+32	pakrahasueshme	pakrahasueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=178|end_char=192|NER=O
+33	që	që	PRON	_	PronType=Rel	36	nsubj	_	start_char=193|end_char=195|NER=O
+34	mund	mund	AUX	_	_	36	aux	_	start_char=196|end_char=200|NER=O
+35	të	të	PART	_	_	36	fixed	_	start_char=201|end_char=203|NER=O
+36	ndodhin	ndodh	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	ccomp	_	start_char=204|end_char=211|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	27	punct	_	start_char=212|end_char=213|NER=O
+
+# text = Në të gjithë procesin e dosjes së ndihmave italiane , ishte firma e Fatos Nanos " , tha ai .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	4	case	_	start_char=0|end_char=2|NER=O
+2	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=3|end_char=5|NER=O
+3	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=6|end_char=12|NER=O
+4	procesin	proces	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=13|end_char=21|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=23|NER=O
+6	dosjes	dosje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=24|end_char=30|NER=O
+7	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=31|end_char=33|NER=O
+8	ndihmave	ndihmë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=34|end_char=42|NER=O
+9	italiane	italian	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=43|end_char=51|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	4	punct	_	start_char=52|end_char=53|NER=O
+11	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=54|end_char=59|NER=O
+12	firma	firmë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	cop	_	start_char=60|end_char=65|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=66|end_char=67|NER=O
+14	Fatos	Fatos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=68|end_char=73|NER=B-PER
+15	Nanos	Nanos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=74|end_char=79|SpaceAfter=No|NER=I-PER
+16	"	"	PUNCT	_	_	14	punct	_	start_char=80|end_char=81|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=82|end_char=83|NER=O
+18	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	start_char=84|end_char=87|NER=O
+19	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=88|end_char=90|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	11	punct	_	start_char=91|end_char=92|SpacesAfter=\n|NER=O
+
+# text = Ndërsa në procesin e privatizimit të klubit Partizani , sipas tij , " në kuptimin e njohjes , kthimit , parablerjes konform ligjit të objekteve , nuk ekziston asnjë firmë e vetme e Sali Berishës " .
+# sent_id = 8
+1	Ndërsa	ndërsa	CCONJ	_	_	13	dislocated	_	start_char=0|end_char=6|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=7|end_char=9|NER=O
+3	procesin	proces	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=10|end_char=18|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=19|end_char=20|NER=O
+5	privatizimit	privatizim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=21|end_char=33|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=34|end_char=36|NER=O
+7	klubit	klub	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=37|end_char=43|NER=O
+8	Partizani	Partizan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=44|end_char=53|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	1	punct	_	start_char=54|end_char=55|NER=O
+10	sipas	sipas	ADP	_	Case=Abl	11	case	_	start_char=56|end_char=61|NER=O
+11	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	advmod	_	start_char=62|end_char=65|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	11	punct	_	start_char=66|end_char=67|NER=O
+13	"	"	PUNCT	_	_	0	punct	_	start_char=68|end_char=69|NER=O
+14	në	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=70|end_char=72|NER=O
+15	kuptimin	kuptim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	cop	_	start_char=73|end_char=81|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=82|end_char=83|NER=O
+17	njohjes	njohje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=84|end_char=91|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	18	punct	_	start_char=92|end_char=93|NER=O
+19	kthimit	kthim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	list	_	start_char=94|end_char=101|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	20	punct	_	start_char=102|end_char=103|NER=O
+21	parablerjes	parablerje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	list	_	start_char=104|end_char=115|NER=O
+22	konform	konform	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=116|end_char=123|NER=O
+23	ligjit	ligj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=124|end_char=130|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=131|end_char=133|NER=O
+25	objekteve	objekt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=134|end_char=143|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	27	punct	_	start_char=144|end_char=145|NER=O
+27	nuk	nuk	PART	_	_	27	mark	_	start_char=146|end_char=149|NER=O
+28	ekziston	ekzistoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	start_char=150|end_char=158|NER=O
+29	asnjë	asnjë	PRON	_	PronType=Ind	29	nummod	_	start_char=159|end_char=164|NER=O
+30	firmë	firmë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	start_char=165|end_char=170|NER=O
+31	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=171|end_char=172|NER=O
+32	vetme	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=173|end_char=178|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=179|end_char=180|NER=O
+34	Sali	Sali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=181|end_char=185|NER=B-PER
+35	Berishës	Berishës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	flat	_	start_char=186|end_char=194|SpaceAfter=No|NER=O
+36	"	"	PUNCT	_	_	33	punct	_	start_char=195|end_char=196|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	27	punct	_	start_char=197|end_char=198|SpaceAfter=No|NER=O
+
+# text = / m .
+# sent_id = 9
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	m	m.m	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=3|SpacesAfter=\n\n\n|NER=O
+3	.	.	PUNCT	_	_	0	punct	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+
+# text = m /
+# sent_id = 10
+1	m	m.m	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	/	/	PUNCT	_	_	0	punct	_	start_char=2|end_char=3|SpacesAfter=\n\n\n|NER=O
+

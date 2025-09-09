@@ -1,0 +1,36 @@
+# text = në 8 persona jeton me çrregullime të shëndetit mendor .
+# sent_id = 0
+1	në	në	ADP	_	Case=Acc	14	case	_	start_char=0|end_char=2|NER=O
+2	8	8	NUM	_	NumType=Card	14	nummod	_	start_char=3|end_char=4|NER=O
+3	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	advmod	_	start_char=5|end_char=12|NER=O
+4	jeton	jetoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=13|end_char=18|NER=O
+5	me	me	ADP	_	Case=Acc	17	case	_	start_char=19|end_char=21|NER=O
+6	çrregullime	çrregullim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	start_char=22|end_char=33|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=34|end_char=36|NER=O
+8	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=37|end_char=46|NER=O
+9	mendor	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=47|end_char=53|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	15	punct	_	start_char=54|end_char=55|NER=O
+
+# text = Të dhënat e referuara nga OBSH tregojnë se realiteti pas pandemisë është përkeqësuar edhe më shumë sidomos tek adoleshentët .
+# sent_id = 1
+1	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	referuara	referuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=12|end_char=21|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=22|end_char=25|NER=O
+6	OBSH	OBSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=26|end_char=30|NER=B-ORG
+7	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=39|NER=O
+8	se	se	SCONJ	_	_	13	mark	_	start_char=40|end_char=42|NER=O
+9	realiteti	realitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=43|end_char=52|NER=O
+10	pas	pas	ADP	_	Case=Abl	11	case	_	start_char=53|end_char=56|NER=O
+11	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=57|end_char=66|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=67|end_char=72|NER=O
+13	përkeqësuar	përkeqësoj	VERB	_	VerbForm=Part	7	conj	_	start_char=73|end_char=84|NER=O
+14	edhe	edhe	PART	_	_	16	mark	_	start_char=85|end_char=89|NER=O
+15	më	më	PART	_	_	16	mark	_	start_char=90|end_char=92|NER=O
+16	shumë	shumë	ADV	_	AdvType=Deg	17	fixed	_	start_char=93|end_char=98|NER=O
+17	sidomos	sidomos	PART	_	_	19	mark	_	start_char=99|end_char=106|NER=O
+18	tek	tek	ADP	_	Case=Nom	19	case	_	start_char=107|end_char=110|NER=O
+19	adoleshentët	adoleshentë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	start_char=111|end_char=123|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	13	punct	_	start_char=124|end_char=125|SpacesAfter=\n|NER=O
+

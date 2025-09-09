@@ -1,0 +1,70 @@
+# text = Fest 62 , Mal Retkoceri : Veshja ime ?
+# sent_id = 0
+1	Fest	fest	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|NER=O
+2	62	62	NUM	_	NumType=Card	1	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	4	punct	_	start_char=8|end_char=9|NER=O
+4	Mal	mal	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=13|NER=B-PER
+5	Retkoceri	Retkocer	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=14|end_char=23|SpaceAfter=No|NER=I-PER
+6	:	:	PUNCT	_	_	1	punct	_	start_char=24|end_char=25|NER=O
+7	Veshja	veshjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=26|end_char=32|NER=O
+8	ime	ime	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	amod	_	start_char=33|end_char=36|SpaceAfter=No|NER=O
+9	?	?	PUNCT	_	_	1	punct	_	start_char=37|end_char=38|NER=O
+
+# text = Shpresoj tu pëlqejë më vonë edhe të tjerëve ' fustani ' 22 / 12 / 2023 Mal Retkoceri , një prej finalistëve në Fest 62 , në " Këndin e Radio Tiranës " ka komentuar performancën e tij në skenë por edhe për debatet në lidhje me veshjen e tij .
+# sent_id = 1
+1	Shpresoj	shpresoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=8|NER=O
+2	tu	_	_	_	_	_	_	_	start_char=9|end_char=11|NER=O
+3	pëlqejë	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=12|end_char=19|NER=O
+4	më	më	PART	_	_	5	mark	_	start_char=20|end_char=22|NER=O
+5	vonë	vonë	ADV	_	AdvType=Tim	3	advmod	_	start_char=23|end_char=27|NER=O
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=28|end_char=32|NER=O
+7	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=33|end_char=35|NER=O
+8	tjerëve	tjerë	PRON	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	start_char=36|end_char=43|NER=O
+9	'	'	PUNCT	_	_	1	punct	_	start_char=44|end_char=45|SpacesAfter=\n|NER=O
+10	fustani	fustan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=46|end_char=53|SpacesAfter=\n|NER=O
+11	'	'	PUNCT	_	_	1	punct	_	start_char=54|end_char=55|SpacesAfter=\n|NER=O
+12	22	22	NUM	_	NumType=Card	11	nummod	_	start_char=56|end_char=58|SpaceAfter=No|NER=B-DATE_0
+13	/	/	PUNCT	_	_	9	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=I-DATE_0
+14	12	12	NUM	_	NumType=Card	9	nmod	_	start_char=61|end_char=63|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|SpaceAfter=No|NER=I-DATE_0
+16	2023	2023	NUM	_	NumType=Card	11	nummod	_	start_char=66|end_char=70|SpaceAfter=No|NER=I-DATE_0
+17	Mal	mal	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=71|end_char=74|NER=B-PER
+18	Retkoceri	Retkocer	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	appos	_	start_char=75|end_char=84|SpaceAfter=No|NER=I-PER
+19	,	,	PUNCT	_	_	19	punct	_	start_char=85|end_char=86|NER=O
+20	një	një	DET	_	Definite=Ind	19	det	_	start_char=87|end_char=90|NER=O
+21	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=91|end_char=95|NER=O
+22	finalistëve	finalistë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=96|end_char=107|NER=O
+23	në	në	ADP	_	Case=Acc	21	case	_	start_char=108|end_char=110|NER=O
+24	Fest	fest	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=111|end_char=115|NER=O
+25	62	62	NUM	_	NumType=Card	21	flat	_	start_char=116|end_char=118|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	26	punct	_	start_char=119|end_char=120|NER=O
+27	në	në	ADP	_	Case=Acc	26	case	_	start_char=121|end_char=123|NER=O
+28	"	"	PUNCT	_	_	26	punct	_	start_char=124|end_char=125|SpaceAfter=No|NER=O
+29	Këndin	Kënd	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	advmod	_	start_char=126|end_char=132|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=133|end_char=134|NER=O
+31	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=135|end_char=140|NER=O
+32	Tiranës	Tiranës	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	28	flat	_	start_char=141|end_char=148|NER=O
+33	"	"	PUNCT	_	_	28	punct	_	start_char=149|end_char=150|NER=O
+34	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=151|end_char=153|NER=O
+35	komentuar	komentoj	VERB	_	VerbForm=Part	3	conj	_	start_char=154|end_char=163|NER=O
+36	performancën	performancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obj	_	start_char=164|end_char=176|NER=O
+37	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=177|end_char=178|NER=O
+38	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	amod:poss	_	start_char=179|end_char=182|NER=O
+39	në	në	ADP	_	Case=Acc	36	case	_	start_char=183|end_char=185|NER=O
+40	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	advmod	_	start_char=186|end_char=191|NER=O
+41	por	por	CCONJ	_	_	40	cc	_	start_char=192|end_char=195|NER=O
+42	edhe	edhe	CCONJ	_	_	40	mark	_	start_char=196|end_char=200|NER=O
+43	për	për	ADP	_	Case=Acc	40	case	_	start_char=201|end_char=204|NER=O
+44	debatet	debat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	36	conj	_	start_char=205|end_char=212|NER=O
+45	në	në	ADP	_	Case=Acc	44	case	_	start_char=213|end_char=215|NER=O
+46	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	44	case	_	start_char=216|end_char=222|NER=O
+47	me	me	ADP	_	Case=Acc	44	case	_	start_char=223|end_char=225|NER=O
+48	veshjen	veshje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=226|end_char=233|NER=O
+49	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	46	det:poss	_	start_char=234|end_char=235|NER=O
+50	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	amod:poss	_	start_char=236|end_char=239|SpaceAfter=No|NER=O
+51	.	.	PUNCT	_	_	31	punct	_	start_char=240|end_char=241|SpacesAfter=\n|NER=O
+
+# text = "
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+

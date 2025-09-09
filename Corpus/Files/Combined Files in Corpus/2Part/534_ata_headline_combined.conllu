@@ -1,0 +1,71 @@
+# text = LONDËR , 22 dhjetor / ATSH - DPA / – Mijëra njerëz përshëndetën lindjen e diellit me brohoritje , ndërsa ai ngrihej mbi Stonehenge , në Anglinë Jugore për solsticin e dimrit .
+# sent_id = 0
+1	LONDËR	LONDËR	PROPN	_	Foreign=Yes	11	flat	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	15	punct	_	start_char=7|end_char=8|NER=O
+3	22	22	NUM	_	NumType=Card	15	nummod	_	start_char=9|end_char=11|NER=B-DATE_0
+4	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	advmod	_	start_char=12|end_char=19|NER=I-DATE_0
+5	/	/	PUNCT	_	_	17	punct	_	start_char=20|end_char=21|SpaceAfter=No|NER=O
+6	ATSH	ATSH-DPA	PROPN	_	Foreign=Yes	15	appos	_	start_char=22|end_char=26|NER=O
+7	-	-	PUNCT	_	_	15	punct	_	start_char=27|end_char=28|NER=O
+8	DPA	ATSH-DPA	PROPN	_	Foreign=Yes	15	appos	_	start_char=29|end_char=32|NER=O
+9	/	/	PUNCT	_	_	15	punct	_	start_char=33|end_char=34|NER=O
+10	–	–	PUNCT	_	_	17	punct	_	start_char=35|end_char=36|NER=O
+11	Mijëra	mijërë	NUM	_	NumType=Card	20	nummod	_	start_char=37|end_char=43|NER=O
+12	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	21	nsubj	_	start_char=44|end_char=50|NER=O
+13	përshëndetën	përshëndetë	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=51|end_char=63|NER=O
+14	lindjen	lindje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=64|end_char=71|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=72|end_char=73|NER=O
+16	diellit	diell	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=74|end_char=81|NER=O
+17	me	me	ADP	_	Case=Acc	26	case	_	start_char=82|end_char=84|NER=O
+18	brohoritje	brohoritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=85|end_char=95|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	28	punct	_	start_char=96|end_char=97|NER=O
+20	ndërsa	ndërsa	CCONJ	_	_	30	cc	_	start_char=98|end_char=104|NER=O
+21	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	start_char=105|end_char=107|NER=O
+22	ngrihej	ngrijem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	21	conj	_	start_char=108|end_char=115|NER=O
+23	mbi	mbi	ADP	_	Case=Acc	32	case	_	start_char=116|end_char=119|NER=O
+24	Stonehenge	Stoneheng	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obl	_	start_char=120|end_char=130|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	35	punct	_	start_char=131|end_char=132|NER=O
+26	në	në	ADP	_	Case=Acc	35	case	_	start_char=133|end_char=135|NER=O
+27	Anglinë	Anglinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	start_char=136|end_char=143|NER=B-VEND_1
+28	Jugore	Jugor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=144|end_char=150|NER=O
+29	për	për	ADP	_	Case=Acc	38	case	_	start_char=151|end_char=154|NER=O
+30	solsticin	solstic	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=155|end_char=164|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	40	det:poss	_	start_char=165|end_char=166|NER=O
+32	dimrit	dimër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=167|end_char=173|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	30	punct	_	start_char=174|end_char=175|SpacesAfter=\n|NER=O
+
+# text = Rebecca Eade e " English Heritage " tha se " ishte e mrekullueshme të mirëprisnim rreth 6 000 persona në Stonehenge këtë mëngjes për të festuar një solstic të ftohtë dimëror .
+# sent_id = 1
+1	Rebecca	Rebeccë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Eade	Eade	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=12|NER=I-PER
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=13|end_char=14|NER=O
+4	"	"	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|NER=O
+5	English	English	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=17|end_char=24|NER=O
+6	Heritage	Heritag	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=25|end_char=33|NER=O
+7	"	"	PUNCT	_	_	4	punct	_	start_char=34|end_char=35|NER=O
+8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=36|end_char=39|NER=O
+9	se	se	SCONJ	_	_	12	mark	_	start_char=40|end_char=42|NER=O
+10	"	"	PUNCT	_	_	6	punct	_	start_char=43|end_char=44|NER=O
+11	ishte	isht	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=45|end_char=50|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=51|end_char=52|NER=O
+13	mrekullueshme	mrekullueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=53|end_char=66|NER=O
+14	të	të	PART	_	_	12	fixed	_	start_char=67|end_char=69|NER=O
+15	mirëprisnim	mirëpris	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	advmod	_	start_char=70|end_char=81|NER=O
+16	rreth	rreth	ADP	_	Case=Abl	16	case	_	start_char=82|end_char=87|NER=O
+17	6	6	NUM	_	NumType=Card	16	nummod	_	start_char=88|end_char=89|NER=O
+18	000	000	NUM	_	NumType=Card	12	advmod	_	start_char=90|end_char=93|NER=O
+19	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	start_char=94|end_char=101|NER=O
+20	në	në	ADP	_	Case=Acc	18	case	_	start_char=102|end_char=104|NER=O
+21	Stonehenge	Stoneheng	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=105|end_char=115|NER=O
+22	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=116|end_char=120|NER=O
+23	mëngjes	mëngje	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	start_char=121|end_char=128|NER=O
+24	për	për	PART	_	_	23	fixed	_	start_char=129|end_char=132|NER=O
+25	të	të	PART	_	_	23	fixed	_	start_char=133|end_char=135|NER=O
+26	festuar	festoj	VERB	_	VerbForm=Part	12	advmod	_	start_char=136|end_char=143|NER=O
+27	një	një	DET	_	Definite=Ind	25	det	_	start_char=144|end_char=147|NER=O
+28	solstic	solstic	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	start_char=148|end_char=155|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=156|end_char=158|NER=O
+30	ftohtë	ftohtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=159|end_char=165|NER=O
+31	dimëror	dimëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=166|end_char=173|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	23	punct	_	start_char=174|end_char=175|SpacesAfter=\n|NER=O
+

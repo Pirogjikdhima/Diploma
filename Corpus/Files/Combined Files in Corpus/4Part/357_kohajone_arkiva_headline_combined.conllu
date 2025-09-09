@@ -1,0 +1,152 @@
+# text = Dy tërmete të forta në Austri , lëkundjet ndihen edhe në dy shtete të tjera Dy tërmete me madhësi 4 .
+# sent_id = 0
+1	Dy	dy	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|NER=O
+2	tërmete	tërmet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	nsubj	_	start_char=3|end_char=10|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=11|end_char=13|NER=O
+4	forta	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=14|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+6	Austri	Austri	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=23|end_char=29|SpaceAfter=No|NER=B-VEND_1
+7	,	,	PUNCT	_	_	2	punct	_	start_char=30|end_char=31|NER=O
+8	lëkundjet	lëkundje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	start_char=32|end_char=41|NER=O
+9	ndihen	ndjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=42|end_char=48|NER=O
+10	edhe	edhe	PART	_	_	13	cc	_	start_char=49|end_char=53|NER=O
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+12	dy	dy	NUM	_	NumType=Card	13	nummod	_	start_char=57|end_char=59|NER=O
+13	shtete	shtet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	start_char=60|end_char=66|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=67|end_char=69|NER=O
+15	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	13	amod	_	start_char=70|end_char=75|SpacesAfter=\n|NER=O
+16	Dy	dy	NUM	_	NumType=Card	17	nummod	_	start_char=76|end_char=78|NER=O
+17	tërmete	tërmet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	start_char=79|end_char=86|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=87|end_char=89|NER=O
+19	madhësi	madhës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	start_char=90|end_char=97|NER=O
+20	4	4	NUM	_	NumType=Card	19	flat	_	start_char=98|end_char=99|NER=O
+21	.	.	PUNCT	_	_	19	punct	_	start_char=100|end_char=101|NER=O
+
+# text = 9 dhe 4 .
+# sent_id = 1
+1	9	9	NUM	_	NumType=Card	19	flat	_	start_char=0|end_char=1|NER=O
+2	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=2|end_char=5|NER=O
+3	4	4	NUM	_	NumType=Card	23	nummod	_	start_char=6|end_char=7|NER=O
+4	.	.	PUNCT	_	_	23	punct	_	start_char=8|end_char=9|NER=O
+
+# text = 6 ballë të shkallës rihter , janë regjistruar në Austri pak më parë .
+# sent_id = 2
+1	6	6	NUM	_	NumType=Card	23	nummod	_	start_char=0|end_char=1|NER=O
+2	ballë	ballë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	conj	_	start_char=2|end_char=7|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=8|end_char=10|NER=O
+4	shkallës	shkallë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=11|end_char=19|NER=O
+5	rihter	rihter	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=20|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	29	punct	_	start_char=27|end_char=28|NER=O
+7	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=29|end_char=33|NER=O
+8	regjistruar	regjistroj	VERB	_	VerbForm=Part	9	conj	_	start_char=34|end_char=45|NER=O
+9	në	në	ADP	_	Case=Acc	31	case	_	start_char=46|end_char=48|NER=O
+10	Austri	Austri	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	start_char=49|end_char=55|NER=B-VEND_1
+11	pak	pak	ADV	_	AdvType=Deg	34	advmod	_	start_char=56|end_char=59|NER=O
+12	më	më	PART	_	_	34	mark	_	start_char=60|end_char=62|NER=O
+13	parë	parë	ADV	_	AdvType=Tim	29	advmod	_	start_char=63|end_char=67|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	29	punct	_	start_char=68|end_char=69|SpacesAfter=\n|NER=O
+
+# text = Lajmi është bërë i ditur nga Qendra Sizmologjike Evropiane – Mesdhetare , e cila ndër të tjera , thekson se epiqendra e lëkundjeve ishte 50 kilometra në jug të kryeqytetit të Austrisë , Vjenë .
+# sent_id = 3
+1	Lajmi	Lajm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=6|end_char=11|NER=O
+3	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=16|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=18|NER=O
+5	ditur	ditur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=19|end_char=24|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=25|end_char=28|NER=O
+7	Qendra	qendër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=29|end_char=35|NER=O
+8	Sizmologjike	sizmologjik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=36|end_char=48|NER=O
+9	Evropiane	evropian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=49|end_char=58|NER=O
+10	–	–	PUNCT	_	_	11	punct	_	start_char=59|end_char=60|NER=O
+11	Mesdhetare	mesdhetar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	start_char=61|end_char=71|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=74|end_char=75|NER=O
+14	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	start_char=76|end_char=80|NER=O
+15	ndër	ndër	ADP	_	Case=Acc	17	case	_	start_char=81|end_char=85|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=86|end_char=88|NER=O
+17	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	19	advmod	_	start_char=89|end_char=94|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	14	punct	_	start_char=95|end_char=96|NER=O
+19	thekson	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	parataxis	_	start_char=97|end_char=104|NER=O
+20	se	se	SCONJ	_	_	24	mark	_	start_char=105|end_char=107|NER=O
+21	epiqendra	epiqendër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	start_char=108|end_char=117|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=118|end_char=119|NER=O
+23	lëkundjeve	lëkundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	start_char=120|end_char=130|NER=O
+24	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	19	conj	_	start_char=131|end_char=136|NER=O
+25	50	50	NUM	_	NumType=Card	26	nummod	_	start_char=137|end_char=139|NER=O
+26	kilometra	kilometrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	cop	_	start_char=140|end_char=149|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=150|end_char=152|NER=O
+28	jug	jug	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	advmod	_	start_char=153|end_char=156|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=157|end_char=159|NER=O
+30	kryeqytetit	kryeqytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=160|end_char=171|NER=O
+31	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=172|end_char=174|NER=O
+32	Austrisë	Austri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=175|end_char=183|SpaceAfter=No|NER=B-VEND_1
+33	,	,	PUNCT	_	_	34	punct	_	start_char=184|end_char=185|NER=O
+34	Vjenë	Vjenë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	list	_	start_char=186|end_char=191|SpaceAfter=No|NER=B-VEND_0
+35	.	.	PUNCT	_	_	24	punct	_	start_char=192|end_char=193|SpacesAfter=\n|NER=O
+
+# text = Deri më tani nuk ka të dhëna për të lënduar apo dëme material .
+# sent_id = 4
+1	Deri	deri	PART	_	_	3	case	_	start_char=0|end_char=4|NER=O
+2	më	më	PART	_	_	3	mark	_	start_char=5|end_char=7|NER=O
+3	tani	tani	ADV	_	AdvType=Tim	5	advmod	_	start_char=8|end_char=12|NER=O
+4	nuk	nuk	PART	_	_	5	mark	_	start_char=13|end_char=16|NER=O
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=19|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=20|end_char=22|NER=O
+7	dhëna	dhënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=23|end_char=28|NER=O
+8	për	për	PART	_	_	10	fixed	_	start_char=29|end_char=32|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=33|end_char=35|NER=O
+10	lënduar	lëndoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=36|end_char=43|NER=O
+11	apo	apo	CCONJ	_	_	12	cc	_	start_char=44|end_char=47|NER=O
+12	dëme	dëmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=48|end_char=52|NER=O
+13	material	material	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	start_char=53|end_char=61|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=62|end_char=63|NER=O
+
+# text = Qytetarët , janë shprehur të tmerruar në rrjete sociale dhe kanë rrëfyer se lëkundjet ishin të forta dhe menjëherë kanë dalë me shpejtësi nga banesat .
+# sent_id = 5
+1	Qytetarët	Qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=0|end_char=9|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+3	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=12|end_char=16|NER=O
+4	shprehur	shpreh	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=25|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=26|end_char=28|NER=O
+6	tmerruar	tmerruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	cop	_	start_char=29|end_char=37|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=38|end_char=40|NER=O
+8	rrjete	rrjet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=41|end_char=47|NER=O
+9	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=48|end_char=55|NER=O
+10	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=56|end_char=59|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=60|end_char=64|NER=O
+12	rrëfyer	rrëfyj	VERB	_	VerbForm=Part	4	conj	_	start_char=65|end_char=72|NER=O
+13	se	se	SCONJ	_	_	15	mark	_	start_char=73|end_char=75|NER=O
+14	lëkundjet	lëkundje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nsubj	_	start_char=76|end_char=85|NER=O
+15	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	12	ccomp	_	start_char=86|end_char=91|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=92|end_char=94|NER=O
+17	forta	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	cop	_	start_char=95|end_char=100|NER=O
+18	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=101|end_char=104|NER=O
+19	menjëherë	menjëherë	ADV	_	AdvType=Tim	21	advmod	_	start_char=105|end_char=114|NER=O
+20	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=115|end_char=119|NER=O
+21	dalë	dal	VERB	_	VerbForm=Part	15	conj	_	start_char=120|end_char=124|NER=O
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=125|end_char=127|NER=O
+23	shpejtësi	shpejtësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obl	_	start_char=128|end_char=137|NER=O
+24	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=138|end_char=141|NER=O
+25	banesat	banesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	obl	_	start_char=142|end_char=149|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	21	punct	_	start_char=150|end_char=151|NER=O
+
+# text = Gjithashtu raportohet se tërmeti u ndje edhe në Bosnje - Hercegovinë , por edhe në Slloveni .
+# sent_id = 6
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=0|end_char=10|NER=O
+2	raportohet	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=11|end_char=21|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=22|end_char=24|NER=O
+4	tërmeti	tërmet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=25|end_char=32|NER=O
+5	u	u	PART	_	_	6	fixed	_	start_char=33|end_char=34|NER=O
+6	ndje	ndjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	advcl	_	start_char=35|end_char=39|NER=O
+7	edhe	edhe	PART	_	_	9	mark	_	start_char=40|end_char=44|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=45|end_char=47|NER=O
+9	Bosnje	Bosnje	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=48|end_char=54|SpaceAfter=No|NER=B-VEND_1
+10	-	-	PUNCT	_	_	9	punct	_	start_char=55|end_char=56|SpaceAfter=No|NER=B-VEND_1
+11	Hercegovinë	Hercegovi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	flat	_	start_char=57|end_char=68|SpaceAfter=No|NER=B-VEND_1
+12	,	,	PUNCT	_	_	12	punct	_	start_char=69|end_char=70|NER=O
+13	por	por	CCONJ	_	_	15	cc	_	start_char=71|end_char=74|NER=O
+14	edhe	edhe	PART	_	_	15	mark	_	start_char=75|end_char=79|NER=O
+15	në	në	ADP	_	Case=Acc	15	case	_	start_char=80|end_char=82|NER=O
+16	Slloveni	Slloven	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=83|end_char=91|SpaceAfter=No|NER=B-VEND_1
+17	.	.	PUNCT	_	_	2	punct	_	start_char=92|end_char=93|SpacesAfter=\n|NER=O
+

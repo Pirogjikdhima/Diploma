@@ -1,0 +1,221 @@
+# text = Spitali Memorial i Fierit / Kryhet me sukses ndërhyrja me vështirësi të lartë .
+# sent_id = 0
+1	Spitali	spital	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=8|end_char=16|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=17|end_char=18|NER=O
+4	Fierit	Fier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	compound	_	start_char=19|end_char=25|SpaceAfter=No|NER=B-VEND_0
+5	/	/	PUNCT	_	_	1	punct	_	start_char=26|end_char=27|NER=O
+6	Kryhet	kryhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=28|end_char=34|NER=O
+7	me	me	ADP	_	Case=Acc	3	case	_	start_char=35|end_char=37|NER=O
+8	sukses	sukses	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	start_char=38|end_char=44|NER=O
+9	ndërhyrja	ndërhyrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	start_char=45|end_char=54|NER=O
+10	me	me	ADP	_	Case=Acc	6	case	_	start_char=55|end_char=57|NER=O
+11	vështirësi	vështirës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	start_char=58|end_char=68|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=69|end_char=71|NER=O
+13	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=72|end_char=77|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	1	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Pacientja që vuante nga çrregullimi gjenetik , gëzon shëndet të plotë 06 / 12 / 2023 Ministrja e Shëndetësisë dhe Mbrojtjes Sociale , Albana Koçiu në në reagim të bërë shprehu mirënjohje ndaj stafit të mjekëve si dhe infermierëve që ndihmuan gjatë ndërhyrjes kirurgjikale .
+# sent_id = 1
+1	Pacientja	pacientje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=9|NER=O
+2	që	që	PRON	_	PronType=Rel	3	nsubj	_	start_char=10|end_char=12|NER=O
+3	vuante	vuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	1	acl:relcl	_	start_char=13|end_char=19|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=20|end_char=23|NER=O
+5	çrregullimi	çrregullim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=24|end_char=35|NER=O
+6	gjenetik	gjenetik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=36|end_char=44|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	3	punct	_	start_char=45|end_char=46|NER=O
+8	gëzon	gëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=47|end_char=52|NER=O
+9	shëndet	shënd	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=53|end_char=60|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=61|end_char=63|NER=O
+11	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=64|end_char=69|SpacesAfter=\n|NER=O
+12	06	06	NUM	_	NumType=Card	9	amod	_	start_char=70|end_char=72|SpaceAfter=No|NER=B-DATE_0
+13	/	/	PUNCT	_	_	12	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=I-DATE_0
+14	12	12	NUM	_	NumType=Card	12	flat	_	start_char=75|end_char=77|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	13	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=I-DATE_0
+16	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=80|end_char=84|SpaceAfter=No|NER=I-DATE_0
+17	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	flat	_	start_char=85|end_char=94|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=95|end_char=96|NER=O
+19	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=97|end_char=109|NER=O
+20	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=110|end_char=113|NER=O
+21	Mbrojtjes	mbrojtje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	start_char=114|end_char=123|NER=O
+22	Sociale	social	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=124|end_char=131|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	23	punct	_	start_char=132|end_char=133|NER=O
+24	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	appos	_	start_char=134|end_char=140|NER=B-PER
+25	Koçiu	Koçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=141|end_char=146|NER=I-PER
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=147|end_char=149|NER=O
+27	në	në	ADP	_	Case=Acc	27	case	_	start_char=150|end_char=152|NER=O
+28	reagim	reagim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=153|end_char=159|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=160|end_char=162|NER=O
+30	bërë	bërë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=163|end_char=167|NER=O
+31	shprehu	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	27	acl:relcl	_	start_char=168|end_char=175|NER=O
+32	mirënjohje	mirënjohje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obj	_	start_char=176|end_char=186|NER=O
+33	ndaj	ndaj	ADP	_	Case=Abl	33	case	_	start_char=187|end_char=191|NER=O
+34	stafit	staf	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	start_char=192|end_char=198|NER=O
+35	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=199|end_char=201|NER=O
+36	mjekëve	mjekë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	33	nmod	_	start_char=202|end_char=209|NER=O
+37	si	si	SCONJ	_	_	38	mark	_	start_char=210|end_char=212|NER=O
+38	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=213|end_char=216|NER=O
+39	infermierëve	infermier	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	33	conj	_	start_char=217|end_char=229|NER=O
+40	që	që	PRON	_	PronType=Rel	40	nsubj	_	start_char=230|end_char=232|NER=O
+41	ndihmuan	ndihmoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	38	acl:relcl	_	start_char=233|end_char=241|NER=O
+42	gjatë	gjatë	ADP	_	Case=Abl	42	case	_	start_char=242|end_char=247|NER=O
+43	ndërhyrjes	ndërhyrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	40	obl	_	start_char=248|end_char=258|NER=O
+44	kirurgjikale	kirurgjikal	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=259|end_char=271|SpaceAfter=No|NER=O
+45	.	.	PUNCT	_	_	40	punct	_	start_char=272|end_char=273|SpacesAfter=\n|NER=O
+
+# text = Një ndërhyrje e vështirësisë së lartë është kryer me sukses në Spitalin Rajonal Memorial të Fierit .
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	ndërhyrje	ndërhyrje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4|end_char=13|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	vështirësisë	vështirësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=16|end_char=28|NER=O
+5	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=29|end_char=31|NER=O
+6	lartë	lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=32|end_char=37|NER=O
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=38|end_char=43|NER=O
+8	kryer	kryej	VERB	_	VerbForm=Part	0	root	_	start_char=44|end_char=49|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=50|end_char=52|NER=O
+10	sukses	sukses	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=53|end_char=59|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=60|end_char=62|NER=O
+12	Spitalin	Spital	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=63|end_char=71|NER=O
+13	Rajonal	Rajonal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=72|end_char=79|NER=O
+14	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=80|end_char=88|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=89|end_char=91|NER=O
+16	Fierit	Fier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	compound	_	start_char=92|end_char=98|SpaceAfter=No|NER=B-VEND_0
+17	.	.	PUNCT	_	_	8	punct	_	start_char=99|end_char=100|NER=O
+
+# text = Mësohet se kirurgët dhe infermierët kanë ndërhyrë në në operacion të vështirë tek 30 vjeçarja me çrregullimin gjenetik " Trisomia 21 " .
+# sent_id = 3
+1	Mësohet	mësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=7|NER=O
+2	se	se	SCONJ	_	_	7	mark	_	start_char=8|end_char=10|NER=O
+3	kirurgët	kirurg	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	obl	_	start_char=11|end_char=19|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=20|end_char=23|NER=O
+5	infermierët	infermier	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	conj	_	start_char=24|end_char=35|NER=O
+6	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=36|end_char=40|NER=O
+7	ndërhyrë	ndërhyj	VERB	_	VerbForm=Part	1	conj	_	start_char=41|end_char=49|NER=O
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=50|end_char=52|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=53|end_char=55|NER=O
+10	operacion	operacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=56|end_char=65|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=66|end_char=68|NER=O
+12	vështirë	vështirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=69|end_char=77|NER=O
+13	tek	tek	ADP	_	Case=Nom	15	case	_	start_char=78|end_char=81|NER=O
+14	30	30	NUM	_	NumType=Card	15	nummod	_	start_char=82|end_char=84|NER=O
+15	vjeçarja	vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=85|end_char=93|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=94|end_char=96|NER=O
+17	çrregullimin	çrregullim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=97|end_char=109|NER=O
+18	gjenetik	gjenetik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=110|end_char=118|NER=O
+19	"	"	PUNCT	_	_	20	punct	_	start_char=119|end_char=120|SpaceAfter=No|NER=O
+20	Trisomia	Trisomi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	appos	_	start_char=121|end_char=129|NER=O
+21	21	21	NUM	_	NumType=Card	20	amod:nummod	_	start_char=130|end_char=132|SpaceAfter=No|NER=O
+22	"	"	PUNCT	_	_	20	punct	_	start_char=133|end_char=134|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	7	punct	_	start_char=135|end_char=136|SpacesAfter=\n|NER=O
+
+# text = " Një ndërhyrje e kompleksitetit të lartë është realizuar me sukses nga personeli i Shërbimit të Kirurgjisë së Përgjithshme në Spitalin Rajonal Memorial Fier , te një vajzë 30 vjeçare që vuante nga çrregullim gjenetik : Trisomia 21 .
+# sent_id = 4
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Një	një	DET	_	Definite=Ind	3	det	_	start_char=2|end_char=5|NER=O
+3	ndërhyrje	ndërhyrje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=6|end_char=15|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	kompleksitetit	kompleksitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=18|end_char=32|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=33|end_char=35|NER=O
+7	lartë	lartë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=36|end_char=41|NER=O
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=42|end_char=47|NER=O
+9	realizuar	realizoj	VERB	_	VerbForm=Part	0	root	_	start_char=48|end_char=57|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=58|end_char=60|NER=O
+11	sukses	sukses	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=61|end_char=67|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=68|end_char=71|NER=O
+13	personeli	personel	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=72|end_char=81|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=82|end_char=83|NER=O
+15	Shërbimit	shërbim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=84|end_char=93|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=94|end_char=96|NER=O
+17	Kirurgjisë	Kirurgji	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=97|end_char=107|NER=O
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=108|end_char=110|NER=O
+19	Përgjithshme	përgjithshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=111|end_char=123|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=124|end_char=126|NER=O
+21	Spitalin	Spital	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=127|end_char=135|NER=O
+22	Rajonal	Rajonal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=136|end_char=143|NER=O
+23	Memorial	Memorial	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	start_char=144|end_char=152|NER=O
+24	Fier	Fier	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	flat	_	start_char=153|end_char=157|SpaceAfter=No|NER=B-VEND_0
+25	,	,	PUNCT	_	_	28	punct	_	start_char=158|end_char=159|NER=O
+26	te	te	ADP	_	Case=Nom	28	case	_	start_char=160|end_char=162|NER=O
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=163|end_char=166|NER=O
+28	vajzë	vajzë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	list	_	start_char=167|end_char=172|NER=O
+29	30	30	NUM	_	NumType=Card	28	nummod	_	start_char=173|end_char=175|NER=O
+30	vjeçare	vjeçar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=176|end_char=183|NER=O
+31	që	që	PRON	_	PronType=Rel	32	nsubj	_	start_char=184|end_char=186|NER=O
+32	vuante	vuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	28	acl:relcl	_	start_char=187|end_char=193|NER=O
+33	nga	nga	ADP	_	Case=Nom	34	case	_	start_char=194|end_char=197|NER=O
+34	çrregullim	çrregullim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	start_char=198|end_char=208|NER=O
+35	gjenetik	gjenetik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=209|end_char=217|SpaceAfter=No|NER=O
+36	:	:	PUNCT	_	_	32	punct	_	start_char=218|end_char=219|NER=O
+37	Trisomia	Trisomi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=220|end_char=228|NER=O
+38	21	21	NUM	_	NumType=Card	1	amod:nummod	_	start_char=229|end_char=231|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	1	punct	_	start_char=232|end_char=233|SpacesAfter=\n|NER=O
+
+# text = Mirënjohje ekipit të mjekëve kirurgë dhe anestezistë , Dr .
+# sent_id = 5
+1	Mirënjohje	mirënjohje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=10|NER=O
+2	ekipit	ekip	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=17|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=18|end_char=20|NER=O
+4	mjekëve	mjekë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=21|end_char=28|NER=O
+5	kirurgë	kirurgë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=29|end_char=36|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=37|end_char=40|NER=O
+7	anestezistë	anestezistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	start_char=41|end_char=52|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=53|end_char=54|NER=O
+9	Dr	Dr	NUM	_	NumType=Card	7	amod:nummod	_	start_char=55|end_char=57|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	1	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Frenki Vila , Dr .
+# sent_id = 6
+1	Frenki	Frenk	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-PER
+2	Vila	Vila	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=7|end_char=11|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|NER=O
+4	Dr	Dr	NUM	_	NumType=Card	2	conj	_	start_char=14|end_char=16|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=O
+
+# text = Alti Haxhiu , Dr .
+# sent_id = 7
+1	Alti	Alti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|NER=B-PER
+2	Haxhiu	Haxhi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=5|end_char=11|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|NER=O
+4	Dr	Dr	NUM	_	NumType=Card	2	conj	_	start_char=14|end_char=16|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=O
+
+# text = Andi Gjini , Dr .
+# sent_id = 8
+1	Andi	Andi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|NER=B-PER
+2	Gjini	Gjini	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=5|end_char=10|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=11|end_char=12|NER=O
+4	Dr	Dr	NUM	_	NumType=Ord	2	conj	_	start_char=13|end_char=15|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	1	punct	_	start_char=16|end_char=17|NER=O
+
+# text = Mario Shehu si dhe personelin infermieror që asistuan gjatë ndërhyrjes kirurgjikale , Xhesika Hoxha dhe Denisa Maqina " - shkruan Koçoi në postimin e saj në facebook .
+# sent_id = 9
+1	Mario	Mario	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Shehu	shem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=6|end_char=11|NER=I-PER
+3	si	si	SCONJ	_	_	5	mark	_	start_char=12|end_char=14|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=15|end_char=18|NER=O
+5	personelin	personel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=19|end_char=29|NER=O
+6	infermieror	infermieror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=30|end_char=41|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=42|end_char=44|NER=O
+8	asistuan	asistoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	start_char=45|end_char=53|NER=O
+9	gjatë	gjatë	ADP	_	Case=Abl	10	case	_	start_char=54|end_char=59|NER=O
+10	ndërhyrjes	ndërhyrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	start_char=60|end_char=70|NER=O
+11	kirurgjikale	kirurgjikal	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=71|end_char=83|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=84|end_char=85|NER=O
+13	Xhesika	Xhesikë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	start_char=86|end_char=93|NER=B-PER
+14	Hoxha	Hoxhë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=94|end_char=99|NER=I-PER
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=100|end_char=103|NER=O
+16	Denisa	denisë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=104|end_char=110|NER=B-PER
+17	Maqina	maqina	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=111|end_char=117|NER=I-PER
+18	"	"	PUNCT	_	_	16	punct	_	start_char=118|end_char=119|NER=O
+19	-	-	PUNCT	_	_	16	punct	_	start_char=120|end_char=121|NER=O
+20	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=122|end_char=129|NER=O
+21	Koçoi	Koçoi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=130|end_char=135|NER=B-PER
+22	në	në	ADP	_	Case=Acc	21	case	_	start_char=136|end_char=138|NER=O
+23	postimin	postim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=139|end_char=147|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=148|end_char=149|NER=O
+25	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	amod:poss	_	start_char=150|end_char=153|NER=O
+26	në	në	ADP	_	Case=Acc	25	case	_	start_char=154|end_char=156|NER=O
+27	facebook	facebook	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=157|end_char=165|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	18	punct	_	start_char=166|end_char=167|SpacesAfter=\n\n|NER=O
+

@@ -1,0 +1,162 @@
+# text = 25 / 12 / 2023 Fluksi i shtuar i virozave tek fëmijët ka rritur numrin e urgjencave drejt spitalit dhe vizitave në qendrat shëndetësore .
+# sent_id = 0
+1	25	25	NUM	_	NumType=Card	20	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	18	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	18	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	20	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	20	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Fluksi	Fluks	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=15|end_char=21|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=22|end_char=23|NER=O
+8	shtuar	shtoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=24|end_char=30|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=31|end_char=32|NER=O
+10	virozave	virozë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=33|end_char=41|NER=O
+11	tek	tek	ADP	_	Case=Nom	29	case	_	start_char=42|end_char=45|NER=O
+12	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	31	advmod	_	start_char=46|end_char=53|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=54|end_char=56|NER=O
+14	rritur	rrit	VERB	_	VerbForm=Part	0	root	_	start_char=57|end_char=63|NER=O
+15	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	obj	_	start_char=64|end_char=70|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=71|end_char=72|NER=O
+17	urgjencave	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	32	nmod	_	start_char=73|end_char=83|NER=O
+18	drejt	drejt	ADP	_	Case=Abl	36	case	_	start_char=84|end_char=89|NER=O
+19	spitalit	spital	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	31	advmod	_	start_char=90|end_char=98|NER=O
+20	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=99|end_char=102|NER=O
+21	vizitave	vizitë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	36	conj	_	start_char=103|end_char=111|NER=O
+22	në	në	ADP	_	Case=Acc	40	case	_	start_char=112|end_char=114|NER=O
+23	qendrat	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	start_char=115|end_char=122|NER=O
+24	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=123|end_char=135|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	31	punct	_	start_char=136|end_char=137|NER=O
+
+# text = Në Tiranë për të përballuar këtë fluks qëndrojnë të hapura si urgjenca pediatrike 24 orëshe 4 qendra shëndetësore .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=3|end_char=9|NER=B-VEND_0
+3	për	për	PART	_	_	5	fixed	_	start_char=10|end_char=13|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=14|end_char=16|NER=O
+5	përballuar	përballoj	VERB	_	VerbForm=Part	8	advmod	_	start_char=17|end_char=27|NER=O
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=28|end_char=32|NER=O
+7	fluks	fluks	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	start_char=33|end_char=38|NER=O
+8	qëndrojnë	qëndroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=48|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=49|end_char=51|NER=O
+10	hapura	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	cop	_	start_char=52|end_char=58|NER=O
+11	si	si	SCONJ	_	_	12	mark	_	start_char=59|end_char=61|NER=O
+12	urgjenca	urgjencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	start_char=62|end_char=70|NER=O
+13	pediatrike	pediatrik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=71|end_char=81|NER=O
+14	24	24	NUM	_	NumType=Card	12	nummod	_	start_char=82|end_char=84|NER=O
+15	orëshe	orësh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=85|end_char=91|NER=O
+16	4	4	NUM	_	NumType=Card	17	nummod	_	start_char=92|end_char=93|NER=O
+17	qendra	qendër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=94|end_char=100|NER=O
+18	shëndetësore	shëndetësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=101|end_char=113|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	8	punct	_	start_char=114|end_char=115|NER=O
+
+# text = Shkojmë drejt QSH .
+# sent_id = 2
+1	Shkojmë	shkoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	drejt	drejt	ADP	_	Case=Abl	3	case	_	start_char=8|end_char=13|NER=O
+3	QSH	QSH.8	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	start_char=14|end_char=17|NER=O
+4	.	.	PUNCT	_	_	1	punct	_	start_char=18|end_char=19|NER=O
+
+# text = 8 e cila qëndron e hapur pa ndërprerje për urgjenca pediatrike .
+# sent_id = 3
+1	8	8	NUM	_	NumType=Card	1	obl	_	start_char=0|end_char=1|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2|end_char=3|NER=O
+3	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	6	nsubj	_	start_char=4|end_char=8|NER=O
+4	qëndron	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=9|end_char=16|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=17|end_char=18|NER=O
+6	hapur	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	cop	_	start_char=19|end_char=24|NER=O
+7	pa	pa	ADP	_	Case=Acc	10	case	_	start_char=25|end_char=27|NER=O
+8	ndërprerje	ndërprerje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=28|end_char=38|NER=O
+9	për	për	ADP	_	Case=Acc	12	case	_	start_char=39|end_char=42|NER=O
+10	urgjenca	urgjencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=43|end_char=51|NER=O
+11	pediatrike	pediatrik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=52|end_char=62|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	1	punct	_	start_char=63|end_char=64|NER=O
+
+# text = Mjekja Amarlda Alushaj ka qenë gjatë gjithë natës në turn dhe po pret edhe vizitat e turnit të parë .
+# sent_id = 4
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	Amarlda	Amarldë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=7|end_char=14|NER=B-PER
+3	Alushaj	Alushë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=15|end_char=22|NER=I-PER
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=23|end_char=25|NER=O
+5	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=26|end_char=30|NER=O
+6	gjatë	gjatë	ADP	_	Case=Abl	8	case	_	start_char=31|end_char=36|NER=O
+7	gjithë	gjithë	PRON	_	PronType=Ind	8	nummod	_	start_char=37|end_char=43|NER=O
+8	natës	natë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=44|end_char=49|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=50|end_char=52|NER=O
+10	turn	turn	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=53|end_char=57|NER=O
+11	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=58|end_char=61|NER=O
+12	po	po	PART	_	_	13	mark	_	start_char=62|end_char=64|NER=O
+13	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=65|end_char=69|NER=O
+14	edhe	edhe	CCONJ	_	_	15	cc	_	start_char=70|end_char=74|NER=O
+15	vizitat	vizitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=75|end_char=82|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=83|end_char=84|NER=O
+17	turnit	turn	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=85|end_char=91|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=92|end_char=94|NER=O
+19	parë	parë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=95|end_char=99|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	13	punct	_	start_char=100|end_char=101|NER=O
+
+# text = Gjatës nates thotë ajo prindërit ende e synojnë më pak mjekun e qendrës dhe preferojnë më shumë urgjencën e spitalit .
+# sent_id = 5
+1	Gjatës	Gjatë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=0|end_char=6|NER=O
+2	nates	nates	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	start_char=7|end_char=12|NER=O
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=18|NER=O
+4	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	det	_	start_char=19|end_char=22|NER=O
+5	prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	obj	_	start_char=23|end_char=32|NER=O
+6	ende	ende	ADV	_	AdvType=Tim	8	advmod	_	start_char=33|end_char=37|NER=O
+7	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	cc	_	start_char=38|end_char=39|NER=O
+8	synojnë	synoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=40|end_char=47|NER=O
+9	më	më	PART	_	_	11	mark	_	start_char=48|end_char=50|NER=O
+10	pak	pak	ADV	_	AdvType=Deg	11	nummod	_	start_char=51|end_char=54|NER=O
+11	mjekun	mjeku	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=55|end_char=61|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=62|end_char=63|NER=O
+13	qendrës	qendrë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=64|end_char=71|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=72|end_char=75|NER=O
+15	preferojnë	preferoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=76|end_char=86|NER=O
+16	më	më	PART	_	_	18	mark	_	start_char=87|end_char=89|NER=O
+17	shumë	shumë	ADV	_	AdvType=Deg	18	nummod	_	start_char=90|end_char=95|NER=O
+18	urgjencën	urgjencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=96|end_char=105|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=106|end_char=107|NER=O
+20	spitalit	spital	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=108|end_char=116|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=117|end_char=118|SpacesAfter=\n|NER=O
+
+# text = Qendrat shëndetësore që presin urgjenca në çdo orë të ditës dhe natës janë ajo numër 8 panë sheshit " Ëillson " , numër 7 në Laprakë , numër 6 në Kombinat dhe ajo numër 10 pranë zonës së Oxhakut .
+# sent_id = 6
+1	Qendrat	qendrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	start_char=0|end_char=7|NER=O
+2	shëndetësore	shëndetësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=8|end_char=20|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=21|end_char=23|NER=O
+4	presin	pres	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=24|end_char=30|NER=O
+5	urgjenca	urgjencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=31|end_char=39|NER=O
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=40|end_char=42|NER=O
+7	çdo	çdo	PRON	_	PronType=Ind	8	nummod	_	start_char=43|end_char=46|NER=O
+8	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=47|end_char=50|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=51|end_char=53|NER=O
+10	ditës	ditë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=54|end_char=59|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=60|end_char=63|NER=O
+12	natës	natë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	conj	_	start_char=64|end_char=69|NER=O
+13	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=70|end_char=74|NER=O
+14	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	det	_	start_char=75|end_char=78|NER=O
+15	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	start_char=79|end_char=84|NER=O
+16	8	8	NUM	_	NumType=Card	17	iobj	_	start_char=85|end_char=86|NER=O
+17	panë	shoh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	csubj	_	start_char=87|end_char=91|NER=O
+18	sheshit	shesh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=92|end_char=99|NER=B-SHESH
+19	"	"	PUNCT	_	_	20	punct	_	start_char=100|end_char=101|SpaceAfter=No|NER=O
+20	Ëillson	Ëillson	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	start_char=102|end_char=109|SpaceAfter=No|NER=I-SHESH
+21	"	"	PUNCT	_	_	18	punct	_	start_char=110|end_char=111|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	22	punct	_	start_char=112|end_char=113|NER=O
+23	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	list	_	start_char=114|end_char=119|NER=O
+24	7	7	NUM	_	NumType=Card	22	nummod	_	start_char=120|end_char=121|NER=O
+25	në	në	ADP	_	Case=Acc	25	case	_	start_char=122|end_char=124|NER=O
+26	Laprakë	Laprakë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=125|end_char=132|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	27	punct	_	start_char=133|end_char=134|NER=O
+28	numër	numër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	list	_	start_char=135|end_char=140|NER=O
+29	6	6	NUM	_	NumType=Card	27	nummod	_	start_char=141|end_char=142|NER=O
+30	në	në	ADP	_	Case=Acc	30	case	_	start_char=143|end_char=145|NER=O
+31	Kombinat	kombinat	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=146|end_char=154|NER=O
+32	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=155|end_char=158|NER=O
+33	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	det	_	start_char=159|end_char=162|NER=O
+34	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	conj	_	start_char=163|end_char=168|NER=O
+35	10	10	NUM	_	NumType=Card	33	nummod	_	start_char=169|end_char=171|NER=O
+36	pranë	pranë	ADP	_	Case=Abl	36	case	_	start_char=172|end_char=177|NER=O
+37	zonës	zonë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=178|end_char=183|NER=O
+38	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=184|end_char=186|NER=O
+39	Oxhakut	Oxhak	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=187|end_char=194|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	4	punct	_	start_char=195|end_char=196|SpacesAfter=\n\n|NER=O
+

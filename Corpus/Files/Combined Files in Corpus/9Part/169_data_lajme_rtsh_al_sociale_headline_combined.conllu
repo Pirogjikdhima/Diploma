@@ -1,0 +1,218 @@
+# text = 10 / 01 / 2024 " Përgjatë shërbimit 24 orë numërohen diku te 300 – 400 vizita , përfshirë vizitat që i lëmë për rikontroll .
+# sent_id = 0
+1	10	10	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	15	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	17	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	3	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Përgjatë	përgjatë	ADP	_	Case=Abl	3	case	_	start_char=17|end_char=25|NER=O
+8	shërbimit	shërbim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=26|end_char=35|NER=O
+9	24	24	NUM	_	NumType=Card	5	nummod	_	start_char=36|end_char=38|NER=O
+10	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	start_char=39|end_char=42|NER=O
+11	numërohen	numëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=43|end_char=52|NER=O
+12	diku	diku	ADV	_	AdvType=Loc	6	advmod	_	start_char=53|end_char=57|NER=O
+13	te	te	ADP	_	Case=Nom	12	case	_	start_char=58|end_char=60|NER=O
+14	300	300	NUM	_	NumType=Card	12	nummod	_	start_char=61|end_char=64|SpaceAfter=No|NER=O
+15	–	–	PUNCT	_	_	12	punct	_	start_char=65|end_char=66|SpaceAfter=No|NER=O
+16	400	400	NUM	_	NumType=Card	12	nummod	_	start_char=67|end_char=70|NER=O
+17	vizita	vizitë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=71|end_char=77|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	14	punct	_	start_char=78|end_char=79|NER=O
+19	përfshirë	përfshij	VERB	_	VerbForm=Part	12	amod	_	start_char=80|end_char=89|NER=O
+20	vizitat	vizitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=90|end_char=97|NER=O
+21	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=98|end_char=100|NER=O
+22	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	iobj	_	start_char=101|end_char=102|NER=O
+23	lëmë	lëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=103|end_char=107|NER=O
+24	për	për	ADP	_	Case=Acc	20	case	_	start_char=108|end_char=111|NER=O
+25	rikontroll	rikontroll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=112|end_char=122|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	6	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Sidomos bebet e vogla me virusin Sinsicial janë më të predispozuara që të bëjnë edhe ndërlikime të patologjisë bazë , " thotë mjekja e urgjencës , Lori Gjoni .
+# sent_id = 1
+1	Sidomos	sidomos	PART	_	_	8	dislocated	_	start_char=0|end_char=7|NER=O
+2	bebet	bebet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	start_char=8|end_char=13|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	vogla	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=16|end_char=21|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	virusin	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=25|end_char=32|NER=O
+7	Sinsicial	Sinsicial	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=33|end_char=42|NER=O
+8	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=47|NER=O
+9	më	më	PART	_	_	11	mark	_	start_char=48|end_char=50|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=51|end_char=53|NER=O
+11	predispozuara	predispozuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	cop	_	start_char=54|end_char=67|NER=O
+12	që	që	SCONJ	_	_	14	mark	_	start_char=68|end_char=70|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=71|end_char=73|NER=O
+14	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	csubj	_	start_char=74|end_char=79|NER=O
+15	edhe	edhe	PART	_	_	16	mark	_	start_char=80|end_char=84|NER=O
+16	ndërlikime	ndërlikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	start_char=85|end_char=95|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=96|end_char=98|NER=O
+18	patologjisë	patologji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=99|end_char=110|NER=O
+19	bazë	bazë	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=111|end_char=115|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	22	punct	_	start_char=116|end_char=117|SpaceAfter=No|NER=O
+21	"	"	PUNCT	_	_	22	punct	_	start_char=118|end_char=119|NER=O
+22	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	parataxis	_	start_char=120|end_char=125|NER=O
+23	mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=126|end_char=132|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=133|end_char=134|NER=O
+25	urgjencës	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=135|end_char=144|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	27	punct	_	start_char=145|end_char=146|NER=O
+27	Lori	Lori	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	appos	_	start_char=147|end_char=151|NER=B-PER
+28	Gjoni	Gjon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=152|end_char=157|SpaceAfter=No|NER=I-PER
+29	.	.	PUNCT	_	_	22	punct	_	start_char=158|end_char=159|SpacesAfter=\n|NER=O
+
+# text = " Gjejmë prezente viroza të cilat veprojnë njëherazi në disa organe dhe janë tv predispozuara që të krijojnë kushte të caktuara të terrenit në organizëm për të ftuar viroza të tjera dhe për të përforcuar veprimin e tyre viral , " thotë Dr .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjejmë	Gjej	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	advmod	_	start_char=2|end_char=8|NER=O
+3	prezente	prezej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=17|NER=O
+4	viroza	virozë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=18|end_char=24|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=25|end_char=27|NER=O
+6	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	7	nsubj	_	start_char=28|end_char=33|NER=O
+7	veprojnë	veproj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=34|end_char=42|NER=O
+8	njëherazi	njëherazi	ADV	_	AdvType=Man	7	advmod	_	start_char=43|end_char=52|NER=O
+9	në	në	ADP	_	Case=Acc	11	case	_	start_char=53|end_char=55|NER=O
+10	disa	disa	PRON	_	PronType=Ind	11	nummod	_	start_char=56|end_char=60|NER=O
+11	organe	organ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	start_char=61|end_char=67|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=68|end_char=71|NER=O
+13	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=72|end_char=76|NER=O
+14	tv	tv	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	cop	_	start_char=77|end_char=79|NER=O
+15	predispozuara	predispozuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	cop	_	start_char=80|end_char=93|NER=O
+16	që	që	SCONJ	_	_	18	mark	_	start_char=94|end_char=96|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=97|end_char=99|NER=O
+18	krijojnë	krijoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=100|end_char=108|NER=O
+19	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	start_char=109|end_char=115|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=116|end_char=118|NER=O
+21	caktuara	caktuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=119|end_char=127|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=128|end_char=130|NER=O
+23	terrenit	terren	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=131|end_char=139|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=140|end_char=142|NER=O
+25	organizëm	organizëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	start_char=143|end_char=152|NER=O
+26	për	për	PART	_	_	28	fixed	_	start_char=153|end_char=156|NER=O
+27	të	të	PART	_	_	28	fixed	_	start_char=157|end_char=159|NER=O
+28	ftuar	ftoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=160|end_char=165|NER=O
+29	viroza	virozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obj	_	start_char=166|end_char=172|NER=O
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=173|end_char=175|NER=O
+31	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	29	amod	_	start_char=176|end_char=181|NER=O
+32	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=182|end_char=185|NER=O
+33	për	për	PART	_	_	35	fixed	_	start_char=186|end_char=189|NER=O
+34	të	të	PART	_	_	35	fixed	_	start_char=190|end_char=192|NER=O
+35	përforcuar	përforcoj	VERB	_	VerbForm=Part	28	advmod	_	start_char=193|end_char=203|NER=O
+36	veprimin	veprim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=204|end_char=212|NER=O
+37	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	38	det:poss	_	start_char=213|end_char=214|NER=O
+38	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	amod:poss	_	start_char=215|end_char=219|NER=O
+39	viral	viral	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=220|end_char=225|SpaceAfter=No|NER=O
+40	,	,	PUNCT	_	_	42	punct	_	start_char=226|end_char=227|SpaceAfter=No|NER=O
+41	"	"	PUNCT	_	_	42	punct	_	start_char=228|end_char=229|NER=O
+42	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	ccomp	_	start_char=230|end_char=235|NER=O
+43	Dr	Dr	NUM	_	NumType=Card	42	advmod	_	start_char=236|end_char=238|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	42	punct	_	start_char=239|end_char=240|NER=O
+
+# text = Gjoni .
+# sent_id = 3
+1	Gjoni	Gjon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|SpacesAfter=\n|NER=O
+
+# text = " Hera - herës Kemi edhe rezaurime të kapaciteteve , sepse piku viral referon i tillë nga problematika , por që arrihet të përballohet , " thotë mjekja Gjoni .
+# sent_id = 4
+1	"	"	PUNCT	_	_	29	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Hera	Hera-herë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=2|end_char=6|NER=O
+3	-	-	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|NER=O
+4	herës	Hera-herë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=9|end_char=14|NER=O
+5	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+6	edhe	edhe	PART	_	_	5	cc	_	start_char=20|end_char=24|NER=O
+7	rezaurime	rezaurim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=25|end_char=34|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=35|end_char=37|NER=O
+9	kapaciteteve	kapacitet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=38|end_char=50|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	9	punct	_	start_char=51|end_char=52|NER=O
+11	sepse	sepse	SCONJ	_	_	12	mark	_	start_char=53|end_char=58|NER=O
+12	piku	piku	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=59|end_char=63|NER=O
+13	viral	viral	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=64|end_char=69|NER=O
+14	referon	referoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=70|end_char=77|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=78|end_char=79|NER=O
+16	tillë	tillë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	cop	_	start_char=80|end_char=85|NER=O
+17	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=86|end_char=89|NER=O
+18	problematika	problematikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=90|end_char=102|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	18	punct	_	start_char=103|end_char=104|NER=O
+20	por	por	CCONJ	_	_	20	cc	_	start_char=105|end_char=108|NER=O
+21	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=109|end_char=111|NER=O
+22	arrihet	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	acl	_	start_char=112|end_char=119|NER=O
+23	të	të	PART	_	_	22	fixed	_	start_char=120|end_char=122|NER=O
+24	përballohet	përballoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	20	ccomp	_	start_char=123|end_char=134|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	25	punct	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+26	"	"	PUNCT	_	_	25	punct	_	start_char=137|end_char=138|NER=O
+27	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	conj	_	start_char=139|end_char=144|NER=O
+28	mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=145|end_char=151|NER=O
+29	Gjoni	Gjon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	appos	_	start_char=152|end_char=157|SpaceAfter=No|NER=B-PER
+30	.	.	PUNCT	_	_	25	punct	_	start_char=158|end_char=159|SpacesAfter=\n|NER=O
+
+# text = " Nëse dy katet e shëndetësi - bërjes , zyra e mjekut të familjes dhe e mjekut specialist në poliklinikë gjykojnë se në baza të forta të argumentit profesional , delegimin e rastit në QSUT , atëherë ky duhet të përbëjë një kusht të panegociueshëm dhe të domosdoshëm të ardhjes së rastit , " shton znj .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Nëse	nëse	SCONJ	_	_	4	mark	_	start_char=2|end_char=6|NER=O
+3	dy	dy	NUM	_	NumType=Card	4	nummod	_	start_char=7|end_char=9|NER=O
+4	katet	kat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=10|end_char=15|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det:poss	_	start_char=16|end_char=17|NER=O
+6	shëndetësi	shëndetësi-rjërje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=18|end_char=28|SpaceAfter=No|NER=O
+7	-	-	PUNCT	_	_	4	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+8	bërjes	shëndetësi-rjërje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=31|end_char=37|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	8	punct	_	start_char=38|end_char=39|NER=O
+10	zyra	zyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=40|end_char=44|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=45|end_char=46|NER=O
+12	mjekut	mjek	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=47|end_char=53|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=54|end_char=56|NER=O
+14	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=57|end_char=65|NER=O
+15	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=66|end_char=69|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=70|end_char=71|NER=O
+17	mjekut	mjek	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=72|end_char=78|NER=O
+18	specialist	specialist	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=79|end_char=89|NER=O
+19	në	në	ADP	_	Case=Acc	18	case	_	start_char=90|end_char=92|NER=O
+20	poliklinikë	poliklinikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=93|end_char=104|NER=O
+21	gjykojnë	gjykoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	amod	_	start_char=105|end_char=113|NER=O
+22	se	se	SCONJ	_	_	22	mark	_	start_char=114|end_char=116|NER=O
+23	në	në	ADP	_	Case=Acc	22	case	_	start_char=117|end_char=119|NER=O
+24	baza	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	advmod	_	start_char=120|end_char=124|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=125|end_char=127|NER=O
+26	forta	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=128|end_char=133|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=134|end_char=136|NER=O
+28	argumentit	argument	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=137|end_char=147|NER=O
+29	profesional	profesional	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=148|end_char=159|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	29	punct	_	start_char=160|end_char=161|NER=O
+31	delegimin	delegim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	appos	_	start_char=162|end_char=171|NER=O
+32	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=172|end_char=173|NER=O
+33	rastit	rastit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=174|end_char=180|NER=O
+34	në	në	ADP	_	Case=Acc	33	case	_	start_char=181|end_char=183|NER=O
+35	QSUT	QSUT	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=184|end_char=188|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	35	punct	_	start_char=189|end_char=190|NER=O
+37	atëherë	atëherë	ADV	_	AdvType=Tim	39	mark	_	start_char=191|end_char=198|NER=O
+38	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	39	nsubj	_	start_char=199|end_char=201|NER=O
+39	duhet	duhem	AUX	_	_	39	aux	_	start_char=202|end_char=207|NER=O
+40	të	të	PART	_	_	39	fixed	_	start_char=208|end_char=210|NER=O
+41	përbëjë	përbëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=211|end_char=218|NER=O
+42	një	një	DET	_	Definite=Ind	41	det	_	start_char=219|end_char=222|NER=O
+43	kusht	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	obj	_	start_char=223|end_char=228|NER=O
+44	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=229|end_char=231|NER=O
+45	panegociueshëm	panegociueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=232|end_char=246|NER=O
+46	dhe	dhe	CCONJ	_	_	46	cc	_	start_char=247|end_char=250|NER=O
+47	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	46	det	_	start_char=251|end_char=253|NER=O
+48	domosdoshëm	domosdoshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	43	conj	_	start_char=254|end_char=265|NER=O
+49	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	48	det:poss	_	start_char=266|end_char=268|NER=O
+50	ardhjes	ardhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	41	nmod	_	start_char=269|end_char=276|NER=O
+51	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	50	det:poss	_	start_char=277|end_char=279|NER=O
+52	rastit	rastit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	48	nmod	_	start_char=280|end_char=286|SpaceAfter=No|NER=O
+53	,	,	PUNCT	_	_	53	punct	_	start_char=287|end_char=288|SpaceAfter=No|NER=O
+54	"	"	PUNCT	_	_	53	punct	_	start_char=289|end_char=290|NER=O
+55	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	conj	_	start_char=291|end_char=296|NER=O
+56	znj	znj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	53	obj	_	start_char=297|end_char=300|SpaceAfter=No|NER=O
+57	.	.	PUNCT	_	_	53	punct	_	start_char=301|end_char=302|NER=O
+
+# text = Gjoni .
+# sent_id = 6
+1	Gjoni	Gjon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 7
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat:name	_	start_char=18|end_char=24|SpacesAfter=\n\n|NER=I-PER
+

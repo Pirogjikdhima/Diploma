@@ -1,0 +1,391 @@
+# text = Kanadaja do të mirëpresë 1 .
+# sent_id = 0
+1	Kanadaja	Kanada	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=B-VEND_1
+2	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	mirëpresë	mirëprem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=24|NER=O
+5	1	1	NUM	_	NumType=Card	4	advmod	_	start_char=25|end_char=26|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	8	punct	_	start_char=27|end_char=28|NER=O
+
+# text = 45 milionë banorë të rinj të përhershëm gjatë 3 viteve të ardhshme !
+# sent_id = 1
+1	45	45	NUM	_	NumType=Card	8	nummod	_	start_char=0|end_char=2|NER=O
+2	milionë	milion	NUM	_	NumType=Card	8	nummod	_	start_char=3|end_char=10|NER=O
+3	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	start_char=11|end_char=17|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=18|end_char=20|NER=O
+5	rinj	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=21|end_char=25|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=26|end_char=28|NER=O
+7	përhershëm	përhershëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=29|end_char=39|NER=O
+8	gjatë	gjatë	ADP	_	Case=Abl	15	case	_	start_char=40|end_char=45|NER=O
+9	3	3	NUM	_	NumType=Card	15	nummod	_	start_char=46|end_char=47|NER=O
+10	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=48|end_char=54|NER=O
+11	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=55|end_char=57|NER=O
+12	ardhshme	ardhshme	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=58|end_char=66|SpaceAfter=No|NER=O
+13	!	!	PUNCT	_	_	19	punct	_	start_char=67|end_char=68|SpacesAfter=\n|NER=O
+
+# text = Forca totale e punës e Kanadasë në tetor ishte më e madhe se kurrë , e mbështetur nga emigracioni i fortë , ndërkohë që shkalla e punësimit për emigrantët ishte në nivelin më të lartë të regjistruar , shkruan Scan Tv .
+# sent_id = 2
+1	Forca	Forcë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	flat	_	start_char=0|end_char=5|NER=O
+2	totale	total	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	flat	_	start_char=6|end_char=12|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=13|end_char=14|NER=O
+4	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=15|end_char=20|NER=O
+5	e	e	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=21|end_char=22|NER=O
+6	Kanadasë	Kanadasë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=23|end_char=31|NER=B-VEND_1
+7	në	në	ADP	_	Case=Acc	30	case	_	start_char=32|end_char=34|NER=O
+8	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	advmod	_	start_char=35|end_char=40|NER=O
+9	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	26	acl	_	start_char=41|end_char=46|NER=O
+10	më	më	PART	_	_	34	mark	_	start_char=47|end_char=49|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=50|end_char=51|NER=O
+12	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	cop	_	start_char=52|end_char=57|NER=O
+13	se	se	SCONJ	_	_	36	mark	_	start_char=58|end_char=60|NER=O
+14	kurrë	kurrë	ADV	_	AdvType=Tim	34	advmod	_	start_char=61|end_char=66|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	39	punct	_	start_char=67|end_char=68|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	39	det	_	start_char=69|end_char=70|NER=O
+17	mbështetur	mbështetur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=71|end_char=81|NER=O
+18	nga	nga	ADP	_	Case=Nom	41	case	_	start_char=82|end_char=85|NER=O
+19	emigracioni	emigracion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	obl	_	start_char=86|end_char=97|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=98|end_char=99|NER=O
+21	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=100|end_char=105|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	45	punct	_	start_char=106|end_char=107|NER=O
+23	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	46	fixed	_	start_char=108|end_char=116|NER=O
+24	që	që	SCONJ	_	_	47	mark	_	start_char=117|end_char=119|NER=O
+25	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	52	advmod	_	start_char=120|end_char=127|NER=O
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	49	det:poss	_	start_char=128|end_char=129|NER=O
+27	punësimit	punësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	47	nmod	_	start_char=130|end_char=139|NER=O
+28	për	për	ADP	_	Case=Acc	51	case	_	start_char=140|end_char=143|NER=O
+29	emigrantët	emigrantë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	52	advmod	_	start_char=144|end_char=154|NER=O
+30	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	31	conj	_	start_char=155|end_char=160|NER=O
+31	në	në	ADP	_	Case=Acc	54	case	_	start_char=161|end_char=163|NER=O
+32	nivelin	nivel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	52	advmod	_	start_char=164|end_char=171|NER=O
+33	më	më	PART	_	_	57	mark	_	start_char=172|end_char=174|NER=O
+34	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	57	det	_	start_char=175|end_char=177|NER=O
+35	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	start_char=178|end_char=183|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	59	det	_	start_char=184|end_char=186|NER=O
+37	regjistruar	regjistruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	start_char=187|end_char=198|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	61	punct	_	start_char=199|end_char=200|NER=O
+39	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	52	conj	_	start_char=201|end_char=208|NER=O
+40	Scan	Scan	PROPN	_	Foreign=Yes	61	obj	_	start_char=209|end_char=213|NER=O
+41	Tv	Tv	PROPN	_	Foreign=Yes	62	flat	_	start_char=214|end_char=216|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	61	punct	_	start_char=217|end_char=218|SpacesAfter=\n|NER=O
+
+# text = Qeveria e kryeministrit Justin Trudeau përcaktoi këtë javë objektivat e reja të emigracionit .
+# sent_id = 3
+1	Qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	kryeministrit	kryeministr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=23|NER=O
+4	Justin	Just	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=24|end_char=30|NER=B-PER
+5	Trudeau	Trudea	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=31|end_char=38|NER=I-PER
+6	përcaktoi	përcaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=39|end_char=48|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=49|end_char=53|NER=O
+8	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=54|end_char=58|NER=O
+9	objektivat	objektivë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=59|end_char=69|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=70|end_char=71|NER=O
+11	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=72|end_char=76|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=77|end_char=79|NER=O
+13	emigracionit	emigracion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=80|end_char=92|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	6	punct	_	start_char=93|end_char=94|NER=O
+
+# text = Ajo tha se do të mirëpresë 1 .
+# sent_id = 4
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4|end_char=7|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=8|end_char=10|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=11|end_char=13|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+6	mirëpresë	mirëprem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=17|end_char=26|NER=O
+7	1	1	NUM	_	NumType=Card	10	nummod	_	start_char=27|end_char=28|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	10	punct	_	start_char=29|end_char=30|NER=O
+
+# text = 45 milionë banorë të rinj të përhershëm gjatë tre viteve të ardhshme për të ndihmuar në përballimin e tregut jashtëzakonisht të ngushtë të punës .
+# sent_id = 5
+1	45	45	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|NER=O
+2	milionë	milion	NUM	_	NumType=Card	10	nummod	_	start_char=3|end_char=10|NER=O
+3	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=11|end_char=17|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=18|end_char=20|NER=O
+5	rinj	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=21|end_char=25|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=26|end_char=28|NER=O
+7	përhershëm	përhershëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=29|end_char=39|NER=O
+8	gjatë	gjatë	ADP	_	Case=Abl	17	case	_	start_char=40|end_char=45|NER=O
+9	tre	tre	NUM	_	NumType=Card	17	nummod	_	start_char=46|end_char=49|NER=O
+10	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	advmod	_	start_char=50|end_char=56|NER=O
+11	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=57|end_char=59|NER=O
+12	ardhshme	ardhshme	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=60|end_char=68|NER=O
+13	për	për	PART	_	_	22	fixed	_	start_char=69|end_char=72|NER=O
+14	të	të	PART	_	_	22	fixed	_	start_char=73|end_char=75|NER=O
+15	ndihmuar	ndihmoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=76|end_char=84|NER=O
+16	në	në	ADP	_	Case=Acc	24	case	_	start_char=85|end_char=87|NER=O
+17	përballimin	përballim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=88|end_char=99|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=100|end_char=101|NER=O
+19	tregut	treg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=102|end_char=108|NER=O
+20	jashtëzakonisht	jashtëzakonisht	ADV	_	AdvType=Man	29	advmod	_	start_char=109|end_char=124|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=125|end_char=127|NER=O
+22	ngushtë	ngushtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=128|end_char=135|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=136|end_char=138|NER=O
+24	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=139|end_char=144|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	22	punct	_	start_char=145|end_char=146|SpacesAfter=\n|NER=O
+
+# text = ekonomia shtoi një neto prej 108 , 300 vende pune muajin e kaluar , duke mposhtur lehtësisht parashikimet për 10 , 000 vende të reja pune , ndërsa shkalla e papunësisë ishte e pandryshuar në 5 .
+# sent_id = 6
+1	ekonomia	ekonomi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=0|end_char=8|NER=O
+2	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=15|end_char=18|NER=O
+4	neto	neto	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=19|end_char=23|NER=O
+5	prej	prej	ADP	_	Case=Abl	6	case	_	start_char=24|end_char=28|NER=O
+6	108	108	NUM	_	NumType=Card	4	nummod	_	start_char=29|end_char=32|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=33|end_char=34|SpaceAfter=No|NER=O
+8	300	300	NUM	_	NumType=Card	9	nummod	_	start_char=35|end_char=38|NER=O
+9	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=39|end_char=44|NER=O
+10	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	nmod	_	start_char=45|end_char=49|NER=O
+11	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=50|end_char=56|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=57|end_char=58|NER=O
+13	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=59|end_char=65|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=66|end_char=67|NER=O
+15	duke	duke	PART	_	_	16	fixed	_	start_char=68|end_char=72|NER=O
+16	mposhtur	mposhtoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=73|end_char=81|NER=O
+17	lehtësisht	lehtësisht	ADV	_	AdvType=Man	16	advmod	_	start_char=82|end_char=92|NER=O
+18	parashikimet	parashikim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obj	_	start_char=93|end_char=105|NER=O
+19	për	për	ADP	_	Case=Acc	20	case	_	start_char=106|end_char=109|NER=O
+20	10	10	NUM	_	NumType=Card	16	advmod	_	start_char=110|end_char=112|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=113|end_char=114|SpaceAfter=No|NER=O
+22	000	000	NUM	_	NumType=Card	23	nummod	_	start_char=115|end_char=118|NER=O
+23	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=119|end_char=124|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=125|end_char=127|NER=O
+25	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=128|end_char=132|NER=O
+26	pune	pune	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	start_char=133|end_char=137|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	28	punct	_	start_char=138|end_char=139|NER=O
+28	ndërsa	ndërsa	CCONJ	_	_	32	cc	_	start_char=140|end_char=146|NER=O
+29	shkalla	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	conj	_	start_char=147|end_char=154|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=155|end_char=156|NER=O
+31	papunësisë	papunësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=157|end_char=167|NER=O
+32	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	2	conj	_	start_char=168|end_char=173|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=174|end_char=175|NER=O
+34	pandryshuar	pandryshuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	cop	_	start_char=176|end_char=187|NER=O
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=188|end_char=190|NER=O
+36	5	5	NUM	_	NumType=Card	34	advmod	_	start_char=191|end_char=192|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	34	punct	_	start_char=193|end_char=194|SpaceAfter=No|NER=O
+
+# text = 2 % , treguan të dhënat e Statistikave të Kanadasë .
+# sent_id = 7
+1	2	2	NUM	_	NumType=Card	34	advmod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	36	flat	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	39	punct	_	start_char=4|end_char=5|NER=O
+4	treguan	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	32	conj	_	start_char=6|end_char=13|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	41	det	_	start_char=14|end_char=16|NER=O
+6	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	39	obj	_	start_char=17|end_char=23|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	43	det:poss	_	start_char=24|end_char=25|NER=O
+8	Statistikave	statistikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	41	nmod	_	start_char=26|end_char=38|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	45	det:poss	_	start_char=39|end_char=41|NER=O
+10	Kanadasë	Kanadasë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	43	nmod	_	start_char=42|end_char=50|SpaceAfter=No|NER=B-VEND_1
+11	.	.	PUNCT	_	_	39	punct	_	start_char=51|end_char=52|SpacesAfter=\n|NER=O
+
+# text = Shifrat e papritura të forta të vendeve të punës erdhën vetëm një javë pasi banka qendrore e Kanadasë befasoi tregjet me një rritje më të vogël se sa pritej të normës së interesit , duke u rritur me 50 pikë bazë në 3 .
+# sent_id = 8
+1	Shifrat	shifër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	papritura	papriturë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=10|end_char=19|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=20|end_char=22|NER=O
+5	forta	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=23|end_char=28|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=29|end_char=31|NER=O
+7	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=32|end_char=39|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=40|end_char=42|NER=O
+9	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=43|end_char=48|NER=O
+10	erdhën	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=49|end_char=55|NER=O
+11	vetëm	vetëm	PART	_	_	13	cc	_	start_char=56|end_char=61|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=62|end_char=65|NER=O
+13	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=66|end_char=70|NER=O
+14	pasi	pasi	SCONJ	_	_	15	mark	_	start_char=71|end_char=75|NER=O
+15	banka	bankë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=76|end_char=81|NER=O
+16	qendrore	qëndror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=82|end_char=90|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=91|end_char=92|NER=O
+18	Kanadasë	Kanadasë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=93|end_char=101|NER=B-VEND_1
+19	befasoi	befasoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	start_char=102|end_char=109|NER=O
+20	tregjet	tregje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=110|end_char=117|NER=O
+21	me	me	ADP	_	Case=Acc	23	case	_	start_char=118|end_char=120|NER=O
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=121|end_char=124|NER=O
+23	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	start_char=125|end_char=131|NER=O
+24	më	më	PART	_	_	26	advmod	_	start_char=132|end_char=134|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=135|end_char=137|NER=O
+26	vogël	vogël	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=138|end_char=143|NER=O
+27	se	se	SCONJ	_	_	29	mark	_	start_char=144|end_char=146|NER=O
+28	sa	sa	ADV	_	AdvType=Deg	29	mark	_	start_char=147|end_char=149|NER=O
+29	pritej	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	23	acl:relcl	_	start_char=150|end_char=156|NER=O
+30	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=157|end_char=159|NER=O
+31	normës	normë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=160|end_char=166|NER=O
+32	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=167|end_char=169|NER=O
+33	interesit	interes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=170|end_char=179|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	37	punct	_	start_char=180|end_char=181|NER=O
+35	duke	duke	PART	_	_	37	fixed	_	start_char=182|end_char=186|NER=O
+36	u	u	PART	_	_	37	fixed	_	start_char=187|end_char=188|NER=O
+37	rritur	rrit	VERB	_	VerbForm=Part	29	advmod	_	start_char=189|end_char=195|NER=O
+38	me	me	ADP	_	Case=Acc	40	case	_	start_char=196|end_char=198|NER=O
+39	50	50	NUM	_	NumType=Card	40	nummod	_	start_char=199|end_char=201|NER=O
+40	pikë	pikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	37	obl	_	start_char=202|end_char=206|NER=O
+41	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	nmod	_	start_char=207|end_char=211|NER=O
+42	në	në	ADP	_	Case=Acc	44	case	_	start_char=212|end_char=214|NER=O
+43	3	3	NUM	_	NumType=Card	44	nummod	_	start_char=215|end_char=216|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	44	punct	_	start_char=217|end_char=218|SpaceAfter=No|NER=O
+
+# text = 75 % dhe duke sinjalizuar se cikli i saj shtrëngues po i afrohej kulmit .
+# sent_id = 9
+1	75	75	NUM	_	NumType=Card	44	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	40	nmod	_	start_char=3|end_char=4|NER=O
+3	dhe	dhe	CCONJ	_	_	47	cc	_	start_char=5|end_char=8|NER=O
+4	duke	duke	PART	_	_	47	fixed	_	start_char=9|end_char=13|NER=O
+5	sinjalizuar	sinjalizoj	VERB	_	VerbForm=Part	37	conj	_	start_char=14|end_char=25|NER=O
+6	se	se	SCONJ	_	_	55	mark	_	start_char=26|end_char=28|NER=O
+7	cikli	cikl	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	47	obj	_	start_char=29|end_char=34|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	51	det:poss	_	start_char=35|end_char=36|NER=O
+9	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	amod:poss	_	start_char=37|end_char=40|NER=O
+10	shtrëngues	shtrëngues	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	start_char=41|end_char=51|NER=O
+11	po	po	PART	_	_	55	mark	_	start_char=52|end_char=54|NER=O
+12	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	iobj	_	start_char=55|end_char=56|NER=O
+13	afrohej	afroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	47	ccomp	_	start_char=57|end_char=64|NER=O
+14	kulmit	kulm	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	55	obj	_	start_char=65|end_char=71|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	55	punct	_	start_char=72|end_char=73|SpacesAfter=\n|NER=O
+
+# text = Fitimi përbindësh i tetorit ishte tërësisht në punën me kohë të plotë , i përhapur në të dy sektorët e mallrave dhe shërbimeve .
+# sent_id = 10
+1	Fitimi	Fitim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	përbindësh	përbindësh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=17|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=18|end_char=19|NER=O
+4	tetorit	tetor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=20|end_char=27|NER=O
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=28|end_char=33|NER=O
+6	tërësisht	tërësisht	ADV	_	AdvType=Man	5	advmod	_	start_char=34|end_char=43|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=44|end_char=46|NER=O
+8	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=47|end_char=52|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=53|end_char=55|NER=O
+10	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=56|end_char=60|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=61|end_char=63|NER=O
+12	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=64|end_char=69|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=70|end_char=71|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=72|end_char=73|NER=O
+15	përhapur	përhapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	start_char=74|end_char=82|NER=O
+16	në	në	ADP	_	Case=Acc	19	case	_	start_char=83|end_char=85|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=86|end_char=88|NER=O
+18	dy	dy	NUM	_	NumType=Card	19	nummod	_	start_char=89|end_char=91|NER=O
+19	sektorët	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	15	obl	_	start_char=92|end_char=100|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	21	det:poss	_	start_char=101|end_char=102|NER=O
+21	mallrave	mall	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=103|end_char=111|NER=O
+22	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=112|end_char=115|NER=O
+23	shërbimeve	shërbim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	21	conj	_	start_char=116|end_char=126|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	5	punct	_	start_char=127|end_char=128|NER=O
+
+# text = Paga mesatare për orë për punonjësit e përhershëm u rrit me 5 .
+# sent_id = 11
+1	Paga	pagë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=0|end_char=4|NER=O
+2	mesatare	mesatar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=5|end_char=13|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=14|end_char=17|NER=O
+4	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=18|end_char=21|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=25|NER=O
+6	punonjësit	punonjës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=26|end_char=36|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=37|end_char=38|NER=O
+8	përhershëm	përhershëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=39|end_char=49|NER=O
+9	u	u	PART	_	_	10	fixed	_	start_char=50|end_char=51|NER=O
+10	rrit	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=52|end_char=56|NER=O
+11	me	me	ADP	_	Case=Acc	13	case	_	start_char=57|end_char=59|NER=O
+12	5	5	NUM	_	NumType=Card	13	nummod	_	start_char=60|end_char=61|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	13	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=O
+
+# text = 5 % në tetor në bazë të një viti në vit , nga 5 .
+# sent_id = 12
+1	5	5	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	10	advmod	_	start_char=2|end_char=3|NER=O
+3	në	në	ADP	_	Case=Acc	15	case	_	start_char=4|end_char=6|NER=O
+4	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=7|end_char=12|NER=O
+5	në	në	ADP	_	Case=Acc	17	case	_	start_char=13|end_char=15|NER=O
+6	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=16|end_char=20|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=21|end_char=23|NER=O
+8	një	një	DET	_	Definite=Ind	20	det	_	start_char=24|end_char=27|NER=O
+9	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=28|end_char=32|NER=O
+10	në	në	ADP	_	Case=Acc	22	case	_	start_char=33|end_char=35|NER=O
+11	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=36|end_char=39|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	25	punct	_	start_char=40|end_char=41|NER=O
+13	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=42|end_char=45|NER=O
+14	5	5	NUM	_	NumType=Card	22	nummod	_	start_char=46|end_char=47|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	22	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+
+# text = 2 % në shtator .
+# sent_id = 13
+1	2	2	NUM	_	NumType=Card	22	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	25	nmod	_	start_char=2|end_char=3|NER=O
+3	në	në	ADP	_	Case=Acc	28	case	_	start_char=4|end_char=6|NER=O
+4	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=7|end_char=14|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	10	punct	_	start_char=15|end_char=16|NER=O
+
+# text = Punësimi total u rrit pak mbi nivelet e majit 2022 , duke zbutur plotësisht dobësinë e një vere .
+# sent_id = 14
+1	Punësimi	punësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=0|end_char=8|NER=O
+2	total	total	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=9|end_char=14|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=15|end_char=16|NER=O
+4	rrit	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=17|end_char=21|NER=O
+5	pak	pak	ADV	_	AdvType=Deg	4	advmod	_	start_char=22|end_char=25|NER=O
+6	mbi	mbi	ADP	_	Case=Acc	7	case	_	start_char=26|end_char=29|NER=O
+7	nivelet	nivel	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=30|end_char=37|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=38|end_char=39|NER=O
+9	majit	maj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=40|end_char=45|NER=B-DATE_0
+10	2022	2022	NUM	_	NumType=Card	9	amod:nummod	_	start_char=46|end_char=50|SpaceAfter=No|NER=I-DATE_0
+11	,	,	PUNCT	_	_	13	punct	_	start_char=51|end_char=52|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=53|end_char=57|NER=O
+13	zbutur	zbutoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=58|end_char=64|NER=O
+14	plotësisht	plotësisht	ADV	_	AdvType=Man	13	advmod	_	start_char=65|end_char=75|NER=O
+15	dobësinë	dobësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=76|end_char=84|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=85|end_char=86|NER=O
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=87|end_char=90|NER=O
+18	vere	vere	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=91|end_char=95|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	13	punct	_	start_char=96|end_char=97|SpacesAfter=\n|NER=O
+
+# text = Dollari kanadez po tregtohej 1 .
+# sent_id = 15
+1	Dollari	dollar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	kanadez	kanadez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=8|end_char=15|NER=O
+3	po	po	PART	_	_	4	cc	_	start_char=16|end_char=18|NER=O
+4	tregtohej	tregtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=19|end_char=28|NER=O
+5	1	1	NUM	_	NumType=Card	6	nummod	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	6	punct	_	start_char=31|end_char=32|SpaceAfter=No|NER=O
+
+# text = 8 % më i lartë në 1 .
+# sent_id = 16
+1	8	8	NUM	_	NumType=Card	6	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	4	obj	_	start_char=2|end_char=3|NER=O
+3	më	më	PART	_	_	9	mark	_	start_char=4|end_char=6|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=7|end_char=8|NER=O
+5	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=9|end_char=14|NER=O
+6	në	në	ADP	_	Case=Acc	11	case	_	start_char=15|end_char=17|NER=O
+7	1	1	NUM	_	NumType=Card	9	advmod	_	start_char=18|end_char=19|NER=O
+8	.	.	PUNCT	_	_	9	punct	_	start_char=20|end_char=21|NER=O
+
+# text = 35 për monedhën e gjelbër , ose 74 .
+# sent_id = 17
+1	35	35	NUM	_	NumType=Card	9	advmod	_	start_char=0|end_char=2|NER=O
+2	për	për	ADP	_	Case=Acc	13	case	_	start_char=3|end_char=6|NER=O
+3	monedhën	monedhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=7|end_char=15|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=16|end_char=17|NER=O
+5	gjelbër	gjelbër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=18|end_char=25|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	17	punct	_	start_char=26|end_char=27|NER=O
+7	ose	ose	CCONJ	_	_	20	cc	_	start_char=28|end_char=31|NER=O
+8	74	74	NUM	_	NumType=Card	20	nummod	_	start_char=32|end_char=34|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	20	punct	_	start_char=35|end_char=36|NER=O
+
+# text = 07 cent amerikan , në rrugën e duhur për fitimin e tij më të madh që nga marsi 2020 .
+# sent_id = 18
+1	07	07	NUM	_	NumType=Card	20	nummod	_	start_char=0|end_char=2|NER=O
+2	cent	cent	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	start_char=3|end_char=7|NER=O
+3	amerikan	amerikan	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=8|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	24	punct	_	start_char=17|end_char=18|NER=O
+5	në	në	ADP	_	Case=Acc	24	case	_	start_char=19|end_char=21|NER=O
+6	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=22|end_char=28|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=29|end_char=30|NER=O
+8	duhur	duhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=31|end_char=36|NER=O
+9	për	për	ADP	_	Case=Acc	28	case	_	start_char=37|end_char=40|NER=O
+10	fitimin	fitim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=41|end_char=48|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=49|end_char=50|NER=O
+12	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	amod:poss	_	start_char=51|end_char=54|NER=O
+13	më	më	PART	_	_	33	mark	_	start_char=55|end_char=57|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det	_	start_char=58|end_char=60|NER=O
+15	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=61|end_char=65|NER=O
+16	që	që	PART	_	_	36	mark	_	start_char=66|end_char=68|NER=O
+17	nga	nga	ADP	_	Case=Nom	36	case	_	start_char=69|end_char=72|NER=O
+18	marsi	mars	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	advmod	_	start_char=73|end_char=78|NER=B-DATE_0
+19	2020	2020	NUM	_	NumType=Card	36	amod:nummod	_	start_char=79|end_char=83|SpaceAfter=No|NER=I-DATE_0
+20	.	.	PUNCT	_	_	33	punct	_	start_char=84|end_char=85|SpacesAfter=\n\n|NER=O
+

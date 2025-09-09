@@ -1,0 +1,404 @@
+# text = COVID - 19 në Shqipëri , shënohen tre viktima dhe 1 .
+# sent_id = 0
+1	COVID	COVID-19	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=5|NER=O
+2	-	-	PUNCT	_	_	5	punct	_	start_char=6|end_char=7|NER=O
+3	19	19	NUM	_	NumType=Card	5	nsubj	_	start_char=8|end_char=10|NER=O
+4	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13|NER=O
+5	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=14|end_char=22|SpaceAfter=No|NER=B-VEND_1
+6	,	,	PUNCT	_	_	5	punct	_	start_char=23|end_char=24|NER=O
+7	shënohen	shënoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=25|end_char=33|NER=O
+8	tre	tre	NUM	_	NumType=Card	7	nummod	_	start_char=34|end_char=37|NER=O
+9	viktima	viktimë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=38|end_char=45|NER=O
+10	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=46|end_char=49|NER=O
+11	1	1	NUM	_	NumType=Card	10	nummod	_	start_char=50|end_char=51|NER=O
+12	.	.	PUNCT	_	_	10	punct	_	start_char=52|end_char=53|NER=O
+
+# text = 341 qytetarë të infektuar !
+# sent_id = 1
+1	341	341	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=3|NER=O
+2	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	start_char=4|end_char=12|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=13|end_char=15|NER=O
+4	infektuar	infektuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=16|end_char=25|SpaceAfter=No|NER=O
+5	!	!	PUNCT	_	_	16	punct	_	start_char=26|end_char=27|NER=O
+
+# text = 145 pacientë marrin trajtim spitalor 29 / 01 / 2022 Ministria e Shëndetësisë ka njoftuar ditën e sotme se janë shënuar 1 .
+# sent_id = 2
+1	145	145	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=3|NER=O
+2	pacientë	pacientë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	start_char=4|end_char=12|NER=O
+3	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=13|end_char=19|NER=O
+4	trajtim	trajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=20|end_char=27|NER=O
+5	spitalor	spitalor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=28|end_char=36|SpacesAfter=\n|NER=O
+6	29	29	NUM	_	NumType=Card	20	nummod	_	start_char=37|end_char=39|SpaceAfter=No|NER=B-DATE_0
+7	/	/	PUNCT	_	_	17	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=I-DATE_0
+8	01	01	NUM	_	NumType=Card	17	nmod	_	start_char=42|end_char=44|SpaceAfter=No|NER=I-DATE_0
+9	/	/	PUNCT	_	_	20	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=I-DATE_0
+10	2022	2022	NUM	_	NumType=Card	20	flat	_	start_char=47|end_char=51|SpaceAfter=No|NER=I-DATE_0
+11	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	flat	_	start_char=52|end_char=61|NER=B-ORG
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=62|end_char=63|NER=I-ORG
+13	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=64|end_char=76|NER=I-ORG
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=77|end_char=79|NER=O
+15	njoftuar	njoftoj	VERB	_	VerbForm=Part	16	conj	_	start_char=80|end_char=88|NER=O
+16	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=89|end_char=94|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=95|end_char=96|NER=O
+18	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=97|end_char=102|NER=O
+19	se	se	SCONJ	_	_	34	mark	_	start_char=103|end_char=105|NER=O
+20	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	34	aux	_	start_char=106|end_char=110|NER=O
+21	shënuar	shënoj	VERB	_	VerbForm=Part	28	advcl	_	start_char=111|end_char=118|NER=O
+22	1	1	NUM	_	NumType=Card	34	advmod	_	start_char=119|end_char=120|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	38	punct	_	start_char=121|end_char=122|SpaceAfter=No|NER=O
+
+# text = 341 qytetarë të infektuar në 24 orë , ndërsa 3 qytetarë nuk kanë mundur të fitojnë betejën me COVID - 19 .
+# sent_id = 3
+1	341	341	NUM	_	NumType=Card	38	nummod	_	start_char=0|end_char=3|NER=O
+2	qytetarë	qytetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	34	obj	_	start_char=4|end_char=12|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	40	det	_	start_char=13|end_char=15|NER=O
+4	infektuar	infektuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	38	amod	_	start_char=16|end_char=25|NER=O
+5	në	në	ADP	_	Case=Acc	43	case	_	start_char=26|end_char=28|NER=O
+6	24	24	NUM	_	NumType=Card	43	nummod	_	start_char=29|end_char=31|NER=O
+7	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	38	nmod	_	start_char=32|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	45	punct	_	start_char=36|end_char=37|NER=O
+9	ndërsa	ndërsa	CCONJ	_	_	50	cc	_	start_char=38|end_char=44|NER=O
+10	3	3	NUM	_	NumType=Card	47	nummod	_	start_char=45|end_char=46|NER=O
+11	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	50	obj	_	start_char=47|end_char=55|NER=O
+12	nuk	nuk	PART	_	_	50	mark	_	start_char=56|end_char=59|NER=O
+13	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	50	aux	_	start_char=60|end_char=64|NER=O
+14	mundur	mundur	VERB	_	VerbForm=Part	34	conj	_	start_char=65|end_char=71|NER=O
+15	të	të	PART	_	_	52	fixed	_	start_char=72|end_char=74|NER=O
+16	fitojnë	fitoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	50	ccomp	_	start_char=75|end_char=82|NER=O
+17	betejën	betejë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	52	obj	_	start_char=83|end_char=90|NER=O
+18	me	me	ADP	_	Case=Acc	55	case	_	start_char=91|end_char=93|NER=O
+19	COVID	COVID-19	PROPN	_	_	52	obl	_	start_char=94|end_char=99|SpaceAfter=No|NER=O
+20	-	-	PUNCT	_	_	52	punct	_	start_char=100|end_char=101|SpaceAfter=No|NER=O
+21	19	19	NUM	_	NumType=Card	52	obl	_	start_char=102|end_char=104|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	50	punct	_	start_char=105|end_char=106|SpacesAfter=\n|NER=O
+
+# text = Ministria e Shëndetësisë i bën apel qytetarëve të vaksinohen sa më parë , për të mbrojtur veten dhe shëndetin e të tjerëve .
+# sent_id = 4
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=9|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=I-ORG
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|NER=I-ORG
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=25|end_char=26|NER=O
+5	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=30|NER=O
+6	apel	apel	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=31|end_char=35|NER=O
+7	qytetarëve	qytetar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=36|end_char=46|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=47|end_char=49|NER=O
+9	vaksinohen	vaksinoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	5	ccomp	_	start_char=50|end_char=60|NER=O
+10	sa	sa	ADV	_	AdvType=Deg	12	advmod	_	start_char=61|end_char=63|NER=O
+11	më	më	PART	_	_	12	mark	_	start_char=64|end_char=66|NER=O
+12	parë	parë	ADV	_	AdvType=Man	9	advmod	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	16	punct	_	start_char=72|end_char=73|NER=O
+14	për	për	PART	_	_	16	fixed	_	start_char=74|end_char=77|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=78|end_char=80|NER=O
+16	mbrojtur	mbroj	VERB	_	VerbForm=Part	9	advmod	_	start_char=81|end_char=89|NER=O
+17	veten	vete	PRON	_	Number=Sing|PronType=Prs|Reflex=Yes	16	obj	_	start_char=90|end_char=95|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=96|end_char=99|NER=O
+19	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=100|end_char=109|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=110|end_char=111|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=112|end_char=114|NER=O
+22	tjerëve	tjerë	PRON	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	19	nmod	_	start_char=115|end_char=122|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	16	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Çdo qytetar mbi 16 vjeç , mund të vaksinohet në qendrën shëndetësore ose në pikën më të afërt të vaksinimit të përqëndruar .
+# sent_id = 5
+1	Çdo	çdo	PRON	_	PronType=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	qytetar	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=4|end_char=11|NER=O
+3	mbi	mbi	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=15|NER=O
+4	16	16	NUM	_	NumType=Card	5	nummod	_	start_char=16|end_char=18|NER=O
+5	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=23|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=24|end_char=25|NER=O
+7	mund	mund	AUX	_	_	9	aux	_	start_char=26|end_char=30|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=31|end_char=33|NER=O
+9	vaksinohet	vaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=34|end_char=44|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=45|end_char=47|NER=O
+11	qendrën	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=48|end_char=55|NER=O
+12	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=56|end_char=68|NER=O
+13	ose	ose	CCONJ	_	_	15	cc	_	start_char=69|end_char=72|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=73|end_char=75|NER=O
+15	pikën	pikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=76|end_char=81|NER=O
+16	më	më	PART	_	_	18	mark	_	start_char=82|end_char=84|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=85|end_char=87|NER=O
+18	afërt	afërt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=88|end_char=93|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=94|end_char=96|NER=O
+20	vaksinimit	vaksinim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=97|end_char=107|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=108|end_char=110|NER=O
+22	përqëndruar	përqëndruar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=111|end_char=122|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	9	punct	_	start_char=123|end_char=124|SpacesAfter=\n|NER=O
+
+# text = Vaksinimi është i hapur edhe për fëmijët + 12 vjeç me probleme të sistemit imunitar , me rekomandim nga mjeku .
+# sent_id = 6
+1	Vaksinimi	Vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=9|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=16|end_char=17|NER=O
+4	hapur	hapur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	start_char=18|end_char=23|NER=O
+5	edhe	edhe	PART	_	_	7	cc	_	start_char=24|end_char=28|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=32|NER=O
+7	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	advmod	_	start_char=33|end_char=40|NER=O
+8	+	+	PUNCT	_	_	7	punct	_	start_char=41|end_char=42|NER=O
+9	12	12	NUM	_	NumType=Card	7	nummod	_	start_char=43|end_char=45|NER=O
+10	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=46|end_char=50|NER=O
+11	me	me	ADP	_	Case=Acc	11	case	_	start_char=51|end_char=53|NER=O
+12	probleme	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	start_char=54|end_char=62|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=63|end_char=65|NER=O
+14	sistemit	sistem	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=66|end_char=74|NER=O
+15	imunitar	imunitar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=75|end_char=83|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=84|end_char=85|NER=O
+17	me	me	ADP	_	Case=Acc	17	case	_	start_char=86|end_char=88|NER=O
+18	rekomandim	rekomandim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=89|end_char=99|NER=O
+19	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=100|end_char=103|NER=O
+20	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=104|end_char=109|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	2	punct	_	start_char=110|end_char=111|NER=O
+
+# text = MSHMS apelon qytetarët që kanë kaluar 6 muaj nga kryerja e dozës së dytë të vaksinës , të drejtohen në qendrat shëndetësore ose pikat e vaksinimit të përqëndruar , për t ' u vaksinuar me dozën e tretë përforcuese .
+# sent_id = 7
+1	MSHMS	MSHMS	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-ORG
+2	apelon	apeloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=12|NER=O
+3	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	obj	_	start_char=13|end_char=22|NER=O
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=23|end_char=25|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=26|end_char=30|NER=O
+6	kaluar	kaloj	VERB	_	VerbForm=Part	2	advcl	_	start_char=31|end_char=37|NER=O
+7	6	6	NUM	_	NumType=Card	8	nummod	_	start_char=38|end_char=39|NER=O
+8	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=40|end_char=44|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=45|end_char=48|NER=O
+10	kryerja	kryerjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=49|end_char=56|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=57|end_char=58|NER=O
+12	dozës	dozë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=59|end_char=64|NER=O
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=65|end_char=67|NER=O
+14	dytë	dy	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=68|end_char=72|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=73|end_char=75|NER=O
+16	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=76|end_char=84|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=85|end_char=86|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=87|end_char=89|NER=O
+19	drejtohen	drejtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=90|end_char=99|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=100|end_char=102|NER=O
+21	qendrat	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	start_char=103|end_char=110|NER=O
+22	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=111|end_char=123|NER=O
+23	ose	ose	CCONJ	_	_	24	cc	_	start_char=124|end_char=127|NER=O
+24	pikat	pikat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	conj	_	start_char=128|end_char=133|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=134|end_char=135|NER=O
+26	vaksinimit	vaksinim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=136|end_char=146|NER=O
+27	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=147|end_char=149|NER=O
+28	përqëndruar	përqëndruar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=150|end_char=161|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	33	punct	_	start_char=162|end_char=163|NER=O
+30	për	për	PART	_	_	33	fixed	_	start_char=164|end_char=167|NER=O
+31	t	_	_	_	_	_	_	_	start_char=168|end_char=169|NER=O
+32	'	'	PUNCT	_	_	_	punct	_	start_char=170|end_char=171|NER=O
+33	u	_	_	_	_	_	_	_	start_char=172|end_char=173|NER=O
+34	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	19	advmod	_	start_char=174|end_char=183|NER=O
+35	me	me	ADP	_	Case=Acc	35	case	_	start_char=184|end_char=186|NER=O
+36	dozën	dozë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	33	obl	_	start_char=187|end_char=192|NER=O
+37	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=193|end_char=194|NER=O
+38	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=195|end_char=200|NER=O
+39	përforcuese	përforcues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=201|end_char=212|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	33	punct	_	start_char=213|end_char=214|SpacesAfter=\n|NER=O
+
+# text = MSH sqaron se Vaksinat reduktojnë mundësinë e infektimit dhe shmangin në shkallë te ̈ lartë hospitalizimet dhe fatalitetet .
+# sent_id = 8
+1	MSH	MSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=3|NER=B-ORG
+2	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=10|NER=O
+3	se	se	SCONJ	_	_	4	mark	_	start_char=11|end_char=13|NER=O
+4	Vaksinat	Vaksinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=14|end_char=22|NER=O
+5	reduktojnë	reduktoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=33|NER=O
+6	mundësinë	mundësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=34|end_char=43|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=44|end_char=45|NER=O
+8	infektimit	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=46|end_char=56|NER=O
+9	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=57|end_char=60|NER=O
+10	shmangin	shmang	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=61|end_char=69|NER=O
+11	në	në	ADP	_	Case=Acc	9	case	_	start_char=70|end_char=72|NER=O
+12	shkallë	shkallë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=73|end_char=80|NER=O
+13	te	te	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=81|end_char=83|NER=O
+14	̈	̈	PUNCT	_	_	11	punct	_	start_char=84|end_char=85|NER=O
+15	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=86|end_char=91|NER=O
+16	hospitalizimet	hospitalizim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=92|end_char=106|NER=O
+17	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=107|end_char=110|NER=O
+18	fatalitetet	fatalitet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	conj	_	start_char=111|end_char=122|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	7	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Ministria e Shëndetësisë i kujton qytetarëve se respektimi i protokolleve anticovid është domosdoshmëri për mbrojtjen e shëndetit .
+# sent_id = 9
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=9|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=I-ORG
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|NER=I-ORG
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=25|end_char=26|NER=O
+5	kujton	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=33|NER=O
+6	qytetarëve	qytetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	5	obj	_	start_char=34|end_char=44|NER=O
+7	se	se	SCONJ	_	_	12	mark	_	start_char=45|end_char=47|NER=O
+8	respektimi	respektim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	start_char=48|end_char=58|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=59|end_char=60|NER=O
+10	protokolleve	protokoll	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=61|end_char=73|NER=O
+11	anticovid	anticovid	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=74|end_char=83|NER=O
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=84|end_char=89|NER=O
+13	domosdoshmëri	domosdoshmër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	cop	_	start_char=90|end_char=103|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=104|end_char=107|NER=O
+15	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=108|end_char=117|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=118|end_char=119|NER=O
+17	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=120|end_char=129|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	12	punct	_	start_char=130|end_char=131|SpacesAfter=\n|NER=O
+
+# text = Vendosja e maskës është e detyrueshme në çdo ambient të mbyllur , ndërsa MSH bën thirrje që të shmangen grumbullimet dhe ajrosni ambientet ku qëndroni , për të kufizuar përhapjen e Covid - 19 .
+# sent_id = 10
+1	Vendosja	Vendosje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	maskës	maskë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=17|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=25|NER=O
+6	detyrueshme	detyrueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=26|end_char=37|NER=O
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+8	çdo	çdo	PRON	_	PronType=Ind	9	nummod	_	start_char=41|end_char=44|NER=O
+9	ambient	ambien	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=45|end_char=52|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=53|end_char=55|NER=O
+11	mbyllur	mbyllur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=56|end_char=63|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=64|end_char=65|NER=O
+13	ndërsa	ndërsa	CCONJ	_	_	15	cc	_	start_char=66|end_char=72|NER=O
+14	MSH	MSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=73|end_char=76|NER=B-ORG
+15	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=77|end_char=80|NER=O
+16	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=81|end_char=88|NER=O
+17	që	që	SCONJ	_	_	19	mark	_	start_char=89|end_char=91|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=92|end_char=94|NER=O
+19	shmangen	shmangem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	15	advcl	_	start_char=95|end_char=103|NER=O
+20	grumbullimet	grumbullim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=104|end_char=116|NER=O
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=117|end_char=120|NER=O
+22	ajrosni	ajros	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	19	conj	_	start_char=121|end_char=128|NER=O
+23	ambientet	ambient	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	22	obj	_	start_char=129|end_char=138|NER=O
+24	ku	ku	ADV	_	AdvType=Loc	25	advmod	_	start_char=139|end_char=141|NER=O
+25	qëndroni	qëndroj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	22	ccomp	_	start_char=142|end_char=150|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	29	punct	_	start_char=151|end_char=152|NER=O
+27	për	për	PART	_	_	29	fixed	_	start_char=153|end_char=156|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=157|end_char=159|NER=O
+29	kufizuar	kufizuar	VERB	_	VerbForm=Part	25	advmod	_	start_char=160|end_char=168|NER=O
+30	përhapjen	përhapje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=169|end_char=178|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=179|end_char=180|NER=O
+32	Covid	Covid-19	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=181|end_char=186|SpaceAfter=No|NER=O
+33	-	-	PUNCT	_	_	30	punct	_	start_char=187|end_char=188|SpaceAfter=No|NER=O
+34	19	19	NUM	_	NumType=Card	30	nmod	_	start_char=189|end_char=191|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	22	punct	_	start_char=192|end_char=193|SpacesAfter=\n|NER=O
+
+# text = Aktualisht në spitalet COVID po marrin trajtim 145 pacientë , nga të cilët 7 janë në gjendje më të rënduar .
+# sent_id = 11
+1	Aktualisht	aktualisht	ADV	_	AdvType=Man	6	advmod	_	start_char=0|end_char=10|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13|NER=O
+3	spitalet	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=14|end_char=22|NER=O
+4	COVID	COVID	NUM	_	NumType=Card	3	amod:nummod	_	start_char=23|end_char=28|NER=O
+5	po	po	PART	_	_	6	mark	_	start_char=29|end_char=31|NER=O
+6	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=38|NER=O
+7	trajtim	trajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=39|end_char=46|NER=O
+8	145	145	NUM	_	NumType=Card	9	nummod	_	start_char=47|end_char=50|NER=O
+9	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	start_char=51|end_char=59|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	13	punct	_	start_char=60|end_char=61|NER=O
+11	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=62|end_char=65|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=66|end_char=68|NER=O
+13	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	15	obl	_	start_char=69|end_char=74|NER=O
+14	7	7	NUM	_	NumType=Card	15	nsubj	_	start_char=75|end_char=76|NER=O
+15	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	start_char=77|end_char=81|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=82|end_char=84|NER=O
+17	gjendje	gjendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=85|end_char=92|NER=O
+18	më	më	PART	_	_	20	mark	_	start_char=93|end_char=95|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=96|end_char=98|NER=O
+20	rënduar	rënduar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=99|end_char=106|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=107|end_char=108|NER=O
+
+# text = Në 24 orët e fundit me gjithë përpjekjet e stafit mjekësor ka tre humbje jete me SARS - COV2 pozitiv : një qytetare nga Berati 68 vjeçe , një qytetar nga Durrësi 73 vjeç , një qytetar nga Tirana 90 vjeç .
+# sent_id = 12
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	24	24	NUM	_	NumType=Card	3	nummod	_	start_char=3|end_char=5|NER=O
+3	orët	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=6|end_char=10|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=11|end_char=12|NER=O
+5	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=13|end_char=19|NER=O
+6	me	me	ADP	_	Case=Acc	8	case	_	start_char=20|end_char=22|NER=O
+7	gjithë	gjithë	PRON	_	Case=Acc|PronType=Ind	8	det	_	start_char=23|end_char=29|NER=O
+8	përpjekjet	përpjekje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=30|end_char=40|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=41|end_char=42|NER=O
+10	stafit	staf	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=43|end_char=49|NER=O
+11	mjekësor	mjekësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=50|end_char=58|NER=O
+12	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=61|NER=O
+13	tre	tre	NUM	_	NumType=Card	14	nummod	_	start_char=62|end_char=65|NER=O
+14	humbje	humbje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	start_char=66|end_char=72|NER=O
+15	jete	jetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=73|end_char=77|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=78|end_char=80|NER=O
+17	SARS	SARS-COV2	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=81|end_char=85|NER=O
+18	-	-	PUNCT	_	_	14	punct	_	start_char=86|end_char=87|NER=O
+19	COV2	SARS-COV2	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=88|end_char=92|NER=O
+20	pozitiv	pozit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=93|end_char=100|SpaceAfter=No|NER=O
+21	:	:	PUNCT	_	_	21	punct	_	start_char=101|end_char=102|NER=O
+22	një	një	DET	_	Definite=Ind	21	det	_	start_char=103|end_char=106|NER=O
+23	qytetare	qytetar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=107|end_char=115|NER=O
+24	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=116|end_char=119|NER=O
+25	Berati	Berat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=120|end_char=126|NER=B-VEND_0
+26	68	68	NUM	_	NumType=Card	25	nummod	_	start_char=127|end_char=129|NER=O
+27	vjeçe	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	start_char=130|end_char=135|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	28	punct	_	start_char=136|end_char=137|NER=O
+29	një	një	DET	_	Definite=Ind	28	det	_	start_char=138|end_char=141|NER=O
+30	qytetar	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	list	_	start_char=142|end_char=149|NER=O
+31	nga	nga	ADP	_	Case=Nom	30	case	_	start_char=150|end_char=153|NER=O
+32	Durrësi	Durrësi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=154|end_char=161|NER=B-VEND_0
+33	73	73	NUM	_	NumType=Card	32	nummod	_	start_char=162|end_char=164|NER=O
+34	vjeç	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	start_char=165|end_char=169|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	35	punct	_	start_char=170|end_char=171|NER=O
+36	një	një	DET	_	Definite=Ind	35	det	_	start_char=172|end_char=175|NER=O
+37	qytetar	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	32	list	_	start_char=176|end_char=183|NER=O
+38	nga	nga	ADP	_	Case=Nom	37	case	_	start_char=184|end_char=187|NER=O
+39	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=188|end_char=194|NER=B-VEND_0
+40	90	90	NUM	_	NumType=Card	37	flat	_	start_char=195|end_char=197|NER=O
+41	vjeç	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	37	nmod	_	start_char=198|end_char=202|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	12	punct	_	start_char=203|end_char=204|NER=O
+
+# text = Ministria e Shëndetësisë dhe Mbrojtjes Sociale u shpreh ngushëllimet familjarëve .
+# sent_id = 13
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=0|end_char=9|NER=B-ORG
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=I-ORG
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|NER=I-ORG
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=25|end_char=28|NER=I-ORG
+5	Mbrojtjes	mbrojtje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	start_char=29|end_char=38|NER=I-ORG
+6	Sociale	social	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=39|end_char=46|NER=I-ORG
+7	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	fixed	_	start_char=47|end_char=48|NER=O
+8	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=49|end_char=55|NER=O
+9	ngushëllimet	ngushëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=56|end_char=68|NER=O
+10	familjarëve	familjar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=69|end_char=80|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	8	punct	_	start_char=81|end_char=82|SpacesAfter=\n|NER=O
+
+# text = Janë shëruar 2163 qytetarë gjatë 24 orëve të fundit , duke e çuar numrin e të shëruarve në 232 , 356 që nga fillimi i epidemisë .
+# sent_id = 14
+1	Janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	shëruar	shëroj	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=12|NER=O
+3	2163	2163	NUM	_	NumType=Card	4	nummod	_	start_char=13|end_char=17|NER=O
+4	qytetarë	qytetar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=18|end_char=26|NER=O
+5	gjatë	gjatë	ADP	_	Case=Abl	7	case	_	start_char=27|end_char=32|NER=O
+6	24	24	NUM	_	NumType=Card	7	nummod	_	start_char=33|end_char=35|NER=O
+7	orëve	orë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	2	advmod	_	start_char=36|end_char=41|NER=O
+8	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=42|end_char=44|NER=O
+9	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=45|end_char=51|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	13	punct	_	start_char=52|end_char=53|NER=O
+11	duke	duke	PART	_	_	13	fixed	_	start_char=54|end_char=58|NER=O
+12	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=59|end_char=60|NER=O
+13	çuar	çoj	VERB	_	VerbForm=Part	2	advmod	_	start_char=61|end_char=65|NER=O
+14	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=66|end_char=72|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=73|end_char=74|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=75|end_char=77|NER=O
+17	shëruarve	shëruar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=78|end_char=87|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=88|end_char=90|NER=O
+19	232	232	NUM	_	NumType=Card	17	nummod	_	start_char=91|end_char=94|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=95|end_char=96|SpaceAfter=No|NER=O
+21	356	356	NUM	_	NumType=Card	22	fixed	_	start_char=97|end_char=100|NER=O
+22	që	që	PART	_	_	24	mark	_	start_char=101|end_char=103|NER=O
+23	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=104|end_char=107|NER=O
+24	fillimi	fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	advmod	_	start_char=108|end_char=115|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=116|end_char=117|NER=O
+26	epidemisë	epidemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=118|end_char=127|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	24	punct	_	start_char=128|end_char=129|SpaceAfter=No|NER=O
+
+# text = " , - thuhet ndër të tjera në njoftimin e Ministrisë së Shëndetësisë .
+# sent_id = 15
+1	"	"	PUNCT	_	_	24	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	30	punct	_	start_char=2|end_char=3|NER=O
+3	-	-	PUNCT	_	_	2	punct	_	start_char=4|end_char=5|NER=O
+4	thuhet	thuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=6|end_char=12|NER=O
+5	ndër	ndër	ADP	_	Case=Acc	33	case	_	start_char=13|end_char=17|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=18|end_char=20|NER=O
+7	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	30	obl	_	start_char=21|end_char=26|NER=O
+8	në	në	ADP	_	Case=Acc	35	case	_	start_char=27|end_char=29|NER=O
+9	njoftimin	njoftim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	start_char=30|end_char=39|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=40|end_char=41|NER=O
+11	Ministrisë	ministri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=42|end_char=52|NER=B-ORG
+12	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	39	det:poss	_	start_char=53|end_char=55|NER=I-ORG
+13	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	start_char=56|end_char=68|SpaceAfter=No|NER=I-ORG
+14	.	.	PUNCT	_	_	30	punct	_	start_char=69|end_char=70|SpacesAfter=\n\n\n|NER=O
+

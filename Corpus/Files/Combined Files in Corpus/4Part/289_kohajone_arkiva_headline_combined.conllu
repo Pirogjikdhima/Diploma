@@ -1,0 +1,84 @@
+# text = Godina e Kongresit në Washtingon është rrethuar nga forca të shumta policie mesditën e së premtes për motive sigurie .
+# sent_id = 0
+1	Godina	Godinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=7|end_char=8|NER=O
+3	Kongresit	Kongres	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=9|end_char=18|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	Washtingon	Washtingon	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=22|end_char=32|NER=B-VEND_0
+6	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=33|end_char=38|NER=O
+7	rrethuar	rrethoj	VERB	_	VerbForm=Part	0	root	_	start_char=39|end_char=47|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=48|end_char=51|NER=O
+9	forca	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=52|end_char=57|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=58|end_char=60|NER=O
+11	shumta	shumta	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=61|end_char=67|NER=O
+12	policie	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=68|end_char=75|NER=O
+13	mesditën	mesditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=76|end_char=84|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=85|end_char=86|NER=O
+15	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=87|end_char=89|NER=O
+16	premtes	premtes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=90|end_char=97|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=98|end_char=101|NER=O
+18	motive	moti	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=102|end_char=108|NER=O
+19	sigurie	siguri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=109|end_char=116|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	7	punct	_	start_char=117|end_char=118|SpacesAfter=\n|NER=O
+
+# text = Situata është ende e paqartë , ndërkohë që zona është rrethuar dhe qytetarëve iu kërkohet të qëndrojnë larg saj .
+# sent_id = 1
+1	Situata	situatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=13|NER=O
+3	ende	ende	ADV	_	AdvType=Tim	2	advmod	_	start_char=14|end_char=18|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	paqartë	paqartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=21|end_char=28|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|NER=O
+7	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	11	advmod	_	start_char=31|end_char=39|NER=O
+8	që	që	SCONJ	_	_	11	mark	_	start_char=40|end_char=42|NER=O
+9	zona	zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	start_char=43|end_char=47|NER=O
+10	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=48|end_char=53|NER=O
+11	rrethuar	rrethoj	VERB	_	VerbForm=Part	2	advcl	_	start_char=54|end_char=62|NER=O
+12	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=63|end_char=66|NER=O
+13	qytetarëve	qytetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	16	obj	_	start_char=67|end_char=77|NER=O
+14	iu	iu	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	iobj	_	start_char=78|end_char=80|NER=O
+15	kërkohet	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	conj	_	start_char=81|end_char=89|NER=O
+16	të	të	PART	_	_	18	fixed	_	start_char=90|end_char=92|NER=O
+17	qëndrojnë	qëndroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	ccomp	_	start_char=93|end_char=102|NER=O
+18	larg	larg	ADP	_	Case=Abl	20	case	_	start_char=103|end_char=107|NER=O
+19	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	obl	_	start_char=108|end_char=111|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	16	punct	_	start_char=112|end_char=113|NER=O
+
+# text = Kapitoli , një ndër simbolet kryesore të demokracisë amerikane , u sulmua në janar të këtij viti nga mbështetës të ish presidentit Trump , ku si pasojë e trazirave u regjistruan dhe disa viktima .
+# sent_id = 2
+1	Kapitoli	Kapitol	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	një	një	DET	_	Definite=Ind	5	det	_	start_char=11|end_char=14|NER=O
+4	ndër	ndër	ADP	_	Case=Acc	5	case	_	start_char=15|end_char=19|NER=O
+5	simbolet	simbol	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=20|end_char=28|NER=O
+6	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=29|end_char=37|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=38|end_char=40|NER=O
+8	demokracisë	demokraci	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=41|end_char=52|NER=O
+9	amerikane	amerikan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=53|end_char=62|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=63|end_char=64|NER=O
+11	u	u	PART	_	_	12	fixed	_	start_char=65|end_char=66|NER=O
+12	sulmua	sulmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=67|end_char=73|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=74|end_char=76|NER=O
+14	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=77|end_char=82|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=83|end_char=85|NER=O
+16	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=86|end_char=91|NER=O
+17	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=92|end_char=96|NER=O
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=97|end_char=100|NER=O
+19	mbështetës	mbështetë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=101|end_char=111|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=112|end_char=114|NER=O
+21	ish	ish	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=115|end_char=118|NER=O
+22	presidentit	president	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=119|end_char=130|NER=O
+23	Trump	Trump	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	appos	_	start_char=131|end_char=136|SpaceAfter=No|NER=B-PER
+24	,	,	PUNCT	_	_	25	punct	_	start_char=137|end_char=138|NER=O
+25	ku	ku	ADV	_	AdvType=Loc	31	advmod	_	start_char=139|end_char=141|NER=O
+26	si	si	SCONJ	_	_	27	mark	_	start_char=142|end_char=144|NER=O
+27	pasojë	pasojë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	31	obj	_	start_char=145|end_char=151|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=152|end_char=153|NER=O
+29	trazirave	trazirë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=154|end_char=163|NER=O
+30	u	u	PART	_	_	31	fixed	_	start_char=164|end_char=165|NER=O
+31	regjistruan	regjistroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	conj	_	start_char=166|end_char=177|NER=O
+32	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=178|end_char=181|NER=O
+33	disa	disa	PRON	_	PronType=Ind	34	det	_	start_char=182|end_char=186|NER=O
+34	viktima	viktimë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	obj	_	start_char=187|end_char=194|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	31	punct	_	start_char=195|end_char=196|SpacesAfter=\n|NER=O
+

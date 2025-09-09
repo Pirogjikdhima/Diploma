@@ -1,0 +1,125 @@
+# text = 19 / 09 / 2023 Zjarret e rëna e Tiranë , ditët e fundit kanë kthyer vëmendjen tek masat për mbrojtjen nga zjarri .
+# sent_id = 0
+1	19	19	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	10	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Zjarret	Zjarr	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=15|end_char=22|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=23|end_char=24|NER=O
+8	rëna	rëna	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=25|end_char=29|NER=O
+9	e	e	CCONJ	_	_	17	cc	_	start_char=30|end_char=31|NER=O
+10	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	start_char=32|end_char=38|SpaceAfter=No|NER=B-VEND_0
+11	,	,	PUNCT	_	_	19	punct	_	start_char=39|end_char=40|NER=O
+12	ditët	ditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	obj	_	start_char=41|end_char=46|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=47|end_char=48|NER=O
+14	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=49|end_char=55|NER=O
+15	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=56|end_char=60|NER=O
+16	kthyer	kthej	VERB	_	VerbForm=Part	2	conj	_	start_char=61|end_char=67|NER=O
+17	vëmendjen	vëmendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=68|end_char=77|NER=O
+18	tek	tek	ADP	_	Case=Nom	26	case	_	start_char=78|end_char=81|NER=O
+19	masat	masat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	obl	_	start_char=82|end_char=87|NER=O
+20	për	për	ADP	_	Case=Acc	28	case	_	start_char=88|end_char=91|NER=O
+21	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=92|end_char=101|NER=O
+22	nga	nga	ADP	_	Case=Nom	30	case	_	start_char=102|end_char=105|NER=O
+23	zjarri	zjarr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=106|end_char=112|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	23	punct	_	start_char=113|end_char=114|SpacesAfter=\n|NER=O
+
+# text = Drejtori i Shërbimit Zjarrfikës së Tiranës , Shkëlqim Goxhaj tha për RTSh - në se në rastet e zjarreve në banesa , qytetarët duhet të lajmërojnë shpejt , përpara se zjarri të marr përmasa të mëdha dhe godinat të mos kenë pësuar ndërhyrje që bllokojnë rrugët e evakuimit .
+# sent_id = 1
+1	Drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=9|end_char=10|NER=O
+3	Shërbimit	shërbim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=20|NER=O
+4	Zjarrfikës	Zjarrfikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	flat	_	start_char=21|end_char=31|NER=O
+5	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=32|end_char=34|NER=O
+6	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	compound	_	start_char=35|end_char=42|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|NER=O
+8	Shkëlqim	Shkëlqim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	start_char=45|end_char=53|NER=B-PER
+9	Goxhaj	Goxhaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=54|end_char=60|NER=I-PER
+10	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=61|end_char=64|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=65|end_char=68|NER=O
+12	RTSh	RTSh-në	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=69|end_char=73|NER=O
+13	-	-	PUNCT	_	_	10	punct	_	start_char=74|end_char=75|NER=O
+14	në	RTSh-në	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=76|end_char=78|NER=O
+15	se	se	SCONJ	_	_	10	mark	_	start_char=79|end_char=81|NER=O
+16	në	në	ADP	_	Case=Acc	15	case	_	start_char=82|end_char=84|NER=O
+17	rastet	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=85|end_char=91|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=92|end_char=93|NER=O
+19	zjarreve	zjarr	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=94|end_char=102|NER=O
+20	në	në	ADP	_	Case=Acc	19	case	_	start_char=103|end_char=105|NER=O
+21	banesa	banesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	start_char=106|end_char=112|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	24	punct	_	start_char=113|end_char=114|NER=O
+23	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	24	nsubj	_	start_char=115|end_char=124|NER=O
+24	duhet	duhem	AUX	_	_	24	aux	_	start_char=125|end_char=130|NER=O
+25	të	të	PART	_	_	24	fixed	_	start_char=131|end_char=133|NER=O
+26	lajmërojnë	lajmëroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=134|end_char=144|NER=O
+27	shpejt	shpejt	ADV	_	AdvType=Tim	24	advmod	_	start_char=145|end_char=151|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	27	punct	_	start_char=152|end_char=153|NER=O
+29	përpara	përpara	ADV	_	AdvType=Tim	28	fixed	_	start_char=154|end_char=161|NER=O
+30	se	se	SCONJ	_	_	31	mark	_	start_char=162|end_char=164|NER=O
+31	zjarri	zjarr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	nsubj	_	start_char=165|end_char=171|NER=O
+32	të	të	PART	_	_	31	fixed	_	start_char=172|end_char=174|NER=O
+33	marr	marr	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=175|end_char=179|NER=O
+34	përmasa	përmasë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	31	obj	_	start_char=180|end_char=187|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=188|end_char=190|NER=O
+36	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	start_char=191|end_char=196|NER=O
+37	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=197|end_char=200|NER=O
+38	godinat	godinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	32	conj	_	start_char=201|end_char=208|NER=O
+39	të	të	PART	_	_	40	fixed	_	start_char=209|end_char=211|NER=O
+40	mos	mos	PART	_	_	40	fixed	_	start_char=212|end_char=215|NER=O
+41	kenë	kam	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	40	aux	_	start_char=216|end_char=220|NER=O
+42	pësuar	pësoj	VERB	_	VerbForm=Part	31	conj	_	start_char=221|end_char=227|NER=O
+43	ndërhyrje	ndërhyrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	40	obj	_	start_char=228|end_char=237|NER=O
+44	që	që	PRON	_	PronType=Rel	43	nsubj	_	start_char=238|end_char=240|NER=O
+45	bllokojnë	bllokoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	40	ccomp	_	start_char=241|end_char=250|NER=O
+46	rrugët	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	43	obj	_	start_char=251|end_char=257|NER=O
+47	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	46	det:poss	_	start_char=258|end_char=259|NER=O
+48	evakuimit	evakuim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	44	nmod	_	start_char=260|end_char=269|SpaceAfter=No|NER=O
+49	.	.	PUNCT	_	_	40	punct	_	start_char=270|end_char=271|SpacesAfter=\n|NER=O
+
+# text = " Kryesore në këto objekte janë rrugët e evakuimit .
+# sent_id = 2
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kryesore	kryesor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	cop	_	start_char=2|end_char=10|NER=O
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=11|end_char=13|NER=O
+4	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=14|end_char=18|NER=O
+5	objekte	objekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=19|end_char=26|NER=O
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=31|NER=O
+7	rrugët	rrugë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	cop	_	start_char=32|end_char=38|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=39|end_char=40|NER=O
+9	evakuimit	evakuim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=41|end_char=50|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	6	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Nga ana e ndërtuesve të vendosen pajisje kundër zjarrit .
+# sent_id = 3
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=4|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=9|NER=O
+4	ndërtuesve	ndërtues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	start_char=10|end_char=20|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+6	vendosen	vendos	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=24|end_char=32|NER=O
+7	pajisje	pajisje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=33|end_char=40|NER=O
+8	kundër	kundër	ADP	_	Case=Abl	9	case	_	start_char=41|end_char=47|NER=O
+9	zjarrit	zjarr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=48|end_char=55|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	6	punct	_	start_char=56|end_char=57|NER=O
+
+# text = Shqetësuese është ndërhyrja me vonesë " , tha Goxhaj .
+# sent_id = 4
+1	Shqetësuese	shqetësues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=0|end_char=11|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=17|NER=O
+3	ndërhyrja	ndërhyrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=18|end_char=27|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=28|end_char=30|NER=O
+5	vonesë	vonesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=31|end_char=37|SpaceAfter=No|NER=O
+6	"	"	PUNCT	_	_	2	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	7	punct	_	start_char=40|end_char=41|NER=O
+8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=42|end_char=45|NER=O
+9	Goxhaj	Goxhaj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=46|end_char=52|SpaceAfter=No|NER=B-PER
+10	.	.	PUNCT	_	_	2	punct	_	start_char=53|end_char=54|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Albana Agolli
+# sent_id = 5
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Agolli	Agoll	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,128 @@
+# text = 03 / 08 / 2023 Ai qëndron diku në në kënd të rrugës dhe krijon melodinë e tij .
+# sent_id = 0
+1	03	03	NUM	_	NumType=Card	9	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	9	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	11	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=15|end_char=17|NER=O
+7	qëndron	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=25|NER=O
+8	diku	diku	ADV	_	AdvType=Loc	16	advmod	_	start_char=26|end_char=30|NER=O
+9	në	në	ADP	_	Case=Acc	20	case	_	start_char=31|end_char=33|NER=O
+10	në	në	ADP	_	Case=Acc	20	case	_	start_char=34|end_char=36|NER=O
+11	kënd	kënd	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=37|end_char=41|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=42|end_char=44|NER=O
+13	rrugës	rrugë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=45|end_char=51|NER=O
+14	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=52|end_char=55|NER=O
+15	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=56|end_char=62|NER=O
+16	melodinë	melodi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=63|end_char=71|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=72|end_char=73|NER=O
+18	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=74|end_char=77|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	24	punct	_	start_char=78|end_char=79|NER=O
+
+# text = E quajnë Myrto dhe vjen nga fshati Bruçaj i Shkodrës .
+# sent_id = 1
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=0|end_char=1|NER=O
+2	quajnë	quaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=8|NER=O
+3	Myrto	Myrto	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=9|end_char=14|NER=B-PER
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=15|end_char=18|NER=O
+5	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=19|end_char=23|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=24|end_char=27|NER=O
+7	fshati	fshat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	start_char=28|end_char=34|NER=O
+8	Bruçaj	Bruçaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=35|end_char=41|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=42|end_char=43|NER=O
+10	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=44|end_char=52|SpaceAfter=No|NER=B-VEND_0
+11	.	.	PUNCT	_	_	2	punct	_	start_char=53|end_char=54|NER=O
+
+# text = Çobani 85 - vjeçar sfidon thuajse çdo ditë temperaturat e larta të qytetit me instrumentin e lashtë baritor të fyellit , të cilin e ka punuar vetë dhe e ka shoqëruar prej një jete të tërë .
+# sent_id = 2
+1	Çobani	Çoban	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	85	85	NUM	_	NumType=Card	1	amod	_	start_char=7|end_char=9|NER=O
+3	-	-	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+4	vjeçar	85-vjeçar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=12|end_char=18|NER=O
+5	sfidon	sfidoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=25|NER=O
+6	thuajse	thuajse	ADV	_	AdvType=Man	6	advmod	_	start_char=26|end_char=33|NER=O
+7	çdo	çdo	PRON	_	PronType=Ind	6	nummod	_	start_char=34|end_char=37|NER=O
+8	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=38|end_char=42|NER=O
+9	temperaturat	temperaturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=43|end_char=55|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=56|end_char=57|NER=O
+11	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=58|end_char=63|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=64|end_char=66|NER=O
+13	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=67|end_char=74|NER=O
+14	me	me	ADP	_	Case=Acc	13	case	_	start_char=75|end_char=77|NER=O
+15	instrumentin	instrument	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=78|end_char=90|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=91|end_char=92|NER=O
+17	lashtë	lashtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=93|end_char=99|NER=O
+18	baritor	baritor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=100|end_char=107|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=108|end_char=110|NER=O
+20	fyellit	fyell	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=111|end_char=118|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	21	punct	_	start_char=119|end_char=120|NER=O
+22	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=121|end_char=123|NER=O
+23	cilin	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	start_char=124|end_char=129|NER=O
+24	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	cc	_	start_char=130|end_char=131|NER=O
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=132|end_char=134|NER=O
+26	punuar	punoj	VERB	_	VerbForm=Part	3	conj	_	start_char=135|end_char=141|NER=O
+27	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	24	cop	_	start_char=142|end_char=146|NER=O
+28	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=147|end_char=150|NER=O
+29	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	start_char=151|end_char=152|NER=O
+30	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=153|end_char=155|NER=O
+31	shoqëruar	shoqëruar	VERB	_	VerbForm=Part	24	conj	_	start_char=156|end_char=165|NER=O
+32	prej	prej	ADP	_	Case=Abl	32	case	_	start_char=166|end_char=170|NER=O
+33	një	një	DET	_	Definite=Ind	32	det	_	start_char=171|end_char=174|NER=O
+34	jete	jetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obl	_	start_char=175|end_char=179|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=180|end_char=182|NER=O
+36	tërë	tërë	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	32	amod	_	start_char=183|end_char=187|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	29	punct	_	start_char=188|end_char=189|SpacesAfter=\n|NER=O
+
+# text = " E kam mësuar qysh 10 vjeç , me fyellxhinj , me njerëz që kanë ditur me i rënë fyellit .
+# sent_id = 3
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=2|end_char=3|NER=O
+3	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=4|end_char=7|NER=O
+4	mësuar	mësoj	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=14|NER=O
+5	qysh	qysh	ADV	_	AdvType=Tim	7	advmod	_	start_char=15|end_char=19|NER=O
+6	10	10	NUM	_	NumType=Card	7	nummod	_	start_char=20|end_char=22|NER=O
+7	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	start_char=23|end_char=27|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	10	punct	_	start_char=28|end_char=29|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=30|end_char=32|NER=O
+10	fyellxhinj	fyellxh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=33|end_char=43|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=44|end_char=45|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=46|end_char=48|NER=O
+13	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	list	_	start_char=49|end_char=55|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=56|end_char=58|NER=O
+15	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=59|end_char=63|NER=O
+16	ditur	ditur	VERB	_	VerbForm=Part	13	acl:relcl	_	start_char=64|end_char=69|NER=O
+17	me	me	ADP	_	Case=Acc	19	fixed	_	start_char=70|end_char=72|NER=O
+18	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=73|end_char=74|NER=O
+19	rënë	bie	VERB	_	VerbForm=Part	16	advmod	_	start_char=75|end_char=79|NER=O
+20	fyellit	fyell	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=80|end_char=87|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	16	punct	_	start_char=88|end_char=89|NER=O
+
+# text = Atëherë e kam marrë vetë me iniciativën time , me forcën time , " thotë Myrto Mani .
+# sent_id = 4
+1	Atëherë	atëherë	ADV	_	AdvType=Tim	4	advmod	_	start_char=0|end_char=7|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cc	_	start_char=8|end_char=9|NER=O
+3	kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=10|end_char=13|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	15	advcl	_	start_char=14|end_char=19|NER=O
+5	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	4	cop	_	start_char=20|end_char=24|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=27|NER=O
+7	iniciativën	iniciativë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=28|end_char=39|NER=O
+8	time	ime	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	amod	_	start_char=40|end_char=44|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	forcën	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	start_char=50|end_char=56|NER=O
+12	time	ime	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	amod	_	start_char=57|end_char=61|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	11	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=O
+14	"	"	PUNCT	_	_	15	punct	_	start_char=64|end_char=65|NER=O
+15	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=66|end_char=71|NER=O
+16	Myrto	Myrto	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	start_char=72|end_char=77|NER=B-PER
+17	Mani	Mani	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=78|end_char=82|SpaceAfter=No|NER=I-PER
+18	.	.	PUNCT	_	_	15	punct	_	start_char=83|end_char=84|SpacesAfter=\n|NER=O
+
+# text = Gazetar : Marjo Gjini
+# sent_id = 5
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Marjo	Marjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Gjini	Gjini	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat:name	_	start_char=16|end_char=21|SpacesAfter=\n\n|NER=I-PER
+

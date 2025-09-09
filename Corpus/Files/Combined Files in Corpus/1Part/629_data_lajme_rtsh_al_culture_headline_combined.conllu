@@ -1,0 +1,149 @@
+# text = 3 të kompozitorit finlandez , Jan Sibelius , do të jehojnë në koncertin e radhës që do të dhurojë Orkestra Simfonike e Radio Televizionit Shqiptar , nën dirigjimin e mjeshtrit Bujar Llapaj .
+# sent_id = 0
+1	3	3	NUM	_	NumType=Card	29	nummod	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2|end_char=4|NER=O
+3	kompozitorit	kompozitor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=5|end_char=17|NER=O
+4	finlandez	finlandez	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=18|end_char=27|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	1	punct	_	start_char=28|end_char=29|NER=O
+6	Jan	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=33|NER=B-PER
+7	Sibelius	Sibelius	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=34|end_char=42|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	11	punct	_	start_char=43|end_char=44|NER=O
+9	do	do	PART	_	_	11	fixed	_	start_char=45|end_char=47|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=48|end_char=50|NER=O
+11	jehojnë	jehoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=51|end_char=58|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=59|end_char=61|NER=O
+13	koncertin	koncert	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=62|end_char=71|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=72|end_char=73|NER=O
+15	radhës	radhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=74|end_char=80|NER=O
+16	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=81|end_char=83|NER=O
+17	do	do	PART	_	_	19	fixed	_	start_char=84|end_char=86|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=87|end_char=89|NER=O
+19	dhurojë	dhuroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl	_	start_char=90|end_char=97|NER=O
+20	Orkestra	Orkestrë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=98|end_char=106|NER=O
+21	Simfonike	simfonik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	compound	_	start_char=107|end_char=116|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=117|end_char=118|NER=O
+23	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	compound	_	start_char=119|end_char=124|NER=B-ORG
+24	Televizionit	Televizion	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=125|end_char=137|NER=I-ORG
+25	Shqiptar	Shqiptar	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	24	flat	_	start_char=138|end_char=146|SpaceAfter=No|NER=I-ORG
+26	,	,	PUNCT	_	_	28	punct	_	start_char=147|end_char=148|NER=O
+27	nën	nën	ADP	_	Case=Acc	28	case	_	start_char=149|end_char=152|NER=O
+28	dirigjimin	dirigjim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	start_char=153|end_char=163|NER=O
+29	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=164|end_char=165|NER=O
+30	mjeshtrit	mjeshtr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=166|end_char=175|NER=O
+31	Bujar	Bujar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	appos	_	start_char=176|end_char=181|NER=B-PER
+32	Llapaj	Llapaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	appos	_	start_char=182|end_char=188|SpaceAfter=No|NER=I-PER
+33	.	.	PUNCT	_	_	6	punct	_	start_char=189|end_char=190|SpacesAfter=\n|NER=O
+
+# text = Veçantia e përzgjedhjes së kësaj vepre shqiptare , qëndron në faktin se " Koncert për piano dhe orkestër " , me autor Çesk Zadenë , përkon me 55 vjetorin e krijimit dhe interpretimit për herë të parë nga pianistja Nikoleta Nako dhe dirigjenti Roland Çene .
+# sent_id = 1
+1	Veçantia	Veçanti	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=9|end_char=10|NER=O
+3	përzgjedhjes	përzgjedhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=23|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=24|end_char=26|NER=O
+5	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=27|end_char=32|NER=O
+6	vepre	vepër	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=33|end_char=38|NER=O
+7	shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=39|end_char=48|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=49|end_char=50|NER=O
+9	qëndron	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=51|end_char=58|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=59|end_char=61|NER=O
+11	faktin	fakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=62|end_char=68|NER=O
+12	se	se	SCONJ	_	_	9	mark	_	start_char=69|end_char=71|NER=O
+13	"	"	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|SpaceAfter=No|NER=O
+14	Koncert	Koncer	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=74|end_char=81|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=82|end_char=85|NER=O
+16	piano	piano	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	start_char=86|end_char=91|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=92|end_char=95|NER=O
+18	orkestër	orkestër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	conj	_	start_char=96|end_char=104|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	16	punct	_	start_char=105|end_char=106|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=107|end_char=108|NER=O
+21	me	me	ADP	_	Case=Acc	21	case	_	start_char=109|end_char=111|NER=O
+22	autor	autor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	advmod	_	start_char=112|end_char=117|NER=O
+23	Çesk	Çesk	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	start_char=118|end_char=122|NER=B-PER
+24	Zadenë	Zadenë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	flat	_	start_char=123|end_char=129|SpaceAfter=No|NER=I-PER
+25	,	,	PUNCT	_	_	25	punct	_	start_char=130|end_char=131|NER=O
+26	përkon	përkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=132|end_char=138|NER=O
+27	me	me	ADP	_	Case=Acc	28	case	_	start_char=139|end_char=141|NER=O
+28	55	55	NUM	_	NumType=Card	28	nummod	_	start_char=142|end_char=144|NER=O
+29	vjetorin	vjetor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	start_char=145|end_char=153|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=154|end_char=155|NER=O
+31	krijimit	krijim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=156|end_char=164|NER=O
+32	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=165|end_char=168|NER=O
+33	interpretimit	interpretim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	conj	_	start_char=169|end_char=182|NER=O
+34	për	për	ADP	_	Case=Acc	34	case	_	start_char=183|end_char=186|NER=O
+35	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	nmod	_	start_char=187|end_char=191|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=192|end_char=194|NER=O
+37	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=195|end_char=199|NER=O
+38	nga	nga	ADP	_	Case=Nom	38	case	_	start_char=200|end_char=203|NER=O
+39	pianistja	pianistje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=204|end_char=213|NER=O
+40	Nikoleta	Nikoletë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	38	appos	_	start_char=214|end_char=222|NER=B-PER
+41	Nako	Nako	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=223|end_char=227|NER=I-PER
+42	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=228|end_char=231|NER=O
+43	dirigjenti	dirigjent	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	conj	_	start_char=232|end_char=242|NER=O
+44	Roland	Roland	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	42	appos	_	start_char=243|end_char=249|NER=B-PER
+45	Çene	Çene	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	flat	_	start_char=250|end_char=254|SpaceAfter=No|NER=I-PER
+46	.	.	PUNCT	_	_	25	punct	_	start_char=255|end_char=256|NER=O
+
+# text = Pas afro 5 dekadash , në këtë përvjetor , kjo vepër madhore e repertorit shqiptar do të luhet nga pianistja virtuoze estoneze .
+# sent_id = 2
+1	Pas	pas	ADP	_	Case=Abl	4	case	_	start_char=0|end_char=3|NER=O
+2	afro	afro	NUM	_	NumType=Card	4	nummod	_	start_char=4|end_char=8|NER=O
+3	5	5	NUM	_	NumType=Card	4	nummod	_	start_char=9|end_char=10|NER=O
+4	dekadash	dekadash	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	18	advmod	_	start_char=11|end_char=19|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	8	punct	_	start_char=20|end_char=21|NER=O
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=22|end_char=24|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=25|end_char=29|NER=O
+8	përvjetor	përvjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=30|end_char=39|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=40|end_char=41|NER=O
+10	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=42|end_char=45|NER=O
+11	vepër	vepër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	start_char=46|end_char=51|NER=O
+12	madhore	madhor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=52|end_char=59|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=60|end_char=61|NER=O
+14	repertorit	repertor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=62|end_char=72|NER=O
+15	shqiptar	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=73|end_char=81|NER=O
+16	do	do	PART	_	_	18	fixed	_	start_char=82|end_char=84|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=85|end_char=87|NER=O
+18	luhet	luhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=88|end_char=93|NER=O
+19	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=94|end_char=97|NER=O
+20	pianistja	pianistje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=98|end_char=107|NER=O
+21	virtuoze	virtuoz	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=108|end_char=116|NER=O
+22	estoneze	estonez	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=117|end_char=125|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	18	punct	_	start_char=126|end_char=127|SpacesAfter=\n|NER=O
+
+# text = Koncerti do të luhet për publikun , të premten më 28 prill , në orën 19 : 00 , në Qendrën Kulturore të Katedrales Ortodokse të kryeqytetit .
+# sent_id = 3
+1	Koncerti	Koncert	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	luhet	luhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=15|end_char=20|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=21|end_char=24|NER=O
+6	publikun	publik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=25|end_char=33|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	9	punct	_	start_char=34|end_char=35|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=36|end_char=38|NER=B-DATE_1
+9	premten	premte	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=39|end_char=46|NER=I-DATE_1
+10	më	më	ADP	_	Case=Acc	12	case	_	start_char=47|end_char=49|NER=O
+11	28	28	NUM	_	NumType=Card	12	nummod	_	start_char=50|end_char=52|NER=B-DATE_0
+12	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=53|end_char=58|SpaceAfter=No|NER=I-DATE_0
+13	,	,	PUNCT	_	_	15	punct	_	start_char=59|end_char=60|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=61|end_char=63|NER=O
+15	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	list	_	start_char=64|end_char=68|NER=O
+16	19	19	NUM	_	NumType=Card	15	amod:nummod	_	start_char=69|end_char=71|SpaceAfter=No|NER=O
+17	:	:	PUNCT	_	_	15	punct	_	start_char=72|end_char=73|SpaceAfter=No|NER=O
+18	00	00	NUM	_	NumType=Card	15	amod:nummod	_	start_char=74|end_char=76|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	19	punct	_	start_char=77|end_char=78|NER=O
+20	në	në	ADP	_	Case=Acc	19	case	_	start_char=79|end_char=81|NER=O
+21	Qendrën	qendër	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=82|end_char=89|NER=O
+22	Kulturore	kulturor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=90|end_char=99|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=100|end_char=102|NER=O
+24	Katedrales	Katedrale	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=103|end_char=113|NER=O
+25	Ortodokse	Ortodoks	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=114|end_char=123|NER=O
+26	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=124|end_char=126|NER=O
+27	kryeqytetit	kryeqytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=127|end_char=138|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	4	punct	_	start_char=139|end_char=140|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Ornela Ceka
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Ornela	Ornelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=11|end_char=17|NER=B-PER
+4	Ceka	Cek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=22|SpacesAfter=\n|NER=I-PER
+

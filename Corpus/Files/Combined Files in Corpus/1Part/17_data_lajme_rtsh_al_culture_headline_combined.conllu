@@ -1,0 +1,240 @@
+# text = Si e sheh Leka Bungo Tiranën e sotme ?
+# sent_id = 0
+1	Si	si	SCONJ	_	_	3	mark	_	start_char=0|end_char=2|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=3|end_char=4|NER=O
+3	sheh	shoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+4	Leka	Leka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=10|end_char=14|NER=B-PER
+5	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	flat	_	start_char=15|end_char=20|NER=I-PER
+6	Tiranën	Tiranë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	flat	_	start_char=21|end_char=28|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=29|end_char=30|NER=O
+8	sotme	sotme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=31|end_char=36|SpaceAfter=No|NER=O
+9	?	?	PUNCT	_	_	3	punct	_	start_char=37|end_char=38|NER=O
+
+# text = - Në bulevard s ' më njeh njeri , shkoj në Tufinë i njoh të gjithë .
+# sent_id = 1
+1	-	-	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	bulevard	bulevard	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=5|end_char=13|NER=O
+4	s	s'më	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=14|end_char=15|NER=O
+5	'	'	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|NER=O
+6	më	s'më	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=18|end_char=20|NER=O
+7	njeh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=25|NER=O
+8	njeri	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=26|end_char=31|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	8	punct	_	start_char=32|end_char=33|NER=O
+10	shkoj	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	advmod	_	start_char=34|end_char=39|NER=O
+11	në	në	ADP	_	Case=Acc	10	case	_	start_char=40|end_char=42|NER=O
+12	Tufinë	Tufinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	start_char=43|end_char=49|NER=B-VEND_0
+13	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	start_char=50|end_char=51|NER=O
+14	njoh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	advcl	_	start_char=52|end_char=56|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=57|end_char=59|NER=O
+16	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	12	obl	_	start_char=60|end_char=66|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	8	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 2
+1	.	.	PUNCT	_	_	8	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 3
+1	.	.	PUNCT	_	_	8	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = 26 / 01 / 2024 Regjisori , shkrimtari dhe aktori Leka Bungo , duke treguar një histori të tijën pas rikthimit në Shqipëri , kujton një episod që sikurse e përmendi dhe vetë , është e përfshirë në komedinë " Testamenti " , ajo që njihet si pjesë e humor të zi .
+# sent_id = 4
+1	26	26	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	24	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	24	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	2	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	2	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Regjisori	Regjisor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=15|end_char=24|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	7	punct	_	start_char=25|end_char=26|NER=O
+8	shkrimtari	shkrimtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=27|end_char=37|NER=O
+9	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=38|end_char=41|NER=O
+10	aktori	aktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	start_char=42|end_char=48|NER=O
+11	Leka	Leka	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=49|end_char=53|NER=B-PER
+12	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=54|end_char=59|NER=I-PER
+13	,	,	PUNCT	_	_	14	punct	_	start_char=60|end_char=61|NER=O
+14	duke	duke	PART	_	_	14	fixed	_	start_char=62|end_char=66|NER=O
+15	treguar	tregoj	VERB	_	VerbForm=Part	24	advmod	_	start_char=67|end_char=74|NER=O
+16	një	një	DET	_	Definite=Ind	16	det	_	start_char=75|end_char=78|NER=O
+17	histori	histori	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=79|end_char=86|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=87|end_char=89|NER=O
+19	tijën	tijë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=90|end_char=95|NER=O
+20	pas	pas	ADP	_	Case=Abl	20	case	_	start_char=96|end_char=99|NER=O
+21	rikthimit	rikthim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=100|end_char=109|NER=O
+22	në	në	ADP	_	Case=Acc	22	case	_	start_char=110|end_char=112|NER=O
+23	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=113|end_char=121|NER=B-VEND_1
+24	,	,	PUNCT	_	_	24	punct	_	start_char=122|end_char=123|NER=O
+25	kujton	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=124|end_char=130|NER=O
+26	një	një	DET	_	Definite=Ind	26	det	_	start_char=131|end_char=134|NER=O
+27	episod	episod	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	start_char=135|end_char=141|NER=O
+28	që	që	PRON	_	PronType=Rel	30	nsubj	_	start_char=142|end_char=144|NER=O
+29	sikurse	sikurse	SCONJ	_	_	30	mark	_	start_char=145|end_char=152|NER=O
+30	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	start_char=153|end_char=154|NER=O
+31	përmendi	përmend	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	advcl	_	start_char=155|end_char=163|NER=O
+32	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=164|end_char=167|NER=O
+33	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	30	cop	_	start_char=168|end_char=172|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	34	punct	_	start_char=173|end_char=174|NER=O
+35	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	start_char=175|end_char=180|NER=O
+36	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=181|end_char=182|NER=O
+37	përfshirë	përfshirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	cop	_	start_char=183|end_char=192|NER=O
+38	në	në	ADP	_	Case=Acc	38	case	_	start_char=193|end_char=195|NER=O
+39	komedinë	komedi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	34	advmod	_	start_char=196|end_char=204|NER=O
+40	"	"	PUNCT	_	_	40	punct	_	start_char=205|end_char=206|SpaceAfter=No|NER=O
+41	Testamenti	Testamenti	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	appos	_	start_char=207|end_char=217|SpaceAfter=No|NER=O
+42	"	"	PUNCT	_	_	38	punct	_	start_char=218|end_char=219|SpaceAfter=No|NER=O
+43	,	,	PUNCT	_	_	42	punct	_	start_char=220|end_char=221|NER=O
+44	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	start_char=222|end_char=225|NER=O
+45	që	që	PRON	_	PronType=Rel	44	nsubj	_	start_char=226|end_char=228|NER=O
+46	njihet	njihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	38	acl	_	start_char=229|end_char=235|NER=O
+47	si	si	SCONJ	_	_	46	mark	_	start_char=236|end_char=238|NER=O
+48	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	44	cop	_	start_char=239|end_char=244|NER=O
+49	e	e	CCONJ	_	_	48	cc	_	start_char=245|end_char=246|NER=O
+50	humor	humor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	46	conj	_	start_char=247|end_char=252|NER=O
+51	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	50	det	_	start_char=253|end_char=255|NER=O
+52	zi	zi	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	48	amod	_	start_char=256|end_char=258|SpaceAfter=No|NER=O
+53	.	.	PUNCT	_	_	44	punct	_	start_char=259|end_char=260|SpacesAfter=\n|NER=O
+
+# text = " Kur kam ardhur në Tiranë vite më parë , më pyeti një mik si të duket Tirana ?
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kur	kur	SCONJ	_	_	4	mark	_	start_char=2|end_char=5|NER=O
+3	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	4	aux	_	start_char=6|end_char=9|NER=O
+4	ardhur	vij	VERB	_	VerbForm=Part	12	advcl	_	start_char=10|end_char=16|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=17|end_char=19|NER=O
+6	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=20|end_char=26|NER=B-VEND_0
+7	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=27|end_char=31|NER=O
+8	më	më	PART	_	_	9	mark	_	start_char=32|end_char=34|NER=O
+9	parë	parë	ADV	_	AdvType=Tim	12	advmod	_	start_char=35|end_char=39|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	4	punct	_	start_char=40|end_char=41|NER=O
+11	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	start_char=42|end_char=44|NER=O
+12	pyeti	pyes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=45|end_char=50|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=51|end_char=54|NER=O
+14	mik	mik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=55|end_char=58|NER=O
+15	si	si	SCONJ	_	_	17	mark	_	start_char=59|end_char=61|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=62|end_char=64|NER=O
+17	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	ccomp	_	start_char=65|end_char=70|NER=O
+18	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=71|end_char=77|SpaceAfter=No|NER=B-VEND_0
+19	?	?	PUNCT	_	_	12	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Tirana thash unë krejt ndryshe , por ka një gjë , që kur dal në bulevard nuk njoh njëri dhe më e këqija është se nuk me njeh njëri .
+# sent_id = 6
+1	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-VEND_0
+2	thash	them	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+3	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=13|end_char=16|NER=O
+4	krejt	krejt	ADV	_	AdvType=Deg	5	advmod	_	start_char=17|end_char=22|NER=O
+5	ndryshe	ndryshe	ADV	_	AdvType=Man	2	advmod	_	start_char=23|end_char=30|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=31|end_char=32|NER=O
+7	por	por	CCONJ	_	_	8	cc	_	start_char=33|end_char=36|NER=O
+8	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=37|end_char=39|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=40|end_char=43|NER=O
+10	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=44|end_char=47|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=48|end_char=49|NER=O
+12	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=50|end_char=52|NER=O
+13	kur	kur	SCONJ	_	_	14	mark	_	start_char=53|end_char=56|NER=O
+14	dal	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=57|end_char=60|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=61|end_char=63|NER=O
+16	bulevard	bulevard	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=64|end_char=72|NER=O
+17	nuk	nuk	PART	_	_	18	mark	_	start_char=73|end_char=76|NER=O
+18	njoh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	start_char=77|end_char=81|NER=O
+19	njëri	njëri	ADV	_	AdvType=Man	18	advmod	_	start_char=82|end_char=87|NER=O
+20	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=88|end_char=91|NER=O
+21	më	më	PART	_	_	23	mark	_	start_char=92|end_char=94|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=95|end_char=96|NER=O
+23	këqija	këqijë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	cop	_	start_char=97|end_char=103|NER=O
+24	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=104|end_char=109|NER=O
+25	se	se	SCONJ	_	_	28	mark	_	start_char=110|end_char=112|NER=O
+26	nuk	nuk	PART	_	_	28	mark	_	start_char=113|end_char=116|NER=O
+27	me	me	ADP	_	Case=Acc	28	fixed	_	start_char=117|end_char=119|NER=O
+28	njeh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advmod	_	start_char=120|end_char=124|NER=O
+29	njëri	njëri	PRON	_	Number=Sing|PronType=Ind	28	obj	_	start_char=125|end_char=130|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	24	punct	_	start_char=131|end_char=132|NER=O
+
+# text = Mirëpo kur shkoj në Shesh - Tufinë I njoh të gjithë " , tha Bungo me humor të hidhur .
+# sent_id = 7
+1	Mirëpo	mirëpo	CCONJ	_	_	11	cc	_	start_char=0|end_char=6|NER=O
+2	kur	kur	SCONJ	_	_	3	mark	_	start_char=7|end_char=10|NER=O
+3	shkoj	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=11|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	Shesh	shesh-Tufi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=20|end_char=25|NER=B-VEND_0
+6	-	-	PUNCT	_	_	3	punct	_	start_char=26|end_char=27|NER=B-VEND_0
+7	Tufinë	shesh-Tufi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=28|end_char=34|NER=B-VEND_0
+8	I	I	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=35|end_char=36|NER=O
+9	njoh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	start_char=37|end_char=41|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=42|end_char=44|NER=O
+11	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	start_char=45|end_char=51|SpaceAfter=No|NER=O
+12	"	"	PUNCT	_	_	7	punct	_	start_char=52|end_char=53|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	7	punct	_	start_char=54|end_char=55|NER=O
+14	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=56|end_char=59|NER=O
+15	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=60|end_char=65|NER=B-PER
+16	me	me	ADP	_	Case=Acc	14	case	_	start_char=66|end_char=68|NER=O
+17	humor	humor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=69|end_char=74|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=75|end_char=77|NER=O
+19	hidhur	hidhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=78|end_char=84|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	11	punct	_	start_char=85|end_char=86|SpacesAfter=\n|NER=O
+
+# text = " Ndaj , vazhdoi ai , dhe kur na shikojnë se bashku me Viktorin duke punuar thonë po këta të azilit të pleqve çfarë duan këtu .
+# sent_id = 8
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ndaj	ndaj	ADP	_	Case=Abl	4	fixed	_	start_char=2|end_char=6|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	4	punct	_	start_char=7|end_char=8|NER=O
+4	vazhdoi	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=16|NER=O
+5	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=17|end_char=19|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=20|end_char=21|NER=O
+7	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=22|end_char=25|NER=O
+8	kur	kur	SCONJ	_	_	10	mark	_	start_char=26|end_char=29|NER=O
+9	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	10	iobj	_	start_char=30|end_char=32|NER=O
+10	shikojnë	shikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=33|end_char=41|NER=O
+11	se	se	SCONJ	_	_	17	mark	_	start_char=42|end_char=44|NER=O
+12	bashku	bashku	ADV	_	AdvType=Man	10	advmod	_	start_char=45|end_char=51|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=52|end_char=54|NER=O
+14	Viktorin	Viktor	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=55|end_char=63|NER=B-PER
+15	duke	duke	PART	_	_	16	fixed	_	start_char=64|end_char=68|NER=O
+16	punuar	punoj	VERB	_	VerbForm=Part	17	advmod	_	start_char=69|end_char=75|NER=O
+17	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=76|end_char=81|NER=O
+18	po	po	PART	_	_	21	mark	_	start_char=82|end_char=84|NER=O
+19	këta	këta	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	21	det	_	start_char=85|end_char=89|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	21	det	_	start_char=90|end_char=92|NER=O
+21	azilit	azil	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=93|end_char=99|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=100|end_char=102|NER=O
+23	pleqve	plak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	start_char=103|end_char=109|NER=O
+24	çfarë	çfarë	PRON	_	PronType=Ind	25	obj	_	start_char=110|end_char=115|NER=O
+25	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	acl:relcl	_	start_char=116|end_char=120|NER=O
+26	këtu	ky	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	25	obj	_	start_char=121|end_char=125|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	25	punct	_	start_char=126|end_char=127|SpaceAfter=No|NER=O
+
+# text = ?
+# sent_id = 9
+1	?	?	PUNCT	_	_	25	punct	_	start_char=0|end_char=1|NER=O
+
+# text = " E menjëhershme ka qenë batuta e aktorit Viktor Zhusti , i cili tha se , " të dy bashkë bëjmë 162 vjeç , nuk janë pak " .
+# sent_id = 10
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2|end_char=3|NER=O
+3	menjëhershme	menjëhershëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=4|end_char=16|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=17|end_char=19|NER=O
+5	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=20|end_char=24|NER=O
+6	batuta	batutë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	cop	_	start_char=25|end_char=31|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=33|NER=O
+8	aktorit	aktor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=34|end_char=41|NER=O
+9	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=42|end_char=48|NER=B-PER
+10	Zhusti	Zhust	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=49|end_char=55|NER=I-PER
+11	,	,	PUNCT	_	_	13	punct	_	start_char=56|end_char=57|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=58|end_char=59|NER=O
+13	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	start_char=60|end_char=64|NER=O
+14	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	start_char=65|end_char=68|NER=O
+15	se	se	SCONJ	_	_	21	mark	_	start_char=69|end_char=71|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|NER=O
+17	"	"	PUNCT	_	_	19	punct	_	start_char=74|end_char=75|NER=O
+18	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det	_	start_char=76|end_char=78|NER=O
+19	dy	dy	NUM	_	NumType=Sets	21	nsubj	_	start_char=79|end_char=81|NER=O
+20	bashkë	bashkë	ADV	_	AdvType=Man	21	advmod	_	start_char=82|end_char=88|NER=O
+21	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	14	advcl	_	start_char=89|end_char=94|NER=O
+22	162	162	NUM	_	NumType=Card	23	nummod	_	start_char=95|end_char=98|NER=O
+23	vjeç	vjeç	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	start_char=99|end_char=103|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	21	punct	_	start_char=104|end_char=105|NER=O
+25	nuk	nuk	PART	_	_	26	mark	_	start_char=106|end_char=109|NER=O
+26	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	ccomp	_	start_char=110|end_char=114|NER=O
+27	pak	pak	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	cop	_	start_char=115|end_char=118|SpaceAfter=No|NER=O
+28	"	"	PUNCT	_	_	26	punct	_	start_char=119|end_char=120|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	26	punct	_	start_char=121|end_char=122|SpacesAfter=\n\n\n|NER=O
+

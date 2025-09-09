@@ -1,0 +1,312 @@
+# text = 18 / 12 / 2023 Vetëm një ditë na ndan nga Festivali i 62 i Këngës në RTSH .
+# sent_id = 0
+1	18	18	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	17	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	17	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	19	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Vetëm	Vetëm	PART	_	_	24	mark	_	start_char=15|end_char=20|NER=O
+7	një	një	DET	_	Definite=Ind	24	det	_	start_char=21|end_char=24|NER=O
+8	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=25|end_char=29|NER=O
+9	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	26	iobj	_	start_char=30|end_char=32|NER=O
+10	ndan	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=33|end_char=37|NER=O
+11	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=38|end_char=41|NER=O
+12	Festivali	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	start_char=42|end_char=51|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=52|end_char=53|NER=O
+14	62	62	NUM	_	NumType=Card	28	nmod	_	start_char=54|end_char=56|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=57|end_char=58|NER=O
+16	Këngës	Këngë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=59|end_char=65|NER=O
+17	në	në	ADP	_	Case=Acc	34	case	_	start_char=66|end_char=68|NER=O
+18	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	start_char=69|end_char=73|SpaceAfter=No|NER=B-ORG
+19	.	.	PUNCT	_	_	26	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Skena tashmë ka marrë formë , teksa këngëtarët dhe prezantuesit zhvillojnë provat e fundit .
+# sent_id = 1
+1	Skena	skenë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=0|end_char=5|NER=O
+2	tashmë	tashmë	ADV	_	AdvType=Tim	4	advmod	_	start_char=6|end_char=12|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=13|end_char=15|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=16|end_char=21|NER=O
+5	formë	formë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=22|end_char=27|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29|NER=O
+7	teksa	teksa	SCONJ	_	_	8	mark	_	start_char=30|end_char=35|NER=O
+8	këngëtarët	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	advmod	_	start_char=36|end_char=46|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=47|end_char=50|NER=O
+10	prezantuesit	prezantues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	conj	_	start_char=51|end_char=63|NER=O
+11	zhvillojnë	zhvilloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=64|end_char=74|NER=O
+12	provat	provë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=75|end_char=81|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=82|end_char=83|NER=O
+14	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=84|end_char=90|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	11	punct	_	start_char=91|end_char=92|NER=O
+
+# text = I dalluar për nga numri i lartë i këngëtarëve të rinj që ngjiten në skenë , ky Festival i ka lënë hapësirë të rinjve dhe në prezantim .
+# sent_id = 2
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	dalluar	dalloj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=9|NER=O
+3	për	për	ADP	_	Case=Acc	5	case	_	start_char=10|end_char=13|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=14|end_char=17|NER=O
+5	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=18|end_char=23|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=24|end_char=25|NER=O
+7	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=26|end_char=31|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=32|end_char=33|NER=O
+9	këngëtarëve	këngëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=34|end_char=45|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=46|end_char=48|NER=O
+11	rinj	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=49|end_char=53|NER=O
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=54|end_char=56|NER=O
+13	ngjiten	ngjitej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	9	acl:relcl	_	start_char=57|end_char=64|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=65|end_char=67|NER=O
+15	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	start_char=68|end_char=73|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	13	punct	_	start_char=74|end_char=75|NER=O
+17	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=76|end_char=78|NER=O
+18	Festival	Festival	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	nsubj	_	start_char=79|end_char=87|NER=O
+19	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	start_char=88|end_char=89|NER=O
+20	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=90|end_char=92|NER=O
+21	lënë	lë	VERB	_	VerbForm=Part	13	conj	_	start_char=93|end_char=97|NER=O
+22	hapësirë	hapësirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=98|end_char=106|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=107|end_char=109|NER=O
+24	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=110|end_char=116|NER=O
+25	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=117|end_char=120|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=121|end_char=123|NER=O
+27	prezantim	prezantim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	start_char=124|end_char=133|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	21	punct	_	start_char=134|end_char=135|NER=O
+
+# text = Krisa Çaushi , e cila do të prezantojë përkrah Adriana Matoshit , Klejdi Kadiut dhe Xhuliano Dules , ndan emocionet e kësaj përvoje .
+# sent_id = 3
+1	Krisa	Krisë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Çaushi	Çaush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=12|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	5	punct	_	start_char=13|end_char=14|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=16|NER=O
+5	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	start_char=17|end_char=21|NER=O
+6	do	do	PART	_	_	8	fixed	_	start_char=22|end_char=24|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=25|end_char=27|NER=O
+8	prezantojë	prezantoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	start_char=28|end_char=38|NER=O
+9	përkrah	përkrah	ADP	_	Case=Abl	10	case	_	start_char=39|end_char=46|NER=O
+10	Adriana	Adrianë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	start_char=47|end_char=54|NER=B-PER
+11	Matoshit	matosh	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=55|end_char=63|SpaceAfter=No|NER=I-PER
+12	,	,	PUNCT	_	_	13	punct	_	start_char=64|end_char=65|NER=O
+13	Klejdi	Klejd	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=66|end_char=72|NER=B-PER
+14	Kadiut	Kadi	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=73|end_char=79|NER=I-PER
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=80|end_char=83|NER=O
+16	Xhuliano	Xhuliano	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=84|end_char=92|NER=B-PER
+17	Dules	Dules	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	flat	_	start_char=93|end_char=98|SpaceAfter=No|NER=I-PER
+18	,	,	PUNCT	_	_	19	punct	_	start_char=99|end_char=100|NER=O
+19	ndan	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=101|end_char=105|NER=O
+20	emocionet	emocion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=106|end_char=115|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=116|end_char=117|NER=O
+22	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	start_char=118|end_char=123|NER=O
+23	përvoje	përvoj	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=124|end_char=131|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=132|end_char=133|SpacesAfter=\n|NER=O
+
+# text = " Ishte një lajm i papritur për mua , u emocionova shumë .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=2|end_char=7|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=8|end_char=11|NER=O
+4	lajm	lajm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=12|end_char=16|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=17|end_char=18|NER=O
+6	papritur	papritur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=19|end_char=27|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=28|end_char=31|NER=O
+8	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	start_char=32|end_char=35|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=36|end_char=37|NER=O
+10	u	u	PART	_	_	11	fixed	_	start_char=38|end_char=39|NER=O
+11	emocionova	emocionoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	start_char=40|end_char=50|NER=O
+12	shumë	shumë	ADV	_	AdvType=Deg	11	advmod	_	start_char=51|end_char=56|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	11	punct	_	start_char=57|end_char=58|NER=O
+
+# text = Ndjehem shumë e privilegjuar dhe kam kënaqësinë e madhe që të prezantoj këtë vit Festivalin e Këngës krah Adriana Matoshit , Xhuliano Dules dhe Klejdi Kadiut .
+# sent_id = 5
+1	Ndjehem	ndjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=7|NER=O
+2	shumë	shumë	ADV	_	AdvType=Deg	1	advmod	_	start_char=8|end_char=13|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	privilegjuar	privilegjuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=16|end_char=28|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=29|end_char=32|NER=O
+6	kam	kam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	1	conj	_	start_char=33|end_char=36|NER=O
+7	kënaqësinë	kënaqësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=37|end_char=47|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=48|end_char=49|NER=O
+9	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=50|end_char=55|NER=O
+10	që	që	SCONJ	_	_	12	mark	_	start_char=56|end_char=58|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=59|end_char=61|NER=O
+12	prezantoj	prezantoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=62|end_char=71|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=72|end_char=76|NER=O
+14	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=77|end_char=80|NER=O
+15	Festivalin	Festival	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=81|end_char=91|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=92|end_char=93|NER=O
+17	Këngës	Këngë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	compound	_	start_char=94|end_char=100|NER=O
+18	krah	krah	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=101|end_char=105|NER=O
+19	Adriana	Adrianë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	appos	_	start_char=106|end_char=113|NER=B-PER
+20	Matoshit	matosh	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=114|end_char=122|SpaceAfter=No|NER=I-PER
+21	,	,	PUNCT	_	_	22	punct	_	start_char=123|end_char=124|NER=O
+22	Xhuliano	Xhuliano	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	list	_	start_char=125|end_char=133|NER=B-PER
+23	Dules	Dules	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	flat	_	start_char=134|end_char=139|NER=I-PER
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=140|end_char=143|NER=O
+25	Klejdi	Klejd	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	start_char=144|end_char=150|NER=B-PER
+26	Kadiut	Kadi	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	flat:name	_	start_char=151|end_char=157|SpaceAfter=No|NER=I-PER
+27	.	.	PUNCT	_	_	1	punct	_	start_char=158|end_char=159|NER=O
+
+# text = Kemi goxha kimi me njëri - tjetrin , kemi dhe atë humorin me njëri - tjetrin , sidomos Xhuliano që është edhe një aktor dhe përpiqet që ta bëjë sa më komike gjënë sa më argëtuese " , u shpreh Çaushi .
+# sent_id = 6
+1	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	goxha	goxha	ADV	_	AdvType=Deg	3	advmod	_	start_char=5|end_char=10|NER=O
+3	kimi	kim	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	start_char=11|end_char=15|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=18|NER=O
+5	njëri	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	start_char=19|end_char=24|SpaceAfter=No|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=O
+7	tjetrin	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	3	nmod	_	start_char=27|end_char=34|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	1	punct	_	start_char=35|end_char=36|NER=O
+9	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	advmod	_	start_char=37|end_char=41|NER=O
+10	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=42|end_char=45|NER=O
+11	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	det	_	start_char=46|end_char=49|NER=O
+12	humorin	humor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=50|end_char=57|NER=O
+13	me	me	ADP	_	Case=Acc	12	case	_	start_char=58|end_char=60|NER=O
+14	njëri	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	start_char=61|end_char=66|SpaceAfter=No|NER=O
+15	-	-	PUNCT	_	_	10	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=O
+16	tjetrin	njëri-tjetri	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	start_char=69|end_char=76|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|NER=O
+18	sidomos	sidomos	PART	_	_	15	cc	_	start_char=79|end_char=86|NER=O
+19	Xhuliano	Xhuliano	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=87|end_char=95|NER=B-PER
+20	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=96|end_char=98|NER=O
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=99|end_char=104|NER=O
+22	edhe	edhe	PART	_	_	20	mark	_	start_char=105|end_char=109|NER=O
+23	një	një	DET	_	Definite=Ind	20	det	_	start_char=110|end_char=113|NER=O
+24	aktor	aktor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	cop	_	start_char=114|end_char=119|NER=O
+25	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=120|end_char=123|NER=O
+26	përpiqet	përpiq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	conj	_	start_char=124|end_char=132|NER=O
+27	që	që	SCONJ	_	_	26	mark	_	start_char=133|end_char=135|NER=O
+28	ta	_	_	_	_	_	_	_	start_char=136|end_char=138|NER=O
+29	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=139|end_char=143|NER=O
+30	sa	sa	SCONJ	_	_	29	mark	_	start_char=144|end_char=146|NER=O
+31	më	më	PART	_	_	29	mark	_	start_char=147|end_char=149|NER=O
+32	komike	komik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	cop	_	start_char=150|end_char=156|NER=O
+33	gjënë	gjem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	advcl	_	start_char=157|end_char=162|NER=O
+34	sa	sa	ADV	_	AdvType=Deg	33	advmod	_	start_char=163|end_char=165|NER=O
+35	më	më	PART	_	_	33	mark	_	start_char=166|end_char=168|NER=O
+36	argëtuese	argëtuese	ADV	_	AdvType=Man	30	advmod	_	start_char=169|end_char=178|SpaceAfter=No|NER=O
+37	"	"	PUNCT	_	_	30	punct	_	start_char=179|end_char=180|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	36	punct	_	start_char=181|end_char=182|NER=O
+39	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	fixed	_	start_char=183|end_char=184|NER=O
+40	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	30	ccomp	_	start_char=185|end_char=191|NER=O
+41	Çaushi	Çaush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	obj	_	start_char=192|end_char=198|SpaceAfter=No|NER=B-PER
+42	.	.	PUNCT	_	_	36	punct	_	start_char=199|end_char=200|SpacesAfter=\n|NER=O
+
+# text = Me skenar të Enkel Demit dhe në drejtimin e regjisorit Pali Kuke , është menduar edhe për detajet që identifikojnë secilin nga prezantuesit .
+# sent_id = 7
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	skenar	skenar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	advmod	_	start_char=3|end_char=9|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=12|NER=O
+4	Enkel	Enkel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=13|end_char=18|NER=B-PER
+5	Demit	dem	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=19|end_char=24|NER=I-PER
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=25|end_char=28|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=29|end_char=31|NER=O
+8	drejtimin	drejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	start_char=32|end_char=41|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=42|end_char=43|NER=O
+10	regjisorit	regjisor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=44|end_char=54|NER=O
+11	Pali	pali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=55|end_char=59|NER=B-PER
+12	Kuke	Kuke	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=60|end_char=64|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	15	punct	_	start_char=65|end_char=66|NER=O
+14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=67|end_char=72|NER=O
+15	menduar	mendoj	VERB	_	VerbForm=Part	0	root	_	start_char=73|end_char=80|NER=O
+16	edhe	edhe	PART	_	_	18	advmod:emph	_	start_char=81|end_char=85|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=86|end_char=89|NER=O
+18	detajet	detaj	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obl	_	start_char=90|end_char=97|NER=O
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=98|end_char=100|NER=O
+20	identifikojnë	identifikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	acl	_	start_char=101|end_char=114|NER=O
+21	secilin	secil	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	obj	_	start_char=115|end_char=122|NER=O
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=123|end_char=126|NER=O
+23	prezantuesit	prezantues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	obl	_	start_char=127|end_char=139|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	15	punct	_	start_char=140|end_char=141|SpacesAfter=\n|NER=O
+
+# text = Ndërkohë , në biletarinë e Pallatit të Kongreseve vijon shitja e biletave për 3 netët e para të Festivalit , ashtu si edhe në platformën online vivere .
+# sent_id = 8
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	9	advmod	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=11|end_char=13|NER=O
+4	biletarinë	biletari	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=14|end_char=24|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=25|end_char=26|NER=O
+6	Pallatit	pallat	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=27|end_char=35|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=38|NER=O
+8	Kongreseve	Kongres	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=39|end_char=49|NER=O
+9	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=50|end_char=55|NER=O
+10	shitja	shitjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=56|end_char=62|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=63|end_char=64|NER=O
+12	biletave	biletë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=65|end_char=73|NER=O
+13	për	për	ADP	_	Case=Acc	15	case	_	start_char=74|end_char=77|NER=O
+14	3	3	NUM	_	NumType=Card	15	nummod	_	start_char=78|end_char=79|NER=O
+15	netët	netë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=80|end_char=85|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=86|end_char=87|NER=O
+17	para	para	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=88|end_char=92|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=93|end_char=95|NER=O
+19	Festivalit	festival	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=96|end_char=106|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=107|end_char=108|NER=O
+21	ashtu	ashtu	ADV	_	AdvType=Man	22	fixed	_	start_char=109|end_char=114|NER=O
+22	si	si	SCONJ	_	_	23	fixed	_	start_char=115|end_char=117|NER=O
+23	edhe	edhe	PART	_	_	25	mark	_	start_char=118|end_char=122|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=123|end_char=125|NER=O
+25	platformën	platformë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=126|end_char=136|NER=O
+26	online	onlin	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=137|end_char=143|NER=O
+27	vivere	vivere.al	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=144|end_char=150|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	25	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=O
+
+# text = al .
+# sent_id = 9
+1	al	vivere.al	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|NER=O
+
+# text = Së shpejti do të dalin edhe biletat e natës finale .
+# sent_id = 10
+1	Së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	shpejti	shpejt	ADV	_	AdvType=Tim	5	advmod	_	start_char=3|end_char=10|NER=O
+3	do	do	PART	_	_	5	fixed	_	start_char=11|end_char=13|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=14|end_char=16|NER=O
+5	dalin	dal	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=22|NER=O
+6	edhe	edhe	PART	_	_	7	cc	_	start_char=23|end_char=27|NER=O
+7	biletat	biletë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=28|end_char=35|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=36|end_char=37|NER=O
+9	natës	natë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=38|end_char=43|NER=O
+10	finale	finale	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	start_char=44|end_char=50|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	5	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Por secila prej netëve është për të mos u humbur .
+# sent_id = 11
+1	Por	por	CCONJ	_	_	5	cc	_	start_char=0|end_char=3|NER=O
+2	secila	secilë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	start_char=4|end_char=10|NER=O
+3	prej	prej	ADP	_	Case=Abl	4	case	_	start_char=11|end_char=15|NER=O
+4	netëve	netë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=16|end_char=22|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=28|NER=O
+6	për	për	PART	_	_	10	fixed	_	start_char=29|end_char=32|NER=O
+7	të	të	PART	_	_	10	fixed	_	start_char=33|end_char=35|NER=O
+8	mos	mos	PART	_	_	10	fixed	_	start_char=36|end_char=39|NER=O
+9	u	u	PART	_	_	10	fixed	_	start_char=40|end_char=41|NER=O
+10	humbur	humbur	VERB	_	VerbForm=Part	5	advmod	_	start_char=42|end_char=48|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	5	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Mjafton të kujtojmë të ftuarin special të natës së parë , këngëtarin italian Umberto Tozzi , këngët e të cilit janë shumë të njohura edhe për publikun shqiptar .
+# sent_id = 12
+1	Mjafton	mjaftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=8|end_char=10|NER=O
+3	kujtojmë	kujtoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	ccomp	_	start_char=11|end_char=19|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=20|end_char=22|NER=O
+5	ftuarin	ftuar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=23|end_char=30|NER=O
+6	special	special	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=31|end_char=38|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=39|end_char=41|NER=O
+8	natës	natë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=42|end_char=47|NER=O
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=48|end_char=50|NER=O
+10	parë	parë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=51|end_char=55|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=56|end_char=57|NER=O
+12	këngëtarin	këngëtar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	list	_	start_char=58|end_char=68|NER=O
+13	italian	italian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=69|end_char=76|NER=O
+14	Umberto	Umberto	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=77|end_char=84|NER=B-PER
+15	Tozzi	Tozzi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=85|end_char=90|SpaceAfter=No|NER=I-PER
+16	,	,	PUNCT	_	_	17	punct	_	start_char=91|end_char=92|NER=O
+17	këngët	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	list	_	start_char=93|end_char=99|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=100|end_char=101|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=102|end_char=104|NER=O
+20	cilit	cili	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	start_char=105|end_char=110|NER=O
+21	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	acl	_	start_char=111|end_char=115|NER=O
+22	shumë	shumë	ADV	_	AdvType=Deg	24	advmod	_	start_char=116|end_char=121|NER=O
+23	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=122|end_char=124|NER=O
+24	njohura	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	cop	_	start_char=125|end_char=132|NER=O
+25	edhe	edhe	PART	_	_	27	mark	_	start_char=133|end_char=137|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=138|end_char=141|NER=O
+27	publikun	publik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=142|end_char=150|NER=O
+28	shqiptar	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=151|end_char=159|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	21	punct	_	start_char=160|end_char=161|SpacesAfter=\n\n|NER=O
+

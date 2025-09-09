@@ -1,0 +1,41 @@
+# text = 23 / 12 / 2023 Lajmi është bërë i ditur nga Ministrja e Infrastrukturës dhe Energjisë , Belinda Balluku e cila bëri me dije se nga nëntori 2022 deri në korrik 2023 numërohen 1987 njësi të montuara .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Lajmi	Lajm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=15|end_char=20|NER=O
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=21|end_char=26|NER=O
+8	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=27|end_char=31|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=32|end_char=33|NER=O
+10	ditur	ditur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=34|end_char=39|NER=O
+11	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=40|end_char=43|NER=O
+12	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=44|end_char=53|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=54|end_char=55|NER=O
+14	Infrastrukturës	Infrastrukturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=56|end_char=71|NER=O
+15	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=72|end_char=75|NER=O
+16	Energjisë	Energji	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=76|end_char=85|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	13	punct	_	start_char=86|end_char=87|NER=O
+18	Belinda	Belindë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=88|end_char=95|NER=B-PER
+19	Balluku	Balluk	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=96|end_char=103|NER=I-PER
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=104|end_char=105|NER=O
+21	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	start_char=106|end_char=110|NER=O
+22	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	acl	_	start_char=111|end_char=115|NER=O
+23	me	me	ADP	_	Case=Acc	19	case	_	start_char=116|end_char=118|NER=O
+24	dije	dije	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=119|end_char=123|NER=O
+25	se	se	SCONJ	_	_	17	mark	_	start_char=124|end_char=126|NER=O
+26	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=127|end_char=130|NER=O
+27	nëntori	nëntor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=131|end_char=138|NER=B-DATE_0
+28	2022	2022	NUM	_	NumType=Card	22	amod:nummod	_	start_char=139|end_char=143|NER=I-DATE_0
+29	deri	deri	PART	_	Case=TODO	25	fixed	_	start_char=144|end_char=148|NER=O
+30	në	në	ADP	_	Case=Acc	26	case	_	start_char=149|end_char=151|NER=O
+31	korrik	korrik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	advmod	_	start_char=152|end_char=158|NER=B-DATE_0
+32	2023	2023	NUM	_	NumType=Card	26	amod:nummod	_	start_char=159|end_char=163|NER=I-DATE_0
+33	numërohen	numëroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=164|end_char=173|NER=O
+34	1987	1987	NUM	_	NumType=Card	28	advmod	_	start_char=174|end_char=178|NER=O
+35	njësi	njësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	28	obj	_	start_char=179|end_char=184|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=185|end_char=187|NER=O
+37	montuara	montuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=188|end_char=196|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	28	punct	_	start_char=197|end_char=198|SpacesAfter=\n|NER=O
+

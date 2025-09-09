@@ -1,0 +1,114 @@
+# text = Fillimi i vitit të ri shkollor do të nisë të hënën e ardhshme me 12 shtator , pa një protokoll sigurie .
+# sent_id = 0
+1	Fillimi	Fillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=8|end_char=9|NER=O
+3	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=10|end_char=15|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=16|end_char=18|NER=O
+5	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=19|end_char=21|NER=O
+6	shkollor	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=22|end_char=30|NER=O
+7	do	do	PART	_	_	32	fixed	_	start_char=31|end_char=33|NER=O
+8	të	të	PART	_	_	32	fixed	_	start_char=34|end_char=36|NER=O
+9	nisë	nij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=37|end_char=41|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=42|end_char=44|NER=B-DATE_1
+11	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=45|end_char=50|NER=I-DATE_1
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=51|end_char=52|NER=O
+13	ardhshme	ardhshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=53|end_char=61|NER=O
+14	me	me	ADP	_	Case=Acc	39	case	_	start_char=62|end_char=64|NER=O
+15	12	12	NUM	_	NumType=Card	39	nummod	_	start_char=65|end_char=67|NER=B-DATE_0
+16	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	start_char=68|end_char=75|SpaceAfter=No|NER=I-DATE_0
+17	,	,	PUNCT	_	_	43	punct	_	start_char=76|end_char=77|NER=O
+18	pa	pa	ADP	_	Case=Acc	43	case	_	start_char=78|end_char=80|NER=O
+19	një	një	DET	_	Definite=Ind	43	det	_	start_char=81|end_char=84|NER=O
+20	protokoll	protokoll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	nmod	_	start_char=85|end_char=94|NER=O
+21	sigurie	siguri	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	43	nmod	_	start_char=95|end_char=102|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	32	punct	_	start_char=103|end_char=104|NER=O
+
+# text = Ministria e Arsimit ka vendosur që orët mësimore do të jenë të plota dhe procesi mësimor do të zhvillohet normalisht .
+# sent_id = 1
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Arsimit	Arsim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=19|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=20|end_char=22|NER=O
+5	vendosur	vendos	VERB	_	VerbForm=Part	0	root	_	start_char=23|end_char=31|NER=O
+6	që	që	SCONJ	_	_	7	mark	_	start_char=32|end_char=34|NER=O
+7	orët	orë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=35|end_char=39|NER=O
+8	mësimore	mësimor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=40|end_char=48|NER=O
+9	do	do	PART	_	_	11	fixed	_	start_char=49|end_char=51|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=52|end_char=54|NER=O
+11	jenë	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=55|end_char=59|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=60|end_char=62|NER=O
+13	plota	plot	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	cop	_	start_char=63|end_char=68|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=69|end_char=72|NER=O
+15	procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	cop	_	start_char=73|end_char=80|NER=O
+16	mësimor	mësimor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=81|end_char=88|NER=O
+17	do	do	PART	_	_	19	fixed	_	start_char=89|end_char=91|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=92|end_char=94|NER=O
+19	zhvillohet	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	conj	_	start_char=95|end_char=105|NER=O
+20	normalisht	normalisht	ADV	_	AdvType=Man	19	advmod	_	start_char=106|end_char=116|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	19	punct	_	start_char=117|end_char=118|SpacesAfter=\n|NER=O
+
+# text = Risi e këtij viti shkollor do të jetë edhe abetarja e unifikuar Shqipëri – Kosovë .
+# sent_id = 2
+1	Risi	disi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5|end_char=6|NER=O
+3	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=7|end_char=12|NER=O
+4	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=13|end_char=17|NER=O
+5	shkollor	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=18|end_char=26|NER=O
+6	do	do	PART	_	_	8	fixed	_	start_char=27|end_char=29|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=30|end_char=32|NER=O
+8	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=37|NER=O
+9	edhe	edhe	PART	_	_	10	mark:emph	_	start_char=38|end_char=42|NER=O
+10	abetarja	abetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	cop	_	start_char=43|end_char=51|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=52|end_char=53|NER=O
+12	unifikuar	unifikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=54|end_char=63|NER=O
+13	Shqipëri	Shqipëri	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=64|end_char=72|NER=B-VEND_1
+14	–	–	PUNCT	_	_	13	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=B-VEND_1
+15	Kosovë	Koso	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	flat	_	start_char=75|end_char=81|SpaceAfter=No|NER=B-VEND_1
+16	.	.	PUNCT	_	_	8	punct	_	start_char=82|end_char=83|NER=B-VEND_1
+
+# text = Struktura e vitit shkollor do të pësojë ndryshime .
+# sent_id = 3
+1	Struktura	strukturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=17|NER=O
+4	shkollor	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=18|end_char=26|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=27|end_char=29|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=30|end_char=32|NER=O
+7	pësojë	pësoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=39|NER=O
+8	ndryshime	ndryshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=40|end_char=49|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	7	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Nxënësit në fund të tremujorit të dytë do të bëjnë një javë pushim më shumë , ndërsa mësuesit do të kenë më shume kohë për vleresime dhe përgatitjet në vijim .
+# sent_id = 4
+1	Nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	obj	_	start_char=0|end_char=8|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=9|end_char=11|NER=O
+3	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=16|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=19|NER=O
+5	tremujorit	tremujor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=20|end_char=30|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=31|end_char=33|NER=O
+7	dytë	dy	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=34|end_char=38|NER=O
+8	do	do	PART	_	_	10	fixed	_	start_char=39|end_char=41|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=42|end_char=44|NER=O
+10	bëjnë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=45|end_char=50|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=51|end_char=54|NER=O
+12	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=55|end_char=59|NER=O
+13	pushim	pushim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=60|end_char=66|NER=O
+14	më	më	PART	_	_	15	mark	_	start_char=67|end_char=69|NER=O
+15	shumë	shumë	ADV	_	AdvType=Deg	12	amod	_	start_char=70|end_char=75|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=76|end_char=77|NER=O
+17	ndërsa	ndërsa	CCONJ	_	_	21	cc	_	start_char=78|end_char=84|NER=O
+18	mësuesit	mësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	obj	_	start_char=85|end_char=93|NER=O
+19	do	do	PART	_	_	21	fixed	_	start_char=94|end_char=96|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=97|end_char=99|NER=O
+21	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=100|end_char=104|NER=O
+22	më	më	PART	_	_	24	mark	_	start_char=105|end_char=107|NER=O
+23	shume	shume	ADV	_	AdvType=Deg	24	nummod	_	start_char=108|end_char=113|NER=O
+24	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=114|end_char=118|NER=O
+25	për	për	ADP	_	Case=Acc	26	case	_	start_char=119|end_char=122|NER=O
+26	vleresime	vleresim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obl	_	start_char=123|end_char=132|NER=O
+27	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=133|end_char=136|NER=O
+28	përgatitjet	përgatitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	conj	_	start_char=137|end_char=148|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=149|end_char=151|NER=O
+30	vijim	vijim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	start_char=152|end_char=157|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	21	punct	_	start_char=158|end_char=159|SpacesAfter=\n|NER=O
+

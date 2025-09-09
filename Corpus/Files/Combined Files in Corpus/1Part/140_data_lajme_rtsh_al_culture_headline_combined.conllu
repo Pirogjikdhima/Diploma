@@ -1,0 +1,108 @@
+# text = 20 / 12 / 2023 Ashtu si dhe nata e parë , edhe sonte do të ketë të ftuar të veçantë .
+# sent_id = 0
+1	20	20	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ashtu	ashtu	ADV	_	AdvType=Man	12	cc	_	start_char=15|end_char=20|NER=O
+7	si	si	SCONJ	_	_	3	fixed	_	start_char=21|end_char=23|NER=O
+8	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=24|end_char=27|NER=O
+9	nata	natë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=28|end_char=32|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=33|end_char=34|NER=O
+11	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=35|end_char=39|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	4	punct	_	start_char=40|end_char=41|NER=O
+13	edhe	edhe	CCONJ	_	_	9	mark	_	start_char=42|end_char=46|NER=O
+14	sonte	sonte	ADV	_	AdvType=Man	12	advmod	_	start_char=47|end_char=52|NER=O
+15	do	do	PART	_	_	12	fixed	_	start_char=53|end_char=55|NER=O
+16	të	të	PART	_	_	12	fixed	_	start_char=56|end_char=58|NER=O
+17	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=63|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=64|end_char=66|NER=O
+19	ftuar	ftoj	VERB	_	VerbForm=Part	12	ccomp	_	start_char=67|end_char=72|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=73|end_char=75|NER=O
+21	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	cop	_	start_char=76|end_char=83|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	12	punct	_	start_char=84|end_char=85|NER=O
+
+# text = Publiku do të ketë shijojë një duet unik të këngëtarëve Aleksandër Gjoka dhe Bojken Lako .
+# sent_id = 1
+1	Publiku	publik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=0|end_char=7|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=8|end_char=10|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+4	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advmod	_	start_char=14|end_char=18|NER=O
+5	shijojë	shijoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=26|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=27|end_char=30|NER=O
+7	duet	duet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=31|end_char=35|NER=O
+8	unik	unik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=36|end_char=40|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=41|end_char=43|NER=O
+10	këngëtarëve	këngëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=44|end_char=55|NER=O
+11	Aleksandër	Aleksandër	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	start_char=56|end_char=66|NER=B-PER
+12	Gjoka	Gjokë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=67|end_char=72|NER=I-PER
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=73|end_char=76|NER=O
+14	Bojken	Bojke	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	conj	_	start_char=77|end_char=83|NER=B-PER
+15	Lako	Lako	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat:name	_	start_char=84|end_char=88|SpaceAfter=No|NER=I-PER
+16	.	.	PUNCT	_	_	5	punct	_	start_char=89|end_char=90|NER=O
+
+# text = Një moment i veçantë pritet të jetë edhe performanca në skenë e anëtarit të jurisë , Indrit Mesiti , i cili bashkë me grupin e tij do të këndojë një këngë , e cila është krijuar enkas për Fest 62 .
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	moment	moment	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=4|end_char=10|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	veçantë	veçantë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=13|end_char=20|NER=O
+5	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=21|end_char=27|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=28|end_char=30|NER=O
+7	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=31|end_char=35|NER=O
+8	edhe	edhe	PART	_	_	9	cc	_	start_char=36|end_char=40|NER=O
+9	performanca	performancë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	cop	_	start_char=41|end_char=52|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=53|end_char=55|NER=O
+11	skenë	skenë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=56|end_char=61|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=62|end_char=63|NER=O
+13	anëtarit	anëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=64|end_char=72|NER=O
+14	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=73|end_char=75|NER=O
+15	jurisë	juri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=76|end_char=82|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84|NER=O
+17	Indrit	Indr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	appos	_	start_char=85|end_char=91|NER=B-PER
+18	Mesiti	mesit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=92|end_char=98|SpaceAfter=No|NER=I-PER
+19	,	,	PUNCT	_	_	21	punct	_	start_char=99|end_char=100|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=101|end_char=102|NER=O
+21	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	29	nsubj	_	start_char=103|end_char=107|NER=O
+22	bashkë	bashkë	ADV	_	AdvType=Man	24	advmod	_	start_char=108|end_char=114|NER=O
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=115|end_char=117|NER=O
+24	grupin	grup	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	advmod	_	start_char=118|end_char=124|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=125|end_char=126|NER=O
+26	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	amod:poss	_	start_char=127|end_char=130|NER=O
+27	do	do	PART	_	_	29	fixed	_	start_char=131|end_char=133|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=134|end_char=136|NER=O
+29	këndojë	këndoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=137|end_char=144|NER=O
+30	një	një	DET	_	Definite=Ind	31	det	_	start_char=145|end_char=148|NER=O
+31	këngë	këngë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=149|end_char=154|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	34	punct	_	start_char=155|end_char=156|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=157|end_char=158|NER=O
+34	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	36	nsubj	_	start_char=159|end_char=163|NER=O
+35	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	aux	_	start_char=164|end_char=169|NER=O
+36	krijuar	krijoj	VERB	_	VerbForm=Part	31	acl	_	start_char=170|end_char=177|NER=O
+37	enkas	enkas	PRON	_	PronType=Ind	36	obj	_	start_char=178|end_char=183|NER=O
+38	për	për	ADP	_	Case=Acc	39	case	_	start_char=184|end_char=187|NER=O
+39	Fest	fest	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	obl	_	start_char=188|end_char=192|NER=O
+40	62	62	NUM	_	NumType=Card	39	flat	_	start_char=193|end_char=195|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	36	punct	_	start_char=196|end_char=197|SpacesAfter=\n|NER=O
+
+# text = E ftuar speciale e kësaj mbrëmje magjike do të jetë edhe këngëtarja italiane , Rachelle Andrioli .
+# sent_id = 3
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	cop	_	start_char=2|end_char=7|NER=O
+3	speciale	special	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=8|end_char=16|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=17|end_char=18|NER=O
+5	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=19|end_char=24|NER=O
+6	mbrëmje	mbrëmje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=25|end_char=32|NER=O
+7	magjike	magjik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=33|end_char=40|NER=O
+8	do	do	PART	_	_	10	fixed	_	start_char=41|end_char=43|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=44|end_char=46|NER=O
+10	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=47|end_char=51|NER=O
+11	edhe	edhe	PART	_	_	12	mark:emph	_	start_char=52|end_char=56|NER=O
+12	këngëtarja	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	cop	_	start_char=57|end_char=67|NER=O
+13	italiane	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=68|end_char=76|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=77|end_char=78|NER=O
+15	Rachelle	Rachell	PROPN	_	Foreign=Yes	12	appos	_	start_char=79|end_char=87|NER=B-PER
+16	Andrioli	Andriol	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=88|end_char=96|SpaceAfter=No|NER=I-PER
+17	.	.	PUNCT	_	_	10	punct	_	start_char=97|end_char=98|SpacesAfter=\n|NER=O
+

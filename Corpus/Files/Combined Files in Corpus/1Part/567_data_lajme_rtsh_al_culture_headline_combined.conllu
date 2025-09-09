@@ -1,0 +1,274 @@
+# text = " Kam qarë njësoj si kur humba mamin !
+# sent_id = 0
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=5|NER=O
+3	qarë	qaj	VERB	_	VerbForm=Part	0	root	_	start_char=6|end_char=10|NER=O
+4	njësoj	njësoj	ADV	_	AdvType=Deg	3	advmod	_	start_char=11|end_char=17|NER=O
+5	si	si	SCONJ	_	_	6	fixed	_	start_char=18|end_char=20|NER=O
+6	kur	kur	SCONJ	_	_	7	mark	_	start_char=21|end_char=24|NER=O
+7	humba	humbaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	3	advcl	_	start_char=25|end_char=30|NER=O
+8	mamin	mam	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=31|end_char=36|SpaceAfter=No|NER=O
+9	!	!	PUNCT	_	_	11	punct	_	start_char=37|end_char=38|SpaceAfter=No|NER=O
+
+# text = " Kastro Zizo : Në Eurovizion do isha Top 3 20 / 05 / 2023 Kastro Zizo është gati për albumin e tij të ri .
+# sent_id = 1
+1	"	"	PUNCT	_	_	11	punct	_	start_char=0|end_char=1|NER=O
+2	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=2|end_char=8|NER=B-PER
+3	Zizo	Zizo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=9|end_char=13|SpaceAfter=No|NER=I-PER
+4	:	:	PUNCT	_	_	3	punct	_	start_char=14|end_char=15|NER=O
+5	Në	në	ADP	_	Case=Acc	2	case	_	start_char=16|end_char=18|NER=O
+6	Eurovizion	Eurovizion	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=19|end_char=29|NER=B-EVENT
+7	do	do	PART	_	_	4	fixed	_	start_char=30|end_char=32|NER=O
+8	isha	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=33|end_char=37|NER=O
+9	Top	top	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=38|end_char=41|NER=O
+10	3	3	NUM	_	NumType=Card	8	nummod	_	start_char=42|end_char=43|SpacesAfter=\n|NER=O
+11	20	20	NUM	_	NumType=Card	8	nummod	_	start_char=44|end_char=46|SpaceAfter=No|NER=B-DATE_0
+12	/	/	PUNCT	_	_	5	punct	_	start_char=47|end_char=48|SpaceAfter=No|NER=I-DATE_0
+13	05	05	NUM	_	NumType=Card	5	nmod	_	start_char=49|end_char=51|SpaceAfter=No|NER=I-DATE_0
+14	/	/	PUNCT	_	_	8	punct	_	start_char=52|end_char=53|SpacesAfter=\n|NER=I-DATE_0
+15	2023	2023	NUM	_	NumType=Card	8	flat	_	start_char=54|end_char=58|SpacesAfter=\n|NER=I-DATE_0
+16	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=59|end_char=65|NER=B-PER
+17	Zizo	Zizo	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=66|end_char=70|NER=I-PER
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	csubj	_	start_char=71|end_char=76|NER=O
+19	gati	gati	ADV	_	AdvType=Deg	12	advmod	_	start_char=77|end_char=81|NER=O
+20	për	për	ADP	_	Case=Acc	15	case	_	start_char=82|end_char=85|NER=O
+21	albumin	album	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=86|end_char=93|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=94|end_char=95|NER=O
+23	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=96|end_char=99|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=100|end_char=102|NER=O
+25	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=103|end_char=105|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	12	punct	_	start_char=106|end_char=107|NER=O
+
+# text = I ftuar në ' Më prit në fundjavë ' me Ermal Peçi , këngëtari zbuloi detaje ekskluzive nga projekti i tij më i fundit artistik .
+# sent_id = 2
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	dislocated	_	start_char=2|end_char=7|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=8|end_char=10|NER=O
+4	'	'	PUNCT	_	_	5	punct	_	start_char=11|end_char=12|NER=O
+5	Më	Më	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=13|end_char=15|NER=O
+6	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=16|end_char=20|NER=O
+7	në	në	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=23|NER=O
+8	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=24|end_char=32|NER=O
+9	'	'	PUNCT	_	_	5	punct	_	start_char=33|end_char=34|NER=O
+10	me	me	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=37|NER=O
+11	Ermal	Ermal	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	start_char=38|end_char=43|NER=B-PER
+12	Peçi	peçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=44|end_char=48|SpaceAfter=No|NER=I-PER
+13	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50|NER=O
+14	këngëtari	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=51|end_char=60|NER=O
+15	zbuloi	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=61|end_char=67|NER=O
+16	detaje	detaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=68|end_char=74|NER=O
+17	ekskluzive	ekskluzi	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=75|end_char=85|NER=O
+18	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=86|end_char=89|NER=O
+19	projekti	projekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=90|end_char=98|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=99|end_char=100|NER=O
+21	tij	tij	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	amod:poss	_	start_char=101|end_char=104|NER=O
+22	më	më	PART	_	_	22	mark	_	start_char=105|end_char=107|NER=O
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=108|end_char=109|NER=O
+24	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=110|end_char=116|NER=O
+25	artistik	artistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=117|end_char=125|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	13	punct	_	start_char=126|end_char=127|NER=O
+
+# text = Kastro u shpreh i lumtur për bashkëpunëtorët e tij teksa shtoi se ndryshe nga mania e klikimeve , atë do ta lumturonte nëse publiku do ti pëlqente këngët e albumit .
+# sent_id = 3
+1	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	u	u	PART	_	_	3	fixed	_	start_char=7|end_char=8|NER=O
+3	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=9|end_char=15|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=18|end_char=24|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=28|NER=O
+7	bashkëpunëtorët	bashkëpunëtor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	advmod	_	start_char=29|end_char=44|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	9	det:poss	_	start_char=45|end_char=46|NER=O
+9	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=47|end_char=50|NER=O
+10	teksa	teksa	SCONJ	_	_	11	mark	_	start_char=51|end_char=56|NER=O
+11	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	start_char=57|end_char=62|NER=O
+12	se	se	SCONJ	_	_	13	mark	_	start_char=63|end_char=65|NER=O
+13	ndryshe	ndryshe	ADV	_	AdvType=Man	11	advmod	_	start_char=66|end_char=73|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=74|end_char=77|NER=O
+15	mania	mani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	start_char=78|end_char=83|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=84|end_char=85|NER=O
+17	klikimeve	klikim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=86|end_char=95|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	23	punct	_	start_char=96|end_char=97|NER=O
+19	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=98|end_char=101|NER=O
+20	do	do	PART	_	_	23	fixed	_	start_char=102|end_char=104|NER=O
+21	ta	_	_	_	_	_	_	_	start_char=105|end_char=107|NER=O
+22	lumturonte	lumturoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	3	conj	_	start_char=108|end_char=118|NER=O
+23	nëse	nëse	SCONJ	_	_	28	mark	_	start_char=119|end_char=123|NER=O
+24	publiku	publik	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=124|end_char=131|NER=O
+25	do	do	PART	_	_	28	fixed	_	start_char=132|end_char=134|NER=O
+26	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	obj	_	start_char=135|end_char=137|NER=O
+27	pëlqente	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	23	advcl	_	start_char=138|end_char=146|NER=O
+28	këngët	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	28	obj	_	start_char=147|end_char=153|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=154|end_char=155|NER=O
+30	albumit	album	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=156|end_char=163|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	28	punct	_	start_char=164|end_char=165|SpacesAfter=\n|NER=O
+
+# text = Ende pa u zbehur jehona e Eurovizionit , Kastro i tregoi Ermalit se besonte e beson se kënga e tij me grupin 2 Farm ' Atomike ' do mbërrinte në top 3 në garen europiane .
+# sent_id = 4
+1	Ende	ende	ADV	_	AdvType=Tim	4	advmod	_	start_char=0|end_char=4|NER=O
+2	pa	pa	PART	_	_	4	fixed	_	start_char=5|end_char=7|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=8|end_char=9|NER=O
+4	zbehur	zbeh	VERB	_	VerbForm=Part	11	advmod	_	start_char=10|end_char=16|NER=O
+5	jehona	jehonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=17|end_char=23|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=24|end_char=25|NER=O
+7	Eurovizionit	Eurovizion	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=26|end_char=38|SpaceAfter=No|NER=B-EVENT
+8	,	,	PUNCT	_	_	4	punct	_	start_char=39|end_char=40|NER=O
+9	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=41|end_char=47|NER=B-PER
+10	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=48|end_char=49|NER=O
+11	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=50|end_char=56|NER=O
+12	Ermalit	Ermal	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=57|end_char=64|NER=B-PER
+13	se	se	SCONJ	_	_	14	mark	_	start_char=65|end_char=67|NER=O
+14	besonte	besoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	11	advcl	_	start_char=68|end_char=75|NER=O
+15	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=76|end_char=77|NER=O
+16	beson	besoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=78|end_char=83|NER=O
+17	se	se	SCONJ	_	_	16	mark	_	start_char=84|end_char=86|NER=O
+18	kënga	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=87|end_char=92|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=93|end_char=94|NER=O
+20	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=95|end_char=98|NER=O
+21	me	me	ADP	_	Case=Acc	22	case	_	start_char=99|end_char=101|NER=O
+22	grupin	grup	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=102|end_char=108|NER=O
+23	2	2	NUM	_	NumType=Card	24	flat	_	start_char=109|end_char=110|NER=O
+24	Farm	Farm	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	22	nmod	_	start_char=111|end_char=115|NER=O
+25	'	'	PUNCT	_	_	24	punct	_	start_char=116|end_char=117|SpaceAfter=No|NER=O
+26	Atomike	Atomik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	flat	_	start_char=118|end_char=125|SpaceAfter=No|NER=O
+27	'	'	PUNCT	_	_	28	punct	_	start_char=126|end_char=127|NER=O
+28	do	do	PART	_	_	28	fixed	_	start_char=128|end_char=130|NER=O
+29	mbërrinte	mbërrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	18	acl:relcl	_	start_char=131|end_char=140|NER=O
+30	në	në	ADP	_	Case=Acc	30	case	_	start_char=141|end_char=143|NER=O
+31	top	top	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	start_char=144|end_char=147|NER=O
+32	3	3	NUM	_	NumType=Card	30	nummod	_	start_char=148|end_char=149|NER=O
+33	në	në	ADP	_	Case=Acc	33	case	_	start_char=150|end_char=152|NER=O
+34	garen	gare	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	advmod	_	start_char=153|end_char=158|NER=O
+35	europiane	europian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=159|end_char=168|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	28	punct	_	start_char=169|end_char=170|NER=O
+
+# text = I pyetur nëse këtë e thotë me përfshirje emocionale , Kastro u shpreh se di ta mbaj jashtë ngarkesën personale por vlerëson vlerëson e lartë artistike e unike që kënga kishte .
+# sent_id = 5
+1	I	I	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=0|end_char=1|NER=O
+2	pyetur	pyes	VERB	_	VerbForm=Part	13	advcl	_	start_char=2|end_char=8|NER=O
+3	nëse	nëse	SCONJ	_	_	6	mark	_	start_char=9|end_char=13|NER=O
+4	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	start_char=14|end_char=18|NER=O
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=19|end_char=20|NER=O
+6	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=21|end_char=26|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=27|end_char=29|NER=O
+8	përfshirje	përfshirje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=30|end_char=40|NER=O
+9	emocionale	emocional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=41|end_char=51|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	6	punct	_	start_char=52|end_char=53|NER=O
+11	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=54|end_char=60|NER=B-PER
+12	u	u	PART	_	_	13	fixed	_	start_char=61|end_char=62|NER=O
+13	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=63|end_char=69|NER=O
+14	se	se	SCONJ	_	_	18	mark	_	start_char=70|end_char=72|NER=O
+15	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=73|end_char=75|NER=O
+16	ta	_	_	_	_	_	_	_	start_char=76|end_char=78|NER=O
+17	mbaj	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	advcl	_	start_char=79|end_char=83|NER=O
+18	jashtë	jashtë	ADP	_	Case=Abl	20	case	_	start_char=84|end_char=90|NER=O
+19	ngarkesën	ngarkesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=91|end_char=100|NER=O
+20	personale	personal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=101|end_char=110|NER=O
+21	por	por	CCONJ	_	_	23	cc	_	start_char=111|end_char=114|NER=O
+22	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=115|end_char=123|NER=O
+23	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=124|end_char=132|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=133|end_char=134|NER=O
+25	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=135|end_char=140|NER=O
+26	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=141|end_char=150|NER=O
+27	e	e	CCONJ	_	_	29	cc	_	start_char=151|end_char=152|NER=O
+28	unike	unik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	conj	_	start_char=153|end_char=158|NER=O
+29	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=159|end_char=161|NER=O
+30	kënga	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=162|end_char=167|NER=O
+31	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	23	ccomp	_	start_char=168|end_char=174|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	23	punct	_	start_char=175|end_char=176|SpacesAfter=\n|NER=O
+
+# text = Intervista me të na solli edhe dimensionin e tij njerëzor .
+# sent_id = 6
+1	Intervista	Intervistë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=10|NER=O
+2	me	me	ADP	_	Case=Acc	5	fixed	_	start_char=11|end_char=13|NER=O
+3	të	të	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	fixed	_	start_char=14|end_char=16|NER=O
+4	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	iobj	_	start_char=17|end_char=19|NER=O
+5	solli	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+6	edhe	edhe	PART	_	_	7	cc	_	start_char=26|end_char=30|NER=O
+7	dimensionin	dimension	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=31|end_char=42|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=43|end_char=44|NER=O
+9	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=45|end_char=48|NER=O
+10	njerëzor	njerëzor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=49|end_char=57|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	5	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Zbuluam lidhjen e fortë me fëmijët që padyshim i kanë ndryshuar jetën .
+# sent_id = 7
+1	Zbuluam	Zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	lidhjen	lidhje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	start_char=8|end_char=15|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=16|end_char=17|NER=O
+4	fortë	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=18|end_char=23|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=24|end_char=26|NER=O
+6	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	obl	_	start_char=27|end_char=34|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=35|end_char=37|NER=O
+8	padyshim	padyshem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	acl	_	start_char=38|end_char=46|NER=O
+9	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	iobj	_	start_char=47|end_char=48|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=49|end_char=53|NER=O
+11	ndryshuar	ndryshoj	VERB	_	VerbForm=Part	8	advcl	_	start_char=54|end_char=63|NER=O
+12	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=64|end_char=69|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	1	punct	_	start_char=70|end_char=71|NER=O
+
+# text = Djali i madh është larguar nga Shqipëria për të ndjekur ëndrrën e tij futbollistike .
+# sent_id = 8
+1	Djali	djalë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=8|end_char=12|NER=O
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=13|end_char=18|NER=O
+5	larguar	largoj	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=26|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=27|end_char=30|NER=O
+7	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=31|end_char=40|NER=B-VEND_1
+8	për	për	PART	_	_	10	fixed	_	start_char=41|end_char=44|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=45|end_char=47|NER=O
+10	ndjekur	ndjek	VERB	_	VerbForm=Part	5	advmod	_	start_char=48|end_char=55|NER=O
+11	ëndrrën	ëndrrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=56|end_char=63|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=64|end_char=65|NER=O
+13	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=66|end_char=69|NER=O
+14	futbollistike	futbollistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=70|end_char=83|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	5	punct	_	start_char=84|end_char=85|NER=O
+
+# text = Largimi prej tij mesa duket ka qenë shumë emocional : ' Kam qarë shumë , me dënesë .
+# sent_id = 9
+1	Largimi	Largim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=7|NER=O
+2	prej	prej	ADP	_	Case=Abl	3	case	_	start_char=8|end_char=12|NER=O
+3	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	amod:poss	_	start_char=13|end_char=16|NER=O
+4	mesa	mesa	ADV	_	AdvType=Deg	5	advmod	_	start_char=17|end_char=21|NER=O
+5	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=22|end_char=27|NER=O
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=28|end_char=30|NER=O
+7	qenë	jam	VERB	_	VerbForm=Part	5	ccomp	_	start_char=31|end_char=35|NER=O
+8	shumë	shumë	ADV	_	AdvType=Deg	9	advmod	_	start_char=36|end_char=41|NER=O
+9	emocional	emocional	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=42|end_char=51|SpaceAfter=No|NER=O
+10	:	:	PUNCT	_	_	7	punct	_	start_char=52|end_char=53|NER=O
+11	'	'	PUNCT	_	_	3	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+12	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=56|end_char=59|NER=O
+13	qarë	qaj	VERB	_	VerbForm=Part	0	root	_	start_char=60|end_char=64|NER=O
+14	shumë	shumë	ADV	_	AdvType=Deg	3	advmod	_	start_char=65|end_char=70|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	7	punct	_	start_char=71|end_char=72|NER=O
+16	me	me	ADP	_	Case=Acc	7	case	_	start_char=73|end_char=75|NER=O
+17	dënesë	dënesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=76|end_char=82|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	3	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Shumë .
+# sent_id = 10
+1	Shumë	shumë	PRON	_	PronType=Ind	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|NER=O
+
+# text = Ndoshta pas humbjes së mamit , kam qarë njësoj edhe për largimin e tij ' - përfundoi Kastro .
+# sent_id = 11
+1	Ndoshta	ndoshta	ADV	_	AdvType=Tim	16	advmod	_	start_char=0|end_char=7|NER=O
+2	pas	pas	ADP	_	Case=Abl	3	case	_	start_char=8|end_char=11|NER=O
+3	humbjes	humbje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=12|end_char=19|NER=O
+4	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=20|end_char=22|NER=O
+5	mamit	mam	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=28|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	1	punct	_	start_char=29|end_char=30|NER=O
+7	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	8	aux	_	start_char=31|end_char=34|NER=O
+8	qarë	qaj	VERB	_	VerbForm=Part	0	root	_	start_char=35|end_char=39|NER=O
+9	njësoj	njësoj	ADV	_	AdvType=Deg	8	advmod	_	start_char=40|end_char=46|NER=O
+10	edhe	edhe	PART	_	_	12	advmod:emph	_	start_char=47|end_char=51|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=52|end_char=55|NER=O
+12	largimin	largim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=56|end_char=64|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=65|end_char=66|NER=O
+14	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	nmod	_	start_char=67|end_char=70|NER=O
+15	'	'	PUNCT	_	_	12	punct	_	start_char=71|end_char=72|NER=O
+16	-	-	PUNCT	_	_	16	punct	_	start_char=73|end_char=74|NER=O
+17	përfundoi	përfundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	start_char=75|end_char=84|NER=O
+18	Kastro	Kastro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=85|end_char=91|SpaceAfter=No|NER=B-PER
+19	.	.	PUNCT	_	_	16	punct	_	start_char=92|end_char=93|SpacesAfter=\n\n|NER=O
+

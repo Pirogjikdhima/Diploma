@@ -1,0 +1,290 @@
+# text = Gjermania dhe BE - ja mbështetje Transportit të Gjelbër në Tiranë me 81 .
+# sent_id = 0
+1	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=9|NER=B-VEND_1
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=10|end_char=13|NER=O
+3	BE	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	start_char=14|end_char=16|NER=B-ORG
+4	-	-	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=B-ORG
+5	ja	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	start_char=19|end_char=21|NER=B-ORG
+6	mbështetje	mbështetje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	flat	_	start_char=22|end_char=32|NER=O
+7	Transportit	Transport	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=33|end_char=44|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=45|end_char=47|NER=O
+9	Gjelbër	Gjelbër	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	5	compound	_	start_char=48|end_char=55|NER=O
+10	në	në	ADP	_	Case=Acc	9	case	_	start_char=56|end_char=58|NER=O
+11	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=59|end_char=65|NER=B-VEND_0
+12	me	me	ADP	_	Case=Acc	12	case	_	start_char=66|end_char=68|NER=O
+13	81	81	NUM	_	NumType=Card	13	nummod	_	start_char=69|end_char=71|NER=O
+14	.	.	PUNCT	_	_	13	punct	_	start_char=72|end_char=73|NER=O
+
+# text = 2 milionë euro TIRAN , 28 dhjetor / ATSH / Ministri i Financave dhe Ekonomisë , Ervin Mete , Kryetari i Bashkisë së Tiranës , Erion Veliaj dhe Drejtoresha e KfW në Shqipëri , Brit Horschke nënshkruan Marrëveshjet e Financimit për Projektin e Transportit të Gjelbër në Tiranë në vlerën 50 milionë euro hua , dhënë nga Qeveria Gjermane nëpërmjet Bankës për Zhvillim KfW , si dhe një grant prej 31 .
+# sent_id = 1
+1	2	2	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	start_char=2|end_char=9|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=O
+4	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=15|end_char=20|SpaceAfter=No|NER=B-VEND_0
+5	,	,	PUNCT	_	_	18	punct	_	start_char=21|end_char=22|NER=O
+6	28	28	NUM	_	NumType=Card	18	nummod	_	start_char=23|end_char=25|NER=B-DATE_0
+7	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	list	_	start_char=26|end_char=33|NER=I-DATE_0
+8	/	/	PUNCT	_	_	20	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+9	ATSH	ATSH	PROPN	_	Foreign=Yes	18	appos	_	start_char=36|end_char=40|NER=O
+10	/	/	PUNCT	_	_	18	punct	_	start_char=41|end_char=42|NER=O
+11	Ministri	ministr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=43|end_char=51|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=52|end_char=53|NER=O
+13	Financave	Financë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=54|end_char=63|NER=O
+14	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=64|end_char=67|NER=O
+15	Ekonomisë	Ekonomi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	start_char=68|end_char=77|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	7	punct	_	start_char=78|end_char=79|NER=O
+17	Ervin	Ervi	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=80|end_char=85|NER=B-PER
+18	Mete	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=86|end_char=90|SpaceAfter=No|NER=I-PER
+19	,	,	PUNCT	_	_	10	punct	_	start_char=91|end_char=92|NER=O
+20	Kryetari	Kryetar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=93|end_char=101|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=102|end_char=103|NER=O
+22	Bashkisë	Bashki	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=104|end_char=112|NER=O
+23	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=113|end_char=115|NER=O
+24	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=116|end_char=123|SpaceAfter=No|NER=B-VEND_0
+25	,	,	PUNCT	_	_	16	punct	_	start_char=124|end_char=125|NER=O
+26	Erion	Erio	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	appos	_	start_char=126|end_char=131|NER=B-PER
+27	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	flat	_	start_char=132|end_char=138|NER=I-PER
+28	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=139|end_char=142|NER=O
+29	Drejtoresha	drejtoreshë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	conj	_	start_char=143|end_char=154|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=155|end_char=156|NER=O
+31	KfW	KfW	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=157|end_char=160|NER=B-ORG
+32	në	në	ADP	_	Case=Acc	23	case	_	start_char=161|end_char=163|NER=O
+33	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=164|end_char=172|SpaceAfter=No|NER=B-VEND_1
+34	,	,	PUNCT	_	_	25	punct	_	start_char=173|end_char=174|NER=O
+35	Brit	Brit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	appos	_	start_char=175|end_char=179|NER=B-PER
+36	Horschke	Horschk	PROPN	_	Case=Nom|Foreign=Yes	25	flat	_	start_char=180|end_char=188|NER=I-PER
+37	nënshkruan	nënshkroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	25	acl	_	start_char=189|end_char=199|NER=O
+38	Marrëveshjet	marrëveshje	PROPN	_	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=200|end_char=212|NER=O
+39	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	30	det:poss	_	start_char=213|end_char=214|NER=O
+40	Financimit	Financim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=215|end_char=225|NER=O
+41	për	për	ADP	_	Case=Acc	32	case	_	start_char=226|end_char=229|NER=O
+42	Projektin	projekt	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	advmod	_	start_char=230|end_char=239|NER=O
+43	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=240|end_char=241|NER=O
+44	Transportit	Transport	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=242|end_char=253|NER=O
+45	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=254|end_char=256|NER=O
+46	Gjelbër	Gjelbër	PROPN	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	nmod	_	start_char=257|end_char=264|NER=O
+47	në	në	ADP	_	Case=Acc	38	case	_	start_char=265|end_char=267|NER=O
+48	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	start_char=268|end_char=274|NER=O
+49	në	në	ADP	_	Case=Acc	40	case	_	start_char=275|end_char=277|NER=O
+50	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	start_char=278|end_char=284|NER=O
+51	50	50	NUM	_	NumType=Card	43	nummod	_	start_char=285|end_char=287|NER=O
+52	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	43	nmod	_	start_char=288|end_char=295|NER=O
+53	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	40	nmod	_	start_char=296|end_char=300|NER=O
+54	hua	hua	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	43	nmod	_	start_char=301|end_char=304|SpaceAfter=No|NER=O
+55	,	,	PUNCT	_	_	46	punct	_	start_char=305|end_char=306|NER=O
+56	dhënë	jap	VERB	_	VerbForm=Part	43	amod	_	start_char=307|end_char=312|NER=O
+57	nga	nga	ADP	_	Case=Nom	48	case	_	start_char=313|end_char=316|NER=O
+58	Qeveria	qeveri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	46	obl	_	start_char=317|end_char=324|NER=O
+59	Gjermane	Gjerman	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	start_char=325|end_char=333|NER=O
+60	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	51	case	_	start_char=334|end_char=343|NER=O
+61	Bankës	Bankë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	46	advmod	_	start_char=344|end_char=350|NER=O
+62	për	për	ADP	_	Case=Acc	53	case	_	start_char=351|end_char=354|NER=O
+63	Zhvillim	Zhvillim	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	51	nmod	_	start_char=355|end_char=363|NER=O
+64	KfW	KfW	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	53	flat	_	start_char=364|end_char=367|SpaceAfter=No|NER=B-ORG
+65	,	,	PUNCT	_	_	56	punct	_	start_char=368|end_char=369|NER=O
+66	si	si	SCONJ	_	_	57	fixed	_	start_char=370|end_char=372|NER=O
+67	dhe	dhe	CCONJ	_	_	59	cc	_	start_char=373|end_char=376|NER=O
+68	një	një	DET	_	Definite=Ind	59	det	_	start_char=377|end_char=380|NER=O
+69	grant	grant	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	53	conj	_	start_char=381|end_char=386|NER=O
+70	prej	prej	ADP	_	Case=Abl	62	case	_	start_char=387|end_char=391|NER=O
+71	31	31	NUM	_	NumType=Card	62	nummod	_	start_char=392|end_char=394|NER=O
+72	.	.	PUNCT	_	_	62	punct	_	start_char=395|end_char=396|NER=O
+
+# text = 2 milionë euro , i akorduar nga Fondi i Investimeve për Ballkanin Perëndimor ( WBIF ) për këtë qëllim .
+# sent_id = 2
+1	2	2	NUM	_	NumType=Card	62	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	59	nmod	_	start_char=2|end_char=9|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	59	nmod	_	start_char=10|end_char=14|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	66	punct	_	start_char=15|end_char=16|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	66	det	_	start_char=17|end_char=18|NER=O
+6	akorduar	akorduar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	63	amod	_	start_char=19|end_char=27|NER=O
+7	nga	nga	ADP	_	Case=Nom	68	case	_	start_char=28|end_char=31|NER=O
+8	Fondi	Fondi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	66	obl	_	start_char=32|end_char=37|NER=B-ORG
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	70	det:poss	_	start_char=38|end_char=39|NER=I-ORG
+10	Investimeve	Investim	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	68	nmod	_	start_char=40|end_char=51|NER=I-ORG
+11	për	për	ADP	_	Case=Acc	72	case	_	start_char=52|end_char=55|NER=I-ORG
+12	Ballkanin	Ballkan	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	68	nmod	_	start_char=56|end_char=65|NER=I-ORG
+13	Perëndimor	perëndimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	72	amod	_	start_char=66|end_char=76|NER=I-ORG
+14	(	(	PUNCT	_	_	75	punct	_	start_char=77|end_char=78|SpaceAfter=No|NER=B-ORG
+15	WBIF	WBIF	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	72	list	_	start_char=79|end_char=83|NER=I-ORG
+16	)	)	PUNCT	_	_	72	punct	_	start_char=84|end_char=85|NER=I-ORG
+17	për	për	ADP	_	Case=Acc	78	case	_	start_char=86|end_char=89|NER=O
+18	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	78	det	_	start_char=90|end_char=94|NER=O
+19	qëllim	qëllim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	75	nmod	_	start_char=95|end_char=101|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	46	punct	_	start_char=102|end_char=103|SpacesAfter=\n|NER=O
+
+# text = Kostoja totale e parashikuar e projektit është 110 .
+# sent_id = 3
+1	Kostoja	kostojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=7|NER=O
+2	totale	total	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=8|end_char=14|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=15|end_char=16|NER=O
+4	parashikuar	parashikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=17|end_char=28|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=29|end_char=30|NER=O
+6	projektit	projekt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=31|end_char=40|NER=O
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=41|end_char=46|NER=O
+8	110	110	NUM	_	NumType=Card	7	advmod	_	start_char=47|end_char=50|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	11	punct	_	start_char=51|end_char=52|SpaceAfter=No|NER=O
+
+# text = 37 milionë euro .
+# sent_id = 4
+1	37	37	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	advmod	_	start_char=3|end_char=10|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	start_char=11|end_char=15|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	7	punct	_	start_char=16|end_char=17|NER=O
+
+# text = Pjesa tjetër e financimit do të mbulohet nga Bashkia e Tiranës , në vlerën 29 .
+# sent_id = 5
+1	Pjesa	pjesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=5|NER=O
+2	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	1	amod	_	start_char=6|end_char=12|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=13|end_char=14|NER=O
+4	financimit	financim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=25|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=26|end_char=28|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=29|end_char=31|NER=O
+7	mbulohet	mbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=32|end_char=40|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=41|end_char=44|NER=O
+9	Bashkia	Bashki	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=45|end_char=52|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=53|end_char=54|NER=O
+11	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=55|end_char=62|SpaceAfter=No|NER=B-VEND_0
+12	,	,	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=65|end_char=67|NER=O
+14	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=68|end_char=74|NER=O
+15	29	29	NUM	_	NumType=Card	14	nummod	_	start_char=75|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	18	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=O
+
+# text = 17 milionë euro .
+# sent_id = 6
+1	17	17	NUM	_	NumType=Card	18	nummod	_	start_char=0|end_char=2|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	start_char=3|end_char=10|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	start_char=11|end_char=15|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	7	punct	_	start_char=16|end_char=17|SpacesAfter=\n|NER=O
+
+# text = Projekti përfshin zbatimin e një sistemi tranziti të shpejtë me autobus ( Bus - Rapid Transit - BRT ) , duke përdorur autobusë me bateri - elektrikë në tre linja transporti në Tiranë ( Unaza , Tirana e Re , Kombinat - Kinostudio ) .
+# sent_id = 7
+1	Projekti	projekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=8|NER=O
+2	përfshin	përfshij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=17|NER=O
+3	zbatimin	zbatim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=18|end_char=26|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=27|end_char=28|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=29|end_char=32|NER=O
+6	sistemi	sistem	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=33|end_char=40|NER=O
+7	tranziti	tranzit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=41|end_char=49|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=50|end_char=52|NER=O
+9	shpejtë	shpejtë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=53|end_char=60|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=61|end_char=63|NER=O
+11	autobus	autobus	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=64|end_char=71|NER=O
+12	(	(	PUNCT	_	_	13	punct	_	start_char=72|end_char=73|SpaceAfter=No|NER=O
+13	Bus	Bus-Rapid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=74|end_char=77|NER=O
+14	-	-	PUNCT	_	_	11	punct	_	start_char=78|end_char=79|NER=O
+15	Rapid	Bus-Rapid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=80|end_char=85|NER=O
+16	Transit	Transit-BRT	PROPN	_	Foreign=Yes	13	flat	_	start_char=86|end_char=93|SpaceAfter=No|NER=O
+17	-	-	PUNCT	_	_	13	punct	_	start_char=94|end_char=95|SpaceAfter=No|NER=O
+18	BRT	Transit-BRT	PROPN	_	Foreign=Yes	13	flat	_	start_char=96|end_char=99|SpaceAfter=No|NER=O
+19	)	)	PUNCT	_	_	13	punct	_	start_char=100|end_char=101|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	17	punct	_	start_char=102|end_char=103|NER=O
+21	duke	duke	PART	_	_	17	fixed	_	start_char=104|end_char=108|NER=O
+22	përdorur	përdor	VERB	_	VerbForm=Part	2	advmod	_	start_char=109|end_char=117|NER=O
+23	autobusë	autobusë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	start_char=118|end_char=126|NER=O
+24	me	me	ADP	_	Case=Acc	20	case	_	start_char=127|end_char=129|NER=O
+25	bateri	bateri-elektrikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=130|end_char=136|NER=B-PRO
+26	-	-	PUNCT	_	_	17	punct	_	start_char=137|end_char=138|NER=B-PRO
+27	elektrikë	bateri-elektrikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=139|end_char=148|NER=B-PRO
+28	në	në	ADP	_	Case=Acc	23	case	_	start_char=149|end_char=151|NER=O
+29	tre	tre	NUM	_	NumType=Card	23	nummod	_	start_char=152|end_char=155|NER=O
+30	linja	linjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=156|end_char=161|NER=O
+31	transporti	transport	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=162|end_char=172|NER=O
+32	në	në	ADP	_	Case=Acc	26	case	_	start_char=173|end_char=175|NER=O
+33	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	start_char=176|end_char=182|NER=B-VEND_0
+34	(	(	PUNCT	_	_	28	punct	_	start_char=183|end_char=184|SpaceAfter=No|NER=O
+35	Unaza	Unazë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	appos	_	start_char=185|end_char=190|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	30	punct	_	start_char=191|end_char=192|NER=O
+37	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	28	list	_	start_char=193|end_char=199|NER=O
+38	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=200|end_char=201|NER=O
+39	Re	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=202|end_char=204|SpaceAfter=No|NER=O
+40	,	,	PUNCT	_	_	34	punct	_	start_char=205|end_char=206|NER=O
+41	Kombinat	Kombinat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	list	_	start_char=207|end_char=215|SpaceAfter=No|NER=O
+42	-	-	PUNCT	_	_	30	punct	_	start_char=216|end_char=217|SpaceAfter=No|NER=O
+43	Kinostudio	Kinostudio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	flat	_	start_char=218|end_char=228|SpaceAfter=No|NER=O
+44	)	)	PUNCT	_	_	34	punct	_	start_char=229|end_char=230|SpaceAfter=No|NER=O
+45	.	.	PUNCT	_	_	2	punct	_	start_char=231|end_char=232|NER=O
+
+# text = Qëllimi i projektit është përmirësimi i ofrimit të shërbimeve në transportin publik si dhe reduktimi i emetimeve të CO2 .
+# sent_id = 8
+1	Qëllimi	qëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	projektit	projekt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=19|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+5	përmirësimi	përmirësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=26|end_char=37|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=38|end_char=39|NER=O
+7	ofrimit	ofrim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=47|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=48|end_char=50|NER=O
+9	shërbimeve	shërbim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=51|end_char=61|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=62|end_char=64|NER=O
+11	transportin	transport	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=65|end_char=76|NER=O
+12	publik	publik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=77|end_char=83|NER=O
+13	si	si	SCONJ	_	_	14	fixed	_	start_char=84|end_char=86|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=87|end_char=90|NER=O
+15	reduktimi	reduktim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	start_char=91|end_char=100|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=101|end_char=102|NER=O
+17	emetimeve	emetim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=103|end_char=112|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=113|end_char=115|NER=O
+19	CO2	CO2	NUM	_	NumType=Card	17	amod	_	start_char=116|end_char=119|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	4	punct	_	start_char=120|end_char=121|NER=O
+
+# text = Kjo për të kontribuar në mbrojtjen e klimës dhe mjedisit , si dhe përmirësimin e efikasitetit të energjisë .
+# sent_id = 9
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3|NER=O
+2	për	për	PART	_	_	4	fixed	_	start_char=4|end_char=7|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=8|end_char=10|NER=O
+4	kontribuar	kontribuoj	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=21|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=25|end_char=34|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=35|end_char=36|NER=O
+8	klimës	klimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=37|end_char=43|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=44|end_char=47|NER=O
+10	mjedisit	mjedis	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	start_char=48|end_char=56|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=57|end_char=58|NER=O
+12	si	si	SCONJ	_	_	13	fixed	_	start_char=59|end_char=61|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=62|end_char=65|NER=O
+14	përmirësimin	përmirësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=66|end_char=78|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=79|end_char=80|NER=O
+16	efikasitetit	efikasitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=81|end_char=93|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=94|end_char=96|NER=O
+18	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=97|end_char=106|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	14	punct	_	start_char=107|end_char=108|SpacesAfter=\n|NER=O
+
+# text = projekti vjen në kuadër të masave të ndërmarra nga Qeveria për arritjen e objektivave për zhvillimin e qëndrueshëm dhe në mbrojtje të klimës dhe parashikohet të përfundojë implementimin në fund të vitit 2029 .
+# sent_id = 10
+1	projekti	projekt	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=0|end_char=8|NER=O
+2	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=13|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=14|end_char=16|NER=O
+4	kuadër	kuadër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=17|end_char=23|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	masave	masa	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=27|end_char=33|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=34|end_char=36|NER=O
+8	ndërmarra	ndërmarrë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=37|end_char=46|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=47|end_char=50|NER=O
+10	Qeveria	qeveri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=51|end_char=58|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=59|end_char=62|NER=O
+12	arritjen	arritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=63|end_char=71|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=72|end_char=73|NER=O
+14	objektivave	objektivë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=74|end_char=85|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=86|end_char=89|NER=O
+16	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=90|end_char=100|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=101|end_char=102|NER=O
+18	qëndrueshëm	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=103|end_char=114|NER=O
+19	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=115|end_char=118|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=119|end_char=121|NER=O
+21	mbrojtje	mbrojtje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	start_char=122|end_char=130|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=131|end_char=133|NER=O
+23	klimës	klimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=134|end_char=140|NER=O
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=141|end_char=144|NER=O
+25	parashikohet	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	conj	_	start_char=145|end_char=157|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=158|end_char=160|NER=O
+27	përfundojë	përfundoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	ccomp	_	start_char=161|end_char=171|NER=O
+28	implementimin	implementim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=172|end_char=185|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=186|end_char=188|NER=O
+30	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	advmod	_	start_char=189|end_char=193|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=194|end_char=196|NER=O
+32	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=197|end_char=202|NER=B-DATE_0
+33	2029	2029	NUM	_	NumType=Card	32	amod:nummod	_	start_char=203|end_char=207|SpaceAfter=No|NER=I-DATE_0
+34	.	.	PUNCT	_	_	25	punct	_	start_char=208|end_char=209|SpacesAfter=\n\n\n|NER=O
+

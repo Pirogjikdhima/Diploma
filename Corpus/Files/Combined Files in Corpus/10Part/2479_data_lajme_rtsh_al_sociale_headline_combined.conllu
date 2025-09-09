@@ -1,0 +1,191 @@
+# text = Covid 19 , Kuli : Jo mbyllje shkollave për situatën !
+# sent_id = 0
+1	Covid	Covid	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=O
+2	19	19	NUM	_	NumType=Card	1	flat	_	start_char=6|end_char=8|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	4	punct	_	start_char=9|end_char=10|NER=O
+4	Kuli	Kuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=15|SpaceAfter=No|NER=B-PER
+5	:	:	PUNCT	_	_	1	punct	_	start_char=16|end_char=17|NER=O
+6	Jo	Jo	PART	_	_	2	mark:emph	_	start_char=18|end_char=20|NER=O
+7	mbyllje	mbyllje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=21|end_char=28|NER=O
+8	shkollave	shkollë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=29|end_char=38|NER=O
+9	për	për	ADP	_	Case=Acc	5	case	_	start_char=39|end_char=42|NER=O
+10	situatën	situatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=43|end_char=51|NER=O
+11	!	!	PUNCT	_	_	7	punct	_	start_char=52|end_char=53|SpacesAfter=\n|NER=O
+
+# text = 11 / 01 / 2022 Rreth 3 , 5 % e nxënësve në rang vendi munguan për shkaqe të ndryshme javën që kaloi në shkolla ku peshën kryesore e zunë infektimet nga COVID .
+# sent_id = 1
+1	11	11	NUM	_	NumType=Card	5	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	5	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	7	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	7	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Rreth	rreth	ADP	_	Case=Abl	12	case	_	start_char=15|end_char=20|NER=O
+7	3	3	NUM	_	NumType=Card	12	nummod	_	start_char=21|end_char=22|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	12	punct	_	start_char=23|end_char=24|SpaceAfter=No|NER=O
+9	5	5	NUM	_	NumType=Card	12	nummod	_	start_char=25|end_char=26|SpaceAfter=No|NER=O
+10	%	%	SYM	_	_	18	advmod	_	start_char=27|end_char=28|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=29|end_char=30|NER=O
+12	nxënësve	nxënës	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=31|end_char=39|NER=O
+13	në	në	ADP	_	Case=Acc	16	case	_	start_char=40|end_char=42|NER=O
+14	rang	rang	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=43|end_char=47|NER=O
+15	vendi	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=48|end_char=53|NER=O
+16	munguan	mungoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=54|end_char=61|NER=O
+17	për	për	ADP	_	Case=Acc	20	case	_	start_char=62|end_char=65|NER=O
+18	shkaqe	shkaq	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obl	_	start_char=66|end_char=72|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=73|end_char=75|NER=O
+20	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=76|end_char=84|NER=O
+21	javën	javë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=85|end_char=90|NER=O
+22	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=91|end_char=93|NER=O
+23	kaloi	kaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl	_	start_char=94|end_char=99|NER=O
+24	në	në	ADP	_	Case=Acc	27	case	_	start_char=100|end_char=102|NER=O
+25	shkolla	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	start_char=103|end_char=110|NER=O
+26	ku	ku	ADV	_	AdvType=Loc	29	nummod	_	start_char=111|end_char=113|NER=O
+27	peshën	peshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=114|end_char=120|NER=O
+28	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=121|end_char=129|NER=O
+29	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	start_char=130|end_char=131|NER=O
+30	zunë	zuaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	25	conj	_	start_char=132|end_char=136|NER=O
+31	infektimet	infektim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	32	obj	_	start_char=137|end_char=147|NER=O
+32	nga	nga	ADP	_	Case=Nom	35	case	_	start_char=148|end_char=151|NER=O
+33	COVID	COVID	NUM	_	NumType=Card	32	obl	_	start_char=152|end_char=157|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	32	punct	_	start_char=158|end_char=159|NER=O
+
+# text = Kjo situatë ka nxitur diskutimet ne grupin e eksprtërve të komitetit Teknik për thellimin e masave , por ajo çfarë ka prevaluar më shumë ka qënë dëmet në formimin arsimor dhe intelektual të tyre se sa ato shëndetësore të cilat për momentin nuk konsiderohen akute Kuli thotë se zgjidhja u dha për karantinime të segmentuara sipas grupeve dhe klasave të infektuara .
+# sent_id = 2
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	situatë	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4|end_char=11|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=12|end_char=14|NER=O
+4	nxitur	nxitoj	VERB	_	VerbForm=Part	0	root	_	start_char=15|end_char=21|NER=O
+5	diskutimet	diskutim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=22|end_char=32|NER=O
+6	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nummod	_	start_char=33|end_char=35|NER=O
+7	grupin	grup	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=36|end_char=42|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=43|end_char=44|NER=O
+9	eksprtërve	eksprtër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=45|end_char=55|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	11	det:poss	_	start_char=56|end_char=58|NER=O
+11	komitetit	komitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=59|end_char=68|NER=O
+12	Teknik	teknik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=69|end_char=75|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=76|end_char=79|NER=O
+14	thellimin	thellim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=80|end_char=89|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=90|end_char=91|NER=O
+16	masave	masa	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=92|end_char=98|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=99|end_char=100|NER=O
+18	por	por	CCONJ	_	_	22	cc	_	start_char=101|end_char=104|NER=O
+19	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	start_char=105|end_char=108|NER=O
+20	çfarë	çfarë	PRON	_	PronType=Int	22	nsubj	_	start_char=109|end_char=114|NER=O
+21	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=115|end_char=117|NER=O
+22	prevaluar	prevaloj	VERB	_	VerbForm=Part	14	acl:relcl	_	start_char=118|end_char=127|NER=O
+23	më	më	PART	_	_	24	mark	_	start_char=128|end_char=130|NER=O
+24	shumë	shumë	ADV	_	AdvType=Deg	26	advmod	_	start_char=131|end_char=136|NER=O
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=137|end_char=139|NER=O
+26	qënë	jam	VERB	_	VerbForm=Part	22	advcl	_	start_char=140|end_char=144|NER=O
+27	dëmet	dëmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obj	_	start_char=145|end_char=150|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=151|end_char=153|NER=O
+29	formimin	formim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	start_char=154|end_char=162|NER=O
+30	arsimor	arsimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=163|end_char=170|NER=O
+31	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=171|end_char=174|NER=O
+32	intelektual	intelektual	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	conj	_	start_char=175|end_char=186|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=187|end_char=189|NER=O
+34	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	amod:poss	_	start_char=190|end_char=194|NER=O
+35	se	se	SCONJ	_	_	37	mark	_	start_char=195|end_char=197|NER=O
+36	sa	sa	ADV	_	AdvType=Deg	37	mark	_	start_char=198|end_char=200|NER=O
+37	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	34	appos	_	start_char=201|end_char=204|NER=O
+38	shëndetësore	shëndetësor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	start_char=205|end_char=217|NER=O
+39	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	40	det	_	start_char=218|end_char=220|NER=O
+40	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	44	nsubj	_	start_char=221|end_char=226|NER=O
+41	për	për	ADP	_	Case=Acc	42	case	_	start_char=227|end_char=230|NER=O
+42	momentin	moment	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	44	advmod	_	start_char=231|end_char=239|NER=O
+43	nuk	nuk	PART	_	_	44	mark	_	start_char=240|end_char=243|NER=O
+44	konsiderohen	konsideroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	37	acl	_	start_char=244|end_char=256|NER=O
+45	akute	akut	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	44	cop	_	start_char=257|end_char=262|NER=O
+46	Kuli	Kuli	PROPN	_	Case=Nom|Foreign=Yes	47	nsubj	_	start_char=263|end_char=267|NER=B-PER
+47	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	44	conj	_	start_char=268|end_char=273|NER=O
+48	se	se	SCONJ	_	_	51	mark	_	start_char=274|end_char=276|NER=O
+49	zgjidhja	zgjidhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	51	nsubj	_	start_char=277|end_char=285|NER=O
+50	u	u	PART	_	_	51	fixed	_	start_char=286|end_char=287|NER=O
+51	dha	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	47	advcl	_	start_char=288|end_char=291|NER=O
+52	për	për	ADP	_	Case=Acc	53	case	_	start_char=292|end_char=295|NER=O
+53	karantinime	karantinim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	51	obl	_	start_char=296|end_char=307|NER=O
+54	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	55	det	_	start_char=308|end_char=310|NER=O
+55	segmentuara	segmentuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	53	amod	_	start_char=311|end_char=322|NER=O
+56	sipas	sipas	ADP	_	Case=Abl	57	case	_	start_char=323|end_char=328|NER=O
+57	grupeve	grup	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	51	advmod	_	start_char=329|end_char=336|NER=O
+58	dhe	dhe	CCONJ	_	_	59	cc	_	start_char=337|end_char=340|NER=O
+59	klasave	klasë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	57	conj	_	start_char=341|end_char=348|NER=O
+60	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	61	det	_	start_char=349|end_char=351|NER=O
+61	infektuara	infektuar	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	59	amod	_	start_char=352|end_char=362|SpaceAfter=No|NER=O
+62	.	.	PUNCT	_	_	51	punct	_	start_char=363|end_char=364|NER=O
+
+# text = Infektimet në moshat shkollore nuk kanë ndikuar në shtrimet spitalore .
+# sent_id = 3
+1	Infektimet	Infektim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=0|end_char=10|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13|NER=O
+3	moshat	moshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=14|end_char=20|NER=O
+4	shkollore	shkollor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=21|end_char=30|NER=O
+5	nuk	nuk	PART	_	_	7	mark	_	start_char=31|end_char=34|NER=O
+6	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=35|end_char=39|NER=O
+7	ndikuar	ndikoj	VERB	_	VerbForm=Part	0	root	_	start_char=40|end_char=47|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=48|end_char=50|NER=O
+9	shtrimet	shtrim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=51|end_char=59|NER=O
+10	spitalore	spitalor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=60|end_char=69|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	7	punct	_	start_char=70|end_char=71|NER=O
+
+# text = Të vegjlit e shtruar në pediatrinë e QSUT janë foshnje dhe kryesisht të formave të mesme .
+# sent_id = 4
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	vegjlit	vogël	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	advmod	_	start_char=3|end_char=10|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	shtruar	shtruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=13|end_char=20|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=21|end_char=23|NER=O
+6	pediatrinë	pediatri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=24|end_char=34|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=35|end_char=36|NER=O
+8	QSUT	QSUT	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=37|end_char=41|NER=O
+9	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=46|NER=O
+10	foshnje	foshnje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	cop	_	start_char=47|end_char=54|NER=O
+11	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=55|end_char=58|NER=O
+12	kryesisht	kryesisht	ADV	_	AdvType=Man	14	mark	_	start_char=59|end_char=68|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=69|end_char=71|NER=O
+14	formave	formë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	conj	_	start_char=72|end_char=79|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=80|end_char=82|NER=O
+16	mesme	mesëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=83|end_char=88|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	9	punct	_	start_char=89|end_char=90|NER=O
+
+# text = Fëmijët e moshave shkollore sipas Kulit zakonisht hospitalizohen për problem shëndetësore post - covid .
+# sent_id = 5
+1	Fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	moshave	moshë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=10|end_char=17|NER=O
+4	shkollore	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=18|end_char=27|NER=O
+5	sipas	sipas	ADP	_	Case=Abl	6	case	_	start_char=28|end_char=33|NER=O
+6	Kulit	Kulit	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=34|end_char=39|NER=B-PER
+7	zakonisht	zakonisht	ADV	_	AdvType=Man	6	flat	_	start_char=40|end_char=49|NER=O
+8	hospitalizohen	hospitalizoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=50|end_char=64|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=65|end_char=68|NER=O
+10	problem	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=69|end_char=76|NER=O
+11	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=77|end_char=89|NER=O
+12	post	post-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=90|end_char=94|NER=O
+13	-	-	PUNCT	_	_	10	punct	_	start_char=95|end_char=96|NER=O
+14	covid	post-covid	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=97|end_char=102|NER=O
+15	.	.	PUNCT	_	_	8	punct	_	start_char=103|end_char=104|NER=O
+
+# text = Ulja e infeksionit covid në moshat shkollore po mbahet në monitorim të përtshëm nga eksprtët dhe vlerësimi është dinamik .
+# sent_id = 6
+1	Ulja	uljë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=5|end_char=6|NER=O
+3	infeksionit	infeksion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=18|NER=O
+4	covid	covid	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=19|end_char=24|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=25|end_char=27|NER=O
+6	moshat	moshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=28|end_char=34|NER=O
+7	shkollore	shkollor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=35|end_char=44|NER=O
+8	po	po	PART	_	_	9	mark	_	start_char=45|end_char=47|NER=O
+9	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=48|end_char=54|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=55|end_char=57|NER=O
+11	monitorim	monitorim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=58|end_char=67|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=68|end_char=70|NER=O
+13	përtshëm	përtshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=71|end_char=79|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=80|end_char=83|NER=O
+15	eksprtët	eksprtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=84|end_char=92|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=93|end_char=96|NER=O
+17	vlerësimi	vlerësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=97|end_char=106|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=107|end_char=112|NER=O
+19	dinamik	dinamik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	cop	_	start_char=113|end_char=120|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	18	punct	_	start_char=121|end_char=122|SpacesAfter=\n\n\n|NER=O
+

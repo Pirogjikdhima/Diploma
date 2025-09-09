@@ -1,0 +1,48 @@
+# text = Zv .
+# sent_id = 0
+1	Zv	Zv.ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=2|NER=O
+2	.	.	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|NER=O
+
+# text = ministrja e Arsimit , Nina Guga sqaron se nëpërmjet implementimit të shërbimit të zhvillimin të karrierës në institucionet tona arsimore nxënësit do të mund të ndërtojnë kompetenca , të zhvillohen në mënyrë të pavarur dhe gjithëpërfshirëse aftësitë e tyre .
+# sent_id = 1
+1	ministrja	Zv.ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Arsimit	Arsim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=19|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|NER=O
+5	Nina	Nina	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=22|end_char=26|NER=B-PER
+6	Guga	Guga	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	start_char=27|end_char=31|NER=I-PER
+7	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=38|NER=O
+8	se	se	SCONJ	_	_	7	mark	_	start_char=39|end_char=41|NER=O
+9	nëpërmjet	nëpërmjet	ADP	_	Case=Abl	10	case	_	start_char=42|end_char=51|NER=O
+10	implementimit	implementim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=52|end_char=65|NER=O
+11	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=66|end_char=68|NER=O
+12	shërbimit	shërbim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=69|end_char=78|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=79|end_char=81|NER=O
+14	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=82|end_char=92|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=93|end_char=95|NER=O
+16	karrierës	karrierë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=96|end_char=105|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=106|end_char=108|NER=O
+18	institucionet	institucion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=109|end_char=122|NER=O
+19	tona	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	amod	_	start_char=123|end_char=127|NER=O
+20	arsimore	arsimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=128|end_char=136|NER=O
+21	nxënësit	nxënës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	start_char=137|end_char=145|NER=O
+22	do	do	PART	_	_	26	fixed	_	start_char=146|end_char=148|NER=O
+23	të	të	PART	_	_	26	fixed	_	start_char=149|end_char=151|NER=O
+24	mund	mund	AUX	_	_	26	aux	_	start_char=152|end_char=156|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=157|end_char=159|NER=O
+26	ndërtojnë	ndërtoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=160|end_char=169|NER=O
+27	kompetenca	kompetencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	26	obj	_	start_char=170|end_char=180|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	30	punct	_	start_char=181|end_char=182|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=183|end_char=185|NER=O
+30	zhvillohen	zhvilloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	26	conj	_	start_char=186|end_char=196|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=197|end_char=199|NER=O
+32	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obl	_	start_char=200|end_char=206|NER=O
+33	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=207|end_char=209|NER=O
+34	pavarur	pavarur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=210|end_char=217|NER=O
+35	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=218|end_char=221|NER=O
+36	gjithëpërfshirëse	gjithëpërfshirës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	conj	_	start_char=222|end_char=239|NER=O
+37	aftësitë	aftësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	32	conj	_	start_char=240|end_char=248|NER=O
+38	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	39	det:poss	_	start_char=249|end_char=250|NER=O
+39	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	amod:poss	_	start_char=251|end_char=255|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	30	punct	_	start_char=256|end_char=257|SpacesAfter=\n|NER=O
+

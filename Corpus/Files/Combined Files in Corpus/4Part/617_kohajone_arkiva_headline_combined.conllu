@@ -1,0 +1,116 @@
+# text = Alarmi nga Franca !
+# sent_id = 0
+1	Alarmi	alarm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=7|end_char=10|NER=O
+3	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=17|SpaceAfter=No|NER=B-VEND_1
+4	!	!	PUNCT	_	_	1	punct	_	start_char=18|end_char=19|NER=O
+
+# text = Shfaqet një mutacion i ri që nuk zbulohet nga testet PCR Në vetëm 24 orë , 92 pacientë janë shtruar në pavijonet e kujdesit intensiv në spitalet e Francës , teksa deri 70 % e këtyre vendeve janë të zënë nga të infektuarit me koronavirus , duke krijuar vështirësi të mëdha për kategoritë e tjera të pacientëve .
+# sent_id = 1
+1	Shfaqet	shfaq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=7|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=8|end_char=11|NER=O
+3	mutacion	mutacio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nsubj	_	start_char=12|end_char=20|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=21|end_char=22|NER=O
+5	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=25|NER=O
+6	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=26|end_char=28|NER=O
+7	nuk	nuk	PART	_	_	8	mark	_	start_char=29|end_char=32|NER=O
+8	zbulohet	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	acl:relcl	_	start_char=33|end_char=41|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=42|end_char=45|NER=O
+10	testet	test	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	obl	_	start_char=46|end_char=52|NER=O
+11	PCR	PCR	PROPN	_	Foreign=Yes	10	appos	_	start_char=53|end_char=56|SpacesAfter=\n|NER=O
+12	Në	në	ADP	_	Case=Acc	4	case	_	start_char=57|end_char=59|NER=O
+13	vetëm	vetëm	PART	_	_	4	mark	_	start_char=60|end_char=65|NER=O
+14	24	24	NUM	_	NumType=Card	4	nummod	_	start_char=66|end_char=68|NER=O
+15	orë	orë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	advmod	_	start_char=69|end_char=72|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	4	punct	_	start_char=73|end_char=74|NER=O
+17	92	92	NUM	_	NumType=Card	4	flat	_	start_char=75|end_char=77|NER=O
+18	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	start_char=78|end_char=86|NER=O
+19	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=87|end_char=91|NER=O
+20	shtruar	shtruar	VERB	_	VerbForm=Part	0	root	_	start_char=92|end_char=99|NER=O
+21	në	në	ADP	_	Case=Acc	11	case	_	start_char=100|end_char=102|NER=O
+22	pavijonet	pavijon	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=103|end_char=112|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=113|end_char=114|NER=O
+24	kujdesit	kujdes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=115|end_char=123|NER=O
+25	intensiv	intensiv	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=124|end_char=132|NER=O
+26	në	në	ADP	_	Case=Acc	16	case	_	start_char=133|end_char=135|NER=O
+27	spitalet	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=136|end_char=144|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=145|end_char=146|NER=O
+29	Francës	Francë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=147|end_char=154|SpaceAfter=No|NER=B-VEND_1
+30	,	,	PUNCT	_	_	20	punct	_	start_char=155|end_char=156|NER=O
+31	teksa	teksa	ADV	_	AdvType=Loc	27	advmod	_	start_char=157|end_char=162|NER=O
+32	deri	deri	PART	_	_	23	case	_	start_char=163|end_char=167|NER=O
+33	70	70	NUM	_	NumType=Card	23	nummod	_	start_char=168|end_char=170|SpaceAfter=No|NER=O
+34	%	%	SYM	_	_	27	advmod	_	start_char=171|end_char=172|NER=O
+35	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	26	det:poss	_	start_char=173|end_char=174|NER=O
+36	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	26	det	_	start_char=175|end_char=181|NER=O
+37	vendeve	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=182|end_char=189|NER=O
+38	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=190|end_char=194|NER=O
+39	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	29	det	_	start_char=195|end_char=197|NER=O
+40	zënë	zënë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	27	cop	_	start_char=198|end_char=202|NER=O
+41	nga	nga	ADP	_	Case=Nom	32	case	_	start_char=203|end_char=206|NER=O
+42	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	32	det	_	start_char=207|end_char=209|NER=O
+43	infektuarit	infektuar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	27	advmod	_	start_char=210|end_char=221|NER=O
+44	me	me	ADP	_	Case=Acc	34	case	_	start_char=222|end_char=224|NER=O
+45	koronavirus	koronaviru	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	start_char=225|end_char=236|SpaceAfter=No|NER=O
+46	,	,	PUNCT	_	_	37	punct	_	start_char=237|end_char=238|NER=O
+47	duke	duke	PART	_	_	37	fixed	_	start_char=239|end_char=243|NER=O
+48	krijuar	krijoj	VERB	_	VerbForm=Part	27	advmod	_	start_char=244|end_char=251|NER=O
+49	vështirësi	vështirës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	37	obj	_	start_char=252|end_char=262|NER=O
+50	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	40	det	_	start_char=263|end_char=265|NER=O
+51	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=266|end_char=271|NER=O
+52	për	për	ADP	_	Case=Acc	42	case	_	start_char=272|end_char=275|NER=O
+53	kategoritë	kategori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	37	advmod	_	start_char=276|end_char=286|NER=O
+54	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	44	det	_	start_char=287|end_char=288|NER=O
+55	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	42	amod	_	start_char=289|end_char=294|NER=O
+56	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	46	det:poss	_	start_char=295|end_char=297|NER=O
+57	pacientëve	pacientë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	42	nmod	_	start_char=298|end_char=308|SpaceAfter=No|NER=O
+58	.	.	PUNCT	_	_	37	punct	_	start_char=309|end_char=310|SpacesAfter=\n|NER=O
+
+# text = Dominimi i variantit britanik ka bërë që Franca të ketë shifrat më të larta të infektimeve ditore në Europë .
+# sent_id = 2
+1	Dominimi	dominim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	variantit	variant	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=20|NER=O
+4	britanik	britanik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=21|end_char=29|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=30|end_char=32|NER=O
+6	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=33|end_char=37|NER=O
+7	që	që	SCONJ	_	_	10	mark	_	start_char=38|end_char=40|NER=O
+8	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=41|end_char=47|NER=B-VEND_1
+9	të	të	PART	_	_	10	fixed	_	start_char=48|end_char=50|NER=O
+10	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	start_char=51|end_char=55|NER=O
+11	shifrat	shifër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=56|end_char=63|NER=O
+12	më	më	PART	_	_	14	mark	_	start_char=64|end_char=66|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=67|end_char=69|NER=O
+14	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=70|end_char=75|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=76|end_char=78|NER=O
+16	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=79|end_char=90|NER=O
+17	ditore	ditor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=91|end_char=97|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=98|end_char=100|NER=O
+19	Europë	Europë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=101|end_char=107|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	6	punct	_	start_char=108|end_char=109|NER=O
+
+# text = Mediat shkruajnë se një mutacion i ri me origjinë nga rajoni veriperëndimor i Bretanjës , po përhapet me ritme të shpejta .
+# sent_id = 3
+1	Mediat	mediat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	shkruajnë	shkruaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=16|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=17|end_char=19|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=20|end_char=23|NER=O
+5	mutacion	mutacio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	start_char=24|end_char=32|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=33|end_char=34|NER=O
+7	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=35|end_char=37|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	origjinë	origjinë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	start_char=41|end_char=49|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=50|end_char=53|NER=O
+11	rajoni	rajon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=54|end_char=60|NER=O
+12	veriperëndimor	veriperëndimor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=61|end_char=75|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=76|end_char=77|NER=O
+14	Bretanjës	Bretanjë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=78|end_char=87|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=88|end_char=89|NER=O
+16	po	po	PART	_	_	17	mark	_	start_char=90|end_char=92|NER=O
+17	përhapet	përhap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=93|end_char=101|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=102|end_char=104|NER=O
+19	ritme	ritëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	start_char=105|end_char=110|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=111|end_char=113|NER=O
+21	shpejta	shpejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=114|end_char=121|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	17	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+

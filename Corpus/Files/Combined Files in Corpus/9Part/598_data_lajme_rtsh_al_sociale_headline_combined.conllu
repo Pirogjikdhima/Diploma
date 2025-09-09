@@ -1,0 +1,421 @@
+# text = 20 / 10 / 2023 Një baba shqiptar dhe marrëdhënia e saj e re sentimentale në programin " Grande Fratello " ka shkaktuar " zhurmë " të madhe në Itali .
+# sent_id = 0
+1	20	20	NUM	_	NumType=Card	23	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	20	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	20	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	23	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	23	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Një	një	DET	_	Definite=Ind	2	det	_	start_char=15|end_char=18|NER=O
+7	baba	babë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	start_char=19|end_char=23|NER=O
+8	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=24|end_char=32|NER=O
+9	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=33|end_char=36|NER=O
+10	marrëdhënia	marrëdhëni	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	start_char=37|end_char=48|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=49|end_char=50|NER=O
+12	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=51|end_char=54|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=55|end_char=56|NER=O
+14	re	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=57|end_char=59|NER=O
+15	sentimentale	sentimental	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=60|end_char=72|NER=O
+16	në	në	ADP	_	Case=Acc	12	case	_	start_char=73|end_char=75|NER=O
+17	programin	program	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=76|end_char=85|NER=O
+18	"	"	PUNCT	_	_	14	punct	_	start_char=86|end_char=87|SpaceAfter=No|NER=O
+19	Grande	Grand	PROPN	_	Foreign=Yes	12	appos	_	start_char=88|end_char=94|NER=O
+20	Fratello	Fratello	PROPN	_	Foreign=Yes	14	flat	_	start_char=95|end_char=103|SpaceAfter=No|NER=O
+21	"	"	PUNCT	_	_	14	punct	_	start_char=104|end_char=105|NER=O
+22	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=106|end_char=108|NER=O
+23	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	0	root	_	start_char=109|end_char=118|NER=O
+24	"	"	PUNCT	_	_	20	punct	_	start_char=119|end_char=120|SpaceAfter=No|NER=O
+25	zhurmë	zhurmë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=121|end_char=127|SpaceAfter=No|NER=O
+26	"	"	PUNCT	_	_	23	punct	_	start_char=128|end_char=129|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=130|end_char=132|NER=O
+28	madhe	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=133|end_char=138|NER=O
+29	në	në	ADP	_	Case=Acc	25	case	_	start_char=139|end_char=141|NER=O
+30	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=142|end_char=147|SpaceAfter=No|NER=B-VEND_1
+31	.	.	PUNCT	_	_	18	punct	_	start_char=148|end_char=149|SpacesAfter=\n|NER=O
+
+# text = " Qenia njerëzore , problemin më të madh ka pjesën e komunikimit dhe ajo do të jetë qenie sociale .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Qenia	qeni	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=2|end_char=7|NER=O
+3	njerëzore	njerëzor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=8|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	2	punct	_	start_char=18|end_char=19|NER=O
+5	problemin	problem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=20|end_char=29|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=30|end_char=32|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=33|end_char=35|NER=O
+8	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=36|end_char=40|NER=O
+9	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=41|end_char=43|NER=O
+10	pjesën	pjesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=44|end_char=50|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=51|end_char=52|NER=O
+12	komunikimit	komunikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=53|end_char=64|NER=O
+13	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=65|end_char=68|NER=O
+14	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=69|end_char=72|NER=O
+15	do	do	PART	_	_	17	fixed	_	start_char=73|end_char=75|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=76|end_char=78|NER=O
+17	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=79|end_char=83|NER=O
+18	qenie	qeni	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nsubj	_	start_char=84|end_char=89|NER=O
+19	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=90|end_char=97|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	9	punct	_	start_char=98|end_char=99|NER=O
+
+# text = Mendoj se këto janë eksperimente , siç ishte fenomeni i hipive në vitet 1970 dhe trende të tilla , me ndryshimin e kohës , me avancimin e psikikës së njeriut , qëndrojnë ose ikin , " tha pedagogia Nora Malaj .
+# sent_id = 2
+1	Mendoj	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=6|NER=O
+2	se	se	SCONJ	_	_	4	mark	_	start_char=7|end_char=9|NER=O
+3	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	nsubj	_	start_char=10|end_char=14|NER=O
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=15|end_char=19|NER=O
+5	eksperimente	eksperiment	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	cop	_	start_char=20|end_char=32|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=33|end_char=34|NER=O
+7	siç	siç	SCONJ	_	_	8	mark	_	start_char=35|end_char=38|NER=O
+8	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	1	advcl	_	start_char=39|end_char=44|NER=O
+9	fenomeni	fenomen	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=45|end_char=53|NER=O
+10	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=54|end_char=55|NER=O
+11	hipive	hip	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	8	csubj	_	start_char=56|end_char=62|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=63|end_char=65|NER=O
+13	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=66|end_char=71|NER=B-DATE_0
+14	1970	1970	NUM	_	NumType=Card	13	nummod	_	start_char=72|end_char=76|NER=I-DATE_0
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=77|end_char=80|NER=O
+16	trende	trend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	start_char=81|end_char=87|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=88|end_char=90|NER=O
+18	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	amod	_	start_char=91|end_char=96|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	21	punct	_	start_char=97|end_char=98|NER=O
+20	me	me	ADP	_	Case=Acc	21	case	_	start_char=99|end_char=101|NER=O
+21	ndryshimin	ndryshim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=102|end_char=112|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=113|end_char=114|NER=O
+23	kohës	kohë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=115|end_char=120|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=121|end_char=122|NER=O
+25	me	me	ADP	_	Case=Acc	26	case	_	start_char=123|end_char=125|NER=O
+26	avancimin	avancim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=126|end_char=135|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=136|end_char=137|NER=O
+28	psikikës	psikikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=138|end_char=146|NER=O
+29	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=147|end_char=149|NER=O
+30	njeriut	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=150|end_char=157|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	32	punct	_	start_char=158|end_char=159|NER=O
+32	qëndrojnë	qëndroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	28	acl	_	start_char=160|end_char=169|NER=O
+33	ose	ose	CCONJ	_	_	34	cc	_	start_char=170|end_char=173|NER=O
+34	ikin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	conj	_	start_char=174|end_char=178|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	37	punct	_	start_char=179|end_char=180|SpaceAfter=No|NER=O
+36	"	"	PUNCT	_	_	37	punct	_	start_char=181|end_char=182|NER=O
+37	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	conj	_	start_char=183|end_char=186|NER=O
+38	pedagogia	pedagogi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	37	obj	_	start_char=187|end_char=196|NER=O
+39	Nora	nora	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	appos	_	start_char=197|end_char=201|NER=B-PER
+40	Malaj	malaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	appos	_	start_char=202|end_char=207|SpaceAfter=No|NER=I-PER
+41	.	.	PUNCT	_	_	37	punct	_	start_char=208|end_char=209|SpacesAfter=\n|NER=O
+
+# text = Zhvillimi social përplasi dy mentalitete , atë italian dhe shqiptar , sipas gazetares Vjollca Cumraku .
+# sent_id = 3
+1	Zhvillimi	mhvillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=0|end_char=9|NER=O
+2	social	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=10|end_char=16|NER=O
+3	përplasi	përplas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=17|end_char=25|NER=O
+4	dy	dy	NUM	_	NumType=Card	5	nummod	_	start_char=26|end_char=28|NER=O
+5	mentalitete	mentalitet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=29|end_char=40|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=41|end_char=42|NER=O
+7	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=43|end_char=46|NER=O
+8	italian	italian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=47|end_char=54|NER=O
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=55|end_char=58|NER=O
+10	shqiptar	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	start_char=59|end_char=67|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	13	punct	_	start_char=68|end_char=69|NER=O
+12	sipas	sipas	ADP	_	Case=Abl	13	case	_	start_char=70|end_char=75|NER=O
+13	gazetares	gazetar	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=76|end_char=85|NER=O
+14	Vjollca	Vjollcë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	appos	_	start_char=86|end_char=93|NER=B-PER
+15	Cumraku	Cumrak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=94|end_char=101|SpaceAfter=No|NER=I-PER
+16	.	.	PUNCT	_	_	3	punct	_	start_char=102|end_char=103|SpacesAfter=\n|NER=O
+
+# text = " Shoqëria italiane ka një diferencë mentaliteti që u vu re në këtë program .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Shoqëria	shoqëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2|end_char=10|NER=O
+3	italiane	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=11|end_char=19|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=22|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=23|end_char=26|NER=O
+6	diferencë	diferencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=27|end_char=36|NER=O
+7	mentaliteti	mentalitet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=37|end_char=48|NER=O
+8	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=49|end_char=51|NER=O
+9	u	u	PART	_	_	10	fixed	_	start_char=52|end_char=53|NER=O
+10	vu	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	acl:relcl	_	start_char=54|end_char=56|NER=O
+11	re	re	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	start_char=57|end_char=59|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=60|end_char=62|NER=O
+13	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=63|end_char=67|NER=O
+14	program	program	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=68|end_char=75|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	4	punct	_	start_char=76|end_char=77|NER=O
+
+# text = Këtu është gjykuar më shumë nga ana negative , pasi babai në njëfarë mënyre vendosi për vajzën , ai u pa sikur bëri presion psikologjik me mënyrën si hyri , si veproi , si e fajësoi vajzën .
+# sent_id = 5
+1	Këtu	këtu	ADV	_	AdvType=Tim	3	advmod	_	start_char=0|end_char=4|NER=O
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=5|end_char=10|NER=O
+3	gjykuar	gjykoj	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=18|NER=O
+4	më	më	PART	_	_	5	mark	_	start_char=19|end_char=21|NER=O
+5	shumë	shumë	ADV	_	AdvType=Deg	3	advmod	_	start_char=22|end_char=27|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=28|end_char=31|NER=O
+7	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=32|end_char=35|NER=O
+8	negative	negati	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=36|end_char=44|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46|NER=O
+10	pasi	pasi	SCONJ	_	_	15	mark	_	start_char=47|end_char=51|NER=O
+11	babai	baba	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=52|end_char=57|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=58|end_char=60|NER=O
+13	njëfarë	njëfarë	PRON	_	PronType=Ind	14	det	_	start_char=61|end_char=68|NER=O
+14	mënyre	mënyr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=69|end_char=75|NER=O
+15	vendosi	vendos	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=76|end_char=83|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=84|end_char=87|NER=O
+17	vajzën	vajzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=88|end_char=94|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	15	punct	_	start_char=95|end_char=96|NER=O
+19	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=97|end_char=99|NER=O
+20	u	u	PART	_	_	23	fixed	_	start_char=100|end_char=101|NER=O
+21	pa	pa	ADP	_	Case=Acc	23	fixed	_	start_char=102|end_char=104|NER=O
+22	sikur	sikur	PRON	_	PronType=Ind	23	obj	_	start_char=105|end_char=110|NER=O
+23	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	start_char=111|end_char=115|NER=O
+24	presion	presio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	start_char=116|end_char=123|NER=O
+25	psikologjik	psikologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=124|end_char=135|NER=O
+26	me	me	ADP	_	Case=Acc	27	case	_	start_char=136|end_char=138|NER=O
+27	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=139|end_char=146|NER=O
+28	si	si	SCONJ	_	_	29	mark	_	start_char=147|end_char=149|NER=O
+29	hyri	hyj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	27	acl:relcl	_	start_char=150|end_char=154|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=155|end_char=156|NER=O
+31	si	si	SCONJ	_	_	32	mark	_	start_char=157|end_char=159|NER=O
+32	veproi	veproj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	29	advcl	_	start_char=160|end_char=166|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	34	punct	_	start_char=167|end_char=168|NER=O
+34	si	si	SCONJ	_	_	36	mark	_	start_char=169|end_char=171|NER=O
+35	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	start_char=172|end_char=173|NER=O
+36	fajësoi	fajësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	advcl	_	start_char=174|end_char=181|NER=O
+37	vajzën	vajzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	obj	_	start_char=182|end_char=188|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	36	punct	_	start_char=189|end_char=190|NER=O
+
+# text = Babain e quajtën një baba ' padron ' , " tha gazetarja nga Italia .
+# sent_id = 6
+1	Babain	Baba	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=7|end_char=8|NER=O
+3	quajtën	quaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	advcl	_	start_char=9|end_char=16|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=17|end_char=20|NER=O
+5	baba	babë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=21|end_char=25|NER=O
+6	'	'	PUNCT	_	_	5	punct	_	start_char=26|end_char=27|SpaceAfter=No|NER=O
+7	padron	padron	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=28|end_char=34|SpaceAfter=No|NER=O
+8	'	'	PUNCT	_	_	5	punct	_	start_char=35|end_char=36|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	9	punct	_	start_char=37|end_char=38|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+11	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=41|end_char=44|NER=O
+12	gazetarja	gazetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=45|end_char=54|NER=O
+13	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=55|end_char=58|NER=O
+14	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=59|end_char=65|SpaceAfter=No|NER=B-VEND_1
+15	.	.	PUNCT	_	_	9	punct	_	start_char=66|end_char=67|SpacesAfter=\n|NER=O
+
+# text = Znj .
+# sent_id = 7
+1	Znj	Znj	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|NER=O
+
+# text = Malaj kujtoi një studim të dy dekadave më parë për përshtatjen e shqiptarëve me kushtet e Italisë .
+# sent_id = 8
+1	Malaj	malaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	kujtoi	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=6|end_char=12|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=13|end_char=16|NER=O
+4	studim	studim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=17|end_char=23|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=24|end_char=26|NER=O
+6	dy	dy	NUM	_	NumType=Card	7	nummod	_	start_char=27|end_char=29|NER=O
+7	dekadave	dekadë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=30|end_char=38|NER=O
+8	më	më	PART	_	_	9	mark	_	start_char=39|end_char=41|NER=O
+9	parë	parë	ADV	_	AdvType=Man	7	advmod	_	start_char=42|end_char=46|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=50|NER=O
+11	përshtatjen	përshtatje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=51|end_char=62|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=63|end_char=64|NER=O
+13	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=65|end_char=76|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=77|end_char=79|NER=O
+15	kushtet	kusht	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=80|end_char=87|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=88|end_char=89|NER=O
+17	Italisë	Itali	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=90|end_char=97|SpaceAfter=No|NER=B-VEND_1
+18	.	.	PUNCT	_	_	2	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = " Në vitin 2002 kemi bërë një studim me Universitetin e Bolonjës .
+# sent_id = 9
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=5|end_char=10|NER=B-DATE_0
+4	2002	2002	NUM	_	NumType=Card	3	amod:nummod	_	start_char=11|end_char=15|NER=I-DATE_0
+5	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	aux	_	start_char=16|end_char=20|NER=O
+6	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=21|end_char=25|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=26|end_char=29|NER=O
+8	studim	studim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=30|end_char=36|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=37|end_char=39|NER=O
+10	Universitetin	universitet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=40|end_char=53|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=54|end_char=55|NER=O
+12	Bolonjës	Bolonjë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=56|end_char=64|SpaceAfter=No|NER=B-VEND_0
+13	.	.	PUNCT	_	_	6	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Qasja dhe identiteti i grave fliste shumë bukur italisht , ndërsa problematikat ishin të fshehura në subkoshiencë .
+# sent_id = 10
+1	Qasja	qasjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=5|NER=O
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=6|end_char=9|NER=O
+3	identiteti	identitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=10|end_char=20|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=21|end_char=22|NER=O
+5	grave	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=23|end_char=28|NER=O
+6	fliste	flas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=29|end_char=35|NER=O
+7	shumë	shumë	ADV	_	AdvType=Deg	8	advmod	_	start_char=36|end_char=41|NER=O
+8	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	cop	_	start_char=42|end_char=47|NER=O
+9	italisht	italisht	ADV	_	AdvType=Man	8	advmod	_	start_char=48|end_char=56|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=57|end_char=58|NER=O
+11	ndërsa	ndërsa	CCONJ	_	_	13	cc	_	start_char=59|end_char=65|NER=O
+12	problematikat	problematikëkë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	start_char=66|end_char=79|NER=O
+13	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	6	conj	_	start_char=80|end_char=85|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=86|end_char=88|NER=O
+15	fshehura	fshehurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	13	cop	_	start_char=89|end_char=97|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=98|end_char=100|NER=O
+17	subkoshiencë	subkoshiencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=101|end_char=113|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	13	punct	_	start_char=114|end_char=115|NER=O
+
+# text = Për sa i përket meshkujve , ndonëse ishin të fortë në biznes , kur vinte puna te ruajtja e familjes ata ishin konservatorë dhe e kishin të vështirë të përshtateshin me jetën ambigue .
+# sent_id = 11
+1	Për	për	ADP	_	Case=Acc	4	fixed	_	start_char=0|end_char=3|NER=O
+2	sa	sa	ADV	_	AdvType=Deg	4	advmod	_	start_char=4|end_char=6|NER=O
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=7|end_char=8|NER=O
+4	përket	përkas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advmod	_	start_char=9|end_char=15|NER=O
+5	meshkujve	meshkuje	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=16|end_char=25|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=26|end_char=27|NER=O
+7	ndonëse	ndonëse	SCONJ	_	_	8	mark	_	start_char=28|end_char=35|NER=O
+8	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=36|end_char=41|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=42|end_char=44|NER=O
+10	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	cop	_	start_char=45|end_char=50|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=51|end_char=53|NER=O
+12	biznes	bizne	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=54|end_char=60|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=61|end_char=62|NER=O
+14	kur	kur	SCONJ	_	_	15	mark	_	start_char=63|end_char=66|NER=O
+15	vinte	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	8	advcl	_	start_char=67|end_char=72|NER=O
+16	puna	punë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=73|end_char=77|NER=O
+17	te	te	ADP	_	Case=Nom	18	case	_	start_char=78|end_char=80|NER=O
+18	ruajtja	ruajtje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=81|end_char=88|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=89|end_char=90|NER=O
+20	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=91|end_char=99|NER=O
+21	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=100|end_char=103|NER=O
+22	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	15	ccomp	_	start_char=104|end_char=109|NER=O
+23	konservatorë	konservator	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	cop	_	start_char=110|end_char=122|NER=O
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=123|end_char=126|NER=O
+25	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=127|end_char=128|NER=O
+26	kishin	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	22	conj	_	start_char=129|end_char=135|NER=O
+27	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	28	det	_	start_char=136|end_char=138|NER=O
+28	vështirë	vështirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	26	cop	_	start_char=139|end_char=147|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=148|end_char=150|NER=O
+30	përshtateshin	përshtat	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	26	ccomp	_	start_char=151|end_char=164|NER=O
+31	me	me	ADP	_	Case=Acc	32	case	_	start_char=165|end_char=167|NER=O
+32	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	start_char=168|end_char=173|NER=O
+33	ambigue	ambigue	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=174|end_char=181|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	26	punct	_	start_char=182|end_char=183|NER=O
+
+# text = Shoqëria shqiptare ka problematikën e konservatorizmit të fortë , e burrit të fortë , dëshirën e limituar të gruas .
+# sent_id = 12
+1	Shoqëria	shoqëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=8|NER=O
+2	shqiptare	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=9|end_char=18|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=21|NER=O
+4	problematikën	problematikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=22|end_char=35|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=36|end_char=37|NER=O
+6	konservatorizmit	konservatorim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=38|end_char=54|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=55|end_char=57|NER=O
+8	fortë	fortë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=58|end_char=63|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=66|end_char=67|NER=O
+11	burrit	burr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=68|end_char=74|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=75|end_char=77|NER=O
+13	fortë	fortë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=78|end_char=83|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=84|end_char=85|NER=O
+15	dëshirën	dëshirë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	list	_	start_char=86|end_char=94|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=95|end_char=96|NER=O
+17	limituar	limituar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=97|end_char=105|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=106|end_char=108|NER=O
+19	gruas	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=109|end_char=114|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	3	punct	_	start_char=115|end_char=116|NER=O
+
+# text = Por edhe vetë Italia ka probleme të paragjykimit nga jugu në veri , " tha znj .
+# sent_id = 13
+1	Por	por	CCONJ	_	_	5	cc	_	start_char=0|end_char=3|NER=O
+2	edhe	edhe	CCONJ	_	_	4	mark	_	start_char=4|end_char=8|NER=O
+3	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	4	det	_	start_char=9|end_char=13|NER=O
+4	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=14|end_char=20|NER=B-VEND_1
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=23|NER=O
+6	probleme	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=24|end_char=32|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=33|end_char=35|NER=O
+8	paragjykimit	paragjykim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=36|end_char=48|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=49|end_char=52|NER=O
+10	jugu	jugu	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=53|end_char=57|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=58|end_char=60|NER=O
+12	veri	veri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=61|end_char=65|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=66|end_char=67|SpaceAfter=No|NER=O
+14	"	"	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|NER=O
+15	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=70|end_char=73|NER=O
+16	znj	znj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=74|end_char=77|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	15	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Malaj .
+# sent_id = 14
+1	Malaj	malaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|SpacesAfter=\n|NER=O
+
+# text = Marrëdhënia baba - vajzë dhe vajzë - partner është komentuar shumë , dhe për ekspertin e komunikimit , Rezart Cenaj , kjo ka edhe shkaqe sociologjike .
+# sent_id = 15
+1	Marrëdhënia	marrëdhënie	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=11|NER=O
+2	baba	baba-vajzë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=16|NER=O
+3	-	-	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=O
+4	vajzë	baba-vajzë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=19|end_char=24|NER=O
+5	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=25|end_char=28|NER=O
+6	vajzë	vajzë-partner	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	start_char=29|end_char=34|NER=O
+7	-	-	PUNCT	_	_	1	punct	_	start_char=35|end_char=36|NER=O
+8	partner	vajzë-partner	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	start_char=37|end_char=44|NER=O
+9	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=45|end_char=50|NER=O
+10	komentuar	komentoj	VERB	_	VerbForm=Part	0	root	_	start_char=51|end_char=60|NER=O
+11	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=61|end_char=66|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	9	punct	_	start_char=67|end_char=68|NER=O
+13	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=69|end_char=72|NER=O
+14	për	për	ADP	_	Case=Acc	11	case	_	start_char=73|end_char=76|NER=O
+15	ekspertin	ekspert	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=77|end_char=86|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=87|end_char=88|NER=O
+17	komunikimit	komunikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=89|end_char=100|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	15	punct	_	start_char=101|end_char=102|NER=O
+19	Rezart	Rezart	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=103|end_char=109|NER=B-PER
+20	Cenaj	Cenaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=110|end_char=115|SpaceAfter=No|NER=I-PER
+21	,	,	PUNCT	_	_	15	punct	_	start_char=116|end_char=117|NER=O
+22	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	iobj	_	start_char=118|end_char=121|NER=O
+23	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=122|end_char=124|NER=O
+24	edhe	edhe	PART	_	_	21	mark:emph	_	start_char=125|end_char=129|NER=O
+25	shkaqe	shkaq	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=130|end_char=136|NER=O
+26	sociologjike	sociologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=137|end_char=149|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	19	punct	_	start_char=150|end_char=151|SpacesAfter=\n|NER=O
+
+# text = " Sipas sociologëve , marrëdhëniet midis një burri më të madh dhe një vajze më të vogël perceptohen më keq .
+# sent_id = 16
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Sipas	sipas	ADP	_	Case=Abl	3	case	_	start_char=2|end_char=7|NER=O
+3	sociologëve	sociolog	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	18	advmod	_	start_char=8|end_char=19|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|NER=O
+5	marrëdhëniet	marrëdhënie	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	nsubj	_	start_char=22|end_char=34|NER=O
+6	midis	midis	ADP	_	Case=Abl	8	case	_	start_char=35|end_char=40|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=41|end_char=44|NER=O
+8	burri	burr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=45|end_char=50|NER=O
+9	më	më	PART	_	_	11	mark	_	start_char=51|end_char=53|NER=O
+10	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=54|end_char=56|NER=O
+11	madh	madh	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=57|end_char=61|NER=O
+12	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=62|end_char=65|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=66|end_char=69|NER=O
+14	vajze	vajz	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=70|end_char=75|NER=O
+15	më	më	PART	_	_	17	mark	_	start_char=76|end_char=78|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=79|end_char=81|NER=O
+17	vogël	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=82|end_char=87|NER=O
+18	perceptohen	perceptoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=88|end_char=99|NER=O
+19	më	më	PART	_	_	20	mark	_	start_char=100|end_char=102|NER=O
+20	keq	keq	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	cop	_	start_char=103|end_char=106|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	18	punct	_	start_char=107|end_char=108|NER=O
+
+# text = Kjo lloj marrëdhënieje perceptohet si marrëdhënie abuzive në shoqëri , " tha z .
+# sent_id = 17
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	lloj	lloj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4|end_char=8|NER=O
+3	marrëdhënieje	marrëdhënije	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=9|end_char=22|NER=O
+4	perceptohet	perceptoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=23|end_char=34|NER=O
+5	si	si	SCONJ	_	_	6	mark	_	start_char=35|end_char=37|NER=O
+6	marrëdhënie	marrëdhënie	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=38|end_char=49|NER=O
+7	abuzive	abuziv	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=50|end_char=57|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=58|end_char=60|NER=O
+9	shoqëri	shoqër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=61|end_char=68|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=69|end_char=70|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	12	punct	_	start_char=71|end_char=72|NER=O
+12	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	start_char=73|end_char=76|NER=O
+13	z	z	PROPN	_	Foreign=Yes	12	nsubj	_	start_char=77|end_char=78|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	4	punct	_	start_char=79|end_char=80|NER=O
+
+# text = Cenaj .
+# sent_id = 18
+1	Cenaj	Cenaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|SpacesAfter=\n|NER=O
+

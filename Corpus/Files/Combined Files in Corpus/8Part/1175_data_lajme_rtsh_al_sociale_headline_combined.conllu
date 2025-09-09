@@ -1,0 +1,205 @@
+# text = Unike të shohësh një koncert me tre kore të verbërish në parkun " Rinia " në Tiranë .
+# sent_id = 0
+1	Unike	Unik	PROPN	_	Foreign=Yes	22	flat	_	start_char=0|end_char=5|NER=O
+2	të	të	PART	_	_	26	fixed	_	start_char=6|end_char=8|NER=O
+3	shohësh	shoh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=9|end_char=16|NER=O
+4	një	një	DET	_	Definite=Ind	28	det	_	start_char=17|end_char=20|NER=O
+5	koncert	koncer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	start_char=21|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	31	case	_	start_char=29|end_char=31|NER=O
+7	tre	tre	NUM	_	NumType=Card	31	nummod	_	start_char=32|end_char=35|NER=O
+8	kore	kore	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	26	obl	_	start_char=36|end_char=40|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	33	det	_	start_char=41|end_char=43|NER=O
+10	verbërish	verbërish	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=44|end_char=53|NER=O
+11	në	në	ADP	_	Case=Acc	35	case	_	start_char=54|end_char=56|NER=O
+12	parkun	parkun	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=57|end_char=63|NER=O
+13	"	"	PUNCT	_	_	37	punct	_	start_char=64|end_char=65|SpaceAfter=No|NER=O
+14	Rinia	Rinia	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=66|end_char=71|NER=O
+15	"	"	PUNCT	_	_	35	punct	_	start_char=72|end_char=73|NER=O
+16	në	në	ADP	_	Case=Acc	39	case	_	start_char=74|end_char=76|NER=O
+17	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	start_char=77|end_char=83|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	3	punct	_	start_char=84|end_char=85|NER=O
+
+# text = Korin shqiptar " Joy of Sinning " ( Gëzimi i të kënduarit ) , nën drejtimin e mjeshtres Suzana Tuku , Coral Federation , Kori Federal nga Kardisa e Greqisë nën drejtimin e Nikos Effhimiadis dhe kori francez " Vue d ' Ensemble " , Shikim i përbashkët në drejtimin e të verbrës Mireille Loeffler .
+# sent_id = 1
+1	Korin	Kori	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=O
+2	shqiptar	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=6|end_char=14|NER=O
+3	"	"	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+4	Joy	Joy	PROPN	_	Foreign=Yes	1	appos	_	start_char=17|end_char=20|NER=O
+5	of	of	PROPN	_	Foreign=Yes	6	det	_	start_char=21|end_char=23|NER=O
+6	Sinning	Sinning	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	compound	_	start_char=24|end_char=31|NER=O
+7	"	"	PUNCT	_	_	4	punct	_	start_char=32|end_char=33|NER=O
+8	(	(	PUNCT	_	_	8	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+9	Gëzimi	Gëzim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=36|end_char=42|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=43|end_char=44|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=45|end_char=47|NER=O
+12	kënduarit	kënduar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=48|end_char=57|SpaceAfter=No|NER=O
+13	)	)	PUNCT	_	_	11	punct	_	start_char=58|end_char=59|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=60|end_char=61|NER=O
+15	nën	nën	ADP	_	Case=Acc	15	case	_	start_char=62|end_char=65|NER=O
+16	drejtimin	drejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	list	_	start_char=66|end_char=75|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=76|end_char=77|NER=O
+18	mjeshtres	mjeshtre	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=78|end_char=87|NER=O
+19	Suzana	Suzanë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=88|end_char=94|NER=B-PER
+20	Tuku	Tuku	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=95|end_char=99|SpaceAfter=No|NER=I-PER
+21	,	,	PUNCT	_	_	21	punct	_	start_char=100|end_char=101|NER=O
+22	Coral	Coral	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=102|end_char=107|NER=B-PER
+23	Federation	Federation	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	flat	_	start_char=108|end_char=118|SpaceAfter=No|NER=I-PER
+24	,	,	PUNCT	_	_	25	punct	_	start_char=119|end_char=120|NER=O
+25	Kori	Kori	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	flat	_	start_char=121|end_char=125|NER=B-PER
+26	Federal	Federal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	list	_	start_char=126|end_char=133|NER=I-PER
+27	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=134|end_char=137|NER=O
+28	Kardisa	Kardisë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=138|end_char=145|NER=B-VEND_0
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=146|end_char=147|NER=O
+30	Greqisë	Greqi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=148|end_char=155|NER=B-VEND_1
+31	nën	nën	ADP	_	Case=Acc	31	case	_	start_char=156|end_char=159|NER=O
+32	drejtimin	drejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=160|end_char=169|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=170|end_char=171|NER=O
+34	Nikos	Nikos	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	start_char=172|end_char=177|NER=B-PER
+35	Effhimiadis	Effhimiad	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	flat	_	start_char=178|end_char=189|NER=I-PER
+36	dhe	dhe	CCONJ	_	_	36	cc	_	start_char=190|end_char=193|NER=O
+37	kori	kori	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	conj	_	start_char=194|end_char=198|NER=O
+38	francez	francez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=199|end_char=206|NER=O
+39	"	"	PUNCT	_	_	39	punct	_	start_char=207|end_char=208|SpaceAfter=No|NER=O
+40	Vue	Vue	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	36	appos	_	start_char=209|end_char=212|NER=O
+41	d	d'Ensemble	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=213|end_char=214|SpaceAfter=No|NER=O
+42	'	'	PUNCT	_	_	39	punct	_	start_char=215|end_char=216|SpaceAfter=No|NER=O
+43	Ensemble	d'Ensemble	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=217|end_char=225|SpaceAfter=No|NER=O
+44	"	"	PUNCT	_	_	39	punct	_	start_char=226|end_char=227|SpaceAfter=No|NER=O
+45	,	,	PUNCT	_	_	42	punct	_	start_char=228|end_char=229|NER=O
+46	Shikim	Shikim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	39	list	_	start_char=230|end_char=236|NER=O
+47	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	44	det	_	start_char=237|end_char=238|NER=O
+48	përbashkët	përbashkët	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	start_char=239|end_char=249|NER=O
+49	në	në	ADP	_	Case=Acc	46	case	_	start_char=250|end_char=252|NER=O
+50	drejtimin	drejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	42	nmod	_	start_char=253|end_char=262|NER=O
+51	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	49	det:poss	_	start_char=263|end_char=264|NER=O
+52	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	49	det	_	start_char=265|end_char=267|NER=O
+53	verbrës	verbrë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	46	nmod	_	start_char=268|end_char=275|NER=O
+54	Mireille	Mireill	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	49	flat	_	start_char=276|end_char=284|NER=B-PER
+55	Loeffler	Loeffler	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	50	flat:name	_	start_char=285|end_char=293|SpaceAfter=No|NER=I-PER
+56	.	.	PUNCT	_	_	42	punct	_	start_char=294|end_char=295|SpacesAfter=\n|NER=O
+
+# text = Ngjarje që u mbështet nga Ministria e Kulturës , Ambasada e Francës , Ambasada Greke dhe Bashkia e Tiranës , e nën kujdesin e veçantë të Kryepeshkopit Anastas Janullatos .
+# sent_id = 2
+1	Ngjarje	ngjarje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=8|end_char=10|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=11|end_char=12|NER=O
+4	mbështet	mbështes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	acl:relcl	_	start_char=13|end_char=21|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=22|end_char=25|NER=O
+6	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=26|end_char=35|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=37|NER=O
+8	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=38|end_char=46|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=47|end_char=48|NER=O
+10	Ambasada	Ambasadë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=49|end_char=57|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=58|end_char=59|NER=O
+12	Francës	Francë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=60|end_char=67|SpaceAfter=No|NER=B-VEND_1
+13	,	,	PUNCT	_	_	14	punct	_	start_char=68|end_char=69|NER=O
+14	Ambasada	Ambasadë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	list	_	start_char=70|end_char=78|NER=O
+15	Greke	Grek	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	14	flat	_	start_char=79|end_char=84|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=85|end_char=88|NER=O
+17	Bashkia	Bashki	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	conj	_	start_char=89|end_char=96|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=97|end_char=98|NER=O
+19	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=99|end_char=106|SpaceAfter=No|NER=B-VEND_0
+20	,	,	PUNCT	_	_	21	punct	_	start_char=107|end_char=108|NER=O
+21	e	e	CCONJ	_	_	23	cc	_	start_char=109|end_char=110|NER=O
+22	nën	nën	ADP	_	Case=Acc	23	case	_	start_char=111|end_char=114|NER=O
+23	kujdesin	kujdes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=115|end_char=123|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=124|end_char=125|NER=O
+25	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=126|end_char=133|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=134|end_char=136|NER=O
+27	Kryepeshkopit	Kryepeshkop	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=137|end_char=150|NER=O
+28	Anastas	Anastas	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	27	flat	_	start_char=151|end_char=158|NER=B-PER
+29	Janullatos	Janullatos	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=159|end_char=169|SpaceAfter=No|NER=I-PER
+30	.	.	PUNCT	_	_	23	punct	_	start_char=170|end_char=171|NER=O
+
+# text = Në orën 20 koncerti u dha edhe në sallën e koncerteve të Qendrës së Kulturës në Katedralen Ortodokse .
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=3|end_char=7|NER=O
+3	20	20	NUM	_	NumType=Card	4	nummod	_	start_char=8|end_char=10|NER=O
+4	koncerti	koncert	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=11|end_char=19|NER=O
+5	u	u	PART	_	_	6	fixed	_	start_char=20|end_char=21|NER=O
+6	dha	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=22|end_char=25|NER=O
+7	edhe	edhe	PART	_	_	9	advmod:emph	_	start_char=26|end_char=30|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=31|end_char=33|NER=O
+9	sallën	sallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=34|end_char=40|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=41|end_char=42|NER=O
+11	koncerteve	koncert	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=43|end_char=53|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=54|end_char=56|NER=O
+13	Qendrës	Qendrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=57|end_char=64|NER=O
+14	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=65|end_char=67|NER=O
+15	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=68|end_char=76|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=77|end_char=79|NER=O
+17	Katedralen	Katedral	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=80|end_char=90|NER=O
+18	Ortodokse	Ortodoks	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=91|end_char=100|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	6	punct	_	start_char=101|end_char=102|SpacesAfter=\n|NER=O
+
+# text = " Jam shumë e lumtur që jam në Tiranë për të festuar Ditën Botërore të Muzikës , që e ka zanafillën në Francë , aty ku ka lindur festa e muzikës .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=5|NER=O
+3	shumë	shumë	ADV	_	AdvType=Deg	2	cop	_	start_char=6|end_char=11|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=12|end_char=13|NER=O
+5	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=14|end_char=20|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=21|end_char=23|NER=O
+7	jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	advcl	_	start_char=24|end_char=27|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=28|end_char=30|NER=O
+9	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=31|end_char=37|NER=B-VEND_0
+10	për	për	PART	_	_	12	fixed	_	start_char=38|end_char=41|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=42|end_char=44|NER=O
+12	festuar	festoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=45|end_char=52|NER=O
+13	Ditën	ditë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=53|end_char=58|NER=O
+14	Botërore	botëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=59|end_char=67|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=68|end_char=70|NER=O
+16	Muzikës	muzikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=71|end_char=78|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=79|end_char=80|NER=O
+18	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=81|end_char=83|NER=O
+19	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=84|end_char=85|NER=O
+20	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=86|end_char=88|NER=O
+21	zanafillën	zanafillë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=89|end_char=99|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=100|end_char=102|NER=O
+23	Francë	Francë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	start_char=103|end_char=109|SpaceAfter=No|NER=B-VEND_1
+24	,	,	PUNCT	_	_	25	punct	_	start_char=110|end_char=111|NER=O
+25	aty	aty	ADV	_	AdvType=Loc	28	advmod	_	start_char=112|end_char=115|NER=O
+26	ku	ku	ADV	_	AdvType=Loc	28	advmod	_	start_char=116|end_char=118|NER=O
+27	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=119|end_char=121|NER=O
+28	lindur	lindur	VERB	_	VerbForm=Part	20	advcl	_	start_char=122|end_char=128|NER=O
+29	festa	festë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	start_char=129|end_char=134|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=135|end_char=136|NER=O
+31	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=137|end_char=144|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	28	punct	_	start_char=145|end_char=146|NER=O
+
+# text = Jam e lumtur për projekin VIK , sepse bën që njerëzit e verbër të bashkohen me gjithë botën mbarë " , tha Mireille Loeffler .
+# sent_id = 5
+1	Jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=5|NER=O
+3	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=12|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=16|NER=O
+5	projekin	projek	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	advmod	_	start_char=17|end_char=25|NER=O
+6	VIK	VIK	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=26|end_char=29|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=30|end_char=31|NER=O
+8	sepse	sepse	SCONJ	_	_	9	mark	_	start_char=32|end_char=37|NER=O
+9	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=38|end_char=41|NER=O
+10	që	që	SCONJ	_	_	15	mark	_	start_char=42|end_char=44|NER=O
+11	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	start_char=45|end_char=53|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=54|end_char=55|NER=O
+13	verbër	verbër	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=56|end_char=62|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=63|end_char=65|NER=O
+15	bashkohen	bashkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	acl:relcl	_	start_char=66|end_char=75|NER=O
+16	me	me	ADP	_	Case=Acc	18	case	_	start_char=76|end_char=78|NER=O
+17	gjithë	gjithë	PRON	_	PronType=Ind	18	det	_	start_char=79|end_char=85|NER=O
+18	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	start_char=86|end_char=91|NER=O
+19	mbarë	mbarë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=92|end_char=97|SpaceAfter=No|NER=O
+20	"	"	PUNCT	_	_	18	punct	_	start_char=98|end_char=99|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	21	punct	_	start_char=100|end_char=101|NER=O
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	start_char=102|end_char=105|NER=O
+23	Mireille	Mireill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=106|end_char=114|NER=B-PER
+24	Loeffler	Loeffler	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	flat	_	start_char=115|end_char=123|SpaceAfter=No|NER=I-PER
+25	.	.	PUNCT	_	_	21	punct	_	start_char=124|end_char=125|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Magdalena Alla
+# sent_id = 6
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Magdalena	magdalenë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=20|NER=B-PER
+4	Alla	Alla	PROPN	_	Foreign=Yes	1	flat	_	start_char=21|end_char=25|SpacesAfter=\n|NER=I-PER
+

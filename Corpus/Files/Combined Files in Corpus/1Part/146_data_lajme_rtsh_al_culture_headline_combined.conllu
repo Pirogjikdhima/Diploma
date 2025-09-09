@@ -1,0 +1,119 @@
+# text = 20 / 12 / 2023 " Këndi i Radio Tiranës " është një tjetër risi që vjen së bashku me Festivalin e Këngës në RTSH .
+# sent_id = 0
+1	20	20	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	10	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	"	"	PUNCT	_	_	13	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Këndi	Këndi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=17|end_char=22|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=23|end_char=24|NER=O
+9	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=25|end_char=30|NER=O
+10	Tiranës	Tiranës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=31|end_char=38|NER=O
+11	"	"	PUNCT	_	_	15	punct	_	start_char=39|end_char=40|NER=O
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=41|end_char=46|NER=O
+13	një	një	DET	_	Definite=Ind	20	det	_	start_char=47|end_char=50|NER=O
+14	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	20	det	_	start_char=51|end_char=57|NER=O
+15	risi	risi	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	cop	_	start_char=58|end_char=62|NER=O
+16	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=63|end_char=65|NER=O
+17	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl:relcl	_	start_char=66|end_char=70|NER=O
+18	së	së	PART	_	_	24	det	_	start_char=71|end_char=73|NER=O
+19	bashku	bashku	ADV	_	AdvType=Man	22	obl	_	start_char=74|end_char=80|NER=O
+20	me	me	ADP	_	Case=Acc	26	case	_	start_char=81|end_char=83|NER=O
+21	Festivalin	Festival	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=84|end_char=94|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=95|end_char=96|NER=O
+23	Këngës	Këngë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=97|end_char=103|NER=O
+24	në	në	ADP	_	Case=Acc	30	case	_	start_char=104|end_char=106|NER=O
+25	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=107|end_char=111|SpaceAfter=No|NER=B-ORG
+26	.	.	PUNCT	_	_	17	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+
+# text = Ky emision do të shoqërojë në kohë reale të gjithë Festivalin duke marrë emocionet e këngëtarëve direkt pas përfundimit të përformancës së tyre .
+# sent_id = 1
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	emision	emisio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3|end_char=10|NER=O
+3	do	do	PART	_	_	5	fixed	_	start_char=11|end_char=13|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=14|end_char=16|NER=O
+5	shoqërojë	shoqëroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=26|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=29|NER=O
+7	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=30|end_char=34|NER=O
+8	reale	real	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=35|end_char=40|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=41|end_char=43|NER=O
+10	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	start_char=44|end_char=50|NER=O
+11	Festivalin	Festival	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=61|NER=B-EVENT
+12	duke	duke	PART	_	_	13	fixed	_	start_char=62|end_char=66|NER=O
+13	marrë	marr	VERB	_	VerbForm=Part	5	advmod	_	start_char=67|end_char=72|NER=O
+14	emocionet	emocion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=73|end_char=82|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=83|end_char=84|NER=O
+16	këngëtarëve	këngëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=85|end_char=96|NER=O
+17	direkt	direkt	ADV	_	AdvType=Man	19	advmod	_	start_char=97|end_char=103|NER=O
+18	pas	pas	ADP	_	Case=Abl	19	case	_	start_char=104|end_char=107|NER=O
+19	përfundimit	përfundim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=108|end_char=119|NER=O
+20	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=120|end_char=122|NER=O
+21	përformancës	përformancë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=123|end_char=135|NER=O
+22	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=136|end_char=138|NER=O
+23	tyre	tyre	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	amod:poss	_	start_char=139|end_char=143|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	13	punct	_	start_char=144|end_char=145|SpacesAfter=\n|NER=O
+
+# text = Në kanalin RTSH 24 " Këndi i Radio Tiranës " , natën e parë përcolli përshtypjet , reagimet por edhe dëshirat e pretentimet e këngëtarëve .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	kanalin	kanal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=3|end_char=10|NER=O
+3	RTSH	RTSH	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=11|end_char=15|NER=B-ORG
+4	24	24	NUM	_	NumType=Card	3	flat	_	start_char=16|end_char=18|NER=I-ORG
+5	"	"	PUNCT	_	_	6	punct	_	start_char=19|end_char=20|SpaceAfter=No|NER=O
+6	Këndi	Këndi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=21|end_char=26|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=27|end_char=28|NER=O
+8	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	compound	_	start_char=29|end_char=34|NER=O
+9	Tiranës	Tiranës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=35|end_char=42|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|NER=O
+12	natën	natë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=47|end_char=52|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=53|end_char=54|NER=O
+14	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=55|end_char=59|NER=O
+15	përcolli	përcoll	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=60|end_char=68|NER=O
+16	përshtypjet	përshtypje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=69|end_char=80|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=81|end_char=82|NER=O
+18	reagimet	reagim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	start_char=83|end_char=91|NER=O
+19	por	por	CCONJ	_	_	20	cc	_	start_char=92|end_char=95|NER=O
+20	edhe	edhe	CCONJ	_	_	20	mark	_	start_char=96|end_char=100|NER=O
+21	dëshirat	dëshirë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	conj	_	start_char=101|end_char=109|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	22	det:poss	_	start_char=110|end_char=111|NER=O
+23	pretentimet	pretentim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=112|end_char=123|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=124|end_char=125|NER=O
+25	këngëtarëve	këngëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=126|end_char=137|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	14	punct	_	start_char=138|end_char=139|SpacesAfter=\n|NER=O
+
+# text = Emisioni " Këndi i Radio Tiranës " do jetë live për të gjithë të apasionuarit e pas kuintave në të gjitha netet e Festivalit të 62 - të në RTSH .
+# sent_id = 3
+1	Emisioni	emision	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=0|end_char=8|NER=O
+2	"	"	PUNCT	_	_	3	punct	_	start_char=9|end_char=10|SpaceAfter=No|NER=O
+3	Këndi	Këndi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=11|end_char=16|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=17|end_char=18|NER=O
+5	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	compound	_	start_char=19|end_char=24|NER=O
+6	Tiranës	Tiranës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	start_char=25|end_char=32|NER=O
+7	"	"	PUNCT	_	_	5	punct	_	start_char=33|end_char=34|NER=O
+8	do	do	PART	_	_	8	fixed	_	start_char=35|end_char=37|NER=O
+9	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=42|NER=O
+10	live	live	PUNCT	_	_	8	cop	_	start_char=43|end_char=47|NER=O
+11	për	për	ADP	_	Case=Acc	14	case	_	start_char=48|end_char=51|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=52|end_char=54|NER=O
+13	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	14	nummod	_	start_char=55|end_char=61|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=62|end_char=64|NER=O
+15	apasionuarit	apasionuar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	8	advmod	_	start_char=65|end_char=77|NER=O
+16	e	e	CCONJ	_	_	17	cc	_	start_char=78|end_char=79|NER=O
+17	pas	pas	ADP	_	Case=Abl	17	case	_	start_char=80|end_char=83|NER=O
+18	kuintave	kuintë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	conj	_	start_char=84|end_char=92|NER=O
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=93|end_char=95|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=96|end_char=98|NER=O
+21	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	21	nummod	_	start_char=99|end_char=105|NER=O
+22	netet	netet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=106|end_char=111|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=112|end_char=113|NER=O
+24	Festivalit	festival	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=114|end_char=124|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=125|end_char=127|NER=O
+26	62	62	NUM	_	NumType=Card	23	amod	_	start_char=128|end_char=130|NER=O
+27	-	-	PUNCT	_	_	23	punct	_	start_char=131|end_char=132|NER=O
+28	të	62	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=133|end_char=135|NER=O
+29	në	në	ADP	_	Case=Acc	27	case	_	start_char=136|end_char=138|NER=O
+30	RTSH	RTSH	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	advmod	_	start_char=139|end_char=143|SpaceAfter=No|NER=B-ORG
+31	.	.	PUNCT	_	_	8	punct	_	start_char=144|end_char=145|SpacesAfter=\n|NER=O
+

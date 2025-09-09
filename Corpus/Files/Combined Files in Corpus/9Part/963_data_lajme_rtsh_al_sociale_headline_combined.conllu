@@ -1,0 +1,35 @@
+# text = 08 / 08 / 2023 Mjekët sjell në vëmëndje parashikimin e zymtë të OBSH sipas të cilit miopia do të jetë epidemia e viteve 2050 .
+# sent_id = 0
+1	08	08	NUM	_	NumType=Card	5	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	5	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	5	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	9	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	7	conj	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Mjekët	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	start_char=15|end_char=21|NER=O
+7	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=27|NER=O
+8	në	në	ADP	_	Case=Acc	4	case	_	start_char=28|end_char=30|NER=O
+9	vëmëndje	vëmëndje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=31|end_char=39|NER=O
+10	parashikimin	parashikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=40|end_char=52|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=53|end_char=54|NER=O
+12	zymtë	zymtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=55|end_char=60|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=61|end_char=63|NER=O
+14	OBSH	OBSH	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=64|end_char=68|NER=B-ORG
+15	sipas	sipas	ADP	_	Case=Abl	13	case	_	start_char=69|end_char=74|NER=O
+16	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=75|end_char=77|NER=O
+17	cilit	cili	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	16	obl	_	start_char=78|end_char=83|NER=O
+18	miopia	miopi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=84|end_char=90|NER=O
+19	do	do	PART	_	_	16	fixed	_	start_char=91|end_char=93|NER=O
+20	të	të	PART	_	_	16	fixed	_	start_char=94|end_char=96|NER=O
+21	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	start_char=97|end_char=101|NER=O
+22	epidemia	epidemi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=102|end_char=110|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=111|end_char=112|NER=O
+24	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=113|end_char=119|NER=O
+25	2050	2050	NUM	_	NumType=Card	19	amod:nummod	_	start_char=120|end_char=124|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	16	punct	_	start_char=125|end_char=126|SpacesAfter=\n|NER=O
+
+# text = Gazetare Sonila Mlloja
+# sent_id = 1
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=15|NER=B-PER
+3	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=16|end_char=22|SpacesAfter=\n|NER=I-PER
+

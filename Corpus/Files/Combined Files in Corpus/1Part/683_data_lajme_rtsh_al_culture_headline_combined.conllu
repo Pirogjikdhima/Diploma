@@ -1,0 +1,160 @@
+# text = 28 / 03 / 2023 David Hilowitz është kompozitor filmash dhe video lojërash me bazë në Filadelfia .
+# sent_id = 0
+1	28	28	NUM	_	NumType=Card	9	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	03	03	NUM	_	NumType=Card	7	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	9	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	9	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	David	David	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	11	flat	_	start_char=15|end_char=20|NER=B-PER
+7	Hilowitz	Hilowitz	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	12	flat	_	start_char=21|end_char=29|NER=I-PER
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=30|end_char=35|NER=O
+9	kompozitor	kompozitor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	cop	_	start_char=36|end_char=46|NER=O
+10	filmash	filmash	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=47|end_char=54|NER=O
+11	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=55|end_char=58|NER=O
+12	video	video	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	start_char=59|end_char=64|NER=O
+13	lojërash	lojë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=65|end_char=73|NER=O
+14	me	me	ADP	_	Case=Acc	21	case	_	start_char=74|end_char=76|NER=O
+15	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	advmod	_	start_char=77|end_char=81|NER=O
+16	në	në	ADP	_	Case=Acc	23	case	_	start_char=82|end_char=84|NER=O
+17	Filadelfia	Filadelfi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=85|end_char=95|SpaceAfter=No|NER=B-VEND_0
+18	.	.	PUNCT	_	_	14	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Ai krijon muzikë në disa zhanre si tradicionale kinematografike , elektronike dhe rock .
+# sent_id = 1
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=9|NER=O
+3	muzikë	muzikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=10|end_char=16|NER=O
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=17|end_char=19|NER=O
+5	disa	disa	PRON	_	PronType=Ind	6	nummod	_	start_char=20|end_char=24|NER=O
+6	zhanre	zhanr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	start_char=25|end_char=31|NER=O
+7	si	si	SCONJ	_	_	8	mark	_	start_char=32|end_char=34|NER=O
+8	tradicionale	tradicional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=35|end_char=47|NER=O
+9	kinematografike	kinematografik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=48|end_char=63|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|NER=O
+11	elektronike	elektronik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	start_char=66|end_char=77|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=78|end_char=81|NER=O
+13	rock	rock	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=82|end_char=86|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	2	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Së fundmi David Hilowitz në kanalin e tij në youtube ka hedhur një video dedikuar instrumentit tonë muzikor çiftelisë .
+# sent_id = 2
+1	Së	së	PART	_	_	2	det	_	start_char=0|end_char=2|NER=O
+2	fundmi	fundm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=3|end_char=9|NER=O
+3	David	David	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=10|end_char=15|NER=B-PER
+4	Hilowitz	Hilowitz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=16|end_char=24|NER=I-PER
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=25|end_char=27|NER=O
+6	kanalin	kanal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=28|end_char=35|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=37|NER=O
+8	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=38|end_char=41|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=42|end_char=44|NER=O
+10	youtube	youtub	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=45|end_char=52|NER=O
+11	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=53|end_char=55|NER=O
+12	hedhur	hedh	VERB	_	VerbForm=Part	0	root	_	start_char=56|end_char=62|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=63|end_char=66|NER=O
+14	video	video	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=67|end_char=72|NER=O
+15	dedikuar	dedikoj	VERB	_	VerbForm=Part	12	ccomp	_	start_char=73|end_char=81|NER=O
+16	instrumentit	instrument	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=82|end_char=94|NER=O
+17	tonë	jonë	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	amod	_	start_char=95|end_char=99|NER=O
+18	muzikor	muzikor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=100|end_char=107|NER=O
+19	çiftelisë	çifteli	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=108|end_char=117|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=118|end_char=119|SpacesAfter=\n|NER=O
+
+# text = Çiftelia , instrumenti mikrotonal më ndryshoi mënyrën se si unë mendoj për muzikën " .
+# sent_id = 3
+1	Çiftelia	Çifteli	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	3	punct	_	start_char=9|end_char=10|NER=O
+3	instrumenti	instrument	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=11|end_char=22|NER=O
+4	mikrotonal	mikrotonal	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=33|NER=O
+5	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	start_char=34|end_char=36|NER=O
+6	ndryshoi	ndryshoi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=37|end_char=45|NER=O
+7	mënyrën	mënyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=46|end_char=53|NER=O
+8	se	se	SCONJ	_	_	11	mark	_	start_char=54|end_char=56|NER=O
+9	si	si	SCONJ	_	_	11	mark	_	start_char=57|end_char=59|NER=O
+10	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	obj	_	start_char=60|end_char=63|NER=O
+11	mendoj	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	advcl	_	start_char=64|end_char=70|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=71|end_char=74|NER=O
+13	muzikën	muzikën	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=75|end_char=82|SpaceAfter=No|NER=O
+14	"	"	PUNCT	_	_	11	punct	_	start_char=83|end_char=84|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	6	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Në video David Hilowitz tregon se si e bleu çiftelinë në në dyqan antikuariat dhe më pas luajti me të duke e kombinuar me instrumente të tjera muzikore .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	video	video	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=3|end_char=8|NER=O
+3	David	David	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=9|end_char=14|NER=B-PER
+4	Hilowitz	Hilowitz	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=15|end_char=23|NER=I-PER
+5	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=30|NER=O
+6	se	se	SCONJ	_	_	9	mark	_	start_char=31|end_char=33|NER=O
+7	si	si	SCONJ	_	_	9	mark	_	start_char=34|end_char=36|NER=O
+8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=37|end_char=38|NER=O
+9	bleu	blej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	advcl	_	start_char=39|end_char=43|NER=O
+10	çiftelinë	çifteli	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=44|end_char=53|NER=O
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=57|end_char=59|NER=O
+13	dyqan	dyqa	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=60|end_char=65|NER=O
+14	antikuariat	antikuari	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=66|end_char=77|NER=O
+15	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=78|end_char=81|NER=O
+16	më	më	PART	_	_	17	mark	_	start_char=82|end_char=84|NER=O
+17	pas	pas	ADV	_	AdvType=Tim	18	advmod	_	start_char=85|end_char=88|NER=O
+18	luajti	luaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=89|end_char=95|NER=O
+19	me	me	ADP	_	Case=Acc	23	fixed	_	start_char=96|end_char=98|NER=O
+20	të	të	PART	_	_	23	fixed	_	start_char=99|end_char=101|NER=O
+21	duke	duke	PART	_	_	23	fixed	_	start_char=102|end_char=106|NER=O
+22	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=107|end_char=108|NER=O
+23	kombinuar	kombinoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=109|end_char=118|NER=O
+24	me	me	ADP	_	Case=Acc	25	case	_	start_char=119|end_char=121|NER=O
+25	instrumente	instrument	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	obl	_	start_char=122|end_char=133|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=134|end_char=136|NER=O
+27	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	25	amod	_	start_char=137|end_char=142|NER=O
+28	muzikore	muzikor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=143|end_char=151|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	23	punct	_	start_char=152|end_char=153|SpacesAfter=\n|NER=O
+
+# text = Çiftelia është një vegël muzikore kordofone me dy tela që luhet me pendë , ndryshe e njohur si karadyzen dhe tamërr .
+# sent_id = 5
+1	Çiftelia	Çifteli	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=8|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=14|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=15|end_char=18|NER=O
+4	vegël	vegël	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	cop	_	start_char=19|end_char=24|NER=O
+5	muzikore	muzikor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=25|end_char=33|NER=O
+6	kordofone	kordofon	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=34|end_char=43|NER=O
+7	me	me	ADP	_	Case=Acc	9	case	_	start_char=44|end_char=46|NER=O
+8	dy	dy	NUM	_	NumType=Card	9	nummod	_	start_char=47|end_char=49|NER=O
+9	tela	telë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=50|end_char=54|NER=O
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=55|end_char=57|NER=O
+11	luhet	luhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	acl:relcl	_	start_char=58|end_char=63|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=64|end_char=66|NER=O
+13	pendë	pendë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	start_char=67|end_char=72|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=73|end_char=74|NER=O
+15	ndryshe	ndryshe	ADV	_	AdvType=Man	17	advmod	_	start_char=75|end_char=82|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=83|end_char=84|NER=O
+17	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=85|end_char=91|NER=O
+18	si	si	SCONJ	_	_	19	mark	_	start_char=92|end_char=94|NER=O
+19	karadyzen	karadyz	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=95|end_char=104|NER=O
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=105|end_char=108|NER=O
+21	tamërr	tamërr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	conj	_	start_char=109|end_char=115|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	11	punct	_	start_char=116|end_char=117|NER=O
+
+# text = Luhet nga malësorët e Pukës , Mirditës , Lumës , Malësisë së Gjakovës , Kosovës dhe Malit të Zi Jugor .
+# sent_id = 6
+1	Luhet	Luhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=5|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=6|end_char=9|NER=O
+3	malësorët	malësor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	obl	_	start_char=10|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det:poss	_	start_char=20|end_char=21|NER=O
+5	Pukës	Pukë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=22|end_char=27|SpaceAfter=No|NER=B-VEND_0
+6	,	,	PUNCT	_	_	7	punct	_	start_char=28|end_char=29|NER=O
+7	Mirditës	mirditë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	appos	_	start_char=30|end_char=38|SpaceAfter=No|NER=B-VEND_0
+8	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+9	Lumës	Lumë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	list	_	start_char=41|end_char=46|SpaceAfter=No|NER=B-VEND_0
+10	,	,	PUNCT	_	_	11	punct	_	start_char=47|end_char=48|NER=O
+11	Malësisë	malësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	list	_	start_char=49|end_char=57|NER=O
+12	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=58|end_char=60|NER=O
+13	Gjakovës	Gjakovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=61|end_char=69|SpaceAfter=No|NER=B-VEND_0
+14	,	,	PUNCT	_	_	15	punct	_	start_char=70|end_char=71|NER=O
+15	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	list	_	start_char=72|end_char=79|NER=B-VEND_1
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=80|end_char=83|NER=O
+17	Malit	mal	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=84|end_char=89|NER=B-VEND_1
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=90|end_char=92|NER=I-VEND_1
+19	Zi	zi	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=93|end_char=95|NER=I-VEND_1
+20	Jugor	Jugor	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=96|end_char=101|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	1	punct	_	start_char=102|end_char=103|SpacesAfter=\n\n|NER=O
+

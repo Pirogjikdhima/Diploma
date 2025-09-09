@@ -1,0 +1,182 @@
+# text = Libri i Kopernikut mbi astronominë mund të arrijë të shitet deri në 2 .
+# sent_id = 0
+1	Libri	Libr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=6|end_char=7|NER=O
+3	Kopernikut	Kopernik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=18|NER=B-PER
+4	mbi	mbi	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=22|NER=O
+5	astronominë	astronomim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=23|end_char=34|NER=O
+6	mund	mund	AUX	_	_	8	aux	_	start_char=35|end_char=39|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=40|end_char=42|NER=O
+8	arrijë	arrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=49|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=50|end_char=52|NER=O
+10	shitet	shes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	ccomp	_	start_char=53|end_char=59|NER=O
+11	deri	deri	PART	_	_	14	case	_	start_char=60|end_char=64|NER=O
+12	në	në	ADP	_	Case=Acc	14	case	_	start_char=65|end_char=67|NER=O
+13	2	2	NUM	_	NumType=Card	15	nummod	_	start_char=68|end_char=69|NER=O
+14	.	.	PUNCT	_	_	15	punct	_	start_char=70|end_char=71|NER=O
+
+# text = 5 milionë dollarë 15 / 03 / 2023 Dorëshkrimi i rrallë besohet të jetë një nga 277 kopjet e njohura të librit të Kopernikut në mbarë botën .
+# sent_id = 1
+1	5	5	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	start_char=2|end_char=9|NER=O
+3	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	start_char=10|end_char=17|SpacesAfter=\n|NER=O
+4	15	15	NUM	_	NumType=Card	17	nummod	_	start_char=18|end_char=20|SpaceAfter=No|NER=B-DATE_0
+5	/	/	PUNCT	_	_	15	punct	_	start_char=21|end_char=22|SpaceAfter=No|NER=I-DATE_0
+6	03	03	NUM	_	NumType=Card	15	nmod	_	start_char=23|end_char=25|SpaceAfter=No|NER=I-DATE_0
+7	/	/	PUNCT	_	_	17	punct	_	start_char=26|end_char=27|SpaceAfter=No|NER=I-DATE_0
+8	2023	2023	NUM	_	NumType=Card	17	flat	_	start_char=28|end_char=32|SpaceAfter=No|NER=I-DATE_0
+9	Dorëshkrimi	dorëshkrim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	start_char=33|end_char=44|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=45|end_char=46|NER=O
+11	rrallë	rrallë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=47|end_char=53|NER=O
+12	besohet	besoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	conj	_	start_char=54|end_char=61|NER=O
+13	të	të	PART	_	_	26	fixed	_	start_char=62|end_char=64|NER=O
+14	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	ccomp	_	start_char=65|end_char=69|NER=O
+15	një	një	DET	_	Definite=Ind	30	det	_	start_char=70|end_char=73|NER=O
+16	nga	nga	ADP	_	Case=Nom	30	case	_	start_char=74|end_char=77|NER=O
+17	277	277	NUM	_	NumType=Card	30	nummod	_	start_char=78|end_char=81|NER=O
+18	kopjet	kopje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	26	advmod	_	start_char=82|end_char=88|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=89|end_char=90|NER=O
+20	njohura	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=91|end_char=98|NER=O
+21	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	34	det:poss	_	start_char=99|end_char=101|NER=O
+22	librit	libr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=102|end_char=108|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	36	det:poss	_	start_char=109|end_char=111|NER=O
+24	Kopernikut	Kopernik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=112|end_char=122|NER=B-PER
+25	në	në	ADP	_	Case=Acc	39	case	_	start_char=123|end_char=125|NER=O
+26	mbarë	mbarë	PRON	_	PronType=Ind	39	nummod	_	start_char=126|end_char=131|NER=O
+27	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=132|end_char=137|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	26	punct	_	start_char=138|end_char=139|SpacesAfter=\n|NER=O
+
+# text = Një botim i parë i veprës novatore të Nicolaus Copernicus , në të cilin astronomi polak propozoi që Toka të rrotullohej rreth diellit dhe jo anasjelltas , do të dalë në shitje muajin e ardhshëm .
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	botim	botim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	start_char=4|end_char=9|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=12|end_char=16|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=17|end_char=18|NER=O
+6	veprës	vepër	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=19|end_char=25|NER=O
+7	novatore	novator	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=26|end_char=34|NER=O
+8	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=35|end_char=37|NER=O
+9	Nicolaus	Nicolaus	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=46|NER=B-PER
+10	Copernicus	Copernicus	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=47|end_char=57|SpaceAfter=No|NER=I-PER
+11	,	,	PUNCT	_	_	14	punct	_	start_char=58|end_char=59|NER=O
+12	në	në	ADP	_	Case=Acc	15	case	_	start_char=60|end_char=62|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=63|end_char=65|NER=O
+14	cilin	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	start_char=66|end_char=71|NER=O
+15	astronomi	astronom	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=72|end_char=81|NER=O
+16	polak	polak	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=82|end_char=87|NER=O
+17	propozoi	propozoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=88|end_char=96|NER=O
+18	që	që	SCONJ	_	_	21	mark	_	start_char=97|end_char=99|NER=O
+19	Toka	tokë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=100|end_char=104|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=105|end_char=107|NER=O
+21	rrotullohej	rrotulloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	17	ccomp	_	start_char=108|end_char=119|NER=O
+22	rreth	rreth	ADP	_	Case=Abl	23	case	_	start_char=120|end_char=125|NER=O
+23	diellit	diell	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	start_char=126|end_char=133|NER=O
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=134|end_char=137|NER=O
+25	jo	jo	PART	_	_	26	mark	_	start_char=138|end_char=140|NER=O
+26	anasjelltas	anasjelltas	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	23	conj	_	start_char=141|end_char=152|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	30	punct	_	start_char=153|end_char=154|NER=O
+28	do	do	PART	_	_	30	fixed	_	start_char=155|end_char=157|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=158|end_char=160|NER=O
+30	dalë	dal	VERB	_	VerbForm=Part	21	advcl	_	start_char=161|end_char=165|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=166|end_char=168|NER=O
+32	shitje	shitje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obl	_	start_char=169|end_char=175|NER=O
+33	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	obj	_	start_char=176|end_char=182|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=183|end_char=184|NER=O
+35	ardhshëm	ardhshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=185|end_char=193|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	30	punct	_	start_char=194|end_char=195|NER=O
+
+# text = Ai pritet të arrijë në 2 .
+# sent_id = 3
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3|end_char=9|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=10|end_char=12|NER=O
+4	arrijë	arrij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=13|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=20|end_char=22|NER=O
+6	2	2	NUM	_	NumType=Card	7	nummod	_	start_char=23|end_char=24|NER=O
+7	.	.	PUNCT	_	_	7	punct	_	start_char=25|end_char=26|NER=O
+
+# text = 5 milionë dollarë .
+# sent_id = 4
+1	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	start_char=2|end_char=9|NER=O
+3	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	start_char=10|end_char=17|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	2	punct	_	start_char=18|end_char=19|SpacesAfter=\n|NER=O
+
+# text = I titulluar " De Revolutionibus orbium coelestium " , latinisht për " Mbi revolucionet e sferave qiellore " , Koperniku Tome u botua në 1543 dhe hapi rrugën për shkencëtarët e ardhshëm , duke përfshirë Galileo Galileo , dhe ndihmoi në revolucionarizimin e fushës së astronomisë .
+# sent_id = 5
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	titulluar	titulluar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=11|NER=O
+3	"	"	PUNCT	_	_	4	punct	_	start_char=12|end_char=13|SpaceAfter=No|NER=O
+4	De	De	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	start_char=14|end_char=16|NER=O
+5	Revolutionibus	Revolutionibib	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=17|end_char=31|NER=O
+6	orbium	orbium	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=32|end_char=38|NER=O
+7	coelestium	coelestium	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=39|end_char=49|SpaceAfter=No|NER=O
+8	"	"	PUNCT	_	_	7	punct	_	start_char=50|end_char=51|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=52|end_char=53|NER=O
+10	latinisht	latinisht	ADV	_	AdvType=Man	2	advmod	_	start_char=54|end_char=63|NER=O
+11	për	për	ADP	_	Case=Acc	14	case	_	start_char=64|end_char=67|NER=O
+12	"	"	PUNCT	_	_	14	punct	_	start_char=68|end_char=69|SpaceAfter=No|NER=O
+13	Mbi	mbi	ADP	_	Case=Acc	14	case	_	start_char=70|end_char=73|NER=O
+14	revolucionet	revolucion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=74|end_char=86|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det:poss	_	start_char=87|end_char=88|NER=O
+16	sferave	sfera	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=89|end_char=96|NER=O
+17	qiellore	qiellor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=97|end_char=105|SpaceAfter=No|NER=O
+18	"	"	PUNCT	_	_	16	punct	_	start_char=106|end_char=107|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=108|end_char=109|NER=O
+20	Koperniku	Kopernik	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	start_char=110|end_char=119|NER=B-PER
+21	Tome	Tome	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	20	flat	_	start_char=120|end_char=124|NER=I-PER
+22	u	u	PART	_	_	23	fixed	_	start_char=125|end_char=126|NER=O
+23	botua	botoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	acl	_	start_char=127|end_char=132|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=133|end_char=135|NER=B-DATE_0
+25	1543	1543	NUM	_	NumType=Card	23	advmod	_	start_char=136|end_char=140|NER=I-DATE_0
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=141|end_char=144|NER=O
+27	hapi	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	start_char=145|end_char=149|NER=O
+28	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	obj	_	start_char=150|end_char=156|NER=O
+29	për	për	ADP	_	Case=Acc	30	case	_	start_char=157|end_char=160|NER=O
+30	shkencëtarët	shkencëtar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	27	obl	_	start_char=161|end_char=173|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	32	det	_	start_char=174|end_char=175|NER=O
+32	ardhshëm	ardhshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	30	amod	_	start_char=176|end_char=184|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	35	punct	_	start_char=185|end_char=186|NER=O
+34	duke	duke	PART	_	_	35	fixed	_	start_char=187|end_char=191|NER=O
+35	përfshirë	përfshij	VERB	_	VerbForm=Part	27	advmod	_	start_char=192|end_char=201|NER=O
+36	Galileo	Galileo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=202|end_char=209|NER=B-PER
+37	Galileo	Galileo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=210|end_char=217|NER=I-PER
+38	,	,	PUNCT	_	_	39	punct	_	start_char=218|end_char=219|NER=O
+39	dhe	dhe	CCONJ	_	_	40	cc	_	start_char=220|end_char=223|NER=O
+40	ndihmoi	ndihmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	35	conj	_	start_char=224|end_char=231|NER=O
+41	në	në	ADP	_	Case=Acc	42	case	_	start_char=232|end_char=234|NER=O
+42	revolucionarizimin	revolucionarim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	40	obl	_	start_char=235|end_char=253|NER=O
+43	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	44	det:poss	_	start_char=254|end_char=255|NER=O
+44	fushës	fushë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	42	nmod	_	start_char=256|end_char=262|NER=O
+45	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	46	det:poss	_	start_char=263|end_char=265|NER=O
+46	astronomisë	astronomim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	44	nmod	_	start_char=266|end_char=277|SpaceAfter=No|NER=O
+47	.	.	PUNCT	_	_	40	punct	_	start_char=278|end_char=279|SpacesAfter=\n|NER=O
+
+# text = I vetmi ndryshim real i dukshëm lidhja me lëkurë , e cila Westergaard vlerëson se u zëvendësua diku gjatë shekullit të 18 - të .
+# sent_id = 6
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	vetmi	vetmi	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	det	_	start_char=2|end_char=7|NER=O
+3	ndryshim	ndryshim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=8|end_char=16|NER=O
+4	real	real	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=17|end_char=21|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=23|NER=O
+6	dukshëm	dukshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=24|end_char=31|NER=O
+7	lidhja	lidhjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=32|end_char=38|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=39|end_char=41|NER=O
+9	lëkurë	lëkurë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=42|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=51|end_char=52|NER=O
+12	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	start_char=53|end_char=57|NER=O
+13	Westergaard	Westergaard	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	start_char=58|end_char=69|NER=B-PER
+14	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl	_	start_char=70|end_char=78|NER=O
+15	se	se	SCONJ	_	_	17	mark	_	start_char=79|end_char=81|NER=O
+16	u	u	PART	_	_	17	fixed	_	start_char=82|end_char=83|NER=O
+17	zëvendësua	zëvendësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	14	advcl	_	start_char=84|end_char=94|NER=O
+18	diku	diku	ADV	_	AdvType=Loc	17	advmod	_	start_char=95|end_char=99|NER=O
+19	gjatë	gjatë	ADP	_	Case=Abl	20	case	_	start_char=100|end_char=105|NER=O
+20	shekullit	shekull	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=106|end_char=115|NER=O
+21	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=116|end_char=118|NER=O
+22	18	18	NUM	_	NumType=Card	20	amod	_	start_char=119|end_char=121|SpaceAfter=No|NER=O
+23	-	-	PUNCT	_	_	20	punct	_	start_char=122|end_char=123|SpaceAfter=No|NER=O
+24	të	18-të	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=124|end_char=126|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	17	punct	_	start_char=127|end_char=128|SpacesAfter=\n|NER=O
+

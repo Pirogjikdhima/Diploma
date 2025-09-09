@@ -1,0 +1,87 @@
+# text = UNICEF : Një në pesë fëmijë nuk ka ujë të mjaftueshëm Mbi 1 .
+# sent_id = 0
+1	UNICEF	UNICEF	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-ORG
+2	:	:	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	Një	një	DET	_	Definite=Ind	6	nsubj	_	start_char=9|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	4	case	_	start_char=13|end_char=15|NER=O
+5	pesë	pesë	NUM	_	NumType=Card	4	nummod	_	start_char=16|end_char=20|NER=O
+6	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=21|end_char=27|NER=O
+7	nuk	nuk	PART	_	Polarity=Neg	6	mark	_	start_char=28|end_char=31|NER=O
+8	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=34|NER=O
+9	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	start_char=35|end_char=38|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=39|end_char=41|NER=O
+11	mjaftueshëm	mjaftueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=42|end_char=53|SpacesAfter=\n|NER=O
+12	Mbi	mbi	ADP	_	Case=Acc	11	case	_	start_char=54|end_char=57|NER=O
+13	1	1	NUM	_	NumType=Card	13	nummod	_	start_char=58|end_char=59|NER=O
+14	.	.	PUNCT	_	_	13	punct	_	start_char=60|end_char=61|NER=O
+
+# text = 42 miliard njerëz në të gjithë botën , përfshirë 450 milionë fëmijë , jetojnë në zona ku uji është i cenueshëm , thuhet në në analizë të publikuar nga Fondacioni për Fëmijë i Kombeve të Bashkuara , UNICEF .
+# sent_id = 1
+1	42	42	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|NER=O
+2	miliard	miliard	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	start_char=3|end_char=10|NER=O
+3	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=11|end_char=17|NER=O
+4	në	në	ADP	_	Case=Acc	17	case	_	start_char=18|end_char=20|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=21|end_char=23|NER=O
+6	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	17	nummod	_	start_char=24|end_char=30|NER=O
+7	botën	botë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=31|end_char=36|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	19	punct	_	start_char=37|end_char=38|NER=O
+9	përfshirë	përfshij	VERB	_	VerbForm=Part	17	amod	_	start_char=39|end_char=48|NER=O
+10	450	450	NUM	_	NumType=Card	22	nummod	_	start_char=49|end_char=52|NER=O
+11	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	det	_	start_char=53|end_char=60|NER=O
+12	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	start_char=61|end_char=67|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	24	punct	_	start_char=68|end_char=69|NER=O
+14	jetojnë	jetoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=70|end_char=77|NER=O
+15	në	në	ADP	_	Case=Acc	26	case	_	start_char=78|end_char=80|NER=O
+16	zona	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	obl	_	start_char=81|end_char=85|NER=O
+17	ku	ku	ADV	_	AdvType=Loc	29	advmod	_	start_char=86|end_char=88|NER=O
+18	uji	ujë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	start_char=89|end_char=92|NER=O
+19	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=93|end_char=98|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=99|end_char=100|NER=O
+21	cenueshëm	cenueshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	cop	_	start_char=101|end_char=110|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	33	punct	_	start_char=111|end_char=112|NER=O
+23	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	29	conj	_	start_char=113|end_char=119|NER=O
+24	në	në	ADP	_	Case=Acc	36	case	_	start_char=120|end_char=122|NER=O
+25	në	në	ADP	_	Case=Acc	36	case	_	start_char=123|end_char=125|NER=O
+26	analizë	analizë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	obl	_	start_char=126|end_char=133|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	38	det	_	start_char=134|end_char=136|NER=O
+28	publikuar	publikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=137|end_char=146|NER=O
+29	nga	nga	ADP	_	Case=Nom	40	case	_	start_char=147|end_char=150|NER=O
+30	Fondacioni	Fondacion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=151|end_char=161|NER=B-ORG
+31	për	për	ADP	_	Case=Acc	42	case	_	start_char=162|end_char=165|NER=I-ORG
+32	Fëmijë	Fëmijë	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	nmod	_	start_char=166|end_char=172|NER=I-ORG
+33	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	44	det:poss	_	start_char=173|end_char=174|NER=I-ORG
+34	Kombeve	Kombe	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	42	nmod	_	start_char=175|end_char=182|NER=I-ORG
+35	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	46	det	_	start_char=183|end_char=185|NER=I-ORG
+36	Bashkuara	bashkuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	44	amod	_	start_char=186|end_char=195|SpaceAfter=No|NER=I-ORG
+37	,	,	PUNCT	_	_	48	punct	_	start_char=196|end_char=197|NER=O
+38	UNICEF	UNICEF	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	44	list	_	start_char=198|end_char=204|SpaceAfter=No|NER=B-ORG
+39	.	.	PUNCT	_	_	33	punct	_	start_char=205|end_char=206|SpacesAfter=\n|NER=O
+
+# text = Kërkesa për ujë vazhdon të rritet në mënyrë dramatike , ndërsa burimet janë duke u zvogëluar , thuhet në raportin e UNICEF - it .
+# sent_id = 2
+1	Kërkesa	kërkesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=8|end_char=11|NER=O
+3	ujë	ujë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=15|NER=O
+4	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=23|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=24|end_char=26|NER=O
+6	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=27|end_char=33|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=34|end_char=36|NER=O
+8	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=37|end_char=43|NER=O
+9	dramatike	dramatik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=44|end_char=53|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=54|end_char=55|NER=O
+11	ndërsa	ndërsa	CCONJ	_	_	13	cc	_	start_char=56|end_char=62|NER=O
+12	burimet	burim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	start_char=63|end_char=70|NER=O
+13	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=71|end_char=75|NER=O
+14	duke	duke	PART	_	_	16	fixed	_	start_char=76|end_char=80|NER=O
+15	u	u	PART	_	_	16	fixed	_	start_char=81|end_char=82|NER=O
+16	zvogëluar	zvogëloj	VERB	_	VerbForm=Part	13	advmod	_	start_char=83|end_char=92|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=93|end_char=94|NER=O
+18	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	conj	_	start_char=95|end_char=101|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=102|end_char=104|NER=O
+20	raportin	raport	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=105|end_char=113|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=114|end_char=115|NER=O
+22	UNICEF	UNICEF	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=116|end_char=122|SpaceAfter=No|NER=B-ORG
+23	-	-	PUNCT	_	_	20	punct	_	start_char=123|end_char=124|SpaceAfter=No|NER=B-ORG
+24	it	UNICEF	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=125|end_char=127|SpaceAfter=No|NER=B-ORG
+25	.	.	PUNCT	_	_	18	punct	_	start_char=128|end_char=129|SpacesAfter=\n|NER=O
+

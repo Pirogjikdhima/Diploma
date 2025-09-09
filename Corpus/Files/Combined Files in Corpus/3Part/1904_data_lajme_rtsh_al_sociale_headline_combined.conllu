@@ -1,0 +1,61 @@
+# text = Aktualisht në Shqipëri janë 865 qytetarë aktivë me COVID - 19 , 9 prej të cilëve po marrin trajnim në spital .
+# sent_id = 0
+1	Aktualisht	aktualisht	ADV	_	AdvType=Man	4	advmod	_	start_char=0|end_char=10|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=11|end_char=13|NER=O
+3	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=14|end_char=22|NER=B-VEND_1
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=27|NER=O
+5	865	865	NUM	_	NumType=Card	6	nummod	_	start_char=28|end_char=31|NER=O
+6	qytetarë	qytetar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	cop	_	start_char=32|end_char=40|NER=O
+7	aktivë	aktivë	ADV	_	AdvType=Man	6	amod	_	start_char=41|end_char=47|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=48|end_char=50|NER=O
+9	COVID	COVID-19	PROPN	_	_	6	nmod	_	start_char=51|end_char=56|SpaceAfter=No|NER=O
+10	-	-	PUNCT	_	_	6	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+11	19	19	NUM	_	NumType=Card	6	nmod	_	start_char=59|end_char=61|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	11	punct	_	start_char=62|end_char=63|NER=O
+13	9	9	NUM	_	NumType=Card	14	nummod	_	start_char=64|end_char=65|NER=O
+14	prej	prej	ADP	_	Case=Abl	14	case	_	start_char=66|end_char=70|NER=O
+15	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=71|end_char=73|NER=O
+16	cilëve	cili	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	16	obl	_	start_char=74|end_char=80|NER=O
+17	po	po	PART	_	_	16	mark	_	start_char=81|end_char=83|NER=O
+18	marrin	marr	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	advcl	_	start_char=84|end_char=90|NER=O
+19	trajnim	trajnim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=91|end_char=98|NER=O
+20	në	në	ADP	_	Case=Acc	19	case	_	start_char=99|end_char=101|NER=O
+21	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	start_char=102|end_char=108|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	16	punct	_	start_char=109|end_char=110|NER=O
+
+# text = Ministria e Shëndetësisë i bën thirrje qytetarëve të mos neglizhojnë vaksinimin anticovid , i cili kryhet në qendrat shëndetësore në të gjithë vendin .
+# sent_id = 1
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|NER=O
+4	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=25|end_char=26|NER=O
+5	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=30|NER=O
+6	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=31|end_char=38|NER=O
+7	qytetarëve	qytetar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=39|end_char=49|NER=O
+8	të	të	PART	_	_	10	fixed	_	start_char=50|end_char=52|NER=O
+9	mos	mos	PART	_	_	10	mark	_	start_char=53|end_char=56|NER=O
+10	neglizhojnë	neglizhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=57|end_char=68|NER=O
+11	vaksinimin	vaksinim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=69|end_char=79|NER=O
+12	anticovid	anticovid	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=80|end_char=89|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=90|end_char=91|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=92|end_char=93|NER=O
+15	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	start_char=94|end_char=98|NER=O
+16	kryhet	kryhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	acl	_	start_char=99|end_char=105|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=106|end_char=108|NER=O
+18	qendrat	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obl	_	start_char=109|end_char=116|NER=O
+19	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=117|end_char=129|NER=O
+20	në	në	ADP	_	Case=Acc	23	case	_	start_char=130|end_char=132|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=133|end_char=135|NER=O
+22	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	start_char=136|end_char=142|NER=O
+23	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=143|end_char=149|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	16	punct	_	start_char=150|end_char=151|SpacesAfter=\n|NER=O
+
+# text = Statistika ( 19 shtator 2022 )
+# sent_id = 2
+1	Statistika	statistikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=10|NER=O
+2	(	(	PUNCT	_	_	3	punct	_	start_char=11|end_char=12|SpaceAfter=No|NER=O
+3	19	19	NUM	_	NumType=Card	4	nummod	_	start_char=13|end_char=15|NER=B-DATE_0
+4	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=23|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	4	amod:nummod	_	start_char=24|end_char=28|SpaceAfter=No|NER=I-DATE_0
+6	)	)	PUNCT	_	_	1	punct	_	start_char=29|end_char=30|SpacesAfter=\n|NER=O
+

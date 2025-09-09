@@ -1,0 +1,135 @@
+# text = 09 / 12 / 2023 840 biznese fasone rrezikojnë falimentin , dhe afro 75 mijë persona rrezikojnë humbjen e vendit të punës .
+# sent_id = 0
+1	09	09	NUM	_	NumType=Card	10	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	/	/	PUNCT	_	_	10	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=O
+3	12	12	NUM	_	NumType=Card	10	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=O
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=O
+5	2023	2023	NUM	_	NumType=Card	10	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=O
+6	840	840	NUM	_	NumType=Card	15	nummod	_	start_char=15|end_char=18|NER=O
+7	biznese	biznes	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=19|end_char=26|NER=O
+8	fasone	fason	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=27|end_char=33|NER=O
+9	rrezikojnë	rrezikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=34|end_char=44|NER=O
+10	falimentin	faliment	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=45|end_char=55|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	20	punct	_	start_char=56|end_char=57|NER=O
+12	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=58|end_char=61|NER=O
+13	afro	afro	NUM	_	NumType=Card	24	nummod	_	start_char=62|end_char=66|NER=O
+14	75	75	NUM	_	NumType=Card	24	nummod	_	start_char=67|end_char=69|NER=O
+15	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	24	det	_	start_char=70|end_char=74|NER=O
+16	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	obj	_	start_char=75|end_char=82|NER=O
+17	rrezikojnë	rrezikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=83|end_char=93|NER=O
+18	humbjen	humbje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=94|end_char=101|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=102|end_char=103|NER=O
+20	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	start_char=104|end_char=110|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=111|end_char=113|NER=O
+22	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=114|end_char=119|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	25	punct	_	start_char=120|end_char=121|NER=O
+
+# text = Me këtë shqetësim të artikuluar që në fillim të vitit , por pa gjetur zgjidhje , përfaqësues të këtij biznesi kanë nisur një sërë takimesh .
+# sent_id = 1
+1	Me	me	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	shqetësim	shqetësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=8|end_char=17|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=18|end_char=20|NER=O
+5	artikuluar	artikuluar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=21|end_char=31|NER=O
+6	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=32|end_char=34|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=35|end_char=37|NER=O
+8	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=38|end_char=44|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=45|end_char=47|NER=O
+10	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=48|end_char=53|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=54|end_char=55|NER=O
+12	por	por	CCONJ	_	_	14	cc	_	start_char=56|end_char=59|NER=O
+13	pa	pa	PART	_	_	14	fixed	_	start_char=60|end_char=62|NER=O
+14	gjetur	gjet	VERB	_	VerbForm=Part	22	advcl	_	start_char=63|end_char=69|NER=O
+15	zgjidhje	zgjidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=70|end_char=78|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=79|end_char=80|NER=O
+17	përfaqësues	përfaqësues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=81|end_char=92|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=93|end_char=95|NER=O
+19	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=96|end_char=101|NER=O
+20	biznesi	biznes	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=102|end_char=109|NER=O
+21	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=110|end_char=114|NER=O
+22	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=115|end_char=120|NER=O
+23	një	një	DET	_	Definite=Ind	25	det	_	start_char=121|end_char=124|NER=O
+24	sërë	sërë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	det	_	start_char=125|end_char=129|NER=O
+25	takimesh	takimesh	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	22	obj	_	start_char=130|end_char=138|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	22	punct	_	start_char=139|end_char=140|NER=O
+
+# text = Sot ata ishin në Durrës : Për shkak të kursit të këmbimit valutor , sipas shifrave që ka publikuar shoqata e fasonëve të Shqipërisë eksportet e tyre anë shënuar rënie të ndjeshme dhe e tyre në mars të këtij viti eksportet ranë në 11 .
+# sent_id = 2
+1	Sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=0|end_char=3|NER=O
+2	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=4|end_char=7|NER=O
+3	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=8|end_char=13|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=14|end_char=16|NER=O
+5	Durrës	Durrë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=17|end_char=23|SpaceAfter=No|NER=B-VEND_0
+6	:	:	PUNCT	_	_	3	punct	_	start_char=24|end_char=25|SpacesAfter=\n|NER=O
+7	Për	për	ADP	_	Case=Acc	2	case	_	start_char=26|end_char=29|NER=O
+8	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=30|end_char=35|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=36|end_char=38|NER=O
+10	kursit	kurs	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=39|end_char=45|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=46|end_char=48|NER=O
+12	këmbimit	këmbim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=49|end_char=57|NER=O
+13	valutor	valutor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=58|end_char=65|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	10	punct	_	start_char=66|end_char=67|NER=O
+15	sipas	sipas	ADP	_	Case=Abl	10	case	_	start_char=68|end_char=73|NER=O
+16	shifrave	shifrë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=74|end_char=82|NER=O
+17	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=83|end_char=85|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=86|end_char=88|NER=O
+19	publikuar	publikoj	VERB	_	VerbForm=Part	10	acl:relcl	_	start_char=89|end_char=98|NER=O
+20	shoqata	shoqatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=99|end_char=106|NER=O
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=107|end_char=108|NER=O
+22	fasonëve	fasonë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=109|end_char=117|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=118|end_char=120|NER=O
+24	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=121|end_char=131|NER=B-VEND_1
+25	eksportet	eksport	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=132|end_char=141|NER=O
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=142|end_char=143|NER=O
+27	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=144|end_char=148|NER=O
+28	anë	anë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=149|end_char=152|NER=O
+29	shënuar	shënoj	VERB	_	VerbForm=Part	0	root	_	start_char=153|end_char=160|NER=O
+30	rënie	rënie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=161|end_char=166|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=167|end_char=169|NER=O
+32	ndjeshme	ndjeshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=170|end_char=178|NER=O
+33	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=179|end_char=182|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=183|end_char=184|NER=O
+35	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	conj	_	start_char=185|end_char=189|NER=O
+36	në	në	ADP	_	Case=Acc	31	case	_	start_char=190|end_char=192|NER=O
+37	mars	mars	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	advmod	_	start_char=193|end_char=197|NER=O
+38	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=198|end_char=200|NER=O
+39	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	34	det	_	start_char=201|end_char=206|NER=O
+40	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	start_char=207|end_char=211|NER=O
+41	eksportet	eksport	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	34	nmod	_	start_char=212|end_char=221|NER=O
+42	ranë	raj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	23	conj	_	start_char=222|end_char=226|NER=O
+43	në	në	ADP	_	Case=Acc	39	case	_	start_char=227|end_char=229|NER=O
+44	11	11	NUM	_	NumType=Card	39	nummod	_	start_char=230|end_char=232|NER=O
+45	.	.	PUNCT	_	_	39	punct	_	start_char=233|end_char=234|NER=O
+
+# text = 7 përqind , në prill 19 , 9 dhe në gusht arriti rënien më të madhe me 21 , 9 përqind .
+# sent_id = 3
+1	7	7	NUM	_	NumType=Card	39	nummod	_	start_char=0|end_char=1|NER=O
+2	përqind	përqind	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	36	obl	_	start_char=2|end_char=9|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	42	punct	_	start_char=10|end_char=11|NER=O
+4	në	në	ADP	_	Case=Acc	42	case	_	start_char=12|end_char=14|NER=O
+5	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	36	advmod	_	start_char=15|end_char=20|NER=O
+6	19	19	NUM	_	NumType=Card	42	amod:nummod	_	start_char=21|end_char=23|NER=O
+7	,	,	PUNCT	_	_	42	punct	_	start_char=24|end_char=25|NER=O
+8	9	9	NUM	_	NumType=Card	42	amod:nummod	_	start_char=26|end_char=27|NER=O
+9	dhe	dhe	CCONJ	_	_	47	cc	_	start_char=28|end_char=31|NER=O
+10	në	në	ADP	_	Case=Acc	46	case	_	start_char=32|end_char=34|NER=O
+11	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	47	advmod	_	start_char=35|end_char=40|NER=O
+12	arriti	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	36	conj	_	start_char=41|end_char=47|NER=O
+13	rënien	rënie	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	47	obj	_	start_char=48|end_char=54|NER=O
+14	më	më	PART	_	_	51	mark	_	start_char=55|end_char=57|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	51	det	_	start_char=58|end_char=60|NER=O
+16	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	start_char=61|end_char=66|NER=O
+17	me	me	ADP	_	Case=Acc	54	case	_	start_char=67|end_char=69|NER=O
+18	21	21	NUM	_	NumType=Card	54	nummod	_	start_char=70|end_char=72|NER=O
+19	,	,	PUNCT	_	_	54	punct	_	start_char=73|end_char=74|NER=O
+20	9	9	NUM	_	NumType=Card	54	nummod	_	start_char=75|end_char=76|NER=O
+21	përqind	përqind	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	47	advmod	_	start_char=77|end_char=84|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	47	punct	_	start_char=85|end_char=86|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Nermin Spahiu
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Nermin	Nerm	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Spahiu	Spahi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

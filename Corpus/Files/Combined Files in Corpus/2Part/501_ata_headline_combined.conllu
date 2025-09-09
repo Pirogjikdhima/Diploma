@@ -1,0 +1,43 @@
+# text = " Miratimi u arrit pas shqyrtimit të kujdesshëm .
+# sent_id = 0
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	Miratimi	Miratim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2|end_char=10|NER=O
+3	u	u	PART	_	_	3	fixed	_	start_char=11|end_char=12|NER=O
+4	arrit	arr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=13|end_char=18|NER=O
+5	pas	pas	ADP	_	Case=Abl	5	case	_	start_char=19|end_char=22|NER=O
+6	shqyrtimit	shqyrtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=23|end_char=33|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=34|end_char=36|NER=O
+8	kujdesshëm	kujdesshëm	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=37|end_char=47|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=48|end_char=49|NER=O
+
+# text = BE - ja ka vënë nën vëzhgim ndihmën për palestinezët pas sulmeve të 7 tetorit nga Hamas nga Rripi i Gazës .
+# sent_id = 1
+1	BE	BE-së	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-ORG
+2	-	-	PUNCT	_	_	22	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=B-ORG
+3	ja	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=5|end_char=7|NER=B-ORG
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=10|NER=O
+5	vënë	vëj	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=15|NER=O
+6	nën	nën	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=19|NER=O
+7	vëzhgim	vëzhgim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=20|end_char=27|NER=O
+8	ndihmën	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=28|end_char=35|NER=O
+9	për	për	ADP	_	Case=Acc	8	case	_	start_char=36|end_char=39|NER=O
+10	palestinezët	palestinezë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	advmod	_	start_char=40|end_char=52|NER=O
+11	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=53|end_char=56|NER=O
+12	sulmeve	sulme	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=57|end_char=64|NER=O
+13	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=65|end_char=67|NER=O
+14	7	7	NUM	_	NumType=Card	13	nummod	_	start_char=68|end_char=69|NER=B-DATE_0
+15	tetorit	tetor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=70|end_char=77|NER=I-DATE_0
+16	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=78|end_char=81|NER=O
+17	Hamas	Hamas	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=82|end_char=87|NER=B-ORG
+18	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=88|end_char=91|NER=O
+19	Rripi	Rrip	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=92|end_char=97|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=98|end_char=99|NER=O
+21	Gazës	Gazë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=100|end_char=105|SpaceAfter=No|NER=B-VEND_0
+22	.	.	PUNCT	_	_	3	punct	_	start_char=106|end_char=107|NER=O
+
+# text = / os /
+# sent_id = 2
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	os	os	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=4|SpacesAfter=\n\n\n|NER=O
+3	/	/	PUNCT	_	_	0	punct	_	start_char=5|end_char=6|SpacesAfter=\n\n\n|NER=O
+

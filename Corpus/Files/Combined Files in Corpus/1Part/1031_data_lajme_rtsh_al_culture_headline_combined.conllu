@@ -1,0 +1,199 @@
+# text = Korçë , Festivali i " Filmit të Shkurtër " Nga 700 filma pretendentë për të konkuruar në " Korça Short Film Festival .
+# sent_id = 0
+1	Korçë	Korçë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	3	punct	_	start_char=6|end_char=7|NER=O
+3	Festivali	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=8|end_char=17|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=18|end_char=19|NER=O
+5	"	"	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|SpaceAfter=No|NER=O
+6	Filmit	Film	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	compound	_	start_char=22|end_char=28|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=29|end_char=31|NER=O
+8	Shkurtër	Shkurtër	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	6	compound	_	start_char=32|end_char=40|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	11	punct	_	start_char=41|end_char=42|SpacesAfter=\n|NER=O
+10	Nga	nga	ADP	_	Case=Nom	3	case	_	start_char=43|end_char=46|NER=O
+11	700	700	NUM	_	NumType=Card	3	nummod	_	start_char=47|end_char=50|NER=O
+12	filma	film	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	17	advmod	_	start_char=51|end_char=56|NER=O
+13	pretendentë	pretendentë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	start_char=57|end_char=68|NER=O
+14	për	për	PART	_	_	7	fixed	_	start_char=69|end_char=72|NER=O
+15	të	të	PART	_	_	7	fixed	_	start_char=73|end_char=75|NER=O
+16	konkuruar	konkuroj	VERB	_	VerbForm=Part	3	advmod	_	start_char=76|end_char=85|NER=O
+17	në	në	ADP	_	Case=Acc	10	case	_	start_char=86|end_char=88|NER=O
+18	"	"	PUNCT	_	_	10	punct	_	start_char=89|end_char=90|SpaceAfter=No|NER=O
+19	Korça	Korçë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=91|end_char=96|NER=O
+20	Short	Short	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=97|end_char=102|NER=O
+21	Film	Film	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	flat	_	start_char=103|end_char=107|NER=O
+22	Festival	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=108|end_char=116|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	12	punct	_	start_char=117|end_char=118|SpaceAfter=No|NER=O
+
+# text = " , u përzgjodhën 31 , nga 20 vende të botës .
+# sent_id = 1
+1	"	"	PUNCT	_	_	13	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	17	punct	_	start_char=2|end_char=3|NER=O
+3	u	u	PART	_	_	17	fixed	_	start_char=4|end_char=5|NER=O
+4	përzgjodhën	përzgjodhëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=6|end_char=17|NER=O
+5	31	31	NUM	_	NumType=Card	17	advmod	_	start_char=18|end_char=20|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	22	punct	_	start_char=21|end_char=22|NER=O
+7	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=23|end_char=26|NER=O
+8	20	20	NUM	_	NumType=Card	22	nummod	_	start_char=27|end_char=29|NER=O
+9	vende	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	17	advmod	_	start_char=30|end_char=35|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=36|end_char=38|NER=O
+11	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=39|end_char=44|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	17	punct	_	start_char=45|end_char=46|NER=O
+
+# text = Për katër netë u shfaqën për publikun korçar , në mjediset e Muzeut Arkeologjik dhe në Teatrin e Korçës .
+# sent_id = 2
+1	Për	për	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=3|NER=O
+2	katër	katër	NUM	_	NumType=Card	3	nummod	_	start_char=4|end_char=9|NER=O
+3	netë	netë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=10|end_char=14|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=15|end_char=16|NER=O
+5	shfaqën	shfaq	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=17|end_char=24|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=28|NER=O
+7	publikun	publik	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	start_char=29|end_char=37|NER=O
+8	korçar	korçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=38|end_char=44|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	mjediset	mjedis	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=50|end_char=58|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=59|end_char=60|NER=O
+13	Muzeut	Muze	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=61|end_char=67|NER=O
+14	Arkeologjik	Arkeologjik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=68|end_char=79|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=80|end_char=83|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=84|end_char=86|NER=O
+17	Teatrin	Teatr	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	start_char=87|end_char=94|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=95|end_char=96|NER=O
+19	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=97|end_char=103|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	5	punct	_	start_char=104|end_char=105|NER=O
+
+# text = Për specialistë të kinematografisë emëruesi i përbashkët i të gjithë filmave është cilësia e tyre .
+# sent_id = 3
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	specialistë	specialistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=4|end_char=15|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=16|end_char=18|NER=O
+4	kinematografisë	kinematografifi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=19|end_char=34|NER=O
+5	emëruesi	emërues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=35|end_char=43|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=44|end_char=45|NER=O
+7	përbashkët	përbashkët	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=46|end_char=56|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=57|end_char=58|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=59|end_char=61|NER=O
+10	gjithë	gjithë	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	start_char=62|end_char=68|NER=O
+11	filmave	film	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=69|end_char=76|NER=O
+12	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=77|end_char=82|NER=O
+13	cilësia	cilësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	cop	_	start_char=83|end_char=90|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=91|end_char=92|NER=O
+15	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	amod:poss	_	start_char=93|end_char=97|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=98|end_char=99|NER=O
+
+# text = Natën e fundit u shpërndanë edhe 6 çmime .
+# sent_id = 4
+1	Natën	natë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=8|end_char=14|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=15|end_char=16|NER=O
+5	shpërndanë	shpërndaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=17|end_char=27|NER=O
+6	edhe	edhe	PART	_	_	8	cc	_	start_char=28|end_char=32|NER=O
+7	6	6	NUM	_	NumType=Card	8	nummod	_	start_char=33|end_char=34|NER=O
+8	çmime	çmim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=35|end_char=40|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	5	punct	_	start_char=41|end_char=42|NER=O
+
+# text = Çmimi i audiencës u fitua nga filmi " The letter room " e Elvira Lind nga Shtetet e Bashkuara të Amerikës .
+# sent_id = 5
+1	Çmimi	çmim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	audiencës	audiencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=17|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=18|end_char=19|NER=O
+5	fitua	fitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=20|end_char=25|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=26|end_char=29|NER=O
+7	filmi	film	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	start_char=30|end_char=35|NER=O
+8	"	"	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|SpaceAfter=No|NER=O
+9	The	The	PROPN	_	Foreign=Yes	7	appos	_	start_char=38|end_char=41|NER=O
+10	letter	letter	PROPN	_	Foreign=Yes	9	flat	_	start_char=42|end_char=48|NER=O
+11	room	roomë	PROPN	_	Case=Nom|Foreign=Yes	10	flat	_	start_char=49|end_char=53|NER=O
+12	"	"	PUNCT	_	_	10	punct	_	start_char=54|end_char=55|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=56|end_char=57|NER=O
+14	Elvira	Elvirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=58|end_char=64|NER=B-PER
+15	Lind	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=65|end_char=69|NER=I-PER
+16	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=70|end_char=73|NER=O
+17	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	start_char=74|end_char=81|NER=B-VEND_1
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=82|end_char=83|NER=I-VEND_1
+19	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=84|end_char=93|NER=I-VEND_1
+20	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=94|end_char=96|NER=I-VEND_1
+21	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=97|end_char=105|SpaceAfter=No|NER=I-VEND_1
+22	.	.	PUNCT	_	_	14	punct	_	start_char=106|end_char=107|NER=O
+
+# text = Filmi më i mirë kombëtar me metrazh të shkurtër u vlerësua ai Eneos Çarkës me titull ' Where are you now " .
+# sent_id = 6
+1	Filmi	Film	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=0|end_char=5|NER=O
+2	më	më	PART	_	_	4	mark	_	start_char=6|end_char=8|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=10|NER=O
+4	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=15|NER=O
+5	kombëtar	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=16|end_char=24|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=27|NER=O
+7	metrazh	metrazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=28|end_char=35|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=36|end_char=38|NER=O
+9	shkurtër	shkurtër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=39|end_char=47|NER=O
+10	u	u	PART	_	_	11	fixed	_	start_char=48|end_char=49|NER=O
+11	vlerësua	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=50|end_char=58|NER=O
+12	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	det	_	start_char=59|end_char=61|NER=O
+13	Eneos	Eneos	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=62|end_char=67|NER=B-PER
+14	Çarkës	Çarkë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=68|end_char=74|NER=I-PER
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=75|end_char=77|NER=O
+16	titull	titull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=78|end_char=84|NER=O
+17	'	'	PUNCT	_	_	16	punct	_	start_char=85|end_char=86|NER=O
+18	Where	Where	ADV	_	AdvType=Man	16	amod:nummod	_	start_char=87|end_char=92|NER=O
+19	are	are	PROPN	_	Foreign=Yes	16	appos	_	start_char=93|end_char=96|NER=O
+20	you	you	PUNCT	_	_	18	flat	_	start_char=97|end_char=100|NER=O
+21	now	now	X	_	Abbr=Yes	19	flat:name	_	start_char=101|end_char=104|SpaceAfter=No|NER=O
+22	"	"	PUNCT	_	_	19	punct	_	start_char=105|end_char=106|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	11	punct	_	start_char=107|end_char=108|NER=O
+
+# text = Ndërkohë që çmimin e filmit më të mirë me metrazh të shkurtër e fitoi Elena Kairyte nga Lituania me filmin " The Little Moon " .
+# sent_id = 7
+1	Ndërkohë	ndërkohë	ADV	_	AdvType=Tim	14	advmod	_	start_char=0|end_char=8|NER=O
+2	që	që	SCONJ	_	_	3	mark	_	start_char=9|end_char=11|NER=O
+3	çmimin	çmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=12|end_char=18|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	filmit	film	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=21|end_char=27|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=28|end_char=30|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=31|end_char=33|NER=O
+8	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=34|end_char=38|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=41|NER=O
+10	metrazh	metrazh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=42|end_char=49|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=52|NER=O
+12	shkurtër	shkurtër	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=53|end_char=61|NER=O
+13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	cc	_	start_char=62|end_char=63|NER=O
+14	fitoi	fitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=64|end_char=69|NER=O
+15	Elena	Elenë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=70|end_char=75|NER=B-PER
+16	Kairyte	Kairyt	PROPN	_	Foreign=Yes	15	flat	_	start_char=76|end_char=83|NER=I-PER
+17	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=84|end_char=87|NER=O
+18	Lituania	Lituani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	start_char=88|end_char=96|NER=B-VEND_1
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=97|end_char=99|NER=O
+20	filmin	film	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=100|end_char=106|NER=O
+21	"	"	PUNCT	_	_	22	punct	_	start_char=107|end_char=108|SpaceAfter=No|NER=O
+22	The	The	PROPN	_	Foreign=Yes	20	appos	_	start_char=109|end_char=112|NER=O
+23	Little	Little	PROPN	_	Foreign=Yes	22	flat	_	start_char=113|end_char=119|NER=O
+24	Moon	Moon	PROPN	_	Foreign=Yes	23	flat	_	start_char=120|end_char=124|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	23	punct	_	start_char=125|end_char=126|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	14	punct	_	start_char=127|end_char=128|NER=O
+
+# text = Ky festival u mbështet nga Qendra Kombëtare e Kinematografisë dhe Ministria e Kulturës , bashkia Korcë , Teatri dhe Muzeu Arkeologjik
+# sent_id = 8
+1	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=2|NER=O
+2	festival	festival	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	start_char=3|end_char=11|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=12|end_char=13|NER=O
+4	mbështet	mbështes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=14|end_char=22|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=23|end_char=26|NER=O
+6	Qendra	qendër	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=27|end_char=33|NER=B-ORG
+7	Kombëtare	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=34|end_char=43|NER=I-ORG
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=44|end_char=45|NER=I-ORG
+9	Kinematografisë	Kinematogafifi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=46|end_char=61|NER=I-ORG
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=62|end_char=65|NER=O
+11	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=66|end_char=75|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=76|end_char=77|NER=O
+13	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=78|end_char=86|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=87|end_char=88|NER=O
+15	bashkia	bashki	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	list	_	start_char=89|end_char=96|NER=O
+16	Korcë	Korcë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	appos	_	start_char=97|end_char=102|SpaceAfter=No|NER=B-VEND_0
+17	,	,	PUNCT	_	_	18	punct	_	start_char=103|end_char=104|NER=O
+18	Teatri	Teatri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	list	_	start_char=105|end_char=111|NER=O
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=112|end_char=115|NER=O
+20	Muzeu	muze	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=116|end_char=121|NER=O
+21	Arkeologjik	Arkeologjik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	flat:name	_	start_char=122|end_char=133|SpacesAfter=\n\n\n|NER=O
+

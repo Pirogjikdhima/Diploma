@@ -1,0 +1,103 @@
+# text = Ekipi analizoi një grup të dhënash që lidh 2 , 245 , 263 teste pozitive për SARS - CoV - 2 dhe 17 , 452 vdekje nga COVID - 19 në Angli nga 1 shtator 2020 deri më 14 shkurt 2021 .
+# sent_id = 0
+1	Ekipi	ekip	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=O
+2	analizoi	analizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=6|end_char=14|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=15|end_char=18|NER=O
+4	grup	grup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=19|end_char=23|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	dhënash	dhënash	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=27|end_char=34|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=35|end_char=37|NER=O
+8	lidh	lidh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=38|end_char=42|NER=O
+9	2	2	NUM	_	NumType=Card	8	obj	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=O
+11	245	245	NUM	_	NumType=Card	9	list	_	start_char=47|end_char=50|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=51|end_char=52|SpaceAfter=No|NER=O
+13	263	263	NUM	_	NumType=Card	14	nummod	_	start_char=53|end_char=56|NER=O
+14	teste	test	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=57|end_char=62|NER=O
+15	pozitive	pozitiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=63|end_char=71|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=72|end_char=75|NER=O
+17	SARS	SARS-CoV	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=76|end_char=80|NER=O
+18	-	-	PUNCT	_	_	14	punct	_	start_char=81|end_char=82|NER=O
+19	CoV	SARS-CoV	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=83|end_char=86|NER=O
+20	-	-	PUNCT	_	_	14	punct	_	start_char=87|end_char=88|NER=O
+21	2	2	NUM	_	NumType=Card	14	nmod	_	start_char=89|end_char=90|NER=O
+22	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=91|end_char=94|NER=O
+23	17	17	NUM	_	NumType=Card	17	conj	_	start_char=95|end_char=97|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	22	punct	_	start_char=98|end_char=99|SpaceAfter=No|NER=O
+25	452	452	NUM	_	NumType=Card	22	nummod	_	start_char=100|end_char=103|NER=O
+26	vdekje	vdekje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	list	_	start_char=104|end_char=110|NER=O
+27	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=111|end_char=114|NER=O
+28	COVID	COVID-19	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	start_char=115|end_char=120|NER=O
+29	-	-	PUNCT	_	_	22	punct	_	start_char=121|end_char=122|NER=O
+30	19	19	NUM	_	NumType=Card	22	nmod	_	start_char=123|end_char=125|NER=O
+31	në	në	ADP	_	Case=Acc	26	case	_	start_char=126|end_char=128|NER=O
+32	Angli	Angli	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	start_char=129|end_char=134|NER=B-VEND_1
+33	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=135|end_char=138|NER=O
+34	1	1	NUM	_	NumType=Card	29	nummod	_	start_char=139|end_char=140|NER=B-DATE_0
+35	shtator	shator	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	start_char=141|end_char=148|NER=I-DATE_0
+36	2020	2020	NUM	_	NumType=Card	29	amod:nummod	_	start_char=149|end_char=153|NER=I-DATE_0
+37	deri	deri	ADP	_	Case=Acc	34	case	_	start_char=154|end_char=158|NER=O
+38	më	më	ADP	_	Case=Acc	34	case	_	start_char=159|end_char=161|NER=O
+39	14	14	NUM	_	NumType=Card	34	nummod	_	start_char=162|end_char=164|NER=B-DATE_0
+40	shkurt	shkurt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=165|end_char=171|NER=I-DATE_0
+41	2021	2021	NUM	_	NumType=Card	34	amod:nummod	_	start_char=172|end_char=176|SpaceAfter=No|NER=I-DATE_0
+42	.	.	PUNCT	_	_	2	punct	_	start_char=177|end_char=178|NER=O
+
+# text = Në 1 , 146 , 534 ( 51 % ) teste prania ose mungesa e B .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	1	1	NUM	_	NumType=Card	18	advmod	_	start_char=3|end_char=4|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	18	punct	_	start_char=5|end_char=6|SpaceAfter=No|NER=O
+4	146	146	NUM	_	NumType=Card	2	flat	_	start_char=7|end_char=10|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	5	punct	_	start_char=11|end_char=12|SpaceAfter=No|NER=O
+6	534	534	NUM	_	NumType=Card	3	conj	_	start_char=13|end_char=16|NER=O
+7	(	(	PUNCT	_	_	7	punct	_	start_char=17|end_char=18|SpaceAfter=No|NER=O
+8	51	51	NUM	_	NumType=Card	5	conj	_	start_char=19|end_char=21|SpaceAfter=No|NER=O
+9	%	%	PUNCT	_	_	5	punct	_	start_char=22|end_char=23|SpaceAfter=No|NER=O
+10	)	)	PUNCT	_	_	7	punct	_	start_char=24|end_char=25|NER=O
+11	teste	test	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	nsubj	_	start_char=26|end_char=31|NER=O
+12	prania	prani	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=32|end_char=38|NER=O
+13	ose	ose	CCONJ	_	_	12	cc	_	start_char=39|end_char=42|NER=O
+14	mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	conj	_	start_char=43|end_char=50|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=51|end_char=52|NER=O
+16	B	B.1.1	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=53|end_char=54|NER=O
+17	.	.	PUNCT	_	_	12	punct	_	start_char=55|end_char=56|NER=O
+
+# text = 1 .
+# sent_id = 2
+1	1	1	NUM	_	NumType=Card	12	nmod	_	start_char=0|end_char=1|NER=O
+2	.	.	PUNCT	_	_	12	punct	_	start_char=2|end_char=3|NER=O
+
+# text = 1 .
+# sent_id = 3
+1	1	1	NUM	_	NumType=Card	12	nmod	_	start_char=0|end_char=1|NER=O
+2	.	.	PUNCT	_	_	18	punct	_	start_char=2|end_char=3|NER=O
+
+# text = 7 mund të identifikohet për shkak të mutacioneve të llojit që parandalojnë amplifikimin PCR të gjenit të pikës së synuar .
+# sent_id = 4
+1	7	7	NUM	_	NumType=Card	18	punct	_	start_char=0|end_char=1|NER=O
+2	mund	mund	AUX	_	_	18	aux	_	start_char=2|end_char=6|NER=O
+3	të	të	PART	_	_	18	fixed	_	start_char=7|end_char=9|NER=O
+4	identifikohet	identifikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=23|NER=O
+5	për	për	ADP	_	Case=Acc	20	case	_	start_char=24|end_char=27|NER=O
+6	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=28|end_char=33|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=34|end_char=36|NER=O
+8	mutacioneve	mutacion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	obl	_	start_char=37|end_char=48|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	24	det:poss	_	start_char=49|end_char=51|NER=O
+10	llojit	lloj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=52|end_char=58|NER=O
+11	që	që	PRON	_	PronType=Rel	26	nsubj	_	start_char=59|end_char=61|NER=O
+12	parandalojnë	parandaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	acl	_	start_char=62|end_char=74|NER=O
+13	amplifikimin	amplifikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=75|end_char=87|NER=O
+14	PCR	PCR	PROPN	_	Gender=Masc|Number=Sing	27	appos	_	start_char=88|end_char=91|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det:poss	_	start_char=92|end_char=94|NER=O
+16	gjenit	gjen	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=95|end_char=101|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	32	det:poss	_	start_char=102|end_char=104|NER=O
+18	pikës	pikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=105|end_char=110|NER=O
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=111|end_char=113|NER=O
+20	synuar	synuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=114|end_char=120|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	18	punct	_	start_char=121|end_char=122|SpacesAfter=\n|NER=O
+
+# text = "
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+

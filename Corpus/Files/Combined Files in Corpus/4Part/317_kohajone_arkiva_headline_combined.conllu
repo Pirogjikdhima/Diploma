@@ -1,0 +1,131 @@
+# text = Dy fëmijë janë lënë jashtë murit kufitar në SHBA .
+# sent_id = 0
+1	Dy	dy	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|NER=O
+2	fëmijë	fëmijë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3|end_char=9|NER=O
+3	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=10|end_char=14|NER=O
+4	lënë	lë	VERB	_	VerbForm=Part	11	conj	_	start_char=15|end_char=19|NER=O
+5	jashtë	jashtë	ADP	_	Case=Abl	19	case	_	start_char=20|end_char=26|NER=O
+6	murit	mur	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=27|end_char=32|NER=O
+7	kufitar	kufitar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=33|end_char=40|NER=O
+8	në	në	ADP	_	Case=Acc	22	case	_	start_char=41|end_char=43|NER=O
+9	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=44|end_char=48|SpaceAfter=No|NER=B-VEND_1
+10	.	.	PUNCT	_	_	17	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Siç shihet në në video të publikuar nga BBC , fëmijët janë hedhur jashtë murit në kufirin SHBA - Meksikë në New Mexico , nga kontrabandistët .
+# sent_id = 1
+1	Siç	siç	SCONJ	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	shihet	shihet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	advcl	_	start_char=4|end_char=10|NER=O
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=11|end_char=13|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=14|end_char=16|NER=O
+5	video	video	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=17|end_char=22|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=23|end_char=25|NER=O
+7	publikuar	publikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=26|end_char=35|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=36|end_char=39|NER=O
+9	BBC	BBC	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=43|SpaceAfter=No|NER=B-ORG
+10	,	,	PUNCT	_	_	1	punct	_	start_char=44|end_char=45|NER=O
+11	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	start_char=46|end_char=53|NER=O
+12	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=54|end_char=58|NER=O
+13	hedhur	hedh	VERB	_	VerbForm=Part	0	root	_	start_char=59|end_char=65|NER=O
+14	jashtë	jashtë	ADP	_	Case=Abl	15	case	_	start_char=66|end_char=72|NER=O
+15	murit	mur	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=73|end_char=78|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=79|end_char=81|NER=O
+17	kufirin	kufir	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=82|end_char=89|NER=O
+18	SHBA	SHBA-Meksikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	appos	_	start_char=90|end_char=94|NER=B-VEND_1
+19	-	-	PUNCT	_	_	17	punct	_	start_char=95|end_char=96|NER=B-VEND_1
+20	Meksikë	SHBA-Meksikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	appos	_	start_char=97|end_char=104|NER=B-VEND_1
+21	në	në	ADP	_	Case=Acc	20	case	_	start_char=105|end_char=107|NER=O
+22	New	new	PROPN	_	Foreign=Yes	17	nmod	_	start_char=108|end_char=111|NER=B-VEND_0
+23	Mexico	Mexico	PROPN	_	Foreign=Yes	20	flat	_	start_char=112|end_char=118|SpaceAfter=No|NER=I-VEND_0
+24	,	,	PUNCT	_	_	24	punct	_	start_char=119|end_char=120|NER=O
+25	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=121|end_char=124|NER=O
+26	kontrabandistët	kontrabandistësë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	advmod	_	start_char=125|end_char=140|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	13	punct	_	start_char=141|end_char=142|SpacesAfter=\n|NER=O
+
+# text = Fëmijët , nga Ekuadori , u dërguan në spital nga agjentët e patrullës kufitare dhe tani janë nën kujdesin e autoriteteve amerikane .
+# sent_id = 2
+1	Fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	4	punct	_	start_char=8|end_char=9|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=10|end_char=13|NER=O
+4	Ekuadori	Ekuador	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=14|end_char=22|SpaceAfter=No|NER=B-VEND_1
+5	,	,	PUNCT	_	_	7	punct	_	start_char=23|end_char=24|NER=O
+6	u	u	PART	_	_	7	fixed	_	start_char=25|end_char=26|NER=O
+7	dërguan	dërgoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=27|end_char=34|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=37|NER=O
+9	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=38|end_char=44|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=45|end_char=48|NER=O
+11	agjentët	agjentë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obl	_	start_char=49|end_char=57|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=58|end_char=59|NER=O
+13	patrullës	patrullë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=60|end_char=69|NER=O
+14	kufitare	kufitar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=70|end_char=78|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=79|end_char=82|NER=O
+16	tani	tani	ADV	_	AdvType=Tim	17	advmod	_	start_char=83|end_char=87|NER=O
+17	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=88|end_char=92|NER=O
+18	nën	nën	ADP	_	Case=Acc	19	case	_	start_char=93|end_char=96|NER=O
+19	kujdesin	kujdes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=97|end_char=105|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=106|end_char=107|NER=O
+21	autoriteteve	autoritet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=108|end_char=120|NER=O
+22	amerikane	amerikan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=121|end_char=130|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	17	punct	_	start_char=131|end_char=132|NER=O
+
+# text = Fëmijët janë hedhur nga muri , i cili është 14 metra i gjatë .
+# sent_id = 3
+1	Fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=12|NER=O
+3	hedhur	hedh	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=19|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=20|end_char=23|NER=O
+5	muri	mur	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=24|end_char=28|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=29|end_char=30|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=31|end_char=32|NER=O
+8	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	start_char=33|end_char=37|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=38|end_char=43|NER=O
+10	14	14	NUM	_	NumType=Card	11	nummod	_	start_char=44|end_char=46|NER=O
+11	metra	metër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	cop	_	start_char=47|end_char=52|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=53|end_char=54|NER=O
+13	gjatë	gjatë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=55|end_char=60|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	3	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = Agjenti i Patrullës së Sektorit të El Paso Gloria I .
+# sent_id = 4
+1	Agjenti	tgjent	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	Patrullës	patrullë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=19|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=22|NER=O
+5	Sektorit	sektor	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=31|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=32|end_char=34|NER=O
+7	El	El	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=37|NER=O
+8	Paso	Paso	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	compound	_	start_char=38|end_char=42|NER=O
+9	Gloria	Glori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	compound	_	start_char=43|end_char=49|NER=O
+10	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=50|end_char=51|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	1	punct	_	start_char=52|end_char=53|NER=O
+
+# text = Chavez tha : Kjo gjë është e tmerrshme .
+# sent_id = 5
+1	Chavez	Chavez	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=7|end_char=10|SpaceAfter=No|NER=O
+3	:	:	PUNCT	_	_	2	punct	_	start_char=11|end_char=12|NER=O
+4	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=13|end_char=16|NER=O
+5	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=17|end_char=20|NER=O
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=26|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=27|end_char=28|NER=O
+8	tmerrshme	tmerrshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=29|end_char=38|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=39|end_char=40|NER=O
+
+# text = Nga mënyra se si këta kontrabandues hodhën fëmijët e pafajshëm nga një barrierë 14 metra .
+# sent_id = 6
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	mënyra	mënyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=4|end_char=10|NER=O
+3	se	se	SCONJ	_	_	7	mark	_	start_char=11|end_char=13|NER=O
+4	si	si	SCONJ	_	_	6	mark	_	start_char=14|end_char=16|NER=O
+5	këta	këta	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	start_char=17|end_char=21|NER=O
+6	kontrabandues	kontrabandues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	advmod	_	start_char=22|end_char=35|NER=O
+7	hodhën	hedh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=36|end_char=42|NER=O
+8	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	start_char=43|end_char=50|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=51|end_char=52|NER=O
+10	pafajshëm	pafajshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=53|end_char=62|NER=O
+11	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=63|end_char=66|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=67|end_char=70|NER=O
+13	barrierë	barrierë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=71|end_char=79|NER=O
+14	14	14	NUM	_	NumType=Card	15	nummod	_	start_char=80|end_char=82|NER=O
+15	metra	metër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	start_char=83|end_char=88|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	7	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+

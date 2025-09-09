@@ -1,0 +1,107 @@
+# text = Meta : 77 % e të rinjve shqiptarë duan të ikin nga vendi !
+# sent_id = 0
+1	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	4	punct	_	start_char=5|end_char=6|NER=O
+3	77	77	NUM	_	NumType=Card	4	nummod	_	start_char=7|end_char=9|NER=O
+4	%	%	SYM	_	_	1	flat	_	start_char=10|end_char=11|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=12|end_char=13|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=14|end_char=16|NER=O
+7	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=17|end_char=23|NER=O
+8	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=24|end_char=33|NER=O
+9	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=34|end_char=38|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=39|end_char=41|NER=O
+11	ikin	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=42|end_char=46|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=47|end_char=50|NER=O
+13	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=51|end_char=56|SpacesAfter=\n|NER=O
+14	!	!	PUNCT	_	_	11	punct	_	start_char=57|end_char=58|SpacesAfter=\n|NER=O
+
+# text = 01 / 04 / 2022 Presidenti shqiptar Ilir Meta edhe një herë ka shprehur shqetësimin e tij lidhur me shifrat e rritura të emigracionit të shqiptarëve , veçanërisht brezit të ri .
+# sent_id = 1
+1	01	01	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	04	04	NUM	_	NumType=Card	14	conj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	15	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=15|end_char=25|NER=O
+7	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=26|end_char=34|NER=O
+8	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=35|end_char=39|NER=B-PER
+9	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	flat	_	start_char=40|end_char=44|NER=I-PER
+10	edhe	edhe	PART	_	_	7	cc	_	start_char=45|end_char=49|NER=O
+11	një	një	DET	_	Definite=Ind	7	det	_	start_char=50|end_char=53|NER=O
+12	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	conj	_	start_char=54|end_char=58|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=59|end_char=61|NER=O
+14	shprehur	shpreh	VERB	_	VerbForm=Part	0	root	_	start_char=62|end_char=70|NER=O
+15	shqetësimin	shqetësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	start_char=71|end_char=82|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=83|end_char=84|NER=O
+17	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	amod:poss	_	start_char=85|end_char=88|NER=O
+18	lidhur	lidhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=89|end_char=95|NER=O
+19	me	me	ADP	_	Case=Acc	15	case	_	start_char=96|end_char=98|NER=O
+20	shifrat	shifër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=99|end_char=106|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=107|end_char=108|NER=O
+22	rritura	rriturë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=109|end_char=116|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=117|end_char=119|NER=O
+24	emigracionit	emigracion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=120|end_char=132|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=133|end_char=135|NER=O
+26	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	start_char=136|end_char=147|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	24	punct	_	start_char=148|end_char=149|NER=O
+28	veçanërisht	veçanërisht	ADV	_	AdvType=Man	24	advmod	_	start_char=150|end_char=161|NER=O
+29	brezit	brez	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	19	conj	_	start_char=162|end_char=168|NER=O
+30	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=169|end_char=171|NER=O
+31	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=172|end_char=174|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	9	punct	_	start_char=175|end_char=176|NER=O
+
+# text = Në një status në rrjetin social Facebook zoti Meta shkruan të premten se 77 % e të rinjve shqiptarë duan të ikin si shkak i pagave të ulëta .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	status	status	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=7|end_char=13|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=14|end_char=16|NER=O
+5	rrjetin	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=17|end_char=24|NER=O
+6	social	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=25|end_char=31|NER=O
+7	Facebook	Facebook	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=32|end_char=40|NER=O
+8	zoti	zot	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=41|end_char=45|NER=O
+9	Meta	metë	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	8	flat	_	start_char=46|end_char=50|NER=B-PER
+10	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=51|end_char=58|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=59|end_char=61|NER=O
+12	premten	premte	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=62|end_char=69|NER=O
+13	se	se	SCONJ	_	_	20	mark	_	start_char=70|end_char=72|NER=O
+14	77	77	NUM	_	NumType=Card	15	nummod	_	start_char=73|end_char=75|SpaceAfter=No|NER=O
+15	%	%	SYM	_	_	12	nmod	_	start_char=76|end_char=77|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=78|end_char=79|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=80|end_char=82|NER=O
+18	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=83|end_char=89|NER=O
+19	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=90|end_char=99|NER=O
+20	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=100|end_char=104|NER=O
+21	të	të	PART	_	_	22	fixed	_	start_char=105|end_char=107|NER=O
+22	ikin	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	ccomp	_	start_char=108|end_char=112|NER=O
+23	si	si	SCONJ	_	_	24	mark	_	start_char=113|end_char=115|NER=O
+24	shkak	shkak	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=116|end_char=121|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=122|end_char=123|NER=O
+26	pagave	paga	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	start_char=124|end_char=130|NER=O
+27	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=131|end_char=133|NER=O
+28	ulëta	ulëtë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=134|end_char=139|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	22	punct	_	start_char=140|end_char=141|NER=O
+
+# text = Presidenti thekson se duhet ndalur shpopullimi i vendit duke ju siguruar të rinjve një punë me pagë të mirë .
+# sent_id = 3
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=10|NER=O
+2	thekson	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=18|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=19|end_char=21|NER=O
+4	duhet	duhem	AUX	_	Mood=Ind	5	aux	_	start_char=22|end_char=27|NER=O
+5	ndalur	ndal	VERB	_	VerbForm=Part	2	advcl	_	start_char=28|end_char=34|NER=O
+6	shpopullimi	shpopullim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=35|end_char=46|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=47|end_char=48|NER=O
+8	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=49|end_char=55|NER=O
+9	duke	duke	PART	_	_	11	fixed	_	start_char=56|end_char=60|NER=O
+10	ju	ju	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	fixed	_	start_char=61|end_char=63|NER=O
+11	siguruar	siguroj	VERB	_	VerbForm=Part	5	advmod	_	start_char=64|end_char=72|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=73|end_char=75|NER=O
+13	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	obj	_	start_char=76|end_char=82|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=83|end_char=86|NER=O
+15	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=87|end_char=91|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=92|end_char=94|NER=O
+17	pagë	pagë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=95|end_char=99|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=100|end_char=102|NER=O
+19	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=103|end_char=107|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	2	punct	_	start_char=108|end_char=109|SpacesAfter=\n\n\n|NER=O
+

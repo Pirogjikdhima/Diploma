@@ -1,0 +1,167 @@
+# text = Tirana stacioni i yjeve të muzikës botërore !
+# sent_id = 0
+1	Tirana	Tiranë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-VEND_0
+2	stacioni	stacion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=15|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=16|end_char=17|NER=O
+4	yjeve	yjev	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=18|end_char=23|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=27|end_char=34|NER=O
+7	botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=35|end_char=43|SpaceAfter=No|NER=O
+8	!	!	PUNCT	_	_	1	punct	_	start_char=44|end_char=45|NER=O
+
+# text = Iglesias dhe Martin në dy koncerte 07 / 06 / 2023 Ylli i muzikës spanjolle Enrique Iglesias do të jetë në koncert në Tiranë më 30 qershor .
+# sent_id = 1
+1	Iglesias	Iglesias	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	start_char=0|end_char=8|NER=B-PER
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=9|end_char=12|NER=O
+3	Martin	Martin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=13|end_char=19|NER=B-PER
+4	në	në	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+5	dy	dy	NUM	_	NumType=Card	6	nummod	_	start_char=23|end_char=25|NER=O
+6	koncerte	koncert	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=26|end_char=34|SpacesAfter=\n|NER=O
+7	07	07	NUM	_	NumType=Card	6	amod:nummod	_	start_char=35|end_char=37|SpaceAfter=No|NER=B-DATE_0
+8	/	/	PUNCT	_	_	6	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=I-DATE_0
+9	06	06	NUM	_	NumType=Card	6	amod:nummod	_	start_char=40|end_char=42|SpaceAfter=No|NER=I-DATE_0
+10	/	/	PUNCT	_	_	10	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=I-DATE_0
+11	2023	2023	NUM	_	NumType=Card	8	conj	_	start_char=45|end_char=49|SpaceAfter=No|NER=I-DATE_0
+12	Ylli	Ylli	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=50|end_char=54|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=55|end_char=56|NER=O
+14	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=57|end_char=64|NER=O
+15	spanjolle	spanjoll	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=65|end_char=74|NER=O
+16	Enrique	Enrique	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	appos	_	start_char=75|end_char=82|NER=B-PER
+17	Iglesias	Iglesias	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	flat	_	start_char=83|end_char=91|NER=I-PER
+18	do	do	PART	_	_	20	fixed	_	start_char=92|end_char=94|NER=O
+19	të	të	PART	_	_	20	fixed	_	start_char=95|end_char=97|NER=O
+20	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=98|end_char=102|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=103|end_char=105|NER=O
+22	koncert	koncer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	start_char=106|end_char=113|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=114|end_char=116|NER=O
+24	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	advmod	_	start_char=117|end_char=123|NER=B-VEND_0
+25	më	më	ADP	_	Case=Acc	27	case	_	start_char=124|end_char=126|NER=O
+26	30	30	NUM	_	NumType=Card	27	nummod	_	start_char=127|end_char=129|NER=B-DATE_0
+27	qershor	qershor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	advmod	_	start_char=130|end_char=137|SpaceAfter=No|NER=I-DATE_0
+28	.	.	PUNCT	_	_	20	punct	_	start_char=138|end_char=139|NER=O
+
+# text = Lajmin e jep ministrja e kulturës Elva Margariti në rrjetet sociale .
+# sent_id = 2
+1	Lajmin	Lajm	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=7|end_char=8|NER=O
+3	jep	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=12|NER=O
+4	ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=13|end_char=22|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=23|end_char=24|NER=O
+6	kulturës	kulturë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=25|end_char=33|NER=O
+7	Elva	Elva	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=34|end_char=38|NER=B-PER
+8	Margariti	margarit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=39|end_char=48|NER=I-PER
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=49|end_char=51|NER=O
+10	rrjetet	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	advmod	_	start_char=52|end_char=59|NER=O
+11	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=60|end_char=67|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	3	punct	_	start_char=68|end_char=69|NER=O
+
+# text = " Tirana tanimë është stacioni i yjeve !
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2|end_char=8|NER=B-VEND_0
+3	tanimë	tanimë	ADV	_	AdvType=Tim	2	flat	_	start_char=9|end_char=15|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=21|NER=O
+5	stacioni	stacion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=22|end_char=30|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=31|end_char=32|NER=O
+7	yjeve	yjev	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=33|end_char=38|SpaceAfter=No|NER=O
+8	!	!	PUNCT	_	_	10	punct	_	start_char=39|end_char=40|SpaceAfter=No|NER=O
+
+# text = " shkruan zonja Margariti e cila , ndërsa lajmëron koncertin e Igleziasit në Tiranë , kujton se ai mbërrin në kuadër të aktiviteteve të " Javës së Kulturës Spanjolle " .
+# sent_id = 4
+1	"	"	PUNCT	_	_	10	punct	_	start_char=0|end_char=1|NER=O
+2	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	csubj	_	start_char=2|end_char=9|NER=O
+3	zonja	zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=10|end_char=15|NER=O
+4	Margariti	margarit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=16|end_char=25|NER=B-PER
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=26|end_char=27|NER=O
+6	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	flat	_	start_char=28|end_char=32|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	16	punct	_	start_char=33|end_char=34|NER=O
+8	ndërsa	ndërsa	CCONJ	_	_	17	cc	_	start_char=35|end_char=41|NER=O
+9	lajmëron	lajmëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=42|end_char=50|NER=O
+10	koncertin	koncert	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=51|end_char=60|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=61|end_char=62|NER=O
+12	Igleziasit	Iglezias	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=63|end_char=73|NER=B-PER
+13	në	në	ADP	_	Case=Acc	22	case	_	start_char=74|end_char=76|NER=O
+14	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=77|end_char=83|SpaceAfter=No|NER=B-VEND_0
+15	,	,	PUNCT	_	_	24	punct	_	start_char=84|end_char=85|NER=O
+16	kujton	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=86|end_char=92|NER=O
+17	se	se	SCONJ	_	_	27	mark	_	start_char=93|end_char=95|NER=O
+18	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=96|end_char=98|NER=O
+19	mbërrin	mbërr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	start_char=99|end_char=106|NER=O
+20	në	në	ADP	_	Case=Acc	29	case	_	start_char=107|end_char=109|NER=O
+21	kuadër	kuadër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	start_char=110|end_char=116|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=117|end_char=119|NER=O
+23	aktiviteteve	aktivitet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=120|end_char=132|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	34	det:poss	_	start_char=133|end_char=135|NER=O
+25	"	"	PUNCT	_	_	34	punct	_	start_char=136|end_char=137|SpaceAfter=No|NER=O
+26	Javës	Javë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=138|end_char=143|NER=O
+27	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=144|end_char=146|NER=O
+28	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=147|end_char=155|NER=O
+29	Spanjolle	spanjoll	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=156|end_char=165|SpaceAfter=No|NER=O
+30	"	"	PUNCT	_	_	34	punct	_	start_char=166|end_char=167|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	24	punct	_	start_char=168|end_char=169|NER=O
+
+# text = Koncerti mbahet në Sheshin Skënderbej .
+# sent_id = 5
+1	Koncerti	Koncert	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=8|NER=O
+2	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=9|end_char=15|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=16|end_char=18|NER=O
+4	Sheshin	shesh	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=19|end_char=26|NER=B-SHESH
+5	Skënderbej	Skënderbej	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=27|end_char=37|SpaceAfter=No|NER=I-SHESH
+6	.	.	PUNCT	_	_	2	punct	_	start_char=38|end_char=39|SpacesAfter=\n|NER=O
+
+# text = Ndërkaq pak ditë më vonë Tiranën do ta vizitojë një tjetër yll i muzikës latine , Ricky Martin , posterin e të cilit e ka shpërndarë në rrjet edhe kryeministri Edi Rama .
+# sent_id = 6
+1	Ndërkaq	ndërkaq	ADV	_	AdvType=Tim	10	advmod	_	start_char=0|end_char=7|NER=O
+2	pak	pak	ADV	_	AdvType=Deg	3	mark	_	start_char=8|end_char=11|NER=O
+3	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	advmod	_	start_char=12|end_char=16|NER=O
+4	më	më	PART	_	_	5	mark	_	start_char=17|end_char=19|NER=O
+5	vonë	vonë	ADV	_	AdvType=Tim	3	advmod	_	start_char=20|end_char=24|NER=O
+6	Tiranën	Tiranë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=25|end_char=32|NER=B-VEND_0
+7	do	do	PART	_	_	10	fixed	_	start_char=33|end_char=35|NER=O
+8	ta	_	_	_	_	_	_	_	start_char=36|end_char=38|NER=O
+9	vizitojë	vizitoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=47|NER=O
+10	një	një	DET	_	Definite=Ind	13	det	_	start_char=48|end_char=51|NER=O
+11	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	amod	_	start_char=52|end_char=58|NER=O
+12	yll	yll	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=59|end_char=62|NER=O
+13	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=63|end_char=64|NER=O
+14	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=65|end_char=72|NER=O
+15	latine	latin	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=73|end_char=79|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=80|end_char=81|NER=O
+17	Ricky	Ricky	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	start_char=82|end_char=87|NER=B-PER
+18	Martin	Martin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=88|end_char=94|SpaceAfter=No|NER=I-PER
+19	,	,	PUNCT	_	_	21	punct	_	start_char=95|end_char=96|NER=O
+20	posterin	poster	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	list	_	start_char=97|end_char=105|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=106|end_char=107|NER=O
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=108|end_char=110|NER=O
+23	cilit	cili	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	start_char=111|end_char=116|NER=O
+24	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=117|end_char=118|NER=O
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=119|end_char=121|NER=O
+26	shpërndarë	shpërndar	VERB	_	VerbForm=Part	21	acl:relcl	_	start_char=122|end_char=132|NER=O
+27	në	në	ADP	_	Case=Acc	29	case	_	start_char=133|end_char=135|NER=O
+28	rrjet	rrjet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	obl	_	start_char=136|end_char=141|NER=O
+29	edhe	edhe	PART	_	_	31	mark	_	start_char=142|end_char=146|NER=O
+30	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=147|end_char=159|NER=O
+31	Edi	Edi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	31	appos	_	start_char=160|end_char=163|NER=B-PER
+32	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	flat	_	start_char=164|end_char=168|SpaceAfter=No|NER=I-PER
+33	.	.	PUNCT	_	_	27	punct	_	start_char=169|end_char=170|SpacesAfter=\n|NER=O
+
+# text = Martin do të performojë në në koncert në sheshin " Skënderbej " mbrëmjen e 20 korrikut .
+# sent_id = 7
+1	Martin	Martin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	do	do	PART	_	_	4	fixed	_	start_char=7|end_char=9|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=10|end_char=12|NER=O
+4	performojë	performoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=23|NER=O
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=24|end_char=26|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=29|NER=O
+7	koncert	koncer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=30|end_char=37|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	sheshin	shesh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=41|end_char=48|NER=B-SHESH
+10	"	"	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|SpaceAfter=No|NER=O
+11	Skënderbej	Skënderbej	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=51|end_char=61|NER=I-SHESH
+12	"	"	PUNCT	_	_	9	punct	_	start_char=62|end_char=63|NER=O
+13	mbrëmjen	mbrëmje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	flat	_	start_char=64|end_char=72|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=73|end_char=74|NER=O
+15	20	20	NUM	_	NumType=Card	15	nummod	_	start_char=75|end_char=77|NER=B-DATE_0
+16	korrikut	korrik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=78|end_char=86|SpaceAfter=No|NER=I-DATE_0
+17	.	.	PUNCT	_	_	4	punct	_	start_char=87|end_char=88|SpacesAfter=\n\n\n|NER=O
+

@@ -1,0 +1,56 @@
+# text = 01 / 10 / 2023 Viti i ri akademik do të nisë të hënën më 2 tetor .
+# sent_id = 0
+1	01	01	NUM	_	NumType=Card	11	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	11	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	16	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=15|end_char=19|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=20|end_char=21|NER=O
+8	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=22|end_char=24|NER=O
+9	akademik	akademik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=25|end_char=33|NER=O
+10	do	do	PART	_	_	22	fixed	_	start_char=34|end_char=36|NER=O
+11	të	të	PART	_	_	22	fixed	_	start_char=37|end_char=39|NER=O
+12	nisë	nij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=40|end_char=44|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=45|end_char=47|NER=B-DATE_1
+14	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	22	obj	_	start_char=48|end_char=53|NER=I-DATE_1
+15	më	më	ADP	_	Case=Acc	27	case	_	start_char=54|end_char=56|NER=O
+16	2	2	NUM	_	NumType=Card	27	nummod	_	start_char=57|end_char=58|NER=B-DATE_0
+17	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=59|end_char=64|SpaceAfter=No|NER=I-DATE_0
+18	.	.	PUNCT	_	_	22	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Është dita e fundit e raundit të dytë të regjistrimeve dhe deri më tani rezultojnë rreth 20 mijë student të regjistruar .
+# sent_id = 1
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	dita	ditë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=10|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=13|end_char=19|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=20|end_char=21|NER=O
+6	raundit	raund	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=29|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=30|end_char=32|NER=O
+8	dytë	dy	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=33|end_char=37|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=38|end_char=40|NER=O
+10	regjistrimeve	regjistrim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=41|end_char=54|NER=O
+11	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=55|end_char=58|NER=O
+12	deri	deri	PART	_	_	14	mark	_	start_char=59|end_char=63|NER=O
+13	më	më	PART	_	_	14	mark	_	start_char=64|end_char=66|NER=O
+14	tani	tani	ADV	_	AdvType=Tim	15	advmod	_	start_char=67|end_char=71|NER=O
+15	rezultojnë	rezultoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=72|end_char=82|NER=O
+16	rreth	rreth	PART	_	_	19	det	_	start_char=83|end_char=88|NER=O
+17	20	20	NUM	_	NumType=Card	19	nummod	_	start_char=89|end_char=91|NER=O
+18	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	nummod	_	start_char=92|end_char=96|NER=O
+19	student	student	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	start_char=97|end_char=104|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=105|end_char=107|NER=O
+21	regjistruar	regjistruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=108|end_char=119|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	15	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+
+# text = Gazetare K .
+# sent_id = 2
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	K	k	SYM	_	_	1	flat	_	start_char=9|end_char=10|SpaceAfter=No|NER=B-PER
+3	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+
+# text = Toroveci
+# sent_id = 3
+1	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|SpacesAfter=\n\n|NER=I-PER
+

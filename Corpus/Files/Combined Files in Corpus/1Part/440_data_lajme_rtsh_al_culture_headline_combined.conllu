@@ -1,0 +1,237 @@
+# text = Pas frikës nga infeksioni , Madonna : Fokusi im është shëndeti 10 / 07 / 2023 Madonna bëri të ditur se është " në rrugën e rikuperimit " .
+# sent_id = 0
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	frikës	frikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=4|end_char=10|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=11|end_char=14|NER=O
+4	infeksioni	infeksion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=25|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=26|end_char=27|NER=O
+6	Madonna	madonnë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	appos	_	start_char=28|end_char=35|SpaceAfter=No|NER=B-PER
+7	:	:	PUNCT	_	_	2	punct	_	start_char=36|end_char=37|NER=O
+8	Fokusi	Fokus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=38|end_char=44|NER=O
+9	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	amod	_	start_char=45|end_char=47|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=53|NER=O
+11	shëndeti	shëndet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	cop	_	start_char=54|end_char=62|SpacesAfter=\n|NER=O
+12	10	10	NUM	_	NumType=Card	6	nummod	_	start_char=63|end_char=65|SpaceAfter=No|NER=B-DATE_0
+13	/	/	PUNCT	_	_	4	punct	_	start_char=66|end_char=67|SpaceAfter=No|NER=I-DATE_0
+14	07	07	NUM	_	NumType=Card	4	nmod	_	start_char=68|end_char=70|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	8	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=I-DATE_0
+16	2023	2023	NUM	_	NumType=Card	6	flat	_	start_char=73|end_char=77|SpaceAfter=No|NER=I-DATE_0
+17	Madonna	madonnë	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	8	flat	_	start_char=78|end_char=85|NER=B-PER
+18	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=86|end_char=90|NER=O
+19	të	të	PART	_	_	13	fixed	_	start_char=91|end_char=93|NER=O
+20	ditur	ditur	VERB	_	VerbForm=Part	11	ccomp	_	start_char=94|end_char=99|NER=O
+21	se	se	SCONJ	_	_	15	mark	_	start_char=100|end_char=102|NER=O
+22	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	ccomp	_	start_char=103|end_char=108|NER=O
+23	"	"	PUNCT	_	_	18	punct	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+24	në	në	ADP	_	Case=Acc	18	case	_	start_char=111|end_char=113|NER=O
+25	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	start_char=114|end_char=120|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=121|end_char=122|NER=O
+27	rikuperimit	rikuperim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=123|end_char=134|SpaceAfter=No|NER=O
+28	"	"	PUNCT	_	_	20	punct	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	15	punct	_	start_char=137|end_char=138|NER=O
+
+# text = Kjo është deklarata e saj e parë që kur ajo mori një infeksion bakterial , e cila e ka lënë atë në urgjencën e kujdesit intensiv të një spitali .
+# sent_id = 1
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	deklarata	deklaratë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=10|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=20|end_char=21|NER=O
+5	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	amod:poss	_	start_char=22|end_char=25|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=26|end_char=27|NER=O
+7	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=28|end_char=32|NER=O
+8	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=33|end_char=35|NER=O
+9	kur	kur	SCONJ	_	_	11	mark	_	start_char=36|end_char=39|NER=O
+10	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=40|end_char=43|NER=O
+11	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	start_char=44|end_char=48|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=49|end_char=52|NER=O
+13	infeksion	infeksion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=53|end_char=62|NER=O
+14	bakterial	bakterial	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=63|end_char=72|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=73|end_char=74|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=75|end_char=76|NER=O
+17	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	nsubj	_	start_char=77|end_char=81|NER=O
+18	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=82|end_char=83|NER=O
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	start_char=84|end_char=86|NER=O
+20	lënë	lë	VERB	_	VerbForm=Part	11	advcl	_	start_char=87|end_char=91|NER=O
+21	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=92|end_char=95|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=96|end_char=98|NER=O
+23	urgjencën	urgjencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=99|end_char=108|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=109|end_char=110|NER=O
+25	kujdesit	kujdes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=111|end_char=119|NER=O
+26	intensiv	intensiv	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=120|end_char=128|NER=O
+27	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=129|end_char=131|NER=O
+28	një	një	DET	_	Definite=Ind	29	det	_	start_char=132|end_char=135|NER=O
+29	spitali	spital	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	start_char=136|end_char=143|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	20	punct	_	start_char=144|end_char=145|SpacesAfter=\n|NER=O
+
+# text = Madonna tha se plani i saj aktual ishte të riplanifikonte koncertet e saj të ardhshme në Amerikën e Veriut dhe të fillonte turneun e saj Celebration në Britaninë e Madhe në tetor .
+# sent_id = 2
+1	Madonna	madonnë	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	19	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	start_char=8|end_char=11|NER=O
+3	se	se	SCONJ	_	_	27	mark	_	start_char=12|end_char=14|NER=O
+4	plani	plan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	start_char=15|end_char=20|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=21|end_char=22|NER=O
+6	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	amod:poss	_	start_char=23|end_char=26|NER=O
+7	aktual	aktual	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=27|end_char=33|NER=O
+8	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	19	conj	_	start_char=34|end_char=39|NER=O
+9	të	të	PART	_	_	27	fixed	_	start_char=40|end_char=42|NER=O
+10	riplanifikonte	riplanifikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	25	csubj	_	start_char=43|end_char=57|NER=O
+11	koncertet	koncert	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	start_char=58|end_char=67|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=68|end_char=69|NER=O
+13	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	amod:poss	_	start_char=70|end_char=73|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=74|end_char=76|NER=O
+15	ardhshme	ardhshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=77|end_char=85|NER=O
+16	në	në	ADP	_	Case=Acc	34	case	_	start_char=86|end_char=88|NER=O
+17	Amerikën	Amerikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obl	_	start_char=89|end_char=97|NER=B-VEND_1
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=98|end_char=99|NER=B-VEND_1
+19	Veriut	veri	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=100|end_char=106|NER=I-VEND_1
+20	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=107|end_char=110|NER=O
+21	të	të	PART	_	_	39	fixed	_	start_char=111|end_char=113|NER=O
+22	fillonte	filloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	27	conj	_	start_char=114|end_char=122|NER=O
+23	turneun	turne	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	39	obj	_	start_char=123|end_char=130|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=131|end_char=132|NER=O
+25	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	amod:poss	_	start_char=133|end_char=136|NER=O
+26	Celebration	Celebration	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	40	nmod	_	start_char=137|end_char=148|NER=O
+27	në	në	ADP	_	Case=Acc	45	case	_	start_char=149|end_char=151|NER=O
+28	Britaninë	Britani	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	39	obl	_	start_char=152|end_char=161|NER=B-VEND_1
+29	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	47	det	_	start_char=162|end_char=163|NER=I-VEND_1
+30	Madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	start_char=164|end_char=169|NER=I-VEND_1
+31	në	në	ADP	_	Case=Acc	49	case	_	start_char=170|end_char=172|NER=O
+32	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	45	nmod	_	start_char=173|end_char=178|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	39	punct	_	start_char=179|end_char=180|SpacesAfter=\n|NER=O
+
+# text = " Mendimi im i parë kur u zgjova në spital ishin fëmijët e mi .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Mendimi	mendim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=2|end_char=9|NER=O
+3	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	amod	_	start_char=10|end_char=12|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=13|end_char=14|NER=O
+5	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=15|end_char=19|NER=O
+6	kur	kur	SCONJ	_	_	8	mark	_	start_char=20|end_char=23|NER=O
+7	u	u	PART	_	_	8	fixed	_	start_char=24|end_char=25|NER=O
+8	zgjova	zgjoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	start_char=26|end_char=32|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=33|end_char=35|NER=O
+10	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	start_char=36|end_char=42|NER=O
+11	ishin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=43|end_char=48|NER=O
+12	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	cop	_	start_char=49|end_char=56|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	14	det:poss	_	start_char=57|end_char=58|NER=O
+14	mi	im	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	amod:poss	_	start_char=59|end_char=61|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	11	punct	_	start_char=62|end_char=63|NER=O
+
+# text = Mendimi im i dytë ishte se nuk doja të zhgënjeja askënd që bleu bileta për turneun tim .
+# sent_id = 4
+1	Mendimi	mendim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=7|NER=O
+2	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	amod	_	start_char=8|end_char=10|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=11|end_char=12|NER=O
+4	dytë	dy	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=13|end_char=17|NER=O
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+6	se	se	SCONJ	_	_	8	mark	_	start_char=24|end_char=26|NER=O
+7	nuk	nuk	PART	_	_	8	mark	_	start_char=27|end_char=30|NER=O
+8	doja	dua	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	5	advcl	_	start_char=31|end_char=35|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=36|end_char=38|NER=O
+10	zhgënjeja	zhgënjej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	8	ccomp	_	start_char=39|end_char=48|NER=O
+11	askënd	askënd	PRON	_	PronType=Ind|Reflex=Yes	10	obj	_	start_char=49|end_char=55|NER=O
+12	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=56|end_char=58|NER=O
+13	bleu	blej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	advcl	_	start_char=59|end_char=63|NER=O
+14	bileta	biletë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=64|end_char=70|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=71|end_char=74|NER=O
+16	turneun	turne	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=75|end_char=82|NER=O
+17	tim	im	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	amod	_	start_char=83|end_char=86|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	5	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Gjithashtu nuk doja të zhgënjeja njerëzit që punuan pa u lodhur me mua gjatë muajve të fundit për të krijuar shfaqjen time .
+# sent_id = 5
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	3	advmod	_	start_char=0|end_char=10|NER=O
+2	nuk	nuk	PART	_	_	3	mark	_	start_char=11|end_char=14|NER=O
+3	doja	dua	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=20|end_char=22|NER=O
+5	zhgënjeja	zhgënjej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	3	ccomp	_	start_char=23|end_char=32|NER=O
+6	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	obj	_	start_char=33|end_char=41|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=42|end_char=44|NER=O
+8	punuan	punoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	start_char=45|end_char=51|NER=O
+9	pa	pa	PART	_	_	11	fixed	_	start_char=52|end_char=54|NER=O
+10	u	u	PART	_	_	11	fixed	_	start_char=55|end_char=56|NER=O
+11	lodhur	lodh	VERB	_	VerbForm=Part	8	advcl	_	start_char=57|end_char=63|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=64|end_char=66|NER=O
+13	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=67|end_char=70|NER=O
+14	gjatë	gjatë	ADP	_	Case=Abl	15	case	_	start_char=71|end_char=76|NER=O
+15	muajve	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	start_char=77|end_char=83|NER=O
+16	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=84|end_char=86|NER=O
+17	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=87|end_char=93|NER=O
+18	për	për	PART	_	_	20	fixed	_	start_char=94|end_char=97|NER=O
+19	të	të	PART	_	_	20	fixed	_	start_char=98|end_char=100|NER=O
+20	krijuar	krijoj	VERB	_	VerbForm=Part	11	advmod	_	start_char=101|end_char=108|NER=O
+21	shfaqjen	shfaqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=109|end_char=117|NER=O
+22	time	ime	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	amod	_	start_char=118|end_char=122|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	20	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Unë e urrej të zhgënjej .
+# sent_id = 6
+1	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4|end_char=5|NER=O
+3	urrej	urrej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=6|end_char=11|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=12|end_char=14|NER=O
+5	zhgënjej	zhgënjem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	3	ccomp	_	start_char=15|end_char=23|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	3	punct	_	start_char=24|end_char=25|NER=O
+
+# text = Fokusi im tani është shëndeti .
+# sent_id = 7
+1	Fokusi	Fokus	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6|NER=O
+2	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	start_char=7|end_char=9|NER=O
+3	tani	tani	ADV	_	AdvType=Tim	4	advmod	_	start_char=10|end_char=14|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=20|NER=O
+5	shëndeti	shëndet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=21|end_char=29|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|NER=O
+
+# text = Ju siguroj se do të kthehem sa më shpejt që të mundem !
+# sent_id = 8
+1	Ju	Ju	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	fixed	_	start_char=0|end_char=2|NER=O
+2	siguroj	siguroj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=10|NER=O
+3	se	se	SCONJ	_	_	6	mark	_	start_char=11|end_char=13|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	kthehem	kthej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	advcl	_	start_char=20|end_char=27|NER=O
+7	sa	sa	SCONJ	_	_	9	mark	_	start_char=28|end_char=30|NER=O
+8	më	më	PART	_	_	9	mark	_	start_char=31|end_char=33|NER=O
+9	shpejt	shpejt	ADV	_	AdvType=Tim	6	advmod	_	start_char=34|end_char=40|NER=O
+10	që	që	SCONJ	_	_	12	mark	_	start_char=41|end_char=43|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=44|end_char=46|NER=O
+12	mundem	mundem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	advcl	_	start_char=47|end_char=53|SpaceAfter=No|NER=O
+13	!	!	PUNCT	_	_	12	punct	_	start_char=54|end_char=55|NER=O
+
+# text = Plani aktual është që të riprogramohet pjesa e turneut në Amerikën e Veriut dhe të fillojë turneun në tetor në Evropë .
+# sent_id = 9
+1	Plani	plan	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	aktual	aktual	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=6|end_char=12|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=18|NER=O
+4	që	që	SCONJ	_	_	6	mark	_	start_char=19|end_char=21|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=22|end_char=24|NER=O
+6	riprogramohet	riprogramoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	3	xcomp	_	start_char=25|end_char=38|NER=O
+7	pjesa	pjesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=39|end_char=44|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=45|end_char=46|NER=O
+9	turneut	turne	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=47|end_char=54|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=55|end_char=57|NER=O
+11	Amerikën	Amerikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=58|end_char=66|NER=B-VEND_1
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=67|end_char=68|NER=I-VEND_1
+13	Veriut	veri	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=69|end_char=75|NER=I-VEND_1
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=76|end_char=79|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=80|end_char=82|NER=O
+16	fillojë	filloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=83|end_char=90|NER=O
+17	turneun	turne	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=91|end_char=98|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=99|end_char=101|NER=O
+19	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	start_char=102|end_char=107|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=108|end_char=110|NER=O
+21	Evropë	Evropë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=111|end_char=117|SpaceAfter=No|NER=B-VEND_1
+22	.	.	PUNCT	_	_	23	punct	_	start_char=118|end_char=119|SpaceAfter=No|NER=B-VEND_1
+
+# text = " - deklaroi Madonna .
+# sent_id = 10
+1	"	"	PUNCT	_	_	24	punct	_	start_char=0|end_char=1|NER=O
+2	-	-	PUNCT	_	_	24	punct	_	start_char=2|end_char=3|NER=O
+3	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	start_char=4|end_char=12|NER=O
+4	Madonna	madonnë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=13|end_char=20|SpaceAfter=No|NER=B-PER
+5	.	.	PUNCT	_	_	24	punct	_	start_char=21|end_char=22|NER=O
+
+# text = BBC
+# sent_id = 11
+1	BBC	BBC	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3|SpacesAfter=\n|NER=O
+

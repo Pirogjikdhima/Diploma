@@ -1,0 +1,319 @@
+# text = 15 / 11 / 2023 Burgjet në Shqipëri janë mbipopulluar .
+# sent_id = 0
+1	15	15	NUM	_	NumType=Card	18	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	11	11	NUM	_	NumType=Card	16	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	18	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	18	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Burgjet	burgje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=15|end_char=22|NER=O
+7	në	në	ADP	_	Case=Acc	23	case	_	start_char=23|end_char=25|NER=O
+8	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=26|end_char=34|NER=B-VEND_1
+9	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=35|end_char=39|NER=O
+10	mbipopulluar	mbipopulloj	VERB	_	VerbForm=Part	0	root	_	start_char=40|end_char=52|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	25	punct	_	start_char=53|end_char=54|SpacesAfter=\n|NER=O
+
+# text = Teksa ishte në komisionin parlamentar të Sigurisë , ministri i Drejtësisë , Ulsi Manja , dhe drejtori i përgjithshëm i Burgjeve , Admir Abrija , thanë se këtë vit janë mbi 500 të dënuar më shumë se viti i shkuar .
+# sent_id = 1
+1	Teksa	teksa	SCONJ	_	_	2	mark	_	start_char=0|end_char=5|NER=O
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=6|end_char=11|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=12|end_char=14|NER=O
+4	komisionin	komision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=15|end_char=25|NER=O
+5	parlamentar	parlamentar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=26|end_char=37|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=38|end_char=40|NER=O
+7	Sigurisë	Siguri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=41|end_char=49|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=50|end_char=51|NER=O
+9	ministri	ministr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=52|end_char=60|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=61|end_char=62|NER=O
+11	Drejtësisë	drejtësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=63|end_char=73|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=74|end_char=75|NER=O
+13	Ulsi	Ulsi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	start_char=76|end_char=80|NER=B-PER
+14	Manja	manjë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=81|end_char=86|SpaceAfter=No|NER=I-PER
+15	,	,	PUNCT	_	_	16	punct	_	start_char=87|end_char=88|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=89|end_char=92|NER=O
+17	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	start_char=93|end_char=101|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=102|end_char=103|NER=O
+19	përgjithshëm	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=104|end_char=116|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=117|end_char=118|NER=O
+21	Burgjeve	Burgje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=119|end_char=127|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=128|end_char=129|NER=O
+23	Admir	Admir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	nsubj	_	start_char=130|end_char=135|NER=B-PER
+24	Abrija	Abrijë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	flat	_	start_char=136|end_char=142|SpaceAfter=No|NER=I-PER
+25	,	,	PUNCT	_	_	23	punct	_	start_char=143|end_char=144|NER=O
+26	thanë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	parataxis	_	start_char=145|end_char=150|NER=O
+27	se	se	SCONJ	_	_	30	mark	_	start_char=151|end_char=153|NER=O
+28	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=154|end_char=158|NER=O
+29	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	advmod	_	start_char=159|end_char=162|NER=O
+30	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	conj	_	start_char=163|end_char=167|NER=O
+31	mbi	mbi	ADP	_	Case=Acc	32	case	_	start_char=168|end_char=171|NER=O
+32	500	500	NUM	_	NumType=Card	34	obj	_	start_char=172|end_char=175|NER=O
+33	të	të	PART	_	_	34	fixed	_	start_char=176|end_char=178|NER=O
+34	dënuar	dënoj	VERB	_	VerbForm=Part	30	advmod	_	start_char=179|end_char=185|NER=O
+35	më	më	PART	_	_	36	mark	_	start_char=186|end_char=188|NER=O
+36	shumë	shumë	ADV	_	AdvType=Deg	38	advmod	_	start_char=189|end_char=194|NER=O
+37	se	se	SCONJ	_	_	38	mark	_	start_char=195|end_char=197|NER=O
+38	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	start_char=198|end_char=202|NER=O
+39	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	40	det	_	start_char=203|end_char=204|NER=O
+40	shkuar	shkoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=205|end_char=211|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	30	punct	_	start_char=212|end_char=213|SpacesAfter=\n|NER=O
+
+# text = " Amnistia penale është dosmosdoshmëri për uljen e mbipopullimit në burgje .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Amnistia	Amnisti	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=2|end_char=10|NER=O
+3	penale	penal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=11|end_char=17|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+5	dosmosdoshmëri	dosmosdoshmëri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	cop	_	start_char=24|end_char=38|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=39|end_char=42|NER=O
+7	uljen	ulje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=43|end_char=48|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=49|end_char=50|NER=O
+9	mbipopullimit	mbipopullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=64|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=65|end_char=67|NER=O
+11	burgje	burgje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=68|end_char=74|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	4	punct	_	start_char=75|end_char=76|NER=O
+
+# text = Kemi mbipopullim , " u shpreh ministri Manja .
+# sent_id = 3
+1	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	advmod	_	start_char=0|end_char=4|NER=O
+2	mbipopullim	mbipopullim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=5|end_char=16|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|SpaceAfter=No|NER=O
+4	"	"	PUNCT	_	_	6	punct	_	start_char=19|end_char=20|NER=O
+5	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	fixed	_	start_char=21|end_char=22|NER=O
+6	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=23|end_char=29|NER=O
+7	ministri	ministr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=30|end_char=38|NER=O
+8	Manja	manjë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=39|end_char=44|SpaceAfter=No|NER=B-PER
+9	.	.	PUNCT	_	_	6	punct	_	start_char=45|end_char=46|SpacesAfter=\n|NER=O
+
+# text = Ndërsa z .
+# sent_id = 4
+1	Ndërsa	ndërsa	CCONJ	_	_	0	root	_	start_char=0|end_char=6|NER=O
+2	z	z	PROPN	_	Foreign=Yes	1	punct	_	start_char=7|end_char=8|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	2	punct	_	start_char=9|end_char=10|NER=O
+
+# text = Abrija shtoji se ka një " shtesë më mbi 500 të burgosur nga viti i shkuar në këtë vit .
+# sent_id = 5
+1	Abrija	Abrijë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	shtoji	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	se	se	SCONJ	_	_	4	mark	_	start_char=14|end_char=16|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=17|end_char=19|NER=O
+5	një	një	DET	_	Definite=Ind	7	det	_	start_char=20|end_char=23|NER=O
+6	"	"	PUNCT	_	_	7	punct	_	start_char=24|end_char=25|SpaceAfter=No|NER=O
+7	shtesë	shtesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=26|end_char=32|NER=O
+8	më	më	PART	_	_	12	mark	_	start_char=33|end_char=35|NER=O
+9	mbi	mbi	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=39|NER=O
+10	500	500	NUM	_	NumType=Card	12	nummod	_	start_char=40|end_char=43|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=44|end_char=46|NER=O
+12	burgosur	burgosur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=47|end_char=55|NER=O
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=56|end_char=59|NER=O
+14	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	start_char=60|end_char=64|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=65|end_char=66|NER=O
+16	shkuar	shkoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=67|end_char=73|NER=O
+17	në	në	ADP	_	Case=Acc	19	case	_	start_char=74|end_char=76|NER=O
+18	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=77|end_char=81|NER=O
+19	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=82|end_char=85|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	2	punct	_	start_char=86|end_char=87|NER=O
+
+# text = Rritje me 10 % dhe duam më shumë lekë për t ' i ushqyer .
+# sent_id = 6
+1	Rritje	Rritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=0|end_char=6|NER=O
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=7|end_char=9|NER=O
+3	10	10	NUM	_	NumType=Card	1	nmod	_	start_char=10|end_char=12|SpaceAfter=No|NER=O
+4	%	%	SYM	_	_	3	flat	_	start_char=13|end_char=14|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=15|end_char=18|NER=O
+6	duam	dom	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+7	më	më	PART	_	_	9	mark	_	start_char=24|end_char=26|NER=O
+8	shumë	shumë	ADV	_	AdvType=Deg	9	nummod	_	start_char=27|end_char=32|NER=O
+9	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=33|end_char=37|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=41|NER=O
+11	t	t'i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	start_char=42|end_char=43|NER=O
+12	'	'	PUNCT	_	_	12	punct	_	start_char=44|end_char=45|NER=O
+13	i	t'i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	start_char=46|end_char=47|NER=O
+14	ushqyer	ushqyj	VERB	_	VerbForm=Part	6	conj	_	start_char=48|end_char=55|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	6	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=O
+
+# text = " Z .
+# sent_id = 7
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Z	Z	PROPN	_	Foreign=Yes	0	root	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	2	punct	_	start_char=4|end_char=5|NER=O
+
+# text = Manja dhe drejtori i përgjithshëm i Burgjeve ngritën problemin e akomodimit të personave me probleme të shëndetit mendor .
+# sent_id = 8
+1	Manja	manjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=6|end_char=9|NER=O
+3	drejtori	drejtor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	start_char=10|end_char=18|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	përgjithshëm	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=21|end_char=33|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=34|end_char=35|NER=O
+7	Burgjeve	Burgje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=36|end_char=44|NER=O
+8	ngritën	ngritëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=45|end_char=52|NER=O
+9	problemin	problem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=53|end_char=62|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=63|end_char=64|NER=O
+11	akomodimit	akomodim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=65|end_char=75|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=76|end_char=78|NER=O
+13	personave	person	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=79|end_char=88|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=89|end_char=91|NER=O
+15	probleme	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=92|end_char=100|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	17	det:poss	_	start_char=101|end_char=103|NER=O
+17	shëndetit	shëndet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=104|end_char=113|NER=O
+18	mendor	mendor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=114|end_char=120|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	8	punct	_	start_char=121|end_char=122|SpacesAfter=\n|NER=O
+
+# text = " Kërkojmë zgjidhje urgjente për trajtimin e personave nën masë mjekësore .
+# sent_id = 9
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kërkojmë	kërkoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=10|NER=O
+3	zgjidhje	zgjidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=11|end_char=19|NER=O
+4	urgjente	urgjent	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=20|end_char=28|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=29|end_char=32|NER=O
+6	trajtimin	trajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=33|end_char=42|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=43|end_char=44|NER=O
+8	personave	person	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=45|end_char=54|NER=O
+9	nën	nën	ADP	_	Case=Acc	10	case	_	start_char=55|end_char=58|NER=O
+10	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=59|end_char=63|NER=O
+11	mjekësore	mjekësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=64|end_char=73|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	2	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Ata duhet të trajtohen nga Ministria e Shëndetësisë .
+# sent_id = 10
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=0|end_char=3|NER=O
+2	duhet	duhem	AUX	_	_	4	aux	_	start_char=4|end_char=9|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=10|end_char=12|NER=O
+4	trajtohen	trajtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=13|end_char=22|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=23|end_char=26|NER=O
+6	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=27|end_char=36|NER=B-ORG
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=37|end_char=38|NER=I-ORG
+8	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=39|end_char=51|SpaceAfter=No|NER=I-ORG
+9	.	.	PUNCT	_	_	4	punct	_	start_char=52|end_char=53|NER=O
+
+# text = Numri vjen në rritje , gjykatat nuk bëjnë riekspertim , " deklaroi ministri Manja .
+# sent_id = 11
+1	Numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=O
+2	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=10|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=11|end_char=13|NER=O
+4	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	start_char=14|end_char=20|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=21|end_char=22|NER=O
+6	gjykatat	gjykatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	start_char=23|end_char=31|NER=O
+7	nuk	nuk	PART	_	_	8	mark	_	start_char=32|end_char=35|NER=O
+8	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=36|end_char=41|NER=O
+9	riekspertim	riekspertim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=42|end_char=53|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	12	punct	_	start_char=56|end_char=57|NER=O
+12	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	start_char=58|end_char=66|NER=O
+13	ministri	ministr	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=67|end_char=75|NER=O
+14	Manja	manjë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	appos	_	start_char=76|end_char=81|SpaceAfter=No|NER=B-PER
+15	.	.	PUNCT	_	_	12	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+
+# text = " 3 .
+# sent_id = 12
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	3	3	NUM	_	NumType=Card	27	nsubj	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	27	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = 136 të paraburgosur , 2 .
+# sent_id = 13
+1	136	136	NUM	_	NumType=Card	2	flat	_	start_char=0|end_char=3|NER=O
+2	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=4|end_char=6|NER=O
+3	paraburgosur	paraburgosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=7|end_char=19|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	8	punct	_	start_char=20|end_char=21|NER=O
+5	2	2	NUM	_	NumType=Card	8	nummod	_	start_char=22|end_char=23|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	5	punct	_	start_char=24|end_char=25|NER=O
+
+# text = 167 të dënuar , 456 pacientë me masë mjekësore në spitalet e burgjeve dhe Institutin e Shën - Kollit , " tha z .
+# sent_id = 14
+1	167	167	NUM	_	NumType=Card	5	advmod	_	start_char=0|end_char=3|NER=O
+2	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=4|end_char=6|NER=O
+3	dënuar	dënuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=7|end_char=13|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	13	punct	_	start_char=14|end_char=15|NER=O
+5	456	456	NUM	_	NumType=Card	13	nummod	_	start_char=16|end_char=19|NER=O
+6	pacientë	pacientë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	advmod	_	start_char=20|end_char=28|NER=O
+7	me	me	ADP	_	Case=Acc	15	case	_	start_char=29|end_char=31|NER=O
+8	masë	masë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=32|end_char=36|NER=O
+9	mjekësore	mjekësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=37|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	18	case	_	start_char=47|end_char=49|NER=O
+11	spitalet	spital	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=50|end_char=58|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=59|end_char=60|NER=O
+13	burgjeve	burgje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=61|end_char=69|NER=O
+14	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=70|end_char=73|NER=O
+15	Institutin	Institut	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=74|end_char=84|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=85|end_char=86|NER=O
+17	Shën	shën-Koll	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=87|end_char=91|SpaceAfter=No|NER=O
+18	-	-	PUNCT	_	_	22	punct	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+19	Kollit	shën-Koll	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=94|end_char=100|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	27	punct	_	start_char=101|end_char=102|SpaceAfter=No|NER=O
+21	"	"	PUNCT	_	_	27	punct	_	start_char=103|end_char=104|NER=O
+22	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=105|end_char=108|NER=O
+23	z	z	PROPN	_	Foreign=Yes	27	nsubj	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	27	punct	_	start_char=111|end_char=112|NER=O
+
+# text = Abrija .
+# sent_id = 15
+1	Abrija	Abrijë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|SpacesAfter=\n|NER=O
+
+# text = Sa i përket uniformave të punonjësve të policisë së burgjeve , Drejtoria e Përgjithshme e Burgjeve kërkon 576 milionë lekë shtesë për vijimësinë e kontratës së uniformave të policisë së burgjeve .
+# sent_id = 16
+1	Sa	sa	ADV	_	AdvType=Deg	3	mark	_	start_char=0|end_char=2|NER=O
+2	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=3|end_char=4|NER=O
+3	përket	përkas	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=5|end_char=11|NER=O
+4	uniformave	uniformë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=12|end_char=22|NER=O
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=23|end_char=25|NER=O
+6	punonjësve	punonjë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=26|end_char=36|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=37|end_char=39|NER=O
+8	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=40|end_char=48|NER=O
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=49|end_char=51|NER=O
+10	burgjeve	burgje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=52|end_char=60|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=61|end_char=62|NER=O
+12	Drejtoria	drejtori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=63|end_char=72|NER=B-ORG
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=73|end_char=74|NER=I-ORG
+14	Përgjithshme	përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=75|end_char=87|NER=I-ORG
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=88|end_char=89|NER=I-ORG
+16	Burgjeve	Burgje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=90|end_char=98|NER=I-ORG
+17	kërkon	kërkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=99|end_char=105|NER=O
+18	576	576	NUM	_	NumType=Card	19	nummod	_	start_char=106|end_char=109|NER=O
+19	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	start_char=110|end_char=117|NER=O
+20	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	nmod	_	start_char=118|end_char=122|NER=O
+21	shtesë	shtesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	start_char=123|end_char=129|NER=O
+22	për	për	ADP	_	Case=Acc	23	case	_	start_char=130|end_char=133|NER=O
+23	vijimësinë	vijimësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=134|end_char=144|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=145|end_char=146|NER=O
+25	kontratës	kontratë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=147|end_char=156|NER=O
+26	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=157|end_char=159|NER=O
+27	uniformave	uniformë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=160|end_char=170|NER=O
+28	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	29	det:poss	_	start_char=171|end_char=173|NER=O
+29	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=174|end_char=182|NER=O
+30	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=183|end_char=185|NER=O
+31	burgjeve	burgje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=186|end_char=194|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	17	punct	_	start_char=195|end_char=196|SpacesAfter=\n|NER=O
+
+# text = Pjesë e buxhetit të vitit të ardhshëm është edhe rritja e pagave në burgje , e cila nis më 1 prill .
+# sent_id = 17
+1	Pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	buxhetit	buxhet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=16|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=19|NER=O
+5	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=20|end_char=25|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=26|end_char=28|NER=O
+7	ardhshëm	ardhshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=29|end_char=37|NER=O
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=43|NER=O
+9	edhe	edhe	PART	_	_	10	mark:emph	_	start_char=44|end_char=48|NER=O
+10	rritja	rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	cop	_	start_char=49|end_char=55|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=56|end_char=57|NER=O
+12	pagave	paga	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=58|end_char=64|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=65|end_char=67|NER=O
+14	burgje	burgje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=68|end_char=74|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=75|end_char=76|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=77|end_char=78|NER=O
+17	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	start_char=79|end_char=83|NER=O
+18	nis	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=84|end_char=87|NER=O
+19	më	më	ADP	_	Case=Acc	21	case	_	start_char=88|end_char=90|NER=O
+20	1	1	NUM	_	NumType=Card	21	nummod	_	start_char=91|end_char=92|NER=B-DATE_0
+21	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	start_char=93|end_char=98|SpaceAfter=No|NER=I-DATE_0
+22	.	.	PUNCT	_	_	8	punct	_	start_char=99|end_char=100|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Flutura Tota
+# sent_id = 18
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Flutura	Fluturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=18|NER=B-PER
+4	Tota	Totë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=19|end_char=23|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,61 @@
+# text = Nga ana tjetër presidenti Jair Bolsonaro tha se dëmi që i është bërë ekonomisë mund të sjellë kufizime dhe vështirësi në parandalimin e pandemisë .
+# sent_id = 0
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=4|end_char=7|NER=O
+3	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	start_char=8|end_char=14|NER=O
+4	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=15|end_char=25|NER=O
+5	Jair	Jair	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	start_char=26|end_char=30|NER=B-PER
+6	Bolsonaro	Bolsonaro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=31|end_char=40|NER=I-PER
+7	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=41|end_char=44|NER=O
+8	se	se	SCONJ	_	_	13	mark	_	start_char=45|end_char=47|NER=O
+9	dëmi	dëmi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=48|end_char=52|NER=O
+10	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=53|end_char=55|NER=O
+11	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=56|end_char=57|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=58|end_char=63|NER=O
+13	bërë	bëj	VERB	_	VerbForm=Part	9	acl:relcl	_	start_char=64|end_char=68|NER=O
+14	ekonomisë	ekonomi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=69|end_char=78|NER=O
+15	mund	mund	AUX	_	_	17	aux	_	start_char=79|end_char=83|NER=O
+16	të	të	PART	_	_	17	fixed	_	start_char=84|end_char=86|NER=O
+17	sjellë	sjell	VERB	_	VerbForm=Part	13	advcl	_	start_char=87|end_char=93|NER=O
+18	kufizime	kufizim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	start_char=94|end_char=102|NER=O
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=103|end_char=106|NER=O
+20	vështirësi	vështirës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	start_char=107|end_char=117|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=118|end_char=120|NER=O
+22	parandalimin	parandalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=121|end_char=133|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=134|end_char=135|NER=O
+24	pandemisë	pandemi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=136|end_char=145|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	17	punct	_	start_char=146|end_char=147|SpacesAfter=\n|NER=O
+
+# text = Përkeqësimi i situatës epidemiologjike në Brazil sipas mjekësve vjen edhe për shkak të përhapje së varianteve të reja të cilat kanë një transmetueshmëri të shpejtë .
+# sent_id = 1
+1	Përkeqësimi	përkeqësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=11|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=12|end_char=13|NER=O
+3	situatës	situatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=14|end_char=22|NER=O
+4	epidemiologjike	epidemiologjik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=23|end_char=38|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=39|end_char=41|NER=O
+6	Brazil	Brazil	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=42|end_char=48|NER=B-VEND_1
+7	sipas	sipas	ADP	_	Case=Abl	8	case	_	start_char=49|end_char=54|NER=O
+8	mjekësve	mjekë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=55|end_char=63|NER=O
+9	vjen	vij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=64|end_char=68|NER=O
+10	edhe	edhe	PART	_	_	12	mark	_	start_char=69|end_char=73|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=74|end_char=77|NER=O
+12	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=78|end_char=83|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=84|end_char=86|NER=O
+14	përhapje	përhap	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=87|end_char=95|NER=O
+15	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=96|end_char=98|NER=O
+16	varianteve	variant	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=99|end_char=109|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=110|end_char=112|NER=O
+18	reja	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=113|end_char=117|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=118|end_char=120|NER=O
+20	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	21	nsubj	_	start_char=121|end_char=126|NER=O
+21	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	acl	_	start_char=127|end_char=131|NER=O
+22	një	një	DET	_	Definite=Ind	23	det	_	start_char=132|end_char=135|NER=O
+23	transmetueshmëri	transmetueshmëri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=136|end_char=152|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=153|end_char=155|NER=O
+25	shpejtë	shpejtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=156|end_char=163|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	21	punct	_	start_char=164|end_char=165|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 2
+1	.	.	PUNCT	_	_	21	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+

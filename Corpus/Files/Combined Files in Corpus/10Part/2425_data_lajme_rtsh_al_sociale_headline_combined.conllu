@@ -1,0 +1,82 @@
+# text = 28 / 01 / 2022 vendimi që i propozohet sot qeverisë lindi si ide 3 muaj më parë , pas protestave kundër rritjes së çmimit të energjisë elektrike .
+# sent_id = 0
+1	28	28	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	13	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	15	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	vendimi	vendim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=15|end_char=22|NER=O
+7	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=23|end_char=25|NER=O
+8	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	start_char=26|end_char=27|NER=O
+9	propozohet	propozoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	acl:relcl	_	start_char=28|end_char=38|NER=O
+10	sot	sot	ADV	_	AdvType=Tim	6	advmod	_	start_char=39|end_char=42|NER=O
+11	qeverisë	qeveri	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=43|end_char=51|NER=O
+12	lindi	lind	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=52|end_char=57|NER=O
+13	si	si	SCONJ	_	_	9	mark	_	start_char=58|end_char=60|NER=O
+14	ide	ide	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=61|end_char=64|NER=O
+15	3	3	NUM	_	NumType=Card	11	nummod	_	start_char=65|end_char=66|NER=O
+16	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	start_char=67|end_char=71|NER=O
+17	më	më	PART	_	_	13	mark	_	start_char=72|end_char=74|NER=O
+18	parë	parë	ADV	_	AdvType=Tim	11	advmod	_	start_char=75|end_char=79|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	16	punct	_	start_char=80|end_char=81|NER=O
+20	pas	pas	ADP	_	Case=Abl	16	case	_	start_char=82|end_char=85|NER=O
+21	protestave	protestë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=86|end_char=96|NER=O
+22	kundër	kundër	ADP	_	Case=Abl	18	case	_	start_char=97|end_char=103|NER=O
+23	rritjes	rritje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=104|end_char=111|NER=O
+24	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=112|end_char=114|NER=O
+25	çmimit	çmim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=115|end_char=121|NER=O
+26	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=122|end_char=124|NER=O
+27	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=125|end_char=134|NER=O
+28	elektrike	elektrik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=135|end_char=144|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	7	punct	_	start_char=145|end_char=146|NER=O
+
+# text = Adriatik Lapaj thotë se drafti do të dorëzohet të hënën në qeveri .
+# sent_id = 1
+1	Adriatik	Adriatik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|NER=B-PER
+2	Lapaj	Lapaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=9|end_char=14|NER=I-PER
+3	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=20|NER=O
+4	se	se	SCONJ	_	_	7	mark	_	start_char=21|end_char=23|NER=O
+5	drafti	draft	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=24|end_char=30|NER=O
+6	do	do	PART	_	_	7	fixed	_	start_char=31|end_char=33|NER=O
+7	të	të	PART	_	_	7	fixed	_	start_char=34|end_char=36|NER=O
+8	dorëzohet	dorëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=37|end_char=46|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=47|end_char=49|NER=B-DATE_1
+10	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=50|end_char=55|NER=I-DATE_1
+11	në	në	ADP	_	Case=Acc	11	case	_	start_char=56|end_char=58|NER=O
+12	qeveri	qever	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=59|end_char=65|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67|SpacesAfter=\n|NER=O
+
+# text = Ligji i vitit 2018 " Për sektorin e energjisë elektrike " parashikon rregullimet për shtresat në nevojë dhe VKM - ja që propozohet plotëson këtë hallkë të munguar të ligjit .
+# sent_id = 2
+1	Ligji	ligj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=6|end_char=7|NER=O
+3	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=13|NER=B-DATE_0
+4	2018	2018	NUM	_	NumType=Card	3	flat	_	start_char=14|end_char=18|NER=I-DATE_0
+5	"	"	PUNCT	_	_	7	punct	_	start_char=19|end_char=20|SpaceAfter=No|NER=O
+6	Për	për	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=24|NER=O
+7	sektorin	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=25|end_char=33|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=34|end_char=35|NER=O
+9	energjisë	energji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=36|end_char=45|NER=O
+10	elektrike	elektrik	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	11	fixed	_	start_char=46|end_char=55|NER=O
+11	"	"	PUNCT	_	_	11	punct	_	start_char=56|end_char=57|NER=O
+12	parashikon	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=58|end_char=68|NER=O
+13	rregullimet	rregullim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=69|end_char=80|NER=O
+14	për	për	ADP	_	Case=Acc	14	case	_	start_char=81|end_char=84|NER=O
+15	shtresat	shtresë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	start_char=85|end_char=93|NER=O
+16	në	në	ADP	_	Case=Acc	16	case	_	start_char=94|end_char=96|NER=O
+17	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	advmod	_	start_char=97|end_char=103|NER=O
+18	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=104|end_char=107|NER=O
+19	VKM	VKM-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	start_char=108|end_char=111|NER=O
+20	-	-	PUNCT	_	_	16	punct	_	start_char=112|end_char=113|NER=O
+21	ja	VKM-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	start_char=114|end_char=116|NER=O
+22	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=117|end_char=119|NER=O
+23	propozohet	propozoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	acl:relcl	_	start_char=120|end_char=130|NER=O
+24	plotëson	plotësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	ccomp	_	start_char=131|end_char=139|NER=O
+25	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	start_char=140|end_char=144|NER=O
+26	hallkë	hallkë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=145|end_char=151|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=152|end_char=154|NER=O
+28	munguar	munguar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=155|end_char=162|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=163|end_char=165|NER=O
+30	ligjit	ligj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=166|end_char=172|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	21	punct	_	start_char=173|end_char=174|SpacesAfter=\n\n\n|NER=O
+

@@ -1,0 +1,195 @@
+# text = 27 / 10 / 2023 Ministrja e Shëndetësisë dhe Mbrojtjes Sociale , Albana Koçiu , mori pjesë në punimet e Kongresit të II - të Ndërkombëtar të Profesionistëve të Kujdesit Shëndetësor .
+# sent_id = 0
+1	27	27	NUM	_	NumType=Card	11	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	11	flat	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	conj	_	start_char=15|end_char=24|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=25|end_char=26|NER=O
+8	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=27|end_char=39|NER=O
+9	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=40|end_char=43|NER=O
+10	Mbrojtjes	mbrojtje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	conj	_	start_char=44|end_char=53|NER=O
+11	Sociale	social	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=54|end_char=61|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	24	punct	_	start_char=62|end_char=63|NER=O
+13	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	nsubj	_	start_char=64|end_char=70|NER=B-PER
+14	Koçiu	Koçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=71|end_char=76|SpaceAfter=No|NER=I-PER
+15	,	,	PUNCT	_	_	24	punct	_	start_char=77|end_char=78|NER=O
+16	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=79|end_char=83|NER=O
+17	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	start_char=84|end_char=89|NER=O
+18	në	në	ADP	_	Case=Acc	30	case	_	start_char=90|end_char=92|NER=O
+19	punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obl	_	start_char=93|end_char=100|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=101|end_char=102|NER=O
+21	Kongresit	Kongres	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	start_char=103|end_char=112|NER=B-EVENT
+22	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=113|end_char=115|NER=I-EVENT
+23	II	II-të	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	start_char=116|end_char=118|NER=I-EVENT
+24	-	-	PUNCT	_	_	32	punct	_	start_char=119|end_char=120|NER=I-EVENT
+25	të	II-të	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	start_char=121|end_char=123|NER=I-EVENT
+26	Ndërkombëtar	ndërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=124|end_char=136|NER=I-EVENT
+27	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=137|end_char=139|NER=I-EVENT
+28	Profesionistëve	profesionistë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	34	nmod	_	start_char=140|end_char=155|NER=I-EVENT
+29	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	39	det:poss	_	start_char=156|end_char=158|NER=I-EVENT
+30	Kujdesit	Kujdes	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=159|end_char=167|NER=I-EVENT
+31	Shëndetësor	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	start_char=168|end_char=179|SpaceAfter=No|NER=I-EVENT
+32	.	.	PUNCT	_	_	27	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = Kongresi i UISH 2023 ka bërë bashkë rreth 30 mijë profesionistë të kujdesit shëndetësor në Shqipëri .
+# sent_id = 1
+1	Kongresi	kongres	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=8|NER=B-EVENT
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=9|end_char=10|NER=I-EVENT
+3	UISH	UISH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=15|NER=I-EVENT
+4	2023	2023	NUM	_	NumType=Card	3	flat	_	start_char=16|end_char=20|NER=I-EVENT
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=21|end_char=23|NER=O
+6	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=24|end_char=28|NER=O
+7	bashkë	bashkë	ADV	_	AdvType=Man	6	advmod	_	start_char=29|end_char=35|NER=O
+8	rreth	rreth	ADP	_	Case=Abl	11	case	_	start_char=36|end_char=41|NER=O
+9	30	30	NUM	_	NumType=Card	11	nummod	_	start_char=42|end_char=44|NER=O
+10	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	nummod	_	start_char=45|end_char=49|NER=O
+11	profesionistë	profesionistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	start_char=50|end_char=63|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=64|end_char=66|NER=O
+13	kujdesit	kujdes	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=67|end_char=75|NER=O
+14	shëndetësor	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=76|end_char=87|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=88|end_char=90|NER=O
+16	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=91|end_char=99|SpaceAfter=No|NER=B-VEND_1
+17	.	.	PUNCT	_	_	6	punct	_	start_char=100|end_char=101|SpacesAfter=\n|NER=O
+
+# text = Në fjalën e saj të hapjes , ministrja Koçiu ka theksuar rëndësinë e platformës elektronike " Infermierë për Shqipërinë " në rritjen e numrit të punësimeve dhe aplikimeve .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	fjalën	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=12|end_char=15|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=16|end_char=18|NER=O
+6	hapjes	hapje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=19|end_char=25|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	2	punct	_	start_char=26|end_char=27|NER=O
+8	ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=28|end_char=37|NER=O
+9	Koçiu	Koçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=38|end_char=43|NER=B-PER
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=44|end_char=46|NER=O
+11	theksuar	theksoj	VERB	_	VerbForm=Part	0	root	_	start_char=47|end_char=55|NER=O
+12	rëndësinë	rëndësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=56|end_char=65|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=66|end_char=67|NER=O
+14	platformës	platformë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=68|end_char=78|NER=O
+15	elektronike	elektronik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=79|end_char=90|NER=O
+16	"	"	PUNCT	_	_	17	punct	_	start_char=91|end_char=92|SpaceAfter=No|NER=O
+17	Infermierë	Infermierë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	appos	_	start_char=93|end_char=103|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=104|end_char=107|NER=O
+19	Shqipërinë	shqipërinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=108|end_char=118|NER=O
+20	"	"	PUNCT	_	_	17	punct	_	start_char=119|end_char=120|NER=O
+21	në	në	ADP	_	Case=Acc	21	case	_	start_char=121|end_char=123|NER=O
+22	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=124|end_char=131|NER=O
+23	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=132|end_char=133|NER=O
+24	numrit	numër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=134|end_char=140|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=141|end_char=143|NER=O
+26	punësimeve	punësim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=144|end_char=154|NER=O
+27	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=155|end_char=158|NER=O
+28	aplikimeve	aplikim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	conj	_	start_char=159|end_char=169|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	11	punct	_	start_char=170|end_char=171|SpacesAfter=\n|NER=O
+
+# text = Zonja Koçiu nënvizoi se " aktualisht është në përmbyllje procesi i thirrjes së hapur në muajin Gusht 2023 në të cilin janë regjistruar 2 .
+# sent_id = 3
+1	Zonja	Zonjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	Koçiu	Koçi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6|end_char=11|NER=B-PER
+3	nënvizoi	nënvizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=12|end_char=20|NER=O
+4	se	se	SCONJ	_	_	7	mark	_	start_char=21|end_char=23|NER=O
+5	"	"	PUNCT	_	_	6	punct	_	start_char=24|end_char=25|SpaceAfter=No|NER=O
+6	aktualisht	aktualisht	ADV	_	AdvType=Man	7	advmod	_	start_char=26|end_char=36|NER=O
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=37|end_char=42|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=43|end_char=45|NER=O
+9	përmbyllje	përmbyllje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl:arg	_	start_char=46|end_char=56|NER=O
+10	procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=57|end_char=64|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=65|end_char=66|NER=O
+12	thirrjes	thirrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=67|end_char=75|NER=O
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=76|end_char=78|NER=O
+14	hapur	hapur	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=79|end_char=84|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=85|end_char=87|NER=O
+16	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=88|end_char=94|NER=O
+17	Gusht	Gusht	NUM	_	NumType=Card	16	amod:nummod	_	start_char=95|end_char=100|NER=B-DATE_0
+18	2023	2023	NUM	_	NumType=Card	16	amod:nummod	_	start_char=101|end_char=105|NER=I-DATE_0
+19	në	në	ADP	_	Case=Acc	21	case	_	start_char=106|end_char=108|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	21	det	_	start_char=109|end_char=111|NER=O
+21	cilin	cili	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	23	obl	_	start_char=112|end_char=117|NER=O
+22	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=118|end_char=122|NER=O
+23	regjistruar	regjistroj	VERB	_	VerbForm=Part	16	acl:relcl	_	start_char=123|end_char=134|NER=O
+24	2	2	NUM	_	NumType=Card	23	advmod	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	27	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=O
+
+# text = 821 aplikime " .
+# sent_id = 4
+1	821	821	NUM	_	NumType=Card	27	nummod	_	start_char=0|end_char=3|NER=O
+2	aplikime	aplikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	23	obj	_	start_char=4|end_char=12|SpaceAfter=No|NER=O
+3	"	"	PUNCT	_	_	23	punct	_	start_char=13|end_char=14|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	23	punct	_	start_char=15|end_char=16|SpacesAfter=\n|NER=O
+
+# text = Synimi i Kongresit të II - të Ndërkombëtar të Profesionistëve të Kujdesit Shëndetësor , është të rris standarded dhe përmirësojë sigurojë kushteve më të mira të punës , optimizmi i fushës së praktikës së Infermierëve , Mamive , Fizioterapistëve , Teknik – laboratori , Teknik – imazherie dhe Logopedistëve , deri te udhëheqja e infermierisë , respekti për profesionin dhe një ndikim në politikat shëndetësore në të gjitha nivelet .
+# sent_id = 5
+1	Synimi	synim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=0|end_char=6|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=7|end_char=8|NER=O
+3	Kongresit	Kongres	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=9|end_char=18|NER=B-EVENT
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=19|end_char=21|NER=I-EVENT
+5	II	II-të	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=24|NER=I-EVENT
+6	-	-	PUNCT	_	_	3	punct	_	start_char=25|end_char=26|NER=I-EVENT
+7	të	II-të	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=27|end_char=29|NER=I-EVENT
+8	Ndërkombëtar	ndërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=30|end_char=42|NER=I-EVENT
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=43|end_char=45|NER=I-EVENT
+10	Profesionistëve	profesionistë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=46|end_char=61|NER=I-EVENT
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	10	det:poss	_	start_char=62|end_char=64|NER=I-EVENT
+12	Kujdesit	Kujdes	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=65|end_char=73|NER=I-EVENT
+13	Shëndetësor	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=74|end_char=85|SpaceAfter=No|NER=I-EVENT
+14	,	,	PUNCT	_	_	15	punct	_	start_char=86|end_char=87|NER=O
+15	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=88|end_char=93|NER=O
+16	të	të	PART	_	_	15	fixed	_	start_char=94|end_char=96|NER=O
+17	rris	rres	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	csubj	_	start_char=97|end_char=101|NER=O
+18	standarded	standarded	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=102|end_char=112|NER=O
+19	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=113|end_char=116|NER=O
+20	përmirësojë	përmirësoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	15	conj	_	start_char=117|end_char=128|NER=O
+21	sigurojë	sigurojë	PRON	_	PronType=Ind	20	amod	_	start_char=129|end_char=137|NER=O
+22	kushteve	kusht	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	18	obj	_	start_char=138|end_char=146|NER=O
+23	më	më	PART	_	_	23	advmod	_	start_char=147|end_char=149|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=150|end_char=152|NER=O
+25	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=153|end_char=157|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=158|end_char=160|NER=O
+27	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=161|end_char=166|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	27	punct	_	start_char=167|end_char=168|NER=O
+29	optimizmi	optimizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	start_char=169|end_char=178|NER=O
+30	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=179|end_char=180|NER=O
+31	fushës	fushë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=181|end_char=187|NER=O
+32	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=188|end_char=190|NER=O
+33	praktikës	praktikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=191|end_char=200|NER=O
+34	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=201|end_char=203|NER=O
+35	Infermierëve	Infermier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	31	nmod	_	start_char=204|end_char=216|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	35	punct	_	start_char=217|end_char=218|NER=O
+37	Mamive	mami	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	appos	_	start_char=219|end_char=225|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	37	punct	_	start_char=226|end_char=227|NER=O
+39	Fizioterapistëve	Fizioterapistëv	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	35	list	_	start_char=228|end_char=244|SpaceAfter=No|NER=O
+40	,	,	PUNCT	_	_	39	punct	_	start_char=245|end_char=246|NER=O
+41	Teknik	Teknik	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	list	_	start_char=247|end_char=253|NER=O
+42	–	–	PUNCT	_	_	41	punct	_	start_char=254|end_char=255|NER=O
+43	laboratori	laborator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	list	_	start_char=256|end_char=266|SpaceAfter=No|NER=O
+44	,	,	PUNCT	_	_	43	punct	_	start_char=267|end_char=268|NER=O
+45	Teknik	Teknik–imazheri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	list	_	start_char=269|end_char=275|NER=O
+46	–	–	PUNCT	_	_	41	punct	_	start_char=276|end_char=277|NER=O
+47	imazherie	Teknik–imazheri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	list	_	start_char=278|end_char=287|NER=O
+48	dhe	dhe	CCONJ	_	_	45	cc	_	start_char=288|end_char=291|NER=O
+49	Logopedistëve	Logopedistë	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	43	conj	_	start_char=292|end_char=305|SpaceAfter=No|NER=O
+50	,	,	PUNCT	_	_	49	punct	_	start_char=306|end_char=307|NER=O
+51	deri	deri	PART	_	_	49	case	_	start_char=308|end_char=312|NER=O
+52	te	te	ADP	_	Case=Nom	49	case	_	start_char=313|end_char=315|NER=O
+53	udhëheqja	udhëheqje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	45	nmod	_	start_char=316|end_char=325|NER=O
+54	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	51	det:poss	_	start_char=326|end_char=327|NER=O
+55	infermierisë	infermieri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	49	nmod	_	start_char=328|end_char=340|SpaceAfter=No|NER=O
+56	,	,	PUNCT	_	_	53	punct	_	start_char=341|end_char=342|NER=O
+57	respekti	respekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	49	list	_	start_char=343|end_char=351|NER=O
+58	për	për	ADP	_	Case=Acc	55	case	_	start_char=352|end_char=355|NER=O
+59	profesionin	profesion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	53	nmod	_	start_char=356|end_char=367|NER=O
+60	dhe	dhe	CCONJ	_	_	58	cc	_	start_char=368|end_char=371|NER=O
+61	një	një	DET	_	Definite=Ind	58	det	_	start_char=372|end_char=375|NER=O
+62	ndikim	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	55	conj	_	start_char=376|end_char=382|NER=O
+63	në	në	ADP	_	Case=Acc	60	case	_	start_char=383|end_char=385|NER=O
+64	politikat	politikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	58	nmod	_	start_char=386|end_char=395|NER=O
+65	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	60	amod	_	start_char=396|end_char=408|NER=O
+66	në	në	ADP	_	Case=Acc	65	case	_	start_char=409|end_char=411|NER=O
+67	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	64	det	_	start_char=412|end_char=414|NER=O
+68	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	65	nummod	_	start_char=415|end_char=421|NER=O
+69	nivelet	nivel	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	60	nmod	_	start_char=422|end_char=429|SpaceAfter=No|NER=O
+70	.	.	PUNCT	_	_	58	punct	_	start_char=430|end_char=431|SpacesAfter=\n|NER=O
+

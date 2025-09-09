@@ -1,0 +1,87 @@
+# text = Shkodër , rehabilitohen 55 pallate 16 / 11 / 2023 Pallatet në hyrjen e qytetit të Shkodrës prej disa kohësh i janë nënshtruar rehabilitimit .
+# sent_id = 0
+1	Shkodër	Shkodër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	rehabilitohen	rehabilitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=10|end_char=23|NER=O
+4	55	55	NUM	_	NumType=Card	5	nummod	_	start_char=24|end_char=26|NER=O
+5	pallate	pallat	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=27|end_char=34|SpacesAfter=\n|NER=O
+6	16	16	NUM	_	NumType=Card	5	nummod	_	start_char=35|end_char=37|SpaceAfter=No|NER=B-DATE_0
+7	/	/	PUNCT	_	_	5	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=I-DATE_0
+8	11	11	NUM	_	NumType=Card	5	nummod	_	start_char=40|end_char=42|SpaceAfter=No|NER=I-DATE_0
+9	/	/	PUNCT	_	_	7	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=I-DATE_0
+10	2023	2023	NUM	_	NumType=Card	7	conj	_	start_char=45|end_char=49|SpaceAfter=No|NER=I-DATE_0
+11	Pallatet	pallat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=50|end_char=58|NER=O
+12	në	në	ADP	_	Case=Acc	12	case	_	start_char=59|end_char=61|NER=O
+13	hyrjen	hyrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=62|end_char=68|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=69|end_char=70|NER=O
+15	qytetit	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=71|end_char=78|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=79|end_char=81|NER=O
+17	Shkodrës	Shkodër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=82|end_char=90|NER=B-VEND_0
+18	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=91|end_char=95|NER=O
+19	disa	disa	PRON	_	PronType=Ind	19	det	_	start_char=96|end_char=100|NER=O
+20	kohësh	kohë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	22	advmod	_	start_char=101|end_char=107|NER=O
+21	i	i	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	iobj	_	start_char=108|end_char=109|NER=O
+22	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=110|end_char=114|NER=O
+23	nënshtruar	nënshtroj	VERB	_	VerbForm=Part	3	conj	_	start_char=115|end_char=125|NER=O
+24	rehabilitimit	rehabilitim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=126|end_char=139|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	22	punct	_	start_char=140|end_char=141|NER=O
+
+# text = Bëhet fjalë për 55 pallate të ndërtuar dekada më parë , ndaj të cilëve koha kishte bërë punën e saj .
+# sent_id = 1
+1	Bëhet	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=5|NER=O
+2	fjalë	fjalë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=11|NER=O
+3	për	për	ADP	_	Case=Acc	5	case	_	start_char=12|end_char=15|NER=O
+4	55	55	NUM	_	NumType=Card	5	nummod	_	start_char=16|end_char=18|NER=O
+5	pallate	pallat	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	advmod	_	start_char=19|end_char=26|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	fixed	_	start_char=27|end_char=29|NER=O
+7	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	5	acl:relcl	_	start_char=30|end_char=38|NER=O
+8	dekada	dekadë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=39|end_char=45|NER=O
+9	më	më	PART	_	_	10	mark	_	start_char=46|end_char=48|NER=O
+10	parë	parë	ADV	_	AdvType=Tim	7	advmod	_	start_char=49|end_char=53|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	14	punct	_	start_char=54|end_char=55|NER=O
+12	ndaj	ndaj	ADP	_	Case=Abl	15	case	_	start_char=56|end_char=60|NER=O
+13	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=61|end_char=63|NER=O
+14	cilëve	cili	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	17	obl	_	start_char=64|end_char=70|NER=O
+15	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=71|end_char=75|NER=O
+16	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	17	aux	_	start_char=76|end_char=82|NER=O
+17	bërë	bëj	VERB	_	VerbForm=Part	1	conj	_	start_char=83|end_char=87|NER=O
+18	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=88|end_char=93|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=94|end_char=95|NER=O
+20	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=96|end_char=99|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	17	punct	_	start_char=100|end_char=101|SpacesAfter=\n|NER=O
+
+# text = Nga ky investim do të ndërhyhet në 9 pallate në rrugën " Europa " , dhe 46 të tjera në Bulevardin " Zogu I " .
+# sent_id = 2
+1	Nga	nga	ADP	_	Case=Nom	19	case	_	start_char=0|end_char=3|NER=O
+2	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=4|end_char=6|NER=O
+3	investim	investim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=7|end_char=15|NER=O
+4	do	do	PART	_	_	22	fixed	_	start_char=16|end_char=18|NER=O
+5	të	të	PART	_	_	22	fixed	_	start_char=19|end_char=21|NER=O
+6	ndërhyhet	ndërhyj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=22|end_char=31|NER=O
+7	në	në	ADP	_	Case=Acc	25	case	_	start_char=32|end_char=34|NER=O
+8	9	9	NUM	_	NumType=Card	25	nummod	_	start_char=35|end_char=36|NER=O
+9	pallate	pallat	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	obl	_	start_char=37|end_char=44|NER=O
+10	në	në	ADP	_	Case=Acc	27	case	_	start_char=45|end_char=47|NER=O
+11	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=48|end_char=54|NER=B-RRUGE
+12	"	"	PUNCT	_	_	29	punct	_	start_char=55|end_char=56|SpaceAfter=No|NER=O
+13	Europa	Europa	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	27	appos	_	start_char=57|end_char=63|SpaceAfter=No|NER=I-RRUGE
+14	"	"	PUNCT	_	_	27	punct	_	start_char=64|end_char=65|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	31	punct	_	start_char=66|end_char=67|NER=O
+16	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=68|end_char=71|NER=O
+17	46	46	NUM	_	NumType=Card	34	advmod	_	start_char=72|end_char=74|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=75|end_char=77|NER=O
+19	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	29	conj	_	start_char=78|end_char=83|NER=O
+20	në	në	ADP	_	Case=Acc	36	case	_	start_char=84|end_char=86|NER=O
+21	Bulevardin	Bulevard	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	34	advmod	_	start_char=87|end_char=97|NER=O
+22	"	"	PUNCT	_	_	38	punct	_	start_char=98|end_char=99|SpaceAfter=No|NER=O
+23	Zogu	Zogu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	list	_	start_char=100|end_char=104|NER=O
+24	I	I	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	38	flat	_	start_char=105|end_char=106|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	38	punct	_	start_char=107|end_char=108|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	4	punct	_	start_char=109|end_char=110|SpacesAfter=\n|NER=O
+
+# text = Gazetar Luan Kadija
+# sent_id = 3
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	Luan	Luaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=B-PER
+3	Kadija	Kadijë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=13|end_char=19|SpacesAfter=\n|NER=I-PER
+

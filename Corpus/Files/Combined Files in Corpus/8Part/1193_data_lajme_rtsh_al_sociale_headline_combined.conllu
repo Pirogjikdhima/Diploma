@@ -1,0 +1,42 @@
+# text = " Sapo janë publikuar nga QSHA edhe rezultatet e maturantëve tanë në provimin Gjuhë Shqipe dhe Letërsi .
+# sent_id = 0
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Sapo	sapo	ADV	_	AdvType=Tim	4	advmod	_	start_char=2|end_char=6|NER=O
+3	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=7|end_char=11|NER=O
+4	publikuar	publikoj	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=21|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=22|end_char=25|NER=O
+6	QSHA	QSHA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=26|end_char=30|NER=B-ORG
+7	edhe	edhe	CCONJ	_	_	8	cc	_	start_char=31|end_char=35|NER=O
+8	rezultatet	rezultat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=36|end_char=46|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det:poss	_	start_char=47|end_char=48|NER=O
+10	maturantëve	maturantë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=49|end_char=60|NER=O
+11	tanë	tanë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	amod	_	start_char=61|end_char=65|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=66|end_char=68|NER=O
+13	provimin	provim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=69|end_char=77|NER=O
+14	Gjuhë	Gjuhë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=78|end_char=83|NER=O
+15	Shqipe	shqip	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	compound	_	start_char=84|end_char=90|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=91|end_char=94|NER=O
+17	Letërsi	Letërs	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	start_char=95|end_char=102|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	4	punct	_	start_char=103|end_char=104|NER=O
+
+# text = Këtë vit ata që kanë shkëlqyer me rezultate të larta janë më shumë se vitin e kaluar .
+# sent_id = 1
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4|NER=O
+2	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=5|end_char=8|NER=O
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=9|end_char=12|NER=O
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=13|end_char=15|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=16|end_char=20|NER=O
+6	shkëlqyer	shkëlqoj	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=21|end_char=30|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=33|NER=O
+8	rezultate	rezultat	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=34|end_char=43|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=44|end_char=46|NER=O
+10	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=47|end_char=52|NER=O
+11	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=53|end_char=57|NER=O
+12	më	më	PART	_	_	13	mark	_	start_char=58|end_char=60|NER=O
+13	shumë	shumë	ADV	_	AdvType=Deg	11	advmod	_	start_char=61|end_char=66|NER=O
+14	se	se	SCONJ	_	_	15	mark	_	start_char=67|end_char=69|NER=O
+15	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=70|end_char=75|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=76|end_char=77|NER=O
+17	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=78|end_char=84|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	11	punct	_	start_char=85|end_char=86|SpacesAfter=\n|NER=O
+

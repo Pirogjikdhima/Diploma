@@ -1,0 +1,47 @@
+# text = Tirana është qarku me numrin më të lartë të infektimeve me mbi 1400 raste aktive me COVID - 19 , por ky numër supozohet të të jetë me i lartë pasi shumë persona shfaqen indiferentë ndaj testimeve edhe kur kanë shenja të pranishme .
+# sent_id = 0
+1	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-VEND_0
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+3	qarku	qark	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	start_char=13|end_char=18|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=28|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=29|end_char=31|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=32|end_char=34|NER=O
+8	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=35|end_char=40|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=41|end_char=43|NER=O
+10	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=44|end_char=55|NER=O
+11	me	me	ADP	_	Case=Acc	14	case	_	start_char=56|end_char=58|NER=O
+12	mbi	mbi	ADP	_	Case=Acc	14	case	_	start_char=59|end_char=62|NER=O
+13	1400	1400	NUM	_	NumType=Card	14	nummod	_	start_char=63|end_char=67|NER=O
+14	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	start_char=68|end_char=73|NER=O
+15	aktive	aktiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=74|end_char=80|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=81|end_char=83|NER=O
+17	COVID	COVID-19	PROPN	_	Foreign=Yes	14	nmod	_	start_char=84|end_char=89|SpaceAfter=No|NER=O
+18	-	-	PUNCT	_	_	14	punct	_	start_char=90|end_char=91|SpaceAfter=No|NER=O
+19	19	19	NUM	_	NumType=Card	14	nmod	_	start_char=92|end_char=94|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=95|end_char=96|NER=O
+21	por	por	CCONJ	_	_	22	cc	_	start_char=97|end_char=100|NER=O
+22	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	start_char=101|end_char=103|NER=O
+23	numër	numër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	start_char=104|end_char=109|NER=O
+24	supozohet	supozoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	conj	_	start_char=110|end_char=119|NER=O
+25	të	të	PART	_	_	25	fixed	_	start_char=120|end_char=122|NER=O
+26	të	të	PART	_	_	25	fixed	_	start_char=123|end_char=125|NER=O
+27	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	ccomp	_	start_char=126|end_char=130|NER=O
+28	me	me	ADP	_	Case=Acc	28	case	_	start_char=131|end_char=133|NER=O
+29	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=134|end_char=135|NER=O
+30	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	cop	_	start_char=136|end_char=141|NER=O
+31	pasi	pasi	SCONJ	_	_	32	mark	_	start_char=142|end_char=146|NER=O
+32	shumë	shumë	PRON	_	PronType=Ind	31	nummod	_	start_char=147|end_char=152|NER=O
+33	persona	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	32	nsubj	_	start_char=153|end_char=160|NER=O
+34	shfaqen	shfaq	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	25	advcl	_	start_char=161|end_char=168|NER=O
+35	indiferentë	indiferentë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	32	obj	_	start_char=169|end_char=180|NER=O
+36	ndaj	ndaj	ADP	_	Case=Abl	35	case	_	start_char=181|end_char=185|NER=O
+37	testimeve	testim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	32	obl	_	start_char=186|end_char=195|NER=O
+38	edhe	edhe	CCONJ	_	_	38	mark	_	start_char=196|end_char=200|NER=O
+39	kur	kur	SCONJ	_	_	38	mark	_	start_char=201|end_char=204|NER=O
+40	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	advcl	_	start_char=205|end_char=209|NER=O
+41	shenja	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	38	obj	_	start_char=210|end_char=216|NER=O
+42	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	41	det	_	start_char=217|end_char=219|NER=O
+43	pranishme	pranishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	39	amod	_	start_char=220|end_char=229|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	38	punct	_	start_char=230|end_char=231|SpacesAfter=\n|NER=O
+

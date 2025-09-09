@@ -1,0 +1,124 @@
+# text = 09 / 02 / 2022 I vendosur në lartësinë afro 1 500 metra , Shtylla është një nga fshatrat e Korçës që gjatë dimrit shpesh mbetet i bllokuar .
+# sent_id = 0
+1	09	09	NUM	_	NumType=Card	10	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	10	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	10	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	13	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=15|end_char=16|NER=O
+7	vendosur	vendosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=17|end_char=25|NER=O
+8	në	në	ADP	_	Case=Acc	18	case	_	start_char=26|end_char=28|NER=O
+9	lartësinë	lartësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	advmod	_	start_char=29|end_char=38|NER=O
+10	afro	afro	NUM	_	NumType=Card	18	nummod	_	start_char=39|end_char=43|NER=O
+11	1	1	NUM	_	NumType=Card	22	nummod	_	start_char=44|end_char=45|NER=O
+12	500	500	NUM	_	NumType=Card	22	nummod	_	start_char=46|end_char=49|NER=O
+13	metra	metër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	start_char=50|end_char=55|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	24	punct	_	start_char=56|end_char=57|NER=O
+15	Shtylla	shtyllë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	start_char=58|end_char=65|NER=O
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=66|end_char=71|NER=O
+17	një	një	DET	_	Definite=Ind	28	det	_	start_char=72|end_char=75|NER=O
+18	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=76|end_char=79|NER=O
+19	fshatrat	fshat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	obl:arg	_	start_char=80|end_char=88|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det:poss	_	start_char=89|end_char=90|NER=O
+21	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=91|end_char=97|NER=B-VEND_0
+22	që	që	PRON	_	PronType=Rel	35	nsubj	_	start_char=98|end_char=100|NER=O
+23	gjatë	gjatë	ADP	_	Case=Abl	33	case	_	start_char=101|end_char=106|NER=O
+24	dimrit	dimër	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=107|end_char=113|NER=O
+25	shpesh	shpesh	ADV	_	AdvType=Deg	35	advmod	_	start_char=114|end_char=120|NER=O
+26	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	conj	_	start_char=121|end_char=127|NER=O
+27	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=128|end_char=129|NER=O
+28	bllokuar	bllokuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	cop	_	start_char=130|end_char=138|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	35	punct	_	start_char=139|end_char=140|NER=O
+
+# text = Nga 100 familje dikur , sot kanë mbetur vetëm 15 .
+# sent_id = 1
+1	Nga	nga	ADP	_	Case=Nom	3	case	_	start_char=0|end_char=3|NER=O
+2	100	100	NUM	_	NumType=Card	3	nummod	_	start_char=4|end_char=7|NER=O
+3	familje	familje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=8|end_char=15|NER=O
+4	dikur	dikur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=16|end_char=21|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	3	punct	_	start_char=22|end_char=23|NER=O
+6	sot	sot	ADV	_	AdvType=Tim	8	advmod	_	start_char=24|end_char=27|NER=O
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=28|end_char=32|NER=O
+8	mbetur	mbes	VERB	_	VerbForm=Part	0	root	_	start_char=33|end_char=39|NER=O
+9	vetëm	vetëm	PART	_	_	10	mark	_	start_char=40|end_char=45|NER=O
+10	15	15	NUM	_	NumType=Card	8	advmod	_	start_char=46|end_char=48|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	8	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Nuk ankohen .
+# sent_id = 2
+1	Nuk	nuk	PART	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	ankohen	ankoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=4|end_char=11|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	2	punct	_	start_char=12|end_char=13|NER=O
+
+# text = Janë të mësuar me të tillë mot .
+# sent_id = 3
+1	Janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=5|end_char=7|NER=O
+3	mësuar	mësoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	cop	_	start_char=8|end_char=14|NER=O
+4	me	me	ADP	_	Case=Acc	7	case	_	start_char=15|end_char=17|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=18|end_char=20|NER=O
+6	tillë	tillë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	start_char=21|end_char=26|NER=O
+7	mot	mot	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=27|end_char=30|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	1	punct	_	start_char=31|end_char=32|NER=O
+
+# text = Përgatisin zahiretë e dimrit dhe që në vjeshtë sigurojnë ushqimin për bagëtinë .
+# sent_id = 4
+1	Përgatisin	përgatis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=10|NER=O
+2	zahiretë	zahire	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	obj	_	start_char=11|end_char=19|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=20|end_char=21|NER=O
+4	dimrit	dimër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=28|NER=O
+5	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=29|end_char=32|NER=O
+6	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=33|end_char=35|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=36|end_char=38|NER=O
+8	vjeshtë	vjeshtë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=39|end_char=46|NER=O
+9	sigurojnë	siguroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=47|end_char=56|NER=O
+10	ushqimin	ushqim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	start_char=57|end_char=65|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=66|end_char=69|NER=O
+12	bagëtinë	bagëtinë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=70|end_char=78|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	9	punct	_	start_char=79|end_char=80|SpacesAfter=\n|NER=O
+
+# text = Enver Pino e Artur Liçkollari janë dy banorë të tjerë të cilët tregojnë se për shkak të mungesës së mjekut e infermierit ata e kanë pasur të vështirë të kalojnë Covidin që para disa ditësh u përhap në të gjithë fshatin .
+# sent_id = 5
+1	Enver	Enver	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Pino	Pino	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=10|NER=I-PER
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=11|end_char=12|NER=O
+4	Artur	Artur	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=18|NER=B-PER
+5	Liçkollari	Liçkollar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=19|end_char=29|NER=I-PER
+6	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=34|NER=O
+7	dy	dy	NUM	_	NumType=Card	8	nummod	_	start_char=35|end_char=37|NER=O
+8	banorë	banor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	cop	_	start_char=38|end_char=44|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=45|end_char=47|NER=O
+10	tjerë	tjetër	PRON	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Ind	8	amod	_	start_char=48|end_char=53|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=54|end_char=56|NER=O
+12	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	start_char=57|end_char=62|NER=O
+13	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=63|end_char=71|NER=O
+14	se	se	SCONJ	_	_	16	mark	_	start_char=72|end_char=74|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=75|end_char=78|NER=O
+16	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=79|end_char=84|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=85|end_char=87|NER=O
+18	mungesës	mungesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=88|end_char=96|NER=O
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=97|end_char=99|NER=O
+20	mjekut	mjek	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=100|end_char=106|NER=O
+21	e	e	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=107|end_char=108|NER=O
+22	infermierit	infermier	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=109|end_char=120|NER=O
+23	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=121|end_char=124|NER=O
+24	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=125|end_char=126|NER=O
+25	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=127|end_char=131|NER=O
+26	pasur	kam	VERB	_	VerbForm=Part	13	conj	_	start_char=132|end_char=137|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	28	det	_	start_char=138|end_char=140|NER=O
+28	vështirë	vështirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	26	cop	_	start_char=141|end_char=149|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=150|end_char=152|NER=O
+30	kalojnë	kaloj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	ccomp	_	start_char=153|end_char=160|NER=O
+31	Covidin	Covid	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	obj	_	start_char=161|end_char=168|NER=O
+32	që	që	PRON	_	PronType=Rel	37	nsubj	_	start_char=169|end_char=171|NER=O
+33	para	para	ADP	_	Case=Abl	35	case	_	start_char=172|end_char=176|NER=O
+34	disa	disa	PRON	_	PronType=Ind	35	det	_	start_char=177|end_char=181|NER=O
+35	ditësh	ditë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	37	obl	_	start_char=182|end_char=188|NER=O
+36	u	u	PART	_	_	37	fixed	_	start_char=189|end_char=190|NER=O
+37	përhap	përhap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	30	advcl	_	start_char=191|end_char=197|NER=O
+38	në	në	ADP	_	Case=Acc	41	case	_	start_char=198|end_char=200|NER=O
+39	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	40	det	_	start_char=201|end_char=203|NER=O
+40	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	41	det	_	start_char=204|end_char=210|NER=O
+41	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	37	obl	_	start_char=211|end_char=218|SpaceAfter=No|NER=O
+42	.	.	PUNCT	_	_	37	punct	_	start_char=219|end_char=220|SpacesAfter=\n|NER=O
+

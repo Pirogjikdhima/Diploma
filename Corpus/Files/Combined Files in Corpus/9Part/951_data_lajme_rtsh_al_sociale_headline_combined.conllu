@@ -1,0 +1,229 @@
+# text = 11 / 08 / 2023 " Mund të kemi diku te 20 apo 30 raste gjatë vitit , që është shumë për profesionin e psikologjisë .
+# sent_id = 0
+1	11	11	NUM	_	NumType=Card	10	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	8	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	10	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Mund	mund	AUX	_	_	4	aux	_	start_char=17|end_char=21|NER=O
+8	të	të	PART	_	_	4	fixed	_	start_char=22|end_char=24|NER=O
+9	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=25|end_char=29|NER=O
+10	diku	diku	ADV	_	AdvType=Loc	4	advmod	_	start_char=30|end_char=34|NER=O
+11	te	te	ADP	_	Case=Nom	7	case	_	start_char=35|end_char=37|NER=O
+12	20	20	NUM	_	NumType=Card	10	nummod	_	start_char=38|end_char=40|NER=O
+13	apo	apo	CCONJ	_	_	10	cc	_	start_char=41|end_char=44|NER=O
+14	30	30	NUM	_	NumType=Card	10	nummod	_	start_char=45|end_char=47|NER=O
+15	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=48|end_char=53|NER=O
+16	gjatë	gjatë	ADP	_	Case=Abl	12	case	_	start_char=54|end_char=59|NER=O
+17	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=60|end_char=65|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	14	punct	_	start_char=66|end_char=67|NER=O
+19	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=68|end_char=70|NER=O
+20	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=71|end_char=76|NER=O
+21	shumë	shumë	ADV	_	AdvType=Deg	15	advmod	_	start_char=77|end_char=82|NER=O
+22	për	për	ADP	_	Case=Acc	18	case	_	start_char=83|end_char=86|NER=O
+23	profesionin	profesion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	advmod	_	start_char=87|end_char=98|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=99|end_char=100|NER=O
+25	psikologjisë	psikologji	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=101|end_char=113|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	15	punct	_	start_char=114|end_char=115|NER=O
+
+# text = Ata janë psikologë që kërkojnë të largohen nga Shqipëria për të gjetur mundësi punësimi diku tjetër .
+# sent_id = 1
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=8|NER=O
+3	psikologë	psikologë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	cop	_	start_char=9|end_char=18|NER=O
+4	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=19|end_char=21|NER=O
+5	kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=22|end_char=30|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=31|end_char=33|NER=O
+7	largohen	largoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	acl:relcl	_	start_char=34|end_char=42|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=43|end_char=46|NER=O
+9	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=47|end_char=56|NER=B-VEND_1
+10	për	për	PART	_	_	12	fixed	_	start_char=57|end_char=60|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=61|end_char=63|NER=O
+12	gjetur	gjet	VERB	_	VerbForm=Part	7	advmod	_	start_char=64|end_char=70|NER=O
+13	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=71|end_char=78|NER=O
+14	punësimi	punësim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=79|end_char=87|NER=O
+15	diku	diku	ADV	_	AdvType=Loc	14	advmod	_	start_char=88|end_char=92|NER=O
+16	tjetër	tjetër	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	14	amod	_	start_char=93|end_char=99|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	2	punct	_	start_char=100|end_char=101|NER=O
+
+# text = Me çfarë kemi marrë informacion .
+# sent_id = 2
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	çfarë	çfarë	PRON	_	PronType=Ind	4	advmod	_	start_char=3|end_char=8|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=13|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=14|end_char=19|NER=O
+5	informacion	informacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=20|end_char=31|NER=O
+6	.	.	PUNCT	_	_	4	punct	_	start_char=32|end_char=33|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 3
+1	.	.	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 4
+1	.	.	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+
+# text = kanë qenë Italia , Franca , Gjermania , Austria , këto vendet e afërta .
+# sent_id = 5
+1	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=9|NER=O
+3	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=10|end_char=16|SpaceAfter=No|NER=B-VEND_1
+4	,	,	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|NER=O
+5	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	list	_	start_char=19|end_char=25|SpaceAfter=No|NER=B-VEND_1
+6	,	,	PUNCT	_	_	7	punct	_	start_char=26|end_char=27|NER=O
+7	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	list	_	start_char=28|end_char=37|SpaceAfter=No|NER=B-VEND_1
+8	,	,	PUNCT	_	_	9	punct	_	start_char=38|end_char=39|NER=O
+9	Austria	Austri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	list	_	start_char=40|end_char=47|SpaceAfter=No|NER=B-VEND_1
+10	,	,	PUNCT	_	_	12	punct	_	start_char=48|end_char=49|NER=O
+11	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=50|end_char=54|NER=O
+12	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	list	_	start_char=55|end_char=61|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=62|end_char=63|NER=O
+14	afërta	afërt	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=64|end_char=70|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	2	punct	_	start_char=71|end_char=72|NER=O
+
+# text = Pa dyshim që ka edhe për Amerikë apo Kanada , " thotë Valbona Treska Presidente e Urdhrit të Psikologut .
+# sent_id = 6
+1	Pa	pa	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	dyshim	dyshim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=3|end_char=9|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=10|end_char=12|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=13|end_char=15|NER=O
+5	edhe	edhe	PART	_	_	7	cc	_	start_char=16|end_char=20|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=24|NER=O
+7	Amerikë	Amerikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=25|end_char=32|NER=B-VEND_1
+8	apo	apo	CCONJ	_	_	9	cc	_	start_char=33|end_char=36|NER=O
+9	Kanada	Kanadë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=37|end_char=43|SpaceAfter=No|NER=B-VEND_1
+10	,	,	PUNCT	_	_	12	punct	_	start_char=44|end_char=45|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	12	punct	_	start_char=46|end_char=47|NER=O
+12	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=53|NER=O
+13	Valbona	Valbonë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=54|end_char=61|NER=B-PER
+14	Treska	Treskë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=62|end_char=68|NER=I-PER
+15	Presidente	president	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=69|end_char=79|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=80|end_char=81|NER=O
+17	Urdhrit	Urdhr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	compound	_	start_char=82|end_char=89|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=90|end_char=92|NER=O
+19	Psikologut	psikolog	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=93|end_char=103|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=104|end_char=105|SpacesAfter=\n|NER=O
+
+# text = " Unë vlerësoj që pagat e ulëta dhe ambientet , kushtet e punësimit , vështirësia për të përballuar jetën , janë ndër shkaqet kryesore të largimit të këtyre psikologëve , " shton Treska .
+# sent_id = 7
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2|end_char=5|NER=O
+3	vlerësoj	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	21	advcl	_	start_char=6|end_char=14|NER=O
+4	që	që	SCONJ	_	_	5	mark	_	start_char=15|end_char=17|NER=O
+5	pagat	pagat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=18|end_char=23|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=24|end_char=25|NER=O
+7	ulëta	ulëtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=26|end_char=31|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=32|end_char=35|NER=O
+9	ambientet	ambient	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=36|end_char=45|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=46|end_char=47|NER=O
+11	kushtet	kusht	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	appos	_	start_char=48|end_char=55|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=56|end_char=57|NER=O
+13	punësimit	punësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=58|end_char=67|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|NER=O
+15	vështirësia	vështirësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	list	_	start_char=70|end_char=81|NER=O
+16	për	për	PART	_	_	18	fixed	_	start_char=82|end_char=85|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=86|end_char=88|NER=O
+18	përballuar	përballoj	VERB	_	VerbForm=Part	21	advmod	_	start_char=89|end_char=99|NER=O
+19	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=100|end_char=105|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	18	punct	_	start_char=106|end_char=107|NER=O
+21	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=108|end_char=112|NER=O
+22	ndër	ndër	ADP	_	Case=Acc	23	case	_	start_char=113|end_char=117|NER=O
+23	shkaqet	shkaq	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	obl:arg	_	start_char=118|end_char=125|NER=O
+24	kryesore	kryesor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=126|end_char=134|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=135|end_char=137|NER=O
+26	largimit	largim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=138|end_char=146|NER=O
+27	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=147|end_char=149|NER=O
+28	këtyre	këto	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=150|end_char=156|NER=O
+29	psikologëve	psikolog	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	start_char=157|end_char=168|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	32	punct	_	start_char=169|end_char=170|SpaceAfter=No|NER=O
+31	"	"	PUNCT	_	_	32	punct	_	start_char=171|end_char=172|NER=O
+32	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	start_char=173|end_char=178|NER=O
+33	Treska	Treskë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=179|end_char=185|SpaceAfter=No|NER=B-PER
+34	.	.	PUNCT	_	_	32	punct	_	start_char=186|end_char=187|SpacesAfter=\n|NER=O
+
+# text = " Po punojmë aktualisht që çdo psikolog në Shqipëri të përfitojë certifikatën Europsy , që është një certifikatë që jepet nga Federata Europiane e Psikologëve dhe shërben për të njohur diplomën edhe në Europë , " shprehet Presidentja e Urdhrit të Psikologut .
+# sent_id = 8
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Po	po	PART	_	_	3	mark	_	start_char=2|end_char=4|NER=O
+3	punojmë	punoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=12|NER=O
+4	aktualisht	aktualisht	ADV	_	AdvType=Man	3	advmod	_	start_char=13|end_char=23|NER=O
+5	që	që	SCONJ	_	_	7	mark	_	start_char=24|end_char=26|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	nummod	_	start_char=27|end_char=30|NER=O
+7	psikolog	psikolog	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=31|end_char=39|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=42|NER=O
+9	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=43|end_char=51|NER=B-VEND_1
+10	të	të	PART	_	_	11	fixed	_	start_char=52|end_char=54|NER=O
+11	përfitojë	përfitoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	start_char=55|end_char=64|NER=O
+12	certifikatën	certifikatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=65|end_char=77|NER=O
+13	Europsy	Europsy	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	12	appos	_	start_char=78|end_char=85|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=86|end_char=87|NER=O
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=88|end_char=90|NER=O
+16	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=91|end_char=96|NER=O
+17	një	një	DET	_	Definite=Ind	18	det	_	start_char=97|end_char=100|NER=O
+18	certifikatë	certifikatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	cop	_	start_char=101|end_char=112|NER=O
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=113|end_char=115|NER=O
+20	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	acl:relcl	_	start_char=116|end_char=121|NER=O
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=122|end_char=125|NER=O
+22	Federata	Federatë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=126|end_char=134|NER=B-ORG
+23	Europiane	Europian	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=135|end_char=144|NER=I-ORG
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=145|end_char=146|NER=I-ORG
+25	Psikologëve	psikolog	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=147|end_char=158|NER=I-ORG
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=159|end_char=162|NER=O
+27	shërben	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	start_char=163|end_char=170|NER=O
+28	për	për	PART	_	_	30	fixed	_	start_char=171|end_char=174|NER=O
+29	të	të	PART	_	_	30	fixed	_	start_char=175|end_char=177|NER=O
+30	njohur	njoh	VERB	_	VerbForm=Part	27	advmod	_	start_char=178|end_char=184|NER=O
+31	diplomën	diplomë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	obj	_	start_char=185|end_char=193|NER=O
+32	edhe	edhe	PART	_	_	34	mark	_	start_char=194|end_char=198|NER=O
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=199|end_char=201|NER=O
+34	Europë	Europë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	advmod	_	start_char=202|end_char=208|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	37	punct	_	start_char=209|end_char=210|SpaceAfter=No|NER=O
+36	"	"	PUNCT	_	_	37	punct	_	start_char=211|end_char=212|NER=O
+37	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	30	conj	_	start_char=213|end_char=221|NER=O
+38	Presidentja	presidentje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	37	obj	_	start_char=222|end_char=233|NER=O
+39	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	40	det:poss	_	start_char=234|end_char=235|NER=O
+40	Urdhrit	Urdhr	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=236|end_char=243|NER=O
+41	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=244|end_char=246|NER=O
+42	Psikologut	psikolog	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	start_char=247|end_char=257|SpaceAfter=No|NER=O
+43	.	.	PUNCT	_	_	37	punct	_	start_char=258|end_char=259|SpacesAfter=\n|NER=O
+
+# text = Ka nga ata që kanë investuar fort në kualifikimin profesional në vend , por ka edhe të rinj që duan të përballen me një dimension tjetër jashtë Shqipërisë .
+# sent_id = 9
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=2|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=3|end_char=6|NER=O
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	_	start_char=7|end_char=10|NER=O
+4	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=11|end_char=13|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=14|end_char=18|NER=O
+6	investuar	investoj	VERB	_	VerbForm=Part	1	conj	_	start_char=19|end_char=28|NER=O
+7	fort	fort	ADV	_	AdvType=Man	6	advmod	_	start_char=29|end_char=33|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=34|end_char=36|NER=O
+9	kualifikimin	kualifikim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=37|end_char=49|NER=O
+10	profesional	profesional	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=50|end_char=61|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=62|end_char=64|NER=O
+12	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=65|end_char=69|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=70|end_char=71|NER=O
+14	por	por	CCONJ	_	_	15	cc	_	start_char=72|end_char=75|NER=O
+15	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=76|end_char=78|NER=O
+16	edhe	edhe	PART	_	_	18	mark	_	start_char=79|end_char=83|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=84|end_char=86|NER=O
+18	rinj	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	cop	_	start_char=87|end_char=91|NER=O
+19	që	që	PRON	_	PronType=Rel	20	nsubj	_	start_char=92|end_char=94|NER=O
+20	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	advcl	_	start_char=95|end_char=99|NER=O
+21	të	të	PART	_	_	22	fixed	_	start_char=100|end_char=102|NER=O
+22	përballen	përballem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	20	ccomp	_	start_char=103|end_char=112|NER=O
+23	me	me	ADP	_	Case=Acc	25	case	_	start_char=113|end_char=115|NER=O
+24	një	një	DET	_	Definite=Ind	25	det	_	start_char=116|end_char=119|NER=O
+25	dimension	dimension	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=120|end_char=129|NER=O
+26	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	25	amod	_	start_char=130|end_char=136|NER=O
+27	jashtë	jashtë	ADP	_	Case=Abl	28	case	_	start_char=137|end_char=143|NER=O
+28	Shqipërisë	Shqipëri	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=144|end_char=154|SpaceAfter=No|NER=B-VEND_1
+29	.	.	PUNCT	_	_	22	punct	_	start_char=155|end_char=156|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 10
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

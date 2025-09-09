@@ -1,0 +1,64 @@
+# text = Ministria e Shëndetësisë bëri të ditur se në 24 orët e fundit , në vendin tonë , janë regjistruar 606 raste të reja infektimesh me COVID - 19 .
+# sent_id = 0
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=24|SpaceAfter=No|NER=O
+4	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=25|end_char=29|NER=O
+5	të	të	PART	_	_	26	fixed	_	start_char=30|end_char=32|NER=O
+6	ditur	ditur	VERB	_	VerbForm=Part	24	ccomp	_	start_char=33|end_char=38|NER=O
+7	se	se	SCONJ	_	_	30	mark	_	start_char=39|end_char=41|NER=O
+8	në	në	ADP	_	Case=Acc	30	case	_	start_char=42|end_char=44|NER=O
+9	24	24	NUM	_	NumType=Card	30	nummod	_	start_char=45|end_char=47|NER=O
+10	orët	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=48|end_char=52|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det	_	start_char=53|end_char=54|NER=O
+12	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=55|end_char=61|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	35	punct	_	start_char=62|end_char=63|NER=O
+14	në	në	ADP	_	Case=Acc	35	case	_	start_char=64|end_char=66|NER=O
+15	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	39	advmod	_	start_char=67|end_char=73|NER=O
+16	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	35	amod	_	start_char=74|end_char=78|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	35	punct	_	start_char=79|end_char=80|NER=O
+18	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	39	aux	_	start_char=81|end_char=85|NER=O
+19	regjistruar	regjistroj	VERB	_	VerbForm=Part	24	conj	_	start_char=86|end_char=97|NER=O
+20	606	606	NUM	_	NumType=Card	41	nummod	_	start_char=98|end_char=101|NER=O
+21	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	39	obj	_	start_char=102|end_char=107|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	43	det	_	start_char=108|end_char=110|NER=O
+23	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	start_char=111|end_char=115|NER=O
+24	infektimesh	infektim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	41	nmod	_	start_char=116|end_char=127|NER=O
+25	me	me	ADP	_	Case=Acc	46	case	_	start_char=128|end_char=130|NER=O
+26	COVID	COVID-19	PROPN	_	_	44	nmod	_	start_char=131|end_char=136|SpaceAfter=No|NER=O
+27	-	-	PUNCT	_	_	44	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=O
+28	19	19	NUM	_	NumType=Card	44	nmod	_	start_char=139|end_char=141|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	39	punct	_	start_char=142|end_char=143|NER=O
+
+# text = MSH informon se ka pasur edhe një një humbje jete .
+# sent_id = 1
+1	MSH	MSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	informon	informoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=12|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=13|end_char=15|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=16|end_char=18|NER=O
+5	pasur	kam	VERB	_	VerbForm=Part	2	advcl	_	start_char=19|end_char=24|NER=O
+6	edhe	edhe	PART	_	_	9	cc	_	start_char=25|end_char=29|NER=O
+7	një	një	DET	_	Definite=Ind	9	det	_	start_char=30|end_char=33|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=34|end_char=37|NER=O
+9	humbje	humbje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=38|end_char=44|NER=O
+10	jete	jetë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=45|end_char=49|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	2	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Ai ka qenë një 79 - vjeçar nga Tirana .
+# sent_id = 2
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=3|end_char=5|NER=O
+3	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=6|end_char=10|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=11|end_char=14|NER=O
+5	79	79	NUM	_	NumType=Card	3	cop	_	start_char=15|end_char=17|NER=O
+6	-	-	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|NER=O
+7	vjeçar	79-vjeçar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=20|end_char=26|NER=O
+8	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=27|end_char=30|NER=O
+9	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=31|end_char=37|SpaceAfter=No|NER=B-VEND_0
+10	.	.	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|SpacesAfter=\n|NER=O
+
+# text = Elbasan /
+# sent_id = 3
+1	Elbasan	Elbasan	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	51	nmod	_	start_char=0|end_char=7|SpaceAfter=No|NER=B-VEND_0
+2	/	/	PUNCT	_	_	25	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=O
+

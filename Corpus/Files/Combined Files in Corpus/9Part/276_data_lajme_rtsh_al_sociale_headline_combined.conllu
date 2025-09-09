@@ -1,0 +1,44 @@
+# text = 16 / 12 / 2023 Ambjentalisti Midush Shabaj 10 vitet e fundit ia ka dedikuar kujdesit për këtë zonë .
+# sent_id = 0
+1	16	16	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	15	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Ambjentalisti	Ambjentalist	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=15|end_char=28|NER=O
+7	Midush	Midush	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	flat	_	start_char=29|end_char=35|NER=B-PER
+8	Shabaj	Shabaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=36|end_char=42|NER=I-PER
+9	10	10	NUM	_	NumType=Card	23	nummod	_	start_char=43|end_char=45|NER=O
+10	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=46|end_char=51|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=52|end_char=53|NER=O
+12	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=54|end_char=60|NER=O
+13	ia	ia	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=61|end_char=63|NER=O
+14	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=64|end_char=66|NER=O
+15	dedikuar	dedikoj	VERB	_	VerbForm=Part	8	conj	_	start_char=67|end_char=75|NER=O
+16	kujdesit	kujdes	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=76|end_char=84|NER=O
+17	për	për	ADP	_	Case=Acc	32	case	_	start_char=85|end_char=88|NER=O
+18	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	start_char=89|end_char=93|NER=O
+19	zonë	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	start_char=94|end_char=98|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	28	punct	_	start_char=99|end_char=100|NER=O
+
+# text = Varrezat e Dëshmorëve kanë një simbolikë të veçantë ndaj edhe zona përreth tyre meriton vëmendje të shtuar .
+# sent_id = 1
+1	Varrezat	Varrezë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	Dëshmorëve	dëshmor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=11|end_char=21|NER=O
+4	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=26|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=27|end_char=30|NER=O
+6	simbolikë	simbolikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=31|end_char=40|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=41|end_char=43|NER=O
+8	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=44|end_char=51|NER=O
+9	ndaj	ndaj	ADP	_	Case=Abl	11	case	_	start_char=52|end_char=56|NER=O
+10	edhe	edhe	CCONJ	_	_	11	mark	_	start_char=57|end_char=61|NER=O
+11	zona	zonë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	start_char=62|end_char=66|NER=O
+12	përreth	përreth	ADP	_	Case=Abl	13	case	_	start_char=67|end_char=74|NER=O
+13	tyre	tyre	PRON	_	Case=Abl|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=75|end_char=79|NER=O
+14	meriton	meritoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=80|end_char=87|NER=O
+15	vëmendje	vëmendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=88|end_char=96|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=97|end_char=99|NER=O
+17	shtuar	shtoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=100|end_char=106|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	14	punct	_	start_char=107|end_char=108|SpacesAfter=\n|NER=O
+

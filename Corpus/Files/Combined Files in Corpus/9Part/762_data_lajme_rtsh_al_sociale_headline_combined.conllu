@@ -1,0 +1,81 @@
+# text = 20 / 09 / 2023 Në vitet 1900 në fshatin Vrap , fare pranë Tiranës është gjetur një thesar i lashtë avar .
+# sent_id = 0
+1	20	20	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	13	obj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	2	case	_	start_char=15|end_char=17|NER=O
+7	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=18|end_char=23|NER=B-DATE_0
+8	1900	1900	NUM	_	NumType=Card	2	amod:nummod	_	start_char=24|end_char=28|NER=I-DATE_0
+9	në	në	ADP	_	Case=Acc	5	case	_	start_char=29|end_char=31|NER=O
+10	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=32|end_char=39|NER=O
+11	Vrap	Vrap	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=40|end_char=44|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	8	punct	_	start_char=45|end_char=46|NER=O
+13	fare	fare	ADV	_	AdvType=Deg	12	advmod	_	start_char=47|end_char=51|NER=O
+14	pranë	pranë	ADP	_	Case=Abl	10	case	_	start_char=52|end_char=57|NER=O
+15	Tiranës	Tiranë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=58|end_char=65|NER=B-VEND_0
+16	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=66|end_char=71|NER=O
+17	gjetur	gjet	VERB	_	VerbForm=Part	0	root	_	start_char=72|end_char=78|NER=O
+18	një	një	DET	_	Definite=Ind	14	det	_	start_char=79|end_char=82|NER=O
+19	thesar	thesar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=83|end_char=89|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=90|end_char=91|NER=O
+21	lashtë	lashtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=92|end_char=98|NER=O
+22	avar	avar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=99|end_char=103|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	12	punct	_	start_char=104|end_char=105|SpaceAfter=No|NER=O
+
+# text = Thesari sot gjendet në Nju Jork të SHBA - ve dhe përbën një pasuri të tërë arkeologjike e historike , ndërsa arkeologët janë të mendimit që gërmimet në fshatin e Vrapit mund të hapin një prespektivë të re për zonën .
+# sent_id = 1
+1	Thesari	thesar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=O
+2	sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=8|end_char=11|NER=O
+3	gjendet	gjendem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=12|end_char=19|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=20|end_char=22|NER=O
+5	Nju	Nju	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=23|end_char=26|NER=B-VEND_0
+6	Jork	Jork	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	flat	_	start_char=27|end_char=31|NER=I-VEND_0
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=34|NER=O
+8	SHBA	SHBA	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	compound	_	start_char=35|end_char=39|NER=B-VEND_1
+9	-	-	PUNCT	_	_	6	punct	_	start_char=40|end_char=41|NER=B-VEND_1
+10	ve	SHBA	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	compound	_	start_char=42|end_char=44|NER=B-VEND_1
+11	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=45|end_char=48|NER=O
+12	përbën	përbëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=49|end_char=55|NER=O
+13	një	një	DET	_	Definite=Ind	12	det	_	start_char=56|end_char=59|NER=O
+14	pasuri	pasur	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	start_char=60|end_char=66|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=67|end_char=69|NER=O
+16	tërë	tërë	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	15	nummod	_	start_char=70|end_char=74|NER=O
+17	arkeologjike	arkeologjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=75|end_char=87|NER=O
+18	e	e	CCONJ	_	_	17	cc	_	start_char=88|end_char=89|NER=O
+19	historike	historik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	start_char=90|end_char=99|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=100|end_char=101|NER=O
+21	ndërsa	ndërsa	CCONJ	_	_	21	cc	_	start_char=102|end_char=108|NER=O
+22	arkeologët	arkeolog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	nsubj	_	start_char=109|end_char=119|NER=O
+23	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=120|end_char=124|NER=O
+24	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	23	det	_	start_char=125|end_char=127|NER=O
+25	mendimit	mendim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	cop	_	start_char=128|end_char=136|NER=O
+26	që	që	PRON	_	PronType=Rel	25	mark	_	start_char=137|end_char=139|NER=O
+27	gërmimet	gërmim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	start_char=140|end_char=148|NER=O
+28	në	në	ADP	_	Case=Acc	27	case	_	start_char=149|end_char=151|NER=O
+29	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=152|end_char=159|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=160|end_char=161|NER=O
+31	Vrapit	Vrap	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=162|end_char=168|NER=O
+32	mund	mund	AUX	_	_	32	aux	_	start_char=169|end_char=173|NER=O
+33	të	të	PART	_	_	32	fixed	_	start_char=174|end_char=176|NER=O
+34	hapin	hap	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	conj	_	start_char=177|end_char=182|NER=O
+35	një	një	DET	_	Definite=Ind	34	det	_	start_char=183|end_char=186|NER=O
+36	prespektivë	prespekti	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	obj	_	start_char=187|end_char=198|NER=O
+37	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	36	det	_	start_char=199|end_char=201|NER=O
+38	re	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=202|end_char=204|NER=O
+39	për	për	ADP	_	Case=Acc	38	case	_	start_char=205|end_char=208|NER=O
+40	zonën	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=209|end_char=214|SpaceAfter=No|NER=O
+41	.	.	PUNCT	_	_	32	punct	_	start_char=215|end_char=216|SpacesAfter=\n|NER=O
+
+# text = Gazetar : M .
+# sent_id = 2
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	M	m	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=11|SpaceAfter=No|NER=B-PER
+4	.	.	PUNCT	_	_	1	punct	_	start_char=12|end_char=13|NER=O
+
+# text = Merhori
+# sent_id = 3
+1	Merhori	merhor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpacesAfter=\n\n|NER=I-PER
+

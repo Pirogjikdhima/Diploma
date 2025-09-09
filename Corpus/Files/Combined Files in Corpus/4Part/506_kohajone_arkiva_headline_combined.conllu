@@ -1,0 +1,297 @@
+# text = Kina është akuzuar nga Kanadaja për " diplomaci të pengmarrjes " .
+# sent_id = 0
+1	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=4|NER=B-VEND_1
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=5|end_char=10|NER=O
+3	akuzuar	akuzoj	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=18|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=19|end_char=22|NER=O
+5	Kanadaja	Kanada	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=23|end_char=31|NER=B-VEND_1
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=32|end_char=35|NER=O
+7	"	"	PUNCT	_	_	3	punct	_	start_char=36|end_char=37|NER=O
+8	diplomaci	diplomac	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=38|end_char=47|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=48|end_char=50|NER=O
+10	pengmarrjes	pengmarrjes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=51|end_char=62|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	7	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	3	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Dy shtetas të saj qëndrojnë nën arrest me akuzat e spiunazhit .
+# sent_id = 1
+1	Dy	dy	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|NER=O
+2	shtetas	shtetas	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3|end_char=10|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det:poss	_	start_char=11|end_char=13|NER=O
+4	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=14|end_char=17|NER=O
+5	qëndrojnë	qëndroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=27|NER=O
+6	nën	nën	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=31|NER=O
+7	arrest	arrest	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=32|end_char=38|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=39|end_char=41|NER=O
+9	akuzat	akuzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=42|end_char=48|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=49|end_char=50|NER=O
+11	spiunazhit	spiunazh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=51|end_char=61|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	5	punct	_	start_char=62|end_char=63|NER=O
+
+# text = Gjyqi ndaj ish - diplomatit Michael Kovrig u zhvillua pa praninë e përfaqësuesve diplomatikë .
+# sent_id = 2
+1	Gjyqi	Gjyq	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=0|end_char=5|NER=O
+2	ndaj	ndaj	ADP	_	Case=Abl	3	case	_	start_char=6|end_char=10|NER=O
+3	ish	ish-diplomat	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=14|NER=O
+4	-	-	PUNCT	_	_	1	punct	_	start_char=15|end_char=16|NER=O
+5	diplomatit	ish-diplomat	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=17|end_char=27|NER=O
+6	Michael	Michael	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=28|end_char=35|NER=B-PER
+7	Kovrig	Kovrig	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=36|end_char=42|NER=I-PER
+8	u	u	PART	_	_	7	fixed	_	start_char=43|end_char=44|NER=O
+9	zhvillua	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=45|end_char=53|NER=O
+10	pa	pa	ADP	_	Case=Acc	9	case	_	start_char=54|end_char=56|NER=O
+11	praninë	prani	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=57|end_char=64|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=65|end_char=66|NER=O
+13	përfaqësuesve	përfaqësues	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=67|end_char=80|NER=O
+14	diplomatikë	diplomatikë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=81|end_char=92|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	7	punct	_	start_char=93|end_char=94|SpacesAfter=\n|NER=O
+
+# text = Kina mbajti gjyqin e radhës kundër ish - diplomatit kanadez , Michael Kovrig , i akuzuar për spiunazh .
+# sent_id = 3
+1	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=4|NER=B-VEND_1
+2	mbajti	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=5|end_char=11|NER=O
+3	gjyqin	gjyq	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=12|end_char=18|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=19|end_char=20|NER=O
+5	radhës	radhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=21|end_char=27|NER=O
+6	kundër	kundër	ADP	_	Case=Abl	7	case	_	start_char=28|end_char=34|NER=O
+7	ish	ish-diplomat	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=35|end_char=38|NER=O
+8	-	-	PUNCT	_	_	2	punct	_	start_char=39|end_char=40|NER=O
+9	diplomatit	ish-diplomat	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=41|end_char=51|NER=O
+10	kanadez	kanadez	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=52|end_char=59|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	10	punct	_	start_char=60|end_char=61|NER=O
+12	Michael	Michael	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	start_char=62|end_char=69|NER=B-PER
+13	Kovrig	Kovrig	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=70|end_char=76|SpaceAfter=No|NER=I-PER
+14	,	,	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=79|end_char=80|NER=O
+16	akuzuar	akuzuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	list	_	start_char=81|end_char=88|NER=O
+17	për	për	ADP	_	Case=Acc	16	case	_	start_char=89|end_char=92|NER=O
+18	spiunazh	spiunaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=93|end_char=101|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	2	punct	_	start_char=102|end_char=103|SpacesAfter=\n|NER=O
+
+# text = 28 diplomatë nga 26 shtete , mes tyre SHBA - ja , Britania , Gjermania , Australia u paraqitën të hënën përpara godinës së Gjykatës në Pekin në shenjë solidariteti me të akuzuarin .
+# sent_id = 4
+1	28	28	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|NER=O
+2	diplomatë	diplomatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	nsubj	_	start_char=3|end_char=12|NER=O
+3	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=13|end_char=16|NER=O
+4	26	26	NUM	_	NumType=Card	5	nummod	_	start_char=17|end_char=19|NER=O
+5	shtete	shtet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	start_char=20|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=27|end_char=28|NER=O
+7	mes	mes	ADP	_	Case=Abl	8	case	_	start_char=29|end_char=32|NER=O
+8	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nummod	_	start_char=33|end_char=37|NER=O
+9	SHBA	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=38|end_char=42|SpaceAfter=No|NER=B-VEND_1
+10	-	-	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=B-VEND_1
+11	ja	SHBA	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	flat	_	start_char=45|end_char=47|SpaceAfter=No|NER=B-VEND_1
+12	,	,	PUNCT	_	_	11	punct	_	start_char=48|end_char=49|NER=O
+13	Britania	Britani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	list	_	start_char=50|end_char=58|SpaceAfter=No|NER=B-VEND_1
+14	,	,	PUNCT	_	_	13	punct	_	start_char=59|end_char=60|NER=O
+15	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	list	_	start_char=61|end_char=70|SpaceAfter=No|NER=B-VEND_1
+16	,	,	PUNCT	_	_	13	punct	_	start_char=71|end_char=72|NER=O
+17	Australia	Australi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	list	_	start_char=73|end_char=82|NER=B-VEND_1
+18	u	u	PART	_	_	17	fixed	_	start_char=83|end_char=84|NER=O
+19	paraqitën	paraqitëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=85|end_char=94|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	19	det	_	start_char=95|end_char=97|NER=O
+21	hënën	hënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=98|end_char=103|NER=O
+22	përpara	përpara	ADP	_	Case=Abl	21	case	_	start_char=104|end_char=111|NER=O
+23	godinës	godinë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=112|end_char=119|NER=O
+24	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=120|end_char=122|NER=O
+25	Gjykatës	Gjykatë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=123|end_char=131|NER=O
+26	në	në	ADP	_	Case=Acc	25	case	_	start_char=132|end_char=134|NER=O
+27	Pekin	Peki	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	start_char=135|end_char=140|NER=B-VEND_0
+28	në	në	ADP	_	Case=Acc	27	case	_	start_char=141|end_char=143|NER=O
+29	shenjë	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=144|end_char=150|NER=O
+30	solidariteti	solidaritet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=151|end_char=163|NER=O
+31	me	me	ADP	_	Case=Acc	31	case	_	start_char=164|end_char=166|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=167|end_char=169|NER=O
+33	akuzuarin	akuzuar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=170|end_char=179|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	17	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = Procesi ndaj Kovrigut shihet më shumë si politik , pasi u arrestua në vitin 2018 kur Kanadaja sapo kishte ndaluar drejtuesen e lartë të kompanisë kineze " Huawei " , Meng Uanzhou .
+# sent_id = 5
+1	Procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	ndaj	ndaj	ADP	_	Case=Abl	3	case	_	start_char=8|end_char=12|NER=O
+3	Kovrigut	Kovrig	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=13|end_char=21|NER=B-PER
+4	shihet	shihet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=22|end_char=28|NER=O
+5	më	më	PART	_	_	6	mark	_	start_char=29|end_char=31|NER=O
+6	shumë	shumë	ADV	_	AdvType=Deg	8	advmod	_	start_char=32|end_char=37|NER=O
+7	si	si	SCONJ	_	_	8	mark	_	start_char=38|end_char=40|NER=O
+8	politik	politik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	cop	_	start_char=41|end_char=48|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=49|end_char=50|NER=O
+10	pasi	pasi	SCONJ	_	_	12	mark	_	start_char=51|end_char=55|NER=O
+11	u	u	PART	_	_	12	fixed	_	start_char=56|end_char=57|NER=O
+12	arrestua	arrestoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	advcl	_	start_char=58|end_char=66|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=67|end_char=69|NER=O
+14	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=70|end_char=75|NER=B-DATE_0
+15	2018	2018	NUM	_	NumType=Card	14	nummod	_	start_char=76|end_char=80|NER=I-DATE_0
+16	kur	kur	SCONJ	_	_	20	mark	_	start_char=81|end_char=84|NER=O
+17	Kanadaja	Kanada	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	start_char=85|end_char=93|NER=B-VEND_1
+18	sapo	sapo	ADV	_	AdvType=Tim	20	advmod	_	start_char=94|end_char=98|NER=O
+19	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	20	aux	_	start_char=99|end_char=105|NER=O
+20	ndaluar	ndaluar	VERB	_	VerbForm=Part	12	advcl	_	start_char=106|end_char=113|NER=O
+21	drejtuesen	drejtues	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=114|end_char=124|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=125|end_char=126|NER=O
+23	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=127|end_char=132|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=133|end_char=135|NER=O
+25	kompanisë	kompani	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=136|end_char=145|NER=O
+26	kineze	kinez	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=146|end_char=152|NER=O
+27	"	"	PUNCT	_	_	28	punct	_	start_char=153|end_char=154|SpaceAfter=No|NER=O
+28	Huawei	Huawei	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	appos	_	start_char=155|end_char=161|SpaceAfter=No|NER=B-ORG
+29	"	"	PUNCT	_	_	25	punct	_	start_char=162|end_char=163|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	30	punct	_	start_char=164|end_char=165|NER=O
+31	Meng	Meng	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	28	list	_	start_char=166|end_char=170|NER=B-PER
+32	Uanzhou	Uanzhoj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	flat	_	start_char=171|end_char=178|SpaceAfter=No|NER=I-PER
+33	.	.	PUNCT	_	_	20	punct	_	start_char=179|end_char=180|SpacesAfter=\n|NER=O
+
+# text = " Konventa e Vjenës , të cilën Kina e ka firmosur , u njeh konsujve të drejtën të marrin pjesë në seancat për qytetarët e tyre , por kjo kërkesë na është refuzuar në vazhdimësi .
+# sent_id = 6
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Konventa	Konventë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=2|end_char=10|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=11|end_char=12|NER=O
+4	Vjenës	Vjenë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=13|end_char=19|SpaceAfter=No|NER=B-VEND_0
+5	,	,	PUNCT	_	_	7	punct	_	start_char=20|end_char=21|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=22|end_char=24|NER=O
+7	cilën	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	start_char=25|end_char=30|NER=O
+8	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=31|end_char=35|NER=B-VEND_1
+9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	cc	_	start_char=36|end_char=37|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=38|end_char=40|NER=O
+11	firmosur	firmos	VERB	_	VerbForm=Part	2	acl	_	start_char=41|end_char=49|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=50|end_char=51|NER=O
+13	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	fixed	_	start_char=52|end_char=53|NER=O
+14	njeh	njoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=54|end_char=58|NER=O
+15	konsujve	konsujë	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	14	obj	_	start_char=59|end_char=67|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det:poss	_	start_char=68|end_char=70|NER=O
+17	drejtën	drejtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=71|end_char=78|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=79|end_char=81|NER=O
+19	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=82|end_char=88|NER=O
+20	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=89|end_char=94|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=95|end_char=97|NER=O
+22	seancat	seancë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	advmod	_	start_char=98|end_char=105|NER=O
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=106|end_char=109|NER=O
+24	qytetarët	qytetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	19	advmod	_	start_char=110|end_char=119|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	26	det:poss	_	start_char=120|end_char=121|NER=O
+26	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	amod:poss	_	start_char=122|end_char=126|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	28	punct	_	start_char=127|end_char=128|NER=O
+28	por	por	CCONJ	_	_	33	cc	_	start_char=129|end_char=132|NER=O
+29	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	start_char=133|end_char=136|NER=O
+30	kërkesë	kërkesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	33	nsubj	_	start_char=137|end_char=144|NER=O
+31	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	33	iobj	_	start_char=145|end_char=147|NER=O
+32	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=148|end_char=153|NER=O
+33	refuzuar	refuzoj	VERB	_	VerbForm=Part	19	conj	_	start_char=154|end_char=162|NER=O
+34	në	në	ADP	_	Case=Acc	35	case	_	start_char=163|end_char=165|NER=O
+35	vazhdimësi	vazhdimës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	obl	_	start_char=166|end_char=176|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	33	punct	_	start_char=177|end_char=178|NER=O
+
+# text = Shqetësohemi sepse procesi nuk është transparent dhe si arsye na japin çështjen e sigurisë kombëtare , " tha Jim Nickel i ngarkuari kanadez në ambasadën në Bejing .
+# sent_id = 7
+1	Shqetësohemi	shqetësoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Pass	0	root	_	start_char=0|end_char=12|NER=O
+2	sepse	sepse	SCONJ	_	_	5	mark	_	start_char=13|end_char=18|NER=O
+3	procesi	proces	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=19|end_char=26|NER=O
+4	nuk	nuk	PART	_	Polarity=Neg	5	mark	_	start_char=27|end_char=30|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	advcl	_	start_char=31|end_char=36|NER=O
+6	transparent	transpare	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	cop	_	start_char=37|end_char=48|NER=O
+7	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=49|end_char=52|NER=O
+8	si	si	SCONJ	_	_	9	mark	_	start_char=53|end_char=55|NER=O
+9	arsye	arsye	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	11	nsubj	_	start_char=56|end_char=61|NER=O
+10	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	start_char=62|end_char=64|NER=O
+11	japin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	advcl	_	start_char=65|end_char=70|NER=O
+12	çështjen	çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=71|end_char=79|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=80|end_char=81|NER=O
+14	sigurisë	siguri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=82|end_char=90|NER=O
+15	kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=91|end_char=100|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=101|end_char=102|SpaceAfter=No|NER=O
+17	"	"	PUNCT	_	_	18	punct	_	start_char=103|end_char=104|NER=O
+18	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	parataxis	_	start_char=105|end_char=108|NER=O
+19	Jim	Jim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	start_char=109|end_char=112|NER=B-PER
+20	Nickel	Nickel	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=113|end_char=119|NER=I-PER
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=120|end_char=121|NER=O
+22	ngarkuari	ngarkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=122|end_char=131|NER=O
+23	kanadez	kanadez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	compound	_	start_char=132|end_char=139|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=140|end_char=142|NER=O
+25	ambasadën	ambasadë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=143|end_char=152|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=153|end_char=155|NER=O
+27	Bejing	Bejing	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	start_char=156|end_char=162|SpaceAfter=No|NER=B-VEND_0
+28	.	.	PUNCT	_	_	18	punct	_	start_char=163|end_char=164|SpacesAfter=\n|NER=O
+
+# text = " Jemi thellësisht të shqetësuar për mungesën minimale të procedurave të mbrojtjes që u janë garantuar dy qytetarëve kanadezë gjatë dy viteve ndalimi arbitrar , " u shpreh Uilliam Klein , zëvëndës shefi i misionit i ambasadës amerikane .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Jemi	Jem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	thellësisht	thellësisht	ADV	_	AdvType=Man	2	advmod	_	start_char=7|end_char=18|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=19|end_char=21|NER=O
+5	shqetësuar	shqetësuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	cop	_	start_char=22|end_char=32|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=33|end_char=36|NER=O
+7	mungesën	mungesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	start_char=37|end_char=45|NER=O
+8	minimale	minimal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=46|end_char=54|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=55|end_char=57|NER=O
+10	procedurave	procedurë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=58|end_char=69|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=70|end_char=72|NER=O
+12	mbrojtjes	mbrojtje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=73|end_char=82|NER=O
+13	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=83|end_char=85|NER=O
+14	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	fixed	_	start_char=86|end_char=87|NER=O
+15	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=88|end_char=92|NER=O
+16	garantuar	garantoj	VERB	_	VerbForm=Part	2	advcl	_	start_char=93|end_char=102|NER=O
+17	dy	dy	NUM	_	NumType=Card	18	nummod	_	start_char=103|end_char=105|NER=O
+18	qytetarëve	qytetar	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	16	obj	_	start_char=106|end_char=116|NER=O
+19	kanadezë	kanadezë	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=117|end_char=125|NER=O
+20	gjatë	gjatë	ADP	_	Case=Abl	22	case	_	start_char=126|end_char=131|NER=O
+21	dy	dy	NUM	_	NumType=Card	22	nummod	_	start_char=132|end_char=134|NER=O
+22	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=135|end_char=141|NER=O
+23	ndalimi	ndalim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=142|end_char=149|NER=O
+24	arbitrar	arbitrar	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=150|end_char=158|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	28	punct	_	start_char=159|end_char=160|SpaceAfter=No|NER=O
+26	"	"	PUNCT	_	_	28	punct	_	start_char=161|end_char=162|NER=O
+27	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	fixed	_	start_char=163|end_char=164|NER=O
+28	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	start_char=165|end_char=171|NER=O
+29	Uilliam	Uilliam	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=172|end_char=179|NER=B-PER
+30	Klein	Klei	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=180|end_char=185|SpaceAfter=No|NER=I-PER
+31	,	,	PUNCT	_	_	32	punct	_	start_char=186|end_char=187|NER=O
+32	zëvëndës	zëvëndë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=188|end_char=196|NER=O
+33	shefi	Shef	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=197|end_char=202|NER=O
+34	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=203|end_char=204|NER=O
+35	misionit	mision	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=205|end_char=213|NER=O
+36	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=214|end_char=215|NER=O
+37	ambasadës	ambasadë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=216|end_char=225|NER=O
+38	amerikane	amerikan	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	start_char=226|end_char=235|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	28	punct	_	start_char=236|end_char=237|SpacesAfter=\n|NER=O
+
+# text = Javën e kaluar , në gjykatën e Pekinit u paraqit edhe biznesmeni kanadez , Majkëll Spavor , i arrestuar në të njëjtën kohë me Kovrigun nën akuzën e disponimit të sekreteve kombëtare dhe nxjerrjes së tyre jashtë Kinës .
+# sent_id = 9
+1	Javën	Javë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=7|NER=O
+3	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=8|end_char=14|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=15|end_char=16|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=17|end_char=19|NER=O
+6	gjykatën	gjykatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=20|end_char=28|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=29|end_char=30|NER=O
+8	Pekinit	Pekin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=31|end_char=38|NER=B-VEND_0
+9	u	u	PART	_	_	10	fixed	_	start_char=39|end_char=40|NER=O
+10	paraqit	paraj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=41|end_char=48|NER=O
+11	edhe	edhe	PART	_	_	12	mark:emph	_	start_char=49|end_char=53|NER=O
+12	biznesmeni	biznesmen	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=54|end_char=64|NER=O
+13	kanadez	kanadez	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=65|end_char=72|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=73|end_char=74|NER=O
+15	Majkëll	Majkëll	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=75|end_char=82|NER=B-PER
+16	Spavor	Spavor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=83|end_char=89|SpaceAfter=No|NER=I-PER
+17	,	,	PUNCT	_	_	19	punct	_	start_char=90|end_char=91|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=92|end_char=93|NER=O
+19	arrestuar	arrestuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=94|end_char=103|NER=O
+20	në	në	ADP	_	Case=Acc	23	case	_	start_char=104|end_char=106|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=107|end_char=109|NER=O
+22	njëjtën	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	det	_	start_char=110|end_char=117|NER=O
+23	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=118|end_char=122|NER=O
+24	me	me	ADP	_	Case=Acc	25	case	_	start_char=123|end_char=125|NER=O
+25	Kovrigun	Kovrig	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=126|end_char=134|NER=B-PER
+26	nën	nën	ADP	_	Case=Acc	27	case	_	start_char=135|end_char=138|NER=O
+27	akuzën	akuzë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=139|end_char=145|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=146|end_char=147|NER=O
+29	disponimit	disponim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=148|end_char=158|NER=O
+30	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	31	det:poss	_	start_char=159|end_char=161|NER=O
+31	sekreteve	sekret	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=162|end_char=171|NER=O
+32	kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=172|end_char=181|NER=O
+33	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=182|end_char=185|NER=O
+34	nxjerrjes	nxjerrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	conj	_	start_char=186|end_char=195|NER=O
+35	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	36	det:poss	_	start_char=196|end_char=198|NER=O
+36	tyre	tyre	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	amod:poss	_	start_char=199|end_char=203|NER=O
+37	jashtë	jashtë	ADP	_	Case=Abl	38	case	_	start_char=204|end_char=210|NER=O
+38	Kinës	Kinë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	34	nmod	_	start_char=211|end_char=216|SpaceAfter=No|NER=B-VEND_1
+39	.	.	PUNCT	_	_	10	punct	_	start_char=217|end_char=218|SpacesAfter=\n|NER=O
+

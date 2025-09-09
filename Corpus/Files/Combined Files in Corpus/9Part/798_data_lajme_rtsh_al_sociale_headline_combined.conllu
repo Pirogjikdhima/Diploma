@@ -1,0 +1,121 @@
+# text = 11 / 09 / 2023 Bjorn Masha ka përfunduar shkollën 9 - vjeçare " Koferenca e Pezës " dhe ka zgjedhur të vijojë shkollën e mesme për Teknologji Informacioni " Herman Gmeiner " .
+# sent_id = 0
+1	11	11	NUM	_	NumType=Card	14	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	12	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	14	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Bjorn	Bjor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	flat	_	start_char=15|end_char=20|NER=B-PER
+7	Masha	mashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	flat	_	start_char=21|end_char=26|NER=I-PER
+8	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=27|end_char=29|NER=O
+9	përfunduar	përfundoj	VERB	_	VerbForm=Part	0	root	_	start_char=30|end_char=40|NER=O
+10	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=41|end_char=49|NER=O
+11	9	9	NUM	_	NumType=Card	22	amod	_	start_char=50|end_char=51|NER=O
+12	-	-	PUNCT	_	_	22	punct	_	start_char=52|end_char=53|NER=O
+13	vjeçare	9-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=54|end_char=61|NER=O
+14	"	"	PUNCT	_	_	25	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=O
+15	Koferenca	Koferencë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	appos	_	start_char=64|end_char=73|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=74|end_char=75|NER=O
+17	Pezës	pezës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=76|end_char=81|NER=O
+18	"	"	PUNCT	_	_	25	punct	_	start_char=82|end_char=83|NER=O
+19	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=84|end_char=87|NER=O
+20	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	start_char=88|end_char=90|NER=O
+21	zgjedhur	zgjedh	VERB	_	VerbForm=Part	21	conj	_	start_char=91|end_char=99|NER=O
+22	të	të	PART	_	_	32	fixed	_	start_char=100|end_char=102|NER=O
+23	vijojë	vijoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	start_char=103|end_char=109|NER=O
+24	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	32	obj	_	start_char=110|end_char=118|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=119|end_char=120|NER=O
+26	mesme	mesëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=121|end_char=126|NER=O
+27	për	për	ADP	_	Case=Acc	37	case	_	start_char=127|end_char=130|NER=O
+28	Teknologji	Teknologje	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	start_char=131|end_char=141|NER=O
+29	Informacioni	Informacion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat	_	start_char=142|end_char=154|NER=O
+30	"	"	PUNCT	_	_	40	punct	_	start_char=155|end_char=156|SpaceAfter=No|NER=O
+31	Herman	Herman	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	list	_	start_char=157|end_char=163|NER=O
+32	Gmeiner	Gmeiner	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	40	flat	_	start_char=164|end_char=171|SpaceAfter=No|NER=O
+33	"	"	PUNCT	_	_	40	punct	_	start_char=172|end_char=173|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	32	punct	_	start_char=174|end_char=175|SpacesAfter=\n|NER=O
+
+# text = Gjatë 9 viteve shkollim , Bjorni është vlerësuar me notë maksimale në të gjitha lëndët , por prirja e tij janë shkencat .
+# sent_id = 1
+1	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	9	9	NUM	_	NumType=Card	3	nummod	_	start_char=6|end_char=7|NER=O
+3	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=8|end_char=14|NER=O
+4	shkollim	shkollim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=15|end_char=23|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	3	punct	_	start_char=24|end_char=25|NER=O
+6	Bjorni	Bjorn	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=26|end_char=32|NER=B-PER
+7	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=33|end_char=38|NER=O
+8	vlerësuar	vlerësoj	VERB	_	VerbForm=Part	0	root	_	start_char=39|end_char=48|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=49|end_char=51|NER=O
+10	notë	notë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=52|end_char=56|NER=O
+11	maksimale	maksimal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=57|end_char=66|NER=O
+12	në	në	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=69|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=70|end_char=72|NER=O
+14	gjitha	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	15	nummod	_	start_char=73|end_char=79|NER=O
+15	lëndët	lëndë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=80|end_char=86|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=87|end_char=88|NER=O
+17	por	por	CCONJ	_	_	18	cc	_	start_char=89|end_char=92|NER=O
+18	prirja	prirjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=93|end_char=99|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=100|end_char=101|NER=O
+20	tij	tij	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	amod:poss	_	start_char=102|end_char=105|NER=O
+21	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=106|end_char=110|NER=O
+22	shkencat	shkencë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	21	cop	_	start_char=111|end_char=119|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	21	punct	_	start_char=120|end_char=121|NER=O
+
+# text = Ai na rrëfen se gjatë studimit të tij të përditshëm më shumë vëmendje i ka kushtuar matematikës dhe fizikës .
+# sent_id = 2
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	start_char=3|end_char=5|NER=O
+3	rrëfen	rrëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=6|end_char=12|NER=O
+4	se	se	SCONJ	_	_	16	mark	_	start_char=13|end_char=15|NER=O
+5	gjatë	gjatë	ADP	_	Case=Abl	6	case	_	start_char=16|end_char=21|NER=O
+6	studimit	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=22|end_char=30|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=31|end_char=33|NER=O
+8	tij	tij	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	amod:poss	_	start_char=34|end_char=37|NER=O
+9	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=38|end_char=40|NER=O
+10	përditshëm	përditshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=41|end_char=51|NER=O
+11	më	më	PART	_	_	13	mark	_	start_char=52|end_char=54|NER=O
+12	shumë	shumë	PRON	_	PronType=Ind	13	nummod	_	start_char=55|end_char=60|NER=O
+13	vëmendje	vëmendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	advmod	_	start_char=61|end_char=69|NER=O
+14	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	start_char=70|end_char=71|NER=O
+15	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=72|end_char=74|NER=O
+16	kushtuar	kushtoj	VERB	_	VerbForm=Part	3	conj	_	start_char=75|end_char=83|NER=O
+17	matematikës	matematikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=84|end_char=95|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=96|end_char=99|NER=O
+19	fizikës	fizikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	17	conj	_	start_char=100|end_char=107|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	16	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = Bjorni synon që pas përfundimit të shkollës së mesme studimet e larta t ' i ndjekë në Gjermani e të diplomohet për Inxhinjeri Softueri .
+# sent_id = 3
+1	Bjorni	Bjorn	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	synon	synoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+3	që	që	SCONJ	_	_	5	mark	_	start_char=13|end_char=15|NER=O
+4	pas	pas	ADP	_	Case=Abl	5	case	_	start_char=16|end_char=19|NER=O
+5	përfundimit	përfundim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	start_char=20|end_char=31|NER=O
+6	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=32|end_char=34|NER=O
+7	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=35|end_char=43|NER=O
+8	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=44|end_char=46|NER=O
+9	mesme	mesëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=47|end_char=52|NER=O
+10	studimet	studim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	start_char=53|end_char=61|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=62|end_char=63|NER=O
+12	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=64|end_char=69|NER=O
+13	t	t'i	ADV	_	AdvType=Loc	14	advmod	_	start_char=70|end_char=71|NER=O
+14	'	'	PUNCT	_	_	14	punct	_	start_char=72|end_char=73|NER=O
+15	i	t'i	ADV	_	AdvType=Loc	14	advmod	_	start_char=74|end_char=75|NER=O
+16	ndjekë	ndjek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=76|end_char=82|NER=O
+17	në	në	ADP	_	Case=Acc	16	case	_	start_char=83|end_char=85|NER=O
+18	Gjermani	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	start_char=86|end_char=94|NER=O
+19	e	e	CCONJ	_	_	19	cc	_	start_char=95|end_char=96|NER=O
+20	të	të	PART	_	_	19	fixed	_	start_char=97|end_char=99|NER=O
+21	diplomohet	diplomoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	conj	_	start_char=100|end_char=110|NER=O
+22	për	për	ADP	_	Case=Acc	21	case	_	start_char=111|end_char=114|NER=O
+23	Inxhinjeri	Inxhinjer	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	start_char=115|end_char=125|NER=O
+24	Softueri	Softuer	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	flat	_	start_char=126|end_char=134|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	14	punct	_	start_char=135|end_char=136|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Keti Toroveci
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Keti	Keti	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=16|end_char=24|SpacesAfter=\n|NER=I-PER
+

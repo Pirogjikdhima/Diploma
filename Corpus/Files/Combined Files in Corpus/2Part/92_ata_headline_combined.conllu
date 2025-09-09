@@ -1,0 +1,89 @@
+# text = AXHENDA NDËRKOMBËTARE 30 / 12 / 2023 SERBI – Fletëvotime të reja për përsëritjen e zgjedhjeve të përgjithshme në 30 qendra votimi .
+# sent_id = 0
+1	AXHENDA	AXHEND	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	NDËRKOMBËTARE	NDËRKOMBËTR	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=21|NER=O
+3	30	30	NUM	_	NumType=Card	4	nummod	_	start_char=22|end_char=24|SpaceAfter=No|NER=O
+4	/	/	PUNCT	_	_	1	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=O
+5	12	12	NUM	_	NumType=Card	1	nmod	_	start_char=27|end_char=29|SpaceAfter=No|NER=O
+6	/	/	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|SpaceAfter=No|NER=O
+7	2023	2023	NUM	_	NumType=Card	4	flat	_	start_char=32|end_char=36|SpaceAfter=No|NER=O
+8	SERBI	sERBI	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=37|end_char=42|NER=B-VEND_1
+9	–	–	PUNCT	_	_	9	punct	_	start_char=43|end_char=44|NER=O
+10	Fletëvotime	Fletëvotim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	list	_	start_char=45|end_char=56|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=57|end_char=59|NER=O
+12	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=60|end_char=64|NER=O
+13	për	për	ADP	_	Case=Acc	13	case	_	start_char=65|end_char=68|NER=O
+14	përsëritjen	përsëritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=69|end_char=80|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=81|end_char=82|NER=O
+16	zgjedhjeve	zgjedhje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=83|end_char=93|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	17	det	_	start_char=94|end_char=96|NER=O
+18	përgjithshme	përgjithshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=97|end_char=109|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=110|end_char=112|NER=O
+20	30	30	NUM	_	NumType=Card	20	nummod	_	start_char=113|end_char=115|NER=O
+21	qendra	qendër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=116|end_char=122|NER=O
+22	votimi	votim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=123|end_char=129|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	8	punct	_	start_char=130|end_char=131|SpacesAfter=\n|NER=O
+
+# text = TAJPEI ( Tajvan ) – Debati i kandidatëve presidencialë .
+# sent_id = 1
+1	TAJPEI	TAJPEI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=7|end_char=8|SpaceAfter=No|NER=O
+3	Tajvan	Tajvan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=9|end_char=15|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=18|end_char=19|NER=O
+6	Debati	debat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	list	_	start_char=20|end_char=26|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=27|end_char=28|NER=O
+8	kandidatëve	kandidatë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=29|end_char=40|NER=O
+9	presidencialë	presidencialë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=41|end_char=54|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	3	punct	_	start_char=55|end_char=56|SpacesAfter=\n|NER=O
+
+# text = AMSTERDAM ( Holandë ) – Bllokadë e planifikuar e një autostrade nga grupimi " Extinction Rebellion " .
+# sent_id = 2
+1	AMSTERDAM	AMSTERDAM	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=9|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=10|end_char=11|SpaceAfter=No|NER=O
+3	Holandë	Holandë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=12|end_char=19|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=22|end_char=23|NER=O
+6	Bllokadë	Bllokadë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	list	_	start_char=24|end_char=32|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=33|end_char=34|NER=O
+8	planifikuar	planifikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=35|end_char=46|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=47|end_char=48|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=49|end_char=52|NER=O
+11	autostrade	autostrad	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=53|end_char=63|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=64|end_char=67|NER=O
+13	grupimi	grupim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=68|end_char=75|NER=O
+14	"	"	PUNCT	_	_	13	punct	_	start_char=76|end_char=77|NER=O
+15	Extinction	Extinction	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=78|end_char=88|NER=O
+16	Rebellion	Rebellion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=89|end_char=98|SpaceAfter=No|NER=O
+17	"	"	PUNCT	_	_	14	punct	_	start_char=99|end_char=100|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	3	punct	_	start_char=101|end_char=102|SpacesAfter=\n|NER=O
+
+# text = DAKAR ( Senegal ) – Koalicioni i opozitës emëron Ousmane Sonko si kandidat presidencial .
+# sent_id = 3
+1	DAKAR	DAKAR	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=5|NER=B-VEND_0
+2	(	(	PUNCT	_	_	3	punct	_	start_char=6|end_char=7|SpaceAfter=No|NER=O
+3	Senegal	Senegal	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=8|end_char=15|SpaceAfter=No|NER=B-VEND_1
+4	)	)	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|NER=O
+5	–	–	PUNCT	_	_	6	punct	_	start_char=18|end_char=19|NER=O
+6	Koalicioni	Koalicion	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=20|end_char=30|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=31|end_char=32|NER=O
+8	opozitës	opozitë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=33|end_char=41|NER=O
+9	emëron	emëroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=48|NER=O
+10	Ousmane	Ousman	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=49|end_char=56|NER=B-PER
+11	Sonko	Sonko	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	flat	_	start_char=57|end_char=62|NER=I-PER
+12	si	si	SCONJ	_	_	13	mark	_	start_char=63|end_char=65|NER=O
+13	kandidat	kandidë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	start_char=66|end_char=74|NER=O
+14	presidencial	presidencial	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=75|end_char=87|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	17	punct	_	start_char=88|end_char=89|SpaceAfter=No|NER=O
+
+# text = / a .
+# sent_id = 4
+1	/	/	PUNCT	_	_	17	punct	_	start_char=0|end_char=1|NER=O
+2	a	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=2|end_char=3|SpaceAfter=No|NER=O
+3	.	.	PUNCT	_	_	13	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = jor .
+# sent_id = 5
+1	jor	a.jor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	9	punct	_	start_char=4|end_char=5|SpacesAfter=\n\n\n|NER=O
+

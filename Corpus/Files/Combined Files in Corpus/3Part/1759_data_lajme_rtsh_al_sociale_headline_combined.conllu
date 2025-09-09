@@ -1,0 +1,102 @@
+# text = " Një portë digjitale mbi jetën profesionale !
+# sent_id = 0
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Një	një	DET	_	Definite=Ind	2	det	_	start_char=2|end_char=5|NER=O
+3	portë	portë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	advmod	_	start_char=6|end_char=11|NER=O
+4	digjitale	digital	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=12|end_char=21|NER=O
+5	mbi	mbi	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=25|NER=O
+6	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=26|end_char=31|NER=O
+7	profesionale	profesionale	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=32|end_char=44|SpaceAfter=No|NER=O
+8	!	!	PUNCT	_	_	5	punct	_	start_char=45|end_char=46|SpaceAfter=No|NER=O
+
+# text = " , Linda Rama prezanton platformën e saj online Linda Rama , bashkëshortja e kryeministrit Edi Rama , ka prezantuar të martën platformën e saj online të komunikimit , websajtin linda .
+# sent_id = 1
+1	"	"	PUNCT	_	_	5	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	8	punct	_	start_char=2|end_char=3|NER=O
+3	Linda	Lindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=4|end_char=9|NER=B-PER
+4	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=10|end_char=14|NER=I-PER
+5	prezanton	prezantoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=24|NER=O
+6	platformën	platformë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=25|end_char=35|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=36|end_char=37|NER=O
+8	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=38|end_char=41|NER=O
+9	online	onlin	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=42|end_char=48|SpacesAfter=\n|NER=O
+10	Linda	Lindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=49|end_char=54|NER=B-PER
+11	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=55|end_char=59|SpaceAfter=No|NER=I-PER
+12	,	,	PUNCT	_	_	22	punct	_	start_char=60|end_char=61|NER=O
+13	bashkëshortja	bashkëshortje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	list	_	start_char=62|end_char=75|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=76|end_char=77|NER=O
+15	kryeministrit	kryeministr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=78|end_char=91|NER=O
+16	Edi	Edi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	appos	_	start_char=92|end_char=95|NER=B-PER
+17	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	flat	_	start_char=96|end_char=100|SpaceAfter=No|NER=I-PER
+18	,	,	PUNCT	_	_	29	punct	_	start_char=101|end_char=102|NER=O
+19	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=103|end_char=105|NER=O
+20	prezantuar	prezantoj	VERB	_	VerbForm=Part	10	conj	_	start_char=106|end_char=116|NER=O
+21	të	të	PART	_	_	31	det	_	start_char=117|end_char=119|NER=B-DATE_1
+22	martën	martë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	cop	_	start_char=120|end_char=126|NER=I-DATE_1
+23	platformën	platformë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=127|end_char=137|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=138|end_char=139|NER=O
+25	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	amod:poss	_	start_char=140|end_char=143|NER=O
+26	online	onlin	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=144|end_char=150|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=151|end_char=153|NER=O
+28	komunikimit	komunikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=154|end_char=165|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	39	punct	_	start_char=166|end_char=167|NER=O
+30	websajtin	websajt	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	37	list	_	start_char=168|end_char=177|NER=O
+31	linda	linda.al	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	flat	_	start_char=178|end_char=183|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	39	punct	_	start_char=184|end_char=185|SpaceAfter=No|NER=O
+
+# text = al .
+# sent_id = 2
+1	al	linda.al	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	39	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	29	punct	_	start_char=3|end_char=4|NER=O
+
+# text = Sipas sajai është hapja e një porte e botës digjitale mbi jetën e saj profesionale dhe qytetare .
+# sent_id = 3
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	sajai	saja	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=6|end_char=11|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=17|NER=O
+4	hapja	hapjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	cop	_	start_char=18|end_char=23|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=24|end_char=25|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=26|end_char=29|NER=O
+7	porte	port	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=30|end_char=35|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=36|end_char=37|NER=O
+9	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=38|end_char=43|NER=O
+10	digjitale	digital	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=44|end_char=53|NER=O
+11	mbi	mbi	ADP	_	Case=Acc	12	case	_	start_char=54|end_char=57|NER=O
+12	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=58|end_char=63|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=64|end_char=65|NER=O
+14	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	amod:poss	_	start_char=66|end_char=69|NER=O
+15	profesionale	profesional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=70|end_char=82|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=83|end_char=86|NER=O
+17	qytetare	qytetar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	start_char=87|end_char=95|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	3	punct	_	start_char=96|end_char=97|SpacesAfter=\n|NER=O
+
+# text = Në njëfarë mënyre , Linda .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	njëfarë	njëfarë	PRON	_	PronType=Ind	3	det	_	start_char=3|end_char=10|NER=O
+3	mënyre	mënyr	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=11|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|NER=O
+5	Linda	Linda.al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=20|end_char=25|NER=O
+6	.	.	PUNCT	_	_	6	punct	_	start_char=26|end_char=27|NER=O
+
+# text = al është edhe një moment modestisht ceremonial për mua … " , thotë në videomesazh Linda Rama .
+# sent_id = 5
+1	al	Linda.al	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	edhe	edhe	PART	_	_	9	mark	_	start_char=9|end_char=13|NER=O
+4	një	një	DET	_	Definite=Ind	9	det	_	start_char=14|end_char=17|NER=O
+5	moment	moment	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	cop	_	start_char=18|end_char=24|NER=O
+6	modestisht	modestisht	ADV	_	AdvType=Man	9	amod	_	start_char=25|end_char=35|NER=O
+7	ceremonial	ceremonial	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=36|end_char=46|NER=O
+8	për	për	ADP	_	Case=Acc	13	case	_	start_char=47|end_char=50|NER=O
+9	mua	mua	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=51|end_char=54|SpaceAfter=No|NER=O
+10	…	…	PUNCT	_	_	9	punct	_	start_char=55|end_char=56|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	9	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	15	punct	_	start_char=59|end_char=60|NER=O
+13	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	parataxis	_	start_char=61|end_char=66|NER=O
+14	në	në	ADP	_	Case=Acc	17	case	_	start_char=67|end_char=69|NER=O
+15	videomesazh	videomesaz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	start_char=70|end_char=81|NER=O
+16	Linda	Lindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	appos	_	start_char=82|end_char=87|NER=B-PER
+17	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=88|end_char=92|SpaceAfter=No|NER=I-PER
+18	.	.	PUNCT	_	_	15	punct	_	start_char=93|end_char=94|SpacesAfter=\n\n|NER=O
+

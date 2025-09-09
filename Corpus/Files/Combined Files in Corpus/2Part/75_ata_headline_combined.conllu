@@ -1,0 +1,232 @@
+# text = Rama : 3 .
+# sent_id = 0
+1	Rama	damë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=5|end_char=6|NER=O
+3	3	3	NUM	_	NumType=Card	4	nummod	_	start_char=7|end_char=8|NER=O
+4	.	.	PUNCT	_	_	4	punct	_	start_char=9|end_char=10|NER=O
+
+# text = 2 miliard euro të ardhura nga turizmi në 9 muaj TIRAN , 30 dhjetor / ATSH - Maela Marini / Kryeministri Edi Rama u shpreh sot se të ardhurat gjatë vitit 2023 kanë qenë më të larta se sa një vit më parë dhe me një rritje të ndjeshme mbi ato të parashikuara .
+# sent_id = 1
+1	2	2	NUM	_	NumType=Card	4	nummod	_	start_char=0|end_char=1|NER=O
+2	miliard	miliard	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	5	det	_	start_char=2|end_char=9|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=10|end_char=14|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=15|end_char=17|NER=O
+5	ardhura	ardhurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=18|end_char=25|NER=O
+6	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=26|end_char=29|NER=O
+7	turizmi	turizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=30|end_char=37|NER=O
+8	në	në	ADP	_	Case=Acc	12	case	_	start_char=38|end_char=40|NER=O
+9	9	9	NUM	_	NumType=Card	12	nummod	_	start_char=41|end_char=42|NER=O
+10	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	start_char=43|end_char=47|SpacesAfter=\n|NER=O
+11	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=48|end_char=53|SpaceAfter=No|NER=B-VEND_0
+12	,	,	PUNCT	_	_	17	punct	_	start_char=54|end_char=55|NER=O
+13	30	30	NUM	_	NumType=Card	17	nummod	_	start_char=56|end_char=58|NER=B-DATE_0
+14	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=59|end_char=66|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	17	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=O
+16	ATSH	ATSH-Maelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=69|end_char=73|NER=O
+17	-	-	PUNCT	_	_	8	punct	_	start_char=74|end_char=75|NER=O
+18	Maela	ATSH-Maelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=76|end_char=81|NER=O
+19	Marini	Marin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=82|end_char=88|SpaceAfter=No|NER=O
+20	/	/	PUNCT	_	_	4	punct	_	start_char=89|end_char=90|NER=O
+21	Kryeministri	Kryeministri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=91|end_char=103|NER=O
+22	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=104|end_char=107|NER=B-PER
+23	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=108|end_char=112|NER=I-PER
+24	u	u	PART	_	_	8	fixed	_	start_char=113|end_char=114|NER=O
+25	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=115|end_char=121|NER=O
+26	sot	sot	ADV	_	AdvType=Tim	8	advmod	_	start_char=122|end_char=125|NER=O
+27	se	se	SCONJ	_	_	17	mark	_	start_char=126|end_char=128|NER=O
+28	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=129|end_char=131|NER=O
+29	ardhurat	ardhurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=132|end_char=140|NER=O
+30	gjatë	gjatë	ADP	_	Case=Abl	14	case	_	start_char=141|end_char=146|NER=O
+31	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=147|end_char=152|NER=B-DATE_0
+32	2023	2023	NUM	_	NumType=Card	14	amod:nummod	_	start_char=153|end_char=157|NER=I-DATE_0
+33	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=158|end_char=162|NER=O
+34	qenë	jam	VERB	_	VerbForm=Part	8	conj	_	start_char=163|end_char=167|NER=O
+35	më	më	PART	_	_	20	mark	_	start_char=168|end_char=170|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=171|end_char=173|NER=O
+37	larta	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	cop	_	start_char=174|end_char=179|NER=O
+38	se	se	SCONJ	_	_	17	mark	_	start_char=180|end_char=182|NER=O
+39	sa	sa	SCONJ	_	_	24	mark	_	start_char=183|end_char=185|NER=O
+40	një	një	DET	_	Definite=Ind	24	det	_	start_char=186|end_char=189|NER=O
+41	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=190|end_char=193|NER=O
+42	më	më	PART	_	_	26	mark	_	start_char=194|end_char=196|NER=O
+43	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=197|end_char=201|NER=O
+44	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=202|end_char=205|NER=O
+45	me	me	ADP	_	Case=Acc	30	case	_	start_char=206|end_char=208|NER=O
+46	një	një	DET	_	Definite=Ind	30	det	_	start_char=209|end_char=212|NER=O
+47	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	conj	_	start_char=213|end_char=219|NER=O
+48	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=220|end_char=222|NER=O
+49	ndjeshme	ndjeshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=223|end_char=231|NER=O
+50	mbi	mbi	ADP	_	Case=Acc	34	case	_	start_char=232|end_char=235|NER=O
+51	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	30	nmod	_	start_char=236|end_char=239|NER=O
+52	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det	_	start_char=240|end_char=242|NER=O
+53	parashikuara	parashikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=243|end_char=255|SpaceAfter=No|NER=O
+54	.	.	PUNCT	_	_	17	punct	_	start_char=256|end_char=257|SpacesAfter=\n|NER=O
+
+# text = Në konferencën e përvitshme për shtyp me gazetarët , kryeministri Rama bëri një bilanc të vitit 2023 , të cilin e konsideroi më të mirin në çdo aspekt .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	konferencën	konferencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=3|end_char=14|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=15|end_char=16|NER=O
+4	përvitshme	përvitshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=17|end_char=27|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=28|end_char=31|NER=O
+6	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=32|end_char=37|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=38|end_char=40|NER=O
+8	gazetarët	gazetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=41|end_char=50|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=51|end_char=52|NER=O
+10	kryeministri	kryeministri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=53|end_char=65|NER=O
+11	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=66|end_char=70|NER=B-PER
+12	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=71|end_char=75|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=76|end_char=79|NER=O
+14	bilanc	bilanc	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=80|end_char=86|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=87|end_char=89|NER=O
+16	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=90|end_char=95|NER=B-DATE_0
+17	2023	2023	NUM	_	NumType=Card	16	flat	_	start_char=96|end_char=100|SpaceAfter=No|NER=I-DATE_0
+18	,	,	PUNCT	_	_	20	punct	_	start_char=101|end_char=102|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=103|end_char=105|NER=O
+20	cilin	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	start_char=106|end_char=111|NER=O
+21	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=112|end_char=113|NER=O
+22	konsideroi	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	start_char=114|end_char=124|NER=O
+23	më	më	PART	_	_	25	mark	_	start_char=125|end_char=127|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=128|end_char=130|NER=O
+25	mirin	mirr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=131|end_char=136|NER=O
+26	në	në	ADP	_	Case=Acc	28	case	_	start_char=137|end_char=139|NER=O
+27	çdo	çdo	PRON	_	PronType=Ind	28	nummod	_	start_char=140|end_char=143|NER=O
+28	aspekt	aspek	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	start_char=144|end_char=150|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	22	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+
+# text = Duke u ndalur te rritja e të ardhurave , Rama tha se " në 9 - mujorin e parë vetëm nga turizmi Shqipëria ka përfituar 3 .
+# sent_id = 3
+1	Duke	duke	PART	_	_	3	fixed	_	start_char=0|end_char=4|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=5|end_char=6|NER=O
+3	ndalur	ndal	VERB	_	VerbForm=Part	11	advmod	_	start_char=7|end_char=13|NER=O
+4	te	te	ADP	_	Case=Nom	5	case	_	start_char=14|end_char=16|NER=O
+5	rritja	rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=17|end_char=23|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=24|end_char=25|NER=O
+7	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=26|end_char=28|NER=O
+8	ardhurave	ardhurë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=29|end_char=38|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	3	punct	_	start_char=39|end_char=40|NER=O
+10	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=41|end_char=45|NER=B-PER
+11	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=46|end_char=49|NER=O
+12	se	se	SCONJ	_	_	22	mark	_	start_char=50|end_char=52|NER=O
+13	"	"	PUNCT	_	_	11	punct	_	start_char=53|end_char=54|NER=O
+14	në	në	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=55|end_char=57|NER=O
+15	9	9	NUM	_	NumType=Card	11	obj	_	start_char=58|end_char=59|NER=O
+16	-	-	PUNCT	_	_	11	punct	_	start_char=60|end_char=61|NER=O
+17	mujorin	9-mujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=62|end_char=69|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=70|end_char=71|NER=O
+19	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=72|end_char=76|NER=O
+20	vetëm	vetëm	PART	_	_	19	mark	_	start_char=77|end_char=82|NER=O
+21	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=83|end_char=86|NER=O
+22	turizmi	turizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	advmod	_	start_char=87|end_char=94|NER=O
+23	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	appos	_	start_char=95|end_char=104|NER=B-VEND_1
+24	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	start_char=105|end_char=107|NER=O
+25	përfituar	përfitoj	VERB	_	VerbForm=Part	11	conj	_	start_char=108|end_char=117|NER=O
+26	3	3	NUM	_	NumType=Card	24	nummod	_	start_char=118|end_char=119|NER=O
+27	.	.	PUNCT	_	_	24	punct	_	start_char=120|end_char=121|NER=O
+
+# text = 2 miliardë euro të hyra " .
+# sent_id = 4
+1	2	2	NUM	_	NumType=Card	24	nummod	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	start_char=2|end_char=10|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	start_char=11|end_char=15|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	27	det	_	start_char=16|end_char=18|NER=O
+5	hyra	hyra	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=19|end_char=23|SpaceAfter=No|NER=O
+6	"	"	PUNCT	_	_	25	punct	_	start_char=24|end_char=25|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	22	punct	_	start_char=26|end_char=27|SpacesAfter=\n|NER=O
+
+# text = " Kjo është një shifër shumë e lartë dhe pa asnjë krahasim me vitet e mëparshme .
+# sent_id = 5
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=2|end_char=5|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=11|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=12|end_char=15|NER=O
+5	shifër	shifër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	cop	_	start_char=16|end_char=22|NER=O
+6	shumë	shumë	ADV	_	AdvType=Deg	5	amod	_	start_char=23|end_char=28|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=29|end_char=30|NER=O
+8	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=31|end_char=36|NER=O
+9	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=37|end_char=40|NER=O
+10	pa	pa	ADP	_	Case=Acc	12	case	_	start_char=41|end_char=43|NER=O
+11	asnjë	asnjë	PRON	_	PronType=Ind	12	nummod	_	start_char=44|end_char=49|NER=O
+12	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	start_char=50|end_char=58|NER=O
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=59|end_char=61|NER=O
+14	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=62|end_char=67|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=68|end_char=69|NER=O
+16	mëparshme	mëparshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=70|end_char=79|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	3	punct	_	start_char=80|end_char=81|NER=O
+
+# text = Këtu dua të bëj një parantezë për të gjithë ata që gabimisht e shohin rritjen e numrit të turistëve të palidhur me ekonominë e tyre dhe rëndom , komentojnë se nuk na duhen turistët , por na duhet ekonomia .
+# sent_id = 6
+1	Këtu	këtu	ADV	_	AdvType=Tim	2	mark	_	start_char=0|end_char=4|NER=O
+2	dua	duaj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=8|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+4	bëj	bëj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	ccomp	_	start_char=12|end_char=15|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=16|end_char=19|NER=O
+6	parantezë	parantezë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=20|end_char=29|NER=O
+7	për	për	ADP	_	Case=Acc	10	case	_	start_char=30|end_char=33|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=34|end_char=36|NER=O
+9	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	nummod	_	start_char=37|end_char=43|NER=O
+10	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	start_char=44|end_char=47|NER=O
+11	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=48|end_char=50|NER=O
+12	gabimisht	gabimisht	ADV	_	AdvType=Man	14	advmod	_	start_char=51|end_char=60|NER=O
+13	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=61|end_char=62|NER=O
+14	shohin	shoh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=63|end_char=69|NER=O
+15	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=70|end_char=77|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=78|end_char=79|NER=O
+17	numrit	numër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=80|end_char=86|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=87|end_char=89|NER=O
+19	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	start_char=90|end_char=99|NER=O
+20	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	21	det	_	start_char=100|end_char=102|NER=O
+21	palidhur	palidhur	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	start_char=103|end_char=111|NER=O
+22	me	me	ADP	_	Case=Acc	23	case	_	start_char=112|end_char=114|NER=O
+23	ekonominë	ekonomi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=115|end_char=124|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=125|end_char=126|NER=O
+25	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	amod:poss	_	start_char=127|end_char=131|NER=O
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=132|end_char=135|NER=O
+27	rëndom	rëndom	ADV	_	AdvType=Deg	29	advmod	_	start_char=136|end_char=142|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	29	punct	_	start_char=143|end_char=144|NER=O
+29	komentojnë	komentoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	acl	_	start_char=145|end_char=155|NER=O
+30	se	se	SCONJ	_	_	33	mark	_	start_char=156|end_char=158|NER=O
+31	nuk	nuk	PART	_	_	33	mark	_	start_char=159|end_char=162|NER=O
+32	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	33	iobj	_	start_char=163|end_char=165|NER=O
+33	duhen	duhem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	29	advcl	_	start_char=166|end_char=171|NER=O
+34	turistët	turist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	33	obj	_	start_char=172|end_char=180|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	36	punct	_	start_char=181|end_char=182|NER=O
+36	por	por	CCONJ	_	_	38	cc	_	start_char=183|end_char=186|NER=O
+37	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	38	iobj	_	start_char=187|end_char=189|NER=O
+38	duhet	duhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	33	conj	_	start_char=190|end_char=195|NER=O
+39	ekonomia	ekonomi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	38	obj	_	start_char=196|end_char=204|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	38	punct	_	start_char=205|end_char=206|NER=O
+
+# text = Në fakt turistët janë një nga kanalet më të rëndësishme të rritjes dhe zhvillimit ekonomik dhe turizmi konsiderohet pjesë e të gjithë zërave të eksportit " , shtoi Rama .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	fakt	fakt	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	start_char=3|end_char=7|NER=O
+3	turistët	turist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	advmod	_	start_char=8|end_char=16|NER=O
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=21|NER=O
+5	një	një	DET	_	Definite=Ind	7	det	_	start_char=22|end_char=25|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=26|end_char=29|NER=O
+7	kanalet	kanal	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obl:arg	_	start_char=30|end_char=37|NER=O
+8	më	më	PART	_	_	10	mark	_	start_char=38|end_char=40|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=41|end_char=43|NER=O
+10	rëndësishme	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=44|end_char=55|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=56|end_char=58|NER=O
+12	rritjes	rritje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=59|end_char=66|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=67|end_char=70|NER=O
+14	zhvillimit	zhvillim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	start_char=71|end_char=81|NER=O
+15	ekonomik	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=82|end_char=90|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=91|end_char=94|NER=O
+17	turizmi	turizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	conj	_	start_char=95|end_char=102|NER=O
+18	konsiderohet	konsideroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=103|end_char=115|NER=O
+19	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	cop	_	start_char=116|end_char=121|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=122|end_char=123|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=124|end_char=126|NER=O
+22	gjithë	gjithë	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	start_char=127|end_char=133|NER=O
+23	zërave	zë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	start_char=134|end_char=140|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=141|end_char=143|NER=O
+25	eksportit	eksportit	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	start_char=144|end_char=153|SpaceAfter=No|NER=O
+26	"	"	PUNCT	_	_	23	punct	_	start_char=154|end_char=155|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	27	punct	_	start_char=156|end_char=157|NER=O
+28	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	conj	_	start_char=158|end_char=163|NER=O
+29	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=164|end_char=168|SpaceAfter=No|NER=B-PER
+30	.	.	PUNCT	_	_	27	punct	_	start_char=169|end_char=170|SpacesAfter=\n\n\n|NER=O
+

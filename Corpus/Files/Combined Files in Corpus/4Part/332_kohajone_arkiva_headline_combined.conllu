@@ -1,0 +1,116 @@
+# text = Joe Biden dhe shkallët !
+# sent_id = 0
+1	Joe	Joe	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=3|NER=B-PER
+2	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=4|end_char=9|NER=I-PER
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=10|end_char=13|NER=O
+4	shkallët	shkallë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	start_char=14|end_char=22|SpaceAfter=No|NER=O
+5	!	!	PUNCT	_	_	1	punct	_	start_char=23|end_char=24|NER=O
+
+# text = Presidenti pengohet sërish teksa ngjitet në avion ( VIDEO ) Presidenti i Amerikës , Joe Biden , ka filluar ti ketë problem ngjitjen e shumë shkallëve .
+# sent_id = 1
+1	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=10|NER=O
+2	pengohet	pengoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=11|end_char=19|NER=O
+3	sërish	sërish	ADV	_	AdvType=Deg	2	advmod	_	start_char=20|end_char=26|NER=O
+4	teksa	teksa	ADV	_	AdvType=Loc	5	advmod	_	start_char=27|end_char=32|NER=O
+5	ngjitet	ngjit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=33|end_char=40|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=41|end_char=43|NER=O
+7	avion	avio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=44|end_char=49|NER=O
+8	(	(	PUNCT	_	_	9	punct	_	start_char=50|end_char=51|SpaceAfter=No|NER=O
+9	VIDEO	VIDEO	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=52|end_char=57|SpaceAfter=No|NER=O
+10	)	)	PUNCT	_	_	2	punct	_	start_char=58|end_char=59|SpacesAfter=\n|NER=O
+11	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=60|end_char=70|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=71|end_char=72|NER=O
+13	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=73|end_char=81|SpaceAfter=No|NER=B-VEND_1
+14	,	,	PUNCT	_	_	5	punct	_	start_char=82|end_char=83|NER=O
+15	Joe	Joe	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=84|end_char=87|NER=B-PER
+16	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=88|end_char=93|SpaceAfter=No|NER=I-PER
+17	,	,	PUNCT	_	_	5	punct	_	start_char=94|end_char=95|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=96|end_char=98|NER=O
+19	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=99|end_char=106|NER=O
+20	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	mark	_	start_char=107|end_char=109|NER=O
+21	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=110|end_char=114|NER=O
+22	problem	problem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=115|end_char=122|NER=O
+23	ngjitjen	ngjitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=123|end_char=131|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=132|end_char=133|NER=O
+25	shumë	shumë	PRON	_	PronType=Ind	16	nummod	_	start_char=134|end_char=139|NER=O
+26	shkallëve	shkall	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=140|end_char=149|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	9	punct	_	start_char=150|end_char=151|NER=O
+
+# text = Pas incidentit të ndodhur disa ditë më parë , kur u rrëzua tre herë në shkallët e avionit , Biden përsëriti sërish " skenën " .
+# sent_id = 2
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	incidentit	incident	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=4|end_char=14|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	start_char=15|end_char=17|NER=O
+4	ndodhur	ndodh	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=18|end_char=25|NER=O
+5	disa	disa	PRON	_	PronType=Ind	6	det	_	start_char=26|end_char=30|NER=O
+6	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=31|end_char=35|NER=O
+7	më	më	PART	_	_	8	mark	_	start_char=36|end_char=38|NER=O
+8	parë	parë	ADV	_	AdvType=Tim	6	advmod	_	start_char=39|end_char=43|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=44|end_char=45|NER=O
+10	kur	kur	SCONJ	_	_	12	mark	_	start_char=46|end_char=49|NER=O
+11	u	u	PART	_	_	12	fixed	_	start_char=50|end_char=51|NER=O
+12	rrëzua	rrëzoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	advcl	_	start_char=52|end_char=58|NER=O
+13	tre	tre	NUM	_	NumType=Card	14	nummod	_	start_char=59|end_char=62|NER=O
+14	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=63|end_char=67|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=68|end_char=70|NER=O
+16	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=71|end_char=79|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=80|end_char=81|NER=O
+18	avionit	avion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=82|end_char=89|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=90|end_char=91|NER=O
+20	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=92|end_char=97|NER=B-PER
+21	përsëriti	përsërij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=98|end_char=107|NER=O
+22	sërish	sërish	ADV	_	AdvType=Deg	21	advmod	_	start_char=108|end_char=114|NER=O
+23	"	"	PUNCT	_	_	21	punct	_	start_char=115|end_char=116|SpaceAfter=No|NER=O
+24	skenën	skenën	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=117|end_char=123|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	21	punct	_	start_char=124|end_char=125|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	21	punct	_	start_char=126|end_char=127|NER=O
+
+# text = Teksa mbante një valixhe në njërën dorë dhe çadrën në tjetrën , Biden është penguar sërish në shkallët e avionit .
+# sent_id = 3
+1	Teksa	teksa	SCONJ	_	_	2	mark	_	start_char=0|end_char=5|NER=O
+2	mbante	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	15	advcl	_	start_char=6|end_char=12|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=13|end_char=16|NER=O
+4	valixhe	valixh	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=17|end_char=24|NER=O
+5	në	në	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=27|NER=O
+6	njërën	njëra	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	7	nummod	_	start_char=28|end_char=34|NER=O
+7	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=35|end_char=39|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=40|end_char=43|NER=O
+9	çadrën	çadrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=44|end_char=50|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=51|end_char=53|NER=O
+11	tjetrën	tjetrë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	nmod	_	start_char=54|end_char=61|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=62|end_char=63|NER=O
+13	Biden	Bide	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=64|end_char=69|NER=B-PER
+14	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=70|end_char=75|NER=O
+15	penguar	penguar	VERB	_	VerbForm=Part	0	root	_	start_char=76|end_char=83|NER=O
+16	sërish	sërish	ADV	_	AdvType=Man	15	advmod	_	start_char=84|end_char=90|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=91|end_char=93|NER=O
+18	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=94|end_char=102|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=103|end_char=104|NER=O
+20	avionit	avion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=105|end_char=112|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=113|end_char=114|NER=O
+
+# text = Pas incidentit , ai ka arritur t ' i ngjisë shkallët deri në fund dhe më pas ka përshëndetur me dorë .
+# sent_id = 4
+1	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=3|NER=O
+2	incidentit	incident	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=4|end_char=14|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|NER=O
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=17|end_char=19|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=20|end_char=22|NER=O
+6	arritur	arrij	VERB	_	VerbForm=Part	0	root	_	start_char=23|end_char=30|NER=O
+7	t	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=31|end_char=32|NER=O
+8	'	'	PUNCT	_	_	8	punct	_	start_char=33|end_char=34|NER=O
+9	i	t'i	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=35|end_char=36|NER=O
+10	ngjisë	ngjej	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	ccomp	_	start_char=37|end_char=43|NER=O
+11	shkallët	shkallë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=44|end_char=52|NER=O
+12	deri	deri	PART	_	_	11	fixed	_	start_char=53|end_char=57|NER=O
+13	në	në	ADP	_	Case=Acc	12	case	_	start_char=58|end_char=60|NER=O
+14	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=61|end_char=65|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=66|end_char=69|NER=O
+16	më	më	PART	_	_	15	mark	_	start_char=70|end_char=72|NER=O
+17	pas	pas	ADV	_	AdvType=Tim	17	advmod	_	start_char=73|end_char=76|NER=O
+18	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	start_char=77|end_char=79|NER=O
+19	përshëndetur	përshëndem	VERB	_	VerbForm=Part	8	conj	_	start_char=80|end_char=92|NER=O
+20	me	me	ADP	_	Case=Acc	19	case	_	start_char=93|end_char=95|NER=O
+21	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=96|end_char=100|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	17	punct	_	start_char=101|end_char=102|SpacesAfter=\n|NER=O
+

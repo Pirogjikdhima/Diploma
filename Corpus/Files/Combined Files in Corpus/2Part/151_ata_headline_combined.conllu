@@ -1,0 +1,183 @@
+# text = KIEV – Zelensky : 110 raketa ruse u lëshuan mbi Ukrainë , do të përgjigjemi !
+# sent_id = 0
+1	KIEV	KIEV	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|NER=B-VEND_0
+2	–	–	PUNCT	_	_	3	punct	_	start_char=5|end_char=6|NER=O
+3	Zelensky	Zelenskë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=15|SpaceAfter=No|NER=B-PER
+4	:	:	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+5	110	110	NUM	_	NumType=Card	2	nummod	_	start_char=18|end_char=21|NER=O
+6	raketa	raketë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	start_char=22|end_char=28|NER=B-PRO
+7	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=29|end_char=33|NER=O
+8	u	u	PART	_	_	5	fixed	_	start_char=34|end_char=35|NER=O
+9	lëshuan	lëshoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=36|end_char=43|NER=O
+10	mbi	mbi	ADP	_	Case=Acc	7	case	_	start_char=44|end_char=47|NER=O
+11	Ukrainë	Ukrai	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=48|end_char=55|SpaceAfter=No|NER=B-VEND_1
+12	,	,	PUNCT	_	_	5	punct	_	start_char=56|end_char=57|NER=O
+13	do	do	PART	_	_	11	fixed	_	start_char=58|end_char=60|NER=O
+14	të	të	PART	_	_	11	fixed	_	start_char=61|end_char=63|NER=O
+15	përgjigjemi	përgjigjem	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	advcl	_	start_char=64|end_char=75|SpaceAfter=No|NER=O
+16	!	!	PUNCT	_	_	13	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+
+# text = KIEV , 29 dhjetor / ATSH - ANSA / – Të paktën 110 raketa u lëshuan mbi Ukrainë duke shkaktuar vdekje dhe plagosje , në sulmin masiv rus të natës së djeshme , deklaroi sot presidenti ukrainas Volodymyr Zelensky .
+# sent_id = 1
+1	KIEV	KIEV	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=0|end_char=4|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	11	punct	_	start_char=5|end_char=6|NER=O
+3	29	29	NUM	_	NumType=Card	16	nummod	_	start_char=7|end_char=9|NER=B-DATE_0
+4	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=10|end_char=17|NER=I-DATE_0
+5	/	/	PUNCT	_	_	18	punct	_	start_char=18|end_char=19|SpaceAfter=No|NER=O
+6	ATSH	ATSH-ANSA	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	16	appos	_	start_char=20|end_char=24|NER=O
+7	-	-	PUNCT	_	_	16	punct	_	start_char=25|end_char=26|NER=O
+8	ANSA	ATSH-ANSA	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	16	appos	_	start_char=27|end_char=31|NER=O
+9	/	/	PUNCT	_	_	16	punct	_	start_char=32|end_char=33|NER=O
+10	–	–	PUNCT	_	_	18	punct	_	start_char=34|end_char=35|NER=O
+11	Të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=36|end_char=38|NER=O
+12	paktën	paktë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	conj	_	start_char=39|end_char=45|NER=O
+13	110	110	NUM	_	NumType=Card	23	nummod	_	start_char=46|end_char=49|NER=O
+14	raketa	raketë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	nsubj	_	start_char=50|end_char=56|NER=B-PRO
+15	u	u	PART	_	_	25	fixed	_	start_char=57|end_char=58|NER=O
+16	lëshuan	lëshoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	21	acl	_	start_char=59|end_char=66|NER=O
+17	mbi	mbi	ADP	_	Case=Acc	27	case	_	start_char=67|end_char=70|NER=O
+18	Ukrainë	Ukrai	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=71|end_char=78|NER=B-VEND_1
+19	duke	duke	PART	_	_	29	fixed	_	start_char=79|end_char=83|NER=O
+20	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	25	advmod	_	start_char=84|end_char=93|NER=O
+21	vdekje	vdekje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	start_char=94|end_char=100|NER=O
+22	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=101|end_char=104|NER=O
+23	plagosje	plagosje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	conj	_	start_char=105|end_char=113|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	35	punct	_	start_char=114|end_char=115|NER=O
+25	në	në	ADP	_	Case=Acc	35	case	_	start_char=116|end_char=118|NER=O
+26	sulmin	sulm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	advmod	_	start_char=119|end_char=125|NER=O
+27	masiv	masiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=126|end_char=131|NER=O
+28	rus	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=132|end_char=135|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	39	det:poss	_	start_char=136|end_char=138|NER=O
+30	natës	natë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=139|end_char=144|NER=O
+31	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	41	det	_	start_char=145|end_char=147|NER=O
+32	djeshme	djeshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=148|end_char=155|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	43	punct	_	start_char=156|end_char=157|NER=O
+34	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	39	acl	_	start_char=158|end_char=166|NER=O
+35	sot	sot	ADV	_	AdvType=Tim	43	advmod	_	start_char=167|end_char=170|NER=O
+36	presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	obj	_	start_char=171|end_char=181|NER=O
+37	ukrainas	ukrainas	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	start_char=182|end_char=190|NER=O
+38	Volodymyr	Volodymyr	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	nmod	_	start_char=191|end_char=200|NER=B-PER
+39	Zelensky	Zelenskë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	47	flat:name	_	start_char=201|end_char=209|SpaceAfter=No|NER=I-PER
+40	.	.	PUNCT	_	_	43	punct	_	start_char=210|end_char=211|SpacesAfter=\n|NER=O
+
+# text = " Rusia ka përdorur pothuajse çdo lloj arme në arsenalin e saj " Kindzhals " , S - 300 , raketa dhe dronë .
+# sent_id = 2
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	Rusia	Rusi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=2|end_char=7|NER=B-VEND_1
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=8|end_char=10|NER=O
+4	përdorur	përdor	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=19|NER=O
+5	pothuajse	pothuajse	ADV	_	AdvType=Man	6	mark	_	start_char=20|end_char=29|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	6	nummod	_	start_char=30|end_char=33|NER=O
+7	lloj	lloj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=34|end_char=38|NER=O
+8	arme	arëm	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=39|end_char=43|NER=O
+9	në	në	ADP	_	Case=Acc	9	case	_	start_char=44|end_char=46|NER=O
+10	arsenalin	arsenal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=47|end_char=56|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=57|end_char=58|NER=O
+12	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	amod:poss	_	start_char=59|end_char=62|NER=O
+13	"	"	PUNCT	_	_	9	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+14	Kindzhals	Kindzhals	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=65|end_char=74|SpaceAfter=No|NER=B-PRO
+15	"	"	PUNCT	_	_	9	punct	_	start_char=75|end_char=76|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	14	punct	_	start_char=77|end_char=78|NER=O
+17	S	S-300	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=79|end_char=80|SpaceAfter=No|NER=B-PRO
+18	-	-	PUNCT	_	_	9	punct	_	start_char=81|end_char=82|SpaceAfter=No|NER=B-PRO
+19	300	300	NUM	_	NumType=Card	9	appos	_	start_char=83|end_char=86|SpaceAfter=No|NER=B-PRO
+20	,	,	PUNCT	_	_	16	punct	_	start_char=87|end_char=88|NER=O
+21	raketa	raketë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	list	_	start_char=89|end_char=95|NER=B-PRO
+22	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=96|end_char=99|NER=O
+23	dronë	dronë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	start_char=100|end_char=105|SpaceAfter=No|NER=B-PRO
+24	.	.	PUNCT	_	_	3	punct	_	start_char=106|end_char=107|NER=O
+
+# text = Ne do t ' i përgjigjemi sulmeve terroriste .
+# sent_id = 3
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=0|end_char=2|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=3|end_char=5|NER=O
+3	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=6|end_char=7|NER=O
+4	'	'	PUNCT	_	_	4	punct	_	start_char=8|end_char=9|NER=O
+5	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=10|end_char=11|NER=O
+6	përgjigjemi	përgjigjem	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=12|end_char=23|NER=O
+7	sulmeve	sulme	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=24|end_char=31|NER=O
+8	terroriste	terrorist	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=32|end_char=42|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	4	punct	_	start_char=43|end_char=44|NER=O
+
+# text = Dhe ne do të vazhdojmë të luftojmë për sigurinë e të gjithë vendit tonë , çdo qyteti dhe çdo qytetari " , shton ai .
+# sent_id = 4
+1	Dhe	dhe	CCONJ	_	_	5	cc	_	start_char=0|end_char=3|NER=O
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=6|NER=O
+3	do	do	PART	_	_	5	fixed	_	start_char=7|end_char=9|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=10|end_char=12|NER=O
+5	vazhdojmë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=22|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=23|end_char=25|NER=O
+7	luftojmë	luftoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	ccomp	_	start_char=26|end_char=34|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=38|NER=O
+9	sigurinë	siguri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	start_char=39|end_char=47|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=48|end_char=49|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=52|NER=O
+12	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	13	nummod	_	start_char=53|end_char=59|NER=O
+13	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=60|end_char=66|NER=O
+14	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	amod	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=72|end_char=73|NER=O
+16	çdo	çdo	PRON	_	PronType=Ind	17	det	_	start_char=74|end_char=77|NER=O
+17	qyteti	qytet	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=78|end_char=84|NER=O
+18	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=85|end_char=88|NER=O
+19	çdo	çdo	PRON	_	PronType=Ind	20	nummod	_	start_char=89|end_char=92|NER=O
+20	qytetari	qytetar	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=93|end_char=101|SpaceAfter=No|NER=O
+21	"	"	PUNCT	_	_	17	punct	_	start_char=102|end_char=103|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	22	punct	_	start_char=104|end_char=105|NER=O
+23	shton	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=106|end_char=111|NER=O
+24	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	start_char=112|end_char=114|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	22	punct	_	start_char=115|end_char=116|SpacesAfter=\n|NER=O
+
+# text = " Shumica e raketave u rrëzuan .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Shumica	shumicë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=2|end_char=9|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	raketave	raketë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=12|end_char=20|NER=B-PRO
+5	u	u	PART	_	_	6	fixed	_	start_char=21|end_char=22|NER=O
+6	rrëzuan	rrëzoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=23|end_char=30|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	6	punct	_	start_char=31|end_char=32|NER=O
+
+# text = Sulmet ruse kishin në shënjestër një maternitet , shkolla , një qendër tregtare , ndërtesa banimi shumëkatëshe dhe shtëpi private në Kiev , Lviv , Odessa , Dnipro , Kharkiv , Zaporizhzhia dhe qytete të tjera " , shtoi Zelensky .
+# sent_id = 6
+1	Sulmet	sulme	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=0|end_char=6|NER=O
+2	ruse	rus	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=7|end_char=11|NER=O
+3	kishin	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=12|end_char=18|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	shënjestër	shënjestër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=22|end_char=32|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=33|end_char=36|NER=O
+7	maternitet	maternit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=37|end_char=47|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=48|end_char=49|NER=O
+9	shkolla	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	list	_	start_char=50|end_char=57|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=58|end_char=59|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=60|end_char=63|NER=O
+12	qendër	qendër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	list	_	start_char=64|end_char=70|NER=O
+13	tregtare	tregtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=71|end_char=79|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=80|end_char=81|NER=O
+15	ndërtesa	ndërtesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	list	_	start_char=82|end_char=90|NER=O
+16	banimi	banim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=91|end_char=97|NER=O
+17	shumëkatëshe	shumëkatëshe	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=98|end_char=110|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=111|end_char=114|NER=O
+19	shtëpi	shtëpi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	start_char=115|end_char=121|NER=O
+20	private	privat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=122|end_char=129|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=130|end_char=132|NER=O
+22	Kiev	Kiev	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	start_char=133|end_char=137|SpaceAfter=No|NER=B-VEND_0
+23	,	,	PUNCT	_	_	24	punct	_	start_char=138|end_char=139|NER=O
+24	Lviv	Lviv	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	list	_	start_char=140|end_char=144|SpaceAfter=No|NER=B-VEND_0
+25	,	,	PUNCT	_	_	26	punct	_	start_char=145|end_char=146|NER=O
+26	Odessa	Odessë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	list	_	start_char=147|end_char=153|SpaceAfter=No|NER=B-VEND_0
+27	,	,	PUNCT	_	_	28	punct	_	start_char=154|end_char=155|NER=O
+28	Dnipro	Dnipro	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	list	_	start_char=156|end_char=162|SpaceAfter=No|NER=B-VEND_0
+29	,	,	PUNCT	_	_	30	punct	_	start_char=163|end_char=164|NER=O
+30	Kharkiv	Kharki	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	list	_	start_char=165|end_char=172|SpaceAfter=No|NER=B-VEND_0
+31	,	,	PUNCT	_	_	32	punct	_	start_char=173|end_char=174|NER=O
+32	Zaporizhzhia	Zaporizhzhia	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	list	_	start_char=175|end_char=187|NER=B-VEND_0
+33	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=188|end_char=191|NER=O
+34	qytete	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	32	conj	_	start_char=192|end_char=198|NER=O
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det:poss	_	start_char=199|end_char=201|NER=O
+36	tjera	tjera	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	34	nmod	_	start_char=202|end_char=207|SpaceAfter=No|NER=O
+37	"	"	PUNCT	_	_	34	punct	_	start_char=208|end_char=209|SpaceAfter=No|NER=O
+38	,	,	PUNCT	_	_	38	punct	_	start_char=210|end_char=211|NER=O
+39	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	34	acl:relcl	_	start_char=212|end_char=217|NER=O
+40	Zelensky	Zelenskë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	obj	_	start_char=218|end_char=226|SpaceAfter=No|NER=B-PER
+41	.	.	PUNCT	_	_	38	punct	_	start_char=227|end_char=228|SpacesAfter=\n|NER=O
+

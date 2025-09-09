@@ -1,0 +1,259 @@
+# text = 12 / 02 / 2022 Banorët e zonës së " 5 Majit " kanë zhvilluar sërish të shtunën një protestë .
+# sent_id = 0
+1	12	12	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	02	02	NUM	_	NumType=Card	9	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	11	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Banorët	banor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=15|end_char=22|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	16	det:poss	_	start_char=23|end_char=24|NER=O
+8	zonës	zonë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=25|end_char=30|NER=O
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=31|end_char=33|NER=O
+10	"	"	PUNCT	_	_	20	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+11	5	5	NUM	_	NumType=Card	20	nummod	_	start_char=36|end_char=37|NER=O
+12	Majit	maj	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=38|end_char=43|SpaceAfter=No|NER=O
+13	"	"	PUNCT	_	_	20	punct	_	start_char=44|end_char=45|NER=O
+14	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=46|end_char=50|NER=O
+15	zhvilluar	zhvilloj	VERB	_	VerbForm=Part	0	root	_	start_char=51|end_char=60|NER=O
+16	sërish	sërish	ADV	_	AdvType=Man	23	advmod	_	start_char=61|end_char=67|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=68|end_char=70|NER=O
+18	shtunën	shtunë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=71|end_char=78|NER=O
+19	një	një	DET	_	Definite=Ind	28	det	_	start_char=79|end_char=82|NER=O
+20	protestë	protestë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	nmod	_	start_char=83|end_char=91|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	23	punct	_	start_char=92|end_char=93|NER=O
+
+# text = Kërkesa e tyre tashmë e përsëritur drejtuar kryeministrit Rama është " Na vlerëso pronat me çmimin e tregut " .
+# sent_id = 1
+1	Kërkesa	kërkesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=8|end_char=9|NER=O
+3	tyre	tyre	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=10|end_char=14|NER=O
+4	tashmë	tashmë	ADV	_	AdvType=Deg	6	advmod	_	start_char=15|end_char=21|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=23|NER=O
+6	përsëritur	përsëritur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=24|end_char=34|NER=O
+7	drejtuar	drejtuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=35|end_char=43|NER=O
+8	kryeministrit	kryeministr	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=44|end_char=57|NER=O
+9	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=58|end_char=62|NER=B-PER
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=63|end_char=68|NER=O
+11	"	"	PUNCT	_	_	13	punct	_	start_char=69|end_char=70|SpaceAfter=No|NER=O
+12	Na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	iobj	_	start_char=71|end_char=73|NER=O
+13	vlerëso	vlerëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	csubj	_	start_char=74|end_char=81|NER=O
+14	pronat	pronë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=82|end_char=88|NER=O
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=89|end_char=91|NER=O
+16	çmimin	çmim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=92|end_char=98|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=99|end_char=100|NER=O
+18	tregut	treg	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=101|end_char=107|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	18	punct	_	start_char=108|end_char=109|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	13	punct	_	start_char=110|end_char=111|NER=O
+
+# text = " Ne jemi shtetas shqiptarë !
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2|end_char=4|NER=O
+3	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+4	shtetas	shtetas	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	cop	_	start_char=10|end_char=17|NER=O
+5	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=18|end_char=27|SpaceAfter=No|NER=O
+6	!	!	PUNCT	_	_	3	punct	_	start_char=28|end_char=29|NER=O
+
+# text = Edhe ne kemi të drejta prone , të drejtë jete !
+# sent_id = 3
+1	Edhe	edhe	CCONJ	_	_	2	mark:emph	_	start_char=0|end_char=4|NER=O
+2	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5|end_char=7|NER=O
+3	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	25	advcl	_	start_char=8|end_char=12|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=13|end_char=15|NER=O
+5	drejta	drejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=16|end_char=22|NER=O
+6	prone	pron	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=23|end_char=28|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	3	punct	_	start_char=29|end_char=30|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=31|end_char=33|NER=O
+9	drejtë	drejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=34|end_char=40|NER=O
+10	jete	jetë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	start_char=41|end_char=45|SpaceAfter=No|NER=O
+11	!	!	PUNCT	_	_	9	punct	_	start_char=46|end_char=47|NER=O
+
+# text = E vetmja gjë që më mbetet mua është të mbroj pronën time " tha një prej protestuesve .
+# sent_id = 4
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=0|end_char=1|NER=O
+2	vetmja	vetëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	nummod	_	start_char=2|end_char=8|NER=O
+3	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=9|end_char=12|NER=O
+4	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=13|end_char=15|NER=O
+5	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	start_char=16|end_char=18|NER=O
+6	mbetet	mbes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	14	acl:relcl	_	start_char=19|end_char=25|NER=O
+7	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	start_char=26|end_char=29|NER=O
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=35|NER=O
+9	të	të	PART	_	_	21	fixed	_	start_char=36|end_char=38|NER=O
+10	mbroj	mbroj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	19	csubj	_	start_char=39|end_char=44|NER=O
+11	pronën	pronë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=45|end_char=51|NER=O
+12	time	ime	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	amod	_	start_char=52|end_char=56|SpaceAfter=No|NER=O
+13	"	"	PUNCT	_	_	25	punct	_	start_char=57|end_char=58|NER=O
+14	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	conj	_	start_char=59|end_char=62|NER=O
+15	një	një	DET	_	Definite=Ind	28	det	_	start_char=63|end_char=66|NER=O
+16	prej	prej	ADP	_	Case=Abl	28	case	_	start_char=67|end_char=71|NER=O
+17	protestuesve	protestues	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	25	obl	_	start_char=72|end_char=84|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	25	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Sipas tyre autoritetet kanë nënshkruar asnjë dokument , por kanë dhënë vetëm premtime .
+# sent_id = 5
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	tyre	tyre	PRON	_	Case=Abl|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	advmod	_	start_char=6|end_char=10|NER=O
+3	autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	flat	_	start_char=11|end_char=22|NER=O
+4	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=23|end_char=27|NER=O
+5	nënshkruar	nënshkruar	VERB	_	VerbForm=Part	0	root	_	start_char=28|end_char=38|NER=O
+6	asnjë	asnjë	PRON	_	PronType=Ind	7	nummod	_	start_char=39|end_char=44|NER=O
+7	dokument	dokume	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	start_char=45|end_char=53|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=54|end_char=55|NER=O
+9	por	por	CCONJ	_	_	11	cc	_	start_char=56|end_char=59|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=60|end_char=64|NER=O
+11	dhënë	jap	VERB	_	VerbForm=Part	5	conj	_	start_char=65|end_char=70|NER=O
+12	vetëm	vetëm	ADV	_	AdvType=Man	13	advmod	_	start_char=71|end_char=76|NER=O
+13	premtime	premtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=77|end_char=85|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=86|end_char=87|SpacesAfter=\n|NER=O
+
+# text = Autoritetet bashkiake thonë se të gjitha familjet do të trajtohen sipas ligjit .
+# sent_id = 6
+1	Autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	start_char=0|end_char=11|NER=O
+2	bashkiake	bashkiak	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=12|end_char=21|NER=O
+3	thonë	them	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=27|NER=O
+4	se	se	SCONJ	_	_	10	mark	_	start_char=28|end_char=30|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=31|end_char=33|NER=O
+6	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=34|end_char=40|NER=O
+7	familjet	familje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	start_char=41|end_char=49|NER=O
+8	do	do	PART	_	_	10	fixed	_	start_char=50|end_char=52|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=53|end_char=55|NER=O
+10	trajtohen	trajtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	advcl	_	start_char=56|end_char=65|NER=O
+11	sipas	sipas	ADP	_	Case=Abl	12	case	_	start_char=66|end_char=71|NER=O
+12	ligjit	ligj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	start_char=72|end_char=78|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	3	punct	_	start_char=79|end_char=80|NER=O
+
+# text = Kryeministri Edi Rama i cili u takua vete me banorët , deklaroi se " për të gjithë banorët qoftë të " 5 Majit " , dhe të zonës së Unazës , të cilët janë të ndarë në dy kategori , do të ketë një trajtim të dinjitetshëm , njerëzor , solidar , njësoj siç u bë me të gjithë ata që humbën shtëpitë nga tërmeti " .
+# sent_id = 7
+1	Kryeministri	Kryeministri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=0|end_char=12|NER=O
+2	Edi	Edi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=13|end_char=16|NER=B-PER
+3	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=17|end_char=21|NER=I-PER
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=22|end_char=23|NER=O
+5	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	start_char=24|end_char=28|NER=O
+6	u	u	PART	_	_	7	fixed	_	start_char=29|end_char=30|NER=O
+7	takua	takoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	advcl	_	start_char=31|end_char=36|NER=O
+8	vete	vete	PRON	_	PronType=Prs|Reflex=Yes	7	obj	_	start_char=37|end_char=41|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=42|end_char=44|NER=O
+10	banorët	banor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	advmod	_	start_char=45|end_char=52|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=53|end_char=54|NER=O
+12	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=55|end_char=63|NER=O
+13	se	se	SCONJ	_	_	12	mark	_	start_char=64|end_char=66|NER=O
+14	"	"	PUNCT	_	_	17	punct	_	start_char=67|end_char=68|NER=O
+15	për	për	ADP	_	Case=Acc	17	case	_	start_char=69|end_char=72|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	16	det	_	start_char=73|end_char=75|NER=O
+17	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	17	nummod	_	start_char=76|end_char=82|NER=O
+18	banorët	banor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	advmod	_	start_char=83|end_char=90|NER=O
+19	qoftë	qoftë	CCONJ	_	_	20	cc	_	start_char=91|end_char=96|NER=O
+20	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	20	det:poss	_	start_char=97|end_char=99|NER=O
+21	"	"	PUNCT	_	_	17	punct	_	start_char=100|end_char=101|NER=O
+22	5	5	NUM	_	NumType=Card	17	nmod	_	start_char=102|end_char=103|NER=O
+23	Majit	Majit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=104|end_char=109|SpaceAfter=No|NER=O
+24	"	"	PUNCT	_	_	20	punct	_	start_char=110|end_char=111|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	23	punct	_	start_char=112|end_char=113|NER=O
+26	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=114|end_char=117|NER=O
+27	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	25	det:poss	_	start_char=118|end_char=120|NER=O
+28	zonës	zonë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	conj	_	start_char=121|end_char=126|NER=O
+29	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=127|end_char=129|NER=O
+30	Unazës	Unazë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	start_char=130|end_char=136|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	30	punct	_	start_char=137|end_char=138|NER=O
+32	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	30	det	_	start_char=139|end_char=141|NER=O
+33	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	31	nsubj	_	start_char=142|end_char=147|NER=O
+34	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	cc	_	start_char=148|end_char=152|NER=O
+35	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	33	det	_	start_char=153|end_char=155|NER=O
+36	ndarë	ndaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	start_char=156|end_char=161|NER=O
+37	në	në	ADP	_	Case=Acc	36	case	_	start_char=162|end_char=164|NER=O
+38	dy	dy	NUM	_	NumType=Card	36	nummod	_	start_char=165|end_char=167|NER=O
+39	kategori	kategori	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	33	obl	_	start_char=168|end_char=176|SpaceAfter=No|NER=O
+40	,	,	PUNCT	_	_	40	punct	_	start_char=177|end_char=178|NER=O
+41	do	do	PART	_	_	40	fixed	_	start_char=179|end_char=181|NER=O
+42	të	të	PART	_	_	40	fixed	_	start_char=182|end_char=184|NER=O
+43	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	acl:relcl	_	start_char=185|end_char=189|NER=O
+44	një	një	DET	_	Definite=Ind	42	det	_	start_char=190|end_char=193|NER=O
+45	trajtim	trajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	40	obj	_	start_char=194|end_char=201|NER=O
+46	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	44	det	_	start_char=202|end_char=204|NER=O
+47	dinjitetshëm	dinjitetshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	start_char=205|end_char=217|SpaceAfter=No|NER=O
+48	,	,	PUNCT	_	_	46	punct	_	start_char=218|end_char=219|NER=O
+49	njerëzor	njerëzor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	start_char=220|end_char=228|SpaceAfter=No|NER=O
+50	,	,	PUNCT	_	_	48	punct	_	start_char=229|end_char=230|NER=O
+51	solidar	solidar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	46	conj	_	start_char=231|end_char=238|SpaceAfter=No|NER=O
+52	,	,	PUNCT	_	_	50	punct	_	start_char=239|end_char=240|NER=O
+53	njësoj	njësoj	ADV	_	AdvType=Deg	53	mark	_	start_char=241|end_char=247|NER=O
+54	siç	siç	SCONJ	_	_	53	mark	_	start_char=248|end_char=251|NER=O
+55	u	u	PART	_	_	53	fixed	_	start_char=252|end_char=253|NER=O
+56	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	40	advcl	_	start_char=254|end_char=256|NER=O
+57	me	me	ADP	_	Case=Acc	57	case	_	start_char=257|end_char=259|NER=O
+58	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	56	det	_	start_char=260|end_char=262|NER=O
+59	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	57	det	_	start_char=263|end_char=269|NER=O
+60	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	53	obl	_	start_char=270|end_char=273|NER=O
+61	që	që	PRON	_	PronType=Rel	59	nsubj	_	start_char=274|end_char=276|NER=O
+62	humbën	humbëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	57	acl:relcl	_	start_char=277|end_char=283|NER=O
+63	shtëpitë	shtëpi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	59	obj	_	start_char=284|end_char=292|NER=O
+64	nga	nga	ADP	_	Case=Nom	62	case	_	start_char=293|end_char=296|NER=O
+65	tërmeti	tërmet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	59	obl	_	start_char=297|end_char=304|SpaceAfter=No|NER=O
+66	"	"	PUNCT	_	_	62	punct	_	start_char=305|end_char=306|SpaceAfter=No|NER=O
+67	.	.	PUNCT	_	_	53	punct	_	start_char=307|end_char=308|SpacesAfter=\n|NER=O
+
+# text = " Ata që janë me certifikatë pronësie s ' kemi çfarë diskutojmë , sepse ata janë me dokumente të rregullta , ligjorë dhe për ta zgjidhja është e qartë : ose dëmshpërblim financiar , ose kompensim me këmbim , që ata të marrin më shumë se kanë si pronë duke qenë pronarë " , tha zoti Rama pak ditë më parë .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	start_char=2|end_char=5|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=6|end_char=8|NER=O
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl	_	start_char=9|end_char=13|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=14|end_char=16|NER=O
+6	certifikatë	certifikatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=17|end_char=28|NER=O
+7	pronësie	pronësi	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=29|end_char=37|NER=O
+8	s	s'kem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=39|NER=O
+9	'	'	PUNCT	_	_	6	punct	_	start_char=40|end_char=41|NER=O
+10	kemi	s'kem	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=42|end_char=46|NER=O
+11	çfarë	çfarë	PRON	_	PronType=Ind	10	nsubj	_	start_char=47|end_char=52|NER=O
+12	diskutojmë	diskutoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=53|end_char=63|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	12	punct	_	start_char=64|end_char=65|NER=O
+14	sepse	sepse	SCONJ	_	_	14	mark	_	start_char=66|end_char=71|NER=O
+15	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=72|end_char=75|NER=O
+16	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=76|end_char=80|NER=O
+17	me	me	ADP	_	Case=Acc	16	case	_	start_char=81|end_char=83|NER=O
+18	dokumente	dokument	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obl:arg	_	start_char=84|end_char=93|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=94|end_char=96|NER=O
+20	rregullta	rregullt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=97|end_char=106|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	20	punct	_	start_char=107|end_char=108|NER=O
+22	ligjorë	ligjorë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=109|end_char=116|NER=O
+23	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=117|end_char=120|NER=O
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=121|end_char=124|NER=O
+25	ta	_	_	_	_	_	_	_	start_char=125|end_char=127|NER=O
+26	zgjidhja	zgjidhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	advmod	_	start_char=128|end_char=136|NER=O
+27	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	advcl	_	start_char=137|end_char=142|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=143|end_char=144|NER=O
+29	qartë	qartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	cop	_	start_char=145|end_char=150|SpaceAfter=No|NER=O
+30	:	:	PUNCT	_	_	26	punct	_	start_char=151|end_char=152|NER=O
+31	ose	ose	CCONJ	_	_	31	cc	_	start_char=153|end_char=156|NER=O
+32	dëmshpërblim	dëmshpërblim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	start_char=157|end_char=169|NER=O
+33	financiar	financiar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=170|end_char=179|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	34	punct	_	start_char=180|end_char=181|NER=O
+35	ose	ose	CCONJ	_	_	35	cc	_	start_char=182|end_char=185|NER=O
+36	kompensim	kompensim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	31	conj	_	start_char=186|end_char=195|NER=O
+37	me	me	ADP	_	Case=Acc	37	case	_	start_char=196|end_char=198|NER=O
+38	këmbim	këmbim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	start_char=199|end_char=205|SpaceAfter=No|NER=O
+39	,	,	PUNCT	_	_	39	punct	_	start_char=206|end_char=207|NER=O
+40	që	që	SCONJ	_	_	42	mark	_	start_char=208|end_char=210|NER=O
+41	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	start_char=211|end_char=214|NER=O
+42	të	të	PART	_	_	42	fixed	_	start_char=215|end_char=217|NER=O
+43	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	37	acl:relcl	_	start_char=218|end_char=224|NER=O
+44	më	më	PART	_	_	44	mark	_	start_char=225|end_char=227|NER=O
+45	shumë	shumë	ADV	_	AdvType=Deg	42	advmod	_	start_char=228|end_char=233|NER=O
+46	se	se	SCONJ	_	_	46	mark	_	start_char=234|end_char=236|NER=O
+47	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	42	advcl	_	start_char=237|end_char=241|NER=O
+48	si	si	SCONJ	_	_	48	mark	_	start_char=242|end_char=244|NER=O
+49	pronë	pronë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	46	obj	_	start_char=245|end_char=250|NER=O
+50	duke	duke	PART	_	_	50	fixed	_	start_char=251|end_char=255|NER=O
+51	qenë	jam	VERB	_	VerbForm=Part	46	advmod	_	start_char=256|end_char=260|NER=O
+52	pronarë	pronarë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	50	obj	_	start_char=261|end_char=268|SpaceAfter=No|NER=O
+53	"	"	PUNCT	_	_	50	punct	_	start_char=269|end_char=270|SpaceAfter=No|NER=O
+54	,	,	PUNCT	_	_	53	punct	_	start_char=271|end_char=272|NER=O
+55	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	50	conj	_	start_char=273|end_char=276|NER=O
+56	zoti	zot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	53	obj	_	start_char=277|end_char=281|NER=O
+57	Rama	Rama	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	54	appos	_	start_char=282|end_char=286|NER=B-PER
+58	pak	pak	ADV	_	AdvType=Deg	57	nummod	_	start_char=287|end_char=290|NER=O
+59	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	53	advmod	_	start_char=291|end_char=295|NER=O
+60	më	më	PART	_	_	59	mark	_	start_char=296|end_char=298|NER=O
+61	parë	parë	ADV	_	AdvType=Tim	57	advmod	_	start_char=299|end_char=303|SpaceAfter=No|NER=O
+62	.	.	PUNCT	_	_	53	punct	_	start_char=304|end_char=305|SpacesAfter=\n|NER=O
+

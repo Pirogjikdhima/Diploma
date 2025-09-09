@@ -1,0 +1,191 @@
+# text = Ja pse turistët zgjedhin Përmetin ?
+# sent_id = 0
+1	Ja	Ja	SCONJ	_	_	4	mark	_	start_char=0|end_char=2|NER=O
+2	pse	pse	SCONJ	_	_	4	mark	_	start_char=3|end_char=6|NER=O
+3	turistët	turist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=7|end_char=15|NER=O
+4	zgjedhin	zgjedh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=24|NER=O
+5	Përmetin	përmet	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=25|end_char=33|SpaceAfter=No|NER=B-VEND_0
+6	?	?	PUNCT	_	_	4	punct	_	start_char=34|end_char=35|NER=O
+
+# text = Kulinari e pasur , sporte të aventurës , rafting dhe kajak 24 / 09 / 2023 Ky është një vit i pazakontë për turizmin në Përmet .
+# sent_id = 1
+1	Kulinari	Kulinar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	pasur	pasur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=11|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|NER=O
+5	sporte	sport	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	appos	_	start_char=19|end_char=25|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=26|end_char=28|NER=O
+7	aventurës	aventurë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=29|end_char=38|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+9	rafting	rafting	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	list	_	start_char=41|end_char=48|NER=O
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=49|end_char=52|NER=O
+11	kajak	kajak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	start_char=53|end_char=58|SpacesAfter=\n|NER=O
+12	24	24	NUM	_	NumType=Card	13	nummod	_	start_char=59|end_char=61|SpaceAfter=No|NER=B-DATE_0
+13	/	/	PUNCT	_	_	11	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=I-DATE_0
+14	09	09	NUM	_	NumType=Card	11	nmod	_	start_char=64|end_char=66|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=I-DATE_0
+16	2023	2023	NUM	_	NumType=Card	13	flat	_	start_char=69|end_char=73|SpaceAfter=No|NER=I-DATE_0
+17	Ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	_	start_char=74|end_char=76|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=77|end_char=82|NER=O
+19	një	një	DET	_	Definite=Ind	19	det	_	start_char=83|end_char=86|NER=O
+20	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	cop	_	start_char=87|end_char=90|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=91|end_char=92|NER=O
+22	pazakontë	pazakontë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=93|end_char=102|NER=O
+23	për	për	ADP	_	Case=Acc	23	case	_	start_char=103|end_char=106|NER=O
+24	turizmin	turizm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=107|end_char=115|NER=O
+25	në	në	ADP	_	Case=Acc	25	case	_	start_char=116|end_char=118|NER=O
+26	Përmet	përmet	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	start_char=119|end_char=125|SpaceAfter=No|NER=B-VEND_0
+27	.	.	PUNCT	_	_	17	punct	_	start_char=126|end_char=127|NER=O
+
+# text = Këtë e dëshmon edhe fakti që ndonëse jemi në fund të muajit shtator " qyteti trëndafilave " pret dhe përcjell çdo ditë turistë nga e gjithë bota .
+# sent_id = 2
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=4|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=5|end_char=6|NER=O
+3	dëshmon	dëshmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=14|NER=O
+4	edhe	edhe	PART	_	_	5	mark:emph	_	start_char=15|end_char=19|NER=O
+5	fakti	fakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=20|end_char=25|NER=O
+6	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=26|end_char=28|NER=O
+7	ndonëse	ndonëse	SCONJ	_	_	8	mark	_	start_char=29|end_char=36|NER=O
+8	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	acl	_	start_char=37|end_char=41|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=42|end_char=44|NER=O
+10	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=45|end_char=49|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=50|end_char=52|NER=O
+12	muajit	muaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=53|end_char=59|NER=O
+13	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=60|end_char=67|NER=O
+14	"	"	PUNCT	_	_	15	punct	_	start_char=68|end_char=69|SpaceAfter=No|NER=O
+15	qyteti	qytet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	start_char=70|end_char=76|NER=O
+16	trëndafilave	trëndafilë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=77|end_char=89|SpaceAfter=No|NER=O
+17	"	"	PUNCT	_	_	15	punct	_	start_char=90|end_char=91|NER=O
+18	pret	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=92|end_char=96|NER=O
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=97|end_char=100|NER=O
+20	përcjell	përcjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=101|end_char=109|NER=O
+21	çdo	çdo	PRON	_	PronType=Ind	22	nummod	_	start_char=110|end_char=113|NER=O
+22	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	start_char=114|end_char=118|NER=O
+23	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	20	obj	_	start_char=119|end_char=126|NER=O
+24	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=127|end_char=130|NER=O
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=131|end_char=132|NER=O
+26	gjithë	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	27	det	_	start_char=133|end_char=139|NER=O
+27	bota	botë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=140|end_char=144|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	20	punct	_	start_char=145|end_char=146|SpacesAfter=\n|NER=O
+
+# text = Edjon Maliqi specialist i turizmit pranë kësaj bashkie shprehet se ky sezon njihet si ndër më të suksesshmit për sa i takon turizmit , i cili në krahasim me vitin e kaluar ka pësuar rritje .
+# sent_id = 3
+1	Edjon	Edjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Maliqi	Maliq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=12|NER=I-PER
+3	specialist	specialist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=23|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=24|end_char=25|NER=O
+5	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=26|end_char=34|NER=O
+6	pranë	pranë	ADP	_	Case=Abl	8	case	_	start_char=35|end_char=40|NER=O
+7	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=41|end_char=46|NER=O
+8	bashkie	bashki	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=47|end_char=54|NER=O
+9	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=55|end_char=63|NER=O
+10	se	se	SCONJ	_	_	13	mark	_	start_char=64|end_char=66|NER=O
+11	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=67|end_char=69|NER=O
+12	sezon	sezo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	start_char=70|end_char=75|NER=O
+13	njihet	njihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	9	ccomp	_	start_char=76|end_char=82|NER=O
+14	si	si	SCONJ	_	_	18	mark	_	start_char=83|end_char=85|NER=O
+15	ndër	ndër	ADP	_	Case=Acc	18	case	_	start_char=86|end_char=90|NER=O
+16	më	më	PART	_	_	18	mark	_	start_char=91|end_char=93|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=94|end_char=96|NER=O
+18	suksesshmit	suksesshm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=97|end_char=108|NER=O
+19	për	për	ADP	_	Case=Acc	20	case	_	start_char=109|end_char=112|NER=O
+20	sa	sa	ADV	_	AdvType=Deg	22	advmod	_	start_char=113|end_char=115|NER=O
+21	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	iobj	_	start_char=116|end_char=117|NER=O
+22	takon	takoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	advmod	_	start_char=118|end_char=123|NER=O
+23	turizmit	turizëm	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=124|end_char=132|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=133|end_char=134|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=135|end_char=136|NER=O
+26	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	start_char=137|end_char=141|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=142|end_char=144|NER=O
+28	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=145|end_char=153|NER=O
+29	me	me	ADP	_	Case=Acc	30	case	_	start_char=154|end_char=156|NER=O
+30	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	34	advmod	_	start_char=157|end_char=162|NER=O
+31	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	32	det	_	start_char=163|end_char=164|NER=O
+32	kaluar	kaloj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=165|end_char=171|NER=O
+33	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	34	aux	_	start_char=172|end_char=174|NER=O
+34	pësuar	pësoj	VERB	_	VerbForm=Part	22	conj	_	start_char=175|end_char=181|NER=O
+35	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	obj	_	start_char=182|end_char=188|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	34	punct	_	start_char=189|end_char=190|SpacesAfter=\n|NER=O
+
+# text = " Qyteti i Përmetit vazhdon të jetë plot me turistë , kryesisht të huaj .
+# sent_id = 4
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Qyteti	Qytet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=2|end_char=8|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=9|end_char=10|NER=O
+4	Përmetit	përmet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=11|end_char=19|NER=B-VEND_0
+5	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=27|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=28|end_char=30|NER=O
+7	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=31|end_char=35|NER=O
+8	plot	plot	ADV	_	AdvType=Deg	7	advmod	_	start_char=36|end_char=40|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=41|end_char=43|NER=O
+10	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	advmod	_	start_char=44|end_char=51|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	14	punct	_	start_char=52|end_char=53|NER=O
+12	kryesisht	kryesisht	ADV	_	AdvType=Man	14	advmod	_	start_char=54|end_char=63|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	14	det	_	start_char=64|end_char=66|NER=O
+14	huaj	huaj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=67|end_char=71|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	7	punct	_	start_char=72|end_char=73|NER=O
+
+# text = Deri në këto momënt jemi në shifra 1mijë e 700 turistë që kanë vizituar Përmetin " , tha Maliqi .
+# sent_id = 5
+1	Deri	deri	PART	_	_	4	case	_	start_char=0|end_char=4|NER=O
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=5|end_char=7|NER=O
+3	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=8|end_char=12|NER=O
+4	momënt	momë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=13|end_char=19|NER=O
+5	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=24|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=27|NER=O
+7	shifra	shifër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	start_char=28|end_char=34|NER=O
+8	1mijë	1mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=35|end_char=40|NER=O
+9	e	e	CCONJ	_	_	11	cc	_	start_char=41|end_char=42|NER=O
+10	700	700	NUM	_	NumType=Card	11	nummod	_	start_char=43|end_char=46|NER=O
+11	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	start_char=47|end_char=54|NER=O
+12	që	që	PRON	_	PronType=Rel	14	nsubj	_	start_char=55|end_char=57|NER=O
+13	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	start_char=58|end_char=62|NER=O
+14	vizituar	vizitoj	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=63|end_char=71|NER=O
+15	Përmetin	përmetin	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=72|end_char=80|SpaceAfter=No|NER=B-VEND_0
+16	"	"	PUNCT	_	_	14	punct	_	start_char=81|end_char=82|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84|NER=O
+18	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	start_char=85|end_char=88|NER=O
+19	Maliqi	Maliq	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=89|end_char=95|SpaceAfter=No|NER=B-PER
+20	.	.	PUNCT	_	_	17	punct	_	start_char=96|end_char=97|SpacesAfter=\n|NER=O
+
+# text = Sipas Maliqit këtë vit në zonën e Përmetit janë hapur rreth 13 gest haus dhe bujtina të reja si rrjedhoje e fluksit të shtuar të vizitorëve vendas dhe të huaj .
+# sent_id = 6
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	Maliqit	maliq	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=6|end_char=13|NER=B-PER
+3	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=14|end_char=18|NER=O
+4	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=22|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=23|end_char=25|NER=O
+6	zonën	zonë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=26|end_char=31|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=33|NER=O
+8	Përmetit	përmet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=34|end_char=42|NER=B-VEND_0
+9	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=43|end_char=47|NER=O
+10	hapur	hap	VERB	_	VerbForm=Part	0	root	_	start_char=48|end_char=53|NER=O
+11	rreth	rreth	ADP	_	Case=Abl	13	case	_	start_char=54|end_char=59|NER=O
+12	13	13	NUM	_	NumType=Card	13	nummod	_	start_char=60|end_char=62|NER=O
+13	gest	gest	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	start_char=63|end_char=67|NER=O
+14	haus	haus	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	start_char=68|end_char=72|NER=O
+15	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=73|end_char=76|NER=O
+16	bujtina	bujtinë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	start_char=77|end_char=84|NER=O
+17	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	18	det	_	start_char=85|end_char=87|NER=O
+18	reja	re	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=88|end_char=92|NER=O
+19	si	si	SCONJ	_	_	20	mark	_	start_char=93|end_char=95|NER=O
+20	rrjedhoje	rrjedhoj	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=96|end_char=105|NER=O
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=106|end_char=107|NER=O
+22	fluksit	fluks	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=108|end_char=115|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=116|end_char=118|NER=O
+24	shtuar	shtoj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=119|end_char=125|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=126|end_char=128|NER=O
+26	vizitorëve	vizitor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	start_char=129|end_char=139|NER=O
+27	vendas	vendas	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	start_char=140|end_char=146|NER=O
+28	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=147|end_char=150|NER=O
+29	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	30	det	_	start_char=151|end_char=153|NER=O
+30	huaj	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	conj	_	start_char=154|end_char=158|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	10	punct	_	start_char=159|end_char=160|SpacesAfter=\n\n|NER=O
+
+# text = Gazetar : Artur Mata
+# sent_id = 7
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Artur	jrtoj	VERB	_	VerbForm=Part	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Mata	matë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	start_char=16|end_char=20|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,245 @@
+# text = 25 / 01 / 2024 Në Bashkinë e Hasit , afro 1300 persona janë në kërkim të një pune .
+# sent_id = 0
+1	25	25	NUM	_	NumType=Card	12	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	9	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	12	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	2	case	_	start_char=15|end_char=17|NER=O
+7	Bashkinë	Bashkinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=18|end_char=26|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=27|end_char=28|NER=O
+9	Hasit	Has	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=29|end_char=34|SpaceAfter=No|NER=B-VEND_0
+10	,	,	PUNCT	_	_	2	punct	_	start_char=35|end_char=36|NER=O
+11	afro	afro	NUM	_	NumType=Card	8	nummod	_	start_char=37|end_char=41|NER=O
+12	1300	1300	NUM	_	NumType=Card	8	nummod	_	start_char=42|end_char=46|NER=O
+13	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	start_char=47|end_char=54|NER=O
+14	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=55|end_char=59|NER=O
+15	në	në	ADP	_	Case=Acc	11	case	_	start_char=60|end_char=62|NER=O
+16	kërkim	kërkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=63|end_char=69|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=70|end_char=72|NER=O
+18	një	një	DET	_	Definite=Ind	14	det	_	start_char=73|end_char=76|NER=O
+19	pune	pune	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=77|end_char=81|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	9	punct	_	start_char=82|end_char=83|NER=O
+
+# text = Por pavarësisht ofertave për punë nga sektori privat , ata refuzojnë duke preferuar institucionet shtetërore .
+# sent_id = 1
+1	Por	por	CCONJ	_	_	11	cc	_	start_char=0|end_char=3|NER=O
+2	pavarësisht	pavarësisht	ADV	_	AdvType=Man	3	advmod	_	start_char=4|end_char=15|NER=O
+3	ofertave	ofertë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	obj	_	start_char=16|end_char=24|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=25|end_char=28|NER=O
+5	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=29|end_char=33|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=34|end_char=37|NER=O
+7	sektori	sektor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=38|end_char=45|NER=O
+8	privat	privat	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=46|end_char=52|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=53|end_char=54|NER=O
+10	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=55|end_char=58|NER=O
+11	refuzojnë	refuzoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=68|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=69|end_char=73|NER=O
+13	preferuar	preferoj	VERB	_	VerbForm=Part	11	advmod	_	start_char=74|end_char=83|NER=O
+14	institucionet	institucion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=84|end_char=97|NER=O
+15	shtetërore	shtetëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=98|end_char=108|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	11	punct	_	start_char=109|end_char=110|SpacesAfter=\n|NER=O
+
+# text = Pranë agjensisë së punësimit dhe aftësive në Has janë të regjistruar afro 1300 punëkërkues që presin të punësohen ndërkohë sipas të dhënave janë vetëm 5 vende të lira në institucionet shtetërore .
+# sent_id = 2
+1	Pranë	pranë	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	agjensisë	agjensi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	advmod	_	start_char=6|end_char=15|NER=O
+3	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=16|end_char=18|NER=O
+4	punësimit	punësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=28|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=29|end_char=32|NER=O
+6	aftësive	aftësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	start_char=33|end_char=41|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=42|end_char=44|NER=O
+8	Has	Has	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=45|end_char=48|NER=B-VEND_0
+9	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=49|end_char=53|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=54|end_char=56|NER=O
+11	regjistruar	regjistruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	cop	_	start_char=57|end_char=68|NER=O
+12	afro	afro	ADV	_	AdvType=Deg	14	nummod	_	start_char=69|end_char=73|NER=O
+13	1300	1300	NUM	_	NumType=Card	14	nummod	_	start_char=74|end_char=78|NER=O
+14	punëkërkues	punëkërkues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	cop	_	start_char=79|end_char=90|NER=O
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=91|end_char=93|NER=O
+16	presin	pres	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	start_char=94|end_char=100|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=101|end_char=103|NER=O
+18	punësohen	punësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	16	ccomp	_	start_char=104|end_char=113|NER=O
+19	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	18	advmod	_	start_char=114|end_char=122|NER=O
+20	sipas	sipas	ADP	_	Case=Abl	22	case	_	start_char=123|end_char=128|NER=O
+21	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=129|end_char=131|NER=O
+22	dhënave	dhënë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	23	advmod	_	start_char=132|end_char=139|NER=O
+23	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	conj	_	start_char=140|end_char=144|NER=O
+24	vetëm	vetëm	PART	_	_	26	mark	_	start_char=145|end_char=150|NER=O
+25	5	5	NUM	_	NumType=Card	26	nummod	_	start_char=151|end_char=152|NER=O
+26	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	cop	_	start_char=153|end_char=158|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=159|end_char=161|NER=O
+28	lira	lira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=162|end_char=166|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=167|end_char=169|NER=O
+30	institucionet	institucion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	start_char=170|end_char=183|NER=O
+31	shtetërore	shtetëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=184|end_char=194|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	23	punct	_	start_char=195|end_char=196|SpacesAfter=\n|NER=O
+
+# text = Përgjegjësi Bujar Xhebexhia thotë se zyra në Has ka ndërmjetësuar 36 raste për punësim gjatë vitit 2023 .
+# sent_id = 3
+1	Përgjegjësi	përgjegjës	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=11|NER=O
+2	Bujar	Bujar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=12|end_char=17|NER=B-PER
+3	Xhebexhia	Xhebexhi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=18|end_char=27|NER=I-PER
+4	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=28|end_char=33|NER=O
+5	se	se	SCONJ	_	_	10	mark	_	start_char=34|end_char=36|NER=O
+6	zyra	zyrë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=37|end_char=41|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=42|end_char=44|NER=O
+8	Has	Has	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=45|end_char=48|NER=B-VEND_0
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=49|end_char=51|NER=O
+10	ndërmjetësuar	ndërmjetësoj	VERB	_	VerbForm=Part	4	conj	_	start_char=52|end_char=65|NER=O
+11	36	36	NUM	_	NumType=Card	12	nummod	_	start_char=66|end_char=68|NER=O
+12	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=69|end_char=74|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=75|end_char=78|NER=O
+14	punësim	punësim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=79|end_char=86|NER=O
+15	gjatë	gjatë	ADP	_	Case=Abl	16	case	_	start_char=87|end_char=92|NER=O
+16	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	start_char=93|end_char=98|NER=B-DATE_0
+17	2023	2023	NUM	_	NumType=Card	16	amod:nummod	_	start_char=99|end_char=103|SpaceAfter=No|NER=I-DATE_0
+18	.	.	PUNCT	_	_	10	punct	_	start_char=104|end_char=105|SpacesAfter=\n|NER=O
+
+# text = Me qëllim ofrimin e mundësive për grupmoshat e reja po zhvillohen kurse profesisonale , përmes bashkëpunimit me bizneset në Gjakovë të Kosovë .
+# sent_id = 4
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	qëllim	qëllim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=3|end_char=9|NER=O
+3	ofrimin	ofrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=10|end_char=17|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=18|end_char=19|NER=O
+5	mundësive	mundësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=20|end_char=29|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=30|end_char=33|NER=O
+7	grupmoshat	grupmoshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=34|end_char=44|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=45|end_char=46|NER=O
+9	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=47|end_char=51|NER=O
+10	po	po	PART	_	_	11	mark	_	start_char=52|end_char=54|NER=O
+11	zhvillohen	zhvilloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=55|end_char=65|NER=O
+12	kurse	kurse	CCONJ	_	_	11	cc	_	start_char=66|end_char=71|NER=O
+13	profesisonale	profesisonal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	cop	_	start_char=72|end_char=85|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=86|end_char=87|NER=O
+15	përmes	përmes	ADP	_	Case=Abl	16	case	_	start_char=88|end_char=94|NER=O
+16	bashkëpunimit	bashkëpunim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=95|end_char=108|NER=O
+17	me	me	ADP	_	Case=Acc	18	case	_	start_char=109|end_char=111|NER=O
+18	bizneset	biznes	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=112|end_char=120|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=121|end_char=123|NER=O
+20	Gjakovë	Gjakovë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=124|end_char=131|NER=B-VEND_0
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=132|end_char=134|NER=O
+22	Kosovë	Kosovë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=135|end_char=141|SpaceAfter=No|NER=B-VEND_1
+23	.	.	PUNCT	_	_	11	punct	_	start_char=142|end_char=143|SpacesAfter=\n|NER=O
+
+# text = Me një popullsi zyrtare me rreth 22 000 banorë , në Has përllogaritet të jetojnë pak më shumë se 20 % e popullatës , pasi 80 % e tyre kanë emigruar .
+# sent_id = 5
+1	Me	me	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	popullsi	popullsi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=7|end_char=15|NER=O
+4	zyrtare	zyrtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=16|end_char=23|NER=O
+5	me	me	ADP	_	Case=Acc	9	case	_	start_char=24|end_char=26|NER=O
+6	rreth	rreth	ADP	_	Case=Abl	9	case	_	start_char=27|end_char=32|NER=O
+7	22	22	NUM	_	NumType=Card	9	nummod	_	start_char=33|end_char=35|NER=O
+8	000	000	NUM	_	NumType=Card	9	nummod	_	start_char=36|end_char=39|NER=O
+9	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	advmod	_	start_char=40|end_char=46|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=47|end_char=48|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=49|end_char=51|NER=O
+12	Has	Has	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=52|end_char=55|NER=B-VEND_0
+13	përllogaritet	përllogarit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=56|end_char=69|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=70|end_char=72|NER=O
+15	jetojnë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	ccomp	_	start_char=73|end_char=80|NER=O
+16	pak	pak	ADV	_	AdvType=Deg	18	advmod	_	start_char=81|end_char=84|NER=O
+17	më	më	PART	_	_	18	mark	_	start_char=85|end_char=87|NER=O
+18	shumë	shumë	ADV	_	AdvType=Deg	15	advmod	_	start_char=88|end_char=93|NER=O
+19	se	se	SCONJ	_	_	21	mark	_	start_char=94|end_char=96|NER=O
+20	20	20	NUM	_	NumType=Card	21	nummod	_	start_char=97|end_char=99|SpaceAfter=No|NER=O
+21	%	%	SYM	_	_	15	advmod	_	start_char=100|end_char=101|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=102|end_char=103|NER=O
+23	popullatës	popullatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=104|end_char=114|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	25	punct	_	start_char=115|end_char=116|NER=O
+25	pasi	pasi	SCONJ	_	_	27	mark	_	start_char=117|end_char=121|NER=O
+26	80	80	NUM	_	NumType=Card	27	nummod	_	start_char=122|end_char=124|SpaceAfter=No|NER=O
+27	%	%	SYM	_	_	31	advmod	_	start_char=125|end_char=126|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	29	det:poss	_	start_char=127|end_char=128|NER=O
+29	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=129|end_char=133|NER=O
+30	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	aux	_	start_char=134|end_char=138|NER=O
+31	emigruar	emigroj	VERB	_	VerbForm=Part	15	conj	_	start_char=139|end_char=147|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	31	punct	_	start_char=148|end_char=149|NER=O
+
+# text = Kjo ka bërë që qyteti të vuajë jo vetëm për krahun e punës dhe njerëzit e aftë për punë , por tani po vuan edhe për tregtarë .
+# sent_id = 6
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=6|NER=O
+3	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=11|NER=O
+4	që	që	SCONJ	_	_	7	mark	_	start_char=12|end_char=14|NER=O
+5	qyteti	qytet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=15|end_char=21|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=22|end_char=24|NER=O
+7	vuajë	vuaj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=25|end_char=30|NER=O
+8	jo	jo	PART	_	_	9	fixed	_	start_char=31|end_char=33|NER=O
+9	vetëm	vetëm	PART	_	_	11	mark	_	start_char=34|end_char=39|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=40|end_char=43|NER=O
+11	krahun	krah	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=44|end_char=50|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=51|end_char=52|NER=O
+13	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=53|end_char=58|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=59|end_char=62|NER=O
+15	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	conj	_	start_char=63|end_char=71|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=72|end_char=73|NER=O
+17	aftë	aftë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=74|end_char=78|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=79|end_char=82|NER=O
+19	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=83|end_char=87|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=88|end_char=89|NER=O
+21	por	por	CCONJ	_	_	24	cc	_	start_char=90|end_char=93|NER=O
+22	tani	tani	ADV	_	AdvType=Tim	24	advmod	_	start_char=94|end_char=98|NER=O
+23	po	po	PART	_	_	24	mark	_	start_char=99|end_char=101|NER=O
+24	vuan	vuaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=102|end_char=106|NER=O
+25	edhe	edhe	PART	_	_	27	mark:emph	_	start_char=107|end_char=111|NER=O
+26	për	për	ADP	_	Case=Acc	27	case	_	start_char=112|end_char=115|NER=O
+27	tregtarë	tregtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	24	obl	_	start_char=116|end_char=124|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	24	punct	_	start_char=125|end_char=126|SpacesAfter=\n|NER=O
+
+# text = Në tre bashkitë , Kukës , Has dhe Tropojë janë të regjistruar mbi 6500 punëkërkues .
+# sent_id = 7
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	tre	tre	NUM	_	NumType=Card	3	nummod	_	start_char=3|end_char=6|NER=O
+3	bashkitë	bashkitë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=7|end_char=15|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=16|end_char=17|NER=O
+5	Kukës	Kukës	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=18|end_char=23|SpaceAfter=No|NER=B-VEND_0
+6	,	,	PUNCT	_	_	3	punct	_	start_char=24|end_char=25|NER=O
+7	Has	Has	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=26|end_char=29|NER=B-VEND_0
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=30|end_char=33|NER=O
+9	Tropojë	Tropojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=34|end_char=41|NER=B-VEND_0
+10	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=46|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=47|end_char=49|NER=O
+12	regjistruar	regjistruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	cop	_	start_char=50|end_char=61|NER=O
+13	mbi	mbi	ADP	_	Case=Acc	15	case	_	start_char=62|end_char=65|NER=O
+14	6500	6500	NUM	_	NumType=Card	15	nummod	_	start_char=66|end_char=70|NER=O
+15	punëkërkues	punëkërkues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	advmod	_	start_char=71|end_char=82|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	10	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Autoritetet vendore kanë këmbëngulur në nevojën e pranimit të punësimit në sektorin privat , duke kujtuar se refuzimi do të çojë në humbjen e ndihmës ekonomike .
+# sent_id = 8
+1	Autoritetet	autoritet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=0|end_char=11|NER=O
+2	vendore	vendor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=12|end_char=19|NER=O
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=20|end_char=24|NER=O
+4	këmbëngulur	këmbëngoloj	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=36|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=37|end_char=39|NER=O
+6	nevojën	nevojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=40|end_char=47|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=48|end_char=49|NER=O
+8	pranimit	pranim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=50|end_char=58|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=59|end_char=61|NER=O
+10	punësimit	punësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=62|end_char=71|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=72|end_char=74|NER=O
+12	sektorin	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=75|end_char=83|NER=O
+13	privat	privat	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=84|end_char=90|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=91|end_char=92|NER=O
+15	duke	duke	PART	_	_	16	fixed	_	start_char=93|end_char=97|NER=O
+16	kujtuar	kujtoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=98|end_char=105|NER=O
+17	se	se	SCONJ	_	_	21	mark	_	start_char=106|end_char=108|NER=O
+18	refuzimi	refuzim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=109|end_char=117|NER=O
+19	do	do	PART	_	_	21	fixed	_	start_char=118|end_char=120|NER=O
+20	të	të	PART	_	_	21	fixed	_	start_char=121|end_char=123|NER=O
+21	çojë	çoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advcl	_	start_char=124|end_char=128|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=129|end_char=131|NER=O
+23	humbjen	humbje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=132|end_char=139|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=140|end_char=141|NER=O
+25	ndihmës	ndihmë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=142|end_char=149|NER=O
+26	ekonomike	ekonomik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=150|end_char=159|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	21	punct	_	start_char=160|end_char=161|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare Heriselda Dyrmishi
+# sent_id = 9
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Heriselda	Heriseldë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=18|NER=B-PER
+3	Dyrmishi	Dyrmish	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=19|end_char=27|SpacesAfter=\n|NER=I-PER
+

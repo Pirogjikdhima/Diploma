@@ -1,0 +1,117 @@
+# text = 10 / 01 / 2024 Kjo si shkak i frikës nga reshjet e shiut dhe përmbytjet e mundshme .
+# sent_id = 0
+1	10	10	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	15	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=15|end_char=18|NER=O
+7	si	si	SCONJ	_	_	3	mark	_	start_char=19|end_char=21|NER=O
+8	shkak	shkak	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=27|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=28|end_char=29|NER=O
+10	frikës	frikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=30|end_char=36|NER=O
+11	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=37|end_char=40|NER=O
+12	reshjet	reshje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=41|end_char=48|NER=O
+13	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=49|end_char=50|NER=O
+14	shiut	shiut	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=56|NER=O
+15	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=57|end_char=60|NER=O
+16	përmbytjet	përmbytje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	conj	_	start_char=61|end_char=71|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=72|end_char=73|NER=O
+18	mundshme	mundshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=74|end_char=82|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	3	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Investimi u krye nga bordi I kullimit me kërkesë të bashkisë Shkodër .
+# sent_id = 1
+1	Investimi	Investim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=10|end_char=11|NER=O
+3	krye	krye	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=12|end_char=16|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=17|end_char=20|NER=O
+5	bordi	bord	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=21|end_char=26|NER=O
+6	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=27|end_char=28|NER=O
+7	kullimit	kullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=29|end_char=37|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	kërkesë	kërkesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=41|end_char=48|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=49|end_char=51|NER=O
+11	bashkisë	bashki	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=52|end_char=60|NER=O
+12	Shkodër	Shkodër	PROPN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	11	appos	_	start_char=61|end_char=68|SpaceAfter=No|NER=B-VEND_0
+13	.	.	PUNCT	_	_	3	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Sipas banorëve të Dajcit ndërtimi I këtyre argjinaturave u krijon më shumë siguri banorëve duke bërë të mundur mbrojtjen nga vërshimi I ujit Argjinatura e Darragjatit u dëmtua së pari në përmbytjet e vitit 2011 e më pas në ato të vitit 2018 .
+# sent_id = 2
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	banorëve	banor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	10	advmod	_	start_char=6|end_char=14|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	4	det:poss	_	start_char=15|end_char=17|NER=O
+4	Dajcit	Dajc	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=18|end_char=24|NER=O
+5	ndërtimi	ndërtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=25|end_char=33|NER=O
+6	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=34|end_char=35|NER=O
+7	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=36|end_char=42|NER=O
+8	argjinaturave	argjinaturë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=43|end_char=56|NER=O
+9	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	fixed	_	start_char=57|end_char=58|NER=O
+10	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=65|NER=O
+11	më	më	PART	_	_	13	mark	_	start_char=66|end_char=68|NER=O
+12	shumë	shumë	ADV	_	AdvType=Deg	13	nummod	_	start_char=69|end_char=74|NER=O
+13	siguri	siguri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=75|end_char=81|NER=O
+14	banorëve	banor	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=82|end_char=90|NER=O
+15	duke	duke	PART	_	_	16	fixed	_	start_char=91|end_char=95|NER=O
+16	bërë	bëj	VERB	_	VerbForm=Part	10	advmod	_	start_char=96|end_char=100|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=101|end_char=103|NER=O
+18	mundur	mundur	VERB	_	VerbForm=Part	16	advcl	_	start_char=104|end_char=110|NER=O
+19	mbrojtjen	mbrojtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=111|end_char=120|NER=O
+20	nga	nga	ADP	_	Case=Nom	21	case	_	start_char=121|end_char=124|NER=O
+21	vërshimi	vërshim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	start_char=125|end_char=133|NER=O
+22	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=134|end_char=135|NER=O
+23	ujit	ujë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=136|end_char=140|SpacesAfter=\n|NER=O
+24	Argjinatura	Argjinaturë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	appos	_	start_char=141|end_char=152|NER=O
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=153|end_char=154|NER=O
+26	Darragjatit	darragjat	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=155|end_char=166|NER=O
+27	u	u	PART	_	_	28	fixed	_	start_char=167|end_char=168|NER=O
+28	dëmtua	dëmtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	conj	_	start_char=169|end_char=175|NER=O
+29	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	30	fixed	_	start_char=176|end_char=178|NER=O
+30	pari	parr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	28	ccomp	_	start_char=179|end_char=183|NER=O
+31	në	në	ADP	_	Case=Acc	32	case	_	start_char=184|end_char=186|NER=O
+32	përmbytjet	përmbytje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	30	obl	_	start_char=187|end_char=197|NER=O
+33	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det:poss	_	start_char=198|end_char=199|NER=O
+34	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=200|end_char=205|NER=B-DATE_0
+35	2011	2011	NUM	_	NumType=Card	34	amod:nummod	_	start_char=206|end_char=210|NER=I-DATE_0
+36	e	e	CCONJ	_	_	38	cc	_	start_char=211|end_char=212|NER=O
+37	më	më	PART	_	_	38	mark	_	start_char=213|end_char=215|NER=O
+38	pas	pas	ADV	_	AdvType=Tim	35	conj	_	start_char=216|end_char=219|NER=O
+39	në	në	ADP	_	Case=Acc	40	case	_	start_char=220|end_char=222|NER=O
+40	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	38	advmod	_	start_char=223|end_char=226|NER=O
+41	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=227|end_char=229|NER=O
+42	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	start_char=230|end_char=235|NER=B-DATE_0
+43	2018	2018	NUM	_	NumType=Card	42	amod:nummod	_	start_char=236|end_char=240|SpaceAfter=No|NER=I-DATE_0
+44	.	.	PUNCT	_	_	28	punct	_	start_char=241|end_char=242|NER=O
+
+# text = Nevoja për të ndërhyrë ishte emergjente .
+# sent_id = 3
+1	Nevoja	nevojë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	për	për	PART	_	_	4	fixed	_	start_char=7|end_char=10|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+4	ndërhyrë	ndërhyj	VERB	_	VerbForm=Part	5	advmod	_	start_char=14|end_char=22|NER=O
+5	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=23|end_char=28|NER=O
+6	emergjente	emergjent	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=29|end_char=39|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	5	punct	_	start_char=40|end_char=41|NER=O
+
+# text = Ndërtimi i 4 penelave me gurë të mëdhenj në formën e barrierave synim të parandalojë përmbytjet në zonë .
+# sent_id = 4
+1	Ndërtimi	ndërtim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	4	4	NUM	_	NumType=Card	4	nummod	_	start_char=11|end_char=12|NER=O
+4	penelave	penelë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=13|end_char=21|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	gurë	gurë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	start_char=25|end_char=29|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	8	det	_	start_char=30|end_char=32|NER=O
+8	mëdhenj	mëdhenj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=33|end_char=40|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=41|end_char=43|NER=O
+10	formën	formë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=44|end_char=50|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=51|end_char=52|NER=O
+12	barrierave	barrierë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=53|end_char=63|NER=O
+13	synim	synim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	amod	_	start_char=64|end_char=69|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=70|end_char=72|NER=O
+15	parandalojë	parandaloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=73|end_char=84|NER=O
+16	përmbytjet	përmbytje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	obj	_	start_char=85|end_char=95|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=96|end_char=98|NER=O
+18	zonë	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=99|end_char=103|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	15	punct	_	start_char=104|end_char=105|SpacesAfter=\n\n|NER=O
+

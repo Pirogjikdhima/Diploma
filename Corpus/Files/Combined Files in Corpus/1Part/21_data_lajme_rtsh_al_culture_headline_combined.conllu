@@ -1,0 +1,140 @@
+# text = Plas e qeshura !
+# sent_id = 0
+1	Plas	plaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5|end_char=6|NER=O
+3	qeshura	qeshurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	advmod	_	start_char=7|end_char=14|SpaceAfter=No|NER=O
+4	!	!	PUNCT	_	_	1	punct	_	start_char=15|end_char=16|NER=O
+
+# text = Batuta e Zhustit : Leka Bungo kontrolloi gjithë azilet dhe i mbeta unë unë dorë !
+# sent_id = 1
+1	Batuta	batutë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	Zhustit	Zhust	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=9|end_char=16|SpaceAfter=No|NER=B-PER
+4	:	:	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=O
+5	Leka	Leka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=19|end_char=23|NER=B-PER
+6	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=24|end_char=29|NER=I-PER
+7	kontrolloi	kontrolloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=30|end_char=40|NER=O
+8	gjithë	gjithë	PRON	_	PronType=Ind	5	det	_	start_char=41|end_char=47|NER=O
+9	azilet	azil	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=48|end_char=54|NER=O
+10	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=55|end_char=58|NER=O
+11	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	iobj	_	start_char=59|end_char=60|NER=O
+12	mbeta	mbet	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	3	conj	_	start_char=61|end_char=66|NER=O
+13	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	obj	_	start_char=67|end_char=70|NER=O
+14	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	obj	_	start_char=71|end_char=74|NER=O
+15	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=75|end_char=79|SpaceAfter=No|NER=O
+16	!	!	PUNCT	_	_	14	punct	_	start_char=80|end_char=81|SpacesAfter=\n|NER=O
+
+# text = 26 / 01 / 2024 Plas e qeshura në studion e " 3D " , pasi aktori Viktor Zhustin , tha se për të gjetur protagonistin , autori Leka Bungo është lodhur shumë .
+# sent_id = 2
+1	26	26	NUM	_	NumType=Card	14	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	17	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	17	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	14	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Plas	plaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=15|end_char=19|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=20|end_char=21|NER=O
+8	qeshura	qeshurë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	cop	_	start_char=22|end_char=29|NER=O
+9	në	në	ADP	_	Case=Acc	21	case	_	start_char=30|end_char=32|NER=O
+10	studion	studio	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=33|end_char=40|NER=O
+11	e	e	CCONJ	_	_	24	cc	_	start_char=41|end_char=42|NER=O
+12	"	"	PUNCT	_	_	24	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+13	3D	3D	PROPN	_	_	21	conj	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+14	"	"	PUNCT	_	_	24	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	27	punct	_	start_char=50|end_char=51|NER=O
+16	pasi	pasi	SCONJ	_	_	32	mark	_	start_char=52|end_char=56|NER=O
+17	aktori	aktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	nsubj	_	start_char=57|end_char=63|NER=O
+18	Viktor	Viktor	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	28	appos	_	start_char=64|end_char=70|NER=B-PER
+19	Zhustin	Zhust	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=71|end_char=78|SpaceAfter=No|NER=I-PER
+20	,	,	PUNCT	_	_	32	punct	_	start_char=79|end_char=80|NER=O
+21	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	start_char=81|end_char=84|NER=O
+22	se	se	SCONJ	_	_	36	mark	_	start_char=85|end_char=87|NER=O
+23	për	për	PART	_	_	36	fixed	_	start_char=88|end_char=91|NER=O
+24	të	të	PART	_	_	36	fixed	_	start_char=92|end_char=94|NER=O
+25	gjetur	gjet	VERB	_	VerbForm=Part	32	advmod	_	start_char=95|end_char=101|NER=O
+26	protagonistin	protagonist	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	36	obj	_	start_char=102|end_char=115|NER=O
+27	,	,	PUNCT	_	_	39	punct	_	start_char=116|end_char=117|NER=O
+28	autori	autor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	nsubj	_	start_char=118|end_char=124|NER=O
+29	Leka	Leka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	39	flat	_	start_char=125|end_char=129|NER=B-PER
+30	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	40	flat	_	start_char=130|end_char=135|NER=I-PER
+31	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	43	aux	_	start_char=136|end_char=141|NER=O
+32	lodhur	lodh	VERB	_	VerbForm=Part	32	conj	_	start_char=142|end_char=148|NER=O
+33	shumë	shumë	ADV	_	AdvType=Deg	43	advmod	_	start_char=149|end_char=154|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	43	punct	_	start_char=155|end_char=156|SpacesAfter=\n|NER=O
+
+# text = " Kam përshtypjen që Leka Bungo kontrolloi gjithë arshivat e teatrit , kontrolloi dhe gjithë azilet nëse mund të gjente një gjë të përshtatshme dhe në fund i mbeta unë unë dorë " , tha duke qeshur Zhusti .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kam	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	advmod	_	start_char=2|end_char=5|NER=O
+3	përshtypjen	përshtypje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=6|end_char=17|NER=O
+4	që	që	PRON	_	PronType=Rel	5	mark	_	start_char=18|end_char=20|NER=O
+5	Leka	Leka	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=21|end_char=25|NER=B-PER
+6	Bungo	Bungo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=26|end_char=31|NER=I-PER
+7	kontrolloi	kontrolloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	start_char=32|end_char=42|NER=O
+8	gjithë	gjithë	PRON	_	PronType=Ind	9	det	_	start_char=43|end_char=49|NER=O
+9	arshivat	arshivë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obj	_	start_char=50|end_char=58|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=59|end_char=60|NER=O
+11	teatrit	teatr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=61|end_char=68|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=69|end_char=70|NER=O
+13	kontrolloi	kontrolloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=71|end_char=81|NER=O
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=82|end_char=85|NER=O
+15	gjithë	gjithë	PRON	_	PronType=Ind	16	det	_	start_char=86|end_char=92|NER=O
+16	azilet	azil	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=93|end_char=99|NER=O
+17	nëse	nëse	SCONJ	_	_	20	mark	_	start_char=100|end_char=104|NER=O
+18	mund	mund	AUX	_	_	20	aux	_	start_char=105|end_char=109|NER=O
+19	të	të	PART	_	_	20	fixed	_	start_char=110|end_char=112|NER=O
+20	gjente	gjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	13	advcl	_	start_char=113|end_char=119|NER=O
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=120|end_char=123|NER=O
+22	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	start_char=124|end_char=127|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=128|end_char=130|NER=O
+24	përshtatshme	përshtatshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=131|end_char=143|NER=O
+25	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=144|end_char=147|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=148|end_char=150|NER=O
+27	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	advmod	_	start_char=151|end_char=155|NER=O
+28	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	start_char=156|end_char=157|NER=O
+29	mbeta	mbet	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	22	acl:relcl	_	start_char=158|end_char=163|NER=O
+30	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	obj	_	start_char=164|end_char=167|NER=O
+31	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	obj	_	start_char=168|end_char=171|NER=O
+32	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	advmod	_	start_char=172|end_char=176|SpaceAfter=No|NER=O
+33	"	"	PUNCT	_	_	29	punct	_	start_char=177|end_char=178|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	34	punct	_	start_char=179|end_char=180|NER=O
+35	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	29	conj	_	start_char=181|end_char=184|NER=O
+36	duke	duke	PART	_	_	36	fixed	_	start_char=185|end_char=189|NER=O
+37	qeshur	qeshoj	VERB	_	VerbForm=Part	34	advmod	_	start_char=190|end_char=196|NER=O
+38	Zhusti	Zhust	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	36	obj	_	start_char=197|end_char=203|NER=B-PER
+39	.	.	PUNCT	_	_	34	punct	_	start_char=204|end_char=205|SpacesAfter=\n|NER=O
+
+# text = Nga interpretimi i Zhustit do kuptojmë që personazhi , komunisti Kuqo , le një testament dhe rrëfen kohën që prej fillimit të krijimit të partisë komuniste e deri në vitin 1991 .
+# sent_id = 4
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	interpretimi	interpretim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=4|end_char=16|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=17|end_char=18|NER=O
+4	Zhustit	Zhust	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=26|NER=B-PER
+5	do	do	PART	_	_	6	fixed	_	start_char=27|end_char=29|NER=O
+6	kuptojmë	kuptoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=30|end_char=38|NER=O
+7	që	që	SCONJ	_	_	8	mark	_	start_char=39|end_char=41|NER=O
+8	personazhi	personazh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=42|end_char=52|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=53|end_char=54|NER=O
+10	komunisti	komunist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	list	_	start_char=55|end_char=64|NER=O
+11	Kuqo	Kuqo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=65|end_char=69|SpaceAfter=No|NER=B-PER
+12	,	,	PUNCT	_	_	13	punct	_	start_char=70|end_char=71|NER=O
+13	le	le	PART	_	_	15	mark	_	start_char=72|end_char=74|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=75|end_char=78|NER=O
+15	testament	testame	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	list	_	start_char=79|end_char=88|NER=O
+16	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=89|end_char=92|NER=O
+17	rrëfen	rrëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	start_char=93|end_char=99|NER=O
+18	kohën	kohë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=100|end_char=105|NER=O
+19	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=106|end_char=108|NER=O
+20	prej	prej	ADP	_	Case=Abl	21	case	_	start_char=109|end_char=113|NER=O
+21	fillimit	fillim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=114|end_char=122|NER=O
+22	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=123|end_char=125|NER=O
+23	krijimit	krijim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=126|end_char=134|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=135|end_char=137|NER=O
+25	partisë	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=138|end_char=145|NER=O
+26	komuniste	komunist	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=146|end_char=155|NER=O
+27	e	e	CCONJ	_	_	30	cc	_	start_char=156|end_char=157|NER=O
+28	deri	deri	PART	_	_	29	fixed	_	start_char=158|end_char=162|NER=O
+29	në	në	ADP	_	Case=Acc	30	case	_	start_char=163|end_char=165|NER=O
+30	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=166|end_char=171|NER=B-DATE_0
+31	1991	1991	NUM	_	NumType=Card	30	amod:nummod	_	start_char=172|end_char=176|SpaceAfter=No|NER=I-DATE_0
+32	.	.	PUNCT	_	_	17	punct	_	start_char=177|end_char=178|SpacesAfter=\n\n\n\n|NER=O
+

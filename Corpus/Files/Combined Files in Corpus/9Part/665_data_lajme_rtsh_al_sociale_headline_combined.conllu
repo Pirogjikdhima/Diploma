@@ -1,0 +1,66 @@
+# text = 06 / 10 / 2023 Gjatë vitit 2022 numri i denoncimeve ishte më i lartë se në vitin 2021 , ku u raportua për 5 .
+# sent_id = 0
+1	06	06	NUM	_	NumType=Card	7	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	7	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	7	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	7	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Gjatë	gjatë	ADP	_	Case=Abl	3	case	_	start_char=15|end_char=20|NER=O
+7	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=21|end_char=26|NER=B-DATE_0
+8	2022	2022	NUM	_	NumType=Card	2	amod:nummod	_	start_char=27|end_char=31|NER=I-DATE_0
+9	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=32|end_char=37|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=38|end_char=39|NER=O
+11	denoncimeve	denoncim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=40|end_char=51|NER=O
+12	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=52|end_char=57|NER=O
+13	më	më	PART	_	_	10	mark	_	start_char=58|end_char=60|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=61|end_char=62|NER=O
+15	lartë	lartë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	cop	_	start_char=63|end_char=68|NER=O
+16	se	se	SCONJ	_	_	18	mark	_	start_char=69|end_char=71|NER=O
+17	në	në	ADP	_	Case=Acc	13	case	_	start_char=72|end_char=74|NER=O
+18	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=75|end_char=80|NER=B-DATE_0
+19	2021	2021	NUM	_	NumType=Card	13	amod:nummod	_	start_char=81|end_char=85|SpaceAfter=No|NER=I-DATE_0
+20	,	,	PUNCT	_	_	16	punct	_	start_char=86|end_char=87|NER=O
+21	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=88|end_char=90|NER=O
+22	u	u	PART	_	_	18	fixed	_	start_char=91|end_char=92|NER=O
+23	raportua	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	advcl	_	start_char=93|end_char=101|NER=O
+24	për	për	ADP	_	Case=Acc	20	case	_	start_char=102|end_char=105|NER=O
+25	5	5	NUM	_	NumType=Card	21	nummod	_	start_char=106|end_char=107|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	18	punct	_	start_char=108|end_char=109|NER=O
+
+# text = 213 të dëmtuar nga dhuna dhe nga krimet e tjera në familje , nga të cilat 3 .
+# sent_id = 1
+1	213	213	NUM	_	NumType=Card	18	advmod	_	start_char=0|end_char=3|NER=O
+2	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	23	det	_	start_char=4|end_char=6|NER=O
+3	dëmtuar	dëmtuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=7|end_char=14|NER=O
+4	nga	nga	ADP	_	Case=Nom	25	case	_	start_char=15|end_char=18|NER=O
+5	dhuna	dhunë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	advmod	_	start_char=19|end_char=24|NER=O
+6	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=25|end_char=28|NER=O
+7	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=29|end_char=32|NER=O
+8	krimet	krim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	conj	_	start_char=33|end_char=39|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=40|end_char=41|NER=O
+10	tjera	tjetër	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	28	amod	_	start_char=42|end_char=47|NER=O
+11	në	në	ADP	_	Case=Acc	32	case	_	start_char=48|end_char=50|NER=O
+12	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	start_char=51|end_char=58|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	36	punct	_	start_char=59|end_char=60|NER=O
+14	nga	nga	ADP	_	Case=Nom	36	case	_	start_char=61|end_char=64|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	36	det	_	start_char=65|end_char=67|NER=O
+16	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	40	obl	_	start_char=68|end_char=73|NER=O
+17	3	3	NUM	_	NumType=Card	40	advmod	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	36	punct	_	start_char=76|end_char=77|SpaceAfter=No|NER=O
+
+# text = 760 janë gra dhe vajza .
+# sent_id = 2
+1	760	760	NUM	_	NumType=Card	40	nsubj	_	start_char=0|end_char=3|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=4|end_char=8|NER=O
+3	gra	grua	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	40	cop	_	start_char=9|end_char=12|NER=O
+4	dhe	dhe	CCONJ	_	_	43	cc	_	start_char=13|end_char=16|NER=O
+5	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	41	conj	_	start_char=17|end_char=22|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	40	punct	_	start_char=23|end_char=24|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Flutura Tota
+# sent_id = 3
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Flutura	Fluturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=18|NER=B-PER
+4	Tota	Totë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=19|end_char=23|SpacesAfter=\n|NER=I-PER
+

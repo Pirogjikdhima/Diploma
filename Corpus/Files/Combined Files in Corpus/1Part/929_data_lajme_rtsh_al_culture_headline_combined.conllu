@@ -1,0 +1,309 @@
+# text = Në datën 25 prill nisin Javët Kulturore Ndërkombëtare , një nismë e Qeverisë Shqiptare .
+# sent_id = 0
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	datën	datë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=3|end_char=8|NER=O
+3	25	25	NUM	_	NumType=Card	4	nummod	_	start_char=9|end_char=11|NER=B-DATE_0
+4	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=12|end_char=17|NER=I-DATE_0
+5	nisin	nis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+6	Javët	Javë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=24|end_char=29|NER=O
+7	Kulturore	kulturor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=30|end_char=39|NER=O
+8	Ndërkombëtare	dërkombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=40|end_char=53|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=54|end_char=55|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=56|end_char=59|NER=O
+11	nismë	nismë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	list	_	start_char=60|end_char=65|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=66|end_char=67|NER=O
+13	Qeverisë	qeveri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=68|end_char=76|NER=O
+14	Shqiptare	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=77|end_char=86|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	5	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Ajo do të jetë një paradë ku marrin pjesë 18 vende .
+# sent_id = 1
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=0|end_char=3|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=4|end_char=6|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=7|end_char=9|NER=O
+4	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=14|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=15|end_char=18|NER=O
+6	paradë	paradë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=19|end_char=25|NER=O
+7	ku	ku	ADV	_	AdvType=Loc	8	advmod	_	start_char=26|end_char=28|NER=O
+8	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=29|end_char=35|NER=O
+9	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=36|end_char=41|NER=O
+10	18	18	NUM	_	NumType=Card	11	nummod	_	start_char=42|end_char=44|NER=O
+11	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=45|end_char=50|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	4	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Të parët që hapin këtë udhëtim janë francezët 🇫 🇷 , për të vijuar me radhë me një program të unifikuar nën siglën e Bashkimit Europian 🇪 🇺 ; më pas Shtetet e Bashkuara të Amerikës 🇺 🇸 , Greqia 🇬 🇷 , Italia 🇮 🇹 , Izraeli 🇮 🇱 , Spanja 🇪 🇸 , Britania e Madhe 🇬 🇧 , Suedi 🇸 🇪 , Egjipt 🇪 🇬 , Kinë 🇨 🇳 , Gjermani 🇩 🇪 , Japoni 🇯 🇵 , Austri 🇦 🇹 , Turqi 🇹 🇷 , Hungari 🇭 🇺 , Emiratet e Bashkuara Arabe 🇦 🇪 , duke e përmbyllur me Kosovën , që kulmon në festat tona kombëtare .
+# sent_id = 2
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	parët	parë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	advmod	_	start_char=3|end_char=8|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=9|end_char=11|NER=O
+4	hapin	hap	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	2	acl:relcl	_	start_char=12|end_char=17|NER=O
+5	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=18|end_char=22|NER=O
+6	udhëtim	udhëtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=23|end_char=30|NER=O
+7	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=35|NER=O
+8	francezët	francezët	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	cop	_	start_char=36|end_char=45|SpaceAfter=No|NER=O
+9	🇫	🇫	PUNCT	_	_	7	punct	_	start_char=46|end_char=47|SpaceAfter=No|NER=O
+10	🇷	🇷	PUNCT	_	_	7	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=50|end_char=51|NER=O
+12	për	për	PART	_	_	12	fixed	_	start_char=52|end_char=55|NER=O
+13	të	të	PART	_	_	12	fixed	_	start_char=56|end_char=58|NER=O
+14	vijuar	vijoj	VERB	_	VerbForm=Part	7	advmod	_	start_char=59|end_char=65|NER=O
+15	me	me	ADP	_	Case=Acc	14	case	_	start_char=66|end_char=68|NER=O
+16	radhë	radhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	advmod	_	start_char=69|end_char=74|NER=O
+17	me	me	ADP	_	Case=Acc	17	case	_	start_char=75|end_char=77|NER=O
+18	një	një	DET	_	Definite=Ind	17	det	_	start_char=78|end_char=81|NER=O
+19	program	program	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=82|end_char=89|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=90|end_char=92|NER=O
+21	unifikuar	unifikuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=93|end_char=102|NER=O
+22	nën	nën	ADP	_	Case=Acc	21	case	_	start_char=103|end_char=106|NER=O
+23	siglën	siglë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=107|end_char=113|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=114|end_char=115|NER=O
+25	Bashkimit	bashkim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=116|end_char=125|NER=O
+26	Europian	Europian	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	start_char=126|end_char=134|SpaceAfter=No|NER=O
+27	🇪	🇪	PUNCT	_	_	23	punct	_	start_char=135|end_char=136|SpaceAfter=No|NER=O
+28	🇺	🇺	PUNCT	_	_	23	punct	_	start_char=137|end_char=138|SpaceAfter=No|NER=O
+29	;	;	PUNCT	_	_	28	punct	_	start_char=139|end_char=140|NER=O
+30	më	më	PART	_	_	27	mark	_	start_char=141|end_char=143|NER=O
+31	pas	pas	ADV	_	AdvType=Tim	28	advmod	_	start_char=144|end_char=147|NER=O
+32	Shtetet	shtet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	start_char=148|end_char=155|NER=B-VEND_1
+33	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=156|end_char=157|NER=I-VEND_1
+34	Bashkuara	bashkuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=158|end_char=167|NER=I-VEND_1
+35	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=168|end_char=170|NER=I-VEND_1
+36	Amerikës	Amerikës	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	start_char=171|end_char=179|SpaceAfter=No|NER=I-VEND_1
+37	🇺	🇺	PUNCT	_	_	28	punct	_	start_char=180|end_char=181|SpaceAfter=No|NER=I-VEND_1
+38	🇸	🇸	PUNCT	_	_	28	punct	_	start_char=182|end_char=183|SpaceAfter=No|NER=I-VEND_1
+39	,	,	PUNCT	_	_	34	punct	_	start_char=184|end_char=185|NER=O
+40	Greqia	Greqia	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	appos	_	start_char=186|end_char=192|SpaceAfter=No|NER=B-VEND_1
+41	🇬	🇬	PUNCT	_	_	32	punct	_	start_char=193|end_char=194|SpaceAfter=No|NER=B-VEND_1
+42	🇷	🇷	PUNCT	_	_	32	punct	_	start_char=195|end_char=196|SpaceAfter=No|NER=B-VEND_1
+43	,	,	PUNCT	_	_	36	punct	_	start_char=197|end_char=198|NER=O
+44	Italia	Italia	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	34	list	_	start_char=199|end_char=205|SpaceAfter=No|NER=B-VEND_1
+45	🇮	🇮	PUNCT	_	_	34	punct	_	start_char=206|end_char=207|SpaceAfter=No|NER=B-VEND_1
+46	🇹	🇹	PUNCT	_	_	34	punct	_	start_char=208|end_char=209|SpaceAfter=No|NER=B-VEND_1
+47	,	,	PUNCT	_	_	38	punct	_	start_char=210|end_char=211|NER=O
+48	Izraeli	Izraeli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	list	_	start_char=212|end_char=219|SpaceAfter=No|NER=B-VEND_1
+49	🇮	🇮	PUNCT	_	_	36	punct	_	start_char=220|end_char=221|SpaceAfter=No|NER=B-VEND_1
+50	🇱	🇱	PUNCT	_	_	36	punct	_	start_char=222|end_char=223|SpaceAfter=No|NER=B-VEND_1
+51	,	,	PUNCT	_	_	40	punct	_	start_char=224|end_char=225|NER=O
+52	Spanja	Spanja	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	list	_	start_char=226|end_char=232|SpaceAfter=No|NER=B-VEND_1
+53	🇪	🇪	PUNCT	_	_	38	punct	_	start_char=233|end_char=234|SpaceAfter=No|NER=B-VEND_1
+54	🇸	🇸	PUNCT	_	_	38	punct	_	start_char=235|end_char=236|SpaceAfter=No|NER=B-VEND_1
+55	,	,	PUNCT	_	_	42	punct	_	start_char=237|end_char=238|NER=O
+56	Britania	Britani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	40	list	_	start_char=239|end_char=247|NER=B-VEND_1
+57	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	44	det:poss	_	start_char=248|end_char=249|NER=I-VEND_1
+58	Madhe	madh	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	42	nmod	_	start_char=250|end_char=255|NER=I-VEND_1
+59	🇬	🇬	PUNCT	_	_	44	punct	_	start_char=256|end_char=257|SpaceAfter=No|NER=I-VEND_1
+60	🇧	🇧	PUNCT	_	_	44	punct	_	start_char=258|end_char=259|SpaceAfter=No|NER=I-VEND_1
+61	,	,	PUNCT	_	_	47	punct	_	start_char=260|end_char=261|NER=I-VEND_1
+62	Suedi	Suedi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	44	appos	_	start_char=262|end_char=267|SpaceAfter=No|NER=B-VEND_1
+63	🇸	🇸	PUNCT	_	_	44	punct	_	start_char=268|end_char=269|SpaceAfter=No|NER=B-VEND_1
+64	🇪	🇪	PUNCT	_	_	44	punct	_	start_char=270|end_char=271|SpaceAfter=No|NER=B-VEND_1
+65	,	,	PUNCT	_	_	49	punct	_	start_char=272|end_char=273|NER=O
+66	Egjipt	Egjipt	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	47	list	_	start_char=274|end_char=280|SpaceAfter=No|NER=B-VEND_1
+67	🇪	🇪	PUNCT	_	_	47	punct	_	start_char=281|end_char=282|SpaceAfter=No|NER=B-VEND_1
+68	🇬	🇬	PUNCT	_	_	47	punct	_	start_char=283|end_char=284|SpaceAfter=No|NER=B-VEND_1
+69	,	,	PUNCT	_	_	51	punct	_	start_char=285|end_char=286|NER=O
+70	Kinë	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	49	list	_	start_char=287|end_char=291|SpaceAfter=No|NER=B-VEND_1
+71	🇨	🇨	PUNCT	_	_	49	punct	_	start_char=292|end_char=293|SpaceAfter=No|NER=B-VEND_1
+72	🇳	🇳	PUNCT	_	_	49	punct	_	start_char=294|end_char=295|SpaceAfter=No|NER=B-VEND_1
+73	,	,	PUNCT	_	_	53	punct	_	start_char=296|end_char=297|NER=I-VEND_1
+74	Gjermani	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	51	list	_	start_char=298|end_char=306|SpaceAfter=No|NER=B-VEND_1
+75	🇩	🇩	PUNCT	_	_	51	punct	_	start_char=307|end_char=308|SpaceAfter=No|NER=B-VEND_1
+76	🇪	🇪	PUNCT	_	_	51	punct	_	start_char=309|end_char=310|SpaceAfter=No|NER=B-VEND_1
+77	,	,	PUNCT	_	_	55	punct	_	start_char=311|end_char=312|NER=I-VEND_1
+78	Japoni	Japoni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	53	list	_	start_char=313|end_char=319|SpaceAfter=No|NER=B-VEND_1
+79	🇯	🇯	PUNCT	_	_	53	punct	_	start_char=320|end_char=321|SpaceAfter=No|NER=B-VEND_1
+80	🇵	🇵	PUNCT	_	_	53	punct	_	start_char=322|end_char=323|SpaceAfter=No|NER=B-VEND_1
+81	,	,	PUNCT	_	_	57	punct	_	start_char=324|end_char=325|NER=I-VEND_1
+82	Austri	Austri	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	55	list	_	start_char=326|end_char=332|SpaceAfter=No|NER=B-VEND_1
+83	🇦	🇦	PUNCT	_	_	55	punct	_	start_char=333|end_char=334|SpaceAfter=No|NER=B-VEND_1
+84	🇹	🇹	PUNCT	_	_	55	punct	_	start_char=335|end_char=336|SpaceAfter=No|NER=B-VEND_1
+85	,	,	PUNCT	_	_	59	punct	_	start_char=337|end_char=338|NER=I-VEND_1
+86	Turqi	Turqi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	57	list	_	start_char=339|end_char=344|SpaceAfter=No|NER=B-VEND_1
+87	🇹	🇹	PUNCT	_	_	57	punct	_	start_char=345|end_char=346|SpaceAfter=No|NER=B-VEND_1
+88	🇷	🇷	PUNCT	_	_	57	punct	_	start_char=347|end_char=348|SpaceAfter=No|NER=B-VEND_1
+89	,	,	PUNCT	_	_	61	punct	_	start_char=349|end_char=350|NER=I-VEND_1
+90	Hungari	Hungari	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	59	list	_	start_char=351|end_char=358|SpaceAfter=No|NER=B-VEND_1
+91	🇭	🇭	PUNCT	_	_	59	punct	_	start_char=359|end_char=360|SpaceAfter=No|NER=B-VEND_1
+92	🇺	🇺	PUNCT	_	_	59	punct	_	start_char=361|end_char=362|SpaceAfter=No|NER=B-VEND_1
+93	,	,	PUNCT	_	_	63	punct	_	start_char=363|end_char=364|NER=I-VEND_1
+94	Emiratet	Emirat	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	61	list	_	start_char=365|end_char=373|NER=B-VEND_1
+95	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	65	det	_	start_char=374|end_char=375|NER=I-VEND_1
+96	Bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	63	amod	_	start_char=376|end_char=385|NER=I-VEND_1
+97	Arabe	Arabe	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	63	flat	_	start_char=386|end_char=391|SpaceAfter=No|NER=I-VEND_1
+98	🇦	🇦	PUNCT	_	_	63	punct	_	start_char=392|end_char=393|SpaceAfter=No|NER=I-VEND_1
+99	🇪	🇪	PUNCT	_	_	63	punct	_	start_char=394|end_char=395|SpaceAfter=No|NER=I-VEND_1
+100	,	,	PUNCT	_	_	70	punct	_	start_char=396|end_char=397|NER=I-VEND_1
+101	duke	duke	PART	_	_	70	fixed	_	start_char=398|end_char=402|NER=I-VEND_1
+102	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	70	obj	_	start_char=403|end_char=404|NER=O
+103	përmbyllur	përmbylloj	VERB	_	VerbForm=Part	65	advmod	_	start_char=405|end_char=415|NER=O
+104	me	me	ADP	_	Case=Acc	72	case	_	start_char=416|end_char=418|NER=O
+105	Kosovën	Kosovë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	70	obl	_	start_char=419|end_char=426|NER=B-VEND_1
+106	,	,	PUNCT	_	_	74	punct	_	start_char=427|end_char=428|NER=I-VEND_1
+107	që	që	PRON	_	PronType=Rel	75	nsubj	_	start_char=429|end_char=431|NER=I-VEND_1
+108	kulmon	kulmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	70	advcl	_	start_char=432|end_char=438|NER=O
+109	në	në	ADP	_	Case=Acc	77	case	_	start_char=439|end_char=441|NER=O
+110	festat	festë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	75	obl	_	start_char=442|end_char=448|NER=O
+111	tona	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	77	amod	_	start_char=449|end_char=453|NER=O
+112	kombëtare	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	77	amod	_	start_char=454|end_char=463|SpaceAfter=No|NER=O
+113	.	.	PUNCT	_	_	75	punct	_	start_char=464|end_char=465|NER=O
+
+# text = Do të jetë një kalendar e larmishëm # kulturor , traditash , por edhe një tryezë dialogu e shkëmbimesh .
+# sent_id = 3
+1	Do	do	PART	_	_	3	fixed	_	start_char=0|end_char=2|NER=O
+2	të	të	PART	_	_	3	fixed	_	start_char=3|end_char=5|NER=O
+3	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=10|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=11|end_char=14|NER=O
+5	kalendar	kalendar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	cop	_	start_char=15|end_char=23|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=24|end_char=25|NER=O
+7	larmishëm	larmishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=26|end_char=35|NER=O
+8	#	#	PUNCT	_	_	5	punct	_	start_char=36|end_char=37|SpaceAfter=No|NER=O
+9	kulturor	kulturor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=38|end_char=46|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	10	punct	_	start_char=47|end_char=48|NER=O
+11	traditash	traditash	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	list	_	start_char=49|end_char=58|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	12	punct	_	start_char=59|end_char=60|NER=O
+13	por	por	CCONJ	_	_	15	cc	_	start_char=61|end_char=64|NER=O
+14	edhe	edhe	PART	_	_	15	mark	_	start_char=65|end_char=69|NER=O
+15	një	një	DET	_	Definite=Ind	15	det	_	start_char=70|end_char=73|NER=O
+16	tryezë	tryezë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	start_char=74|end_char=80|NER=O
+17	dialogu	dialog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=81|end_char=88|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=89|end_char=90|NER=O
+19	shkëmbimesh	shkëmbim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=91|end_char=102|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	3	punct	_	start_char=103|end_char=104|NER=O
+
+# text = Në konferencën për shtyp mbajtur për prezantimin e JKN , Ministrja e Kulturës Elva Margariti u shpreh se këto javë do të sjellin kultura nga kontinente të ndryshme , do të angazhojnë shumë të rinj dhe do t ' i shërbejnë bashkëpunimit mes vendeve dhe do të gjallërojnë edhe më tej jetën artistike .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	konferencën	konferencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=3|end_char=14|NER=O
+3	për	për	PART	_	_	4	det	_	start_char=15|end_char=18|NER=O
+4	shtyp	shtyp	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=24|NER=O
+5	mbajtur	mbaj	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=25|end_char=32|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=33|end_char=36|NER=O
+7	prezantimin	prezantim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	start_char=37|end_char=48|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=49|end_char=50|NER=O
+9	JKN	JKN	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=51|end_char=54|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=55|end_char=56|NER=O
+11	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	start_char=57|end_char=66|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=67|end_char=68|NER=O
+13	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=69|end_char=77|NER=O
+14	Elva	Elva	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	flat	_	start_char=78|end_char=82|NER=O
+15	Margariti	margarit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=83|end_char=92|NER=B-PER
+16	u	u	PART	_	_	17	fixed	_	start_char=93|end_char=94|NER=I-PER
+17	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=95|end_char=101|NER=I-PER
+18	se	se	SCONJ	_	_	23	mark	_	start_char=102|end_char=104|NER=O
+19	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	20	det	_	start_char=105|end_char=109|NER=O
+20	javë	javë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	start_char=110|end_char=114|NER=O
+21	do	do	PART	_	_	23	fixed	_	start_char=115|end_char=117|NER=O
+22	të	të	PART	_	_	23	fixed	_	start_char=118|end_char=120|NER=O
+23	sjellin	sjell	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	advcl	_	start_char=121|end_char=128|NER=O
+24	kultura	kulturë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	start_char=129|end_char=136|NER=O
+25	nga	nga	ADP	_	Case=Nom	26	case	_	start_char=137|end_char=140|NER=O
+26	kontinente	kontinent	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	23	obl	_	start_char=141|end_char=151|NER=O
+27	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=152|end_char=154|NER=O
+28	ndryshme	ndryshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=155|end_char=163|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	32	punct	_	start_char=164|end_char=165|NER=O
+30	do	do	PART	_	_	32	fixed	_	start_char=166|end_char=168|NER=O
+31	të	të	PART	_	_	32	fixed	_	start_char=169|end_char=171|NER=O
+32	angazhojnë	angazhoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	conj	_	start_char=172|end_char=182|NER=O
+33	shumë	shumë	ADV	_	AdvType=Deg	35	advmod	_	start_char=183|end_char=188|NER=O
+34	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=189|end_char=191|NER=O
+35	rinj	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	32	cop	_	start_char=192|end_char=196|NER=O
+36	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=197|end_char=200|NER=O
+37	do	do	PART	_	_	39	fixed	_	start_char=201|end_char=203|NER=O
+38	t	t'i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obj	_	start_char=204|end_char=205|NER=O
+39	'	'	PUNCT	_	_	39	punct	_	start_char=206|end_char=207|NER=O
+40	i	t'i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obj	_	start_char=208|end_char=209|NER=O
+41	shërbejnë	shërbej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	conj	_	start_char=210|end_char=219|NER=O
+42	bashkëpunimit	bashkëpunim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	39	obj	_	start_char=220|end_char=233|NER=O
+43	mes	mes	ADP	_	Case=Abl	42	case	_	start_char=234|end_char=237|NER=O
+44	vendeve	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	39	obl	_	start_char=238|end_char=245|NER=O
+45	dhe	dhe	CCONJ	_	_	46	cc	_	start_char=246|end_char=249|NER=O
+46	do	do	PART	_	_	46	fixed	_	start_char=250|end_char=252|NER=O
+47	të	të	PART	_	_	46	fixed	_	start_char=253|end_char=255|NER=O
+48	gjallërojnë	gjallëroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	39	conj	_	start_char=256|end_char=267|NER=O
+49	edhe	edhe	PART	_	_	49	mark	_	start_char=268|end_char=272|NER=O
+50	më	më	PART	_	_	49	mark	_	start_char=273|end_char=275|NER=O
+51	tej	tej	ADV	_	AdvType=Loc	46	advmod	_	start_char=276|end_char=279|NER=O
+52	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	46	obj	_	start_char=280|end_char=285|NER=O
+53	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	50	amod	_	start_char=286|end_char=295|SpaceAfter=No|NER=O
+54	.	.	PUNCT	_	_	46	punct	_	start_char=296|end_char=297|NER=O
+
+# text = Margariti u shpreh se pranë Ministrisë së Kulturës janë angazhuar stafe të posaçme që po punojnë për organizimin dhe koordinimin e kalendarit të aktiviteteve , që do të përditësohet në webfaqen www .
+# sent_id = 5
+1	Margariti	margarit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=B-PER
+2	u	u	PART	_	_	3	fixed	_	start_char=10|end_char=11|NER=I-PER
+3	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	10	advcl	_	start_char=12|end_char=18|NER=I-PER
+4	se	se	SCONJ	_	_	10	mark	_	start_char=19|end_char=21|NER=O
+5	pranë	pranë	ADP	_	Case=Abl	6	case	_	start_char=22|end_char=27|NER=O
+6	Ministrisë	ministri	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=28|end_char=38|NER=O
+7	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=39|end_char=41|NER=O
+8	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=42|end_char=50|NER=O
+9	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=51|end_char=55|NER=O
+10	angazhuar	angazhoj	VERB	_	VerbForm=Part	0	root	_	start_char=56|end_char=65|NER=O
+11	stafe	staf	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	start_char=66|end_char=71|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=72|end_char=74|NER=O
+13	posaçme	posaçm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=75|end_char=82|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=83|end_char=85|NER=O
+15	po	po	PART	_	_	16	mark	_	start_char=86|end_char=88|NER=O
+16	punojnë	punoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	acl	_	start_char=89|end_char=96|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=97|end_char=100|NER=O
+18	organizimin	organizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	start_char=101|end_char=112|NER=O
+19	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=113|end_char=116|NER=O
+20	koordinimin	koordinim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=117|end_char=128|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=129|end_char=130|NER=O
+22	kalendarit	kalendar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=131|end_char=141|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=142|end_char=144|NER=O
+24	aktiviteteve	aktivitet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	start_char=145|end_char=157|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	26	punct	_	start_char=158|end_char=159|NER=O
+26	që	që	PRON	_	PronType=Rel	29	nsubj	_	start_char=160|end_char=162|NER=O
+27	do	do	PART	_	_	29	fixed	_	start_char=163|end_char=165|NER=O
+28	të	të	PART	_	_	29	fixed	_	start_char=166|end_char=168|NER=O
+29	përditësohet	përditësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	advcl	_	start_char=169|end_char=181|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=182|end_char=184|NER=O
+31	webfaqen	webfaq	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obl	_	start_char=185|end_char=193|NER=O
+32	www	www.jkn.al	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	flat:name	_	start_char=194|end_char=197|NER=O
+33	.	.	PUNCT	_	_	31	punct	_	start_char=198|end_char=199|NER=O
+
+# text = jkn .
+# sent_id = 6
+1	jkn	www.jkn.al	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	flat:name	_	start_char=0|end_char=3|NER=O
+2	.	.	PUNCT	_	_	31	punct	_	start_char=4|end_char=5|NER=O
+
+# text = al .
+# sent_id = 7
+1	al	www.jkn.al	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	flat:name	_	start_char=0|end_char=2|NER=O
+2	.	.	PUNCT	_	_	31	punct	_	start_char=3|end_char=4|NER=O
+
+# text = Aktiviteti do të mbështetet me një buxhet prej 100 milionë lekësh .
+# sent_id = 8
+1	Aktiviteti	aktivitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=0|end_char=10|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=14|end_char=16|NER=O
+4	mbështetet	mbështet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=17|end_char=27|NER=O
+5	me	me	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=30|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=31|end_char=34|NER=O
+7	buxhet	buxh	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=35|end_char=41|NER=O
+8	prej	prej	ADP	_	Case=Abl	10	case	_	start_char=42|end_char=46|NER=O
+9	100	100	NUM	_	NumType=Card	10	nummod	_	start_char=47|end_char=50|NER=O
+10	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	start_char=51|end_char=58|NER=O
+11	lekësh	lekësh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	start_char=59|end_char=65|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	4	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Edhe vendet pjesëmarrëse do të japin kontributin e tyre financiar për organizimin e javëve përkatëse .
+# sent_id = 9
+1	Edhe	edhe	CCONJ	_	_	2	mark:emph	_	start_char=0|end_char=4|NER=O
+2	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=5|end_char=11|NER=O
+3	pjesëmarrëse	pjesëmarrës	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=12|end_char=24|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=25|end_char=27|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=28|end_char=30|NER=O
+6	japin	jam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=36|NER=O
+7	kontributin	kontribut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=37|end_char=48|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=49|end_char=50|NER=O
+9	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	amod:poss	_	start_char=51|end_char=55|NER=O
+10	financiar	financiar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=56|end_char=65|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=66|end_char=69|NER=O
+12	organizimin	organizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=70|end_char=81|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=82|end_char=83|NER=O
+14	javëve	javë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	start_char=84|end_char=90|NER=O
+15	përkatëse	përkatës	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=91|end_char=100|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	6	punct	_	start_char=101|end_char=102|SpacesAfter=\n\n\n|NER=O
+

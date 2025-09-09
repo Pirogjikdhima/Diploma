@@ -1,0 +1,48 @@
+# text = 26 / 01 / 2024 Mjekja pediatre , Sonila Brati thotë se vaksinimi ndaj MMR është bërë sfidë më vete .
+# sent_id = 0
+1	26	26	NUM	_	NumType=Card	8	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	6	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	6	amod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	8	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	8	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=15|end_char=21|NER=O
+7	pediatre	pediatr	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=22|end_char=30|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	4	punct	_	start_char=31|end_char=32|NER=O
+9	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=33|end_char=39|NER=B-PER
+10	Brati	Brat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=40|end_char=45|NER=I-PER
+11	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=46|end_char=51|NER=O
+12	se	se	SCONJ	_	_	12	mark	_	start_char=52|end_char=54|NER=O
+13	vaksinimi	vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=55|end_char=64|NER=O
+14	ndaj	ndaj	ADP	_	Case=Abl	10	case	_	start_char=65|end_char=69|NER=O
+15	MMR	MMR	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=70|end_char=73|NER=O
+16	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=74|end_char=79|NER=O
+17	bërë	bëj	VERB	_	VerbForm=Part	6	conj	_	start_char=80|end_char=84|NER=O
+18	sfidë	sfidë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=85|end_char=90|NER=O
+19	më	më	PART	_	_	15	mark	_	start_char=91|end_char=93|NER=O
+20	vete	vete	PRON	_	PronType=Ind	13	nmod	_	start_char=94|end_char=98|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	12	punct	_	start_char=99|end_char=100|NER=O
+
+# text = Sapo mbush vitin e parë të jetës fëmija , aty ndalon çdo gjë .
+# sent_id = 1
+1	Sapo	sapo	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=4|NER=O
+2	mbush	mbus	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=5|end_char=10|NER=O
+3	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=11|end_char=16|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=17|end_char=18|NER=O
+5	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=19|end_char=23|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=24|end_char=26|NER=O
+7	jetës	jetë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=27|end_char=32|NER=O
+8	fëmija	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=33|end_char=39|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=40|end_char=41|NER=O
+10	aty	aty	ADV	_	AdvType=Loc	11	advmod	_	start_char=42|end_char=45|NER=O
+11	ndalon	ndaloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=46|end_char=52|NER=O
+12	çdo	çdo	PRON	_	PronType=Ind	13	nummod	_	start_char=53|end_char=56|NER=O
+13	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=57|end_char=60|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	11	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 2
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

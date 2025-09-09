@@ -1,0 +1,178 @@
+# text = 23 / 01 / 2024 Sipas të dhënave të Eurostat , pas një ngadalësimi në verë , kërkesat e shtetasve shqiptarë për azil kanë shënuar sërish rritje në muajt e fundit të vitit 2023 .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	8	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	11	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Sipas	sipas	ADP	_	Case=Abl	16	case	_	start_char=15|end_char=20|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=21|end_char=23|NER=O
+8	dhënave	dhënë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=24|end_char=31|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=32|end_char=34|NER=O
+10	Eurostat	Eurostë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=35|end_char=43|SpaceAfter=No|NER=B-ORG
+11	,	,	PUNCT	_	_	22	punct	_	start_char=44|end_char=45|NER=O
+12	pas	pas	ADP	_	Case=Abl	22	case	_	start_char=46|end_char=49|NER=O
+13	një	një	DET	_	Definite=Ind	22	det	_	start_char=50|end_char=53|NER=O
+14	ngadalësimi	ngadalësim	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=54|end_char=65|NER=O
+15	në	në	ADP	_	Case=Acc	24	case	_	start_char=66|end_char=68|NER=O
+16	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=69|end_char=73|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	26	punct	_	start_char=74|end_char=75|NER=O
+18	kërkesat	kërkesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	list	_	start_char=76|end_char=84|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	28	det:poss	_	start_char=85|end_char=86|NER=O
+20	shtetasve	shtetas	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	start_char=87|end_char=96|NER=O
+21	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=97|end_char=106|NER=O
+22	për	për	ADP	_	Case=Acc	31	case	_	start_char=107|end_char=110|NER=O
+23	azil	azil	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	advmod	_	start_char=111|end_char=115|NER=O
+24	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=116|end_char=120|NER=O
+25	shënuar	shënoj	VERB	_	VerbForm=Part	4	conj	_	start_char=121|end_char=128|NER=O
+26	sërish	sërish	ADV	_	AdvType=Deg	33	advmod	_	start_char=129|end_char=135|NER=O
+27	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	obj	_	start_char=136|end_char=142|NER=O
+28	në	në	ADP	_	Case=Acc	37	case	_	start_char=143|end_char=145|NER=O
+29	muajt	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	33	advmod	_	start_char=146|end_char=151|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	39	det	_	start_char=152|end_char=153|NER=O
+31	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	37	amod	_	start_char=154|end_char=160|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	41	det:poss	_	start_char=161|end_char=163|NER=O
+33	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=164|end_char=169|NER=B-DATE_0
+34	2023	2023	NUM	_	NumType=Card	41	amod:nummod	_	start_char=170|end_char=174|SpaceAfter=No|NER=I-DATE_0
+35	.	.	PUNCT	_	_	33	punct	_	start_char=175|end_char=176|SpacesAfter=\n|NER=O
+
+# text = Në tetor dhe nëntor u shënuan mbi 870 aplikime në në nga vendet e Bashkimit Europian , nga më pak se 700 që ishte numri i tyre gjatë muajve të verës , duke arritur nivelin më të lartë që nga marsi 2013 .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=3|end_char=8|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=9|end_char=12|NER=O
+4	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=13|end_char=19|NER=O
+5	u	u	PART	_	_	6	fixed	_	start_char=20|end_char=21|NER=O
+6	shënuan	shënoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=22|end_char=29|NER=O
+7	mbi	mbi	ADP	_	Case=Acc	9	case	_	start_char=30|end_char=33|NER=O
+8	870	870	NUM	_	NumType=Card	9	nummod	_	start_char=34|end_char=37|NER=O
+9	aplikime	aplikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=38|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	13	case	_	start_char=47|end_char=49|NER=O
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=50|end_char=52|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=53|end_char=56|NER=O
+13	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=57|end_char=63|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det:poss	_	start_char=64|end_char=65|NER=O
+15	Bashkimit	bashkim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=66|end_char=75|NER=B-ORG
+16	Europian	Europian	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=76|end_char=84|SpaceAfter=No|NER=I-ORG
+17	,	,	PUNCT	_	_	21	punct	_	start_char=85|end_char=86|NER=O
+18	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=87|end_char=90|NER=O
+19	më	më	PART	_	_	20	mark	_	start_char=91|end_char=93|NER=O
+20	pak	pak	ADV	_	AdvType=Deg	21	fixed	_	start_char=94|end_char=97|NER=O
+21	se	se	SCONJ	_	_	24	mark	_	start_char=98|end_char=100|NER=O
+22	700	700	NUM	_	NumType=Card	24	nsubj	_	start_char=101|end_char=104|NER=O
+23	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=105|end_char=107|NER=O
+24	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	13	acl	_	start_char=108|end_char=113|NER=O
+25	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	cop	_	start_char=114|end_char=119|NER=O
+26	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=120|end_char=121|NER=O
+27	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=122|end_char=126|NER=O
+28	gjatë	gjatë	ADP	_	Case=Abl	29	case	_	start_char=127|end_char=132|NER=O
+29	muajve	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	24	advmod	_	start_char=133|end_char=139|NER=O
+30	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	31	det:poss	_	start_char=140|end_char=142|NER=O
+31	verës	verë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=143|end_char=148|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	34	punct	_	start_char=149|end_char=150|NER=O
+33	duke	duke	PART	_	_	34	fixed	_	start_char=151|end_char=155|NER=O
+34	arritur	arrij	VERB	_	VerbForm=Part	24	advmod	_	start_char=156|end_char=163|NER=O
+35	nivelin	nivel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	34	obj	_	start_char=164|end_char=171|NER=O
+36	më	më	PART	_	_	38	mark	_	start_char=172|end_char=174|NER=O
+37	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	38	det	_	start_char=175|end_char=177|NER=O
+38	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=178|end_char=183|NER=O
+39	që	që	PART	_	_	41	mark	_	start_char=184|end_char=186|NER=O
+40	nga	nga	ADP	_	Case=Nom	41	case	_	start_char=187|end_char=190|NER=O
+41	marsi	mars	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	advmod	_	start_char=191|end_char=196|NER=B-DATE_0
+42	2013	2013	NUM	_	NumType=Card	41	amod:nummod	_	start_char=197|end_char=201|SpaceAfter=No|NER=I-DATE_0
+43	.	.	PUNCT	_	_	34	punct	_	start_char=202|end_char=203|SpacesAfter=\n|NER=O
+
+# text = Franca vijon të jetë vendi më i preferuar për azilantët shqiptarë , duke shënuar rritje të ndjeshme në krahasim me muajt e verës .
+# sent_id = 2
+1	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-VEND_1
+2	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=13|end_char=15|NER=O
+4	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=16|end_char=20|NER=O
+5	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	cop	_	start_char=21|end_char=26|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=27|end_char=29|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=30|end_char=31|NER=O
+8	preferuar	preferuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=32|end_char=41|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=42|end_char=45|NER=O
+10	azilantët	azilantë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	start_char=46|end_char=55|NER=O
+11	shqiptarë	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=56|end_char=65|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=66|end_char=67|NER=O
+13	duke	duke	PART	_	_	14	fixed	_	start_char=68|end_char=72|NER=O
+14	shënuar	shënoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=73|end_char=80|NER=O
+15	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	start_char=81|end_char=87|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=88|end_char=90|NER=O
+17	ndjeshme	ndjeshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=91|end_char=99|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=100|end_char=102|NER=O
+19	krahasim	krahasim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=103|end_char=111|NER=O
+20	me	me	ADP	_	Case=Acc	21	case	_	start_char=112|end_char=114|NER=O
+21	muajt	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	14	advmod	_	start_char=115|end_char=120|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	23	det:poss	_	start_char=121|end_char=122|NER=O
+23	verës	verë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=123|end_char=128|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	14	punct	_	start_char=129|end_char=130|NER=O
+
+# text = E njëjta tendencë u shënua dhe për Gjermaninë , ku pas një rënieje në verë , u konstatua rritje në tetor e nëntor .
+# sent_id = 3
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=0|end_char=1|NER=O
+2	njëjta	njëjtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	det	_	start_char=2|end_char=8|NER=O
+3	tendencë	tendencë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=9|end_char=17|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=18|end_char=19|NER=O
+5	shënua	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=20|end_char=26|NER=O
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=27|end_char=30|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=31|end_char=34|NER=O
+8	Gjermaninë	Gjermani	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	start_char=35|end_char=45|SpaceAfter=No|NER=B-VEND_1
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	ku	ku	ADV	_	AdvType=Loc	13	advmod	_	start_char=48|end_char=50|NER=O
+11	pas	pas	ADP	_	Case=Abl	13	case	_	start_char=51|end_char=54|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=55|end_char=58|NER=O
+13	rënieje	rëniej	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=59|end_char=66|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=69|NER=O
+15	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	start_char=70|end_char=74|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=75|end_char=76|NER=O
+17	u	u	PART	_	_	18	fixed	_	start_char=77|end_char=78|NER=O
+18	konstatua	konstatoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	conj	_	start_char=79|end_char=88|NER=O
+19	rritje	rritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	start_char=89|end_char=95|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=96|end_char=98|NER=O
+21	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	advmod	_	start_char=99|end_char=104|NER=O
+22	e	e	CCONJ	_	_	23	cc	_	start_char=105|end_char=106|NER=O
+23	nëntor	nëntor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	start_char=107|end_char=113|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	18	punct	_	start_char=114|end_char=115|SpacesAfter=\n|NER=O
+
+# text = Sipas të dhënave të Eurostat , për gjithë 11 mujorin , Franca priti 43 % të aplikimeve , e ndjekur nga Gjermania , me 27 % dhe 18 .
+# sent_id = 4
+1	Sipas	sipas	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=6|end_char=8|NER=O
+3	dhënave	dhënë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	advmod	_	start_char=9|end_char=16|NER=O
+4	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=17|end_char=19|NER=O
+5	Eurostat	Eurostë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=20|end_char=28|SpaceAfter=No|NER=B-ORG
+6	,	,	PUNCT	_	_	3	punct	_	start_char=29|end_char=30|NER=O
+7	për	për	ADP	_	Case=Acc	10	case	_	start_char=31|end_char=34|NER=O
+8	gjithë	gjithë	PRON	_	Gender=Masc|PronType=Ind	10	det	_	start_char=35|end_char=41|NER=O
+9	11	11	NUM	_	NumType=Card	10	nummod	_	start_char=42|end_char=44|NER=O
+10	mujorin	mujor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=45|end_char=52|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	10	punct	_	start_char=53|end_char=54|NER=O
+12	Franca	Francë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=55|end_char=61|NER=B-VEND_1
+13	priti	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=62|end_char=67|NER=O
+14	43	43	NUM	_	NumType=Card	15	nummod	_	start_char=68|end_char=70|SpaceAfter=No|NER=O
+15	%	%	SYM	_	_	13	obj	_	start_char=71|end_char=72|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=73|end_char=75|NER=O
+17	aplikimeve	aplikim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=76|end_char=86|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	20	punct	_	start_char=87|end_char=88|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=89|end_char=90|NER=O
+20	ndjekur	ndjekur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=91|end_char=98|NER=O
+21	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=99|end_char=102|NER=O
+22	Gjermania	Gjermani	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=103|end_char=112|SpaceAfter=No|NER=B-VEND_1
+23	,	,	PUNCT	_	_	26	punct	_	start_char=113|end_char=114|NER=O
+24	me	me	ADP	_	Case=Acc	26	case	_	start_char=115|end_char=117|NER=O
+25	27	27	NUM	_	NumType=Card	26	nummod	_	start_char=118|end_char=120|SpaceAfter=No|NER=O
+26	%	%	SYM	_	_	22	conj	_	start_char=121|end_char=122|NER=O
+27	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=123|end_char=126|NER=O
+28	18	18	NUM	_	NumType=Card	26	conj	_	start_char=127|end_char=129|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	26	punct	_	start_char=130|end_char=131|SpaceAfter=No|NER=O
+
+# text = 5 % në Itali .
+# sent_id = 5
+1	5	5	NUM	_	NumType=Card	26	conj	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	28	conj	_	start_char=2|end_char=3|NER=O
+3	në	në	ADP	_	Case=Acc	31	case	_	start_char=4|end_char=6|NER=O
+4	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=7|end_char=12|SpaceAfter=No|NER=B-VEND_1
+5	.	.	PUNCT	_	_	13	punct	_	start_char=13|end_char=14|SpacesAfter=\n|NER=O
+

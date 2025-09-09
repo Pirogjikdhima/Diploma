@@ -1,0 +1,97 @@
+# text = larguar prej tre ditësh nga banesa , 14 - vjeçarja me iniciale J .
+# sent_id = 0
+1	larguar	larguar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=0|end_char=7|NER=O
+2	prej	prej	ADP	_	Case=Abl	22	case	_	start_char=8|end_char=12|NER=O
+3	tre	tre	NUM	_	NumType=Card	22	nummod	_	start_char=13|end_char=16|NER=O
+4	ditësh	ditë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	19	advmod	_	start_char=17|end_char=23|NER=O
+5	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=24|end_char=27|NER=O
+6	banesa	banesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=28|end_char=34|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	27	punct	_	start_char=35|end_char=36|NER=O
+8	14	14	NUM	_	NumType=Card	27	nummod	_	start_char=37|end_char=39|NER=O
+9	-	-	PUNCT	_	_	24	punct	_	start_char=40|end_char=41|NER=O
+10	vjeçarja	vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	list	_	start_char=42|end_char=50|NER=O
+11	me	me	ADP	_	Case=Acc	29	case	_	start_char=51|end_char=53|NER=O
+12	iniciale	inicial	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=54|end_char=62|NER=O
+13	J	J	SYM	_	_	29	flat	_	start_char=63|end_char=64|SpaceAfter=No|NER=B-PER
+14	.	.	PUNCT	_	_	1	punct	_	start_char=65|end_char=66|NER=O
+
+# text = M , nuk ka dhënë asnjë shenjë komunikimi me familjen e saj .
+# sent_id = 1
+1	M	M	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=1|SpaceAfter=No|NER=I-PER
+2	,	,	PUNCT	_	_	1	punct	_	start_char=2|end_char=3|NER=O
+3	nuk	nuk	PART	_	_	5	mark	_	start_char=4|end_char=7|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=8|end_char=10|NER=O
+5	dhënë	jap	VERB	_	VerbForm=Part	0	root	_	start_char=11|end_char=16|NER=O
+6	asnjë	asnjë	PRON	_	PronType=Ind	7	nummod	_	start_char=17|end_char=22|NER=O
+7	shenjë	shenjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=23|end_char=29|NER=O
+8	komunikimi	komunikim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=30|end_char=40|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=41|end_char=43|NER=O
+10	familjen	familje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=44|end_char=52|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=53|end_char=54|NER=O
+12	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	amod:poss	_	start_char=55|end_char=58|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	5	punct	_	start_char=59|end_char=60|SpacesAfter=\n|NER=O
+
+# text = Sipas prindërve , vajza është parë në terminalin e Fierit ku është larguar drejt Tiranës .
+# sent_id = 2
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	prindërve	prind	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	6	advmod	_	start_char=6|end_char=15|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+4	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=18|end_char=23|NER=O
+5	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=24|end_char=29|NER=O
+6	parë	shoh	VERB	_	VerbForm=Part	0	root	_	start_char=30|end_char=34|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=35|end_char=37|NER=O
+8	terminalin	terminal	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=38|end_char=48|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=49|end_char=50|NER=O
+10	Fierit	Fier	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=51|end_char=57|NER=B-VEND_0
+11	ku	ku	ADV	_	AdvType=Loc	13	advmod	_	start_char=58|end_char=60|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=61|end_char=66|NER=O
+13	larguar	largoj	VERB	_	VerbForm=Part	6	advcl	_	start_char=67|end_char=74|NER=O
+14	drejt	drejt	ADP	_	Case=Abl	15	case	_	start_char=75|end_char=80|NER=O
+15	Tiranës	Tiranë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=81|end_char=88|SpaceAfter=No|NER=B-VEND_0
+16	.	.	PUNCT	_	_	6	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+
+# text = Prindërit , Artjan dhe Luiza Metaj bëjnë thirrje njëzëri që vajza të kthehet sa më parë në shtëpi .
+# sent_id = 3
+1	Prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	start_char=0|end_char=9|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	3	punct	_	start_char=10|end_char=11|NER=O
+3	Artjan	Artjan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=12|end_char=18|NER=B-PER
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=19|end_char=22|NER=O
+5	Luiza	Luizë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	start_char=23|end_char=28|NER=B-PER
+6	Metaj	metaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=29|end_char=34|NER=I-PER
+7	bëjnë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=35|end_char=40|NER=O
+8	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=41|end_char=48|NER=O
+9	njëzëri	njëzëri	ADP	_	Case=Abl	11	case	_	start_char=49|end_char=56|NER=O
+10	që	që	SCONJ	_	_	13	mark	_	start_char=57|end_char=59|NER=O
+11	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=60|end_char=65|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=66|end_char=68|NER=O
+13	kthehet	kthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	acl	_	start_char=69|end_char=76|NER=O
+14	sa	sa	ADV	_	AdvType=Deg	16	advmod	_	start_char=77|end_char=79|NER=O
+15	më	më	PART	_	_	16	mark	_	start_char=80|end_char=82|NER=O
+16	parë	parë	ADV	_	AdvType=Man	13	advmod	_	start_char=83|end_char=87|NER=O
+17	në	në	ADP	_	Case=Acc	18	case	_	start_char=88|end_char=90|NER=O
+18	shtëpi	shtëpi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=91|end_char=97|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	7	punct	_	start_char=98|end_char=99|NER=O
+
+# text = Ata kanë bërë denoncim ne Komisariatin e Policisë Patos dhe kanë kërkuar ndihmën e uniformave blu për ta gjetur .
+# sent_id = 4
+1	Ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=8|NER=O
+3	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=9|end_char=13|NER=O
+4	denoncim	denoncim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=14|end_char=22|NER=O
+5	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	det	_	start_char=23|end_char=25|NER=O
+6	Komisariatin	Komisariat	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=26|end_char=38|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=39|end_char=40|NER=O
+8	Policisë	polici	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=41|end_char=49|NER=O
+9	Patos	Patos	PROPN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	8	flat	_	start_char=50|end_char=55|NER=O
+10	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=56|end_char=59|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=60|end_char=64|NER=O
+12	kërkuar	kërkoj	VERB	_	VerbForm=Part	3	conj	_	start_char=65|end_char=72|NER=O
+13	ndihmën	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=73|end_char=80|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=81|end_char=82|NER=O
+15	uniformave	uniformë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=83|end_char=93|NER=O
+16	blu	blu	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=94|end_char=97|NER=O
+17	për	për	PART	_	_	20	fixed	_	start_char=98|end_char=101|NER=O
+18	ta	_	_	_	_	_	_	_	start_char=102|end_char=104|NER=O
+19	gjetur	gjet	VERB	_	VerbForm=Part	12	advmod	_	start_char=105|end_char=111|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	12	punct	_	start_char=112|end_char=113|SpacesAfter=\n|NER=O
+

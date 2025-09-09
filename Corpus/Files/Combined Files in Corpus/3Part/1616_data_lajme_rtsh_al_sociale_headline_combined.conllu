@@ -1,0 +1,260 @@
+# text = I ftohti polar që ka mbërthyer Shqipërinë dhe rajonin mund të ketë ndikim në rritjen e sëmundshmërisë në vend .
+# sent_id = 0
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	ftohti	ftoht	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=8|SpaceAfter=No|NER=O
+3	polar	polar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=9|end_char=14|NER=O
+4	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=15|end_char=17|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=18|end_char=20|NER=O
+6	mbërthyer	mbërthyj	VERB	_	VerbForm=Part	11	acl:relcl	_	start_char=21|end_char=30|NER=O
+7	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=31|end_char=41|NER=B-VEND_1
+8	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=42|end_char=45|NER=O
+9	rajonin	rajon	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=46|end_char=53|NER=O
+10	mund	mund	AUX	_	_	21	aux	_	start_char=54|end_char=58|NER=O
+11	të	të	PART	_	_	21	fixed	_	start_char=59|end_char=61|NER=O
+12	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=62|end_char=66|NER=O
+13	ndikim	ndikim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	start_char=67|end_char=73|NER=O
+14	në	në	ADP	_	Case=Acc	24	case	_	start_char=74|end_char=76|NER=O
+15	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	start_char=77|end_char=84|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=85|end_char=86|NER=O
+17	sëmundshmërisë	sëmundshmëri	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=87|end_char=101|NER=O
+18	në	në	ADP	_	Case=Acc	28	case	_	start_char=102|end_char=104|NER=O
+19	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	advmod	_	start_char=105|end_char=109|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	21	punct	_	start_char=110|end_char=111|NER=O
+
+# text = Sipas kreut të urgjencës kombëtare mjekësore Dr .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	kreut	kre	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=11|NER=O
+3	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=12|end_char=14|NER=O
+4	urgjencës	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=15|end_char=24|NER=O
+5	kombëtare	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=25|end_char=34|NER=O
+6	mjekësore	mjekësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=35|end_char=44|NER=O
+7	Dr	Dr	NUM	_	NumType=Card	4	amod:nummod	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	2	punct	_	start_char=48|end_char=49|NER=O
+
+# text = Skënder Brataj , ekspozimi në temperatura të ulta mund të rezultojë fatal për moshat e treta , të sëmurët kronikë dhe personat që punojnë në ambjente të jashtme .
+# sent_id = 2
+1	Skënder	Skënder	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Brataj	Brataj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=14|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=15|end_char=16|NER=O
+4	ekspozimi	ekspozim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=17|end_char=26|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	temperatura	temperaturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=30|end_char=41|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det	_	start_char=42|end_char=44|NER=O
+8	ulta	ultë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=45|end_char=49|NER=O
+9	mund	mund	AUX	_	_	11	aux	_	start_char=50|end_char=54|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=55|end_char=57|NER=O
+11	rezultojë	rezultoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=58|end_char=67|NER=O
+12	fatal	fatal	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	cop	_	start_char=68|end_char=73|NER=O
+13	për	për	ADP	_	Case=Acc	14	case	_	start_char=74|end_char=77|NER=O
+14	moshat	moshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	advmod	_	start_char=78|end_char=84|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=85|end_char=86|NER=O
+16	treta	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=87|end_char=92|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=93|end_char=94|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=95|end_char=97|NER=O
+19	sëmurët	sëmurë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	list	_	start_char=98|end_char=105|NER=O
+20	kronikë	kronikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	nmod	_	start_char=106|end_char=113|NER=O
+21	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=114|end_char=117|NER=O
+22	personat	personë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	20	conj	_	start_char=118|end_char=126|NER=O
+23	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=127|end_char=129|NER=O
+24	punojnë	punoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	start_char=130|end_char=137|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=138|end_char=140|NER=O
+26	ambjente	ambjent	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	obl	_	start_char=141|end_char=149|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=150|end_char=152|NER=O
+28	jashtme	jashtëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=153|end_char=160|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	24	punct	_	start_char=161|end_char=162|NER=O
+
+# text = Temperaturat polare disa gradë nën zero që po rregjstrohen nuk ndikojnë vetëm në shtimin e gjendjeve gripale .
+# sent_id = 3
+1	Temperaturat	temperaturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=12|NER=O
+2	polare	polar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=13|end_char=19|NER=O
+3	disa	disa	PRON	_	PronType=Ind	4	det	_	start_char=20|end_char=24|NER=O
+4	gradë	gradë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	start_char=25|end_char=30|NER=O
+5	nën	nën	ADP	_	Case=Acc	6	case	_	start_char=31|end_char=34|NER=O
+6	zero	zero	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=35|end_char=39|NER=O
+7	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=40|end_char=42|NER=O
+8	po	po	PART	_	_	9	mark	_	start_char=43|end_char=45|NER=O
+9	rregjstrohen	rregjstroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	6	acl	_	start_char=46|end_char=58|NER=O
+10	nuk	nuk	PART	_	_	11	mark	_	start_char=59|end_char=62|NER=O
+11	ndikojnë	ndikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=63|end_char=71|NER=O
+12	vetëm	vetëm	PART	_	_	14	advmod:emph	_	start_char=72|end_char=77|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=78|end_char=80|NER=O
+14	shtimin	shtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=81|end_char=88|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=89|end_char=90|NER=O
+16	gjendjeve	gjendje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=91|end_char=100|NER=O
+17	gripale	gripal	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=101|end_char=108|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	11	punct	_	start_char=109|end_char=110|NER=O
+
+# text = Nëse organizmi ynë nuk e përballon dot të ftohtin , ekspozohet ndaj një sërë ndërlikimeve që prekin zemrën , sistemin nervor , kockat , si dhe rrugët e frymëmarrjes .
+# sent_id = 4
+1	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=0|end_char=4|NER=O
+2	organizmi	organizm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=5|end_char=14|NER=O
+3	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	appos	_	start_char=15|end_char=18|NER=O
+4	nuk	nuk	PART	_	Polarity=Neg	6	mark	_	start_char=19|end_char=22|NER=O
+5	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=23|end_char=24|NER=O
+6	përballon	përballoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=25|end_char=34|NER=O
+7	dot	dot	PART	_	_	6	advmod	_	start_char=35|end_char=38|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=39|end_char=41|NER=O
+9	ftohtin	ftoht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=42|end_char=49|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	1	punct	_	start_char=50|end_char=51|NER=O
+11	ekspozohet	ekspozoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=52|end_char=62|NER=O
+12	ndaj	ndaj	ADP	_	Case=Abl	15	case	_	start_char=63|end_char=67|NER=O
+13	një	një	DET	_	Definite=Ind	15	det	_	start_char=68|end_char=71|NER=O
+14	sërë	sërë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	15	det	_	start_char=72|end_char=76|NER=O
+15	ndërlikimeve	ndërlikim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	start_char=77|end_char=89|NER=O
+16	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=90|end_char=92|NER=O
+17	prekin	prek	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	start_char=93|end_char=99|NER=O
+18	zemrën	zemër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=100|end_char=106|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=107|end_char=108|NER=O
+20	sistemin	sistem	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=109|end_char=117|NER=O
+21	nervor	nervor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=118|end_char=124|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=125|end_char=126|NER=O
+23	kockat	kockë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	20	list	_	start_char=127|end_char=133|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	25	punct	_	start_char=134|end_char=135|NER=O
+25	si	si	SCONJ	_	_	27	mark	_	start_char=136|end_char=138|NER=O
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=139|end_char=142|NER=O
+27	rrugët	rrugë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	23	conj	_	start_char=143|end_char=149|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	29	det:poss	_	start_char=150|end_char=151|NER=O
+29	frymëmarrjes	frymëmarrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=152|end_char=164|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	11	punct	_	start_char=165|end_char=166|NER=O
+
+# text = Në kushte ekstreme të ftohtit , mund të ndodhë edhe hipotermia dhe ngrirja .
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	advmod	_	start_char=3|end_char=9|NER=O
+3	ekstreme	ekstrem	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=10|end_char=18|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=19|end_char=21|NER=O
+5	ftohtit	ftoht	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=29|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	2	punct	_	start_char=30|end_char=31|NER=O
+7	mund	mund	AUX	_	_	9	aux	_	start_char=32|end_char=36|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=37|end_char=39|NER=O
+9	ndodhë	ndodh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=46|NER=O
+10	edhe	edhe	PART	_	_	11	cc	_	start_char=47|end_char=51|NER=O
+11	hipotermia	hipotermi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=52|end_char=62|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=63|end_char=66|NER=O
+13	ngrirja	ngrirjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	start_char=67|end_char=74|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	9	punct	_	start_char=75|end_char=76|NER=O
+
+# text = Dr .
+# sent_id = 6
+1	Dr	Dr	NUM	_	NumType=Card	0	root	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-PER
+2	.	.	PUNCT	_	_	1	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=B-PER
+
+# text = Skëndër Brataj tregon për problemet periferike të qarkullimit të gjakut që hasin individët kur goditen nga i ftohti ekstre Por patologjitë e shkaktuara nga mungesa e qarkullimit të gjakut ndikon edhe tek sëmundjet e brendshme dhe shkojnë deri në hemoragji tek moshat e treta Dimri në disa zona të vendit përbën një kërcënim për shëndetin , sidomos të moshuarve , fëmijëve dhe njerëzit me disa sëmundje kronike , të cilët janë më të prekshëm dhe më në rrezik të marrjes së infeksioneve .
+# sent_id = 7
+1	Skëndër	Skëndër	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Brataj	Brataj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=14|NER=I-PER
+3	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=21|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=25|NER=O
+5	problemet	problem	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obl	_	start_char=26|end_char=35|NER=O
+6	periferike	periferik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=36|end_char=46|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=47|end_char=49|NER=O
+8	qarkullimit	qarkullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=50|end_char=61|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=62|end_char=64|NER=O
+10	gjakut	gjak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=65|end_char=71|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=72|end_char=74|NER=O
+12	hasin	has	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl	_	start_char=75|end_char=80|NER=O
+13	individët	individë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=81|end_char=90|NER=O
+14	kur	kur	SCONJ	_	_	15	mark	_	start_char=91|end_char=94|NER=O
+15	goditen	godit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=95|end_char=102|NER=O
+16	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=103|end_char=106|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=107|end_char=108|NER=O
+18	ftohti	ftoht	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=109|end_char=115|NER=O
+19	ekstre	ekstre	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=116|end_char=122|SpaceAfter=No|NER=O
+20	Por	por	CCONJ	_	_	11	cc	_	start_char=123|end_char=126|NER=O
+21	patologjitë	patologji	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	start_char=127|end_char=138|NER=O
+22	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=139|end_char=140|NER=O
+23	shkaktuara	shkaktuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=141|end_char=151|NER=O
+24	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=152|end_char=155|NER=O
+25	mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=156|end_char=163|NER=O
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=164|end_char=165|NER=O
+27	qarkullimit	qarkullim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=166|end_char=177|NER=O
+28	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=178|end_char=180|NER=O
+29	gjakut	gjak	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=181|end_char=187|NER=O
+30	ndikon	ndikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=188|end_char=194|NER=O
+31	edhe	edhe	PART	_	_	14	cc	_	start_char=195|end_char=199|NER=O
+32	tek	tek	ADP	_	Case=Nom	14	case	_	start_char=200|end_char=203|NER=O
+33	sëmundjet	sëmundje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	start_char=204|end_char=213|NER=O
+34	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=214|end_char=215|NER=O
+35	brendshme	brendshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=216|end_char=225|NER=O
+36	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=226|end_char=229|NER=O
+37	shkojnë	shkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=230|end_char=237|NER=O
+38	deri	deri	PART	_	_	21	case	_	start_char=238|end_char=242|NER=O
+39	në	në	ADP	_	Case=Acc	21	case	_	start_char=243|end_char=245|NER=O
+40	hemoragji	hemoragji	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	advmod	_	start_char=246|end_char=255|NER=O
+41	tek	tek	ADP	_	Case=Nom	23	case	_	start_char=256|end_char=259|NER=O
+42	moshat	moshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	obl	_	start_char=260|end_char=266|NER=O
+43	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	25	det	_	start_char=267|end_char=268|NER=O
+44	treta	tretë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=269|end_char=274|NER=O
+45	Dimri	dimër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=275|end_char=280|NER=O
+46	në	në	ADP	_	Case=Acc	29	case	_	start_char=281|end_char=283|NER=O
+47	disa	disa	PRON	_	PronType=Ind	29	nummod	_	start_char=284|end_char=288|NER=O
+48	zona	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	26	nmod	_	start_char=289|end_char=293|NER=O
+49	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=294|end_char=296|NER=O
+50	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	start_char=297|end_char=303|NER=O
+51	përbën	përbëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	acl:relcl	_	start_char=304|end_char=310|NER=O
+52	një	një	DET	_	Definite=Ind	34	det	_	start_char=311|end_char=314|NER=O
+53	kërcënim	kërcënim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	obj	_	start_char=315|end_char=323|NER=O
+54	për	për	ADP	_	Case=Acc	36	case	_	start_char=324|end_char=327|NER=O
+55	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=328|end_char=337|SpaceAfter=No|NER=O
+56	,	,	PUNCT	_	_	40	punct	_	start_char=338|end_char=339|NER=O
+57	sidomos	sidomos	PART	_	_	40	mark	_	start_char=340|end_char=347|NER=O
+58	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	40	det	_	start_char=348|end_char=350|NER=O
+59	moshuarve	moshuar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	34	nmod	_	start_char=351|end_char=360|SpaceAfter=No|NER=O
+60	,	,	PUNCT	_	_	42	punct	_	start_char=361|end_char=362|NER=O
+61	fëmijëve	fëmijë	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	40	list	_	start_char=363|end_char=371|NER=O
+62	dhe	dhe	CCONJ	_	_	44	cc	_	start_char=372|end_char=375|NER=O
+63	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	42	conj	_	start_char=376|end_char=384|NER=O
+64	me	me	ADP	_	Case=Acc	47	case	_	start_char=385|end_char=387|NER=O
+65	disa	disa	PRON	_	PronType=Ind	47	nummod	_	start_char=388|end_char=392|NER=O
+66	sëmundje	sëmundje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	44	nmod	_	start_char=393|end_char=401|NER=O
+67	kronike	kronik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	start_char=402|end_char=409|SpaceAfter=No|NER=O
+68	,	,	PUNCT	_	_	51	punct	_	start_char=410|end_char=411|NER=O
+69	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	51	det	_	start_char=412|end_char=414|NER=O
+70	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	52	nsubj	_	start_char=415|end_char=420|NER=O
+71	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	47	acl	_	start_char=421|end_char=425|NER=O
+72	më	më	PART	_	_	55	mark	_	start_char=426|end_char=428|NER=O
+73	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	55	det	_	start_char=429|end_char=431|NER=O
+74	prekshëm	prekshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	52	cop	_	start_char=432|end_char=440|NER=O
+75	dhe	dhe	CCONJ	_	_	59	cc	_	start_char=441|end_char=444|NER=O
+76	më	më	PART	_	_	59	mark	_	start_char=445|end_char=447|NER=O
+77	në	në	ADP	_	Case=Acc	59	case	_	start_char=448|end_char=450|NER=O
+78	rrezik	rrezik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	52	advmod	_	start_char=451|end_char=457|NER=O
+79	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	61	det:poss	_	start_char=458|end_char=460|NER=O
+80	marrjes	marrje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	59	nmod	_	start_char=461|end_char=468|NER=O
+81	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	63	det:poss	_	start_char=469|end_char=471|NER=O
+82	infeksioneve	infeksion	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	61	nmod	_	start_char=472|end_char=484|SpaceAfter=No|NER=O
+83	.	.	PUNCT	_	_	52	punct	_	start_char=485|end_char=486|NER=O
+
+# text = Në urgjencën kombëtare nuk ka patur ende thirrje për ndihmë nga i ftohti ekstrem , por për kreun e urgjencës situata mund të rëndohet në ditët në vijim .
+# sent_id = 8
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	urgjencën	urgjencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=3|end_char=12|NER=O
+3	kombëtare	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=13|end_char=22|NER=O
+4	nuk	nuk	PART	_	_	6	mark	_	start_char=23|end_char=26|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=27|end_char=29|NER=O
+6	patur	patoj	VERB	_	VerbForm=Part	0	root	_	start_char=30|end_char=35|NER=O
+7	ende	ende	ADV	_	AdvType=Tim	6	advmod	_	start_char=36|end_char=40|NER=O
+8	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=41|end_char=48|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=49|end_char=52|NER=O
+10	ndihmë	ndihmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=53|end_char=59|NER=O
+11	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=60|end_char=63|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=64|end_char=65|NER=O
+13	ftohti	ftoht	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=66|end_char=72|NER=O
+14	ekstrem	ekstrem	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=73|end_char=80|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=81|end_char=82|NER=O
+16	por	por	CCONJ	_	_	18	cc	_	start_char=83|end_char=86|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=87|end_char=90|NER=O
+18	kreun	kreu	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=91|end_char=96|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=97|end_char=98|NER=O
+20	urgjencës	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=99|end_char=108|NER=O
+21	situata	situatë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=109|end_char=116|NER=O
+22	mund	mund	AUX	_	_	24	aux	_	start_char=117|end_char=121|NER=O
+23	të	të	PART	_	_	24	fixed	_	start_char=122|end_char=124|NER=O
+24	rëndohet	rëndoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	conj	_	start_char=125|end_char=133|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=134|end_char=136|NER=O
+26	ditët	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	24	obl	_	start_char=137|end_char=142|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=143|end_char=145|NER=O
+28	vijim	vijim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=146|end_char=151|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	24	punct	_	start_char=152|end_char=153|SpacesAfter=\n\n\n|NER=O
+

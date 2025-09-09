@@ -1,0 +1,101 @@
+# text = Edhe pse larg sezonit turistik veror , Shqipëria po preferohet gjithnjë e më shumë nga turistët e huaj .
+# sent_id = 0
+1	Edhe	edhe	CCONJ	_	_	27	fixed	_	start_char=0|end_char=4|NER=O
+2	pse	pse	SCONJ	_	_	29	mark	_	start_char=5|end_char=8|NER=O
+3	larg	larg	ADP	_	Case=Abl	29	case	_	start_char=9|end_char=13|NER=O
+4	sezonit	sezon	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	35	advmod	_	start_char=14|end_char=21|NER=O
+5	turistik	turistik	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=22|end_char=30|NER=O
+6	veror	veror	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=31|end_char=36|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	33	punct	_	start_char=37|end_char=38|NER=O
+8	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	35	nsubj	_	start_char=39|end_char=48|NER=B-VEND_1
+9	po	po	PART	_	_	35	mark	_	start_char=49|end_char=51|NER=O
+10	preferohet	preferoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	conj	_	start_char=52|end_char=62|NER=O
+11	gjithnjë	gjithnjë	ADV	_	AdvType=Tim	35	advmod	_	start_char=63|end_char=71|NER=O
+12	e	e	CCONJ	_	_	39	cc	_	start_char=72|end_char=73|NER=O
+13	më	më	PART	_	_	39	mark	_	start_char=74|end_char=76|NER=O
+14	shumë	shumë	ADV	_	AdvType=Deg	35	advmod	_	start_char=77|end_char=82|NER=O
+15	nga	nga	ADP	_	Case=Nom	41	case	_	start_char=83|end_char=86|NER=O
+16	turistët	turist	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	35	advmod	_	start_char=87|end_char=95|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	43	det	_	start_char=96|end_char=97|NER=O
+18	huaj	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	41	amod	_	start_char=98|end_char=102|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	35	punct	_	start_char=103|end_char=104|SpacesAfter=\n|NER=O
+
+# text = Gjatë muajit shkurt 2023 , vendi ynë është vizituar nga 309325 nga turistë të huaj , ose 54 % më shumë krahasuar me shkurtin 2022 , ku në vendin tonë erdhën 200997 vizitorë të juaj .
+# sent_id = 1
+1	Gjatë	gjatë	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	muajit	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=6|end_char=12|NER=O
+3	shkurt	shkurt	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=13|end_char=19|NER=B-DATE_0
+4	2023	2023	NUM	_	NumType=Card	3	flat	_	start_char=20|end_char=24|SpaceAfter=No|NER=I-DATE_0
+5	,	,	PUNCT	_	_	2	punct	_	start_char=25|end_char=26|NER=O
+6	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=27|end_char=32|NER=O
+7	ynë	ynë	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	appos	_	start_char=33|end_char=36|NER=O
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=37|end_char=42|NER=O
+9	vizituar	vizitoj	VERB	_	VerbForm=Part	0	root	_	start_char=43|end_char=51|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=52|end_char=55|NER=O
+11	309325	309325	NUM	_	NumType=Card	9	advmod	_	start_char=56|end_char=62|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=63|end_char=66|NER=O
+13	turistë	turistë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	advmod	_	start_char=67|end_char=74|NER=O
+14	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=75|end_char=77|NER=O
+15	huaj	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=78|end_char=82|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=83|end_char=84|NER=O
+17	ose	ose	CCONJ	_	_	19	cc	_	start_char=85|end_char=88|NER=O
+18	54	54	NUM	_	NumType=Card	19	conj	_	start_char=89|end_char=91|NER=O
+19	%	%	SYM	_	_	22	obj	_	start_char=92|end_char=93|NER=O
+20	më	më	PART	_	_	21	mark	_	start_char=94|end_char=96|NER=O
+21	shumë	shumë	ADV	_	AdvType=Deg	22	advmod	_	start_char=97|end_char=102|NER=O
+22	krahasuar	krahasoj	VERB	_	VerbForm=Part	9	advmod	_	start_char=103|end_char=112|NER=O
+23	me	me	ADP	_	Case=Acc	24	case	_	start_char=113|end_char=115|NER=O
+24	shkurtin	shkurt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	start_char=116|end_char=124|NER=B-DATE_0
+25	2022	2022	NUM	_	NumType=Card	24	nummod	_	start_char=125|end_char=129|SpaceAfter=No|NER=I-DATE_0
+26	,	,	PUNCT	_	_	27	punct	_	start_char=130|end_char=131|NER=O
+27	ku	ku	ADV	_	AdvType=Loc	31	advmod	_	start_char=132|end_char=134|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=135|end_char=137|NER=O
+29	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	advmod	_	start_char=138|end_char=144|NER=O
+30	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	amod:poss	_	start_char=145|end_char=149|NER=O
+31	erdhën	vij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	24	acl	_	start_char=150|end_char=156|NER=O
+32	200997	200997	NUM	_	NumType=Card	33	nummod	_	start_char=157|end_char=163|NER=O
+33	vizitorë	vizitor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	31	obj	_	start_char=164|end_char=172|NER=O
+34	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	35	det:poss	_	start_char=173|end_char=175|NER=O
+35	juaj	juaj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod	_	start_char=176|end_char=180|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	31	punct	_	start_char=181|end_char=182|SpacesAfter=\n|NER=O
+
+# text = Shqipëria është renditur si një nga vendet që ka bërë rimëkëmbjen më të madhe pas pandemisë lidhur me turizmin , si dhe është kthyer në në nga destinacionet më të rekomanduara nga mediat prestigjioze në botë .
+# sent_id = 2
+1	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=B-VEND_1
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=10|end_char=15|NER=O
+3	renditur	renditoj	VERB	_	VerbForm=Part	0	root	_	start_char=16|end_char=24|NER=O
+4	si	si	SCONJ	_	_	7	mark	_	start_char=25|end_char=27|NER=O
+5	një	një	DET	_	Definite=Ind	7	det	_	start_char=28|end_char=31|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=32|end_char=35|NER=O
+7	vendet	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obl	_	start_char=36|end_char=42|NER=O
+8	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=43|end_char=45|NER=O
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=46|end_char=48|NER=O
+10	bërë	bëj	VERB	_	VerbForm=Part	7	acl:relcl	_	start_char=49|end_char=53|NER=O
+11	rimëkëmbjen	rimëkëmbje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=54|end_char=65|NER=O
+12	më	më	PART	_	_	14	mark	_	start_char=66|end_char=68|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=69|end_char=71|NER=O
+14	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=72|end_char=77|NER=O
+15	pas	pas	ADP	_	Case=Abl	16	case	_	start_char=78|end_char=81|NER=O
+16	pandemisë	pandemi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=82|end_char=91|NER=O
+17	lidhur	lidh	VERB	_	VerbForm=Part	3	conj	_	start_char=92|end_char=98|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=99|end_char=101|NER=O
+19	turizmin	turizm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=102|end_char=110|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=111|end_char=112|NER=O
+21	si	si	SCONJ	_	_	24	mark	_	start_char=113|end_char=115|NER=O
+22	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=116|end_char=119|NER=O
+23	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=120|end_char=125|NER=O
+24	kthyer	kthej	VERB	_	VerbForm=Part	17	conj	_	start_char=126|end_char=132|NER=O
+25	në	në	ADP	_	Case=Acc	28	case	_	start_char=133|end_char=135|NER=O
+26	në	në	ADP	_	Case=Acc	28	case	_	start_char=136|end_char=138|NER=O
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=139|end_char=142|NER=O
+28	destinacionet	destinacion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	24	obl	_	start_char=143|end_char=156|NER=O
+29	më	më	PART	_	_	31	mark	_	start_char=157|end_char=159|NER=O
+30	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=160|end_char=162|NER=O
+31	rekomanduara	rekomanduar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=163|end_char=175|NER=O
+32	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=176|end_char=179|NER=O
+33	mediat	media	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	31	advmod	_	start_char=180|end_char=186|NER=O
+34	prestigjioze	prestigjioz	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=187|end_char=199|NER=O
+35	në	në	ADP	_	Case=Acc	36	case	_	start_char=200|end_char=202|NER=O
+36	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	nmod	_	start_char=203|end_char=207|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	24	punct	_	start_char=208|end_char=209|SpacesAfter=\n\n|NER=O
+

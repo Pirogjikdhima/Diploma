@@ -1,0 +1,106 @@
+# text = Albanologu amerikan , Brian D .
+# sent_id = 0
+1	Albanologu	albanolog	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=10|NER=O
+2	amerikan	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=19|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	4	punct	_	start_char=20|end_char=21|NER=O
+4	Brian	Brian	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=22|end_char=27|NER=B-PER
+5	D	D	X	_	Abbr=Yes	4	flat	_	start_char=28|end_char=29|SpaceAfter=No|NER=I-PER
+6	.	.	PUNCT	_	_	1	punct	_	start_char=30|end_char=31|NER=O
+
+# text = Joseph , pranohet si anëtar nderi i Akademisë së Shkencave të Shqipërisë Albanologu amerikan , Brian D .
+# sent_id = 1
+1	Joseph	Joseph	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|SpaceAfter=No|NER=I-PER
+2	,	,	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	pranohet	pranoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=9|end_char=17|NER=O
+4	si	si	SCONJ	_	_	5	mark	_	start_char=18|end_char=20|NER=O
+5	anëtar	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=21|end_char=27|NER=O
+6	nderi	nder	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=28|end_char=33|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=34|end_char=35|NER=O
+8	Akademisë	akademi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=36|end_char=45|NER=O
+9	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=46|end_char=48|NER=O
+10	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=49|end_char=58|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=59|end_char=61|NER=O
+12	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=62|end_char=72|SpacesAfter=\n|NER=O
+13	Albanologu	Albanolog	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=73|end_char=83|NER=O
+14	amerikan	amerikan	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	flat	_	start_char=84|end_char=92|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	20	punct	_	start_char=93|end_char=94|NER=O
+16	Brian	Brian	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	list	_	start_char=95|end_char=100|NER=B-PER
+17	D	D	PUNCT	_	_	20	punct	_	start_char=101|end_char=102|SpaceAfter=No|NER=I-PER
+18	.	.	PUNCT	_	_	3	punct	_	start_char=103|end_char=104|NER=O
+
+# text = Joseph , është pranuar sot , në në ceremoni në Tiranë , si anëtar nderi i Akademisë së Shkencave të Shqipërisë , në prani të anëtarëve të Asamblesë dhe studiuesve të gjuhës shqipe .
+# sent_id = 2
+1	Joseph	Joseph	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6|SpaceAfter=No|NER=I-PER
+2	,	,	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=14|NER=O
+4	pranuar	pranoj	VERB	_	VerbForm=Part	0	root	_	start_char=15|end_char=22|NER=O
+5	sot	sot	ADV	_	AdvType=Tim	4	advmod	_	start_char=23|end_char=26|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	9	punct	_	start_char=27|end_char=28|NER=O
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=29|end_char=31|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=34|NER=O
+9	ceremoni	ceremon	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=35|end_char=43|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=44|end_char=46|NER=O
+11	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=47|end_char=53|SpaceAfter=No|NER=B-VEND_0
+12	,	,	PUNCT	_	_	14	punct	_	start_char=54|end_char=55|NER=O
+13	si	si	SCONJ	_	_	14	mark	_	start_char=56|end_char=58|NER=O
+14	anëtar	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	start_char=59|end_char=65|NER=O
+15	nderi	nder	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=66|end_char=71|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=72|end_char=73|NER=O
+17	Akademisë	akademi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=74|end_char=83|NER=O
+18	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det:poss	_	start_char=84|end_char=86|NER=O
+19	Shkencave	shkencë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=87|end_char=96|NER=O
+20	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=97|end_char=99|NER=O
+21	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=100|end_char=110|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	24	punct	_	start_char=111|end_char=112|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=113|end_char=115|NER=O
+24	prani	prani	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	list	_	start_char=116|end_char=121|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det:poss	_	start_char=122|end_char=124|NER=O
+26	anëtarëve	anëtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	start_char=125|end_char=134|NER=O
+27	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	28	det:poss	_	start_char=135|end_char=137|NER=O
+28	Asamblesë	Asamble	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=138|end_char=147|NER=O
+29	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=148|end_char=151|NER=O
+30	studiuesve	studiuesë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	26	conj	_	start_char=152|end_char=162|NER=O
+31	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=163|end_char=165|NER=O
+32	gjuhës	gjuhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=166|end_char=172|NER=O
+33	shqipe	shqip	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=173|end_char=179|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	4	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = Ai ka një një jetë të tërë që i është kushtuar veçanërisht gjuhës shqipe , dialekteve të saj , origjinës etj .
+# sent_id = 3
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=5|NER=O
+3	një	një	DET	_	Definite=Ind	5	det	_	start_char=6|end_char=9|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=10|end_char=13|NER=O
+5	jetë	jam	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=14|end_char=18|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=19|end_char=21|NER=O
+7	tërë	tërë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	amod	_	start_char=22|end_char=26|NER=O
+8	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=27|end_char=29|NER=O
+9	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=30|end_char=31|NER=O
+10	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=32|end_char=37|NER=O
+11	kushtuar	kushtoj	VERB	_	VerbForm=Part	5	acl:relcl	_	start_char=38|end_char=46|NER=O
+12	veçanërisht	veçanërisht	ADV	_	AdvType=Man	11	advmod	_	start_char=47|end_char=58|NER=O
+13	gjuhës	gjuhë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	start_char=59|end_char=65|NER=O
+14	shqipe	shqip	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=66|end_char=72|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=73|end_char=74|NER=O
+16	dialekteve	dialekt	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	list	_	start_char=75|end_char=85|NER=O
+17	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=86|end_char=88|NER=O
+18	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	amod:poss	_	start_char=89|end_char=92|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=93|end_char=94|NER=O
+20	origjinës	origjinë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	list	_	start_char=95|end_char=104|NER=O
+21	etj	etj.	ADV	_	Abbr=Yes	20	list	_	start_char=105|end_char=108|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	2	punct	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+
+# text = , dhe rëndësisë së mësimit të saj edhe në SHBA .
+# sent_id = 4
+1	,	,	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|NER=O
+2	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=2|end_char=5|NER=O
+3	rëndësisë	rëndësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=15|NER=O
+4	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=18|NER=O
+5	mësimit	mësim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=19|end_char=26|NER=O
+6	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=27|end_char=29|NER=O
+7	saj	saj	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=30|end_char=33|NER=O
+8	edhe	edhe	PART	_	_	10	cc	_	start_char=34|end_char=38|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=41|NER=O
+10	SHBA	SHBA	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=42|end_char=46|SpaceAfter=No|NER=B-VEND_1
+11	.	.	PUNCT	_	_	3	punct	_	start_char=47|end_char=48|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,54 @@
+# text = Oficeri i policisë Mehmet Ali Bulut , i cila ka punuar që nga viti 1993 në Departamentin e Mbrojtjes Presidenciale , ka kryer vetëvrasje .
+# sent_id = 0
+1	Oficeri	Oficer	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=8|end_char=9|NER=O
+3	policisë	polici	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=10|end_char=18|NER=O
+4	Mehmet	Mehmet	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	start_char=19|end_char=25|NER=B-PER
+5	Ali	Ali	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	appos	_	start_char=26|end_char=29|NER=I-PER
+6	Bulut	Bulut	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=30|end_char=35|SpaceAfter=No|NER=I-PER
+7	,	,	PUNCT	_	_	19	punct	_	start_char=36|end_char=37|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=38|end_char=39|NER=O
+9	cila	cila	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nsubj	_	start_char=40|end_char=44|NER=O
+10	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=45|end_char=47|NER=O
+11	punuar	punoj	VERB	_	VerbForm=Part	10	acl	_	start_char=48|end_char=54|NER=O
+12	që	që	PART	_	_	24	mark	_	start_char=55|end_char=57|NER=O
+13	nga	nga	ADP	_	Case=Nom	24	case	_	start_char=58|end_char=61|NER=O
+14	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=62|end_char=66|NER=B-DATE_0
+15	1993	1993	NUM	_	NumType=Card	24	amod:nummod	_	start_char=67|end_char=71|NER=I-DATE_0
+16	në	në	ADP	_	Case=Acc	27	case	_	start_char=72|end_char=74|NER=O
+17	Departamentin	departament	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=75|end_char=88|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=89|end_char=90|NER=O
+19	Mbrojtjes	mbrojtje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=91|end_char=100|NER=O
+20	Presidenciale	presidencial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=101|end_char=114|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	33	punct	_	start_char=115|end_char=116|NER=O
+22	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=117|end_char=119|NER=O
+23	kryer	kryej	VERB	_	VerbForm=Part	9	conj	_	start_char=120|end_char=125|NER=O
+24	vetëvrasje	vetëvrasje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	33	obj	_	start_char=126|end_char=136|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	33	punct	_	start_char=137|end_char=138|SpacesAfter=\n|NER=O
+
+# text = Kanë qenë tre kolegët e tij ata të cilët gjetën trupin e pajetë të truprojës së presidentit turk , Recep Tayyip Erdogan .
+# sent_id = 1
+1	Kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=9|NER=O
+3	tre	tre	NUM	_	NumType=Card	4	nummod	_	start_char=10|end_char=13|NER=O
+4	kolegët	kolegë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	cop	_	start_char=14|end_char=21|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det:poss	_	start_char=22|end_char=23|NER=O
+6	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	amod:poss	_	start_char=24|end_char=27|NER=O
+7	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	det	_	start_char=28|end_char=31|NER=O
+8	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=32|end_char=34|NER=O
+9	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	start_char=35|end_char=40|NER=O
+10	gjetën	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	start_char=41|end_char=47|NER=O
+11	trupin	trup	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=48|end_char=54|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=55|end_char=56|NER=O
+13	pajetë	pajetë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=57|end_char=63|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=64|end_char=66|NER=O
+15	truprojës	truprojë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=67|end_char=76|NER=O
+16	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=77|end_char=79|NER=O
+17	presidentit	president	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=80|end_char=91|NER=O
+18	turk	turk	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=92|end_char=96|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=97|end_char=98|NER=O
+20	Recep	Recep	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	appos	_	start_char=99|end_char=104|NER=B-PER
+21	Tayyip	Tayyip	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	flat	_	start_char=105|end_char=111|NER=I-PER
+22	Erdogan	Erdogan	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=112|end_char=119|SpaceAfter=No|NER=I-PER
+23	.	.	PUNCT	_	_	2	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+

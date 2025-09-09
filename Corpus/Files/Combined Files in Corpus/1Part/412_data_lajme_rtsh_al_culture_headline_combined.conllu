@@ -1,0 +1,82 @@
+# text = 26 / 07 / 2023 Muzikë , buzëqeshje dhe entuziazëm .
+# sent_id = 0
+1	26	26	NUM	_	NumType=Card	20	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	16	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	07	07	NUM	_	NumType=Card	16	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	20	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	20	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Muzikë	Muzikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	list	_	start_char=15|end_char=21|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	26	punct	_	start_char=22|end_char=23|NER=O
+8	buzëqeshje	buzëqeshje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	list	_	start_char=24|end_char=34|NER=O
+9	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=35|end_char=38|NER=O
+10	entuziazëm	entuziazëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	start_char=39|end_char=49|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	26	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Në këtë mënyrë u përcoll edicioni i tretë i " Country Fest " në Lezhë , një event muzikor me protagonist fëmijet .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=8|end_char=14|NER=O
+4	u	u	PART	_	_	5	fixed	_	start_char=15|end_char=16|NER=O
+5	përcoll	përcoll	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=17|end_char=24|NER=O
+6	edicioni	edicion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=25|end_char=33|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=34|end_char=35|NER=O
+8	tretë	tretë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=36|end_char=41|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=42|end_char=43|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=44|end_char=45|SpaceAfter=No|NER=O
+11	Country	Countr	PROPN	_	Foreign=Yes	6	nmod	_	start_char=46|end_char=53|NER=O
+12	Fest	Fest	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=54|end_char=58|NER=O
+13	"	"	PUNCT	_	_	11	punct	_	start_char=59|end_char=60|NER=O
+14	në	në	ADP	_	Case=Acc	14	case	_	start_char=61|end_char=63|NER=O
+15	Lezhë	Lezhë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=64|end_char=69|SpaceAfter=No|NER=B-VEND_0
+16	,	,	PUNCT	_	_	17	punct	_	start_char=70|end_char=71|NER=O
+17	një	një	DET	_	Definite=Ind	17	det	_	start_char=72|end_char=75|NER=O
+18	event	event	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	list	_	start_char=76|end_char=81|NER=O
+19	muzikor	muzikor	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=82|end_char=89|NER=O
+20	me	me	ADP	_	Case=Acc	20	case	_	start_char=90|end_char=92|NER=O
+21	protagonist	protagonist	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=93|end_char=104|NER=O
+22	fëmijet	fëmije	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=105|end_char=112|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	5	punct	_	start_char=113|end_char=114|SpacesAfter=\n|NER=O
+
+# text = country Fest sjell atmosferën e fshatit në qytet , ndaj dhe fëmijët duhet të duan sa më shumë fshatin , thotë përgjegjësia e Qendrës Kulturore Gjergj Lacaj në Lezhë , Mimoza Xhafa .
+# sent_id = 2
+1	country	country	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=0|end_char=7|NER=O
+2	Fest	fest	PROPN	_	Foreign=Yes	1	flat	_	start_char=8|end_char=12|NER=O
+3	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=18|NER=O
+4	atmosferën	atmosferë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=19|end_char=29|NER=O
+5	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=30|end_char=31|NER=O
+6	fshatit	fshat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=32|end_char=39|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=40|end_char=42|NER=O
+8	qytet	qytet	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	advmod	_	start_char=43|end_char=48|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|NER=O
+10	ndaj	ndaj	ADP	_	Case=Abl	12	case	_	start_char=51|end_char=55|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=56|end_char=59|NER=O
+12	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	start_char=60|end_char=67|NER=O
+13	duhet	duhem	AUX	_	_	15	aux	_	start_char=68|end_char=73|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=74|end_char=76|NER=O
+15	duan	dua	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=77|end_char=81|NER=O
+16	sa	sa	ADV	_	AdvType=Deg	19	advmod	_	start_char=82|end_char=84|NER=O
+17	më	më	PART	_	_	19	mark	_	start_char=85|end_char=87|NER=O
+18	shumë	shumë	ADV	_	AdvType=Deg	19	nummod	_	start_char=88|end_char=93|NER=O
+19	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=94|end_char=101|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=102|end_char=103|NER=O
+21	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	start_char=104|end_char=109|NER=O
+22	përgjegjësia	përgjegjësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	start_char=110|end_char=122|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=123|end_char=124|NER=O
+24	Qendrës	Qendrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	start_char=125|end_char=132|NER=O
+25	Kulturore	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=133|end_char=142|NER=O
+26	Gjergj	Gjergj	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	appos	_	start_char=143|end_char=149|NER=B-PER
+27	Lacaj	Lacaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	flat	_	start_char=150|end_char=155|NER=I-PER
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=156|end_char=158|NER=O
+29	Lezhë	Lezhë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	advmod	_	start_char=159|end_char=164|SpaceAfter=No|NER=B-VEND_0
+30	,	,	PUNCT	_	_	31	punct	_	start_char=165|end_char=166|NER=O
+31	Mimoza	mimozë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	list	_	start_char=167|end_char=173|NER=B-PER
+32	Xhafa	Xhafë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	flat	_	start_char=174|end_char=179|SpaceAfter=No|NER=I-PER
+33	.	.	PUNCT	_	_	21	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = Gazetar Norel Zaimi
+# sent_id = 3
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|NER=O
+2	Norel	Norel	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=13|NER=B-PER
+3	Zaimi	Zaim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat:name	_	start_char=14|end_char=19|SpacesAfter=\n\n|NER=I-PER
+

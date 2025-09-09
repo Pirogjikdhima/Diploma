@@ -1,0 +1,132 @@
+# text = Muzetë e Kalasë së Argjirosë gjatë vitit 2023 janë vizituar nga 20 .
+# sent_id = 0
+1	Muzetë	muzetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=0|end_char=6|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=7|end_char=8|NER=O
+3	Kalasë	Kalasë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=9|end_char=15|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=16|end_char=18|NER=O
+5	Argjirosë	Argjiro	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=19|end_char=28|NER=O
+6	gjatë	gjatë	ADP	_	Case=Abl	7	case	_	start_char=29|end_char=34|NER=O
+7	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=35|end_char=40|NER=B-DATE_0
+8	2023	2023	NUM	_	NumType=Card	7	amod:nummod	_	start_char=41|end_char=45|NER=I-DATE_0
+9	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=46|end_char=50|NER=O
+10	vizituar	vizitoj	VERB	_	VerbForm=Part	0	root	_	start_char=51|end_char=59|NER=O
+11	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=60|end_char=63|NER=O
+12	20	20	NUM	_	NumType=Card	15	nummod	_	start_char=64|end_char=66|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	14	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=O
+
+# text = 000 turistë 10 / 01 / 2024 Gjatë vitit 2023 muzetë që përfshihen në kalanë e Argjirosë janë vizituar nga mbi 20 mijë turistë .
+# sent_id = 1
+1	000	000	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=3|NER=O
+2	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	start_char=4|end_char=11|SpacesAfter=\n|NER=O
+3	10	10	NUM	_	NumType=Card	15	nummod	_	start_char=12|end_char=14|SpaceAfter=No|NER=B-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=I-DATE_0
+5	01	01	NUM	_	NumType=Card	15	nummod	_	start_char=17|end_char=19|SpaceAfter=No|NER=I-DATE_0
+6	/	/	PUNCT	_	_	17	punct	_	start_char=20|end_char=21|SpacesAfter=\n|NER=I-DATE_0
+7	2024	2024	NUM	_	NumType=Card	17	conj	_	start_char=22|end_char=26|SpacesAfter=\n|NER=I-DATE_0
+8	Gjatë	gjatë	ADP	_	Case=Abl	20	case	_	start_char=27|end_char=32|NER=O
+9	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=33|end_char=38|NER=B-DATE_0
+10	2023	2023	NUM	_	NumType=Card	20	nummod	_	start_char=39|end_char=43|NER=I-DATE_0
+11	muzetë	muzetë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=44|end_char=50|NER=O
+12	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=51|end_char=53|NER=O
+13	përfshihen	përfshij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	22	acl:relcl	_	start_char=54|end_char=64|NER=O
+14	në	në	ADP	_	Case=Acc	26	case	_	start_char=65|end_char=67|NER=O
+15	kalanë	kalanë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obl	_	start_char=68|end_char=74|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=75|end_char=76|NER=O
+17	Argjirosë	Argjiro	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=77|end_char=86|NER=O
+18	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	aux	_	start_char=87|end_char=91|NER=O
+19	vizituar	vizitoj	VERB	_	VerbForm=Part	10	conj	_	start_char=92|end_char=100|NER=O
+20	nga	nga	ADP	_	Case=Nom	35	case	_	start_char=101|end_char=104|NER=O
+21	mbi	mbi	ADP	_	Case=Acc	35	case	_	start_char=105|end_char=108|NER=O
+22	20	20	NUM	_	NumType=Card	35	nummod	_	start_char=109|end_char=111|NER=O
+23	mijë	mijë	NUM	_	NumType=Card	35	nummod	_	start_char=112|end_char=116|NER=O
+24	turistë	turistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	30	obl	_	start_char=117|end_char=124|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	30	punct	_	start_char=125|end_char=126|SpacesAfter=\n|NER=O
+
+# text = Ciceronia pranë këtyre muzeve , Albana Ismaili gjatë fjalës së dhënë për mikrofonin e Radio Televizionit Shqiptar është shprehur se pjesa dërrmuese e turistëve kanë ardhur nga Italia , Spanja dhe nga Shtetet e bashkuara të Amerikës .
+# sent_id = 2
+1	Ciceronia	Ciceroni	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	start_char=0|end_char=9|NER=O
+2	pranë	pranë	ADP	_	Case=Abl	4	case	_	start_char=10|end_char=15|NER=O
+3	këtyre	këto	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=16|end_char=22|NER=O
+4	muzeve	muze	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=23|end_char=29|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=30|end_char=31|NER=O
+6	Albana	Albanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	appos	_	start_char=32|end_char=38|NER=B-PER
+7	Ismaili	Ismail	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=39|end_char=46|NER=I-PER
+8	gjatë	gjatë	ADP	_	Case=Abl	9	case	_	start_char=47|end_char=52|NER=O
+9	fjalës	fjalë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=53|end_char=59|NER=O
+10	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=60|end_char=62|NER=O
+11	dhënë	jap	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=63|end_char=68|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=69|end_char=72|NER=O
+13	mikrofonin	mikrofon	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=73|end_char=83|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=84|end_char=85|NER=O
+15	Radio	Radio	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=86|end_char=91|NER=B-ORG
+16	Televizionit	Televizion	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=92|end_char=104|NER=I-ORG
+17	Shqiptar	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=105|end_char=113|NER=I-ORG
+18	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=114|end_char=119|NER=O
+19	shprehur	shpreh	VERB	_	VerbForm=Part	0	root	_	start_char=120|end_char=128|NER=O
+20	se	se	SCONJ	_	_	26	mark	_	start_char=129|end_char=131|NER=O
+21	pjesa	pjesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	nsubj	_	start_char=132|end_char=137|NER=O
+22	dërrmuese	dërrmues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=138|end_char=147|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=148|end_char=149|NER=O
+24	turistëve	turist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	start_char=150|end_char=159|NER=O
+25	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	start_char=160|end_char=164|NER=O
+26	ardhur	vij	VERB	_	VerbForm=Part	19	conj	_	start_char=165|end_char=171|NER=O
+27	nga	nga	ADP	_	Case=Nom	28	case	_	start_char=172|end_char=175|NER=O
+28	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obl	_	start_char=176|end_char=182|SpaceAfter=No|NER=B-VEND_1
+29	,	,	PUNCT	_	_	30	punct	_	start_char=183|end_char=184|NER=O
+30	Spanja	Spanjë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	nsubj	_	start_char=185|end_char=191|NER=B-VEND_1
+31	dhe	dhe	CCONJ	_	_	33	cc	_	start_char=192|end_char=195|NER=O
+32	nga	nga	ADP	_	Case=Nom	33	case	_	start_char=196|end_char=199|NER=O
+33	Shtetet	shtet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=200|end_char=207|NER=B-VEND_1
+34	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=208|end_char=209|NER=I-VEND_1
+35	bashkuara	bashkuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=210|end_char=219|NER=I-VEND_1
+36	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	37	det:poss	_	start_char=220|end_char=222|NER=I-VEND_1
+37	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=223|end_char=231|SpaceAfter=No|NER=I-VEND_1
+38	.	.	PUNCT	_	_	26	punct	_	start_char=232|end_char=233|SpacesAfter=\n|NER=O
+
+# text = Ismaili ndërkaq ka shtuar se pavijonet që janë më të frekuentuara nga vizitorët janë ai i muzeut të armëve dhe pavijoni i etnografisë në muzeun Gjin Zenebishi .
+# sent_id = 3
+1	Ismaili	Ismail	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	ndërkaq	ndërkaq	ADV	_	AdvType=Loc	1	advmod	_	start_char=8|end_char=15|NER=O
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=16|end_char=18|NER=O
+4	shtuar	shtoj	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=25|NER=O
+5	se	se	SCONJ	_	_	8	mark	_	start_char=26|end_char=28|NER=O
+6	pavijonet	pavijon	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	start_char=29|end_char=38|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=39|end_char=41|NER=O
+8	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=42|end_char=46|NER=O
+9	më	më	PART	_	_	11	mark	_	start_char=47|end_char=49|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=50|end_char=52|NER=O
+11	frekuentuara	frekuentuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	cop	_	start_char=53|end_char=65|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=66|end_char=69|NER=O
+13	vizitorët	vizitor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	advmod	_	start_char=70|end_char=79|NER=O
+14	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=80|end_char=84|NER=O
+15	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	cop	_	start_char=85|end_char=87|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=88|end_char=89|NER=O
+17	muzeut	muze	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=90|end_char=96|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=97|end_char=99|NER=O
+19	armëve	armë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	start_char=100|end_char=106|NER=O
+20	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=107|end_char=110|NER=O
+21	pavijoni	pavijon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=111|end_char=119|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=120|end_char=121|NER=O
+23	etnografisë	etnografi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=122|end_char=133|NER=O
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=134|end_char=136|NER=O
+25	muzeun	muze	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=137|end_char=143|NER=O
+26	Gjin	Gjin	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	start_char=144|end_char=148|NER=O
+27	Zenebishi	Zenebish	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	26	flat	_	start_char=149|end_char=158|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	14	punct	_	start_char=159|end_char=160|NER=O
+
+# text = Muzeumet e kalasë së Argjirosë disponojnë në fondet e veta 750 artefakte .
+# sent_id = 4
+1	Muzeumet	muzeum	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	kalasë	kala	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=17|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=18|end_char=20|NER=O
+5	Argjirosë	Argjiro	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=21|end_char=30|NER=O
+6	disponojnë	disponoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=41|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=42|end_char=44|NER=O
+8	fondet	fond	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	start_char=45|end_char=51|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=52|end_char=53|NER=O
+10	veta	vetë	PRON	_	Gender=Fem|Number=Plur|PronType=Prs	8	amod	_	start_char=54|end_char=58|NER=O
+11	750	750	NUM	_	NumType=Card	12	nummod	_	start_char=59|end_char=62|NER=O
+12	artefakte	artefakt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=63|end_char=72|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	6	punct	_	start_char=73|end_char=74|SpacesAfter=\n\n|NER=O
+

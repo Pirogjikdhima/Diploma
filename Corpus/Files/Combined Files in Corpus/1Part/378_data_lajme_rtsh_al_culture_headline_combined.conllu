@@ -1,0 +1,133 @@
+# text = Suveniret / Interes turistik për punimet artizanale të Gjirokastrës 18 / 08 / 2023 Çdokush që viziton Gjirokastrën dëshiron që në largim të marrë një suvenir me motive nga ky qytet .
+# sent_id = 0
+1	Suveniret	suvenir	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=9|SpaceAfter=No|NER=O
+2	/	/	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+3	Interes	Intere	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	start_char=12|end_char=19|NER=O
+4	turistik	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=20|end_char=28|NER=O
+5	për	për	ADP	_	Case=Acc	4	case	_	start_char=29|end_char=32|NER=O
+6	punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=33|end_char=40|NER=O
+7	artizanale	artizanal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=41|end_char=51|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=52|end_char=54|NER=O
+9	Gjirokastrës	Gjirokastrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=55|end_char=67|SpacesAfter=\n|NER=B-VEND_0
+10	18	18	NUM	_	NumType=Card	9	nummod	_	start_char=68|end_char=70|SpaceAfter=No|NER=B-DATE_0
+11	/	/	PUNCT	_	_	7	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=I-DATE_0
+12	08	08	NUM	_	NumType=Card	7	nmod	_	start_char=73|end_char=75|SpaceAfter=No|NER=I-DATE_0
+13	/	/	PUNCT	_	_	9	punct	_	start_char=76|end_char=77|SpaceAfter=No|NER=I-DATE_0
+14	2023	2023	NUM	_	NumType=Card	9	flat	_	start_char=78|end_char=82|SpaceAfter=No|NER=I-DATE_0
+15	Çdokush	Çdokush	PROPN	_	Number=Sing	11	flat	_	start_char=83|end_char=90|NER=O
+16	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=91|end_char=93|NER=O
+17	viziton	vizitoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=94|end_char=101|NER=O
+18	Gjirokastrën	Gjirokastrë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=102|end_char=114|NER=B-VEND_0
+19	dëshiron	dëshiroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=115|end_char=123|NER=O
+20	që	që	SCONJ	_	_	15	mark	_	start_char=124|end_char=126|NER=O
+21	në	në	ADP	_	Case=Acc	20	case	_	start_char=127|end_char=129|NER=O
+22	largim	largim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=130|end_char=136|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	fixed	_	start_char=137|end_char=139|NER=O
+24	marrë	marr	VERB	_	VerbForm=Part	20	acl:relcl	_	start_char=140|end_char=145|NER=O
+25	një	një	DET	_	Definite=Ind	24	det	_	start_char=146|end_char=149|NER=O
+26	suvenir	suvenir	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	start_char=150|end_char=157|NER=O
+27	me	me	ADP	_	Case=Acc	26	case	_	start_char=158|end_char=160|NER=O
+28	motive	moti	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	advmod	_	start_char=161|end_char=167|NER=O
+29	nga	nga	ADP	_	Case=Nom	29	case	_	start_char=168|end_char=171|NER=O
+30	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=172|end_char=174|NER=O
+31	qytet	qytet	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	22	advmod	_	start_char=175|end_char=180|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	17	punct	_	start_char=181|end_char=182|SpacesAfter=\n|NER=O
+
+# text = " Vij nga Italia dhe për herë të parë në vendin tuaj .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vij	jem	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=5|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=6|end_char=9|NER=O
+4	Italia	Itali	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=10|end_char=16|NER=B-VEND_1
+5	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=17|end_char=20|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=21|end_char=24|NER=O
+7	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=25|end_char=29|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=30|end_char=32|NER=O
+9	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=33|end_char=37|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=40|NER=O
+11	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=41|end_char=47|NER=O
+12	tuaj	juaj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	amod	_	start_char=48|end_char=52|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	2	punct	_	start_char=53|end_char=54|NER=O
+
+# text = Isha në Vlorë , Sarandë e tani edhe në Gjirokastër .
+# sent_id = 2
+1	Isha	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=5|end_char=7|NER=O
+3	Vlorë	Vlorë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=8|end_char=13|SpaceAfter=No|NER=B-VEND_0
+4	,	,	PUNCT	_	_	5	punct	_	start_char=14|end_char=15|NER=O
+5	Sarandë	Sarandë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	parataxis	_	start_char=16|end_char=23|NER=B-VEND_0
+6	e	e	CCONJ	_	_	10	cc	_	start_char=24|end_char=25|NER=O
+7	tani	tani	ADV	_	AdvType=Tim	1	advmod	_	start_char=26|end_char=30|NER=O
+8	edhe	edhe	PART	_	_	10	cc	_	start_char=31|end_char=35|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=38|NER=O
+10	Gjirokastër	Gjirokastër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=39|end_char=50|SpaceAfter=No|NER=B-VEND_0
+11	.	.	PUNCT	_	_	1	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Sapo isha në në dyqan suveniresh dhe bleva disa të tilla se më pëlqejnë shumë .
+# sent_id = 3
+1	Sapo	sapo	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=4|NER=O
+2	isha	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=10|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=15|NER=O
+5	dyqan	dyqa	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advmod	_	start_char=16|end_char=21|NER=O
+6	suveniresh	suvenire	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=22|end_char=32|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=33|end_char=36|NER=O
+8	bleva	bles	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	2	conj	_	start_char=37|end_char=42|NER=O
+9	disa	disa	PRON	_	PronType=Ind	11	det	_	start_char=43|end_char=47|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=48|end_char=50|NER=O
+11	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	cop	_	start_char=51|end_char=56|NER=O
+12	se	se	SCONJ	_	_	14	mark	_	start_char=57|end_char=59|NER=O
+13	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	start_char=60|end_char=62|NER=O
+14	pëlqejnë	pëlqej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=63|end_char=71|NER=O
+15	shumë	shumë	ADV	_	AdvType=Deg	14	advmod	_	start_char=72|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	8	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Në Itali rrallë gjen dyqane suveniresh dhe artizane , " thotë një turist italian .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Itali	Itali	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=8|NER=B-VEND_1
+3	rrallë	rrallë	ADV	_	AdvType=Tim	2	flat	_	start_char=9|end_char=15|NER=O
+4	gjen	gjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=20|NER=O
+5	dyqane	dyqan	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	start_char=21|end_char=27|NER=O
+6	suveniresh	suvenire	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=28|end_char=38|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=39|end_char=42|NER=O
+8	artizane	artizan	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	conj	_	start_char=43|end_char=51|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	11	punct	_	start_char=52|end_char=53|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	11	punct	_	start_char=54|end_char=55|NER=O
+11	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=56|end_char=61|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=62|end_char=65|NER=O
+13	turist	turist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=66|end_char=72|NER=O
+14	italian	italian	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=73|end_char=80|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	11	punct	_	start_char=81|end_char=82|SpacesAfter=\n|NER=O
+
+# text = Tashmë zhvillimi i artizanatit dhe punimeve karakteristike është kthyer në në nxitës të rëndësishëm për zhvillimin e turizmit në Gjirokastër .
+# sent_id = 5
+1	Tashmë	tashmë	ADV	_	AdvType=Tim	2	mark	_	start_char=0|end_char=6|NER=O
+2	zhvillimi	zhvillim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=7|end_char=16|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=17|end_char=18|NER=O
+4	artizanatit	artizanat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=30|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=31|end_char=34|NER=O
+6	punimeve	punim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	conj	_	start_char=35|end_char=43|NER=O
+7	karakteristike	karakteristik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=44|end_char=58|NER=O
+8	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=59|end_char=64|NER=O
+9	kthyer	kthej	VERB	_	VerbForm=Part	0	root	_	start_char=65|end_char=71|NER=O
+10	në	në	ADP	_	Case=Acc	12	case	_	start_char=72|end_char=74|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=75|end_char=77|NER=O
+12	nxitës	nxitë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=78|end_char=84|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=85|end_char=87|NER=O
+14	rëndësishëm	rëndësishëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=88|end_char=99|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=100|end_char=103|NER=O
+16	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=104|end_char=114|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=115|end_char=116|NER=O
+18	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=117|end_char=125|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=126|end_char=128|NER=O
+20	Gjirokastër	Gjirokastër	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=129|end_char=140|SpaceAfter=No|NER=B-VEND_0
+21	.	.	PUNCT	_	_	9	punct	_	start_char=141|end_char=142|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Megi Mëhilli
+# sent_id = 6
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Megi	Megi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Mëhilli	Mëhill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

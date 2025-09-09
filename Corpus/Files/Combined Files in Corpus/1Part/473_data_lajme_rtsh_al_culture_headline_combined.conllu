@@ -1,0 +1,101 @@
+# text = Portreti i fundit i Klimt shitet për 108 .
+# sent_id = 0
+1	Portreti	portret	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=17|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=18|end_char=19|NER=O
+5	Klimt	Klimt	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=20|end_char=25|NER=B-PER
+6	shitet	shes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=26|end_char=32|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=33|end_char=36|NER=O
+8	108	108	NUM	_	NumType=Card	6	advmod	_	start_char=37|end_char=40|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	6	punct	_	start_char=41|end_char=42|SpaceAfter=No|NER=O
+
+# text = 4 milion dollarë 28 / 06 / 2023 Piktura e fundit e Gustav Klimt është shitur për 108 .
+# sent_id = 1
+1	4	4	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=1|NER=O
+2	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	start_char=2|end_char=8|NER=O
+3	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	advmod	_	start_char=9|end_char=16|SpacesAfter=\n|NER=O
+4	28	28	NUM	_	NumType=Card	14	nummod	_	start_char=17|end_char=19|SpaceAfter=No|NER=B-DATE_0
+5	/	/	PUNCT	_	_	12	punct	_	start_char=20|end_char=21|SpaceAfter=No|NER=I-DATE_0
+6	06	06	NUM	_	NumType=Card	12	nmod	_	start_char=22|end_char=24|SpaceAfter=No|NER=I-DATE_0
+7	/	/	PUNCT	_	_	14	punct	_	start_char=25|end_char=26|SpaceAfter=No|NER=I-DATE_0
+8	2023	2023	NUM	_	NumType=Card	14	flat	_	start_char=27|end_char=31|SpaceAfter=No|NER=I-DATE_0
+9	Piktura	pikturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=32|end_char=39|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=40|end_char=41|NER=O
+11	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=42|end_char=48|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=49|end_char=50|NER=O
+13	Gustav	Gustav	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=51|end_char=57|NER=B-PER
+14	Klimt	Klimt	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	flat	_	start_char=58|end_char=63|NER=I-PER
+15	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=64|end_char=69|NER=O
+16	shitur	shes	VERB	_	VerbForm=Part	6	conj	_	start_char=70|end_char=76|NER=O
+17	për	për	ADP	_	Case=Acc	27	case	_	start_char=77|end_char=80|NER=O
+18	108	108	NUM	_	NumType=Card	25	advmod	_	start_char=81|end_char=84|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	25	punct	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+
+# text = 4 milion dollarë , duke e bërë atë veprën më të vlefshme të artit të shitur ndonjëherë në ankand në Evropë .
+# sent_id = 2
+1	4	4	NUM	_	NumType=Card	30	nummod	_	start_char=0|end_char=1|NER=O
+2	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	obl	_	start_char=2|end_char=8|NER=O
+3	dollarë	dollar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	25	advmod	_	start_char=9|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	35	punct	_	start_char=17|end_char=18|NER=O
+5	duke	duke	PART	_	_	35	fixed	_	start_char=19|end_char=23|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	start_char=24|end_char=25|NER=O
+7	bërë	bëj	VERB	_	VerbForm=Part	25	advmod	_	start_char=26|end_char=30|NER=O
+8	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	37	det	_	start_char=31|end_char=34|NER=O
+9	veprën	veprë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	35	obj	_	start_char=35|end_char=41|NER=O
+10	më	më	PART	_	_	40	mark	_	start_char=42|end_char=44|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=45|end_char=47|NER=O
+12	vlefshme	vlefshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	start_char=48|end_char=56|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	42	det:poss	_	start_char=57|end_char=59|NER=O
+14	artit	art	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=60|end_char=65|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	44	fixed	_	start_char=66|end_char=68|NER=O
+16	shitur	shes	VERB	_	VerbForm=Part	37	amod	_	start_char=69|end_char=75|NER=O
+17	ndonjëherë	ndonjëherë	ADV	_	AdvType=Tim	44	advmod	_	start_char=76|end_char=86|NER=O
+18	në	në	ADP	_	Case=Acc	47	case	_	start_char=87|end_char=89|NER=O
+19	ankand	ankand	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	44	advmod	_	start_char=90|end_char=96|NER=O
+20	në	në	ADP	_	Case=Acc	49	case	_	start_char=97|end_char=99|NER=O
+21	Evropë	Evropë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	47	nmod	_	start_char=100|end_char=106|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	44	punct	_	start_char=107|end_char=108|SpacesAfter=\n|NER=O
+
+# text = Zonja me erashkë ( Dame mit Fächer ) iu shit një koleksionisti nga Hong Kongu .
+# sent_id = 3
+1	Zonja	Zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	start_char=0|end_char=5|NER=O
+2	me	me	ADP	_	Case=Acc	3	case	_	start_char=6|end_char=8|NER=O
+3	erashkë	erashkë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=9|end_char=16|NER=O
+4	(	(	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|SpaceAfter=No|NER=O
+5	Dame	dame	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	start_char=19|end_char=23|NER=O
+6	mit	mit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	det	_	start_char=24|end_char=27|NER=O
+7	Fächer	Fächer	PROPN	_	Foreign=Yes	5	flat	_	start_char=28|end_char=34|SpaceAfter=No|NER=O
+8	)	)	PUNCT	_	_	5	punct	_	start_char=35|end_char=36|NER=O
+9	iu	iu	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=37|end_char=39|NER=O
+10	shit	shes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=40|end_char=44|NER=O
+11	një	një	DET	_	Definite=Ind	13	det	_	start_char=45|end_char=48|NER=O
+12	koleksionisti	koleksionist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	start_char=49|end_char=62|NER=O
+13	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=63|end_char=66|NER=O
+14	Hong	Hong	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=67|end_char=71|NER=O
+15	Kongu	Kong	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=72|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	11	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Portreti i gruas pa emër ishte ende në në kavalet në studion e Klimt kur piktori vdiq në 1918 .
+# sent_id = 4
+1	Portreti	portret	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=8|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	gruas	grua	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=11|end_char=16|NER=O
+4	pa	pa	ADP	_	Case=Acc	5	case	_	start_char=17|end_char=19|NER=O
+5	emër	emër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=20|end_char=24|NER=O
+6	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=25|end_char=30|NER=O
+7	ende	ende	ADV	_	AdvType=Tim	6	advmod	_	start_char=31|end_char=35|NER=O
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=38|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=41|NER=O
+10	kavalet	kaval	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	advmod	_	start_char=42|end_char=49|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=52|NER=O
+12	studion	studio	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=53|end_char=60|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=61|end_char=62|NER=O
+14	Klimt	Klimt	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=63|end_char=68|NER=B-PER
+15	kur	kur	SCONJ	_	_	17	mark	_	start_char=69|end_char=72|NER=O
+16	piktori	piktor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	start_char=73|end_char=80|NER=O
+17	vdiq	vdes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	advcl	_	start_char=81|end_char=85|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=86|end_char=88|NER=B-DATE_0
+19	1918	1918	NUM	_	NumType=Card	17	advmod	_	start_char=89|end_char=93|SpaceAfter=No|NER=I-DATE_0
+20	.	.	PUNCT	_	_	6	punct	_	start_char=94|end_char=95|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,100 @@
+# text = Ato u prezantuan nga Agjencia e Sigurimit të Cilësisë në Arsimin e Lartë dhe Bordi i Akreditimit .
+# sent_id = 0
+1	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=4|end_char=5|NER=O
+3	prezantuan	prezantoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=6|end_char=16|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=17|end_char=20|NER=O
+5	Agjencia	Agjenci	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=21|end_char=29|NER=B-ORG
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=30|end_char=31|NER=I-ORG
+7	Sigurimit	sigurim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=32|end_char=41|NER=I-ORG
+8	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=42|end_char=44|NER=I-ORG
+9	Cilësisë	Cilësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=45|end_char=53|NER=I-ORG
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=54|end_char=56|NER=I-ORG
+11	Arsimin	Arsim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=57|end_char=64|NER=I-ORG
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=65|end_char=66|NER=I-ORG
+13	Lartë	Lartë	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	start_char=67|end_char=72|NER=I-ORG
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=73|end_char=76|NER=O
+15	Bordi	Bordi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	start_char=77|end_char=82|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=83|end_char=84|NER=O
+17	Akreditimit	Akreditim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=85|end_char=96|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	3	punct	_	start_char=97|end_char=98|SpacesAfter=\n|NER=O
+
+# text = Ministrja e Arsimit dhe Sporteve Evis Kushi e ka cilësuar pjesëmarrjen 21 % si shumë të ulët .
+# sent_id = 1
+1	Ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Arsimit	Arsim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=19|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=20|end_char=23|NER=O
+5	Sporteve	sport	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	conj	_	start_char=24|end_char=32|NER=O
+6	Evis	Evis	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=33|end_char=37|NER=B-PER
+7	Kushi	Kushi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=38|end_char=43|NER=I-PER
+8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	cc	_	start_char=44|end_char=45|NER=O
+9	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=46|end_char=48|NER=O
+10	cilësuar	cilësoj	VERB	_	VerbForm=Part	0	root	_	start_char=49|end_char=57|NER=O
+11	pjesëmarrjen	pjesëmarrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=58|end_char=70|NER=O
+12	21	21	NUM	_	NumType=Card	13	nummod	_	start_char=71|end_char=73|SpaceAfter=No|NER=O
+13	%	%	SYM	_	_	11	amod	_	start_char=74|end_char=75|NER=O
+14	si	si	SCONJ	_	_	15	mark	_	start_char=76|end_char=78|NER=O
+15	shumë	shumë	ADV	_	AdvType=Deg	17	advmod	_	start_char=79|end_char=84|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=85|end_char=87|NER=O
+17	ulët	ulët	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	start_char=88|end_char=92|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	10	punct	_	start_char=93|end_char=94|SpacesAfter=\n|NER=O
+
+# text = Ajo tha se për sondazhin e radhës lind detyrë e ASCAL në radhë të parë , por edhe vetë universiteteve që të gjejmë mënyra , të gjejmë mekanizma se si t ' i stimulojnë , se si t ' i nxisin , si t ' i ndërgjegjësojmë studentët që të marrin pjesë më masivisht .
+# sent_id = 2
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4|end_char=7|NER=O
+3	se	se	SCONJ	_	_	2	mark	_	start_char=8|end_char=10|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=11|end_char=14|NER=O
+5	sondazhin	sondazh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=15|end_char=24|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=25|end_char=26|NER=O
+7	radhës	radhë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=27|end_char=33|NER=O
+8	lind	lind	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=34|end_char=38|NER=O
+9	detyrë	detyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=39|end_char=45|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=46|end_char=47|NER=O
+11	ASCAL	ASCAL	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=48|end_char=53|NER=B-ORG
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+13	radhë	radhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=57|end_char=62|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=63|end_char=65|NER=O
+15	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=66|end_char=70|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	17	punct	_	start_char=71|end_char=72|NER=O
+17	por	por	CCONJ	_	_	20	cc	_	start_char=73|end_char=76|NER=O
+18	edhe	edhe	CCONJ	_	_	20	cc	_	start_char=77|end_char=81|NER=O
+19	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	20	det	_	start_char=82|end_char=86|NER=O
+20	universiteteve	universitet	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	conj	_	start_char=87|end_char=101|NER=O
+21	që	që	PRON	_	PronType=Rel	23	nsubj	_	start_char=102|end_char=104|NER=O
+22	të	të	PART	_	_	23	fixed	_	start_char=105|end_char=107|NER=O
+23	gjejmë	gjej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	20	acl:relcl	_	start_char=108|end_char=114|NER=O
+24	mënyra	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	start_char=115|end_char=121|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	27	punct	_	start_char=122|end_char=123|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=124|end_char=126|NER=O
+27	gjejmë	gjej	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	23	advcl	_	start_char=127|end_char=133|NER=O
+28	mekanizma	mekanizmë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	27	obj	_	start_char=134|end_char=143|NER=O
+29	se	se	SCONJ	_	_	32	mark	_	start_char=144|end_char=146|NER=O
+30	si	si	SCONJ	_	_	31	mark	_	start_char=147|end_char=149|NER=O
+31	t	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	32	obj	_	start_char=150|end_char=151|NER=O
+32	'	'	PUNCT	_	_	32	punct	_	start_char=152|end_char=153|NER=O
+33	i	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	32	obj	_	start_char=154|end_char=155|NER=O
+34	stimulojnë	stimuloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	advcl	_	start_char=156|end_char=166|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	34	punct	_	start_char=167|end_char=168|NER=O
+36	se	se	SCONJ	_	_	37	mark	_	start_char=169|end_char=171|NER=O
+37	si	si	SCONJ	_	_	36	mark	_	start_char=172|end_char=174|NER=O
+38	t	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	obj	_	start_char=175|end_char=176|NER=O
+39	'	'	PUNCT	_	_	37	punct	_	start_char=177|end_char=178|NER=O
+40	i	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	obj	_	start_char=179|end_char=180|NER=O
+41	nxisin	nxis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	advcl	_	start_char=181|end_char=187|SpaceAfter=No|NER=O
+42	,	,	PUNCT	_	_	40	punct	_	start_char=188|end_char=189|NER=O
+43	si	si	SCONJ	_	_	40	mark	_	start_char=190|end_char=192|NER=O
+44	t	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	41	nsubj	_	start_char=193|end_char=194|NER=O
+45	'	'	PUNCT	_	_	41	punct	_	start_char=195|end_char=196|NER=O
+46	i	t'i	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	41	nsubj	_	start_char=197|end_char=198|NER=O
+47	ndërgjegjësojmë	ndërgjegjësoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	37	advcl	_	start_char=199|end_char=214|NER=O
+48	studentët	studentë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	41	obj	_	start_char=215|end_char=224|NER=O
+49	që	që	SCONJ	_	_	45	mark	_	start_char=225|end_char=227|NER=O
+50	të	të	PART	_	_	45	fixed	_	start_char=228|end_char=230|NER=O
+51	marrin	marr	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	41	ccomp	_	start_char=231|end_char=237|NER=O
+52	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	45	obj	_	start_char=238|end_char=243|NER=O
+53	më	më	PART	_	_	48	mark	_	start_char=244|end_char=246|NER=O
+54	masivisht	masivisht	ADV	_	AdvType=Man	45	advmod	_	start_char=247|end_char=256|SpaceAfter=No|NER=O
+55	.	.	PUNCT	_	_	41	punct	_	start_char=257|end_char=258|SpacesAfter=\n|NER=O
+

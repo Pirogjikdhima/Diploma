@@ -1,0 +1,647 @@
+# text = Festivali ' Sunny Hill ' qëndron në shtëpinë e vet në Prishtinë !
+# sent_id = 0
+1	Festivali	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=9|NER=O
+2	'	'	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+3	Sunny	Sunny	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=12|end_char=17|NER=O
+4	Hill	Hill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=18|end_char=22|NER=O
+5	'	'	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|NER=O
+6	qëndron	qëndroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=25|end_char=32|NER=O
+7	në	në	ADP	_	Case=Acc	6	case	_	start_char=33|end_char=35|NER=O
+8	shtëpinë	shtëpi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=36|end_char=44|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=45|end_char=46|NER=O
+10	vet	vet	PRON	_	PronType=Prs|Reflex=Yes	6	nmod	_	start_char=47|end_char=50|NER=O
+11	në	në	ADP	_	Case=Acc	10	case	_	start_char=51|end_char=53|NER=O
+12	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=54|end_char=63|SpaceAfter=No|NER=B-VEND_0
+13	!	!	PUNCT	_	_	4	punct	_	start_char=64|end_char=65|NER=O
+
+# text = Në Tiranë , edicion special në fund të gushtit Pas zhurmës së madhe që shkaktoi në Shqipëri dhe Kosovë se ku do të zhvillohet festivali " Sunny Hill " e organizuar nga këngëtarja Dua Lipa dhe babai i saj Dukagjin Lipa , duket se është gjetur dhe zgjidhja përfundimtare .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=9|SpaceAfter=No|NER=B-VEND_0
+3	,	,	PUNCT	_	_	2	punct	_	start_char=10|end_char=11|NER=O
+4	edicion	edicio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=12|end_char=19|NER=O
+5	special	special	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=20|end_char=27|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=30|NER=O
+7	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=31|end_char=35|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=36|end_char=38|NER=O
+9	gushtit	gusht	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	start_char=39|end_char=46|SpacesAfter=\n|NER=O
+10	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=47|end_char=50|NER=O
+11	zhurmës	zhurmë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	33	advmod	_	start_char=51|end_char=58|NER=O
+12	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=59|end_char=61|NER=O
+13	madhe	madh	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=62|end_char=67|NER=O
+14	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=68|end_char=70|NER=O
+15	shkaktoi	shkaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	start_char=71|end_char=79|NER=O
+16	në	në	ADP	_	Case=Acc	8	case	_	start_char=80|end_char=82|NER=O
+17	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=83|end_char=91|NER=B-VEND_1
+18	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=92|end_char=95|NER=O
+19	Kosovë	Kosovë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=96|end_char=102|NER=B-VEND_1
+20	se	se	SCONJ	_	_	15	mark	_	start_char=103|end_char=105|NER=O
+21	ku	ku	ADV	_	AdvType=Loc	15	advmod	_	start_char=106|end_char=108|NER=O
+22	do	do	PART	_	_	15	fixed	_	start_char=109|end_char=111|NER=O
+23	të	të	PART	_	_	15	fixed	_	start_char=112|end_char=114|NER=O
+24	zhvillohet	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	advcl	_	start_char=115|end_char=125|NER=O
+25	festivali	festival	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=126|end_char=135|NER=O
+26	"	"	PUNCT	_	_	18	punct	_	start_char=136|end_char=137|SpaceAfter=No|NER=O
+27	Sunny	Sunny	PROPN	_	Foreign=Yes	16	appos	_	start_char=138|end_char=143|NER=O
+28	Hill	Hill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=144|end_char=148|NER=O
+29	"	"	PUNCT	_	_	18	punct	_	start_char=149|end_char=150|NER=O
+30	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=151|end_char=152|NER=O
+31	organizuar	organizuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=153|end_char=163|NER=O
+32	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=164|end_char=167|NER=O
+33	këngëtarja	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	advmod	_	start_char=168|end_char=178|NER=O
+34	Dua	duaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=179|end_char=182|NER=B-PER
+35	Lipa	Lipë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	start_char=183|end_char=187|NER=I-PER
+36	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=188|end_char=191|NER=O
+37	babai	baba	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	conj	_	start_char=192|end_char=197|NER=O
+38	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=198|end_char=199|NER=O
+39	saj	saj	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	amod:poss	_	start_char=200|end_char=203|NER=O
+40	Dukagjin	Dukagji	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	appos	_	start_char=204|end_char=212|NER=B-PER
+41	Lipa	Lipë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	flat	_	start_char=213|end_char=217|SpaceAfter=No|NER=I-PER
+42	,	,	PUNCT	_	_	33	punct	_	start_char=218|end_char=219|NER=O
+43	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	24	conj	_	start_char=220|end_char=225|NER=O
+44	se	se	SCONJ	_	_	36	mark	_	start_char=226|end_char=228|NER=O
+45	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	aux	_	start_char=229|end_char=234|NER=O
+46	gjetur	gjet	VERB	_	VerbForm=Part	33	advcl	_	start_char=235|end_char=241|NER=O
+47	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=242|end_char=245|NER=O
+48	zgjidhja	zgjidhje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	obj	_	start_char=246|end_char=254|NER=O
+49	përfundimtare	përfundimtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	start_char=255|end_char=268|SpaceAfter=No|NER=O
+50	.	.	PUNCT	_	_	33	punct	_	start_char=269|end_char=270|NER=O
+
+# text = Festivali ' Sunny Hill ' do të qëndrojë në shtëpinë e vet në Prishtinë .
+# sent_id = 2
+1	Festivali	festival	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=0|end_char=9|NER=O
+2	'	'	PUNCT	_	_	1	punct	_	start_char=10|end_char=11|NER=O
+3	Sunny	Sunny	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	start_char=12|end_char=17|NER=O
+4	Hill	Hill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=18|end_char=22|NER=O
+5	'	'	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|NER=O
+6	do	do	PART	_	_	6	fixed	_	start_char=25|end_char=27|NER=O
+7	të	të	PART	_	_	6	fixed	_	start_char=28|end_char=30|NER=O
+8	qëndrojë	qëndroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=39|NER=O
+9	në	në	ADP	_	Case=Acc	8	case	_	start_char=40|end_char=42|NER=O
+10	shtëpinë	shtëpi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=43|end_char=51|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=52|end_char=53|NER=O
+12	vet	vet	PRON	_	PronType=Prs|Reflex=Yes	8	nmod	_	start_char=54|end_char=57|NER=O
+13	në	në	ADP	_	Case=Acc	12	case	_	start_char=58|end_char=60|NER=O
+14	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=61|end_char=70|SpaceAfter=No|NER=B-VEND_0
+15	.	.	PUNCT	_	_	6	punct	_	start_char=71|end_char=72|NER=O
+
+# text = Ndërsa në Tiranë ' Sunny Hill ' do të zhvillojë një edicion special në fund të gushtit .
+# sent_id = 3
+1	Ndërsa	ndërsa	CCONJ	_	_	8	cc	_	start_char=0|end_char=6|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=7|end_char=9|NER=O
+3	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=10|end_char=16|NER=B-VEND_0
+4	'	'	PUNCT	_	_	3	punct	_	start_char=17|end_char=18|NER=O
+5	Sunny	Sunny	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	flat	_	start_char=19|end_char=24|NER=O
+6	Hill	Hill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=25|end_char=29|NER=O
+7	'	'	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|NER=O
+8	do	do	PART	_	_	8	fixed	_	start_char=32|end_char=34|NER=O
+9	të	të	PART	_	_	8	fixed	_	start_char=35|end_char=37|NER=O
+10	zhvillojë	zhvilloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=47|NER=O
+11	një	një	DET	_	Definite=Ind	10	det	_	start_char=48|end_char=51|NER=O
+12	edicion	edicio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	start_char=52|end_char=59|NER=O
+13	special	special	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=60|end_char=67|NER=O
+14	në	në	ADP	_	Case=Acc	13	case	_	start_char=68|end_char=70|NER=O
+15	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=71|end_char=75|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=76|end_char=78|NER=O
+17	gushtit	gusht	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=79|end_char=86|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	8	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Qëllimi i këtij festivali ka qenë pikërisht promovimi i Kosovës në sytë e botës .
+# sent_id = 4
+1	Qëllimi	qëllim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=7|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=9|NER=O
+3	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=10|end_char=15|NER=O
+4	festivali	festival	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=16|end_char=25|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=26|end_char=28|NER=O
+6	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=29|end_char=33|NER=O
+7	pikërisht	pikërisht	ADV	_	AdvType=Man	8	advmod	_	start_char=34|end_char=43|NER=O
+8	promovimi	promovim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=44|end_char=53|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=54|end_char=55|NER=O
+10	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=56|end_char=63|NER=B-VEND_1
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=64|end_char=66|NER=O
+12	sytë	sytë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=67|end_char=71|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=72|end_char=73|NER=O
+14	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=74|end_char=79|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	6	punct	_	start_char=80|end_char=81|SpacesAfter=\n|NER=O
+
+# text = Lajmi u bë i ditur gjatë një deklarate të përbashkët e Ministrisë së Kulturës së Kosovës , organizatorët e festivalit dhe nga Komina e Prishtinës .
+# sent_id = 5
+1	Lajmi	Lajm	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=6|end_char=7|NER=O
+3	bë	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=8|end_char=10|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=11|end_char=12|NER=O
+5	ditur	ditur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	cop	_	start_char=13|end_char=18|NER=O
+6	gjatë	gjatë	ADP	_	Case=Abl	8	case	_	start_char=19|end_char=24|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=25|end_char=28|NER=O
+8	deklarate	deklarat	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=29|end_char=38|NER=O
+9	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=39|end_char=41|NER=O
+10	përbashkët	përbashkët	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=42|end_char=52|NER=O
+11	e	e	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=53|end_char=54|NER=O
+12	Ministrisë	ministri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=55|end_char=65|NER=O
+13	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	14	det:poss	_	start_char=66|end_char=68|NER=O
+14	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=69|end_char=77|NER=O
+15	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=78|end_char=80|NER=O
+16	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=81|end_char=88|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=89|end_char=90|NER=O
+18	organizatorët	organizator	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	appos	_	start_char=91|end_char=104|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	20	det:poss	_	start_char=105|end_char=106|NER=O
+20	festivalit	festival	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=107|end_char=117|NER=O
+21	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=118|end_char=121|NER=O
+22	nga	nga	ADP	_	Case=Nom	23	case	_	start_char=122|end_char=125|NER=O
+23	Komina	Kominë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	start_char=126|end_char=132|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=133|end_char=134|NER=O
+25	Prishtinës	Prishtinë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=135|end_char=145|SpaceAfter=No|NER=B-VEND_0
+26	.	.	PUNCT	_	_	3	punct	_	start_char=146|end_char=147|NER=O
+
+# text = Sunny Hill Festival mbahet në Prishtinë , më 4 , 5 , 6 dhe 7 gusht 2022 , ndërsa në Tiranë më 26 , 27 dhe 28 gusht .
+# sent_id = 6
+1	Sunny	Sunny	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=5|NER=O
+2	Hill	Hill	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=10|NER=O
+3	Festival	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=19|NER=O
+4	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=20|end_char=26|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=30|end_char=39|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	9	punct	_	start_char=40|end_char=41|NER=O
+8	më	më	ADP	_	Case=Acc	9	case	_	start_char=42|end_char=44|NER=O
+9	4	4	NUM	_	NumType=Card	4	advmod	_	start_char=45|end_char=46|SpaceAfter=No|NER=B-DATE_0
+10	,	,	PUNCT	_	_	11	punct	_	start_char=47|end_char=48|NER=I-DATE_0
+11	5	5	NUM	_	NumType=Card	9	conj	_	start_char=49|end_char=50|SpaceAfter=No|NER=I-DATE_0
+12	,	,	PUNCT	_	_	13	punct	_	start_char=51|end_char=52|NER=I-DATE_0
+13	6	6	NUM	_	NumType=Card	11	list	_	start_char=53|end_char=54|NER=I-DATE_0
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=55|end_char=58|NER=I-DATE_0
+15	7	7	NUM	_	NumType=Card	16	nummod	_	start_char=59|end_char=60|NER=I-DATE_0
+16	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	start_char=61|end_char=66|NER=I-DATE_0
+17	2022	2022	NUM	_	NumType=Card	16	amod:nummod	_	start_char=67|end_char=71|SpaceAfter=No|NER=I-DATE_0
+18	,	,	PUNCT	_	_	19	punct	_	start_char=72|end_char=73|NER=O
+19	ndërsa	ndërsa	CCONJ	_	_	21	cc	_	start_char=74|end_char=80|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=81|end_char=83|NER=O
+21	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	start_char=84|end_char=90|NER=B-VEND_0
+22	më	më	ADP	_	Case=Acc	23	case	_	start_char=91|end_char=93|NER=O
+23	26	26	NUM	_	NumType=Card	21	nummod	_	start_char=94|end_char=96|SpaceAfter=No|NER=B-DATE_0
+24	,	,	PUNCT	_	_	25	punct	_	start_char=97|end_char=98|NER=I-DATE_0
+25	27	27	NUM	_	NumType=Card	23	conj	_	start_char=99|end_char=101|NER=I-DATE_0
+26	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=102|end_char=105|NER=I-DATE_0
+27	28	28	NUM	_	NumType=Card	28	nummod	_	start_char=106|end_char=108|NER=I-DATE_0
+28	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	conj	_	start_char=109|end_char=114|SpaceAfter=No|NER=I-DATE_0
+29	.	.	PUNCT	_	_	4	punct	_	start_char=115|end_char=116|SpacesAfter=\n|NER=O
+
+# text = Ministria e Kulturës sqaron edhe çështjen e tokës për shfrytëzim afatgjatë nga ky festival duke thënë se është ende në diskutim në mënyrë që ajo të ketë një vendndodhje të vetin në periudhë afatgjatë .
+# sent_id = 7
+1	Ministria	ministri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	Kulturës	kulturë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=20|NER=O
+4	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=21|end_char=27|NER=O
+5	edhe	edhe	PART	_	_	6	cc	_	start_char=28|end_char=32|NER=O
+6	çështjen	çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=33|end_char=41|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=42|end_char=43|NER=O
+8	tokës	tokë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=44|end_char=49|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=50|end_char=53|NER=O
+10	shfrytëzim	shfrytëzim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=54|end_char=64|NER=O
+11	afatgjatë	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=65|end_char=74|NER=O
+12	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=75|end_char=78|NER=O
+13	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=79|end_char=81|NER=O
+14	festival	festival	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	start_char=82|end_char=90|NER=O
+15	duke	duke	PART	_	_	16	fixed	_	start_char=91|end_char=95|NER=O
+16	thënë	them	VERB	_	VerbForm=Part	14	advmod	_	start_char=96|end_char=101|NER=O
+17	se	se	SCONJ	_	_	18	mark	_	start_char=102|end_char=104|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	ccomp	_	start_char=105|end_char=110|NER=O
+19	ende	ende	ADV	_	AdvType=Tim	18	advmod	_	start_char=111|end_char=115|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=116|end_char=118|NER=O
+21	diskutim	diskutim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	advmod	_	start_char=119|end_char=127|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=128|end_char=130|NER=O
+23	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	start_char=131|end_char=137|NER=O
+24	që	që	SCONJ	_	_	27	mark	_	start_char=138|end_char=140|NER=O
+25	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	fixed	_	start_char=141|end_char=144|NER=O
+26	të	të	PART	_	_	27	fixed	_	start_char=145|end_char=147|NER=O
+27	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	advcl	_	start_char=148|end_char=152|NER=O
+28	një	një	DET	_	Definite=Ind	29	det	_	start_char=153|end_char=156|NER=O
+29	vendndodhje	vendndodhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	start_char=157|end_char=168|NER=O
+30	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=169|end_char=171|NER=O
+31	vetin	vet	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=172|end_char=177|NER=O
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=178|end_char=180|NER=O
+33	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	advmod	_	start_char=181|end_char=189|NER=O
+34	afatgjatë	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=190|end_char=199|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	27	punct	_	start_char=200|end_char=201|NER=O
+
+# text = Çështja e tokës ishte pikërisht pakënaqësia që Dukagjin Lipa ngriti duke thënë se nuk po merr përgjigje nga qeveria e Kosovës prej 3 vitesh dhe kjo e detyroi që festivali të ' hidhte sytë ' nga Tirana .
+# sent_id = 8
+1	Çështja	çështje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	tokës	tokë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=15|NER=O
+4	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=16|end_char=21|NER=O
+5	pikërisht	pikërisht	ADV	_	AdvType=Man	6	advmod	_	start_char=22|end_char=31|NER=O
+6	pakënaqësia	pakënaqësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	cop	_	start_char=32|end_char=43|NER=O
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=44|end_char=46|NER=O
+8	Dukagjin	Dukagji	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=47|end_char=55|NER=B-PER
+9	Lipa	Lipë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	flat	_	start_char=56|end_char=60|NER=I-PER
+10	ngriti	ngrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	csubj	_	start_char=61|end_char=67|NER=O
+11	duke	duke	PART	_	_	12	fixed	_	start_char=68|end_char=72|NER=O
+12	thënë	them	VERB	_	VerbForm=Part	10	advmod	_	start_char=73|end_char=78|NER=O
+13	se	se	SCONJ	_	_	16	mark	_	start_char=79|end_char=81|NER=O
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=82|end_char=85|NER=O
+15	po	po	PART	_	_	16	aux	_	start_char=86|end_char=88|NER=O
+16	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	start_char=89|end_char=93|NER=O
+17	përgjigje	përgjigje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=94|end_char=103|NER=O
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=104|end_char=107|NER=O
+19	qeveria	qeveri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=108|end_char=115|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=116|end_char=117|NER=O
+21	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=118|end_char=125|NER=B-VEND_1
+22	prej	prej	ADP	_	Case=Abl	24	case	_	start_char=126|end_char=130|NER=O
+23	3	3	NUM	_	NumType=Card	24	nummod	_	start_char=131|end_char=132|NER=O
+24	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	start_char=133|end_char=139|NER=O
+25	dhe	dhe	CCONJ	_	_	28	cc	_	start_char=140|end_char=143|NER=O
+26	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	28	nsubj	_	start_char=144|end_char=147|NER=O
+27	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	start_char=148|end_char=149|NER=O
+28	detyroi	detyroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	start_char=150|end_char=157|NER=O
+29	që	që	SCONJ	_	_	32	mark	_	start_char=158|end_char=160|NER=O
+30	festivali	festival	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=161|end_char=170|NER=O
+31	të	të	PART	_	_	32	fixed	_	start_char=171|end_char=173|NER=O
+32	'	'	PUNCT	_	_	28	punct	_	start_char=174|end_char=175|NER=O
+33	hidhte	hidhte	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	ccomp	_	start_char=176|end_char=182|NER=O
+34	sytë	sytë	ADV	_	AdvType=Man	32	advmod	_	start_char=183|end_char=187|NER=O
+35	'	'	PUNCT	_	_	32	punct	_	start_char=188|end_char=189|NER=O
+36	nga	nga	ADP	_	Case=Nom	35	case	_	start_char=190|end_char=193|NER=O
+37	Tirana	Tiranë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obl	_	start_char=194|end_char=200|SpaceAfter=No|NER=B-VEND_0
+38	.	.	PUNCT	_	_	28	punct	_	start_char=201|end_char=202|SpacesAfter=\n|NER=O
+
+# text = " Qeveria e Kosovës , Komuna e Prishtinës dhe Sunny Hill Festival bashkojnë forcat për një edicion të mrekullueshëm të festivalit sivjet , aty ku e ka vendin , në Prishtinë .
+# sent_id = 9
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Qeveria	qeveri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=2|end_char=9|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	Kosovës	Kosovë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=12|end_char=19|SpaceAfter=No|NER=B-VEND_1
+5	,	,	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|NER=O
+6	Komuna	Komunë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=22|end_char=28|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=29|end_char=30|NER=O
+8	Prishtinës	Prishtinë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=31|end_char=41|NER=B-VEND_0
+9	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=42|end_char=45|NER=O
+10	Sunny	Sunny	PROPN	_	Foreign=Yes	8	conj	_	start_char=46|end_char=51|NER=O
+11	Hill	Hill	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	start_char=52|end_char=56|NER=O
+12	Festival	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=57|end_char=65|NER=O
+13	bashkojnë	bashkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=66|end_char=75|NER=O
+14	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=76|end_char=82|NER=O
+15	për	për	ADP	_	Case=Acc	17	case	_	start_char=83|end_char=86|NER=O
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=87|end_char=90|NER=O
+17	edicion	edicio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	start_char=91|end_char=98|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=99|end_char=101|NER=O
+19	mrekullueshëm	mrekullueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=102|end_char=115|NER=O
+20	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=116|end_char=118|NER=O
+21	festivalit	festival	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=119|end_char=129|NER=O
+22	sivjet	sivjet	ADV	_	AdvType=Man	21	flat	_	start_char=130|end_char=136|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	24	punct	_	start_char=137|end_char=138|NER=O
+24	aty	aty	ADV	_	AdvType=Loc	21	advmod	_	start_char=139|end_char=142|NER=O
+25	ku	ku	ADV	_	AdvType=Loc	27	advmod	_	start_char=143|end_char=145|NER=O
+26	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=146|end_char=147|NER=O
+27	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	acl:relcl	_	start_char=148|end_char=150|NER=O
+28	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=151|end_char=157|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	31	punct	_	start_char=158|end_char=159|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=160|end_char=162|NER=O
+31	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	start_char=163|end_char=172|SpaceAfter=No|NER=B-VEND_0
+32	.	.	PUNCT	_	_	27	punct	_	start_char=173|end_char=174|NER=O
+
+# text = Sunny Hill Festival mbahet në Prishtinë , më 4 , 5 , 6 dhe 7 gusht 2022 .
+# sent_id = 10
+1	Sunny	Sunny	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=5|NER=O
+2	Hill	Hill	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	flat	_	start_char=6|end_char=10|NER=O
+3	Festival	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=11|end_char=19|NER=O
+4	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=20|end_char=26|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=30|end_char=39|SpaceAfter=No|NER=B-VEND_0
+7	,	,	PUNCT	_	_	9	punct	_	start_char=40|end_char=41|NER=O
+8	më	më	ADP	_	Case=Acc	9	case	_	start_char=42|end_char=44|NER=O
+9	4	4	NUM	_	NumType=Card	4	advmod	_	start_char=45|end_char=46|SpaceAfter=No|NER=B-DATE_0
+10	,	,	PUNCT	_	_	11	punct	_	start_char=47|end_char=48|NER=I-DATE_0
+11	5	5	NUM	_	NumType=Card	9	conj	_	start_char=49|end_char=50|SpaceAfter=No|NER=I-DATE_0
+12	,	,	PUNCT	_	_	13	punct	_	start_char=51|end_char=52|NER=I-DATE_0
+13	6	6	NUM	_	NumType=Card	11	conj	_	start_char=53|end_char=54|NER=I-DATE_0
+14	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=55|end_char=58|NER=I-DATE_0
+15	7	7	NUM	_	NumType=Card	16	nummod	_	start_char=59|end_char=60|NER=I-DATE_0
+16	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	start_char=61|end_char=66|NER=I-DATE_0
+17	2022	2022	NUM	_	NumType=Card	16	amod:nummod	_	start_char=67|end_char=71|SpaceAfter=No|NER=I-DATE_0
+18	.	.	PUNCT	_	_	4	punct	_	start_char=72|end_char=73|NER=O
+
+# text = Institucionet qendrore dhe lokale bashkërisht , sipas mandatit që kanë do të ofrojnë mbështetje të plotë për edicionin e sivjetmë , i cili do të mbahet në në lokacion të përshtatshëm .
+# sent_id = 11
+1	Institucionet	Institucion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=13|NER=O
+2	qendrore	qëndror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	1	amod	_	start_char=14|end_char=22|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=23|end_char=26|NER=O
+4	lokale	lokal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	start_char=27|end_char=33|NER=O
+5	bashkërisht	bashkërisht	ADV	_	AdvType=Man	4	advmod	_	start_char=34|end_char=45|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=46|end_char=47|NER=O
+7	sipas	sipas	ADP	_	Case=Abl	8	case	_	start_char=48|end_char=53|NER=O
+8	mandatit	mandat	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=54|end_char=62|NER=O
+9	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=63|end_char=65|NER=O
+10	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=66|end_char=70|NER=O
+11	do	do	PART	_	_	13	fixed	_	start_char=71|end_char=73|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=74|end_char=76|NER=O
+13	ofrojnë	ofroj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=77|end_char=84|NER=O
+14	mbështetje	mbështetje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	start_char=85|end_char=95|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=96|end_char=98|NER=O
+16	plotë	plotë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=99|end_char=104|NER=O
+17	për	për	ADP	_	Case=Acc	18	case	_	start_char=105|end_char=108|NER=O
+18	edicionin	edicion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=109|end_char=118|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=119|end_char=120|NER=O
+20	sivjetmë	sivjetmë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=121|end_char=129|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=130|end_char=131|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=132|end_char=133|NER=O
+23	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	26	nsubj	_	start_char=134|end_char=138|NER=O
+24	do	do	PART	_	_	26	fixed	_	start_char=139|end_char=141|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=142|end_char=144|NER=O
+26	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	acl:relcl	_	start_char=145|end_char=151|NER=O
+27	në	në	ADP	_	Case=Acc	29	case	_	start_char=152|end_char=154|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=155|end_char=157|NER=O
+29	lokacion	lokacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	start_char=158|end_char=166|NER=O
+30	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=167|end_char=169|NER=O
+31	përshtatshëm	përshtatshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=170|end_char=182|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	26	punct	_	start_char=183|end_char=184|NER=O
+
+# text = Të gjithë shprehin gatishmërinë që çështja e shfrytëzimit afatgjatë të tokës të diskutohet edhe pak kohë deri në gjetjen e një zgjidhjeje të qëndrueshme .
+# sent_id = 12
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	obj	_	start_char=3|end_char=9|NER=O
+3	shprehin	shprej	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advmod	_	start_char=10|end_char=18|NER=O
+4	gatishmërinë	gatishmëri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=19|end_char=31|NER=O
+5	që	që	PRON	_	PronType=Rel	6	mark	_	start_char=32|end_char=34|NER=O
+6	çështja	çështjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=35|end_char=42|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=43|end_char=44|NER=O
+8	shfrytëzimit	shfrytëzim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=45|end_char=57|NER=O
+9	afatgjatë	afatgjatë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=58|end_char=67|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=68|end_char=70|NER=O
+11	tokës	tokë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=71|end_char=76|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=77|end_char=79|NER=O
+13	diskutohet	diskutoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=80|end_char=90|NER=O
+14	edhe	edhe	PART	_	_	16	cc	_	start_char=91|end_char=95|NER=O
+15	pak	pak	ADV	_	AdvType=Deg	16	nummod	_	start_char=96|end_char=99|NER=O
+16	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=100|end_char=104|NER=O
+17	deri	deri	PART	_	_	18	fixed	_	start_char=105|end_char=109|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=110|end_char=112|NER=O
+19	gjetjen	gjetje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	advmod	_	start_char=113|end_char=120|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=121|end_char=122|NER=O
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=123|end_char=126|NER=O
+22	zgjidhjeje	zgjidhje	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=127|end_char=137|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=138|end_char=140|NER=O
+24	qëndrueshme	qëndrueshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=141|end_char=152|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	13	punct	_	start_char=153|end_char=154|NER=O
+
+# text = Synimi i përbashkët është që nga viti i ardhshëm , festivali Sunny Hill të organizohet në lokacionin e vet afatgjatë .
+# sent_id = 13
+1	Synimi	synim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=8|NER=O
+3	përbashkët	përbashkët	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=9|end_char=19|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+5	që	që	PART	_	_	7	mark	_	start_char=26|end_char=28|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=29|end_char=32|NER=O
+7	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=33|end_char=37|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=38|end_char=39|NER=O
+9	ardhshëm	ardhshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=40|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|NER=O
+11	festivali	festival	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=51|end_char=60|NER=O
+12	Sunny	Sunny	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	11	appos	_	start_char=61|end_char=66|NER=O
+13	Hill	Hill	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	11	appos	_	start_char=67|end_char=71|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=72|end_char=74|NER=O
+15	organizohet	organizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	conj	_	start_char=75|end_char=86|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=87|end_char=89|NER=O
+17	lokacionin	lokacion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=90|end_char=100|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=101|end_char=102|NER=O
+19	vet	vet	PRON	_	Gender=Masc|PronType=Prs|Reflex=Yes	17	nmod	_	start_char=103|end_char=106|NER=O
+20	afatgjatë	afatgjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=107|end_char=116|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=117|end_char=118|NER=O
+
+# text = Në frymën e bashkëpunimit të shkëlqyeshëm kulturor mes Kosovës dhe Shqipërisë , një edicion i veçantë me një line - up tjetër do të mbahet në fund të muajit gusht në Tiranë më 26 , 27 dhe 28 gusht " , thuhet në deklaratë .
+# sent_id = 14
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	frymën	frymë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	39	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	bashkëpunimit	bashkëpunim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=12|end_char=25|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=26|end_char=28|NER=O
+6	shkëlqyeshëm	shkëlqyeshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=29|end_char=41|NER=O
+7	kulturor	kulturor	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=42|end_char=50|NER=O
+8	mes	mes	ADP	_	Case=Abl	9	case	_	start_char=51|end_char=54|NER=O
+9	Kosovës	Kosovë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=55|end_char=62|NER=B-VEND_1
+10	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=63|end_char=66|NER=O
+11	Shqipërisë	Shqipëri	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	start_char=67|end_char=77|SpaceAfter=No|NER=B-VEND_1
+12	,	,	PUNCT	_	_	14	punct	_	start_char=78|end_char=79|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=80|end_char=83|NER=O
+14	edicion	edicio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	list	_	start_char=84|end_char=91|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=92|end_char=93|NER=O
+16	veçantë	veçantë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=94|end_char=101|NER=O
+17	me	me	ADP	_	Case=Acc	19	case	_	start_char=102|end_char=104|NER=O
+18	një	një	DET	_	Definite=Ind	19	det	_	start_char=105|end_char=108|NER=O
+19	line	line-up	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=109|end_char=113|NER=O
+20	-	-	PUNCT	_	_	14	punct	_	start_char=114|end_char=115|NER=O
+21	up	line-up	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=116|end_char=118|NER=O
+22	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	19	amod	_	start_char=119|end_char=125|NER=O
+23	do	do	PART	_	_	23	fixed	_	start_char=126|end_char=128|NER=O
+24	të	të	PART	_	_	23	fixed	_	start_char=129|end_char=131|NER=O
+25	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	19	acl:relcl	_	start_char=132|end_char=138|NER=O
+26	në	në	ADP	_	Case=Acc	25	case	_	start_char=139|end_char=141|NER=O
+27	fund	fund	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=142|end_char=146|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=147|end_char=149|NER=O
+29	muajit	muaj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=150|end_char=156|NER=O
+30	gusht	gusht	NUM	_	NumType=Card	27	flat	_	start_char=157|end_char=162|NER=O
+31	në	në	ADP	_	Case=Acc	30	case	_	start_char=163|end_char=165|NER=O
+32	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=166|end_char=172|NER=B-VEND_0
+33	më	më	ADP	_	Case=Acc	32	case	_	start_char=173|end_char=175|NER=O
+34	26	26	NUM	_	NumType=Card	30	nummod	_	start_char=176|end_char=178|SpaceAfter=No|NER=B-DATE_0
+35	,	,	PUNCT	_	_	34	punct	_	start_char=179|end_char=180|NER=I-DATE_0
+36	27	27	NUM	_	NumType=Card	37	nummod	_	start_char=181|end_char=183|NER=I-DATE_0
+37	dhe	dhe	CCONJ	_	_	39	cc	_	start_char=184|end_char=187|NER=I-DATE_0
+38	28	28	NUM	_	NumType=Card	37	nummod	_	start_char=188|end_char=190|NER=I-DATE_0
+39	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	39	advmod	_	start_char=191|end_char=196|SpaceAfter=No|NER=I-DATE_0
+40	"	"	PUNCT	_	_	39	punct	_	start_char=197|end_char=198|SpaceAfter=No|NER=O
+41	,	,	PUNCT	_	_	39	punct	_	start_char=199|end_char=200|NER=O
+42	thuhet	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=201|end_char=207|NER=O
+43	në	në	ADP	_	Case=Acc	41	case	_	start_char=208|end_char=210|NER=O
+44	deklaratë	deklaratë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	39	obl	_	start_char=211|end_char=220|SpaceAfter=No|NER=O
+45	.	.	PUNCT	_	_	39	punct	_	start_char=221|end_char=222|SpacesAfter=\n|NER=O
+
+# text = Duket se kjo verë do të jetë e nxehtë për shqiptarët në Prishtinë dhe Tiranë , ku për 3 netë radhazi do të ngjiten në skenën e " Sunny Hill " emrat më të njohur të muzikës botërore si Diplo , Skepta , DJ Regard , AJ Tracey , Mahmood dhe artistët më të njohur shqiptarë .
+# sent_id = 15
+1	Duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=5|NER=O
+2	se	se	SCONJ	_	_	1	fixed	_	start_char=6|end_char=8|NER=O
+3	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=9|end_char=12|NER=O
+4	verë	verë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	advmod	_	start_char=13|end_char=17|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=18|end_char=20|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=21|end_char=23|NER=O
+7	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=24|end_char=28|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=29|end_char=30|NER=O
+9	nxehtë	nxehtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	cop	_	start_char=31|end_char=37|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=41|NER=O
+11	shqiptarët	shqiptar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	advmod	_	start_char=42|end_char=52|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=53|end_char=55|NER=O
+13	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=56|end_char=65|NER=B-VEND_0
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=66|end_char=69|NER=O
+15	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	start_char=70|end_char=76|SpaceAfter=No|NER=B-VEND_0
+16	,	,	PUNCT	_	_	17	punct	_	start_char=77|end_char=78|NER=O
+17	ku	ku	ADV	_	AdvType=Loc	24	advmod	_	start_char=79|end_char=81|NER=O
+18	për	për	ADP	_	Case=Acc	20	case	_	start_char=82|end_char=85|NER=O
+19	3	3	NUM	_	NumType=Card	20	nummod	_	start_char=86|end_char=87|NER=O
+20	netë	netë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	advmod	_	start_char=88|end_char=92|NER=O
+21	radhazi	radhazi	ADV	_	AdvType=Man	20	amod	_	start_char=93|end_char=100|NER=O
+22	do	do	PART	_	_	24	fixed	_	start_char=101|end_char=103|NER=O
+23	të	të	PART	_	_	24	fixed	_	start_char=104|end_char=106|NER=O
+24	ngjiten	ngjitej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	1	conj	_	start_char=107|end_char=114|NER=O
+25	në	në	ADP	_	Case=Acc	26	case	_	start_char=115|end_char=117|NER=O
+26	skenën	skenë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	obl	_	start_char=118|end_char=124|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=125|end_char=126|NER=O
+28	"	"	PUNCT	_	_	29	punct	_	start_char=127|end_char=128|SpaceAfter=No|NER=O
+29	Sunny	Sunny	PROPN	_	Foreign=Yes	26	nmod	_	start_char=129|end_char=134|NER=O
+30	Hill	Hill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	flat	_	start_char=135|end_char=139|NER=O
+31	"	"	PUNCT	_	_	29	punct	_	start_char=140|end_char=141|NER=O
+32	emrat	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	29	appos	_	start_char=142|end_char=147|NER=O
+33	më	më	PART	_	_	34	mark	_	start_char=148|end_char=150|NER=O
+34	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	34	det	_	start_char=151|end_char=153|NER=O
+35	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	start_char=154|end_char=160|NER=O
+36	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det:poss	_	start_char=161|end_char=163|NER=O
+37	muzikës	muzikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=164|end_char=171|NER=O
+38	botërore	botëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=172|end_char=180|NER=O
+39	si	si	SCONJ	_	_	39	mark	_	start_char=181|end_char=183|NER=O
+40	Diplo	Diplo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	start_char=184|end_char=189|SpaceAfter=No|NER=B-PER
+41	,	,	PUNCT	_	_	41	punct	_	start_char=190|end_char=191|NER=O
+42	Skepta	skeptë	PROPN	_	Case=Nom|Definite=Def|Foreign=Yes|Gender=Fem|Number=Sing	39	list	_	start_char=192|end_char=198|SpaceAfter=No|NER=B-PER
+43	,	,	PUNCT	_	_	43	punct	_	start_char=199|end_char=200|NER=O
+44	DJ	DJ	PROPN	_	Foreign=Yes	41	list	_	start_char=201|end_char=203|NER=B-PER
+45	Regard	Regard	PROPN	_	Foreign=Yes	43	flat	_	start_char=204|end_char=210|SpaceAfter=No|NER=I-PER
+46	,	,	PUNCT	_	_	46	punct	_	start_char=211|end_char=212|NER=O
+47	AJ	AJ	PROPN	_	Foreign=Yes	43	list	_	start_char=213|end_char=215|NER=B-PER
+48	Tracey	Tracey	PROPN	_	Foreign=Yes	46	flat	_	start_char=216|end_char=222|SpaceAfter=No|NER=I-PER
+49	,	,	PUNCT	_	_	49	punct	_	start_char=223|end_char=224|NER=O
+50	Mahmood	Mahmood	PROPN	_	Foreign=Yes	46	list	_	start_char=225|end_char=232|NER=B-PER
+51	dhe	dhe	CCONJ	_	_	51	cc	_	start_char=233|end_char=236|NER=O
+52	artistët	artistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	49	conj	_	start_char=237|end_char=245|NER=O
+53	më	më	PART	_	_	54	mark	_	start_char=246|end_char=248|NER=O
+54	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	54	det	_	start_char=249|end_char=251|NER=O
+55	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	51	amod	_	start_char=252|end_char=258|NER=O
+56	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	51	amod	_	start_char=259|end_char=268|SpaceAfter=No|NER=O
+57	.	.	PUNCT	_	_	51	punct	_	start_char=269|end_char=270|NER=O
+
+# text = Në këtë edicion pritet të zbulohen edhe dy artistë shumë të mëdhenj botëror .
+# sent_id = 16
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=3|end_char=7|NER=O
+3	edicion	edicio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	start_char=8|end_char=15|NER=O
+4	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=16|end_char=22|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=23|end_char=25|NER=O
+6	zbulohen	zbuloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	4	ccomp	_	start_char=26|end_char=34|NER=O
+7	edhe	edhe	PART	_	_	9	advmod:emph	_	start_char=35|end_char=39|NER=O
+8	dy	dy	NUM	_	NumType=Card	9	nummod	_	start_char=40|end_char=42|NER=O
+9	artistë	artist	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=43|end_char=50|NER=O
+10	shumë	shumë	ADV	_	AdvType=Deg	12	advmod	_	start_char=51|end_char=56|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=59|NER=O
+12	mëdhenj	mëdhenj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=60|end_char=67|NER=O
+13	botëror	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=68|end_char=75|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	4	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+
+# text = Edhe kryebashkiaku Erion Veliaj përshëndeti lajmin për zhvillimin e festivalit në dy kryeqytetet shqiptare .
+# sent_id = 17
+1	Edhe	edhe	PART	_	_	2	mark:emph	_	start_char=0|end_char=4|NER=O
+2	kryebashkiaku	kryebashkiak	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5|end_char=18|NER=O
+3	Erion	Erio	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	start_char=19|end_char=24|NER=B-PER
+4	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=25|end_char=31|NER=I-PER
+5	përshëndeti	përshëndem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=32|end_char=43|NER=O
+6	lajmin	lajm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=44|end_char=50|NER=O
+7	për	për	ADP	_	Case=Acc	8	case	_	start_char=51|end_char=54|NER=O
+8	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	start_char=55|end_char=65|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=66|end_char=67|NER=O
+10	festivalit	festival	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=68|end_char=78|NER=O
+11	në	në	ADP	_	Case=Acc	13	case	_	start_char=79|end_char=81|NER=O
+12	dy	dy	NUM	_	NumType=Card	13	nummod	_	start_char=82|end_char=84|NER=O
+13	kryeqytetet	kryeqytet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=85|end_char=96|NER=O
+14	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=97|end_char=106|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	5	punct	_	start_char=107|end_char=108|SpacesAfter=\n|NER=O
+
+# text = " Sunny Hill Festival - Edhe në Prishtinë , edhe në Tiranë !
+# sent_id = 18
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Sunny	Sunny	PROPN	_	Foreign=Yes	15	nsubj	_	start_char=2|end_char=7|NER=O
+3	Hill	Hill	PROPN	_	Foreign=Yes	2	flat	_	start_char=8|end_char=12|NER=O
+4	Festival	Festival	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=21|NER=O
+5	-	-	PUNCT	_	_	6	punct	_	start_char=22|end_char=23|NER=O
+6	Edhe	edhe	CCONJ	_	_	8	cc	_	start_char=24|end_char=28|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=29|end_char=31|NER=O
+8	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=32|end_char=41|SpaceAfter=No|NER=B-VEND_0
+9	,	,	PUNCT	_	_	10	punct	_	start_char=42|end_char=43|NER=O
+10	edhe	edhe	PART	_	_	12	cc	_	start_char=44|end_char=48|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=49|end_char=51|NER=O
+12	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	advmod	_	start_char=52|end_char=58|SpaceAfter=No|NER=B-VEND_0
+13	!	!	PUNCT	_	_	12	punct	_	start_char=59|end_char=60|NER=O
+
+# text = A jeni gati për një super verë elektrizuese në të dyja kryeqytetet shqiptare ?
+# sent_id = 19
+1	A	a	PUNCT	_	_	12	punct	_	start_char=0|end_char=1|NER=O
+2	jeni	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	gati	gati	ADV	_	AdvType=Man	15	advmod	_	start_char=7|end_char=11|NER=O
+4	për	për	ADP	_	Case=Acc	19	case	_	start_char=12|end_char=15|NER=O
+5	një	një	DET	_	Definite=Ind	19	det	_	start_char=16|end_char=19|NER=O
+6	super	super	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	start_char=20|end_char=25|NER=O
+7	verë	verë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=26|end_char=30|NER=O
+8	elektrizuese	elektrizues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=31|end_char=43|NER=O
+9	në	në	ADP	_	Case=Acc	25	case	_	start_char=44|end_char=46|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=47|end_char=49|NER=O
+11	dyja	dy	NUM	_	NumType=Ord	25	nummod	_	start_char=50|end_char=54|NER=O
+12	kryeqytetet	kryeqytet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=55|end_char=66|NER=O
+13	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=67|end_char=76|SpaceAfter=No|NER=O
+14	?	?	PUNCT	_	_	15	punct	_	start_char=77|end_char=78|NER=O
+
+# text = Jam shumë i lumtur që edicioni special i këtij viti i " Sunny Hill Festival " , do të mbahet në Prishtinë në datat 4 , 5 , 6 dhe 7 gusht , kurse në Tiranë në datat 26 , 27 dhe 28 gusht .
+# sent_id = 20
+1	Jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	shumë	shumë	ADV	_	AdvType=Deg	4	advmod	_	start_char=4|end_char=9|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=10|end_char=11|NER=O
+4	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	cop	_	start_char=12|end_char=18|NER=O
+5	që	që	SCONJ	_	_	6	mark	_	start_char=19|end_char=21|NER=O
+6	edicioni	edicion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	cop	_	start_char=22|end_char=30|NER=O
+7	special	special	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=31|end_char=38|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=39|end_char=40|NER=O
+9	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=41|end_char=46|NER=O
+10	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=47|end_char=51|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=52|end_char=53|NER=O
+12	"	"	PUNCT	_	_	13	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+13	Sunny	Sunny	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	start_char=56|end_char=61|NER=O
+14	Hill	Hill	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	flat	_	start_char=62|end_char=66|NER=O
+15	Festival	Festival	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=67|end_char=75|SpaceAfter=No|NER=O
+16	"	"	PUNCT	_	_	13	punct	_	start_char=76|end_char=77|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	19	punct	_	start_char=78|end_char=79|NER=O
+18	do	do	PART	_	_	19	fixed	_	start_char=80|end_char=82|NER=O
+19	të	të	PART	_	_	19	fixed	_	start_char=83|end_char=85|NER=O
+20	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	1	csubj	_	start_char=86|end_char=92|NER=O
+21	në	në	ADP	_	Case=Acc	21	case	_	start_char=93|end_char=95|NER=O
+22	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	start_char=96|end_char=105|NER=B-VEND_0
+23	në	në	ADP	_	Case=Acc	23	case	_	start_char=106|end_char=108|NER=O
+24	datat	datë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	advmod	_	start_char=109|end_char=114|NER=O
+25	4	4	NUM	_	NumType=Card	23	amod:nummod	_	start_char=115|end_char=116|SpaceAfter=No|NER=B-DATE_0
+26	,	,	PUNCT	_	_	26	punct	_	start_char=117|end_char=118|NER=I-DATE_0
+27	5	5	NUM	_	NumType=Card	24	conj	_	start_char=119|end_char=120|SpaceAfter=No|NER=I-DATE_0
+28	,	,	PUNCT	_	_	28	punct	_	start_char=121|end_char=122|NER=I-DATE_0
+29	6	6	NUM	_	NumType=Card	26	conj	_	start_char=123|end_char=124|NER=I-DATE_0
+30	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=125|end_char=128|NER=I-DATE_0
+31	7	7	NUM	_	NumType=Card	31	nummod	_	start_char=129|end_char=130|NER=I-DATE_0
+32	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	conj	_	start_char=131|end_char=136|SpaceAfter=No|NER=I-DATE_0
+33	,	,	PUNCT	_	_	33	punct	_	start_char=137|end_char=138|NER=O
+34	kurse	kurse	CCONJ	_	_	35	cc	_	start_char=139|end_char=144|NER=O
+35	në	në	ADP	_	Case=Acc	35	case	_	start_char=145|end_char=147|NER=O
+36	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	31	nmod	_	start_char=148|end_char=154|NER=B-VEND_0
+37	në	në	ADP	_	Case=Acc	37	case	_	start_char=155|end_char=157|NER=O
+38	datat	datë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	35	nmod	_	start_char=158|end_char=163|NER=O
+39	26	26	NUM	_	NumType=Card	37	nummod	_	start_char=164|end_char=166|SpaceAfter=No|NER=B-DATE_0
+40	,	,	PUNCT	_	_	40	punct	_	start_char=167|end_char=168|NER=I-DATE_0
+41	27	27	NUM	_	NumType=Card	38	conj	_	start_char=169|end_char=171|NER=I-DATE_0
+42	dhe	dhe	CCONJ	_	_	43	cc	_	start_char=172|end_char=175|NER=I-DATE_0
+43	28	28	NUM	_	NumType=Card	43	nummod	_	start_char=176|end_char=178|NER=I-DATE_0
+44	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	40	conj	_	start_char=179|end_char=184|SpaceAfter=No|NER=I-DATE_0
+45	.	.	PUNCT	_	_	1	punct	_	start_char=185|end_char=186|NER=O
+
+# text = Një super lajm për të gjithë " , shkruan Veliaj .
+# sent_id = 21
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	super	super	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4|end_char=9|NER=O
+3	lajm	lajm	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	start_char=10|end_char=14|NER=O
+4	për	për	ADP	_	Case=Acc	6	case	_	start_char=15|end_char=18|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=19|end_char=21|NER=O
+6	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	start_char=22|end_char=28|SpaceAfter=No|NER=O
+7	"	"	PUNCT	_	_	2	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	2	punct	_	start_char=31|end_char=32|NER=O
+9	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=33|end_char=40|NER=O
+10	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=41|end_char=47|SpaceAfter=No|NER=B-PER
+11	.	.	PUNCT	_	_	8	punct	_	start_char=48|end_char=49|SpacesAfter=\n\n|NER=O
+

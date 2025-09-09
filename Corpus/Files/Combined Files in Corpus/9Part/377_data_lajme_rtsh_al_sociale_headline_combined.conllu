@@ -1,0 +1,217 @@
+# text = Silva Bino : Njerëzit duhet të vaksinohen ndaj gripit 30 / 11 / 2023 Shefja e Epidemiologjisë dhe Sëmundjeve Infektive në ISHP , Silva Bino e ftuar në emisionin " Jetë Shqiptare " u shpreh se është shumë e rëndësishme për njerëzit që të vaksinohen ndaj gripit dhe covidit mbi të gjithë ato grup mosha të cilët janë të rrezikuar .
+# sent_id = 0
+1	Silva	silvë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=B-PER
+2	Bino	Bino	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=10|SpaceAfter=No|NER=I-PER
+3	:	:	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+4	Njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	start_char=13|end_char=21|NER=O
+5	duhet	duhem	AUX	_	_	4	aux	_	start_char=22|end_char=27|NER=O
+6	të	të	PART	_	_	4	fixed	_	start_char=28|end_char=30|NER=O
+7	vaksinohen	vaksinoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=31|end_char=41|NER=O
+8	ndaj	ndaj	ADP	_	Case=Abl	6	case	_	start_char=42|end_char=46|NER=O
+9	gripit	grip	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=47|end_char=53|SpacesAfter=\n|NER=O
+10	30	30	NUM	_	NumType=Card	6	nummod	_	start_char=54|end_char=56|SpaceAfter=No|NER=B-DATE_0
+11	/	/	PUNCT	_	_	6	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=I-DATE_0
+12	11	11	NUM	_	NumType=Card	6	amod	_	start_char=59|end_char=61|SpaceAfter=No|NER=I-DATE_0
+13	/	/	PUNCT	_	_	8	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=I-DATE_0
+14	2023	2023	NUM	_	NumType=Card	8	flat	_	start_char=64|end_char=68|SpaceAfter=No|NER=I-DATE_0
+15	Shefja	shefjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=69|end_char=75|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=76|end_char=77|NER=O
+17	Epidemiologjisë	Epidemiologjiji	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=78|end_char=93|NER=O
+18	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=94|end_char=97|NER=O
+19	Sëmundjeve	sëmundje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	13	conj	_	start_char=98|end_char=108|NER=O
+20	Infektive	Infekti	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=109|end_char=118|NER=O
+21	në	në	ADP	_	Case=Acc	18	case	_	start_char=119|end_char=121|NER=O
+22	ISHP	ISHP	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=122|end_char=126|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	20	punct	_	start_char=127|end_char=128|NER=O
+24	Silva	silvë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	appos	_	start_char=129|end_char=134|NER=B-PER
+25	Bino	Bino	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=135|end_char=139|NER=I-PER
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	fixed	_	start_char=140|end_char=141|NER=O
+27	ftuar	ftoj	VERB	_	VerbForm=Part	20	amod	_	start_char=142|end_char=147|NER=O
+28	në	në	ADP	_	Case=Acc	25	case	_	start_char=148|end_char=150|NER=O
+29	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	start_char=151|end_char=160|NER=O
+30	"	"	PUNCT	_	_	27	punct	_	start_char=161|end_char=162|SpaceAfter=No|NER=O
+31	Jetë	Jetë	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	start_char=163|end_char=167|NER=O
+32	Shqiptare	Shqiptar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	flat	_	start_char=168|end_char=177|NER=O
+33	"	"	PUNCT	_	_	27	punct	_	start_char=178|end_char=179|NER=O
+34	u	u	PART	_	_	30	fixed	_	start_char=180|end_char=181|NER=O
+35	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	23	conj	_	start_char=182|end_char=188|NER=O
+36	se	se	SCONJ	_	_	32	mark	_	start_char=189|end_char=191|NER=O
+37	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	start_char=192|end_char=197|NER=O
+38	shumë	shumë	ADV	_	AdvType=Deg	35	advmod	_	start_char=198|end_char=203|NER=O
+39	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=204|end_char=205|NER=O
+40	rëndësishme	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	cop	_	start_char=206|end_char=217|NER=O
+41	për	për	ADP	_	Case=Acc	37	case	_	start_char=218|end_char=221|NER=O
+42	njerëzit	njeri	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	35	obl	_	start_char=222|end_char=230|NER=O
+43	që	që	SCONJ	_	_	40	mark	_	start_char=231|end_char=233|NER=O
+44	të	të	PART	_	_	40	fixed	_	start_char=234|end_char=236|NER=O
+45	vaksinohen	vaksinoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	32	advcl	_	start_char=237|end_char=247|NER=O
+46	ndaj	ndaj	ADP	_	Case=Abl	42	case	_	start_char=248|end_char=252|NER=O
+47	gripit	grip	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	40	obl	_	start_char=253|end_char=259|NER=O
+48	dhe	dhe	CCONJ	_	_	44	cc	_	start_char=260|end_char=263|NER=O
+49	covidit	covid	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	42	conj	_	start_char=264|end_char=271|NER=O
+50	mbi	mbi	ADP	_	Case=Acc	48	case	_	start_char=272|end_char=275|NER=O
+51	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	47	det	_	start_char=276|end_char=278|NER=O
+52	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	48	det	_	start_char=279|end_char=285|NER=O
+53	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	50	det	_	start_char=286|end_char=289|NER=O
+54	grup	grup	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	50	nmod	_	start_char=290|end_char=294|NER=O
+55	mosha	moshë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	44	nmod	_	start_char=295|end_char=300|NER=O
+56	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	52	det	_	start_char=301|end_char=303|NER=O
+57	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	53	nsubj	_	start_char=304|end_char=309|NER=O
+58	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	50	acl:relcl	_	start_char=310|end_char=314|NER=O
+59	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	55	det	_	start_char=315|end_char=317|NER=O
+60	rrezikuar	rrezikuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	53	cop	_	start_char=318|end_char=327|SpaceAfter=No|NER=O
+61	.	.	PUNCT	_	_	53	punct	_	start_char=328|end_char=329|SpacesAfter=\n|NER=O
+
+# text = " Nuk ka ndonjë virus të ri dhe nuk ka vend për panik , ky shqetësim ka lindur duke u bazuar në shqetësimin e covid - it .
+# sent_id = 1
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Nuk	nuk	PART	_	_	3	mark	_	start_char=2|end_char=5|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=8|NER=O
+4	ndonjë	ndonjë	PRON	_	PronType=Ind	5	det	_	start_char=9|end_char=15|NER=O
+5	virus	viru	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	start_char=16|end_char=21|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=22|end_char=24|NER=O
+7	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=25|end_char=27|NER=O
+8	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=28|end_char=31|NER=O
+9	nuk	nuk	PART	_	Polarity=Neg	10	mark	_	start_char=32|end_char=35|NER=O
+10	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=36|end_char=38|NER=O
+11	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=39|end_char=43|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=44|end_char=47|NER=O
+13	panik	panik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	start_char=48|end_char=53|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=54|end_char=55|NER=O
+15	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=56|end_char=58|NER=O
+16	shqetësim	shqetësim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	start_char=59|end_char=68|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=69|end_char=71|NER=O
+18	lindur	lindur	VERB	_	VerbForm=Part	3	conj	_	start_char=72|end_char=78|NER=O
+19	duke	duke	PART	_	_	21	fixed	_	start_char=79|end_char=83|NER=O
+20	u	u	PART	_	_	21	fixed	_	start_char=84|end_char=85|NER=O
+21	bazuar	bazoj	VERB	_	VerbForm=Part	18	advmod	_	start_char=86|end_char=92|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=93|end_char=95|NER=O
+23	shqetësimin	shqetësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	start_char=96|end_char=107|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=108|end_char=109|NER=O
+25	covid	covid	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=110|end_char=115|SpaceAfter=No|NER=O
+26	-	-	PUNCT	_	_	23	punct	_	start_char=116|end_char=117|SpaceAfter=No|NER=O
+27	it	covid	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=118|end_char=120|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	18	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Organizata Botërore e Shëndetësisë ka pasur biseda me organe përkatëse në Kinë dhe viruset që qarkullojnë janë viruse të njohur .
+# sent_id = 2
+1	Organizata	organizatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=10|NER=B-ORG
+2	Botërore	botëror	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=11|end_char=19|NER=I-ORG
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=20|end_char=21|NER=I-ORG
+4	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=22|end_char=34|NER=I-ORG
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=35|end_char=37|NER=O
+6	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=38|end_char=43|NER=O
+7	biseda	bisedë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obj	_	start_char=44|end_char=50|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=51|end_char=53|NER=O
+9	organe	organ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=54|end_char=60|NER=O
+10	përkatëse	përkatës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=61|end_char=70|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=71|end_char=73|NER=O
+12	Kinë	Kinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=74|end_char=78|NER=B-VEND_1
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=79|end_char=82|NER=O
+14	viruset	virus	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	start_char=83|end_char=90|NER=O
+15	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=91|end_char=93|NER=O
+16	qarkullojnë	qarkulloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	start_char=94|end_char=105|NER=O
+17	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	acl	_	start_char=106|end_char=110|NER=O
+18	viruse	virus	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	17	cop	_	start_char=111|end_char=117|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=118|end_char=120|NER=O
+20	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=121|end_char=127|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	17	punct	_	start_char=128|end_char=129|NER=O
+
+# text = Këto janë viruse të cilët janë shfaqur masivisht sidomos në Kinë .
+# sent_id = 3
+1	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	start_char=0|end_char=4|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+3	viruse	virus	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	cop	_	start_char=10|end_char=16|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=17|end_char=19|NER=O
+5	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	start_char=20|end_char=25|NER=O
+6	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=26|end_char=30|NER=O
+7	shfaqur	shfaq	VERB	_	VerbForm=Part	3	acl:relcl	_	start_char=31|end_char=38|NER=O
+8	masivisht	masivisht	ADV	_	AdvType=Man	7	advmod	_	start_char=39|end_char=48|NER=O
+9	sidomos	sidomos	PART	_	_	11	mark:emph	_	start_char=49|end_char=56|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=57|end_char=59|NER=O
+11	Kinë	Kinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=60|end_char=64|SpaceAfter=No|NER=B-VEND_1
+12	.	.	PUNCT	_	_	2	punct	_	start_char=65|end_char=66|NER=O
+
+# text = Kina ka ndjekur politika zero në lidhje me Covidin ndërsa vende të tjera kanë ushtruar kontrollin .
+# sent_id = 4
+1	Kina	Kinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=4|NER=B-VEND_1
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=5|end_char=7|NER=O
+3	ndjekur	ndjek	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=15|NER=O
+4	politika	politikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=16|end_char=24|NER=O
+5	zero	zero	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=25|end_char=29|NER=O
+6	në	në	ADP	_	Case=Acc	9	case	_	start_char=30|end_char=32|NER=O
+7	lidhje	lidhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=33|end_char=39|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=42|NER=O
+9	Covidin	Covid	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=43|end_char=50|NER=O
+10	ndërsa	ndërsa	CCONJ	_	_	11	cc	_	start_char=51|end_char=57|NER=O
+11	vende	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	start_char=58|end_char=63|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=64|end_char=66|NER=O
+13	tjera	tjetër	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	amod	_	start_char=67|end_char=72|NER=O
+14	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	start_char=73|end_char=77|NER=O
+15	ushtruar	ushtroj	VERB	_	VerbForm=Part	3	conj	_	start_char=78|end_char=86|NER=O
+16	kontrollin	kontroll	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=87|end_char=97|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	15	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = Popullata duhet të jetë e përgatitur ne mënyrë qe për çdo infeksion respirator të kontaktojnë me mjekun e familjes , porositë e mjekut të familjes është një hap tjetër i rëndësishëm dhe më pas është vaksinimi .
+# sent_id = 5
+1	Popullata	popullatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=9|NER=O
+2	duhet	duhem	AUX	_	_	4	aux	_	start_char=10|end_char=15|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=16|end_char=18|NER=O
+4	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=25|NER=O
+6	përgatitur	prëgatitur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=26|end_char=36|NER=O
+7	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	det	_	start_char=37|end_char=39|NER=O
+8	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=40|end_char=46|NER=O
+9	qe	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	csubj	_	start_char=47|end_char=49|NER=O
+10	për	për	ADP	_	Case=Acc	12	case	_	start_char=50|end_char=53|NER=O
+11	çdo	çdo	PRON	_	PronType=Ind	12	nummod	_	start_char=54|end_char=57|NER=O
+12	infeksion	infeksion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	start_char=58|end_char=67|NER=O
+13	respirator	respirator	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=68|end_char=78|NER=O
+14	të	të	PART	_	_	15	fixed	_	start_char=79|end_char=81|NER=O
+15	kontaktojnë	kontaktoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=82|end_char=93|NER=O
+16	me	me	ADP	_	Case=Acc	17	case	_	start_char=94|end_char=96|NER=O
+17	mjekun	mjeku	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	start_char=97|end_char=103|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=104|end_char=105|NER=O
+19	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=106|end_char=114|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=115|end_char=116|NER=O
+21	porositë	porosi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	26	nsubj	_	start_char=117|end_char=125|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=126|end_char=127|NER=O
+23	mjekut	mjek	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=128|end_char=134|NER=O
+24	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=135|end_char=137|NER=O
+25	familjes	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=138|end_char=146|NER=O
+26	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	parataxis	_	start_char=147|end_char=152|NER=O
+27	një	një	DET	_	Definite=Ind	28	det	_	start_char=153|end_char=156|NER=O
+28	hap	hap	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	26	cop	_	start_char=157|end_char=160|NER=O
+29	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	28	amod	_	start_char=161|end_char=167|NER=O
+30	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	31	det	_	start_char=168|end_char=169|NER=O
+31	rëndësishëm	rëndësishëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=170|end_char=181|NER=O
+32	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=182|end_char=185|NER=O
+33	më	më	PART	_	_	34	mark	_	start_char=186|end_char=188|NER=O
+34	pas	pas	ADV	_	AdvType=Tim	35	advmod	_	start_char=189|end_char=192|NER=O
+35	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	conj	_	start_char=193|end_char=198|NER=O
+36	vaksinimi	vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	cop	_	start_char=199|end_char=208|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	26	punct	_	start_char=209|end_char=210|NER=O
+
+# text = Nuk janë futur ende në vendin tonë për këtë virus por priten të futen " , tha Silva Bino .
+# sent_id = 6
+1	Nuk	nuk	PART	_	_	3	mark	_	start_char=0|end_char=3|NER=O
+2	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=8|NER=O
+3	futur	fut	VERB	_	VerbForm=Part	0	root	_	start_char=9|end_char=14|NER=O
+4	ende	ende	ADV	_	AdvType=Tim	3	advmod	_	start_char=15|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+6	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=23|end_char=29|NER=O
+7	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	amod	_	start_char=30|end_char=34|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=35|end_char=38|NER=O
+9	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=39|end_char=43|NER=O
+10	virus	viru	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=44|end_char=49|NER=O
+11	por	por	CCONJ	_	_	12	cc	_	start_char=50|end_char=53|NER=O
+12	priten	prit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	3	conj	_	start_char=54|end_char=60|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=61|end_char=63|NER=O
+14	futen	futen	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	12	cop	_	start_char=64|end_char=69|SpaceAfter=No|NER=O
+15	"	"	PUNCT	_	_	12	punct	_	start_char=70|end_char=71|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=72|end_char=73|NER=O
+17	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=74|end_char=77|NER=O
+18	Silva	silvë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=78|end_char=83|NER=B-PER
+19	Bino	Bino	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	flat	_	start_char=84|end_char=88|SpaceAfter=No|NER=I-PER
+20	.	.	PUNCT	_	_	16	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+

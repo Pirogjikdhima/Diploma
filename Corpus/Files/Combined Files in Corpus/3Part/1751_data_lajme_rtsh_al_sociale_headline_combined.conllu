@@ -1,0 +1,182 @@
+# text = 2022 rikthen fuqishëm flukset hyrëse dhe dalëse të qytetarëve shqiptarë dhe të huaj në territorin shqiptar .
+# sent_id = 0
+1	2022	2022	NUM	_	NumType=Card	16	flat	_	start_char=0|end_char=4|SpacesAfter=\n|NER=O
+2	rikthen	rikthej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=5|end_char=12|NER=O
+3	fuqishëm	fuqishëm	ADV	_	AdvType=Man	19	advmod	_	start_char=13|end_char=21|NER=O
+4	flukset	flukse	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=22|end_char=29|NER=O
+5	hyrëse	hyrëse	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=30|end_char=36|NER=O
+6	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=37|end_char=40|NER=O
+7	dalëse	dalës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	conj	_	start_char=41|end_char=47|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det:poss	_	start_char=48|end_char=50|NER=O
+9	qytetarëve	qytetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	start_char=51|end_char=61|NER=O
+10	shqiptarë	shqiptar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	start_char=62|end_char=71|NER=O
+11	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=72|end_char=75|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	30	det	_	start_char=76|end_char=78|NER=O
+13	huaj	huaj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	conj	_	start_char=79|end_char=83|NER=O
+14	në	në	ADP	_	Case=Acc	32	case	_	start_char=84|end_char=86|NER=O
+15	territorin	territor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	advmod	_	start_char=87|end_char=97|NER=O
+16	shqiptar	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=98|end_char=106|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	19	punct	_	start_char=107|end_char=108|NER=O
+
+# text = Vetëm përgjatë muajit tetor janë në total 754 .
+# sent_id = 1
+1	Vetëm	Vetëm	PART	_	_	3	mark:emph	_	start_char=0|end_char=5|NER=O
+2	përgjatë	përgjatë	ADP	_	Case=Abl	3	case	_	start_char=6|end_char=14|NER=O
+3	muajit	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=15|end_char=21|NER=O
+4	tetor	tetor	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=27|NER=O
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=28|end_char=32|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=33|end_char=35|NER=O
+7	total	total	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=36|end_char=41|NER=O
+8	754	754	NUM	_	NumType=Card	7	amod:nummod	_	start_char=42|end_char=45|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	5	punct	_	start_char=46|end_char=47|SpaceAfter=No|NER=O
+
+# text = 385 individë të cilët kanë shkelur tokën shqiptare ku 48 .
+# sent_id = 2
+1	385	385	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=3|NER=O
+2	individë	individë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	start_char=4|end_char=12|NER=O
+3	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	4	det	_	start_char=13|end_char=15|NER=O
+4	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	start_char=16|end_char=21|NER=O
+5	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=22|end_char=26|NER=O
+6	shkelur	shkel	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=27|end_char=34|NER=O
+7	tokën	tokë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=35|end_char=40|NER=O
+8	shqiptare	shqiptar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=41|end_char=50|NER=O
+9	ku	ku	ADV	_	AdvType=Loc	13	advmod	_	start_char=51|end_char=53|NER=O
+10	48	48	NUM	_	NumType=Card	12	nummod	_	start_char=54|end_char=56|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	12	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+
+# text = 4 % janë të huaj .
+# sent_id = 3
+1	4	4	NUM	_	NumType=Card	12	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	13	nsubj	_	start_char=2|end_char=3|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=8|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=9|end_char=11|NER=O
+5	huaj	huaj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	cop	_	start_char=12|end_char=16|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	13	punct	_	start_char=17|end_char=18|NER=O
+
+# text = Kjo shifër shënon një rritje prej 25 , 4 % , krahasuar me tetor 2021 .
+# sent_id = 4
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	shifër	shifër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=10|NER=O
+3	shënon	shënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=17|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=18|end_char=21|NER=O
+5	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=22|end_char=28|NER=O
+6	prej	prej	ADP	_	Case=Abl	8	case	_	start_char=29|end_char=33|NER=O
+7	25	25	NUM	_	NumType=Card	8	nummod	_	start_char=34|end_char=36|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	5	punct	_	start_char=37|end_char=38|NER=O
+9	4	4	NUM	_	NumType=Card	5	nmod	_	start_char=39|end_char=40|NER=O
+10	%	%	SYM	_	_	8	flat	_	start_char=41|end_char=42|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	11	punct	_	start_char=43|end_char=44|NER=O
+12	krahasuar	krahasoj	VERB	_	VerbForm=Part	3	advmod	_	start_char=45|end_char=54|NER=O
+13	me	me	ADP	_	Case=Acc	13	case	_	start_char=55|end_char=57|NER=O
+14	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	start_char=58|end_char=63|NER=B-DATE_0
+15	2021	2021	NUM	_	NumType=Card	13	amod:nummod	_	start_char=64|end_char=68|SpaceAfter=No|NER=I-DATE_0
+16	.	.	PUNCT	_	_	3	punct	_	start_char=69|end_char=70|SpacesAfter=\n|NER=O
+
+# text = Sipas të dhënave të Drejtorisë së Pergjithshme të Policisë së Shtetit , përpunuar nga INSTAT , janë në total 4 .
+# sent_id = 5
+1	Sipas	sipas	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=6|end_char=8|NER=O
+3	dhënave	dhënë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	17	advmod	_	start_char=9|end_char=16|NER=O
+4	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=17|end_char=19|NER=O
+5	Drejtorisë	Drejtori	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=20|end_char=30|NER=B-ORG
+6	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=31|end_char=33|NER=I-ORG
+7	Pergjithshme	pergjithshëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=34|end_char=46|NER=I-ORG
+8	të	të	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=47|end_char=49|NER=I-ORG
+9	Policisë	polici	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=50|end_char=58|NER=I-ORG
+10	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=59|end_char=61|NER=I-ORG
+11	Shtetit	shtet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=62|end_char=69|SpaceAfter=No|NER=I-ORG
+12	,	,	PUNCT	_	_	13	punct	_	start_char=70|end_char=71|NER=O
+13	përpunuar	përpunoj	VERB	_	VerbForm=Part	0	root	_	start_char=72|end_char=81|NER=O
+14	nga	nga	ADP	_	Case=Nom	15	case	_	start_char=82|end_char=85|NER=O
+15	INSTAT	INSTA	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	start_char=86|end_char=92|SpaceAfter=No|NER=B-ORG
+16	,	,	PUNCT	_	_	13	punct	_	start_char=93|end_char=94|NER=O
+17	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	start_char=95|end_char=99|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=100|end_char=102|NER=O
+19	total	total	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=103|end_char=108|NER=O
+20	4	4	NUM	_	NumType=Card	19	amod	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	19	punct	_	start_char=111|end_char=112|SpaceAfter=No|NER=O
+
+# text = 783 .
+# sent_id = 6
+1	783	783	NUM	_	NumType=Card	19	amod:nummod	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	17	punct	_	start_char=4|end_char=5|SpaceAfter=No|NER=O
+
+# text = 911individë që kanë kaluar pikat doganore duke shënuar një rritje me 35 , 3 % , krahasuar me të njëjtën periudhë të një viti më parë .
+# sent_id = 7
+1	911individë	911individë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	start_char=0|end_char=11|NER=O
+2	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=12|end_char=14|NER=O
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=15|end_char=19|NER=O
+4	kaluar	kaloj	VERB	_	VerbForm=Part	1	acl:relcl	_	start_char=20|end_char=26|NER=O
+5	pikat	pikat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=27|end_char=32|NER=O
+6	doganore	doganor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=33|end_char=41|NER=O
+7	duke	duke	PART	_	_	8	fixed	_	start_char=42|end_char=46|NER=O
+8	shënuar	shënoj	VERB	_	VerbForm=Part	4	advmod	_	start_char=47|end_char=54|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=55|end_char=58|NER=O
+10	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=59|end_char=65|NER=O
+11	me	me	ADP	_	Case=Acc	13	case	_	start_char=66|end_char=68|NER=O
+12	35	35	NUM	_	NumType=Card	13	nummod	_	start_char=69|end_char=71|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	10	punct	_	start_char=72|end_char=73|NER=O
+14	3	3	NUM	_	NumType=Card	10	nmod	_	start_char=74|end_char=75|NER=O
+15	%	%	SYM	_	_	13	flat	_	start_char=76|end_char=77|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=78|end_char=79|NER=O
+17	krahasuar	krahasoj	VERB	_	VerbForm=Part	0	root	_	start_char=80|end_char=89|NER=O
+18	me	me	ADP	_	Case=Acc	20	case	_	start_char=90|end_char=92|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=93|end_char=95|NER=O
+20	njëjtën	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	det	_	start_char=96|end_char=103|NER=O
+21	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	start_char=104|end_char=112|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=113|end_char=115|NER=O
+23	një	një	DET	_	Definite=Ind	23	det	_	start_char=116|end_char=119|NER=O
+24	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=120|end_char=124|NER=O
+25	më	më	PART	_	_	25	mark	_	start_char=125|end_char=127|NER=O
+26	parë	parë	ADV	_	AdvType=Man	23	advmod	_	start_char=128|end_char=132|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	16	punct	_	start_char=133|end_char=134|SpacesAfter=\n|NER=O
+
+# text = Referuar rrugëve që qytetarët po zgjedhin për të mbërritur në Shqipëri janë aeroportet që kanë shënuar rritjen më të madhe me 75 , 2 % , krahasuar me të njëjtën periudhë të një viti më parë dhe me pas pikat detare me 47 , 5 %
+# sent_id = 8
+1	Referuar	Referoj	VERB	_	VerbForm=Part	0	root	_	start_char=0|end_char=8|NER=O
+2	rrugëve	rrugë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	obj	_	start_char=9|end_char=16|NER=O
+3	që	që	PRON	_	PronType=Rel	4	mark	_	start_char=17|end_char=19|NER=O
+4	qytetarët	qytetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	conj	_	start_char=20|end_char=29|NER=O
+5	po	po	PART	_	_	6	mark	_	start_char=30|end_char=32|NER=O
+6	zgjedhin	zgjedh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl	_	start_char=33|end_char=41|NER=O
+7	për	për	PART	_	_	9	fixed	_	start_char=42|end_char=45|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=46|end_char=48|NER=O
+9	mbërritur	mbërritoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=49|end_char=58|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=59|end_char=61|NER=O
+11	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	start_char=62|end_char=70|NER=B-VEND_1
+12	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	start_char=71|end_char=75|NER=O
+13	aeroportet	aeroport	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	cop	_	start_char=76|end_char=86|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=87|end_char=89|NER=O
+15	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=90|end_char=94|NER=O
+16	shënuar	shënoj	VERB	_	VerbForm=Part	13	acl:relcl	_	start_char=95|end_char=102|NER=O
+17	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=103|end_char=110|NER=O
+18	më	më	PART	_	_	20	advmod	_	start_char=111|end_char=113|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=114|end_char=116|NER=O
+20	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=117|end_char=122|NER=O
+21	me	me	ADP	_	Case=Acc	23	case	_	start_char=123|end_char=125|NER=O
+22	75	75	NUM	_	NumType=Card	23	nummod	_	start_char=126|end_char=128|NER=O
+23	,	,	PUNCT	_	_	23	punct	_	start_char=129|end_char=130|NER=O
+24	2	2	NUM	_	NumType=Card	23	nummod	_	start_char=131|end_char=132|NER=O
+25	%	%	SYM	_	_	20	advmod	_	start_char=133|end_char=134|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	25	punct	_	start_char=135|end_char=136|NER=O
+27	krahasuar	krahasoj	VERB	_	VerbForm=Part	23	amod	_	start_char=137|end_char=146|NER=O
+28	me	me	ADP	_	Case=Acc	29	case	_	start_char=147|end_char=149|NER=O
+29	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=150|end_char=152|NER=O
+30	njëjtën	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	det	_	start_char=153|end_char=160|NER=O
+31	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	start_char=161|end_char=169|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=170|end_char=172|NER=O
+33	një	një	DET	_	Definite=Ind	32	det	_	start_char=173|end_char=176|NER=O
+34	viti	vit	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	start_char=177|end_char=181|NER=O
+35	më	më	PART	_	_	34	advmod	_	start_char=182|end_char=184|NER=O
+36	parë	parë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=185|end_char=189|NER=O
+37	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=190|end_char=193|NER=O
+38	me	me	ADP	_	Case=Acc	38	case	_	start_char=194|end_char=196|NER=O
+39	pas	pas	ADP	_	Case=Abl	38	case	_	start_char=197|end_char=200|NER=O
+40	pikat	pikat	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	32	conj	_	start_char=201|end_char=206|NER=O
+41	detare	detar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	38	amod	_	start_char=207|end_char=213|NER=O
+42	me	me	ADP	_	Case=Acc	42	case	_	start_char=214|end_char=216|NER=O
+43	47	47	NUM	_	NumType=Card	42	nummod	_	start_char=217|end_char=219|SpaceAfter=No|NER=O
+44	,	,	PUNCT	_	_	42	punct	_	start_char=220|end_char=221|SpaceAfter=No|NER=O
+45	5	5	NUM	_	NumType=Card	42	nummod	_	start_char=222|end_char=223|SpaceAfter=No|NER=O
+46	%	%	SYM	_	_	38	nmod	_	start_char=224|end_char=225|SpacesAfter=\n|NER=O
+

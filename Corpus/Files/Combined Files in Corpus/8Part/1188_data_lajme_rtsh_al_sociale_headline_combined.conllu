@@ -1,0 +1,63 @@
+# text = Tiranë , u hap Spitali i ri i Sëmundjeve të Brendshme , një investim me kapacitet 60 shtretër .
+# sent_id = 0
+1	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-VEND_0
+2	,	,	PUNCT	_	_	24	punct	_	start_char=7|end_char=8|NER=O
+3	u	u	PART	_	_	24	fixed	_	start_char=9|end_char=10|NER=O
+4	hap	hap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	conj	_	start_char=11|end_char=14|NER=O
+5	Spitali	spital	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=15|end_char=22|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=23|end_char=24|NER=O
+7	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=25|end_char=27|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	29	det:poss	_	start_char=28|end_char=29|NER=O
+9	Sëmundjeve	sëmundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	start_char=30|end_char=40|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	31	det:poss	_	start_char=41|end_char=43|NER=O
+11	Brendshme	brendshme	PROPN	_	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	start_char=44|end_char=53|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	34	punct	_	start_char=54|end_char=55|NER=O
+13	një	një	DET	_	Definite=Ind	34	det	_	start_char=56|end_char=59|NER=O
+14	investim	investim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	list	_	start_char=60|end_char=68|NER=O
+15	me	me	ADP	_	Case=Acc	36	case	_	start_char=69|end_char=71|NER=O
+16	kapacitet	kapacit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	start_char=72|end_char=81|NER=O
+17	60	60	NUM	_	NumType=Card	36	flat	_	start_char=82|end_char=84|NER=O
+18	shtretër	shtretër	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	36	nmod	_	start_char=85|end_char=93|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	24	punct	_	start_char=94|end_char=95|NER=O
+
+# text = Spitalin e ri , i ndërtuar sipas kushteve bashkëkohore , duke krijuar kështu një tjetër qendër reference me standarde evropiane në vendin tone , e inspektoi ministrja e Shëndetësisë , Ogerta Manastirliu .
+# sent_id = 1
+1	Spitalin	Spital	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=9|end_char=10|NER=O
+3	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=11|end_char=13|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=14|end_char=15|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=17|NER=O
+6	ndërtuar	ndërtuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=18|end_char=26|NER=O
+7	sipas	sipas	ADP	_	Case=Abl	8	case	_	start_char=27|end_char=32|NER=O
+8	kushteve	kusht	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	start_char=33|end_char=41|NER=O
+9	bashkëkohore	bashkëkohor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=42|end_char=54|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=55|end_char=56|NER=O
+11	duke	duke	PART	_	_	12	fixed	_	start_char=57|end_char=61|NER=O
+12	krijuar	krijoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=62|end_char=69|NER=O
+13	kështu	kështu	ADV	_	AdvType=Man	12	advmod	_	start_char=70|end_char=76|NER=O
+14	një	një	DET	_	Definite=Ind	16	det	_	start_char=77|end_char=80|NER=O
+15	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nummod	_	start_char=81|end_char=87|NER=O
+16	qendër	qendër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=88|end_char=94|NER=O
+17	reference	referenc	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=95|end_char=104|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=105|end_char=107|NER=O
+19	standarde	standard	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=108|end_char=117|NER=O
+20	evropiane	evropian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=118|end_char=127|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=128|end_char=130|NER=O
+22	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=131|end_char=137|NER=O
+23	tone	tone	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	flat	_	start_char=138|end_char=142|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	26	punct	_	start_char=143|end_char=144|NER=O
+25	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=145|end_char=146|NER=O
+26	inspektoi	inspektoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	start_char=147|end_char=156|NER=O
+27	ministrja	ministrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=157|end_char=166|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=167|end_char=168|NER=O
+29	Shëndetësisë	shëndetësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=169|end_char=181|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	31	punct	_	start_char=182|end_char=183|NER=O
+31	Ogerta	Ogertë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	appos	_	start_char=184|end_char=190|NER=B-PER
+32	Manastirliu	manastirli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	flat	_	start_char=191|end_char=202|SpaceAfter=No|NER=I-PER
+33	.	.	PUNCT	_	_	26	punct	_	start_char=203|end_char=204|SpacesAfter=\n|NER=O
+
+# text = Gazetare :
+# sent_id = 2
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+

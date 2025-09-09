@@ -1,0 +1,118 @@
+# text = 28 / 09 / 2023 është Drejtoria e Ujitjes dhe Kullimit në Fier , ajo që po kryen investimet në gjatësinë prej 6 km e gjysëm .
+# sent_id = 0
+1	28	28	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=15|end_char=20|NER=O
+7	Drejtoria	drejtori	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	cop	_	start_char=21|end_char=30|NER=B-ORG
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=31|end_char=32|NER=I-ORG
+9	Ujitjes	Ujitje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=33|end_char=40|NER=I-ORG
+10	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=41|end_char=44|NER=I-ORG
+11	Kullimit	Kullim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	start_char=45|end_char=53|NER=I-ORG
+12	në	në	ADP	_	Case=Acc	8	case	_	start_char=54|end_char=56|NER=O
+13	Fier	Fier	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	start_char=57|end_char=61|SpaceAfter=No|NER=B-VEND_0
+14	,	,	PUNCT	_	_	10	punct	_	start_char=62|end_char=63|NER=O
+15	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	parataxis	_	start_char=64|end_char=67|NER=O
+16	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=68|end_char=70|NER=O
+17	po	po	PART	_	_	13	mark	_	start_char=71|end_char=73|NER=O
+18	kryen	kryej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	start_char=74|end_char=79|NER=O
+19	investimet	investim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	start_char=80|end_char=90|NER=O
+20	në	në	ADP	_	Case=Acc	16	case	_	start_char=91|end_char=93|NER=O
+21	gjatësinë	gjatësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	start_char=94|end_char=103|NER=O
+22	prej	prej	ADP	_	Case=Abl	19	case	_	start_char=104|end_char=108|NER=O
+23	6	6	NUM	_	NumType=Card	19	nummod	_	start_char=109|end_char=110|NER=O
+24	km	km	NOUN	_	_	13	advmod	_	start_char=111|end_char=113|NER=O
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=114|end_char=115|NER=O
+26	gjysëm	gjysëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=116|end_char=122|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	13	punct	_	start_char=123|end_char=124|SpacesAfter=\n|NER=O
+
+# text = Që nga viti 1963 , kur u ndërtua për herë të parë , argjinatura kishte pësuar dëmtime të shumta .
+# sent_id = 1
+1	Që	që	PART	_	_	3	mark:emph	_	start_char=0|end_char=2|NER=O
+2	nga	nga	ADP	_	Case=Nom	3	case	_	start_char=3|end_char=6|NER=O
+3	viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	start_char=7|end_char=11|NER=O
+4	1963	1963	NUM	_	NumType=Card	3	amod:nummod	_	start_char=12|end_char=16|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=17|end_char=18|NER=O
+6	kur	kur	SCONJ	_	_	8	mark	_	start_char=19|end_char=22|NER=O
+7	u	u	PART	_	_	8	fixed	_	start_char=23|end_char=24|NER=O
+8	ndërtua	ndërtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	advcl	_	start_char=25|end_char=32|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=33|end_char=36|NER=O
+10	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=37|end_char=41|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=42|end_char=44|NER=O
+12	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=45|end_char=49|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	8	punct	_	start_char=50|end_char=51|NER=O
+14	argjinatura	argjinaturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	start_char=52|end_char=63|NER=O
+15	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	16	aux	_	start_char=64|end_char=70|NER=O
+16	pësuar	pësoj	VERB	_	VerbForm=Part	0	root	_	start_char=71|end_char=77|NER=O
+17	dëmtime	dëmtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	start_char=78|end_char=85|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=86|end_char=88|NER=O
+19	shumta	shumta	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=89|end_char=95|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	16	punct	_	start_char=96|end_char=97|NER=O
+
+# text = Në vitin 2016 , argjinatura e Shkumbinit u ça në Çermë duke shkaktuar përmbytje të mëdha .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=3|end_char=8|NER=B-DATE_0
+3	2016	2016	NUM	_	NumType=Card	2	amod:nummod	_	start_char=9|end_char=13|SpaceAfter=No|NER=I-DATE_0
+4	,	,	PUNCT	_	_	2	punct	_	start_char=14|end_char=15|NER=O
+5	argjinatura	argjinaturë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=16|end_char=27|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=28|end_char=29|NER=O
+7	Shkumbinit	shkumbin	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=30|end_char=40|NER=O
+8	u	u	PART	_	_	9	fixed	_	start_char=41|end_char=42|NER=O
+9	ça	çam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=43|end_char=45|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+11	Çermë	Çermë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=49|end_char=54|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=55|end_char=59|NER=O
+13	shkaktuar	shkaktoj	VERB	_	VerbForm=Part	9	advmod	_	start_char=60|end_char=69|NER=O
+14	përmbytje	përmbytje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=70|end_char=79|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	16	det	_	start_char=80|end_char=82|NER=O
+16	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=83|end_char=88|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	9	punct	_	start_char=89|end_char=90|SpacesAfter=\n|NER=O
+
+# text = Rehabilitimi i argjinaturës së lumit Shkumbin dhe mbrojtjes nga gërryerjet në Çermë dhe Kular , po kryhet me fondet e Ministrisë së Bujqësisë në vlerën e 32 , 032 , 410 , 48 lekë .
+# sent_id = 3
+1	Rehabilitimi	dehabilitim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=0|end_char=12|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=13|end_char=14|NER=O
+3	argjinaturës	argjinaturë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=15|end_char=27|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det:poss	_	start_char=28|end_char=30|NER=O
+5	lumit	lumë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=31|end_char=36|NER=O
+6	Shkumbin	shkumb	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=37|end_char=45|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=46|end_char=49|NER=O
+8	mbrojtjes	mbrojtje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=50|end_char=59|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=60|end_char=63|NER=O
+10	gërryerjet	gërryerje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=64|end_char=74|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=75|end_char=77|NER=O
+12	Çermë	Çermë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=78|end_char=83|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=84|end_char=87|NER=O
+14	Kular	Kular	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	start_char=88|end_char=93|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=94|end_char=95|NER=O
+16	po	po	PART	_	_	17	mark	_	start_char=96|end_char=98|NER=O
+17	kryhet	kryhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=99|end_char=105|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=106|end_char=108|NER=O
+19	fondet	fond	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obl	_	start_char=109|end_char=115|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det:poss	_	start_char=116|end_char=117|NER=O
+21	Ministrisë	ministri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=118|end_char=128|NER=B-ORG
+22	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=129|end_char=131|NER=I-ORG
+23	Bujqësisë	Bujqësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	start_char=132|end_char=141|NER=I-ORG
+24	në	në	ADP	_	Case=Acc	25	case	_	start_char=142|end_char=144|NER=O
+25	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=145|end_char=151|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=152|end_char=153|NER=O
+27	32	32	NUM	_	NumType=Card	25	amod:poss	_	start_char=154|end_char=156|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	29	punct	_	start_char=157|end_char=158|NER=O
+29	032	032	NUM	_	NumType=Card	27	conj	_	start_char=159|end_char=162|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	31	punct	_	start_char=163|end_char=164|NER=O
+31	410	410	NUM	_	NumType=Card	29	parataxis	_	start_char=165|end_char=168|SpaceAfter=No|NER=O
+32	,	,	PUNCT	_	_	31	punct	_	start_char=169|end_char=170|NER=O
+33	48	48	NUM	_	NumType=Card	34	nummod	_	start_char=171|end_char=173|NER=O
+34	lekë	lekë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	31	conj	_	start_char=174|end_char=178|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	17	punct	_	start_char=179|end_char=180|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Megi Mëhilli
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Megi	Megi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Mëhilli	Mëhill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

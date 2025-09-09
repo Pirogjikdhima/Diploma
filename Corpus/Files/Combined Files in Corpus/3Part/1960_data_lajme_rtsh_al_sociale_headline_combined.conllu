@@ -1,0 +1,64 @@
+# text = Mjekja okuliste e poliklinikës Nr .
+# sent_id = 0
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=0|end_char=6|NER=O
+2	okuliste	okulist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=15|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=16|end_char=17|NER=O
+4	poliklinikës	poliklinikë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=18|end_char=30|NER=O
+5	Nr	Nr	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=31|end_char=33|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	4	punct	_	start_char=34|end_char=35|SpaceAfter=No|NER=O
+
+# text = 3 Zana Zhuka në në intervistë për RTSH tregon përhapjen e këtij infeksioni në sy dhe çfarë përmasash serioze merr kjo sëmundje nëse nuk trajtohet kohë .
+# sent_id = 1
+1	3	3	NUM	_	NumType=Card	7	flat	_	start_char=0|end_char=1|NER=O
+2	Zana	Zana	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=2|end_char=6|NER=B-PER
+3	Zhuka	Zhukë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=7|end_char=12|NER=I-PER
+4	në	në	ADP	_	Case=Acc	11	case	_	start_char=13|end_char=15|NER=O
+5	në	në	ADP	_	Case=Acc	11	case	_	start_char=16|end_char=18|NER=O
+6	intervistë	intervistë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=19|end_char=29|NER=O
+7	për	për	ADP	_	Case=Acc	13	case	_	start_char=30|end_char=33|NER=O
+8	RTSH	RTSH	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=34|end_char=38|NER=O
+9	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=45|NER=O
+10	përhapjen	përhapje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=46|end_char=55|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=56|end_char=57|NER=O
+12	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=58|end_char=63|NER=O
+13	infeksioni	infeksion	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=64|end_char=74|NER=O
+14	në	në	ADP	_	Case=Acc	20	case	_	start_char=75|end_char=77|NER=O
+15	sy	sy	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	start_char=78|end_char=80|NER=O
+16	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=81|end_char=84|NER=O
+17	çfarë	çfarë	PRON	_	PronType=Ind	23	nummod	_	start_char=85|end_char=90|NER=O
+18	përmasash	përmasash	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	start_char=91|end_char=100|NER=O
+19	serioze	serioz	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=101|end_char=108|NER=O
+20	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	start_char=109|end_char=113|NER=O
+21	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	27	det	_	start_char=114|end_char=117|NER=O
+22	sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	25	obj	_	start_char=118|end_char=126|NER=O
+23	nëse	nëse	SCONJ	_	_	30	mark	_	start_char=127|end_char=131|NER=O
+24	nuk	nuk	PART	_	_	30	mark	_	start_char=132|end_char=135|NER=O
+25	trajtohet	trajtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	ccomp	_	start_char=136|end_char=145|NER=O
+26	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obj	_	start_char=146|end_char=150|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	25	punct	_	start_char=151|end_char=152|SpacesAfter=\n|NER=O
+
+# text = Sipas një studimi , fëmijët në shkollat publikë në Amerikë humbasin 3 milion ditë mësimi çdo vit nga gripi i syrit .
+# sent_id = 2
+1	Sipas	sipas	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=6|end_char=9|NER=O
+3	studimi	studim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	11	advmod	_	start_char=10|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=18|end_char=19|NER=O
+5	fëmijët	fëmijë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	nsubj	_	start_char=20|end_char=27|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=28|end_char=30|NER=O
+7	shkollat	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=31|end_char=39|NER=O
+8	publikë	publikë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=40|end_char=47|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=48|end_char=50|NER=O
+10	Amerikë	Amerikë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=51|end_char=58|NER=B-VEND_1
+11	humbasin	humbas	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=59|end_char=67|NER=O
+12	3	3	NUM	_	NumType=Card	14	nummod	_	start_char=68|end_char=69|NER=O
+13	milion	milio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	det	_	start_char=70|end_char=76|NER=O
+14	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=77|end_char=81|NER=O
+15	mësimi	mësim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=82|end_char=88|NER=O
+16	çdo	çdo	PRON	_	PronType=Ind	17	nummod	_	start_char=89|end_char=92|NER=O
+17	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	start_char=93|end_char=96|NER=O
+18	nga	nga	ADP	_	Case=Nom	19	case	_	start_char=97|end_char=100|NER=O
+19	gripi	grip	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	start_char=101|end_char=106|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=107|end_char=108|NER=O
+21	syrit	syr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	start_char=109|end_char=114|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	11	punct	_	start_char=115|end_char=116|SpacesAfter=\n\n|NER=O
+

@@ -1,0 +1,161 @@
+# text = 13 / 11 / 2023 Në Shqipëri vuajnë nga diabeti 80 mijë persona ose e thënë ndryshe rreth 9 % e popullatës .
+# sent_id = 0
+1	13	13	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	17	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	11	11	NUM	_	NumType=Card	17	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Në	në	ADP	_	Case=Acc	23	case	_	start_char=15|end_char=17|NER=O
+7	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=18|end_char=26|NER=B-VEND_1
+8	vuajnë	vuaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=27|end_char=33|NER=O
+9	nga	nga	ADP	_	Case=Nom	26	case	_	start_char=34|end_char=37|NER=O
+10	diabeti	diabet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	start_char=38|end_char=45|NER=O
+11	80	80	NUM	_	NumType=Card	26	nummod	_	start_char=46|end_char=48|NER=O
+12	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	29	nummod	_	start_char=49|end_char=53|NER=O
+13	persona	person	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	26	nmod	_	start_char=54|end_char=61|NER=O
+14	ose	ose	CCONJ	_	_	32	cc	_	start_char=62|end_char=65|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	32	fixed	_	start_char=66|end_char=67|NER=O
+16	thënë	them	VERB	_	VerbForm=Part	24	conj	_	start_char=68|end_char=73|NER=O
+17	ndryshe	ndryshe	ADV	_	AdvType=Man	32	advmod	_	start_char=74|end_char=81|NER=O
+18	rreth	rreth	ADP	_	Case=Abl	35	case	_	start_char=82|end_char=87|NER=O
+19	9	9	NUM	_	NumType=Card	32	obl	_	start_char=88|end_char=89|NER=O
+20	%	%	PUNCT	_	_	32	punct	_	start_char=90|end_char=91|NER=O
+21	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=92|end_char=93|NER=O
+22	popullatës	popullatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=94|end_char=104|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	32	punct	_	start_char=105|end_char=106|NER=O
+
+# text = Por ajo që është alarmante për mjekët është pjesa e pa diagnostikuar .
+# sent_id = 1
+1	Por	por	CCONJ	_	_	8	cc	_	start_char=0|end_char=3|NER=O
+2	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=4|end_char=7|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=8|end_char=10|NER=O
+4	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=11|end_char=16|NER=O
+5	alarmante	alarmant	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=17|end_char=26|NER=O
+6	për	për	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=30|NER=O
+7	mjekët	mjekë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	obl	_	start_char=31|end_char=37|NER=O
+8	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=43|NER=O
+9	pjesa	pjesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	cop	_	start_char=44|end_char=49|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	start_char=50|end_char=51|NER=O
+11	pa	pa	PART	_	_	12	fixed	_	start_char=52|end_char=54|NER=O
+12	diagnostikuar	diagnostikoj	VERB	_	VerbForm=Part	9	advmod	_	start_char=55|end_char=68|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	8	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Rreth 7 % vuajnë nga kjo sëmundje janë prekur por nuk e dinë .
+# sent_id = 2
+1	Rreth	rreth	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=5|NER=O
+2	7	7	NUM	_	NumType=Card	3	nummod	_	start_char=6|end_char=7|NER=O
+3	%	%	SYM	_	_	4	advmod	_	start_char=8|end_char=9|NER=O
+4	vuajnë	vuaj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	advcl	_	start_char=10|end_char=16|NER=O
+5	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=17|end_char=20|NER=O
+6	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=21|end_char=24|NER=O
+7	sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	start_char=25|end_char=33|NER=O
+8	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=34|end_char=38|NER=O
+9	prekur	prek	VERB	_	VerbForm=Part	0	root	_	start_char=39|end_char=45|NER=O
+10	por	por	CCONJ	_	_	13	cc	_	start_char=46|end_char=49|NER=O
+11	nuk	nuk	PART	_	_	13	mark	_	start_char=50|end_char=53|NER=O
+12	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=54|end_char=55|NER=O
+13	dinë	dam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=56|end_char=60|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	9	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = " Fatkeqësisht këto përbëjnë numrin më të madh të rasteve që diagnostikohen pas një viti apo 6 muajve të fillimit të tij .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Fatkeqësisht	fatkeqësisht	ADV	_	AdvType=Man	4	advmod	_	start_char=2|end_char=14|NER=O
+3	këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	iobj	_	start_char=15|end_char=19|NER=O
+4	përbëjnë	përbëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=28|NER=O
+5	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=29|end_char=35|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=36|end_char=38|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=39|end_char=41|NER=O
+8	madh	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=42|end_char=46|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=47|end_char=49|NER=O
+10	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=50|end_char=57|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=58|end_char=60|NER=O
+12	diagnostikohen	diagnostikoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	acl	_	start_char=61|end_char=75|NER=O
+13	pas	pas	ADP	_	Case=Abl	15	case	_	start_char=76|end_char=79|NER=O
+14	një	një	DET	_	Definite=Ind	15	det	_	start_char=80|end_char=83|NER=O
+15	viti	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=84|end_char=88|NER=O
+16	apo	apo	CCONJ	_	_	18	cc	_	start_char=89|end_char=92|NER=O
+17	6	6	NUM	_	NumType=Card	18	nummod	_	start_char=93|end_char=94|NER=O
+18	muajve	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	15	conj	_	start_char=95|end_char=101|NER=O
+19	të	të	DET	_	Case=Abl|Gender=Masc|Number=Plur|PronType=Art	20	det:poss	_	start_char=102|end_char=104|NER=O
+20	fillimit	fillim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=105|end_char=113|NER=O
+21	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=114|end_char=116|NER=O
+22	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	amod:poss	_	start_char=117|end_char=120|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	12	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Me programet që bëjmë ne të depistimit ne zbulojmë raste të reja të pa trajtuara më parë dhe këto janë gjithnjë e në rritje " , tha endokrinologia Edlira Hoxha .
+# sent_id = 4
+1	Me	me	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	programet	program	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	advmod	_	start_char=3|end_char=12|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=13|end_char=15|NER=O
+4	bëjmë	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	acl:relcl	_	start_char=16|end_char=21|NER=O
+5	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	obj	_	start_char=22|end_char=24|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det	_	start_char=25|end_char=27|NER=O
+7	depistimit	depistim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=28|end_char=38|NER=O
+8	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=39|end_char=41|NER=O
+9	zbulojmë	zbuloj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=42|end_char=50|NER=O
+10	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	start_char=51|end_char=56|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=59|NER=O
+12	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=60|end_char=64|NER=O
+13	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=65|end_char=67|NER=O
+14	pa	pa	PART	_	_	15	det	_	start_char=68|end_char=70|NER=O
+15	trajtuara	trajtuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=71|end_char=80|NER=O
+16	më	më	PART	_	_	17	mark	_	start_char=81|end_char=83|NER=O
+17	parë	parë	ADV	_	AdvType=Man	15	advmod	_	start_char=84|end_char=88|NER=O
+18	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=89|end_char=92|NER=O
+19	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	20	nsubj	_	start_char=93|end_char=97|NER=O
+20	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	start_char=98|end_char=102|NER=O
+21	gjithnjë	gjithnjë	ADV	_	AdvType=Deg	20	advmod	_	start_char=103|end_char=111|NER=O
+22	e	e	CCONJ	_	_	24	cc	_	start_char=112|end_char=113|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=114|end_char=116|NER=O
+24	rritje	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	start_char=117|end_char=123|SpaceAfter=No|NER=O
+25	"	"	PUNCT	_	_	20	punct	_	start_char=124|end_char=125|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	26	punct	_	start_char=126|end_char=127|NER=O
+27	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	start_char=128|end_char=131|NER=O
+28	endokrinologia	endokrinologia	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	obj	_	start_char=132|end_char=146|NER=O
+29	Edlira	Edlirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	appos	_	start_char=147|end_char=153|NER=B-PER
+30	Hoxha	Hoxhë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	flat	_	start_char=154|end_char=159|SpaceAfter=No|NER=I-PER
+31	.	.	PUNCT	_	_	26	punct	_	start_char=160|end_char=161|SpacesAfter=\n|NER=O
+
+# text = " Tharje e gojës , urinim i shpeshtë , rënie e shpejtë në peshë , ulje e mendjeshumë e shikimit etj janë ankesa qe mund ti kenë prej disa muajve dhe pacientet i neglizhojnë " , tha Edlira Hoxha
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Tharje	tharje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	start_char=2|end_char=8|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=9|end_char=10|NER=O
+4	gojës	gojë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=11|end_char=16|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	6	punct	_	start_char=17|end_char=18|NER=O
+6	urinim	urinim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	start_char=19|end_char=25|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=26|end_char=27|NER=O
+8	shpeshtë	shpeshtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=28|end_char=36|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=37|end_char=38|NER=O
+10	rënie	rënie	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	list	_	start_char=39|end_char=44|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=45|end_char=46|NER=O
+12	shpejtë	shpejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=47|end_char=54|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=55|end_char=57|NER=O
+14	peshë	peshë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	start_char=58|end_char=63|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=64|end_char=65|NER=O
+16	ulje	ulje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nsubj	_	start_char=66|end_char=70|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det:poss	_	start_char=71|end_char=72|NER=O
+18	mendjeshumë	mendjeshumë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=73|end_char=84|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=85|end_char=86|NER=O
+20	shikimit	shikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=87|end_char=95|NER=O
+21	etj	etj.	ADV	_	Abbr=Yes	20	amod	_	start_char=96|end_char=99|NER=O
+22	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=100|end_char=104|NER=O
+23	ankesa	ankesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	22	nsubj	_	start_char=105|end_char=111|NER=O
+24	qe	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=112|end_char=114|NER=O
+25	mund	mund	AUX	_	_	27	aux	_	start_char=115|end_char=119|NER=O
+26	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	27	mark	_	start_char=120|end_char=122|NER=O
+27	kenë	kam	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=123|end_char=127|NER=O
+28	prej	prej	ADP	_	Case=Abl	30	case	_	start_char=128|end_char=132|NER=O
+29	disa	disa	PRON	_	PronType=Ind	30	nummod	_	start_char=133|end_char=137|NER=O
+30	muajve	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	27	obl	_	start_char=138|end_char=144|NER=O
+31	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=145|end_char=148|NER=O
+32	pacientet	pacient	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	34	obj	_	start_char=149|end_char=158|NER=O
+33	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	iobj	_	start_char=159|end_char=160|NER=O
+34	neglizhojnë	neglizhoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	acl:relcl	_	start_char=161|end_char=172|SpaceAfter=No|NER=O
+35	"	"	PUNCT	_	_	30	punct	_	start_char=173|end_char=174|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	36	punct	_	start_char=175|end_char=176|NER=O
+37	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	34	conj	_	start_char=177|end_char=180|NER=O
+38	Edlira	Edlirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	36	nsubj	_	start_char=181|end_char=187|NER=B-PER
+39	Hoxha	Hoxhë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat	_	start_char=188|end_char=193|SpacesAfter=\n|NER=I-PER
+

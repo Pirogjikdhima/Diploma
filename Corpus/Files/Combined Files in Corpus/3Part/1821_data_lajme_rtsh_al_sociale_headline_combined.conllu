@@ -1,0 +1,74 @@
+# text = Një sëmundje e rrallë si Angiodema po rrezikon jetët e pacientëve në vendin tonë për shkak të mungesës së diagnostikimit në kohë dhe kufizimit të medikamentit jetëshpëtues në QSUT .
+# sent_id = 0
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	start_char=4|end_char=12|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=13|end_char=14|NER=O
+4	rrallë	rrallë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=15|end_char=21|NER=O
+5	si	si	SCONJ	_	_	6	mark	_	start_char=22|end_char=24|NER=O
+6	Angiodema	Angiodemë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=25|end_char=34|NER=O
+7	po	po	PART	_	_	8	mark	_	start_char=35|end_char=37|NER=O
+8	rrezikon	rrezikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=46|NER=O
+9	jetët	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	start_char=47|end_char=52|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=53|end_char=54|NER=O
+11	pacientëve	pacientë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	start_char=55|end_char=65|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=66|end_char=68|NER=O
+13	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=69|end_char=75|NER=O
+14	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	amod	_	start_char=76|end_char=80|NER=O
+15	për	për	ADP	_	Case=Acc	18	case	_	start_char=81|end_char=84|NER=O
+16	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	start_char=85|end_char=90|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=91|end_char=93|NER=O
+18	mungesës	mungesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=94|end_char=102|NER=O
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=103|end_char=105|NER=O
+20	diagnostikimit	diagnostikim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	start_char=106|end_char=120|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=121|end_char=123|NER=O
+22	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=124|end_char=128|NER=O
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=129|end_char=132|NER=O
+24	kufizimit	kufizim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	22	conj	_	start_char=133|end_char=142|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=143|end_char=145|NER=O
+26	medikamentit	medikament	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	start_char=146|end_char=158|NER=O
+27	jetëshpëtues	jetëshpëtues	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=159|end_char=171|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=172|end_char=174|NER=O
+29	QSUT	QSUT	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=175|end_char=179|SpaceAfter=No|NER=B-ORG
+30	.	.	PUNCT	_	_	8	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = Silvana Bastri paciente me këtë diagnozë , thotë se kjo sëmundje nuk ka shërim por vetëm trajtohet me medikamente jetëshpëtuese të cilat në Shqipëri tenderohen në gjysmën e sasisë në raport me numrin e pacientëve të regjistruar .
+# sent_id = 1
+1	Silvana	silvanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Bastri	Bastri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=14|NER=I-PER
+3	paciente	paciej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=23|NER=O
+4	me	me	ADP	_	Case=Acc	6	case	_	start_char=24|end_char=26|NER=O
+5	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=27|end_char=31|NER=O
+6	diagnozë	diagnozë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=32|end_char=40|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=41|end_char=42|NER=O
+8	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=43|end_char=48|NER=O
+9	se	se	SCONJ	_	_	13	mark	_	start_char=49|end_char=51|NER=O
+10	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=52|end_char=55|NER=O
+11	sëmundje	sëmundje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nsubj	_	start_char=56|end_char=64|NER=O
+12	nuk	nuk	PART	_	_	13	mark	_	start_char=65|end_char=68|NER=O
+13	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=69|end_char=71|NER=O
+14	shërim	shërim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	start_char=72|end_char=78|NER=O
+15	por	por	CCONJ	_	_	17	cc	_	start_char=79|end_char=82|NER=O
+16	vetëm	vetëm	PART	_	_	17	mark	_	start_char=83|end_char=88|NER=O
+17	trajtohet	trajtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	13	conj	_	start_char=89|end_char=98|NER=O
+18	me	me	ADP	_	Case=Acc	19	case	_	start_char=99|end_char=101|NER=O
+19	medikamente	medikament	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	start_char=102|end_char=113|NER=O
+20	jetëshpëtuese	jetëshpëtues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=114|end_char=127|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=128|end_char=130|NER=O
+22	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	25	nsubj	_	start_char=131|end_char=136|NER=O
+23	në	në	ADP	_	Case=Acc	24	case	_	start_char=137|end_char=139|NER=O
+24	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=140|end_char=148|NER=B-VEND_1
+25	tenderohen	tenderoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	19	acl	_	start_char=149|end_char=159|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=160|end_char=162|NER=O
+27	gjysmën	gjysmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=163|end_char=170|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=171|end_char=172|NER=O
+29	sasisë	sasisë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=173|end_char=179|NER=O
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=180|end_char=182|NER=O
+31	raport	rapor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	start_char=183|end_char=189|NER=O
+32	me	me	ADP	_	Case=Acc	33	case	_	start_char=190|end_char=192|NER=O
+33	numrin	numër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	advmod	_	start_char=193|end_char=199|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=200|end_char=201|NER=O
+35	pacientëve	pacientë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	33	nmod	_	start_char=202|end_char=212|NER=O
+36	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	37	det	_	start_char=213|end_char=215|NER=O
+37	regjistruar	regjistruar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	35	amod	_	start_char=216|end_char=227|NER=O
+38	.	.	PUNCT	_	_	25	punct	_	start_char=228|end_char=229|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,105 @@
+# text = Kënga fituese është e shkruar nga Eriona Rushiti dhe e kompozuar nga Enis Mullaj .
+# sent_id = 0
+1	Kënga	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	fituese	fitues	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=6|end_char=13|NER=O
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	shkruar	shkruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=22|end_char=29|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=30|end_char=33|NER=O
+7	Eriona	Erionë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=34|end_char=40|NER=B-PER
+8	Rushiti	Rushit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=41|end_char=48|NER=I-PER
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=49|end_char=52|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=53|end_char=54|NER=O
+11	kompozuar	kompozuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=55|end_char=64|NER=O
+12	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=65|end_char=68|NER=O
+13	Enis	Enis	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	obl:agent	_	start_char=69|end_char=73|NER=B-PER
+14	Mullaj	Mullaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=74|end_char=80|SpaceAfter=No|NER=I-PER
+15	.	.	PUNCT	_	_	3	punct	_	start_char=81|end_char=82|SpacesAfter=\n|NER=O
+
+# text = Publikut do t ' i jepet mundësia të votojë për 3 këngët e tij të preferuara online nga data 24 nëntor .
+# sent_id = 1
+1	Publikut	Publik	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+3	t	t'i	PART	_	_	4	obj	_	start_char=12|end_char=13|NER=O
+4	'	'	PUNCT	_	_	4	punct	_	start_char=14|end_char=15|NER=O
+5	i	t'i	PART	_	_	4	obj	_	start_char=16|end_char=17|NER=O
+6	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=18|end_char=23|NER=O
+7	mundësia	mundësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=24|end_char=32|NER=O
+8	të	të	PART	_	_	7	fixed	_	start_char=33|end_char=35|NER=O
+9	votojë	votoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=36|end_char=42|NER=O
+10	për	për	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=46|NER=O
+11	3	3	NUM	_	NumType=Card	10	nummod	_	start_char=47|end_char=48|NER=O
+12	këngët	këngë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=49|end_char=55|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=56|end_char=57|NER=O
+14	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	amod:poss	_	start_char=58|end_char=61|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=62|end_char=64|NER=O
+16	preferuara	preferuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=65|end_char=75|NER=O
+17	online	onlin	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=76|end_char=82|NER=O
+18	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=83|end_char=86|NER=O
+19	data	datë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=87|end_char=91|NER=O
+20	24	24	NUM	_	NumType=Card	19	nummod	_	start_char=92|end_char=94|NER=B-DATE_0
+21	nëntor	nëntor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=95|end_char=101|SpaceAfter=No|NER=I-DATE_0
+22	.	.	PUNCT	_	_	4	punct	_	start_char=102|end_char=103|SpacesAfter=\n|NER=O
+
+# text = Delegacioni i RTSH është nisur këtë të diel drejt Francës për të zhvilluar periudhën parakrake të provave , në kuadër të përgatitjes për natën finale .
+# sent_id = 2
+1	Delegacioni	delegacion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=11|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=12|end_char=13|NER=O
+3	RTSH	RTSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=14|end_char=18|NER=B-ORG
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=19|end_char=24|NER=O
+5	nisur	nis	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=30|NER=O
+6	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=31|end_char=35|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=36|end_char=38|NER=O
+8	diel	diel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=39|end_char=43|NER=O
+9	drejt	drejt	ADP	_	Case=Abl	10	case	_	start_char=44|end_char=49|NER=O
+10	Francës	Francë	PROPN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=50|end_char=57|NER=B-VEND_1
+11	për	për	PART	_	_	13	fixed	_	start_char=58|end_char=61|NER=O
+12	të	të	PART	_	_	13	fixed	_	start_char=62|end_char=64|NER=O
+13	zhvilluar	zhvilloj	VERB	_	VerbForm=Part	5	advmod	_	start_char=65|end_char=74|NER=O
+14	periudhën	periudhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=75|end_char=84|NER=O
+15	parakrake	parakrak	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=85|end_char=94|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=95|end_char=97|NER=O
+17	provave	provë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=98|end_char=105|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	20	punct	_	start_char=106|end_char=107|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=108|end_char=110|NER=O
+20	kuadër	kuadër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=111|end_char=117|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	det:poss	_	start_char=118|end_char=120|NER=O
+22	përgatitjes	përgatitje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=121|end_char=132|NER=O
+23	për	për	ADP	_	Case=Acc	24	case	_	start_char=133|end_char=136|NER=O
+24	natën	natë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=137|end_char=142|NER=O
+25	finale	finale	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	nmod	_	start_char=143|end_char=149|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	5	punct	_	start_char=150|end_char=151|SpacesAfter=\n|NER=O
+
+# text = Ashtu siç do vit edhe në këtë edicion te Eurovision Song Contest pritet që artistët e rinj të dhurojnë një shfaqje magjike .
+# sent_id = 3
+1	Ashtu	ashtu	ADV	_	AdvType=Man	2	fixed	_	start_char=0|end_char=5|NER=O
+2	siç	siç	SCONJ	_	_	4	mark	_	start_char=6|end_char=9|NER=O
+3	do	do	PART	_	_	4	fixed	_	start_char=10|end_char=12|NER=O
+4	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=13|end_char=16|NER=O
+5	edhe	edhe	PART	_	_	8	cc	_	start_char=17|end_char=21|NER=O
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=22|end_char=24|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=25|end_char=29|NER=O
+8	edicion	edicio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=30|end_char=37|NER=O
+9	te	te	ADP	_	Case=Nom	10	case	_	start_char=38|end_char=40|NER=O
+10	Eurovision	Eurovision	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=41|end_char=51|NER=B-EVENT
+11	Song	Song	PROPN	_	Foreign=Yes	10	flat	_	start_char=52|end_char=56|NER=I-EVENT
+12	Contest	Contest	PROPN	_	Foreign=Yes	11	flat	_	start_char=57|end_char=64|NER=I-EVENT
+13	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=65|end_char=71|NER=O
+14	që	që	SCONJ	_	_	19	mark	_	start_char=72|end_char=74|NER=O
+15	artistët	artistë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	obj	_	start_char=75|end_char=83|NER=O
+16	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=84|end_char=85|NER=O
+17	rinj	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=86|end_char=90|NER=O
+18	të	të	PART	_	_	19	fixed	_	start_char=91|end_char=93|NER=O
+19	dhurojnë	dhuroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=94|end_char=102|NER=O
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=103|end_char=106|NER=O
+21	shfaqje	shfaqje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	start_char=107|end_char=114|NER=O
+22	magjike	magjik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=115|end_char=122|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	13	punct	_	start_char=123|end_char=124|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Keti Toroveci
+# sent_id = 4
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Keti	Keti	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=16|end_char=24|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,165 @@
+# text = Lindi djalin në gusht , Delinda Disha gati emrin e vajzës ?
+# sent_id = 0
+1	Lindi	Lind	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	djalin	djalë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	start_char=6|end_char=12|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=13|end_char=15|NER=O
+4	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=16|end_char=21|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|NER=O
+6	Delinda	Delindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=24|end_char=31|NER=B-PER
+7	Disha	dishaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	conj	_	start_char=32|end_char=37|NER=I-PER
+8	gati	gati	ADV	_	AdvType=Deg	9	nummod	_	start_char=38|end_char=42|NER=O
+9	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=43|end_char=48|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=49|end_char=50|NER=O
+11	vajzës	vajzë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=51|end_char=57|SpaceAfter=No|NER=O
+12	?	?	PUNCT	_	_	7	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Emocionet e bekimit të ri 05 / 11 / 2023 Delinda Disha ishte në programin " E diela jonë " me Ermal Peçin .
+# sent_id = 1
+1	Emocionet	emocion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	3	det:poss	_	start_char=10|end_char=11|NER=O
+3	bekimit	bekim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=19|NER=O
+4	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=22|NER=O
+5	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=25|SpacesAfter=\n|NER=O
+6	05	05	NUM	_	NumType=Card	3	amod	_	start_char=26|end_char=28|SpaceAfter=No|NER=B-DATE_0
+7	/	/	PUNCT	_	_	6	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=I-DATE_0
+8	11	11	NUM	_	NumType=Card	6	flat	_	start_char=31|end_char=33|SpaceAfter=No|NER=I-DATE_0
+9	/	/	PUNCT	_	_	7	punct	_	start_char=34|end_char=35|SpacesAfter=\n|NER=I-DATE_0
+10	2023	2023	NUM	_	NumType=Card	7	conj	_	start_char=36|end_char=40|SpacesAfter=\n|NER=I-DATE_0
+11	Delinda	Delindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=41|end_char=48|NER=B-PER
+12	Disha	dishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	flat	_	start_char=49|end_char=54|NER=I-PER
+13	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=55|end_char=60|NER=O
+14	në	në	ADP	_	Case=Acc	13	case	_	start_char=61|end_char=63|NER=O
+15	programin	program	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl:arg	_	start_char=64|end_char=73|NER=O
+16	"	"	PUNCT	_	_	16	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+17	E	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=76|end_char=77|NER=O
+18	diela	dielë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=78|end_char=83|NER=O
+19	jonë	jonë	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	amod	_	start_char=84|end_char=88|SpaceAfter=No|NER=O
+20	"	"	PUNCT	_	_	16	punct	_	start_char=89|end_char=90|NER=O
+21	me	me	ADP	_	Case=Acc	20	case	_	start_char=91|end_char=93|NER=O
+22	Ermal	Ermal	PROPN	_	Foreign=Yes	11	advmod	_	start_char=94|end_char=99|NER=B-PER
+23	Peçin	Peçi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	flat	_	start_char=100|end_char=105|SpaceAfter=No|NER=I-PER
+24	.	.	PUNCT	_	_	11	punct	_	start_char=106|end_char=107|SpacesAfter=\n|NER=O
+
+# text = " Ndihem një mbretëreshë mes 3 burrave .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ndihem	ndihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=2|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	mbretëreshë	mbretëreshë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=13|end_char=24|NER=O
+5	mes	mes	ADP	_	Case=Abl	7	case	_	start_char=25|end_char=28|NER=O
+6	3	3	NUM	_	NumType=Card	7	nummod	_	start_char=29|end_char=30|NER=O
+7	burrave	burra	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	start_char=31|end_char=38|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	2	punct	_	start_char=39|end_char=40|NER=O
+
+# text = Kam bërë një lindje cezariane , të vështirë .
+# sent_id = 3
+1	Kam	kam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	bërë	bëj	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=8|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=9|end_char=12|NER=O
+4	lindje	lindje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=13|end_char=19|NER=O
+5	cezariane	cezarian	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=20|end_char=29|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=30|end_char=31|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=32|end_char=34|NER=O
+8	vështirë	vështirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=35|end_char=43|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	2	punct	_	start_char=44|end_char=45|NER=O
+
+# text = Se kam pasur mendjen kush më uroi , kush jo .
+# sent_id = 4
+1	Se	se	SCONJ	_	_	3	mark	_	start_char=0|end_char=2|NER=O
+2	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	3	aux	_	start_char=3|end_char=6|NER=O
+3	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=12|NER=O
+4	mendjen	mendje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=13|end_char=20|NER=O
+5	kush	kush	PRON	_	PronType=Int	7	nsubj	_	start_char=21|end_char=25|NER=O
+6	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	start_char=26|end_char=28|NER=O
+7	uroi	uroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	start_char=29|end_char=33|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=34|end_char=35|NER=O
+9	kush	kush	PRON	_	PronType=Ind	7	nsubj	_	start_char=36|end_char=40|NER=O
+10	jo	jo	PART	_	_	9	mark	_	start_char=41|end_char=43|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	7	punct	_	start_char=44|end_char=45|NER=O
+
+# text = Kam kaluar një post - partium të rëndë me Konstandinin .
+# sent_id = 5
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	kaluar	kaloj	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=10|NER=O
+3	një	një	DET	_	Definite=Ind	4	det	_	start_char=11|end_char=14|NER=O
+4	post	post-partium	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=15|end_char=19|NER=O
+5	-	-	PUNCT	_	_	2	punct	_	start_char=20|end_char=21|NER=O
+6	partium	post-partium	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=22|end_char=29|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=30|end_char=32|NER=O
+8	rëndë	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=33|end_char=38|NER=O
+9	me	me	ADP	_	Case=Acc	8	case	_	start_char=39|end_char=41|NER=O
+10	Konstandinin	Konstandin	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=42|end_char=54|SpaceAfter=No|NER=B-PER
+11	.	.	PUNCT	_	_	2	punct	_	start_char=55|end_char=56|NER=O
+
+# text = Vendosëm një emër shqiptar dhe kështu do të jetë edhe nëse bëj një fëmijë të tretë .
+# sent_id = 6
+1	Vendosëm	Vendoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=0|end_char=8|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=9|end_char=12|NER=O
+3	emër	emër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=13|end_char=17|NER=O
+4	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=18|end_char=26|NER=O
+5	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=27|end_char=30|NER=O
+6	kështu	kështu	ADV	_	AdvType=Man	9	mark	_	start_char=31|end_char=37|NER=O
+7	do	do	PART	_	_	9	fixed	_	start_char=38|end_char=40|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=41|end_char=43|NER=O
+9	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=44|end_char=48|NER=O
+10	edhe	edhe	CCONJ	_	_	12	cc	_	start_char=49|end_char=53|NER=O
+11	nëse	nëse	SCONJ	_	_	12	mark	_	start_char=54|end_char=58|NER=O
+12	bëj	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	advcl	_	start_char=59|end_char=62|NER=O
+13	një	një	DET	_	Definite=Ind	14	det	_	start_char=63|end_char=66|NER=O
+14	fëmijë	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=67|end_char=73|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=74|end_char=76|NER=O
+16	tretë	tretë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=77|end_char=82|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	12	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Nëse do bëj vajzë do ja vë emrin Tringa .
+# sent_id = 7
+1	Nëse	nëse	SCONJ	_	_	3	mark	_	start_char=0|end_char=4|NER=O
+2	do	do	PART	_	_	3	fixed	_	start_char=5|end_char=7|NER=O
+3	bëj	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	advcl	_	start_char=8|end_char=11|NER=O
+4	vajzë	vajzë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=12|end_char=17|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=18|end_char=20|NER=O
+6	ja	ja	PART	_	_	7	mark	_	start_char=21|end_char=23|NER=O
+7	vë	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=26|NER=O
+8	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=27|end_char=32|NER=O
+9	Tringa	Tringë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=33|end_char=39|SpaceAfter=No|NER=B-PER
+10	.	.	PUNCT	_	_	7	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+
+# text = " Së bashku me Ermalin , Delinda ishte krah Linda Jaranit dhe Madi Selimit për shfaqjen e tyre të fundit .
+# sent_id = 8
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Së	së	PART	_	_	2	det	_	start_char=2|end_char=4|NER=O
+3	bashku	bashku	ADV	_	AdvType=Man	7	advmod	_	start_char=5|end_char=11|NER=O
+4	me	me	ADP	_	Case=Acc	4	case	_	start_char=12|end_char=14|NER=O
+5	Ermalin	Ermal	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=15|end_char=22|SpaceAfter=No|NER=B-PER
+6	,	,	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|NER=O
+7	Delinda	Delindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=25|end_char=32|NER=B-PER
+8	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=33|end_char=38|NER=O
+9	krah	krah	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	cop	_	start_char=39|end_char=43|NER=O
+10	Linda	Lindë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=44|end_char=49|NER=B-PER
+11	Jaranit	Jaran	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=50|end_char=57|NER=I-PER
+12	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=58|end_char=61|NER=O
+13	Madi	Madi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	start_char=62|end_char=66|NER=B-PER
+14	Selimit	Selim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=67|end_char=74|NER=I-PER
+15	për	për	ADP	_	Case=Acc	15	case	_	start_char=75|end_char=78|NER=O
+16	shfaqjen	shfaqje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=79|end_char=87|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=88|end_char=89|NER=O
+18	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=90|end_char=94|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=95|end_char=97|NER=O
+20	fundit	fundit	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=98|end_char=104|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	7	punct	_	start_char=105|end_char=106|NER=O
+
+# text = Si ndihet Delinda përballë roleve të saj ?
+# sent_id = 9
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	ndihet	ndjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3|end_char=9|NER=O
+3	Delinda	Delindë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=10|end_char=17|NER=B-PER
+4	përballë	përballë	ADP	_	Case=Abl	5	case	_	start_char=18|end_char=26|NER=O
+5	roleve	role	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	start_char=27|end_char=33|NER=O
+6	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=34|end_char=36|NER=O
+7	saj	saj	PRON	_	Case=Abl|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	amod:poss	_	start_char=37|end_char=40|SpaceAfter=No|NER=O
+8	?	?	PUNCT	_	_	2	punct	_	start_char=41|end_char=42|SpacesAfter=\n|NER=O
+
+# text = "
+# sent_id = 10
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+

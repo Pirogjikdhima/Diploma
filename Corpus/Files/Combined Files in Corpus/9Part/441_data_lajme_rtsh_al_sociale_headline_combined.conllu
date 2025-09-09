@@ -1,0 +1,98 @@
+# text = " Jemi shumë të lumtur që fushatën tonë po e nisim me pastrimi e lumenjve .
+# sent_id = 0
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Jemi	Jem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	shumë	shumë	ADV	_	AdvType=Deg	5	advmod	_	start_char=7|end_char=12|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=13|end_char=15|NER=O
+5	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	cop	_	start_char=16|end_char=22|NER=O
+6	që	që	PRON	_	PronType=Rel	7	mark	_	start_char=23|end_char=25|NER=O
+7	fushatën	fushatë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	start_char=26|end_char=34|NER=O
+8	tonë	jonë	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	amod	_	start_char=35|end_char=39|NER=O
+9	po	po	PART	_	_	11	mark	_	start_char=40|end_char=42|NER=O
+10	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=43|end_char=44|NER=O
+11	nisim	nis	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	conj	_	start_char=45|end_char=50|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=51|end_char=53|NER=O
+13	pastrimi	pastrim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	start_char=54|end_char=62|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=63|end_char=64|NER=O
+15	lumenjve	lum	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=65|end_char=73|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	11	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Ne jemi këtu për të mbështetur Shqipërinë ën rrugën drejt BE dhe ndaj po mbështesim pushtetin lokal për çështjet mjedisore .
+# sent_id = 1
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=7|NER=O
+3	këtu	këtu	ADV	_	AdvType=Man	2	advmod	_	start_char=8|end_char=12|NER=O
+4	për	për	PART	_	_	6	fixed	_	start_char=13|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	mbështetur	mbështetur	VERB	_	VerbForm=Part	2	advmod	_	start_char=20|end_char=30|NER=O
+7	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=31|end_char=41|NER=B-VEND_1
+8	ën	ën	NUM	_	NumType=Card	7	flat	_	start_char=42|end_char=44|NER=O
+9	rrugën	rrugë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=45|end_char=51|NER=O
+10	drejt	drejt	ADP	_	Case=Abl	11	fixed	_	start_char=52|end_char=57|NER=O
+11	BE	Be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	advmod	_	start_char=58|end_char=60|NER=B-ORG
+12	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=61|end_char=64|NER=O
+13	ndaj	ndaj	ADP	_	Case=Abl	15	fixed	_	start_char=65|end_char=69|NER=O
+14	po	po	PART	_	_	15	mark	_	start_char=70|end_char=72|NER=O
+15	mbështesim	mbështes	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	conj	_	start_char=73|end_char=83|NER=O
+16	pushtetin	pushtet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	start_char=84|end_char=93|NER=O
+17	lokal	lokal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=94|end_char=99|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=100|end_char=103|NER=O
+19	çështjet	çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	15	advmod	_	start_char=104|end_char=112|NER=O
+20	mjedisore	mjedisor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=113|end_char=122|SpaceAfter=No|NER=O
+21	.	.	PUNCT	_	_	15	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Ne kemi disa projekti që kemi shtrirë projektin tonë për një Shqipëri me standarde edhe në çështjet mjedisore " , u shpreh Andrea Rizo .
+# sent_id = 2
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=7|NER=O
+3	disa	disa	PRON	_	PronType=Ind	4	nummod	_	start_char=8|end_char=12|NER=O
+4	projekti	projekt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=13|end_char=21|NER=O
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=22|end_char=24|NER=O
+6	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	aux	_	start_char=25|end_char=29|NER=O
+7	shtrirë	shtrir	VERB	_	VerbForm=Part	4	acl:relcl	_	start_char=30|end_char=37|NER=O
+8	projektin	projekt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=38|end_char=47|NER=O
+9	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	amod:poss	_	start_char=48|end_char=52|NER=O
+10	për	për	ADP	_	Case=Acc	12	case	_	start_char=53|end_char=56|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=57|end_char=60|NER=O
+12	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	advmod	_	start_char=61|end_char=69|NER=B-VEND_1
+13	me	me	ADP	_	Case=Acc	14	case	_	start_char=70|end_char=72|NER=O
+14	standarde	standard	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=73|end_char=82|NER=O
+15	edhe	edhe	PART	_	_	17	cc	_	start_char=83|end_char=87|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=88|end_char=90|NER=O
+17	çështjet	çështje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	21	advmod	_	start_char=91|end_char=99|NER=O
+18	mjedisore	mjedisor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=100|end_char=109|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	17	punct	_	start_char=110|end_char=111|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	21	punct	_	start_char=112|end_char=113|NER=O
+21	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	fixed	_	start_char=114|end_char=115|NER=O
+22	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	start_char=116|end_char=122|NER=O
+23	Andrea	Andre	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=123|end_char=129|NER=B-PER
+24	Rizo	Rizo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	flat	_	start_char=130|end_char=134|SpaceAfter=No|NER=I-PER
+25	.	.	PUNCT	_	_	21	punct	_	start_char=135|end_char=136|SpacesAfter=\n|NER=O
+
+# text = Fushata e Gjelbër do të prezantojë disa programe të reja të financuara nga BE - ja me një vlerë prej 44 milionë eurosh .
+# sent_id = 3
+1	Fushata	Fushatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=0|end_char=7|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+3	Gjelbër	Gjelbër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=10|end_char=17|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=18|end_char=20|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=21|end_char=23|NER=O
+6	prezantojë	prezantoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=34|NER=O
+7	disa	disa	PRON	_	PronType=Ind	8	nummod	_	start_char=35|end_char=39|NER=O
+8	programe	program	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=40|end_char=48|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=49|end_char=51|NER=O
+10	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=52|end_char=56|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=57|end_char=59|NER=O
+12	financuara	financuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=60|end_char=70|NER=O
+13	nga	nga	ADP	_	Case=Nom	14	case	_	start_char=71|end_char=74|NER=O
+14	BE	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=75|end_char=77|NER=B-ORG
+15	-	-	PUNCT	_	_	12	punct	_	start_char=78|end_char=79|NER=B-ORG
+16	ja	BE-jë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=80|end_char=82|NER=B-ORG
+17	me	me	ADP	_	Case=Acc	17	case	_	start_char=83|end_char=85|NER=O
+18	një	një	DET	_	Definite=Ind	17	det	_	start_char=86|end_char=89|NER=O
+19	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=90|end_char=95|NER=O
+20	prej	prej	ADP	_	Case=Abl	20	case	_	start_char=96|end_char=100|NER=O
+21	44	44	NUM	_	NumType=Card	20	nummod	_	start_char=101|end_char=103|NER=O
+22	milionë	milion	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	17	nmod	_	start_char=104|end_char=111|NER=O
+23	eurosh	eurosh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	start_char=112|end_char=118|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	6	punct	_	start_char=119|end_char=120|SpacesAfter=\n\n|NER=O
+

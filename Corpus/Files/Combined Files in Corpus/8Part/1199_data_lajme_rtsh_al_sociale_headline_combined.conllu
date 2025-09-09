@@ -1,0 +1,154 @@
+# text = 18 shtator do të nisë në Shqipëri do të nisi Censi i Popullsisë dhe Banesave .
+# sent_id = 0
+1	18	18	NUM	_	NumType=Card	27	nummod	_	start_char=0|end_char=2|NER=B-DATE_0
+2	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	30	advmod	_	start_char=3|end_char=10|NER=I-DATE_0
+3	do	do	PART	_	_	30	fixed	_	start_char=11|end_char=13|NER=O
+4	të	të	PART	_	_	30	fixed	_	start_char=14|end_char=16|NER=O
+5	nisë	nij	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advmod	_	start_char=17|end_char=21|NER=O
+6	në	në	ADP	_	Case=Acc	32	case	_	start_char=22|end_char=24|NER=O
+7	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	obl	_	start_char=25|end_char=33|NER=B-VEND_1
+8	do	do	PART	_	_	35	fixed	_	start_char=34|end_char=36|NER=O
+9	të	të	PART	_	_	35	fixed	_	start_char=37|end_char=39|NER=O
+10	nisi	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	advcl	_	start_char=40|end_char=44|NER=O
+11	Censi	Censi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	35	obj	_	start_char=45|end_char=50|NER=O
+12	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	38	det:poss	_	start_char=51|end_char=52|NER=O
+13	Popullsisë	popullsi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	36	compound	_	start_char=53|end_char=63|NER=O
+14	dhe	dhe	CCONJ	_	_	40	cc	_	start_char=64|end_char=67|NER=O
+15	Banesave	Banesa	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	38	conj	_	start_char=68|end_char=76|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	35	punct	_	start_char=77|end_char=78|NER=O
+
+# text = Në një dalje për mediat drejtoresha e Institutit të Statistikave ( INSTAT ) , Elsa Dhuli të ditur se për këtë proces do të punësohen rreth 7 mijë specialistë .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	dalje	dalje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	advmod	_	start_char=7|end_char=12|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=16|NER=O
+5	mediat	media	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=17|end_char=23|NER=O
+6	drejtoresha	drejtoreshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=24|end_char=35|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=37|NER=O
+8	Institutit	Institut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=48|NER=O
+9	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=49|end_char=51|NER=O
+10	Statistikave	statistikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=52|end_char=64|NER=O
+11	(	(	PUNCT	_	_	12	punct	_	start_char=65|end_char=66|SpaceAfter=No|NER=O
+12	INSTAT	INSTAT	PROPN	_	Foreign=Yes	10	appos	_	start_char=67|end_char=73|SpaceAfter=No|NER=O
+13	)	)	PUNCT	_	_	10	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	14	punct	_	start_char=76|end_char=77|NER=O
+15	Elsa	Elsa	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	list	_	start_char=78|end_char=82|NER=B-PER
+16	Dhuli	Dhuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	flat	_	start_char=83|end_char=88|NER=I-PER
+17	të	të	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	start_char=89|end_char=91|NER=O
+18	ditur	ditur	VERB	_	VerbForm=Part	0	root	_	start_char=92|end_char=97|NER=O
+19	se	se	SCONJ	_	_	24	mark	_	start_char=98|end_char=100|NER=O
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=101|end_char=104|NER=O
+21	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	start_char=105|end_char=109|NER=O
+22	proces	proces	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	start_char=110|end_char=116|NER=O
+23	do	do	PART	_	_	24	fixed	_	start_char=117|end_char=119|NER=O
+24	të	të	PART	_	_	24	fixed	_	start_char=120|end_char=122|NER=O
+25	punësohen	punësoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	17	advcl	_	start_char=123|end_char=132|NER=O
+26	rreth	rreth	ADP	_	Case=Abl	28	case	_	start_char=133|end_char=138|NER=O
+27	7	7	NUM	_	NumType=Card	28	nummod	_	start_char=139|end_char=140|NER=O
+28	mijë	mijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	28	det	_	start_char=141|end_char=145|NER=O
+29	specialistë	specialistë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	24	obl	_	start_char=146|end_char=157|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	24	punct	_	start_char=158|end_char=159|NER=O
+
+# text = Kosto totale e operacionit parashikohet të shkojë 16 .
+# sent_id = 2
+1	Kosto	kosto	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	start_char=0|end_char=5|NER=O
+2	totale	total	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=6|end_char=12|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=13|end_char=14|NER=O
+4	operacionit	operacion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=26|NER=O
+5	parashikohet	parashikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=27|end_char=39|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=40|end_char=42|NER=O
+7	shkojë	shkoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	start_char=43|end_char=49|NER=O
+8	16	16	NUM	_	NumType=Card	9	nummod	_	start_char=50|end_char=52|NER=O
+9	.	.	PUNCT	_	_	9	punct	_	start_char=53|end_char=54|NER=O
+
+# text = 9 milionë euro .
+# sent_id = 3
+1	9	9	NUM	_	NumType=Card	9	nummod	_	start_char=0|end_char=1|NER=O
+2	milionë	milion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	start_char=2|end_char=9|NER=O
+3	euro	euro	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	start_char=10|end_char=14|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	5	punct	_	start_char=15|end_char=16|SpacesAfter=\n|NER=O
+
+# text = " Të gjithë banorët në Republikën e Shqipërisë , në bazë të ligjit mbi censin janë të detyruar t ' i përgjigjen përmbajtjes së pyetësorit , duke përjashtuar këtu tre pyetje të cilat janë pyetje opsionale që lidhen me etninë , fenë dhe gjuhën " , tha zonja Dhuli .
+# sent_id = 4
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2|end_char=4|NER=O
+3	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=5|end_char=11|NER=O
+4	banorët	banor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	advmod	_	start_char=12|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+6	Republikën	Republikë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=23|end_char=33|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=34|end_char=35|NER=O
+8	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=36|end_char=46|SpaceAfter=No|NER=B-VEND_1
+9	,	,	PUNCT	_	_	11	punct	_	start_char=47|end_char=48|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=49|end_char=51|NER=O
+11	bazë	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	advmod	_	start_char=52|end_char=56|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=57|end_char=59|NER=O
+13	ligjit	ligj	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=60|end_char=66|NER=O
+14	mbi	mbi	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=70|NER=O
+15	censin	cens	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	start_char=71|end_char=77|NER=O
+16	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=78|end_char=82|NER=O
+17	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	18	det	_	start_char=83|end_char=85|NER=O
+18	detyruar	detyruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	16	cop	_	start_char=86|end_char=94|NER=O
+19	t	t'i	ADV	_	AdvType=Man	20	advmod	_	start_char=95|end_char=96|NER=O
+20	'	'	PUNCT	_	_	20	punct	_	start_char=97|end_char=98|NER=O
+21	i	t'i	ADV	_	AdvType=Man	20	advmod	_	start_char=99|end_char=100|NER=O
+22	përgjigjen	përgjigjem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	csubj	_	start_char=101|end_char=111|NER=O
+23	përmbajtjes	përmbajtje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	20	obj	_	start_char=112|end_char=123|NER=O
+24	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=124|end_char=126|NER=O
+25	pyetësorit	pyetësor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=127|end_char=137|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	26	punct	_	start_char=138|end_char=139|NER=O
+27	duke	duke	PART	_	_	26	fixed	_	start_char=140|end_char=144|NER=O
+28	përjashtuar	përjashtoj	VERB	_	VerbForm=Part	20	advmod	_	start_char=145|end_char=156|NER=O
+29	këtu	këtu	ADV	_	AdvType=Man	26	advmod	_	start_char=157|end_char=161|NER=O
+30	tre	tre	NUM	_	NumType=Card	29	nummod	_	start_char=162|end_char=165|NER=O
+31	pyetje	pyetje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	26	obj	_	start_char=166|end_char=172|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	31	det	_	start_char=173|end_char=175|NER=O
+33	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	32	nsubj	_	start_char=176|end_char=181|NER=O
+34	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	acl	_	start_char=182|end_char=186|NER=O
+35	pyetje	pyetje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	32	cop	_	start_char=187|end_char=193|NER=O
+36	opsionale	opsional	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=194|end_char=203|NER=O
+37	që	që	PRON	_	PronType=Rel	36	nsubj	_	start_char=204|end_char=206|NER=O
+38	lidhen	lidhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	33	acl	_	start_char=207|end_char=213|NER=O
+39	me	me	ADP	_	Case=Acc	38	case	_	start_char=214|end_char=216|NER=O
+40	etninë	etninë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	obl	_	start_char=217|end_char=223|SpaceAfter=No|NER=O
+41	,	,	PUNCT	_	_	40	punct	_	start_char=224|end_char=225|NER=O
+42	fenë	fe	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	36	nsubj	_	start_char=226|end_char=230|NER=O
+43	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=231|end_char=234|NER=O
+44	gjuhën	gjuhën	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	40	conj	_	start_char=235|end_char=241|SpaceAfter=No|NER=O
+45	"	"	PUNCT	_	_	40	punct	_	start_char=242|end_char=243|SpaceAfter=No|NER=O
+46	,	,	PUNCT	_	_	44	punct	_	start_char=244|end_char=245|NER=O
+47	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	36	conj	_	start_char=246|end_char=249|NER=O
+48	zonja	zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	44	obj	_	start_char=250|end_char=255|NER=O
+49	Dhuli	Dhuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	44	obj	_	start_char=256|end_char=261|SpaceAfter=No|NER=B-PER
+50	.	.	PUNCT	_	_	44	punct	_	start_char=262|end_char=263|SpacesAfter=\n|NER=O
+
+# text = Censi i Popullsisë dhe Banesave 2023 do të jetë Censi i 12 - të , që kur Shqipëria u shpall shtet i pavarur në vitin 1912 .
+# sent_id = 5
+1	Censi	Censi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=5|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=6|end_char=7|NER=O
+3	Popullsisë	popullsi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=18|NER=O
+4	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=19|end_char=22|NER=O
+5	Banesave	Banesa	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	conj	_	start_char=23|end_char=31|NER=O
+6	2023	2023	NUM	_	NumType=Card	5	flat	_	start_char=32|end_char=36|NER=O
+7	do	do	PART	_	_	9	fixed	_	start_char=37|end_char=39|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=40|end_char=42|NER=O
+9	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=47|NER=O
+10	Censi	Censi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	start_char=48|end_char=53|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=54|end_char=55|NER=O
+12	12	12	NUM	_	NumType=Card	10	amod	_	start_char=56|end_char=58|SpaceAfter=No|NER=O
+13	-	-	PUNCT	_	_	10	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=O
+14	të	12-të	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=61|end_char=63|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	14	punct	_	start_char=64|end_char=65|NER=O
+16	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=66|end_char=68|NER=O
+17	kur	kur	SCONJ	_	_	18	mark	_	start_char=69|end_char=72|NER=O
+18	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	start_char=73|end_char=82|NER=B-VEND_1
+19	u	u	PART	_	_	18	fixed	_	start_char=83|end_char=84|NER=O
+20	shpall	shpall	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	9	advcl	_	start_char=85|end_char=91|NER=O
+21	shtet	shtet	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	start_char=92|end_char=97|NER=O
+22	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=98|end_char=99|NER=O
+23	pavarur	pavarur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=100|end_char=107|NER=O
+24	në	në	ADP	_	Case=Acc	23	case	_	start_char=108|end_char=110|NER=O
+25	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=111|end_char=116|NER=B-DATE_0
+26	1912	1912	NUM	_	NumType=Card	23	amod:nummod	_	start_char=117|end_char=121|SpaceAfter=No|NER=I-DATE_0
+27	.	.	PUNCT	_	_	18	punct	_	start_char=122|end_char=123|SpacesAfter=\n|NER=O
+

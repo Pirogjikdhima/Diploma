@@ -1,0 +1,203 @@
+# text = Veliaj : Koha që edhe në futboll , të largohet llumi e t ' i jepet dorë talenteve !
+# sent_id = 0
+1	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	Koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=9|end_char=13|NER=O
+4	që	që	PRON	_	PronType=Rel	1	appos	_	start_char=14|end_char=16|NER=O
+5	edhe	edhe	PART	_	_	5	cc	_	start_char=17|end_char=21|NER=O
+6	në	në	ADP	_	Case=Acc	5	case	_	start_char=22|end_char=24|NER=O
+7	futboll	futboll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=25|end_char=32|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	8	punct	_	start_char=33|end_char=34|NER=O
+9	të	të	PART	_	_	8	fixed	_	start_char=35|end_char=37|NER=O
+10	largohet	largoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=38|end_char=46|NER=O
+11	llumi	llum	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=47|end_char=52|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=53|end_char=54|NER=O
+13	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	9	amod:poss	_	start_char=55|end_char=56|NER=O
+14	'	'	PUNCT	_	_	9	punct	_	start_char=57|end_char=58|NER=O
+15	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	9	amod:poss	_	start_char=59|end_char=60|NER=O
+16	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	advcl	_	start_char=61|end_char=66|NER=O
+17	dorë	dorë	PRON	_	PronType=Ind	12	obj	_	start_char=67|end_char=71|NER=O
+18	talenteve	talent	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	start_char=72|end_char=81|SpaceAfter=No|NER=O
+19	!	!	PUNCT	_	_	17	punct	_	start_char=82|end_char=83|SpacesAfter=\n|NER=O
+
+# text = 24 / 01 / 2022 Luiza Gega u rendit e dyta në garën e 3000 metrave në salla të mbyllura në " Manchester World Indoor Tour " në Angli këtë të shtunë , rezultat që i siguron dhe një biletë për Kampionatin Botëror të sallave të mbyllura që zhvillohet muajt e ardhshëm në Beograd .
+# sent_id = 1
+1	24	24	NUM	_	NumType=Card	17	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	12	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	17	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Luiza	Luizë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	flat	_	start_char=15|end_char=20|NER=B-PER
+7	Gega	Gegë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=21|end_char=25|NER=I-PER
+8	u	ato	DET	_	Case=Nom|Gender=Masc|Number=TODO|PronType=Art	23	det	_	start_char=26|end_char=27|NER=O
+9	rendit	rend	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	start_char=28|end_char=34|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=35|end_char=36|NER=O
+11	dyta	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=37|end_char=41|NER=O
+12	në	në	ADP	_	Case=Acc	27	case	_	start_char=42|end_char=44|NER=O
+13	garën	garë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=45|end_char=50|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	30	det:poss	_	start_char=51|end_char=52|NER=O
+15	3000	3000	NUM	_	NumType=Card	30	nummod	_	start_char=53|end_char=57|NER=O
+16	metrave	metra	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	start_char=58|end_char=65|NER=O
+17	në	në	ADP	_	Case=Acc	32	case	_	start_char=66|end_char=68|NER=O
+18	salla	sallë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	start_char=69|end_char=74|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=75|end_char=77|NER=O
+20	mbyllura	mbyllurë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	start_char=78|end_char=86|NER=O
+21	në	në	ADP	_	Case=Acc	37	case	_	start_char=87|end_char=89|NER=O
+22	"	"	PUNCT	_	_	37	punct	_	start_char=90|end_char=91|SpaceAfter=No|NER=O
+23	Manchester	Manchester	PROPN	_	Foreign=Yes	32	nmod	_	start_char=92|end_char=102|NER=B-EVENT
+24	World	World	PROPN	_	Foreign=Yes	37	flat	_	start_char=103|end_char=108|NER=I-EVENT
+25	Indoor	Indoor	PROPN	_	Foreign=Yes	37	flat	_	start_char=109|end_char=115|NER=I-EVENT
+26	Tour	Torr	PROPN	_	Foreign=Yes	39	flat	_	start_char=116|end_char=120|NER=I-EVENT
+27	"	"	PUNCT	_	_	39	punct	_	start_char=121|end_char=122|NER=O
+28	në	në	ADP	_	Case=Acc	42	case	_	start_char=123|end_char=125|NER=O
+29	Angli	Angli	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	nmod	_	start_char=126|end_char=131|NER=B-VEND_1
+30	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	45	det	_	start_char=132|end_char=136|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	45	det:poss	_	start_char=137|end_char=139|NER=O
+32	shtunë	shtunë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	42	nmod	_	start_char=140|end_char=146|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	47	punct	_	start_char=147|end_char=148|NER=O
+34	rezultat	rezultat	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	45	list	_	start_char=149|end_char=157|NER=O
+35	që	që	PRON	_	PronType=Rel	50	nsubj	_	start_char=158|end_char=160|NER=O
+36	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	iobj	_	start_char=161|end_char=162|NER=O
+37	siguron	siguroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	47	acl:relcl	_	start_char=163|end_char=170|NER=O
+38	dhe	dhe	CCONJ	_	_	53	cc	_	start_char=171|end_char=174|NER=O
+39	një	një	DET	_	Definite=Ind	53	det	_	start_char=175|end_char=178|NER=O
+40	biletë	biletë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	50	obj	_	start_char=179|end_char=185|NER=O
+41	për	për	ADP	_	Case=Acc	55	case	_	start_char=186|end_char=189|NER=O
+42	Kampionatin	Kampionat	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	53	nmod	_	start_char=190|end_char=201|NER=B-EVENT
+43	Botëror	botëror	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	start_char=202|end_char=209|NER=I-EVENT
+44	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	58	det:poss	_	start_char=210|end_char=212|NER=O
+45	sallave	sallë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	55	nmod	_	start_char=213|end_char=220|NER=O
+46	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	60	det	_	start_char=221|end_char=223|NER=O
+47	mbyllura	mbyllurë	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	58	amod	_	start_char=224|end_char=232|NER=O
+48	që	që	PRON	_	PronType=Rel	62	nsubj	_	start_char=233|end_char=235|NER=O
+49	zhvillohet	zhvilloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	58	acl	_	start_char=236|end_char=246|NER=O
+50	muajt	muaj	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	62	obj	_	start_char=247|end_char=252|NER=O
+51	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	65	det	_	start_char=253|end_char=254|NER=O
+52	ardhshëm	ardhshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	63	amod	_	start_char=255|end_char=263|NER=O
+53	në	në	ADP	_	Case=Acc	67	case	_	start_char=264|end_char=266|NER=O
+54	Beograd	Beograd	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	62	obl	_	start_char=267|end_char=274|SpaceAfter=No|NER=B-VEND_0
+55	.	.	PUNCT	_	_	62	punct	_	start_char=275|end_char=276|SpacesAfter=\n|NER=O
+
+# text = Kjo arritje është përshëndetur dhe nga kryetari i bashkisë së Tiranës Erion Veliaj .
+# sent_id = 2
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3|NER=O
+2	arritje	arritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4|end_char=11|NER=O
+3	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=12|end_char=17|NER=O
+4	përshëndetur	përshëndem	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=30|NER=O
+5	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=31|end_char=34|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=35|end_char=38|NER=O
+7	kryetari	kryetar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=39|end_char=47|NER=O
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=48|end_char=49|NER=O
+9	bashkisë	bashki	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=50|end_char=58|NER=O
+10	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=59|end_char=61|NER=O
+11	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=62|end_char=69|NER=B-VEND_0
+12	Erion	Erio	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=70|end_char=75|NER=B-PER
+13	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=76|end_char=82|SpaceAfter=No|NER=I-PER
+14	.	.	PUNCT	_	_	4	punct	_	start_char=83|end_char=84|NER=O
+
+# text = Përmes një statusi në rrjete sociale Veliaj shprehet se është koha që edhe në futboll , të largohet llumi e t ' i jepet dorë talenteve që e kanë pasion futbollin .
+# sent_id = 3
+1	Përmes	përmes	ADP	_	Case=Abl	3	case	_	start_char=0|end_char=6|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=7|end_char=10|NER=O
+3	statusi	status	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	start_char=11|end_char=18|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	rrjete	rrjet	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	start_char=22|end_char=28|NER=O
+6	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=29|end_char=36|NER=O
+7	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=37|end_char=43|NER=B-PER
+8	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=44|end_char=52|NER=O
+9	se	se	SCONJ	_	_	10	mark	_	start_char=53|end_char=55|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	start_char=56|end_char=61|NER=O
+11	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	cop	_	start_char=62|end_char=66|NER=O
+12	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=67|end_char=69|NER=O
+13	edhe	edhe	PART	_	_	15	cc	_	start_char=70|end_char=74|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=75|end_char=77|NER=O
+15	futboll	futboll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	advmod	_	start_char=78|end_char=85|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=86|end_char=87|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=88|end_char=90|NER=O
+18	largohet	largoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	advcl	_	start_char=91|end_char=99|NER=O
+19	llumi	llum	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=100|end_char=105|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	21	det:poss	_	start_char=106|end_char=107|NER=O
+21	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	19	amod:poss	_	start_char=108|end_char=109|NER=O
+22	'	'	PUNCT	_	_	19	punct	_	start_char=110|end_char=111|NER=O
+23	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	19	amod:poss	_	start_char=112|end_char=113|NER=O
+24	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	18	advcl	_	start_char=114|end_char=119|NER=O
+25	dorë	dorë	PRON	_	PronType=Ind	22	obj	_	start_char=120|end_char=124|NER=O
+26	talenteve	talent	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	22	obj	_	start_char=125|end_char=134|NER=O
+27	që	që	PRON	_	PronType=Rel	27	nsubj	_	start_char=135|end_char=137|NER=O
+28	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	start_char=138|end_char=139|NER=O
+29	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=140|end_char=144|NER=O
+30	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	27	obj	_	start_char=145|end_char=151|NER=O
+31	futbollin	futboll	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=152|end_char=161|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	22	punct	_	start_char=162|end_char=163|SpacesAfter=\n|NER=O
+
+# text = " Ja prova se kur sporti e qyteti bashkëpunojnë ka rezultat .
+# sent_id = 4
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ja	Ja	SCONJ	_	_	3	mark	_	start_char=2|end_char=4|NER=O
+3	prova	provë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	10	advmod	_	start_char=5|end_char=10|NER=O
+4	se	se	SCONJ	_	_	9	mark	_	start_char=11|end_char=13|NER=O
+5	kur	kur	SCONJ	_	_	9	mark	_	start_char=14|end_char=17|NER=O
+6	sporti	sport	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=18|end_char=24|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=25|end_char=26|NER=O
+8	qyteti	qytet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=27|end_char=33|NER=O
+9	bashkëpunojnë	bashkëpunoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=34|end_char=47|NER=O
+10	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=50|NER=O
+11	rezultat	rezultat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=51|end_char=59|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	10	punct	_	start_char=60|end_char=61|NER=O
+
+# text = Koha që në çdo disiplinë , edhe në futboll , të largohet llumi e t ' i jepet dorë talenteve që e kanë pasion futbollin , jo biznes .
+# sent_id = 5
+1	Koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=0|end_char=4|NER=O
+2	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=5|end_char=7|NER=O
+3	në	në	ADP	_	Case=Acc	5	case	_	start_char=8|end_char=10|NER=O
+4	çdo	çdo	PRON	_	PronType=Ind	5	nummod	_	start_char=11|end_char=14|NER=O
+5	disiplinë	disipli	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=15|end_char=24|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=25|end_char=26|NER=O
+7	edhe	edhe	PART	_	_	9	cc	_	start_char=27|end_char=31|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=32|end_char=34|NER=O
+9	futboll	futboll	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	advmod	_	start_char=35|end_char=42|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=43|end_char=44|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=45|end_char=47|NER=O
+12	largohet	largoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=48|end_char=56|NER=O
+13	llumi	llum	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=57|end_char=62|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=63|end_char=64|NER=O
+15	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	13	amod:poss	_	start_char=65|end_char=66|NER=O
+16	'	'	PUNCT	_	_	13	punct	_	start_char=67|end_char=68|NER=O
+17	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	13	amod:poss	_	start_char=69|end_char=70|NER=O
+18	jepet	jap	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	conj	_	start_char=71|end_char=76|NER=O
+19	dorë	dorë	PRON	_	PronType=Ind	16	obj	_	start_char=77|end_char=81|NER=O
+20	talenteve	talent	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=82|end_char=91|NER=O
+21	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=92|end_char=94|NER=O
+22	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=95|end_char=96|NER=O
+23	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	advcl	_	start_char=97|end_char=101|NER=O
+24	pasion	pasio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	start_char=102|end_char=108|NER=O
+25	futbollin	futboll	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=109|end_char=118|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	26	punct	_	start_char=119|end_char=120|NER=O
+27	jo	jo	PART	_	_	26	mark	_	start_char=121|end_char=123|NER=O
+28	biznes	bizne	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	start_char=124|end_char=130|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	21	punct	_	start_char=131|end_char=132|NER=O
+
+# text = Forca !
+# sent_id = 6
+1	Forca	Forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=O
+2	!	!	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|NER=O
+
+# text = Luiza Gega super , renditet e dyta në turneun e Mançesterit " , shprehet Veliaj .
+# sent_id = 7
+1	Luiza	Luizë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	Gega	Gegë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=10|NER=I-PER
+3	super	super	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	flat	_	start_char=11|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=17|end_char=18|NER=O
+5	renditet	rendit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=19|end_char=27|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=28|end_char=29|NER=O
+7	dyta	dytë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	cop	_	start_char=30|end_char=34|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=37|NER=O
+9	turneun	turne	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=38|end_char=45|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=46|end_char=47|NER=O
+11	Mançesterit	mançester	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=48|end_char=59|SpaceAfter=No|NER=B-VEND_0
+12	"	"	PUNCT	_	_	9	punct	_	start_char=60|end_char=61|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	13	punct	_	start_char=62|end_char=63|NER=O
+14	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	conj	_	start_char=64|end_char=72|NER=O
+15	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=73|end_char=79|SpaceAfter=No|NER=B-PER
+16	.	.	PUNCT	_	_	13	punct	_	start_char=80|end_char=81|SpacesAfter=\n\n\n|NER=O
+

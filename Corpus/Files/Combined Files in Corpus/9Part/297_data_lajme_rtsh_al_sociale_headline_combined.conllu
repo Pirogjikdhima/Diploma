@@ -1,0 +1,136 @@
+# text = 13 / 12 / 2023 Rritja e investimeve nëpër ferma blegtorale dhe modernizimi i tyre ka bërë që për veç rritjes së prodhimtarisë , të rritet edhe cilësia e prodhimeve të tyre .
+# sent_id = 0
+1	13	13	NUM	_	NumType=Card	11	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	9	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	12	12	NUM	_	NumType=Card	9	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	11	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	11	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Rritja	Rritjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=15|end_char=21|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=22|end_char=23|NER=O
+8	investimeve	investim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=24|end_char=35|NER=O
+9	nëpër	nëpër	ADP	_	Case=Acc	18	case	_	start_char=36|end_char=41|NER=O
+10	ferma	fermë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=42|end_char=47|NER=O
+11	blegtorale	blegtoral	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=48|end_char=58|NER=O
+12	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=59|end_char=62|NER=O
+13	modernizimi	modernizim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	start_char=63|end_char=74|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=75|end_char=76|NER=O
+15	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	amod:poss	_	start_char=77|end_char=81|NER=O
+16	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	start_char=82|end_char=84|NER=O
+17	bërë	bëj	VERB	_	VerbForm=Part	4	conj	_	start_char=85|end_char=89|NER=O
+18	që	që	SCONJ	_	_	29	mark	_	start_char=90|end_char=92|NER=O
+19	për	për	ADP	_	Case=Acc	29	case	_	start_char=93|end_char=96|NER=O
+20	veç	veç	ADP	_	Case=Abl	29	case	_	start_char=97|end_char=100|NER=O
+21	rritjes	rritje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	start_char=101|end_char=108|NER=O
+22	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	31	det:poss	_	start_char=109|end_char=111|NER=O
+23	prodhimtarisë	prodhimtari	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	start_char=112|end_char=125|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	34	punct	_	start_char=126|end_char=127|NER=O
+25	të	të	PART	_	_	34	fixed	_	start_char=128|end_char=130|NER=O
+26	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	conj	_	start_char=131|end_char=137|NER=O
+27	edhe	edhe	PART	_	_	36	mark:emph	_	start_char=138|end_char=142|NER=O
+28	cilësia	cilësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	34	obj	_	start_char=143|end_char=150|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	38	det:poss	_	start_char=151|end_char=152|NER=O
+30	prodhimeve	prodhim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	nmod	_	start_char=153|end_char=163|NER=O
+31	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	40	det:poss	_	start_char=164|end_char=166|NER=O
+32	tyre	tyre	PRON	_	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	amod:poss	_	start_char=167|end_char=171|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	34	punct	_	start_char=172|end_char=173|NER=O
+
+# text = Një prej fermave model për mbarështimin e gjedhit ndodhet në fshatin Drithas të Maliqit ku mbarështohen 140 krerë lopë për prodhim qumështi dhe mishi .
+# sent_id = 1
+1	Një	një	DET	_	Definite=Ind	9	nsubj	_	start_char=0|end_char=3|NER=O
+2	prej	prej	ADP	_	Case=Abl	3	case	_	start_char=4|end_char=8|NER=O
+3	fermave	fermë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=9|end_char=16|NER=O
+4	model	model	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=17|end_char=22|NER=O
+5	për	për	ADP	_	Case=Acc	6	case	_	start_char=23|end_char=26|NER=O
+6	mbarështimin	mbarështim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=27|end_char=39|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=40|end_char=41|NER=O
+8	gjedhit	gjedh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=42|end_char=49|NER=O
+9	ndodhet	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=50|end_char=57|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=58|end_char=60|NER=O
+11	fshatin	fshat	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=61|end_char=68|NER=O
+12	Drithas	Drithas	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=69|end_char=76|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=77|end_char=79|NER=O
+14	Maliqit	maliq	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=80|end_char=87|NER=B-VEND_0
+15	ku	ku	ADV	_	AdvType=Loc	16	advmod	_	start_char=88|end_char=90|NER=O
+16	mbarështohen	mbarështoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	11	acl	_	start_char=91|end_char=103|NER=O
+17	140	140	NUM	_	NumType=Card	18	nummod	_	start_char=104|end_char=107|NER=O
+18	krerë	kokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	start_char=108|end_char=113|NER=O
+19	lopë	lopë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	18	nmod	_	start_char=114|end_char=118|NER=O
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=119|end_char=122|NER=O
+21	prodhim	prodhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	advmod	_	start_char=123|end_char=130|NER=O
+22	qumështi	qumësht	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=131|end_char=139|NER=O
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=140|end_char=143|NER=O
+24	mishi	mish	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	conj	_	start_char=144|end_char=149|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	16	punct	_	start_char=150|end_char=151|NER=O
+
+# text = Një lehtësi për punën në fermë krijon përdorimi i një aparature mjelëse moderne .
+# sent_id = 2
+1	Një	një	DET	_	Definite=Ind	2	det	_	start_char=0|end_char=3|NER=O
+2	lehtësi	lehtës	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4|end_char=11|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=12|end_char=15|NER=O
+4	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=16|end_char=21|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=22|end_char=24|NER=O
+6	fermë	fermë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=25|end_char=30|NER=O
+7	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=37|NER=O
+8	përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=38|end_char=47|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=48|end_char=49|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=50|end_char=53|NER=O
+11	aparature	aparatur	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	start_char=54|end_char=63|NER=O
+12	mjelëse	mjelës	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=64|end_char=71|NER=O
+13	moderne	modern	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=72|end_char=79|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	7	punct	_	start_char=80|end_char=81|NER=O
+
+# text = Këto lopë janë të racës Holshtein dhe kanë një prodhimtari të lartë , deri në 40 litra qumësht për një lopë .
+# sent_id = 3
+1	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=0|end_char=4|NER=O
+2	lopë	lopë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	start_char=5|end_char=9|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=14|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=15|end_char=17|NER=O
+5	racës	racë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	cop	_	start_char=18|end_char=23|NER=O
+6	Holshtein	Holshte	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	appos	_	start_char=24|end_char=33|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=34|end_char=37|NER=O
+8	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=38|end_char=42|NER=O
+9	një	një	DET	_	Definite=Ind	10	det	_	start_char=43|end_char=46|NER=O
+10	prodhimtari	prodhimtar	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=47|end_char=58|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=59|end_char=61|NER=O
+12	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=62|end_char=67|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	17	punct	_	start_char=68|end_char=69|NER=O
+14	deri	deri	PART	_	_	15	fixed	_	start_char=70|end_char=74|NER=O
+15	në	në	ADP	_	Case=Acc	17	case	_	start_char=75|end_char=77|NER=O
+16	40	40	NUM	_	NumType=Card	17	nummod	_	start_char=78|end_char=80|NER=O
+17	litra	litër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	start_char=81|end_char=86|NER=O
+18	qumësht	qumësht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	advmod	_	start_char=87|end_char=94|NER=O
+19	për	për	ADP	_	Case=Acc	21	case	_	start_char=95|end_char=98|NER=O
+20	një	një	DET	_	Definite=Ind	21	det	_	start_char=99|end_char=102|NER=O
+21	lopë	lopë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	start_char=103|end_char=107|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	3	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = Në qarkun e Korçës janë mbi 134 ferma të cilat mbarështojnë mbi 10 krerë gjedh për prodhim qumështi dhe rreth 50 të tilla për prodhim mishi .
+# sent_id = 4
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	qarkun	qark	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	Korçës	Korçë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=12|end_char=18|NER=B-VEND_0
+5	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+6	mbi	mbi	ADP	_	Case=Acc	8	case	_	start_char=24|end_char=27|NER=O
+7	134	134	NUM	_	NumType=Card	8	nummod	_	start_char=28|end_char=31|NER=O
+8	ferma	fermë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	start_char=32|end_char=37|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=38|end_char=40|NER=O
+10	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	11	nsubj	_	start_char=41|end_char=46|NER=O
+11	mbarështojnë	mbarështoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	start_char=47|end_char=59|NER=O
+12	mbi	mbi	ADP	_	Case=Acc	14	case	_	start_char=60|end_char=63|NER=O
+13	10	10	NUM	_	NumType=Card	14	nummod	_	start_char=64|end_char=66|NER=O
+14	krerë	kokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	start_char=67|end_char=72|NER=O
+15	gjedh	gjed	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=73|end_char=78|NER=O
+16	për	për	ADP	_	Case=Acc	17	case	_	start_char=79|end_char=82|NER=O
+17	prodhim	prodhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	start_char=83|end_char=90|NER=O
+18	qumështi	qumësht	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	start_char=91|end_char=99|NER=O
+19	dhe	dhe	CCONJ	_	_	23	cc	_	start_char=100|end_char=103|NER=O
+20	rreth	rreth	ADP	_	Case=Abl	21	case	_	start_char=104|end_char=109|NER=O
+21	50	50	NUM	_	NumType=Card	23	nummod	_	start_char=110|end_char=112|NER=O
+22	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=113|end_char=115|NER=O
+23	tilla	tillë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	17	amod	_	start_char=116|end_char=121|NER=O
+24	për	për	ADP	_	Case=Acc	25	case	_	start_char=122|end_char=125|NER=O
+25	prodhim	prodhim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	advmod	_	start_char=126|end_char=133|NER=O
+26	mishi	mish	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=134|end_char=139|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	5	punct	_	start_char=140|end_char=141|SpacesAfter=\n\n|NER=O
+

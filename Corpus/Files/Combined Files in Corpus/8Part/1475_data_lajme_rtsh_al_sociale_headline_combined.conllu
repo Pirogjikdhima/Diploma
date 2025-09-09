@@ -1,0 +1,174 @@
+# text = Komuniteti dibran në Tiranë që nga sot ka memorialin e tij .
+# sent_id = 0
+1	Komuniteti	Komunitet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	appos	_	start_char=0|end_char=10|NER=O
+2	dibran	dibra	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	flat	_	start_char=11|end_char=17|NER=O
+3	në	në	ADP	_	Case=Acc	17	case	_	start_char=18|end_char=20|NER=O
+4	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	start_char=21|end_char=27|NER=B-VEND_0
+5	që	që	PRON	_	PronType=Rel	21	nsubj	_	start_char=28|end_char=30|NER=O
+6	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=31|end_char=34|NER=O
+7	sot	sot	ADV	_	AdvType=Tim	21	advmod	_	start_char=35|end_char=38|NER=O
+8	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	acl:relcl	_	start_char=39|end_char=41|NER=O
+9	memorialin	memorial	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	obj	_	start_char=42|end_char=52|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=53|end_char=54|NER=O
+11	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	amod:poss	_	start_char=55|end_char=58|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	21	punct	_	start_char=59|end_char=60|NER=O
+
+# text = Ai është vendosur në hyrje të Tiranës .
+# sent_id = 1
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=3|end_char=8|NER=O
+3	vendosur	vendos	VERB	_	VerbForm=Part	0	root	_	start_char=9|end_char=17|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=20|NER=O
+5	hyrje	hyrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=21|end_char=26|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=27|end_char=29|NER=O
+7	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=30|end_char=37|SpaceAfter=No|NER=B-VEND_0
+8	.	.	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|SpacesAfter=\n|NER=O
+
+# text = Memoriali përkujton historinë e dhimshme të 110 viteve më parë , kur mijëra familje dibrane lanë trojet e tyre në në eksod masiv të detyruar nga forcat serbe pas konferencës së Londrës që përcaktoi kufijtë e Shqipërisë .
+# sent_id = 2
+1	Memoriali	memorial	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=9|NER=O
+2	përkujton	përkujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=19|NER=O
+3	historinë	histori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=20|end_char=29|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=30|end_char=31|NER=O
+5	dhimshme	dhimshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=32|end_char=40|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=41|end_char=43|NER=O
+7	110	110	NUM	_	NumType=Card	8	nummod	_	start_char=44|end_char=47|NER=O
+8	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	start_char=48|end_char=54|NER=O
+9	më	më	PART	_	_	10	mark	_	start_char=55|end_char=57|NER=O
+10	parë	parë	ADV	_	AdvType=Man	8	advmod	_	start_char=58|end_char=62|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=63|end_char=64|NER=O
+12	kur	kur	SCONJ	_	_	16	mark	_	start_char=65|end_char=68|NER=O
+13	mijëra	mijë	PRON	_	PronType=Ind	14	nummod	_	start_char=69|end_char=75|NER=O
+14	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nsubj	_	start_char=76|end_char=83|NER=O
+15	dibrane	dibran	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=84|end_char=91|NER=O
+16	lanë	lë	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	start_char=92|end_char=96|NER=O
+17	trojet	truall	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	16	obj	_	start_char=97|end_char=103|NER=O
+18	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=104|end_char=105|NER=O
+19	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	amod:poss	_	start_char=106|end_char=110|NER=O
+20	në	në	ADP	_	Case=Acc	22	case	_	start_char=111|end_char=113|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=114|end_char=116|NER=O
+22	eksod	eksod	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	advmod	_	start_char=117|end_char=122|NER=O
+23	masiv	masiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=123|end_char=128|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=129|end_char=131|NER=O
+25	detyruar	detyruar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=132|end_char=140|NER=O
+26	nga	nga	ADP	_	Case=Nom	27	case	_	start_char=141|end_char=144|NER=O
+27	forcat	forcë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	obl	_	start_char=145|end_char=151|NER=O
+28	serbe	serbe	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=152|end_char=157|NER=O
+29	pas	pas	ADP	_	Case=Abl	30	case	_	start_char=158|end_char=161|NER=O
+30	konferencës	konferencë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	start_char=162|end_char=173|NER=O
+31	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	32	det:poss	_	start_char=174|end_char=176|NER=O
+32	Londrës	Londër	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=177|end_char=184|NER=B-VEND_0
+33	që	që	PRON	_	PronType=Rel	34	nsubj	_	start_char=185|end_char=187|NER=O
+34	përcaktoi	përcaktoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	acl	_	start_char=188|end_char=197|NER=O
+35	kufijtë	kufijtë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	34	obj	_	start_char=198|end_char=205|NER=O
+36	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	37	det:poss	_	start_char=206|end_char=207|NER=O
+37	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	start_char=208|end_char=218|SpaceAfter=No|NER=B-VEND_1
+38	.	.	PUNCT	_	_	34	punct	_	start_char=219|end_char=220|SpacesAfter=\n|NER=O
+
+# text = Saimir Shatku Sekretar i Përgjithshëm i shoqatës " Bashkësia Dibrane " foli për kryengritjen Dibrane të vitit 1913 , e para rezistëncë e armatosur e shqiptarëve ndaj pushtuesit serb .
+# sent_id = 3
+1	Saimir	Saimir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	Shatku	Shatku	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=13|NER=I-PER
+3	Sekretar	Sekretar	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=14|end_char=22|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=23|end_char=24|NER=O
+5	Përgjithshëm	Përgjithshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	compound	_	start_char=25|end_char=37|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=38|end_char=39|NER=O
+7	shoqatës	shoqatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	compound	_	start_char=40|end_char=48|NER=O
+8	"	"	PUNCT	_	_	9	punct	_	start_char=49|end_char=50|SpaceAfter=No|NER=O
+9	Bashkësia	Bashkësi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	appos	_	start_char=51|end_char=60|NER=O
+10	Dibrane	Dibrane	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	flat	_	start_char=61|end_char=68|NER=O
+11	"	"	PUNCT	_	_	9	punct	_	start_char=69|end_char=70|NER=O
+12	foli	fol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=71|end_char=75|NER=O
+13	për	për	ADP	_	Case=Acc	13	case	_	start_char=76|end_char=79|NER=O
+14	kryengritjen	kryengritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	start_char=80|end_char=92|NER=O
+15	Dibrane	dibran	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=93|end_char=100|NER=O
+16	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=101|end_char=103|NER=O
+17	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=104|end_char=109|NER=B-DATE_0
+18	1913	1913	NUM	_	NumType=Card	16	amod:nummod	_	start_char=110|end_char=114|SpaceAfter=No|NER=I-DATE_0
+19	,	,	PUNCT	_	_	11	punct	_	start_char=115|end_char=116|NER=O
+20	e	e	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	start_char=117|end_char=118|NER=O
+21	para	para	ADP	_	Case=Abl	20	case	_	start_char=119|end_char=123|NER=O
+22	rezistëncë	rezistëncë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=124|end_char=134|NER=O
+23	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=135|end_char=136|NER=O
+24	armatosur	armatosur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=137|end_char=146|NER=O
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=147|end_char=148|NER=O
+26	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	start_char=149|end_char=160|NER=O
+27	ndaj	ndaj	ADP	_	Case=Abl	26	case	_	start_char=161|end_char=165|NER=O
+28	pushtuesit	pushtues	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	start_char=166|end_char=176|NER=O
+29	serb	serb	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=177|end_char=181|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	18	punct	_	start_char=182|end_char=183|SpacesAfter=\n|NER=O
+
+# text = Për piktorin Bujar Kapexhiun memoriali ka domethënie të vecantëpër gjithë ato familje që u bënë strehë për të parët e tyre Ministri i Drejtësisë Ulsi Manja veçoi kontributin e familjeve dibrane për zhvillimin e vendit .
+# sent_id = 4
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	piktorin	piktor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=4|end_char=12|NER=O
+3	Bujar	Bujar	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=18|NER=B-PER
+4	Kapexhiun	Kapexhiun	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	appos	_	start_char=19|end_char=28|NER=I-PER
+5	memoriali	memorial	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=29|end_char=38|NER=O
+6	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=41|NER=O
+7	domethënie	domethëni	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=42|end_char=52|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=53|end_char=55|NER=O
+9	vecantëpër	vecantëpër	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=56|end_char=66|NER=O
+10	gjithë	gjithë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	start_char=67|end_char=73|NER=O
+11	ato	ato	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=74|end_char=77|NER=O
+12	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	start_char=78|end_char=85|NER=O
+13	që	që	PRON	_	PronType=Rel	15	nsubj	_	start_char=86|end_char=88|NER=O
+14	u	u	PART	_	_	15	fixed	_	start_char=89|end_char=90|NER=O
+15	bënë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	12	acl:relcl	_	start_char=91|end_char=95|NER=O
+16	strehë	strehë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=96|end_char=102|NER=O
+17	për	për	ADP	_	Case=Acc	19	case	_	start_char=103|end_char=106|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	19	det	_	start_char=107|end_char=109|NER=O
+19	parët	parë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	15	obl	_	start_char=110|end_char=115|NER=O
+20	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	21	det:poss	_	start_char=116|end_char=117|NER=O
+21	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	amod:poss	_	start_char=118|end_char=122|SpacesAfter=\n|NER=O
+22	Ministri	ministr	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	appos	_	start_char=123|end_char=131|NER=O
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=132|end_char=133|NER=O
+24	Drejtësisë	drejtësi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	compound	_	start_char=134|end_char=144|NER=O
+25	Ulsi	Ulsi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	flat	_	start_char=145|end_char=149|NER=B-PER
+26	Manja	manjë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	flat	_	start_char=150|end_char=155|NER=I-PER
+27	veçoi	veçoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl	_	start_char=156|end_char=161|NER=O
+28	kontributin	kontribut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	obj	_	start_char=162|end_char=173|NER=O
+29	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=174|end_char=175|NER=O
+30	familjeve	familje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	28	nmod	_	start_char=176|end_char=185|NER=O
+31	dibrane	dibran	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=186|end_char=193|NER=O
+32	për	për	ADP	_	Case=Acc	33	case	_	start_char=194|end_char=197|NER=O
+33	zhvillimin	zhvillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	advmod	_	start_char=198|end_char=208|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	35	det:poss	_	start_char=209|end_char=210|NER=O
+35	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=211|end_char=217|SpaceAfter=No|NER=O
+36	.	.	PUNCT	_	_	27	punct	_	start_char=218|end_char=219|SpacesAfter=\n|NER=O
+
+# text = Kritikja e Artit Suzana Varvarica u ndal në realizimin e memorialit në riliev ku paraqet një familje dibrane të dëbuar e dëbuar serbët ndërsa prezantohen dhe shtëpitë që ata lënë pas .
+# sent_id = 5
+1	Kritikja	kritikje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=8|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=9|end_char=10|NER=O
+3	Artit	art	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=16|NER=O
+4	Suzana	Suzanë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	flat	_	start_char=17|end_char=23|NER=B-PER
+5	Varvarica	Varvaricë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	flat	_	start_char=24|end_char=33|NER=I-PER
+6	u	u	PART	_	_	7	fixed	_	start_char=34|end_char=35|NER=O
+7	ndal	ndal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=36|end_char=40|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=41|end_char=43|NER=O
+9	realizimin	realizim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=44|end_char=54|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=55|end_char=56|NER=O
+11	memorialit	memorial	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=57|end_char=67|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=68|end_char=70|NER=O
+13	riliev	rili	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=71|end_char=77|NER=O
+14	ku	ku	ADV	_	AdvType=Loc	15	advmod	_	start_char=78|end_char=80|NER=O
+15	paraqet	paraqit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl	_	start_char=81|end_char=88|NER=O
+16	një	një	DET	_	Definite=Ind	17	det	_	start_char=89|end_char=92|NER=O
+17	familje	familje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	start_char=93|end_char=100|NER=O
+18	dibrane	dibran	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=101|end_char=108|NER=O
+19	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=109|end_char=111|NER=O
+20	dëbuar	dëbuar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=112|end_char=118|NER=O
+21	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	22	fixed	_	start_char=119|end_char=120|NER=O
+22	dëbuar	dëboj	VERB	_	VerbForm=Part	17	amod	_	start_char=121|end_char=127|NER=O
+23	serbët	serbë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	22	obj	_	start_char=128|end_char=134|NER=O
+24	ndërsa	ndërsa	CCONJ	_	_	25	cc	_	start_char=135|end_char=141|NER=O
+25	prezantohen	prezantoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	22	conj	_	start_char=142|end_char=153|NER=O
+26	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=154|end_char=157|NER=O
+27	shtëpitë	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	25	obj	_	start_char=158|end_char=166|NER=O
+28	që	që	PRON	_	PronType=Rel	30	nsubj	_	start_char=167|end_char=169|NER=O
+29	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	iobj	_	start_char=170|end_char=173|NER=O
+30	lënë	lë	VERB	_	VerbForm=Part	25	advcl	_	start_char=174|end_char=178|NER=O
+31	pas	pas	ADV	_	AdvType=Tim	30	advmod	_	start_char=179|end_char=182|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	25	punct	_	start_char=183|end_char=184|SpacesAfter=\n\n\n|NER=O
+

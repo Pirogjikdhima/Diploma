@@ -1,0 +1,140 @@
+# text = 06 / 09 / 2023 Vetëm në në nga pikat e Qendrës shëndetësore Nr .
+# sent_id = 0
+1	06	06	NUM	_	NumType=Card	5	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	6	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	6	conj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	7	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	7	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Vetëm	Vetëm	PART	_	_	13	cc	_	start_char=15|end_char=20|NER=O
+7	në	në	ADP	_	Case=Acc	5	case	_	start_char=21|end_char=23|NER=O
+8	në	në	ADP	_	Case=Acc	5	case	_	start_char=24|end_char=26|NER=O
+9	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=27|end_char=30|NER=O
+10	pikat	pikat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	advmod	_	start_char=31|end_char=36|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=37|end_char=38|NER=O
+12	Qendrës	Qendrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=39|end_char=46|NER=O
+13	shëndetësore	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=47|end_char=59|NER=O
+14	Nr	Nr.8	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	start_char=60|end_char=62|NER=O
+15	.	.	PUNCT	_	_	7	punct	_	start_char=63|end_char=64|NER=O
+
+# text = 8 në Tiranë janë raportuar 30 infektime nga COVID gjatë muajit gusht .
+# sent_id = 1
+1	8	8	NUM	_	NumType=Card	7	appos	_	start_char=0|end_char=1|NER=O
+2	në	në	ADP	_	Case=Acc	11	case	_	start_char=2|end_char=4|NER=O
+3	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=5|end_char=11|NER=B-VEND_0
+4	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=12|end_char=16|NER=O
+5	raportuar	raportoj	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=26|NER=O
+6	30	30	NUM	_	NumType=Card	15	nummod	_	start_char=27|end_char=29|NER=O
+7	infektime	infektim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	start_char=30|end_char=39|NER=O
+8	nga	nga	ADP	_	Case=Nom	17	case	_	start_char=40|end_char=43|NER=O
+9	COVID	COVID	NUM	_	NumType=Card	13	advmod	_	start_char=44|end_char=49|NER=O
+10	gjatë	gjatë	ADP	_	Case=Abl	19	case	_	start_char=50|end_char=55|NER=O
+11	muajit	muaj	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	advmod	_	start_char=56|end_char=62|NER=O
+12	gusht	gusht	NUM	_	NumType=Card	19	amod:nummod	_	start_char=63|end_char=68|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	13	punct	_	start_char=69|end_char=70|SpacesAfter=\n|NER=O
+
+# text = " Ditën e diel nuk ndihesha mirë fizikisht , nuk e ulja dot kokën , nuk ushqehesha dot .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ditën	ditë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=2|end_char=7|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=9|NER=B-DATE_1
+4	diel	diel	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=10|end_char=14|NER=I-DATE_1
+5	nuk	nuk	PART	_	_	6	mark	_	start_char=15|end_char=18|NER=O
+6	ndihesha	ndihesoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Pass	0	root	_	start_char=19|end_char=27|NER=O
+7	mirë	mirë	ADV	_	AdvType=Man	6	advmod	_	start_char=28|end_char=32|NER=O
+8	fizikisht	fizikisht	ADV	_	AdvType=Man	6	advmod	_	start_char=33|end_char=42|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	12	punct	_	start_char=43|end_char=44|NER=O
+10	nuk	nuk	PART	_	_	12	mark	_	start_char=45|end_char=48|NER=O
+11	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	cc	_	start_char=49|end_char=50|NER=O
+12	ulja	uljë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=51|end_char=55|NER=O
+13	dot	dot	CCONJ	_	_	17	cc	_	start_char=56|end_char=59|NER=O
+14	kokën	kokë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	start_char=60|end_char=65|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=66|end_char=67|NER=O
+16	nuk	nuk	PART	_	_	17	mark	_	start_char=68|end_char=71|NER=O
+17	ushqehesha	ushqej	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Pass	6	conj	_	start_char=72|end_char=82|NER=O
+18	dot	dot	PRON	_	PronType=Prs|Reflex=Yes	17	obj	_	start_char=83|end_char=86|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	17	punct	_	start_char=87|end_char=88|NER=O
+
+# text = Kisha një lodhje fizike dhe temperaturën ë kisha 39 .
+# sent_id = 3
+1	Kisha	kishë	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=6|end_char=9|NER=O
+3	lodhje	lodhje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	start_char=10|end_char=16|NER=O
+4	fizike	fizik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=17|end_char=23|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=24|end_char=27|NER=O
+6	temperaturën	temperaturë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	start_char=28|end_char=40|NER=O
+7	ë	ë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=41|end_char=42|NER=O
+8	kisha	kam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	1	conj	_	start_char=43|end_char=48|NER=O
+9	39	39	NUM	_	NumType=Card	8	advmod	_	start_char=49|end_char=51|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	1	punct	_	start_char=52|end_char=53|NER=O
+
+# text = Kur erdha këtu dola pozitive me COVID - 19 , " tha ajo .
+# sent_id = 4
+1	Kur	kur	SCONJ	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	erdha	vij	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	10	advcl	_	start_char=4|end_char=9|NER=O
+3	këtu	ky	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	4	obj	_	start_char=10|end_char=14|NER=O
+4	dola	dolaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	start_char=15|end_char=19|NER=O
+5	pozitive	pozitiv	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	cop	_	start_char=20|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=31|NER=O
+7	COVID	COVID-19	PROPN	_	Foreign=Yes	4	advmod	_	start_char=32|end_char=37|SpaceAfter=No|NER=O
+8	-	-	PUNCT	_	_	4	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+9	19	19	NUM	_	NumType=Card	4	advmod	_	start_char=40|end_char=42|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	4	punct	_	start_char=43|end_char=44|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	10	punct	_	start_char=45|end_char=46|NER=O
+12	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=47|end_char=50|NER=O
+13	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=51|end_char=54|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	10	punct	_	start_char=55|end_char=56|SpacesAfter=\n|NER=O
+
+# text = Në qendrat shëndetësore tashmë diagnoza COVID po bëhet e shpeshtë .
+# sent_id = 5
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	qendrat	qendër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=3|end_char=10|NER=O
+3	shëndetësore	shëndetësor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=11|end_char=23|NER=O
+4	tashmë	tashmë	ADV	_	AdvType=Tim	2	advmod	_	start_char=24|end_char=30|NER=O
+5	diagnoza	diagnozë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=31|end_char=39|NER=O
+6	COVID	COVID	PROPN	_	Foreign=Yes	5	appos	_	start_char=40|end_char=45|NER=O
+7	po	po	PART	_	_	8	mark	_	start_char=46|end_char=48|NER=O
+8	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=49|end_char=54|NER=O
+9	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=55|end_char=56|NER=O
+10	shpeshtë	shpeshtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	cop	_	start_char=57|end_char=65|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	8	punct	_	start_char=66|end_char=67|NER=O
+
+# text = Dr .
+# sent_id = 6
+1	Dr	Dr	NUM	_	NumType=Card	0	root	_	start_char=0|end_char=2|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=3|end_char=4|NER=O
+
+# text = Violeta Kaçori , e sapo rehabilituar edhe ajo vetë nga një prekje në mushkëri nga COVID thotë variantet në qarkullim kanë infektueshmëri të lartë .
+# sent_id = 7
+1	Violeta	Violetë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Kaçori	Kaçor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=14|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	6	punct	_	start_char=15|end_char=16|NER=O
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	cc	_	start_char=17|end_char=18|NER=O
+5	sapo	sapo	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	aux	_	start_char=19|end_char=23|NER=O
+6	rehabilituar	rehabilitoj	VERB	_	VerbForm=Part	0	root	_	start_char=24|end_char=36|NER=O
+7	edhe	edhe	CCONJ	_	_	9	mark	_	start_char=37|end_char=41|NER=O
+8	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	det	_	start_char=42|end_char=45|NER=O
+9	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	6	cop	_	start_char=46|end_char=50|NER=O
+10	nga	nga	ADP	_	Case=Nom	12	case	_	start_char=51|end_char=54|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=55|end_char=58|NER=O
+12	prekje	prekje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	advmod	_	start_char=59|end_char=65|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=66|end_char=68|NER=O
+14	mushkëri	mushkër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	start_char=69|end_char=77|NER=O
+15	nga	nga	ADP	_	Case=Nom	16	case	_	start_char=78|end_char=81|NER=O
+16	COVID	COVID	NUM	_	NumType=Card	17	advmod	_	start_char=82|end_char=87|NER=O
+17	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=88|end_char=93|NER=O
+18	variantet	variant	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=94|end_char=103|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=104|end_char=106|NER=O
+20	qarkullim	qarkullim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	advmod	_	start_char=107|end_char=116|NER=O
+21	kanë	kam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	ccomp	_	start_char=117|end_char=121|NER=O
+22	infektueshmëri	infektueshmëri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=122|end_char=136|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=137|end_char=139|NER=O
+24	lartë	lartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=140|end_char=145|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	21	punct	_	start_char=146|end_char=147|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 8
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

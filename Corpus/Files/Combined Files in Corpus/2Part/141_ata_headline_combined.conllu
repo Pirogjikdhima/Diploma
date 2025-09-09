@@ -1,0 +1,93 @@
+# text = AMF : Tregu i sigurimeve ecuri pozitive TIRAN , 29 dhjetor / ATSH / Të dhënat e Autoritetit të Mbikëqyrjes Financiare ( AMF ) tregojnë se primet bruto për 11 muaj arritën vlerën e 20 .
+# sent_id = 0
+1	AMF	AMF	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3|SpaceAfter=No|NER=B-ORG
+2	:	:	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|NER=O
+3	Tregu	treg	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=11|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=12|end_char=13|NER=O
+5	sigurimeve	sigurim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=14|end_char=24|NER=O
+6	ecuri	ecur	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	start_char=25|end_char=30|NER=O
+7	pozitive	pozitiv	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=31|end_char=39|SpacesAfter=\n|NER=O
+8	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	start_char=40|end_char=45|SpaceAfter=No|NER=B-VEND_0
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	29	29	NUM	_	NumType=Card	10	nummod	_	start_char=48|end_char=50|NER=B-DATE_0
+11	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	start_char=51|end_char=58|NER=I-DATE_0
+12	/	/	PUNCT	_	_	12	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=O
+13	ATSH	ATSH	PROPN	_	Foreign=Yes	10	appos	_	start_char=61|end_char=65|SpaceAfter=No|NER=O
+14	/	/	PUNCT	_	_	10	punct	_	start_char=66|end_char=67|NER=O
+15	Të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	2	det	_	start_char=68|end_char=70|NER=O
+16	dhënat	dhënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	advmod	_	start_char=71|end_char=77|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det:poss	_	start_char=78|end_char=79|NER=O
+18	Autoritetit	Autoritet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=80|end_char=91|NER=B-ORG
+19	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det:poss	_	start_char=92|end_char=94|NER=I-ORG
+20	Mbikëqyrjes	mbikëqyrje	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=95|end_char=106|NER=I-ORG
+21	Financiare	Financiar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=107|end_char=117|NER=I-ORG
+22	(	(	PUNCT	_	_	9	punct	_	start_char=118|end_char=119|SpaceAfter=No|NER=I-ORG
+23	AMF	AMF	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=120|end_char=123|NER=I-ORG
+24	)	)	PUNCT	_	_	6	punct	_	start_char=124|end_char=125|NER=I-ORG
+25	tregojnë	tregoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=126|end_char=134|NER=O
+26	se	se	SCONJ	_	_	17	mark	_	start_char=135|end_char=137|NER=O
+27	primet	prim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	obj	_	start_char=138|end_char=144|NER=O
+28	bruto	bruto	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=145|end_char=150|NER=O
+29	për	për	ADP	_	Case=Acc	16	case	_	start_char=151|end_char=154|NER=O
+30	11	11	NUM	_	NumType=Card	16	nummod	_	start_char=155|end_char=157|NER=O
+31	muaj	muaj	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	17	advmod	_	start_char=158|end_char=162|NER=O
+32	arritën	arrij	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	advcl	_	start_char=163|end_char=170|NER=O
+33	vlerën	vlerë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=171|end_char=177|NER=O
+34	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=178|end_char=179|NER=O
+35	20	20	NUM	_	NumType=Card	18	amod:poss	_	start_char=180|end_char=182|NER=O
+36	.	.	PUNCT	_	_	18	punct	_	start_char=183|end_char=184|NER=O
+
+# text = 5 miliardë lekëve , në rritje me 8 .
+# sent_id = 1
+1	5	5	NUM	_	NumType=Card	18	amod:poss	_	start_char=0|end_char=1|NER=O
+2	miliardë	miliardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	det	_	start_char=2|end_char=10|NER=O
+3	lekëve	lekë	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	start_char=11|end_char=17|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	25	punct	_	start_char=18|end_char=19|NER=O
+5	në	në	ADP	_	Case=Acc	25	case	_	start_char=20|end_char=22|NER=O
+6	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=23|end_char=29|NER=O
+7	me	me	ADP	_	Case=Acc	28	case	_	start_char=30|end_char=32|NER=O
+8	8	8	NUM	_	NumType=Card	25	nummod	_	start_char=33|end_char=34|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	25	punct	_	start_char=35|end_char=36|SpaceAfter=No|NER=O
+
+# text = 4 % krahasuar me të njëjtën periudhë të vitit të kaluar .
+# sent_id = 2
+1	4	4	NUM	_	NumType=Card	25	nummod	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	%	%	SYM	_	_	29	obl	_	start_char=2|end_char=3|NER=O
+3	krahasuar	krahasoj	VERB	_	VerbForm=Part	25	acl:relcl	_	start_char=4|end_char=13|NER=O
+4	me	me	ADP	_	Case=Acc	33	case	_	start_char=14|end_char=16|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	33	det	_	start_char=17|end_char=19|NER=O
+6	njëjtën	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	det	_	start_char=20|end_char=27|NER=O
+7	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	obl	_	start_char=28|end_char=36|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=37|end_char=39|NER=O
+9	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=40|end_char=45|NER=O
+10	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=46|end_char=48|NER=O
+11	kaluar	kaloj	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=49|end_char=55|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	29	punct	_	start_char=56|end_char=57|SpacesAfter=\n|NER=O
+
+# text = Disa prej produkteve kryesore të sigurimit vullnetar , si sigurimet e pronës apo sigurimi KASKO i mjeteve kanë shënuar ritme dyshifrore të rritjes .
+# sent_id = 3
+1	Disa	disa	PRON	_	PronType=Ind	3	det	_	start_char=0|end_char=4|NER=O
+2	prej	prej	ADP	_	Case=Abl	3	case	_	start_char=5|end_char=9|NER=O
+3	produkteve	produkt	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	19	advmod	_	start_char=10|end_char=20|NER=O
+4	kryesore	kryesor	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=21|end_char=29|NER=O
+5	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=30|end_char=32|NER=O
+6	sigurimit	sigurim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=33|end_char=42|NER=O
+7	vullnetar	vullnetar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=43|end_char=52|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	10	punct	_	start_char=53|end_char=54|NER=O
+9	si	si	SCONJ	_	_	10	mark	_	start_char=55|end_char=57|NER=O
+10	sigurimet	sigurim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	start_char=58|end_char=67|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=68|end_char=69|NER=O
+12	pronës	pronë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=70|end_char=76|NER=O
+13	apo	apo	CCONJ	_	_	14	cc	_	start_char=77|end_char=80|NER=O
+14	sigurimi	sigurim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=81|end_char=89|NER=O
+15	KASKO	KASKO	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	appos	_	start_char=90|end_char=95|NER=B-ORG
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=96|end_char=97|NER=O
+17	mjeteve	mjet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=98|end_char=105|NER=O
+18	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=106|end_char=110|NER=O
+19	shënuar	shënoj	VERB	_	VerbForm=Part	0	root	_	start_char=111|end_char=118|NER=O
+20	ritme	ritëm	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=119|end_char=124|NER=O
+21	dyshifrore	dyshifror	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=125|end_char=135|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det:poss	_	start_char=136|end_char=138|NER=O
+23	rritjes	rritje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=139|end_char=146|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=147|end_char=148|SpacesAfter=\n|NER=O
+

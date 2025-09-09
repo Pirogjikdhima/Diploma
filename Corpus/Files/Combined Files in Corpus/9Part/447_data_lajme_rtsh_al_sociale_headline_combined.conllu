@@ -1,0 +1,55 @@
+# text = 18 / 11 / 2023 Bajram Zela nga fshati Bushat është në kulmin e punës .
+# sent_id = 0
+1	18	18	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	15	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	11	11	NUM	_	NumType=Card	15	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	17	punct	_	start_char=8|end_char=9|SpacesAfter=\n|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Bajram	Bajram	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	flat	_	start_char=15|end_char=21|NER=B-PER
+7	Zela	Zela	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=22|end_char=26|NER=I-PER
+8	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=27|end_char=30|NER=O
+9	fshati	fshat	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=31|end_char=37|NER=O
+10	Bushat	Bushat	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	appos	_	start_char=38|end_char=44|NER=O
+11	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	start_char=45|end_char=50|NER=O
+12	në	në	ADP	_	Case=Acc	26	case	_	start_char=51|end_char=53|NER=O
+13	kulmin	kulm	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=54|end_char=60|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det:poss	_	start_char=61|end_char=62|NER=O
+15	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=63|end_char=68|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	24	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Është koha që ai të mbledhë lakrën e prodhuar në tokën e tij .
+# sent_id = 1
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=10|NER=O
+3	që	që	SCONJ	_	_	6	mark	_	start_char=11|end_char=13|NER=O
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=14|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	mbledhë	mbledh	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	csubj	_	start_char=20|end_char=27|NER=O
+7	lakrën	lakrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	start_char=28|end_char=34|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=35|end_char=36|NER=O
+9	prodhuar	prodhoj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=37|end_char=45|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+11	tokën	tokë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=49|end_char=54|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=55|end_char=56|NER=O
+13	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=57|end_char=60|NER=O
+14	.	.	PUNCT	_	_	1	punct	_	start_char=61|end_char=62|SpacesAfter=\n|NER=O
+
+# text = " Kultivojmë lakër , patate dhe qepe te thate " , thotë fermeri Bajram Zela .
+# sent_id = 2
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kultivojmë	kultivoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	advcl	_	start_char=2|end_char=12|NER=O
+3	lakër	lakër	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=13|end_char=18|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=19|end_char=20|NER=O
+5	patate	patate	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	11	nsubj	_	start_char=21|end_char=27|NER=O
+6	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=28|end_char=31|NER=O
+7	qepe	qepe	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	conj	_	start_char=32|end_char=36|NER=O
+8	te	te	ADP	_	Case=Nom	9	case	_	start_char=37|end_char=39|NER=O
+9	thate	thate	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	start_char=40|end_char=45|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	7	punct	_	start_char=46|end_char=47|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	11	punct	_	start_char=48|end_char=49|NER=O
+12	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=50|end_char=55|NER=O
+13	fermeri	fermer	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=56|end_char=63|NER=O
+14	Bajram	Bajram	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=64|end_char=70|NER=B-PER
+15	Zela	Zela	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=71|end_char=75|SpaceAfter=No|NER=I-PER
+16	.	.	PUNCT	_	_	11	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+

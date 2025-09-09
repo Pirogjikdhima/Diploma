@@ -1,0 +1,161 @@
+# text = 21 / 09 / 2023 Nisin punimet në Portin e Durrës Marina , pjesë e një projekti të rëndësishëm në sektorin e hoteleri turizmit .
+# sent_id = 0
+1	21	21	NUM	_	NumType=Card	13	flat	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	11	amod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Nisin	nis	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=15|end_char=20|NER=O
+7	punimet	punim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=21|end_char=28|NER=O
+8	në	në	ADP	_	Case=Acc	20	case	_	start_char=29|end_char=31|NER=O
+9	Portin	Port	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	start_char=32|end_char=38|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=39|end_char=40|NER=O
+11	Durrës	Durrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=41|end_char=47|NER=O
+12	Marina	marinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	flat	_	start_char=48|end_char=54|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	25	punct	_	start_char=55|end_char=56|NER=O
+14	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	list	_	start_char=57|end_char=62|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=63|end_char=64|NER=O
+16	një	një	DET	_	Definite=Ind	28	det	_	start_char=65|end_char=68|NER=O
+17	projekti	projekt	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	start_char=69|end_char=77|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	30	det	_	start_char=78|end_char=80|NER=O
+19	rëndësishëm	rëndësishëm	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=81|end_char=92|NER=O
+20	në	në	ADP	_	Case=Acc	32	case	_	start_char=93|end_char=95|NER=O
+21	sektorin	sektor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	start_char=96|end_char=104|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	34	det:poss	_	start_char=105|end_char=106|NER=O
+23	hoteleri	hoteler	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	start_char=107|end_char=115|NER=O
+24	turizmit	turizëm	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=116|end_char=124|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	2	punct	_	start_char=125|end_char=126|NER=O
+
+# text = Marina turistike e Durrësit është tashmë realitet dhe jo vetëm projekt në letër .
+# sent_id = 1
+1	Marina	marinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=6|NER=O
+2	turistike	turistik	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=7|end_char=16|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=17|end_char=18|NER=O
+4	Durrësit	Durrës	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=19|end_char=27|NER=B-VEND_0
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=28|end_char=33|NER=O
+6	tashmë	tashmë	ADV	_	AdvType=Deg	7	advmod	_	start_char=34|end_char=40|NER=O
+7	realitet	realit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	cop	_	start_char=41|end_char=49|NER=O
+8	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=50|end_char=53|NER=O
+9	jo	jo	PART	_	_	10	fixed	_	start_char=54|end_char=56|NER=O
+10	vetëm	vetëm	PART	_	_	11	mark	_	start_char=57|end_char=62|NER=O
+11	projekt	projek	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	start_char=63|end_char=70|NER=O
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=71|end_char=73|NER=O
+13	letër	letër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=74|end_char=79|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	5	punct	_	start_char=80|end_char=81|SpacesAfter=\n|NER=O
+
+# text = Leja e Ndërtimit dhënë nga Këshilli Kombëtar i Territorit : për objektin : " Godinë banimi dhe shërbimi me 1 , 6 , 7 , 8 dhe 10 kate mbitokë , 1 kat pjesërisht parkim nëntokë dhe 1 kat parkim nëntokë " dhe " Godinë banimi dhe shërbimi 1 , 6 , 7 dhe 8 kate mbitokë , 1 kat pjesërisht parkim nëntokë dhe 1 kat parkim nëntokë " , Zona 02 , Zona e menaxhimi A02 dhe A04 , me vendndodhje në " Marina & Jahtet e Durrësit " , me subjekt zhvillues shoqërinë " Durrës Marina " SH .
+# sent_id = 2
+1	Leja	Lejë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=0|end_char=4|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5|end_char=6|NER=O
+3	Ndërtimit	ndërtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=16|NER=O
+4	dhënë	jap	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=22|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=23|end_char=26|NER=O
+6	Këshilli	Këshill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=27|end_char=35|NER=B-ORG
+7	Kombëtar	Kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=36|end_char=44|NER=I-ORG
+8	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=45|end_char=46|NER=I-ORG
+9	Territorit	Territor	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=47|end_char=57|SpaceAfter=No|NER=I-ORG
+10	:	:	PUNCT	_	_	12	punct	_	start_char=58|end_char=59|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=60|end_char=63|NER=O
+12	objektin	objekt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=64|end_char=72|SpaceAfter=No|NER=O
+13	:	:	PUNCT	_	_	4	punct	_	start_char=73|end_char=74|NER=O
+14	"	"	PUNCT	_	_	2	punct	_	start_char=75|end_char=76|SpaceAfter=No|NER=O
+15	Godinë	Godinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=77|end_char=83|NER=O
+16	banimi	banim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=84|end_char=90|NER=O
+17	dhe	dhe	CCONJ	_	_	5	cc	_	start_char=91|end_char=94|NER=O
+18	shërbimi	shërbim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	start_char=95|end_char=103|NER=O
+19	me	me	ADP	_	Case=Acc	7	case	_	start_char=104|end_char=106|NER=O
+20	1	1	NUM	_	NumType=Card	5	nummod	_	start_char=107|end_char=108|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	9	punct	_	start_char=109|end_char=110|NER=O
+22	6	6	NUM	_	NumType=Card	7	flat	_	start_char=111|end_char=112|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	11	punct	_	start_char=113|end_char=114|NER=O
+24	7	7	NUM	_	NumType=Card	9	list	_	start_char=115|end_char=116|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	13	punct	_	start_char=117|end_char=118|NER=O
+26	8	8	NUM	_	NumType=Card	11	conj	_	start_char=119|end_char=120|NER=O
+27	dhe	dhe	CCONJ	_	_	16	cc	_	start_char=121|end_char=124|NER=O
+28	10	10	NUM	_	NumType=Card	16	nummod	_	start_char=125|end_char=127|NER=O
+29	kate	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	start_char=128|end_char=132|NER=O
+30	mbitokë	mbitokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	nmod	_	start_char=133|end_char=140|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	20	punct	_	start_char=141|end_char=142|NER=O
+32	1	1	NUM	_	NumType=Card	20	nummod	_	start_char=143|end_char=144|NER=O
+33	kat	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	start_char=145|end_char=148|NER=O
+34	pjesërisht	pjesërisht	ADV	_	AdvType=Man	20	advmod	_	start_char=149|end_char=159|NER=O
+35	parkim	parkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=160|end_char=166|NER=O
+36	nëntokë	nëntokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=167|end_char=174|NER=O
+37	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=175|end_char=178|NER=O
+38	1	1	NUM	_	NumType=Card	26	nummod	_	start_char=179|end_char=180|NER=O
+39	kat	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	start_char=181|end_char=184|NER=O
+40	parkim	parkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=185|end_char=191|NER=O
+41	nëntokë	nëntokë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	26	nmod	_	start_char=192|end_char=199|NER=O
+42	"	"	PUNCT	_	_	26	punct	_	start_char=200|end_char=201|NER=O
+43	dhe	dhe	CCONJ	_	_	31	cc	_	start_char=202|end_char=205|NER=O
+44	"	"	PUNCT	_	_	31	punct	_	start_char=206|end_char=207|SpaceAfter=No|NER=O
+45	Godinë	Godinë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	28	conj	_	start_char=208|end_char=214|NER=O
+46	banimi	banim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	start_char=215|end_char=221|NER=O
+47	dhe	dhe	CCONJ	_	_	34	cc	_	start_char=222|end_char=225|NER=O
+48	shërbimi	shërbim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	conj	_	start_char=226|end_char=234|NER=O
+49	1	1	NUM	_	NumType=Card	34	nummod	_	start_char=235|end_char=236|SpaceAfter=No|NER=O
+50	,	,	PUNCT	_	_	37	punct	_	start_char=237|end_char=238|NER=O
+51	6	6	NUM	_	NumType=Card	34	flat	_	start_char=239|end_char=240|SpaceAfter=No|NER=O
+52	,	,	PUNCT	_	_	39	punct	_	start_char=241|end_char=242|NER=O
+53	7	7	NUM	_	NumType=Card	37	conj	_	start_char=243|end_char=244|NER=O
+54	dhe	dhe	CCONJ	_	_	42	cc	_	start_char=245|end_char=248|NER=O
+55	8	8	NUM	_	NumType=Card	42	nummod	_	start_char=249|end_char=250|NER=O
+56	kate	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	39	conj	_	start_char=251|end_char=255|NER=O
+57	mbitokë	mbitokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	42	nmod	_	start_char=256|end_char=263|SpaceAfter=No|NER=O
+58	,	,	PUNCT	_	_	46	punct	_	start_char=264|end_char=265|NER=O
+59	1	1	NUM	_	NumType=Card	46	nummod	_	start_char=266|end_char=267|NER=O
+60	kat	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	42	nmod	_	start_char=268|end_char=271|NER=O
+61	pjesërisht	pjesërisht	ADV	_	AdvType=Man	48	advmod	_	start_char=272|end_char=282|NER=O
+62	parkim	parkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	46	nmod	_	start_char=283|end_char=289|NER=O
+63	nëntokë	nëntokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	48	nmod	_	start_char=290|end_char=297|NER=O
+64	dhe	dhe	CCONJ	_	_	52	cc	_	start_char=298|end_char=301|NER=O
+65	1	1	NUM	_	NumType=Card	52	nummod	_	start_char=302|end_char=303|NER=O
+66	kat	kat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	49	conj	_	start_char=304|end_char=307|NER=O
+67	parkim	parkim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	52	nmod	_	start_char=308|end_char=314|NER=O
+68	nëntokë	nëntokë	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	53	nmod	_	start_char=315|end_char=322|SpaceAfter=No|NER=O
+69	"	"	PUNCT	_	_	53	punct	_	start_char=323|end_char=324|SpaceAfter=No|NER=O
+70	,	,	PUNCT	_	_	56	punct	_	start_char=325|end_char=326|NER=O
+71	Zona	Zonë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	54	list	_	start_char=327|end_char=331|NER=O
+72	02	02	NUM	_	NumType=Card	56	flat	_	start_char=332|end_char=334|SpaceAfter=No|NER=O
+73	,	,	PUNCT	_	_	59	punct	_	start_char=335|end_char=336|NER=O
+74	Zona	Zonë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	56	list	_	start_char=337|end_char=341|NER=O
+75	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	61	det:poss	_	start_char=342|end_char=343|NER=O
+76	menaxhimi	menaxhim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	59	nmod	_	start_char=344|end_char=353|NER=O
+77	A02	a02	NUM	_	NumType=Card	61	flat	_	start_char=354|end_char=357|NER=O
+78	dhe	dhe	CCONJ	_	_	64	cc	_	start_char=358|end_char=361|NER=O
+79	A04	a04	NUM	_	NumType=Card	62	conj	_	start_char=362|end_char=365|SpaceAfter=No|NER=O
+80	,	,	PUNCT	_	_	67	punct	_	start_char=366|end_char=367|NER=O
+81	me	me	ADP	_	Case=Acc	67	case	_	start_char=368|end_char=370|NER=O
+82	vendndodhje	vendndodhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	61	nmod	_	start_char=371|end_char=382|NER=O
+83	në	në	ADP	_	Case=Acc	70	case	_	start_char=383|end_char=385|NER=O
+84	"	"	PUNCT	_	_	70	punct	_	start_char=386|end_char=387|SpaceAfter=No|NER=O
+85	Marina	marinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	67	nmod	_	start_char=388|end_char=394|NER=O
+86	&	&	PROPN	_	Foreign=Yes	70	flat	_	start_char=395|end_char=396|NER=O
+87	Jahtet	Jahtet	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	70	flat	_	start_char=397|end_char=403|NER=O
+88	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	74	det:poss	_	start_char=404|end_char=405|NER=O
+89	Durrësit	Durrësit	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	72	compound	_	start_char=406|end_char=414|SpaceAfter=No|NER=O
+90	"	"	PUNCT	_	_	72	punct	_	start_char=415|end_char=416|SpaceAfter=No|NER=O
+91	,	,	PUNCT	_	_	77	punct	_	start_char=417|end_char=418|NER=O
+92	me	me	ADP	_	Case=Acc	77	case	_	start_char=419|end_char=421|NER=O
+93	subjekt	subjek	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	70	list	_	start_char=422|end_char=429|NER=O
+94	zhvillues	zhvillues	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	77	amod	_	start_char=430|end_char=439|NER=O
+95	shoqërinë	shoqëri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	77	nmod	_	start_char=440|end_char=449|NER=O
+96	"	"	PUNCT	_	_	81	punct	_	start_char=450|end_char=451|SpaceAfter=No|NER=O
+97	Durrës	Durrë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	79	list	_	start_char=452|end_char=458|NER=O
+98	Marina	Marina	PROPN	_	Foreign=Yes	81	flat	_	start_char=459|end_char=465|NER=O
+99	"	"	PUNCT	_	_	81	punct	_	start_char=466|end_char=467|NER=O
+100	SH	SH	PROPN	_	Foreign=Yes	81	flat	_	start_char=468|end_char=470|SpaceAfter=No|NER=O
+101	.	.	PUNCT	_	_	81	punct	_	start_char=471|end_char=472|SpaceAfter=No|NER=O
+
+# text = A .
+# sent_id = 3
+1	A	a	PUNCT	_	_	81	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	77	punct	_	start_char=2|end_char=3|SpacesAfter=\n|NER=O
+
+# text = Gazetar : Marjo Merhori
+# sent_id = 4
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Marjo	Marjo	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15|NER=B-PER
+4	Merhori	merhor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=16|end_char=23|SpacesAfter=\n|NER=I-PER
+

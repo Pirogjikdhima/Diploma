@@ -1,0 +1,32 @@
+# text = 22 / 08 / 2023 Shpërndarja e tekseve shkollore do të nisi më 1 shtator , njofton Ministria e Arsimit dhe Sporteve .
+# sent_id = 0
+1	22	22	NUM	_	NumType=Card	6	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	8	conj	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	10	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Shpërndarja	shpërndarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=15|end_char=26|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=27|end_char=28|NER=O
+8	tekseve	tekse	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=29|end_char=36|NER=O
+9	shkollore	shkollor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=37|end_char=46|NER=O
+10	do	do	PART	_	_	7	fixed	_	start_char=47|end_char=49|NER=O
+11	të	të	PART	_	_	7	fixed	_	start_char=50|end_char=52|NER=O
+12	nisi	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=53|end_char=57|NER=O
+13	më	më	ADP	_	Case=Acc	10	case	_	start_char=58|end_char=60|NER=O
+14	1	1	NUM	_	NumType=Card	10	nummod	_	start_char=61|end_char=62|NER=B-DATE_0
+15	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=63|end_char=70|SpaceAfter=No|NER=I-DATE_0
+16	,	,	PUNCT	_	_	7	punct	_	start_char=71|end_char=72|NER=O
+17	njofton	njoftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	start_char=73|end_char=80|NER=O
+18	Ministria	ministri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=81|end_char=90|NER=B-ORG
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=91|end_char=92|NER=I-ORG
+20	Arsimit	Arsim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	compound	_	start_char=93|end_char=100|NER=I-ORG
+21	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=101|end_char=104|NER=I-ORG
+22	Sporteve	sport	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	conj	_	start_char=105|end_char=113|SpaceAfter=No|NER=I-ORG
+23	.	.	PUNCT	_	_	12	punct	_	start_char=114|end_char=115|SpacesAfter=\n|NER=O
+
+# text = Gazetare Keti Toroveci
+# sent_id = 1
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Keti	Keti	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=9|end_char=13|NER=B-PER
+3	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=14|end_char=22|SpacesAfter=\n|NER=I-PER
+

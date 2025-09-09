@@ -1,0 +1,95 @@
+# text = 23 / 01 / 2022 Sipas të dhënave të Institutit të Shëndetit Publik , varianti i ri " Omicron " ka prekur më shumë fëmijët nga 0 - 14 vjeç , por pavarësisht kësaj , prindërit janë skeptik të vaksinojnë fëmijët e tyre .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	9	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	6	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	6	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	9	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	9	parataxis	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Sipas	sipas	ADP	_	Case=Abl	3	case	_	start_char=15|end_char=20|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	3	det	_	start_char=21|end_char=23|NER=O
+8	dhënave	dhënë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	16	advmod	_	start_char=24|end_char=31|NER=O
+9	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	5	det:poss	_	start_char=32|end_char=34|NER=O
+10	Institutit	Institut	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=35|end_char=45|NER=B-ORG
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det:poss	_	start_char=46|end_char=48|NER=I-ORG
+12	Shëndetit	shëndet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=49|end_char=58|NER=I-ORG
+13	Publik	publik	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=59|end_char=65|SpaceAfter=No|NER=I-ORG
+14	,	,	PUNCT	_	_	10	punct	_	start_char=66|end_char=67|NER=O
+15	varianti	variant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=68|end_char=76|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=77|end_char=78|NER=O
+17	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=79|end_char=81|NER=O
+18	"	"	PUNCT	_	_	14	punct	_	start_char=82|end_char=83|SpaceAfter=No|NER=O
+19	Omicron	Omicron	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	appos	_	start_char=84|end_char=91|NER=O
+20	"	"	PUNCT	_	_	10	punct	_	start_char=92|end_char=93|NER=O
+21	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=94|end_char=96|NER=O
+22	prekur	prek	VERB	_	VerbForm=Part	0	root	_	start_char=97|end_char=103|NER=O
+23	më	më	PART	_	_	19	mark	_	start_char=104|end_char=106|NER=O
+24	shumë	shumë	ADV	_	AdvType=Deg	19	nummod	_	start_char=107|end_char=112|NER=O
+25	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	16	obj	_	start_char=113|end_char=120|NER=O
+26	nga	nga	ADP	_	Case=Nom	22	case	_	start_char=121|end_char=124|NER=O
+27	0	0	NUM	_	NumType=Card	22	nummod	_	start_char=125|end_char=126|NER=O
+28	-	-	PUNCT	_	_	22	punct	_	start_char=127|end_char=128|NER=O
+29	14	14	NUM	_	NumType=Card	22	nummod	_	start_char=129|end_char=131|NER=O
+30	vjeç	vjeç	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	start_char=132|end_char=136|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	24	punct	_	start_char=137|end_char=138|NER=O
+32	por	por	CCONJ	_	_	29	cc	_	start_char=139|end_char=142|NER=O
+33	pavarësisht	pavarësisht	ADV	_	AdvType=Man	29	advmod	_	start_char=143|end_char=154|NER=O
+34	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	29	nsubj	_	start_char=155|end_char=160|SpaceAfter=No|NER=O
+35	,	,	PUNCT	_	_	24	punct	_	start_char=161|end_char=162|NER=O
+36	prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	29	nsubj	_	start_char=163|end_char=172|NER=O
+37	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=173|end_char=177|NER=O
+38	skeptik	skeptik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	29	cop	_	start_char=178|end_char=185|NER=O
+39	të	të	PART	_	_	32	fixed	_	start_char=186|end_char=188|NER=O
+40	vaksinojnë	vaksinoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	ccomp	_	start_char=189|end_char=199|NER=O
+41	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	32	obj	_	start_char=200|end_char=207|NER=O
+42	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	35	det:poss	_	start_char=208|end_char=209|NER=O
+43	tyre	tyre	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	amod:poss	_	start_char=210|end_char=214|SpaceAfter=No|NER=O
+44	.	.	PUNCT	_	_	29	punct	_	start_char=215|end_char=216|SpacesAfter=\n|NER=O
+
+# text = Prof .
+# sent_id = 1
+1	Prof	prof	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	1	punct	_	start_char=5|end_char=6|NER=O
+
+# text = Mbështëse e fortë e këtij procesi Kuli tregon se pavarësisht bindjes së krijuar tek prindërit se COVID nuk krijon komplikacione të rënda , ajo shpjegon se jo gjithmonë ndodh kështu dhe se vaksinimi i paraprin mbrojtjes së këtyre formave .
+# sent_id = 2
+1	Mbështëse	mbështëse	SCONJ	_	_	8	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=17|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=18|end_char=19|NER=O
+5	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=20|end_char=25|NER=O
+6	procesi	proces	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=26|end_char=33|NER=O
+7	Kuli	Kuli	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=34|end_char=38|NER=B-PER
+8	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=39|end_char=45|NER=O
+9	se	se	SCONJ	_	_	19	mark	_	start_char=46|end_char=48|NER=O
+10	pavarësisht	pavarësisht	ADV	_	AdvType=Man	8	advmod	_	start_char=49|end_char=60|NER=O
+11	bindjes	bindje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=61|end_char=68|NER=O
+12	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=69|end_char=71|NER=O
+13	krijuar	krijoj	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=72|end_char=79|NER=O
+14	tek	tek	ADP	_	Case=Nom	15	case	_	start_char=80|end_char=83|NER=O
+15	prindërit	prind	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=84|end_char=93|NER=O
+16	se	se	SCONJ	_	_	19	mark	_	start_char=94|end_char=96|NER=O
+17	COVID	COVID	PROPN	_	Foreign=Yes	19	nsubj	_	start_char=97|end_char=102|NER=O
+18	nuk	nuk	PART	_	_	19	mark	_	start_char=103|end_char=106|NER=O
+19	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	start_char=107|end_char=113|NER=O
+20	komplikacione	komplikacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	start_char=114|end_char=127|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	22	det	_	start_char=128|end_char=130|NER=O
+22	rënda	rëndë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=131|end_char=136|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	25	punct	_	start_char=137|end_char=138|NER=O
+24	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=139|end_char=142|NER=O
+25	shpjegon	shpjegoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	start_char=143|end_char=151|NER=O
+26	se	se	SCONJ	_	_	29	mark	_	start_char=152|end_char=154|NER=O
+27	jo	jo	PART	_	_	28	mark	_	start_char=155|end_char=157|NER=O
+28	gjithmonë	gjithmonë	ADV	_	AdvType=Tim	29	advmod	_	start_char=158|end_char=167|NER=O
+29	ndodh	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	advcl	_	start_char=168|end_char=173|NER=O
+30	kështu	kështu	ADV	_	AdvType=Man	29	advmod	_	start_char=174|end_char=180|NER=O
+31	dhe	dhe	CCONJ	_	_	35	cc	_	start_char=181|end_char=184|NER=O
+32	se	se	SCONJ	_	_	35	mark	_	start_char=185|end_char=187|NER=O
+33	vaksinimi	vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	nsubj	_	start_char=188|end_char=197|NER=O
+34	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	iobj	_	start_char=198|end_char=199|NER=O
+35	paraprin	paraprij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	advcl	_	start_char=200|end_char=208|NER=O
+36	mbrojtjes	mbrojtje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	35	obj	_	start_char=209|end_char=218|NER=O
+37	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	39	det:poss	_	start_char=219|end_char=221|NER=O
+38	këtyre	këto	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	39	det	_	start_char=222|end_char=228|NER=O
+39	formave	formë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	36	nmod	_	start_char=229|end_char=236|SpaceAfter=No|NER=O
+40	.	.	PUNCT	_	_	35	punct	_	start_char=237|end_char=238|SpacesAfter=\n|NER=O
+

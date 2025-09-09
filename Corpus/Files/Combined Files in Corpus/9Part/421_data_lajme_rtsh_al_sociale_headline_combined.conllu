@@ -1,0 +1,188 @@
+# text = Alimehmeti : Kanë rënë rastet me COVID .
+# sent_id = 0
+1	Alimehmeti	Alimehmet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=10|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+3	Kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=13|end_char=17|NER=O
+4	rënë	bie	VERB	_	VerbForm=Part	0	root	_	start_char=18|end_char=22|NER=O
+5	rastet	rast	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=23|end_char=29|NER=O
+6	me	me	ADP	_	Case=Acc	5	case	_	start_char=30|end_char=32|NER=O
+7	COVID	COVID	PROPN	_	Number=Sing	2	obl	_	start_char=33|end_char=38|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	2	punct	_	start_char=39|end_char=40|NER=O
+
+# text = Mjekja : Periudha ideale për t ' u vaksinuar kundër gripit 21 / 11 / 2023 Virusi COVID vijon të qarkullojë në popullatë , por megjithatë rastet e infeksionit kanë rënë .
+# sent_id = 1
+1	Mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=7|end_char=8|NER=O
+3	Periudha	periudhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	start_char=9|end_char=17|NER=O
+4	ideale	ideal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=18|end_char=24|NER=O
+5	për	për	PART	_	_	6	fixed	_	start_char=25|end_char=28|NER=O
+6	t	_	_	_	_	_	_	_	start_char=29|end_char=30|NER=O
+7	'	'	PUNCT	_	_	_	punct	_	start_char=31|end_char=32|NER=O
+8	u	_	_	_	_	_	_	_	start_char=33|end_char=34|NER=O
+9	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	1	advmod	_	start_char=35|end_char=44|NER=O
+10	kundër	kundër	ADP	_	Case=Abl	8	case	_	start_char=45|end_char=51|NER=O
+11	gripit	grip	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=52|end_char=58|SpacesAfter=\n|NER=O
+12	21	21	NUM	_	NumType=Card	8	nummod	_	start_char=59|end_char=61|SpaceAfter=No|NER=B-DATE_0
+13	/	/	PUNCT	_	_	8	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=I-DATE_0
+14	11	11	NUM	_	NumType=Card	8	nummod	_	start_char=64|end_char=66|SpaceAfter=No|NER=I-DATE_0
+15	/	/	PUNCT	_	_	10	punct	_	start_char=67|end_char=68|SpaceAfter=No|NER=I-DATE_0
+16	2023	2023	NUM	_	NumType=Card	10	flat	_	start_char=69|end_char=73|SpaceAfter=No|NER=I-DATE_0
+17	Virusi	Virusi	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=74|end_char=80|NER=O
+18	COVID	COVID	PROPN	_	_	13	flat	_	start_char=81|end_char=86|NER=O
+19	vijon	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=87|end_char=92|NER=O
+20	të	të	PART	_	_	17	fixed	_	start_char=93|end_char=95|NER=O
+21	qarkullojë	qarkulloj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	ccomp	_	start_char=96|end_char=106|NER=O
+22	në	në	ADP	_	Case=Acc	19	case	_	start_char=107|end_char=109|NER=O
+23	popullatë	popullatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	start_char=110|end_char=119|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	21	punct	_	start_char=120|end_char=121|NER=O
+25	por	por	CCONJ	_	_	23	cc	_	start_char=122|end_char=125|NER=O
+26	megjithatë	megjithatë	CCONJ	_	_	27	cc	_	start_char=126|end_char=136|NER=O
+27	rastet	rast	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	27	nsubj	_	start_char=137|end_char=143|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	25	det:poss	_	start_char=144|end_char=145|NER=O
+29	infeksionit	infeksion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=146|end_char=157|NER=O
+30	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	start_char=158|end_char=162|NER=O
+31	rënë	bie	VERB	_	VerbForm=Part	17	conj	_	start_char=163|end_char=167|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	27	punct	_	start_char=168|end_char=169|NER=O
+
+# text = Kështu deklaroi mjeku Ilir Alimehmeti në emisionin " Mirmëngjesi Shqipëri , teksa theksoi se situata , edhe në spitale , është shumë më e qetë .
+# sent_id = 2
+1	Kështu	kështu	ADV	_	AdvType=Cau	2	mark	_	start_char=0|end_char=6|NER=O
+2	deklaroi	deklaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	advcl	_	start_char=7|end_char=15|NER=O
+3	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=16|end_char=21|NER=O
+4	Ilir	Ilir	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=22|end_char=26|NER=B-PER
+5	Alimehmeti	Alimehmet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=27|end_char=37|NER=I-PER
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=38|end_char=40|NER=O
+7	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=41|end_char=50|NER=O
+8	"	"	PUNCT	_	_	9	punct	_	start_char=51|end_char=52|SpaceAfter=No|NER=O
+9	Mirmëngjesi	mirmëngjes	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	appos	_	start_char=53|end_char=64|NER=O
+10	Shqipëri	Shqipëri	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	flat	_	start_char=65|end_char=73|SpaceAfter=No|NER=B-VEND_1
+11	,	,	PUNCT	_	_	12	punct	_	start_char=74|end_char=75|NER=O
+12	teksa	teksa	SCONJ	_	_	13	mark	_	start_char=76|end_char=81|NER=O
+13	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	start_char=82|end_char=89|NER=O
+14	se	se	SCONJ	_	_	15	mark	_	start_char=90|end_char=92|NER=O
+15	situata	situatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	start_char=93|end_char=100|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	13	punct	_	start_char=101|end_char=102|NER=O
+17	edhe	edhe	PART	_	_	19	cc	_	start_char=103|end_char=107|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=108|end_char=110|NER=O
+19	spitale	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	advmod	_	start_char=111|end_char=118|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=119|end_char=120|NER=O
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=121|end_char=126|NER=O
+22	shumë	shumë	ADV	_	AdvType=Deg	25	advmod	_	start_char=127|end_char=132|NER=O
+23	më	më	PART	_	_	25	mark	_	start_char=133|end_char=135|NER=O
+24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=136|end_char=137|NER=O
+25	qetë	qetë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	cop	_	start_char=138|end_char=142|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	21	punct	_	start_char=143|end_char=144|SpacesAfter=\n|NER=O
+
+# text = Për ta diferencuar nëse është gripi i stinës apo COVID , Alimehmeti u shpreh se nevojiten testet e shpejta , që në farmaci mungojnë .
+# sent_id = 3
+1	Për	për	PART	_	_	4	fixed	_	start_char=0|end_char=3|NER=O
+2	ta	_	_	_	_	_	_	_	start_char=4|end_char=6|NER=O
+3	diferencuar	diferencuar	VERB	_	VerbForm=Part	15	advmod	_	start_char=7|end_char=18|NER=O
+4	nëse	nëse	SCONJ	_	_	6	mark	_	start_char=19|end_char=23|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	start_char=24|end_char=29|NER=O
+6	gripi	grip	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	cop	_	start_char=30|end_char=35|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	9	det:poss	_	start_char=36|end_char=37|NER=O
+8	stinës	stinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=38|end_char=44|NER=O
+9	apo	apo	CCONJ	_	_	11	cc	_	start_char=45|end_char=48|NER=O
+10	COVID	COVID	PROPN	_	Foreign=Yes	9	conj	_	start_char=49|end_char=54|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	15	punct	_	start_char=55|end_char=56|NER=O
+12	Alimehmeti	Alimehmet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	start_char=57|end_char=67|NER=B-PER
+13	u	u	PART	_	_	15	fixed	_	start_char=68|end_char=69|NER=O
+14	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=70|end_char=76|NER=O
+15	se	se	SCONJ	_	_	17	mark	_	start_char=77|end_char=79|NER=O
+16	nevojiten	nevojitem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	15	ccomp	_	start_char=80|end_char=89|NER=O
+17	testet	test	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=90|end_char=96|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	20	det	_	start_char=97|end_char=98|NER=O
+19	shpejta	shpejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=99|end_char=106|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	22	punct	_	start_char=107|end_char=108|NER=O
+21	që	që	PRON	_	PronType=Rel	25	nsubj	_	start_char=109|end_char=111|NER=O
+22	në	në	ADP	_	Case=Acc	24	case	_	start_char=112|end_char=114|NER=O
+23	farmaci	farmac	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	25	advmod	_	start_char=115|end_char=122|NER=O
+24	mungojnë	mungoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=123|end_char=131|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	25	punct	_	start_char=132|end_char=133|NER=O
+
+# text = Ai theksoi se testet e shpejta nevojiten për të mbrojtur personat e brishtë , pasi nuk është më problemi i popullatës .
+# sent_id = 4
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2|NER=O
+2	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=3|end_char=10|NER=O
+3	se	se	SCONJ	_	_	7	mark	_	start_char=11|end_char=13|NER=O
+4	testet	test	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=14|end_char=20|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=21|end_char=22|NER=O
+6	shpejta	shpejtë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=23|end_char=30|NER=O
+7	nevojiten	nevojitem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	csubj	_	start_char=31|end_char=40|NER=O
+8	për	për	PART	_	_	10	fixed	_	start_char=41|end_char=44|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=45|end_char=47|NER=O
+10	mbrojtur	mbroj	VERB	_	VerbForm=Part	7	advmod	_	start_char=48|end_char=56|NER=O
+11	personat	personë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	obj	_	start_char=57|end_char=65|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=66|end_char=67|NER=O
+13	brishtë	brishtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=68|end_char=75|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=76|end_char=77|NER=O
+15	pasi	pasi	SCONJ	_	_	17	mark	_	start_char=78|end_char=82|NER=O
+16	nuk	nuk	PART	_	_	17	mark	_	start_char=83|end_char=86|NER=O
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=87|end_char=92|NER=O
+18	më	më	PART	_	_	19	mark	_	start_char=93|end_char=95|NER=O
+19	problemi	problem	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	cop	_	start_char=96|end_char=104|NER=O
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	21	det:poss	_	start_char=105|end_char=106|NER=O
+21	popullatës	popullatë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=107|end_char=117|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	17	punct	_	start_char=118|end_char=119|SpacesAfter=\n|NER=O
+
+# text = Drejtoresha e qendrës shëndetësore nr .
+# sent_id = 5
+1	Drejtoresha	drejtoreshë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=0|end_char=11|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=12|end_char=13|NER=O
+3	qendrës	qendrë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=14|end_char=21|NER=O
+4	shëndetësore	shëndetësor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=22|end_char=34|NER=O
+5	nr	nr.3	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	appos	_	start_char=35|end_char=37|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+
+# text = 3 , Bruna Shiroka bëri thirrje për t ' u vaksinuar për gripin stinor .
+# sent_id = 6
+1	3	3	NUM	_	NumType=Card	3	appos	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	7	punct	_	start_char=2|end_char=3|NER=O
+3	Bruna	Brunë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	list	_	start_char=4|end_char=9|NER=B-PER
+4	Shiroka	shirokë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	start_char=10|end_char=17|NER=I-PER
+5	bëri	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=18|end_char=22|NER=O
+6	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	start_char=23|end_char=30|NER=O
+7	për	për	PART	_	_	14	fixed	_	start_char=31|end_char=34|NER=O
+8	t	_	_	_	_	_	_	_	start_char=35|end_char=36|NER=O
+9	'	'	PUNCT	_	_	_	punct	_	start_char=37|end_char=38|NER=O
+10	u	_	_	_	_	_	_	_	start_char=39|end_char=40|NER=O
+11	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	9	advmod	_	start_char=41|end_char=50|NER=O
+12	për	për	ADP	_	Case=Acc	16	case	_	start_char=51|end_char=54|NER=O
+13	gripin	grip	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	start_char=55|end_char=61|NER=O
+14	stinor	stinor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=62|end_char=68|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	9	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Ajo theksoi se kjo është periudha më e mirë për t ' u vaksinuar , në mënyrë që të shmangen ndërlikimet që mund të rezultojnë të rrezikshme për shëndetin .
+# sent_id = 7
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=4|end_char=11|NER=O
+3	se	se	SCONJ	_	_	5	mark	_	start_char=12|end_char=14|NER=O
+4	kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	start_char=15|end_char=18|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=19|end_char=24|NER=O
+6	periudha	periudhë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	cop	_	start_char=25|end_char=33|NER=O
+7	më	më	PART	_	_	9	mark	_	start_char=34|end_char=36|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=37|end_char=38|NER=O
+9	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=39|end_char=43|NER=O
+10	për	për	PART	_	_	13	fixed	_	start_char=44|end_char=47|NER=O
+11	t	_	_	_	_	_	_	_	start_char=48|end_char=49|NER=O
+12	'	'	PUNCT	_	_	_	punct	_	start_char=50|end_char=51|NER=O
+13	u	_	_	_	_	_	_	_	start_char=52|end_char=53|NER=O
+14	vaksinuar	vaksinoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=54|end_char=63|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=64|end_char=65|NER=O
+16	në	në	ADP	_	Case=Acc	16	case	_	start_char=66|end_char=68|NER=O
+17	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=69|end_char=75|NER=O
+18	që	që	SCONJ	_	_	19	mark	_	start_char=76|end_char=78|NER=O
+19	të	të	PART	_	_	19	fixed	_	start_char=79|end_char=81|NER=O
+20	shmangen	shmangem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	16	acl:relcl	_	start_char=82|end_char=90|NER=O
+21	ndërlikimet	ndërlikim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	obj	_	start_char=91|end_char=102|NER=O
+22	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=103|end_char=105|NER=O
+23	mund	mund	AUX	_	_	24	aux	_	start_char=106|end_char=110|NER=O
+24	të	të	PART	_	_	24	fixed	_	start_char=111|end_char=113|NER=O
+25	rezultojnë	rezultoj	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	advcl	_	start_char=114|end_char=124|NER=O
+26	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=125|end_char=127|NER=O
+27	rrezikshme	rrezikshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	24	cop	_	start_char=128|end_char=138|NER=O
+28	për	për	ADP	_	Case=Acc	28	case	_	start_char=139|end_char=142|NER=O
+29	shëndetin	shëndet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	start_char=143|end_char=152|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	24	punct	_	start_char=153|end_char=154|SpacesAfter=\n|NER=O
+

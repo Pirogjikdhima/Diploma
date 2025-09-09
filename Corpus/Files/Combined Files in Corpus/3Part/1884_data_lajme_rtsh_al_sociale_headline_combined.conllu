@@ -1,0 +1,616 @@
+# text = Veliaj përuron shkollën e re " Bashkim Fino " : Kemi nevojë për një pajtim kombëtar !
+# sent_id = 0
+1	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	përuron	përuroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=7|end_char=14|NER=O
+3	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=15|end_char=23|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=24|end_char=25|NER=O
+5	re	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=26|end_char=28|NER=O
+6	"	"	PUNCT	_	_	7	punct	_	start_char=29|end_char=30|SpaceAfter=No|NER=O
+7	Bashkim	Bashkim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=31|end_char=38|NER=O
+8	Fino	Fino	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	flat	_	start_char=39|end_char=43|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	7	punct	_	start_char=44|end_char=45|SpaceAfter=No|NER=O
+10	:	:	PUNCT	_	_	2	punct	_	start_char=46|end_char=47|NER=O
+11	Kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=52|NER=O
+12	nevojë	nevojë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	start_char=53|end_char=59|NER=O
+13	për	për	ADP	_	Case=Acc	5	case	_	start_char=60|end_char=63|NER=O
+14	një	një	DET	_	Definite=Ind	5	det	_	start_char=64|end_char=67|NER=O
+15	pajtim	pajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=68|end_char=74|NER=O
+16	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=75|end_char=83|SpaceAfter=No|NER=O
+17	!	!	PUNCT	_	_	9	punct	_	start_char=84|end_char=85|SpacesAfter=\n|NER=O
+
+# text = Kreu i Bashkisë së Tiranës , Erion Veliaj dhe Ministrja e Arsimit , Rvis Kushi , kanë përuruar sot shkollën " Bashkim Fino .
+# sent_id = 1
+1	Kreu	Kreu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=0|end_char=4|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=5|end_char=6|NER=O
+3	Bashkisë	Bashki	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	12	compound	_	start_char=7|end_char=15|NER=O
+4	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=16|end_char=18|NER=O
+5	Tiranës	Tiranë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=19|end_char=26|SpaceAfter=No|NER=B-VEND_0
+6	,	,	PUNCT	_	_	18	punct	_	start_char=27|end_char=28|NER=O
+7	Erion	Erio	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	start_char=29|end_char=34|NER=B-PER
+8	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	flat	_	start_char=35|end_char=41|NER=I-PER
+9	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=42|end_char=45|NER=O
+10	Ministrja	ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	start_char=46|end_char=55|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	23	det:poss	_	start_char=56|end_char=57|NER=O
+12	Arsimit	Arsim	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	start_char=58|end_char=65|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	25	punct	_	start_char=66|end_char=67|NER=O
+14	Rvis	Rvis	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	start_char=68|end_char=72|NER=B-PER
+15	Kushi	Kushi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	flat	_	start_char=73|end_char=78|SpaceAfter=No|NER=I-PER
+16	,	,	PUNCT	_	_	25	punct	_	start_char=79|end_char=80|NER=O
+17	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	29	aux	_	start_char=81|end_char=85|NER=O
+18	përuruar	përuroj	VERB	_	VerbForm=Part	1	conj	_	start_char=86|end_char=94|NER=O
+19	sot	sot	ADV	_	AdvType=Tim	31	advmod	_	start_char=95|end_char=98|NER=O
+20	shkollën	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obj	_	start_char=99|end_char=107|NER=O
+21	"	"	PUNCT	_	_	33	punct	_	start_char=108|end_char=109|SpaceAfter=No|NER=O
+22	Bashkim	Bashkim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	31	appos	_	start_char=110|end_char=117|NER=O
+23	Fino	Fino	PROPN	_	Foreign=Yes	33	flat	_	start_char=118|end_char=122|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	29	punct	_	start_char=123|end_char=124|SpacesAfter=\n|NER=O
+
+# text = Në fjalën e tij , kryebashkiaku Veliaj tha se me këtë shkollë , që i shtohet Njësisë 2 , numri i shkollave të reja të ndërtuara në Tiranë shkon në 40 gjithsej .
+# sent_id = 2
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	fjalën	fjalë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	advmod	_	start_char=3|end_char=9|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=10|end_char=11|NER=O
+4	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	amod:poss	_	start_char=12|end_char=15|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=16|end_char=17|NER=O
+6	kryebashkiaku	kryebashkiak	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	start_char=18|end_char=31|NER=O
+7	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	appos	_	start_char=32|end_char=38|NER=B-PER
+8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=39|end_char=42|NER=O
+9	se	se	SCONJ	_	_	16	mark	_	start_char=43|end_char=45|NER=O
+10	me	me	ADP	_	Case=Acc	12	case	_	start_char=46|end_char=48|NER=O
+11	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=49|end_char=53|NER=O
+12	shkollë	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=54|end_char=61|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=62|end_char=63|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=64|end_char=66|NER=O
+15	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	start_char=67|end_char=68|NER=O
+16	shtohet	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	8	advcl	_	start_char=69|end_char=76|NER=O
+17	Njësisë	njësi	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=77|end_char=84|NER=O
+18	2	2	NUM	_	NumType=Card	17	amod	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	20	punct	_	start_char=87|end_char=88|NER=O
+20	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	start_char=89|end_char=94|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=95|end_char=96|NER=O
+22	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	start_char=97|end_char=106|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	24	det	_	start_char=107|end_char=109|NER=O
+24	reja	re	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=110|end_char=114|NER=O
+25	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	26	det	_	start_char=115|end_char=117|NER=O
+26	ndërtuara	ndërtuar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=118|end_char=127|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=128|end_char=130|NER=O
+28	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	29	advmod	_	start_char=131|end_char=137|NER=B-VEND_0
+29	shkon	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=138|end_char=143|NER=O
+30	në	në	ADP	_	Case=Acc	32	case	_	start_char=144|end_char=146|NER=O
+31	40	40	NUM	_	NumType=Card	32	nummod	_	start_char=147|end_char=149|NER=O
+32	gjithsej	gjithse	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	29	obl	_	start_char=150|end_char=158|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	29	punct	_	start_char=159|end_char=160|SpacesAfter=\n|NER=O
+
+# text = " Vjet hapëm 14 shkolla , sivjet 12 shkolla të reja dhe 8 kopshte ; do të vazhdojmë me paketën edhe vitin tjetër , por unë besoj se që nga koha e shpalljes së Pavarësisë , në Shqipëri nuk janë ndërtuar kurrë kaq shumë shkolla në në dorë .
+# sent_id = 3
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Vjet	vjet	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	advmod	_	start_char=2|end_char=6|NER=O
+3	hapëm	hap	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=7|end_char=12|NER=O
+4	14	14	NUM	_	NumType=Card	5	nummod	_	start_char=13|end_char=15|NER=O
+5	shkolla	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=16|end_char=23|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=24|end_char=25|NER=O
+7	sivjet	sivjet	ADV	_	AdvType=Man	9	advmod	_	start_char=26|end_char=32|NER=O
+8	12	12	NUM	_	NumType=Card	9	nummod	_	start_char=33|end_char=35|NER=O
+9	shkolla	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	advmod	_	start_char=36|end_char=43|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=44|end_char=46|NER=O
+11	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=47|end_char=51|NER=O
+12	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=52|end_char=55|NER=O
+13	8	8	NUM	_	NumType=Card	14	nummod	_	start_char=56|end_char=57|NER=O
+14	kopshte	kopsht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	start_char=58|end_char=65|SpaceAfter=No|NER=O
+15	;	;	PUNCT	_	_	14	punct	_	start_char=66|end_char=67|NER=O
+16	do	do	PART	_	_	18	fixed	_	start_char=68|end_char=70|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=71|end_char=73|NER=O
+18	vazhdojmë	vazhdoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	start_char=74|end_char=83|NER=O
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=84|end_char=86|NER=O
+20	paketën	paketë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	start_char=87|end_char=94|NER=O
+21	edhe	edhe	CCONJ	_	_	22	cc	_	start_char=95|end_char=99|NER=O
+22	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	conj	_	start_char=100|end_char=105|NER=O
+23	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	22	amod	_	start_char=106|end_char=112|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	25	punct	_	start_char=113|end_char=114|NER=O
+25	por	por	CCONJ	_	_	27	cc	_	start_char=115|end_char=118|NER=O
+26	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=119|end_char=122|NER=O
+27	besoj	besoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	18	conj	_	start_char=123|end_char=128|NER=O
+28	se	se	SCONJ	_	_	31	mark	_	start_char=129|end_char=131|NER=O
+29	që	që	PART	_	_	31	mark	_	start_char=132|end_char=134|NER=O
+30	nga	nga	ADP	_	Case=Nom	31	case	_	start_char=135|end_char=138|NER=O
+31	koha	kohë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	start_char=139|end_char=143|NER=O
+32	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	33	det:poss	_	start_char=144|end_char=145|NER=O
+33	shpalljes	shpallje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	start_char=146|end_char=155|NER=O
+34	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=156|end_char=158|NER=O
+35	Pavarësisë	pavarësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	start_char=159|end_char=169|SpaceAfter=No|NER=O
+36	,	,	PUNCT	_	_	38	punct	_	start_char=170|end_char=171|NER=O
+37	në	në	ADP	_	Case=Acc	38	case	_	start_char=172|end_char=174|NER=O
+38	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	41	advmod	_	start_char=175|end_char=183|NER=B-VEND_1
+39	nuk	nuk	PART	_	_	41	mark	_	start_char=184|end_char=187|NER=O
+40	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	41	aux	_	start_char=188|end_char=192|NER=O
+41	ndërtuar	ndërtoj	VERB	_	VerbForm=Part	18	conj	_	start_char=193|end_char=201|NER=O
+42	kurrë	kurrë	ADV	_	AdvType=Tim	41	advmod	_	start_char=202|end_char=207|NER=O
+43	kaq	kaq	ADV	_	AdvType=Deg	45	advmod	_	start_char=208|end_char=211|NER=O
+44	shumë	shumë	PRON	_	PronType=Ind	45	nummod	_	start_char=212|end_char=217|NER=O
+45	shkolla	shkollë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	41	obj	_	start_char=218|end_char=225|NER=O
+46	në	në	ADP	_	Case=Acc	48	case	_	start_char=226|end_char=228|NER=O
+47	në	në	ADP	_	Case=Acc	48	case	_	start_char=229|end_char=231|NER=O
+48	dorë	dorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	45	nmod	_	start_char=232|end_char=236|SpaceAfter=No|NER=O
+49	.	.	PUNCT	_	_	41	punct	_	start_char=237|end_char=238|NER=O
+
+# text = Shkolla " Kosova " është njëra prej tyre , liceu " Jordan Misja " po ashtu , edhe pse shkollë kombëtare ndodhet në Njësinë 2 , shkolla e Baletit gjithashtu , bëmë edhe një rikonstruksion në shkollat " Osman Myderizi " dhe " Mihal Grameno " .
+# sent_id = 4
+1	Shkolla	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	"	"	PUNCT	_	_	3	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=O
+3	Kosova	Kosova	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=10|end_char=16|NER=O
+4	"	"	PUNCT	_	_	1	punct	_	start_char=17|end_char=18|NER=O
+5	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=24|NER=O
+6	njëra	njëra	PRON	_	PronType=Ind	4	cop	_	start_char=25|end_char=30|NER=O
+7	prej	prej	ADP	_	Case=Abl	7	case	_	start_char=31|end_char=35|NER=O
+8	tyre	tyre	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	amod:poss	_	start_char=36|end_char=40|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	9	punct	_	start_char=41|end_char=42|NER=O
+10	liceu	lice	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=43|end_char=48|NER=O
+11	"	"	PUNCT	_	_	11	punct	_	start_char=49|end_char=50|SpaceAfter=No|NER=O
+12	Jordan	Jordan	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	start_char=51|end_char=57|NER=O
+13	Misja	Misja	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	flat	_	start_char=58|end_char=63|NER=O
+14	"	"	PUNCT	_	_	11	punct	_	start_char=64|end_char=65|NER=O
+15	po	po	PART	_	_	14	fixed	_	start_char=66|end_char=68|NER=O
+16	ashtu	ashtu	ADV	_	AdvType=Man	20	advmod	_	start_char=69|end_char=74|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=75|end_char=76|NER=O
+18	edhe	edhe	CCONJ	_	_	17	fixed	_	start_char=77|end_char=81|NER=O
+19	pse	pse	SCONJ	_	_	20	mark	_	start_char=82|end_char=85|NER=O
+20	shkollë	shkollë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	advmod	_	start_char=86|end_char=93|NER=O
+21	kombëtare	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=94|end_char=103|NER=O
+22	ndodhet	ndodhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	csubj	_	start_char=104|end_char=111|NER=O
+23	në	në	ADP	_	Case=Acc	22	case	_	start_char=112|end_char=114|NER=O
+24	Njësinë	njësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	start_char=115|end_char=122|NER=O
+25	2	2	NUM	_	NumType=Card	22	amod	_	start_char=123|end_char=124|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	25	punct	_	start_char=125|end_char=126|NER=O
+27	shkolla	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	obj	_	start_char=127|end_char=134|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det:poss	_	start_char=135|end_char=136|NER=O
+29	Baletit	Balet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	start_char=137|end_char=144|NER=O
+30	gjithashtu	gjithashtu	ADV	_	AdvType=Man	30	advmod	_	start_char=145|end_char=155|SpaceAfter=No|NER=O
+31	,	,	PUNCT	_	_	30	punct	_	start_char=156|end_char=157|NER=O
+32	bëmë	bëj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	20	conj	_	start_char=158|end_char=162|NER=O
+33	edhe	edhe	PART	_	_	33	mark	_	start_char=163|end_char=167|NER=O
+34	një	një	DET	_	Definite=Ind	33	det	_	start_char=168|end_char=171|NER=O
+35	rikonstruksion	rikonstrukikion	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	30	obj	_	start_char=172|end_char=186|NER=O
+36	në	në	ADP	_	Case=Acc	35	case	_	start_char=187|end_char=189|NER=O
+37	shkollat	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	33	nmod	_	start_char=190|end_char=198|NER=O
+38	"	"	PUNCT	_	_	37	punct	_	start_char=199|end_char=200|SpaceAfter=No|NER=O
+39	Osman	Osman	PROPN	_	_	35	nmod	_	start_char=201|end_char=206|NER=O
+40	Myderizi	Myderizi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat	_	start_char=207|end_char=215|NER=O
+41	"	"	PUNCT	_	_	37	punct	_	start_char=216|end_char=217|NER=O
+42	dhe	dhe	CCONJ	_	_	41	cc	_	start_char=218|end_char=221|NER=O
+43	"	"	PUNCT	_	_	41	punct	_	start_char=222|end_char=223|SpaceAfter=No|NER=O
+44	Mihal	Mihal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	37	list	_	start_char=224|end_char=229|NER=O
+45	Grameno	Grameno	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	flat:name	_	start_char=230|end_char=237|SpaceAfter=No|NER=O
+46	"	"	PUNCT	_	_	41	punct	_	start_char=238|end_char=239|SpaceAfter=No|NER=O
+47	.	.	PUNCT	_	_	30	punct	_	start_char=240|end_char=241|NER=O
+
+# text = Piramida do të jetë së shpejti një shkollë kombëtare , sërish e Njësisë 2 .
+# sent_id = 5
+1	Piramida	piramidë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=19|NER=O
+5	së	së	PART	_	_	6	det	_	start_char=20|end_char=22|NER=O
+6	shpejti	shpejt	ADV	_	AdvType=Tim	4	advmod	_	start_char=23|end_char=30|NER=O
+7	një	një	DET	_	Definite=Ind	8	det	_	start_char=31|end_char=34|NER=O
+8	shkollë	shkollë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	cop	_	start_char=35|end_char=42|NER=O
+9	kombëtare	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=43|end_char=52|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=53|end_char=54|NER=O
+11	sërish	sërish	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	list	_	start_char=55|end_char=61|NER=O
+12	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=62|end_char=63|NER=O
+13	Njësisë	njësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=64|end_char=71|NER=O
+14	2	2	NUM	_	NumType=Card	13	amod:nummod	_	start_char=72|end_char=73|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	4	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Por , besoj se një shkollë origjinale e lagjes , e mëhallës , e komunitetit tonë , është shkolla " Bashkim Fino " që hapim sot , " tha Veliaj .
+# sent_id = 6
+1	Por	por	CCONJ	_	_	18	cc	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|NER=O
+3	besoj	besoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	18	advcl	_	start_char=6|end_char=11|NER=O
+4	se	se	SCONJ	_	_	18	mark	_	start_char=12|end_char=14|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=15|end_char=18|NER=O
+6	shkollë	shkollë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=19|end_char=26|NER=O
+7	origjinale	origjinal	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=27|end_char=37|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det:poss	_	start_char=38|end_char=39|NER=O
+9	lagjes	lagje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=40|end_char=46|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=47|end_char=48|NER=O
+11	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=49|end_char=50|NER=O
+12	mëhallës	mëhallë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	list	_	start_char=51|end_char=59|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	15	punct	_	start_char=60|end_char=61|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=62|end_char=63|NER=O
+15	komunitetit	komunitet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	list	_	start_char=64|end_char=75|NER=O
+16	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	amod	_	start_char=76|end_char=80|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	15	punct	_	start_char=81|end_char=82|NER=O
+18	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=83|end_char=88|NER=O
+19	shkolla	shkollë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	cop	_	start_char=89|end_char=96|NER=O
+20	"	"	PUNCT	_	_	21	punct	_	start_char=97|end_char=98|SpaceAfter=No|NER=O
+21	Bashkim	Bashkim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	19	appos	_	start_char=99|end_char=106|NER=O
+22	Fino	Fino	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	flat	_	start_char=107|end_char=111|NER=O
+23	"	"	PUNCT	_	_	21	punct	_	start_char=112|end_char=113|NER=O
+24	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=114|end_char=116|NER=O
+25	hapim	hap	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	19	acl	_	start_char=117|end_char=122|NER=O
+26	sot	sot	ADV	_	AdvType=Tim	24	advmod	_	start_char=123|end_char=126|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	28	punct	_	start_char=127|end_char=128|SpaceAfter=No|NER=O
+28	"	"	PUNCT	_	_	28	punct	_	start_char=129|end_char=130|NER=O
+29	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	conj	_	start_char=131|end_char=134|NER=O
+30	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	obj	_	start_char=135|end_char=141|SpaceAfter=No|NER=B-PER
+31	.	.	PUNCT	_	_	28	punct	_	start_char=142|end_char=143|SpacesAfter=\n|NER=O
+
+# text = Duke kujtuar ish - kryeministrin Bashkim Fino , i cili mori drejtimin e vendit me misionim e pajtimit kombëtar në vitin e vështirë 1997 , Veliaj tha se ende pas 24 vitesh Shqipëria ka nevojë për pajtim kombëtar .
+# sent_id = 7
+1	Duke	duke	PART	_	_	2	fixed	_	start_char=0|end_char=4|NER=O
+2	kujtuar	kujtoj	VERB	_	VerbForm=Part	25	advmod	_	start_char=5|end_char=12|NER=O
+3	ish	ish-kryemisistrir	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=13|end_char=16|NER=O
+4	-	-	PUNCT	_	_	2	punct	_	start_char=17|end_char=18|NER=O
+5	kryeministrin	ish-kryemisistrir	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=19|end_char=32|NER=O
+6	Bashkim	Bashkim	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	start_char=33|end_char=40|NER=B-PER
+7	Fino	Fino	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	start_char=41|end_char=45|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	2	punct	_	start_char=46|end_char=47|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=48|end_char=49|NER=O
+10	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	start_char=50|end_char=54|NER=O
+11	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	start_char=55|end_char=59|NER=O
+12	drejtimin	drejtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	start_char=60|end_char=69|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=70|end_char=71|NER=O
+14	vendit	vend	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=72|end_char=78|NER=O
+15	me	me	ADP	_	Case=Acc	14	case	_	start_char=79|end_char=81|NER=O
+16	misionim	misionim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	advmod	_	start_char=82|end_char=90|NER=O
+17	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=91|end_char=92|NER=O
+18	pajtimit	pajtim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=93|end_char=101|NER=O
+19	kombëtar	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=102|end_char=110|NER=O
+20	në	në	ADP	_	Case=Acc	19	case	_	start_char=111|end_char=113|NER=O
+21	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=114|end_char=119|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=120|end_char=121|NER=O
+23	vështirë	vështirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=122|end_char=130|NER=O
+24	1997	1997	NUM	_	NumType=Card	19	flat	_	start_char=131|end_char=135|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	24	punct	_	start_char=136|end_char=137|NER=O
+26	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	start_char=138|end_char=144|NER=B-PER
+27	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=145|end_char=148|NER=O
+28	se	se	SCONJ	_	_	33	mark	_	start_char=149|end_char=151|NER=O
+29	ende	ende	ADV	_	AdvType=Tim	25	advmod	_	start_char=152|end_char=156|NER=O
+30	pas	pas	ADP	_	Case=Abl	30	case	_	start_char=157|end_char=160|NER=O
+31	24	24	NUM	_	NumType=Card	30	nummod	_	start_char=161|end_char=163|NER=O
+32	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	25	advmod	_	start_char=164|end_char=170|NER=O
+33	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	start_char=171|end_char=180|NER=B-VEND_1
+34	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=181|end_char=183|NER=O
+35	nevojë	nevojë	VERB	_	VerbForm=Part	25	conj	_	start_char=184|end_char=190|NER=O
+36	për	për	ADP	_	Case=Acc	35	case	_	start_char=191|end_char=194|NER=O
+37	pajtim	pajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	obl	_	start_char=195|end_char=201|NER=O
+38	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=202|end_char=210|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	33	punct	_	start_char=211|end_char=212|SpacesAfter=\n|NER=O
+
+# text = " Kemi folur shpesh me Kryeministrin dhe një nga diskutimet që kemi pasur me Edi Ramën është : si mund të sjellim prapë pajtimin kombëtar , për të cilin Bashkimi luftoi aq shumë .
+# sent_id = 8
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=6|NER=O
+3	folur	flas	VERB	_	VerbForm=Part	17	advcl	_	start_char=7|end_char=12|NER=O
+4	shpesh	shpesh	ADV	_	AdvType=Man	3	advmod	_	start_char=13|end_char=19|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=20|end_char=22|NER=O
+6	Kryeministrin	Kryeministr	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=23|end_char=36|NER=O
+7	dhe	dhe	CCONJ	_	_	10	cc	_	start_char=37|end_char=40|NER=O
+8	një	një	DET	_	Definite=Ind	10	det	_	start_char=41|end_char=44|NER=O
+9	nga	nga	ADP	_	Case=Nom	10	case	_	start_char=45|end_char=48|NER=O
+10	diskutimet	diskutim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	conj	_	start_char=49|end_char=59|NER=O
+11	që	që	PRON	_	PronType=Rel	13	nsubj	_	start_char=60|end_char=62|NER=O
+12	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	aux	_	start_char=63|end_char=67|NER=O
+13	pasur	kam	VERB	_	VerbForm=Part	10	acl:relcl	_	start_char=68|end_char=73|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=74|end_char=76|NER=O
+15	Edi	Edi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	start_char=77|end_char=80|NER=B-PER
+16	Ramën	Ramë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=81|end_char=86|NER=I-PER
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=87|end_char=92|SpaceAfter=No|NER=O
+18	:	:	PUNCT	_	_	17	punct	_	start_char=93|end_char=94|NER=O
+19	si	si	SCONJ	_	_	22	mark	_	start_char=95|end_char=97|NER=O
+20	mund	mund	AUX	_	_	22	aux	_	start_char=98|end_char=102|NER=O
+21	të	të	PART	_	_	22	fixed	_	start_char=103|end_char=105|NER=O
+22	sjellim	sjell	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	17	advcl	_	start_char=106|end_char=113|NER=O
+23	prapë	prapë	ADV	_	AdvType=Deg	22	advmod	_	start_char=114|end_char=119|NER=O
+24	pajtimin	pajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=120|end_char=128|NER=O
+25	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=129|end_char=137|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	29	punct	_	start_char=138|end_char=139|NER=O
+27	për	për	ADP	_	Case=Acc	29	case	_	start_char=140|end_char=143|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=144|end_char=146|NER=O
+29	cilin	cili	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	31	obl	_	start_char=147|end_char=152|NER=O
+30	Bashkimi	Bashkim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	31	obl	_	start_char=153|end_char=161|NER=O
+31	luftoi	luftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl	_	start_char=162|end_char=168|NER=O
+32	aq	aq	ADV	_	AdvType=Deg	33	advmod	_	start_char=169|end_char=171|NER=O
+33	shumë	shumë	ADV	_	AdvType=Deg	31	advmod	_	start_char=172|end_char=177|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	31	punct	_	start_char=178|end_char=179|NER=O
+
+# text = Ma brengos zemrën kur shikoj çdo ditë këta që diskreditojnë .
+# sent_id = 9
+1	Ma	ma	ADV	_	AdvType=Loc	2	mark	_	start_char=0|end_char=2|NER=O
+2	brengos	brengoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=10|NER=O
+3	zemrën	zemër	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=11|end_char=17|NER=O
+4	kur	kur	SCONJ	_	_	5	mark	_	start_char=18|end_char=21|NER=O
+5	shikoj	shikoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	advcl	_	start_char=22|end_char=28|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	nummod	_	start_char=29|end_char=32|NER=O
+7	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	start_char=33|end_char=37|NER=O
+8	këta	këta	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	10	nsubj	_	start_char=38|end_char=42|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=43|end_char=45|NER=O
+10	diskreditojnë	diskreditoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl	_	start_char=46|end_char=59|NER=O
+11	.	.	PUNCT	_	_	2	punct	_	start_char=60|end_char=61|NER=O
+
+# text = Ishte një grup që dilte për " Samiun " , pastaj një grup për " Jeronim De Radën " , pastaj një grup që ka filluar të dalë për shkollat që po bëhen me ndihmën e OKB dhe BE , procedurat e të cilave sapo kanë filluar .
+# sent_id = 10
+1	Ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=6|end_char=9|NER=O
+3	grup	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	cop	_	start_char=10|end_char=14|NER=O
+4	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=15|end_char=17|NER=O
+5	dilte	dil	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	3	acl:relcl	_	start_char=18|end_char=23|NER=O
+6	për	për	ADP	_	Case=Acc	8	case	_	start_char=24|end_char=27|NER=O
+7	"	"	PUNCT	_	_	8	punct	_	start_char=28|end_char=29|SpaceAfter=No|NER=O
+8	Samiun	Samiun	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	start_char=30|end_char=36|SpaceAfter=No|NER=O
+9	"	"	PUNCT	_	_	5	punct	_	start_char=37|end_char=38|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	10	punct	_	start_char=39|end_char=40|NER=O
+11	pastaj	pastaj	ADV	_	AdvType=Tim	12	advmod	_	start_char=41|end_char=47|NER=O
+12	një	një	DET	_	Definite=Ind	12	det	_	start_char=48|end_char=51|NER=O
+13	grup	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	advmod	_	start_char=52|end_char=56|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=57|end_char=60|NER=O
+15	"	"	PUNCT	_	_	15	punct	_	start_char=61|end_char=62|SpaceAfter=No|NER=O
+16	Jeronim	Jeronim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	start_char=63|end_char=70|NER=O
+17	De	De	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	flat	_	start_char=71|end_char=73|NER=O
+18	Radën	Radën	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	flat	_	start_char=74|end_char=79|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	15	punct	_	start_char=80|end_char=81|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	19	punct	_	start_char=82|end_char=83|NER=O
+21	pastaj	pastaj	ADV	_	AdvType=Tim	21	advmod	_	start_char=84|end_char=90|NER=O
+22	një	një	DET	_	Definite=Ind	21	det	_	start_char=91|end_char=94|NER=O
+23	grup	grup	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	list	_	start_char=95|end_char=99|NER=O
+24	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=100|end_char=102|NER=O
+25	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=103|end_char=105|NER=O
+26	filluar	filloj	VERB	_	VerbForm=Part	21	acl:relcl	_	start_char=106|end_char=113|NER=O
+27	të	të	PART	_	_	26	fixed	_	start_char=114|end_char=116|NER=O
+28	dalë	dal	VERB	_	VerbForm=Part	24	advcl	_	start_char=117|end_char=121|NER=O
+29	për	për	ADP	_	Case=Acc	28	case	_	start_char=122|end_char=125|NER=O
+30	shkollat	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	start_char=126|end_char=134|NER=O
+31	që	që	PRON	_	PronType=Rel	31	nsubj	_	start_char=135|end_char=137|NER=O
+32	po	po	PART	_	_	31	mark	_	start_char=138|end_char=140|NER=O
+33	bëhen	bëj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	26	advcl	_	start_char=141|end_char=146|NER=O
+34	me	me	ADP	_	Case=Acc	33	case	_	start_char=147|end_char=149|NER=O
+35	ndihmën	ndihmë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	31	obl	_	start_char=150|end_char=157|NER=O
+36	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	35	det:poss	_	start_char=158|end_char=159|NER=O
+37	OKB	OKB	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	start_char=160|end_char=163|NER=B-ORG
+38	dhe	dhe	CCONJ	_	_	37	cc	_	start_char=164|end_char=167|NER=O
+39	BE	BE	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	conj	_	start_char=168|end_char=170|SpaceAfter=No|NER=B-ORG
+40	,	,	PUNCT	_	_	39	punct	_	start_char=171|end_char=172|NER=O
+41	procedurat	procedurë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	33	list	_	start_char=173|end_char=183|NER=O
+42	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=184|end_char=185|NER=O
+43	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	42	det	_	start_char=186|end_char=188|NER=O
+44	cilave	cila	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	39	nmod	_	start_char=189|end_char=195|NER=O
+45	sapo	sapo	ADV	_	AdvType=Tim	45	advmod	_	start_char=196|end_char=200|NER=O
+46	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	45	aux	_	start_char=201|end_char=205|NER=O
+47	filluar	filloj	VERB	_	VerbForm=Part	39	acl:relcl	_	start_char=206|end_char=213|SpaceAfter=No|NER=O
+48	.	.	PUNCT	_	_	45	punct	_	start_char=214|end_char=215|NER=O
+
+# text = Si mundet në vitin 2022 të flasim ende për pajtim kombëtar ?
+# sent_id = 11
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	mundet	mundem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	advmod	_	start_char=3|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12|NER=O
+4	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=13|end_char=18|NER=B-DATE_0
+5	2022	2022	NUM	_	NumType=Card	4	amod:nummod	_	start_char=19|end_char=23|NER=I-DATE_0
+6	të	të	PART	_	_	7	fixed	_	start_char=24|end_char=26|NER=O
+7	flasim	flas	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=33|NER=O
+8	ende	ende	ADV	_	AdvType=Tim	7	advmod	_	start_char=34|end_char=38|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=42|NER=O
+10	pajtim	pajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=43|end_char=49|NER=O
+11	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=50|end_char=58|SpaceAfter=No|NER=O
+12	?	?	PUNCT	_	_	7	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=O
+
+# text = !
+# sent_id = 12
+1	!	!	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+
+# text = Si mundet në vitin 2022 të ketë njerëz që merren me politikë dhe varen te kangjellat e shkollave ?
+# sent_id = 13
+1	Si	si	SCONJ	_	_	2	mark	_	start_char=0|end_char=2|NER=O
+2	mundet	mundem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	advmod	_	start_char=3|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12|NER=O
+4	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=13|end_char=18|NER=B-DATE_0
+5	2022	2022	NUM	_	NumType=Card	4	amod:nummod	_	start_char=19|end_char=23|NER=I-DATE_0
+6	të	të	PART	_	_	7	fixed	_	start_char=24|end_char=26|NER=O
+7	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=27|end_char=31|NER=O
+8	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	start_char=32|end_char=38|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=39|end_char=41|NER=O
+10	merren	merrej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	8	acl	_	start_char=42|end_char=48|NER=O
+11	me	me	ADP	_	Case=Acc	12	case	_	start_char=49|end_char=51|NER=O
+12	politikë	politikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=52|end_char=60|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=61|end_char=64|NER=O
+14	varen	varej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	conj	_	start_char=65|end_char=70|NER=O
+15	te	te	ADP	_	Case=Nom	16	case	_	start_char=71|end_char=73|NER=O
+16	kangjellat	kangjellë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	start_char=74|end_char=84|NER=O
+17	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	18	det:poss	_	start_char=85|end_char=86|NER=O
+18	shkollave	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	16	nmod	_	start_char=87|end_char=96|SpaceAfter=No|NER=O
+19	?	?	PUNCT	_	_	14	punct	_	start_char=97|end_char=98|SpaceAfter=No|NER=O
+
+# text = !
+# sent_id = 14
+1	!	!	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+
+# text = Si mund të ketë njerëz që vënë bast për dështimin e projektit tonë për shkollat ?
+# sent_id = 15
+1	Si	si	SCONJ	_	_	4	mark	_	start_char=0|end_char=2|NER=O
+2	mund	mund	AUX	_	_	4	aux	_	start_char=3|end_char=7|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=8|end_char=10|NER=O
+4	ketë	kam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=15|NER=O
+5	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	start_char=16|end_char=22|NER=O
+6	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=23|end_char=25|NER=O
+7	vënë	vëj	VERB	_	VerbForm=Part	5	acl:relcl	_	start_char=26|end_char=30|NER=O
+8	bast	bast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=31|end_char=35|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=39|NER=O
+10	dështimin	dështim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=40|end_char=49|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=51|NER=O
+12	projektit	projekt	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=52|end_char=61|NER=O
+13	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	amod	_	start_char=62|end_char=66|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=70|NER=O
+15	shkollat	shkollë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	advmod	_	start_char=71|end_char=79|SpaceAfter=No|NER=O
+16	?	?	PUNCT	_	_	4	punct	_	start_char=80|end_char=81|SpaceAfter=No|NER=O
+
+# text = !
+# sent_id = 16
+1	!	!	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+
+# text = Si mund të vësh bast kundër vendit tënd ?
+# sent_id = 17
+1	Si	si	SCONJ	_	_	4	mark	_	start_char=0|end_char=2|NER=O
+2	mund	mund	AUX	_	_	4	aux	_	start_char=3|end_char=7|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=8|end_char=10|NER=O
+4	vësh	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=11|end_char=15|NER=O
+5	bast	bast	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	start_char=16|end_char=20|NER=O
+6	kundër	kundër	ADP	_	Case=Abl	7	case	_	start_char=21|end_char=27|NER=O
+7	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=28|end_char=34|NER=O
+8	tënd	tënd	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	appos	_	start_char=35|end_char=39|SpaceAfter=No|NER=O
+9	?	?	PUNCT	_	_	4	punct	_	start_char=40|end_char=41|SpaceAfter=No|NER=O
+
+# text = !
+# sent_id = 18
+1	!	!	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|NER=O
+
+# text = Sot kemi nevojë vërtet për një pajtim kombëtar !
+# sent_id = 19
+1	Sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=0|end_char=3|NER=O
+2	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=8|NER=O
+3	nevojë	nevojë	VERB	_	VerbForm=Part	11	advcl	_	start_char=9|end_char=15|NER=O
+4	vërtet	vërtet	ADV	_	AdvType=Man	3	advmod	_	start_char=16|end_char=22|NER=O
+5	për	për	ADP	_	Case=Acc	7	case	_	start_char=23|end_char=26|NER=O
+6	një	një	DET	_	Definite=Ind	7	det	_	start_char=27|end_char=30|NER=O
+7	pajtim	pajtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	start_char=31|end_char=37|NER=O
+8	kombëtar	kombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=38|end_char=46|SpaceAfter=No|NER=O
+9	!	!	PUNCT	_	_	7	punct	_	start_char=47|end_char=48|SpaceAfter=No|NER=O
+
+# text = " , u shpreh Veliaj .
+# sent_id = 20
+1	"	"	PUNCT	_	_	7	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	11	punct	_	start_char=2|end_char=3|NER=O
+3	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	fixed	_	start_char=4|end_char=5|NER=O
+4	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=6|end_char=12|NER=O
+5	Veliaj	Veliaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=13|end_char=19|SpaceAfter=No|NER=B-PER
+6	.	.	PUNCT	_	_	11	punct	_	start_char=20|end_char=21|SpacesAfter=\n|NER=O
+
+# text = " Ju falenderojmë me përulësi të gjithëve për gjithë angazhimin dhe përkushtimin tuaj , për ndërtimin dhe funksionimin e shkollës që mban emrin e babait tonë .
+# sent_id = 21
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ju	Ju	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=2|end_char=4|NER=O
+3	falenderojmë	falenderoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=17|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=18|end_char=20|NER=O
+5	përulësi	përulës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=21|end_char=29|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=30|end_char=32|NER=O
+7	gjithëve	gjithë	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	5	nmod	_	start_char=33|end_char=41|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=42|end_char=45|NER=O
+9	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	start_char=46|end_char=52|NER=O
+10	angazhimin	angazhim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=53|end_char=63|NER=O
+11	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=64|end_char=67|NER=O
+12	përkushtimin	përkushtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	conj	_	start_char=68|end_char=80|NER=O
+13	tuaj	juaj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	amod	_	start_char=81|end_char=85|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=86|end_char=87|NER=O
+15	për	për	ADP	_	Case=Acc	16	case	_	start_char=88|end_char=91|NER=O
+16	ndërtimin	ndërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=92|end_char=101|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=102|end_char=105|NER=O
+18	funksionimin	funksionim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	start_char=106|end_char=118|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=119|end_char=120|NER=O
+20	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=121|end_char=129|NER=O
+21	që	që	PRON	_	PronType=Rel	22	nsubj	_	start_char=130|end_char=132|NER=O
+22	mban	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	start_char=133|end_char=137|NER=O
+23	emrin	emër	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=138|end_char=143|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det:poss	_	start_char=144|end_char=145|NER=O
+25	babait	baba	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=146|end_char=152|NER=O
+26	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	amod	_	start_char=153|end_char=157|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	22	punct	_	start_char=158|end_char=159|NER=O
+
+# text = Është krenari dhe privilegj shumë i madh për ne .
+# sent_id = 22
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	krenari	krenari	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=13|NER=O
+3	dhe	dhe	CCONJ	_	_	4	cc	_	start_char=14|end_char=17|NER=O
+4	privilegj	privileg	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	start_char=18|end_char=27|NER=O
+5	shumë	shumë	ADV	_	AdvType=Deg	7	advmod	_	start_char=28|end_char=33|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=34|end_char=35|NER=O
+7	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=36|end_char=40|NER=O
+8	për	për	ADP	_	Case=Acc	9	case	_	start_char=41|end_char=44|NER=O
+9	ne	ne	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	advmod	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	1	punct	_	start_char=48|end_char=49|NER=O
+
+# text = Ne kemi ardhur shpesh këtu me Erionin , me Arbenin , me Florin gjatë ndërtimit të shkollës , por nuk më është dukur asnjëherë kaq e bukur sa sot , që është e mbushur me nxënësit që kanë zënë vend në bankat e kësaj shkolle .
+# sent_id = 23
+1	Ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=2|NER=O
+2	kemi	kam	AUX	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=3|end_char=7|NER=O
+3	ardhur	vij	VERB	_	VerbForm=Part	0	root	_	start_char=8|end_char=14|NER=O
+4	shpesh	shpesh	ADV	_	AdvType=Deg	3	advmod	_	start_char=15|end_char=21|NER=O
+5	këtu	ky	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	obj	_	start_char=22|end_char=26|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=29|NER=O
+7	Erionin	Erion	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=30|end_char=37|SpaceAfter=No|NER=B-PER
+8	,	,	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=40|end_char=42|NER=O
+10	Arbenin	Arben	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	start_char=43|end_char=50|SpaceAfter=No|NER=B-PER
+11	,	,	PUNCT	_	_	10	punct	_	start_char=51|end_char=52|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=53|end_char=55|NER=O
+13	Florin	Flor	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=56|end_char=62|NER=B-PER
+14	gjatë	gjatë	ADP	_	Case=Abl	15	case	_	start_char=63|end_char=68|NER=O
+15	ndërtimit	ndërtim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=69|end_char=78|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=79|end_char=81|NER=O
+17	shkollës	shkollë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	start_char=82|end_char=90|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	19	punct	_	start_char=91|end_char=92|NER=O
+19	por	por	CCONJ	_	_	23	cc	_	start_char=93|end_char=96|NER=O
+20	nuk	nuk	PART	_	_	23	mark	_	start_char=97|end_char=100|NER=O
+21	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	iobj	_	start_char=101|end_char=103|NER=O
+22	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	start_char=104|end_char=109|NER=O
+23	dukur	dukoj	VERB	_	VerbForm=Part	3	conj	_	start_char=110|end_char=115|NER=O
+24	asnjëherë	asnjëherë	ADV	_	AdvType=Tim	23	advmod	_	start_char=116|end_char=125|NER=O
+25	kaq	kaq	ADV	_	AdvType=Deg	27	advmod	_	start_char=126|end_char=129|NER=O
+26	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=130|end_char=131|NER=O
+27	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	cop	_	start_char=132|end_char=137|NER=O
+28	sa	sa	ADV	_	AdvType=Deg	29	advmod	_	start_char=138|end_char=140|NER=O
+29	sot	sot	ADV	_	AdvType=Tim	27	advmod	_	start_char=141|end_char=144|SpaceAfter=No|NER=O
+30	,	,	PUNCT	_	_	31	punct	_	start_char=145|end_char=146|NER=O
+31	që	që	PRON	_	PronType=Rel	32	nsubj	_	start_char=147|end_char=149|NER=O
+32	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	advcl	_	start_char=150|end_char=155|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=156|end_char=157|NER=O
+34	mbushur	mbush	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	cop	_	start_char=158|end_char=165|NER=O
+35	me	me	ADP	_	Case=Acc	36	case	_	start_char=166|end_char=168|NER=O
+36	nxënësit	nxënës	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	32	advmod	_	start_char=169|end_char=177|NER=O
+37	që	që	PRON	_	PronType=Rel	39	nsubj	_	start_char=178|end_char=180|NER=O
+38	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	39	aux	_	start_char=181|end_char=185|NER=O
+39	zënë	zë	VERB	_	VerbForm=Part	36	acl:relcl	_	start_char=186|end_char=190|NER=O
+40	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	39	obj	_	start_char=191|end_char=195|NER=O
+41	në	në	ADP	_	Case=Acc	42	case	_	start_char=196|end_char=198|NER=O
+42	bankat	bankë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	39	obl	_	start_char=199|end_char=205|NER=O
+43	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	45	det:poss	_	start_char=206|end_char=207|NER=O
+44	kësaj	kjo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	45	det	_	start_char=208|end_char=213|NER=O
+45	shkolle	shkoll	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	42	nmod	_	start_char=214|end_char=221|SpaceAfter=No|NER=O
+46	.	.	PUNCT	_	_	39	punct	_	start_char=222|end_char=223|NER=O
+
+# text = Jam e bindur që edhe im atë do të kishte të njëjtin emocion dhe krenari si unë sot para jush , " u shpreh Megi Fino , vajza e ish - kryeministrit Bashkim Fino .
+# sent_id = 24
+1	Jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=5|NER=O
+3	bindur	bindur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=12|NER=O
+4	që	që	SCONJ	_	_	23	mark	_	start_char=13|end_char=15|NER=O
+5	edhe	edhe	PART	_	_	7	mark	_	start_char=16|end_char=20|NER=O
+6	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	start_char=21|end_char=23|NER=O
+7	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=24|end_char=27|NER=O
+8	do	do	PART	_	_	10	fixed	_	start_char=28|end_char=30|NER=O
+9	të	të	PART	_	_	10	fixed	_	start_char=31|end_char=33|NER=O
+10	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	1	csubj	_	start_char=34|end_char=40|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=41|end_char=43|NER=O
+12	njëjtin	njëjtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	det	_	start_char=44|end_char=51|NER=O
+13	emocion	emocio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=52|end_char=59|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=60|end_char=63|NER=O
+15	krenari	krenari	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	start_char=64|end_char=71|NER=O
+16	si	si	SCONJ	_	_	18	mark	_	start_char=72|end_char=74|NER=O
+17	unë	unë	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	det	_	start_char=75|end_char=78|NER=O
+18	sot	sot	ADV	_	AdvType=Tim	23	advmod	_	start_char=79|end_char=82|NER=O
+19	para	para	ADP	_	Case=Abl	20	case	_	start_char=83|end_char=87|NER=O
+20	jush	jush	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	23	advmod	_	start_char=88|end_char=92|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=93|end_char=94|SpaceAfter=No|NER=O
+22	"	"	PUNCT	_	_	23	punct	_	start_char=95|end_char=96|NER=O
+23	u	u	PART	_	_	23	fixed	_	start_char=97|end_char=98|NER=O
+24	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	conj	_	start_char=99|end_char=105|NER=O
+25	Megi	Megi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	start_char=106|end_char=110|NER=B-PER
+26	Fino	Fino	PROPN	_	Case=Nom|Foreign=Yes|Number=Sing	24	flat	_	start_char=111|end_char=115|SpaceAfter=No|NER=I-PER
+27	,	,	PUNCT	_	_	27	punct	_	start_char=116|end_char=117|NER=O
+28	vajza	vajzë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	start_char=118|end_char=123|NER=O
+29	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	29	det:poss	_	start_char=124|end_char=125|NER=O
+30	ish	ish-kryemisistr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=126|end_char=129|NER=O
+31	-	-	PUNCT	_	_	27	punct	_	start_char=130|end_char=131|NER=O
+32	kryeministrit	ish-kryemisistr	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=132|end_char=145|NER=O
+33	Bashkim	Bashkim	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	29	appos	_	start_char=146|end_char=153|NER=B-PER
+34	Fino	Fino	PROPN	_	Foreign=Yes	29	appos	_	start_char=154|end_char=158|SpaceAfter=No|NER=I-PER
+35	.	.	PUNCT	_	_	23	punct	_	start_char=159|end_char=160|SpacesAfter=\n\n|NER=O
+

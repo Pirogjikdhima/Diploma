@@ -1,0 +1,114 @@
+# text = 15 / 01 / 2024 Prej vitesh bota flet me gjuhën e zhvillimeve teknologjike .
+# sent_id = 0
+1	15	15	NUM	_	NumType=Card	19	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	13	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	13	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	19	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	19	amod:nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Prej	prej	ADP	_	Case=Abl	2	case	_	start_char=15|end_char=19|NER=O
+7	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	4	advmod	_	start_char=20|end_char=26|NER=O
+8	bota	botë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=27|end_char=31|NER=O
+9	flet	fles	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=36|NER=O
+10	me	me	ADP	_	Case=Acc	6	case	_	start_char=37|end_char=39|NER=O
+11	gjuhën	gjuhë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=40|end_char=46|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=47|end_char=48|NER=O
+13	zhvillimeve	zhvillim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=49|end_char=60|NER=O
+14	teknologjike	teknologjik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=61|end_char=73|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	4	punct	_	start_char=74|end_char=75|NER=O
+
+# text = Smartphone - t dhe rrjetet sociale janë tregues i ndryshimeve që njeriu ka pësuar si qënie sociale .
+# sent_id = 1
+1	Smartphone	smartphon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=0|end_char=10|NER=B-PRO
+2	-	-	PUNCT	_	_	5	punct	_	start_char=11|end_char=12|NER=B-PRO
+3	t	smartphon	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	start_char=13|end_char=14|NER=B-PRO
+4	dhe	dhe	CCONJ	_	_	3	cc	_	start_char=15|end_char=18|NER=O
+5	rrjetet	rrjet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	conj	_	start_char=19|end_char=26|NER=O
+6	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=27|end_char=34|NER=O
+7	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=35|end_char=39|NER=O
+8	tregues	tregues	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	cop	_	start_char=40|end_char=47|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=48|end_char=49|NER=O
+10	ndryshimeve	ndryshim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=50|end_char=61|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=62|end_char=64|NER=O
+12	njeriu	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	start_char=65|end_char=71|NER=O
+13	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=72|end_char=74|NER=O
+14	pësuar	pësoj	VERB	_	VerbForm=Part	6	acl:relcl	_	start_char=75|end_char=81|NER=O
+15	si	si	SCONJ	_	_	14	mark	_	start_char=82|end_char=84|NER=O
+16	qënie	qëni	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=85|end_char=90|NER=O
+17	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=91|end_char=98|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	5	punct	_	start_char=99|end_char=100|SpacesAfter=\n|NER=O
+
+# text = Mjafton një celular që të kontaktosh me dikë në anën tjetër të botës .
+# sent_id = 2
+1	Mjafton	mjaftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=8|end_char=11|NER=O
+3	celular	celular	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	start_char=12|end_char=19|NER=B-PRO
+4	që	që	SCONJ	_	_	6	mark	_	start_char=20|end_char=22|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=23|end_char=25|NER=O
+6	kontaktosh	kontaktoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	advmod	_	start_char=26|end_char=36|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=37|end_char=39|NER=O
+8	dikë	dikë	PRON	_	PronType=Ind	6	obl	_	start_char=40|end_char=44|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=45|end_char=47|NER=O
+10	anën	anë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=48|end_char=52|NER=O
+11	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	amod	_	start_char=53|end_char=59|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=60|end_char=62|NER=O
+13	botës	botë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=63|end_char=68|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	1	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Mjafton veç të kërkosh diçka në Google dhe merr çdo informacion .
+# sent_id = 3
+1	Mjafton	mjaftoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	veç	veç	ADV	_	AdvType=Man	4	advmod	_	start_char=8|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	kërkosh	kërkoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	start_char=15|end_char=22|NER=O
+5	diçka	diçka	PRON	_	PronType=Ind	4	obj	_	start_char=23|end_char=28|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=31|NER=O
+7	Google	Googl	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	4	advmod	_	start_char=32|end_char=38|NER=B-ORG
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=39|end_char=42|NER=O
+9	merr	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=43|end_char=47|NER=O
+10	çdo	çdo	PRON	_	PronType=Ind	11	nummod	_	start_char=48|end_char=51|NER=O
+11	informacion	informacion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	start_char=52|end_char=63|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	9	punct	_	start_char=64|end_char=65|SpacesAfter=\n|NER=O
+
+# text = Për psikologen Loreta Tomaj , rrjetet sociale nuk duhen parë si një boomerang që na dëmtojnë por përdorimi i tepërt krijon efekte negative tek vetë zotëruesit e tyre .
+# sent_id = 4
+1	Për	për	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=3|NER=O
+2	psikologen	psikolog	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=4|end_char=14|NER=O
+3	Loreta	Loretë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=15|end_char=21|NER=B-PER
+4	Tomaj	Tomaj	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=22|end_char=27|SpaceAfter=No|NER=I-PER
+5	,	,	PUNCT	_	_	2	punct	_	start_char=28|end_char=29|NER=O
+6	rrjetet	rrjet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	start_char=30|end_char=37|NER=O
+7	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=38|end_char=45|NER=O
+8	nuk	nuk	PART	_	_	10	mark	_	start_char=46|end_char=49|NER=O
+9	duhen	duhem	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	10	aux	_	start_char=50|end_char=55|NER=O
+10	parë	shoh	VERB	_	VerbForm=Part	0	root	_	start_char=56|end_char=60|NER=O
+11	si	si	SCONJ	_	_	13	mark	_	start_char=61|end_char=63|NER=O
+12	një	një	DET	_	Definite=Ind	13	det	_	start_char=64|end_char=67|NER=O
+13	boomerang	boomerang	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	start_char=68|end_char=77|NER=O
+14	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=78|end_char=80|NER=O
+15	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	iobj	_	start_char=81|end_char=83|NER=O
+16	dëmtojnë	dëmtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	start_char=84|end_char=92|NER=O
+17	por	por	CCONJ	_	_	18	cc	_	start_char=93|end_char=96|NER=O
+18	përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	start_char=97|end_char=106|NER=O
+19	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=107|end_char=108|NER=O
+20	tepërt	tepërt	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=109|end_char=115|NER=O
+21	krijon	krijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	start_char=116|end_char=122|NER=O
+22	efekte	efekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	start_char=123|end_char=129|NER=O
+23	negative	negati	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=130|end_char=138|NER=O
+24	tek	tek	ADP	_	Case=Nom	26	case	_	start_char=139|end_char=142|NER=O
+25	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	26	det	_	start_char=143|end_char=147|NER=O
+26	zotëruesit	zotërues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	advmod	_	start_char=148|end_char=158|NER=O
+27	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	28	det:poss	_	start_char=159|end_char=160|NER=O
+28	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	amod:poss	_	start_char=161|end_char=165|SpaceAfter=No|NER=O
+29	.	.	PUNCT	_	_	21	punct	_	start_char=166|end_char=167|SpacesAfter=\n|NER=O
+
+# text = Gazetar : M .
+# sent_id = 5
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	M	M	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=10|end_char=11|SpaceAfter=No|NER=B-PER
+4	.	.	PUNCT	_	_	1	punct	_	start_char=12|end_char=13|NER=O
+
+# text = Gjini
+# sent_id = 6
+1	Gjini	Gjini	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|SpacesAfter=\n\n\n|NER=I-PER
+

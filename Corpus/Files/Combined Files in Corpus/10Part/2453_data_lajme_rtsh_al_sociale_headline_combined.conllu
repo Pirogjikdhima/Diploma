@@ -1,0 +1,46 @@
+# text = 21 / 01 / 2022 Këto lloj kitesh mund të përdoren edhe në kushte shtëpie nga vetë gruaja me disa udhëzime nga mjeku , por Dr .
+# sent_id = 0
+1	21	21	NUM	_	NumType=Card	12	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	12	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	12	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2022	2022	NUM	_	NumType=Card	12	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=15|end_char=19|NER=O
+7	lloj	lloj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	start_char=20|end_char=24|NER=O
+8	kitesh	kitesh	NOUN	_	Case=Abl|Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	start_char=25|end_char=31|NER=O
+9	mund	mund	AUX	_	_	6	aux	_	start_char=32|end_char=36|NER=O
+10	të	të	PART	_	_	6	fixed	_	start_char=37|end_char=39|NER=O
+11	përdoren	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=40|end_char=48|NER=O
+12	edhe	edhe	PART	_	_	9	cc	_	start_char=49|end_char=53|NER=O
+13	në	në	ADP	_	Case=Acc	9	case	_	start_char=54|end_char=56|NER=O
+14	kushte	kusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=57|end_char=63|NER=O
+15	shtëpie	shtëpi	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=64|end_char=71|NER=O
+16	nga	nga	ADP	_	Case=Nom	13	case	_	start_char=72|end_char=75|NER=O
+17	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	13	det	_	start_char=76|end_char=80|NER=O
+18	gruaja	grua	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=81|end_char=87|NER=O
+19	me	me	ADP	_	Case=Acc	16	case	_	start_char=88|end_char=90|NER=O
+20	disa	disa	PRON	_	PronType=Ind	16	nummod	_	start_char=91|end_char=95|NER=O
+21	udhëzime	udhëzim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	start_char=96|end_char=104|NER=O
+22	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=105|end_char=108|NER=O
+23	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	start_char=109|end_char=114|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	20	punct	_	start_char=115|end_char=116|NER=O
+25	por	por	CCONJ	_	_	21	cc	_	start_char=117|end_char=120|NER=O
+26	Dr	Dr	NUM	_	NumType=Card	18	conj	_	start_char=121|end_char=123|SpaceAfter=No|NER=B-PER
+27	.	.	PUNCT	_	_	6	punct	_	start_char=124|end_char=125|SpaceAfter=No|NER=B-PER
+
+# text = Lindita Myzyri mendon se marrja e mostrave duhet bërë nga mjeku gjinekolog .
+# sent_id = 1
+1	Lindita	Linditë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Myzyri	Myzyri	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=14|NER=I-PER
+3	mendon	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=15|end_char=21|NER=O
+4	se	se	SCONJ	_	_	9	mark	_	start_char=22|end_char=24|NER=O
+5	marrja	marrje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=25|end_char=31|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=32|end_char=33|NER=O
+7	mostrave	mostra	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=34|end_char=42|NER=O
+8	duhet	duhem	AUX	_	_	9	aux	_	start_char=43|end_char=48|NER=O
+9	bërë	bëj	VERB	_	VerbForm=Part	3	conj	_	start_char=49|end_char=53|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=54|end_char=57|NER=O
+11	mjeku	mjek	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	start_char=58|end_char=63|NER=O
+12	gjinekolog	gjinekolog	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=64|end_char=74|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	9	punct	_	start_char=75|end_char=76|SpacesAfter=\n|NER=O
+

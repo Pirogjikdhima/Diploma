@@ -1,0 +1,253 @@
+# text = Sarah Berisha me partner të ri ?
+# sent_id = 0
+1	Sarah	Sarah	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|NER=B-PER
+2	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=13|NER=I-PER
+3	me	me	ADP	_	Case=Acc	4	case	_	start_char=14|end_char=16|NER=O
+4	partner	partner	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=17|end_char=24|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=25|end_char=27|NER=O
+6	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=28|end_char=30|SpaceAfter=No|NER=O
+7	?	?	PUNCT	_	_	1	punct	_	start_char=31|end_char=32|NER=O
+
+# text = Regjisori Altin Basha sqaron mungesën e Bes Kallakut 19 / 03 / 2023 Në ekranin e RTSH nis spektakli I humorit ' Kosherja ' .
+# sent_id = 1
+1	Regjisori	Regjisor	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=9|NER=O
+2	Altin	Alt	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=10|end_char=15|NER=B-PER
+3	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=16|end_char=21|NER=I-PER
+4	sqaron	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=28|NER=O
+5	mungesën	mungesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=29|end_char=37|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=38|end_char=39|NER=O
+7	Bes	Bes	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=40|end_char=43|NER=B-PER
+8	Kallakut	Kallak	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=44|end_char=52|SpacesAfter=\n|NER=I-PER
+9	19	19	NUM	_	NumType=Card	8	flat	_	start_char=53|end_char=55|SpaceAfter=No|NER=B-DATE_0
+10	/	/	PUNCT	_	_	9	punct	_	start_char=56|end_char=57|SpaceAfter=No|NER=I-DATE_0
+11	03	03	NUM	_	NumType=Card	9	conj	_	start_char=58|end_char=60|SpaceAfter=No|NER=I-DATE_0
+12	/	/	PUNCT	_	_	12	punct	_	start_char=61|end_char=62|SpaceAfter=No|NER=I-DATE_0
+13	2023	2023	NUM	_	NumType=Card	10	parataxis	_	start_char=63|end_char=67|SpaceAfter=No|NER=I-DATE_0
+14	Në	në	ADP	_	Case=Acc	2	case	_	start_char=68|end_char=70|NER=O
+15	ekranin	ekran	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	advmod	_	start_char=71|end_char=78|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	4	det:poss	_	start_char=79|end_char=80|NER=O
+17	RTSH	RTSH	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=81|end_char=85|NER=O
+18	nis	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=86|end_char=89|NER=O
+19	spektakli	spektakl	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=90|end_char=99|NER=O
+20	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=100|end_char=101|NER=O
+21	humorit	humor	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=102|end_char=109|NER=O
+22	'	'	PUNCT	_	_	10	punct	_	start_char=110|end_char=111|SpaceAfter=No|NER=O
+23	Kosherja	Kosherja	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	appos	_	start_char=112|end_char=120|SpaceAfter=No|NER=O
+24	'	'	PUNCT	_	_	8	punct	_	start_char=121|end_char=122|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	5	punct	_	start_char=123|end_char=124|NER=O
+
+# text = Regjisori i njohur Altin Basha ishte i ftuar i Ermal Peçit në ' Më prit në fundjavë ' ku tregoi detajet e reja të lidhura me premierën dhe javët në vijim .
+# sent_id = 2
+1	Regjisori	degjisor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=9|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	njohur	njohur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=12|end_char=18|NER=O
+4	Altin	Alt	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=19|end_char=24|NER=B-PER
+5	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=25|end_char=30|NER=I-PER
+6	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=31|end_char=36|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=37|end_char=38|NER=O
+8	ftuar	ftuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	cop	_	start_char=39|end_char=44|NER=O
+9	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=45|end_char=46|NER=O
+10	Ermal	Ermal	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	start_char=47|end_char=52|NER=B-PER
+11	Peçit	Peç	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=53|end_char=58|NER=I-PER
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=59|end_char=61|NER=O
+13	'	'	PUNCT	_	_	14	punct	_	start_char=62|end_char=63|NER=O
+14	Më	Më	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=64|end_char=66|NER=O
+15	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	csubj	_	start_char=67|end_char=71|NER=O
+16	në	në	ADP	_	Case=Acc	16	case	_	start_char=72|end_char=74|NER=O
+17	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	start_char=75|end_char=83|NER=O
+18	'	'	PUNCT	_	_	14	punct	_	start_char=84|end_char=85|NER=O
+19	ku	ku	ADV	_	AdvType=Loc	18	advmod	_	start_char=86|end_char=88|NER=O
+20	tregoi	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl	_	start_char=89|end_char=95|NER=O
+21	detajet	detaj	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	18	obj	_	start_char=96|end_char=103|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	21	det	_	start_char=104|end_char=105|NER=O
+23	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=106|end_char=110|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	23	det	_	start_char=111|end_char=113|NER=O
+25	lidhura	lidhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=114|end_char=121|NER=O
+26	me	me	ADP	_	Case=Acc	25	case	_	start_char=122|end_char=124|NER=O
+27	premierën	premierë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	advmod	_	start_char=125|end_char=134|NER=O
+28	dhe	dhe	CCONJ	_	_	27	cc	_	start_char=135|end_char=138|NER=O
+29	javët	javë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	25	conj	_	start_char=139|end_char=144|NER=O
+30	në	në	ADP	_	Case=Acc	29	case	_	start_char=145|end_char=147|NER=O
+31	vijim	vijim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	start_char=148|end_char=153|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	18	punct	_	start_char=154|end_char=155|SpacesAfter=\n|NER=O
+
+# text = Basha zbuloi se Sarës do t ' i bashkëngjiten në moderim çdo javë personazhe të njohur ndërsa hapja i është besuar Dejvis Xherahut .
+# sent_id = 3
+1	Basha	Bashë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=5|NER=B-PER
+2	zbuloi	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=6|end_char=12|NER=O
+3	se	se	SCONJ	_	_	7	mark	_	start_char=13|end_char=15|NER=O
+4	Sarës	sarë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=16|end_char=21|NER=B-PER
+5	do	do	PART	_	_	7	fixed	_	start_char=22|end_char=24|NER=O
+6	t	t'i	PART	_	_	7	obj	_	start_char=25|end_char=26|NER=O
+7	'	'	PUNCT	_	_	7	punct	_	start_char=27|end_char=28|NER=O
+8	i	t'i	PART	_	_	7	obj	_	start_char=29|end_char=30|NER=O
+9	bashkëngjiten	bashkëngjitem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=31|end_char=44|NER=O
+10	në	në	ADP	_	Case=Acc	9	case	_	start_char=45|end_char=47|NER=O
+11	moderim	moderim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=48|end_char=55|NER=O
+12	çdo	çdo	PRON	_	PronType=Ind	11	nummod	_	start_char=56|end_char=59|NER=O
+13	javë	javë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=60|end_char=64|NER=O
+14	personazhe	personazhe	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	start_char=65|end_char=75|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=76|end_char=78|NER=O
+16	njohur	njohur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=79|end_char=85|NER=O
+17	ndërsa	ndërsa	CCONJ	_	_	19	cc	_	start_char=86|end_char=92|NER=O
+18	hapja	hapjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=93|end_char=98|NER=O
+19	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	start_char=99|end_char=100|NER=O
+20	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	start_char=101|end_char=106|NER=O
+21	besuar	besoj	VERB	_	VerbForm=Part	2	conj	_	start_char=107|end_char=113|NER=O
+22	Dejvis	dejvi	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=114|end_char=120|NER=B-PER
+23	Xherahut	Xherah	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	20	flat	_	start_char=121|end_char=129|SpaceAfter=No|NER=I-PER
+24	.	.	PUNCT	_	_	19	punct	_	start_char=130|end_char=131|NER=O
+
+# text = Ermali e pyet për aktorin Bes Kallaku dhe mungesën e tij këtë sezon .
+# sent_id = 4
+1	Ermali	Ermal	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=7|end_char=8|NER=O
+3	pyet	pyes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=13|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=14|end_char=17|NER=O
+5	aktorin	aktor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	start_char=18|end_char=25|NER=O
+6	Bes	Bes	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	start_char=26|end_char=29|NER=B-PER
+7	Kallaku	Kallak	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=30|end_char=37|NER=I-PER
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=38|end_char=41|NER=O
+9	mungesën	mungesë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=42|end_char=50|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=51|end_char=52|NER=O
+11	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	amod:poss	_	start_char=53|end_char=56|NER=O
+12	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=57|end_char=61|NER=O
+13	sezon	sezo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=62|end_char=67|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	3	punct	_	start_char=68|end_char=69|SpacesAfter=\n|NER=O
+
+# text = ' Bëre shumë mirë që më pyete Ermal .
+# sent_id = 5
+1	'	'	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	Bëre	Bëre	ADV	_	AdvType=Deg	3	advmod	_	start_char=2|end_char=6|NER=O
+3	shumë	shumë	ADV	_	AdvType=Deg	3	advmod	_	start_char=7|end_char=12|NER=O
+4	mirë	mirë	ADV	_	AdvType=Man	6	advmod	_	start_char=13|end_char=17|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=18|end_char=20|NER=O
+6	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	start_char=21|end_char=23|NER=O
+7	pyete	pyes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=24|end_char=29|NER=O
+8	Ermal	Ermal	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	start_char=30|end_char=35|SpaceAfter=No|NER=B-PER
+9	.	.	PUNCT	_	_	6	punct	_	start_char=36|end_char=37|NER=O
+
+# text = Kemi pasur bashkëpunim fantastik .
+# sent_id = 6
+1	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=4|NER=O
+2	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=10|NER=O
+3	bashkëpunim	bashkëpunim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	start_char=11|end_char=22|NER=O
+4	fantastik	fantastik	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=23|end_char=32|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	2	punct	_	start_char=33|end_char=34|NER=O
+
+# text = Besi ka meritat e veta tek ' Kosherja ' .
+# sent_id = 7
+1	Besi	besi	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=4|NER=B-PER
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=7|NER=O
+3	meritat	meritë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=8|end_char=15|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	veta	vetë	PRON	_	Gender=Fem|PronType=Prs|Reflex=Yes	3	amod	_	start_char=18|end_char=22|NER=O
+6	tek	tek	ADP	_	Case=Nom	8	case	_	start_char=23|end_char=26|NER=O
+7	'	'	PUNCT	_	_	8	punct	_	start_char=27|end_char=28|SpaceAfter=No|NER=O
+8	Kosherja	Kosherja	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=29|end_char=37|SpaceAfter=No|NER=O
+9	'	'	PUNCT	_	_	3	punct	_	start_char=38|end_char=39|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	2	punct	_	start_char=40|end_char=41|NER=O
+
+# text = Mungesa ka të bëjë vetëm me impenjimet personale e profesionale të tij ' .
+# sent_id = 8
+1	Mungesa	mungesë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=0|end_char=7|NER=O
+2	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=10|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=11|end_char=13|NER=O
+4	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=14|end_char=18|NER=O
+5	vetëm	vetëm	PART	_	_	4	advmod	_	start_char=19|end_char=24|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=25|end_char=27|NER=O
+7	impenjimet	impenjim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	start_char=28|end_char=38|NER=O
+8	personale	personal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=39|end_char=48|NER=O
+9	e	e	CCONJ	_	_	10	cc	_	start_char=49|end_char=50|NER=O
+10	profesionale	profesional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	conj	_	start_char=51|end_char=63|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=64|end_char=66|NER=O
+12	tij	tij	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	start_char=67|end_char=70|SpaceAfter=No|NER=O
+13	'	'	PUNCT	_	_	7	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	2	punct	_	start_char=73|end_char=74|SpacesAfter=\n|NER=O
+
+# text = Nga ana tjetër Sarah Berisha ndau me Ermalin emocionet e premierës duke thënë se si gjithmonë është kritikja e vetes dhe se do përpiqet të bëjë maksimumin .
+# sent_id = 9
+1	Nga	nga	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	ana	anë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=4|end_char=7|NER=O
+3	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	amod	_	start_char=8|end_char=14|NER=O
+4	Sarah	Sarah	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	appos	_	start_char=15|end_char=20|NER=B-PER
+5	Berisha	Berishë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	flat	_	start_char=21|end_char=28|NER=I-PER
+6	ndau	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=29|end_char=33|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=34|end_char=36|NER=O
+8	Ermalin	Ermal	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	start_char=37|end_char=44|NER=B-PER
+9	emocionet	emocion	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=45|end_char=54|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=55|end_char=56|NER=O
+11	premierës	premierë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	start_char=57|end_char=66|NER=O
+12	duke	duke	PART	_	_	13	fixed	_	start_char=67|end_char=71|NER=O
+13	thënë	them	VERB	_	VerbForm=Part	6	advmod	_	start_char=72|end_char=77|NER=O
+14	se	se	SCONJ	_	_	17	mark	_	start_char=78|end_char=80|NER=O
+15	si	si	SCONJ	_	_	16	mark	_	start_char=81|end_char=83|NER=O
+16	gjithmonë	gjithmonë	ADV	_	AdvType=Tim	17	advmod	_	start_char=84|end_char=93|NER=O
+17	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	ccomp	_	start_char=94|end_char=99|NER=O
+18	kritikja	kritikje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	cop	_	start_char=100|end_char=108|NER=O
+19	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=109|end_char=110|NER=O
+20	vetes	vete	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	18	nmod	_	start_char=111|end_char=116|NER=O
+21	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=117|end_char=120|NER=O
+22	se	se	SCONJ	_	_	24	mark	_	start_char=121|end_char=123|NER=O
+23	do	do	PART	_	_	24	fixed	_	start_char=124|end_char=126|NER=O
+24	përpiqet	përpiq	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	17	conj	_	start_char=127|end_char=135|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=136|end_char=138|NER=O
+26	bëjë	bëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	ccomp	_	start_char=139|end_char=143|NER=O
+27	maksimumin	maksimum	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obj	_	start_char=144|end_char=154|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	17	punct	_	start_char=155|end_char=156|NER=O
+
+# text = A është DJ PM pranë saj këto momente ?
+# sent_id = 10
+1	A	a	NOUN	_	_	2	nsubj	_	start_char=0|end_char=1|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=7|NER=O
+3	DJ	DJ	PROPN	_	Case=Nom|Foreign=Yes|Gender=Masc|Number=Sing	2	cop	_	start_char=8|end_char=10|NER=B-PER
+4	PM	pm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=11|end_char=13|NER=I-PER
+5	pranë	pranë	ADP	_	Case=Abl	8	case	_	start_char=14|end_char=19|NER=O
+6	saj	saj	PRON	_	Case=Abl|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	advmod	_	start_char=20|end_char=23|NER=O
+7	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	start_char=24|end_char=28|NER=O
+8	momente	moment	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	start_char=29|end_char=36|SpaceAfter=No|NER=O
+9	?	?	PUNCT	_	_	2	punct	_	start_char=37|end_char=38|SpacesAfter=\n|NER=O
+
+# text = ' Kur u shkëputëm u mërzita shumë , edhe ai .
+# sent_id = 11
+1	'	'	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|NER=O
+2	Kur	kur	ADV	_	AdvType=Tim	3	advmod	_	start_char=2|end_char=5|NER=O
+3	u	u	PART	_	_	3	fixed	_	start_char=6|end_char=7|NER=O
+4	shkëputëm	shkëputëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	advcl	_	start_char=8|end_char=17|NER=O
+5	u	u	PART	_	_	5	fixed	_	start_char=18|end_char=19|NER=O
+6	mërzita	mërzitëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=20|end_char=27|NER=O
+7	shumë	shumë	ADV	_	AdvType=Deg	5	advmod	_	start_char=28|end_char=33|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=34|end_char=35|NER=O
+9	edhe	edhe	CCONJ	_	_	9	cc	_	start_char=36|end_char=40|NER=O
+10	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=41|end_char=43|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	5	punct	_	start_char=44|end_char=45|NER=O
+
+# text = DJ PM e priti shumë mirë rifillimin , është i lumtur për mua ' - tha Sarah gjatë programit ' Më prit në fundjavë ' .
+# sent_id = 12
+1	DJ	DJ	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=2|NER=B-PER
+2	PM	pm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=3|end_char=5|NER=I-PER
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	cc	_	start_char=6|end_char=7|NER=O
+4	priti	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	start_char=8|end_char=13|NER=O
+5	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=14|end_char=19|NER=O
+6	mirë	mirë	ADV	_	AdvType=Man	4	advmod	_	start_char=20|end_char=24|NER=O
+7	rifillimin	rifillim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=25|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	4	punct	_	start_char=36|end_char=37|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=38|end_char=43|NER=O
+10	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=44|end_char=45|NER=O
+11	lumtur	lumtur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	cop	_	start_char=46|end_char=52|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=53|end_char=56|NER=O
+13	mua	mua	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=57|end_char=60|NER=O
+14	'	'	PUNCT	_	_	14	punct	_	start_char=61|end_char=62|NER=O
+15	-	-	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|NER=O
+16	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	csubj	_	start_char=65|end_char=68|NER=O
+17	Sarah	Sarah	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=69|end_char=74|NER=B-PER
+18	gjatë	gjatë	ADP	_	Case=Abl	17	case	_	start_char=75|end_char=80|NER=O
+19	programit	program	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	14	advmod	_	start_char=81|end_char=90|NER=O
+20	'	'	PUNCT	_	_	20	punct	_	start_char=91|end_char=92|SpaceAfter=No|NER=O
+21	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	start_char=93|end_char=95|NER=O
+22	prit	pres	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	start_char=96|end_char=100|NER=O
+23	në	në	ADP	_	Case=Acc	22	case	_	start_char=101|end_char=103|NER=O
+24	fundjavë	fundjavë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	start_char=104|end_char=112|SpaceAfter=No|NER=O
+25	'	'	PUNCT	_	_	20	punct	_	start_char=113|end_char=114|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	20	punct	_	start_char=115|end_char=116|SpacesAfter=\n\n|NER=O
+

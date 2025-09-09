@@ -1,0 +1,865 @@
+# text = Gusta " e " Etheve " , 20 vite pas konkurrimit në konkursin e talenteve , çfarë bëhet sot me Tergita Gustën ?
+# sent_id = 0
+1	Gusta	Gusta	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	start_char=0|end_char=5|NER=O
+2	"	"	PUNCT	_	_	17	punct	_	start_char=6|end_char=7|NER=O
+3	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=8|end_char=9|NER=O
+4	"	"	PUNCT	_	_	5	punct	_	start_char=10|end_char=11|SpaceAfter=No|NER=O
+5	Etheve	Etheve	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=12|end_char=18|SpaceAfter=No|NER=O
+6	"	"	PUNCT	_	_	2	punct	_	start_char=19|end_char=20|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=21|end_char=22|NER=O
+8	20	20	NUM	_	NumType=Card	8	nummod	_	start_char=23|end_char=25|NER=O
+9	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	list	_	start_char=26|end_char=30|NER=O
+10	pas	pas	ADP	_	Case=Abl	10	case	_	start_char=31|end_char=34|NER=O
+11	konkurrimit	konkurrim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=35|end_char=46|NER=O
+12	në	në	ADP	_	Case=Acc	12	case	_	start_char=47|end_char=49|NER=O
+13	konkursin	konkurs	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=50|end_char=59|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=60|end_char=61|NER=O
+15	talenteve	talent	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=62|end_char=71|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=72|end_char=73|NER=O
+17	çfarë	çfarë	PRON	_	PronType=Ind	17	nsubj	_	start_char=74|end_char=79|NER=O
+18	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=80|end_char=85|NER=O
+19	sot	sot	ADV	_	AdvType=Tim	17	advmod	_	start_char=86|end_char=89|NER=O
+20	me	me	ADP	_	Case=Acc	20	case	_	start_char=90|end_char=92|NER=O
+21	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	start_char=93|end_char=100|NER=B-PER
+22	Gustën	Gustë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	flat	_	start_char=101|end_char=107|SpaceAfter=No|NER=I-PER
+23	?	?	PUNCT	_	_	17	punct	_	start_char=108|end_char=109|SpacesAfter=\n|NER=O
+
+# text = 15 / 06 / 2023 Këngëtarja Tergita Gusta spikati në edicionin e parë të talenteve " Ethet e së premtes mbrëma " .
+# sent_id = 1
+1	15	15	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	8	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	06	06	NUM	_	NumType=Card	8	advmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	2	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	2	flat	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Këngëtarja	Këngëtarje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	flat	_	start_char=15|end_char=25|NER=O
+7	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	start_char=26|end_char=33|NER=B-PER
+8	Gusta	Gustë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=34|end_char=39|NER=I-PER
+9	spikati	spikat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=40|end_char=47|NER=O
+10	në	në	ADP	_	Case=Acc	10	case	_	start_char=48|end_char=50|NER=O
+11	edicionin	edicion	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	start_char=51|end_char=60|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=61|end_char=62|NER=O
+13	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=63|end_char=67|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=68|end_char=70|NER=O
+15	talenteve	talent	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	start_char=71|end_char=80|NER=O
+16	"	"	PUNCT	_	_	16	punct	_	start_char=81|end_char=82|SpaceAfter=No|NER=O
+17	Ethet	mthet	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	list	_	start_char=83|end_char=88|NER=O
+18	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	19	det:poss	_	start_char=89|end_char=90|NER=O
+19	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=91|end_char=93|NER=O
+20	premtes	premtes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=94|end_char=101|NER=O
+21	mbrëma	mbrëma	ADV	_	AdvType=Man	19	amod:nummod	_	start_char=102|end_char=108|SpaceAfter=No|NER=O
+22	"	"	PUNCT	_	_	19	punct	_	start_char=109|end_char=110|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	8	punct	_	start_char=111|end_char=112|NER=O
+
+# text = Që prej vitit 2014 është tërhequr nga muzika duke iu dedikuar profesionit si specialiste IT - je .
+# sent_id = 2
+1	Që	që	PART	_	_	3	mark:emph	_	start_char=0|end_char=2|NER=O
+2	prej	prej	ADP	_	Case=Abl	3	case	_	start_char=3|end_char=7|NER=O
+3	vitit	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=8|end_char=13|NER=O
+4	2014	2014	NUM	_	NumType=Card	3	amod:nummod	_	start_char=14|end_char=18|NER=O
+5	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=19|end_char=24|NER=O
+6	tërhequr	tërheq	VERB	_	VerbForm=Part	0	root	_	start_char=25|end_char=33|NER=O
+7	nga	nga	ADP	_	Case=Nom	8	case	_	start_char=34|end_char=37|NER=O
+8	muzika	muzikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=38|end_char=44|NER=O
+9	duke	duke	PART	_	_	12	fixed	_	start_char=45|end_char=49|NER=O
+10	iu	iu	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	start_char=50|end_char=52|NER=O
+11	dedikuar	dedikoj	VERB	_	VerbForm=Part	6	advmod	_	start_char=53|end_char=61|NER=O
+12	profesionit	profesion	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=62|end_char=73|NER=O
+13	si	si	SCONJ	_	_	15	mark	_	start_char=74|end_char=76|NER=O
+14	specialiste	specialist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=77|end_char=88|NER=O
+15	IT	IT-je	PROPN	_	Case=Nom|Foreign=Yes	13	appos	_	start_char=89|end_char=91|SpaceAfter=No|NER=O
+16	-	-	PUNCT	_	_	13	punct	_	start_char=92|end_char=93|SpaceAfter=No|NER=O
+17	je	IT-je	PROPN	_	Case=Nom|Foreign=Yes	13	appos	_	start_char=94|end_char=96|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	6	punct	_	start_char=97|end_char=98|NER=O
+
+# text = E rikthyer pas shumë vitesh , në në interviste me gazetarin Andri Xhahu në emisionin " Në radio " , Gusta kujton me nostalgji vitin 2003 kur mori pjesë tek " Ethet " .
+# sent_id = 3
+1	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	rikthyer	rikthyer	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	dislocated	_	start_char=2|end_char=10|NER=O
+3	pas	pas	ADP	_	Case=Abl	5	case	_	start_char=11|end_char=14|NER=O
+4	shumë	shumë	PRON	_	PronType=Ind	5	nummod	_	start_char=15|end_char=20|NER=O
+5	vitesh	vit	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=21|end_char=27|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	9	punct	_	start_char=28|end_char=29|NER=O
+7	në	në	ADP	_	Case=Acc	9	case	_	start_char=30|end_char=32|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=33|end_char=35|NER=O
+9	interviste	intervist	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	start_char=36|end_char=46|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=47|end_char=49|NER=O
+11	gazetarin	gazetar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=50|end_char=59|NER=O
+12	Andri	Andri	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	start_char=60|end_char=65|NER=B-PER
+13	Xhahu	Xhahu	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	flat	_	start_char=66|end_char=71|NER=I-PER
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=72|end_char=74|NER=O
+15	emisionin	emision	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=75|end_char=84|NER=O
+16	"	"	PUNCT	_	_	15	punct	_	start_char=85|end_char=86|SpaceAfter=No|NER=O
+17	Në	në	ADP	_	Case=Acc	18	case	_	start_char=87|end_char=89|NER=O
+18	radio	radio	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	advmod	_	start_char=90|end_char=95|SpaceAfter=No|NER=O
+19	"	"	PUNCT	_	_	21	punct	_	start_char=96|end_char=97|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	20	punct	_	start_char=98|end_char=99|NER=O
+21	Gusta	Gustë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=100|end_char=105|NER=B-PER
+22	kujton	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=106|end_char=112|NER=O
+23	me	me	ADP	_	Case=Acc	23	case	_	start_char=113|end_char=115|NER=O
+24	nostalgji	nostalgji	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	obl	_	start_char=116|end_char=125|NER=O
+25	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	start_char=126|end_char=131|NER=O
+26	2003	2003	NUM	_	NumType=Card	24	flat	_	start_char=132|end_char=136|NER=O
+27	kur	kur	SCONJ	_	_	27	mark	_	start_char=137|end_char=140|NER=O
+28	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	advcl	_	start_char=141|end_char=145|NER=O
+29	pjesë	pjesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	start_char=146|end_char=151|NER=O
+30	tek	tek	ADP	_	Case=Nom	31	case	_	start_char=152|end_char=155|NER=O
+31	"	"	PUNCT	_	_	31	punct	_	start_char=156|end_char=157|SpaceAfter=No|NER=O
+32	Ethet	Ethet	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	obl	_	start_char=158|end_char=163|SpaceAfter=No|NER=O
+33	"	"	PUNCT	_	_	27	punct	_	start_char=164|end_char=165|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	21	punct	_	start_char=166|end_char=167|NER=O
+
+# text = " Kanë kaluar shumë vite .
+# sent_id = 4
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=6|NER=O
+3	kaluar	kaloj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=13|NER=O
+4	shumë	shumë	PRON	_	PronType=Ind	5	nummod	_	start_char=14|end_char=19|NER=O
+5	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	start_char=20|end_char=24|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	3	punct	_	start_char=25|end_char=26|NER=O
+
+# text = E kujtoj atë periudhë si diçka shumë të bukur dhe të papërsëritshme .
+# sent_id = 5
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=0|end_char=1|NER=O
+2	kujtoj	kujtoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=2|end_char=8|NER=O
+3	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=9|end_char=12|NER=O
+4	periudhë	periudhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=13|end_char=21|NER=O
+5	si	si	SCONJ	_	_	6	mark	_	start_char=22|end_char=24|NER=O
+6	diçka	diçka	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	start_char=25|end_char=30|NER=O
+7	shumë	shumë	ADV	_	AdvType=Deg	9	advmod	_	start_char=31|end_char=36|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=37|end_char=39|NER=O
+9	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=40|end_char=45|NER=O
+10	dhe	dhe	CCONJ	_	_	12	cc	_	start_char=46|end_char=49|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=52|NER=O
+12	papërsëritshme	papërsëritshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	start_char=53|end_char=67|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	2	punct	_	start_char=68|end_char=69|NER=O
+
+# text = Më duket si ato pallatet e vjetra por me baza të forta .
+# sent_id = 6
+1	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=0|end_char=2|NER=O
+2	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=3|end_char=8|NER=O
+3	si	si	SCONJ	_	_	5	mark	_	start_char=9|end_char=11|NER=O
+4	ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=12|end_char=15|NER=O
+5	pallatet	pallat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	start_char=16|end_char=24|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=25|end_char=26|NER=O
+7	vjetra	vjetër	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=27|end_char=33|NER=O
+8	por	por	CCONJ	_	_	10	cc	_	start_char=34|end_char=37|NER=O
+9	me	me	ADP	_	Case=Acc	10	case	_	start_char=38|end_char=40|NER=O
+10	baza	bazë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	advmod	_	start_char=41|end_char=45|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=46|end_char=48|NER=O
+12	forta	fortë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=49|end_char=54|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	2	punct	_	start_char=55|end_char=56|SpaceAfter=No|NER=O
+
+# text = " Edhe pse kanë kaluar 20 vite , duket se gjërat nuk kanë ndryshuar .
+# sent_id = 7
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Edhe	edhe	CCONJ	_	_	2	fixed	_	start_char=2|end_char=6|NER=O
+3	pse	pse	SCONJ	_	_	4	mark	_	start_char=7|end_char=10|NER=O
+4	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=11|end_char=15|NER=O
+5	kaluar	kaloj	VERB	_	VerbForm=Part	8	advcl	_	start_char=16|end_char=22|NER=O
+6	20	20	NUM	_	NumType=Card	6	nummod	_	start_char=23|end_char=25|NER=O
+7	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	advmod	_	start_char=26|end_char=30|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	2	punct	_	start_char=31|end_char=32|NER=O
+9	duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=33|end_char=38|NER=O
+10	se	se	SCONJ	_	_	13	mark	_	start_char=39|end_char=41|NER=O
+11	gjërat	gjërat	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	start_char=42|end_char=48|NER=O
+12	nuk	nuk	PART	_	_	13	mark	_	start_char=49|end_char=52|NER=O
+13	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=53|end_char=57|NER=O
+14	ndryshuar	ndryshoj	VERB	_	VerbForm=Part	8	advcl	_	start_char=58|end_char=67|SpaceAfter=No|NER=O
+15	.	.	PUNCT	_	_	8	punct	_	start_char=68|end_char=69|NER=O
+
+# text = " Gjëja e parë që ka mbetur nga atëherë është pasioni për muzikën që nuk do të vdesë kurrë .
+# sent_id = 8
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gjëja	Gjëjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=2|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8|end_char=9|NER=O
+4	parë	parë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=10|end_char=14|NER=O
+5	që	që	PRON	_	PronType=Rel	7	nsubj	_	start_char=15|end_char=17|NER=O
+6	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	start_char=18|end_char=20|NER=O
+7	mbetur	mbes	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=21|end_char=27|NER=O
+8	nga	nga	ADP	_	Case=Nom	9	case	_	start_char=28|end_char=31|NER=O
+9	atëherë	atëherë	ADV	_	AdvType=Tim	10	advmod	_	start_char=32|end_char=39|NER=O
+10	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=45|NER=O
+11	pasioni	pasion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	cop	_	start_char=46|end_char=53|NER=O
+12	për	për	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=57|NER=O
+13	muzikën	muzikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=58|end_char=65|NER=O
+14	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=66|end_char=68|NER=O
+15	nuk	nuk	PART	_	_	18	mark	_	start_char=69|end_char=72|NER=O
+16	do	do	PART	_	_	18	fixed	_	start_char=73|end_char=75|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=76|end_char=78|NER=O
+18	vdesë	vdem	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	start_char=79|end_char=84|NER=O
+19	kurrë	kurrë	ADV	_	AdvType=Tim	18	advmod	_	start_char=85|end_char=90|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	18	punct	_	start_char=91|end_char=92|NER=O
+
+# text = Gjithashtu miqtë që kam krijuar në atë kohë , me të cilët flas herë pas here .
+# sent_id = 9
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=0|end_char=10|NER=O
+2	miqtë	miqtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	start_char=11|end_char=16|NER=O
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=17|end_char=19|NER=O
+4	kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	5	aux	_	start_char=20|end_char=23|NER=O
+5	krijuar	krijoj	VERB	_	VerbForm=Part	2	acl:relcl	_	start_char=24|end_char=31|NER=O
+6	në	në	ADP	_	Case=Acc	8	case	_	start_char=32|end_char=34|NER=O
+7	atë	ai	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=35|end_char=38|NER=O
+8	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=39|end_char=43|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	12	punct	_	start_char=44|end_char=45|NER=O
+10	me	me	ADP	_	Case=Acc	12	case	_	start_char=46|end_char=48|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	12	det	_	start_char=49|end_char=51|NER=O
+12	cilët	cili	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	13	obl	_	start_char=52|end_char=57|NER=O
+13	flas	flaj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	advcl	_	start_char=58|end_char=62|NER=O
+14	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	advmod	_	start_char=63|end_char=67|NER=O
+15	pas	pas	ADP	_	Case=Abl	16	case	_	start_char=68|end_char=71|NER=O
+16	here	here	ADV	_	AdvType=Tim	13	advmod	_	start_char=72|end_char=76|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	13	punct	_	start_char=77|end_char=78|NER=O
+
+# text = Më ndodh edhe tani kur shkoj në ambiente të ndryshme të më pyesin : ' A je ti Tergita ?
+# sent_id = 10
+1	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=0|end_char=2|NER=O
+2	ndodh	ndodh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	edhe	edhe	CCONJ	_	_	4	mark	_	start_char=9|end_char=13|NER=O
+4	tani	tani	ADV	_	AdvType=Tim	2	advmod	_	start_char=14|end_char=18|NER=O
+5	kur	kur	SCONJ	_	_	6	mark	_	start_char=19|end_char=22|NER=O
+6	shkoj	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	2	advcl	_	start_char=23|end_char=28|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=29|end_char=31|NER=O
+8	ambiente	ambient	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	start_char=32|end_char=40|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	10	det	_	start_char=41|end_char=43|NER=O
+10	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=44|end_char=52|NER=O
+11	të	të	PART	_	_	13	fixed	_	start_char=53|end_char=55|NER=O
+12	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	iobj	_	start_char=56|end_char=58|NER=O
+13	pyesin	pyes	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	advmod	_	start_char=59|end_char=65|SpaceAfter=No|NER=O
+14	:	:	PUNCT	_	_	15	punct	_	start_char=66|end_char=67|NER=O
+15	'	'	PUNCT	_	_	13	punct	_	start_char=68|end_char=69|NER=O
+16	A	A	PROPN	_	Foreign=Yes	13	nsubj	_	start_char=70|end_char=71|NER=O
+17	je	je	PROPN	_	_	18	mark	_	start_char=72|end_char=74|NER=O
+18	ti	ti	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	nummod	_	start_char=75|end_char=77|NER=O
+19	Tergita	Tergita	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	conj	_	start_char=78|end_char=85|SpaceAfter=No|NER=B-PER
+20	?	?	PUNCT	_	_	15	punct	_	start_char=86|end_char=87|SpaceAfter=No|NER=O
+
+# text = ' .
+# sent_id = 11
+1	'	'	PUNCT	_	_	15	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	13	punct	_	start_char=2|end_char=3|NER=O
+
+# text = U janë fiksuar flokët dhe fakti që juria më thërriste ' Me ' .
+# sent_id = 12
+1	U	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	fixed	_	start_char=0|end_char=1|NER=O
+2	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=6|NER=O
+3	fiksuar	fiksoj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=14|NER=O
+4	flokët	flok	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=15|end_char=21|NER=O
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=22|end_char=25|NER=O
+6	fakti	fakt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	start_char=26|end_char=31|NER=O
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=32|end_char=34|NER=O
+8	juria	juri	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=35|end_char=40|NER=O
+9	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=41|end_char=43|NER=O
+10	thërriste	thërrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	acl:relcl	_	start_char=44|end_char=53|NER=O
+11	'	'	PUNCT	_	_	13	punct	_	start_char=54|end_char=55|SpaceAfter=No|NER=O
+12	Me	me	ADP	_	Case=Acc	13	case	_	start_char=56|end_char=58|NER=O
+13	'	'	PUNCT	_	_	10	punct	_	start_char=59|end_char=60|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	3	punct	_	start_char=61|end_char=62|SpaceAfter=No|NER=O
+
+# text = " Në një kohë kur nuk kishte Instagram dhe TikTok , sa dhe si ndihej fama që mori nga ky spektakël .
+# sent_id = 13
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n|NER=O
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	një	një	DET	_	Definite=Ind	3	det	_	start_char=5|end_char=8|NER=O
+4	kohë	kohë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=13|NER=O
+5	kur	kur	SCONJ	_	_	6	mark	_	start_char=14|end_char=17|NER=O
+6	nuk	nuk	PART	_	_	6	mark	_	start_char=18|end_char=21|NER=O
+7	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	3	acl:relcl	_	start_char=22|end_char=28|NER=O
+8	Instagram	Instagram	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=29|end_char=38|NER=B-ORG
+9	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=39|end_char=42|NER=O
+10	TikTok	TikTok	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	start_char=43|end_char=49|SpaceAfter=No|NER=B-ORG
+11	,	,	PUNCT	_	_	11	punct	_	start_char=50|end_char=51|NER=O
+12	sa	sa	SCONJ	_	_	14	mark	_	start_char=52|end_char=54|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=55|end_char=58|NER=O
+14	si	si	SCONJ	_	_	14	mark	_	start_char=59|end_char=61|NER=O
+15	ndihej	ndihem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	6	conj	_	start_char=62|end_char=68|NER=O
+16	fama	famë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=69|end_char=73|NER=O
+17	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=74|end_char=76|NER=O
+18	mori	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	start_char=77|end_char=81|NER=O
+19	nga	nga	ADP	_	Case=Nom	20	case	_	start_char=82|end_char=85|NER=O
+20	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=86|end_char=88|NER=O
+21	spektakël	spektakël	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	start_char=89|end_char=98|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	17	punct	_	start_char=99|end_char=100|NER=O
+
+# text = " Ishim fare të vegjël .
+# sent_id = 14
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ishim	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=2|end_char=7|NER=O
+3	fare	fare	ADV	_	AdvType=Deg	5	advmod	_	start_char=8|end_char=12|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=13|end_char=15|NER=O
+5	vegjël	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	cop	_	start_char=16|end_char=22|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|NER=O
+
+# text = Merrnim shumë dashuri nga njerëzit .
+# sent_id = 15
+1	Merrnim	merrnim	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=7|NER=O
+2	shumë	shumë	PRON	_	PronType=Ind	3	nummod	_	start_char=8|end_char=13|NER=O
+3	dashuri	dashuri	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	start_char=14|end_char=21|NER=O
+4	nga	nga	ADP	_	Case=Nom	5	case	_	start_char=22|end_char=25|NER=O
+5	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=26|end_char=34|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	1	punct	_	start_char=35|end_char=36|NER=O
+
+# text = Në Kosovë kemi pasur një pritje të jashtëzakonshme .
+# sent_id = 16
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Kosovë	Kosovë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=9|NER=B-VEND_1
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=10|end_char=14|NER=O
+4	pasur	kam	VERB	_	VerbForm=Part	0	root	_	start_char=15|end_char=20|NER=O
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=21|end_char=24|NER=O
+6	pritje	pritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=25|end_char=31|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=32|end_char=34|NER=O
+8	jashtëzakonshme	jashtëzakonshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=35|end_char=50|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	4	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Sa herë shkonim nëpër koncerte kishim badigardë dhe njerëz që hidheshin për të na përshëndetur .
+# sent_id = 17
+1	Sa	sa	ADV	_	AdvType=Deg	2	mark	_	start_char=0|end_char=2|NER=O
+2	herë	herë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=3|end_char=7|NER=O
+3	shkonim	shkon	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=8|end_char=15|NER=O
+4	nëpër	nëpër	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=21|NER=O
+5	koncerte	koncert	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	start_char=22|end_char=30|NER=O
+6	kishim	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	3	advmod	_	start_char=31|end_char=37|NER=O
+7	badigardë	badigardë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	start_char=38|end_char=47|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=48|end_char=51|NER=O
+9	njerëz	njeri	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	start_char=52|end_char=58|NER=O
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=59|end_char=61|NER=O
+11	hidheshin	hidhesh	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	9	acl:relcl	_	start_char=62|end_char=71|NER=O
+12	për	për	PART	_	_	15	fixed	_	start_char=72|end_char=75|NER=O
+13	të	të	PART	_	_	15	fixed	_	start_char=76|end_char=78|NER=O
+14	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	15	obj	_	start_char=79|end_char=81|NER=O
+15	përshëndetur	përshëndem	VERB	_	VerbForm=Part	11	advmod	_	start_char=82|end_char=94|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	6	punct	_	start_char=95|end_char=96|NER=O
+
+# text = Ka qenë emocion i fortë .
+# sent_id = 18
+1	Ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	start_char=0|end_char=2|NER=O
+2	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=3|end_char=7|NER=O
+3	emocion	emocio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	cop	_	start_char=8|end_char=15|NER=O
+4	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=16|end_char=17|NER=O
+5	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=18|end_char=23|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	2	punct	_	start_char=24|end_char=25|NER=O
+
+# text = Aty e kuptonim se çfarë impakti kishim te njerëzit .
+# sent_id = 19
+1	Aty	aty	ADV	_	AdvType=Loc	3	advmod	_	start_char=0|end_char=3|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4|end_char=5|NER=O
+3	kuptonim	kuptoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=6|end_char=14|NER=O
+4	se	se	SCONJ	_	_	7	mark	_	start_char=15|end_char=17|NER=O
+5	çfarë	çfarë	PRON	_	PronType=Ind	7	nsubj	_	start_char=18|end_char=23|NER=O
+6	impakti	impakt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	start_char=24|end_char=31|NER=O
+7	kishim	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	3	advcl	_	start_char=32|end_char=38|NER=O
+8	te	te	ADP	_	Case=Nom	9	case	_	start_char=39|end_char=41|NER=O
+9	njerëzit	njeri	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obl	_	start_char=42|end_char=50|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	3	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Mbaj mend që kemi qenë në Prishtinë në në koncert .
+# sent_id = 20
+1	Mbaj	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=4|NER=O
+2	mend	mend	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	start_char=5|end_char=9|NER=O
+3	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=10|end_char=12|NER=O
+4	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	start_char=13|end_char=17|NER=O
+5	qenë	jam	VERB	_	VerbForm=Part	1	conj	_	start_char=18|end_char=22|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=23|end_char=25|NER=O
+7	Prishtinë	Prishtinë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	advmod	_	start_char=26|end_char=35|NER=B-VEND_0
+8	në	në	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=38|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=39|end_char=41|NER=O
+10	koncert	koncer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=42|end_char=49|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	1	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Kaluam në mesin e njerëzve .
+# sent_id = 21
+1	Kaluam	kaloj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=6|NER=O
+2	në	në	ADP	_	Case=Acc	3	case	_	start_char=7|end_char=9|NER=O
+3	mesin	mes	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=10|end_char=15|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=16|end_char=17|NER=O
+5	njerëzve	njeri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	start_char=18|end_char=26|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	1	punct	_	start_char=27|end_char=28|NER=O
+
+# text = Dikush zgjati dorën , na preku dhe tha : ' E preka , o njerëz !
+# sent_id = 22
+1	Dikush	Dikush	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6|NER=O
+2	zgjati	zgjat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=7|end_char=13|NER=O
+3	dorën	dorë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	start_char=14|end_char=19|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=20|end_char=21|NER=O
+5	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	start_char=22|end_char=24|NER=O
+6	preku	prek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	start_char=25|end_char=30|NER=O
+7	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=31|end_char=34|NER=O
+8	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	start_char=35|end_char=38|SpaceAfter=No|NER=O
+9	:	:	PUNCT	_	_	11	punct	_	start_char=39|end_char=40|NER=O
+10	'	'	PUNCT	_	_	11	punct	_	start_char=41|end_char=42|NER=O
+11	E	E	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	start_char=43|end_char=44|NER=O
+12	preka	prek	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	8	ccomp	_	start_char=45|end_char=50|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=51|end_char=52|NER=O
+14	o	o	NUM	_	NumType=Card	14	nummod	_	start_char=53|end_char=54|NER=O
+15	njerëz	njeri	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	start_char=55|end_char=61|SpaceAfter=No|NER=O
+16	!	!	PUNCT	_	_	17	punct	_	start_char=62|end_char=63|NER=O
+
+# text = E preka !
+# sent_id = 23
+1	E	e	CCONJ	_	_	17	cc	_	start_char=0|end_char=1|NER=O
+2	preka	preka	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	start_char=2|end_char=7|SpaceAfter=No|NER=O
+3	!	!	PUNCT	_	_	14	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=O
+
+# text = ' .
+# sent_id = 24
+1	'	'	PUNCT	_	_	14	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	.	.	PUNCT	_	_	11	punct	_	start_char=2|end_char=3|NER=O
+
+# text = Shumë emocion i bukur .
+# sent_id = 25
+1	Shumë	shumë	PRON	_	PronType=Ind	2	nummod	_	start_char=0|end_char=5|NER=O
+2	emocion	emocio	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=13|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=14|end_char=15|NER=O
+4	bukur	bukur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=16|end_char=21|SpaceAfter=No|NER=O
+5	.	.	PUNCT	_	_	2	punct	_	start_char=22|end_char=23|NER=O
+
+# text = Më ka mbetur në mendje .
+# sent_id = 26
+1	Më	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=0|end_char=2|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=3|end_char=5|NER=O
+3	mbetur	mbes	VERB	_	VerbForm=Part	0	root	_	start_char=6|end_char=12|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=13|end_char=15|NER=O
+5	mendje	mendje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	start_char=16|end_char=22|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	3	punct	_	start_char=23|end_char=24|SpaceAfter=No|NER=O
+
+# text = " Pas pjesëmarrjes në " Ethet e së premtes mbrëma " , Tergita pati një tjetër sfidë artistike .
+# sent_id = 27
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n|NER=O
+2	Pas	pas	ADP	_	Case=Abl	2	case	_	start_char=2|end_char=5|NER=O
+3	pjesëmarrjes	pjesëmarrje	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	12	advmod	_	start_char=6|end_char=18|NER=O
+4	në	në	ADP	_	Case=Acc	5	case	_	start_char=19|end_char=21|NER=O
+5	"	"	PUNCT	_	_	5	punct	_	start_char=22|end_char=23|SpaceAfter=No|NER=O
+6	Ethet	mthet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	start_char=24|end_char=29|NER=O
+7	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=30|end_char=31|NER=O
+8	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=32|end_char=34|NER=O
+9	premtes	premtes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=35|end_char=42|NER=O
+10	mbrëma	mbrëma	ADV	_	AdvType=Man	8	amod	_	start_char=43|end_char=49|SpaceAfter=No|NER=O
+11	"	"	PUNCT	_	_	8	punct	_	start_char=50|end_char=51|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	11	punct	_	start_char=52|end_char=53|NER=O
+13	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	start_char=54|end_char=61|NER=B-PER
+14	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=62|end_char=66|NER=O
+15	një	një	DET	_	Definite=Ind	15	det	_	start_char=67|end_char=70|NER=O
+16	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	start_char=71|end_char=77|NER=O
+17	sfidë	sfidë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	start_char=78|end_char=83|NER=O
+18	artistike	artistik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=84|end_char=93|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	12	punct	_	start_char=94|end_char=95|NER=O
+
+# text = Në vitin 2004 do të ngjitej në skenën e Eurovision - it me këngëtaren Anjeza Shahini .
+# sent_id = 28
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=3|end_char=8|NER=O
+3	2004	2004	NUM	_	NumType=Card	2	amod:nummod	_	start_char=9|end_char=13|NER=O
+4	do	do	PART	_	_	6	fixed	_	start_char=14|end_char=16|NER=O
+5	të	të	PART	_	_	6	fixed	_	start_char=17|end_char=19|NER=O
+6	ngjitej	ngjit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	0	root	_	start_char=20|end_char=27|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=28|end_char=30|NER=O
+8	skenën	skenë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	start_char=31|end_char=37|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det:poss	_	start_char=38|end_char=39|NER=O
+10	Eurovision	Eurovision	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=40|end_char=50|NER=B-EVENT
+11	-	-	PUNCT	_	_	8	punct	_	start_char=51|end_char=52|NER=B-EVENT
+12	it	Eurovision	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=53|end_char=55|NER=B-EVENT
+13	me	me	ADP	_	Case=Acc	12	case	_	start_char=56|end_char=58|NER=O
+14	këngëtaren	këngëtar	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=59|end_char=69|NER=O
+15	Anjeza	Anjezë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=70|end_char=76|NER=B-PER
+16	Shahini	Shahin	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	flat	_	start_char=77|end_char=84|SpaceAfter=No|NER=I-PER
+17	.	.	PUNCT	_	_	6	punct	_	start_char=85|end_char=86|NER=O
+
+# text = " Kur kemi zbritur nga avioni , një turmë njerëzish na prisnin në Rinas me postera dhe kamera .
+# sent_id = 29
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kur	kur	SCONJ	_	_	4	mark	_	start_char=2|end_char=5|NER=O
+3	kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	start_char=6|end_char=10|NER=O
+4	zbritur	zbres	VERB	_	VerbForm=Part	12	advcl	_	start_char=11|end_char=18|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=19|end_char=22|NER=O
+6	avioni	avion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	start_char=23|end_char=29|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=32|end_char=35|NER=O
+9	turmë	turmë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	start_char=36|end_char=41|NER=O
+10	njerëzish	njerëzish	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	start_char=42|end_char=51|NER=O
+11	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	start_char=52|end_char=54|NER=O
+12	prisnin	pres	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=55|end_char=62|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=63|end_char=65|NER=O
+14	Rinas	Rinas	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	start_char=66|end_char=71|NER=O
+15	me	me	ADP	_	Case=Acc	16	case	_	start_char=72|end_char=74|NER=O
+16	postera	posterë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	advmod	_	start_char=75|end_char=82|NER=O
+17	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=83|end_char=86|NER=O
+18	kamera	kamerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	conj	_	start_char=87|end_char=93|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	12	punct	_	start_char=94|end_char=95|NER=O
+
+# text = Kur ishim në Turqi nuk e kuptonim impaktin që kishte këtu .
+# sent_id = 30
+1	Kur	kur	SCONJ	_	_	2	mark	_	start_char=0|end_char=3|NER=O
+2	ishim	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	7	advcl	_	start_char=4|end_char=9|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=10|end_char=12|NER=O
+4	Turqi	Turqi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	advmod	_	start_char=13|end_char=18|NER=B-VEND_1
+5	nuk	nuk	PART	_	_	7	mark	_	start_char=19|end_char=22|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=23|end_char=24|NER=O
+7	kuptonim	kuptoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	0	root	_	start_char=25|end_char=33|NER=O
+8	impaktin	impakt	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=34|end_char=42|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=43|end_char=45|NER=O
+10	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	8	acl:relcl	_	start_char=46|end_char=52|NER=O
+11	këtu	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	start_char=53|end_char=57|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	7	punct	_	start_char=58|end_char=59|NER=O
+
+# text = Kur u kthyem mësuam që e kanë parë festivalin nëpër lokale me ekrane të mëdha .
+# sent_id = 31
+1	Kur	kur	SCONJ	_	_	3	mark	_	start_char=0|end_char=3|NER=O
+2	u	u	PART	_	_	3	fixed	_	start_char=4|end_char=5|NER=O
+3	kthyem	kthej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	4	advmod	_	start_char=6|end_char=12|NER=O
+4	mësuam	mësoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Pass	0	root	_	start_char=13|end_char=19|NER=O
+5	që	që	SCONJ	_	_	8	mark	_	start_char=20|end_char=22|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	cc	_	start_char=23|end_char=24|NER=O
+7	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=25|end_char=29|NER=O
+8	parë	shoh	VERB	_	VerbForm=Part	4	advcl	_	start_char=30|end_char=34|NER=O
+9	festivalin	festival	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	start_char=35|end_char=45|NER=O
+10	nëpër	nëpër	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=51|NER=O
+11	lokale	lokal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	obl	_	start_char=52|end_char=58|NER=O
+12	me	me	ADP	_	Case=Acc	13	case	_	start_char=59|end_char=61|NER=O
+13	ekrane	ekran	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	advmod	_	start_char=62|end_char=68|NER=O
+14	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=69|end_char=71|NER=O
+15	mëdha	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=72|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	4	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=O
+
+# text = " Kënga e fundit që Tergita Gusta realizoi është ajo me titull " Një fjalë " në vitin 2014 .
+# sent_id = 32
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Kënga	këngë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	start_char=2|end_char=7|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=8|end_char=9|NER=O
+4	fundit	fundit	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=10|end_char=16|NER=O
+5	që	që	PRON	_	PronType=Rel	5	mark	_	start_char=17|end_char=19|NER=O
+6	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=20|end_char=27|NER=B-PER
+7	Gusta	Gustë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=28|end_char=33|NER=I-PER
+8	realizoi	realizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	advcl	_	start_char=34|end_char=42|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=48|NER=O
+10	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	cop	_	start_char=49|end_char=52|NER=O
+11	me	me	ADP	_	Case=Acc	11	case	_	start_char=53|end_char=55|NER=O
+12	titull	titull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	start_char=56|end_char=62|NER=O
+13	"	"	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+14	Një	një	DET	_	Definite=Ind	14	det	_	start_char=65|end_char=68|NER=O
+15	fjalë	fjalë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=69|end_char=74|NER=O
+16	"	"	PUNCT	_	_	11	punct	_	start_char=75|end_char=76|NER=O
+17	në	në	ADP	_	Case=Acc	16	case	_	start_char=77|end_char=79|NER=O
+18	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=80|end_char=85|NER=O
+19	2014	2014	NUM	_	NumType=Card	16	amod:nummod	_	start_char=86|end_char=90|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	8	punct	_	start_char=91|end_char=92|NER=O
+
+# text = Edhe pse më pas ka kënduar herë pas here live në mjedise të ndryshme muzikore .
+# sent_id = 33
+1	Edhe	edhe	CCONJ	_	_	2	fixed	_	start_char=0|end_char=4|NER=O
+2	pse	pse	SCONJ	_	_	6	mark	_	start_char=5|end_char=8|NER=O
+3	më	më	PART	_	_	4	mark	_	start_char=9|end_char=11|NER=O
+4	pas	pas	ADV	_	AdvType=Tim	6	advmod	_	start_char=12|end_char=15|NER=O
+5	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=16|end_char=18|NER=O
+6	kënduar	këndoj	VERB	_	VerbForm=Part	0	root	_	start_char=19|end_char=26|NER=O
+7	herë	herë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=27|end_char=31|NER=O
+8	pas	pas	ADP	_	Case=Abl	9	case	_	start_char=32|end_char=35|NER=O
+9	here	here	ADV	_	AdvType=Deg	6	advmod	_	start_char=36|end_char=40|NER=O
+10	live	live	PUNCT	_	_	6	advmod	_	start_char=41|end_char=45|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=46|end_char=48|NER=O
+12	mjedise	mjedis	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	advmod	_	start_char=49|end_char=56|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=57|end_char=59|NER=O
+14	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=60|end_char=68|NER=O
+15	muzikore	muzikor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=69|end_char=77|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	6	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Po si e sheh ajo muzikën që bëhet sot në Shqipëri dhe sa e gjen veten ?
+# sent_id = 34
+1	Po	po	PART	_	_	2	fixed	_	start_char=0|end_char=2|NER=O
+2	si	si	SCONJ	_	_	4	mark	_	start_char=3|end_char=5|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=6|end_char=7|NER=O
+4	sheh	shoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+5	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	det	_	start_char=13|end_char=16|NER=O
+6	muzikën	muzikë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=17|end_char=24|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=25|end_char=27|NER=O
+8	bëhet	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	acl:relcl	_	start_char=28|end_char=33|NER=O
+9	sot	sot	ADV	_	AdvType=Tim	8	advmod	_	start_char=34|end_char=37|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=40|NER=O
+11	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=41|end_char=49|NER=B-VEND_1
+12	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=50|end_char=53|NER=O
+13	sa	sa	SCONJ	_	_	15	mark	_	start_char=54|end_char=56|NER=O
+14	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=57|end_char=58|NER=O
+15	gjen	gjej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=59|end_char=63|NER=O
+16	veten	vete	PRON	_	PronType=Prs|Reflex=Yes	15	obj	_	start_char=64|end_char=69|SpaceAfter=No|NER=O
+17	?	?	PUNCT	_	_	15	punct	_	start_char=70|end_char=71|NER=O
+
+# text = " Sado që të kem eksperimentuar në muzikë prap mbetem te muzika Pop .
+# sent_id = 35
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Sado	sado	SCONJ	_	_	6	advmod	_	start_char=2|end_char=6|NER=O
+3	që	që	SCONJ	_	_	6	mark	_	start_char=7|end_char=9|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=10|end_char=12|NER=O
+5	kem	kam	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	start_char=13|end_char=16|NER=O
+6	eksperimentuar	eksperimentor	VERB	_	VerbForm=Part	0	root	_	start_char=17|end_char=31|NER=O
+7	në	në	ADP	_	Case=Acc	8	case	_	start_char=32|end_char=34|NER=O
+8	muzikë	muzikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	start_char=35|end_char=41|NER=O
+9	prap	prap	SCONJ	_	_	10	mark	_	start_char=42|end_char=46|NER=O
+10	mbetem	mbet	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	6	advcl	_	start_char=47|end_char=53|NER=O
+11	te	te	ADP	_	Case=Nom	12	case	_	start_char=54|end_char=56|NER=O
+12	muzika	muzikë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	start_char=57|end_char=63|NER=O
+13	Pop	Pop	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	start_char=64|end_char=67|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	10	punct	_	start_char=68|end_char=69|NER=O
+
+# text = Por sot Pop - i është ngatërruar me rryma të tjera , të cilat nuk e di nëse e gjej veten .
+# sent_id = 36
+1	Por	por	CCONJ	_	_	5	cc	_	start_char=0|end_char=3|NER=O
+2	sot	sot	ADV	_	AdvType=Tim	3	advmod	_	start_char=4|end_char=7|NER=O
+3	Pop	Pop	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=8|end_char=11|NER=O
+4	-	-	PUNCT	_	_	5	punct	_	start_char=12|end_char=13|NER=O
+5	i	Pop	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=14|end_char=15|NER=O
+6	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=16|end_char=21|NER=O
+7	ngatërruar	ngatërroj	VERB	_	VerbForm=Part	0	root	_	start_char=22|end_char=32|NER=O
+8	me	me	ADP	_	Case=Acc	7	case	_	start_char=33|end_char=35|NER=O
+9	rryma	rrymë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	start_char=36|end_char=41|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=42|end_char=44|NER=O
+11	tjera	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	amod	_	start_char=45|end_char=50|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	12	punct	_	start_char=51|end_char=52|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det	_	start_char=53|end_char=55|NER=O
+14	cilat	cila	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	15	nsubj	_	start_char=56|end_char=61|NER=O
+15	nuk	nuk	PART	_	_	15	mark	_	start_char=62|end_char=65|NER=O
+16	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=66|end_char=67|NER=O
+17	di	di	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl	_	start_char=68|end_char=70|NER=O
+18	nëse	nëse	SCONJ	_	_	18	mark	_	start_char=71|end_char=75|NER=O
+19	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=76|end_char=77|NER=O
+20	gjej	gjem	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	15	advcl	_	start_char=78|end_char=82|NER=O
+21	veten	vete	PRON	_	PronType=Prs|Reflex=Yes	18	obj	_	start_char=83|end_char=88|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	15	punct	_	start_char=89|end_char=90|SpaceAfter=No|NER=O
+
+# text = " Cilët janë këngëtarët e sotëm në treg që Gusta vlerëson më shumë .
+# sent_id = 37
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+2	Cilët	Cilë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	2	nsubj	_	start_char=2|end_char=7|NER=O
+3	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=12|NER=O
+4	këngëtarët	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	cop	_	start_char=13|end_char=23|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	5	det	_	start_char=24|end_char=25|NER=O
+6	sotëm	sotëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=26|end_char=31|NER=O
+7	në	në	ADP	_	Case=Acc	7	case	_	start_char=32|end_char=34|NER=O
+8	treg	treg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	start_char=35|end_char=39|NER=O
+9	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=40|end_char=42|NER=O
+10	Gusta	Gustë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=43|end_char=48|NER=B-PER
+11	vlerëson	vlerësoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	start_char=49|end_char=57|NER=O
+12	më	më	PART	_	_	12	mark	_	start_char=58|end_char=60|NER=O
+13	shumë	shumë	ADV	_	AdvType=Deg	10	advmod	_	start_char=61|end_char=66|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	10	punct	_	start_char=67|end_char=68|NER=O
+
+# text = " Ka këngëtarë shumë të mirë .
+# sent_id = 38
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=4|NER=O
+3	këngëtarë	këngëtarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	start_char=5|end_char=14|NER=O
+4	shumë	shumë	ADV	_	AdvType=Deg	6	advmod	_	start_char=15|end_char=20|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=21|end_char=23|NER=O
+6	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=24|end_char=28|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	2	punct	_	start_char=29|end_char=30|NER=O
+
+# text = Shkoj shpesh në ambientet ku luhet muzikë live .
+# sent_id = 39
+1	Shkoj	shkoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	shpesh	shpesh	ADV	_	AdvType=Man	1	advmod	_	start_char=6|end_char=12|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=13|end_char=15|NER=O
+4	ambientet	ambient	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	obl	_	start_char=16|end_char=25|NER=O
+5	ku	ku	ADV	_	AdvType=Loc	6	advmod	_	start_char=26|end_char=28|NER=O
+6	luhet	luhem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	4	acl	_	start_char=29|end_char=34|NER=O
+7	muzikë	muzikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=35|end_char=41|NER=O
+8	live	live	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=42|end_char=46|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	1	punct	_	start_char=47|end_char=48|NER=O
+
+# text = Marsela Çibukaj më pëlqen shumë .
+# sent_id = 40
+1	Marsela	marselë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	Çibukaj	Çibukë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=8|end_char=15|NER=I-PER
+3	më	më	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=16|end_char=18|NER=O
+4	pëlqen	pëlqej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=25|NER=O
+5	shumë	shumë	ADV	_	AdvType=Deg	4	advmod	_	start_char=26|end_char=31|SpaceAfter=No|NER=O
+6	.	.	PUNCT	_	_	4	punct	_	start_char=32|end_char=33|NER=O
+
+# text = Kamela Islamaj gjithashtu , një nga zërat më të mirë shqiptarë .
+# sent_id = 41
+1	Kamela	Kamelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|NER=B-PER
+2	Islamaj	Islamë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=14|NER=I-PER
+3	gjithashtu	gjithashtu	ADV	_	AdvType=Man	2	advmod	_	start_char=15|end_char=25|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	7	punct	_	start_char=26|end_char=27|NER=O
+5	një	një	DET	_	Definite=Ind	7	det	_	start_char=28|end_char=31|NER=O
+6	nga	nga	ADP	_	Case=Nom	7	case	_	start_char=32|end_char=35|NER=O
+7	zërat	zëra	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	conj	_	start_char=36|end_char=41|NER=O
+8	më	më	PART	_	_	10	mark	_	start_char=42|end_char=44|NER=O
+9	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	10	det	_	start_char=45|end_char=47|NER=O
+10	mirë	mirë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=48|end_char=52|NER=O
+11	shqiptarë	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=53|end_char=62|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	1	punct	_	start_char=63|end_char=64|SpaceAfter=No|NER=O
+
+# text = " Këto emra Tergita i sheh të denja edhe për të na prezantuar në Eurovision .
+# sent_id = 42
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|NER=O
+2	Këto	këto	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=2|end_char=6|NER=O
+3	emra	emër	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	start_char=7|end_char=11|NER=O
+4	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	appos	_	start_char=12|end_char=19|NER=B-PER
+5	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=20|end_char=21|NER=O
+6	sheh	shoh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=26|NER=O
+7	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=27|end_char=29|NER=O
+8	denja	denjë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	cop	_	start_char=30|end_char=35|NER=O
+9	edhe	edhe	PART	_	_	12	cc	_	start_char=36|end_char=40|NER=O
+10	për	për	PART	_	_	12	fixed	_	start_char=41|end_char=44|NER=O
+11	të	të	PART	_	_	12	fixed	_	start_char=45|end_char=47|NER=O
+12	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	start_char=48|end_char=50|NER=O
+13	prezantuar	prezantoj	VERB	_	VerbForm=Part	5	advmod	_	start_char=51|end_char=61|NER=O
+14	në	në	ADP	_	Case=Acc	14	case	_	start_char=62|end_char=64|NER=O
+15	Eurovision	Eurovision	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	start_char=65|end_char=75|SpaceAfter=No|NER=B-EVENT
+16	.	.	PUNCT	_	_	5	punct	_	start_char=76|end_char=77|SpacesAfter=\n|NER=O
+
+# text = Përtej muzikës , këngëtarja me profesion është specialiste IT - je .
+# sent_id = 43
+1	Përtej	përtej	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=6|NER=O
+2	muzikës	muzikë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=7|end_char=14|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=15|end_char=16|NER=O
+4	këngëtarja	këngëtar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=17|end_char=27|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=28|end_char=30|NER=O
+6	profesion	profesion	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	start_char=31|end_char=40|NER=O
+7	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=41|end_char=46|NER=O
+8	specialiste	specialist	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	cop	_	start_char=47|end_char=58|NER=O
+9	IT	IT-je	PROPN	_	Foreign=Yes	8	cop	_	start_char=59|end_char=61|SpaceAfter=No|NER=O
+10	-	-	PUNCT	_	_	8	punct	_	start_char=62|end_char=63|SpaceAfter=No|NER=O
+11	je	IT-je	PROPN	_	Foreign=Yes	8	cop	_	start_char=64|end_char=66|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	7	punct	_	start_char=67|end_char=68|NER=O
+
+# text = Ajo ka studiuar për shkenca kompjuterike .
+# sent_id = 44
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=6|NER=O
+3	studiuar	studijoj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=15|NER=O
+4	për	për	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=19|NER=O
+5	shkenca	shkencë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=20|end_char=27|NER=O
+6	kompjuterike	kompjuterik	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=28|end_char=40|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	3	punct	_	start_char=41|end_char=42|NER=O
+
+# text = " Ka qenë një zgjedhje e mamasë .
+# sent_id = 45
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=4|NER=O
+3	qenë	jam	VERB	_	VerbForm=Part	0	root	_	start_char=5|end_char=9|NER=O
+4	një	një	DET	_	Definite=Ind	5	det	_	start_char=10|end_char=13|NER=O
+5	zgjedhje	zgjedhje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	cop	_	start_char=14|end_char=22|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=23|end_char=24|NER=O
+7	mamasë	mamasë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=25|end_char=31|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	3	punct	_	start_char=32|end_char=33|NER=O
+
+# text = Të ishte për mua do isha futur tek Artet .
+# sent_id = 46
+1	Të	të	PART	_	_	2	fixed	_	start_char=0|end_char=2|NER=O
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=3|end_char=8|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=9|end_char=12|NER=O
+4	mua	unë	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	start_char=13|end_char=16|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=17|end_char=19|NER=O
+6	isha	jam	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	7	aux	_	start_char=20|end_char=24|NER=O
+7	futur	fut	VERB	_	VerbForm=Part	2	advcl	_	start_char=25|end_char=30|NER=O
+8	tek	tek	ADP	_	Case=Nom	9	case	_	start_char=31|end_char=34|NER=O
+9	Artet	Artet	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	start_char=35|end_char=40|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	7	punct	_	start_char=41|end_char=42|NER=O
+
+# text = Tani kur e mendoj them se ka bërë gjënë më të mirë .
+# sent_id = 47
+1	Tani	tani	ADV	_	AdvType=Tim	5	advmod	_	start_char=0|end_char=4|NER=O
+2	kur	kur	SCONJ	_	_	4	mark	_	start_char=5|end_char=8|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=9|end_char=10|NER=O
+4	mendoj	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	advcl	_	start_char=11|end_char=17|NER=O
+5	them	them	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=22|NER=O
+6	se	se	SCONJ	_	_	8	mark	_	start_char=23|end_char=25|NER=O
+7	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	start_char=26|end_char=28|NER=O
+8	bërë	bëj	VERB	_	VerbForm=Part	5	advcl	_	start_char=29|end_char=33|NER=O
+9	gjënë	gjënë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=34|end_char=39|NER=O
+10	më	më	PART	_	_	12	mark	_	start_char=40|end_char=42|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=43|end_char=45|NER=O
+12	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=46|end_char=50|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	5	punct	_	start_char=51|end_char=52|NER=O
+
+# text = Tani jam e punësuar nga AKSHI ( Agjencia Kombëtare e Shoqërisë së Informacionit ) por pozicioni i punës është në Ministrinë e Brendshme .
+# sent_id = 48
+1	Tani	tani	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=4|NER=O
+2	jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=8|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=10|NER=O
+4	punësuar	punësoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	cop	_	start_char=11|end_char=19|NER=O
+5	nga	nga	ADP	_	Case=Nom	6	case	_	start_char=20|end_char=23|NER=O
+6	AKSHI	AKSHI	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=24|end_char=29|NER=B-ORG
+7	(	(	PUNCT	_	_	8	punct	_	start_char=30|end_char=31|SpaceAfter=No|NER=O
+8	Agjencia	Agjenci	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=32|end_char=40|NER=B-ORG
+9	Kombëtare	kombëtar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=41|end_char=50|NER=I-ORG
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	11	det:poss	_	start_char=51|end_char=52|NER=I-ORG
+11	Shoqërisë	shoqëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=53|end_char=62|NER=I-ORG
+12	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=63|end_char=65|NER=I-ORG
+13	Informacionit	Informacion	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	start_char=66|end_char=79|SpaceAfter=No|NER=I-ORG
+14	)	)	PUNCT	_	_	15	punct	_	start_char=80|end_char=81|NER=O
+15	por	por	CCONJ	_	_	16	cc	_	start_char=82|end_char=85|NER=O
+16	pozicioni	pozicion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	start_char=86|end_char=95|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=96|end_char=97|NER=O
+18	punës	punë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=98|end_char=103|NER=O
+19	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=104|end_char=109|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=110|end_char=112|NER=O
+21	Ministrinë	ministri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	advmod	_	start_char=113|end_char=123|NER=O
+22	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=124|end_char=125|NER=O
+23	Brendshme	brendshme	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=126|end_char=135|SpaceAfter=No|NER=O
+24	.	.	PUNCT	_	_	19	punct	_	start_char=136|end_char=137|SpaceAfter=No|NER=O
+
+# text = " E pyetur për jetën private Tergita Gusta zbulon se prej shumë vitesh është e dashuruar .
+# sent_id = 49
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n\n|NER=O
+2	E	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	start_char=2|end_char=3|NER=O
+3	pyetur	pyes	VERB	_	VerbForm=Part	8	advmod	_	start_char=4|end_char=10|NER=O
+4	për	për	ADP	_	Case=Acc	4	case	_	start_char=11|end_char=14|NER=O
+5	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=15|end_char=20|NER=O
+6	private	privat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=21|end_char=28|NER=O
+7	Tergita	Tergitë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	appos	_	start_char=29|end_char=36|NER=B-PER
+8	Gusta	Gustë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=37|end_char=42|NER=I-PER
+9	zbulon	zbuloj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=49|NER=O
+10	se	se	SCONJ	_	_	13	mark	_	start_char=50|end_char=52|NER=O
+11	prej	prej	ADP	_	Case=Abl	12	case	_	start_char=53|end_char=57|NER=O
+12	shumë	shumë	PRON	_	PronType=Ind	12	nummod	_	start_char=58|end_char=63|NER=O
+13	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	advmod	_	start_char=64|end_char=70|NER=O
+14	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	start_char=71|end_char=76|NER=O
+15	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=77|end_char=78|NER=O
+16	dashuruar	dashuruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	cop	_	start_char=79|end_char=88|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	8	punct	_	start_char=89|end_char=90|NER=O
+
+# text = " Në jetën private jam mirë prej shumë vitesh .
+# sent_id = 50
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Në	në	ADP	_	Case=Acc	3	case	_	start_char=2|end_char=4|NER=O
+3	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=5|end_char=10|NER=O
+4	private	privat	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=11|end_char=18|NER=O
+5	jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=22|NER=O
+6	mirë	mirë	ADV	_	AdvType=Man	5	advmod	_	start_char=23|end_char=27|NER=O
+7	prej	prej	ADP	_	Case=Abl	9	case	_	start_char=28|end_char=32|NER=O
+8	shumë	shumë	PRON	_	PronType=Ind	9	nummod	_	start_char=33|end_char=38|NER=O
+9	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	5	advmod	_	start_char=39|end_char=45|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	5	punct	_	start_char=46|end_char=47|NER=O
+
+# text = Kam gjetur veten .
+# sent_id = 51
+1	Kam	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|Voice=Act	2	aux	_	start_char=0|end_char=3|NER=O
+2	gjetur	gjet	VERB	_	VerbForm=Part	0	root	_	start_char=4|end_char=10|NER=O
+3	veten	vete	PRON	_	PronType=Prs|Reflex=Yes	2	obj	_	start_char=11|end_char=16|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18|NER=O
+
+# text = Jam e dashuruar .
+# sent_id = 52
+1	Jam	jam	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=3|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=5|NER=O
+3	dashuruar	dashuruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=15|SpaceAfter=No|NER=O
+4	.	.	PUNCT	_	_	1	punct	_	start_char=16|end_char=17|NER=O
+
+# text = Celebrimi ka mbetur , se çdo gjë tjetër është në rregull .
+# sent_id = 53
+1	Celebrimi	Celebrim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=9|NER=O
+2	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=10|end_char=12|NER=O
+3	mbetur	mbes	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=19|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=20|end_char=21|NER=O
+5	se	se	SCONJ	_	_	9	mark	_	start_char=22|end_char=24|NER=O
+6	çdo	çdo	PRON	_	PronType=Ind	7	det	_	start_char=25|end_char=28|NER=O
+7	gjë	gjë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	start_char=29|end_char=32|NER=O
+8	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	amod	_	start_char=33|end_char=39|NER=O
+9	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	start_char=40|end_char=45|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+11	rregull	rregull	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	advmod	_	start_char=49|end_char=56|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	9	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+
+# text = "
+# sent_id = 54
+1	"	"	PUNCT	_	_	0	root	_	start_char=0|end_char=1|SpacesAfter=\n|NER=O
+

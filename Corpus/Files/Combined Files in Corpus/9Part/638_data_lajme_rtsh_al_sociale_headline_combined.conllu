@@ -1,0 +1,139 @@
+# text = 11 / 10 / 2023 Edlira Birko , gazetarja me një eksperiencë të gjatë dhe shumë të pasur televizive në RTSH u përball papritur me kancerin e gjirit edhe pse e rregullt në kontrolle .
+# sent_id = 0
+1	11	11	NUM	_	NumType=Card	13	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	11	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	10	10	NUM	_	NumType=Card	11	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	13	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	13	flat	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Edlira	Edlirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=15|end_char=21|NER=B-PER
+7	Birko	Birko	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	flat	_	start_char=22|end_char=27|SpaceAfter=No|NER=I-PER
+8	,	,	PUNCT	_	_	20	punct	_	start_char=28|end_char=29|NER=O
+9	gazetarja	gazetarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	list	_	start_char=30|end_char=39|NER=O
+10	me	me	ADP	_	Case=Acc	23	case	_	start_char=40|end_char=42|NER=O
+11	një	një	DET	_	Definite=Ind	23	det	_	start_char=43|end_char=46|NER=O
+12	eksperiencë	eksperiencë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	start_char=47|end_char=58|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=59|end_char=61|NER=O
+14	gjatë	gjatë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=62|end_char=67|NER=O
+15	dhe	dhe	CCONJ	_	_	29	cc	_	start_char=68|end_char=71|NER=O
+16	shumë	shumë	ADV	_	AdvType=Deg	29	advmod	_	start_char=72|end_char=77|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=78|end_char=80|NER=O
+18	pasur	pasur	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	conj	_	start_char=81|end_char=86|NER=O
+19	televizive	televiziv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=87|end_char=97|NER=O
+20	në	në	ADP	_	Case=Acc	32	case	_	start_char=98|end_char=100|NER=O
+21	RTSH	RTSH	PROPN	_	Foreign=Yes	34	advmod	_	start_char=101|end_char=105|NER=O
+22	u	u	PART	_	_	34	fixed	_	start_char=106|end_char=107|NER=O
+23	përball	përball	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	35	advcl	_	start_char=108|end_char=115|NER=O
+24	papritur	papritur	VERB	_	VerbForm=Part	29	advmod	_	start_char=116|end_char=124|NER=O
+25	me	me	ADP	_	Case=Acc	37	case	_	start_char=125|end_char=127|NER=O
+26	kancerin	kancer	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	35	obl	_	start_char=128|end_char=136|NER=O
+27	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	39	det	_	start_char=137|end_char=138|NER=O
+28	gjirit	gjir	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	start_char=139|end_char=145|NER=O
+29	edhe	edhe	CCONJ	_	_	41	fixed	_	start_char=146|end_char=150|NER=O
+30	pse	pse	SCONJ	_	_	43	mark	_	start_char=151|end_char=154|NER=O
+31	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	43	det	_	start_char=155|end_char=156|NER=O
+32	rregullt	rregull	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	start_char=157|end_char=165|NER=O
+33	në	në	ADP	_	Case=Acc	45	case	_	start_char=166|end_char=168|NER=O
+34	kontrolle	kontroll	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	43	advmod	_	start_char=169|end_char=178|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	35	punct	_	start_char=179|end_char=180|NER=O
+
+# text = Në një rrëfim të ndjerë ajo tregon traumën e vitit të parë të sëmundjes që e theu në copa .
+# sent_id = 1
+1	Në	në	ADP	_	Case=Acc	3	case	_	start_char=0|end_char=2|NER=O
+2	një	një	DET	_	Definite=Ind	3	det	_	start_char=3|end_char=6|NER=O
+3	rrëfim	rrëfim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=7|end_char=13|NER=O
+4	të	të	PART	_	_	5	det	_	start_char=14|end_char=16|NER=O
+5	ndjerë	ndjerë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=17|end_char=23|NER=O
+6	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=24|end_char=27|NER=O
+7	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=28|end_char=34|NER=O
+8	traumën	traumë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	start_char=35|end_char=42|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=43|end_char=44|NER=O
+10	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=45|end_char=50|NER=O
+11	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=51|end_char=53|NER=O
+12	parë	parë	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=54|end_char=58|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=59|end_char=61|NER=O
+14	sëmundjes	sëmundje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=62|end_char=71|NER=O
+15	që	që	PRON	_	PronType=Rel	17	nsubj	_	start_char=72|end_char=74|NER=O
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=75|end_char=76|NER=O
+17	theu	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	start_char=77|end_char=81|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=82|end_char=84|NER=O
+19	copa	copë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	start_char=85|end_char=89|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	17	punct	_	start_char=90|end_char=91|SpacesAfter=\n|NER=O
+
+# text = Edlira i fshehu vuajtjet përpara syve të fëmijëve .
+# sent_id = 2
+1	Edlira	Edlirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=7|end_char=8|NER=O
+3	fshehu	fshem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=9|end_char=15|NER=O
+4	vuajtjet	vuajtje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	start_char=16|end_char=24|NER=O
+5	përpara	përpara	ADP	_	Case=Abl	6	case	_	start_char=25|end_char=32|NER=O
+6	syve	syve	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=33|end_char=37|NER=O
+7	të	të	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=38|end_char=40|NER=O
+8	fëmijëve	fëmijë	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=41|end_char=49|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	3	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Gjeti forcat të ri çohej duke mos lënë pas dore as punën dhe doli në ekran fill pas kimioterapisë .
+# sent_id = 3
+1	Gjeti	Gjes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	forcat	forcë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	obj	_	start_char=6|end_char=12|NER=O
+3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=13|end_char=15|NER=O
+4	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=16|end_char=18|NER=O
+5	çohej	çohej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Pass	1	csubj	_	start_char=19|end_char=24|NER=O
+6	duke	duke	PART	_	_	8	fixed	_	start_char=25|end_char=29|NER=O
+7	mos	mos	PART	_	_	8	fixed	_	start_char=30|end_char=33|NER=O
+8	lënë	lë	VERB	_	VerbForm=Part	5	advmod	_	start_char=34|end_char=38|NER=O
+9	pas	pas	ADV	_	AdvType=Tim	8	advmod	_	start_char=39|end_char=42|NER=O
+10	dore	dore	ADV	_	AdvType=Man	8	advmod	_	start_char=43|end_char=47|NER=O
+11	as	as	CCONJ	_	_	12	cc	_	start_char=48|end_char=50|NER=O
+12	punën	punë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	start_char=51|end_char=56|NER=O
+13	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=57|end_char=60|NER=O
+14	doli	dal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	start_char=61|end_char=65|NER=O
+15	në	në	ADP	_	Case=Acc	16	case	_	start_char=66|end_char=68|NER=O
+16	ekran	ekra	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	start_char=69|end_char=74|NER=O
+17	fill	fill	ADV	_	AdvType=Tim	16	advmod	_	start_char=75|end_char=79|NER=O
+18	pas	pas	ADP	_	Case=Abl	19	case	_	start_char=80|end_char=83|NER=O
+19	kimioterapisë	kimioterapisë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	start_char=84|end_char=97|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	14	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = Mesazhi për fëmijët ishte më i fortë se çdo gjë për Edlirën .
+# sent_id = 4
+1	Mesazhi	mesazh	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=7|NER=O
+2	për	për	ADP	_	Case=Acc	3	case	_	start_char=8|end_char=11|NER=O
+3	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=12|end_char=19|NER=O
+4	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=20|end_char=25|NER=O
+5	më	më	PART	_	_	7	mark	_	start_char=26|end_char=28|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=29|end_char=30|NER=O
+7	fortë	fortë	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	cop	_	start_char=31|end_char=36|NER=O
+8	se	se	SCONJ	_	_	10	mark	_	start_char=37|end_char=39|NER=O
+9	çdo	çdo	PRON	_	PronType=Ind	10	nummod	_	start_char=40|end_char=43|NER=O
+10	gjë	gjë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=44|end_char=47|NER=O
+11	për	për	ADP	_	Case=Acc	12	case	_	start_char=48|end_char=51|NER=O
+12	Edlirën	Edlirë	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=52|end_char=59|SpaceAfter=No|NER=B-PER
+13	.	.	PUNCT	_	_	4	punct	_	start_char=60|end_char=61|SpacesAfter=\n|NER=O
+
+# text = Edlira po ndjek trajtimin tre - vjeçar me hormone e më pas mjekët do të vendosin .
+# sent_id = 5
+1	Edlira	Edlirë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	po	po	PART	_	_	3	mark	_	start_char=7|end_char=9|NER=O
+3	ndjek	ndjek	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=10|end_char=15|NER=O
+4	trajtimin	trajtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=16|end_char=25|NER=O
+5	tre	tre-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=26|end_char=29|NER=O
+6	-	-	PUNCT	_	_	4	punct	_	start_char=30|end_char=31|NER=O
+7	vjeçar	tre-vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=32|end_char=38|NER=O
+8	me	me	ADP	_	Case=Acc	7	case	_	start_char=39|end_char=41|NER=O
+9	hormone	hormon	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	start_char=42|end_char=49|NER=O
+10	e	e	CCONJ	_	_	14	cc	_	start_char=50|end_char=51|NER=O
+11	më	më	PART	_	_	10	mark	_	start_char=52|end_char=54|NER=O
+12	pas	pas	ADV	_	AdvType=Tim	14	advmod	_	start_char=55|end_char=58|NER=O
+13	mjekët	mjekë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	nsubj	_	start_char=59|end_char=65|NER=O
+14	do	do	PART	_	_	14	fixed	_	start_char=66|end_char=68|NER=O
+15	të	të	PART	_	_	14	fixed	_	start_char=69|end_char=71|NER=O
+16	vendosin	vendos	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=72|end_char=80|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	14	punct	_	start_char=81|end_char=82|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 6
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

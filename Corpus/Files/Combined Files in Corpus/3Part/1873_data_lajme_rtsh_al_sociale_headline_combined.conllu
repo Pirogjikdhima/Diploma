@@ -1,0 +1,194 @@
+# text = Petrit Gjaci , fermeri që kultivon kivi në Greqi e Fier Kivi është një frut i cili nuk prodhohet masivisht në Shqipëri .
+# sent_id = 0
+1	Petrit	Petër	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	Gjaci	Gjaci	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=12|SpaceAfter=No|NER=I-PER
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14|NER=O
+4	fermeri	fermer	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=15|end_char=22|NER=O
+5	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=23|end_char=25|NER=O
+6	kultivon	kultivoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=26|end_char=34|NER=O
+7	kivi	kiv	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	start_char=35|end_char=39|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=42|NER=O
+9	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	advmod	_	start_char=43|end_char=48|NER=B-VEND_1
+10	e	e	CCONJ	_	_	12	cc	_	start_char=49|end_char=50|NER=O
+11	Fier	Fier	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	start_char=51|end_char=55|SpacesAfter=\n|NER=B-VEND_0
+12	Kivi	Kivi	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	start_char=56|end_char=60|NER=O
+13	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=61|end_char=66|NER=O
+14	një	një	DET	_	Definite=Ind	20	det	_	start_char=67|end_char=70|NER=O
+15	frut	frut	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	cop	_	start_char=71|end_char=75|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=76|end_char=77|NER=O
+17	cili	cili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	start_char=78|end_char=82|NER=O
+18	nuk	nuk	PART	_	Polarity=Neg	24	mark	_	start_char=83|end_char=86|NER=O
+19	prodhohet	prodhoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	20	acl:relcl	_	start_char=87|end_char=96|NER=O
+20	masivisht	masivisht	ADV	_	AdvType=Man	24	advmod	_	start_char=97|end_char=106|NER=O
+21	në	në	ADP	_	Case=Acc	27	case	_	start_char=107|end_char=109|NER=O
+22	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	start_char=110|end_char=118|SpaceAfter=No|NER=B-VEND_1
+23	.	.	PUNCT	_	_	18	punct	_	start_char=119|end_char=120|NER=O
+
+# text = Petrit Gjaci dhe prej 15 vitesh merret me kultivimin e kivit .
+# sent_id = 1
+1	Petrit	Petër	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=6|NER=B-PER
+2	Gjaci	Gjaci	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=7|end_char=12|NER=I-PER
+3	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=13|end_char=16|NER=O
+4	prej	prej	ADP	_	Case=Abl	6	case	_	start_char=17|end_char=21|NER=O
+5	15	15	NUM	_	NumType=Card	6	nummod	_	start_char=22|end_char=24|NER=O
+6	vitesh	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	start_char=25|end_char=31|NER=O
+7	merret	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=32|end_char=38|NER=O
+8	me	me	ADP	_	Case=Acc	9	case	_	start_char=39|end_char=41|NER=O
+9	kultivimin	kultivim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	start_char=42|end_char=52|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=53|end_char=54|NER=O
+11	kivit	kiv	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=55|end_char=60|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	7	punct	_	start_char=61|end_char=62|NER=O
+
+# text = I ardhur nga Mirdita ne vitet 1990 , tashmë me bashkëshorten , dy fëmijët dhe të vëllanë e ndan jetën midis zonës së Selanikut dhe Shtyllasit në Fier .
+# sent_id = 2
+1	I	I	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=1|NER=O
+2	ardhur	ardhur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=8|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=9|end_char=12|NER=O
+4	Mirdita	mirditë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	start_char=13|end_char=20|NER=B-VEND_0
+5	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nummod	_	start_char=21|end_char=23|NER=O
+6	vitet	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	start_char=24|end_char=29|NER=B-DATE_0
+7	1990	1990	NUM	_	NumType=Card	6	flat	_	start_char=30|end_char=34|SpaceAfter=No|NER=I-DATE_0
+8	,	,	PUNCT	_	_	9	punct	_	start_char=35|end_char=36|NER=O
+9	tashmë	tashmë	ADV	_	AdvType=Tim	2	advmod	_	start_char=37|end_char=43|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=44|end_char=46|NER=O
+11	bashkëshorten	bashkëshorte	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=47|end_char=60|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	14	punct	_	start_char=61|end_char=62|NER=O
+13	dy	dy	NUM	_	NumType=Card	14	nummod	_	start_char=63|end_char=65|NER=O
+14	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	list	_	start_char=66|end_char=73|NER=O
+15	dhe	dhe	CCONJ	_	_	17	cc	_	start_char=74|end_char=77|NER=O
+16	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	17	det	_	start_char=78|end_char=80|NER=O
+17	vëllanë	vëllanë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	conj	_	start_char=81|end_char=88|NER=O
+18	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=89|end_char=90|NER=O
+19	ndan	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	start_char=91|end_char=95|NER=O
+20	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	start_char=96|end_char=101|NER=O
+21	midis	midis	ADP	_	Case=Abl	22	case	_	start_char=102|end_char=107|NER=O
+22	zonës	zonë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	start_char=108|end_char=113|NER=O
+23	së	së	DET	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Art	24	det:poss	_	start_char=114|end_char=116|NER=O
+24	Selanikut	selanik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=117|end_char=126|NER=B-VEND_0
+25	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=127|end_char=130|NER=O
+26	Shtyllasit	shtyllas	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	conj	_	start_char=131|end_char=141|NER=O
+27	në	në	ADP	_	Case=Acc	28	case	_	start_char=142|end_char=144|NER=O
+28	Fier	Fier	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	start_char=145|end_char=149|SpaceAfter=No|NER=B-VEND_0
+29	.	.	PUNCT	_	_	19	punct	_	start_char=150|end_char=151|SpacesAfter=\n|NER=O
+
+# text = Në Greqi ka kryer punë të ndryshme në bujqësi si i punësuar , derisa arriti që të merrte me qira 7 hektarë tokë , në në fshat afër Selanikut e të kultivojë kivi .
+# sent_id = 3
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Greqi	Greqi	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=8|NER=B-VEND_1
+3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=11|NER=O
+4	kryer	kryej	VERB	_	VerbForm=Part	0	root	_	start_char=12|end_char=17|NER=O
+5	punë	punë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=18|end_char=22|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=23|end_char=25|NER=O
+7	ndryshme	ndryshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=26|end_char=34|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=35|end_char=37|NER=O
+9	bujqësi	bujqesi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=38|end_char=45|NER=O
+10	si	si	SCONJ	_	_	12	mark	_	start_char=46|end_char=48|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=49|end_char=50|NER=O
+12	punësuar	punësoj	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=51|end_char=59|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=60|end_char=61|NER=O
+14	derisa	derisa	SCONJ	_	_	15	mark	_	start_char=62|end_char=68|NER=O
+15	arriti	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	start_char=69|end_char=75|NER=O
+16	që	që	SCONJ	_	_	18	mark	_	start_char=76|end_char=78|NER=O
+17	të	të	PART	_	_	18	fixed	_	start_char=79|end_char=81|NER=O
+18	merrte	marr	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	15	advcl	_	start_char=82|end_char=88|NER=O
+19	me	me	ADP	_	Case=Acc	20	case	_	start_char=89|end_char=91|NER=O
+20	qira	qirë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	start_char=92|end_char=96|NER=O
+21	7	7	NUM	_	NumType=Card	22	nummod	_	start_char=97|end_char=98|NER=O
+22	hektarë	hektarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	start_char=99|end_char=106|NER=O
+23	tokë	tokë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	start_char=107|end_char=111|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	27	punct	_	start_char=112|end_char=113|NER=O
+25	në	në	ADP	_	Case=Acc	27	case	_	start_char=114|end_char=116|NER=O
+26	në	në	ADP	_	Case=Acc	27	case	_	start_char=117|end_char=119|NER=O
+27	fshat	fshat	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	18	advmod	_	start_char=120|end_char=125|NER=O
+28	afër	afër	ADP	_	Case=Abl	29	case	_	start_char=126|end_char=130|NER=O
+29	Selanikut	selanik	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	start_char=131|end_char=140|NER=B-VEND_0
+30	e	e	CCONJ	_	_	32	cc	_	start_char=141|end_char=142|NER=O
+31	të	të	PART	_	_	32	fixed	_	start_char=143|end_char=145|NER=O
+32	kultivojë	kultivoj	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=146|end_char=155|NER=O
+33	kivi	kiv	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	obj	_	start_char=156|end_char=160|SpaceAfter=No|NER=O
+34	.	.	PUNCT	_	_	32	punct	_	start_char=161|end_char=162|SpacesAfter=\n|NER=O
+
+# text = Petriti tregon se nëse kësaj peme i shërbehet si duhet , ajo ta shpërblen mundin .
+# sent_id = 4
+1	Petriti	Petrit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=B-PER
+2	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=14|NER=O
+3	se	se	SCONJ	_	_	8	mark	_	start_char=15|end_char=17|NER=O
+4	nëse	nëse	SCONJ	_	_	8	mark	_	start_char=18|end_char=22|NER=O
+5	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=23|end_char=28|NER=O
+6	peme	pemë	NOUN	_	Case=Abl|Definite=Ind|Gender=Fem|Number=Sing	8	advmod	_	start_char=29|end_char=33|NER=O
+7	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	start_char=34|end_char=35|NER=O
+8	shërbehet	shërbej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	advcl	_	start_char=36|end_char=45|NER=O
+9	si	si	SCONJ	_	_	10	mark	_	start_char=46|end_char=48|NER=O
+10	duhet	duhem	AUX	_	Mood=Ind	8	aux	_	start_char=49|end_char=54|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	8	punct	_	start_char=55|end_char=56|NER=O
+12	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=57|end_char=60|NER=O
+13	ta	_	_	_	_	_	_	_	start_char=61|end_char=63|NER=O
+14	shpërblen	shpërblem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=64|end_char=73|NER=O
+15	mundin	mund	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	start_char=74|end_char=80|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	16	punct	_	start_char=81|end_char=82|NER=O
+
+# text = Vetëm në në sezon arrin të marrë në 15 tonë kivi .
+# sent_id = 5
+1	Vetëm	Vetëm	PART	_	_	5	cc	_	start_char=0|end_char=5|NER=O
+2	në	në	ADP	_	Case=Acc	4	case	_	start_char=6|end_char=8|NER=O
+3	në	në	ADP	_	Case=Acc	4	case	_	start_char=9|end_char=11|NER=O
+4	sezon	sezo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	advmod	_	start_char=12|end_char=17|NER=O
+5	arrin	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=18|end_char=23|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=24|end_char=26|NER=O
+7	marrë	marr	VERB	_	VerbForm=Part	5	ccomp	_	start_char=27|end_char=32|NER=O
+8	në	në	ADP	_	Case=Acc	11	case	_	start_char=33|end_char=35|NER=O
+9	15	15	NUM	_	NumType=Card	10	nummod	_	start_char=36|end_char=38|NER=O
+10	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	advmod	_	start_char=39|end_char=43|NER=O
+11	kivi	kiv	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	advmod	_	start_char=44|end_char=48|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	5	punct	_	start_char=49|end_char=50|NER=O
+
+# text = Dhe tregun e ka të sigurt .
+# sent_id = 6
+1	Dhe	dhe	CCONJ	_	_	4	cc	_	start_char=0|end_char=3|NER=O
+2	tregun	treg	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=4|end_char=10|NER=O
+3	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=11|end_char=12|NER=O
+4	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=15|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=18|NER=O
+6	sigurt	sigurt	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	cop	_	start_char=19|end_char=25|SpaceAfter=No|NER=O
+7	.	.	PUNCT	_	_	4	punct	_	start_char=26|end_char=27|NER=O
+
+# text = Të gjithë prodhimin e shet në vend .
+# sent_id = 7
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=3|end_char=9|NER=O
+3	prodhimin	prodhim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	start_char=10|end_char=19|NER=O
+4	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=20|end_char=21|NER=O
+5	shet	shem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=22|end_char=26|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=27|end_char=29|NER=O
+7	vend	vend	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	start_char=30|end_char=34|SpaceAfter=No|NER=O
+8	.	.	PUNCT	_	_	5	punct	_	start_char=35|end_char=36|SpacesAfter=\n|NER=O
+
+# text = Tek plantacionet e mbjella me kivi Petriti kultivon edhe bletë .
+# sent_id = 8
+1	Tek	tek	ADP	_	Case=Nom	2	case	_	start_char=0|end_char=3|NER=O
+2	plantacionet	plantacion	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	advmod	_	start_char=4|end_char=16|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	4	det	_	start_char=17|end_char=18|NER=O
+4	mbjella	mbjellë	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=19|end_char=26|NER=O
+5	me	me	ADP	_	Case=Acc	6	case	_	start_char=27|end_char=29|NER=O
+6	kivi	kivi	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=30|end_char=34|NER=O
+7	Petriti	Petrit	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat	_	start_char=35|end_char=42|NER=B-PER
+8	kultivon	kultivoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=43|end_char=51|NER=O
+9	edhe	edhe	CCONJ	_	_	10	cc	_	start_char=52|end_char=56|NER=O
+10	bletë	bletë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	start_char=57|end_char=62|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	8	punct	_	start_char=63|end_char=64|NER=O
+
+# text = E nisi me 3 koshere , e sot ka plot 100 .
+# sent_id = 9
+1	E	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=0|end_char=1|NER=O
+2	nisi	nis	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=2|end_char=6|NER=O
+3	me	me	ADP	_	Case=Acc	5	case	_	start_char=7|end_char=9|NER=O
+4	3	3	NUM	_	NumType=Card	5	nummod	_	start_char=10|end_char=11|NER=O
+5	koshere	kosher	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	start_char=12|end_char=19|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=20|end_char=21|NER=O
+7	e	e	CCONJ	_	_	9	cc	_	start_char=22|end_char=23|NER=O
+8	sot	sot	ADV	_	AdvType=Tim	9	advmod	_	start_char=24|end_char=27|NER=O
+9	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	start_char=28|end_char=30|NER=O
+10	plot	plot	ADV	_	AdvType=Deg	11	advmod	_	start_char=31|end_char=35|NER=O
+11	100	100	NUM	_	NumType=Card	9	advmod	_	start_char=36|end_char=39|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	9	punct	_	start_char=40|end_char=41|SpacesAfter=\n\n|NER=O
+

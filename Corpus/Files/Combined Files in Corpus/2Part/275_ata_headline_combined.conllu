@@ -1,0 +1,58 @@
+# text = Kaag pritet të marrë detyrën më 8 janar .
+# sent_id = 0
+1	Kaag	Kaag	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	flat	_	start_char=0|end_char=4|NER=B-PER
+2	pritet	prit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=5|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	2	ccomp	_	start_char=15|end_char=20|NER=O
+5	detyrën	detyrë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=21|end_char=28|NER=O
+6	më	më	ADP	_	Case=Acc	8	case	_	start_char=29|end_char=31|NER=O
+7	8	8	NUM	_	NumType=Card	8	nummod	_	start_char=32|end_char=33|NER=B-DATE_0
+8	janar	janar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=34|end_char=39|SpaceAfter=No|NER=I-DATE_0
+9	.	.	PUNCT	_	_	2	punct	_	start_char=40|end_char=41|SpacesAfter=\n|NER=O
+
+# text = Këshillit miratoi të premten një rezolutë që bën thirrje për hapa të menjëhershëm për të lejuar menjëherë qasjen e sigurt , të papenguar dhe të zgjeruar humanitar në Gaza në mes të sulmeve të ashpra izraelite .
+# sent_id = 1
+1	Këshillit	Këshill	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=0|end_char=9|NER=O
+2	miratoi	miratoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=10|end_char=17|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=18|end_char=20|NER=B-DATE_1
+4	premten	premtej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	2	ccomp	_	start_char=21|end_char=28|NER=I-DATE_1
+5	një	një	DET	_	Definite=Ind	6	det	_	start_char=29|end_char=32|NER=O
+6	rezolutë	rezolutë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	start_char=33|end_char=41|NER=O
+7	që	që	PRON	_	PronType=Rel	8	nsubj	_	start_char=42|end_char=44|NER=O
+8	bën	bëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	start_char=45|end_char=48|NER=O
+9	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=49|end_char=56|NER=O
+10	për	për	ADP	_	Case=Acc	11	case	_	start_char=57|end_char=60|NER=O
+11	hapa	hapë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	start_char=61|end_char=65|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	13	det	_	start_char=66|end_char=68|NER=O
+13	menjëhershëm	menjëhershëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=69|end_char=81|NER=O
+14	për	për	PART	_	_	16	fixed	_	start_char=82|end_char=85|NER=O
+15	të	të	PART	_	_	16	fixed	_	start_char=86|end_char=88|NER=O
+16	lejuar	lejoj	VERB	_	VerbForm=Part	8	advmod	_	start_char=89|end_char=95|NER=O
+17	menjëherë	menjëherë	ADV	_	AdvType=Man	16	advmod	_	start_char=96|end_char=105|NER=O
+18	qasjen	qasje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	start_char=106|end_char=112|NER=O
+19	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=113|end_char=114|NER=O
+20	sigurt	sigurt	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=115|end_char=121|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	23	punct	_	start_char=122|end_char=123|NER=O
+22	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=124|end_char=126|NER=O
+23	papenguar	papenguar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=127|end_char=136|NER=O
+24	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=137|end_char=140|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=141|end_char=143|NER=O
+26	zgjeruar	zgjeroj	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	conj	_	start_char=144|end_char=152|NER=O
+27	humanitar	humanitar	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=153|end_char=162|NER=O
+28	në	në	ADP	_	Case=Acc	29	case	_	start_char=163|end_char=165|NER=O
+29	Gaza	Gaza	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	26	advmod	_	start_char=166|end_char=170|NER=B-VEND_0
+30	në	në	ADP	_	Case=Acc	31	case	_	start_char=171|end_char=173|NER=O
+31	mes	mes	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	26	advmod	_	start_char=174|end_char=177|NER=O
+32	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	33	det:poss	_	start_char=178|end_char=180|NER=O
+33	sulmeve	sulme	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	start_char=181|end_char=188|NER=O
+34	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	35	det	_	start_char=189|end_char=191|NER=O
+35	ashpra	ashpër	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=192|end_char=198|NER=O
+36	izraelite	izraelit	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=199|end_char=208|SpaceAfter=No|NER=O
+37	.	.	PUNCT	_	_	2	punct	_	start_char=209|end_char=210|NER=O
+
+# text = / os /
+# sent_id = 2
+1	/	/	PUNCT	_	_	0	punct	_	start_char=0|end_char=1|SpacesAfter=\n\n\n|NER=O
+2	os	os	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=4|SpacesAfter=\n\n\n|NER=O
+3	/	/	PUNCT	_	_	0	punct	_	start_char=5|end_char=6|SpacesAfter=\n\n\n|NER=O
+

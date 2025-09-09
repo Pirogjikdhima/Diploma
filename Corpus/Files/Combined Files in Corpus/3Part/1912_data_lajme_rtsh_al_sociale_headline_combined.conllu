@@ -1,0 +1,76 @@
+# text = " Na lini të punojmë dhe të jetojmë në Shqipëri " , tha një pedagog .
+# sent_id = 0
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	start_char=2|end_char=4|NER=O
+3	lini	lij	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=9|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=10|end_char=12|NER=O
+5	punojmë	punoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	ccomp	_	start_char=13|end_char=20|NER=O
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=21|end_char=24|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=25|end_char=27|NER=O
+8	jetojmë	jetoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	conj	_	start_char=28|end_char=35|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=36|end_char=38|NER=O
+10	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=39|end_char=47|SpaceAfter=No|NER=B-VEND_1
+11	"	"	PUNCT	_	_	8	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	12	punct	_	start_char=50|end_char=51|NER=O
+13	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	start_char=52|end_char=55|NER=O
+14	një	një	DET	_	Definite=Ind	14	det	_	start_char=56|end_char=59|NER=O
+15	pedagog	pedagog	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	start_char=60|end_char=67|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=68|end_char=69|SpacesAfter=\n|NER=O
+
+# text = " Kërkojnë rritje pagash , propozojnë që të arrihet niveli i pagave të universiteteve brenda 2 viteve njësoj si Kosova , në tetor të rritet 30 % , ndërsa të rritet sërish në tetorin e ardhshëm 20 % .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kërkojnë	kërkoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=2|end_char=10|NER=O
+3	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	start_char=11|end_char=17|NER=O
+4	pagash	pagash	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=18|end_char=24|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=25|end_char=26|NER=O
+6	propozojnë	propozoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	start_char=27|end_char=37|NER=O
+7	që	që	SCONJ	_	_	9	mark	_	start_char=38|end_char=40|NER=O
+8	të	të	PART	_	_	9	fixed	_	start_char=41|end_char=43|NER=O
+9	arrihet	arrij	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	advcl	_	start_char=44|end_char=51|NER=O
+10	niveli	nivel	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	start_char=52|end_char=58|NER=O
+11	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	12	det:poss	_	start_char=59|end_char=60|NER=O
+12	pagave	paga	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	start_char=61|end_char=67|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	14	det:poss	_	start_char=68|end_char=70|NER=O
+14	universiteteve	universitet	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=71|end_char=85|NER=O
+15	brenda	brenda	ADP	_	Case=Abl	17	case	_	start_char=86|end_char=92|NER=O
+16	2	2	NUM	_	NumType=Card	17	nummod	_	start_char=93|end_char=94|NER=O
+17	viteve	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	start_char=95|end_char=101|NER=O
+18	njësoj	njësoj	ADV	_	AdvType=Man	17	flat	_	start_char=102|end_char=108|NER=O
+19	si	si	SCONJ	_	_	20	mark	_	start_char=109|end_char=111|NER=O
+20	Kosova	Kosovë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	start_char=112|end_char=118|SpaceAfter=No|NER=B-VEND_1
+21	,	,	PUNCT	_	_	23	punct	_	start_char=119|end_char=120|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=121|end_char=123|NER=O
+23	tetor	tetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=124|end_char=129|NER=O
+24	të	të	PART	_	_	25	fixed	_	start_char=130|end_char=132|NER=O
+25	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	23	advmod	_	start_char=133|end_char=139|NER=O
+26	30	30	NUM	_	NumType=Card	27	nummod	_	start_char=140|end_char=142|SpaceAfter=No|NER=O
+27	%	%	SYM	_	_	25	advmod	_	start_char=143|end_char=144|SpaceAfter=No|NER=O
+28	,	,	PUNCT	_	_	29	punct	_	start_char=145|end_char=146|NER=O
+29	ndërsa	ndërsa	CCONJ	_	_	31	cc	_	start_char=147|end_char=153|NER=O
+30	të	të	PART	_	_	31	fixed	_	start_char=154|end_char=156|NER=O
+31	rritet	rrit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	25	conj	_	start_char=157|end_char=163|NER=O
+32	sërish	sërish	ADV	_	AdvType=Man	31	advmod	_	start_char=164|end_char=170|NER=O
+33	në	në	ADP	_	Case=Acc	34	case	_	start_char=171|end_char=173|NER=O
+34	tetorin	tetor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	31	obl	_	start_char=174|end_char=181|NER=O
+35	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=182|end_char=183|NER=O
+36	ardhshëm	ardhshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=184|end_char=192|NER=O
+37	20	20	NUM	_	NumType=Card	38	nummod	_	start_char=193|end_char=195|SpaceAfter=No|NER=O
+38	%	%	SYM	_	_	34	amod	_	start_char=196|end_char=197|SpaceAfter=No|NER=O
+39	.	.	PUNCT	_	_	31	punct	_	start_char=198|end_char=199|NER=O
+
+# text = Rritje financimi për kërkimin shkencor " , u shpreh një tjetër .
+# sent_id = 2
+1	Rritje	Rritje	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	start_char=0|end_char=6|NER=O
+2	financimi	financim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=16|NER=O
+3	për	për	ADP	_	Case=Acc	4	case	_	start_char=17|end_char=20|NER=O
+4	kërkimin	kërkim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=21|end_char=29|NER=O
+5	shkencor	shkencor	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=30|end_char=38|SpaceAfter=No|NER=O
+6	"	"	PUNCT	_	_	4	punct	_	start_char=39|end_char=40|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=41|end_char=42|NER=O
+8	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	fixed	_	start_char=43|end_char=44|NER=O
+9	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=45|end_char=51|NER=O
+10	një	një	DET	_	Definite=Ind	10	det	_	start_char=52|end_char=55|NER=O
+11	tjetër	tjetër	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	cop	_	start_char=56|end_char=62|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	8	punct	_	start_char=63|end_char=64|SpacesAfter=\n|NER=O
+

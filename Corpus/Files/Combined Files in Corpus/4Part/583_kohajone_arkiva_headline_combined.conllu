@@ -1,0 +1,138 @@
+# text = Një nënë ruse është arrestuar nga policia , pasi mendohet se ka vrarë djalin e saj në mënyrë makabre , në qytetin Kursk .
+# sent_id = 0
+1	Një	një	DET	_	Definite=Ind	13	det	_	start_char=0|end_char=3|NER=O
+2	nënë	nënë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=4|end_char=8|NER=O
+3	ruse	rus	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=9|end_char=13|NER=O
+4	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	start_char=14|end_char=19|NER=O
+5	arrestuar	arrestoj	VERB	_	VerbForm=Part	0	root	_	start_char=20|end_char=29|NER=O
+6	nga	nga	ADP	_	Case=Nom	18	case	_	start_char=30|end_char=33|NER=O
+7	policia	polici	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	start_char=34|end_char=41|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	20	punct	_	start_char=42|end_char=43|NER=O
+9	pasi	pasi	SCONJ	_	_	21	mark	_	start_char=44|end_char=48|NER=O
+10	mendohet	mendoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	16	advcl	_	start_char=49|end_char=57|NER=O
+11	se	se	SCONJ	_	_	24	mark	_	start_char=58|end_char=60|NER=O
+12	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=61|end_char=63|NER=O
+13	vrarë	vras	VERB	_	VerbForm=Part	21	advcl	_	start_char=64|end_char=69|NER=O
+14	djalin	djalë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	start_char=70|end_char=76|NER=O
+15	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	27	det:poss	_	start_char=77|end_char=78|NER=O
+16	saj	saj	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	amod:poss	_	start_char=79|end_char=82|NER=O
+17	në	në	ADP	_	Case=Acc	29	case	_	start_char=83|end_char=85|NER=O
+18	mënyrë	mënyrë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	advmod	_	start_char=86|end_char=92|NER=O
+19	makabre	makabr	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=93|end_char=100|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	33	punct	_	start_char=101|end_char=102|NER=O
+21	në	në	ADP	_	Case=Acc	33	case	_	start_char=103|end_char=105|NER=O
+22	qytetin	qytet	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	24	advmod	_	start_char=106|end_char=113|NER=O
+23	Kursk	Kursk	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	33	appos	_	start_char=114|end_char=119|SpaceAfter=No|NER=B-VEND_0
+24	.	.	PUNCT	_	_	24	punct	_	start_char=120|end_char=121|SpacesAfter=\n|NER=O
+
+# text = Sipas mediave lokale , 31 - vjeçarja Anastasia Baulina i mbushi gojën me benzinë djalit të saj dhe i vuri flakën .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	mediave	media	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	9	advmod	_	start_char=6|end_char=13|NER=O
+3	lokale	lokal	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=14|end_char=20|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	2	punct	_	start_char=21|end_char=22|NER=O
+5	31	31	NUM	_	NumType=Card	9	nsubj	_	start_char=23|end_char=25|NER=O
+6	-	-	PUNCT	_	_	9	punct	_	start_char=26|end_char=27|NER=O
+7	vjeçarja	31-vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	start_char=28|end_char=36|NER=O
+8	Anastasia	Anastasi	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	appos	_	start_char=37|end_char=46|NER=B-PER
+9	Baulina	Baulinë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	flat	_	start_char=47|end_char=54|NER=I-PER
+10	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	start_char=55|end_char=56|NER=O
+11	mbushi	mbush	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=57|end_char=63|NER=O
+12	gojën	gojë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	start_char=64|end_char=69|NER=O
+13	me	me	ADP	_	Case=Acc	12	case	_	start_char=70|end_char=72|NER=O
+14	benzinë	benzi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	start_char=73|end_char=80|NER=O
+15	djalit	djal	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=81|end_char=87|NER=O
+16	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	start_char=88|end_char=90|NER=O
+17	saj	saj	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	amod:poss	_	start_char=91|end_char=94|NER=O
+18	dhe	dhe	CCONJ	_	_	18	cc	_	start_char=95|end_char=98|NER=O
+19	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	iobj	_	start_char=99|end_char=100|NER=O
+20	vuri	vë	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	start_char=101|end_char=105|NER=O
+21	flakën	flakë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	start_char=106|end_char=112|SpaceAfter=No|NER=O
+22	.	.	PUNCT	_	_	18	punct	_	start_char=113|end_char=114|NER=O
+
+# text = Arsyeja ishte sepse djali i kishte thënë njerkut të tij se mamaja kishte takuar të dashurin .
+# sent_id = 2
+1	Arsyeja	Arsyejë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	start_char=0|end_char=7|NER=O
+2	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	start_char=8|end_char=13|NER=O
+3	sepse	sepse	SCONJ	_	_	7	mark	_	start_char=14|end_char=19|NER=O
+4	djali	djal	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=20|end_char=25|NER=O
+5	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=26|end_char=27|NER=O
+6	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	7	aux	_	start_char=28|end_char=34|NER=O
+7	thënë	them	VERB	_	VerbForm=Part	2	xcomp	_	start_char=35|end_char=40|NER=O
+8	njerkut	njerk	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=41|end_char=48|NER=O
+9	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=49|end_char=51|NER=O
+10	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	amod:poss	_	start_char=52|end_char=55|NER=O
+11	se	se	SCONJ	_	_	14	mark	_	start_char=56|end_char=58|NER=O
+12	mamaja	mamajë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	start_char=59|end_char=65|NER=O
+13	kishte	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	14	aux	_	start_char=66|end_char=72|NER=O
+14	takuar	takoj	VERB	_	VerbForm=Part	7	advcl	_	start_char=73|end_char=79|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=80|end_char=82|NER=O
+16	dashurin	dashur	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	start_char=83|end_char=91|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	14	punct	_	start_char=92|end_char=93|SpacesAfter=\n|NER=O
+
+# text = Motra e viktimës , 12 - vjeçarja Natasha e pa me sytë e saj ngjarjen , ndërkohë që njerku shoi zjarrin dhe dërgoi të voglin në spital .
+# sent_id = 3
+1	Motra	motër	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=5|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det:poss	_	start_char=6|end_char=7|NER=O
+3	viktimës	viktimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=16|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=17|end_char=18|NER=O
+5	12	12	NUM	_	NumType=Card	6	nummod	_	start_char=19|end_char=21|SpaceAfter=No|NER=O
+6	-	-	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|NER=O
+7	vjeçarja	vjeçarje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=24|end_char=32|NER=O
+8	Natasha	Natashë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	appos	_	start_char=33|end_char=40|NER=B-PER
+9	e	e	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	cc	_	start_char=41|end_char=42|NER=O
+10	pa	pa	ADP	_	Case=Acc	11	case	_	start_char=43|end_char=45|NER=O
+11	me	me	ADP	_	Case=Acc	11	case	_	start_char=46|end_char=48|NER=O
+12	sytë	sytë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=49|end_char=53|NER=O
+13	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=54|end_char=55|NER=O
+14	saj	saj	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=56|end_char=59|NER=O
+15	ngjarjen	ngjarje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=60|end_char=68|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	16	punct	_	start_char=69|end_char=70|NER=O
+17	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	19	advmod	_	start_char=71|end_char=79|NER=O
+18	që	që	PRON	_	PronType=Rel	19	nsubj	_	start_char=80|end_char=82|NER=O
+19	njerku	njerk	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	start_char=83|end_char=89|NER=O
+20	shoi	shoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl	_	start_char=90|end_char=94|NER=O
+21	zjarrin	zjarr	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	start_char=95|end_char=102|NER=O
+22	dhe	dhe	CCONJ	_	_	22	cc	_	start_char=103|end_char=106|NER=O
+23	dërgoi	dërgoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	start_char=107|end_char=113|NER=O
+24	të	të	PART	_	_	24	det	_	start_char=114|end_char=116|NER=O
+25	voglin	vogl	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	start_char=117|end_char=123|NER=O
+26	në	në	ADP	_	Case=Acc	26	case	_	start_char=124|end_char=126|NER=O
+27	spital	spital	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	start_char=127|end_char=133|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	22	punct	_	start_char=134|end_char=135|NER=O
+
+# text = 8 - vjeçari vdiq dy ditë pas shtrimit , për shkak se kishte djegie në 45 % të trupit .
+# sent_id = 4
+1	8	8	NUM	_	NumType=Card	2	nsubj	_	start_char=0|end_char=1|NER=O
+2	-	-	PUNCT	_	_	2	punct	_	start_char=2|end_char=3|NER=O
+3	vjeçari	8-vjeçar	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	start_char=4|end_char=11|NER=O
+4	vdiq	vdes	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=12|end_char=16|NER=O
+5	dy	dy	NUM	_	NumType=Card	4	nummod	_	start_char=17|end_char=19|NER=O
+6	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	start_char=20|end_char=24|NER=O
+7	pas	pas	ADP	_	Case=Abl	6	case	_	start_char=25|end_char=28|NER=O
+8	shtrimit	shtrim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	advmod	_	start_char=29|end_char=37|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	9	punct	_	start_char=38|end_char=39|NER=O
+10	për	për	ADP	_	Case=Acc	9	case	_	start_char=40|end_char=43|NER=O
+11	shkak	shkak	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	advmod	_	start_char=44|end_char=49|NER=O
+12	se	se	SCONJ	_	_	11	mark	_	start_char=50|end_char=52|NER=O
+13	kishte	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	2	advcl	_	start_char=53|end_char=59|NER=O
+14	djegie	djegie	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	start_char=60|end_char=66|NER=O
+15	në	në	ADP	_	Case=Acc	15	case	_	start_char=67|end_char=69|NER=O
+16	45	45	NUM	_	NumType=Card	15	nummod	_	start_char=70|end_char=72|SpaceAfter=No|NER=O
+17	%	%	SYM	_	_	11	advmod	_	start_char=73|end_char=74|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=75|end_char=77|NER=O
+19	trupit	trup	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=78|end_char=84|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	11	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Nëse dënohet , nëna rrezikon 20 vite burg .
+# sent_id = 5
+1	Nëse	nëse	SCONJ	_	_	2	mark	_	start_char=0|end_char=4|NER=O
+2	dënohet	dënoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	5	advmod	_	start_char=5|end_char=12|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	1	punct	_	start_char=13|end_char=14|NER=O
+4	nëna	nënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=15|end_char=19|NER=O
+5	rrezikon	rrezikoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=20|end_char=28|NER=O
+6	20	20	NUM	_	NumType=Card	7	nummod	_	start_char=29|end_char=31|NER=O
+7	vite	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=32|end_char=36|NER=O
+8	burg	burg	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	start_char=37|end_char=41|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	5	punct	_	start_char=42|end_char=43|SpacesAfter=\n|NER=O
+

@@ -1,0 +1,109 @@
+# text = 01 / 08 / 2023 " Hieprtensionet apo pacientët që kanë qenë post - intervent , kryesisht janë paraqitur me një tension të ulët .
+# sent_id = 0
+1	01	01	NUM	_	NumType=Card	6	amod:nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	6	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	08	08	NUM	_	NumType=Card	6	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	10	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	8	conj	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	"	"	PUNCT	_	_	28	punct	_	start_char=15|end_char=16|SpaceAfter=No|NER=O
+7	Hieprtensionet	Hieprtension	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	26	appos	_	start_char=17|end_char=31|NER=O
+8	apo	apo	CCONJ	_	_	30	cc	_	start_char=32|end_char=35|NER=O
+9	pacientët	pacientë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	28	conj	_	start_char=36|end_char=45|NER=O
+10	që	që	PRON	_	PronType=Rel	33	nsubj	_	start_char=46|end_char=48|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=49|end_char=53|NER=O
+12	qenë	jam	VERB	_	VerbForm=Part	30	acl:relcl	_	start_char=54|end_char=58|NER=O
+13	post	post-interven	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	33	cop	_	start_char=59|end_char=63|SpaceAfter=No|NER=O
+14	-	-	PUNCT	_	_	33	punct	_	start_char=64|end_char=65|SpaceAfter=No|NER=O
+15	intervent	post-interven	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	33	cop	_	start_char=66|end_char=75|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	36	punct	_	start_char=76|end_char=77|NER=O
+17	kryesisht	kryesisht	ADV	_	AdvType=Man	38	mark	_	start_char=78|end_char=87|NER=O
+18	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	38	aux	_	start_char=88|end_char=92|NER=O
+19	paraqitur	paraqit	VERB	_	VerbForm=Part	33	advcl	_	start_char=93|end_char=102|NER=O
+20	me	me	ADP	_	Case=Acc	41	case	_	start_char=103|end_char=105|NER=O
+21	një	një	DET	_	Definite=Ind	41	det	_	start_char=106|end_char=109|NER=O
+22	tension	tension	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	38	obl	_	start_char=110|end_char=117|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=118|end_char=120|NER=O
+24	ulët	ulët	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	start_char=121|end_char=125|SpaceAfter=No|NER=O
+25	.	.	PUNCT	_	_	38	punct	_	start_char=126|end_char=127|NER=O
+
+# text = Duket që kanë marrë ilaçet e tensionit , por nuk kanë marrë lëngjet e duhura " , shprehet mjekja e urgjencës në QSUT , Anduela Mino Çuko .
+# sent_id = 1
+1	Duket	dukem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=0|end_char=5|NER=O
+2	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=6|end_char=8|NER=O
+3	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	start_char=9|end_char=13|NER=O
+4	marrë	marr	VERB	_	VerbForm=Part	1	advcl	_	start_char=14|end_char=19|NER=O
+5	ilaçet	ilaçet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=20|end_char=26|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	7	det:poss	_	start_char=27|end_char=28|NER=O
+7	tensionit	tension	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=29|end_char=38|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=39|end_char=40|NER=O
+9	por	por	CCONJ	_	_	12	cc	_	start_char=41|end_char=44|NER=O
+10	nuk	nuk	PART	_	_	12	mark	_	start_char=45|end_char=48|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	start_char=49|end_char=53|NER=O
+12	marrë	marr	VERB	_	VerbForm=Part	1	conj	_	start_char=54|end_char=59|NER=O
+13	lëngjet	lëngje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	12	obj	_	start_char=60|end_char=67|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=68|end_char=69|NER=O
+15	duhura	duhura	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=70|end_char=76|SpaceAfter=No|NER=O
+16	"	"	PUNCT	_	_	13	punct	_	start_char=77|end_char=78|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	17	punct	_	start_char=79|end_char=80|NER=O
+18	shprehet	shprej	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	conj	_	start_char=81|end_char=89|NER=O
+19	mjekja	mjekjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	start_char=90|end_char=96|NER=O
+20	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	20	det:poss	_	start_char=97|end_char=98|NER=O
+21	urgjencës	urgjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	start_char=99|end_char=108|NER=O
+22	në	në	ADP	_	Case=Acc	22	case	_	start_char=109|end_char=111|NER=O
+23	QSUT	QSUT	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	advmod	_	start_char=112|end_char=116|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	24	punct	_	start_char=117|end_char=118|NER=O
+25	Anduela	Anduelë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	appos	_	start_char=119|end_char=126|NER=B-PER
+26	Mino	Mino	PROPN	_	Case=Nom|Definite=Ind|Foreign=Yes|Gender=Masc|Number=Sing	24	flat	_	start_char=127|end_char=131|NER=I-PER
+27	Çuko	Çuko	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	24	flat	_	start_char=132|end_char=136|SpaceAfter=No|NER=I-PER
+28	.	.	PUNCT	_	_	17	punct	_	start_char=137|end_char=138|SpacesAfter=\n|NER=O
+
+# text = " Kemi patur raste 30 apo 32 - vjeçarë që kanë ardhur me infarkte të mokardit .
+# sent_id = 2
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kemi	kam	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	start_char=2|end_char=6|NER=O
+3	patur	patoj	VERB	_	VerbForm=Part	0	root	_	start_char=7|end_char=12|NER=O
+4	raste	rast	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	start_char=13|end_char=18|NER=O
+5	30	30	NUM	_	NumType=Card	4	nummod	_	start_char=19|end_char=21|NER=O
+6	apo	apo	CCONJ	_	_	8	cc	_	start_char=22|end_char=25|NER=O
+7	32	32	NUM	_	NumType=Card	8	nummod	_	start_char=26|end_char=28|SpaceAfter=No|NER=O
+8	-	-	PUNCT	_	_	4	punct	_	start_char=29|end_char=30|NER=O
+9	vjeçarë	vjeçar	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	start_char=31|end_char=38|NER=O
+10	që	që	PRON	_	PronType=Rel	11	nsubj	_	start_char=39|end_char=41|NER=O
+11	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	start_char=42|end_char=46|NER=O
+12	ardhur	vij	VERB	_	VerbForm=Part	8	acl:relcl	_	start_char=47|end_char=53|NER=O
+13	me	me	ADP	_	Case=Acc	13	case	_	start_char=54|end_char=56|NER=O
+14	infarkte	infarkt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	start_char=57|end_char=65|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	15	det:poss	_	start_char=66|end_char=68|NER=O
+16	mokardit	mokard	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	start_char=69|end_char=77|SpaceAfter=No|NER=O
+17	.	.	PUNCT	_	_	11	punct	_	start_char=78|end_char=79|NER=O
+
+# text = Mund ta ketë nxitur stili i jetesës , duhanpirja , obeziteti apo një jetë sedentare " , tha Çuko .
+# sent_id = 3
+1	Mund	mund	AUX	_	_	5	aux	_	start_char=0|end_char=4|NER=O
+2	ta	_	_	_	_	_	_	_	start_char=5|end_char=7|NER=O
+3	ketë	kam	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=8|end_char=12|NER=O
+4	nxitur	nxitoj	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=19|NER=O
+5	stili	stil	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=20|end_char=25|NER=O
+6	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	8	det:poss	_	start_char=26|end_char=27|NER=O
+7	jetesës	jetesë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=28|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	10	punct	_	start_char=36|end_char=37|NER=O
+9	duhanpirja	duhanpirje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	list	_	start_char=38|end_char=48|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50|NER=O
+11	obeziteti	obezitet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	list	_	start_char=51|end_char=60|NER=O
+12	apo	apo	CCONJ	_	_	15	cc	_	start_char=61|end_char=64|NER=O
+13	një	një	DET	_	Definite=Ind	15	iobj	_	start_char=65|end_char=68|NER=O
+14	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	start_char=69|end_char=73|NER=O
+15	sedentare	sedentar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	cop	_	start_char=74|end_char=83|SpaceAfter=No|NER=O
+16	"	"	PUNCT	_	_	15	punct	_	start_char=84|end_char=85|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=86|end_char=87|NER=O
+18	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	start_char=88|end_char=91|NER=O
+19	Çuko	Çuko	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=92|end_char=96|SpaceAfter=No|NER=B-PER
+20	.	.	PUNCT	_	_	18	punct	_	start_char=97|end_char=98|SpacesAfter=\n|NER=O
+
+# text = Gazetar : Sonila Mlloja
+# sent_id = 4
+1	Gazetar	Gazetar	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=8|end_char=9|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=16|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=17|end_char=23|SpacesAfter=\n|NER=I-PER
+

@@ -1,0 +1,49 @@
+# text = 2 opera 119 , kësaj radhe me pjesëmarrjen e veçantë të violonçelistit francez , Aurelien Sabouret .
+# sent_id = 0
+1	2	2	NUM	_	NumType=Card	28	nummod	_	start_char=0|end_char=1|NER=O
+2	opera	operë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	start_char=2|end_char=7|NER=O
+3	119	119	NUM	_	NumType=Card	2	amod:nummod	_	start_char=8|end_char=11|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	6	punct	_	start_char=12|end_char=13|NER=O
+5	kësaj	kjo	PRON	_	Case=Abl|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=14|end_char=19|NER=O
+6	radhe	radhë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	start_char=20|end_char=25|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=26|end_char=28|NER=O
+8	pjesëmarrjen	pjesëmarrje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	start_char=29|end_char=41|NER=O
+9	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=42|end_char=43|NER=O
+10	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=44|end_char=51|NER=O
+11	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=52|end_char=54|NER=O
+12	violonçelistit	violonçelist	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	start_char=55|end_char=69|NER=O
+13	francez	francez	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=70|end_char=77|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	15	punct	_	start_char=78|end_char=79|NER=O
+15	Aurelien	Aurelie	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=80|end_char=88|NER=B-PER
+16	Sabouret	Sabour	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	flat	_	start_char=89|end_char=97|SpaceAfter=No|NER=I-PER
+17	.	.	PUNCT	_	_	2	punct	_	start_char=98|end_char=99|SpacesAfter=\n|NER=O
+
+# text = Koncerti do të mbahet ditën e dielë , më 2 prill në Qendrën Kulturore të Katedrales Ortodokse në Tiranë , në orën 19 : 00 .
+# sent_id = 1
+1	Koncerti	Koncert	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=8|NER=O
+2	do	do	PART	_	_	4	fixed	_	start_char=9|end_char=11|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=12|end_char=14|NER=O
+4	mbahet	mbaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=15|end_char=21|NER=O
+5	ditën	ditë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=22|end_char=27|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=28|end_char=29|NER=O
+7	dielë	dielë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=30|end_char=35|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	11	punct	_	start_char=36|end_char=37|NER=O
+9	më	më	ADP	_	Case=Acc	11	case	_	start_char=38|end_char=40|NER=O
+10	2	2	NUM	_	NumType=Card	11	nummod	_	start_char=41|end_char=42|NER=B-DATE_0
+11	prill	prill	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=43|end_char=48|NER=I-DATE_0
+12	në	në	ADP	_	Case=Acc	13	case	_	start_char=49|end_char=51|NER=O
+13	Qendrën	qendër	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=52|end_char=59|NER=O
+14	Kulturore	kulturor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=60|end_char=69|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=70|end_char=72|NER=O
+16	Katedrales	Katedrale	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=73|end_char=83|NER=O
+17	Ortodokse	Ortodoks	PROPN	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	flat	_	start_char=84|end_char=93|NER=O
+18	në	në	ADP	_	Case=Acc	19	case	_	start_char=94|end_char=96|NER=O
+19	Tiranë	Tiranë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	start_char=97|end_char=103|SpaceAfter=No|NER=B-VEND_0
+20	,	,	PUNCT	_	_	22	punct	_	start_char=104|end_char=105|NER=O
+21	në	në	ADP	_	Case=Acc	22	case	_	start_char=106|end_char=108|NER=O
+22	orën	orë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	advmod	_	start_char=109|end_char=113|NER=O
+23	19	19	NUM	_	NumType=Card	22	nummod	_	start_char=114|end_char=116|SpaceAfter=No|NER=O
+24	:	:	PUNCT	_	_	22	punct	_	start_char=117|end_char=118|SpaceAfter=No|NER=O
+25	00	00	NUM	_	NumType=Card	22	nmod	_	start_char=119|end_char=121|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	4	punct	_	start_char=122|end_char=123|SpacesAfter=\n\n|NER=O
+

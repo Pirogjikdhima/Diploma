@@ -1,0 +1,37 @@
+# text = 5 ditë më vonë më , 19 qershor , maturantët do t ' i nënshtrohen provimit të fundit të maturës , atij të lëndës me zgjedhje .
+# sent_id = 0
+1	5	5	NUM	_	NumType=Card	7	amod:poss	_	start_char=0|end_char=1|NER=O
+2	ditë	ditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	advmod	_	start_char=2|end_char=6|NER=O
+3	më	më	PART	_	_	4	mark	_	start_char=7|end_char=9|NER=O
+4	vonë	vonë	ADV	_	AdvType=Tim	2	advmod	_	start_char=10|end_char=14|NER=O
+5	më	më	ADP	_	Case=Acc	8	case	_	start_char=15|end_char=17|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	8	punct	_	start_char=18|end_char=19|NER=O
+7	19	19	NUM	_	NumType=Card	8	nummod	_	start_char=20|end_char=22|NER=B-DATE_0
+8	qershor	qershor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	advmod	_	start_char=23|end_char=30|SpaceAfter=No|NER=I-DATE_0
+9	,	,	PUNCT	_	_	8	punct	_	start_char=31|end_char=32|NER=O
+10	maturantët	maturantë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	start_char=33|end_char=43|NER=O
+11	do	do	PART	_	_	13	fixed	_	start_char=44|end_char=46|NER=O
+12	t	t'i	PART	_	_	13	obj	_	start_char=47|end_char=48|NER=O
+13	'	'	PUNCT	_	_	13	punct	_	start_char=49|end_char=50|NER=O
+14	i	t'i	PART	_	_	13	obj	_	start_char=51|end_char=52|NER=O
+15	nënshtrohen	nënshtroj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=53|end_char=64|NER=O
+16	provimit	provim	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	13	obj	_	start_char=65|end_char=73|NER=O
+17	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=74|end_char=76|NER=O
+18	fundit	fundit	ADJ	_	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=77|end_char=83|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=84|end_char=86|NER=O
+20	maturës	maturë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	start_char=87|end_char=94|SpaceAfter=No|NER=O
+21	,	,	PUNCT	_	_	20	punct	_	start_char=95|end_char=96|NER=O
+22	atij	ai	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	appos	_	start_char=97|end_char=101|NER=O
+23	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=102|end_char=104|NER=O
+24	lëndës	lëndë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=105|end_char=111|NER=O
+25	me	me	ADP	_	Case=Acc	24	case	_	start_char=112|end_char=114|NER=O
+26	zgjedhje	zgjedhje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	start_char=115|end_char=123|SpaceAfter=No|NER=O
+27	.	.	PUNCT	_	_	13	punct	_	start_char=124|end_char=125|SpacesAfter=\n\n|NER=O
+
+# text = Gazetare : Keti Toroveci
+# sent_id = 1
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Keti	Keti	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=16|end_char=24|SpacesAfter=\n|NER=I-PER
+

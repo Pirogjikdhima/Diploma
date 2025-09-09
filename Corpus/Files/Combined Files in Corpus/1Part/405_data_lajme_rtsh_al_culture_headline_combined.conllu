@@ -1,0 +1,108 @@
+# text = 28 / 07 / 2023 Çmimet Emmy ishin planifikuar të transmetoheshin në Fox më 18 shtator .
+# sent_id = 0
+1	28	28	NUM	_	NumType=Card	16	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	14	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	07	07	NUM	_	NumType=Card	14	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	16	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	16	nummod	_	start_char=10|end_char=14|SpacesAfter=\n|NER=I-DATE_0
+6	Çmimet	çmim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=15|end_char=21|NER=O
+7	Emmy	Emmy	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=22|end_char=26|NER=O
+8	ishin	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	4	aux	_	start_char=27|end_char=32|NER=O
+9	planifikuar	planifikoj	VERB	_	VerbForm=Part	0	root	_	start_char=33|end_char=44|NER=O
+10	të	të	PART	_	_	6	fixed	_	start_char=45|end_char=47|NER=O
+11	transmetoheshin	transmetoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Pass	4	ccomp	_	start_char=48|end_char=63|NER=O
+12	në	në	ADP	_	Case=Acc	8	case	_	start_char=64|end_char=66|NER=O
+13	Fox	Fox	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	start_char=67|end_char=70|NER=O
+14	më	më	ADP	_	Case=Acc	11	case	_	start_char=71|end_char=73|NER=O
+15	18	18	NUM	_	NumType=Card	11	nummod	_	start_char=74|end_char=76|NER=B-DATE_0
+16	shtator	shator	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	advmod	_	start_char=77|end_char=84|SpaceAfter=No|NER=I-DATE_0
+17	.	.	PUNCT	_	_	4	punct	_	start_char=85|end_char=86|SpacesAfter=\n|NER=O
+
+# text = " Ted Lasso " ka nominimet më të shumta në kategorinë e komedisë me 21 , duke përfshirë serialin më të mirë komedi dhe aktorin më të mirë për Jason Sudeikis .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ted	Ted	PROPN	_	Case=Nom|Foreign=Yes	5	nsubj	_	start_char=2|end_char=5|NER=O
+3	Lasso	Lasso	PROPN	_	Foreign=Yes	2	flat	_	start_char=6|end_char=11|SpaceAfter=No|NER=O
+4	"	"	PUNCT	_	_	2	punct	_	start_char=12|end_char=13|NER=O
+5	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=16|NER=O
+6	nominimet	nominim	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=17|end_char=26|NER=O
+7	më	më	PART	_	_	9	mark	_	start_char=27|end_char=29|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det	_	start_char=30|end_char=32|NER=O
+9	shumta	shumta	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=33|end_char=39|NER=O
+10	në	në	ADP	_	Case=Acc	11	case	_	start_char=40|end_char=42|NER=O
+11	kategorinë	kategori	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=43|end_char=53|NER=O
+12	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=54|end_char=55|NER=O
+13	komedisë	komedi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=56|end_char=64|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=65|end_char=67|NER=O
+15	21	21	NUM	_	NumType=Card	11	nummod	_	start_char=68|end_char=70|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=71|end_char=72|NER=O
+17	duke	duke	PART	_	_	18	fixed	_	start_char=73|end_char=77|NER=O
+18	përfshirë	përfshij	VERB	_	VerbForm=Part	5	advmod	_	start_char=78|end_char=87|NER=O
+19	serialin	serial	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=88|end_char=96|NER=O
+20	më	më	PART	_	_	22	mark	_	start_char=97|end_char=99|NER=O
+21	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=100|end_char=102|NER=O
+22	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=103|end_char=107|NER=O
+23	komedi	komed	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	start_char=108|end_char=114|NER=O
+24	dhe	dhe	CCONJ	_	_	25	cc	_	start_char=115|end_char=118|NER=O
+25	aktorin	aktor	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	conj	_	start_char=119|end_char=126|NER=O
+26	më	më	PART	_	_	28	mark	_	start_char=127|end_char=129|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	28	det	_	start_char=130|end_char=132|NER=O
+28	mirë	mirë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=133|end_char=137|NER=O
+29	për	për	ADP	_	Case=Acc	30	case	_	start_char=138|end_char=141|NER=O
+30	Jason	Jaso	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	28	advmod	_	start_char=142|end_char=147|NER=B-PER
+31	Sudeikis	sudeik	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	flat	_	start_char=148|end_char=156|SpaceAfter=No|NER=I-PER
+32	.	.	PUNCT	_	_	5	punct	_	start_char=157|end_char=158|SpacesAfter=\n|NER=O
+
+# text = Afërsisht 65 , 000 aktorë të SAG - AFTRA dhe 11 , 500 skenarë të Guildit të Shkrimtarëve të Amerikës janë në grevë , duke bërë thirrje për paga më të mira , strukturë me pagesa të qarta dhe mbrojtje nga përdorimi i inteligjencës artificiale .
+# sent_id = 2
+1	Afërsisht	afërsisht	ADV	_	AdvType=Man	19	advmod	_	start_char=0|end_char=9|NER=O
+2	65	65	NUM	_	NumType=Card	19	advmod	_	start_char=10|end_char=12|SpaceAfter=No|NER=O
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14|SpaceAfter=No|NER=O
+4	000	000	NUM	_	NumType=Card	5	nummod	_	start_char=15|end_char=18|NER=O
+5	aktorë	aktorë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	advmod	_	start_char=19|end_char=25|NER=O
+6	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=26|end_char=28|NER=O
+7	SAG	SAG-AFTR	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=29|end_char=32|NER=O
+8	-	-	PUNCT	_	_	5	punct	_	start_char=33|end_char=34|NER=O
+9	AFTRA	SAG-AFTR	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=40|NER=O
+10	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=41|end_char=44|NER=O
+11	11	11	NUM	_	NumType=Card	7	conj	_	start_char=45|end_char=47|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	12	punct	_	start_char=48|end_char=49|SpaceAfter=No|NER=O
+13	500	500	NUM	_	NumType=Card	12	nummod	_	start_char=50|end_char=53|NER=O
+14	skenarë	skenarë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	19	advmod	_	start_char=54|end_char=61|NER=O
+15	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	14	det:poss	_	start_char=62|end_char=64|NER=O
+16	Guildit	Guild	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=65|end_char=72|NER=O
+17	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	16	det:poss	_	start_char=73|end_char=75|NER=O
+18	Shkrimtarëve	shkrimtar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	start_char=76|end_char=88|NER=O
+19	të	të	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Art	18	det:poss	_	start_char=89|end_char=91|NER=O
+20	Amerikës	Amerikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=92|end_char=100|NER=B-VEND_1
+21	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=101|end_char=105|NER=O
+22	në	në	ADP	_	Case=Acc	21	case	_	start_char=106|end_char=108|NER=O
+23	grevë	grevë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	advmod	_	start_char=109|end_char=114|SpaceAfter=No|NER=O
+24	,	,	PUNCT	_	_	24	punct	_	start_char=115|end_char=116|NER=O
+25	duke	duke	PART	_	_	24	fixed	_	start_char=117|end_char=121|NER=O
+26	bërë	bëj	VERB	_	VerbForm=Part	19	advmod	_	start_char=122|end_char=126|NER=O
+27	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=127|end_char=134|NER=O
+28	për	për	ADP	_	Case=Acc	27	case	_	start_char=135|end_char=138|NER=O
+29	paga	pagë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	24	advmod	_	start_char=139|end_char=143|NER=O
+30	më	më	PART	_	_	30	mark	_	start_char=144|end_char=146|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	30	det	_	start_char=147|end_char=149|NER=O
+32	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=150|end_char=154|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	32	punct	_	start_char=155|end_char=156|NER=O
+34	strukturë	strukturë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	list	_	start_char=157|end_char=166|NER=O
+35	me	me	ADP	_	Case=Acc	34	case	_	start_char=167|end_char=169|NER=O
+36	pagesa	pagesë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	32	nmod	_	start_char=170|end_char=176|NER=O
+37	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	36	det	_	start_char=177|end_char=179|NER=O
+38	qarta	qartë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=180|end_char=185|NER=O
+39	dhe	dhe	CCONJ	_	_	38	cc	_	start_char=186|end_char=189|NER=O
+40	mbrojtje	mbrojtje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	34	conj	_	start_char=190|end_char=198|NER=O
+41	nga	nga	ADP	_	Case=Nom	40	case	_	start_char=199|end_char=202|NER=O
+42	përdorimi	përdorim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	start_char=203|end_char=212|NER=O
+43	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	42	det:poss	_	start_char=213|end_char=214|NER=O
+44	inteligjencës	inteligjencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	40	nmod	_	start_char=215|end_char=228|NER=O
+45	artificiale	artificial	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=229|end_char=240|SpaceAfter=No|NER=O
+46	.	.	PUNCT	_	_	38	punct	_	start_char=241|end_char=242|NER=O
+
+# text = Apnews
+# sent_id = 3
+1	Apnews	Apnew	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6|SpacesAfter=\n|NER=O
+

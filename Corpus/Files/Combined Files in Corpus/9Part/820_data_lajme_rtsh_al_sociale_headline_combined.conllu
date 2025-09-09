@@ -1,0 +1,152 @@
+# text = 09 / 09 / 2023 Vasillo , një banore e Dropullit thotë se zahiretë përdoren për dimër .
+# sent_id = 0
+1	09	09	NUM	_	NumType=Card	17	amod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	17	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	09	09	NUM	_	NumType=Card	17	nummod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	21	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2023	2023	NUM	_	NumType=Card	17	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Vasillo	Vasillo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=15|end_char=22|SpaceAfter=No|NER=B-PER
+7	,	,	PUNCT	_	_	4	punct	_	start_char=23|end_char=24|NER=O
+8	një	një	DET	_	Definite=Ind	4	det	_	start_char=25|end_char=28|NER=O
+9	banore	banor	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	start_char=29|end_char=35|NER=O
+10	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det:poss	_	start_char=36|end_char=37|NER=O
+11	Dropullit	Dropull	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=38|end_char=47|NER=O
+12	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=48|end_char=53|NER=O
+13	se	se	SCONJ	_	_	10	mark	_	start_char=54|end_char=56|NER=O
+14	zahiretë	zahire	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	start_char=57|end_char=65|NER=O
+15	përdoren	përdor	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	7	ccomp	_	start_char=66|end_char=74|NER=O
+16	për	për	ADP	_	Case=Acc	12	case	_	start_char=75|end_char=78|NER=O
+17	dimër	dimër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	start_char=79|end_char=84|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	7	punct	_	start_char=85|end_char=86|NER=O
+
+# text = Ato janë shumë të ushqyeshme dhe me vlerë .
+# sent_id = 1
+1	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=8|NER=O
+3	shumë	shumë	ADV	_	AdvType=Deg	5	advmod	_	start_char=9|end_char=14|NER=O
+4	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=15|end_char=17|NER=O
+5	ushqyeshme	ushqyeshëm	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	cop	_	start_char=18|end_char=28|NER=O
+6	dhe	dhe	CCONJ	_	_	8	cc	_	start_char=29|end_char=32|NER=O
+7	me	me	ADP	_	Case=Acc	8	case	_	start_char=33|end_char=35|NER=O
+8	vlerë	vlerë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	advmod	_	start_char=36|end_char=41|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	2	punct	_	start_char=42|end_char=43|NER=O
+
+# text = Përbërësit e tyre banorët e Dropullit i gjejnë në zonë .
+# sent_id = 2
+1	Përbërësit	përbërës	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	start_char=0|end_char=10|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det:poss	_	start_char=11|end_char=12|NER=O
+3	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	amod:poss	_	start_char=13|end_char=17|NER=O
+4	banorët	banor	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	start_char=18|end_char=25|NER=O
+5	e	e	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det:poss	_	start_char=26|end_char=27|NER=O
+6	Dropullit	Dropull	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	start_char=28|end_char=37|NER=O
+7	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	iobj	_	start_char=38|end_char=39|NER=O
+8	gjejnë	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=40|end_char=46|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=47|end_char=49|NER=O
+10	zonë	zonë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	start_char=50|end_char=54|SpaceAfter=No|NER=O
+11	.	.	PUNCT	_	_	8	punct	_	start_char=55|end_char=56|SpacesAfter=\n|NER=O
+
+# text = Zonja Vasillo artin e gatimit e ka të trashëguar nga gjyshja dhe nëna e saj .
+# sent_id = 3
+1	Zonja	Zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=5|NER=O
+2	Vasillo	Vasillo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=13|NER=B-PER
+3	artin	art	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=14|end_char=19|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det:poss	_	start_char=20|end_char=21|NER=O
+5	gatimit	gatim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	start_char=22|end_char=29|NER=O
+6	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=30|end_char=31|NER=O
+7	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=32|end_char=34|NER=O
+8	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=35|end_char=37|NER=O
+9	trashëguar	trashëguar	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	cop	_	start_char=38|end_char=48|NER=O
+10	nga	nga	ADP	_	Case=Nom	11	case	_	start_char=49|end_char=52|NER=O
+11	gjyshja	gjyshje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	advmod	_	start_char=53|end_char=60|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=61|end_char=64|NER=O
+13	nëna	nënë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	start_char=65|end_char=69|NER=O
+14	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	15	det:poss	_	start_char=70|end_char=71|NER=O
+15	saj	saj	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	amod:poss	_	start_char=72|end_char=75|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	7	punct	_	start_char=76|end_char=77|NER=O
+
+# text = Ajo është marrë me përgatitjen e zahireve qysh në moshën 17 vjeçare .
+# sent_id = 4
+1	Ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3|NER=O
+2	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	start_char=4|end_char=9|NER=O
+3	marrë	marr	VERB	_	VerbForm=Part	0	root	_	start_char=10|end_char=15|NER=O
+4	me	me	ADP	_	Case=Acc	5	case	_	start_char=16|end_char=18|NER=O
+5	përgatitjen	përgatitje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	start_char=19|end_char=30|NER=O
+6	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=31|end_char=32|NER=O
+7	zahireve	zahir	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	start_char=33|end_char=41|NER=O
+8	qysh	qysh	ADV	_	AdvType=Loc	10	advmod	_	start_char=42|end_char=46|NER=O
+9	në	në	ADP	_	Case=Acc	10	case	_	start_char=47|end_char=49|NER=O
+10	moshën	moshë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	advmod	_	start_char=50|end_char=56|NER=O
+11	17	17	NUM	_	NumType=Card	10	nummod	_	start_char=57|end_char=59|NER=O
+12	vjeçare	vjeçar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=60|end_char=67|SpaceAfter=No|NER=O
+13	.	.	PUNCT	_	_	3	punct	_	start_char=68|end_char=69|NER=O
+
+# text = " Nuk ka kënaqësi më të madhe kur përgatisim zahiretë e dimrit " thotë Vasilloja .
+# sent_id = 5
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Nuk	nuk	PART	_	_	3	mark	_	start_char=2|end_char=5|NER=O
+3	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=8|NER=O
+4	kënaqësi	kënaqësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	start_char=9|end_char=17|NER=O
+5	më	më	PART	_	_	7	mark	_	start_char=18|end_char=20|NER=O
+6	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=21|end_char=23|NER=O
+7	madhe	madh	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=24|end_char=29|NER=O
+8	kur	kur	SCONJ	_	_	9	mark	_	start_char=30|end_char=33|NER=O
+9	përgatisim	përgatis	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	acl:relcl	_	start_char=34|end_char=44|NER=O
+10	zahiretë	zahire	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=45|end_char=53|NER=O
+11	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	12	det:poss	_	start_char=54|end_char=55|NER=O
+12	dimrit	dimër	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	start_char=56|end_char=62|SpaceAfter=No|NER=O
+13	"	"	PUNCT	_	_	14	punct	_	start_char=63|end_char=64|NER=O
+14	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	start_char=65|end_char=70|NER=O
+15	Vasilloja	Vasillojë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	start_char=71|end_char=80|SpaceAfter=No|NER=B-PER
+16	.	.	PUNCT	_	_	14	punct	_	start_char=81|end_char=82|NER=O
+
+# text = " Ato i përgatisim në rradhë të parë për fëmijët , nipërit e mbesat , e pastaj për vete " thotë ajo .
+# sent_id = 6
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Ato	ato	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=2|end_char=5|NER=O
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=6|end_char=7|NER=O
+4	përgatisim	përgatis	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=8|end_char=18|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=19|end_char=21|NER=O
+6	rradhë	rradhë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	start_char=22|end_char=28|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=29|end_char=31|NER=O
+8	parë	parë	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=32|end_char=36|NER=O
+9	për	për	ADP	_	Case=Acc	10	case	_	start_char=37|end_char=40|NER=O
+10	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	start_char=41|end_char=48|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50|NER=O
+12	nipërit	nipër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	10	list	_	start_char=51|end_char=58|NER=O
+13	e	e	CCONJ	_	_	14	cc	_	start_char=59|end_char=60|NER=O
+14	mbesat	mbesë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	12	conj	_	start_char=61|end_char=67|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	17	punct	_	start_char=68|end_char=69|NER=O
+16	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	cc	_	start_char=70|end_char=71|NER=O
+17	pastaj	pastaj	ADV	_	AdvType=Tim	21	advmod	_	start_char=72|end_char=78|NER=O
+18	për	për	ADP	_	Case=Acc	19	case	_	start_char=79|end_char=82|NER=O
+19	vete	vete	PRON	_	PronType=Prs|Reflex=Yes	21	advmod	_	start_char=83|end_char=87|SpaceAfter=No|NER=O
+20	"	"	PUNCT	_	_	19	punct	_	start_char=88|end_char=89|NER=O
+21	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	start_char=90|end_char=95|NER=O
+22	ajo	ajo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=96|end_char=99|SpaceAfter=No|NER=O
+23	.	.	PUNCT	_	_	21	punct	_	start_char=100|end_char=101|SpacesAfter=\n|NER=O
+
+# text = Zonja Vasillo është e kënaqur që këtë traditë po ua trashëgon edhe të rinjve dropullitë .
+# sent_id = 7
+1	Zonja	Zonjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=5|NER=O
+2	Vasillo	Vasillo	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=13|NER=B-PER
+3	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=14|end_char=19|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	kënaqur	kënaqur	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	cop	_	start_char=22|end_char=29|NER=O
+6	që	që	SCONJ	_	_	12	mark	_	start_char=30|end_char=32|NER=O
+7	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=33|end_char=37|NER=O
+8	traditë	traditë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	advmod	_	start_char=38|end_char=45|NER=O
+9	po	po	PART	_	_	12	mark	_	start_char=46|end_char=48|NER=O
+10	ua	_	_	_	_	_	_	_	start_char=49|end_char=51|NER=O
+11	trashëgon	trashëgoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	start_char=52|end_char=61|NER=O
+12	edhe	edhe	PART	_	_	15	mark	_	start_char=62|end_char=66|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=67|end_char=69|NER=O
+14	rinjve	ri	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	obj	_	start_char=70|end_char=76|NER=O
+15	dropullitë	dropulli	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	start_char=77|end_char=87|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	12	punct	_	start_char=88|end_char=89|SpacesAfter=\n|NER=O
+
+# text = Gazetare Megi Mëhilli
+# sent_id = 8
+1	Gazetare	Gazetar	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|NER=O
+2	Megi	Megi	PROPN	_	Case=Nom|Foreign=Yes	1	flat	_	start_char=9|end_char=13|NER=B-PER
+3	Mëhilli	Mëhill	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	flat	_	start_char=14|end_char=21|SpacesAfter=\n|NER=I-PER
+

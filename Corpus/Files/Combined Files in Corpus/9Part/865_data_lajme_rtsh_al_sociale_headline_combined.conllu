@@ -1,0 +1,254 @@
+# text = Në gusht u rritën infektimet me COVID / ISHP : Duhet të rivaksinohemi 01 / 09 / 2023 Instituti i Shëndetit Publik konfirmon rritjen e incidencës së infektimeve me COVID - 19 .
+# sent_id = 0
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	gusht	gusht	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	advmod	_	start_char=3|end_char=8|NER=O
+3	u	u	PART	_	_	4	fixed	_	start_char=9|end_char=10|NER=O
+4	rritën	rrit	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=11|end_char=17|NER=O
+5	infektimet	infektim	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=18|end_char=28|NER=O
+6	me	me	ADP	_	Case=Acc	7	case	_	start_char=29|end_char=31|NER=O
+7	COVID	COVID	PROPN	_	Foreign=Yes	4	advmod	_	start_char=32|end_char=37|NER=O
+8	/	/	PUNCT	_	_	4	punct	_	start_char=38|end_char=39|NER=O
+9	ISHP	ISHP	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	start_char=40|end_char=44|SpaceAfter=No|NER=B-ORG
+10	:	:	PUNCT	_	_	4	punct	_	start_char=45|end_char=46|NER=O
+11	Duhet	duhem	AUX	_	Mood=Ind|Person=3|Voice=Pass	3	aux	_	start_char=47|end_char=52|NER=O
+12	të	të	PART	_	_	3	fixed	_	start_char=53|end_char=55|NER=O
+13	rivaksinohemi	rivaksinoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	12	advcl	_	start_char=56|end_char=69|SpacesAfter=\n|NER=O
+14	01	01	NUM	_	NumType=Card	3	advmod	_	start_char=70|end_char=72|SpaceAfter=No|NER=B-DATE_0
+15	/	/	PUNCT	_	_	4	punct	_	start_char=73|end_char=74|SpaceAfter=No|NER=I-DATE_0
+16	09	09	NUM	_	NumType=Card	4	conj	_	start_char=75|end_char=77|SpaceAfter=No|NER=I-DATE_0
+17	/	/	PUNCT	_	_	7	punct	_	start_char=78|end_char=79|SpaceAfter=No|NER=I-DATE_0
+18	2023	2023	NUM	_	NumType=Card	5	conj	_	start_char=80|end_char=84|SpacesAfter=\n|NER=I-DATE_0
+19	Instituti	Institut	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=85|end_char=94|NER=B-ORG
+20	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	10	det:poss	_	start_char=95|end_char=96|NER=I-ORG
+21	Shëndetit	shëndet	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	compound	_	start_char=97|end_char=106|NER=I-ORG
+22	Publik	Publik	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=107|end_char=113|NER=I-ORG
+23	konfirmon	konfirmoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=114|end_char=123|NER=O
+24	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	start_char=124|end_char=131|NER=O
+25	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=132|end_char=133|NER=O
+26	incidencës	incidencë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	start_char=134|end_char=144|NER=O
+27	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	17	det:poss	_	start_char=145|end_char=147|NER=O
+28	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	start_char=148|end_char=159|NER=O
+29	me	me	ADP	_	Case=Acc	19	case	_	start_char=160|end_char=162|NER=O
+30	COVID	COVID-19	PROPN	_	_	17	nmod	_	start_char=163|end_char=168|SpaceAfter=No|NER=O
+31	-	-	PUNCT	_	_	17	punct	_	start_char=169|end_char=170|SpaceAfter=No|NER=O
+32	19	19	NUM	_	NumType=Card	17	nmod	_	start_char=171|end_char=173|SpaceAfter=No|NER=O
+33	.	.	PUNCT	_	_	12	punct	_	start_char=174|end_char=175|NER=O
+
+# text = Sipas ekspertëve nga 2 , 65 për 100 mijë banorë që ishte në muajin korrik , ka shkuar në 2 , 9 në muajin gusht .
+# sent_id = 1
+1	Sipas	sipas	ADP	_	Case=Abl	2	case	_	start_char=0|end_char=5|NER=O
+2	ekspertëve	ekspert	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	18	advmod	_	start_char=6|end_char=16|NER=O
+3	nga	nga	ADP	_	Case=Nom	4	case	_	start_char=17|end_char=20|NER=O
+4	2	2	NUM	_	NumType=Card	2	nmod	_	start_char=21|end_char=22|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	2	punct	_	start_char=23|end_char=24|SpaceAfter=No|NER=O
+6	65	65	NUM	_	NumType=Card	0	root	_	start_char=25|end_char=27|NER=O
+7	për	për	ADP	_	Case=Acc	10	case	_	start_char=28|end_char=31|NER=O
+8	100	100	NUM	_	NumType=Card	10	nummod	_	start_char=32|end_char=35|NER=O
+9	mijë	mijë	NUM	_	NumType=Card	10	nummod	_	start_char=36|end_char=40|NER=O
+10	banorë	banor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	start_char=41|end_char=47|NER=O
+11	që	që	PRON	_	PronType=Rel	12	nsubj	_	start_char=48|end_char=50|NER=O
+12	ishte	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	10	acl	_	start_char=51|end_char=56|NER=O
+13	në	në	ADP	_	Case=Acc	14	case	_	start_char=57|end_char=59|NER=O
+14	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	start_char=60|end_char=66|NER=O
+15	korrik	korrik	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	start_char=67|end_char=73|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	18	punct	_	start_char=74|end_char=75|NER=O
+17	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=76|end_char=78|NER=O
+18	shkuar	shkoj	VERB	_	VerbForm=Part	12	advcl	_	start_char=79|end_char=85|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=86|end_char=88|NER=O
+20	2	2	NUM	_	NumType=Card	18	advmod	_	start_char=89|end_char=90|NER=O
+21	,	,	PUNCT	_	_	18	punct	_	start_char=91|end_char=92|NER=O
+22	9	9	NUM	_	NumType=Card	18	advmod	_	start_char=93|end_char=94|NER=O
+23	në	në	ADP	_	Case=Acc	22	case	_	start_char=95|end_char=97|NER=O
+24	muajin	muaj	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=98|end_char=104|NER=O
+25	gusht	gusht	NUM	_	NumType=Card	22	amod:nummod	_	start_char=105|end_char=110|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	18	punct	_	start_char=111|end_char=112|SpacesAfter=\n|NER=O
+
+# text = Ka edhe dy persona të shtruar që e kanë kryer vaksinimin bazal por janë vaksina që janë aplikuar që në vitin 2021 dhe efekti i vaksinës ka kaluar , " thotë shefja e programit kombëtar të vaksinimit në ISHP , Rovena Daja .
+# sent_id = 2
+1	Ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=2|NER=O
+2	edhe	edhe	PART	_	_	4	cc	_	start_char=3|end_char=7|NER=O
+3	dy	dy	NUM	_	NumType=Card	4	nummod	_	start_char=8|end_char=10|NER=O
+4	persona	person	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	1	obl	_	start_char=11|end_char=18|NER=O
+5	të	të	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=19|end_char=21|NER=O
+6	shtruar	shtruar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=22|end_char=29|NER=O
+7	që	që	PRON	_	PronType=Rel	10	nsubj	_	start_char=30|end_char=32|NER=O
+8	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=33|end_char=34|NER=O
+9	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	start_char=35|end_char=39|NER=O
+10	kryer	kryej	VERB	_	VerbForm=Part	4	acl:relcl	_	start_char=40|end_char=45|NER=O
+11	vaksinimin	vaksinim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	start_char=46|end_char=56|NER=O
+12	bazal	bazal	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=57|end_char=62|NER=O
+13	por	por	CCONJ	_	_	14	cc	_	start_char=63|end_char=66|NER=O
+14	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	start_char=67|end_char=71|NER=O
+15	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	14	cop	_	start_char=72|end_char=79|NER=O
+16	që	që	PRON	_	PronType=Rel	18	nsubj	_	start_char=80|end_char=82|NER=O
+17	janë	jam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	start_char=83|end_char=87|NER=O
+18	aplikuar	aplikoj	VERB	_	VerbForm=Part	15	acl	_	start_char=88|end_char=96|NER=O
+19	që	që	PART	_	_	28	mark	_	start_char=97|end_char=99|NER=O
+20	në	në	ADP	_	Case=Acc	21	case	_	start_char=100|end_char=102|NER=O
+21	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	advmod	_	start_char=103|end_char=108|NER=B-DATE_0
+22	2021	2021	NUM	_	NumType=Card	21	amod:nummod	_	start_char=109|end_char=113|NER=I-DATE_0
+23	dhe	dhe	CCONJ	_	_	24	cc	_	start_char=114|end_char=117|NER=O
+24	efekti	efekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	conj	_	start_char=118|end_char=124|NER=O
+25	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	26	det:poss	_	start_char=125|end_char=126|NER=O
+26	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	start_char=127|end_char=135|NER=O
+27	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	aux	_	start_char=136|end_char=138|NER=O
+28	kaluar	kaloj	VERB	_	VerbForm=Part	1	conj	_	start_char=139|end_char=145|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	31	punct	_	start_char=146|end_char=147|SpaceAfter=No|NER=O
+30	"	"	PUNCT	_	_	31	punct	_	start_char=148|end_char=149|NER=O
+31	thotë	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	conj	_	start_char=150|end_char=155|NER=O
+32	shefja	shefjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	obj	_	start_char=156|end_char=162|NER=O
+33	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	34	det:poss	_	start_char=163|end_char=164|NER=O
+34	programit	program	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=165|end_char=174|NER=O
+35	kombëtar	kombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=175|end_char=183|NER=O
+36	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=184|end_char=186|NER=O
+37	vaksinimit	vaksinim	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	start_char=187|end_char=197|NER=O
+38	në	në	ADP	_	Case=Acc	39	case	_	start_char=198|end_char=200|NER=O
+39	ISHP	ISHP	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	37	nmod	_	start_char=201|end_char=205|SpaceAfter=No|NER=B-ORG
+40	,	,	PUNCT	_	_	41	punct	_	start_char=206|end_char=207|NER=O
+41	Rovena	Rovenë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	39	list	_	start_char=208|end_char=214|NER=B-PER
+42	Daja	dajë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	41	flat	_	start_char=215|end_char=219|SpaceAfter=No|NER=I-PER
+43	.	.	PUNCT	_	_	31	punct	_	start_char=220|end_char=221|SpacesAfter=\n|NER=O
+
+# text = " Kjo tregon se do të kemi në vazhdim një rritje të infektimeve .
+# sent_id = 3
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	iobj	_	start_char=2|end_char=5|NER=O
+3	tregon	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=6|end_char=12|NER=O
+4	se	se	SCONJ	_	_	7	mark	_	start_char=13|end_char=15|NER=O
+5	do	do	PART	_	_	7	fixed	_	start_char=16|end_char=18|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=19|end_char=21|NER=O
+7	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	advcl	_	start_char=22|end_char=26|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=27|end_char=29|NER=O
+9	vazhdim	vazhdim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	start_char=30|end_char=37|NER=O
+10	një	një	DET	_	Definite=Ind	11	det	_	start_char=38|end_char=41|NER=O
+11	rritje	rritje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	start_char=42|end_char=48|NER=O
+12	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	13	det:poss	_	start_char=49|end_char=51|NER=O
+13	infektimeve	infektim	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	start_char=52|end_char=63|SpaceAfter=No|NER=O
+14	.	.	PUNCT	_	_	3	punct	_	start_char=64|end_char=65|NER=O
+
+# text = Situata mund të çojë në rritjen e rasteve .
+# sent_id = 4
+1	Situata	situatë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	start_char=0|end_char=7|NER=O
+2	mund	mund	AUX	_	_	4	aux	_	start_char=8|end_char=12|NER=O
+3	të	të	PART	_	_	4	fixed	_	start_char=13|end_char=15|NER=O
+4	çojë	çoj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=16|end_char=20|NER=O
+5	në	në	ADP	_	Case=Acc	6	case	_	start_char=21|end_char=23|NER=O
+6	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	start_char=24|end_char=31|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=32|end_char=33|NER=O
+8	rasteve	rast	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=34|end_char=41|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	4	punct	_	start_char=42|end_char=43|NER=O
+
+# text = Atëherë personat që janë të pavaksinuar ose kanë marrë dy dozat përforcuese që në fillim në vitin 2021 , efekti i vaksinës ka filluar të ulet dhe e vetmja armë që mund të na mbrojë është vaksinimi .
+# sent_id = 5
+1	Atëherë	atëherë	ADV	_	AdvType=Tim	2	mark	_	start_char=0|end_char=7|NER=O
+2	personat	personë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	24	nsubj	_	start_char=8|end_char=16|NER=O
+3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=17|end_char=19|NER=O
+4	janë	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl	_	start_char=20|end_char=24|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	6	det	_	start_char=25|end_char=27|NER=O
+6	pavaksinuar	pavaksinuar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	cop	_	start_char=28|end_char=39|NER=O
+7	ose	ose	CCONJ	_	_	9	cc	_	start_char=40|end_char=43|NER=O
+8	kanë	kam	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	start_char=44|end_char=48|NER=O
+9	marrë	marr	VERB	_	VerbForm=Part	4	conj	_	start_char=49|end_char=54|NER=O
+10	dy	dy	NUM	_	NumType=Card	11	nummod	_	start_char=55|end_char=57|NER=O
+11	dozat	dozë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obj	_	start_char=58|end_char=63|NER=O
+12	përforcuese	përforcues	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=64|end_char=75|NER=O
+13	që	që	PRON	_	PronType=Rel	24	nsubj	_	start_char=76|end_char=78|NER=O
+14	në	në	ADP	_	Case=Acc	15	case	_	start_char=79|end_char=81|NER=O
+15	fillim	fillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	start_char=82|end_char=88|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=89|end_char=91|NER=O
+17	vitin	vit	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=92|end_char=97|NER=B-DATE_0
+18	2021	2021	NUM	_	NumType=Card	17	flat	_	start_char=98|end_char=102|SpaceAfter=No|NER=I-DATE_0
+19	,	,	PUNCT	_	_	20	punct	_	start_char=103|end_char=104|NER=O
+20	efekti	efekt	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	start_char=105|end_char=111|NER=O
+21	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	22	det:poss	_	start_char=112|end_char=113|NER=O
+22	vaksinës	vaksinë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	start_char=114|end_char=122|NER=O
+23	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=123|end_char=125|NER=O
+24	filluar	filloj	VERB	_	VerbForm=Part	0	root	_	start_char=126|end_char=133|NER=O
+25	të	të	PART	_	_	26	fixed	_	start_char=134|end_char=136|NER=O
+26	ulet	ulem	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	24	ccomp	_	start_char=137|end_char=141|NER=O
+27	dhe	dhe	CCONJ	_	_	30	cc	_	start_char=142|end_char=145|NER=O
+28	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=146|end_char=147|NER=O
+29	vetmja	vetëm	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	30	nummod	_	start_char=148|end_char=154|NER=O
+30	armë	armë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	26	obj	_	start_char=155|end_char=159|NER=O
+31	që	që	PRON	_	PronType=Rel	35	nsubj	_	start_char=160|end_char=162|NER=O
+32	mund	mund	AUX	_	_	35	aux	_	start_char=163|end_char=167|NER=O
+33	të	të	PART	_	_	35	fixed	_	start_char=168|end_char=170|NER=O
+34	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	35	iobj	_	start_char=171|end_char=173|NER=O
+35	mbrojë	mbroj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	acl:relcl	_	start_char=174|end_char=180|NER=O
+36	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	ccomp	_	start_char=181|end_char=186|NER=O
+37	vaksinimi	vaksinim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	cop	_	start_char=187|end_char=196|SpaceAfter=No|NER=O
+38	.	.	PUNCT	_	_	36	punct	_	start_char=197|end_char=198|SpacesAfter=\n|NER=O
+
+# text = Aktualisht neve mund të kemi variantin e ri sepse sekuencimi nuk është bërë i mundur ende , por ndërkohë ky është nënvariant i Omicron - it dhe vaksina që kemi në Shqipëri është vaksina bivalente për variantin e Omironit BA .
+# sent_id = 6
+1	Aktualisht	aktualisht	ADV	_	AdvType=Man	5	advmod	_	start_char=0|end_char=10|NER=O
+2	neve	neve	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=11|end_char=15|NER=O
+3	mund	mund	AUX	_	_	5	aux	_	start_char=16|end_char=20|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=21|end_char=23|NER=O
+5	kemi	kam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=24|end_char=28|NER=O
+6	variantin	variant	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=29|end_char=38|NER=O
+7	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=39|end_char=40|NER=O
+8	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=41|end_char=43|NER=O
+9	sepse	sepse	SCONJ	_	_	13	mark	_	start_char=44|end_char=49|NER=O
+10	sekuencimi	sekuencim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	start_char=50|end_char=60|NER=O
+11	nuk	nuk	PART	_	_	13	mark	_	start_char=61|end_char=64|NER=O
+12	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	start_char=65|end_char=70|NER=O
+13	bërë	bëj	VERB	_	VerbForm=Part	5	advcl	_	start_char=71|end_char=75|NER=O
+14	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=76|end_char=77|NER=O
+15	mundur	mundur	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	cop	_	start_char=78|end_char=84|NER=O
+16	ende	ende	ADV	_	AdvType=Tim	15	advmod	_	start_char=85|end_char=89|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=90|end_char=91|NER=O
+18	por	por	CCONJ	_	_	21	cc	_	start_char=92|end_char=95|NER=O
+19	ndërkohë	ndërkohë	ADV	_	AdvType=Tim	21	advmod	_	start_char=96|end_char=104|NER=O
+20	ky	ky	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	start_char=105|end_char=107|NER=O
+21	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	start_char=108|end_char=113|NER=O
+22	nënvariant	nënvarian	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	cop	_	start_char=114|end_char=124|NER=O
+23	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	24	det:poss	_	start_char=125|end_char=126|NER=O
+24	Omicron	Omicron	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=127|end_char=134|NER=O
+25	-	-	PUNCT	_	_	22	punct	_	start_char=135|end_char=136|NER=O
+26	it	Omicron	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	start_char=137|end_char=139|NER=O
+27	dhe	dhe	CCONJ	_	_	26	cc	_	start_char=140|end_char=143|NER=O
+28	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	conj	_	start_char=144|end_char=151|NER=O
+29	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=152|end_char=154|NER=O
+30	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	26	acl:relcl	_	start_char=155|end_char=159|NER=O
+31	në	në	ADP	_	Case=Acc	30	case	_	start_char=160|end_char=162|NER=O
+32	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	start_char=163|end_char=171|NER=B-VEND_1
+33	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	conj	_	start_char=172|end_char=177|NER=O
+34	vaksina	vaksinë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	cop	_	start_char=178|end_char=185|NER=O
+35	bivalente	bivalent	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=186|end_char=195|NER=O
+36	për	për	ADP	_	Case=Acc	35	case	_	start_char=196|end_char=199|NER=O
+37	variantin	variant	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	start_char=200|end_char=209|NER=O
+38	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det:poss	_	start_char=210|end_char=211|NER=O
+39	Omironit	Omiron	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	start_char=212|end_char=220|NER=O
+40	BA	BA.4	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat	_	start_char=221|end_char=223|NER=O
+41	.	.	PUNCT	_	_	37	punct	_	start_char=224|end_char=225|NER=O
+
+# text = 4 dhe BA .
+# sent_id = 7
+1	4	4	NUM	_	NumType=Card	37	flat	_	start_char=0|end_char=1|NER=O
+2	dhe	dhe	CCONJ	_	_	40	cc	_	start_char=2|end_char=5|NER=O
+3	BA	BA.5	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	38	conj	_	start_char=6|end_char=8|NER=O
+4	.	.	PUNCT	_	_	38	punct	_	start_char=9|end_char=10|NER=O
+
+# text = 5 dhe na mbron plotësisht nga varianti që kemi në qarkullim .
+# sent_id = 8
+1	5	5	NUM	_	NumType=Card	38	conj	_	start_char=0|end_char=1|NER=O
+2	dhe	dhe	CCONJ	_	_	43	cc	_	start_char=2|end_char=5|NER=O
+3	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	43	iobj	_	start_char=6|end_char=8|NER=O
+4	mbron	mbroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	conj	_	start_char=9|end_char=14|NER=O
+5	plotësisht	plotësisht	ADV	_	AdvType=Man	43	advmod	_	start_char=15|end_char=25|NER=O
+6	nga	nga	ADP	_	Case=Nom	46	case	_	start_char=26|end_char=29|NER=O
+7	varianti	variant	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	43	obl	_	start_char=30|end_char=38|NER=O
+8	që	që	PRON	_	PronType=Rel	48	nsubj	_	start_char=39|end_char=41|NER=O
+9	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	43	advcl	_	start_char=42|end_char=46|NER=O
+10	në	në	ADP	_	Case=Acc	50	case	_	start_char=47|end_char=49|NER=O
+11	qarkullim	qarkullim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	48	obl	_	start_char=50|end_char=59|SpaceAfter=No|NER=O
+12	.	.	PUNCT	_	_	43	punct	_	start_char=60|end_char=61|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Sonila Mlloja
+# sent_id = 9
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Sonila	Sonilë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=17|NER=B-PER
+4	Mlloja	mllojë	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	start_char=18|end_char=24|SpacesAfter=\n|NER=I-PER
+

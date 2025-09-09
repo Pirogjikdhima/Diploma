@@ -1,0 +1,150 @@
+# text = 23 / 01 / 2024 Trafikimi i qënieve njerëzore vazhdon të përbëjë një plage sociale për Shqipërinë edhe pse ka pasur një shtim të masave për parandalimin e fenomenit .
+# sent_id = 0
+1	23	23	NUM	_	NumType=Card	15	nummod	_	start_char=0|end_char=2|SpaceAfter=No|NER=B-DATE_0
+2	/	/	PUNCT	_	_	12	punct	_	start_char=3|end_char=4|SpaceAfter=No|NER=I-DATE_0
+3	01	01	NUM	_	NumType=Card	12	nmod	_	start_char=5|end_char=7|SpaceAfter=No|NER=I-DATE_0
+4	/	/	PUNCT	_	_	15	punct	_	start_char=8|end_char=9|SpaceAfter=No|NER=I-DATE_0
+5	2024	2024	NUM	_	NumType=Card	15	nummod	_	start_char=10|end_char=14|SpaceAfter=No|NER=I-DATE_0
+6	Trafikimi	trafikim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=15|end_char=24|NER=O
+7	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	20	det:poss	_	start_char=25|end_char=26|NER=O
+8	qënieve	qënie	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	start_char=27|end_char=34|NER=O
+9	njerëzore	njerëzor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=35|end_char=44|NER=O
+10	vazhdon	vazhdoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	start_char=45|end_char=52|NER=O
+11	të	të	PART	_	_	24	fixed	_	start_char=53|end_char=55|NER=O
+12	përbëjë	përbëj	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl	_	start_char=56|end_char=63|NER=O
+13	një	një	DET	_	Definite=Ind	26	det	_	start_char=64|end_char=67|NER=O
+14	plage	plag	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	start_char=68|end_char=73|NER=O
+15	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=74|end_char=81|NER=O
+16	për	për	ADP	_	Case=Acc	29	case	_	start_char=82|end_char=85|NER=O
+17	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	start_char=86|end_char=96|NER=B-VEND_1
+18	edhe	edhe	CCONJ	_	_	31	fixed	_	start_char=97|end_char=101|NER=O
+19	pse	pse	SCONJ	_	_	33	mark	_	start_char=102|end_char=105|NER=O
+20	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	aux	_	start_char=106|end_char=108|NER=O
+21	pasur	kam	VERB	_	VerbForm=Part	26	acl:relcl	_	start_char=109|end_char=114|NER=O
+22	një	një	DET	_	Definite=Ind	35	det	_	start_char=115|end_char=118|NER=O
+23	shtim	shtim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	start_char=119|end_char=124|NER=O
+24	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	37	det	_	start_char=125|end_char=127|NER=O
+25	masave	masa	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	35	nmod	_	start_char=128|end_char=134|NER=O
+26	për	për	ADP	_	Case=Acc	39	case	_	start_char=135|end_char=138|NER=O
+27	parandalimin	parandalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	33	obl	_	start_char=139|end_char=151|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	41	det:poss	_	start_char=152|end_char=153|NER=O
+29	fenomenit	fenomen	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	start_char=154|end_char=163|SpaceAfter=No|NER=O
+30	.	.	PUNCT	_	_	33	punct	_	start_char=164|end_char=165|NER=O
+
+# text = Legjislacioni shqiptar për këtë fenomen më së shumti njehsohet me standardet ndërkombëtare , por zbatimi i tyre nuk nuk ka qenë në nivelin e duhur .
+# sent_id = 1
+1	Legjislacioni	Legjislacion	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=13|NER=O
+2	shqiptar	shqiptar	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=14|end_char=22|NER=O
+3	për	për	ADP	_	Case=Acc	5	case	_	start_char=23|end_char=26|NER=O
+4	këtë	ky	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=27|end_char=31|NER=O
+5	fenomen	fenom	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	start_char=32|end_char=39|NER=O
+6	më	më	PART	_	_	8	mark	_	start_char=40|end_char=42|NER=O
+7	së	së	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=43|end_char=45|NER=O
+8	shumti	shumti	ADV	_	AdvType=Tim	5	amod	_	start_char=46|end_char=52|NER=O
+9	njehsohet	njehsoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=53|end_char=62|NER=O
+10	me	me	ADP	_	Case=Acc	11	case	_	start_char=63|end_char=65|NER=O
+11	standardet	standard	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	start_char=66|end_char=76|NER=O
+12	ndërkombëtare	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=77|end_char=90|SpaceAfter=No|NER=O
+13	,	,	PUNCT	_	_	14	punct	_	start_char=91|end_char=92|NER=O
+14	por	por	CCONJ	_	_	15	cc	_	start_char=93|end_char=96|NER=O
+15	zbatimi	zbatim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	start_char=97|end_char=104|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=105|end_char=106|NER=O
+17	tyre	tyre	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	amod:poss	_	start_char=107|end_char=111|NER=O
+18	nuk	nuk	PART	_	Polarity=Neg	21	mark	_	start_char=112|end_char=115|NER=O
+19	nuk	nuk	PART	_	Polarity=Neg	21	mark	_	start_char=116|end_char=119|NER=O
+20	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=120|end_char=122|NER=O
+21	qenë	jam	VERB	_	VerbForm=Part	9	conj	_	start_char=123|end_char=127|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=128|end_char=130|NER=O
+23	nivelin	nivel	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	advmod	_	start_char=131|end_char=138|NER=O
+24	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	25	det	_	start_char=139|end_char=140|NER=O
+25	duhur	duhur	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=141|end_char=146|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	21	punct	_	start_char=147|end_char=148|SpacesAfter=\n|NER=O
+
+# text = Zv .
+# sent_id = 2
+1	Zv	Zv.ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=0|end_char=2|NER=O
+2	.	.	PUNCT	_	_	21	punct	_	start_char=3|end_char=4|NER=O
+
+# text = ministrja e Brendshme , Romina Kuko , në nisjen e një fushate ndërgjegjësuese për parandalimin e trafikut të qënieve njerëzore tha se po përgatitet baza ligjore edhe për dhunën e ushtruar në rrjetet sociale .
+# sent_id = 3
+1	ministrja	Zv.ministrje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	start_char=0|end_char=9|NER=O
+2	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=10|end_char=11|NER=O
+3	Brendshme	brendshme	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=12|end_char=21|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	5	punct	_	start_char=22|end_char=23|NER=O
+5	Romina	Rominë	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	appos	_	start_char=24|end_char=30|NER=B-PER
+6	Kuko	Kuko	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=31|end_char=35|SpaceAfter=No|NER=I-PER
+7	,	,	PUNCT	_	_	9	punct	_	start_char=36|end_char=37|NER=O
+8	në	në	ADP	_	Case=Acc	9	case	_	start_char=38|end_char=40|NER=O
+9	nisjen	nisje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	advmod	_	start_char=41|end_char=47|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	12	det:poss	_	start_char=48|end_char=49|NER=O
+11	një	një	DET	_	Definite=Ind	12	det	_	start_char=50|end_char=53|NER=O
+12	fushate	fushat	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	start_char=54|end_char=61|NER=O
+13	ndërgjegjësuese	ndërgjegjësues	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=62|end_char=77|NER=O
+14	për	për	ADP	_	Case=Acc	15	case	_	start_char=78|end_char=81|NER=O
+15	parandalimin	parandalim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	start_char=82|end_char=94|NER=O
+16	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=95|end_char=96|NER=O
+17	trafikut	trafik	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	start_char=97|end_char=105|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	19	det:poss	_	start_char=106|end_char=108|NER=O
+19	qënieve	qënie	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=109|end_char=116|NER=O
+20	njerëzore	njerëzor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=117|end_char=126|NER=O
+21	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=127|end_char=130|NER=O
+22	se	se	SCONJ	_	_	24	mark	_	start_char=131|end_char=133|NER=O
+23	po	po	PART	_	_	24	mark	_	start_char=134|end_char=136|NER=O
+24	përgatitet	përgatit	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	21	advcl	_	start_char=137|end_char=147|NER=O
+25	baza	bazë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	obj	_	start_char=148|end_char=152|NER=O
+26	ligjore	ligjor	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=153|end_char=160|NER=O
+27	edhe	edhe	PART	_	_	29	mark	_	start_char=161|end_char=165|NER=O
+28	për	për	ADP	_	Case=Acc	29	case	_	start_char=166|end_char=169|NER=O
+29	dhunën	dhunë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	advmod	_	start_char=170|end_char=176|NER=O
+30	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=177|end_char=178|NER=O
+31	ushtruar	ushtroj	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=179|end_char=187|NER=O
+32	në	në	ADP	_	Case=Acc	33	case	_	start_char=188|end_char=190|NER=O
+33	rrjetet	rrjet	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=191|end_char=198|NER=O
+34	sociale	social	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=199|end_char=206|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	21	punct	_	start_char=207|end_char=208|SpacesAfter=\n|NER=O
+
+# text = Përfaqësuesi i UNICEF - it në Shqipëri , Murat Sahin , sqaroi se trafikimi i qenieve njerezore , raportohet shumë pak dhe numri i viktimave ka të ngjarë të jetë shumë më i madh .
+# sent_id = 4
+1	Përfaqësuesi	përfaqësues	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	start_char=0|end_char=12|NER=O
+2	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=13|end_char=14|NER=O
+3	UNICEF	UNICEF	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=15|end_char=21|NER=B-ORG
+4	-	-	PUNCT	_	_	1	punct	_	start_char=22|end_char=23|NER=B-ORG
+5	it	UNICEF	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	start_char=24|end_char=26|NER=B-ORG
+6	në	në	ADP	_	Case=Acc	5	case	_	start_char=27|end_char=29|NER=O
+7	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	start_char=30|end_char=38|SpaceAfter=No|NER=B-VEND_1
+8	,	,	PUNCT	_	_	7	punct	_	start_char=39|end_char=40|NER=O
+9	Murat	murat	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	start_char=41|end_char=46|NER=B-PER
+10	Sahin	Sahi	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	flat	_	start_char=47|end_char=52|SpaceAfter=No|NER=I-PER
+11	,	,	PUNCT	_	_	7	punct	_	start_char=53|end_char=54|NER=O
+12	sqaroi	sqaroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	advmod	_	start_char=55|end_char=61|NER=O
+13	se	se	SCONJ	_	_	17	mark	_	start_char=62|end_char=64|NER=O
+14	trafikimi	trafikim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	start_char=65|end_char=74|NER=O
+15	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=75|end_char=76|NER=O
+16	qenieve	qenie	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	start_char=77|end_char=84|NER=O
+17	njerezore	njerezor	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=85|end_char=94|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	17	punct	_	start_char=95|end_char=96|NER=O
+19	raportohet	raportoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=97|end_char=107|NER=O
+20	shumë	shumë	ADV	_	AdvType=Deg	19	advmod	_	start_char=108|end_char=113|NER=O
+21	pak	pak	ADV	_	AdvType=Deg	17	advmod	_	start_char=114|end_char=117|NER=O
+22	dhe	dhe	CCONJ	_	_	21	cc	_	start_char=118|end_char=121|NER=O
+23	numri	numër	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	start_char=122|end_char=127|NER=O
+24	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	23	det:poss	_	start_char=128|end_char=129|NER=O
+25	viktimave	viktimë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	start_char=130|end_char=139|NER=O
+26	ka	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	start_char=140|end_char=142|NER=O
+27	të	të	PART	_	_	26	fixed	_	start_char=143|end_char=145|NER=O
+28	ngjarë	ngjar	VERB	_	VerbForm=Part	24	ccomp	_	start_char=146|end_char=152|NER=O
+29	të	të	PART	_	_	28	fixed	_	start_char=153|end_char=155|NER=O
+30	jetë	jam	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	ccomp	_	start_char=156|end_char=160|NER=O
+31	shumë	shumë	ADV	_	AdvType=Deg	32	advmod	_	start_char=161|end_char=166|NER=O
+32	më	më	PART	_	_	32	mark	_	start_char=167|end_char=169|NER=O
+33	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	32	det	_	start_char=170|end_char=171|NER=O
+34	madh	madh	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	cop	_	start_char=172|end_char=176|SpaceAfter=No|NER=O
+35	.	.	PUNCT	_	_	28	punct	_	start_char=177|end_char=178|SpacesAfter=\n|NER=O
+
+# text = Gazetare : Keti Toroveci
+# sent_id = 5
+1	Gazetare	Gazetar	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8|SpaceAfter=No|NER=O
+2	:	:	PUNCT	_	_	1	punct	_	start_char=9|end_char=10|NER=O
+3	Keti	Keti	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15|NER=B-PER
+4	Toroveci	Torovec	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	start_char=16|end_char=24|SpacesAfter=\n|NER=I-PER
+
