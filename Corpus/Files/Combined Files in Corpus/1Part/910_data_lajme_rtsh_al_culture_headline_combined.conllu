@@ -680,10 +680,14 @@
 134	am	I'am	PROPN	_	Foreign=Yes	80	list	_	start_char=602|end_char=604|NER=O
 135	crying	crying	PROPN	_	Case=Nom|Foreign=Yes	83	flat	_	start_char=605|end_char=611|SpaceAfter=No|NER=O
 136	"	"	PUNCT	_	_	83	punct	_	start_char=612|end_char=613|SpaceAfter=No|NER=O
-137	.	.	PUNCT	_	_	63	punct	_	start_char=614|end_char=615|SpaceAfter=No|NER=O.
+137	.	.	PUNCT	_	_	63	punct	_	start_char=614|end_char=615|SpaceAfter=No|NER=O
+
+# text = .
+# sent_id = 22
+1	.	.	PUNCT	_	_	63	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
 
 # text = etj , që ngritën pupthi në kërcim gjithë publikun , edhe ambasadorin britanik , Alaistair King - Smith që do ta cilësonte zërin Danny Handley si zërin më të bukur në Tiranë këtë mbrëmje .
-# sent_id = 22
+# sent_id = 23
 1	etj	etj.	ADV	_	Abbr=Yes	4	dislocated	_	start_char=0|end_char=3|SpaceAfter=No|NER=O
 2	,	,	PUNCT	_	_	1	punct	_	start_char=4|end_char=5|NER=O
 3	që	që	PRON	_	PronType=Rel	4	nsubj	_	start_char=6|end_char=8|NER=O

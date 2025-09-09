@@ -891,44 +891,45 @@
 28	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=141|end_char=143|NER=O
 29	tyre	tyre	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=144|end_char=148|SpaceAfter=No|NER=O
 30	"	"	PUNCT	_	_	26	punct	_	start_char=149|end_char=150|SpaceAfter=No|NER=O
-31	.	.	PUNCT	_	_	21	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=OAi
+31	.	.	PUNCT	_	_	21	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=O
 
-# text = vetë i ka flakur tej " veshjet liberale " të viteve të tij të para në pushtet , prandaj është zbehur çdo shpresë e Turqisë për t ' u anëtarësuar në Bashkimin Evropian .
+# text = Ai vetë i ka flakur tej " veshjet liberale " të viteve të tij të para në pushtet , prandaj është zbehur çdo shpresë e Turqisë për t ' u anëtarësuar në Bashkimin Evropian .
 # sent_id = 29
-1	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	1	amod	_	start_char=0|end_char=4|NER=O
-2	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=5|end_char=6|NER=O
-3	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=7|end_char=9|NER=O
-4	flakur	flak	VERB	_	VerbForm=Part	0	root	_	start_char=10|end_char=16|NER=O
-5	tej	tej	ADV	_	AdvType=Loc	5	advmod	_	start_char=17|end_char=20|NER=O
-6	"	"	PUNCT	_	_	8	punct	_	start_char=21|end_char=22|SpaceAfter=No|NER=O
-7	veshjet	veshje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=23|end_char=30|NER=O
-8	liberale	liberal	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=31|end_char=39|NER=O
-9	"	"	PUNCT	_	_	8	punct	_	start_char=40|end_char=41|NER=O
-10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=42|end_char=44|NER=O
-11	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=45|end_char=51|NER=O
-12	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=52|end_char=54|NER=O
-13	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=55|end_char=58|NER=O
-14	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=59|end_char=61|NER=O
-15	para	para	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=62|end_char=66|NER=O
-16	në	në	ADP	_	Case=Acc	17	case	_	start_char=67|end_char=69|NER=O
-17	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=70|end_char=77|SpaceAfter=No|NER=O
-18	,	,	PUNCT	_	_	19	punct	_	start_char=78|end_char=79|NER=O
-19	prandaj	prandaj	SCONJ	_	_	21	cc	_	start_char=80|end_char=87|NER=O
-20	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=88|end_char=93|NER=O
-21	zbehur	zbeh	VERB	_	VerbForm=Part	5	conj	_	start_char=94|end_char=100|NER=O
-22	çdo	çdo	PRON	_	PronType=Ind	23	nummod	_	start_char=101|end_char=104|NER=O
-23	shpresë	shpresë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=105|end_char=112|NER=O
-24	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=113|end_char=114|NER=O
-25	Turqisë	Turqi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=115|end_char=122|NER=B-VEND_1
-26	për	për	PART	_	_	29	fixed	_	start_char=123|end_char=126|NER=O
-27	t	_	_	_	_	_	_	_	start_char=127|end_char=128|NER=O
-28	'	'	PUNCT	_	_	_	punct	_	start_char=129|end_char=130|NER=O
-29	u	_	_	_	_	_	_	_	start_char=131|end_char=132|NER=O
-30	anëtarësuar	anëtarësoj	VERB	_	VerbForm=Part	21	advmod	_	start_char=133|end_char=144|NER=O
-31	në	në	ADP	_	Case=Acc	31	case	_	start_char=145|end_char=147|NER=O
-32	Bashkimin	bashkim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obl	_	start_char=148|end_char=157|NER=B-ORG
-33	Evropian	evropian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=158|end_char=166|SpaceAfter=No|NER=I-ORG
-34	.	.	PUNCT	_	_	21	punct	_	start_char=167|end_char=168|NER=O
+1	Ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=0|end_char=2|NER=O
+2	vetë	vetë	PRON	_	PronType=Prs|Reflex=Yes	1	amod	_	start_char=3|end_char=7|NER=O
+3	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=8|end_char=9|NER=O
+4	ka	kam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	start_char=10|end_char=12|NER=O
+5	flakur	flak	VERB	_	VerbForm=Part	0	root	_	start_char=13|end_char=19|NER=O
+6	tej	tej	ADV	_	AdvType=Loc	5	advmod	_	start_char=20|end_char=23|NER=O
+7	"	"	PUNCT	_	_	8	punct	_	start_char=24|end_char=25|SpaceAfter=No|NER=O
+8	veshjet	veshje	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	start_char=26|end_char=33|NER=O
+9	liberale	liberal	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	start_char=34|end_char=42|NER=O
+10	"	"	PUNCT	_	_	8	punct	_	start_char=43|end_char=44|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det:poss	_	start_char=45|end_char=47|NER=O
+12	viteve	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	start_char=48|end_char=54|NER=O
+13	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	13	det:poss	_	start_char=55|end_char=57|NER=O
+14	tij	tij	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	amod:poss	_	start_char=58|end_char=61|NER=O
+15	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	15	det	_	start_char=62|end_char=64|NER=O
+16	para	para	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=65|end_char=69|NER=O
+17	në	në	ADP	_	Case=Acc	17	case	_	start_char=70|end_char=72|NER=O
+18	pushtet	pusht	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	start_char=73|end_char=80|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	19	punct	_	start_char=81|end_char=82|NER=O
+20	prandaj	prandaj	SCONJ	_	_	21	cc	_	start_char=83|end_char=90|NER=O
+21	është	jam	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	start_char=91|end_char=96|NER=O
+22	zbehur	zbeh	VERB	_	VerbForm=Part	5	conj	_	start_char=97|end_char=103|NER=O
+23	çdo	çdo	PRON	_	PronType=Ind	23	nummod	_	start_char=104|end_char=107|NER=O
+24	shpresë	shpresë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	start_char=108|end_char=115|NER=O
+25	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	25	det:poss	_	start_char=116|end_char=117|NER=O
+26	Turqisë	Turqi	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	start_char=118|end_char=125|NER=B-VEND_1
+27	për	për	PART	_	_	29	fixed	_	start_char=126|end_char=129|NER=O
+28	t	_	_	_	_	_	_	_	start_char=130|end_char=131|NER=O
+29	'	'	PUNCT	_	_	_	punct	_	start_char=132|end_char=133|NER=O
+30	u	_	_	_	_	_	_	_	start_char=134|end_char=135|NER=O
+31	anëtarësuar	anëtarësoj	VERB	_	VerbForm=Part	21	advmod	_	start_char=136|end_char=147|NER=O
+32	në	në	ADP	_	Case=Acc	31	case	_	start_char=148|end_char=150|NER=O
+33	Bashkimin	bashkim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	29	obl	_	start_char=151|end_char=160|NER=B-ORG
+34	Evropian	evropian	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=161|end_char=169|SpaceAfter=No|NER=I-ORG
+35	.	.	PUNCT	_	_	21	punct	_	start_char=170|end_char=171|NER=O
 
 # text = Kjo qasje mund të funksionojë mirë për të në Turqi , ku shumica e turqve e kanë humbur durimin me BE - në , por jo në shtetet e Ballkanit , ku që të gjitha përveç Kosovës , janë ose anëtare të bllokut ose aspirojnë t ' i bashkohen atij .
 # sent_id = 30

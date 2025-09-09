@@ -48,37 +48,38 @@
 46	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	50	det:poss	_	start_char=219|end_char=221|NER=O
 47	Gurëve	Gurëve	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	48	nmod	_	start_char=222|end_char=228|SpaceAfter=No|NER=O
 48	"	"	PUNCT	_	_	48	punct	_	start_char=229|end_char=230|SpaceAfter=No|NER=O
-49	.	.	PUNCT	_	_	41	punct	_	start_char=231|end_char=232|SpaceAfter=No|NER=ONë
+49	.	.	PUNCT	_	_	41	punct	_	start_char=231|end_char=232|SpaceAfter=No|NER=O
 
-# text = parathënien studimore të këtij vëllimi , poeti Bardhyl Londo shkruan : " Pas Ismail Kadaresë , ai sjell një Gjirokastër tjetër , të vetën , origjinale .
+# text = Në parathënien studimore të këtij vëllimi , poeti Bardhyl Londo shkruan : " Pas Ismail Kadaresë , ai sjell një Gjirokastër tjetër , të vetën , origjinale .
 # sent_id = 1
-1	parathënien	parathënie	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=0|end_char=11|NER=O
-2	studimore	studimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=12|end_char=21|NER=O
-3	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=24|NER=O
-4	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=25|end_char=30|NER=O
-5	vëllimi	vëllim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=31|end_char=38|SpaceAfter=No|NER=O
-6	,	,	PUNCT	_	_	2	punct	_	start_char=39|end_char=40|SpaceAfter=No|NER=O
-7	poeti	poet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=41|end_char=46|NER=O
-8	Bardhyl	Bardhyl	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=47|end_char=54|NER=B-PER
-9	Londo	Londo	PROPN	_	Case=Nom|Foreign=Yes	8	appos	_	start_char=55|end_char=60|NER=I-PER
-10	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=61|end_char=68|SpaceAfter=No|NER=O
-11	:	:	PUNCT	_	_	11	punct	_	start_char=69|end_char=70|SpacesAfter=\n|NER=O
-12	"	"	PUNCT	_	_	3	punct	_	start_char=71|end_char=72|SpaceAfter=No|NER=O
-13	Pas	pas	ADP	_	Case=Abl	3	case	_	start_char=73|end_char=76|NER=O
-14	Ismail	Ismail	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=77|end_char=83|NER=B-PER
-15	Kadaresë	Kadare	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=84|end_char=92|SpaceAfter=No|NER=I-PER
-16	,	,	PUNCT	_	_	3	punct	_	start_char=93|end_char=94|SpaceAfter=No|NER=O
-17	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=95|end_char=97|NER=O
-18	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=98|end_char=103|NER=O
-19	një	një	DET	_	Definite=Ind	9	det	_	start_char=104|end_char=107|NER=O
-20	Gjirokastër	Gjirokastër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=108|end_char=119|NER=B-VEND_0
-21	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	amod	_	start_char=120|end_char=126|SpaceAfter=No|NER=O
-22	,	,	PUNCT	_	_	12	punct	_	start_char=127|end_char=128|NER=O
-23	të	të	ADV	_	AdvType=Man	12	nummod	_	start_char=129|end_char=131|NER=O
-24	vetën	vetë	PRON	_	PronType=Ind	9	amod	_	start_char=132|end_char=137|SpaceAfter=No|NER=O
-25	,	,	PUNCT	_	_	14	punct	_	start_char=138|end_char=139|SpaceAfter=No|NER=O
-26	origjinale	origjinal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	start_char=140|end_char=150|SpaceAfter=No|NER=O
-27	.	.	PUNCT	_	_	7	punct	_	start_char=151|end_char=152|SpaceAfter=No|NER=O
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	parathënien	parathënie	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	start_char=3|end_char=14|NER=O
+3	studimore	studimor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=15|end_char=24|NER=O
+4	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=25|end_char=27|NER=O
+5	këtij	ky	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=28|end_char=33|NER=O
+6	vëllimi	vëllim	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	start_char=34|end_char=41|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	2	punct	_	start_char=42|end_char=43|SpaceAfter=No|NER=O
+8	poeti	poet	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	start_char=44|end_char=49|NER=O
+9	Bardhyl	Bardhyl	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	start_char=50|end_char=57|NER=B-PER
+10	Londo	Londo	PROPN	_	Case=Nom|Foreign=Yes	8	appos	_	start_char=58|end_char=63|NER=I-PER
+11	shkruan	shkroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=64|end_char=71|SpaceAfter=No|NER=O
+12	:	:	PUNCT	_	_	11	punct	_	start_char=72|end_char=73|SpacesAfter=\n|NER=O
+13	"	"	PUNCT	_	_	3	punct	_	start_char=74|end_char=75|SpaceAfter=No|NER=O
+14	Pas	pas	ADP	_	Case=Abl	3	case	_	start_char=76|end_char=79|NER=O
+15	Ismail	Ismail	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=80|end_char=86|NER=B-PER
+16	Kadaresë	Kadare	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	start_char=87|end_char=95|SpaceAfter=No|NER=I-PER
+17	,	,	PUNCT	_	_	3	punct	_	start_char=96|end_char=97|SpaceAfter=No|NER=O
+18	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=98|end_char=100|NER=O
+19	sjell	sjell	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=101|end_char=106|NER=O
+20	një	një	DET	_	Definite=Ind	9	det	_	start_char=107|end_char=110|NER=O
+21	Gjirokastër	Gjirokastër	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	start_char=111|end_char=122|NER=B-VEND_0
+22	tjetër	tjetër	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	amod	_	start_char=123|end_char=129|SpaceAfter=No|NER=O
+23	,	,	PUNCT	_	_	12	punct	_	start_char=130|end_char=131|NER=O
+24	të	të	ADV	_	AdvType=Man	12	nummod	_	start_char=132|end_char=134|NER=O
+25	vetën	vetë	PRON	_	PronType=Ind	9	amod	_	start_char=135|end_char=140|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	14	punct	_	start_char=141|end_char=142|SpaceAfter=No|NER=O
+27	origjinale	origjinal	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	start_char=143|end_char=153|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	7	punct	_	start_char=154|end_char=155|SpaceAfter=No|NER=O
 
 # text = E megjithatë ajo është Gjirokastër po aq e bukur , e veçantë sa ajo e paraardhësve të vet .
 # sent_id = 2
