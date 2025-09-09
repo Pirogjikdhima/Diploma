@@ -1,0 +1,523 @@
+# text = Begaj : Viti që lëmë pas pati zhvillime pozitive TIRAN , 31 dhjetor / ATSH / Presidenti i Republikës , Bajram Begaj uroi sot shqiptarët për Vitin e Ri 2024 .
+# sent_id = 0
+1	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No|NER=B-PER
+2	:	:	PUNCT	_	_	1	punct	_	start_char=6|end_char=7|NER=O
+3	Viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	start_char=8|end_char=12|NER=O
+4	që	që	PRON	_	PronType=Rel	5	nsubj	_	start_char=13|end_char=15|NER=O
+5	lëmë	lëmë	PART	_	_	4	mark	_	start_char=16|end_char=20|NER=O
+6	pas	pas	ADV	_	AdvType=Tim	5	advmod	_	start_char=21|end_char=24|NER=O
+7	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=25|end_char=29|NER=O
+8	zhvillime	zhvillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	start_char=30|end_char=39|NER=O
+9	pozitive	pozitiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=40|end_char=48|SpacesAfter=\n|NER=O
+10	TIRAN	TIRAN	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	start_char=49|end_char=54|SpaceAfter=No|NER=B-VEND_0
+11	,	,	PUNCT	_	_	12	punct	_	start_char=55|end_char=56|NER=O
+12	31	31	NUM	_	NumType=Card	12	nummod	_	start_char=57|end_char=59|NER=B-DATE_0
+13	dhjetor	dhjetor	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	start_char=60|end_char=67|NER=I-DATE_0
+14	/	/	PUNCT	_	_	14	punct	_	start_char=68|end_char=69|SpaceAfter=No|NER=O
+15	ATSH	atsh	SYM	_	_	12	list	_	start_char=70|end_char=74|SpaceAfter=No|NER=O
+16	/	/	PUNCT	_	_	12	punct	_	start_char=75|end_char=76|NER=O
+17	Presidenti	president	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=77|end_char=87|NER=O
+18	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	3	det:poss	_	start_char=88|end_char=89|NER=O
+19	Republikës	republikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	start_char=90|end_char=100|SpaceAfter=No|NER=O
+20	,	,	PUNCT	_	_	5	punct	_	start_char=101|end_char=102|NER=O
+21	Bajram	Bajram	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=103|end_char=109|NER=B-PER
+22	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	flat	_	start_char=110|end_char=115|NER=I-PER
+23	uroi	uroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=116|end_char=120|NER=O
+24	sot	sot	ADV	_	AdvType=Tim	7	advmod	_	start_char=121|end_char=124|NER=O
+25	shqiptarët	shqiptar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	start_char=125|end_char=135|NER=O
+26	për	për	ADP	_	Case=Acc	11	case	_	start_char=136|end_char=139|NER=O
+27	Vitin	Vit	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	start_char=140|end_char=145|NER=O
+28	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=146|end_char=147|NER=O
+29	Ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=148|end_char=150|NER=O
+30	2024	2024	NUM	_	NumType=Card	11	amod:nummod	_	start_char=151|end_char=155|SpaceAfter=No|NER=O
+31	.	.	PUNCT	_	_	7	punct	_	start_char=156|end_char=157|SpacesAfter=\n|NER=O
+
+# text = " Afrimi i vitit të ri përbën një moment të veçantë për të gjithë ne .
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Afrimi	Afrim	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	start_char=2|end_char=8|NER=O
+3	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=10|NER=O
+4	vitit	vit	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=11|end_char=16|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=17|end_char=19|NER=O
+6	ri	ri	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=20|end_char=22|NER=O
+7	përbën	përbëj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=23|end_char=29|NER=O
+8	një	një	DET	_	Definite=Ind	9	det	_	start_char=30|end_char=33|NER=O
+9	moment	moment	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	start_char=34|end_char=40|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=41|end_char=43|NER=O
+11	veçantë	veçantë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=44|end_char=51|NER=O
+12	për	për	ADP	_	Case=Acc	15	case	_	start_char=52|end_char=55|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=56|end_char=58|NER=O
+14	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	start_char=59|end_char=65|NER=O
+15	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	advmod	_	start_char=66|end_char=68|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	7	punct	_	start_char=69|end_char=70|NER=O
+
+# text = Është festë e shprehjes së ngrohtësisë familjare e shoqërore rreth tavolinave të mbushura me dashuri .
+# sent_id = 2
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	festë	festë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=11|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=12|end_char=13|NER=O
+4	shprehjes	shprehje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=14|end_char=23|NER=O
+5	së	së	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=26|NER=O
+6	ngrohtësisë	ngrohtësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	start_char=27|end_char=38|NER=O
+7	familjare	familjar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=39|end_char=48|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=49|end_char=50|NER=O
+9	shoqërore	shoqëror	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=51|end_char=60|NER=O
+10	rreth	rreth	ADP	_	Case=Abl	11	case	_	start_char=61|end_char=66|NER=O
+11	tavolinave	tavolinë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	start_char=67|end_char=77|NER=O
+12	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=78|end_char=80|NER=O
+13	mbushura	mbushurë	ADJ	_	Case=Abl|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=81|end_char=89|NER=O
+14	me	me	ADP	_	Case=Acc	15	case	_	start_char=90|end_char=92|NER=O
+15	dashuri	dashuri	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	start_char=93|end_char=100|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	1	punct	_	start_char=101|end_char=102|NER=O
+
+# text = Është festë e mirëseardhjes dhe e shpresës për të ardhmen , festë që nuk na ndan , por na afron më pranë njëri - tjetrit .
+# sent_id = 3
+1	Është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=0|end_char=5|NER=O
+2	festë	festë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	cop	_	start_char=6|end_char=11|NER=O
+3	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	4	det:poss	_	start_char=12|end_char=13|NER=O
+4	mirëseardhjes	mirëseardhjes	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	start_char=14|end_char=27|NER=O
+5	dhe	dhe	CCONJ	_	_	7	cc	_	start_char=28|end_char=31|NER=O
+6	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	7	det:poss	_	start_char=32|end_char=33|NER=O
+7	shpresës	shpresë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	start_char=34|end_char=42|NER=O
+8	për	për	ADP	_	Case=Acc	10	case	_	start_char=43|end_char=46|NER=O
+9	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=47|end_char=49|NER=O
+10	ardhmen	ardhme	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=50|end_char=57|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=58|end_char=59|NER=O
+12	festë	festë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	list	_	start_char=60|end_char=65|NER=O
+13	që	që	PRON	_	PronType=Rel	16	nsubj	_	start_char=66|end_char=68|NER=O
+14	nuk	nuk	PART	_	_	16	mark	_	start_char=69|end_char=72|NER=O
+15	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	iobj	_	start_char=73|end_char=75|NER=O
+16	ndan	ndaj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	start_char=76|end_char=80|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=81|end_char=82|NER=O
+18	por	por	CCONJ	_	_	20	cc	_	start_char=83|end_char=86|NER=O
+19	na	na	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	20	iobj	_	start_char=87|end_char=89|NER=O
+20	afron	afroj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=90|end_char=95|NER=O
+21	më	më	PART	_	_	24	mark	_	start_char=96|end_char=98|NER=O
+22	pranë	pranë	ADP	_	Case=Abl	24	case	_	start_char=99|end_char=104|NER=O
+23	njëri	njëri	NUM	_	NumType=Card	24	nummod	_	start_char=105|end_char=110|NER=O
+24	-	-	PUNCT	_	_	20	punct	_	start_char=111|end_char=112|SpaceAfter=No|NER=O
+25	tjetrit	tjetr	PROPN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	start_char=113|end_char=120|SpaceAfter=No|NER=O
+26	.	.	PUNCT	_	_	20	punct	_	start_char=121|end_char=122|NER=O
+
+# text = Kjo është festa e të gjithëve " , u shpreh Presidenti Begaj .
+# sent_id = 4
+1	Kjo	kjo	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3|NER=O
+2	është	jam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	start_char=4|end_char=9|NER=O
+3	festa	festë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	cop	_	start_char=10|end_char=15|NER=O
+4	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=17|NER=O
+5	të	të	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Art	6	det	_	start_char=18|end_char=20|NER=O
+6	gjithëve	gjithëve	PRON	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	3	amod	_	start_char=21|end_char=29|SpaceAfter=No|NER=O
+7	"	"	PUNCT	_	_	3	punct	_	start_char=30|end_char=31|SpaceAfter=No|NER=O
+8	,	,	PUNCT	_	_	9	punct	_	start_char=32|end_char=33|NER=O
+9	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	fixed	_	start_char=34|end_char=35|NER=O
+10	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	start_char=36|end_char=42|NER=O
+11	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	start_char=43|end_char=53|NER=O
+12	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	flat	_	start_char=54|end_char=59|SpaceAfter=No|NER=B-PER
+13	.	.	PUNCT	_	_	9	punct	_	start_char=60|end_char=61|SpacesAfter=\n|NER=O
+
+# text = " Viti që lëmë pas pati zhvillime pozitive .
+# sent_id = 5
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Viti	vit	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=2|end_char=6|NER=O
+3	që	që	PRON	_	PronType=Rel	6	nsubj	_	start_char=7|end_char=9|NER=O
+4	lëmë	lëmë	PART	_	_	5	mark	_	start_char=10|end_char=14|NER=O
+5	pas	pas	ADV	_	AdvType=Tim	6	advmod	_	start_char=15|end_char=18|NER=O
+6	pati	kam	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+7	zhvillime	zhvillim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	start_char=24|end_char=33|NER=O
+8	pozitive	pozitiv	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=34|end_char=42|SpaceAfter=No|NER=O
+9	.	.	PUNCT	_	_	6	punct	_	start_char=43|end_char=44|NER=O
+
+# text = Këtu veçoj forcimin e pozitës tonë ndërkombëtare dhe rritjen e reputacionit të Shqipërisë dhe shqiptarëve në botë .
+# sent_id = 6
+1	Këtu	këtu	ADV	_	AdvType=Tim	2	advmod	_	start_char=0|end_char=4|NER=O
+2	veçoj	veçoj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=5|end_char=10|NER=O
+3	forcimin	forcim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=11|end_char=19|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=20|end_char=21|NER=O
+5	pozitës	pozitë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	start_char=22|end_char=29|NER=O
+6	tonë	jonë	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	amod	_	start_char=30|end_char=34|NER=O
+7	ndërkombëtare	ndërkombëtar	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=35|end_char=48|NER=O
+8	dhe	dhe	CCONJ	_	_	9	cc	_	start_char=49|end_char=52|NER=O
+9	rritjen	rritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	start_char=53|end_char=60|NER=O
+10	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=61|end_char=62|NER=O
+11	reputacionit	reputacion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	start_char=63|end_char=75|NER=O
+12	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	13	det:poss	_	start_char=76|end_char=78|NER=O
+13	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	start_char=79|end_char=89|NER=B-VEND_1
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=90|end_char=93|NER=O
+15	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	conj	_	start_char=94|end_char=105|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=106|end_char=108|NER=O
+17	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=109|end_char=113|SpaceAfter=No|NER=O
+18	.	.	PUNCT	_	_	2	punct	_	start_char=114|end_char=115|NER=O
+
+# text = Treguam se ndonëse vend i vogël , i kemi të gjitha mundësitë të jemi faktor në rajon dhe kontribues për paqen në botë " , tha ai .
+# sent_id = 7
+1	Treguam	tregoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	start_char=0|end_char=7|NER=O
+2	se	se	SCONJ	_	_	9	mark	_	start_char=8|end_char=10|NER=O
+3	ndonëse	ndonëse	SCONJ	_	_	4	mark	_	start_char=11|end_char=18|NER=O
+4	vend	vend	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	start_char=19|end_char=23|NER=O
+5	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=24|end_char=25|NER=O
+6	vogël	vogël	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=26|end_char=31|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	4	punct	_	start_char=32|end_char=33|NER=O
+8	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	iobj	_	start_char=34|end_char=35|NER=O
+9	kemi	kam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	conj	_	start_char=36|end_char=40|NER=O
+10	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	11	det	_	start_char=41|end_char=43|NER=O
+11	gjitha	gjithë	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	12	nummod	_	start_char=44|end_char=50|NER=O
+12	mundësitë	mundësi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	start_char=51|end_char=60|NER=O
+13	të	të	PART	_	_	14	fixed	_	start_char=61|end_char=63|NER=O
+14	jemi	jam	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	ccomp	_	start_char=64|end_char=68|NER=O
+15	faktor	faktor	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	cop	_	start_char=69|end_char=75|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=76|end_char=78|NER=O
+17	rajon	rajo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	14	advmod	_	start_char=79|end_char=84|NER=O
+18	dhe	dhe	CCONJ	_	_	19	cc	_	start_char=85|end_char=88|NER=O
+19	kontribues	kontribues	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	start_char=89|end_char=99|NER=O
+20	për	për	ADP	_	Case=Acc	21	case	_	start_char=100|end_char=103|NER=O
+21	paqen	paqe	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	start_char=104|end_char=109|NER=O
+22	në	në	ADP	_	Case=Acc	23	case	_	start_char=110|end_char=112|NER=O
+23	botë	botë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	25	advmod	_	start_char=113|end_char=117|SpaceAfter=No|NER=O
+24	"	"	PUNCT	_	_	25	punct	_	start_char=118|end_char=119|SpaceAfter=No|NER=O
+25	,	,	PUNCT	_	_	25	punct	_	start_char=120|end_char=121|NER=O
+26	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	start_char=122|end_char=125|NER=O
+27	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=126|end_char=128|SpaceAfter=No|NER=O
+28	.	.	PUNCT	_	_	25	punct	_	start_char=129|end_char=130|SpacesAfter=\n|NER=O
+
+# text = Megjithatë , shtoi Begaj , " rritja e rolit tonë në arenën ndërkombëtare dhe përmirësimi i imazhit të Shqipërisë , nuk mund të kuptohen pa politika të mira brenda vendit " .
+# sent_id = 8
+1	Megjithatë	megjithatë	CCONJ	_	_	23	cc	_	start_char=0|end_char=10|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+3	shtoi	shtoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	advcl	_	start_char=13|end_char=18|NER=O
+4	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	start_char=19|end_char=24|SpaceAfter=No|NER=B-PER
+5	,	,	PUNCT	_	_	6	punct	_	start_char=25|end_char=26|NER=O
+6	"	"	PUNCT	_	_	3	punct	_	start_char=27|end_char=28|NER=O
+7	rritja	rritje	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	start_char=29|end_char=35|NER=O
+8	e	e	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	8	det:poss	_	start_char=36|end_char=37|NER=O
+9	rolit	rol	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=38|end_char=43|NER=O
+10	tonë	jonë	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	amod	_	start_char=44|end_char=48|NER=O
+11	në	në	ADP	_	Case=Acc	11	case	_	start_char=49|end_char=51|NER=O
+12	arenën	arenë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	start_char=52|end_char=58|NER=O
+13	ndërkombëtare	ndërkombëtar	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=59|end_char=72|NER=O
+14	dhe	dhe	CCONJ	_	_	14	cc	_	start_char=73|end_char=76|NER=O
+15	përmirësimi	përmirësim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	start_char=77|end_char=88|NER=O
+16	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	16	det:poss	_	start_char=89|end_char=90|NER=O
+17	imazhit	imazh	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	start_char=91|end_char=98|NER=O
+18	të	të	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	18	det:poss	_	start_char=99|end_char=101|NER=O
+19	Shqipërisë	Shqipëri	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	start_char=102|end_char=112|SpaceAfter=No|NER=B-VEND_1
+20	,	,	PUNCT	_	_	23	punct	_	start_char=113|end_char=114|NER=O
+21	nuk	nuk	PART	_	_	23	mark	_	start_char=115|end_char=118|NER=O
+22	mund	mund	AUX	_	_	23	aux	_	start_char=119|end_char=123|NER=O
+23	të	të	PART	_	_	23	fixed	_	start_char=124|end_char=126|NER=O
+24	kuptohen	kuptoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	0	root	_	start_char=127|end_char=135|NER=O
+25	pa	pa	ADP	_	Case=Acc	25	case	_	start_char=136|end_char=138|NER=O
+26	politika	politikë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	23	obl	_	start_char=139|end_char=147|NER=O
+27	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	27	det	_	start_char=148|end_char=150|NER=O
+28	mira	mira	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=151|end_char=155|NER=O
+29	brenda	brenda	ADP	_	Case=Abl	29	case	_	start_char=156|end_char=162|NER=O
+30	vendit	vendit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Plur	23	advmod	_	start_char=163|end_char=169|SpaceAfter=No|NER=O
+31	"	"	PUNCT	_	_	23	punct	_	start_char=170|end_char=171|SpaceAfter=No|NER=O
+32	.	.	PUNCT	_	_	23	punct	_	start_char=172|end_char=173|SpacesAfter=\n|NER=O
+
+# text = " Këtë vit , miliona turistë vizituan vendin tonë .
+# sent_id = 9
+1	"	"	PUNCT	_	_	3	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=2|end_char=6|NER=O
+3	vit	vit	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	advmod	_	start_char=7|end_char=10|SpaceAfter=No|NER=O
+4	,	,	PUNCT	_	_	3	punct	_	start_char=11|end_char=12|NER=O
+5	miliona	milionë	PRON	_	Case=Nom|Number=Plur|PronType=Ind	6	det	_	start_char=13|end_char=20|NER=O
+6	turistë	turistë	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	start_char=21|end_char=28|NER=O
+7	vizituan	vizitoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=29|end_char=37|NER=O
+8	vendin	vend	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	start_char=38|end_char=44|NER=O
+9	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	amod	_	start_char=45|end_char=49|SpaceAfter=No|NER=O
+10	.	.	PUNCT	_	_	7	punct	_	start_char=50|end_char=51|NER=O
+
+# text = Në Shqipëri ata gjetën jo vetëm bukuritë e natyrës , por edhe mikpritjen tradicionale të shqiptarëve " , theksoi Begaj .
+# sent_id = 10
+1	Në	në	ADP	_	Case=Acc	2	case	_	start_char=0|end_char=2|NER=O
+2	Shqipëri	Shqipëri	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	4	advmod	_	start_char=3|end_char=11|NER=B-VEND_1
+3	ata	ata	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	start_char=12|end_char=15|NER=O
+4	gjetën	gjej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	advcl	_	start_char=16|end_char=22|NER=O
+5	jo	jo	PART	_	_	7	mark	_	start_char=23|end_char=25|NER=O
+6	vetëm	vetëm	PART	_	_	7	mark	_	start_char=26|end_char=31|NER=O
+7	bukuritë	bukuri	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	start_char=32|end_char=40|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	9	det:poss	_	start_char=41|end_char=42|NER=O
+9	natyrës	natyrë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	start_char=43|end_char=50|SpaceAfter=No|NER=O
+10	,	,	PUNCT	_	_	11	punct	_	start_char=51|end_char=52|NER=O
+11	por	por	CCONJ	_	_	13	cc	_	start_char=53|end_char=56|NER=O
+12	edhe	edhe	CCONJ	_	_	13	cc	_	start_char=57|end_char=61|NER=O
+13	mikpritjen	mikpritje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	start_char=62|end_char=72|NER=O
+14	tradicionale	tradicional	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=73|end_char=85|NER=O
+15	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	16	det:poss	_	start_char=86|end_char=88|NER=O
+16	shqiptarëve	shqiptarëv	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	start_char=89|end_char=100|SpaceAfter=No|NER=O
+17	"	"	PUNCT	_	_	13	punct	_	start_char=101|end_char=102|SpaceAfter=No|NER=O
+18	,	,	PUNCT	_	_	11	punct	_	start_char=103|end_char=104|NER=O
+19	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=105|end_char=112|NER=O
+20	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	start_char=113|end_char=118|SpaceAfter=No|NER=B-PER
+21	.	.	PUNCT	_	_	18	punct	_	start_char=119|end_char=120|SpacesAfter=\n|NER=O
+
+# text = Gjithashtu , nënvizoi ai , " vijuam angazhimin tonë për anëtarësimin në Bashkimin Evropian " .
+# sent_id = 11
+1	Gjithashtu	Gjithashtu	ADV	_	AdvType=Man	3	advmod	_	start_char=0|end_char=10|SpaceAfter=No|NER=O
+2	,	,	PUNCT	_	_	1	punct	_	start_char=11|end_char=12|NER=O
+3	nënvizoi	nënvizoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	advmod	_	start_char=13|end_char=21|NER=O
+4	ai	ai	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=22|end_char=24|SpaceAfter=No|NER=O
+5	,	,	PUNCT	_	_	3	punct	_	start_char=25|end_char=26|NER=O
+6	"	"	PUNCT	_	_	0	punct	_	start_char=27|end_char=28|NER=O
+7	vijuam	vijoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=29|end_char=35|NER=O
+8	angazhimin	angazhim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	start_char=36|end_char=46|NER=O
+9	tonë	jonë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	amod	_	start_char=47|end_char=51|NER=O
+10	për	për	ADP	_	Case=Acc	10	case	_	start_char=52|end_char=55|NER=O
+11	anëtarësimin	anëtarësim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=56|end_char=68|NER=O
+12	në	në	ADP	_	Case=Acc	12	case	_	start_char=69|end_char=71|NER=O
+13	Bashkimin	bashkim	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	advmod	_	start_char=72|end_char=81|NER=B-ORG
+14	Evropian	Evropianë	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	flat	_	start_char=82|end_char=90|SpaceAfter=No|NER=I-ORG
+15	"	"	PUNCT	_	_	12	punct	_	start_char=91|end_char=92|SpaceAfter=No|NER=O
+16	.	.	PUNCT	_	_	6	punct	_	start_char=93|end_char=94|SpacesAfter=\n|NER=O
+
+# text = " Për këto dy aspekte themelore të drejtësisë , asaj juridike dhe sociale , i bëj thirrje të gjitha forcave politike , që pavarësisht dallimeve , t ' i japin përparësi interesave të qytetarëve shqiptarë " , theksoi Begaj .
+# sent_id = 12
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Për	për	ADP	_	Case=Acc	5	case	_	start_char=2|end_char=5|NER=O
+3	këto	këto	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=6|end_char=10|NER=O
+4	dy	dy	NUM	_	NumType=Card	5	nummod	_	start_char=11|end_char=13|NER=O
+5	aspekte	aspekt	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	16	advmod	_	start_char=14|end_char=21|NER=O
+6	themelore	themelor	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=22|end_char=31|NER=O
+7	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	8	det:poss	_	start_char=32|end_char=34|NER=O
+8	drejtësisë	drejtësi	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	start_char=35|end_char=45|SpaceAfter=No|NER=O
+9	,	,	PUNCT	_	_	10	punct	_	start_char=46|end_char=47|NER=O
+10	asaj	ajo	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	16	nsubj	_	start_char=48|end_char=52|NER=O
+11	juridike	juridik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=53|end_char=61|NER=O
+12	dhe	dhe	CCONJ	_	_	13	cc	_	start_char=62|end_char=65|NER=O
+13	sociale	social	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	start_char=66|end_char=73|SpaceAfter=No|NER=O
+14	,	,	PUNCT	_	_	16	punct	_	start_char=74|end_char=75|NER=O
+15	i	i	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	start_char=76|end_char=77|NER=O
+16	bëj	bëj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=78|end_char=81|NER=O
+17	thirrje	thirrje	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	start_char=82|end_char=89|NER=O
+18	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	20	det:poss	_	start_char=90|end_char=92|NER=O
+19	gjitha	gjithë	PRON	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	20	nummod	_	start_char=93|end_char=99|NER=O
+20	forcave	forcë	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	start_char=100|end_char=107|NER=O
+21	politike	politik	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=108|end_char=116|SpaceAfter=No|NER=O
+22	,	,	PUNCT	_	_	23	punct	_	start_char=117|end_char=118|NER=O
+23	që	që	PRON	_	PronType=Rel	28	nsubj	_	start_char=119|end_char=121|NER=O
+24	pavarësisht	pavarësisht	ADV	_	AdvType=Man	28	advmod	_	start_char=122|end_char=133|NER=O
+25	dallimeve	dallim	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	28	advmod	_	start_char=134|end_char=143|SpaceAfter=No|NER=O
+26	,	,	PUNCT	_	_	23	punct	_	start_char=144|end_char=145|NER=O
+27	t	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	28	nsubj	_	start_char=146|end_char=147|NER=O
+28	'	'	PUNCT	_	_	28	punct	_	start_char=148|end_char=149|NER=O
+29	i	t'i	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	28	nsubj	_	start_char=150|end_char=151|NER=O
+30	japin	jam	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	start_char=152|end_char=157|NER=O
+31	përparësi	përparës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	28	cop	_	start_char=158|end_char=167|NER=O
+32	interesave	interesë	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	start_char=168|end_char=178|NER=O
+33	të	të	DET	_	Case=Abl|Gender=Fem|Number=Plur|PronType=Art	32	det:poss	_	start_char=179|end_char=181|NER=O
+34	qytetarëve	qytetar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	30	nmod	_	start_char=182|end_char=192|NER=O
+35	shqiptarë	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	32	nmod	_	start_char=193|end_char=202|SpaceAfter=No|NER=O
+36	"	"	PUNCT	_	_	32	punct	_	start_char=203|end_char=204|SpaceAfter=No|NER=O
+37	,	,	PUNCT	_	_	35	punct	_	start_char=205|end_char=206|NER=O
+38	theksoi	theksoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	conj	_	start_char=207|end_char=214|NER=O
+39	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=215|end_char=220|SpaceAfter=No|NER=B-PER
+40	.	.	PUNCT	_	_	28	punct	_	start_char=221|end_char=222|SpacesAfter=\n|NER=O
+
+# text = " Të gjithë së bashku duhet të punojmë për të krijuar mundësi të reja , tërheqëse , që të rinjtë të duan ta ndërtojnë jetën e tyre këtu , në atdhe " , u shpreh Begaj .
+# sent_id = 13
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	3	det	_	start_char=2|end_char=4|NER=O
+3	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=5|end_char=11|NER=O
+4	së	së	PART	_	_	5	det	_	start_char=12|end_char=14|NER=O
+5	bashku	bashku	ADV	_	AdvType=Man	8	advmod	_	start_char=15|end_char=21|NER=O
+6	duhet	duhem	AUX	_	_	8	aux	_	start_char=22|end_char=27|NER=O
+7	të	të	PART	_	_	8	fixed	_	start_char=28|end_char=30|NER=O
+8	punojmë	punoj	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=31|end_char=38|NER=O
+9	për	për	PART	_	_	11	fixed	_	start_char=39|end_char=42|NER=O
+10	të	të	PART	_	_	11	fixed	_	start_char=43|end_char=45|NER=O
+11	krijuar	krijoj	VERB	_	VerbForm=Part	8	advmod	_	start_char=46|end_char=53|NER=O
+12	mundësi	mundësi	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	start_char=54|end_char=61|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	14	det	_	start_char=62|end_char=64|NER=O
+14	reja	re	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=65|end_char=69|SpaceAfter=No|NER=O
+15	,	,	PUNCT	_	_	16	punct	_	start_char=70|end_char=71|NER=O
+16	tërheqëse	tërheqës	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=72|end_char=81|SpaceAfter=No|NER=O
+17	,	,	PUNCT	_	_	18	punct	_	start_char=82|end_char=83|NER=O
+18	që	që	SCONJ	_	_	22	mark	_	start_char=84|end_char=86|NER=O
+19	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	20	det	_	start_char=87|end_char=89|NER=O
+20	rinjtë	rinjtë	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	22	nsubj	_	start_char=90|end_char=96|NER=O
+21	të	të	PART	_	_	22	fixed	_	start_char=97|end_char=99|NER=O
+22	duan	dua	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	advcl	_	start_char=100|end_char=104|NER=O
+23	ta	_	_	_	_	_	_	_	start_char=105|end_char=107|NER=O
+24	ndërtojnë	ndërtoj	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	advcl	_	start_char=108|end_char=117|NER=O
+25	jetën	jetë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	start_char=118|end_char=123|NER=O
+26	e	e	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	28	det:poss	_	start_char=124|end_char=125|NER=O
+27	tyre	tyre	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	amod:poss	_	start_char=126|end_char=130|NER=O
+28	këtu	këtu	ADV	_	AdvType=Loc	26	amod	_	start_char=131|end_char=135|SpaceAfter=No|NER=O
+29	,	,	PUNCT	_	_	32	punct	_	start_char=136|end_char=137|NER=O
+30	në	në	ADP	_	Case=Acc	32	case	_	start_char=138|end_char=140|NER=O
+31	atdhe	atdhe	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	35	advmod	_	start_char=141|end_char=146|SpaceAfter=No|NER=O
+32	"	"	PUNCT	_	_	35	punct	_	start_char=147|end_char=148|SpaceAfter=No|NER=O
+33	,	,	PUNCT	_	_	32	punct	_	start_char=149|end_char=150|NER=O
+34	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	fixed	_	start_char=151|end_char=152|NER=O
+35	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	25	conj	_	start_char=153|end_char=159|NER=O
+36	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	obj	_	start_char=160|end_char=165|SpaceAfter=No|NER=B-PER
+37	.	.	PUNCT	_	_	35	punct	_	start_char=166|end_char=167|SpacesAfter=\n|NER=O
+
+# text = " Dua tu uroj të gjithë shqiptarëve brenda dhe jashtë vendit , vëllezërve dhe motrave në Kosovë e në rajon një vit të ri të mbarë , të paqtë dhe të begatë " , tha Presidenti Begaj .
+# sent_id = 14
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Dua	Dua	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2|end_char=5|NER=O
+3	tu	_	_	_	_	_	_	_	start_char=6|end_char=8|NER=O
+4	uroj	uroj	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=9|end_char=13|NER=O
+5	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	7	det:poss	_	start_char=14|end_char=16|NER=O
+6	gjithë	gjithë	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	nummod	_	start_char=17|end_char=23|NER=O
+7	shqiptarëve	shqiptar	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	obj	_	start_char=24|end_char=35|NER=O
+8	brenda	brenda	ADP	_	Case=Abl	11	case	_	start_char=36|end_char=42|NER=O
+9	dhe	dhe	CCONJ	_	_	11	cc	_	start_char=43|end_char=46|NER=O
+10	jashtë	jashtë	ADP	_	Case=Abl	11	case	_	start_char=47|end_char=53|NER=O
+11	vendit	vend	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	start_char=54|end_char=60|SpaceAfter=No|NER=O
+12	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62|NER=O
+13	vëllezërve	vëlla	NOUN	_	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	11	appos	_	start_char=63|end_char=73|NER=O
+14	dhe	dhe	CCONJ	_	_	15	cc	_	start_char=74|end_char=77|NER=O
+15	motrave	motra	NOUN	_	Case=Abl|Definite=Def|Gender=Fem|Number=Plur	13	conj	_	start_char=78|end_char=85|NER=O
+16	në	në	ADP	_	Case=Acc	17	case	_	start_char=86|end_char=88|NER=O
+17	Kosovë	Kosovë	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	start_char=89|end_char=95|NER=B-VEND_1
+18	e	e	CCONJ	_	_	20	cc	_	start_char=96|end_char=97|NER=O
+19	në	në	ADP	_	Case=Acc	20	case	_	start_char=98|end_char=100|NER=O
+20	rajon	rajo	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	start_char=101|end_char=106|NER=O
+21	një	një	DET	_	Definite=Ind	22	det	_	start_char=107|end_char=110|NER=O
+22	vit	vit	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	start_char=111|end_char=114|NER=O
+23	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=115|end_char=117|NER=O
+24	ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=118|end_char=120|NER=O
+25	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	26	det	_	start_char=121|end_char=123|NER=O
+26	mbarë	mbarë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=124|end_char=129|SpaceAfter=No|NER=O
+27	,	,	PUNCT	_	_	29	punct	_	start_char=130|end_char=131|NER=O
+28	të	të	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=132|end_char=134|NER=O
+29	paqtë	paqtë	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	conj	_	start_char=135|end_char=140|NER=O
+30	dhe	dhe	CCONJ	_	_	32	cc	_	start_char=141|end_char=144|NER=O
+31	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=145|end_char=147|NER=O
+32	begatë	begatë	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	29	conj	_	start_char=148|end_char=154|SpaceAfter=No|NER=O
+33	"	"	PUNCT	_	_	29	punct	_	start_char=155|end_char=156|SpaceAfter=No|NER=O
+34	,	,	PUNCT	_	_	34	punct	_	start_char=157|end_char=158|NER=O
+35	tha	them	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	acl:relcl	_	start_char=159|end_char=162|NER=O
+36	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	nsubj	_	start_char=163|end_char=173|NER=O
+37	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	35	flat	_	start_char=174|end_char=179|SpaceAfter=No|NER=B-PER
+38	.	.	PUNCT	_	_	34	punct	_	start_char=180|end_char=181|SpacesAfter=\n|NER=O
+
+# text = " Dua t ' ju them se secili prej jush e të gjithë ne bashkë , jemi Shqipëria .
+# sent_id = 15
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Dua	duaj	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	15	advcl	_	start_char=2|end_char=5|NER=O
+3	t	t'ju	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	obj	_	start_char=6|end_char=7|NER=O
+4	'	'	PUNCT	_	_	2	punct	_	start_char=8|end_char=9|NER=O
+5	ju	t'ju	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	2	obj	_	start_char=10|end_char=12|NER=O
+6	them	them	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=13|end_char=17|NER=O
+7	se	se	SCONJ	_	_	15	mark	_	start_char=18|end_char=20|NER=O
+8	secili	secili	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	start_char=21|end_char=27|NER=O
+9	prej	prej	ADP	_	Case=Abl	8	case	_	start_char=28|end_char=32|NER=O
+10	jush	jush	PRON	_	PronType=Prs	4	obl	_	start_char=33|end_char=37|NER=O
+11	e	e	CCONJ	_	_	12	cc	_	start_char=38|end_char=39|NER=O
+12	të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	11	det	_	start_char=40|end_char=42|NER=O
+13	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=43|end_char=49|NER=O
+14	ne	ne	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	conj	_	start_char=50|end_char=52|NER=O
+15	bashkë	bashkë	ADV	_	AdvType=Man	15	advmod	_	start_char=53|end_char=59|SpaceAfter=No|NER=O
+16	,	,	PUNCT	_	_	15	punct	_	start_char=60|end_char=61|NER=O
+17	jemi	jam	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	start_char=62|end_char=66|NER=O
+18	Shqipëria	Shqipëri	PROPN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	start_char=67|end_char=76|SpaceAfter=No|NER=B-VEND_1
+19	.	.	PUNCT	_	_	15	punct	_	start_char=77|end_char=78|NER=O
+
+# text = Të gjithë bashkë japim kontributin në ndërtimin e një të ardhme më të mire e më të qëndrueshme .
+# sent_id = 16
+1	Të	të	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Art	2	det	_	start_char=0|end_char=2|NER=O
+2	gjithë	gjithë	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=3|end_char=9|NER=O
+3	bashkë	bashkë	ADV	_	AdvType=Tim	4	advmod	_	start_char=10|end_char=16|NER=O
+4	japim	jap	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=17|end_char=22|NER=O
+5	kontributin	kontribut	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	start_char=23|end_char=34|NER=O
+6	në	në	ADP	_	Case=Acc	7	case	_	start_char=35|end_char=37|NER=O
+7	ndërtimin	ndërtim	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	start_char=38|end_char=47|NER=O
+8	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	11	det:poss	_	start_char=48|end_char=49|NER=O
+9	një	një	DET	_	Definite=Ind	11	det	_	start_char=50|end_char=53|NER=O
+10	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=54|end_char=56|NER=O
+11	ardhme	ardhme	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	start_char=57|end_char=63|NER=O
+12	më	më	PART	_	_	14	mark	_	start_char=64|end_char=66|NER=O
+13	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=67|end_char=69|NER=O
+14	mire	mire	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=70|end_char=74|NER=O
+15	e	e	CCONJ	_	_	18	cc	_	start_char=75|end_char=76|NER=O
+16	më	më	PART	_	_	18	mark	_	start_char=77|end_char=79|NER=O
+17	të	të	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=80|end_char=82|NER=O
+18	qëndrueshme	qëndrueshëm	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	start_char=83|end_char=94|SpaceAfter=No|NER=O
+19	.	.	PUNCT	_	_	4	punct	_	start_char=95|end_char=96|NER=O
+
+# text = Këtë prag viti të ri , le ta shohim bashkërisht të ardhmen me besim te vetja dhe te vendi .
+# sent_id = 17
+1	Këtë	këtë	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4|NER=O
+2	prag	prag	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=5|end_char=9|NER=O
+3	viti	vit	NOUN	_	Case=Abl|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	start_char=10|end_char=14|NER=O
+4	të	të	DET	_	Case=Abl|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=17|NER=O
+5	ri	ri	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=18|end_char=20|SpaceAfter=No|NER=O
+6	,	,	PUNCT	_	_	7	punct	_	start_char=21|end_char=22|NER=O
+7	le	le	PART	_	_	10	mark	_	start_char=23|end_char=25|NER=O
+8	ta	_	_	_	_	_	_	_	start_char=26|end_char=28|NER=O
+9	shohim	shoh	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=29|end_char=35|NER=O
+10	bashkërisht	bashkërisht	ADV	_	AdvType=Man	10	advmod	_	start_char=36|end_char=47|NER=O
+11	të	të	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Art	13	det	_	start_char=48|end_char=50|NER=O
+12	ardhmen	ardhme	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	start_char=51|end_char=58|NER=O
+13	me	me	ADP	_	Case=Acc	15	case	_	start_char=59|end_char=61|NER=O
+14	besim	besim	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advmod	_	start_char=62|end_char=67|NER=O
+15	te	te	ADP	_	Case=Nom	17	case	_	start_char=68|end_char=70|NER=O
+16	vetja	vetjë	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	start_char=71|end_char=76|NER=O
+17	dhe	dhe	CCONJ	_	_	20	cc	_	start_char=77|end_char=80|NER=O
+18	te	te	ADP	_	Case=Nom	20	case	_	start_char=81|end_char=83|NER=O
+19	vendi	vend	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	start_char=84|end_char=89|SpaceAfter=No|NER=O
+20	.	.	PUNCT	_	_	10	punct	_	start_char=90|end_char=91|NER=O
+
+# text = Vetëm kështu do të dimë të hapim horizonte shprese " , u shpreh Begaj .
+# sent_id = 18
+1	Vetëm	vetëm	ADV	_	AdvType=Man	12	cc	_	start_char=0|end_char=5|NER=O
+2	kështu	kështu	ADV	_	AdvType=Man	5	mark	_	start_char=6|end_char=12|NER=O
+3	do	do	PART	_	_	5	fixed	_	start_char=13|end_char=15|NER=O
+4	të	të	PART	_	_	5	fixed	_	start_char=16|end_char=18|NER=O
+5	dimë	di	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	start_char=19|end_char=23|NER=O
+6	të	të	PART	_	_	7	fixed	_	start_char=24|end_char=26|NER=O
+7	hapim	hap	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	ccomp	_	start_char=27|end_char=32|NER=O
+8	horizonte	horizont	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	start_char=33|end_char=42|NER=O
+9	shprese	shprese	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	start_char=43|end_char=50|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	8	punct	_	start_char=51|end_char=52|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	12	punct	_	start_char=53|end_char=54|NER=O
+12	u	u	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	fixed	_	start_char=55|end_char=56|NER=O
+13	shpreh	shpreh	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	conj	_	start_char=57|end_char=63|NER=O
+14	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	start_char=64|end_char=69|SpaceAfter=No|NER=B-PER
+15	.	.	PUNCT	_	_	12	punct	_	start_char=70|end_char=71|SpacesAfter=\n|NER=O
+
+# text = " Gëzuar Vitin e Ri 2024 , shëndet e mbarësi në familjet tuaja !
+# sent_id = 19
+1	"	"	PUNCT	_	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No|NER=O
+2	Gëzuar	Gëzoj	VERB	_	VerbForm=Part	0	root	_	start_char=2|end_char=8|NER=O
+3	Vitin	Vit	PROPN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	start_char=9|end_char=14|NER=O
+4	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=16|NER=O
+5	Ri	ri	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=17|end_char=19|NER=O
+6	2024	2024	NUM	_	NumType=Card	3	flat	_	start_char=20|end_char=24|SpaceAfter=No|NER=O
+7	,	,	PUNCT	_	_	8	punct	_	start_char=25|end_char=26|NER=O
+8	shëndet	shënd	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	list	_	start_char=27|end_char=34|NER=O
+9	e	e	CCONJ	_	_	10	cc	_	start_char=35|end_char=36|NER=O
+10	mbarësi	mbarës	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	start_char=37|end_char=44|NER=O
+11	në	në	ADP	_	Case=Acc	12	case	_	start_char=45|end_char=47|NER=O
+12	familjet	familje	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	start_char=48|end_char=56|NER=O
+13	tuaja	tuajë	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	flat	_	start_char=57|end_char=62|SpaceAfter=No|NER=O
+14	!	!	PUNCT	_	_	8	punct	_	start_char=63|end_char=64|NER=O
+
+# text = Zoti e bekoftë Shqipërinë dhe shqiptarët kudo që ndodhen " , përfundoi mesazhin e tij Presidenti i Republikës , Bajram Begaj .
+# sent_id = 20
+1	Zoti	zot	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=0|end_char=4|NER=O
+2	e	e	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=5|end_char=6|NER=O
+3	bekoftë	bekoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	start_char=7|end_char=14|NER=O
+4	Shqipërinë	Shqipëri	PROPN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	start_char=15|end_char=25|NER=B-VEND_1
+5	dhe	dhe	CCONJ	_	_	6	cc	_	start_char=26|end_char=29|NER=O
+6	shqiptarët	shqiptar	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	conj	_	start_char=30|end_char=40|NER=O
+7	kudo	kudo	ADV	_	AdvType=Loc	6	amod	_	start_char=41|end_char=45|NER=O
+8	që	që	PRON	_	PronType=Rel	9	nsubj	_	start_char=46|end_char=48|NER=O
+9	ndodhen	ndodhej	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Pass	6	acl:relcl	_	start_char=49|end_char=56|SpaceAfter=No|NER=O
+10	"	"	PUNCT	_	_	6	punct	_	start_char=57|end_char=58|SpaceAfter=No|NER=O
+11	,	,	PUNCT	_	_	11	punct	_	start_char=59|end_char=60|NER=O
+12	përfundoi	përfundoj	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	start_char=61|end_char=70|NER=O
+13	mesazhin	mesazh	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obj	_	start_char=71|end_char=79|NER=O
+14	e	e	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	14	det:poss	_	start_char=80|end_char=81|NER=O
+15	tij	tij	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	amod:poss	_	start_char=82|end_char=85|NER=O
+16	Presidenti	president	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	appos	_	start_char=86|end_char=96|NER=O
+17	i	i	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	17	det:poss	_	start_char=97|end_char=98|NER=O
+18	Republikës	republikë	PROPN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	compound	_	start_char=99|end_char=109|SpaceAfter=No|NER=O
+19	,	,	PUNCT	_	_	19	punct	_	start_char=110|end_char=111|NER=O
+20	Bajram	Bajram	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	list	_	start_char=112|end_char=118|NER=B-PER
+21	Begaj	Begaj	PROPN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	flat	_	start_char=119|end_char=124|SpaceAfter=No|NER=I-PER
+22	.	.	PUNCT	_	_	11	punct	_	start_char=125|end_char=126|SpacesAfter=\n\n\n|NER=O
+
